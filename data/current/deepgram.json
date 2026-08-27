@@ -1,0 +1,708 @@
+{
+  "slug": "deepgram",
+  "name": "Deepgram",
+  "vendor": "Deepgram",
+  "category": "ai-media",
+  "url": "https://deepgram.com/pricing",
+  "final_url": "https://deepgram.com/pricing",
+  "content_hash": "fc81ac5402b7a51d19f095e358a8907b0b066186122cf6ed47b19e071e720250",
+  "raw_hash": "164425fc5e772986d981f4c23da58ea436663b387336486bfe85148157a52d89",
+  "text_bytes": 14104,
+  "extractor": "jsonld",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Deepgram Voice AI Platform Pricing - Streaming - Flux English - Pay As You Go",
+      "price_raw": "0.0065",
+      "amount": 0.0065,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Deepgram Voice AI Platform Pricing - Streaming - Flux English - Growth",
+      "price_raw": "0.0057",
+      "amount": 0.0057,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Deepgram Voice AI Platform Pricing - Streaming - Flux Multilingual - Pay As You ",
+      "price_raw": "0.0078",
+      "amount": 0.0078,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Deepgram Voice AI Platform Pricing - Streaming - Flux Multilingual - Growth",
+      "price_raw": "0.0068",
+      "amount": 0.0068,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Deepgram Voice AI Platform Pricing - Streaming - Nova-3 Monolingual - Pay As You",
+      "price_raw": "0.0048",
+      "amount": 0.0048,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Deepgram Voice AI Platform Pricing - Streaming - Nova-3 Monolingual - Growth",
+      "price_raw": "0.0042",
+      "amount": 0.0042,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Deepgram Voice AI Platform Pricing - Streaming - Nova-3 Multilingual - Pay As Yo",
+      "price_raw": "0.0058",
+      "amount": 0.0058,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Deepgram Voice AI Platform Pricing - Streaming - Nova-3 Multilingual - Growth",
+      "price_raw": "0.0050",
+      "amount": 0.005,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Deepgram Voice AI Platform Pricing - Pre-Recorded - Nova-3 Monolingual - Pay As ",
+      "price_raw": "0.0043",
+      "amount": 0.0043,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Deepgram Voice AI Platform Pricing - Pre-Recorded - Nova-3 Monolingual - Growth",
+      "price_raw": "0.0036",
+      "amount": 0.0036,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Deepgram Voice AI Platform Pricing - Pre-Recorded - Nova-3 Multilingual - Pay As",
+      "price_raw": "0.0052",
+      "amount": 0.0052,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Deepgram Voice AI Platform Pricing - Pre-Recorded - Nova-3 Multilingual - Growth",
+      "price_raw": "0.0043",
+      "amount": 0.0043,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Deepgram Voice AI Platform Pricing - Pre-Recorded - Whisper Large - Pay As You G",
+      "price_raw": "0.0048",
+      "amount": 0.0048,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Deepgram Voice AI Platform Pricing - Pre-Recorded - Whisper Large - Growth",
+      "price_raw": "0.0048",
+      "amount": 0.0048,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Deepgram Voice AI Platform Pricing - Streaming - Redaction - Pay As You Go",
+      "price_raw": "0.0020",
+      "amount": 0.002,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Deepgram Voice AI Platform Pricing - Streaming - Redaction - Growth",
+      "price_raw": "0.0017",
+      "amount": 0.0017,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Deepgram Voice AI Platform Pricing - Streaming - Keyterm Prompting - Pay As You ",
+      "price_raw": "0.0013",
+      "amount": 0.0013,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Deepgram Voice AI Platform Pricing - Streaming - Keyterm Prompting - Growth",
+      "price_raw": "0.0012",
+      "amount": 0.0012,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Deepgram Voice AI Platform Pricing - Streaming - Entity Detection - Pay As You G",
+      "price_raw": "0.0017",
+      "amount": 0.0017,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Deepgram Voice AI Platform Pricing - Streaming - Entity Detection - Growth",
+      "price_raw": "0.0017",
+      "amount": 0.0017,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Deepgram Voice AI Platform Pricing - Streaming - Speaker Diarization - Pay As Yo",
+      "price_raw": "0.0020",
+      "amount": 0.002,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Deepgram Voice AI Platform Pricing - Streaming - Speaker Diarization - Growth",
+      "price_raw": "0.0017",
+      "amount": 0.0017,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Deepgram Voice AI Platform Pricing - Pre-Recorded - Redaction - Pay As You Go",
+      "price_raw": "0.0020",
+      "amount": 0.002,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Deepgram Voice AI Platform Pricing - Pre-Recorded - Redaction - Growth",
+      "price_raw": "0.0017",
+      "amount": 0.0017,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Deepgram Voice AI Platform Pricing - Pre-Recorded - Keyterm Prompting - Pay As Y",
+      "price_raw": "0.0013",
+      "amount": 0.0013,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Deepgram Voice AI Platform Pricing - Pre-Recorded - Keyterm Prompting - Growth",
+      "price_raw": "0.0012",
+      "amount": 0.0012,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Deepgram Voice AI Platform Pricing - Pre-Recorded - Entity Detection - Pay As Yo",
+      "price_raw": "0.0017",
+      "amount": 0.0017,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Deepgram Voice AI Platform Pricing - Pre-Recorded - Entity Detection - Growth",
+      "price_raw": "0.0017",
+      "amount": 0.0017,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Deepgram Voice AI Platform Pricing - Flux TTS - Pay As You Go",
+      "price_raw": "0.0450",
+      "amount": 0.045,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Deepgram Voice AI Platform Pricing - Flux TTS - Growth",
+      "price_raw": "0.0405",
+      "amount": 0.0405,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Deepgram Voice AI Platform Pricing - Aura-2 - Pay As You Go",
+      "price_raw": "0.030",
+      "amount": 0.03,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Deepgram Voice AI Platform Pricing - Aura-2 - Growth",
+      "price_raw": "0.027",
+      "amount": 0.027,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Deepgram Voice AI Platform Pricing - Aura-1 - Pay As You Go",
+      "price_raw": "0.0150",
+      "amount": 0.015,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Deepgram Voice AI Platform Pricing - Aura-1 - Growth",
+      "price_raw": "0.0135",
+      "amount": 0.0135,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Deepgram Voice AI Platform Pricing - Standard - Pay As You Go",
+      "price_raw": "0.056",
+      "amount": 0.056,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Deepgram Voice AI Platform Pricing - Standard - Growth",
+      "price_raw": "0.051",
+      "amount": 0.051,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Deepgram Voice AI Platform Pricing - Standard - BYO TTS - Pay As You Go",
+      "price_raw": "0.065",
+      "amount": 0.065,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Deepgram Voice AI Platform Pricing - Standard - BYO TTS - Growth",
+      "price_raw": "0.051",
+      "amount": 0.051,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Deepgram Voice AI Platform Pricing - Custom - BYO LLM - Pay As You Go",
+      "price_raw": "0.050",
+      "amount": 0.05,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Deepgram Voice AI Platform Pricing - Custom - BYO LLM - Growth",
+      "price_raw": "0.041",
+      "amount": 0.041,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Deepgram Voice AI Platform Pricing - Custom - BYO LLM + TTS - Pay As You Go",
+      "price_raw": "0.050",
+      "amount": 0.05,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Deepgram Voice AI Platform Pricing - Custom - BYO LLM + TTS - Growth",
+      "price_raw": "0.041",
+      "amount": 0.041,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Deepgram Voice AI Platform Pricing - Advanced - Pay As You Go",
+      "price_raw": "0.122",
+      "amount": 0.122,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Deepgram Voice AI Platform Pricing - Advanced - Growth",
+      "price_raw": "0.110",
+      "amount": 0.11,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Deepgram Voice AI Platform Pricing - Advanced - BYO TTS - Pay As You Go",
+      "price_raw": "0.122",
+      "amount": 0.122,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Deepgram Voice AI Platform Pricing - Advanced - BYO TTS - Growth",
+      "price_raw": "0.110",
+      "amount": 0.11,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Deepgram Voice AI Platform Pricing - Summarization - Pay As You Go",
+      "price_raw": "0.0003",
+      "amount": 0.0003,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Deepgram Voice AI Platform Pricing - Summarization - Growth",
+      "price_raw": "0.00024",
+      "amount": 0.00024,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Deepgram Voice AI Platform Pricing - Topic Detection - Pay As You Go",
+      "price_raw": "0.0003",
+      "amount": 0.0003,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Deepgram Voice AI Platform Pricing - Topic Detection - Growth",
+      "price_raw": "0.00024",
+      "amount": 0.00024,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Deepgram Voice AI Platform Pricing - Sentiment Analysis - Pay As You Go",
+      "price_raw": "0.0003",
+      "amount": 0.0003,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Deepgram Voice AI Platform Pricing - Sentiment Analysis - Growth",
+      "price_raw": "0.00024",
+      "amount": 0.00024,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Deepgram Voice AI Platform Pricing - Intent Recognition - Pay As You Go",
+      "price_raw": "0.0003",
+      "amount": 0.0003,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Deepgram Voice AI Platform Pricing - Intent Recognition - Growth",
+      "price_raw": "0.00024",
+      "amount": 0.00024,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    }
+  ],
+  "tables": [
+    {
+      "caption": "Streaming pricing",
+      "rows": [
+        [
+          "Model",
+          "Pay As You Go",
+          "Growth"
+        ],
+        [
+          "Flux English i Conversational speech recognition for real-time voice agents with built-in turn detection, natural interruption handling, and ultra-low latency.",
+          "Current price $0.0065/min Regular price $0.0077/min",
+          "Current price $0.0057/min Regular price $0.0065/min"
+        ],
+        [
+          "Flux Multilingual i Conversational speech recognition for real-time voice agents that handle multiple languages within a single conversation, with built-in turn",
+          "$0.0078/min",
+          "$0.0068/min"
+        ],
+        [
+          "Nova-3 Monolingual i Our highest performing model. Recommended for most use cases, especially audio with multiple languages, background noise, crosstalk and far",
+          "Current price $0.0048/min Regular price $0.0077/min",
+          "Current price $0.0042/min Regular price $0.0065/min"
+        ],
+        [
+          "Nova-3 Multilingual i Our highest-accuracy multilingual model with automatic language detection. Recommended for audio with multiple languages, background noise",
+          "Current price $0.0058/min Regular price $0.0092/min",
+          "Current price $0.0050/min Regular price $0.0078/min"
+        ],
+        [
+          "Custom i Custom speech-to-text models trained on proprietary or novel datasets for maximum accuracy in edge-case scenarios.",
+          "Contact Sales",
+          "Contact Sales"
+        ]
+      ]
+    },
+    {
+      "caption": "Streaming pricing , single-column view of the table above",
+      "rows": [
+        [
+          "Model",
+          "Pay As You Go"
+        ],
+        [
+          "Flux English i Conversational speech recognition for real-time voice agents with built-in turn detection, natural interruption handling, and ultra-low latency.",
+          "Current price $0.0065/min Regular price $0.0077/min"
+        ],
+        [
+          "Flux Multilingual i Conversational speech recognition for real-time voice agents that handle multiple languages within a single conversation, with built-in turn",
+          "$0.0078/min"
+        ],
+        [
+          "Nova-3 Monolingual i Our highest performing model. Recommended for most use cases, especially audio with multiple languages, background noise, crosstalk and far",
+          "Current price $0.0048/min Regular price $0.0077/min"
+        ],
+        [
+          "Nova-3 Multilingual i Our highest-accuracy multilingual model with automatic language detection. Recommended for audio with multiple languages, background noise",
+          "Current price $0.0058/min Regular price $0.0092/min"
+        ],
+        [
+          "Custom i Custom speech-to-text models trained on proprietary or novel datasets for maximum accuracy in edge-case scenarios.",
+          "Contact Sales"
+        ]
+      ]
+    },
+    {
+      "caption": "Pre-Recorded pricing",
+      "rows": [
+        [
+          "Model",
+          "Pay As You Go",
+          "Growth"
+        ],
+        [
+          "Nova-3 Monolingual i Our highest performing model. Recommended for most use cases, especially audio with multiple languages, background noise, crosstalk and far",
+          "$0.0043/min",
+          "$0.0036/min"
+        ],
+        [
+          "Nova-3 Multilingual i Our highest performing model. Recommended for most use cases, especially audio with multiple languages, background noise, crosstalk and fa",
+          "$0.0052/min",
+          "$0.0043/min"
+        ],
+        [
+          "Whisper Large",
+          "$0.0048/min",
+          "$0.0048/min"
+        ],
+        [
+          "Custom",
+          "Contact Sales",
+          "Contact Sales"
+        ]
+      ]
+    },
+    {
+      "caption": "Pre-Recorded pricing , single-column view of the table above",
+      "rows": [
+        [
+          "Model",
+          "Pay As You Go"
+        ],
+        [
+          "Nova-3 Monolingual i Our highest performing model. Recommended for most use cases, especially audio with multiple languages, background noise, crosstalk and far",
+          "$0.0043/min"
+        ],
+        [
+          "Nova-3 Multilingual i Our highest performing model. Recommended for most use cases, especially audio with multiple languages, background noise, crosstalk and fa",
+          "$0.0052/min"
+        ],
+        [
+          "Whisper Large",
+          "$0.0048/min"
+        ],
+        [
+          "Custom",
+          "Contact Sales"
+        ]
+      ]
+    },
+    {
+      "caption": "Streaming pricing",
+      "rows": [
+        [
+          "Feature",
+          "Description",
+          "Pay As You Go",
+          "Growth"
+        ],
+        [
+          "Redaction",
+          "Automatically identify and remove sensitive PII such as social security numbers, credit cards, and phone numbers.",
+          "$0.0020/min",
+          "$0.0017/min"
+        ],
+        [
+          "Keyterm Prompting",
+          "Boost accuracy for specific domain-specific jargon, product names, or acronyms important to your use case.",
+          "$0.0013/min",
+          "$0.0012/min"
+        ],
+        [
+          "Smart Formatting",
+          "Automatically format punctuation, casing, dates, and currency for readability.",
+          "Included",
+          "Included"
+        ],
+        [
+          "Entity Detection",
+          "Identify and extract entities like person names, organizations, locations, and dates from your audio.",
+          "$0.0017/min",
+          "$0.0017/min"
+        ],
+        [
+          "Speaker Diarization",
+          "Detect multiple speakers and label who spoke when in the transcript.",
+          "$0.0020/min"
+        ]
+      ]
+    },
+    {
+      "caption": "Streaming pricing , single-column view of the table above",
+      "rows": [
+        [
+          "Feature",
+          "Description"
+        ],
+        [
+          "Redaction",
+          "Automatically identify and remove sensitive PII such as social security numbers, credit cards, and phone numbers."
+        ],
+        [
+          "Keyterm Prompting",
+          "Boost accuracy for specific domain-specific jargon, product names, or acronyms important to your use case."
+        ],
+        [
+          "Smart Formatting",
+          "Automatically format punctuation, casing, dates, and currency for readability."
+        ],
+        [
+          "Entity Detection",
+          "Identify and extract entities like person names, organizations, locations, and dates from your audio."
+        ],
+        [
+          "Speaker Diarization",
+          "Detect multiple speakers and label who spoke when in the transcript."
+        ]
+      ]
+    },
+    {
+      "caption": "Pre-Recorded pricing",
+      "rows": [
+        [
+          "Feature",
+          "Description",
+          "Pay As You Go",
+          "Growth"
+        ],
+        [
+          "Redaction",
+          "Automatically identify and remove sensitive PII such as social security numbers, credit cards, and phone numbers.",
+          "$0.0020/min",
+          "$0.0017/min"
+        ],
+        [
+          "Keyterm Prompting",
+          "Boost accuracy for specific domain-specific jargon, product names, or acronyms important to your use case.",
+          "$0.0013/min",
+          "$0.0012/min"
+        ],
+        [
+          "Smart Formatting",
+          "Automatically format punctuation, casing, dates, and currency for readability.",
+          "Included",
+          "Included"
+        ],
+        [
+          "Entity Detection",
+          "Identify and extract entities like person names, organizations, locations, and dates from your audio.",
+          "$0.0017/min",
+          "$0.0017/min"
+        ],
+        [
+          "Speaker Diarization",
+          "Detect multiple speakers and label who spoke when in the transcript.",
+          "Included",
+          "Included"
+        ]
+      ]
+    },
+    {
+      "caption": "Pre-Recorded pricing , single-column view of the table above",
+      "rows": [
+        [
+          "Feature",
+          "Description"
+        ],
+        [
+          "Redaction",
+          "Automatically identify and remove sensitive PII such as social security numbers, credit cards, and phone numbers."
+        ],
+        [
+          "Keyterm Prompting",
+          "Boost accuracy for specific domain-specific jargon, product names, or acronyms important to your use case."
+        ],
+        [
+          "Smart Formatting",
+          "Automatically format punctuation, casing, dates, and currency for readability."
+        ],
+        [
+          "Entity Detection",
+          "Identify and extract entities like person names, organizations, locations, and dates from your audio."
+        ],
+        [
+          "Speaker Diarization",
+          "Detect multiple speakers and label who spoke when in the transcript."
+        ]
+      ]
+    }
+  ],
+  "extract_errors": []
+}

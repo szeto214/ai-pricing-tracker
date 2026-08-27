@@ -1,0 +1,25 @@
+{
+  "slug": "groq",
+  "name": "Groq",
+  "vendor": "Groq",
+  "category": "ai-api",
+  "url": "https://groq.com/pricing",
+  "final_url": "https://groq.com/",
+  "content_hash": "632381c2dc076f662eef2daf20ae5ded41ffd6ecf8ffd08cdbe9fc494e084f31",
+  "raw_hash": "15d8e1ff41326ab578eedb0f78553f636f4969d0e950e0e471864ea5b0905015",
+  "text_bytes": 283,
+  "extractor": "dom",
+  "confidence": "low",
+  "plans": [
+    {
+      "name": "Groq Closes $350 million Series A, Building the ",
+      "price_raw": "$350",
+      "amount": 350.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    }
+  ],
+  "tables": [],
+  "extract_errors": []
+}

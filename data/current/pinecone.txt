@@ -1,0 +1,479 @@
+Pinecone Nexus is now generally available. More accurate, faster, lower cost, and trusted knowledge for agents
+-
+Read the announcement
+Dismiss
+Products
+Enterprise
+Customers
+Resources
+Pricing
+Contact
+Log in
+Start for free
+Pricing
+Start free, scale effortlessly
+Pinecone runs on fully managed infrastructure that scales with you. Start building today with product and support plans tailored to your needs.
+ALSO AVAILABLE ON YOUR CLOUD MARKETPLACE
+AWS
+GCP
+Microsoft
+Starter
+Builder
+Standard
+Enterprise
+Starter
+For trying out and for small applications.
+Start for Free
+Free
+View included usage
+Pinecone Database
+On-Demand
+Pinecone
+Inference
+Pinecone
+Assistant
+Dense, Sparse, and Full-Text Indexes
+Console Metrics
+Community Support via
+Discord
+Example Starter Plan workloads
+Builder
+NEW
+For solo developers and small teams.
+Get Started
+$20/month flat
+Everything in Starter
+Increased usage limits
+Choose your cloud and region
+Multiple projects and users
+Prometheus and Datadog monitoring
+Includes
+Free support
+Response SLAs available via
+Developer
+or
+Pro support
+add-on
+Standard
+POPULAR
+For production applications at any scale.
+Start Free Trial
+$50/month
+min. usage
+You'll be charged a minimum of $50/month. Once your usage exceeds this amount, you'll pay as you go.
+3 week trial includes $300 credits
+Everything in Builder
+Pay-as-you-go for Database On-Demand, Inference, and Assistant Usage
+Choose your cloud and region
+Dedicated Read Nodes (DRN)
+Import from object storage
+Backup and Restore
+RBAC
+SSO (SAML 2.0)
+HIPAA add-on
+Includes
+Free support
+Response SLAs available via
+Developer
+or
+Pro support
+add-on
+Enterprise
+For mission-critical production applications.
+Get Started
+Request Trial
+$500/month
+min. usage
+You'll be charged a minimum of $500/month. Once your usage exceeds this amount, you'll pay as you go.
+Everything in Standard
+99.95% Uptime SLA
+Bring Your Own Cloud (BYOC)
+Private Endpoints
+Customer Managed Encryption Keys
+Audit Logs
+Service Accounts
+SAML roles
+SCIM
+HIPAA Compliance
+Pro support
+included
+Starter
+For trying out and for small applications.
+Start for Free
+Free
+View included usage
+Pinecone Database
+On-Demand
+Pinecone
+Inference
+Pinecone
+Assistant
+Dense, Sparse, and Full-Text Indexes
+Console Metrics
+Community Support via
+Discord
+Example Starter Plan workloads
+Builder
+NEW
+For solo developers and small teams.
+Get Started
+$20/month flat
+Everything in Starter
+Increased usage limits
+Choose your cloud and region
+Multiple projects and users
+Prometheus and Datadog monitoring
+Includes
+Free support
+Response SLAs available via
+Developer
+or
+Pro support
+add-on
+Standard
+POPULAR
+For production applications at any scale.
+Start Free Trial
+$50/month
+min. usage
+You'll be charged a minimum of $50/month. Once your usage exceeds this amount, you'll pay as you go.
+3 week trial includes $300 credits
+Everything in Builder
+Pay-as-you-go for Database On-Demand, Inference, and Assistant Usage
+Choose your cloud and region
+Dedicated Read Nodes (DRN)
+Import from object storage
+Backup and Restore
+RBAC
+SSO (SAML 2.0)
+HIPAA add-on
+Includes
+Free support
+Response SLAs available via
+Developer
+or
+Pro support
+add-on
+Enterprise
+For mission-critical production applications.
+Get Started
+Request Trial
+$500/month
+min. usage
+You'll be charged a minimum of $500/month. Once your usage exceeds this amount, you'll pay as you go.
+Everything in Standard
+99.95% Uptime SLA
+Bring Your Own Cloud (BYOC)
+Private Endpoints
+Customer Managed Encryption Keys
+Audit Logs
+Service Accounts
+SAML roles
+SCIM
+HIPAA Compliance
+Pro support
+included
+Estimate your costs with our
+pricing calculator
+Compare Plans
+Bring your own cloud
+For organizations requiring the highest level of security and control
+Get Started
+Contact Us for Pricing
+Pinecone in your cloud account
+Zero-access operations – no SSH, VPN, or inbound access required
+Outbound-only operations with an auditable trail
+Pro support
+included
+Bring-your-own-cloud (BYOC)
+runs Pinecone in your cloud account and VPC. Pinecone does not need SSH, VPN, or inbound network access to operate the system. You can use public endpoints or private-only connectivity via AWS PrivateLink, GCP Private Service Connect, or Azure Private Link.
+What you can build on the Starter plan
+Recommendation engine
+Given an e-commerce site with:
+50K products
+10KB metadata per product
+Using 1024 dimensions embeddings
+Starter plan gives you:
+~ 44K recommendations per day
+~ 2K product updates per day
+Semantic search
+Given a knowledge base of:
+~ 30K documents
+20KB document size on average
+Using 1024 dimensions embeddings
+Starter plan gives you:
+~ 15k searches per day
+~ 660 document updates per day
+Forum answering bot (RAG)
+Given a user forum with:
+~ 10 categories
+5KB post size on average
+Using 1024 dimensions embeddings
+Starter plan gives you:
+~ 130K category-scoped chats per day
+~ 3K messages indexed per day
+Disclaimer:
+Examples are illustrative only, not quotes or binding offers. Database usage only; excludes Inference (embeddings/reranking) and Assistant usage, as well as initial data import. Subject to change.
+Explore products
+Usage-based pricing
+$50 monthly minimum that's applied to your usage. Anything over $50 is billed pay-as-you-go.
+Committed Use Contracts
+The larger your usage commitments, the greater your benefits—unlock bigger discounts and support.
+Contact Us
+Plan
+Starter
+Builder
+Standard
+Enterprise
+Database Features
+Cloud Availability
+AWS
+AWS, Azure, GCP
+AWS, Azure, GCP
+AWS, Azure, GCP
+Region Availability
+us-east-1
+All available regions
+All available regions
+All available regions
+Dedicated Read Nodes
+Index Types
+Dense, Sparse, and Full-Text
+Dense, Sparse, and Full-Text
+Dense, Sparse, and Full-Text
+Dense, Sparse, and Full-Text
+Indexes
+Up to 5
+10 per project
+20 per project
+200 per project
+Namespaces per Index
+100
+1,000
+100,000
+100,000
+Embedding Models
+All available models
+All available models
+All available models
+All available models
+Reranking Models
+bge-reranker-v2-m3 only
+bge-reranker-v2-m3 only
+All available models
+All available models
+Console Index Metrics
+Prometheus and Datadog Monitoring
+Uptime SLA
+99.95%
+Pricing Dimensions
+Database
+Storage
+Up to 2 GB
+Up to 10 GB
+Unlimited
+$0.33/GB/mo
+Unlimited
+$0.33/GB/mo
+Write Units
+Up to 2M/mo
+Up to 5M/mo
+Unlimited
+$4-$4.50 per million (varies by cloud and region)
+Unlimited
+$6-$6.75 per million (varies by cloud and region)
+Read Units
+Up to 1M/mo
+Up to 2M/mo
+Unlimited
+$16-$18 per million (varies by cloud and region)
+Unlimited
+$24-$27 per million (varies by cloud and region)
+Egress
+Up to 1GB/mo
+Up to 10GB/mo
+Unlimited
+$0.10/GB
+100GB/mo included
+Unlimited
+$0.10/GB
+100GB/mo included
+Import from object storage
+$0.25 per GB
+$0.25 per GB
+Backups
+$0.10/GB/mo
+$0.10/GB/mo
+Restore from backup
+$0.15 per GB
+$0.15 per GB
+Assistant
+Document Limit
+Unlimited
+Unlimited
+Unlimited
+Unlimited
+Storage
+1GB Storage included
+3GB Storage included
+Unlimited
+$3/GB/mo
+Unlimited
+$3/GB/mo
+Input Tokens
+500k/mo included
+Promo:
+1M/mo, try
+Pinecone Marketplace
+2M/mo included
+Unlimited
+$8 per million
+Unlimited
+$8 per million
+Output Tokens
+300k/mo included
+1M/mo included
+Unlimited
+$15 per million
+Unlimited
+$15 per million
+Context Processed Tokens
+500k/mo included
+2M/mo included
+Unlimited
+$5 per million
+Unlimited
+$5 per million
+Evaluation Processed Tokens
+Unlimited
+$8 per million
+Unlimited
+$8 per million
+Evaluation Output Tokens
+Unlimited
+$15 per million
+Unlimited
+$15 per million
+Ingestion Units
+1,000/mo included
+10k/mo included
+$0.0005/ingestion unit
+$0.001/ingestion unit for multi-modal
+400 tokens/~300 words per ingestion unit
+$0.0005/ingestion unit
+$0.001/ingestion unit for multi-modal
+400 tokens/~300 words per ingestion unit
+Region
+USA
+Any
+Any
+Any
+Inference - Embedding
+llama-text-embed-v2
+5M tokens/mo included
+10M tokens/mo included
+Unlimited
+$0.16/M tokens
+Unlimited
+$0.16/M tokens
+multilingual-e5-large
+5M tokens/mo included
+10M tokens/mo included
+Unlimited
+$0.08/M tokens
+Unlimited
+$0.08/M tokens
+pinecone-sparse-english-v0
+5M tokens/mo included
+10M tokens/mo included
+Unlimited
+$0.08/M tokens
+Unlimited
+$0.08/M tokens
+Inference - Reranking
+bge-reranker-v2-m3
+500 requests/mo included
+1,000 requests/mo included
+Unlimited
+$2/1k requests
+Unlimited
+$2/1k requests
+pinecone-rerank-v0
+Unlimited
+$2/1k requests
+Unlimited
+$2/1k requests
+cohere-rerank-v3.5
+Unlimited
+$2/1k requests
+Unlimited
+$2/1k requests
+Org Management
+Projects
+1
+5
+20
+100
+Users
+Up to 2
+Up to 5
+Unlimited
+Unlimited
+Admin API
+SSO (SAML 2.0)
+SAML roles
+SCIM
+Service Accounts
+Support
+Free support included
+View Details
+Free support included
+View Details
+Pro support included
+View Details
+Security and Compliance
+Encryption at rest and in transit
+RBAC
+Audit Logs
+Private Endpoints
+Customer Managed Encryption Keys
+SOC 2
+GDPR
+ISO 27001
+HIPAA
+$190/mo
+See docs for details
+Start building knowledgeable AI today
+Create your first index for free, then pay as you go when you're ready to scale.
+Start Building
+Get a Demo
+Products
+Vector Database
+Dedicated Read Nodes
+Assistant
+Documentation
+Pricing
+Security
+Integrations
+Resources
+Community Forum
+Learning Center
+Blog
+Customer Case Studies
+Status
+What is a Vector DB?
+What is RAG?
+Company
+About
+Partners
+Careers
+Newsroom
+Contact
+Legal
+Customer Terms
+Website Terms
+Privacy
+Cookies
+Cookie Preferences
+© Pinecone Systems, Inc. | San Francisco, CA
+Pinecone is a registered trademark of Pinecone Systems, Inc.

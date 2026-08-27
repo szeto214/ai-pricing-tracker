@@ -1,0 +1,551 @@
+New:
+Upstash Skills
+— teach your AI coding agent the Upstash SDKs
+Docs
+Pricing
+Customers
+Enterprise
+Blog
+Company
+4
+Login
+New:
+Upstash Skills
+— teach your AI coding agent the Upstash SDKs
+Docs
+Pricing
+Customers
+Enterprise
+Blog
+About
+Careers
+4
+Open-Source Program
+Contact Us
+Login
+Pricing
+Pay only for what you use with per-request pricing.
+Or choose a Fixed plan for consistent usage with a flat price.
+Redis
+Vector
+QStash
+Workflow
+Search
+Box
+Free
+$0
+-
+Perfect for prototypes and hobby projects.
+Data Size
+256 MB
+Monthly Bandwidth
+10 GB
+Monthly Commands
+500K
+Start Now
+Pay as You Go
+$0.2
+per 100K commands
+Flexible pricing for variable traffic.
+Data Size
+100 GB
+Monthly Bandwidth
+Unlimited
+Monthly Commands
+Unlimited
+Start Now
+Fixed 250MB
+Fixed 1GB
+Fixed 5GB
+Fixed 10GB
+Fixed 50GB
+Fixed 100GB
+Fixed 500GB
+$10
+/ month
+$
+5
+✕ read regions
+For consistent loads with predictable costs.
+Data Size
+250 MB
+Monthly Bandwidth
+50 GB
+Monthly Commands
+Unlimited
+Start Now
+Prod Pack
+Recommended for production use
++$200/month per database
+Uptime SLA
+Multi-Zone HA
+Encryption at Rest
+SOC-2
+Prometheus
+Datadog
++$200/month per database
+Enterprise
+For businesses with advanced needs.
+Learn More
+Everything in
+Prod Pack
+100K+ commands per second
+Unlimited bandwidth and database count
+Professional support with SLA
+Dedicated resources for isolation
+HIPAA Compliance
+Learn More
+Compare Plans
+Plans that scale to all sizes.
+1 Free DB
+Usage Based Pricing
+Fixed Pricing
+Fixed Pricing
+Free
+Free
+Pay as you go
+Fixed 250MB
+Fixed 1GB
+Fixed 5GB
+Fixed 10GB
+Fixed 50GB
+Fixed 100GB
+Fixed 500GB
+Enterprise
+-
+Pay as you go
+Free
+Pay as you go
+Fixed 250MB
+Fixed 1GB
+Fixed 5GB
+Fixed 10GB
+Fixed 50GB
+Fixed 100GB
+Fixed 500GB
+Enterprise
+$0.2
+/ 100K commands
+Fixed 250MB
+Fixed 1GB
+Fixed 5GB
+Fixed 10GB
+Fixed 50GB
+Fixed 100GB
+Fixed 500GB
+Free
+Pay as you go
+Fixed 250MB
+Fixed 1GB
+Fixed 5GB
+Fixed 10GB
+Fixed 50GB
+Fixed 100GB
+Fixed 500GB
+Enterprise
+$10
+/ month
+Enterprise
+Free
+Pay as you go
+Fixed 250MB
+Fixed 1GB
+Fixed 5GB
+Fixed 10GB
+Fixed 50GB
+Fixed 100GB
+Fixed 500GB
+Enterprise
+-
+Capacity
+Max commands per second
+10,000
+10,000
+10,000
+Custom
+Max request size
+10
+MB
+10
+MB
+10
+MB
+500
+MB
+Max record size
+100
+MB
+100
+MB
+100
+MB
+5
+GB
+Max data size
+256
+MB
+100
+GB
+250
+MB
+10
+TB
+Max monthly bandwidth
+10
+GB
+Unlimited
+50
+GB
+Unlimited
+Max index count
+1
+10
+2
+Custom
+Max documents per index
+10K
+1M
+100K
+Custom
+Max Databases
+1
+100
+100
+Custom
+Features
+Supported platforms
+AWS
+GCP
+Vercel
+AWS
+GCP
+FLY
+Vercel
+AWS
+GCP
+Vercel
+AWS
+GCP
+FLY
+Vercel
+Persistence
+REST API
+Global replication
+Strong consistency
+High Availability
+Primary Replicas
+Primary Replicas
+Primary Replicas
+Primary and Read Replicas
+Multi-Zone HA
+Uptime SLA
+Security and Privacy
+TLS Encryption
+IP Allowlist
+ACL
+Encryption at rest
+SOC-2 Compliance
+Private Link
+SAML Single Sign-On (SSO)
+HIPAA Compliance
+Observability
+Grafana Integration
+Datadog Integration
+New Relic Integration
+Access Logging
+Support
+Community Support
+Email Support
+Dedicated support and Slack channel
+Price
+Monthly price
+Free
+-
+$10
++($5 ✕ read regions)
+Custom
+Request price
+Free
+$0.2 per 100K
+No per-command pricing
+Custom
+Storage price
+Free
+$0.25 per GB
+-
+Custom
+Bandwidth price
+Free
+Free
+-
+Custom
+Start Now
+Start Now
+Start Now
+Learn More
+FAQ
+How can I upgrade to pay as you go from free tier?
+Once you enter your credit card, your database will be upgraded to the pay-as-you-go plan and limits will be updated.
+What is included in free tier?
+Free tier includes 256MB data size and 500K commands per month.
+Can I get a free Redis database without signing up?
+Yes. Send a POST request to
+https://upstash.com/start-redis
+and you get a free Redis database instantly, with no signup, credit card, or API key. The response is markdown with credentials and a quickstart, so AI agents can start using it right away.
+The database is deleted after 3 days unless you claim it into your account from the console link in the response. Once claimed, it follows the pricing on this page.
+Are paid databases' first 256MB data and 500K commands free?
+No. Once you upgrade to a paid tier, you will be charged for data size and commands according to that plan.
+How does the budget work?
+Budget is only available for the pay-as-you-go plan.
+You can set a maximum monthly budget for your database so you won't be charged beyond that limit. We send email notifications when you reach 70% and 90% of your monthly budget so you can adjust the limit or upgrade to a Fixed plan.
+If your usage exceeds the budget cap, your database will be rate limited and your total cost will not exceed the chosen budget.
+If you change from a Fixed plan to pay-as-you-go mid-month, your budget only tracks your pay-as-you-go spending.
+Do Fixed plans have command count pricing or limits?
+Fixed plans have no command-count billing. You pay for data size, bandwidth, and throughput limits, not per command.
+Are all Redis commands counted in billing?
+Operational commands like AUTH, HELLO, SELECT, COMMAND, CONFIG, INFO, PING, RESET, and QUIT are not charged.
+Are databases faster in higher plans?
+Ops/sec limits are the same in the initial plans, while higher plans increase throughput and other limits. There is no performance difference between plans as long as you stay within the limits.
+Are read and write commands same price?
+Yes. But for Global databases, the write commands are replicated to all read regions in addition to the primary region. Replications are also counted as commands. For example, if you have one primary and one read region, 100K writes cost $0.4 ($0.2 x 2).
+How is the storage cost calculated?
+For each database, the first 1GB is free. Beyond that, storage is charged at $0.25 per GB of total storage.
+Total storage is determined by adding up the storage at all replicas and regions. Even if you do not access your data, it still needs to stay persistent in the cloud provider's block storage for durability and high availability.
+To calculate storage cost, we take the daily average of your total data size across replicas and regions and apply the monthly rate at the end of the month.
+If you use your database as a cache, setting a timeout with
+EXPIRE
+is a good way to minimize cost.
+What happens when I hit limits on pay-as-you-go plan?
+We send email notifications when limits are exceeded. We do our best to keep your database running, but we may rate limit depending on the case.
+Requests above the max request size are rejected with an exception.
+Collections that exceed the max record size stop accepting new records.
+Bandwidth and storage do not have hard limits, but you can use a budget limit to avoid unexpected charges.
+What happens when I hit limits on Fixed plans?
+We send email notifications when limits are exceeded.
+If your database hits the bandwidth or storage limits and auto-upgrade is enabled, it upgrades to the next tier. If auto-upgrade is not enabled, the database is rate limited: traffic is blocked for bandwidth cases and write operations are blocked for storage cases.
+Requests above the max request size are rejected with an exception.
+Collections that exceed the max record size stop accepting new records.
+Are there free trials?
+Yes, we can provide free trials for testing and PoC purposes. Email us at
+support@upstash.com
+.
+How many databases can I create?
+You can create up to 10 databases for free. Beyond that, you are charged $0.5 per database up to 100 databases.
+For more than 100 databases, contact
+support@upstash.com
+. The charge is calculated based on the number of active databases at the end of the month.
+What happens if I delete my database after 2-3 days?
+For Fixed plans, you are charged pro-rata for the days the database was active, even if you did not use it. For pay-as-you-go plans, you are only charged for actual usage during those days.
+How much is the price for bandwidth?
+For pay-as-you-go, monthly bandwidth is free up to 200GB. Beyond that, we charge $0.03 per additional GB.
+For Fixed plans, bandwidth is included up to your plan's limit. If your database is on the highest Fixed tier and exceeds its allowance, we will reach out with upgrade and Enterprise options. If we cannot reach you and usage continues, we reserve the right to charge bandwidth overages at our cloud provider cost rate.
+For high-volume use cases, VPC peering can reduce transfer costs. VPC peering requires an Enterprise contract. Contact
+support@upstash.com
+for details.
+Bandwidth pricing depends on the cloud provider's traffic fees, so it may change over time. If it changes, we will notify you by email.
+Can I purchase Prod Pack for any plan?
+Yes. You can purchase Prod Pack for any plan except the Free tier. You can enable it from your Upstash dashboard database details page.
+What is included in Prod Pack?
+Prod Pack includes uptime SLA, SOC 2 Type 2 report, advanced monitoring with Prometheus, Grafana, and Datadog, multi-zone high availability, and encryption at rest.
+Does enabling multi-zone high availability change my bill?
+Multi-zone high availability (part of Prod Pack) replicates write commands to the additional zones. Reads still hit a single replica, and command counts per write do not change, so it is only the extra write replication that adds bandwidth.
+On Fixed plans, commands are never metered, so multi-zone HA adds no command cost. The added write-replication traffic counts toward your plan's included bandwidth.
+On pay-as-you-go, a write is still billed as a single command no matter how many zones it is replicated to. The impact is on bandwidth, which is free up to 200GB per month and $0.03 per additional GB, so a write-heavy database may notice it there.
+What happened to the Pro 2K and Pro 10K plans?
+Pro 2K and Pro 10K were fixed-throughput dedicated plans, priced at $280/month and $680/month respectively. They are deprecated and have been replaced by pay-as-you-go, Fixed plans, and the Prod Pack add-on.
+If you are on a Pro plan, you can move to a Fixed plan for predictable pricing and add Prod Pack for multi-zone high availability and the uptime SLA.
+What is included in Enterprise subscription?
+Enterprise includes all Prod Pack features for all your databases.
+It also includes dedicated professional support, a dedicated technical account manager, unlimited databases, HIPAA compliance, VPC peering, SSO integration, and custom monthly or annual contract options.
+How is the Enterprise subscription priced?
+Enterprise pricing is custom and based on your requirements. For more information, email
+sales@upstash.com
+.
+Do you have the Professional Support plan?
+Professional support includes a dedicated service desk and a Slack/Discord channel with a committed response time SLA. Check
+Professional Support
+for details.
+Upstash Redis pricing — all plans
+Plan overview
+Plan
+Price
+Read region
+Max data
+Max bandwidth
+Free
+$0/month
+-
+256 MB
+10 GB
+Pay as You Go
+$0.20 per 100K commands
+-
+100 GB
+Unlimited
+Fixed 250MB
+$10/month
++$5/region
+250 MB
+50 GB
+Fixed 1GB
+$20/month
++$10/region
+1 GB
+100 GB
+Fixed 5GB
+$100/month
++$50/region
+5 GB
+500 GB
+Fixed 10GB
+$200/month
++$100/region
+10 GB
+1 TB
+Fixed 50GB
+$400/month
++$200/region
+50 GB
+5 TB
+Fixed 100GB
+$800/month
++$400/region
+100 GB
+10 TB
+Fixed 500GB
+$1500/month
++$750/region
+500 GB
+20 TB
+Enterprise
+Custom
+-
+10 TB
+Unlimited
+Fixed plans — all tiers
+Tier
+Monthly price
+Per read region
+Max data
+Max bandwidth
+Max commands/sec
+Max request size
+Max record size
+Fixed 250MB
+$
+10
+/month
++$
+5
+/region
+250 MB
+50 GB
+10,000
+10 MB
+100 MB
+Fixed 1GB
+$
+20
+/month
++$
+10
+/region
+1 GB
+100 GB
+10,000
+10 MB
+200 MB
+Fixed 5GB
+$
+100
+/month
++$
+50
+/region
+5 GB
+500 GB
+10,000
+20 MB
+300 MB
+Fixed 10GB
+$
+200
+/month
++$
+100
+/region
+10 GB
+1 TB
+10,000
+30 MB
+400 MB
+Fixed 50GB
+$
+400
+/month
++$
+200
+/region
+50 GB
+5 TB
+10,000
+50 MB
+500 MB
+Fixed 100GB
+$
+800
+/month
++$
+400
+/region
+100 GB
+10 TB
+16,000
+75 MB
+1 GB
+Fixed 500GB
+$
+1500
+/month
++$
+750
+/region
+500 GB
+20 TB
+16,000
+100 MB
+5 GB
+Pay as You Go — pricing details
+Commands:
+$0.20 per 100K commands
+Storage:
+$0.25 per GB (first 1 GB free)
+Bandwidth:
+Free up to 200 GB/month, then $0.03/GB
+Max data size:
+100 GB
+Max request size:
+10 MB
+Max record size:
+100 MB
+Platforms:
+AWS, GCP, FLY, Vercel
+Full machine-readable pricing is available at
+/pricing/redis.md
+.
+©
+2026
+Upstash, Inc. Based in California.
+Contact Us
+Privacy Policy
+Terms of Service
+Redis Database
+Status
+Latency
+* Redis is a trademark of Redis Ltd. Any rights therein are reserved to Redis Ltd. Any use by Upstash is for referential purposes only and does not indicate any sponsorship, endorsement or affiliation between Redis and Upstash.
+** Cloudflare, the Cloudflare logo, and Cloudflare Workers are trademarks and/or registered trademarks of Cloudflare, Inc. in the United States and other jurisdictions.
+For AI agents: ask any question about Upstash at
+https://upstash.com/ask?q=your+question
+- returns JSON with the most relevant pages, pricing, blog and product pages to get your answer faster. A free Redis database is available via POST
+https://upstash.com/start-redis
+- the response is markdown with credentials and a quickstart, no signup required.

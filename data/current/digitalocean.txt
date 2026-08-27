@@ -1,0 +1,534 @@
+Blog
+Docs
+Careers
+Get Support
+Contact Sales
+DigitalOcean
+Products
+Featured AI Products
+Compute
+Build, deploy, and scale cloud compute resources
+Containers and Images
+Safely store and manage containers and backups
+Managed Databases
+Fully managed resources running popular database engines
+Management and Dev Tools
+Control infrastructure and gather insights
+Networking
+Secure and control traffic to apps
+Security
+Help protect your account and resources with these security features
+Storage
+Store and access any amount of data reliably in the cloud
+Browse all products
+Solutions
+AI/ML
+CMS
+Data and IoT
+Developer Tools
+Gaming and Media
+Hosting
+Security and Networking
+Startups and SMBs
+Web and App Platforms
+See all solutions
+Developers
+Community
+Documentation
+Developer Tools
+Get Involved
+Utilities and Help
+Partners
+Become a Partner
+Marketplace
+Pricing
+Log in
+Sign up
+Log in
+Sign up
+Simple, predictable pricing
+Always know what you'll pay with monthly caps and flat pricing.
+Get Started
+Products
+AI/ML
+Compute
+Database & Backups
+Storage
+Networking
+Security
+Choose the cloud solutions you need—or get an assist from our experts
+Get help from our sales team
+AI/ML
+Inference
+Starting at
+$0.05
+/M tokens
+AI models for every use case.
+Access leading AI models
+Compare cost, speed, and capability
+Deploy with a single API
+No infrastructure management
+Pay only for what you use
+View pricing
+GPU Droplets
+Starting at
+$1.91
+/GPU/hour*
+*
+Based on multi-month contractual commitment.
+On-demand pricing from $
+0.76
+/GPU/hour.
+Scalable machines for your AI/ML workloads.
+Run training and inference on AI/ML models
+Process large data sets and complex neural networks
+Serve additional use cases like high-performance computing (HPC)
+View
+GPU Droplets
+pricing
+Additional GPU Options
+Prices vary
+Explore more GPU compute options for every purpose.
+Simple provisioning interface
+Build, train, and deploy large models
+Scale AI/ML workloads on demand
+View
+additional GPUs
+pricing
+Evaluations
+Prices vary*
+*
+Billed on candidate and judge tokens
+Run evaluations on your data before production.
+Run LLM-as-a-Judge evaluations on any LLM, dedicated endpoint, or inference routing policy on DigitalOcean Inference
+Compare quality and performance in one run
+Use your own datasets and configurations
+Billed only for candidate + judge token usage
+View
+Evaluations
+pricing
+Compute
+App Platform
+Starting at
+$0
+/month
+Simple, fully-managed infrastructure solution
+Build, deploy and scale apps quickly
+Fully managed solution, zero infrastructure management
+Highly scalable
+View
+App Platform
+pricing
+Droplets
+Starting at
+$4
+/month
+Highly-efficient virtual machines
+Per-sec billing with 60 sec minimum or $0.01, whichever is higher
+Deploy in seconds
+Scale up on demand
+Run any workload - from mission critical apps to low-traffic sites
+View
+Droplet
+pricing
+Kubernetes
+Starting at
+$12
+/month
+Simple, managed Kubernetes
+Simple, managed Kubernetes built for scale
+Free control plane, free bandwidth allowance, and more
+Automate and optimize to peak performance
+View
+Kubernetes
+pricing
+Functions
+Starting at
+$0
+/month
+Serverless computing solution
+Focus on building great apps
+Pay for what you use
+Scale automatically
+View
+Functions
+pricing
+Cloudways Managed Hosting
+Starting at
+$11
+/month
+Scalable, pay-as-you-go hosting for digital businesses
+Optimized for Wordpress & PHP based apps
+SSD stack with PHP 8 & Redis
+Unlimited apps, Git & staging
+View pricing
+Database & Backups
+Backups
+Percentage-based
+20
+%
+(for weekly) of Droplet cost per month
+30
+%
+(for daily) of Droplet cost per month
+Usage-based starting at
+$
+0.01
+/GiB per month
+Protect your business data with flexible and automated backup plans.
+Choose flexible frequencies from Weekly, Daily, or Every 12/6/4 hours.
+Set custom retention periods from 3 days up to 6 months.
+Fast and fully-automated.
+View
+Backups
+pricing
+Databases
+Starting at
+$15
+/month
+Fully managed and maintained
+Managed MongoDB, Kafka, PostgreSQL, MySQL, Caching, Valkey, and OpenSearch
+Worry-free setup, maintenance, and easy migration
+Free daily backups, automated failover, and more!
+View
+Managed Database
+pricing
+Storage
+Spaces
+Starting at
+$5
+/month
+Simple, scalable object storage
+S3-compatible object storage
+Highly scalable
+Built in CDN
+View
+Spaces Object Storage
+pricing
+Network File Storage
+Starting at
+$0.15
+/per GiB/month
+Shared file storage
+Standard tier: $0.15 per GiB-month
+High performance tier: $0.30 per GiB-month
+Starting from 50 GiB
+Flat pricing across all supported regions
+View
+Network File Storage
+pricing
+Volumes
+Starting at
+$10
+/month
+Business-ready block storage
+Block storage
+Highly available
+Easily scale block storage, resize when needed, and move them between droplets
+View
+Volumes Block Storage
+pricing
+Networking
+Container Registry
+Starting at
+$0
+/month
+Easily store and manage private container images
+Easily store and manage private container images
+Transfer container images over high-speed HTTPs connections to servers across four continents
+View
+Container Registry
+pricing
+Load Balancers
+Starting at
+$12
+/month
+Load balancing, simplified
+Improve availability, performance, and scalability
+Let’s Encrypt and HTTP/3 support
+Compatible with Droplets and DigitalOcean Kubernetes
+Global Load Balancers now available
+View
+Load Balancer
+pricing
+Support Plans
+Starting at
+$0
+/month
+Unlimited customized support
+Find answers to common questions, development guidelines written by experts and get free email support
+Ideal for those testing ideas and hosting small applications
+View
+Support Plan
+pricing
+Virtual Private Cloud
+Starting at
+$0
+/month
+Simple, cost effective VPC hosting
+Create unlimited VPCs at no additional cost.
+Ingress data transfer to VPCs is free. Egress data transfer from VPCs to the internet counts against bandwidth quotas.
+Intra-datacenter VPC peering is free. Inter-datacenter VPC peering is $0.01/GiB.
+VPC NAT Gateway: $40.00 per node, includes 100 GiB bandwidth (overage $0.01/GiB), supports up to 500,000 connections.
+View
+Virtual Private Cloud
+pricing
+Uptime
+Starting at
+$0
+/month
+Automated endpoint alerts
+Uptime and latency checks
+Alerts by email and Slack
+One Uptime Check/month included with every account
+View
+Uptime Monitoring
+pricing
+Security
+Cloud Security Posture Management (CSPM)
+Starting at
+$0
+/month
+Stay secure without adding complexity
+Agentless by design
+Prioritized findings
+Guided remediation
+Unified visibility
+View
+Cloud Security Posture Management (CSPM)
+pricing
+You've got unique business needs and we've got powerful solutions to meet those needs. Chat with us to get started!
+Contact sales
+See how much you'll pay with our pricing calculator
+We'll do the math
+Platform benefits
+All the capabilities you need to build and scale your apps, included at no additional cost.
+Build and deploy 3 static sites for free
+Data transfer within and across VPCs in a data center is free. Ingress data transfer is free. Create as many VPCs as you want for no additional cost
+Public Internet Egress Overage Data transfer is $0.01 per GiB
+Private VPC Egress Overage Data Transfer between data centers is $0.01 per GiB
+Free Reserved IPs when assigned to a Droplet
+Industry leading bandwidth pricing, Droplets include free outbound data transfer, starting at 500 GiB / mo
+Free DNS management
+Free container registry with 1 repository and 500 MiB storage
+Free cloud firewalls
+Collect metrics on visibility, monitor Droplet performance, and get free alerts when problems arise in your infrastructure
+Use 90,000 GiB-seconds per month for free with DigitalOcean Functions. There are no additional charges for function invocations
+Experience a 186% return on investment
+A Total Economic Impact study by Forrester found that an organization experiences benefits of $2.37 million over three years versus costs of $829,000, adding up to a net present value (NPV) of $1.55 million and an ROI of 186%. An organization using DigitalOcean finds a payback of their investment in less than 6 months.
+Read the study
+Industry-leading bandwidth pricing
+Keep your bandwidth costs low with generous transfer quotas and outbound overage at just $
+0.01
+/GiB.
+Go to bandwidth calculator
+Frequently asked questions
+What forms of payment do you accept?
+We accept Visa, Mastercard, American Express, Discover, PayPal, Google Pay, and Apple Pay. Apple pay requires a Safari browser. For additional payment options, including wire transfer, purchase orders, and ACH,
+please contact us
+. Note that when you add a card, we may send a temporary pre-authorization request to the issuing bank. This pre-authorization charge is immediately released by DigitalOcean but may take a few days to clear from your card depending on the bank.
+When will my card be charged?
+DigitalOcean billing cycles are monthly. Typically, on the first day of each month we invoice and automatically charge your account's primary payment method for the previous month's usage. In some cases, we might charge if your
+usage exceeds a threshold
+. You can also login and self pay the balance at any time.
+Am I charged when I enter my credit card?
+No. Your card is only charged at the end of the billing cycle or upon exceeding a usage threshold. Pre-authorization charge: When you add a card, we may send a preauthorization request to the issuing bank. This is to verify that the card being added has been issued by the bank and that they will authorize any charges in future. These temporary pre-authorizations are typically $1 but can vary in range and are immediately canceled by us. Depending on your bank, it might take a few days for the charge to clear from the card.
+Will taxes be included in my monthly invoice?
+We're required by law to apply taxes in some countries. Click
+here
+to learn whether we collect taxes in your country, what the tax rate is, etc.
+How do I destroy my resources?
+Check out the docs to learn how to destroy
+Droplets
+,
+Kubernetes clusters
+, Managed Databases clusters (
+PostgreSQL
+,
+MySQL
+,
+Caching
+),
+Spaces
+,
+Volumes
+,
+Firewalls
+, and
+Load Balancers
+.
+Can I be notified if my bill exceeds a threshold?
+Yes, you can set up
+billing alerts
+and we will email you if the monthly spending exceeds an amount you specify.
+How does the $5 free credit work?
+Your card will be charged only after you have utilized the free credits or after the credit expiration period. For example, if you received a $5 credit for 90 days, then that $5 credit is automatically applied to your account. If you spend $3 in that timeframe, your card will not be charged. If you spend $10, the $5 credit will be fully utilized, and your card will be charged only $5. Since the credit is valid for 90 days, you won't be able to use any remaining credit after the 90-day period expires.
+What's the price for the Marketplace 1-Click Apps?
+We charge you for the underlying compute on which the 1-Click Apps runs.
+How do I remove my card from the account?
+To remove a saved payment method, visit the
+products billing page
+and click the ... menu of the payment method, then click Delete. In the Confirm Delete Card window that opens, click Delete to remove the card. You cannot remove the default payment method on the account.
+Can I prepay for my resources?
+If you are interested in prepayment for resources,
+contact our experts
+.
+Can I have a refund?
+We do not offer refunds. If there are extenuating circumstances, contact support.
+Still have questions?
+Have a complex setup or additional questions around pricing? Contact our sales team to get more information on DigitalOcean pricing.
+Contact sales
+Start building today
+From GPU-powered inference and Kubernetes to managed databases and storage, get everything you need to build, scale, and deploy intelligent applications.
+Sign up
+Company
+About
+Leadership
+Blog
+Careers
+Customers
+Partners
+Referral Program
+Affiliate Program
+Press
+Legal
+Privacy Policy
+Security
+Investor Relations
+Products
+Knowledge Bases
+GPU Droplets
+Bare Metal GPUs
+Inference Engine
+Data & Learning
+Evaluations
+Model Library
+Droplets
+Kubernetes
+Functions
+App Platform
+Load Balancers
+Managed Databases
+Spaces
+Block Storage
+Network File Storage
+API
+Uptime
+Cloud Security Posture Management (CSPM)
+Identity and Access Management (IAM)
+Cloudways
+View all Products
+Resources
+Community Tutorials
+Community Q&A
+CSS-Tricks
+Write for DOnations
+Currents Research
+DigitalOcean Startups
+Wavemakers Program
+Compass Council
+Open Source
+Newsletter Signup
+Marketplace
+Pricing
+Pricing Calculator
+Documentation
+Release Notes
+Code of Conduct
+Shop Swag
+Solutions
+AI Training GPU
+GPU Inference
+VPS Hosting
+Website Hosting
+VPN
+Docker Hosting
+Node.js Hosting
+Web Mobile Apps
+WordPress Hosting
+Virtual Machines
+View all Solutions
+Contact
+Support
+Sales
+Report Abuse
+System Status
+Share your ideas
+Company
+About
+Leadership
+Blog
+Careers
+Customers
+Partners
+Referral Program
+Affiliate Program
+Press
+Legal
+Privacy Policy
+Security
+Investor Relations
+Products
+Knowledge Bases
+GPU Droplets
+Bare Metal GPUs
+Inference Engine
+Data & Learning
+Evaluations
+Model Library
+Droplets
+Kubernetes
+Functions
+App Platform
+Load Balancers
+Managed Databases
+Spaces
+Block Storage
+Network File Storage
+API
+Uptime
+Cloud Security Posture Management (CSPM)
+Identity and Access Management (IAM)
+Cloudways
+View all Products
+Resources
+Community Tutorials
+Community Q&A
+CSS-Tricks
+Write for DOnations
+Currents Research
+DigitalOcean Startups
+Wavemakers Program
+Compass Council
+Open Source
+Newsletter Signup
+Marketplace
+Pricing
+Pricing Calculator
+Documentation
+Release Notes
+Code of Conduct
+Shop Swag
+Solutions
+AI Training GPU
+GPU Inference
+VPS Hosting
+Website Hosting
+VPN
+Docker Hosting
+Node.js Hosting
+Web Mobile Apps
+WordPress Hosting
+Virtual Machines
+View all Solutions
+Contact
+Support
+Sales
+Report Abuse
+System Status
+Share your ideas
+©
+2026
+DigitalOcean, LLC.
+Sitemap
+.

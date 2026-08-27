@@ -1,0 +1,57 @@
+{
+  "slug": "railway",
+  "name": "Railway",
+  "vendor": "Railway",
+  "category": "dev-infra",
+  "url": "https://railway.com/pricing",
+  "final_url": "https://railway.com/pricing",
+  "content_hash": "5e66241977ba207828d2464b3a099443caf50cd038ef5a260f45b79c83340e0b",
+  "raw_hash": "d1bf1f897f477fb58afa887bb8d2dd912db6f7a4e0b0c507c82fc48385451bf8",
+  "text_bytes": 8641,
+  "extractor": "jsonld",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Railway",
+      "price_raw": "0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Free Trial",
+      "price_raw": "0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Hobby",
+      "price_raw": "5",
+      "amount": 5.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Pro",
+      "price_raw": "20",
+      "amount": 20.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Enterprise",
+      "price_raw": "0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    }
+  ],
+  "tables": [],
+  "extract_errors": []
+}

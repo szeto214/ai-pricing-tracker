@@ -1,0 +1,177 @@
+{
+  "slug": "baseten",
+  "name": "Baseten",
+  "vendor": "Baseten",
+  "category": "ai-api",
+  "url": "https://www.baseten.co/pricing/",
+  "final_url": "https://www.baseten.co/pricing/",
+  "content_hash": "4d9978b4a7962e22e80bc395da06b29b067030e414b293438c566f2450b7a5d2",
+  "raw_hash": "cb7169d7865aef1edcd8e9eeecafb9ad353ef5606f2f37f66323d8ad497055ff",
+  "text_bytes": 7366,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Deployment options",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "GLM-5.3-Flash",
+      "price_raw": "$0.15",
+      "amount": 0.15,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "$0.50",
+      "price_raw": "$0.50",
+      "amount": 0.5,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "GLM-5.2",
+      "price_raw": "$1.40",
+      "amount": 1.4,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "$4.40",
+      "price_raw": "$4.40",
+      "amount": 4.4,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "GLM-5.2 Fast",
+      "price_raw": "$2.10",
+      "amount": 2.1,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "$6.60",
+      "price_raw": "$6.60",
+      "amount": 6.6,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "GLM 4.7",
+      "price_raw": "$0.60",
+      "amount": 0.6,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "$2.20",
+      "price_raw": "$2.20",
+      "amount": 2.2,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "DeepSeek V4 Pro 0813",
+      "price_raw": "$1.32",
+      "amount": 1.32,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "$3.96",
+      "price_raw": "$3.96",
+      "amount": 3.96,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "DeepSeek V4 Pro",
+      "price_raw": "$1.74",
+      "amount": 1.74,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "$3.48",
+      "price_raw": "$3.48",
+      "amount": 3.48,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "DeepSeek-V4-Flash-0731",
+      "price_raw": "$0.13",
+      "amount": 0.13,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "$0.26",
+      "price_raw": "$0.26",
+      "amount": 0.26,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Kimi K3",
+      "price_raw": "$3.00",
+      "amount": 3.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "$15.00",
+      "price_raw": "$15.00",
+      "amount": 15.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Kimi K2.6",
+      "price_raw": "$0.95",
+      "amount": 0.95,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "$4.00",
+      "price_raw": "$4.00",
+      "amount": 4.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Kimi K2.7 Code",
+      "price_raw": "$0.95",
+      "amount": 0.95,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    }
+  ],
+  "tables": [],
+  "extract_errors": []
+}

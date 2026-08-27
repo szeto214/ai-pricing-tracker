@@ -1,0 +1,162 @@
+{
+  "slug": "betterstack",
+  "name": "Better Stack",
+  "vendor": "Better Stack",
+  "category": "observability",
+  "url": "https://betterstack.com/pricing",
+  "final_url": "https://betterstack.com/pricing",
+  "content_hash": "2b2c3615d46e6bfceb267911f989cb0b8b4802d962183c24c894eda91d8ecee1",
+  "raw_hash": "be0265265693de1935ff874c3607c977dd77ceae2b3a711d37c891bc1bca9cd8",
+  "text_bytes": 19010,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Free for personal projects",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "10 monitors & heartbeats, 1 status page",
+        "Slack & e-mail alerts",
+        "100,000 exceptions per month",
+        "5,000 session replays",
+        "3 GB logs retained for 3 days",
+        "3 GB traces retained for 3 days",
+        "30 GB metrics",
+        "3 GB web events retained for 3 days"
+      ]
+    },
+    {
+      "name": "Unlimited team members",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "user",
+      "features": []
+    },
+    {
+      "name": "Responder",
+      "price_raw": "$34",
+      "amount": 34.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Channel-based & Thread-based workflows",
+      "price_raw": "$9",
+      "amount": 9.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Additional public status page",
+      "price_raw": "$15",
+      "amount": 15.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "$15 per page per month",
+      "price_raw": "$15",
+      "amount": 15.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "$250 per page per month",
+      "price_raw": "$250",
+      "amount": 250.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "$50 per page per month",
+      "price_raw": "$50",
+      "amount": 50.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Additional 1,000 subscribers",
+      "price_raw": "$40",
+      "amount": 40.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Per phone number",
+      "price_raw": "$250",
+      "amount": 250.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Nano",
+      "price_raw": "$25",
+      "amount": 25.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Micro",
+      "price_raw": "$100",
+      "amount": 100.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Mega",
+      "price_raw": "$210",
+      "amount": 210.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Tera",
+      "price_raw": "$420",
+      "amount": 420.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Nano",
+      "price_raw": "$38",
+      "amount": 38.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Micro",
+      "price_raw": "$150",
+      "amount": 150.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Mega",
+      "price_raw": "$315",
+      "amount": 315.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    }
+  ],
+  "tables": [],
+  "extract_errors": []
+}

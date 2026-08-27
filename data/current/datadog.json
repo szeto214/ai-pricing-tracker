@@ -1,0 +1,232 @@
+{
+  "slug": "datadog",
+  "name": "Datadog",
+  "vendor": "Datadog",
+  "category": "observability",
+  "url": "https://www.datadoghq.com/pricing/",
+  "final_url": "https://www.datadoghq.com/pricing/",
+  "content_hash": "6d5640a0a7521299174a0a88779da047dc10d817dc574adf521ca1724c184308",
+  "raw_hash": "e9e5af0d5966a7eb6894293700c093b3d3d505489fca74ffc3e34b1f26810ffe",
+  "text_bytes": 225996,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Monthly Flag Configuration Requests (MFCRs)",
+      "price_raw": "$ 55",
+      "amount": 55.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Infrastructure",
+      "price_raw": "$ 0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "1-day metric retention",
+        "Up to 5 hosts",
+        "1,000+ integrations",
+        "Out-of-the-box dashboards",
+        "15-month metric retention",
+        "Machine learning-based alerts",
+        "Live Processes",
+        "Governance Console",
+        "Cloud Security Posture Management (CSPM)",
+        "Kubernetes Security Posture Management (KSPM)",
+        "Built-in mapping of your resources to compliance frameworks to help with audits",
+        "Vulnerability Management (VM) for Containers & Hosts",
+        "Cloud Infrastructure Entitlement Management (CIEM)",
+        "Comprehensive inventory of cloud resources & linked risks",
+        "File integrity monitoring",
+        "Workload Protection for Linux, Windows Kubernetes, and Docker",
+        "Increased container allotment (10 containers allotted per host license**)"
+      ]
+    },
+    {
+      "name": "Free",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Agent Observability",
+      "price_raw": "$ 0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Up to 40K LLM spans / month",
+        "15-day trace retention",
+        "Unlimited context & evals",
+        "Full feature access",
+        "100K LLM spans per month included",
+        "15-day trace retention",
+        "Unlimited context & evals",
+        "Full feature access"
+      ]
+    },
+    {
+      "name": "Data Streams Monitoring",
+      "price_raw": "$ 15",
+      "amount": 15.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Detect slowdowns anywhere in your event-driven applications",
+        "Localize and resolve pipeline bottlenecks and failures",
+        "Remediate floods of backed-up messages",
+        "Out-of-the-box pipeline topology mapping",
+        "Consumer lag and partition metrics",
+        "End-to-end latency and throughput metrics",
+        "Recommended monitors",
+        "Correlated telemetry: traces, logs, and infrastructure metrics",
+        "Schema tracking",
+        "Team ownership information",
+        "Custom dashboards",
+        "Unlimited users"
+      ]
+    },
+    {
+      "name": "Cloud Cost Management",
+      "price_raw": "$ 0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Access cost data via MCP",
+        "Surface costs in team dashboards",
+        "Catch cost spikes early with alerts and anomaly detection",
+        "Forecast spend to stay ahead of changes",
+        "Set budgets and stay on track",
+        "Surface Kubernetes cost visibility automatically",
+        "Allocate costs and generate finance-ready reports",
+        "Drive optimization with actionable recommendations",
+        "Investigate cost spikes with a FinOps agent for root cause analysis",
+        "Allocate shared costs precisely with Datadog metrics",
+        "Gain real-time cost visibility from observability data",
+        "Manage complex budgets across teams with hierarchical controls"
+      ]
+    },
+    {
+      "name": "Datadog Cost Visibility Free",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    }
+  ],
+  "tables": [
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Monthly Flag Configuration Requests (MFCRs)",
+          "Annual cost per 1M MFCRs",
+          "Monthly cost per 1M MFCRs",
+          "On-Demand cost per 1M MFCRs"
+        ],
+        [
+          "< 1M",
+          "Free",
+          "Free",
+          "Free"
+        ],
+        [
+          "1M - 10M",
+          "$ 55",
+          "$ 89",
+          "$ 100"
+        ],
+        [
+          "10M+",
+          "$ 45",
+          "$ 73",
+          "$ 92"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Error Tracking pricing tiers",
+          "Annual cost per 1k errors, per month",
+          "Monthly cost per 1k errors, per month",
+          "On-Demand cost per 1k errors, per month"
+        ],
+        [
+          "> 50k - 100k errors",
+          "$ 0.25",
+          "$ 0.30",
+          "$ 0.38"
+        ],
+        [
+          "> 100k - 500k errors",
+          "$ 0.21",
+          "$ 0.25",
+          "$ 0.32"
+        ],
+        [
+          "> 500k - 10M errors",
+          "$ 0.17",
+          "$ 0.20",
+          "$ 0.26"
+        ],
+        [
+          "> 10M - 20M errors",
+          "$ 0.12",
+          "$ 0.14",
+          "$ 0.22"
+        ],
+        [
+          "> 20M+ errors",
+          "$ 0.10",
+          "$ 0.12",
+          "$ 0.18"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "",
+          "HOUR 1",
+          "HOUR 2",
+          "HOUR 3"
+        ],
+        [
+          "Function A",
+          "10 invocations",
+          "0 invocations",
+          "1M invocations"
+        ],
+        [
+          "Function B",
+          "1 invocation",
+          "5M invocations",
+          "1M invocations"
+        ],
+        [
+          "Function C",
+          "0 invocations",
+          "0 invocations",
+          "1 invocation"
+        ],
+        [
+          "Total Active Functions for Hour",
+          "2 active functions (Function A and B)",
+          "1 active functions (Function B)",
+          "3 active functions (Function A, B, and C)"
+        ]
+      ]
+    }
+  ],
+  "extract_errors": []
+}

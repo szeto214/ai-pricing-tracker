@@ -1,0 +1,49 @@
+{
+  "slug": "firecrawl",
+  "name": "Firecrawl",
+  "vendor": "Firecrawl",
+  "category": "ai-api",
+  "url": "https://www.firecrawl.dev/pricing",
+  "final_url": "https://www.firecrawl.dev/pricing",
+  "content_hash": "962fc0c091c19cc84fbec5bbf045b511a4ba6dbb5450e06342803f33856cfb84",
+  "raw_hash": "4e01640587930b251e36dfb145c4ed58e7575b9f6664bad214279b2b327da908",
+  "text_bytes": 7461,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Hobby",
+      "price_raw": "$ 16",
+      "amount": 16.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Standard Recommended",
+      "price_raw": "$ 83",
+      "amount": 83.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Growth",
+      "price_raw": "$ 333",
+      "amount": 333.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Scale",
+      "price_raw": "$ 599",
+      "amount": 599.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    }
+  ],
+  "tables": [],
+  "extract_errors": []
+}

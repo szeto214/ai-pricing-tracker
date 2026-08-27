@@ -1,0 +1,97 @@
+{
+  "slug": "langchain",
+  "name": "LangChain / LangSmith",
+  "vendor": "LangChain",
+  "category": "ai-api",
+  "url": "https://www.langchain.com/pricing",
+  "final_url": "https://www.langchain.com/pricing",
+  "content_hash": "a2854bdb31b097c68fc1964e1c40a8f4c18238fb98992d09a20b81e7c611a805",
+  "raw_hash": "7902da04c81cee12b17ab999357c44e523bb60d0bb54f8044ddc74dbefe04ba9",
+  "text_bytes": 17195,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Developer",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "seat",
+      "features": [
+        "Up to 5k base traces / mo, then pay-as-you-go",
+        "Community support",
+        "1 seat"
+      ]
+    },
+    {
+      "name": "Plus",
+      "price_raw": "$39",
+      "amount": 39.0,
+      "currency": "USD",
+      "period": "seat",
+      "features": [
+        "Up to 10k base traces / mo, then pay-as-you-go",
+        "Access to Deployment, Engine, and more",
+        "Add unlimited seats"
+      ]
+    },
+    {
+      "name": "Small team just getting started?",
+      "price_raw": "$10,000",
+      "amount": 10000.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Estimate your monthly usage",
+      "price_raw": "$1.50",
+      "amount": 1.5,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Features",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "seat",
+      "features": []
+    },
+    {
+      "name": "Users",
+      "price_raw": "$39",
+      "amount": 39.0,
+      "currency": "USD",
+      "period": "seat",
+      "features": []
+    },
+    {
+      "name": "LangChain Compute Unit (LCU):",
+      "price_raw": "$1.50",
+      "amount": 1.5,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "LangChain Storage Unit (LSU):",
+      "price_raw": "$1.00",
+      "amount": 1.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Engine is metered in LCUs (LangChain Compute Uni",
+      "price_raw": "$1.50",
+      "amount": 1.5,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    }
+  ],
+  "tables": [],
+  "extract_errors": []
+}

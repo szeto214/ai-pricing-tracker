@@ -1,0 +1,177 @@
+{
+  "slug": "vercel",
+  "name": "Vercel",
+  "vendor": "Vercel",
+  "category": "dev-infra",
+  "url": "https://vercel.com/pricing",
+  "final_url": "https://vercel.com/pricing",
+  "content_hash": "6d43b182d4d7fafacb235b53721faa62c018a55734b5caf9466c43afadb6b7d9",
+  "raw_hash": "c39e7170403cb0e382a0394b6932db7870450090e90bea075f7569b60c4f5d54",
+  "text_bytes": 13472,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Hobby",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Pro",
+      "price_raw": "$20",
+      "amount": 20.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "All Hobby features, plus:",
+      "price_raw": "$20",
+      "amount": 20.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "10M / month included",
+      "price_raw": "$2",
+      "amount": 2.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "1TB / month included",
+      "price_raw": "$0.15",
+      "amount": 0.15,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Starting at $0.50 per 1M allowed requests",
+      "price_raw": "$0.50",
+      "amount": 0.5,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Bot Management",
+      "price_raw": "$1",
+      "amount": 1.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Incremental Static Regeneration (ISR)",
+      "price_raw": "$0.40",
+      "amount": 0.4,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "1K included per project",
+      "price_raw": "$50",
+      "amount": 50.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Blob",
+      "price_raw": "$0.02",
+      "amount": 0.02,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Image Optimization",
+      "price_raw": "$0.05",
+      "amount": 0.05,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Global Config",
+      "price_raw": "$3",
+      "amount": 3.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "2 included projects",
+      "price_raw": "$250",
+      "amount": 250.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Microfrontends Support",
+      "price_raw": "$250",
+      "amount": 250.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Vercel Functions",
+      "price_raw": "$0.12",
+      "amount": 0.12,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Service Requests",
+      "price_raw": "$0.50",
+      "amount": 0.5,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Vercel Sandbox",
+      "price_raw": "$0.12",
+      "amount": 0.12,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Vercel Container Registry Image Storage",
+      "price_raw": "$0.10",
+      "amount": 0.1,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Fast Origin Transfer",
+      "price_raw": "$0.06",
+      "amount": 0.06,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Vercel Workflows",
+      "price_raw": "$20",
+      "amount": 20.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    }
+  ],
+  "tables": [],
+  "extract_errors": []
+}

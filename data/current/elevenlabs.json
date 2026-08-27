@@ -1,0 +1,97 @@
+{
+  "slug": "elevenlabs",
+  "name": "ElevenLabs",
+  "vendor": "ElevenLabs",
+  "category": "ai-media",
+  "url": "https://elevenlabs.io/pricing",
+  "final_url": "https://elevenlabs.io/pricing",
+  "content_hash": "3e0013c0cd7c08c3fb79a9f92b1be7416f7688b9c0ca79aeee79d4cc2e600c03",
+  "raw_hash": "45804126423d5bc0adb17eed0b7491a718fc50b19bd9f6e00ae9609609e1e362",
+  "text_bytes": 4086,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Free",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Starter",
+      "price_raw": "$6",
+      "amount": 6.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Creator",
+      "price_raw": "$22",
+      "amount": 22.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Pro",
+      "price_raw": "$99",
+      "amount": 99.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Scale",
+      "price_raw": "$299",
+      "amount": 299.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Business",
+      "price_raw": "$990",
+      "amount": 990.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Free",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Minutes included",
+      "price_raw": "$0.36",
+      "amount": 0.36,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "~",
+      "price_raw": "$0.18",
+      "amount": 0.18,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "~",
+      "price_raw": "$0.17",
+      "amount": 0.17,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    }
+  ],
+  "tables": [],
+  "extract_errors": []
+}

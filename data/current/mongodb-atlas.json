@@ -1,0 +1,361 @@
+{
+  "slug": "mongodb-atlas",
+  "name": "MongoDB Atlas",
+  "vendor": "MongoDB",
+  "category": "database",
+  "url": "https://www.mongodb.com/pricing",
+  "final_url": "https://www.mongodb.com/pricing",
+  "content_hash": "5a0bb38f67800c2c87c4e515bd13ae1cad4bccbb20b95c2019c6aa119323a550",
+  "raw_hash": "92aaa13901736a4fea85ff292cd12d7d7d659518a2e5efac1fdc8c83c7cec8b6",
+  "text_bytes": 24901,
+  "extractor": "jsonld",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "MongoDB Atlas",
+      "price_raw": "0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Realm Applications",
+      "price_raw": "0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    }
+  ],
+  "tables": [
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Cluster Tier",
+          "Storage",
+          "RAM",
+          "vCPUs",
+          "Base Price"
+        ],
+        [
+          "M0",
+          "512 MB",
+          "Shared",
+          "Shared",
+          "Free forever"
+        ],
+        [
+          "M2",
+          "2 GB",
+          "Shared",
+          "Shared",
+          "$9/mo"
+        ],
+        [
+          "M5",
+          "5 GB",
+          "Shared",
+          "Shared",
+          "$25/mo"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Cluster Tier",
+          "Storage",
+          "RAM",
+          "vCPU",
+          "Base Price"
+        ],
+        [
+          "M10",
+          "10–128 GB",
+          "2 GB",
+          "2 vCPUs",
+          "$0.08/hr"
+        ],
+        [
+          "M20",
+          "20–256 GB",
+          "4 GB",
+          "2 vCPUs",
+          "$0.20/hr"
+        ],
+        [
+          "M30",
+          "40–512 GB",
+          "8 GB",
+          "2 vCPUs",
+          "$0.54/hr"
+        ],
+        [
+          "M40",
+          "80 GB–1 TB",
+          "16 GB",
+          "4 vCPUs",
+          "$1.04/hr"
+        ],
+        [
+          "M50",
+          "160 GB–4 TB",
+          "32 GB",
+          "8 vCPUs",
+          "$2.00/hr"
+        ],
+        [
+          "M60",
+          "320 GB–4 TB",
+          "64 GB",
+          "16 vCPUs",
+          "$3.95/hr"
+        ],
+        [
+          "M80",
+          "750 GB–4 TB",
+          "128 GB",
+          "32 vCPUs",
+          "$7.30/hr"
+        ],
+        [
+          "M140",
+          "1–4 TB",
+          "192 GB",
+          "48 vCPUs",
+          "$10.99/hr"
+        ],
+        [
+          "M200",
+          "1.5–4 TB",
+          "256 GB",
+          "64 vCPUs",
+          "$14.59/hr"
+        ],
+        [
+          "M300",
+          "2–4 TB",
+          "384 GB",
+          "96 vCPUs",
+          "$21.85/hr"
+        ],
+        [
+          "M400",
+          "3–4 TB",
+          "488 GB",
+          "64 vCPUs",
+          "$22.40/hr"
+        ],
+        [
+          "M700",
+          "4 TB",
+          "768 GB",
+          "96 vCPUs",
+          "$33.26/hr"
+        ],
+        [
+          "Additional hardware configurations available for specialized workloads including Low-CPU and Local NVMe SSD. Scale beyond 4 TB: Sharded clusters offer additiona"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Tier (ops/second)",
+          "Total Hourly Cost",
+          "Total Monthly Cost*"
+        ],
+        [
+          "0 - 100 (Base)",
+          "$0.0110",
+          "$8.00"
+        ],
+        [
+          "100 - 200",
+          "$0.0205",
+          "$15.00"
+        ],
+        [
+          "200 - 300",
+          "$0.0288",
+          "$21.00"
+        ],
+        [
+          "300 - 400",
+          "$0.0356",
+          "$26.00"
+        ],
+        [
+          "400 - 500",
+          "$0.0411",
+          "$30.00"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Data Processed",
+          "Data Transferred and returned"
+        ],
+        [
+          "$5 per TB with a 10MB minimum per query",
+          "Data transfer costs are based on the rates set by your cloud service provider"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Data Transferred and returned"
+        ],
+        [
+          "$5 per TB with a 10MB minimum per query",
+          "Data transfer costs are based on the rates set by your cloud service provider"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Data Lake Regions",
+          "AWS Regions",
+          "Price per GB per Month",
+          "Per 1,000 Partition Accesses"
+        ],
+        [
+          "Virginia, USA",
+          "us-east-1",
+          "0.048",
+          "0.0010"
+        ],
+        [
+          "Oregon, USA",
+          "us-west-2",
+          "0.048",
+          "0.0010"
+        ],
+        [
+          "Sao Paulo, Brazil",
+          "sa-east-1",
+          "0.0845",
+          "0.0015"
+        ],
+        [
+          "Ireland",
+          "eu-west-1",
+          "0.048",
+          "0.0010"
+        ],
+        [
+          "London, England",
+          "eu-west-2",
+          "0.0501",
+          "0.0011"
+        ],
+        [
+          "Frankfurt, Germany",
+          "eu-central-1",
+          "0.0511",
+          "0.0011"
+        ],
+        [
+          "Mumbai, India",
+          "ap-south-1",
+          "0.0522",
+          "0.0010"
+        ],
+        [
+          "Singapore",
+          "ap-southeast-1",
+          "0.0522",
+          "0.0010"
+        ],
+        [
+          "Sydney, Australia",
+          "ap-southeast-2",
+          "0.0522",
+          "0.0011"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Data Lake Regions"
+        ],
+        [
+          "Virginia, USA"
+        ],
+        [
+          "Oregon, USA"
+        ],
+        [
+          "Sao Paulo, Brazil"
+        ],
+        [
+          "Ireland"
+        ],
+        [
+          "London, England"
+        ],
+        [
+          "Frankfurt, Germany"
+        ],
+        [
+          "Mumbai, India"
+        ],
+        [
+          "Singapore"
+        ],
+        [
+          "Sydney, Australia"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "AWS Regions"
+        ],
+        [
+          "us-east-1"
+        ],
+        [
+          "us-west-2"
+        ],
+        [
+          "sa-east-1"
+        ],
+        [
+          "eu-west-1"
+        ],
+        [
+          "eu-west-2"
+        ],
+        [
+          "eu-central-1"
+        ],
+        [
+          "ap-south-1"
+        ],
+        [
+          "ap-southeast-1"
+        ],
+        [
+          "ap-southeast-2"
+        ]
+      ]
+    }
+  ],
+  "extract_errors": []
+}

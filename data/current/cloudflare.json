@@ -1,0 +1,373 @@
+{
+  "slug": "cloudflare",
+  "name": "Cloudflare",
+  "vendor": "Cloudflare",
+  "category": "dev-infra",
+  "url": "https://www.cloudflare.com/plans/",
+  "final_url": "https://www.cloudflare.com/plans/",
+  "content_hash": "47349fc551029dafc297f08ddb3ed0b1eb6f27bdf27530dab0af28e1eea649cb",
+  "raw_hash": "23418d4f8cbd81c80703ee4c22179419a9f2dda34a6ac1d7590792f95d755834",
+  "text_bytes": 16824,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Free",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Free",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Pro",
+      "price_raw": "$20",
+      "amount": 20.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Business",
+      "price_raw": "$200",
+      "amount": 200.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Fast, Easy-to-use DNS",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Unmetered DDoS Protection",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Universal SSL Certificate",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Free Managed Ruleset",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Web Application Firewall (WAF)",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Lossless Image Optimization",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Accelerated Mobile Pages (AMP)",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "PCI DSS 4.0 Compliance",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Single-Sign-On (SSO) Support",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Network Prioritization",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Role-based Account Control",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    }
+  ],
+  "tables": [
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Component",
+          "Free",
+          "Paid"
+        ],
+        [
+          "Requests",
+          "100k / day",
+          "$0.30 / million requests"
+        ],
+        [
+          "CPU Time",
+          "10 ms / request",
+          "$0.02 / million CPU ms"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Component",
+          "Free",
+          "Paid"
+        ],
+        [
+          "Memory",
+          "25 GiB-hrs included",
+          "$0.0000025 / GiB-second"
+        ],
+        [
+          "CPU",
+          "375 vCPU-min included",
+          "$0.000020 / vCPU-second"
+        ],
+        [
+          "Disk",
+          "200 GB-hrs included",
+          "$0.00000007 / GB-second"
+        ],
+        [
+          "Network Egress (NA/EU)",
+          "1 TB included",
+          "$0.025 / GB"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Component",
+          "Free",
+          "Paid"
+        ],
+        [
+          "Requests",
+          "Not available",
+          "$0.30 / million requests"
+        ],
+        [
+          "CPU Time",
+          "Not available",
+          "$0.02 / million CPU ms"
+        ],
+        [
+          "Scripts Deployed",
+          "Not available",
+          "$0.02 / script"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Component",
+          "Free",
+          "Paid"
+        ],
+        [
+          "Requests",
+          "100,000 requests / day",
+          "$0.15 / million requests"
+        ],
+        [
+          "Duration",
+          "13,000 GB-s / day",
+          "$12.50 / million GB-s"
+        ],
+        [
+          "SQL Rows Read",
+          "50M / day",
+          "$0.001 / million rows"
+        ],
+        [
+          "SQL Rows Written",
+          "100K / day",
+          "$1.00 / million rows"
+        ],
+        [
+          "SQL Stored Data",
+          "5 GB",
+          "$0.20 / GB-month"
+        ],
+        [
+          "Read Request Units (KV Storage Backend)",
+          "Not available",
+          "$0.20 / million rows"
+        ],
+        [
+          "Write Request Units (KV Storage Backend)",
+          "Not available",
+          "$1.00 / million rows"
+        ],
+        [
+          "Delete Request Units (KV Storage Backend)",
+          "Not available",
+          "$1.00 / million rows"
+        ],
+        [
+          "Stored Data (KV Storage Backend)",
+          "1 GB",
+          "$0.20 / GB-month"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Component",
+          "Free",
+          "Paid"
+        ],
+        [
+          "Browser Hours",
+          "10 min / day",
+          "$0.09 / hour"
+        ],
+        [
+          "Concurrent Browsers",
+          "3 browsers",
+          "$2.00 / browser"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Component",
+          "Free",
+          "Paid"
+        ],
+        [
+          "Requests",
+          "100k / day",
+          "$0.30 / million requests"
+        ],
+        [
+          "CPU Time",
+          "10 ms / invocation",
+          "$0.02 / million CPU ms"
+        ],
+        [
+          "Storage",
+          "1 GB",
+          "$0.20 / GB-month"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Component",
+          "Free",
+          "Paid"
+        ],
+        [
+          "Dynamic Workers",
+          "—",
+          "$0.002 / Dynamic Worker"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Component",
+          "Free",
+          "Paid"
+        ],
+        [
+          "Standard Storage",
+          "10 GB-month",
+          "$0.015 / GB-month"
+        ],
+        [
+          "Standard Class A operations",
+          "1 million",
+          "$4.50 / million requests"
+        ],
+        [
+          "Standard Class B operations",
+          "10 million",
+          "$0.36 / million requests"
+        ],
+        [
+          "Infrequent Access Storage",
+          "Not available",
+          "$0.01 / GB-month"
+        ],
+        [
+          "Infrequent Access Class A operations",
+          "Not available",
+          "$9.00 / million requests"
+        ],
+        [
+          "Infrequent Access Class B operations",
+          "Not available",
+          "$0.90 / million requests"
+        ],
+        [
+          "Infrequent Access Data Retrieval",
+          "Not available",
+          "$0.01 / GB"
+        ]
+      ]
+    }
+  ],
+  "extract_errors": []
+}

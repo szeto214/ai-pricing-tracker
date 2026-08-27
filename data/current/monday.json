@@ -1,0 +1,114 @@
+{
+  "slug": "monday",
+  "name": "monday.com",
+  "vendor": "monday.com",
+  "category": "productivity",
+  "url": "https://monday.com/pricing",
+  "final_url": "https://monday.com/pricing",
+  "content_hash": "a8b88351f34a06d26deb00fe11ef54c7c89c8fad62f19f7a0b7d947bb61e0cb5",
+  "raw_hash": "f18b1a50fd2145d97cfce669318fa0af0a7401def38b586e97914de77df581f5",
+  "text_bytes": 52780,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Free",
+      "price_raw": "$ 0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "$",
+      "price_raw": "$ 0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Basic",
+      "price_raw": "$ 9",
+      "amount": 9.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Agents take on specialized tasks and support multiple functions for automated execution at scale AI agent workforce Limited",
+        "Sidekick is an intelligent context-aware AI assistant that understands, connects, and runs your work Sidekick AI assistant",
+        "Turn any business need into a custom business app in minutes Vibe app builder"
+      ]
+    },
+    {
+      "name": "$9 x 10 seats =",
+      "price_raw": "$9",
+      "amount": 9.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Standard",
+      "price_raw": "$ 12",
+      "amount": 12.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Agents take on specialized tasks and support multiple functions for automated execution at scale AI agent workforce",
+        "Notetaker keeps your team focused during meetings and turns conversations into actionable insights AI meeting notetaker",
+        "Sidekick is an intelligent context-aware AI assistant that understands, connects, and runs your work Sidekick AI assistant",
+        "Turn any business need into a custom business app in minutes Vibe app builder",
+        "AI columns run your repetitive work directly within your boards, so you can focus on your main priorities AI columns"
+      ]
+    },
+    {
+      "name": "$12 x 10 seats =",
+      "price_raw": "$12",
+      "amount": 12.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Pro",
+      "price_raw": "$ 19",
+      "amount": 19.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Agents take on specialized tasks and support multiple functions for automated execution at scale AI agent workforce",
+        "Notetaker keeps your team focused during meetings and turns conversations into actionable insights AI meeting notetaker",
+        "Sidekick is an intelligent context-aware AI assistant that understands, connects, and runs your work Sidekick AI assistant",
+        "Turn any business need into a custom business app in minutes Vibe app builder",
+        "AI columns run your repetitive work directly within your boards, so you can focus on your main priorities AI columns",
+        "Orchestrate workflows that connect agents and AI and watch work get done across every team AI workflow builder"
+      ]
+    },
+    {
+      "name": "$19 x 10 seats =",
+      "price_raw": "$19",
+      "amount": 19.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "$",
+      "price_raw": "$ 31",
+      "amount": 31.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "$",
+      "price_raw": "$ 45",
+      "amount": 45.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    }
+  ],
+  "tables": [],
+  "extract_errors": []
+}

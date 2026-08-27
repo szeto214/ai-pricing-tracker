@@ -1,0 +1,407 @@
+{
+  "slug": "resend",
+  "name": "Resend",
+  "vendor": "Resend",
+  "category": "dev-infra",
+  "url": "https://resend.com/pricing",
+  "final_url": "https://resend.com/pricing",
+  "content_hash": "767d844c5062795105bf0af5a1e3300acf8f2b37740a6c657373df92c403b530",
+  "raw_hash": "17f917605db97d4172ef65e75837ce1f8dc497cc01824bf5993125ba2c23717e",
+  "text_bytes": 9498,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Domains -",
+      "price_raw": "$20",
+      "amount": 20.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Dedicated IPs -",
+      "price_raw": "$30",
+      "amount": 30.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Sending & receiving",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Deliverability & reliability",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Security & privacy",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Customer support",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "AI credits",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": "month",
+      "features": []
+    }
+  ],
+  "tables": [
+    {
+      "caption": "",
+      "rows": [
+        [
+          "",
+          "Free",
+          "Pro",
+          "Scale",
+          "Enterprise"
+        ],
+        [
+          "Daily limit",
+          "100",
+          "No limit",
+          "No limit",
+          "No limit"
+        ],
+        [
+          "Inbound emails",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "RESTful API",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "SMTP relay",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Official SDKs",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Schedule emails",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Batch sending",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Open tracking",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Link tracking",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "React Email",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "",
+          "Free",
+          "Pro",
+          "Scale",
+          "Enterprise"
+        ],
+        [
+          "Custom domains",
+          "3",
+          "10",
+          "1,000",
+          "Flexible"
+        ],
+        [
+          "Additional domains",
+          "–",
+          "With add-on",
+          "With add-on",
+          "Flexible"
+        ],
+        [
+          "Dedicated IPs",
+          "–",
+          "–",
+          "With add-on",
+          "With add-on"
+        ],
+        [
+          "Dedicated IP warming",
+          "–",
+          "–",
+          "",
+          ""
+        ],
+        [
+          "Pristine shared IPs",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Automatic suppression list",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Bounce details",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Multi-region",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Data retention",
+          "30 days",
+          "30 days",
+          "30 days",
+          "Flexible"
+        ],
+        [
+          "Deliverability insights",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "DKIM, SPF, DMARC authentication",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Webhook endpoints",
+          "1 endpoint",
+          "5 endpoints",
+          "10 endpoints",
+          "Flexible"
+        ],
+        [
+          "Webhook events",
+          "All events",
+          "All events",
+          "All events",
+          "All events"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "",
+          "Free",
+          "Pro",
+          "Scale",
+          "Enterprise"
+        ],
+        [
+          "Social login",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "GDPR compliance",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "SOC 2 Type II certification",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Penetration testing",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "DDoS protection",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Automated backups",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Multi-factor authentication",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "API key permissions",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Signed webhook endpoints",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "",
+          "Free",
+          "Pro",
+          "Scale",
+          "Enterprise"
+        ],
+        [
+          "Ticket support",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Slack support",
+          "–",
+          "–",
+          "",
+          ""
+        ],
+        [
+          "Urgent response SLA",
+          "–",
+          "–",
+          "",
+          ""
+        ],
+        [
+          "Deliverability expertise",
+          "–",
+          "",
+          "",
+          ""
+        ],
+        [
+          "In-app documentation",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "AI assistant",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "",
+          "Free",
+          "Pro",
+          "Scale",
+          "Enterprise"
+        ],
+        [
+          "AI credits / mo",
+          "5",
+          "100",
+          "500",
+          "Flexible"
+        ]
+      ]
+    }
+  ],
+  "extract_errors": []
+}

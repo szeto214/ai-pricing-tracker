@@ -1,0 +1,54 @@
+{
+  "slug": "cohere",
+  "name": "Cohere",
+  "vendor": "Cohere",
+  "category": "ai-api",
+  "url": "https://cohere.com/pricing",
+  "final_url": "https://cohere.com/pricing",
+  "content_hash": "093969d9d289c4eac52dbf62e94e3f11621d191ebc1cb41f530a16db048bebbf",
+  "raw_hash": "617b2fbe4344a686b486fd5f4e047712227badc6c79f56d945e06aab612c057d",
+  "text_bytes": 15899,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Embed 4",
+      "price_raw": "$4.00",
+      "amount": 4.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "When do I get billed?",
+      "price_raw": "$250",
+      "amount": 250.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Where do I find pricing for our legacy models?",
+      "price_raw": "$1.00",
+      "amount": 1.0,
+      "currency": "USD",
+      "period": null,
+      "features": [
+        "Command pricing is $1.00/1M tokens for input and $2.00/1M tokens for output",
+        "Command-light pricing is $0.30/1M tokens for input and $0.60/1M tokens for output",
+        "Command R 03-2024 pricing is $0.50/1M tokens for input and $1.50/1M tokens for output",
+        "Command R+ 04-2024 pricing is $3.00/1M tokens for input and $15.00/1M tokens for output"
+      ]
+    },
+    {
+      "name": "What is the cost for accessing the research Aya ",
+      "price_raw": "$0.50",
+      "amount": 0.5,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    }
+  ],
+  "tables": [],
+  "extract_errors": []
+}

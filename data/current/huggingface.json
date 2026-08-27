@@ -1,0 +1,583 @@
+{
+  "slug": "huggingface",
+  "name": "Hugging Face",
+  "vendor": "Hugging Face",
+  "category": "ai-api",
+  "url": "https://huggingface.co/pricing",
+  "final_url": "https://huggingface.co/pricing",
+  "content_hash": "1e59ae416f772c019e7ec1112ca9106afca17cc65ead143e4b9280262a4c3341",
+  "raw_hash": "2b40bd56596a7cb18a346b888f94267e29ed815a69df2cf2b57677e7e223b5fe",
+  "text_bytes": 23438,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "PRO Account",
+      "price_raw": "$9",
+      "amount": 9.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "10× private storage capacity",
+        "2× public storage capacity",
+        "20× included inference credits",
+        "8× ZeroGPU quota and highest queue priority",
+        "Host ZeroGPU, Gradio & Docker Spaces",
+        "Spaces Dev Mode",
+        "Personal blog publishing",
+        "Dataset Viewer for private datasets",
+        "Show your support with a PRO badge"
+      ]
+    },
+    {
+      "name": "Team",
+      "price_raw": "$20",
+      "amount": 20.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "SSO support (SAML & OIDC)",
+        "Data location control with Storage Regions",
+        "Detailed action reviews with Audit Logs",
+        "Granular access control via Resource Groups",
+        "Repository usage Analytics",
+        "Advanced auth policies and repository visibility controls",
+        "Centralized token control and approvals",
+        "Dataset Viewer for private datasets",
+        "Create Gradio & Docker Spaces, with advanced compute options",
+        "+ All organization members get ZeroGPU and Inference Providers PRO benefits"
+      ]
+    },
+    {
+      "name": "Enterprise",
+      "price_raw": "$50",
+      "amount": 50.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "+ All benefits from the Team plan",
+        "Highest storage, bandwidth, and API rate limits",
+        "Automated user management with SCIM provisioning",
+        "Advanced security and access controls",
+        "Managed billing with annual commitments",
+        "Legal and Compliance processes",
+        "Dedicated support"
+      ]
+    },
+    {
+      "name": "Transparent, volume-based pricing",
+      "price_raw": "$23",
+      "amount": 23.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Transparent, volume-based pricing",
+      "price_raw": "$23",
+      "amount": 23.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Spaces Hardware",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Inference Endpoints",
+      "price_raw": "$0.03",
+      "amount": 0.03,
+      "currency": "USD",
+      "period": "hour",
+      "features": []
+    },
+    {
+      "name": "Intel Sapphire Rapids",
+      "price_raw": "$0.03",
+      "amount": 0.03,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Inf2 Neuron",
+      "price_raw": "$0.75",
+      "amount": 0.75,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "NVIDIA T4",
+      "price_raw": "$0.50",
+      "amount": 0.5,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Do more with Hugging Face PRO",
+      "price_raw": "$9",
+      "amount": 9.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    }
+  ],
+  "tables": [
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Name",
+          "CPU",
+          "Memory",
+          "Accelerator",
+          "VRAM",
+          "Hourly price"
+        ],
+        [
+          "CPU Basic",
+          "2 vCPU",
+          "16 GB",
+          "-",
+          "-",
+          "FREE"
+        ],
+        [
+          "CPU Upgrade",
+          "8 vCPU",
+          "32 GB",
+          "-",
+          "-",
+          "$0.03"
+        ],
+        [
+          "ZeroGPU",
+          "dynamic",
+          "dynamic",
+          "Nvidia RTX Pro 6000 Blackwell",
+          "up to 96 GB",
+          "FREE"
+        ],
+        [
+          "Nvidia T4 - small",
+          "4 vCPU",
+          "15 GB",
+          "Nvidia T4",
+          "16 GB",
+          "$0.40"
+        ],
+        [
+          "Nvidia T4 - medium",
+          "8 vCPU",
+          "30 GB",
+          "Nvidia T4",
+          "16 GB",
+          "$0.60"
+        ],
+        [
+          "1x Nvidia L4",
+          "8 vCPU",
+          "30 GB",
+          "Nvidia L4",
+          "24 GB",
+          "$0.80"
+        ],
+        [
+          "4x Nvidia L4",
+          "48 vCPU",
+          "186 GB",
+          "Nvidia L4",
+          "96 GB",
+          "$3.80"
+        ],
+        [
+          "1x Nvidia L40S",
+          "8 vCPU",
+          "62 GB",
+          "Nvidia L4",
+          "48 GB",
+          "$1.80"
+        ],
+        [
+          "4x Nvidia L40S",
+          "48 vCPU",
+          "382 GB",
+          "Nvidia L4",
+          "192 GB",
+          "$8.30"
+        ],
+        [
+          "8x Nvidia L40S",
+          "192 vCPU",
+          "1534 GB",
+          "Nvidia L4",
+          "384 GB",
+          "$23.50"
+        ],
+        [
+          "Nvidia A10G - small",
+          "4 vCPU",
+          "15 GB",
+          "Nvidia A10G",
+          "24 GB",
+          "$1.00"
+        ],
+        [
+          "Nvidia A10G - large",
+          "12 vCPU",
+          "46 GB",
+          "Nvidia A10G",
+          "24 GB",
+          "$1.50"
+        ],
+        [
+          "2x Nvidia A10G - large",
+          "24 vCPU",
+          "92 GB",
+          "Nvidia A10G",
+          "48 GB",
+          "$3.00"
+        ],
+        [
+          "4x Nvidia A10G - large",
+          "48 vCPU",
+          "184 GB",
+          "Nvidia A10G",
+          "96 GB",
+          "$5.00"
+        ],
+        [
+          "Nvidia A100 - large",
+          "12 vCPU",
+          "142 GB",
+          "Nvidia A100",
+          "80 GB",
+          "$2.50"
+        ],
+        [
+          "4x Nvidia A100",
+          "48 vCPU",
+          "568 GB",
+          "Nvidia A100",
+          "320 GB",
+          "$10.00"
+        ],
+        [
+          "8x Nvidia A100",
+          "96 vCPU",
+          "1136 GB",
+          "Nvidia A100",
+          "640 GB",
+          "$20.00"
+        ],
+        [
+          "Custom",
+          "on demand",
+          "on demand",
+          "on demand",
+          "on demand",
+          "on demand"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Intel Sapphire Rapids aws",
+          "1",
+          "2GB",
+          "$0.03"
+        ],
+        [
+          "",
+          "2",
+          "4GB",
+          "$0.07"
+        ],
+        [
+          "",
+          "4",
+          "8GB",
+          "$0.13"
+        ],
+        [
+          "",
+          "8",
+          "16GB",
+          "$0.27"
+        ],
+        [
+          "",
+          "16",
+          "32GB",
+          "$0.54"
+        ],
+        [
+          "Intel Xeon azure",
+          "1",
+          "2GB",
+          "$0.06"
+        ],
+        [
+          "",
+          "2",
+          "4GB",
+          "$0.12"
+        ],
+        [
+          "",
+          "4",
+          "8GB",
+          "$0.24"
+        ],
+        [
+          "",
+          "8",
+          "16GB",
+          "$0.48"
+        ],
+        [
+          "Intel Sapphire Rapids gcp",
+          "1",
+          "2GB",
+          "$0.05"
+        ],
+        [
+          "",
+          "2",
+          "4GB",
+          "$0.10"
+        ],
+        [
+          "",
+          "4",
+          "8GB",
+          "$0.20"
+        ],
+        [
+          "",
+          "8",
+          "16GB",
+          "$0.40"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Inf2 Neuron aws",
+          "x1",
+          "14.5GB",
+          "$0.75"
+        ],
+        [
+          "",
+          "x1-large",
+          "124GB",
+          "$1.95"
+        ],
+        [
+          "",
+          "x12",
+          "760GB",
+          "$12.00"
+        ],
+        [
+          "TPU v5e gcp",
+          "1x1",
+          "16GB",
+          "$1.20"
+        ],
+        [
+          "",
+          "2x2",
+          "64GB",
+          "$4.75"
+        ],
+        [
+          "",
+          "2x4",
+          "128GB",
+          "$9.50"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "NVIDIA T4 aws",
+          "1",
+          "14GB",
+          "$0.50"
+        ],
+        [
+          "",
+          "4",
+          "56GB",
+          "$3.00"
+        ],
+        [
+          "NVIDIA L4 aws",
+          "1",
+          "24GB",
+          "$0.80"
+        ],
+        [
+          "",
+          "4",
+          "96GB",
+          "$3.80"
+        ],
+        [
+          "NVIDIA L40S aws",
+          "1",
+          "48GB",
+          "$1.80"
+        ],
+        [
+          "",
+          "4",
+          "192GB",
+          "$8.30"
+        ],
+        [
+          "",
+          "8",
+          "384GB",
+          "$23.50"
+        ],
+        [
+          "NVIDIA A100 aws",
+          "1",
+          "80GB",
+          "$2.50"
+        ],
+        [
+          "",
+          "2",
+          "160GB",
+          "$5.00"
+        ],
+        [
+          "",
+          "4",
+          "320GB",
+          "$10.00"
+        ],
+        [
+          "",
+          "8",
+          "640GB",
+          "$20.00"
+        ],
+        [
+          "NVIDIA H100 aws",
+          "1",
+          "80GB",
+          "$4.50"
+        ],
+        [
+          "",
+          "2",
+          "160GB",
+          "$9.00"
+        ],
+        [
+          "",
+          "4",
+          "320GB",
+          "$18.00"
+        ],
+        [
+          "",
+          "8",
+          "640GB",
+          "$36.00"
+        ],
+        [
+          "NVIDIA H200 aws",
+          "1",
+          "141GB",
+          "$5.00"
+        ],
+        [
+          "",
+          "2",
+          "282GB",
+          "$10.00"
+        ],
+        [
+          "",
+          "4",
+          "564GB",
+          "$20.00"
+        ],
+        [
+          "",
+          "8",
+          "1128GB",
+          "$40.00"
+        ],
+        [
+          "NVIDIA B200 aws",
+          "1",
+          "179GB",
+          "$9.25"
+        ],
+        [
+          "",
+          "2",
+          "358GB",
+          "$18.50"
+        ],
+        [
+          "",
+          "4",
+          "716GB",
+          "$37.00"
+        ],
+        [
+          "",
+          "8",
+          "1432GB",
+          "$74.00"
+        ],
+        [
+          "NVIDIA RTX PRO 6000 aws",
+          "1",
+          "96GB",
+          "$2.75"
+        ],
+        [
+          "",
+          "2",
+          "192GB",
+          "$5.50"
+        ],
+        [
+          "",
+          "4",
+          "384GB",
+          "$11.00"
+        ],
+        [
+          "",
+          "8",
+          "768GB",
+          "$22.00"
+        ]
+      ]
+    }
+  ],
+  "extract_errors": []
+}

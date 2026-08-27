@@ -1,0 +1,586 @@
+{
+  "slug": "upstash",
+  "name": "Upstash",
+  "vendor": "Upstash",
+  "category": "database",
+  "url": "https://upstash.com/pricing",
+  "final_url": "https://upstash.com/pricing/redis",
+  "content_hash": "5ab26bf23c009ed4195afa51b046cc68b442e15f27235decf93019f56060fea8",
+  "raw_hash": "acd18678ef822619f8d9c206a50ef835510cac2cdeab9298875cfc1dccc0825b",
+  "text_bytes": 13029,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Free",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Pay as You Go",
+      "price_raw": "$0.2",
+      "amount": 0.2,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Fixed 250MB",
+      "price_raw": "$10",
+      "amount": 10.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Prod Pack",
+      "price_raw": "$200",
+      "amount": 200.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Enterprise",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Free",
+      "price_raw": "$0.2",
+      "amount": 0.2,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Are read and write commands same price?",
+      "price_raw": "$0.4",
+      "amount": 0.4,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "How is the storage cost calculated?",
+      "price_raw": "$0.25",
+      "amount": 0.25,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "How many databases can I create?",
+      "price_raw": "$0.5",
+      "amount": 0.5,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "How much is the price for bandwidth?",
+      "price_raw": "$0.03",
+      "amount": 0.03,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Does enabling multi-zone high availability chang",
+      "price_raw": "$0.03",
+      "amount": 0.03,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "What happened to the Pro 2K and Pro 10K plans?",
+      "price_raw": "$280",
+      "amount": 280.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Upstash Redis pricing — all plans",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Commands: $0.20 per 100K commands",
+        "Storage: $0.25 per GB (first 1 GB free)",
+        "Bandwidth: Free up to 200 GB/month, then $0.03/GB",
+        "Max data size: 100 GB",
+        "Max request size: 10 MB",
+        "Max record size: 100 MB",
+        "Platforms: AWS, GCP, FLY, Vercel"
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "caption": "",
+      "rows": [
+        [
+          "",
+          "1 Free DB",
+          "Usage Based Pricing",
+          "Fixed Pricing",
+          "Fixed Pricing"
+        ],
+        [
+          "",
+          "Free Free Pay as you go Fixed 250MB Fixed 1GB Fixed 5GB Fixed 10GB Fixed 50GB Fixed 100GB Fixed 500GB Enterprise -",
+          "Pay as you go Free Pay as you go Fixed 250MB Fixed 1GB Fixed 5GB Fixed 10GB Fixed 50GB Fixed 100GB Fixed 500GB Enterprise $0.2 / 100K commands",
+          "Fixed 250MB Fixed 1GB Fixed 5GB Fixed 10GB Fixed 50GB Fixed 100GB Fixed 500GB Free Pay as you go Fixed 250MB Fixed 1GB Fixed 5GB Fixed 10GB Fixed 50GB Fixed 100",
+          "Enterprise Free Pay as you go Fixed 250MB Fixed 1GB Fixed 5GB Fixed 10GB Fixed 50GB Fixed 100GB Fixed 500GB Enterprise -"
+        ],
+        [
+          "Capacity"
+        ],
+        [
+          "Max commands per second",
+          "10,000",
+          "10,000",
+          "10,000",
+          "Custom"
+        ],
+        [
+          "Max request size",
+          "10 MB",
+          "10 MB",
+          "10 MB",
+          "500 MB"
+        ],
+        [
+          "Max record size",
+          "100 MB",
+          "100 MB",
+          "100 MB",
+          "5 GB"
+        ],
+        [
+          "Max data size",
+          "256 MB",
+          "100 GB",
+          "250 MB",
+          "10 TB"
+        ],
+        [
+          "Max monthly bandwidth",
+          "10 GB",
+          "Unlimited",
+          "50 GB",
+          "Unlimited"
+        ],
+        [
+          "Max index count",
+          "1",
+          "10",
+          "2",
+          "Custom"
+        ],
+        [
+          "Max documents per index",
+          "10K",
+          "1M",
+          "100K",
+          "Custom"
+        ],
+        [
+          "Max Databases",
+          "1",
+          "100",
+          "100",
+          "Custom"
+        ],
+        [
+          "Features"
+        ],
+        [
+          "Supported platforms",
+          "AWS GCP Vercel",
+          "AWS GCP FLY Vercel",
+          "AWS GCP Vercel",
+          "AWS GCP FLY Vercel"
+        ],
+        [
+          "Persistence",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "REST API",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Global replication",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Strong consistency",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "High Availability",
+          "Primary Replicas",
+          "Primary Replicas",
+          "Primary Replicas",
+          "Primary and Read Replicas"
+        ],
+        [
+          "Multi-Zone HA",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Uptime SLA",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Security and Privacy"
+        ],
+        [
+          "TLS Encryption",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "IP Allowlist",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "ACL",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Encryption at rest",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "SOC-2 Compliance",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Private Link",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "SAML Single Sign-On (SSO)",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "HIPAA Compliance",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Observability"
+        ],
+        [
+          "Grafana Integration",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Datadog Integration",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "New Relic Integration",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Access Logging",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Support"
+        ],
+        [
+          "Community Support",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Email Support",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Dedicated support and Slack channel",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Price"
+        ],
+        [
+          "Monthly price",
+          "Free",
+          "-",
+          "$10 +($5 ✕ read regions)",
+          "Custom"
+        ],
+        [
+          "Request price",
+          "Free",
+          "$0.2 per 100K",
+          "No per-command pricing",
+          "Custom"
+        ],
+        [
+          "Storage price",
+          "Free",
+          "$0.25 per GB",
+          "-",
+          "Custom"
+        ],
+        [
+          "Bandwidth price",
+          "Free",
+          "Free",
+          "-",
+          "Custom"
+        ],
+        [
+          "",
+          "Start Now",
+          "Start Now",
+          "Start Now",
+          "Learn More"
+        ]
+      ]
+    },
+    {
+      "caption": "Plan overview",
+      "rows": [
+        [
+          "Plan",
+          "Price",
+          "Read region",
+          "Max data",
+          "Max bandwidth"
+        ],
+        [
+          "Free",
+          "$0/month",
+          "-",
+          "256 MB",
+          "10 GB"
+        ],
+        [
+          "Pay as You Go",
+          "$0.20 per 100K commands",
+          "-",
+          "100 GB",
+          "Unlimited"
+        ],
+        [
+          "Fixed 250MB",
+          "$10/month",
+          "+$5/region",
+          "250 MB",
+          "50 GB"
+        ],
+        [
+          "Fixed 1GB",
+          "$20/month",
+          "+$10/region",
+          "1 GB",
+          "100 GB"
+        ],
+        [
+          "Fixed 5GB",
+          "$100/month",
+          "+$50/region",
+          "5 GB",
+          "500 GB"
+        ],
+        [
+          "Fixed 10GB",
+          "$200/month",
+          "+$100/region",
+          "10 GB",
+          "1 TB"
+        ],
+        [
+          "Fixed 50GB",
+          "$400/month",
+          "+$200/region",
+          "50 GB",
+          "5 TB"
+        ],
+        [
+          "Fixed 100GB",
+          "$800/month",
+          "+$400/region",
+          "100 GB",
+          "10 TB"
+        ],
+        [
+          "Fixed 500GB",
+          "$1500/month",
+          "+$750/region",
+          "500 GB",
+          "20 TB"
+        ],
+        [
+          "Enterprise",
+          "Custom",
+          "-",
+          "10 TB",
+          "Unlimited"
+        ]
+      ]
+    },
+    {
+      "caption": "Fixed plans — all tiers",
+      "rows": [
+        [
+          "Tier",
+          "Monthly price",
+          "Per read region",
+          "Max data",
+          "Max bandwidth",
+          "Max commands/sec",
+          "Max request size",
+          "Max record size"
+        ],
+        [
+          "Fixed 250MB",
+          "$ 10 /month",
+          "+$ 5 /region",
+          "250 MB",
+          "50 GB",
+          "10,000",
+          "10 MB",
+          "100 MB"
+        ],
+        [
+          "Fixed 1GB",
+          "$ 20 /month",
+          "+$ 10 /region",
+          "1 GB",
+          "100 GB",
+          "10,000",
+          "10 MB",
+          "200 MB"
+        ],
+        [
+          "Fixed 5GB",
+          "$ 100 /month",
+          "+$ 50 /region",
+          "5 GB",
+          "500 GB",
+          "10,000",
+          "20 MB",
+          "300 MB"
+        ],
+        [
+          "Fixed 10GB",
+          "$ 200 /month",
+          "+$ 100 /region",
+          "10 GB",
+          "1 TB",
+          "10,000",
+          "30 MB",
+          "400 MB"
+        ],
+        [
+          "Fixed 50GB",
+          "$ 400 /month",
+          "+$ 200 /region",
+          "50 GB",
+          "5 TB",
+          "10,000",
+          "50 MB",
+          "500 MB"
+        ],
+        [
+          "Fixed 100GB",
+          "$ 800 /month",
+          "+$ 400 /region",
+          "100 GB",
+          "10 TB",
+          "16,000",
+          "75 MB",
+          "1 GB"
+        ],
+        [
+          "Fixed 500GB",
+          "$ 1500 /month",
+          "+$ 750 /region",
+          "500 GB",
+          "20 TB",
+          "16,000",
+          "100 MB",
+          "5 GB"
+        ]
+      ]
+    }
+  ],
+  "extract_errors": []
+}

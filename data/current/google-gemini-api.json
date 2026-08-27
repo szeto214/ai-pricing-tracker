@@ -1,0 +1,435 @@
+{
+  "slug": "google-gemini-api",
+  "name": "Gemini API",
+  "vendor": "Google",
+  "category": "ai-api",
+  "url": "https://ai.google.dev/pricing",
+  "final_url": "https://ai.google.dev/gemini-api/docs/pricing",
+  "content_hash": "9946ae3f08be993b517ce43e10139999d4f8f851e03d6d15a254410672420f8f",
+  "raw_hash": "3008c621a7b15a61d9df05ee0295a88fe164e46df783dc737a8d3fe4255bf6e9",
+  "text_bytes": 53779,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Free",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": [
+        "check_circle Limited access to certain models",
+        "check_circle Free input & output tokens",
+        "check_circle Google AI Studio access",
+        "check_circle Content used to improve our products *"
+      ]
+    },
+    {
+      "name": "Standard",
+      "price_raw": "$0.75",
+      "amount": 0.75,
+      "currency": "USD",
+      "period": "hour",
+      "features": []
+    },
+    {
+      "name": "Batch",
+      "price_raw": "$0.37",
+      "amount": 0.37,
+      "currency": "USD",
+      "period": "hour",
+      "features": []
+    },
+    {
+      "name": "Flex",
+      "price_raw": "$0.37",
+      "amount": 0.37,
+      "currency": "USD",
+      "period": "hour",
+      "features": []
+    },
+    {
+      "name": "Priority",
+      "price_raw": "$1.35",
+      "amount": 1.35,
+      "currency": "USD",
+      "period": "hour",
+      "features": []
+    },
+    {
+      "name": "Standard",
+      "price_raw": "$1.50",
+      "amount": 1.5,
+      "currency": "USD",
+      "period": "hour",
+      "features": []
+    },
+    {
+      "name": "Batch",
+      "price_raw": "$0.75",
+      "amount": 0.75,
+      "currency": "USD",
+      "period": "hour",
+      "features": []
+    },
+    {
+      "name": "Flex",
+      "price_raw": "$0.75",
+      "amount": 0.75,
+      "currency": "USD",
+      "period": "hour",
+      "features": []
+    },
+    {
+      "name": "Priority",
+      "price_raw": "$2.70",
+      "amount": 2.7,
+      "currency": "USD",
+      "period": "hour",
+      "features": []
+    },
+    {
+      "name": "Standard",
+      "price_raw": "$3.50",
+      "amount": 3.5,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "*",
+      "price_raw": "$0.03",
+      "amount": 0.03,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "*",
+      "price_raw": "$0.00",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Standard",
+      "price_raw": "$2.00",
+      "amount": 2.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Standard",
+      "price_raw": "$0.30",
+      "amount": 0.3,
+      "currency": "USD",
+      "period": "hour",
+      "features": []
+    }
+  ],
+  "tables": [
+    {
+      "caption": "",
+      "rows": [
+        [
+          "",
+          "Free Tier",
+          "Paid Tier, per 1M tokens in USD"
+        ],
+        [
+          "Input price",
+          "Free of charge",
+          "$0.75 through December 31, 2026. $1.50 starting January 1, 2027."
+        ],
+        [
+          "Output price (including thinking tokens)",
+          "Free of charge",
+          "$3.75 through December 31, 2026. $7.50 starting January 1, 2027."
+        ],
+        [
+          "Context caching price",
+          "Free of charge",
+          "$0.075 through December 31, 2026. $0.15 starting January 1, 2027. $0.50 / 1,000,000 tokens per hour (storage price) through December 31, 2026. $1.00 / 1,000,000"
+        ],
+        [
+          "Grounding with Google Search *",
+          "Not available",
+          "5,000 free search requests per month (shared across all Gemini 3.x models), then $14 per 1,000 requests."
+        ],
+        [
+          "Grounding with Google Maps",
+          "Not available",
+          "5,000 prompts per month (free, shared across Gemini 3), then $14 / 1,000 search queries"
+        ],
+        [
+          "Used to improve our products",
+          "Yes",
+          "No"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "",
+          "Free Tier",
+          "Paid Tier, per 1M tokens in USD"
+        ],
+        [
+          "Input price",
+          "Not available",
+          "$0.375 through December 31, 2026. $0.75 starting January 1, 2027."
+        ],
+        [
+          "Output price (including thinking tokens)",
+          "Not available",
+          "$1.875 through December 31, 2026. $3.75 starting January 1, 2027."
+        ],
+        [
+          "Context caching price",
+          "Not available",
+          "$0.0375 through December 31, 2026. $0.075 starting January 1, 2027. $0.50 / 1,000,000 tokens per hour (storage price) through December 31, 2026. $1.00 / 1,000,0"
+        ],
+        [
+          "Used to improve our products",
+          "Yes",
+          "No"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "",
+          "Free Tier",
+          "Paid Tier, per 1M tokens in USD"
+        ],
+        [
+          "Input price",
+          "Not available",
+          "$0.375 through December 31, 2026. $0.75 starting January 1, 2027."
+        ],
+        [
+          "Output price (including thinking tokens)",
+          "Not available",
+          "$1.875 through December 31, 2026. $3.75 starting January 1, 2027."
+        ],
+        [
+          "Context caching price",
+          "Not available",
+          "$0.0375 through December 31, 2026. $0.075 starting January 1, 2027. $0.50 / 1,000,000 tokens per hour (storage price) through December 31, 2026. $1.00 / 1,000,0"
+        ],
+        [
+          "Used to improve our products",
+          "Yes",
+          "No"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "",
+          "Free Tier",
+          "Paid Tier, per 1M tokens in USD"
+        ],
+        [
+          "Input price",
+          "Free of charge",
+          "$1.35 through December 31, 2026. $2.70 starting January 1, 2027."
+        ],
+        [
+          "Output price (including thinking tokens)",
+          "Free of charge",
+          "$6.75 through December 31, 2026. $13.50 starting January 1, 2027."
+        ],
+        [
+          "Context caching price",
+          "Free of charge",
+          "$0.135 through December 31, 2026. $0.27 starting January 1, 2027. $0.50 / 1,000,000 tokens per hour (storage price) through December 31, 2026. $1.00 / 1,000,000"
+        ],
+        [
+          "Grounding with Google Search *",
+          "Not available **",
+          "5,000 free search requests per month (shared across all Gemini 3.x models), then $14 per 1,000 requests."
+        ],
+        [
+          "Grounding with Google Maps",
+          "Not available **",
+          "5,000 prompts per month (free, shared across Gemini 3), then $14 / 1,000 search queries"
+        ],
+        [
+          "Used to improve our products",
+          "Yes",
+          "No"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "",
+          "Free Tier",
+          "Paid Tier, per 1M tokens in USD"
+        ],
+        [
+          "Input price",
+          "Free of charge",
+          "$0.75 through December 31, 2026. $1.50 starting January 1, 2027."
+        ],
+        [
+          "Output price (including thinking tokens)",
+          "Free of charge",
+          "$3.75 through December 31, 2026. $7.50 starting January 1, 2027."
+        ],
+        [
+          "Context caching price",
+          "Free of charge",
+          "$0.075 through December 31, 2026. $0.15 starting January 1, 2027. $0.50 / 1,000,000 tokens per hour (storage price) through December 31, 2026. $1.00 / 1,000,000"
+        ],
+        [
+          "Grounding with Google Search *",
+          "Not available **",
+          "5,000 free search requests per month (shared across all Gemini 3.x models), then $14 per 1,000 requests."
+        ],
+        [
+          "Grounding with Google Maps",
+          "Not available **",
+          "5,000 prompts per month (free, shared across Gemini 3), then $14 / 1,000 search queries"
+        ],
+        [
+          "Used to improve our products",
+          "Yes",
+          "No"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "",
+          "Free Tier",
+          "Paid Tier, per 1M tokens in USD"
+        ],
+        [
+          "Input price",
+          "Not available",
+          "$0.375 through December 31, 2026. $0.75 starting January 1, 2027."
+        ],
+        [
+          "Output price (including thinking tokens)",
+          "Not available",
+          "$1.875 through December 31, 2026. $3.75 starting January 1, 2027."
+        ],
+        [
+          "Context caching price",
+          "Not available",
+          "$0.0375 through December 31, 2026. $0.075 starting January 1, 2027. $0.50 / 1,000,000 tokens per hour (storage price) through December 31, 2026. $1.00 / 1,000,0"
+        ],
+        [
+          "Grounding with Google Search *",
+          "Not available **",
+          "5,000 free search requests per month (shared across all Gemini 3.x models), then $14 per 1,000 requests."
+        ],
+        [
+          "Grounding with Google Maps",
+          "Not available **",
+          "5,000 requests per month (free, shared across Gemini 3), then $14 / 1,000 search queries"
+        ],
+        [
+          "Used to improve our products",
+          "Yes",
+          "No"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "",
+          "Free Tier",
+          "Paid Tier, per 1M tokens in USD"
+        ],
+        [
+          "Input price",
+          "Not available",
+          "$0.375 through December 31, 2026. $0.75 starting January 1, 2027."
+        ],
+        [
+          "Output price (including thinking tokens)",
+          "Not available",
+          "$1.875 through December 31, 2026. $3.75 starting January 1, 2027."
+        ],
+        [
+          "Context caching price",
+          "Not available",
+          "$0.0375 through December 31, 2026. $0.075 starting January 1, 2027. $0.50 / 1,000,000 tokens per hour (storage price) through December 31, 2026. $1.00 / 1,000,0"
+        ],
+        [
+          "Grounding with Google Search *",
+          "Not available **",
+          "5,000 free search requests per month (shared across all Gemini 3.x models), then $14 per 1,000 requests."
+        ],
+        [
+          "Grounding with Google Maps",
+          "Not available **",
+          "5,000 requests per month (free, shared across Gemini 3), then $14 / 1,000 search queries"
+        ],
+        [
+          "Used to improve our products",
+          "Yes",
+          "No"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "",
+          "Free Tier",
+          "Paid Tier, per 1M tokens in USD"
+        ],
+        [
+          "Input price",
+          "Free of charge",
+          "$1.35 through December 31, 2026. $2.70 starting January 1, 2027."
+        ],
+        [
+          "Output price (including thinking tokens)",
+          "Free of charge",
+          "$6.75 through December 31, 2026. $13.50 starting January 1, 2027."
+        ],
+        [
+          "Context caching price",
+          "Free of charge",
+          "$0.135 through December 31, 2026. $0.27 starting January 1, 2027. $0.50 / 1,000,000 tokens per hour (storage price) through December 31, 2026. $1.00 / 1,000,000"
+        ],
+        [
+          "Grounding with Google Search *",
+          "Not available **",
+          "5,000 free search requests per month (shared across all Gemini 3.x models), then $14 per 1,000 requests."
+        ],
+        [
+          "Grounding with Google Maps",
+          "Not available **",
+          "5,000 prompts per month (free, shared across Gemini 3), then $14 / 1,000 search queries"
+        ],
+        [
+          "Used to improve our products",
+          "Yes",
+          "No"
+        ]
+      ]
+    }
+  ],
+  "extract_errors": []
+}

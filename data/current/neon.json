@@ -1,0 +1,184 @@
+{
+  "slug": "neon",
+  "name": "Neon",
+  "vendor": "Neon",
+  "category": "database",
+  "url": "https://neon.com/pricing",
+  "final_url": "https://neon.com/pricing",
+  "content_hash": "06274397e577901b46cd67b54527c5adf7a08dde4422f16175908018f527f6de",
+  "raw_hash": "2012a97de7b68f2899a6a33ce89f7dc2663a728e2649496d680e70f407642ba7",
+  "text_bytes": 20413,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Free",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "$0",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Launch",
+      "price_raw": "$ 15",
+      "amount": 15.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "100 projects",
+        "$0.106 per CU-hr",
+        "$0.35 per GB-month",
+        "Sizes up to 16 CU (64 GB RAM)",
+        "3-day metrics/logs in UI",
+        "Managed Better Auth",
+        "Object Storage Beta",
+        "Functions Beta",
+        "AI Gateway Beta"
+      ]
+    },
+    {
+      "name": "Scale",
+      "price_raw": "$ 701",
+      "amount": 701.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "1,000+ projects",
+        "$0.222 per CU-hr",
+        "$0.35 per GB-month",
+        "Sizes up to 56 CU (224 GB RAM)",
+        "SLAs, HIPAA, private network",
+        "Managed Better Auth",
+        "Object Storage Beta",
+        "Functions Beta",
+        "AI Gateway Beta"
+      ]
+    },
+    {
+      "name": "Early-stage startups",
+      "price_raw": "$100k",
+      "amount": 100000.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Free",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Launch",
+      "price_raw": "$0.00",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "100",
+        "$0.002 per branch-hour",
+        "$0.106 per CU-hour",
+        "Up to 16 CU (64 GB RAM)",
+        "After 5 minutes can be disabled",
+        "$0.35 per GB-month",
+        "$0.20 per GB-month based on volume of data changes during your selected history window",
+        "Up to 7 days",
+        "100 snapshots $0.09/GB-month",
+        "Daily/Weekly/Monthly $0.09/GB-month",
+        "Up to 1M MAUs If you're planning to go beyond that, contact us",
+        "$0.023 per GB-month No charges during beta",
+        "Compute $0.10 per active capacity-hour $0.025 per waiting capacity-hour Invocations $0.60 per 1M invocations Charges No charges during beta",
+        "No charges applied during beta. Pricing will match model provider",
+        "500 GB per project included then $0.10/GB",
+        "3 days",
+        "Unlimited",
+        "Billing Support"
+      ]
+    },
+    {
+      "name": "Scale",
+      "price_raw": "$0.00",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "1,000",
+        "$0.002 per branch-hour",
+        "$0.222 per CU-hour",
+        "Up to 56 CU (224 GB RAM)",
+        "Configurable",
+        "$0.35 per GB-month",
+        "$0.20 per GB-month based on volume of data changes during your selected history window",
+        "Up to 30 days",
+        "100 snapshots $0.09/GB-month",
+        "Daily/Weekly/Monthly $0.09/GB-month",
+        "Up to 1M MAUs If you're planning to go beyond that, contact us",
+        "$0.023 per GB-month No charges during beta",
+        "Compute $0.12 per active capacity-hour $0.03 per waiting capacity-hour Invocations $0.60 per 1M invocations Charges No charges during beta",
+        "No charges applied during beta. Pricing will match model provider",
+        "500 GB per project included then $0.10/GB",
+        "$0.01 per GB",
+        "14 days",
+        "Included",
+        "Available",
+        "Available",
+        "Unlimited",
+        "Multiple options"
+      ]
+    },
+    {
+      "name": "What is a CU-hour?",
+      "price_raw": "$0.10",
+      "amount": 0.1,
+      "currency": "USD",
+      "period": null,
+      "features": [
+        "How many compute endpoints are you running",
+        "How large your compute endpoints are (in CUs)",
+        "How long they run (in hours)",
+        "Launch plan: $0.106 per CU-hour",
+        "Scale plan: $0.222 per CU-hour"
+      ]
+    },
+    {
+      "name": "How is Postgres database storage billed in Neon?",
+      "price_raw": "$0.20",
+      "amount": 0.2,
+      "currency": "USD",
+      "period": null,
+      "features": [
+        "Root branches are billed based on their actual data size (for example, 5 GB)",
+        "A child branch that has no data changes compared to its parent and is still within the history window does not incur additional database storage costs.",
+        "As a child branch accumulates changes over time, its storage usage increases.",
+        "If a child branch falls out of the history window, it becomes as expensive as a root branch, since it no longer shares storage with its parent."
+      ]
+    },
+    {
+      "name": "How are extra branches billed?",
+      "price_raw": "$1.50",
+      "amount": 1.5,
+      "currency": "USD",
+      "period": "hour",
+      "features": [
+        "If the total number of concurrent branches in a project exceeds your plan's allowance, the extra branches are billed as branch-months, prorated hourly.",
+        "The price is $1.50 per extra branch-month (≈ $0.002 per hour)",
+        "You're only billed for branches that exceed your included limit, and only for the time they exist.",
+        "Use branch expiration. Set automatic deletion times on temporary branches so they're cleaned up when no longer needed.",
+        "Automate cleanup. Use the Neon API or Neon CLI to periodically delete unused branches and stay within your included allowance."
+      ]
+    }
+  ],
+  "tables": [],
+  "extract_errors": []
+}

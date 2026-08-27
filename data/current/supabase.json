@@ -1,0 +1,857 @@
+{
+  "slug": "supabase",
+  "name": "Supabase",
+  "vendor": "Supabase",
+  "category": "database",
+  "url": "https://supabase.com/pricing",
+  "final_url": "https://supabase.com/pricing",
+  "content_hash": "e80d23705ef1b59a3ee143c53aca6cccd7adcf727927e325a8e60d2ea2bf4d83",
+  "raw_hash": "d3ea832b42a869a97777f4ad6041f330ec29738324f04ba6210dd2a31d645bc0",
+  "text_bytes": 17793,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Free",
+      "price_raw": "$ 0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Pro",
+      "price_raw": "$ 25",
+      "amount": 25.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Team",
+      "price_raw": "$ 599",
+      "amount": 599.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "2. Configure compute for your projects",
+      "price_raw": "$ 25",
+      "amount": 25.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Scale compute up to 64 cores and 256 GB RAM",
+      "price_raw": "$10",
+      "amount": 10.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Micro",
+      "price_raw": "$10",
+      "amount": 10.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Small",
+      "price_raw": "$15",
+      "amount": 15.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Medium",
+      "price_raw": "$60",
+      "amount": 60.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Large",
+      "price_raw": "$110",
+      "amount": 110.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "XL",
+      "price_raw": "$210",
+      "amount": 210.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "2XL",
+      "price_raw": "$410",
+      "amount": 410.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "4XL",
+      "price_raw": "$960",
+      "amount": 960.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "8XL",
+      "price_raw": "$1,870",
+      "amount": 1870.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "12XL",
+      "price_raw": "$2,800",
+      "amount": 2800.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "16XL",
+      "price_raw": "$3,730",
+      "amount": 3730.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Compute Size",
+      "price_raw": "$10",
+      "amount": 10.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Choose the best compute size for you",
+      "price_raw": "$10",
+      "amount": 10.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Advanced disk configurations",
+      "price_raw": "$0.12",
+      "amount": 0.12,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    }
+  ],
+  "tables": [
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Compute Size",
+          "Price USD",
+          "CPU",
+          "Dedicated",
+          "Memory",
+          "Connections: Direct",
+          "Connections: Pooler"
+        ],
+        [
+          "First instance is free on paid plans"
+        ],
+        [
+          "Micro",
+          "$10",
+          "2-core ARM",
+          "Not included in Free Plan",
+          "1 GB",
+          "60",
+          "200"
+        ],
+        [
+          "Small",
+          "$15",
+          "2-core ARM",
+          "Not included in Free Plan",
+          "2 GB",
+          "90",
+          "400"
+        ],
+        [
+          "Medium",
+          "$60",
+          "2-core ARM",
+          "Not included in Free Plan",
+          "4 GB",
+          "120",
+          "600"
+        ],
+        [
+          "Large",
+          "$110",
+          "2-core ARM",
+          "Included in Pro Plan",
+          "8 GB",
+          "160",
+          "800"
+        ],
+        [
+          "XL",
+          "$210",
+          "4-core ARM",
+          "Included in Pro Plan",
+          "16 GB",
+          "240",
+          "1,000"
+        ],
+        [
+          "2XL",
+          "$410",
+          "8-core ARM",
+          "Included in Pro Plan",
+          "32 GB",
+          "380",
+          "1,500"
+        ],
+        [
+          "4XL",
+          "$960",
+          "16-core ARM",
+          "Included in Pro Plan",
+          "64 GB",
+          "480",
+          "3,000"
+        ],
+        [
+          "8XL",
+          "$1,870",
+          "32-core ARM",
+          "Included in Pro Plan",
+          "128 GB",
+          "490",
+          "6,000"
+        ],
+        [
+          "12XL",
+          "$2,800",
+          "48-core ARM",
+          "Included in Pro Plan",
+          "192 GB",
+          "500",
+          "9,000"
+        ],
+        [
+          "16XL",
+          "$3,730",
+          "64-core ARM",
+          "Included in Pro Plan",
+          "256 GB",
+          "500",
+          "12,000"
+        ],
+        [
+          ">16XL",
+          "Contact Us",
+          "Custom",
+          "Included in Pro Plan",
+          "Custom",
+          "Custom",
+          "Custom"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Compute Size",
+          "Micro"
+        ],
+        [
+          "Price USD",
+          "$10"
+        ],
+        [
+          "CPU",
+          "2-core ARM"
+        ],
+        [
+          "Dedicated",
+          "Not included in Free Plan"
+        ],
+        [
+          "Memory",
+          "1 GB"
+        ],
+        [
+          "Connections: Direct",
+          "60"
+        ],
+        [
+          "Connections: Pooler",
+          "200"
+        ],
+        [
+          "Plan",
+          "Small"
+        ],
+        [
+          "Price USD",
+          "$15"
+        ],
+        [
+          "CPU",
+          "2-core ARM"
+        ],
+        [
+          "Dedicated",
+          "Not included in Free Plan"
+        ],
+        [
+          "Memory",
+          "2 GB"
+        ],
+        [
+          "Connections: Direct (recommended)",
+          "90"
+        ],
+        [
+          "Connections: Pooler (recommended)",
+          "400"
+        ],
+        [
+          "Plan",
+          "Medium"
+        ],
+        [
+          "Price USD",
+          "$60"
+        ],
+        [
+          "CPU",
+          "2-core ARM"
+        ],
+        [
+          "Dedicated",
+          "Not included in Free Plan"
+        ],
+        [
+          "Memory",
+          "4 GB"
+        ],
+        [
+          "Connections: Direct (recommended)",
+          "120"
+        ],
+        [
+          "Connections: Pooler (recommended)",
+          "600"
+        ],
+        [
+          "Plan",
+          "Large"
+        ],
+        [
+          "Price USD",
+          "$110"
+        ],
+        [
+          "CPU",
+          "2-core ARM"
+        ],
+        [
+          "Dedicated",
+          "Included in Pro Plan"
+        ],
+        [
+          "Memory",
+          "8 GB"
+        ],
+        [
+          "Connections: Direct (recommended)",
+          "160"
+        ],
+        [
+          "Connections: Pooler (recommended)",
+          "800"
+        ],
+        [
+          "Plan",
+          "XL"
+        ],
+        [
+          "Price USD",
+          "$210"
+        ],
+        [
+          "CPU",
+          "4-core ARM"
+        ],
+        [
+          "Dedicated",
+          "Included in Pro Plan"
+        ],
+        [
+          "Memory",
+          "16 GB"
+        ],
+        [
+          "Connections: Direct (recommended)",
+          "240"
+        ],
+        [
+          "Connections: Pooler (recommended)",
+          "1,000"
+        ],
+        [
+          "Plan",
+          "2XL"
+        ],
+        [
+          "Price USD",
+          "$410"
+        ],
+        [
+          "CPU",
+          "8-core ARM"
+        ],
+        [
+          "Dedicated",
+          "Included in Pro Plan"
+        ],
+        [
+          "Memory",
+          "32 GB"
+        ],
+        [
+          "Connections: Direct (recommended)",
+          "380"
+        ],
+        [
+          "Connections: Pooler (recommended)",
+          "1,500"
+        ],
+        [
+          "Plan",
+          "4XL"
+        ],
+        [
+          "Price USD",
+          "$960"
+        ],
+        [
+          "CPU",
+          "16-core ARM"
+        ],
+        [
+          "Dedicated",
+          "Included in Pro Plan"
+        ],
+        [
+          "Memory",
+          "64 GB"
+        ],
+        [
+          "Connections: Direct (recommended)",
+          "480"
+        ],
+        [
+          "Connections: Pooler (recommended)",
+          "3,000"
+        ],
+        [
+          "Plan",
+          "8XL"
+        ],
+        [
+          "Price USD",
+          "$1,870"
+        ],
+        [
+          "CPU",
+          "32-core ARM"
+        ],
+        [
+          "Dedicated",
+          "Included in Pro Plan"
+        ],
+        [
+          "Memory",
+          "128 GB"
+        ],
+        [
+          "Connections: Direct (recommended)",
+          "490"
+        ],
+        [
+          "Connections: Pooler (recommended)",
+          "6,000"
+        ],
+        [
+          "Plan",
+          "12XL"
+        ],
+        [
+          "Price USD",
+          "$2,800"
+        ],
+        [
+          "CPU",
+          "48-core ARM"
+        ],
+        [
+          "Dedicated",
+          "Included in Pro Plan"
+        ],
+        [
+          "Memory",
+          "192 GB"
+        ],
+        [
+          "Connections: Direct (recommended)",
+          "500"
+        ],
+        [
+          "Connections: Pooler (recommended)",
+          "9,000"
+        ],
+        [
+          "Plan",
+          "16XL"
+        ],
+        [
+          "Price USD",
+          "$3,730"
+        ],
+        [
+          "CPU",
+          "64-core ARM"
+        ],
+        [
+          "Dedicated",
+          "Included in Pro Plan"
+        ],
+        [
+          "Memory",
+          "256 GB"
+        ],
+        [
+          "Connections: Direct (recommended)",
+          "500"
+        ],
+        [
+          "Connections: Pooler (recommended)",
+          "12,000"
+        ],
+        [
+          "Plan",
+          ">16XL"
+        ],
+        [
+          "Price USD",
+          "Contact Us"
+        ],
+        [
+          "CPU",
+          "Custom"
+        ],
+        [
+          "Dedicated",
+          "Included in Pro Plan"
+        ],
+        [
+          "Memory",
+          "Custom"
+        ],
+        [
+          "Connections: Direct (recommended)",
+          "Custom"
+        ],
+        [
+          "Connections: Pooler (recommended)",
+          "Custom"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "",
+          "Max Size",
+          "Size",
+          "IOPS",
+          "Throughput",
+          "Durability"
+        ],
+        [
+          "General Purpose Balance between price and performance",
+          "16 TB",
+          "8 GB included\nthen $0.125 per GB",
+          "3,000 IOPS included\nthen $0.024 per IOPS",
+          "125 MB/s included\nthen $0.095 per MB/s",
+          "99.9%"
+        ],
+        [
+          "High Performance For mission critical applications",
+          "60 TB",
+          "$0.195 per GB",
+          "$0.119 per IOPS",
+          "Scales automatically with IOPS",
+          "99.999%"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Disk Type",
+          "General Purpose"
+        ],
+        [
+          "Max Size",
+          "16 TB"
+        ],
+        [
+          "Size",
+          "8 GB included\nthen $0.125 per GB"
+        ],
+        [
+          "IOPS",
+          "3,000 IOPS included\nthen $0.024 per IOPS"
+        ],
+        [
+          "Throughput",
+          "125 MB/s included\nthen $0.095 per MB/s"
+        ],
+        [
+          "Durability",
+          "99.9%"
+        ],
+        [
+          "Disk Type",
+          "High Performance"
+        ],
+        [
+          "Max Size",
+          "60 TB"
+        ],
+        [
+          "Size",
+          "$0.195 per GB"
+        ],
+        [
+          "IOPS",
+          "$0.119 per IOPS"
+        ],
+        [
+          "Throughput",
+          "Scales automatically with IOPS"
+        ],
+        [
+          "Durability",
+          "99.999%"
+        ]
+      ]
+    },
+    {
+      "caption": "Database",
+      "rows": [
+        [
+          "Feature",
+          "Included"
+        ],
+        [
+          "Dedicated Postgres Database",
+          "Included in free"
+        ],
+        [
+          "Unlimited API requests",
+          "Included in free"
+        ],
+        [
+          "Database size",
+          "500 MB database size per project included"
+        ],
+        [
+          "Advanced disk config",
+          "Not included in free"
+        ],
+        [
+          "Automatic backups",
+          "Not included in free"
+        ],
+        [
+          "Point in time recovery",
+          "Not included in free"
+        ],
+        [
+          "Pausing",
+          "After 1 week of inactivity"
+        ],
+        [
+          "Branching",
+          "Not included in free"
+        ],
+        [
+          "Egress",
+          "5 GB included"
+        ],
+        [
+          "Pipelines",
+          "Not included in free"
+        ]
+      ]
+    },
+    {
+      "caption": "Auth",
+      "rows": [
+        [
+          "Feature",
+          "Included"
+        ],
+        [
+          "Total Users",
+          "Unlimited"
+        ],
+        [
+          "MAUs",
+          "50,000 included"
+        ],
+        [
+          "User data ownership",
+          "Included in free"
+        ],
+        [
+          "Anonymous Sign-ins",
+          "Included in free"
+        ],
+        [
+          "Social OAuth providers",
+          "Included in free"
+        ],
+        [
+          "Custom SMTP server",
+          "Included in free"
+        ],
+        [
+          "Remove Supabase branding from emails",
+          "Not included in free"
+        ],
+        [
+          "Auth Audit Logs",
+          "1 hour"
+        ],
+        [
+          "Basic Multi-Factor Auth",
+          "Included in free"
+        ],
+        [
+          "Advanced Multi-Factor Auth - Phone",
+          "Not included in free"
+        ],
+        [
+          "Third-Party MAUs",
+          "50,000 included"
+        ],
+        [
+          "Single Sign-On (SAML 2.0)",
+          "Not included in free"
+        ],
+        [
+          "Leaked password protection",
+          "Not included in free"
+        ],
+        [
+          "Single session per user",
+          "Not included in free"
+        ],
+        [
+          "Session timeouts",
+          "Not included in free"
+        ],
+        [
+          "Auth Hooks",
+          "Custom Access Token (JWT), Send custom email/SMS"
+        ],
+        [
+          "Advanced security features",
+          "Not included in free"
+        ]
+      ]
+    },
+    {
+      "caption": "Storage",
+      "rows": [
+        [
+          "Feature",
+          "Included"
+        ],
+        [
+          "Storage",
+          "1 GB included"
+        ],
+        [
+          "Cached Egress",
+          "5 GB included"
+        ],
+        [
+          "Custom access controls",
+          "Included in free"
+        ],
+        [
+          "Max file upload size",
+          "50 MB"
+        ],
+        [
+          "Content Delivery Network",
+          "Basic CDN"
+        ],
+        [
+          "Image Transformations",
+          "Not included in free"
+        ]
+      ]
+    },
+    {
+      "caption": "Realtime",
+      "rows": [
+        [
+          "Feature",
+          "Included"
+        ],
+        [
+          "Postgres Changes",
+          "Included in free"
+        ],
+        [
+          "Concurrent Peak Connections",
+          "200 included"
+        ],
+        [
+          "Messages Per Month",
+          "2 Million included"
+        ],
+        [
+          "Max Message Size",
+          "256 KB"
+        ]
+      ]
+    }
+  ],
+  "extract_errors": []
+}

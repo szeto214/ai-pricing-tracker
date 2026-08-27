@@ -1,0 +1,198 @@
+{
+  "slug": "fireworks-ai",
+  "name": "Fireworks AI",
+  "vendor": "Fireworks",
+  "category": "ai-api",
+  "url": "https://fireworks.ai/pricing",
+  "final_url": "https://fireworks.ai/pricing",
+  "content_hash": "950fdbea6d01e28e62c8b8950ef741279994ef651cbc0b8beaa5cf21ccb47c18",
+  "raw_hash": "efec624fc22788ad01fb47d9316c447256cc5be5820c26a74acc13b9f8f8974c",
+  "text_bytes": 3961,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Serverless Inference",
+      "price_raw": "$1",
+      "amount": 1.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Embeddings",
+      "price_raw": "$0.00",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Managed Training",
+      "price_raw": "$0.50",
+      "amount": 0.5,
+      "currency": "USD",
+      "period": null,
+      "features": [
+        "• Fine-tuning with images (VLM supervised fine-tuning) is also billed per 1M tokens. See this FAQ on calculating image tokens."
+      ]
+    },
+    {
+      "name": "Serverless Training API",
+      "price_raw": "$0.66",
+      "amount": 0.66,
+      "currency": "USD",
+      "period": null,
+      "features": [
+        "• Checkpoint storage for serverless models is included during private preview.",
+        "• Other frontier models are coming soon to the Serverless Training API catalog."
+      ]
+    },
+    {
+      "name": "On demand deployments",
+      "price_raw": "$7.00",
+      "amount": 7.0,
+      "currency": "USD",
+      "period": "hour",
+      "features": [
+        "• Region-restricted deployments are priced at a 1.5x premium. Contact Sales to get started."
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Base model parameter count",
+          "$ / 1M input tokens"
+        ],
+        [
+          "up to 150M",
+          "$0.008"
+        ],
+        [
+          "150M - 350M",
+          "$0.016"
+        ],
+        [
+          "Qwen3 8B",
+          "$0.1"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Base Model",
+          "LoRA SFT",
+          "LoRA DPO",
+          "Full Param SFT",
+          "Full Param DPO"
+        ],
+        [
+          "Models up to 16B parameters",
+          "$0.50",
+          "$1.00",
+          "$1.00",
+          "$2.00"
+        ],
+        [
+          "Models 16.1B - 80B",
+          "$3.00",
+          "$6.00",
+          "$6.00",
+          "$12.00"
+        ],
+        [
+          "Models 80B - 300B (e.g. Qwen3-235B, gpt-oss-120B)",
+          "$6.00",
+          "$12.00",
+          "$12.00",
+          "$24.00"
+        ],
+        [
+          "Models >300B (e.g. DeepSeek V3, Kimi K2)",
+          "$10.00",
+          "$20.00",
+          "$20.00",
+          "$40.00"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Base Model",
+          "Context",
+          "Prefill / 1M",
+          "Cached Prefill / 1M",
+          "Sample / 1M",
+          "Train / 1M"
+        ],
+        [
+          "Qwen 3.5 9B",
+          "64k",
+          "$0.66",
+          "$0.132",
+          "$1.995",
+          "$1.463"
+        ],
+        [
+          "Qwen 3.6 27B",
+          "128k",
+          "$1.86",
+          "$0.372",
+          "$5.595",
+          "$4.103"
+        ],
+        [
+          "Kimi K3",
+          "192k",
+          "$10.87",
+          "$2.17",
+          "$27.11",
+          "$32.55"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "GPU Type",
+          "Price ($) per hour - upto Aug 31",
+          "Price ($) per hour - from Sep 1"
+        ],
+        [
+          "H100 80 GB GPU",
+          "$7.00",
+          "$8.00"
+        ],
+        [
+          "H200 141 GB GPU",
+          "$7.00",
+          "$8.00"
+        ],
+        [
+          "B200 180 GB GPU",
+          "$10.00",
+          "$13.00"
+        ],
+        [
+          "B300 288 GB GPU",
+          "$12.00",
+          "$15.00"
+        ],
+        [
+          "GB300 288 GB GPU",
+          "$18.00",
+          "$20.00"
+        ]
+      ]
+    }
+  ],
+  "extract_errors": []
+}

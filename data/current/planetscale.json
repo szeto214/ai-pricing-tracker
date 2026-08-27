@@ -1,0 +1,98 @@
+{
+  "slug": "planetscale",
+  "name": "PlanetScale",
+  "vendor": "PlanetScale",
+  "category": "database",
+  "url": "https://planetscale.com/pricing",
+  "final_url": "https://planetscale.com/pricing",
+  "content_hash": "24aef00649bb0e37de8154010a835d34f31007998e1d16826e47001dd74f58ae",
+  "raw_hash": "da38af97dbe1c118adce79b7c3431af99309f4599a97f8aa141d13b3ff1f4bf4",
+  "text_bytes": 7271,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Cluster type",
+      "price_raw": "$15",
+      "amount": 15.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Egress bandwidth",
+      "price_raw": "$0.06",
+      "amount": 0.06,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Region",
+      "price_raw": "$15",
+      "amount": 15.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "PlanetScale Postgres",
+      "price_raw": "$5",
+      "amount": 5.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Base ↓",
+        "Enterprise ↓"
+      ]
+    },
+    {
+      "name": "Base Plan",
+      "price_raw": "$5",
+      "amount": 5.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Single node — Starting at $5/month for development and low-traffic workloads",
+        "Metal — Starting at $50/month with local NVMe storage for high-performance needs",
+        "High Availability — 1 primary + 2 replicas across 3 availability zones",
+        "Instance and VTGate sizes",
+        "Storage amount — Included for Metal databases. For network-attached storage databases, the first 10 GB is free, with per-GB pricing beyond that. See the pricing calculator for details.",
+        "Add-ons — Additional development branch hours, SSO, upgraded support"
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Includes 3 nodes",
+          "CPU",
+          "Memory"
+        ],
+        [
+          "1× primary database",
+          "1/16 vCPU",
+          "512 MB"
+        ],
+        [
+          "2× replica databases",
+          "1/16 vCPU",
+          "512 MB"
+        ],
+        [
+          "",
+          "1/16 vCPU",
+          "512 MB"
+        ],
+        [
+          "Total resources",
+          "3/16 vCPU",
+          "1.5 GB"
+        ]
+      ]
+    }
+  ],
+  "extract_errors": []
+}

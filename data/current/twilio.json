@@ -1,0 +1,57 @@
+{
+  "slug": "twilio",
+  "name": "Twilio",
+  "vendor": "Twilio",
+  "category": "dev-infra",
+  "url": "https://www.twilio.com/en-us/pricing",
+  "final_url": "https://www.twilio.com/en-us/pricing",
+  "content_hash": "77ba556c63b6e8afd8a21c2d7235bfd5b9b5f25a1350b4009112ab925e6f757f",
+  "raw_hash": "03397c519043adcab7e11d7c4f6952420e95b8d6964f4e0d3f239c84ac0962f7",
+  "text_bytes": 13109,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Conversations",
+      "price_raw": "$0.00",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Communications",
+      "price_raw": "$0.00",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Authentication",
+      "price_raw": "$0.05",
+      "amount": 0.05,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Customer Data",
+      "price_raw": "$120",
+      "amount": 120.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Builder tools",
+      "price_raw": "$0.00",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "request",
+      "features": []
+    }
+  ],
+  "tables": [],
+  "extract_errors": []
+}

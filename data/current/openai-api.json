@@ -1,0 +1,482 @@
+{
+  "slug": "openai-api",
+  "name": "OpenAI API",
+  "vendor": "OpenAI",
+  "category": "ai-api",
+  "url": "https://platform.openai.com/docs/pricing",
+  "final_url": "https://developers.openai.com/api/docs/pricing",
+  "content_hash": "a9b89e4afddc4803a5f6764ded7b026fddc42ec6ebe6d0b1eeb4ae9b7617a6e5",
+  "raw_hash": "5fe01cd0a4a58dd05404c5e172ac56d1aa43a54893625407b6e7c5486e2605d7",
+  "text_bytes": 7922,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "gpt-5.6-sol",
+      "price_raw": "$4.00",
+      "amount": 4.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "gpt-5.6-terra",
+      "price_raw": "$2.00",
+      "amount": 2.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "gpt-5.6-luna",
+      "price_raw": "$0.20",
+      "amount": 0.2,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "gpt-5.6-cyber",
+      "price_raw": "$12.50",
+      "amount": 12.5,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "gpt-realtime-2.1",
+      "price_raw": "$32.00",
+      "amount": 32.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "gpt-realtime-2.1-mini",
+      "price_raw": "$10.00",
+      "amount": 10.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "gpt-image-2",
+      "price_raw": "$8.00",
+      "amount": 8.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "sora-2",
+      "price_raw": "$0.10",
+      "amount": 0.1,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "gpt-realtime-translate",
+      "price_raw": "$0.03",
+      "amount": 0.03,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "gpt-live-transcribe",
+      "price_raw": "$0.01",
+      "amount": 0.01,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "gpt-realtime-whisper",
+      "price_raw": "$0.01",
+      "amount": 0.01,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "gpt-transcribe",
+      "price_raw": "$0.00",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "gpt-4o-transcribe",
+      "price_raw": "$2.50",
+      "amount": 2.5,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "gpt-4o-mini-transcribe",
+      "price_raw": "$1.25",
+      "amount": 1.25,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "$10.00 / 1k calls",
+      "price_raw": "$10.00",
+      "amount": 10.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "$25.00 / 1k calls",
+      "price_raw": "$25.00",
+      "amount": 25.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    }
+  ],
+  "tables": [
+    {
+      "caption": "",
+      "rows": [
+        [
+          "",
+          "Short context",
+          "Long context"
+        ],
+        [
+          "Model",
+          "Input",
+          "Cached input",
+          "Cache writes",
+          "Output",
+          "Input",
+          "Cached input",
+          "Cache writes",
+          "Output"
+        ],
+        [
+          "gpt-5.6-sol",
+          "$4.00",
+          "$0.40",
+          "$5.00",
+          "$20.00",
+          "$8.00",
+          "$0.80",
+          "$10.00",
+          "$30.00"
+        ],
+        [
+          "gpt-5.6-terra",
+          "$2.00",
+          "$0.20",
+          "$2.50",
+          "$12.00",
+          "$4.00",
+          "$0.40",
+          "$5.00",
+          "$18.00"
+        ],
+        [
+          "gpt-5.6-luna",
+          "$0.20",
+          "$0.02",
+          "$0.25",
+          "$1.20",
+          "$0.40",
+          "$0.04",
+          "$0.50",
+          "$1.80"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "",
+          "Short context",
+          "Long context"
+        ],
+        [
+          "Model",
+          "Input",
+          "Cached input",
+          "Cache writes",
+          "Output",
+          "Input",
+          "Cached input",
+          "Cache writes",
+          "Output"
+        ],
+        [
+          "gpt-5.6-sol",
+          "$4.00",
+          "$0.40",
+          "$5.00",
+          "$20.00",
+          "$8.00",
+          "$0.80",
+          "$10.00",
+          "$30.00"
+        ],
+        [
+          "gpt-5.6-cyber",
+          "$12.50",
+          "$1.25",
+          "$15.625",
+          "$75.00",
+          "-",
+          "-",
+          "-",
+          "-"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Model",
+          "Modality",
+          "Input",
+          "Cached input",
+          "Output / cost"
+        ],
+        [
+          "gpt-realtime-2.1",
+          "Audio",
+          "$32.00",
+          "$0.40",
+          "$64.00"
+        ],
+        [
+          "Text",
+          "$4.00",
+          "$0.40",
+          "$24.00"
+        ],
+        [
+          "Image",
+          "$5.00",
+          "$0.50",
+          "-"
+        ],
+        [
+          "gpt-realtime-2.1-mini",
+          "Audio",
+          "$10.00",
+          "$0.30",
+          "$20.00"
+        ],
+        [
+          "Text",
+          "$0.60",
+          "$0.06",
+          "$2.40"
+        ],
+        [
+          "Image",
+          "$0.80",
+          "$0.08",
+          "-"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Model",
+          "Modality",
+          "Input",
+          "Cached input",
+          "Output"
+        ],
+        [
+          "gpt-image-2",
+          "Image",
+          "$8.00",
+          "$2.00",
+          "$30.00"
+        ],
+        [
+          "Text",
+          "$5.00",
+          "$1.25",
+          "-"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Model",
+          "Size",
+          "Portrait",
+          "Landscape",
+          "Price per second"
+        ],
+        [
+          "sora-2",
+          "720p",
+          "720x1280",
+          "1280x720",
+          "$0.10"
+        ],
+        [
+          "sora-2-pro",
+          "720p",
+          "720x1280",
+          "1280x720",
+          "$0.30"
+        ],
+        [
+          "1024p",
+          "1024x1792",
+          "1792x1024",
+          "$0.50"
+        ],
+        [
+          "1080p",
+          "1080x1920",
+          "1920x1080",
+          "$0.70"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Model",
+          "Use case",
+          "Input",
+          "Output",
+          "Estimated cost"
+        ],
+        [
+          "gpt-realtime-translate",
+          "Live translation",
+          "-",
+          "-",
+          "$0.034 / minute"
+        ],
+        [
+          "gpt-live-transcribe",
+          "Live transcription",
+          "-",
+          "-",
+          "$0.017 / minute"
+        ],
+        [
+          "gpt-realtime-whisper",
+          "Live transcription",
+          "-",
+          "-",
+          "$0.017 / minute"
+        ],
+        [
+          "gpt-transcribe",
+          "Transcription",
+          "-",
+          "-",
+          "$0.0045 / minute"
+        ],
+        [
+          "gpt-4o-transcribe",
+          "Transcription",
+          "$2.50",
+          "$10.00",
+          "$0.006 / minute"
+        ],
+        [
+          "gpt-4o-mini-transcribe",
+          "Transcription",
+          "$1.25",
+          "$5.00",
+          "$0.003 / minute"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Tool",
+          "Details",
+          "Pricing"
+        ],
+        [
+          "Web search",
+          "Web search (all models)",
+          "$10.00 / 1k calls + Search content tokens billed at model rates."
+        ],
+        [
+          "Image Web search (all models)",
+          "$10.00 / 1k calls + Search content tokens billed at model rates."
+        ],
+        [
+          "Web search preview (reasoning models, including gpt-5 , o-series )",
+          "$10.00 / 1k calls + Search content tokens billed at model rates."
+        ],
+        [
+          "Web search preview (non-reasoning models)",
+          "$25.00 / 1k calls + Search content tokens are free."
+        ],
+        [
+          "Containers",
+          "Hosted Shell and Code Interpreter",
+          "1 GB $0.03, 4 GB $0.12, 16 GB $0.48, 64 GB $1.92 per 20-minute session per container."
+        ],
+        [
+          "File search",
+          "Storage",
+          "$0.10 / GB per day (1 GB free)"
+        ],
+        [
+          "Tool call",
+          "$2.50 / 1k calls"
+        ],
+        [
+          "Agent Kit",
+          "ChatKit file and image upload storage",
+          "$0.10 / GB-day after 1 GB free per account per month"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Category",
+          "Model",
+          "Input",
+          "Cached input",
+          "Output"
+        ],
+        [
+          "ChatGPT",
+          "chat-latest",
+          "$5.00",
+          "$0.50",
+          "$30.00"
+        ],
+        [
+          "Codex",
+          "gpt-5.3-codex",
+          "$1.75",
+          "$0.175",
+          "$14.00"
+        ]
+      ]
+    }
+  ],
+  "extract_errors": []
+}

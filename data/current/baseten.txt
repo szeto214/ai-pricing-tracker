@@ -1,0 +1,477 @@
+Try the new DeepSeek V4 Pro 0813 today. Frontier intelligence at a fraction of the cost.
+Here
+Products
+Solutions
+Resources
+Research
+Customers
+Pricing
+Models
+Docs
+Log in
+Get started
+Pricing built for growth
+Production inference that won't break your product or your bank.
+Start building
+Talk to an engineer
+Basic
+Deploy custom, fine-tuned, and open-source models
+Included in Basic:
+Dedicated deployments
+Model APIs
+Training
+Fast cold starts
+SOC 2 Type II and HIPAA compliant
+Email and in-app chat support
+Deployment options
+Baseten
+$0 per month, pay as you go
+Get started
+Pro
+Unlimited autoscaling and priority compute access
+Everything in Basic plus:
+Priority access to high-demand GPUs
+Dedicated compute
+Higher Model API rate limits
+Hands-on engineering expertise
+Dedicated support on Slack and Zoom
+Deployment options
+Baseten
+Volume discounts available
+Get a quote
+Enterprise
+Full control in your cloud and ours
+Everything in Pro plus:
+Custom SLAs
+Self-host deployments
+On-demand flex compute
+Use existing cloud commitments
+Full control over data residency
+Advanced security and compliance
+Custom global regions
+Advanced RBAC with Teams
+Deployment options
+Baseten
+Your VPC
+Hybrid
+Volume discounts available
+Get a quote
+Pricing
+Best-in-class model performance, effortless autoscaling, and blazing fast cold starts mean you get the most out of each GPU, saving money along the way.
+Model APIs
+Instant access to pre-optimized models running on the Baseten Inference Stack.
+Price per
+1M tokens
+Model
+Input
+Cache Input
+Output
+GLM-5.3-Flash
+GLM-5.3-Flash
+$0.15
+$0.15
+$0.03
+$0.03
+$0.50
+Try Model API
+Try Model API
+$0.50
+Try
+GLM-5.2
+GLM-5.2
+$1.40
+$1.40
+$0.14
+$0.14
+$4.40
+Try Model API
+Try Model API
+$4.40
+Try
+GLM-5.2 Fast
+GLM-5.2 Fast
+$2.10
+$2.10
+$0.21
+$0.21
+$6.60
+Try Model API
+Try Model API
+$6.60
+Try
+GLM 4.7
+GLM 4.7
+$0.60
+$0.60
+$0.12
+$0.12
+$2.20
+Try Model API
+Try Model API
+$2.20
+Try
+DeepSeek V4 Pro 0813
+DeepSeek V4 Pro 0813
+$1.32
+$1.32
+$0.132
+$0.132
+$3.96
+Try Model API
+Try Model API
+$3.96
+Try
+DeepSeek V4 Pro
+DeepSeek V4 Pro
+$1.74
+$1.74
+$0.145
+$0.145
+$3.48
+Try Model API
+Try Model API
+$3.48
+Try
+DeepSeek-V4-Flash-0731
+DeepSeek-V4-Flash-0731
+$0.13
+$0.13
+$0.028
+$0.028
+$0.26
+Try Model API
+Try Model API
+$0.26
+Try
+Kimi K3
+Kimi K3
+$3.00
+$3.00
+$0.30
+$0.30
+$15.00
+Try Model API
+Try Model API
+$15.00
+Try
+Kimi K2.6
+Kimi K2.6
+$0.95
+$0.95
+$0.16
+$0.16
+$4.00
+Try Model API
+Try Model API
+$4.00
+Try
+Kimi K2.7 Code
+Kimi K2.7 Code
+$0.95
+$0.95
+$0.16
+$0.16
+$4.00
+Try Model API
+Try Model API
+$4.00
+Try
+Inkling-Small
+Inkling-Small
+$0.50
+$0.50
+$0.10
+$0.10
+$1.20
+Try Model API
+Try Model API
+$1.20
+Try
+Inkling
+Inkling
+$1.00
+$1.00
+$0.17
+$0.17
+$4.05
+Try Model API
+Try Model API
+$4.05
+Try
+NVIDIA Nemotron 3 Ultra
+NVIDIA Nemotron 3 Ultra
+$0.60
+$0.60
+$0.12
+$0.12
+$2.40
+Try Model API
+Try Model API
+$2.40
+Try
+GPT OSS 120B
+GPT OSS 120B
+$0.10
+$0.10
+-
+-
+$0.50
+Try Model API
+Try Model API
+$0.50
+Try
+Dedicated Deployments
+Only pay for the compute you use, down to the minute.
+Volume discounts available
+Price per
+Minute
+Hour
+GPU Instances
+Price
+T4
+16 GiB VM
+$0.01052
+Deploy
+Deploy
+L4
+24 GiB VRAM
+$0.01414
+Deploy
+Deploy
+A10G
+24 GiB VM
+$0.02012
+Deploy
+Deploy
+A100
+80 GiB VRAM
+$0.06667
+Deploy
+Deploy
+H100 MIG
+40 GiB VRAM
+$0.0625
+Deploy
+Deploy
+H100
+80 GiB VRAM
+$0.10833
+Deploy
+Deploy
+B200
+180 GiB VRAM
+$0.16633
+Deploy
+Deploy
+CPU Instances
+Price
+1x2
+1 vCPU, 2 GiB RAM
+$0.00058
+Deploy
+Deploy
+1x4
+1 vCPU, 4 GiB RAM
+$0.00086
+Deploy
+Deploy
+2x8
+2 vCPUs, 8 GiB RAM
+$0.00173
+Deploy
+Deploy
+4x16
+4 vCPUs, 16 GiB RAM
+$0.00346
+Deploy
+Deploy
+8x32
+8 vCPUs, 32 GiB RAM
+$0.00691
+Deploy
+Deploy
+16x64
+16 vCPUs, 64 GiB RAM
+$0.01382
+Deploy
+Deploy
+Talk to Sales about compute in other countries and regions.
+Training
+On-demand compute, devex, and infrastructure for your training jobs.
+Volume discounts available
+Price per
+Minute
+Hour
+GPU Instances
+Price
+T4
+16 GiB VM
+$0.01052
+Start Training
+Start Training
+L4
+24 GiB VRAM
+$0.01414
+Start Training
+Start Training
+A10G
+24 GiB VM
+$0.02012
+Start Training
+Start Training
+A100
+80 GiB VRAM
+$0.06667
+Start Training
+Start Training
+H100 MIG
+40 GiB VRAM
+$0.0625
+Start Training
+Start Training
+H100
+80 GiB VRAM
+$0.10833
+Start Training
+Start Training
+B200
+180 GiB VRAM
+$0.16633
+Start Training
+Start Training
+Talk to Sales about compute in other countries and regions.
+Common questions
+Contact us
+Which models can I run on Baseten?
+You can deploy open source and custom models on Baseten. Start with an off-the-shelf model
+from our model library
+. Or deploy any model using
+Truss
+, our open source standard for packaging and serving models built in any framework.
+Which GPUs are available on Baseten?
+You have control over what GPUs your models use.
+See our instance type reference
+for a full list of the GPUs currently available on Baseten. Reach out to us to request additional GPU types.
+Do you offer free credits to get started?
+Yes, new Baseten accounts come with credits so you can get to know the UI and experiment with deployments for free.
+Is Baseten secure?
+Yes, Baseten is SOC 2 Type II certified and HIPAA compliant.
+You can read more about our SOC 2 Type II certification here
+. And
+you can read more about our HIPAA compliance here
+.
+Do I pay for idle time on Baseten?
+No, you do not pay for idle time – you only pay for the time your model is using compute on Baseten. This includes the time your model is actively deploying, scaling up or down, or making predictions. And
+you have full control
+over how your model scales up or down.
+What level of customer support do you offer?
+Customer support levels vary by plan. We offer email, in-app chat, Slack, and Zoom support. We also offer dedicated forward-deployed engineering support.
+Reach out to our team
+to figure out a customer support level that works for your needs.
+Do you offer discounts on compute?
+Yes, discounts on compute can be negotiated as part of our Pro and Enterprise plans.
+Reach out to our team
+to learn more.
+Can I deploy Baseten on my own infrastructure?
+Yes, you can self-host Baseten in order to manage security and use your own cloud commitments.
+Talk to our engineers
+to learn more.
+Explore Baseten today
+Start deploying
+Talk to an engineer
+Product
+Dedicated Inference
+Model APIs
+Training
+Model Labs
+Baseten Inference Platform
+Model Runtimes
+Infrastructure
+Multi-cloud
+Deployment options
+Cloud
+Self-hosted
+Hybrid
+Embedded engineering
+Forward deployed engineers
+Modalities
+Transcription
+Image Generation
+Text-to-speech
+Large language models
+Compound AI
+Embeddings
+Industries
+Enterprise
+Healthcare
+Developer
+Model library
+Documentation
+Changelog
+Resources
+Research
+Customers
+Blog
+Guides
+Events
+Partners
+Savings calculator
+Trust Center
+About us
+Startups
+Careers
+Contact us
+Legal
+Terms and Conditions
+Privacy Policy
+Service Level Agreement
+all systems normal
+© 2026 Baseten
+Product
+Dedicated Inference
+Model APIs
+Training
+Model Labs
+Baseten Inference Platform
+Model Runtimes
+Infrastructure
+Multi-cloud
+Deployment options
+Cloud
+Self-hosted
+Hybrid
+Embedded engineering
+Forward deployed engineers
+Modalities
+Transcription
+Image Generation
+Text-to-speech
+Large language models
+Compound AI
+Embeddings
+Industries
+Enterprise
+Healthcare
+Developer
+Model library
+Documentation
+Changelog
+Resources
+Research
+Customers
+Blog
+Guides
+Events
+Partners
+Savings calculator
+Trust Center
+About us
+Startups
+Careers
+Contact us
+Legal
+Terms and Conditions
+Privacy Policy
+Service Level Agreement
+all systems normal
+© 2026 Baseten

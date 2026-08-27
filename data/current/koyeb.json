@@ -1,0 +1,69 @@
+{
+  "slug": "koyeb",
+  "name": "Koyeb",
+  "vendor": "Koyeb",
+  "category": "dev-infra",
+  "url": "https://www.koyeb.com/pricing",
+  "final_url": "https://www.koyeb.com/pricing",
+  "content_hash": "8376aa26c612e593011941aaa8feb46abd3c75033ef8227d2a14d33cab81d2f0",
+  "raw_hash": "bd849c40e331eef5f9cf7284c8fec561176b3f08fc056dfc4432cf802cae2ece",
+  "text_bytes": 9179,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Designed for Growth",
+      "price_raw": "$ 29",
+      "amount": 29.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "$10 included compute",
+        "10 users",
+        "100 services",
+        "NVMe Volumes and Snapshots",
+        "5 concurrent builds",
+        "E-mail support and chat",
+        "$100 included compute",
+        "50 users",
+        "1000 services",
+        "AWS Regions",
+        "Slack cross-connect",
+        "99.9% uptime SLA",
+        "Private dedicated locations",
+        "Unlimited users",
+        "SSO, RBAC, and Audit trail",
+        "Custom RAM, CPU, and GPU",
+        "ISO27001 and SOC2 Certifications",
+        "99.99% uptime SLA",
+        "24×7×365 premium support"
+      ]
+    },
+    {
+      "name": "Serverless Postgres",
+      "price_raw": "$0.50",
+      "amount": 0.5,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Features",
+      "price_raw": "$ 29",
+      "amount": 29.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Frequently Asked Questions",
+      "price_raw": "$0.00",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    }
+  ],
+  "tables": [],
+  "extract_errors": []
+}

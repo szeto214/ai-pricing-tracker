@@ -1,0 +1,2546 @@
+Search overlay panel for performing site-wide searches
+Build Your Next Big Thing on Heroku.
+Sign Up Now!
+Search
+Open Search Popup
+Account menu
+Dashboard
+Databases
+Dataclips
+Elements
+Documentation
+Support
+Dashboard
+Login
+Sign Up
+Products
+Products
+Discover Heroku’s PaaS (Platform as a Service), designed for effortless app deployment and scaling. Explore our cloud application platform features, reliable managed data services, and a robust ecosystem to power your modern applications.
+Heroku Platform
+Deploy, manage, and scale apps on Heroku, a PaaS based on a managed container system.
+Heroku AI
+Build intelligent applications with managed inference and agents, MCP, and more.
+Heroku Data Services
+Simplify your data management with Heroku’s fully managed cloud databases and data services.
+Heroku Enterprise
+The Heroku experience developers love, with the enterprise features large companies need.
+Heroku Success
+Explore Heroku’s support options from Standard to Signature, with resources for developers and partners.
+Heroku Elements Marketplace
+Accelerate your app development with our ecosystem of add-ons, integrations, and buildpacks.
+Latest News from the Heroku Blog
+6 Lesser-Known Heroku CLI Commands You Probably Aren’t Using
+Last Updated: August 25, 2026
+Andy Smith
+Improving developer experience in the command line relies on minimizing context switches. While most engineers use the Heroku CLI strictly for basic tasks like pushing code, it contains a powerful suite of command line tools built to optimize your workflow. If you want to keep your focus locked on writing code, these six Heroku CLI commands will instantly upgrade your daily productivity.
+Developers
+Developers
+With Heroku's flexible app platform, you can focus on building apps, not infrastructure. Benefit from a meticulously designed developer experience, a polyglot platform supporting your favorite languages, and innovative PaaS features to enhance your development workflow.
+Dev Center
+Dive into our comprehensive documentation and guides. Learn about building, deploying, managing, and scaling your apps.
+Languages
+Python
+.NET
+Java
+Node.js
+Go
+PHP
+Ruby
+Scala
+Clojure
+Latest News from the Heroku Blog
+6 Lesser-Known Heroku CLI Commands You Probably Aren’t Using
+Last Updated: August 25, 2026
+Andy Smith
+Improving developer experience in the command line relies on minimizing context switches. While most engineers use the Heroku CLI strictly for basic tasks like pushing code, it contains a powerful suite of command line tools built to optimize your workflow. If you want to keep your focus locked on writing code, these six Heroku CLI commands will instantly upgrade your daily productivity.
+Customers
+Customers
+Discover how companies in diverse industries like Healthcare, Entertainment, Automotive, Retail, FinTech, and more achieve growth and foster innovation with our powerful cloud application platform. Learn how they leverage Heroku’s cloud application platform for cutting-edge solutions.
+Customer Stories
+Heroku in action: See how organizations of all sizes and industries are succeeding with Heroku.
+Community Stories
+Explore real-world experiences and perspectives on Heroku from developers and communities online.
+TAO Drive: Breaking E-Commerce Barriers with a Secure Salesforce Integration via Heroku AppLink
+Learn how TAO Drive leverages Heroku AppLink for secure Salesforce integration, Git-based workflows, and scalable Node.js e-commerce solutions.
+Pricing
+Resources
+Resources
+Learn more about Heroku's PaaS and stay up to date on all Heroku announcements. Gain insights from our team through insightful content and discover how to leverage our platform effectively.
+Blog
+Stay up-to-date on Heroku news, important product releases, and valuable insights from the Heroku team.
+What is Heroku?
+Learn how Heroku’s cloud application platform simplifies app development, deployment, and scaling.
+Events
+Find Heroku at an event near you! Explore our calendar of tech conferences and meetups.
+Partners
+For Consultants, ISVs, and technical solution providers looking to grow their business with pro-code solutions.
+Compliance Center
+Heroku is a platform you can trust. Explore our compliance certifications and security measures.
+Help Center
+Find answers to your questions in the Help Center. Browse FAQs, articles, and get support.
+Latest News from the Heroku Blog
+6 Lesser-Known Heroku CLI Commands You Probably Aren’t Using
+Last Updated: August 25, 2026
+Andy Smith
+Improving developer experience in the command line relies on minimizing context switches. While most engineers use the Heroku CLI strictly for basic tasks like pushing code, it contains a powerful suite of command line tools built to optimize your workflow. If you want to keep your focus locked on writing code, these six Heroku CLI commands will instantly upgrade your daily productivity.
+Heroku Product Pricing for Every Stage of Your App’s Journey
+From
+dynos
+to
+data
+to
+AI
+, Heroku’s cloud application platform helps developers ship faster with less ops friction so you can focus on your apps.
+Dyno Pricing
+Data Services Pricing
+Heroku AI Pricing
+Containers
+Heroku Dynos
+Docs
+Specs
+Dynos are the heart of every Heroku app—lightweight, isolated containers that handle your code, dependencies, and scaling. They are the building blocks that power any Heroku app, from simple to sophisticated. Heroku’s dyno management makes it easy for you to build and run flexible, scalable apps – freeing you from managing infrastructure, so you can focus on building and running great apps.
+Choose from our trusted Cedar foundation for full platform integration and broad service access, or the Kubernetes-powered Fir for enhanced observability and fine-tuned control. Both offer the simplicity and performance Heroku is known for.
+Dyno Docs
+Dyno Specs
+About Dyno Tiers
+Show Cedar Dynos
+Get Started Today
+Dyno Type
+Price / Month
+RAM
+Compute
+Requires Private Space
+Supporting Links
+More Details
+Eco
+$5
+0.5 GB
+1x-4x
+More about Dynos →
+More about Dyno tiers →
+Deploy with Git and Docker
+Custom domains
+Unified logs
+2 process types
+Container orchestration
+Automatic OS patching
+Automated certificate management
+Personal accounts only
+Sleeps after 30 minutes of inactivity
+Basic
+$7
+0.5 GB
+1x-4x
+More about Dynos →
+More about Dyno tiers →
+Includes all Eco features
+Free SSL
+10 process types
+Always on
+0.28 Dyno Units / Month
+Standard-1X
+$25
+0.5 GB
+1x-4x
+More about Dynos →
+More about Dyno tiers →
+Includes all Basic features
+Simple horizontal scalability
+App metrics and threshold alerts
+Preboot and zero-downtime deploys
+Unlimited process types
+Unlimited background workers
+Can combine with Performance dynos
+1 Dyno Units / Month
+Standard-2X
+$50
+1 GB
+2x-8x
+More about Dynos →
+More about Dyno tiers →
+Includes all Basic features
+Simple horizontal scalability
+App metrics and threshold alerts
+Preboot and zero-downtime deploys
+Unlimited process types
+Unlimited background workers
+Can combine with Performance dynos
+2 Dyno Units / Month
+Performance-M
+$250
+2.5 GB
+12x
+More about Dynos →
+More about Dyno tiers →
+Includes all Standard features
+Predictable performance for your highest traffic applications
+Dedicated compute resources
+Autoscaling
+Can mix with Standard dynos
+8 Dyno Units / Month
+Performance-L
+$500
+14 GB
+50x
+More about Dynos →
+More about Dyno tiers →
+Includes all Standard features
+Predictable performance for your highest traffic applications
+Dedicated compute resources
+Autoscaling
+Can mix with Standard dynos
+16 Dyno Units / Month
+Performance-L-RAM
+$500
+30 GB
+24x
+More about Dynos →
+More about Dyno tiers →
+Includes all Standard features
+Predictable performance for your highest traffic applications
+Dedicated compute resources
+Autoscaling
+Can mix with Standard dynos
+16 Dyno Units / Month
+Performance-XL
+$750
+62 GB
+50x
+More about Dynos →
+More about Dyno tiers →
+Includes all Standard features
+Predictable performance for your highest traffic applications
+Dedicated compute resources
+Autoscaling
+Can mix with Standard dynos
+30 Dyno Units / Month
+Performance-2XL
+$1,500
+126 GB
+100x
+More about Dynos →
+More about Dyno tiers →
+Includes all Standard features
+Predictable performance for your highest traffic applications
+Dedicated compute resources
+Autoscaling
+Can mix with Standard dynos
+60 Dyno Units / Month
+Private-S
+$125
+1 GB
+12x
+More about Dynos →
+More about Dyno tiers →
+Includes all Performance features
+Full network isolation
+Available in ten global regions
+Dedicated runtime environment
+Private network and data services
+Private Space
+required
+5 Dyno Units / Month
+Private-M
+$250
+2.5 GB
+12x
+More about Dynos →
+More about Dyno tiers →
+Includes all Performance features
+Full network isolation
+Available in ten global regions
+Dedicated runtime environment
+Private network and data services
+Private Space
+required
+10 Dyno Units / Month
+Private-L
+$500
+14 GB
+50x
+More about Dynos →
+More about Dyno tiers →
+Includes all Performance features
+Full network isolation
+Available in ten global regions
+Dedicated runtime environment
+Private network and data services
+Private Space
+required
+20 Dyno Units / Month
+Private-L-RAM
+$500
+30 GB
+24x
+More about Dynos →
+More about Dyno tiers →
+Includes all Performance features
+Full network isolation
+Available in ten global regions
+Dedicated runtime environment
+Private network and data services
+Private Space
+required
+20 Dyno Units / Month
+Private-XL
+$750
+62 GB
+50x
+More about Dynos →
+More about Dyno tiers →
+Includes all Performance features
+Full network isolation
+Available in ten global regions
+Dedicated runtime environment
+Private network and data services
+Private Space
+required
+30 Dyno Units / Month
+Private-2XL
+$1,500
+126 GB
+100x
+More about Dynos →
+More about Dyno tiers →
+Includes all Performance features
+Full network isolation
+Available in ten global regions
+Dedicated runtime environment
+Private network and data services
+Private Space
+required
+60 Dyno Units / Month
+Shield-S
+$150
+1 GB
+12x
+More about Dynos →
+More about Dyno tiers →
+Includes all Private features
+Dedicated environment for high compliance apps
+Ability to sign BAAs for HIPAA compliance
+PCI compliance
+Keystroke logging
+Space level log drains
+Strict TLS enforcement
+6 Dyno Units / Month
+Private Space
+required
+Shield-M
+$300
+2.5 GB
+12x
+More about Dynos →
+More about Dyno tiers →
+Includes all Private features
+Dedicated environment for high compliance apps
+Ability to sign BAAs for HIPAA compliance
+PCI compliance
+Keystroke logging
+Space level log drains
+Strict TLS enforcement
+12 Dyno Units / Month
+Private Space
+required
+Shield-L
+$600
+14 GB
+50x
+More about Dynos →
+More about Dyno tiers →
+Includes all Private features
+Dedicated environment for high compliance apps
+Ability to sign BAAs for HIPAA compliance
+PCI compliance
+Keystroke logging
+Space level log drains
+Strict TLS enforcement
+24 Dyno Units / Month
+Private Space
+required
+Shield-L-RAM
+$600
+30 GB
+24x
+More about Dynos →
+More about Dyno tiers →
+Includes all Private features
+Dedicated environment for high compliance apps
+Ability to sign BAAs for HIPAA compliance
+PCI compliance
+Keystroke logging
+Space level log drains
+Strict TLS enforcement
+24 Dyno Units / Month
+Private Space
+required
+Shield-XL
+$900
+62 GB
+50x
+More about Dynos →
+More about Dyno tiers →
+Includes all Private features
+Dedicated environment for high compliance apps
+Ability to sign BAAs for HIPAA compliance
+PCI compliance
+Keystroke logging
+Space level log drains
+Strict TLS enforcement
+36 Dyno Units / Month
+Private Space
+required
+Shield-2XL
+$1,800
+126 GB
+100x
+More about Dynos →
+More about Dyno tiers →
+Includes all Private features
+Dedicated environment for high compliance apps
+Ability to sign BAAs for HIPAA compliance
+PCI compliance
+Keystroke logging
+Space level log drains
+Strict TLS enforcement
+72 Dyno Units / Month
+Private Space
+required
+Hide Cedar Dynos
+Show Fir Dynos
+Get Started Today
+Dyno Type
+Price / Month
+RAM
+vCPUs
+Requires Private Space
+Supporting Links
+Dyno Family
+More Details
+Classic 1CPU-0.5GB
+$25
+0.5GB
+1
+More about Dynos →
+More about Dyno tiers →
+Classic
+Plan: dyno-1c-0.5gb
+Full network isolation
+Available in multiple global regions, with in-region builds and telemetry
+Dedicated Kubernetes runtime environment
+Private network and data services
+Private Space
+required
+Includes core Heroku platform primitives like background workers, metrics, scaling, logging, and
+networking features
+Classic 2CPU-1GB
+$50
+1 GB
+2
+More about Dynos →
+More about Dyno tiers →
+Classic
+Plan: dyno-2c-1gb
+Full network isolation
+Available in multiple global regions, with in-region builds and telemetry
+Dedicated Kubernetes runtime environment
+Private network and data services
+Private Space
+required
+Includes core Heroku platform primitives like background workers, metrics, scaling, logging, and
+networking features
+General Purpose 2CPU-4GB
+$80
+4 GB
+1
+More about Dynos →
+More about Dyno tiers →
+General Purpose
+Plan: dyno-1c-4gb
+Full network isolation
+Available in multiple global regions, with in-region builds and telemetry
+Dedicated Kubernetes runtime environment
+Private network and data services
+Private Space
+required
+Includes core Heroku platform primitives like background workers, metrics, scaling, logging, and
+networking features
+General Purpose 2CPU-8GB
+$160
+8 GB
+2
+More about Dynos →
+More about Dyno tiers →
+General Purpose
+Plan: dyno-2c-8gb
+Full network isolation
+Available in multiple global regions, with in-region builds and telemetry
+Dedicated Kubernetes runtime environment
+Private network and data services
+Private Space
+required
+Includes core Heroku platform primitives like background workers, metrics, scaling, logging, and
+networking features
+General Purpose 4CPU-16GB
+$320
+16 GB
+4
+More about Dynos →
+More about Dyno tiers →
+General Purpose
+Plan: dyno-4c-16gb
+Full network isolation
+Available in multiple global regions, with in-region builds and telemetry
+Dedicated Kubernetes runtime environment
+Private network and data services
+Private Space
+required
+Includes core Heroku platform primitives like background workers, metrics, scaling, logging, and
+networking features
+General Purpose 8CPU-32GB
+$640
+32 GB
+8
+More about Dynos →
+More about Dyno tiers →
+General Purpose
+Plan: dyno-8c-32gb
+Full network isolation
+Available in multiple global regions, with in-region builds and telemetry
+Dedicated Kubernetes runtime environment
+Private network and data services
+Dyno sizes for every workload available
+Private Space
+required
+Includes core Heroku platform primitives like background workers, metrics, scaling, logging, and
+networking features
+General Purpose 16CPU-64GB
+$1,200
+64 GB
+16
+More about Dynos →
+More about Dyno tiers →
+General Purpose
+Plan: dyno-16c-64gb
+Full network isolation
+Available in multiple global regions, with in-region builds and telemetry
+Dedicated Kubernetes runtime environment
+Private network and data services
+Private Space
+required
+Includes core Heroku platform primitives like background workers, metrics, scaling, logging, and
+networking features
+Compute 2CPU-4GB
+$150
+4 GB
+2
+More about Dynos →
+More about Dyno tiers →
+Compute
+Plan: dyno-2c-4gb
+Full network isolation
+Available in multiple global regions, with in-region builds and telemetry
+Dedicated Kubernetes runtime environment
+Private network and data services
+Private Space
+required
+Includes core Heroku platform primitives like background workers, metrics, scaling, logging, and
+networking features
+Compute 4CPU-8GB
+$300
+8 GB
+4
+More about Dynos →
+More about Dyno tiers →
+Compute
+Plan: dyno-4c-8gb
+Full network isolation
+Available in multiple global regions, with in-region builds and telemetry
+Dedicated Kubernetes runtime environment
+Private network and data services
+Private Space
+required
+Includes core Heroku platform primitives like background workers, metrics, scaling, logging, and
+networking features
+Compute 8CPU-16GB
+$600
+16 GB
+8
+More about Dynos →
+More about Dyno tiers →
+Compute
+Plan: dyno-8c-16gb
+Full network isolation
+Available in multiple global regions, with in-region builds and telemetry
+Dedicated Kubernetes runtime environment
+Private network and data services
+Private Space
+required
+Includes core Heroku platform primitives like background workers, metrics, scaling, logging, and
+networking features
+Compute 16CPU-32GB
+$1,000
+32 GB
+16
+More about Dynos →
+More about Dyno tiers →
+Compute
+Plan: dyno-16c-32gb
+Full network isolation
+Available in multiple global regions, with in-region builds and telemetry
+Dedicated Kubernetes runtime environment
+Private network and data services
+Private Space
+required
+Includes core Heroku platform primitives like background workers, metrics, scaling, logging, and
+networking features
+Compute 32CPU-64GB
+$2,400
+64 GB
+32
+More about Dynos →
+More about Dyno tiers →
+Compute
+Plan: dyno-32c-64gb
+Full network isolation
+Available in multiple global regions, with in-region builds and telemetry
+Dedicated Kubernetes runtime environment
+Private network and data services
+Private Space
+required
+Includes core Heroku platform primitives like background workers, metrics, scaling, logging, and
+networking features
+Memory 1CPU-8GB
+$100
+8 GB
+1
+More about Dynos →
+More about Dyno tiers →
+Memory
+Plan: dyno-1c-8gb
+Full network isolation
+Available in multiple global regions, with in-region builds and telemetry
+Dedicated Kubernetes runtime environment
+Private network and data services
+Private Space
+required
+Includes core Heroku platform primitives like background workers, metrics, scaling, logging, and
+networking features
+Memory 2CPU-16GB
+$250
+16 GB
+2
+More about Dynos →
+More about Dyno tiers →
+Memory
+Plan: dyno-2c-16gb
+Full network isolation
+Available in multiple global regions, with in-region builds and telemetry
+Dedicated Kubernetes runtime environment
+Private network and data services
+Private Space
+required
+Includes core Heroku platform primitives like background workers, metrics, scaling, logging, and
+networking features
+Memory 4CPU-32GB
+$500
+32 GB
+4
+More about Dynos →
+More about Dyno tiers →
+Memory
+Plan: dyno-4c-32gb
+Full network isolation
+Available in multiple global regions, with in-region builds and telemetry
+Dedicated Kubernetes runtime environment
+Private network and data services
+Private Space
+required
+Includes core Heroku platform primitives like background workers, metrics, scaling, logging, and
+networking features
+Memory 8CPU-64GB
+$750
+64 GB
+8
+More about Dynos →
+More about Dyno tiers →
+Memory
+Plan: dyno-8c-64gb
+Full network isolation
+Available in multiple global regions, with in-region builds and telemetry
+Dedicated Kubernetes runtime environment
+Private network and data services
+Private Space
+required
+Includes core Heroku platform primitives like background workers, metrics, scaling, logging, and
+networking features
+Memory 16CPU-128GB
+$1,500
+128 GB
+16
+More about Dynos →
+More about Dyno tiers →
+Memory
+Plan: dyno-16c-128gb
+Full network isolation
+Available in multiple global regions, with in-region builds and telemetry
+Dedicated Kubernetes runtime environment
+Private network and data services
+Private Space
+required
+Includes core Heroku platform primitives like background workers, metrics, scaling, logging, and
+networking features
+Hide Fir Dynos
+Managed Data
+Heroku Data Services
+Docs
+Heroku’s fully
+managed data services
+simplify data management, enabling developers to build and scale applications with ease. This translates to reduced operational overhead and faster time to market, as engineering teams can focus on innovation instead of infrastructure management. Heroku offers a robust ecosystem for expanding app functionality and seamlessly integrating with various data sources, including Salesforce CRM and Data Cloud.
+Heroku Postgres
+: Delivers the world’s most advanced open-source database as a trusted, secure, and scalable service optimized for developers, ensuring data integrity and performance. We make it easy to find the
+right Heroku Postgres plan
+.
+Heroku Key-Value Store
+: Provides a robust developer experience with an open-source data store, offering flexibility and efficiency for various application needs. Check out
+Heroku Key-Value Store technical specs
+.
+Apache Kafka on Heroku
+: Connects the leading open-source solution for handling streaming data with a fully managed service, enabling real-time data processing and robust event-driven architectures. Learn more about
+Apache Kafka on Heroku plans
+.
+Show Postgres Essential Plan Pricing
+Get Started Today
+Plan Name
+Price / Month
+RAM
+Disk Size
+Connection Limit
+Supporting Links
+Plan Tier
+More Details
+Essential-0
+$5
+0 Bytes
+1 GB
+20
+More about Essential tier
+plans →
+Essential
+Shared RAM
+No row limitations
+Encryption-at-rest
+Max downtime 4 hour per month
+Table Limit: 4,000 tables
+Essential-1
+$9
+0 Bytes
+10 GB
+20
+More about Essential tier
+plans →
+Essential
+Shared RAM
+No row limitations
+Encryption-at-rest
+Max downtime 4 hour per month
+Table Limit: 4,000 tables
+Essential-2
+$20
+0 Bytes
+32 GB
+40
+More about Essential tier
+plans →
+Essential
+Shared RAM
+No row limitations
+Encryption-at-rest
+Max downtime 4 hour per month
+Table Limit: 4,000 tables
+Hide Postgres Essential Plan Pricing
+Show Postgres Classic Plan Pricing
+Get Started Today
+Plan Name
+Price / Month
+RAM
+Disk Size
+Requires Private Space
+Connection Limit
+Supporting Links
+Plan Tier
+More Details
+Standard-0
+$50
+4 GB
+64 GB
+120
+More about Standard tier
+plans →
+Standard
+Dedicated server (not shared)
+No row limitations
+Increasing amounts of in-memory cache
+Fork and follow support
+Rollback up to 4 days
+Database metrics published to application log stream for further analysis
+Priority service restoration on disruptions
+Credential Management
+Max downtime 1 hour per month
+Standard-2
+$200
+8 GB
+256 GB
+400
+More about Standard tier
+plans →
+Standard
+Dedicated server (not shared)
+No row limitations
+Increasing amounts of in-memory cache
+Fork and follow support
+Rollback up to 4 days
+Database metrics published to application log stream for further analysis
+Priority service restoration on disruptions
+Credential Management
+Max downtime 1 hour per month
+Standard-3
+$400
+15 GB
+512 GB
+500
+More about Standard tier
+plans →
+Standard
+Dedicated server (not shared)
+No row limitations
+Increasing amounts of in-memory cache
+Fork and follow support
+Rollback up to 4 days
+Database metrics published to application log stream for further analysis
+Priority service restoration on disruptions
+Credential Management
+Max downtime 1 hour per month
+Standard-4
+$750
+30 GB
+768 GB
+500
+More about Standard tier
+plans →
+Standard
+Dedicated server (not shared)
+No row limitations
+Increasing amounts of in-memory cache
+Fork and follow support
+Rollback up to 4 days
+Database metrics published to application log stream for further analysis
+Priority service restoration on disruptions
+Credential Management
+Max downtime 1 hour per month
+Standard-5
+$1,400
+61 GB
+1 TB
+500
+More about Standard tier
+plans →
+Standard
+Dedicated server (not shared)
+No row limitations
+Increasing amounts of in-memory cache
+Fork and follow support
+Rollback up to 4 days
+Database metrics published to application log stream for further analysis
+Priority service restoration on disruptions
+Credential Management
+Max downtime 1 hour per month
+Standard-6
+$2,000
+122 GB
+1.5 TB
+500
+More about Standard tier
+plans →
+Standard
+Dedicated server (not shared)
+No row limitations
+Increasing amounts of in-memory cache
+Fork and follow support
+Rollback up to 4 days
+Database metrics published to application log stream for further analysis
+Priority service restoration on disruptions
+Credential Management
+Max downtime 1 hour per month
+Standard-7
+$3,500
+244 GB
+2 TB
+500
+More about Standard tier
+plans →
+Standard
+Dedicated server (not shared)
+No row limitations
+Increasing amounts of in-memory cache
+Fork and follow support
+Rollback up to 4 days
+Database metrics published to application log stream for further analysis
+Priority service restoration on disruptions
+Credential Management
+Max downtime 1 hour per month
+Standard-8
+$4,500
+488 GB
+3 TB
+500
+More about Standard tier
+plans →
+Standard
+Dedicated server (not shared)
+No row limitations
+Increasing amounts of in-memory cache
+Fork and follow support
+Rollback up to 4 days
+Database metrics published to application log stream for further analysis
+Priority service restoration on disruptions
+Credential Management
+Max downtime 1 hour per month
+Standard-9
+$5,800
+768 GB
+4 TB
+500
+More about Standard tier
+plans →
+Standard
+Dedicated server (not shared)
+No row limitations
+Increasing amounts of in-memory cache
+Fork and follow support
+Rollback up to 4 days
+Database metrics published to application log stream for further analysis
+Priority service restoration on disruptions
+Credential Management
+Max downtime 1 hour per month
+Standard-10
+$12,000
+1 TB
+8 TB
+500
+More about Standard tier
+plans →
+Standard
+Dedicated server (not shared)
+No row limitations
+Increasing amounts of in-memory cache
+Fork and follow support
+Rollback up to 4 days
+Database metrics published to application log stream for further analysis
+Priority service restoration on disruptions
+Credential Management
+Max downtime 1 hour per month
+Premium-0
+$200
+4 GB
+64 GB
+120
+More about Premium tier
+plans →
+Premium
+High Availability
+Roll back up to 7 days
+Max downtime 15 minutes per month
+Everything in Standard tier plans
+Premium-2
+$350
+8 GB
+256 GB
+400
+More about Premium tier
+plans →
+Premium
+High Availability
+Roll back up to 7 days
+Max downtime 15 minutes per month
+Everything in Standard tier plans
+Premium-3
+$750
+15 GB
+512 GB
+500
+More about Premium tier
+plans →
+Premium
+High Availability
+Roll back up to 7 days
+Max downtime 15 minutes per month
+Everything in Standard tier plans
+Premium-4
+$1,200
+30 GB
+768 GB
+500
+More about Premium tier
+plans →
+Premium
+High Availability
+Roll back up to 7 days
+Max downtime 15 minutes per month
+Everything in Standard tier plans
+Premium-5
+$2,500
+61 GB
+1 TB
+500
+More about Premium tier
+plans →
+Premium
+High Availability
+Roll back up to 7 days
+Max downtime 15 minutes per month
+Everything in Standard tier plans
+Premium-6
+$3,500
+122 GB
+1.5 TB
+500
+More about Premium tier
+plans →
+Premium
+High Availability
+Roll back up to 7 days
+Max downtime 15 minutes per month
+Everything in Standard tier plans
+Premium-L-6
+$4,750
+122 GB
+2 TB
+500
+More about Premium tier
+plans →
+Premium
+High Availability
+Roll back up to 7 days
+Max downtime 15 minutes per month
+Everything in Standard tier plans
+Premium-XL-6
+$6,000
+122 GB
+3 TB
+500
+More about Premium tier
+plans →
+Premium
+High Availability
+Roll back up to 7 days
+Max downtime 15 minutes per month
+Everything in Standard tier plans
+Premium-7
+$6,000
+244 GB
+2 TB
+500
+More about Premium tier
+plans →
+Premium
+High Availability
+Roll back up to 7 days
+Max downtime 15 minutes per month
+Everything in Standard tier plans
+Premium-8
+$8,500
+488 GB
+3 TB
+500
+More about Premium tier
+plans →
+Premium
+High Availability
+Roll back up to 7 days
+Max downtime 15 minutes per month
+Everything in Standard tier plans
+Premium-9
+$11,000
+768 GB
+4 TB
+500
+More about Premium tier
+plans →
+Premium
+High Availability
+Roll back up to 7 days
+Max downtime 15 minutes per month
+Everything in Standard tier plans
+Premium-L-9
+$12,500
+768 GB
+5 TB
+500
+More about Premium tier
+plans →
+Premium
+High Availability
+Roll back up to 7 days
+Max downtime 15 minutes per month
+Everything in Standard tier plans
+Premium-XL-9
+$14,000
+768 GB
+6 TB
+500
+More about Premium tier
+plans →
+Premium
+High Availability
+Roll back up to 7 days
+Max downtime 15 minutes per month
+Everything in Standard tier plans
+Premium-10
+$24,000
+1 TB
+8 TB
+500
+More about Premium tier
+plans →
+Premium
+High Availability
+Roll back up to 7 days
+Max downtime 15 minutes per month
+Everything in Standard tier plans
+Private-0
+$300
+4 GB
+68 GB
+120
+More
+about Private tier plans →
+Private
+Network isolation in Private Space
+Everything from Premium tier plans
+Private Space
+required
+Private-2
+$600
+8 GB
+256 GB
+400
+More
+about Private tier plans →
+Private
+Network isolation in Private Space
+Everything from Premium tier plans
+Private Space
+required
+Private-3
+$1,000
+15 GB
+512 GB
+500
+More
+about Private tier plans →
+Private
+Network isolation in Private Space
+Everything from Premium tier plans
+Private Space
+required
+Private-4
+$1,500
+30 GB
+768 GB
+500
+More
+about Private tier plans →
+Private
+Network isolation in Private Space
+Everything from Premium tier plans
+Private Space
+required
+Private-5
+$2,800
+61 GB
+1 TB
+500
+More
+about Private tier plans →
+Private
+Network isolation in Private Space
+Everything from Premium tier plans
+Private Space
+required
+Private-6
+$3,600
+122 GB
+1.5 TB
+500
+More
+about Private tier plans →
+Private
+Network isolation in Private Space
+Everything from Premium tier plans
+Private Space
+required
+Private-L-6
+$5,300
+122 GB
+2 TB
+500
+More
+about Private tier plans →
+Private
+Network isolation in Private Space
+Everything from Premium tier plans
+Private Space
+required
+Private-XL-6
+$6,800
+122 GB
+3 TB
+500
+More
+about Private tier plans →
+Private
+Network isolation in Private Space
+Everything from Premium tier plans
+Private Space
+required
+Private-7
+$7,000
+244 GB
+2 TB
+500
+More
+about Private tier plans →
+Private
+Network isolation in Private Space
+Everything from Premium tier plans
+Private Space
+required
+Private-8
+$10,000
+488 GB
+3 TB
+500
+More
+about Private tier plans →
+Private
+Network isolation in Private Space
+Everything from Premium tier plans
+Private Space
+required
+Private-9
+$13,000
+768 GB
+4 TB
+500
+More
+about Private tier plans →
+Private
+Network isolation in Private Space
+Everything from Premium tier plans
+Private Space
+required
+Private-L-9
+$15,000
+768 GB
+5 TB
+500
+More
+about Private tier plans →
+Private
+Network isolation in Private Space
+Everything from Premium tier plans
+Private Space
+required
+Private-XL-9
+$17,000
+768 GB
+6 TB
+500
+More
+about Private tier plans →
+Private
+Network isolation in Private Space
+Everything from Premium tier plans
+Private Space
+required
+Private-10
+$28,000
+1 TB
+8 TB
+500
+More
+about Private tier plans →
+Private
+Network isolation in Private Space
+Everything from Premium tier plans
+Private Space
+required
+Shield-0
+$350
+4 GB
+68 GB
+120
+More
+about Shield tier plans →
+Shield
+HIPAA and PCI compliant
+Everything in Private tier plans
+Private Space
+required
+Shield databases have
+additional
+feature sets and restrictions
+Shield-2
+$750
+8 GB
+256 GB
+400
+More
+about Shield tier plans →
+Shield
+HIPAA and PCI compliant
+Everything in Private tier plans
+Private Space
+required
+Shield databases have
+additional
+feature sets and restrictions
+Shield-3
+$1,200
+15 GB
+512 GB
+500
+More
+about Shield tier plans →
+Shield
+HIPAA and PCI compliant
+Everything in Private tier plans
+Private Space
+required
+Shield databases have
+additional
+feature sets and restrictions
+Shield-4
+$1,800
+30 GB
+768 GB
+500
+More
+about Shield tier plans →
+Shield
+HIPAA and PCI compliant
+Everything in Private tier plans
+Private Space
+required
+Shield databases have
+additional
+feature sets and restrictions
+Shield-5
+$3,400
+61 GB
+1 TB
+500
+More
+about Shield tier plans →
+Shield
+HIPAA and PCI compliant
+Everything in Private tier plans
+Private Space
+required
+Shield databases have
+additional
+feature sets and restrictions
+Shield-6
+$4,400
+122 GB
+1.5 TB
+500
+More
+about Shield tier plans →
+Shield
+HIPAA and PCI compliant
+Everything in Private tier plans
+Private Space
+required
+Shield databases have
+additional
+feature sets and restrictions
+Shield-L-6
+$6,400
+122 GB
+2 TB
+500
+More
+about Shield tier plans →
+Shield
+HIPAA and PCI compliant
+Everything in Private tier plans
+Private Space
+required
+Shield databases have
+additional
+feature sets and restrictions
+Shield-XL-6
+$8,400
+122 GB
+3 TB
+500
+More
+about Shield tier plans →
+Shield
+HIPAA and PCI compliant
+Everything in Private tier plans
+Private Space
+required
+Shield databases have
+additional
+feature sets and restrictions
+Shield-7
+$8,400
+244 GB
+2 TB
+500
+More
+about Shield tier plans →
+Shield
+HIPAA and PCI compliant
+Everything in Private tier plans
+Private Space
+required
+Shield databases have
+additional
+feature sets and restrictions
+Shield-8
+$12,250
+488 GB
+3 TB
+500
+More
+about Shield tier plans →
+Shield
+HIPAA and PCI compliant
+Everything in Private tier plans
+Private Space
+required
+Shield databases have
+additional
+feature sets and restrictions
+Shield-9
+$16,000
+768 GB
+4 TB
+500
+More
+about Shield tier plans →
+Shield
+HIPAA and PCI compliant
+Everything in Private tier plans
+Private Space
+required
+Shield databases have
+additional
+feature sets and restrictions
+Shield-L-9
+$18,500
+768 GB
+5 TB
+500
+More
+about Shield tier plans →
+Shield
+HIPAA and PCI compliant
+Everything in Private tier plans
+Private Space
+required
+Shield databases have
+additional
+feature sets and restrictions
+Shield-XL-9
+$21,000
+768 GB
+6 TB
+500
+More
+about Shield tier plans →
+Shield
+HIPAA and PCI compliant
+Everything in Private tier plans
+Private Space
+required
+Shield databases have
+additional
+feature sets and restrictions
+Shield-10
+$34,000
+1 TB
+8 TB
+500
+More
+about Shield tier plans →
+Shield
+HIPAA and PCI compliant
+Everything in Private tier plans
+Private Space
+required
+Shield databases have
+additional
+feature sets and restrictions
+Hide Postgres Classic Plan Pricing
+Show Postgres Advanced Pricing
+Get Started with Heroku Postgres Advanced
+Plan Name
+Price / Month
+vCPU
+Memory
+Supporting Links
+More Details
+Common Runtime
+Private
+Shield
+4G-Performance
+$150
+$180
+$210
+2
+4 GB
+More about Advanced tier plans →
+2 vCPU
+4 GB memory
+400 connections
+Pay only for what you use
+Decoupled storage and compute
+First 100GB-mo storage is included for every cluster)
+Zero-downtime scaling
+Dedicated follower pools
+High Availability (customer configurable)
+Private Space
+required for Private and Shield
+8G-Performance
+$300
+$360
+$420
+2
+8 GB
+More about Advanced tier plans →
+2 vCPU
+8 GB memory
+800 connections
+Pay only for what you use
+Decoupled storage and compute
+First 100GB-mo storage is included for every cluster)
+Zero-downtime scaling
+Dedicated follower pools
+High Availability (customer configurable)
+Private Space
+required for Private and Shield
+16G-Performance
+$500
+$600
+$700
+2
+16 GB
+More about Advanced tier plans →
+2 vCPU
+16 GB memory
+1,600 connections
+Pay only for what you use
+Decoupled storage and compute
+First 100GB-mo storage is included for every cluster)
+Zero-downtime scaling
+Dedicated follower pools
+High Availability (customer configurable)
+Private Space
+required for Private and Shield
+32G-Performance
+$900
+$1,080
+$1,260
+4
+32 GB
+More about Advanced tier plans →
+4 vCPU
+32 GB memory
+3,200 connections
+Pay only for what you use
+Decoupled storage and compute
+First 100GB-mo storage is included for every cluster)
+Zero-downtime scaling
+Dedicated follower pools
+High Availability (customer configurable)
+Private Space
+required for Private and Shield
+64G-Performance
+$1,600
+$1,920
+$2,240
+8
+64 GB
+More about Advanced tier plans →
+8 vCPU
+64 GB memory
+5,000 connections
+Pay only for what you use
+Decoupled storage and compute
+First 100GB-mo storage is included for every cluster)
+Zero-downtime scaling
+Dedicated follower pools
+High Availability (customer configurable)
+Private Space
+required for Private and Shield
+128G-Performance
+$3,000
+$3,600
+$4,200
+16
+128 GB
+More about Advanced tier plans →
+16 vCPU
+128 GB memory
+5,000 connections
+Pay only for what you use
+Decoupled storage and compute
+First 100GB-mo storage is included for every cluster)
+Zero-downtime scaling
+Dedicated follower pools
+High Availability (customer configurable)
+Private Space
+required for Private and Shield
+256G-Performance
+$5,000
+$6,000
+$7,000
+32
+256 GB
+More about Advanced tier plans →
+32 vCPU
+256 GB memory
+5,000 connections
+Pay only for what you use
+Decoupled storage and compute
+First 100GB-mo storage is included for every cluster)
+Zero-downtime scaling
+Dedicated follower pools
+High Availability (customer configurable)
+Private Space
+required for Private and Shield
+384G-Performance
+$7,500
+$9,000
+$10,500
+48
+384 GB
+More about Advanced tier plans →
+48 vCPU
+384 GB memory
+5,000 connections
+Pay only for what you use
+Decoupled storage and compute
+First 100GB-mo storage is included for every cluster)
+Zero-downtime scaling
+Dedicated follower pools
+High Availability (customer configurable)
+Private Space
+required for Private and Shield
+512G-Performance
+$10,000
+$12,000
+$14,000
+64
+512 GB
+More about Advanced tier plans →
+64 vCPU
+512 GB memory
+5,000 connections
+Pay only for what you use
+Decoupled storage and compute
+First 100GB-mo storage is included for every cluster)
+Zero-downtime scaling
+Dedicated follower pools
+High Availability (customer configurable)
+Private Space
+required for Private and Shield
+768G-Performance
+$15,000
+$18,000
+$21,000
+96
+768 GB
+More about Advanced tier plans →
+96 vCPU
+768 GB memory
+5,000 connections
+Pay only for what you use
+Decoupled storage and compute
+First 100GB-mo storage is included for every cluster)
+Zero-downtime scaling
+Dedicated follower pools
+High Availability (customer configurable)
+Private Space
+required for Private and Shield
+1536G-Performance
+$40,000
+$48,000
+$56,000
+192
+1,536 GB
+More about Advanced tier plans →
+192 vCPU
+1,536 GB memory
+5,000 connections
+Pay only for what you use
+Decoupled storage and compute
+First 100GB-mo storage is included for every cluster)
+Zero-downtime scaling
+Dedicated follower pools
+High Availability (customer configurable)
+Private Space
+required for Private and Shield
+Hide Postgres Advanced Pricing
+Show Key-Value Store Plan Pricing
+Get Started Today
+Plan Name
+Price / Month
+RAM
+Connection Limit
+Requires Private Space
+Supporting Links
+More Details
+Mini
+$3
+25 MB
+20
+More about Heroku Key-Value Store plans →
+Multi-tenant instance for small projects and concepts
+Performance analytics
+Redis Log Metrics
+Premium 0
+$15
+50 MB
+40
+More about Heroku Key-Value Store plans →
+Multi-tenant (shared server)
+High availability with low-latency failover
+Resource scalability
+Premium 1
+$30
+100 MB
+80
+More about Heroku Key-Value Store plans →
+Multi-tenant (shared server)
+High availability with low-latency failover
+Resource scalability
+Premium 2
+$60
+250 MB
+200
+More about Heroku Key-Value Store plans →
+Multi-tenant (shared server)
+High availability with low-latency failover
+Resource scalability
+Premium 3
+$120
+500 MB
+400
+More about Heroku Key-Value Store plans →
+Multi-tenant (shared server)
+High availability with low-latency failover
+Resource scalability
+Premium 5
+$200
+1 GB
+1,000
+More about Heroku Key-Value Store plans →
+Multi-tenant (shared server)
+High availability with low-latency failover
+Resource scalability
+Premium 7
+$750
+7 GB
+10,000
+More about Heroku Key-Value Store plans →
+Single tenant (dedicated server)
+High availability with low-latency failover
+Resource scalability
+Premium 9
+$1,450
+10 GB
+25,000
+More about Heroku Key-Value Store plans →
+Single tenant (dedicated server)
+High availability with low-latency failover
+Resource scalability
+Premium 10
+$3,500
+25 GB
+40,000
+More about Heroku Key-Value Store plans →
+Single tenant (dedicated server)
+High availability with low-latency failover
+Resource scalability
+Premium 12
+$6,500
+50 GB
+65,000
+More about Heroku Key-Value Store plans →
+Single tenant (dedicated server)
+High availability with low-latency failover
+Resource scalability
+Premium 14
+$12,500
+100 GB
+65,000
+More about Heroku Key-Value Store plans →
+Single tenant (dedicated server)
+High availability with low-latency failover
+Resource scalability
+Private-3
+$150
+500 MB
+400
+More about Heroku Key-Value Store plans →
+Network isolation in Private Space
+Region support
+Fork support
+Metrics published to the application log stream
+High availability
+Private Space
+required
+Private-5
+$250
+750 MB
+700
+More about Heroku Key-Value Store plans →
+Network isolation in Private Space
+Region support
+Fork support
+Metrics published to the application log stream
+High availability
+Private Space
+required
+Private-7
+$900
+7 GB
+10,000
+More about Heroku Key-Value Store plans →
+Network isolation in Private Space
+Region support
+Fork support
+Metrics published to the application log stream
+High availability
+Private Space
+required
+Private-9
+$1,750
+10 GB
+25,000
+More about Heroku Key-Value Store plans →
+Network isolation in Private Space
+Region support
+Fork support
+Metrics published to the application log stream
+High availability
+Private Space
+required
+Private-10
+$4,000
+25 GB
+40,000
+More about Heroku Key-Value Store plans →
+Network isolation in Private Space
+Region support
+Fork support
+Metrics published to the application log stream
+High availability
+Private Space
+required
+Private-12
+$7,500
+50 GB
+65,000
+More about Heroku Key-Value Store plans →
+Network isolation in Private Space
+Region support
+Fork support
+Metrics published to the application log stream
+High availability
+Private Space
+required
+Private-14
+$14,000
+100 GB
+65,000
+More about Heroku Key-Value Store plans →
+Network isolation in Private Space
+Region support
+Fork support
+Metrics published to the application log stream
+High availability
+Private Space
+required
+Shield-3
+$210
+500 MB
+400
+More about Heroku Key-Value Store plans →
+HIPAA compliant
+Region support
+Metrics published to the application log stream
+High availability
+Private Space
+required
+Shield-5
+$350
+750 MB
+700
+More about Heroku Key-Value Store plans →
+HIPAA compliant
+Region support
+Metrics published to the application log stream
+High availability
+Private Space
+required
+Shield-7
+$1,100
+7 GB
+10,000
+More about Heroku Key-Value Store plans →
+HIPAA compliant
+Region support
+Metrics published to the application log stream
+High availability
+Private Space
+required
+Shield-9
+$2,100
+10 GB
+25,000
+More about Heroku Key-Value Store plans →
+HIPAA compliant
+Region support
+Metrics published to the application log stream
+High availability
+Private Space
+required
+Shield-10
+$4,800
+25 GB
+40,000
+More about Heroku Key-Value Store plans →
+HIPAA compliant
+Region support
+Metrics published to the application log stream
+High availability
+Private Space
+required
+Shield-12
+$9,000
+50 GB
+65,000
+More about Heroku Key-Value Store plans →
+HIPAA compliant
+Region support
+Metrics published to the application log stream
+High availability
+Private Space
+required
+Shield-14
+$19,600
+100 GB
+65,000
+More about Heroku Key-Value Store plans →
+HIPAA compliant
+Region support
+Metrics published to the application log stream
+High availability
+Private Space
+required
+Hide Key-Value Store Plan Pricing
+Show Apache Kafka Plan Pricing
+Get Started Today
+Plan Name
+Price / Month
+Capacity
+Max Data Retention
+Requires Private Space
+Supporting Links
+More Details
+Basic 0
+$100
+3.73 GB
+1 week
+More on Apache Kafka on Heroku →
+Multi-tenant (shared Kafka clusters)
+Basic 1
+$125
+29.8 GB
+1 week
+More on Apache Kafka on Heroku →
+Multi-tenant (shared Kafka clusters)
+Basic 2
+$175
+59.6 GB
+1 week
+More on Apache Kafka on Heroku →
+Multi-tenant (shared Kafka clusters)
+standard-0
+$1,500
+150 GB
+2 weeks
+More on Apache Kafka on Heroku →
+Single tenant (dedicated Kafka cluster)
+Optimized for high throughput and volume
+High data durability and replication factor
+3 Kafka brokers
+standard-1
+$1,800
+300 GB
+2 weeks
+More on Apache Kafka on Heroku →
+Single tenant (dedicated Kafka cluster)
+Optimized for high throughput and volume
+High data durability and replication factor
+3 Kafka brokers
+standard-2
+$3,200
+900 GB
+2 weeks
+More on Apache Kafka on Heroku →
+Single tenant (dedicated Kafka cluster)
+Optimized for high throughput and volume
+High data durability and replication factor
+3 Kafka brokers
+extended-0
+$4,000
+400 GB
+6 weeks
+More on Apache Kafka on Heroku →
+Single tenant (dedicated Kafka cluster)
+Optimized for high throughput and volume
+High data durability and replication factor
+8 Kafka brokers
+extended-1
+$5,000
+800 GB
+6 weeks
+More on Apache Kafka on Heroku →
+Single tenant (dedicated Kafka cluster)
+Optimized for high throughput and volume
+High data durability and replication factor
+8 Kafka brokers
+extended-2
+$8,700
+2,400 GB
+6 weeks
+More on Apache Kafka on Heroku →
+Single tenant (dedicated Kafka cluster)
+Optimized for high throughput and volume
+High data durability and replication factor
+8 Kafka brokers
+private-standard-0
+$1,800
+150 GB
+2 weeks
+More on Apache Kafka on Heroku →
+Network isolation in Private Space
+Everything in Standard Apache Kafka on Heroku plans
+Private Space
+required
+private-standard-1
+$2,200
+300 GB
+2 weeks
+More on Apache Kafka on Heroku →
+Network isolation in Private Space
+Everything in Standard Apache Kafka on Heroku plans
+Private Space
+required
+private-standard-2
+$3,600
+900 GB
+2 weeks
+More on Apache Kafka on Heroku →
+Network isolation in Private Space
+Everything in Standard Apache Kafka on Heroku plans
+Private Space
+required
+private-extended-0
+$5,000
+400 GB
+6 weeks
+More on Apache Kafka on Heroku →
+Network isolation in Private Space
+Everything in Extended Apache Kafka on Heroku plans
+Private Space
+required
+private-extended-1
+$6,200
+800 GB
+6 weeks
+More on Apache Kafka on Heroku →
+Network isolation in Private Space
+Everything in Extended Apache Kafka on Heroku plans
+Private Space
+required
+private-extended-2
+$10,800
+2,400 GB
+6 weeks
+More on Apache Kafka on Heroku →
+Network isolation in Private Space
+Everything in Extended Apache Kafka on Heroku plans
+Private Space
+required
+shield-standard-0
+$2,200
+150 GB
+2 weeks
+More on Apache Kafka on Heroku →
+HIPAA compliant
+Everything in Private Standard Apache Kafka on Heroku plans
+Private Space
+required
+shield-standard-1
+$2,700
+300 GB
+2 weeks
+More on Apache Kafka on Heroku →
+HIPAA compliant
+Everything in Private Standard Apache Kafka on Heroku plans
+Private Space
+required
+shield-standard-2
+$4,400
+900 GB
+2 weeks
+More on Apache Kafka on Heroku →
+HIPAA compliant
+Everything in Private Standard Apache Kafka on Heroku plans
+Private Space
+required
+shield-extended-0
+$6,000
+400 GB
+6 weeks
+More on Apache Kafka on Heroku →
+HIPAA compliant
+Everything in Private Extended Apache Kafka on Heroku plans
+Private Space
+required
+shield-extended-1
+$7,500
+800 GB
+6 weeks
+More on Apache Kafka on Heroku →
+HIPAA compliant
+Everything in Private Extended Apache Kafka on Heroku plans
+Private Space
+required
+shield-extended-2
+$13,000
+2,400 GB
+6 weeks
+More on Apache Kafka on Heroku →
+HIPAA compliant
+Everything in Private Extended Apache Kafka on Heroku plans
+Private Space
+required
+Hide Apache Kafka Plan Pricing
+Artificial Intelligence
+new
+Heroku Managed Inference and Agents
+Docs
+Specs
+Heroku Managed Inference and Agents
+empowers developers to rapidly integrate cutting-edge AI capabilities into their applications without the complexities of managing underlying AI infrastructure. This means accelerating AI adoption, reducing “delivery gaps” for AI solutions, and democratizing AI application development, ultimately leading to faster time to market and significant cost savings by minimizing the need for specialized AI/ML operations expertise.
+Developers gain access to a curated set of large language models (LLMs), embedding models for Retrieval Augmented Generation (RAG), and diffusion models for image generation. Additionally, developers can use MCP servers (powered by one-off dynos that follow a pay-as-you-go model) to extend AI model capabilities, enabling AI-powered automation and tool execution within Heroku’s trusted environment.
+Show Text-to-Text Models
+Get Started with Managed Inference and Agents
+Plan
+Price / 1M Token
+Model Type
+Region Provisioned
+Supporting Links
+More Details
+Input
+Output
+claude-3-haiku
+$0.25
+$1.25
+Text → Text
+EU
+Claude 3 Haiku docs
+→
+Model Source: Anthropic
+A faster, more affordable LLM that supports chat and tool-calling.
+claude-4-5-haiku
+$1.10
+$5.50
+Text → Text
+US | EU
+Claude 4.5 Haiku
+docs →
+Model Source: Anthropic
+A fast and highly cost-effective model, perfect for applications requiring rapid responses, content
+moderation, and inventory management. It's optimized for high-throughput tasks and real-time interactions.
+claude-opus-4-5
+$5.00
+$25.00
+Text → Text
+US | EU
+Claude Opus 4.5
+docs →
+Model Source: Anthropic
+A next-generation frontier model offering superior reasoning and nuance for complex tasks.
+claude-opus-4-6
+$5.50
+$27.50
+Text → Text
+US | EU
+Claude Opus 4.6
+docs →
+Model Source: Anthropic
+A next-generation, frontier LLM that supports chat, tool-calling, autonomous coding, effort control,
+and enhanced reasoning for complex tasks with extended thinking. It offers a highly intelligent, fast, and
+practical solution you can use to power your AI apps. This version offers better performance than the 4.5
+model.
+claude-opus-4-7
+$5.50
+$27.50
+Text → Text
+US | EU
+Claude Opus 4.7
+docs →
+Model Source: Anthropic
+A highly intelligent model with deeper reasoning for enterprise workflows, effort control, advanced coding, and complex multi-step agent tasks.
+claude-opus-4-8
+$5.50
+$27.50
+Text → Text
+US | EU
+Claude Opus 4.8
+docs →
+Model Source: Anthropic
+Anthropic's most capable model, featuring advanced reasoning, effort control, extended thinking, autonomous coding, and tool-calling for
+complex multi-step tasks.
+claude-4-sonnet
+$3.00
+$15.00
+Text → Text
+US | EU
+Claude 4 Sonnet
+docs →
+Model Source: Anthropic
+Claude 4 Sonnet is ideal for sophisticated code generation, complex chat interactions, and orchestrating
+multi-step workflows. It offers advanced intelligence, speed, and cost-efficiency, and outperforms previous
+models like Claude 3.5 Sonnet and Claude 3.7 Sonnet.
+claude-4-5-sonnet
+$3.30
+$16.50
+Text → Text
+US | EU
+Claude 4.5 Sonnet
+docs →
+Model Source: Anthropic
+A high-performance model that balances intelligence and speed, designed for more complex tasks including
+data processing, sales forecasting, and nuanced content generation. It provides a significant step up in
+capability for enterprise applications that demand high endurance and quality.
+claude-sonnet-4-6
+$3.30
+$16.50
+Text → Text
+US | EU
+Claude Sonnet 4.6
+docs →
+Model Source: Anthropic
+A high-performance model that balances intelligence and speed, designed for more complex tasks including
+data processing, sales forecasting, and nuanced content generation. It provides a significant step up in
+capability for enterprise applications that demand high endurance and quality.
+deepseek-v3-2
+$0.62
+$1.85
+Text → Text
+US
+DeepSeek V3.2 docs
+→
+Model Source: DeepSeek
+An open-weight LLM that supports conversational chat, tool-calling, and high-efficiency reasoning.
+glm-4-7
+$0.60
+$2.20
+Text → Text
+US
+GLM 4.7 docs →
+Model Source: Z.ai
+An open-weight LLM that supports conversational chat, tool-calling, and stable multi-step reasoning.
+glm-4-7-flash
+$0.07
+$0.40
+Text → Text
+US
+GLM 4.7 Flash docs
+→
+Model Source: Z.ai
+An open-weight LLM that supports conversational chat, tool-calling, and stable multi-step reasoning.
+gpt-oss-120b
+$0.15
+$0.60
+Text → Text
+US | EU
+GPT-OSS-120B
+docs
+→
+Model Source: OpenAI
+A powerful, open-source large language model developed by OpenAI, designed for a wide range of generative
+AI applications. It offers advanced capabilities in natural language understanding, generation, and complex
+problem-solving, making it a versatile tool for developers and enterprises.
+kimi-k2-thinking
+$0.60
+$2.50
+Text → Text
+US
+Kimi K2 Thinking
+docs →
+Model Source: Moonshot AI
+A specialized reasoning model designed for "Chain of Thought" applications and complex logic puzzles.
+kimi-k2-5
+$0.60
+$3.00
+Text → Text
+US
+Kimi K2.5 docs →
+Model Source: Moonshot AI
+An open-weight LLM that supports conversational chat, tool-calling, and multimodal agentic workflows.
+minimax-m2
+$0.30
+$1.20
+Text → Text
+US
+MiniMax M2 docs →
+Model Source: MiniMax
+A highly efficient general-purpose model with competitive pricing structure.
+minimax-m2-1
+$0.30
+$1.20
+Text → Text
+US
+MiniMax M2.1 docs
+→
+Model Source: MiniMax
+An open-weight LLM that supports conversational chat, tool-calling, and long-horizon reasoning.
+nova-lite
+$0.06
+$0.24
+Text → Text
+US | EU
+Nova Lite
+docs →
+Model Source: Amazon
+A fast and highly cost-effective model, perfect for applications requiring rapid text generation,
+summarization, and copywriting. It's optimized for high-throughput tasks and general-purpose use cases.
+nova-2-lite
+$0.33
+$2.75
+Text → Text
+US
+Nova 2 Lite
+docs →
+Model Source: Amazon
+Optimized for high-throughput summarization and copywriting.
+nova-pro
+$0.80
+$3.20
+Text → Text
+US | EU
+Nova Pro
+docs →
+Model Source: Amazon
+A high-performance model designed for more complex tasks, including advanced question-answering, detailed
+content creation, and nuanced data extraction. It provides a significant step up in capability for
+applications that demand higher quality and deeper understanding.
+qwen3-235b
+$0.22
+$0.88
+Text → Text
+US
+Qwen3 235B
+docs →
+Model Source: Qwen
+Large-scale general knowledge model.
+qwen3-coder-480b
+$0.45
+$1.80
+Text → Text
+US
+Qwen3 Coder 480B
+docs →
+Model Source: Qwen
+A specialized model designed for code generation and debugging.
+Hide Text-to-Text Models
+Show Text-to-Score Models
+Get Started with Managed Inference and Agents
+Plan
+Price / 1,000 Queries
+Model Type
+Region Provisioned
+Supporting Links
+More Details
+Amazon Rerank 1.0
+$1.00
+Text → Score
+US | EU
+Amazon Rerank 1.0 docs →
+Model Source: Amazon
+A reranking model that scores documents based on their semantic relevance to a query. It is ideal for enhancing retrieval-augmented generation (RAG) systems and semantic search applications
+Cohere Rerank 3.5
+$2.00
+Text → Score
+US | EU
+Cohere Rerank 3.5 docs →
+Model Source: Cohere
+A reranking model that scores documents based on their semantic relevance to a query. It offers enhanced reasoning, broad data compatibility, and multilingual support for over 100 languages while maintaining industry-leading accuracy.
+Hide Text-to-Score Models
+Show Embedding Models
+Get Started with Managed Inference and Agents
+Plan
+Price / 1M Input Token
+Model Type
+Region Provisioned
+Supporting Links
+More Details
+cohere-embed-v4
+$0.12
+Text → Embedding
+US | EU
+Cohere Embed V4 docs →
+Model Source: Cohere
+Cohere Embed v4 delivers industry-leading accuracy with support for over 100 languages. Ideal for retrieval-augmented generation (RAG) tasks, where you search and retrieve relevant documents based on natural-language queries.
+cohere-embed-multilingual
+$0.10
+Text → Embedding
+US | EU
+Cohere Embed Multilingual docs →
+Model Source: Cohere
+A state-of-the-art embedding model that supports multiple languages. This model is helpful for developing Retrieval Augmented Generation (RAG) search.
+Hide Embedding Models
+Show Image Models
+Get Started with Managed Inference and Agents
+Plan
+Price / image
+Model Type
+Region Provisioned
+Supporting Links
+More Details
+Stable-image-core
+$0.04
+Text → Image
+US
+Stable Image Core docs →
+Model Source: Stability AI
+A state-of-the-art image generation model designed to create high-quality, detailed images from text prompts. It offers improved resolution, finer details, and greater consistency compared to earlier versions.
+Stable-image-ultra
+$0.14
+Text → Image
+US
+Stable Image Ultra docs →
+Model Source: Stability AI
+A state-of-the-art diffusion (image generation) model.
+Hide Image Models
+Heroku Enterprise
+Heroku Enterprise delivers a platform precisely customized to your organization’s unique needs, complete with top-tier support necessary for organizations building and running critical applications. Gain enhanced compliance, security, and team access to drive innovation, empowering your teams to build and manage your most vital applications with precision and confidence for strategic growth.
+Learn More
+Heroku Connect
+Docs
+Seamlessly sync data between Heroku Postgres and Salesforce with
+Heroku Connect
+. Start free with the Demo Edition. Upgrade to Enterprise or Shield Editions—available exclusively to Heroku Enterprise customers—for advanced performance and security.
+Learn More
+Heroku Success
+Troubleshooting Docs
+Basic Support is free for all Heroku customers and includes access to
+documentation
+,
+Trailhead
+,
+Trailblazer communities
+, and our
+Help Portal
+. Go further with Enterprise
+Success Plans
+—Standard, Premier, and Signature—offering faster response times and expert guidance for your mission-critical applications.
+Learn More
+Elements Marketplace
+Add-on Services
+Heroku Add-on services are purchased through the
+Heroku Elements Marketplace
+. The Marketplace offers easily-integrated solutions for app development and operation, including complex services, workflow tools, and deployable code. For Direct customers, Add-on pricing varies by Add-on and can be found in the Heroku Elements Marketplace. For Enterprise customers, the Heroku Elements Marketplace uses add-on credits. One credit equals $1 worth of any service.
+Visit the Heroku Elements Marketplace
+Products
+Heroku Platform
+Heroku AI
+Heroku Managed Inference and Agents
+pgvector for Heroku Postgres
+MCP on Heroku
+Heroku Data Services
+Heroku Postgres
+Heroku Key-Value Store
+Apache Kafka on Heroku
+Heroku Enterprise
+Heroku Private Spaces
+Heroku Connect
+Heroku Shield
+Heroku Success
+Heroku Teams
+Elements Marketplace
+Languages
+Python
+.NET
+Java
+Node.js
+Go
+PHP
+Ruby
+Scala
+Clojure
+Resources
+Dev Center
+Training & Education
+Get Started
+Pricing
+Blog
+Customers
+Partners
+Compliance Center
+Solutions
+Podcasts
+About Us
+What is Heroku?
+Heroku & Salesforce
+Careers
+Help Center
+Status
+Contact
+Bluesky
+X-twitter-square
+Linkedin
+Github
+Rss
+Legal
+Terms of Service
+Privacy Information
+Responsible Disclosure
+Trust
+Contact
+Cookie Preferences
+Your Privacy Choices
+Sitemap
+Legal
+Terms of Service
+Privacy Information
+Responsible Disclosure
+Trust
+Contact
+Cookie Preferences
+Your Privacy Choices
+Sitemap
+© Copyright 2026 Salesforce, Inc. All rights reserved. Various trademarks held by their respective owners. Salesforce Tower, 415 Mission Street, 3rd Floor, San Francisco, CA 94105, United States

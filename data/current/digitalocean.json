@@ -1,0 +1,262 @@
+{
+  "slug": "digitalocean",
+  "name": "DigitalOcean",
+  "vendor": "DigitalOcean",
+  "category": "dev-infra",
+  "url": "https://www.digitalocean.com/pricing",
+  "final_url": "https://www.digitalocean.com/pricing",
+  "content_hash": "793d4e1ad3ef1663bb733086b83dffbf8f79a9ff8a72b9a81416f78da8dcdd68",
+  "raw_hash": "77c4d61bc8cd1f1cea2b7f0e55d2de267c3b55001454faf9171532f845124708",
+  "text_bytes": 13728,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Inference",
+      "price_raw": "$0.05",
+      "amount": 0.05,
+      "currency": "USD",
+      "period": null,
+      "features": [
+        "Access leading AI models",
+        "Compare cost, speed, and capability",
+        "Deploy with a single API",
+        "No infrastructure management",
+        "Pay only for what you use"
+      ]
+    },
+    {
+      "name": "GPU Droplets",
+      "price_raw": "$1.91",
+      "amount": 1.91,
+      "currency": "USD",
+      "period": "hour",
+      "features": [
+        "Run training and inference on AI/ML models",
+        "Process large data sets and complex neural networks",
+        "Serve additional use cases like high-performance computing (HPC)"
+      ]
+    },
+    {
+      "name": "App Platform",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Build, deploy and scale apps quickly",
+        "Fully managed solution, zero infrastructure management",
+        "Highly scalable"
+      ]
+    },
+    {
+      "name": "Droplets",
+      "price_raw": "$4",
+      "amount": 4.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Per-sec billing with 60 sec minimum or $0.01, whichever is higher",
+        "Deploy in seconds",
+        "Scale up on demand",
+        "Run any workload - from mission critical apps to low-traffic sites"
+      ]
+    },
+    {
+      "name": "Kubernetes",
+      "price_raw": "$12",
+      "amount": 12.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Simple, managed Kubernetes built for scale",
+        "Free control plane, free bandwidth allowance, and more",
+        "Automate and optimize to peak performance"
+      ]
+    },
+    {
+      "name": "Functions",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Focus on building great apps",
+        "Pay for what you use",
+        "Scale automatically"
+      ]
+    },
+    {
+      "name": "Cloudways Managed Hosting",
+      "price_raw": "$11",
+      "amount": 11.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Optimized for Wordpress & PHP based apps",
+        "SSD stack with PHP 8 & Redis",
+        "Unlimited apps, Git & staging"
+      ]
+    },
+    {
+      "name": "Databases",
+      "price_raw": "$15",
+      "amount": 15.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Managed MongoDB, Kafka, PostgreSQL, MySQL, Caching, Valkey, and OpenSearch",
+        "Worry-free setup, maintenance, and easy migration",
+        "Free daily backups, automated failover, and more!"
+      ]
+    },
+    {
+      "name": "Spaces",
+      "price_raw": "$5",
+      "amount": 5.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "S3-compatible object storage",
+        "Highly scalable",
+        "Built in CDN"
+      ]
+    },
+    {
+      "name": "Network File Storage",
+      "price_raw": "$0.15",
+      "amount": 0.15,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Standard tier: $0.15 per GiB-month",
+        "High performance tier: $0.30 per GiB-month",
+        "Starting from 50 GiB",
+        "Flat pricing across all supported regions"
+      ]
+    },
+    {
+      "name": "Volumes",
+      "price_raw": "$10",
+      "amount": 10.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Block storage",
+        "Highly available",
+        "Easily scale block storage, resize when needed, and move them between droplets"
+      ]
+    },
+    {
+      "name": "Container Registry",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Easily store and manage private container images",
+        "Transfer container images over high-speed HTTPs connections to servers across four continents"
+      ]
+    },
+    {
+      "name": "Load Balancers",
+      "price_raw": "$12",
+      "amount": 12.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Improve availability, performance, and scalability",
+        "Let’s Encrypt and HTTP/3 support",
+        "Compatible with Droplets and DigitalOcean Kubernetes",
+        "Global Load Balancers now available"
+      ]
+    },
+    {
+      "name": "Support Plans",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Find answers to common questions, development guidelines written by experts and get free email support",
+        "Ideal for those testing ideas and hosting small applications"
+      ]
+    },
+    {
+      "name": "Virtual Private Cloud",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Create unlimited VPCs at no additional cost.",
+        "Ingress data transfer to VPCs is free. Egress data transfer from VPCs to the internet counts against bandwidth quotas.",
+        "Intra-datacenter VPC peering is free. Inter-datacenter VPC peering is $0.01/GiB.",
+        "VPC NAT Gateway: $40.00 per node, includes 100 GiB bandwidth (overage $0.01/GiB), supports up to 500,000 connections."
+      ]
+    },
+    {
+      "name": "Uptime",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Uptime and latency checks",
+        "Alerts by email and Slack",
+        "One Uptime Check/month included with every account"
+      ]
+    },
+    {
+      "name": "Cloud Security Posture Management (CSPM)",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Agentless by design",
+        "Prioritized findings",
+        "Guided remediation",
+        "Unified visibility"
+      ]
+    },
+    {
+      "name": "Platform benefits",
+      "price_raw": "$0.01",
+      "amount": 0.01,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Build and deploy 3 static sites for free",
+        "Data transfer within and across VPCs in a data center is free. Ingress data transfer is free. Create as many VPCs as you want for no additional cost",
+        "Public Internet Egress Overage Data transfer is $0.01 per GiB",
+        "Private VPC Egress Overage Data Transfer between data centers is $0.01 per GiB",
+        "Free Reserved IPs when assigned to a Droplet",
+        "Industry leading bandwidth pricing, Droplets include free outbound data transfer, starting at 500 GiB / mo",
+        "Free DNS management",
+        "Free container registry with 1 repository and 500 MiB storage",
+        "Free cloud firewalls",
+        "Collect metrics on visibility, monitor Droplet performance, and get free alerts when problems arise in your infrastructure",
+        "Use 90,000 GiB-seconds per month for free with DigitalOcean Functions. There are no additional charges for function invocations"
+      ]
+    },
+    {
+      "name": "Experience a 186% return on investment",
+      "price_raw": "$2.37",
+      "amount": 2.37,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "No. Your card is only charged at the end of the ",
+      "price_raw": "$1",
+      "amount": 1.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    }
+  ],
+  "tables": [],
+  "extract_errors": []
+}

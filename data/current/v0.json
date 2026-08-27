@@ -1,0 +1,73 @@
+{
+  "slug": "v0",
+  "name": "v0",
+  "vendor": "Vercel",
+  "category": "ai-coding",
+  "url": "https://v0.app/pricing",
+  "final_url": "https://v0.app/pricing",
+  "content_hash": "e926b9b6140b2d3cc1791d3a7d4eaf8d9ddf9e035cfff96525b2430984cf4a97",
+  "raw_hash": "7537de5e07fea3ad97357d7f800e29a5c2287e7e46599e9699be83b5985bd1e2",
+  "text_bytes": 3839,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Free",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Plus Popular",
+      "price_raw": "$30",
+      "amount": 30.0,
+      "currency": "USD",
+      "period": "user",
+      "features": []
+    },
+    {
+      "name": "Business",
+      "price_raw": "$100",
+      "amount": 100.0,
+      "currency": "USD",
+      "period": "user",
+      "features": []
+    },
+    {
+      "name": "v0 Mini",
+      "price_raw": "$0.20",
+      "amount": 0.2,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "v0 Pro",
+      "price_raw": "$2",
+      "amount": 2.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "v0 Max",
+      "price_raw": "$5",
+      "amount": 5.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "v0 Max Fast",
+      "price_raw": "$10",
+      "amount": 10.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    }
+  ],
+  "tables": [],
+  "extract_errors": []
+}

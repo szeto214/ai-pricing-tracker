@@ -1,0 +1,89 @@
+{
+  "slug": "figma",
+  "name": "Figma",
+  "vendor": "Figma",
+  "category": "productivity",
+  "url": "https://www.figma.com/pricing/",
+  "final_url": "https://www.figma.com/pricing/",
+  "content_hash": "163517a630f0638906d47892236f1a13108627a1f941b492e8712f1e770790e7",
+  "raw_hash": "73674c49c7ba7fdbf671c892d7fbd81cc0cd448ae7247ddf60bbc94dbea1e343",
+  "text_bytes": 11846,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Free",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Full seat",
+      "price_raw": "$16",
+      "amount": 16.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Dev seat",
+      "price_raw": "$12",
+      "amount": 12.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Collab seat",
+      "price_raw": "$3",
+      "amount": 3.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Full seat",
+      "price_raw": "$55",
+      "amount": 55.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Dev seat",
+      "price_raw": "$25",
+      "amount": 25.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Collab seat",
+      "price_raw": "$5",
+      "amount": 5.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Full seat",
+      "price_raw": "$90",
+      "amount": 90.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Dev seat",
+      "price_raw": "$35",
+      "amount": 35.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    }
+  ],
+  "tables": [],
+  "extract_errors": []
+}

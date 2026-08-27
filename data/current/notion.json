@@ -1,0 +1,73 @@
+{
+  "slug": "notion",
+  "name": "Notion",
+  "vendor": "Notion Labs",
+  "category": "productivity",
+  "url": "https://www.notion.com/pricing",
+  "final_url": "https://www.notion.com/pricing",
+  "content_hash": "b488feebc0cc66410b68f3bae97ae36b220739c79150725ccd8e2d455ffe9ed2",
+  "raw_hash": "eec9402d51eb0129ec83b99b1539ac3489f579ea1d229895d92b9e831ea101e1",
+  "text_bytes": 22788,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Free",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "user",
+      "features": []
+    },
+    {
+      "name": "Plus",
+      "price_raw": "$10",
+      "amount": 10.0,
+      "currency": "USD",
+      "period": "user",
+      "features": []
+    },
+    {
+      "name": "Business Recommended",
+      "price_raw": "$20",
+      "amount": 20.0,
+      "currency": "USD",
+      "period": "user",
+      "features": []
+    },
+    {
+      "name": "Custom Agents",
+      "price_raw": "$10",
+      "amount": 10.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Enterprise Contact us",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "seat",
+      "features": []
+    },
+    {
+      "name": "AI agents handle repetitive tasks autonomously, ",
+      "price_raw": "$10",
+      "amount": 10.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Connect a custom domain to your Site and remove ",
+      "price_raw": "$8",
+      "amount": 8.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    }
+  ],
+  "tables": [],
+  "extract_errors": []
+}

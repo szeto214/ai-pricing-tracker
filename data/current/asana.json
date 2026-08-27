@@ -1,0 +1,33 @@
+{
+  "slug": "asana",
+  "name": "Asana",
+  "vendor": "Asana",
+  "category": "productivity",
+  "url": "https://asana.com/pricing",
+  "final_url": "https://asana.com/pricing",
+  "content_hash": "8a7f0fd9a265672d11260de693e0da6ca800b1928f45116cc775425df88bc7f2",
+  "raw_hash": "cc41921eaadf976ce1105622828673bbb0fac4c4608bea58517b50cf68e8ff5a",
+  "text_bytes": 39643,
+  "extractor": "jsonld",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Starter",
+      "price_raw": "10.99",
+      "amount": 10.99,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Advanced",
+      "price_raw": "24.99",
+      "amount": 24.99,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    }
+  ],
+  "tables": [],
+  "extract_errors": []
+}

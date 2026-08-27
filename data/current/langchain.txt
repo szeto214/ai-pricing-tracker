@@ -1,0 +1,440 @@
+Products
+LangSmith Platform
+Agent Improvement
+Engine
+Improve agents autonomously
+Observability
+See exactly what your agents are doing
+Evaluation
+Score and improve agent performance
+Agent Infrastructure
+Deployment
+Ship and scale agents in production
+Sandboxes
+Run agent-generated code safely
+LLM Gateway
+Control agent model calls
+No-Code Agents
+Fleet
+Agents for the whole company
+Open Source
+Agent Frameworks
+deepagents
+Build long-running agents for complex tasks
+langgraph
+Build agents with low-level control
+langchain
+Quick start agents with any model provider
+Coding Agent
+dcode
+The coding agent you own
+Learn
+Resources
+Blog
+Customer Stories
+Guides
+Max Agency
+How-To
+LangChain Academy
+YouTube
+Documentation
+Community
+LangSmith for Startups
+Meetups
+Community
+Docs
+Company
+About
+Careers
+Partners
+Events
+Pricing
+Try LangSmith
+Get a demo
+Try LangSmith
+Get a demo
+Pricing
+Plans for teams of any size
+Get access to each LangSmith service - pay for what you use.
+Developer
+For solo users getting started.
+$0 / seat per month
+then pay as you go
+Start for free
+Up to 5k base traces / mo, then pay-as-you-go
+Community support
+1 seat
+Plus
+For teams building and deploying agents.
+$39 / seat per month
+then pay as you go
+Sign up
+Up to 10k base traces / mo, then pay-as-you-go
+Access to Deployment, Engine, and more
+Add unlimited seats
+Enterprise
+For teams with advanced hosting, security, and support needs.
+Custom pricing
+then pay as you go
+Contact sales
+Self-hosted and hybrid deployment options
+Custom SSO, ABAC, and RBAC
+Support SLA
+Custom seats and workspaces
+Small team just getting started?
+We offer discounted rates and credits for VC-backed startups. Get up to $10,000 in credits.
+LangSmith for Startups
+LangSmith Usage Calculator
+Estimate your monthly usage
+Tell us about your agent. Pay-as-you-go.
+LCU
+LangChain Compute Units. For work done
+&
+compute.
+$1.50 / LCU
+LSU
+LangChain Storage Units. For traces
+&
+storage.
+$1.00 / LSU
+Your agent stack
+Monthly total
+LCU
+0
+LSU
+0
+$49
+/ mo
+Estimate only. Actual LCU/LSU consumption varies with the work your agents perform.
+Ready to start with LangSmith?
+Start building with LangSmith, talk with our team, or share this estimate with the people you work with.
+Copy Estimate Link
+Contact Sales
+Get Started
+Features
+Developer
+$0 / seat
+Plus
+$39 / seat
+Enterprise
+Custom pricing
+Pricing
+Pricing and list details per metric by plan. Use the usage calculator above to estimate your monthly bill.
+Users
+Maximum of 1 seat (free)
+Add unlimited seats $39 per seat/month
+Custom
+Trace volume  (Observability & Evaluation)
+5k base traces / mo included
+Pay as you go thereafter
+i
+10k base traces / mo included
+Pay as you go thereafter
+i
+Custom
+Max trace ingestion and trace size
+See hourly trace ingestion and trace event limits
+here
+.
+See hourly trace ingestion and trace event limits
+here
+.
+Custom
+Deployment
+N/A
+1 free Serverless (Small) deployment included.
+Additional Serverless and Dedicated deployments available by size (Small, Medium, Large) and charged based on resources consumed. Specs by size can be found
+here
+. Metering rates as follows:
+Runtime Compute · 0.045 LCU / vCPU-hr
+Runtime Memory · 0.006 LCU / GiB-hr
+Database Compute · 0.177 LSU / vCPU-hr
+Database Memory · 0.025 LSU / GiB-hr
+Custom
+Fleet
+Fleet usage metered in LCUs. Includes 5 LCU of Fleet usage / mo for free.
+Fleet usage metered in LCUs. Includes 25 LCU of Fleet usage / mo.
+Custom
+Engine
+N/A
+Engine usage is metered in LCUs
+i
+Custom
+Sandboxes
+Includes 5 LCU & 1 LSU of Sandbox usage / mo for free.
+Limited to 10 Sandboxes.
+Compute · 0.0384 LCU / vCPU-hr
+Memory · 0.0123 LCU / GiB-hr
+Storage · 0.000123 LSU / GiB-hr
+All rates billed per second.
+Includes 5 LCU & 1 LSU of Sandbox usage / mo for free.
+Custom
+LLM Gateway
+Pay-as-you-go model usage via Gateway Credits.
+i
+LLM Gateway controls included.
+i
+Pay-as-you-go model usage via Gateway Credits.
+i
+Custom
+Request access to data protection controls
+here
+.
+Tuned Evaluators
+N/A
+Pay-as-you-go usage.
+Perceived Error · 0.01 LCU/Evaluation Run
+i
+Custom
+i
+LangSmith Observability & Evaluation
+Debug, monitor, and improve your AI applications with tracing and evals
+Tracing
+Monitoring
+Insights
+Online and offline evals
+Dataset collection
+Annotation queue (human feedback)
+Prompt Hub and Playground
+Bulk data export
+Unlimited agents
+Tuned Evaluators
+LangSmith Deployment
+Deploy and manage long-running agents with our purpose-built infrastructure
+LangSmith Studio
+Expose agent as MCP server
+Real-time streaming of intermediary steps and final output
+Agent Authorization (beta)
+1-Click Deploy
+Horizontally-scalable service for dedicated deployments
+Server Scale-to-Zero when idle
+Assistants API
+30+ API endpoints including state and memory
+Cron scheduling
+Authentication & authorization for LangGraph APIs
+LangSmith Fleet
+Create agents for daily tasks using everyday language, not code
+Access to prebuilt templates
+Add tools with a remote MCP server
+Trigger agent via API
+Use LangChain models
+Share and clone agent templates
+Unlimited agents
+LangSmith Engine
+Find agent failures, diagnose root causes, and generate fixes with eval coverage automatically.
+Monitor traces autonomously
+Cluster agent behavior into issues
+Diagnose code failures
+Recommend fixes to prompts and code
+Create datasets for human review
+Create offline and online evals to prevent repeated failures
+LangSmith Sandboxes
+Ephemeral, isolated sandboxes designed for agent-generated code
+Auth proxy with custom callbacks
+Bring your own image
+Configurable TTLs
+Snapshot and fork to explore parallel branches
+Port tunneling to your local machine
+Sandbox CLI
+Scale to 1000s on demand
+LangSmith LLM Gateway
+Manage costs, fallbacks, and sensitive data between your agents and LLM providers
+Cost controls
+Rate limiting controls
+Model fallbacks
+PII and secrets redaction
+BYO model API key
+Use Gateway with coding agents
+View Gateway events in LangSmith traces
+Use models with Gateway Credits
+Hosting options
+Choose where to host the LangSmith platform
+Platform hosting option(s)
+Cloud
+Cloud
+Cloud, Hybrid, or Self-Hosted
+Infra
+N/A
+Fully managed by LangChain
+Cloud: Fully managed by LangChain
+Hybrid: SaaS control plane, Self-hosted data plane
+Self-Hosted: Fully self-managed
+Data location
+N/A
+LangChain's Cloud (US or EU)
+Cloud: LangChain's Cloud (US or EU)
+Hybrid: LangChain's Cloud (US or EU)
+Self-Hosted: Your VPC
+Security controls
+SSO
+Google, GitHub
+Custom SSO
+Role-Based Access Control
+Organization Roles (User and Admin)
+Support
+Community Forum
+Support Portal
+Email Support
+Slack
+Team trainings
+Architectural guidance for your applications
+Access to deployed engineers
+SLA
+Procurement
+Billing
+Monthly, self-serve
+Monthly, self-serve
+Annual invoice
+Custom Terms
+Infosec Review
+General Questions
+Which plan is right for me?
+Our Developer plan is a great choice for personal projects. You will have 1 free seat with access to LangSmith (5k base traces/month included).
+The Plus plan is for teams that want to self-serve with moderate usage and collaboration needs. You can purchase unlimited seats with access to LangSmith (10k base traces/month included). You will be able to ship agents with our managed LangSmith Deployment service, with 1 free small serverless deployment included.
+The Enterprise plan is for teams that need more advanced administration, security, support, or deployment options.
+Contact our sales team
+to learn more.
+Do you offer a plan for startups?
+Yes! We offer a Startup Plan for LangSmith, designed for early-stage companies building agentic applications. You’ll get discounted rates and generous free trace allotments to build with confidence from day one.
+‍
+Apply here
+to get started with startup pricing.
+When will I be billed?
+For the Developer or Plus Plan, seats are billed monthly on the 1st or pro-rated if added mid-month (no credit for removed seats); traces are billed monthly in arrears for your usage. Enterprise plans are invoiced annually upfront.
+Will you train on the data that I send to LangSmith?
+No. LangSmith does not use your data to train models. Your traces, prompts, and outputs remain private to your organization. See LangSmith
+Terms of Service
+for more information.
+What is a seat?
+A seat is a distinct user inside your organization. We consider the total number of users (including invited users) to determine the number of seats to bill.
+I have a developer account, can I upgrade my account to the plus or enterprise plan?
+Yes, Developer plan users can easily upgrade to the Plus plan on the
+Plans and Billing
+page. For the Enterprise plan, please
+contact our sales team
+to discuss your needs.
+What is an LCU? What is an LSU?
+LangChain Compute Unit (LCU):
+A LCU is a normalized unit of work done on the LangSmith Platform and is used for pricing purposes. Different services in LangSmith that do work and consume compute, tokens, or processing power all meter at different rates and are measured in LCUs. Examples of LangSmith products that consume LCUs include Engine, Fleet, deployments, and sandboxes. 1 LCU = $1.50.
+LangChain Storage Unit (LSU):
+A LSU is a normalized unit of data stored or managed by the LangSmith Platform and is used for pricing purposes. Different services in LangSmith that store data in a database or in memory all meter at different rates and are measured in LSUs. Examples of LangSmith products that consume LSUs include traces, deployments, and sandboxes. 1 LSU = $1.00
+LangSmith Observability & Evaluation Questions
+What is a trace? Can it contain multiple events?
+A trace represents a single execution of your application—whether it’s an agent, evaluator, or playground session. It can include many individual steps, such as LLM calls and other tracked events. Here's an
+example
+of a single trace.
+What is the difference between a base trace and an extended trace?
+Base traces have a shorter retention period of 14 days. Extended traces have a longer retention period of 400 days. You can "upgrade" base traces to extended traces for an additional fee.
+Why would I upgrade a base trace to an extended trace?
+Base traces are short-lived (14-day retention) and ideal for quick debugging or ad-hoc analysis. They’re priced for volume and short-term utility.
+Extended traces are retained for 400 days. This is useful when traces include valuable feedback associated with them, such as from users, evaluators, or human labelers. This feedback makes them valuable for ongoing improvement and model tuning.
+LangSmith lets you choose the right retention for each trace, helping you balance cost and value.
+Are Tuned Evaluations charged for every agent run?
+Tuned Evaluators are only billed when a Tuned Evaluator runs successfully. Skipped and failed evaluations are not billed. You control when Tuned Evaluators run in your tracing projects. See
+the docs.
+Are Tuned Evaluators available for my plan?
+Tuned Evaluators are currently available in public beta for Plus and Cloud Enterprise plans in the US. We plan to expand access to more regions and hosting options over time.
+LangSmith Deployment Questions
+Does LangSmith Deployment include any free deployments?
+Plus plans include 1 free small serverless deployment. If you spin up additional serverless or dedicated deployments, you’ll be charged on usage (resource time).
+What does uptime mean for LangSmith Deployment usage?
+Uptime is the duration your deployment’s database is live and persisting state. Uptime will be tracked as soon as your deployment is live and ends when you shut it down. Dev agent deployments are typically short-lived (used during iteration, then deleted) – whereas Production agent deployments stay live and are updated via revisions (rather than being deleted).
+When should I use a serverless deployment vs. a dedicated deployment?
+Serverless deployments scale to zero when idle and are intended for testing, background agents, or internal agents. Dedicated deployments are always on and intended for production workloads that require autoscaling, backups, and high availability. We recommend using the dedicated deployment for any customer-facing agent.
+What size deployment should I start with?
+Use Serverless for background or latency-tolerant agents (it scales to zero, so you pay only while it runs) and Dedicated for customer-facing agents that need consistent uptime. Start at Small and size up to Medium or Large as traffic grows, you can change size anytime. Full specs by size are in the
+docs
+.
+LangSmith Fleet Questions
+Are model costs included with Fleet pricing?
+Yes. Fleet pricing now includes underlying model costs. Fleet models are available in 3 performance tiers - Fast, Pro & Max.
+Are agent tools included with Fleet pricing?
+Fleet includes built-in tools and supports connecting third-party tools via a remote MCP server. Third-party tools typically require you to authenticate with your account, and any fees or usage charges are billed by the third-party provider. More information on setting up tool keys in
+our docs
+.
+Are Fleet runs automatically traced in LangSmith, and do they count toward billing?
+Yes. Every Fleet run is automatically traced in LangSmith. These traces are attributed to the user’s account and count toward usage-based billing under the customer’s LangSmith plan.
+Can I self-host Fleet?
+Yes.
+Contact our sales team
+to learn more.
+How is Fleet metered?
+Fleet usage is measured in LangChain Compute Units (LCUs). LCU usage depends on the amount of work your Fleet agent performs, your selected model tier (Fast, Pro, Max) and the amount of content it processes & generates. Developer & Plus plans include a free usage allowance, shared across your organization and resets monthly:
+Developer
+: 5 LCUs included per organization each month. After the allowance is used, Fleet pauses new runs until the allowance resets or the organization upgrades to Plus.
+Plus
+: 25 LCUs included per organization each month. Additional usage is billed.
+What are Fast, Pro, and Max?
+Fast, Pro, and Max are performance tiers, not fixed model names. Fleet selects and LangChain maintains the underlying models for each tier, based on specific task performance and cost optimization. Users select the tier based on the performance requirements for each workload.
+Fast
+prioritizes speed and cost efficiency for everyday work.
+Pro
+provides stronger reasoning for more complex work.
+Max
+provides the highest capability for the most demanding work and typically costs more and takes longer.
+Do I need my own model-provider API key?
+No. LangChain manages model-provider access for Fast, Pro, and Max. Your organization is charged for Fleet usage in LCUs.
+LangSmith Engine Questions
+How is LangSmith Engine priced?
+Engine is metered in LCUs (LangChain Compute Units), which are consumed during each Engine run. 1 LCU costs $1.50.
+What does a LangChain Compute Unit (LCU) represent?
+An LCU represents a unit of work done by Engine. This includes the compute, infrastructure, and underlying model usage needed to analyze traces, identify issues, and propose fixes to your agent.
+How are LCUs calculated?
+An Engine run can consume ~5-30 LCUs based on the volume of traces analyzed, agent complexity, the number and types of issues surfaced, and the suggested fixes.
+These ranges are estimates. Actual usage depends on the amount of work Engine performs, including the volume of traces analyzed, the number of issues surfaced, the number of proposed fixes generated, and the complexity of your application.
+How often does Engine run?
+Engine is scheduled to run once every 6 hours.
+Is model usage included in the cost?
+Yes. Engine pricing includes the underlying model usage required for analysis and fix generation.
+Where can I see my LCU usage?
+You can view your organization’s LCU usage in your LangSmith billing console by visiting Settings > Billing.
+Learn more
+.
+Are LCUs included in my plan?
+Plus plans: LCUs are an additional charge on top of your monthly license fee and any other product usage.
+Enterprise plans: LCUs are charged against your committed LangChain credits.
+How do I disable Engine?
+Ask your Organization Admin to turn off Engine in the Settings page by following instructions
+here
+. Once Engine is disabled, it will stop running on its regular schedule and will no longer consume LCUs.
+LangSmith Sandboxes Questions
+How is Sandbox uptime calculated?
+Sandboxes are designed as ephemeral compute environments and are billed per second. LangSmith Sandboxes have configurable TTLs so inactive sandboxes shut down automatically.
+Ready to start shipping  reliable agents faster?
+Get started with tools from the LangChain product suite for every step of the agent development lifecycle.
+Start building
+Get a demo
+Products
+LangSmith Platform
+LangSmith Observability
+LangSmith Evaluation
+LangSmith Deployment
+LangSmith Fleet
+LangSmith Sandboxes
+Deep Agents
+Deep Agents Code
+LangChain
+LangGraph
+Resources
+Blog
+Customer Stories
+Guides
+Community
+Changelog
+Docs
+Support
+LangChain Academy
+Company
+About
+Careers
+Partners
+Trust Center
+Marketing Assets
+Events
+Sign up for our newsletter to stay up to date
+Thank you!
+Your submission has been received!
+Oops! Something went wrong while submitting the form.
+All systems operational
+Privacy policy
+Terms of service

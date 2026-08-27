@@ -1,0 +1,109 @@
+{
+  "slug": "github-copilot",
+  "name": "GitHub Copilot",
+  "vendor": "GitHub",
+  "category": "ai-coding",
+  "url": "https://github.com/features/copilot/plans",
+  "final_url": "https://github.com/features/copilot/plans",
+  "content_hash": "a81ea2c5b20e621b9dbf2f57da1f99186dd7415ccec6fddd53aa7997a7f771dc",
+  "raw_hash": "7b7e62a55900fe4ae141fd0a61503c57a04426cf2ebfce68172abbb89759e402",
+  "text_bytes": 49951,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Free",
+      "price_raw": "$ 0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "2,000 completions per month",
+        "Access to Haiku 4.5, GPT-5 mini, and more",
+        "Copilot CLI",
+        "Community Support"
+      ]
+    },
+    {
+      "name": "Everything in Free and:",
+      "price_raw": "$15",
+      "amount": 15.0,
+      "currency": "USD",
+      "period": null,
+      "features": [
+        "Access to Cloud agent and code review",
+        "Unlimited code completion and next edit suggestions",
+        "Access to 3rd party agents (Claude Code and Codex)",
+        "Model selection",
+        "$15 monthly total credits for Pro"
+      ]
+    },
+    {
+      "name": "Everything in Pro and:",
+      "price_raw": "$70",
+      "amount": 70.0,
+      "currency": "USD",
+      "period": null,
+      "features": [
+        "Access to premium models, including Opus",
+        "Audit logs",
+        "4x+ included usage than Pro",
+        "$70 monthly total credits for Pro+"
+      ]
+    },
+    {
+      "name": "Everything in Pro+ and:",
+      "price_raw": "$200",
+      "amount": 200.0,
+      "currency": "USD",
+      "period": null,
+      "features": [
+        "Priority access to new models and features",
+        "2.9x+ included usage than Pro+",
+        "$200 monthly total credits for Max"
+      ]
+    },
+    {
+      "name": "Pricing plans",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Free plan",
+      "price_raw": "$15",
+      "amount": 15.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Free plan",
+      "price_raw": "$10",
+      "amount": 10.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Free plan",
+      "price_raw": "$5",
+      "amount": 5.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Free plan",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    }
+  ],
+  "tables": [],
+  "extract_errors": []
+}

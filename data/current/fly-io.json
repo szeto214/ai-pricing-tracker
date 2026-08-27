@@ -1,0 +1,33 @@
+{
+  "slug": "fly-io",
+  "name": "Fly.io",
+  "vendor": "Fly.io",
+  "category": "dev-infra",
+  "url": "https://fly.io/pricing/",
+  "final_url": "https://fly.io/pricing/",
+  "content_hash": "19c4c7033f229df1d9d3620f754665695c53011dd5244bad01bd4c2655eaabf3",
+  "raw_hash": "8ee6c5ade83fee29447b9f59aa1653b469dd417a3469b3fb6d018306a937825a",
+  "text_bytes": 2959,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Serious Support",
+      "price_raw": "$29",
+      "amount": 29.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Compliance Made Easy",
+      "price_raw": "$99",
+      "amount": 99.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    }
+  ],
+  "tables": [],
+  "extract_errors": []
+}

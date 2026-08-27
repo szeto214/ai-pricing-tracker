@@ -1,0 +1,129 @@
+{
+  "slug": "modal",
+  "name": "Modal",
+  "vendor": "Modal Labs",
+  "category": "ai-api",
+  "url": "https://modal.com/pricing",
+  "final_url": "https://modal.com/pricing",
+  "content_hash": "fcce4aa38bb5099a2fe5dcfa3364564d40ba441e97d30270dd001f6c1c88a231",
+  "raw_hash": "345f33b80121ae751fca1861fd95d07bab51883f5ab62daf422ba33dd21b7f7e",
+  "text_bytes": 5105,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Resource costs",
+      "price_raw": "$0.00",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "hour",
+      "features": []
+    },
+    {
+      "name": "Starter",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "$30 / month free credits",
+        "3 workspace seats included",
+        "100 containers + 10 GPU concurrency",
+        "Scheduled and Web Functions (limited)",
+        "Real-time metrics and logs",
+        "Region selection"
+      ]
+    },
+    {
+      "name": "$30 / month free credits",
+      "price_raw": "$30",
+      "amount": 30.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "$30 / month free credits",
+        "3 workspace seats included",
+        "100 containers + 10 GPU concurrency",
+        "Scheduled and Web Functions (limited)",
+        "Real-time metrics and logs",
+        "Region selection"
+      ]
+    },
+    {
+      "name": "Team",
+      "price_raw": "$250",
+      "amount": 250.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "$100 / month free credits",
+        "Unlimited seats",
+        "5000 containers + 50 GPU concurrency",
+        "Unlimited Scheduled Functions",
+        "Custom domains",
+        "Static IP proxy",
+        "Deployment rollbacks",
+        "Environment-level budgets"
+      ]
+    },
+    {
+      "name": "$100 / month free credits",
+      "price_raw": "$100",
+      "amount": 100.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "$100 / month free credits",
+        "Unlimited seats",
+        "5000 containers + 50 GPU concurrency",
+        "Unlimited Scheduled Functions",
+        "Custom domains",
+        "Static IP proxy",
+        "Deployment rollbacks",
+        "Environment-level budgets"
+      ]
+    },
+    {
+      "name": "Credit grants for academics",
+      "price_raw": "$10k",
+      "amount": 10000.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Compute costs",
+      "price_raw": "$0.00",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "hour",
+      "features": []
+    },
+    {
+      "name": "Traditional cloud: $5,400",
+      "price_raw": "$5,400",
+      "amount": 5400.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Modal serverless cloud: $4,740",
+      "price_raw": "$4,740",
+      "amount": 4740.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Ship your first app in minutes.",
+      "price_raw": "$30",
+      "amount": 30.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    }
+  ],
+  "tables": [],
+  "extract_errors": []
+}

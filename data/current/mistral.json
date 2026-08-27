@@ -1,0 +1,383 @@
+{
+  "slug": "mistral",
+  "name": "Mistral AI",
+  "vendor": "Mistral",
+  "category": "ai-api",
+  "url": "https://mistral.ai/pricing",
+  "final_url": "https://mistral.ai/pricing/",
+  "content_hash": "adf79f3e6c7d999e6a0bb97c3c65768162a56441e7a2a099e6bf25ba7edb93d0",
+  "raw_hash": "c0277a9bf295b1da8d9ac43967061ef7b8464d834c9aa090d5bdfe7b42737404",
+  "text_bytes": 10034,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Free",
+      "price_raw": "$10",
+      "amount": 10.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Test out Vibe’s capabilities.",
+        "Access on web and mobile.",
+        "Limited messages and web searches.",
+        "Limited coding sessions.",
+        "State-of-the-art image generation.",
+        "Test Mistral models in Studio.",
+        "$10 /mo in API credits.",
+        "100+ connectors."
+      ]
+    },
+    {
+      "name": "Test out Vibe’s capabilities.",
+      "price_raw": "$10",
+      "amount": 10.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Test out Vibe’s capabilities.",
+        "Access on web and mobile.",
+        "Limited messages and web searches.",
+        "Limited coding sessions.",
+        "State-of-the-art image generation.",
+        "Test Mistral models in Studio.",
+        "$10 /mo in API credits.",
+        "100+ connectors."
+      ]
+    },
+    {
+      "name": "$14.99",
+      "price_raw": "$14.99",
+      "amount": 14.99,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "More access and usage.",
+      "price_raw": "$30",
+      "amount": 30.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "More access and usage.",
+        "More messages and web searches.",
+        "Get more complex tasks done.",
+        "All-day coding in the CLI, IDE, or on web.",
+        "More image generations.",
+        "$30 /mo in API credits.",
+        "Chat and email support."
+      ]
+    },
+    {
+      "name": "$24.99",
+      "price_raw": "$24.99",
+      "amount": 24.99,
+      "currency": "USD",
+      "period": "user",
+      "features": []
+    },
+    {
+      "name": "Free",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Most models are priced per million tokens, with ",
+      "price_raw": "$0.5",
+      "amount": 0.5,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Verified students can get Mistral Pro for $5.99 ",
+      "price_raw": "$5.99",
+      "amount": 5.99,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    }
+  ],
+  "tables": [
+    {
+      "caption": "",
+      "rows": [
+        [
+          "",
+          "Free Start now",
+          "Pro Start now",
+          "Team Start now",
+          "Enterprise Contact us"
+        ],
+        [
+          "Interfaces."
+        ],
+        [
+          "Vibe on web Vibe in your browser: run long-horizon work and code tasks from a chat interface.",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Vibe CLI Terminal-native coding agent powered by Devstral for autonomous software engineering tasks.",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Vibe for IDE VS Code and JetBrains plugin powered by Devstral—tab completion, natural language code editing, and context-aware chat.",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Vibe on mobile (iOS and Android)",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Features and tools."
+        ],
+        [
+          "Messages Chat with our most powerful, SOTA models.",
+          "",
+          "Up to 6x free",
+          "Up to 6x free",
+          ""
+        ],
+        [
+          "Voice mode Record or upload audio, get transcriptions, ask questions, or generate summaries.",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Skills Create and load instructions, tools, and scripts for specialized, repeatable tasks.",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Web searches",
+          "",
+          "Up to 5x free",
+          "Up to 5x free",
+          ""
+        ],
+        [
+          "Libraries and document upload Organize and include information for your chats. Supported file formats: PDF, images, CSV, all text files (.json...), Office Suite",
+          "Limited",
+          "Up to 15GB",
+          "Up to 30GB / user",
+          ""
+        ],
+        [
+          "Task scheduling Schedule prompts, agents, or workflows to run automatically at set times.",
+          "Up to 5",
+          "Unlimited Subject to fair usage limits and Mistral's Terms of Service.",
+          "Unlimited Subject to fair usage limits and Mistral's Terms of Service.",
+          ""
+        ],
+        [
+          "Workflows Run multi-step automations orchestrated from Mistral Studio.",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Connectors (beta) Search, summarize, and act across your stack with the widest enterprise-ready connector directory.",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Custom MCP connectors (beta) Connect to any remote MCP server of choice.",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Canvas Create documents, presentations, code, mockups, and more.",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Project folders Group chats into organized, context-rich workspaces.",
+          "",
+          "Up to 1,000",
+          "Up to 1,000",
+          ""
+        ],
+        [
+          "Image generation Generate and edit high-quality AI images, turning ideas into visuals with just a few words.",
+          "",
+          "Up to 40x free",
+          "Up to 40x free",
+          ""
+        ],
+        [
+          "Verified news Fetch reliable and verified news content in responses.",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Coding features."
+        ],
+        [
+          "Use Vibe in the CLI, IDE, and remotely.",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Connectors Pull context from your tools like Notion, Slack, Linear, and Drive directly into Vibe while it codes.",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Hooks Run custom shell commands before and after each agent turn to enforce conventions, block patterns, or trigger your own automations.",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Remote coding agents Remote coding agent in isolated sandboxes for parallel task execution.",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Teleport Hand off a Vibe session from your local machine to a remote coding agent , then pick it back up locally when needed.",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Remote agent observability Monitor remote coding sessions with run history, tool calls, code changes, logs, and audit trails.",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Domain name verification",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Team and enterprise features."
+        ],
+        [
+          "Knowledge connectors Connect external knowledge sources to Vibe for real-time, accurate answers.",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Custom deployments Deploy self-hosted, in your private cloud, or on-premises; your data stays in your environment.",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Admin API Programmatically manage users, teams, and permissions.",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Data export",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Audit logs Detailed logs for tracking usage, changes, and ensuring compliance.",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "SAML SSO",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "White label Dedicated hostname, your logo.",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Usage and data."
+        ],
+        [
+          "Extend usage with PAYG credits Keep going past your plan limit by paying only for what you use beyond it at API rate.",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Model training",
+          "",
+          "Opt-out",
+          "Opt-out",
+          "Opt-out"
+        ],
+        [
+          "Customer service."
+        ],
+        [
+          "Help center",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Chat and email support",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    }
+  ],
+  "extract_errors": []
+}

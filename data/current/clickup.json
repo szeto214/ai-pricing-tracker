@@ -1,0 +1,663 @@
+{
+  "slug": "clickup",
+  "name": "ClickUp",
+  "vendor": "ClickUp",
+  "category": "productivity",
+  "url": "https://clickup.com/pricing",
+  "final_url": "https://clickup.com/pricing",
+  "content_hash": "ff7c20f4fbfb4cef3e6c1bb730919aa66dc462e0f678c325d5fc3a3fb9c1fdc6",
+  "raw_hash": "d03c3812a4a3cf68ee0e713d20046b3d716a3106cf270bd0e8e2793a611711e9",
+  "text_bytes": 9337,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "free forever",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": "user",
+      "features": []
+    },
+    {
+      "name": "unlimited",
+      "price_raw": "$7",
+      "amount": 7.0,
+      "currency": "USD",
+      "period": "user",
+      "features": []
+    },
+    {
+      "name": "business",
+      "price_raw": "$12",
+      "amount": 12.0,
+      "currency": "USD",
+      "period": "user",
+      "features": []
+    },
+    {
+      "name": "enterprise",
+      "price_raw": "$750",
+      "amount": 750.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Free Forever",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Unlimited",
+      "price_raw": "$7",
+      "amount": 7.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Business",
+      "price_raw": "$12",
+      "amount": 12.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Brain AI",
+      "price_raw": "$9",
+      "amount": 9.0,
+      "currency": "USD",
+      "period": "user",
+      "features": []
+    },
+    {
+      "name": "Everything AI",
+      "price_raw": "$28",
+      "amount": 28.0,
+      "currency": "USD",
+      "period": "user",
+      "features": []
+    },
+    {
+      "name": "AI Super Credits",
+      "price_raw": "$0.00",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "credit",
+      "features": []
+    }
+  ],
+  "tables": [
+    {
+      "caption": "",
+      "rows": [
+        [
+          "",
+          "Free Forever Free Free forever Get Started",
+          "Unlimited $7 User/Month Get started",
+          "Business $12 User/Month Get started",
+          "Enterprise enterprise User/Month Contact sales"
+        ],
+        [
+          "Usage",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Tasks",
+          "Unlimited",
+          "Unlimited",
+          "Unlimited",
+          "Unlimited"
+        ],
+        [
+          "Spaces",
+          "5 Spaces",
+          "Unlimited",
+          "Unlimited",
+          "Unlimited"
+        ],
+        [
+          "Lists/Space",
+          "40",
+          "200",
+          "400",
+          "1000"
+        ],
+        [
+          "Folders/Space",
+          "100",
+          "200",
+          "400",
+          "Unlimited"
+        ],
+        [
+          "Custom Views",
+          "Unlimited",
+          "Unlimited",
+          "Unlimited",
+          "Unlimited"
+        ],
+        [
+          "Essentials",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "AI Notetaker Compatible",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "AI Compatible",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "AI Free Usage",
+          "Limits apply",
+          "Limits apply",
+          "Limits apply",
+          "Limits apply"
+        ],
+        [
+          "Custom Field Manager Basic",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Custom Field Manager Advanced",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "File Storage",
+          "60MB",
+          "Unlimited",
+          "Unlimited",
+          "Unlimited"
+        ],
+        [
+          "Privacy and Sharing",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Guests",
+          "Guests must be given full access (no permissions)",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Custom Fields",
+          "Trial",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Pinning Custom Fields",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Template Everything",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Views",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "List",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Board",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Calendar",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Team",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Gantt",
+          "Trial",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Activity",
+          "1 day",
+          "7 days",
+          "",
+          ""
+        ],
+        [
+          "Timeline",
+          "Trial",
+          "Trial",
+          "",
+          ""
+        ],
+        [
+          "Workload",
+          "Trial",
+          "Trial",
+          "",
+          "Custom capacity & additional groups"
+        ],
+        [
+          "Table (Spreadsheets)",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Map",
+          "",
+          "Trial",
+          "",
+          ""
+        ],
+        [
+          "Mind Map",
+          "",
+          "Trial",
+          "",
+          ""
+        ],
+        [
+          "Whiteboards",
+          "3 Whiteboards",
+          "10 Whiteboards",
+          "",
+          ""
+        ],
+        [
+          "Doc",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Form",
+          "1 Form",
+          "",
+          "",
+          "Branding & Customization"
+        ],
+        [
+          "Embed",
+          "Trial",
+          "Trial",
+          "",
+          ""
+        ],
+        [
+          "Wiki",
+          "1 Wiki",
+          "1 Wiki",
+          "1 Wiki",
+          ""
+        ],
+        [
+          "Protected View",
+          "",
+          "",
+          "Trial",
+          ""
+        ],
+        [
+          "Default Views",
+          "",
+          "",
+          "Trial",
+          ""
+        ],
+        [
+          "Private Whiteboards",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Chat",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Number of Messages",
+          "Trial",
+          "Unlimited",
+          "Unlimited",
+          "Unlimited"
+        ],
+        [
+          "Message History",
+          "30 days",
+          "Unlimited",
+          "",
+          ""
+        ],
+        [
+          "Schedule Send Messages",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Number of Posts",
+          "Trial",
+          "Trial",
+          "Trial",
+          ""
+        ],
+        [
+          "Customization",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Custom Statuses",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Custom Task Types",
+          "Trial",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Custom Task IDs",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Super Rich Editing",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Automations",
+          "5 Active Rules,\n 100 Automation executions,\n Multiple Actions & Conditions",
+          "500 Active Rules,\n 1,000 Automation executions,\n Multiple Actions & Conditions",
+          "Unlimited Active Rules,\n 5,000 Automation executions,\n Multiple Actions & Conditions",
+          "Unlimited Active Rules,\n 250,000 Automation executions,\n Multiple Actions & Conditions"
+        ],
+        [
+          "Advanced Automations",
+          "",
+          "",
+          "Webhooks,\n Email,\n SMS,\n Integrations",
+          "Webhooks,\n Email,\n SMS,\n Integrations"
+        ],
+        [
+          "Portfolios",
+          "Trial",
+          "",
+          "Permission Settings",
+          "Permission Settings + Sharing"
+        ],
+        [
+          "Future Recurring Tasks on Calendar",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Multiple Assignees",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Bulk Action Toolbar",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Task Checklists",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Dependencies",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "White Labeling",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Conditional Logic on Forms",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Relationships",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Tags",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Priorities",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Column Calculations",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "API Calls",
+          "100/minute",
+          "100/minute",
+          "100/minute",
+          "10,000/minute"
+        ],
+        [
+          "Doc Tags",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Custom Field Manager Basic",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Custom Field Manager Advanced",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Collaboration",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Clips",
+          "Trial",
+          "Trial",
+          "",
+          ""
+        ],
+        [
+          "Proofing: Image & PDF Annotation",
+          "Trial",
+          "Trial",
+          "",
+          ""
+        ],
+        [
+          "Publicly Share Everything View",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "In-App Video Recording",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Email in ClickUp",
+          "Trial",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Schedule Send Emails",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Remove Email Branding",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Teams",
+          "2 Teams",
+          "3 Teams",
+          "10 Teams",
+          ""
+        ],
+        [
+          "Team Sharing",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Guest Visiblity",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Natural Language Processing",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Smart Notifications",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    }
+  ],
+  "extract_errors": []
+}

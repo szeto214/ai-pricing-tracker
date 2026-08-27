@@ -1,0 +1,1198 @@
+We use essential cookies to make our site work. With your consent, we may also use non-essential cookies to improve user experience and analyze website traffic...
+Accept
+Reject
+DeepInfra raises $107M Series B to scale the inference cloud —
+read the announcement
+Models
+By Category
+Automatic Speech Recognition
+Embeddings
+Reranker
+Text Generation
+Text To Image
+Text To Music
+Text To Speech
+Text To Video
+World Model
+Zero Shot Image Classification
+View all models
+By Family
+/Claude
+/DeepSeek
+/Flux
+/Gemini
+/Kimi
+/Llama
+/Mistral
+/Nemotron
+/Qwen
+Docs
+Pricing
+GPUs
+Chat
+DeepStart
+DeepCluster
+Blog
+Contact Sales
+Log In
+Models
+Automatic Speech Recognition
+Embeddings
+Reranker
+Text Generation
+Text To Image
+Text To Music
+Text To Speech
+Text To Video
+World Model
+Zero Shot Image Classification
+Docs
+Pricing
+GPUs
+Chat
+DeepStart
+DeepCluster
+Blog
+Feedback
+Contact Sales
+Log In
+Simple Pricing, Deep Infrastructure
+We have different pricing models depending on the model used. Some of our langauge models offer per token pricing. Most other models are billed for inference execution time. With this pricing model, you only pay for what you use. There are no long-term contracts or upfront costs, and you can easily scale up and down as your business needs change.
+Contact Sales
+DeepSeek
+DeepSeek's models are a suite of advanced AI systems that prioritize efficiency, scalability, and real-world applicability.
+Model
+Context
+$ per 1M input tokens
+$ per 1M output tokens
+Actions
+DeepSeek-V4-Flash-0731
+1024k
+$0.08 / $0.016 cached
+$0.18
+View more
+DeepSeek-V4-Pro
+1024k
+$1.30 / $0.10 cached
+$2.60
+View more
+DeepSeek-V4-Flash
+1024k
+$0.09 / $0.018 cached
+$0.18
+View more
+DeepSeek-V3.2
+160k
+$0.26 / $0.13 cached
+$0.38
+View more
+DeepSeek-V3.1
+160k
+$0.25 / $0.13 cached
+$0.95
+View more
+DeepSeek-V3-0324
+160k
+$0.24 / $0.135 cached
+$0.90
+View more
+DeepSeek-V3
+160k
+$0.32
+$0.89
+View more
+DeepSeek-R1-0528
+160k
+$0.50 / $0.35 cached
+$2.15
+View more
+Model
+Context
+$ per 1M input tokens
+$ per 1M output tokens
+Actions
+DeepSeek-V4-Flash-0731
+1024k
+$0.08 / $0.016 cached
+$0.18
+View more
+DeepSeek-V4-Pro
+1024k
+$1.30 / $0.10 cached
+$2.60
+View more
+DeepSeek-V4-Flash
+1024k
+$0.09 / $0.018 cached
+$0.18
+View more
+DeepSeek-V3.2
+160k
+$0.26 / $0.13 cached
+$0.38
+View more
+DeepSeek-V3.1
+160k
+$0.25 / $0.13 cached
+$0.95
+View more
+DeepSeek-V3-0324
+160k
+$0.24 / $0.135 cached
+$0.90
+View more
+DeepSeek-V3
+160k
+$0.32
+$0.89
+View more
+DeepSeek-R1-0528
+160k
+$0.50 / $0.35 cached
+$2.15
+View more
+Kimi
+Kimi is Moonshot AI's family of multimodal language models optimized for long-context understanding, agentic workflows, and high-throughput inference.
+Model
+Context
+$ per 1M input tokens
+$ per 1M output tokens
+Actions
+Kimi-K3
+1024k
+$2.85 / $0.285 cached
+$14.25
+View more
+Kimi-K2.7-Code
+256k
+$0.68 / $0.136 cached
+$3.40
+View more
+Kimi-K2.6
+256k
+$0.75 / $0.15 cached
+$3.50
+View more
+Kimi-K2.5
+256k
+$0.45 / $0.07 cached
+$2.25
+View more
+Model
+Context
+$ per 1M input tokens
+$ per 1M output tokens
+Actions
+Kimi-K3
+1024k
+$2.85 / $0.285 cached
+$14.25
+View more
+Kimi-K2.7-Code
+256k
+$0.68 / $0.136 cached
+$3.40
+View more
+Kimi-K2.6
+256k
+$0.75 / $0.15 cached
+$3.50
+View more
+Kimi-K2.5
+256k
+$0.45 / $0.07 cached
+$2.25
+View more
+Qwen
+Qwen series offers a comprehensive suite of dense and mixture-of-experts models.
+Model
+Context
+$ per 1M input tokens
+$ per 1M output tokens
+Actions
+Qwen3.6-27B
+256k
+$0.32
+$3.20
+View more
+Qwen3.6-35B-A3B
+256k
+$0.10
+$0.95
+View more
+Qwen3.5-397B-A17B
+256k
+$0.45 / $0.22 cached
+$3.00
+View more
+Qwen3.5-122B-A10B
+256k
+$0.29
+$2.40
+View more
+Qwen3.5-35B-A3B
+256k
+$0.14 / $0.05 cached
+$1.00
+View more
+Qwen3.5-27B
+256k
+$0.26
+$2.60
+View more
+Qwen3.5-9B
+256k
+$0.10
+$0.15
+View more
+Qwen3.8-Max
+250k
+$1.65 / $0.206 cached
+$4.951
+View more
+Qwen3.7-Max
+250k
+$2.50 / $0.50 cached
+$7.50
+View more
+Qwen3-VL-30B-A3B-Instruct
+256k
+$0.15
+$0.60
+View more
+Qwen3-VL-235B-A22B-Instruct
+256k
+$0.20 / $0.11 cached
+$0.88
+View more
+Qwen3-Max-Thinking
+250k
+$1.20 / $0.24 cached
+$6.00
+View more
+Qwen3-Max
+250k
+$1.20 / $0.24 cached
+$6.00
+View more
+Qwen3-Next-80B-A3B-Instruct
+256k
+$0.09
+$1.10
+View more
+Qwen3-Coder-480B-A35B-Instruct-Turbo
+256k
+$0.30 / $0.10 cached
+$1.00
+View more
+Qwen3-235B-A22B-Instruct-2507
+256k
+$0.09
+$0.55
+View more
+Qwen3-32B
+40k
+$0.08
+$0.28
+View more
+Qwen3-30B-A3B
+40k
+$0.12
+$0.50
+View more
+Qwen3-14B
+40k
+$0.12
+$0.24
+View more
+Qwen2.5-72B-Instruct
+32k
+$0.36
+$0.40
+View more
+Model
+Context
+$ per 1M input tokens
+$ per 1M output tokens
+Actions
+Qwen3.6-27B
+256k
+$0.32
+$3.20
+View more
+Qwen3.6-35B-A3B
+256k
+$0.10
+$0.95
+View more
+Qwen3.5-397B-A17B
+256k
+$0.45 / $0.22 cached
+$3.00
+View more
+Qwen3.5-122B-A10B
+256k
+$0.29
+$2.40
+View more
+Qwen3.5-35B-A3B
+256k
+$0.14 / $0.05 cached
+$1.00
+View more
+Qwen3.5-27B
+256k
+$0.26
+$2.60
+View more
+Qwen3.5-9B
+256k
+$0.10
+$0.15
+View more
+Qwen3.8-Max
+250k
+$1.65 / $0.206 cached
+$4.951
+View more
+Qwen3.7-Max
+250k
+$2.50 / $0.50 cached
+$7.50
+View more
+Qwen3-VL-30B-A3B-Instruct
+256k
+$0.15
+$0.60
+View more
+Qwen3-VL-235B-A22B-Instruct
+256k
+$0.20 / $0.11 cached
+$0.88
+View more
+Qwen3-Max-Thinking
+250k
+$1.20 / $0.24 cached
+$6.00
+View more
+Qwen3-Max
+250k
+$1.20 / $0.24 cached
+$6.00
+View more
+Qwen3-Next-80B-A3B-Instruct
+256k
+$0.09
+$1.10
+View more
+Qwen3-Coder-480B-A35B-Instruct-Turbo
+256k
+$0.30 / $0.10 cached
+$1.00
+View more
+Qwen3-235B-A22B-Instruct-2507
+256k
+$0.09
+$0.55
+View more
+Qwen3-32B
+40k
+$0.08
+$0.28
+View more
+Qwen3-30B-A3B
+40k
+$0.12
+$0.50
+View more
+Qwen3-14B
+40k
+$0.12
+$0.24
+View more
+Qwen2.5-72B-Instruct
+32k
+$0.36
+$0.40
+View more
+Llama 4
+The Llama 4 collection of models are natively multimodal AI models that enable text and multimodal experiences.
+Model
+Context
+$ per 1M input tokens
+$ per 1M output tokens
+Actions
+Llama-4-Scout-17B-16E
+320k
+$0.10
+$0.30
+View more
+Llama-4-Maverick-17B-128E
+1024k
+$0.20
+$0.80
+View more
+Llama-Guard-4-12B
+160k
+$0.18
+$0.18
+View more
+Model
+Context
+$ per 1M input tokens
+$ per 1M output tokens
+Actions
+Llama-4-Scout-17B-16E
+320k
+$0.10
+$0.30
+View more
+Llama-4-Maverick-17B-128E
+1024k
+$0.20
+$0.80
+View more
+Llama-Guard-4-12B
+160k
+$0.18
+$0.18
+View more
+Llama 3
+Meta Llama 3 are a collection of pretrained and instruction tuned generative text models in 8B, 70B and 405B sizes.
+Model
+Context
+$ per 1M input tokens
+$ per 1M output tokens
+Actions
+Llama-3.3-70B-Instruct-Turbo
+128k
+$0.10
+$0.32
+View more
+Meta-Llama-3.1-70B-Instruct-Turbo
+128k
+$0.40
+$0.40
+View more
+Meta-Llama-3.1-8B-Instruct-Turbo
+128k
+$0.02
+$0.04
+View more
+Model
+Context
+$ per 1M input tokens
+$ per 1M output tokens
+Actions
+Llama-3.3-70B-Instruct-Turbo
+128k
+$0.10
+$0.32
+View more
+Meta-Llama-3.1-70B-Instruct-Turbo
+128k
+$0.40
+$0.40
+View more
+Meta-Llama-3.1-8B-Instruct-Turbo
+128k
+$0.02
+$0.04
+View more
+Gemini
+Developed by Google DeepMind, Gemini is a family of state-of-the-art thinking models with native multimodal capabilities
+Model
+Context
+$ per 1M input tokens
+$ per 1M output tokens
+Actions
+gemini-3.5-flash
+976k
+$1.50
+$9.00
+View more
+gemini-3.1-flash-lite
+976k
+$0.25
+$1.50
+View more
+gemini-3.1-pro
+976k
+$2.00
+$12.00
+View more
+gemini-2.5-pro
+976k
+$1.25
+$10.00
+View more
+gemini-2.5-flash
+976k
+$0.30
+$2.50
+View more
+Model
+Context
+$ per 1M input tokens
+$ per 1M output tokens
+Actions
+gemini-3.5-flash
+976k
+$1.50
+$9.00
+View more
+gemini-3.1-flash-lite
+976k
+$0.25
+$1.50
+View more
+gemini-3.1-pro
+976k
+$2.00
+$12.00
+View more
+gemini-2.5-pro
+976k
+$1.25
+$10.00
+View more
+gemini-2.5-flash
+976k
+$0.30
+$2.50
+View more
+Gemma
+Gemma is a family of lightweight, state-of-the-art open models from Google.
+Model
+Context
+$ per 1M input tokens
+$ per 1M output tokens
+Actions
+gemma-4-E4B-it
+128k
+$0.02
+$0.10
+View more
+gemma-4-31B-it-Ultra
+128k
+$0.27
+$0.76
+View more
+gemma-4-31B-it-turbo
+256k
+$0.09 / $0.05 cached
+$0.34
+View more
+gemma-4-31B-it
+256k
+$0.13
+$0.38
+View more
+gemma-4-26B-A4B-it
+256k
+$0.07
+$0.34
+View more
+gemma-3-27b-it
+128k
+$0.08
+$0.16
+View more
+gemma-3-12b-it
+128k
+$0.05
+$0.15
+View more
+gemma-3-4b-it
+128k
+$0.05
+$0.10
+View more
+Model
+Context
+$ per 1M input tokens
+$ per 1M output tokens
+Actions
+gemma-4-E4B-it
+128k
+$0.02
+$0.10
+View more
+gemma-4-31B-it-Ultra
+128k
+$0.27
+$0.76
+View more
+gemma-4-31B-it-turbo
+256k
+$0.09 / $0.05 cached
+$0.34
+View more
+gemma-4-31B-it
+256k
+$0.13
+$0.38
+View more
+gemma-4-26B-A4B-it
+256k
+$0.07
+$0.34
+View more
+gemma-3-27b-it
+128k
+$0.08
+$0.16
+View more
+gemma-3-12b-it
+128k
+$0.05
+$0.15
+View more
+gemma-3-4b-it
+128k
+$0.05
+$0.10
+View more
+Nemotron
+[NVIDIA NemotronTM](https://www.nvidia.com/en-us/ai-data-science/foundation-models/nemotron/) is a
+family of open models, datasets, and training recipes engineered for high performance, efficiency, and customization.
+Nemotron models support synthetic data workflows and supervised fine-tuning—and are optimized for real-time
+inference, reasoning agents, and production AI systems.
+Model
+Context
+$ per 1M input tokens
+$ per 1M output tokens
+Actions
+NVIDIA-Nemotron-3.5-Lightning
+256k
+$0.08 / $0.04 cached
+$0.20
+View more
+Nemotron-Content-Safety-3.5
+128k
+$0.20
+$0.20
+View more
+NVIDIA-Nemotron-3-Ultra-550B-A55B
+256k
+$0.50 / $0.10 cached
+$2.20
+View more
+NVIDIA-Nemotron-3-Super-120B-A12B
+256k
+$0.085
+$0.40
+View more
+Nemotron-3-Nano-30B-A3B
+256k
+$0.05 / $0.025 cached
+$0.20
+View more
+Model
+Context
+$ per 1M input tokens
+$ per 1M output tokens
+Actions
+NVIDIA-Nemotron-3.5-Lightning
+256k
+$0.08 / $0.04 cached
+$0.20
+View more
+Nemotron-Content-Safety-3.5
+128k
+$0.20
+$0.20
+View more
+NVIDIA-Nemotron-3-Ultra-550B-A55B
+256k
+$0.50 / $0.10 cached
+$2.20
+View more
+NVIDIA-Nemotron-3-Super-120B-A12B
+256k
+$0.085
+$0.40
+View more
+Nemotron-3-Nano-30B-A3B
+256k
+$0.05 / $0.025 cached
+$0.20
+View more
+Claude
+Developed by Anthropic, Claude is a family of highly performant, trustworthy AI models built for complex reasoning, advanced coding, and nuanced language understanding
+Model
+Context
+$ per 1M input tokens
+$ per 1M output tokens
+Actions
+claude-opus-5
+976k
+$5.00
+$25.00
+View more
+claude-fable-5
+976k
+$10.00
+$50.00
+View more
+claude-sonnet-5
+976k
+$2.00
+$10.00
+View more
+claude-haiku-4-5
+195k
+$1.00
+$5.00
+View more
+claude-sonnet-4-6
+976k
+$3.00
+$15.00
+View more
+claude-opus-4-7
+976k
+$5.00
+$25.00
+View more
+claude-opus-4-8
+976k
+$5.00
+$25.00
+View more
+Model
+Context
+$ per 1M input tokens
+$ per 1M output tokens
+Actions
+claude-opus-5
+976k
+$5.00
+$25.00
+View more
+claude-fable-5
+976k
+$10.00
+$50.00
+View more
+claude-sonnet-5
+976k
+$2.00
+$10.00
+View more
+claude-haiku-4-5
+195k
+$1.00
+$5.00
+View more
+claude-sonnet-4-6
+976k
+$3.00
+$15.00
+View more
+claude-opus-4-7
+976k
+$5.00
+$25.00
+View more
+claude-opus-4-8
+976k
+$5.00
+$25.00
+View more
+Phi
+Phi models offer cost-effective, high-performance AI solutions.
+Model
+Context
+$ per 1M input tokens
+$ per 1M output tokens
+Actions
+phi-4
+16k
+$0.07
+$0.14
+View more
+Model
+Context
+$ per 1M input tokens
+$ per 1M output tokens
+Actions
+phi-4
+16k
+$0.07
+$0.14
+View more
+Mistral
+Developed by Mistral AI, a leading French research lab, Mistral is a family of open-source AI models built for multilingual excellence, advanced reasoning, and cost-effective performance
+Model
+Context
+$ per 1M input tokens
+$ per 1M output tokens
+Actions
+Mistral-Small-3.2-24B-Instruct-2506
+125k
+$0.075
+$0.20
+View more
+Mistral-Small-24B-Instruct-2501
+32k
+$0.05
+$0.08
+View more
+Mistral-Nemo-Instruct-2407
+128k
+$0.019
+$0.03
+View more
+Model
+Context
+$ per 1M input tokens
+$ per 1M output tokens
+Actions
+Mistral-Small-3.2-24B-Instruct-2506
+125k
+$0.075
+$0.20
+View more
+Mistral-Small-24B-Instruct-2501
+32k
+$0.05
+$0.08
+View more
+Mistral-Nemo-Instruct-2407
+128k
+$0.019
+$0.03
+View more
+Voxtral
+Voxtral is a family of audio models with state-of-the-art speech to text capabilities.
+Model
+$ per minute of audio input
+Actions
+Voxtral-Small-24B-2507
+$0.00300
+View more
+Voxtral-Mini-3B-2507
+$0.00100
+View more
+Model
+$ per minute of audio input
+Actions
+Voxtral-Small-24B-2507
+$0.00300
+View more
+Voxtral-Mini-3B-2507
+$0.00100
+View more
+Less than 10 billion parameters
+Our fastest and best value models but they might not be so precise.
+Model
+Context
+$ per 1M input tokens
+$ per 1M output tokens
+Actions
+gemma-3-4b-it
+128k
+$0.05
+$0.10
+View more
+Model
+Context
+$ per 1M input tokens
+$ per 1M output tokens
+Actions
+gemma-3-4b-it
+128k
+$0.05
+$0.10
+View more
+Between 10 and 70 billion parameters
+Models that are fine-tuned for a balance between speed and precision.
+Model
+Context
+$ per 1M input tokens
+$ per 1M output tokens
+Actions
+MythoMax-L2-13b
+4k
+$0.40
+$0.40
+View more
+gemma-3-27b-it
+128k
+$0.08
+$0.16
+View more
+gemma-3-12b-it
+128k
+$0.05
+$0.15
+View more
+Model
+Context
+$ per 1M input tokens
+$ per 1M output tokens
+Actions
+MythoMax-L2-13b
+4k
+$0.40
+$0.40
+View more
+gemma-3-27b-it
+128k
+$0.08
+$0.16
+View more
+gemma-3-12b-it
+128k
+$0.05
+$0.15
+View more
+Flux
+Developed by Black Forest Labs, Flux is a family of state-of-the-art image generation and editing models that deliver exceptional visual quality with breakthrough prompt accuracy and photorealism.
+Model
+$ per image
+Actions
+FLUX-2-dev
+$0.01 x (w / 1024) x (h / 1024) x (iters / 28)
+View more
+FLUX.1-Kontext-dev
+$0.01 x (w / 1024) x (h / 1024) x (iters / 25)
+View more
+FLUX-2-klein-9b
+$0.015 x (w / 1024) x (h / 1024)
+View more
+FLUX-2-klein-4b
+$0.014 x (w / 1024) x (h / 1024)
+View more
+FLUX-2-max
+$0.07
+View more
+FLUX-2-pro
+$0.015
+View more
+FLUX-1-Redux-dev
+$0.012 x (w / 1024) x (h / 1024) x (iters / 25)
+View more
+FLUX-1-dev
+$0.009 x (w / 1024) x (h / 1024) x (iters / 25)
+View more
+FLUX-1-schnell
+$0.0005 x (w / 1024) x (h / 1024) x iters
+View more
+FLUX-1.1-pro
+$0.04
+View more
+Model
+$ per image
+Actions
+FLUX-2-dev
+$0.01 x (w / 1024) x (h / 1024) x (iters / 28)
+View more
+FLUX.1-Kontext-dev
+$0.01 x (w / 1024) x (h / 1024) x (iters / 25)
+View more
+FLUX-2-klein-9b
+$0.015 x (w / 1024) x (h / 1024)
+View more
+FLUX-2-klein-4b
+$0.014 x (w / 1024) x (h / 1024)
+View more
+FLUX-2-max
+$0.07
+View more
+FLUX-2-pro
+$0.015
+View more
+FLUX-1-Redux-dev
+$0.012 x (w / 1024) x (h / 1024) x (iters / 25)
+View more
+FLUX-1-dev
+$0.009 x (w / 1024) x (h / 1024) x (iters / 25)
+View more
+FLUX-1-schnell
+$0.0005 x (w / 1024) x (h / 1024) x iters
+View more
+FLUX-1.1-pro
+$0.04
+View more
+Service Tiers
+Choose how each inference request is scheduled. The standard tier is the default; the priority tier schedules your requests ahead of standard traffic for faster time-to-first-token during peak demand, at a higher per-token price.
+Tier
+Scheduling
+Price
+Standard
+Default scheduling, best-effort during peak demand
+1x base price
+Priority
+Scheduled ahead of standard traffic for faster time-to-first-token
+1.5x base price
+Flex
+Lower cost for non-production and asynchronous work, in exchange for slower responses and occasional unavailability
+0.8x base price
+Enable per request by setting
+service_tier: "priority"
+. Availability varies by model — check the model page.
+Read more
+.
+Custom LLMs
+You can deploy your own model on our hardware and pay for uptime. You get dedicated SXM-connected GPUs (for multi-GPU setups), automatic scaling to handle load fluctuations and a very competitive price.
+Read More
+Dedicated A100, H100, H200, B200 and B300 GPUs for your custom LLM needs
+Billed in minute granularity
+Invoiced weekly
+Deploy
+GPU
+Memory
+Price
+A100
+80GB
+$0.89
+/ GPU-hour
+H100
+80GB
+$2.20
+/ GPU-hour
+H200
+141GB
+$2.69
+/ GPU-hour
+B200
+180GB
+$3.69
+/ GPU-hour
+B300
+270GB
+$4.89
+/ GPU-hour
+Dedicated Instances and Clusters
+For dedicated instances, DGX H100, B200 and B300 clusters with 3.2Tbps bandwidth, please contact us at
+dedicated@deepinfra.com
+Embeddings Pricing
+Model
+Context
+$ per 1M input tokens
+bge-base-en-v1.5
+512
+$0.005
+bge-en-icl
+8k
+$0.01
+bge-large-en-v1.5
+512
+$0.01
+bge-m3
+8k
+$0.01
+bge-m3-multi
+8k
+$0.01
+gte-base
+512
+$0.005
+gte-large
+512
+$0.01
+e5-base-v2
+512
+$0.005
+e5-large-v2
+512
+$0.01
+multilingual-e5-large
+512
+$0.01
+multilingual-e5-large-instruct
+512
+$0.01
+all-MiniLM-L12-v2
+512
+$0.005
+all-MiniLM-L6-v2
+512
+$0.005
+all-mpnet-base-v2
+512
+$0.005
+multi-qa-mpnet-base-dot-v1
+512
+$0.005
+paraphrase-MiniLM-L6-v2
+512
+$0.005
+text2vec-base-chinese
+512
+$0.005
+Hardware
+All models run on H100 or A100 GPUs, optimized for inference performance and low latency.
+Auto Scaling
+Our system will automatically scale the model to more hardware based on your needs. We limit each account to 200 concurrent requests. If you want more drop us a line
+Billing
+You have to add a card or pre-pay or you won't be able to use our services. An invoice is always generated at the beginning of the month, and also throughout the month if you hit your tier invoicing threshold. You can also set a spending limit to avoid surprises.
+Usage Tiers
+Every user is part of a usage tier. As your usage and your spending goes up, we automatically move you to the next usage tier. Every tier has an invoicing threshold. Once reached an invoice is automatically generated.
+Tier
+Qualification & Invoicing Threshold
+$
+Tier 1
+$20
+Tier 2
+$100 paid
+$100
+Tier 3
+$500 paid
+$500
+Tier 4
+$2,000 paid
+$2,000
+Tier 5
+$10,000 paid
+$10,000
+Have questions or need a custom solution?
+Contact Sales
+Company
+Pricing
+Docs
+Compare
+DeepStart
+About
+Careers
+Contact us
+Media Center
+Trust Center
+DeepGPT
+Latest Models
+zai-org
+/
+GLM-5.3-Flash
+ibm-granite
+/
+granite-4.2-30b
+ibm-granite
+/
+granite-4.2-8b
+ibm-granite
+/
+granite-4.2-3b
+Wan-AI
+/
+Wan3.0-Video
+Featured Models
+zai-org
+/
+GLM-5.1
+Qwen
+/
+Qwen3-Max-Thinking
+moonshotai
+/
+Kimi-K2.5
+black-forest-labs
+/
+FLUX-2-klein-9b
+black-forest-labs
+/
+FLUX-2-klein-4b
+© 2026 DeepInfra. All rights reserved.
+Privacy Policy
+Terms of Service

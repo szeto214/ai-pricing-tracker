@@ -1,0 +1,549 @@
+{
+  "slug": "auth0",
+  "name": "Auth0",
+  "vendor": "Okta",
+  "category": "dev-infra",
+  "url": "https://auth0.com/pricing",
+  "final_url": "https://auth0.com/pricing",
+  "content_hash": "e71a681283348a457e7b8776c65af1b1d2b3f34657534d6a56ac9532aac6ae2d",
+  "raw_hash": "6051147317ba34ada2acf32938a60b1f70ad3a7bbb5ec632539153aaf150997b",
+  "text_bytes": 16545,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Free",
+      "price_raw": "$ 0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "1 Custom Domain*",
+        "Secure Agentic AI workflows",
+        "Passwordless Authentication",
+        "Unlimited Social Connections**",
+        "5 Organizations",
+        "Brand Customization",
+        "Basic Attack Protection",
+        "Community Support",
+        "1 Enterprise Connection New",
+        "Self-Service SSO New",
+        "SCIM New"
+      ]
+    },
+    {
+      "name": "USE CASE",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Yes, Auth0 and our network of partners want to s",
+      "price_raw": "$5,000",
+      "amount": 5000.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    }
+  ],
+  "tables": [
+    {
+      "caption": "",
+      "rows": [
+        [
+          "USE CASE B2C B2B",
+          "Free Start building →",
+          "Essentials Sign up",
+          "Professional Sign up",
+          "Enterprise Contact us →"
+        ],
+        [
+          "Authentication"
+        ],
+        [
+          "External Active Users",
+          "Up to 25,000",
+          "Custom Tiers Available",
+          "Custom Tiers Available",
+          "Custom Tiers Available"
+        ],
+        [
+          "Machine-to-Machine Authentication",
+          "1,000",
+          "1,000",
+          "5,000",
+          "5,000"
+        ],
+        [
+          "M2M Add-on",
+          "No",
+          "No",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Passwordless",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Social Connections",
+          "Unlimited**",
+          "Unlimited**",
+          "Unlimited**",
+          "Unlimited**"
+        ],
+        [
+          "Custom Social Connections",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Passkeys",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Auth0 Database Connection",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Custom Database Connections",
+          "Not included",
+          "Not included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Cross APP SSO",
+          "Not included",
+          "Not included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Enterprise Connections",
+          "1",
+          "",
+          "",
+          "Custom Tiers Available"
+        ],
+        [
+          "Inbound SCIM",
+          "Included",
+          "Not included",
+          "Not included",
+          "Included"
+        ],
+        [
+          "Okta Connections",
+          "Unlimited**",
+          "Unlimited**",
+          "Unlimited**",
+          "Unlimited**"
+        ],
+        [
+          "Express Configuration",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Organizations",
+          "5",
+          "10",
+          "10",
+          "Custom Tiers Available"
+        ],
+        [
+          "Self-Service SSO",
+          "",
+          "",
+          "",
+          "Select Enterprise Plans"
+        ],
+        [
+          "Machine-to-Machine Access for Organizations",
+          "",
+          "",
+          "",
+          "Select Enterprise Plans"
+        ],
+        [
+          "Home Realm Discovery",
+          "Not included",
+          "Not included",
+          "Not included",
+          "Included"
+        ],
+        [
+          "Long Lived Sessions",
+          "Not included",
+          "Not included",
+          "Not included",
+          "Included"
+        ],
+        [
+          "AI"
+        ],
+        [
+          "CIBA",
+          "",
+          "ADD-ON",
+          "ADD-ON",
+          "+ Included ADD-ON"
+        ],
+        [
+          "Token Vault",
+          "2",
+          "3 + ADD-ON",
+          "3 + ADD-ON",
+          "4 + ADD-ON"
+        ],
+        [
+          "Auth for MCP",
+          "Included",
+          "+ Included ADD-ON",
+          "+ Included ADD-ON",
+          "+ Included ADD-ON"
+        ],
+        [
+          "Branding"
+        ],
+        [
+          "Configurable Login Experience",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Accessibility",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Custom Domains*",
+          "1",
+          "1",
+          "1",
+          "20 + ADD-ON"
+        ],
+        [
+          "Email Workflow",
+          "Not included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Customize Signup & Login",
+          "Not included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Extensibility"
+        ],
+        [
+          "Actions + Forms",
+          "5",
+          "10",
+          "15",
+          "30 + ADD-ON"
+        ],
+        [
+          "The Actions Library",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Event Streams",
+          "1",
+          "3",
+          "4",
+          "8"
+        ],
+        [
+          "Marketplace",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Pro Forms",
+          "Not included",
+          "Not included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Security & Compliance"
+        ],
+        [
+          "Brute Force Protection",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Suspicious IP Throttling",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Enhanced Password Protection",
+          "Not included",
+          "Not included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Basic Breached Password Detection",
+          "Not included",
+          "Not included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Credential Guard",
+          "",
+          "",
+          "",
+          "ADD-ON"
+        ],
+        [
+          "Bot Detection",
+          "",
+          "",
+          "",
+          "ADD-ON"
+        ],
+        [
+          "Tenant Access Control List (ACL)",
+          "",
+          "",
+          "",
+          "1 + ADD-ON"
+        ],
+        [
+          "Integration with Okta Universal Logout",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Pro MFA Factors",
+          "Not included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Enterprise MFA Factors",
+          "",
+          "",
+          "Included",
+          "Included"
+        ],
+        [
+          "Adaptive MFA",
+          "",
+          "",
+          "",
+          "ADD-ON"
+        ],
+        [
+          "Security Center",
+          "Not included",
+          "Not included",
+          "Not included",
+          "Included"
+        ],
+        [
+          "Continuous Session Protection",
+          "Not included",
+          "Not included",
+          "Not included",
+          "Included"
+        ],
+        [
+          "FAPI certified Security Profile",
+          "",
+          "",
+          "",
+          "ADD-ON"
+        ],
+        [
+          "Compliance Certifications",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "HIPAA/BAA",
+          "",
+          "",
+          "",
+          "ADD-ON"
+        ],
+        [
+          "Prioritized Security Log Streams",
+          "Not included",
+          "Not included",
+          "Not included",
+          "Included"
+        ],
+        [
+          "Private Key JWT",
+          "Not included",
+          "Not included",
+          "Not included",
+          "Included"
+        ],
+        [
+          "OIDC Back-Channel Logout",
+          "Not included",
+          "Not included",
+          "Not included",
+          "Included"
+        ],
+        [
+          "User Management"
+        ],
+        [
+          "User Import",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Custom Attributes",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Role Management",
+          "Not included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Account Linking",
+          "Not included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Platform"
+        ],
+        [
+          "Number of Tenants Included",
+          "1",
+          "3",
+          "12",
+          "Unlimited**"
+        ],
+        [
+          "Number of Admin/Contributors",
+          "3",
+          "Unlimited**",
+          "Unlimited**",
+          "Unlimited**"
+        ],
+        [
+          "Admin Access Controls",
+          "Admin",
+          "Admin and Viewer",
+          "Admin, Viewer and Editor",
+          "Admin, Viewer and Editor"
+        ],
+        [
+          "Auth0 Dashboard SSO",
+          "Not included",
+          "Not included",
+          "Not included",
+          "Included"
+        ],
+        [
+          "Log Retention",
+          "1 Day",
+          "5 Days",
+          "10 Days",
+          "30 Days"
+        ],
+        [
+          "Log Streaming",
+          "",
+          "1 Log Stream",
+          "2 Log Streams",
+          "2 Log Streams"
+        ],
+        [
+          "Private Deployment",
+          "",
+          "",
+          "",
+          "ADD-ON"
+        ],
+        [
+          "SLA",
+          "",
+          "",
+          "",
+          "99.99%"
+        ],
+        [
+          "Community Support",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Standard Support",
+          "Not included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Premier Support",
+          "",
+          "",
+          "",
+          "Premier Success Options"
+        ]
+      ]
+    }
+  ],
+  "extract_errors": []
+}

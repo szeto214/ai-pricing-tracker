@@ -1,0 +1,154 @@
+{
+  "slug": "sentry",
+  "name": "Sentry",
+  "vendor": "Sentry",
+  "category": "observability",
+  "url": "https://sentry.io/pricing/",
+  "final_url": "https://sentry.io/pricing/",
+  "content_hash": "230b132f17f8e99bdf2198d5ab24dba64c8711b30fb888af2c831ae5c6fdb580",
+  "raw_hash": "533359e355337eb5e0258abc54b4e9ab93c972c2a29a30c4e7218d0cc1a9f0f9",
+  "text_bytes": 8602,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "developer",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": [
+        "One user",
+        "Error Monitoring and Tracing",
+        "Alerts and notifications via email",
+        "10 custom dashboards",
+        "MCP access"
+      ]
+    },
+    {
+      "name": "team",
+      "price_raw": "$26",
+      "amount": 26.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Unlimited users",
+        "API & third-party integrations",
+        "20 custom dashboards",
+        "Seer: AI debugging agent (subscription required)",
+        "Additional events ( See pricing )"
+      ]
+    },
+    {
+      "name": "business",
+      "price_raw": "$80",
+      "amount": 80.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Unlimited custom dashboards",
+        "Advanced quota management",
+        "SAML + SCIM support ( See pricing )"
+      ]
+    },
+    {
+      "name": "enterprise",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": [
+        "Technical account manager",
+        "Dedicated customer support"
+      ]
+    },
+    {
+      "name": "Logs",
+      "price_raw": "$0.50",
+      "amount": 0.5,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Application Metrics",
+      "price_raw": "$0.50",
+      "amount": 0.5,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Uptime Monitoring",
+      "price_raw": "$1.00",
+      "amount": 1.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Cron Monitoring",
+      "price_raw": "$0.78",
+      "amount": 0.78,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "UI Profiling",
+      "price_raw": "$0.25",
+      "amount": 0.25,
+      "currency": "USD",
+      "period": "hour",
+      "features": []
+    },
+    {
+      "name": "Continuous Profiling",
+      "price_raw": "$0.03",
+      "amount": 0.03,
+      "currency": "USD",
+      "period": "hour",
+      "features": []
+    },
+    {
+      "name": "Errors",
+      "price_raw": "$ 0.00",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    }
+  ],
+  "tables": [
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Volume",
+          "Price per error"
+        ],
+        [
+          "50K – 100K",
+          "$0.0003625"
+        ],
+        [
+          "100K – 500K",
+          "$0.0002188"
+        ],
+        [
+          "500K – 10M",
+          "$0.0001875"
+        ],
+        [
+          "10M – 20M",
+          "$0.0001625"
+        ],
+        [
+          "20M+",
+          "$0.0001500"
+        ]
+      ]
+    }
+  ],
+  "extract_errors": []
+}

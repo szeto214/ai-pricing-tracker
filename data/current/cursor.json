@@ -1,0 +1,57 @@
+{
+  "slug": "cursor",
+  "name": "Cursor",
+  "vendor": "Anysphere",
+  "category": "ai-coding",
+  "url": "https://cursor.com/pricing",
+  "final_url": "https://cursor.com/pricing",
+  "content_hash": "4ecd527f3866d431efe79fe0579a0f9ee9812820105585a68239e4993d8b6c85",
+  "raw_hash": "3853b9bfdfa2d7af1f5f818f846eafa111e9186947de70311e3085d447ae70aa",
+  "text_bytes": 4806,
+  "extractor": "jsonld",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Teams",
+      "price_raw": "40",
+      "amount": 40.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Ultra",
+      "price_raw": "200",
+      "amount": 200.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Pro+",
+      "price_raw": "60",
+      "amount": 60.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Pro",
+      "price_raw": "20",
+      "amount": 20.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Hobby",
+      "price_raw": "0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    }
+  ],
+  "tables": [],
+  "extract_errors": []
+}

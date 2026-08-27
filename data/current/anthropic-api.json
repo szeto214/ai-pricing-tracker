@@ -1,0 +1,928 @@
+{
+  "slug": "anthropic-api",
+  "name": "Anthropic API",
+  "vendor": "Anthropic",
+  "category": "ai-api",
+  "url": "https://www.anthropic.com/pricing#api",
+  "final_url": "https://claude.com/pricing#api",
+  "content_hash": "0d526276974102d00df5354771a62578eb92745b467a414dd6556a0f0d50385a",
+  "raw_hash": "6fd969c7f32cdb6076f2bb6a5ef4fc67b0b2a601ccb9aa85a30bcdc8ef29d36f",
+  "text_bytes": 21967,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Free",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Pro",
+      "price_raw": "$17",
+      "amount": 17.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "More usage*",
+        "Includes Claude Code",
+        "Includes Claude Cowork",
+        "Includes Claude Design",
+        "Includes Claude Science",
+        "Access to unlimited projects to organize chats and documents",
+        "Access to Research",
+        "Ability to use more Claude models",
+        "Claude for Microsoft 365"
+      ]
+    },
+    {
+      "name": "Max",
+      "price_raw": "$100",
+      "amount": 100.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Choose 5x or 20x more usage than Pro*",
+        "Higher output limits for all tasks",
+        "Early access to advanced Claude features",
+        "Priority access at high traffic times"
+      ]
+    },
+    {
+      "name": "Features and capabilities",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Chat on web, iOS, Android and Desktop",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Single sign-on (SSO) and domain capture",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Credit card",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Fable",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Team",
+      "price_raw": "$20",
+      "amount": 20.0,
+      "currency": "USD",
+      "period": "seat",
+      "features": [
+        "Includes Claude Code and Claude Cowork",
+        "Includes Claude Design",
+        "Includes Claude Science",
+        "Connect Microsoft 365, @Claude, and more",
+        "Enterprise search across your organization",
+        "Central billing and administration",
+        "Single sign-on (SSO)",
+        "Admin controls for remote and local connectors",
+        "Enterprise deployment for the Claude desktop app",
+        "No model training on your content by default",
+        "Mix and match seat types"
+      ]
+    },
+    {
+      "name": "Enterprise",
+      "price_raw": "$20",
+      "amount": 20.0,
+      "currency": "USD",
+      "period": "seat",
+      "features": [
+        "Admins set user and org spend limits",
+        "Role-based access with fine grained permissioning",
+        "System for Cross-domain Identity Management (SCIM)",
+        "Audit logs",
+        "Compliance API for observability and monitoring",
+        "Custom data retention controls",
+        "Network-level access control",
+        "IP allowlisting",
+        "HIPAA-ready offering available",
+        "Claude Security (beta)"
+      ]
+    },
+    {
+      "name": "Managed Agents",
+      "price_raw": "$0.08",
+      "amount": 0.08,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Web search",
+      "price_raw": "$10",
+      "amount": 10.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Additional hours",
+      "price_raw": "$0.05",
+      "amount": 0.05,
+      "currency": "USD",
+      "period": "hour",
+      "features": []
+    },
+    {
+      "name": "How much does the Claude Enterprise plan cost?",
+      "price_raw": "$20",
+      "amount": 20.0,
+      "currency": "USD",
+      "period": "seat",
+      "features": []
+    }
+  ],
+  "tables": [
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Features",
+          "Free",
+          "Pro",
+          "Max 5x",
+          "Max 20x"
+        ],
+        [
+          "Chat on web, iOS, Android and Desktop",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Claude Code",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Claude Cowork",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Claude Design",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Claude Science",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "@Claude",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Ability to search the web",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Desktop extensions",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Voice mode",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Incognito chats",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "User preferences",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Artifacts",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Projects",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Project sharing and collaboration",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Create and edit files with code execution",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Research",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Memory",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Skills",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Connectors",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Web search",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Enterprise search",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Claude in Chrome",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Claude for Microsoft 365",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Claude for Microsoft Outlook",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Features",
+          "Free",
+          "Pro",
+          "Max 5x",
+          "Max 20x"
+        ],
+        [
+          "Single sign-on (SSO) and domain capture",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Central billing and administration",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Admin controls for remote and local connectors",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Enterprise deployment for the Claude desktop app",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Role-based access",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "System for Cross-domain Identity Management (SCIM)",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Audit logs",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Usage analytics",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Compliance API",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "HIPAA-ready offering",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Custom data retention controls",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Organization wide skills deployment",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Features",
+          "Free",
+          "Pro",
+          "Max 5x",
+          "Max 20x"
+        ],
+        [
+          "Credit card",
+          "n/a",
+          "",
+          "",
+          ""
+        ],
+        [
+          "ACH",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Invoicing / net terms",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Billing cycle",
+          "n/a",
+          "Monthly and annual",
+          "Monthly and annual",
+          "Monthly and annual"
+        ],
+        [
+          "Adding seats midterm",
+          "n/a",
+          "n/a",
+          "n/a",
+          "n/a"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Features",
+          "Free",
+          "Pro",
+          "Max 5x",
+          "Max 20x"
+        ],
+        [
+          "Fable",
+          "",
+          "Usage credits",
+          "50% of weekly limits*",
+          "50% of weekly limits*"
+        ],
+        [
+          "Opus",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Sonnet",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Haiku",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Context window",
+          "200k",
+          "200k",
+          "200k",
+          "200k"
+        ],
+        [
+          "Usage credits",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Priority access at high traffic times",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "User and organizational level spend controls",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Model training",
+          "Opt-out",
+          "Opt-out",
+          "Opt-out",
+          "Opt-out"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Features",
+          "Team",
+          "Enterprise (self-serve)",
+          "Enterprise (sales-assisted)"
+        ],
+        [
+          "Chat on web, iOS, Android and Desktop",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Claude Code",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Claude Cowork",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Claude Design",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Claude Science",
+          "",
+          "",
+          ""
+        ],
+        [
+          "@Claude",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Claude Security",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Ability to search the web",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Desktop extensions",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Voice mode",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Incognito chats",
+          "",
+          "",
+          ""
+        ],
+        [
+          "User preferences",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Artifacts",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Projects",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Project sharing and collaboration",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Create and edit files with code execution",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Research",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Memory",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Skills",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Connectors",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Web search",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Enterprise search",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Claude in Chrome",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Claude for Microsoft 365",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Claude for Microsoft Outlook",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Features",
+          "Team",
+          "Enterprise (self-serve)",
+          "Enterprise (sales-assisted)"
+        ],
+        [
+          "Single sign-on (SSO)",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Domain verification",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Restrict org creation",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Migrate accounts using your domains",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Central billing and administration",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Admin controls for remote and local connectors",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Enterprise deployment for the Claude desktop app",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Usage analytics",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Organization wide skills deployment",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Domain capture",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Role-based access",
+          "",
+          "",
+          ""
+        ],
+        [
+          "System for Cross-domain Identity Management (SCIM)",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Audit logs",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Compliance API",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Custom data retention controls",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Set org instructions",
+          "",
+          "",
+          ""
+        ],
+        [
+          "HIPAA-ready offering",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Inference hooks",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Features",
+          "Team",
+          "Enterprise (self-serve)",
+          "Enterprise (sales-assisted)"
+        ],
+        [
+          "Credit card",
+          "",
+          "",
+          ""
+        ],
+        [
+          "ACH",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Invoicing / net terms",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Billing cycle",
+          "Monthly and annual",
+          "Annual",
+          "Annual"
+        ],
+        [
+          "Adding seats midterm",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Features",
+          "Team",
+          "Enterprise (self-serve)",
+          "Enterprise (sales-assisted)"
+        ],
+        [
+          "AWS Marketplace availability",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Consultation",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Tiered incentives on committed spend",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Trials",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Customer success support at certain spend thresholds",
+          "",
+          "",
+          ""
+        ]
+      ]
+    }
+  ],
+  "extract_errors": []
+}

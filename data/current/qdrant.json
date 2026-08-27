@@ -1,0 +1,25 @@
+{
+  "slug": "qdrant",
+  "name": "Qdrant",
+  "vendor": "Qdrant",
+  "category": "database",
+  "url": "https://qdrant.tech/pricing/",
+  "final_url": "https://qdrant.tech/pricing/",
+  "content_hash": "e3d333f5b7139cc34b7e05a86e57bd53946bce551e5e8f349860e670d01035e4",
+  "raw_hash": "a5d78de8f66893e35016800fa5ce0f2ef1f93995ee8a97876834416dfba84dec",
+  "text_bytes": 6871,
+  "extractor": "dom",
+  "confidence": "low",
+  "plans": [
+    {
+      "name": "Price",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    }
+  ],
+  "tables": [],
+  "extract_errors": []
+}

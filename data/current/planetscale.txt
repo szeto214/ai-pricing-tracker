@@ -1,0 +1,263 @@
+📹 The future of AI infrastructure: optimize and shard your database with agents.
+Watch the talk
+Log in
+|
+Get started
+|
+Get in touch
+Platform
+▾
+|
+Resources
+▾
+|
+Documentation
+|
+Pricing
+|
+Migrate
+Navigation
+Platform
+▾
+|
+Resources
+▾
+|
+Documentation
+|
+Pricing
+|
+Migrate
+Pricing
+You and your agent can query our pricing data using SQL. Instructions and an agent-friendly version of this page are in
+pricing.md
+.
+Connect to pricing database
+Role:
+SELECT
+only on
+public.planetscale_prices
+. SSL is required.
+Copy the URI and connect with any Postgres client:
+postgresql://<secret-redacted>:<secret-redacted>@aws-us-east-1-3.pg.psdb.cloud:6432/postgres?sslmode=verify-full&sslrootcert=system
+Example queries and the full catalog are in
+pricing.md
+.
+Region
+For best performance, select the same region as your application.
+Request another region
+AWS us-east-1
+Database engine
+Postgres
+NEW
+The fastest cloud Postgres.
+Vitess
+MySQL at hyperscale.
+Cluster configuration
+Primary + multi-replica
+(HA)
+A primary and two included replica nodes ideal for high-availability workloads.
+99.99% SLA
+.
+Single node
+(non-HA)
+A single primary node suitable for non-high availability use cases.
+Cluster type
+High-availability clusters deployed across
+3 availability zones
+.
+Amazon Elastic Block Storage
+Network-attached storage volumes with
+autoscaling storage
+. The perfect choice for smaller databases with lower I/O requirements.
+⚡️
+PlanetScale Metal
+⚡️
+Ultra-fast
+NVMe drives
+and
+unlimited IOPS
+make high-availability Metal clusters the fastest nodes available in the cloud.
+Architecture:
+aarch64 (
+10
+)
+x86-64 (
+10
+)
+PS-5
+1/16 vCPU
+·
+512 MB
+memory
+·
+10 GB storage
+$15
+Includes 3 nodes
+CPU
+Memory
+1× primary database
+1/16 vCPU
+512 MB
+2× replica databases
+1/16 vCPU
+512 MB
+1/16 vCPU
+512 MB
+Total resources
+3/16 vCPU
+1.5 GB
+Storage
+Choose the disk size you would like to provision. Autoscaling, IOPS, and bandwidth settings can be configured in-app.
+View storage documentation
+GB
+Egress bandwidth
+100
+GB of egress bandwidth is included. Additional usage:
+$0.06
+/ GB
+.
+GB
++ Show advanced options
+Estimated monthly total:
+$15
+Get started
+PlanetScale Postgres
+Single node
+Development and low-traffic production workloads. Starting at $5/month.
+High Availability
+1 primary + 2 replicas across 3 availability zones.
+Metal
+High-performance local NVMe storage. Starting at $50/month.
+Vitess
+MySQL-compatible with horizontal sharding for massive scale. Runs on network-attached storage or PlanetScale Metal.
+Plans
+Base ↓
+Enterprise ↓
+Learn more in the
+plans documentation
+.
+Also available on the
+AWS Marketplace
+and
+Google Cloud Marketplace
+.
+Have questions about Enterprise options, plan features, or pricing?
+Get in touch
+Database expertise
+Augment your team with our database experts, including the majority of the core Vitess maintainers
+Migration assistance
+Hands-on, proactive assistance in migrating your workload with no downtime
+Slack-based support
+Private shared Slack channel for fast communication
+More deployment options
+Multi-tenant, single-tenant, or in your own AWS / GCP account
+Business support included
+Enhanced response times from support engineers
+Architecture consultation
+Work with our Solutions team to optimize your database design
+Custom pricing
+AWS/GCP Marketplace purchase options
+Additional regions
+Deploy in any AWS or GCP region with at least 3 availability zones
+Base Plan
+The Base plan is what you get when you
+sign up at PlanetScale
+. No contract or sales interaction required. Pricing is resource-based, so you can upsize and downsize your instances as needed.
+PlanetScale Postgres
+Single node
+— Starting at $5/month for development and low-traffic workloads
+Metal
+— Starting at $50/month with local NVMe storage for high-performance needs
+High Availability
+— 1 primary + 2 replicas across 3 availability zones
+Vitess
+MySQL-compatible databases with horizontal sharding. Pricing based on cluster size, VTGate configuration, and storage. Metal also available.
+Pricing factors
+Pay as you go
+— Pay month to month based on the price in the calculator above.
+The main factors that determine your price are:
+Instance and VTGate sizes
+Storage amount
+— Included for Metal databases. For network-attached storage databases, the first 10 GB is free, with per-GB pricing beyond that. See the pricing calculator for details.
+Add-ons
+— Additional development branch hours, SSO, upgraded support
+For the full list of features and more information, see our
+plans documentation
+.
+Enterprise
+Our Enterprise plan comes with all of the same platform features you get with the Base plan, but also includes upgraded levels of support and additional deployment options:
+Bring your own cloud
+— For enterprise companies or those with strict compliance policies that require your data to remain in your own cloud, we also offer
+PlanetScale Managed
+. This allows us to deploy PlanetScale into an AWS or GCP account that you own and we manage.
+Upgraded support
+— All Enterprise plans come with
+Business support
+and the option to upgrade to Enterprise support. The Enterprise support option is only available on Enterprise plans and gives you access to our team’s database architecture expertise through a shared Slack channel and bi-weekly meetings. Additionally, 15 minute response time for P1 tickets.
+PlanetScale Managed pricing model
+If you choose to deploy PlanetScale in your own AWS or GCP account, the required infrastructure is spun up in your account, and you are billed by your cloud provider for those infrastructure costs.
+This allows you to take advantage of the PlanetScale platform (branching, deploy requests, query monitoring, etc) in your own private environment.
+On top of the infrastructure fees that you pay directly to your cloud provider, you will pay a percentage of that cost to PlanetScale for the use of PlanetScale, infrastructure management, migration assistance, and ongoing support.
+For companies with existing AWS or GCP agreements, this option sometimes ends up less expensive than running on PlanetScale’s infrastructure, as you can take advantage of your AWS or GCP discounts for these infrastructure costs.
+When do I need Enterprise?
+If you need any of the following, Enterprise may be the best solution for you:
+Enterprise support — Shared Slack channel with our team and bi-weekly meetings where you can discuss database performance, optimizations, and more.
+You need hands-on evaluation and migration assistance
+You need your database deployed in a single-tenant environment
+You need a PCI DSS certified service provider
+You need to keep your data in
+your own
+AWS or GCP account
+Any other customizations — Our Enterprise plan offers a lot of flexibility, so if you have a requirement that’s not listed here, it’s best to
+reach out
+and we can see how we can help.
+Company
+About
+Brand
+Blog
+Changelog
+Careers
+Events
+Product
+Case studies
+Enterprise
+Pricing
+Benchmarks
+Resources
+Documentation
+Migrate
+Support
+Status
+Trust Center
+Courses
+MySQL for Developers
+Database Scaling
+Learn Vitess
+Open source
+Vitess
+Vitess community
+GitHub
+Privacy
+|
+Terms
+|
+Cookies
+|
+Patents
+|
+Do Not Share My Personal Information
+©
+2026
+PlanetScale, Inc. All rights reserved.
+GitHub
+|
+X
+|
+LinkedIn
+|
+YouTube
+|
+Discord
+|
+Facebook

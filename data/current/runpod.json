@@ -1,0 +1,457 @@
+{
+  "slug": "runpod",
+  "name": "RunPod",
+  "vendor": "RunPod",
+  "category": "ai-api",
+  "url": "https://www.runpod.io/pricing",
+  "final_url": "https://www.runpod.io/pricing",
+  "content_hash": "841937f69ec46f73398b27d872763d95076fa5f35105635bbe769e52a3e66cc1",
+  "raw_hash": "9dca584b7789914d13209e61268dd069c6c0c83406fa7aa5b4afca7515574fbe",
+  "text_bytes": 11229,
+  "extractor": "jsonld",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "RTX A5000 GPU on Runpod",
+      "price_raw": "0.16",
+      "amount": 0.16,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Community Cloud",
+      "price_raw": "0.16",
+      "amount": 0.16,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Secure Cloud",
+      "price_raw": "0.27",
+      "amount": 0.27,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "RTX 4090 GPU on Runpod",
+      "price_raw": "0.34",
+      "amount": 0.34,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Community Cloud",
+      "price_raw": "0.34",
+      "amount": 0.34,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Secure Cloud",
+      "price_raw": "0.74",
+      "amount": 0.74,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "RTX 3090 GPU on Runpod",
+      "price_raw": "0.22",
+      "amount": 0.22,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Community Cloud",
+      "price_raw": "0.22",
+      "amount": 0.22,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Secure Cloud",
+      "price_raw": "0.50",
+      "amount": 0.5,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "L4 GPU on Runpod",
+      "price_raw": "0.44",
+      "amount": 0.44,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Community Cloud",
+      "price_raw": "0.44",
+      "amount": 0.44,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Secure Cloud",
+      "price_raw": "0.49",
+      "amount": 0.49,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "RTX 5090 GPU on Runpod",
+      "price_raw": "0.69",
+      "amount": 0.69,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Community Cloud",
+      "price_raw": "0.69",
+      "amount": 0.69,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Secure Cloud",
+      "price_raw": "0.99",
+      "amount": 0.99,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "RTX A6000 GPU on Runpod",
+      "price_raw": "0.33",
+      "amount": 0.33,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Community Cloud",
+      "price_raw": "0.33",
+      "amount": 0.33,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Secure Cloud",
+      "price_raw": "0.53",
+      "amount": 0.53,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "L40 GPU on Runpod",
+      "price_raw": "0.69",
+      "amount": 0.69,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Secure Cloud",
+      "price_raw": "0.82",
+      "amount": 0.82,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "A40 GPU on Runpod",
+      "price_raw": "0.35",
+      "amount": 0.35,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Community Cloud",
+      "price_raw": "0.35",
+      "amount": 0.35,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Secure Cloud",
+      "price_raw": "0.44",
+      "amount": 0.44,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "RTX 6000 Ada GPU on Runpod",
+      "price_raw": "0.74",
+      "amount": 0.74,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Community Cloud",
+      "price_raw": "0.74",
+      "amount": 0.74,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Secure Cloud",
+      "price_raw": "0.84",
+      "amount": 0.84,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "L40S GPU on Runpod",
+      "price_raw": "0.79",
+      "amount": 0.79,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Community Cloud",
+      "price_raw": "0.79",
+      "amount": 0.79,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "A100 SXM GPU on Runpod",
+      "price_raw": "1.39",
+      "amount": 1.39,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Community Cloud",
+      "price_raw": "1.39",
+      "amount": 1.39,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Secure Cloud",
+      "price_raw": "1.59",
+      "amount": 1.59,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "A100 PCIe GPU on Runpod",
+      "price_raw": "1.19",
+      "amount": 1.19,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Community Cloud",
+      "price_raw": "1.19",
+      "amount": 1.19,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Secure Cloud",
+      "price_raw": "1.39",
+      "amount": 1.39,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "H100 SXM GPU on Runpod",
+      "price_raw": "2.69",
+      "amount": 2.69,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Community Cloud",
+      "price_raw": "2.69",
+      "amount": 2.69,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Secure Cloud",
+      "price_raw": "3.29",
+      "amount": 3.29,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "H100 PCIe GPU on Runpod",
+      "price_raw": "1.99",
+      "amount": 1.99,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Community Cloud",
+      "price_raw": "1.99",
+      "amount": 1.99,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Secure Cloud",
+      "price_raw": "2.89",
+      "amount": 2.89,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "H100 NVL GPU on Runpod",
+      "price_raw": "2.59",
+      "amount": 2.59,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Community Cloud",
+      "price_raw": "2.59",
+      "amount": 2.59,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Secure Cloud",
+      "price_raw": "3.19",
+      "amount": 3.19,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "RTX Pro 6000 GPU on Runpod",
+      "price_raw": "1.69",
+      "amount": 1.69,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Community Cloud",
+      "price_raw": "1.69",
+      "amount": 1.69,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Secure Cloud",
+      "price_raw": "2.09",
+      "amount": 2.09,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "B200 GPU on Runpod",
+      "price_raw": "5.98",
+      "amount": 5.98,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Community Cloud",
+      "price_raw": "5.98",
+      "amount": 5.98,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Secure Cloud",
+      "price_raw": "6.79",
+      "amount": 6.79,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "H200 GPU on Runpod",
+      "price_raw": "3.59",
+      "amount": 3.59,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Community Cloud",
+      "price_raw": "3.59",
+      "amount": 3.59,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Secure Cloud",
+      "price_raw": "4.59",
+      "amount": 4.59,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "B300 GPU on Runpod",
+      "price_raw": "6.94",
+      "amount": 6.94,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Community Cloud",
+      "price_raw": "6.94",
+      "amount": 6.94,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Secure Cloud",
+      "price_raw": "7.89",
+      "amount": 7.89,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    }
+  ],
+  "tables": [],
+  "extract_errors": []
+}

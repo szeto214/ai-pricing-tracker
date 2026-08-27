@@ -1,0 +1,252 @@
+{
+  "slug": "jetbrains-ai",
+  "name": "JetBrains AI",
+  "vendor": "JetBrains",
+  "category": "ai-coding",
+  "url": "https://www.jetbrains.com/ai-ides/buy/",
+  "final_url": "https://www.jetbrains.com/ai-ides/buy/?section=personal&billing=yearly",
+  "content_hash": "fd0e3b5284e94e57c2bcb0b17a32474abb82959c1daa805c2f986d607a27f8be",
+  "raw_hash": "eb4df39f25e01f787eb7bb0c2da2ace1cb65850d9663a843902772660ccecac7",
+  "text_bytes": 11000,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "AI Free",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "AI Pro",
+      "price_raw": "$100.00",
+      "amount": 100.0,
+      "currency": "USD",
+      "period": "user",
+      "features": []
+    },
+    {
+      "name": "AI Ultimate",
+      "price_raw": "$300.00",
+      "amount": 300.0,
+      "currency": "USD",
+      "period": "user",
+      "features": []
+    },
+    {
+      "name": "AI Enterprise",
+      "price_raw": "$720.00",
+      "amount": 720.0,
+      "currency": "USD",
+      "period": "user",
+      "features": []
+    },
+    {
+      "name": "All Products Pack",
+      "price_raw": "$299.00",
+      "amount": 299.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "dotUltimate",
+      "price_raw": "$219.00",
+      "amount": 219.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Running low on your monthly quota?",
+      "price_raw": "USD 1.00",
+      "amount": 1.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    }
+  ],
+  "tables": [
+    {
+      "caption": "",
+      "rows": [
+        [
+          "",
+          "AI Free",
+          "AI Pro",
+          "AI Ultimate",
+          "AI Enterprise"
+        ],
+        [
+          "Code completion",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Next Edit Suggestions",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "AI chat",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "AI workflows inline docs, commit messages, rename refactoring, and more"
+        ],
+        [
+          "Junie, the coding agent by JetBrains available in IntelliJ IDEA Ultimate, PyCharm with a PyCharm Pro subscription, WebStorm, GoLand, PhpStorm, Rider, RubyMine, ",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Claude Agent",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Codex",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "",
+          "AI Free",
+          "AI Pro",
+          "AI Ultimate",
+          "AI Enterprise"
+        ],
+        [
+          "Third-party cloud AI models via JetBrains AI OpenAI, Anthropic, Google, and xAI",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Bring your own key (BYOK) OpenAI and Anthropic",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Local AI models via OpenAI-compatible APIs, including Ollama and LM Studio",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "On-premises LLMs via Hugging Face or OpenAI-compatible APIs",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "AI provider keys (BYOK) for the entire organization OpenAI Platform, Azure OpenAI, Amazon Bedrock, and Google Vertex AI",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "",
+          "AI Free",
+          "AI Pro",
+          "AI Ultimate",
+          "AI Enterprise"
+        ],
+        [
+          "JetBrains IDEs",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "ReSharper",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Android Studio",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "",
+          "AI Free",
+          "AI Pro",
+          "AI Ultimate",
+          "AI Enterprise"
+        ],
+        [
+          "Data excluded from training",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Zero data retention"
+        ],
+        [
+          "Content exclusion with .aiignore"
+        ],
+        [
+          "Enable/disable AI for organization"
+        ],
+        [
+          "On-premises, cloud, and hybrid deployment",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Advanced user and group access management SSO, SCIM"
+        ],
+        [
+          "AI audit logs"
+        ]
+      ]
+    }
+  ],
+  "extract_errors": []
+}

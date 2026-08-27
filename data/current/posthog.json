@@ -1,0 +1,90 @@
+{
+  "slug": "posthog",
+  "name": "PostHog",
+  "vendor": "PostHog",
+  "category": "observability",
+  "url": "https://posthog.com/pricing",
+  "final_url": "https://posthog.com/pricing",
+  "content_hash": "2219bd443a7d99c35ee89939dfe7e5f41362d6ee4e3ed274d80450411a28d7d8",
+  "raw_hash": "b1441f8d40b5c8c97a498d97065e962db43ab2e5401ec3b41e5e1b6305ed963e",
+  "text_bytes": 5742,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "What you get for free, every month",
+      "price_raw": "$5",
+      "amount": 5.0,
+      "currency": "USD",
+      "period": null,
+      "features": [
+        "PostHog Web",
+        "PostHog Slack",
+        "PostHog Desktop",
+        "PostHog MCP"
+      ]
+    },
+    {
+      "name": "Free",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": [
+        "Full monthly free tier on every product",
+        "Unlimited team members",
+        "1 project, 1-year data retention",
+        "Community support"
+      ]
+    },
+    {
+      "name": "Pay-as-you-go",
+      "price_raw": "$2k",
+      "amount": 2000.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Unlimited usage",
+        "6 projects – up from 1",
+        "7-year data retention – up from 1 year",
+        "Email support – or Slack over $2k/mo"
+      ]
+    },
+    {
+      "name": "Book an onboarding call",
+      "price_raw": "$80",
+      "amount": 80.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Select your cloud",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": [
+        "Select your cloud US (Virginia) EU (Frankfurt)",
+        "US (Virginia)",
+        "EU (Frankfurt)",
+        "Starts at: $0 Free > 1 left at this price!!"
+      ]
+    },
+    {
+      "name": "Eco-friendly",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": [
+        "Select your cloud US (Virginia) EU (Frankfurt)",
+        "US (Virginia)",
+        "EU (Frankfurt)",
+        "Starts at: $0 Free > 1 left at this price!!"
+      ]
+    }
+  ],
+  "tables": [],
+  "extract_errors": []
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "assemblyai",
+  "name": "AssemblyAI",
+  "vendor": "AssemblyAI",
+  "category": "ai-media",
+  "url": "https://www.assemblyai.com/pricing",
+  "final_url": "https://www.assemblyai.com/pricing",
+  "content_hash": "f38f788cf43e2413b0615f6904b2405e349f58841191b57e739d8f8e51838e07",
+  "raw_hash": "f41ec0304e131088e96c843608069ef474c162e50748f540322f8dd49e39cf8c",
+  "text_bytes": 12887,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Universal-3.5 Pro",
+      "price_raw": "$0.21",
+      "amount": 0.21,
+      "currency": "USD",
+      "period": "hour",
+      "features": []
+    },
+    {
+      "name": "Universal-2",
+      "price_raw": "$0.15",
+      "amount": 0.15,
+      "currency": "USD",
+      "period": "hour",
+      "features": []
+    },
+    {
+      "name": "What is included in the $4.50/hr Voice Agent API",
+      "price_raw": "$4.50",
+      "amount": 4.5,
+      "currency": "USD",
+      "period": "hour",
+      "features": []
+    }
+  ],
+  "tables": [
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Models",
+          "Pay as you go",
+          "Custom"
+        ],
+        [
+          "Universal-3.5 Pro The most accurate async speech-to-text model that transcribes every conversation exactly as it's heard – works across 18 languages, with nativ",
+          "$0.21 /hr",
+          "Get custom rate limits, enhanced concurrency, and enterprise-grade flexibility tailored to your AI workloads. Contact us"
+        ],
+        [
+          "Universal-2 Our highly accurate speech-to-text model trained on over 12.5 million hours of audio data. Supports 99 languages. Exceptional accuracy at a lower pr",
+          "$0.15 /hr"
+        ]
+      ]
+    }
+  ],
+  "extract_errors": []
+}

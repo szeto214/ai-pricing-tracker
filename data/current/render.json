@@ -1,0 +1,51 @@
+{
+  "slug": "render",
+  "name": "Render",
+  "vendor": "Render",
+  "category": "dev-infra",
+  "url": "https://render.com/pricing",
+  "final_url": "https://render.com/pricing",
+  "content_hash": "d84d0f17ea976af83079f566fa5d98eba97570319ffb7db0f1fffaeb219d9a14",
+  "raw_hash": "10d02abe5401bd3692b43b2b398c26da7cf61b798cb7a9a99eb76bcf76cc10d1",
+  "text_bytes": 1573,
+  "extractor": "dom",
+  "confidence": "low",
+  "plans": [
+    {
+      "name": "Migrating production infrastructure? Get up to $",
+      "price_raw": "$10K",
+      "amount": 10000.0,
+      "currency": "USD",
+      "period": null,
+      "features": [
+        "Autoscaling",
+        "Private Networking",
+        "Persistent Disks",
+        "Infrastructure as Code",
+        "Preview Environments",
+        "Zero Downtime Deploys",
+        "Render CLI and MCP",
+        "Workflows New",
+        "Sandboxes (Early Access) New",
+        "Static Sites",
+        "Web Services",
+        "Private Services",
+        "Background Workers",
+        "Cron Jobs",
+        "Postgres",
+        "Key Value",
+        "Framework Quickstarts",
+        "Templates",
+        "Blog",
+        "Changelog",
+        "Render for Startups",
+        "HIPAA on Render",
+        "Heroku Migration Guide",
+        "Railway Migration Guide",
+        "Pricing"
+      ]
+    }
+  ],
+  "tables": [],
+  "extract_errors": []
+}

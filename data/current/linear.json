@@ -1,0 +1,63 @@
+{
+  "slug": "linear",
+  "name": "Linear",
+  "vendor": "Linear",
+  "category": "productivity",
+  "url": "https://linear.app/pricing",
+  "final_url": "https://linear.app/pricing",
+  "content_hash": "d32fc9a97d424548c02a091ae6b40093675f3e750135b812d83b8bd0e6441808",
+  "raw_hash": "22e1cea0857588bb16143531bcf6e45ea00d049701a8e4cc37ca590b58331a1c",
+  "text_bytes": 2822,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Free",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": [
+        "Unlimited members",
+        "2 teams",
+        "250 issues",
+        "Agent platform",
+        "Linear Agent"
+      ]
+    },
+    {
+      "name": "Basic",
+      "price_raw": "$10",
+      "amount": 10.0,
+      "currency": "USD",
+      "period": "user",
+      "features": []
+    },
+    {
+      "name": "Business",
+      "price_raw": "$16",
+      "amount": 16.0,
+      "currency": "USD",
+      "period": "user",
+      "features": []
+    },
+    {
+      "name": "Built for the future. Available today.",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Change Plan",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    }
+  ],
+  "tables": [],
+  "extract_errors": []
+}

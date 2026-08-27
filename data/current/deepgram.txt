@@ -1,0 +1,485 @@
+Search
+Contact Us
+Log In
+Sign Up Free
+Deepgram Pricing
+Straightforward costs for projects at any scale.
+Find the right plan with our clear, transparent, and flexible pricing. Whether you're just exploring or deploying at enterprise scale, our plans are built for innovation, not contract negotiation.
+Pay As You Go
+No minimums. No expiration.
+No credit card required.
+Growth
+Save up to 20%
+With pre-paid credits for the year.
+Credits are redeemed against actual usage.
+Overview
+Price
+Free $200 Credit
+then pay-as-you-go
+$4K+
+/ year
+Best for
+Developers & Startups
+Growing Applications
+Access
+All endpoint in public models
+All endpoints in public models
+Usage & Scale (Concurrency)
+Speech-to-Text
+Up to 50 for the REST API
+Up to 50 for the REST API
+Up to 150 for the WSS API
+Up to 225 for the WSS API
+Up to 5 for Deepgram Whisper Cloud
+Up to 5 for Deepgram Whisper Cloud
+Text-to-Speech
+Up to 45 for the REST API + WSS API
+Up to 60 for the REST API + WSS API
+Voice Agent API
+Up to 45 for the WSS API
+Up to 60 for the WSS API
+Audio Intelligence
+Up to 10 for the REST API
+Up to 10 for the REST API
+Support
+Support Channels
+Community & Discord
+Community & Discord
+SLAs
+Standard Uptime
+Standard Uptime
+Sign Up Free
+Get Started
+Enterprise
+For businesses with large volumes, data or deployment requirements, or support needs.
+Contact Sales
+Speech to Text
+Power your applications with world-class speech recognition APIs. Nova models support 45+ languages with advanced capabilities including Speaker Diarization (multi-speaker detection), Smart Formatting for readability, Keyterm Prompting, and Automatic Language Detection.
+For detailed model, language, and feature availability, please refer to our
+Developer Documentation
+.
+Limited-time promotional rates on streaming.
+Streaming
+Pre-Recorded
+$/minute
+$/hour
+Streaming pricing
+Model
+Pay As You Go
+Growth
+Flux English
+i
+Conversational speech recognition for real-time voice agents with built-in turn detection, natural interruption handling, and ultra-low latency.
+Current price
+$0.0065/min
+Regular price
+$0.0077/min
+Current price
+$0.0057/min
+Regular price
+$0.0065/min
+Flux Multilingual
+i
+Conversational speech recognition for real-time voice agents that handle multiple languages within a single conversation, with built-in turn detection, natural interruption handling, and ultra-low latency.
+$0.0078/min
+$0.0068/min
+Nova-3 Monolingual
+i
+Our highest performing model. Recommended for most use cases, especially audio with multiple languages, background noise, crosstalk and far field audio.
+Current price
+$0.0048/min
+Regular price
+$0.0077/min
+Current price
+$0.0042/min
+Regular price
+$0.0065/min
+Nova-3 Multilingual
+i
+Our highest-accuracy multilingual model with automatic language detection. Recommended for audio with multiple languages, background noise, crosstalk, and far-field input.
+Current price
+$0.0058/min
+Regular price
+$0.0092/min
+Current price
+$0.0050/min
+Regular price
+$0.0078/min
+Custom
+i
+Custom speech-to-text models trained on proprietary or novel datasets for maximum accuracy in edge-case scenarios.
+Contact Sales
+Contact Sales
+Streaming pricing
+, single-column view of the table above
+Model
+Pay As You Go
+Flux English
+i
+Conversational speech recognition for real-time voice agents with built-in turn detection, natural interruption handling, and ultra-low latency.
+Current price
+$0.0065/min
+Regular price
+$0.0077/min
+Flux Multilingual
+i
+Conversational speech recognition for real-time voice agents that handle multiple languages within a single conversation, with built-in turn detection, natural interruption handling, and ultra-low latency.
+$0.0078/min
+Nova-3 Monolingual
+i
+Our highest performing model. Recommended for most use cases, especially audio with multiple languages, background noise, crosstalk and far field audio.
+Current price
+$0.0048/min
+Regular price
+$0.0077/min
+Nova-3 Multilingual
+i
+Our highest-accuracy multilingual model with automatic language detection. Recommended for audio with multiple languages, background noise, crosstalk, and far-field input.
+Current price
+$0.0058/min
+Regular price
+$0.0092/min
+Custom
+i
+Custom speech-to-text models trained on proprietary or novel datasets for maximum accuracy in edge-case scenarios.
+Contact Sales
+Pre-Recorded pricing
+Model
+Pay As You Go
+Growth
+Nova-3 Monolingual
+i
+Our highest performing model. Recommended for most use cases, especially audio with multiple languages, background noise, crosstalk and far field audio.
+$0.0043/min
+$0.0036/min
+Nova-3 Multilingual
+i
+Our highest performing model. Recommended for most use cases, especially audio with multiple languages, background noise, crosstalk and far field audio.
+$0.0052/min
+$0.0043/min
+Whisper Large
+$0.0048/min
+$0.0048/min
+Custom
+Contact Sales
+Contact Sales
+Pre-Recorded pricing
+, single-column view of the table above
+Model
+Pay As You Go
+Nova-3 Monolingual
+i
+Our highest performing model. Recommended for most use cases, especially audio with multiple languages, background noise, crosstalk and far field audio.
+$0.0043/min
+Nova-3 Multilingual
+i
+Our highest performing model. Recommended for most use cases, especially audio with multiple languages, background noise, crosstalk and far field audio.
+$0.0052/min
+Whisper Large
+$0.0048/min
+Custom
+Contact Sales
+Speech-to-Text Add-ons
+Enhance your transcripts with powerful AI understanding features.
+Streaming
+Pre-Recorded
+$/minute
+$/hour
+Streaming pricing
+Feature
+Description
+Pay As You Go
+Growth
+Redaction
+Automatically identify and remove sensitive PII such as social security numbers, credit cards, and phone numbers.
+$0.0020/min
+$0.0017/min
+Keyterm Prompting
+Boost accuracy for specific domain-specific jargon, product names, or acronyms important to your use case.
+$0.0013/min
+$0.0012/min
+Smart Formatting
+Automatically format punctuation, casing, dates, and currency for readability.
+Included
+Included
+Entity Detection
+Identify and extract entities like person names, organizations, locations, and dates from your audio.
+$0.0017/min
+$0.0017/min
+Speaker Diarization
+Detect multiple speakers and label who spoke when in the transcript.
+$0.0020/min
+Streaming pricing
+, single-column view of the table above
+Feature
+Description
+Redaction
+Automatically identify and remove sensitive PII such as social security numbers, credit cards, and phone numbers.
+Keyterm Prompting
+Boost accuracy for specific domain-specific jargon, product names, or acronyms important to your use case.
+Smart Formatting
+Automatically format punctuation, casing, dates, and currency for readability.
+Entity Detection
+Identify and extract entities like person names, organizations, locations, and dates from your audio.
+Speaker Diarization
+Detect multiple speakers and label who spoke when in the transcript.
+Pre-Recorded pricing
+Feature
+Description
+Pay As You Go
+Growth
+Redaction
+Automatically identify and remove sensitive PII such as social security numbers, credit cards, and phone numbers.
+$0.0020/min
+$0.0017/min
+Keyterm Prompting
+Boost accuracy for specific domain-specific jargon, product names, or acronyms important to your use case.
+$0.0013/min
+$0.0012/min
+Smart Formatting
+Automatically format punctuation, casing, dates, and currency for readability.
+Included
+Included
+Entity Detection
+Identify and extract entities like person names, organizations, locations, and dates from your audio.
+$0.0017/min
+$0.0017/min
+Speaker Diarization
+Detect multiple speakers and label who spoke when in the transcript.
+Included
+Included
+Pre-Recorded pricing
+, single-column view of the table above
+Feature
+Description
+Redaction
+Automatically identify and remove sensitive PII such as social security numbers, credit cards, and phone numbers.
+Keyterm Prompting
+Boost accuracy for specific domain-specific jargon, product names, or acronyms important to your use case.
+Smart Formatting
+Automatically format punctuation, casing, dates, and currency for readability.
+Entity Detection
+Identify and extract entities like person names, organizations, locations, and dates from your audio.
+Speaker Diarization
+Detect multiple speakers and label who spoke when in the transcript.
+Text to Speech
+Generate natural, low-latency speech for your voice assistants and conversational AI applications.
+Through September 12, 2026, developers can build with Flux TTS free with up to 45 concurrent streaming connections globally (5 in EU/AU).
+Standard pricing applies beginning September 13, 2026.
+Model
+Pay As You Go
+Growth
+Flux TTS
+Free until 9/12
+Then $0.0450/1k characters
+Free until 9/12
+Then $0.0405/1k characters
+Aura-2
+$0.030/1k characters
+$0.027/1k characters
+Aura-1
+$0.0150/1k characters
+$0.0135/1k characters
+Model
+Pay As You Go
+Flux TTS
+Free until 9/12
+Then $0.0450/1k characters
+Aura-2
+$0.030/1k characters
+Aura-1
+$0.0150/1k characters
+Calculate the Text-to-Speech concurrency you need
+Advanced Options
+Get your results!
+Get Results
+Voice Agent API
+Our Voice Agent API enables real-time conversational AI agents that seamlessly handle interruptions, take complex actions, and deliver natural, responsive customer interactions without delays or rigid turn-taking.
+Flux TTS in Voice Agent is free through September 12, 2026.
+Standard, Custom-BYO LLM, and Advanced tiers are billed at BYO TTS rates when using Flux TTS during this period.
+$/minute
+$/hour
+Tier
+Pay As You Go
+Growth
+Standard
+$0.056/min through 9/12
+Then $0.075/min
+i
+calculated based on websocket connection time.
+$0.051/min through 9/12
+Then $0.068/min
+i
+calculated based on websocket connection time.
+Standard - BYO TTS
+$0.065/min
+i
+calculated based on websocket connection time.
+$0.051/min
+i
+calculated based on websocket connection time.
+Custom - BYO LLM
+$0.050/min through 9/12
+Then $0.065/min
+i
+calculated based on websocket connection time.
+$0.041/min through 9/12
+Then $0.059/min
+i
+calculated based on websocket connection time.
+Custom - BYO LLM + TTS
+$0.050/min
+i
+calculated based on websocket connection time.
+$0.041/min
+i
+calculated based on websocket connection time.
+Advanced
+$0.122/min through 9/12
+Then $0.163/min
+i
+calculated based on websocket connection time.
+$0.110/min through 9/12
+Then $0.146/min
+i
+calculated based on websocket connection time.
+Advanced - BYO TTS
+$0.122/min
+i
+calculated based on websocket connection time.
+$0.110/min
+i
+calculated based on websocket connection time.
+Tier
+Pay As You Go
+Standard
+$0.056/min through 9/12
+Then $0.075/min
+i
+calculated based on websocket connection time.
+Standard - BYO TTS
+$0.065/min
+i
+calculated based on websocket connection time.
+Custom - BYO LLM
+$0.050/min through 9/12
+Then $0.065/min
+i
+calculated based on websocket connection time.
+Custom - BYO LLM + TTS
+$0.050/min
+i
+calculated based on websocket connection time.
+Advanced
+$0.122/min through 9/12
+Then $0.163/min
+i
+calculated based on websocket connection time.
+Advanced - BYO TTS
+$0.122/min
+i
+calculated based on websocket connection time.
+For detailed LLM tier information, please refer to our
+Developer Documentation
+.
+Audio Intelligence
+Analyze audio for insights. Extract actionable insights from conversational audio and text at scale.
+Model
+Pay As You Go
+Growth
+Summarization
+$0.0003/1k input tokens - $0.0006/1k output tokens
+$0.00024/1k input tokens - $0.00048/1k output tokens
+Topic Detection
+Sentiment Analysis
+Intent Recognition
+Model
+Pay As You Go
+Summarization
+$0.0003/1k input tokens - $0.0006/1k output tokens
+Topic Detection
+Sentiment Analysis
+Intent Recognition
+Security & Compliance
+Deepgram is built for enterprise-grade trust, meeting the standards for data protection and privacy.
+SOC 2 Type 1 & Type 2 Certified
+Independently audited security controls and procedures to ensure your data is protected in the cloud.
+HIPAA Compliant
+We sign Business Associate Agreements (BAA) for Enterprise customers handling electronic Protected Health Information (ePHI).
+GDPR Ready & EU Data Residency
+Fully compliant with GDPR. We offer a dedicated EU endpoint to ensure data processing stays within the European Union (api.eu.deepgram.com).
+CCPA Compliant
+Adheres to the California Consumer Privacy Act (CCPA) to secure privacy rights and control over personal information.
+PCI Compliant
+Maintains PCI compliance with yearly reviews for secure payment processing.
+Frequently Asked Questions
+How much does Deepgram Speech-to-Text cost per hour?
+Are older models (Nova-2, Enhanced, Base) still available?
+Does Deepgram charge for silence or round up audio time?
+What is included in the $200 free credit?
+How do you calculate costs for multichannel audio?
+What is the difference between Pay-As-You-Go and Growth plans?
+How does pricing work for the Voice Agent API?
+Do Audio Intelligence features cost extra?
+How is Text-to-Speech billed?
+Can I deploy Deepgram on-premise or in a private cloud?
+What happens if I exceed my concurrency limit?
+Is Deepgram HIPAA and SOC 2 compliant?
+Do you offer volume discounts for high-usage applications?
+How do overages work on the Growth plan?
+Can I avoid the 10% overage fee?
+Managing your Deepgram Pay-As-You-Go credits: auto-load settings, refunds, and transfers
+At Deepgram, we offer a flexible
+pay-as-you-go
+service where customers can purchase credits for usage on our platform. Our goal is to provide transparency and flexibility, while ensuring that you have full control over your account and payments.
+Auto-Load Functionality
+Managing Your Subscription
+Refunds for Unused Credits
+Refund Request Process
+Disclaimer for Incorrect Audio Files
+Credit Transfer Policy
+Get news and product updates.
+By submitting this form, you are agreeing to our
+Privacy Policy
+.
+Product
+Speech-to-text API
+Text-to-speech API
+Voice Agent API
+Audio Intelligence API
+Customers
+Customer Stories
+Partners
+Startup Program
+Powered by Deepgram
+Solutions
+Contact Centers
+Speech Analytics
+Conversational AI
+Podcast Transcription
+Medical Transcription
+Startup Program
+Resources
+Resource Hub
+AI Glossary
+AI Voice Generator Tool
+Introducing Deepgram's Voice Agent API
+Deepgram and Amazon Connect Integration
+Developers
+Documentation
+Changelog
+API Playground
+Community
+Self-hosted
+Support
+Company
+About
+Blog
+Careers
+Newsletter
+Customers
+Partners
+Newsroom
+Terms
+Privacy
+Copyright © 2026 Deepgram

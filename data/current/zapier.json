@@ -1,0 +1,125 @@
+{
+  "slug": "zapier",
+  "name": "Zapier",
+  "vendor": "Zapier",
+  "category": "automation",
+  "url": "https://zapier.com/pricing",
+  "final_url": "https://zapier.com/pricing",
+  "content_hash": "f4a747d4dd42cb3bfe9284c456265d01403854521bd785512923e6efaa5f9986",
+  "raw_hash": "fe60e99f23dacfd1b3859def81283db35cedb5c06233dcfbec78caba601e3b46",
+  "text_bytes": 23186,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Free",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Zapier automation platform",
+        "Unlimited Zap workflows, Tables, and Forms",
+        "Two-step Zap workflows",
+        "Zapier Copilot*"
+      ]
+    },
+    {
+      "name": "Professional",
+      "price_raw": "$19.99",
+      "amount": 19.99,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Multi-step Zap workflows",
+        "Unlimited Premium apps",
+        "Webhooks",
+        "Email and live chat** support",
+        "AI fields",
+        "Conditional form logic"
+      ]
+    },
+    {
+      "name": "Team",
+      "price_raw": "$69",
+      "amount": 69.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "25 users",
+        "Shared Zap workflows and folders",
+        "Shared app connections",
+        "SAML SSO",
+        "Priority support"
+      ]
+    },
+    {
+      "name": "Agents Free",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": "month",
+      "features": [
+        "400 activities per month",
+        "Live data sources",
+        "Web browsing",
+        "Interact with your agents in the Chrome Extension"
+      ]
+    },
+    {
+      "name": "Agents Pro",
+      "price_raw": "$400",
+      "amount": 400.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "1,500 activities per month",
+        "Live data sources",
+        "Web browsing",
+        "Interact with your agents in the Chrome extension"
+      ]
+    },
+    {
+      "name": "Chatbots Free",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": [
+        "Build up to 2 chatbots",
+        "Create custom directives",
+        "Leverage OpenAI's GPT-3.5 model",
+        "Share a public link to your chatbot"
+      ]
+    },
+    {
+      "name": "Chatbots Pro",
+      "price_raw": "$160",
+      "amount": 160.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Build up to 5 chatbots",
+        "Connect your API key to access more AI models",
+        "Upload 1 knowledge source (1MB text file)",
+        "Embed your chatbot on your website"
+      ]
+    },
+    {
+      "name": "Chatbots Advanced",
+      "price_raw": "$800",
+      "amount": 800.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Build up to 20 chatbots",
+        "Remove Zapier logo",
+        "3 knowledge sources",
+        "View past 30 days of conversations",
+        "Contact us to discuss additional functionality"
+      ]
+    }
+  ],
+  "tables": [],
+  "extract_errors": []
+}

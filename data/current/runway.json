@@ -1,0 +1,175 @@
+{
+  "slug": "runway",
+  "name": "Runway",
+  "vendor": "Runway",
+  "category": "ai-media",
+  "url": "https://runwayml.com/pricing",
+  "final_url": "https://runway.com/pricing",
+  "content_hash": "17f025a95e3af11da483e4372fbea18268c10e197e9d8d0734f5065a80830631",
+  "raw_hash": "f44dcbca334f5192adf5b03ead3cc4084388b834c6407e1ee4a99fe62fc94ed1",
+  "text_bytes": 5877,
+  "extractor": "jsonld",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Runway Dev Enterprise Plan",
+      "price_raw": "0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Runway Dev Free Plan",
+      "price_raw": "0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Runway Enterprise Plan",
+      "price_raw": "0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Runway Max Plan",
+      "price_raw": "95",
+      "amount": 95.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Runway Pro Plan",
+      "price_raw": "35",
+      "amount": 35.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Runway Standard Plan",
+      "price_raw": "15",
+      "amount": 15.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Runway Free Plan",
+      "price_raw": "0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    }
+  ],
+  "tables": [
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Monthly Yearly -20% off Generations per year",
+          "Standard $12 /month 7,500 credits/year Get Standard",
+          "Pro $28 /month 27,000 credits/year Get Pro",
+          "Max $76 /month 114,000 credits/year Get Max"
+        ],
+        [
+          "AI video"
+        ],
+        [
+          "Gen-4.5 60 credits/5s",
+          "125 videos",
+          "450 videos",
+          "1,900 videos"
+        ],
+        [
+          "Aleph 2.0 140 credits/5s",
+          "53 videos",
+          "192 videos",
+          "814 videos"
+        ],
+        [
+          "Seedance 2.0 Pro 1080p 160 credits/4s",
+          "46 videos",
+          "168 videos",
+          "712 videos"
+        ],
+        [
+          "Seedance 2.0 Fast 116 credits/4s",
+          "64 videos",
+          "232 videos",
+          "982 videos"
+        ],
+        [
+          "View more"
+        ],
+        [
+          "AI image"
+        ],
+        [
+          "Gen-4 Image 1080p 8 credits/image",
+          "937 images",
+          "3,375 images",
+          "14,250 images"
+        ],
+        [
+          "Gen-4 Image Turbo 2 credits/image",
+          "3,750 images",
+          "13,500 images",
+          "57,000 images"
+        ],
+        [
+          "Nano Banana Pro 2 2K 11 credits/image",
+          "681 images",
+          "2,454 images",
+          "10,363 images"
+        ],
+        [
+          "Nano Banana Pro 2K 20 credits/image",
+          "375 images",
+          "1,350 images",
+          "5,700 images"
+        ],
+        [
+          "View more"
+        ],
+        [
+          "AI audio"
+        ],
+        [
+          "Seed Audio 1.0 15 credits/min",
+          "500 minutes",
+          "1,800 minutes",
+          "7,600 minutes"
+        ],
+        [
+          "Lyria 3 Pro 8 credits/song",
+          "937 songs",
+          "3,375 songs",
+          "14,250 songs"
+        ],
+        [
+          "Lyria 3 Clip 4 credits/song",
+          "1,875 songs",
+          "6,750 songs",
+          "28,500 songs"
+        ],
+        [
+          "Text to Speech 1 credit/50 chars",
+          "375,000 characters",
+          "1,350,000 characters",
+          "5,700,000 characters"
+        ],
+        [
+          "View more"
+        ]
+      ]
+    }
+  ],
+  "extract_errors": []
+}

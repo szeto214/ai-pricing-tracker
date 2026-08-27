@@ -1,0 +1,161 @@
+{
+  "slug": "stripe",
+  "name": "Stripe",
+  "vendor": "Stripe",
+  "category": "dev-infra",
+  "url": "https://stripe.com/pricing",
+  "final_url": "https://stripe.com/pricing",
+  "content_hash": "2a92cde9a24223baa42884aaa3baa7b37caecd3e18fd885c70824f9a1be93a91",
+  "raw_hash": "ed841fb6b92d71f7652be93acd9690591a3b0f2b4bbc750fcb2b0f4991249f7b",
+  "text_bytes": 37264,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Bank-based and other payment methods",
+      "price_raw": "$5.00",
+      "amount": 5.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Disputes",
+      "price_raw": "$15.00",
+      "amount": 15.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Dispute prevention",
+      "price_raw": "$15.00",
+      "amount": 15.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "3D Secure authentication",
+      "price_raw": "$0.03",
+      "amount": 0.03,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Shared Payment Tokens",
+      "price_raw": "$0.15",
+      "amount": 0.15,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Custom domain",
+      "price_raw": "$10.00",
+      "amount": 10.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Post-payment invoices",
+      "price_raw": "$2.00",
+      "amount": 2.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Cards and wallets",
+      "price_raw": "$0.10",
+      "amount": 0.1,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Card readers",
+      "price_raw": "$59.00",
+      "amount": 59.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Cellular",
+      "price_raw": "$10.00",
+      "amount": 10.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Instant bank account verifications",
+      "price_raw": "$1.50",
+      "amount": 1.5,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Balances",
+      "price_raw": "$0.10",
+      "amount": 0.1,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Account owners",
+      "price_raw": "$1.50",
+      "amount": 1.5,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Transactions",
+      "price_raw": "$0.30",
+      "amount": 0.3,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Treasury",
+      "price_raw": "$2.00",
+      "amount": 2.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Global Payouts (Domestic)",
+      "price_raw": "$1.50",
+      "amount": 1.5,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Global Payouts (International)",
+      "price_raw": "$1.50",
+      "amount": 1.5,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Domestic payouts",
+      "price_raw": "$1.50",
+      "amount": 1.5,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    }
+  ],
+  "tables": [],
+  "extract_errors": []
+}

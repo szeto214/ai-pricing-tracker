@@ -42,6 +42,21 @@ jobs:
 
       - run: pip install -r requirements.txt
 
+      # Sebagian halaman harga hanya memuat angkanya lewat JavaScript.
+      # Target tersebut ditandai `render: js` di targets.yaml. Kalau langkah
+      # ini dihapus, target itu dilewati dengan status skipped_render —
+      # tidak menjatuhkan run, tapi arsipnya bolong.
+      - name: Cache browser Playwright
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-chromium-1.62.0
+
+      - name: Pasang Chromium untuk target render=js
+        run: |
+          pip install playwright==1.62.0
+          python -m playwright install --with-deps chromium
+
       - name: Jalankan pengumpul
         env:
           APT_CONTACT_URL: https://github.com/${{ github.repository }}

@@ -81,8 +81,15 @@ async def main_async(args) -> int:
     print("-" * 108)
     for t, row in zip(targets, rows):
         if isinstance(row, BaseException):
+            # Sebutkan berkas:baris terakhir — tanpa itu, crash butuh satu
+            # putaran validasi lagi hanya untuk tahu di mana letaknya.
+            where = ""
+            tb = row.__traceback__
+            while tb is not None:
+                where = f"{tb.tb_frame.f_code.co_filename.split('/')[-1]}:{tb.tb_lineno}"
+                tb = tb.tb_next
             print(f"{t.slug:<20} crash          -     -     -    -            -      "
-                  f"{type(row).__name__}: {row}")
+                  f"{type(row).__name__}: {row} @ {where}")
             bad += 1
             continue
         if row["status"] == "ok":

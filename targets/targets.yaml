@@ -40,6 +40,9 @@ targets:
     vendor: Cognition
     category: ai-coding
     url: https://windsurf.com/pricing
+    notes: "validasi 27/08: HTTP 429 setelah 2 percobaan ulang — mungkin
+      pembatasan laju sesaat. Dibiarkan aktif; kalau 429 terus selama seminggu,
+      nonaktifkan."
 
   - slug: replit
     name: Replit
@@ -52,6 +55,8 @@ targets:
     vendor: Lovable
     category: ai-coding
     url: https://lovable.dev/pricing
+    render: js
+    notes: "validasi 27/08: 1.9 kB teks, harga tidak ada di HTML awal"
 
   - slug: v0
     name: v0
@@ -64,6 +69,9 @@ targets:
     vendor: Tabnine
     category: ai-coding
     url: https://www.tabnine.com/pricing/
+    enabled: false
+    notes: "validasi 27/08: HTTP 403 — bot diblokir. Tidak diakali; slug
+      dipertahankan supaya bisa diaktifkan lagi kalau kebijakannya berubah."
 
   - slug: sourcegraph
     name: Sourcegraph / Amp
@@ -76,6 +84,8 @@ targets:
     vendor: JetBrains
     category: ai-coding
     url: https://www.jetbrains.com/ai-ides/buy/
+    render: js
+    notes: "validasi 27/08: 0.0 kB teks — halaman kosong tanpa JS"
 
   - slug: devin
     name: Devin
@@ -89,6 +99,8 @@ targets:
     vendor: OpenAI
     category: ai-assistant
     url: https://openai.com/chatgpt/pricing/
+    enabled: false
+    notes: "validasi 27/08: HTTP 403 — bot diblokir"
 
   - slug: anthropic-claude
     name: Claude
@@ -101,6 +113,8 @@ targets:
     vendor: Perplexity AI
     category: ai-assistant
     url: https://www.perplexity.ai/hub/getting-started
+    enabled: false
+    notes: "validasi 27/08: HTTP 403, dan URL-nya memang bukan halaman harga"
 
   - slug: notion
     name: Notion
@@ -113,7 +127,8 @@ targets:
     name: OpenAI API
     vendor: OpenAI
     category: ai-api
-    url: https://openai.com/api/pricing/
+    url: https://platform.openai.com/docs/pricing
+    notes: "validasi 27/08: openai.com/api/pricing HTTP 403; coba halaman docs"
 
   - slug: anthropic-api
     name: Anthropic API
@@ -144,6 +159,8 @@ targets:
     vendor: Groq
     category: ai-api
     url: https://groq.com/pricing
+    render: js
+    notes: "validasi 27/08: 0.9 kB teks, harga dimuat lewat JS"
 
   - slug: together-ai
     name: Together AI
@@ -206,6 +223,8 @@ targets:
     vendor: Vercel
     category: dev-infra
     url: https://vercel.com/pricing
+    render: js
+    notes: "validasi 27/08: 13.1 kB teks tapi nol angka harga"
 
   - slug: netlify
     name: Netlify
@@ -292,6 +311,8 @@ targets:
     vendor: Airtable
     category: productivity
     url: https://www.airtable.com/pricing
+    render: js
+    notes: "validasi 27/08: 8.8 kB teks tapi nol angka harga"
 
   - slug: slack
     name: Slack
@@ -310,15 +331,160 @@ targets:
     vendor: Make
     category: automation
     url: https://www.make.com/en/pricing
+    enabled: false
+    notes: "validasi 27/08: HTTP 403 — bot diblokir"
 
   - slug: n8n
     name: n8n
     vendor: n8n
     category: automation
     url: https://n8n.io/pricing/
+    render: js
+    notes: "validasi 27/08: 15.9 kB teks tapi nol angka harga"
 
   - slug: sentry
     name: Sentry
     vendor: Sentry
     category: observability
     url: https://sentry.io/pricing/
+
+  # ---------- batch 2 (ditambahkan 27/08/2026, menggantikan target yang
+  # diblokir dan memperluas kategori yang harganya paling sering bergerak) ----
+
+  - slug: modal
+    name: Modal
+    vendor: Modal Labs
+    category: ai-api
+    url: https://modal.com/pricing
+
+  - slug: runpod
+    name: RunPod
+    vendor: RunPod
+    category: ai-api
+    url: https://www.runpod.io/pricing
+
+  - slug: baseten
+    name: Baseten
+    vendor: Baseten
+    category: ai-api
+    url: https://www.baseten.co/pricing/
+
+  - slug: langchain
+    name: LangChain / LangSmith
+    vendor: LangChain
+    category: ai-api
+    url: https://www.langchain.com/pricing
+
+  - slug: firecrawl
+    name: Firecrawl
+    vendor: Firecrawl
+    category: ai-api
+    url: https://www.firecrawl.dev/pricing
+
+  - slug: pinecone
+    name: Pinecone
+    vendor: Pinecone
+    category: database
+    url: https://www.pinecone.io/pricing/
+
+  - slug: qdrant
+    name: Qdrant
+    vendor: Qdrant
+    category: database
+    url: https://qdrant.tech/pricing/
+
+  - slug: heroku
+    name: Heroku
+    vendor: Salesforce
+    category: dev-infra
+    url: https://www.heroku.com/pricing
+
+  - slug: koyeb
+    name: Koyeb
+    vendor: Koyeb
+    category: dev-infra
+    url: https://www.koyeb.com/pricing
+
+  - slug: gitlab
+    name: GitLab
+    vendor: GitLab
+    category: dev-infra
+    url: https://about.gitlab.com/pricing/
+
+  - slug: clerk
+    name: Clerk
+    vendor: Clerk
+    category: dev-infra
+    url: https://clerk.com/pricing
+
+  - slug: auth0
+    name: Auth0
+    vendor: Okta
+    category: dev-infra
+    url: https://auth0.com/pricing
+
+  - slug: resend
+    name: Resend
+    vendor: Resend
+    category: dev-infra
+    url: https://resend.com/pricing
+
+  - slug: algolia
+    name: Algolia
+    vendor: Algolia
+    category: dev-infra
+    url: https://www.algolia.com/pricing
+
+  - slug: stripe
+    name: Stripe
+    vendor: Stripe
+    category: dev-infra
+    url: https://stripe.com/pricing
+
+  - slug: twilio
+    name: Twilio
+    vendor: Twilio
+    category: dev-infra
+    url: https://www.twilio.com/en-us/pricing
+
+  - slug: posthog
+    name: PostHog
+    vendor: PostHog
+    category: observability
+    url: https://posthog.com/pricing
+
+  - slug: datadog
+    name: Datadog
+    vendor: Datadog
+    category: observability
+    url: https://www.datadoghq.com/pricing/
+
+  - slug: betterstack
+    name: Better Stack
+    vendor: Better Stack
+    category: observability
+    url: https://betterstack.com/pricing
+
+  - slug: postman
+    name: Postman
+    vendor: Postman
+    category: productivity
+    url: https://www.postman.com/pricing/
+
+  - slug: clickup
+    name: ClickUp
+    vendor: ClickUp
+    category: productivity
+    url: https://clickup.com/pricing
+
+  - slug: asana
+    name: Asana
+    vendor: Asana
+    category: productivity
+    url: https://asana.com/pricing
+
+  - slug: monday
+    name: monday.com
+    vendor: monday.com
+    category: productivity
+    url: https://monday.com/pricing

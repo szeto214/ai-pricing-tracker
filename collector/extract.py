@@ -171,25 +171,32 @@ def _jsonld_period(off: dict) -> str | None:
 # 3. Heuristik DOM
 # --------------------------------------------------------------------------- #
 def _card_for(node, max_up: int = 8):
-    """Naik dari elemen berisi harga sampai ketemu wadah seukuran 'kartu paket'."""
+    """Naik dari elemen berisi harga sampai ketemu wadah seukuran 'kartu paket'.
+
+    Ambil wadah TERKECIL yang punya judul. Versi sebelumnya terus naik dan
+    memilih wadah terbesar, sehingga kartu ringkas seperti
+    "Starter / Free / 1 project" tertelan oleh grid induknya dan namanya
+    terbaca dari judul halaman.
+    """
     cur = node
-    best = None
+    with_list = None
+    loose = None
     for _ in range(max_up):
         if cur is None or cur.name in (None, "body", "html"):
             break
         text = cur.get_text(" ", strip=True)
         n = len(text)
-        if 40 <= n <= 2500:
-            has_heading = cur.find(["h1", "h2", "h3", "h4", "h5", "h6"]) is not None
-            has_list = cur.find("li") is not None
-            if has_heading or has_list:
-                best = cur
-                if has_heading and has_list:
-                    break
-        if n > 2500 and best is not None:
+        if n > 2500:
             break
+        if n >= 12:
+            if cur.find(["h1", "h2", "h3", "h4", "h5", "h6"]) is not None:
+                return cur
+            if with_list is None and cur.find("li") is not None:
+                with_list = cur
+            if loose is None and n >= 40:
+                loose = cur
         cur = cur.parent
-    return best
+    return with_list or loose
 
 
 def _plan_name(card) -> str:

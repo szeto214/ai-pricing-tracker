@@ -88,6 +88,39 @@ def test_hash_stability() -> None:
     check("teks tidak mengandung kode JS", "window.__BUILD__" not in text)
 
 
+def test_nested_noise() -> None:
+    """Regresi: wadah bising bersarang pernah menjatuhkan 7 target sekaligus.
+
+    Saat sebuah induk di-decompose, bs4 ikut menghancurkan seluruh
+    keturunannya dan `tag.attrs` jadi None. Kode lama masih menyentuh tag
+    mati itu -> AttributeError -> target gagal total, padahal halamannya
+    baik-baik saja.
+    """
+    print("\n1b. wadah bising bersarang (regresi crash)")
+    html = render("nested-noise.html")
+    try:
+        proc = normalize.process(html)
+        crashed = None
+    except Exception as exc:  # noqa: BLE001
+        proc, crashed = None, f"{type(exc).__name__}: {exc}"
+    check("normalisasi tidak crash", crashed is None, f"-> {crashed}")
+    if proc is None:
+        return
+
+    check("banner consent bersarang terbuang",
+          "We value your privacy" not in proc["text"])
+    check("widget chat terbuang", "chat" not in proc["text"].lower())
+    check("isi harga selamat",
+          "Unlimited projects" in proc["text"] and "$49" in proc["text"])
+
+    res = extract.extract("noisy", proc["soup"], html)
+    names = sorted(p["name"] for p in res["plans"])
+    check("2 paket tetap terekstrak", names == ["Growth", "Starter"], f"-> {names}")
+
+    a = normalize.process(render("nested-noise.html"))
+    check("hash tetap stabil", a["content_hash"] == proc["content_hash"])
+
+
 def test_extraction() -> None:
     print("\n2. ekstraksi")
     html = render("cards.html")
@@ -312,6 +345,7 @@ def test_end_to_end() -> None:
 def main() -> int:
     print(f"data uji: {config.DATA_DIR}")
     test_hash_stability()
+    test_nested_noise()
     test_extraction()
     test_diff()
     test_end_to_end()

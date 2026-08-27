@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head><title>Nested noise — regresi</title><script>var n="__NONCE__";</script></head>
+<body>
+  <!-- Kasus yang membuat 7 target crash di validasi pertama:
+       wadah bising yang di dalamnya ADA lagi elemen yang cocok pola bising,
+       plus elemen hidden/aria-hidden bersarang. Saat induknya di-decompose,
+       seluruh keturunannya ikut mati dan tag.attrs jadi None. -->
+  <div id="onetrust-consent-sdk">
+    <div class="onetrust-pc-dark-filter" aria-hidden="true">x</div>
+    <div id="onetrust-banner-sdk">
+      <p class="cookie-text">We value your privacy __UUID__</p>
+      <button class="cookie-accept" hidden>Accept all</button>
+      <div class="gdpr-inner"><span class="consent-label">Manage</span></div>
+    </div>
+  </div>
+  <div class="intercom-lightweight-app" aria-hidden="true">
+    <div class="intercom-launcher"><span aria-hidden="true">chat</span></div>
+  </div>
+
+  <main>
+    <h1>Plans</h1>
+    <div class="plan-card">
+      <h3>Starter</h3>
+      <p class="price">Free</p>
+      <ul><li>1 project</li></ul>
+    </div>
+    <div class="plan-card">
+      <h3>Growth</h3>
+      <p class="price">$49<span>/month</span></p>
+      <ul><li>Unlimited projects</li><li>Priority support</li></ul>
+    </div>
+  </main>
+</body>
+</html>

@@ -43,23 +43,51 @@ _KEEP_ATTRS = {"class", "id", "href", "aria-label", "alt", "title", "itemprop",
                "data-testid"}
 
 
+def _alive(tag) -> bool:
+    """Tag yang sudah di-decompose bersama induknya tidak boleh disentuh lagi.
+
+    bs4 menghancurkan seluruh keturunan saat induknya di-decompose, dan
+    `tag.attrs` jadi None. Memanggil .get()/.get_text() pada tag mati itu
+    melempar AttributeError dan menggagalkan seluruh target.
+    """
+    return not getattr(tag, "decomposed", False) and getattr(tag, "attrs", None) is not None
+
+
+def _decompose_all(tags) -> None:
+    """Kumpulkan dulu, baru hancurkan — jangan decompose sambil iterasi."""
+    for tag in tags:
+        if not _alive(tag):
+            continue
+        try:
+            tag.decompose()
+        except Exception:  # noqa: BLE001 — satu tag rusak jangan menjatuhkan target
+            pass
+
+
 def _strip_noise(soup: BeautifulSoup) -> None:
-    for tag in soup.find_all(_DROP_TAGS):
-        tag.decompose()
+    _decompose_all(list(soup.find_all(_DROP_TAGS)))
+
     for node in soup.find_all(string=lambda s: isinstance(s, Comment)):
         node.extract()
-    for tag in soup.find_all(attrs={"hidden": True}):
-        tag.decompose()
-    for tag in soup.find_all(attrs={"aria-hidden": "true"}):
-        # ikon dekoratif; teks harga tidak pernah aria-hidden
-        if len(tag.get_text(strip=True)) < 40:
-            tag.decompose()
+
+    _decompose_all(list(soup.find_all(attrs={"hidden": True})))
+
+    # ikon dekoratif; teks harga tidak pernah aria-hidden
+    _decompose_all([
+        t for t in soup.find_all(attrs={"aria-hidden": "true"})
+        if _alive(t) and len(t.get_text(strip=True)) < 40
+    ])
+
+    doomed = []
     for tag in soup.find_all(True):
+        if not _alive(tag):
+            continue
         ident = " ".join(
             filter(None, [tag.get("id") or "", " ".join(tag.get("class") or [])])
         )
         if ident and _DROP_PATTERN.search(ident):
-            tag.decompose()
+            doomed.append(tag)
+    _decompose_all(doomed)
 
 
 def clean_html(raw_html: str) -> tuple[BeautifulSoup, str]:
@@ -69,6 +97,8 @@ def clean_html(raw_html: str) -> tuple[BeautifulSoup, str]:
 
     archive = BeautifulSoup(str(soup), "lxml")
     for tag in archive.find_all(True):
+        if not _alive(tag):
+            continue
         tag.attrs = {k: v for k, v in tag.attrs.items() if k in _KEEP_ATTRS}
     return soup, str(archive)
 

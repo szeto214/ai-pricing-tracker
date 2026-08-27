@@ -63,6 +63,14 @@ async def main_async(args) -> int:
     if args.only:
         wanted = {s.strip() for s in args.only.split(",") if s.strip()}
         targets = [t for t in targets if t.slug in wanted]
+    elif not args.include_disabled:
+        # Target yang sudah sengaja dinonaktifkan tidak perlu dilaporkan
+        # sebagai "bermasalah" tiap kali validasi jalan — itu membuat angka
+        # ringkasannya menyesatkan.
+        skipped = [t.slug for t in targets if not t.enabled]
+        targets = [t for t in targets if t.enabled]
+        if skipped:
+            print(f"dilewati ({len(skipped)} nonaktif): {', '.join(skipped)}\n")
     if args.limit:
         targets = targets[: args.limit]
 
@@ -110,6 +118,9 @@ def main() -> int:
     p.add_argument("--only")
     p.add_argument("--limit", type=int)
     p.add_argument("--concurrency", type=int, default=5)
+    p.add_argument("--include-disabled", action="store_true",
+                   help="ikut menguji target enabled: false (untuk mengecek "
+                        "apakah blokirnya sudah dicabut)")
     return asyncio.run(main_async(p.parse_args()))
 
 

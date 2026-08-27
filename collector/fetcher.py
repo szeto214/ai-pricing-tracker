@@ -203,10 +203,22 @@ async def _fetch_js(url: str, *, gate: HostGate, host: str, started: float,
         try:
             async with async_playwright() as pw:
                 browser = await pw.chromium.launch()
-                ctx = await browser.new_context(user_agent=config.USER_AGENT)
+                ctx = await browser.new_context(
+                    user_agent=config.USER_AGENT,
+                    viewport={"width": 1440, "height": 1200},
+                )
                 page = await ctx.new_page()
-                await page.goto(url, wait_until="networkidle",
-                                timeout=int(config.REQUEST_TIMEOUT * 1000))
+                # networkidle sering TIDAK pernah tercapai di halaman harga
+                # modern (analytics, polling, chat widget) -> timeout palsu.
+                # Tunggu DOM dulu, beri jaringan kesempatan sebentar, lalu
+                # settle tetap. Lebih andal daripada menunggu senyap total.
+                await page.goto(url, wait_until="domcontentloaded",
+                                timeout=int(config.JS_TIMEOUT * 1000))
+                try:
+                    await page.wait_for_load_state("networkidle", timeout=8000)
+                except Exception:  # noqa: BLE001
+                    pass
+                await page.wait_for_timeout(config.JS_SETTLE_MS)
                 html = await page.content()
                 final = page.url
                 await browser.close()

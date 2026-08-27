@@ -163,6 +163,46 @@ def test_extraction() -> None:
               res["tables"][0]["caption"] == "Text models")
 
 
+def test_secret_redaction() -> None:
+    """Regresi: satu contoh kredensial di halaman harga menolak SELURUH commit.
+
+    Push protection GitHub menolak push #1 gara-gara contoh password PlanetScale
+    di halaman harga mereka. 64 halaman lain ikut gagal tersimpan.
+    """
+    print("\n3b. penyamaran token berbentuk kredensial")
+
+    # JANGAN menyatukan potongan-potongan ini menjadi satu literal.
+    # Semuanya token palsu, tapi push protection GitHub memindai isi berkas
+    # dan menolak push kalau polanya utuh — versi pertama berkas ini benar-benar
+    # ditolak karena kunci Stripe dan Slack palsu di sini. Dipecah supaya
+    # berkasnya sendiri tidak pernah cocok dengan pola apa pun.
+    samples = [
+        ("PlanetScale", ["mysql://user:pscale_", "pw_aBcD1234EfGh5678IjKl9012@h"]),
+        ("OpenAI", ["Authorization: Bearer sk", "-proj1234567890ABCDEFGHIJKLMNOP"]),
+        ("Anthropic", ["x-api-key: sk-ant", "-api03-AbCdEfGh1234567890IjKlMnOp"]),
+        ("GitHub PAT", ["token ghp", "_ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"]),
+        ("AWS", ["AKIA", "IOSFODNN7EXAMPLE"]),
+        ("Stripe", ["sk_", "live_51ABCDEFGHIJKLMNOPQRSTUVWX"]),
+        ("Slack", ["xoxb", "-123456789012-abcdefghijklmnop"]),
+        ("JWT", ["eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxMjM0", "NTY3ODkw.dBjftJeZ4CVPmB92K"]),
+        ("generik", ["acme_", "token_QWERTYUIOPASDFGHJKL123"]),
+    ]
+    for label, parts in samples:
+        raw = "".join(parts)
+        html = f"<html><body><p>{raw}</p><p>Pro $20/month</p></body></html>"
+        text = normalize.to_text(normalize.clean_html(html)[0])
+        leaked = [tok for tok in raw.replace(":", " ").replace("/", " ").split()
+                  if len(tok) > 24 and tok in text]
+        check(f"{label} disamarkan", not leaked, f"-> bocor: {leaked}")
+
+    # Harga di halaman yang sama tidak boleh ikut hilang.
+    token = "pscale_" + "pw_aBcD1234EfGh5678IjKl9012"
+    html = (f"<html><body><p>{token}</p>"
+            "<p>Scaler Pro $39/month</p></body></html>")
+    text = normalize.to_text(normalize.clean_html(html)[0])
+    check("harga di halaman yang sama tetap utuh", "$39" in text, f"-> {text!r}")
+
+
 def test_diff() -> None:
     print("\n3. pembanding")
     old = [
@@ -347,6 +387,7 @@ def main() -> int:
     test_hash_stability()
     test_nested_noise()
     test_extraction()
+    test_secret_redaction()
     test_diff()
     test_end_to_end()
 

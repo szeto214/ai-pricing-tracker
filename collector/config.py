@@ -34,6 +34,9 @@ USER_AGENT = (
 
 # --- batas sopan santun ------------------------------------------------------
 REQUEST_TIMEOUT = 30.0          # detik
+JS_TIMEOUT = 60.0               # detik, halaman render=js butuh lebih lama
+JS_SETTLE_MS = 2500             # jeda tetap setelah DOM siap, untuk harga
+                                # yang baru muncul setelah fetch klien
 MAX_CONCURRENCY = 5             # permintaan paralel lintas host
 # APT_MIN_INTERVAL hanya untuk test lokal. JANGAN diturunkan di produksi.
 PER_HOST_MIN_INTERVAL = float(os.environ.get("APT_MIN_INTERVAL", "6.0"))

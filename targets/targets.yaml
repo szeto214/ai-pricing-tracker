@@ -56,7 +56,8 @@ targets:
     category: ai-coding
     url: https://lovable.dev/pricing
     render: js
-    notes: "validasi 27/08: 1.9 kB teks, harga tidak ada di HTML awal"
+    notes: "validasi #2: Page.goto timeout 30 detik. Batas dinaikkan ke 60
+      detik dan strategi tunggu diganti ke domcontentloaded."
 
   - slug: v0
     name: v0
@@ -153,6 +154,8 @@ targets:
     vendor: Cohere
     category: ai-api
     url: https://cohere.com/pricing
+    render: js
+    notes: "validasi #2: 5.4 kB teks tapi nol angka harga"
 
   - slug: groq
     name: Groq
@@ -434,6 +437,8 @@ targets:
     vendor: Algolia
     category: dev-infra
     url: https://www.algolia.com/pricing
+    enabled: false
+    notes: "validasi #2: HTTP 403 — bot diblokir"
 
   - slug: stripe
     name: Stripe

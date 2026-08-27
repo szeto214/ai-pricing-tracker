@@ -27,6 +27,29 @@ _DROP_PATTERN = re.compile(
     re.I,
 )
 
+# Halaman harga sering memuat CONTOH kredensial (connection string, API key
+# di potongan kode). Itu bukan rahasia siapa pun — tapi push protection GitHub
+# tidak bisa membedakannya, dan satu string semacam itu menolak SELURUH commit
+# harian. Satu halaman bising tidak boleh menghapus arsip 67 halaman lain,
+# jadi token berbentuk kredensial disamarkan sebelum disimpan.
+_SECRETS = [
+    re.compile(r"\bpscale_(?:pw|tkn)_[A-Za-z0-9._\-]{16,}", re.I),
+    re.compile(r"\bsk-ant-[A-Za-z0-9._\-]{16,}"),
+    re.compile(r"\bsk-[A-Za-z0-9]{20,}"),
+    re.compile(r"\bgh[pousr]_[A-Za-z0-9]{30,}"),
+    re.compile(r"\bgithub_pat_[A-Za-z0-9_]{40,}"),
+    re.compile(r"\bAKIA[0-9A-Z]{16}\b"),
+    re.compile(r"\bAIza[0-9A-Za-z._\-]{30,}"),
+    re.compile(r"\bxox[baprs]-[A-Za-z0-9\-]{10,}"),
+    re.compile(r"\bSG\.[A-Za-z0-9._\-]{20,}"),
+    re.compile(r"\b(?:sk|pk|rk)_(?:live|test)_[A-Za-z0-9]{16,}"),
+    re.compile(r"\beyJ[A-Za-z0-9_\-]{8,}\.[A-Za-z0-9_\-]{8,}\.[A-Za-z0-9_\-]{8,}"),
+    # bentuk umum: <vendor>_<jenis>_<token panjang>
+    re.compile(r"\b[A-Za-z][A-Za-z0-9]{1,15}_"
+               r"(?:pw|pwd|password|key|token|tkn|secret|api)_"
+               r"[A-Za-z0-9._\-]{16,}", re.I),
+]
+
 # Token yang berubah tiap muat halaman -> ganti placeholder, jangan dihapus,
 # supaya struktur baris tetap sama.
 _VOLATILE = [
@@ -108,6 +131,11 @@ def to_text(soup: BeautifulSoup) -> str:
     text = body.get_text("\n")
     text = unicodedata.normalize("NFKC", text)
     text = text.replace("​", "").replace("﻿", "")
+
+    # Urutan penting: samarkan kredensial DULU, sebelum aturan <hex> sempat
+    # memotong sebagian token dan menyisakan pecahan yang masih terdeteksi.
+    for pattern in _SECRETS:
+        text = pattern.sub("<secret-redacted>", text)
 
     for pattern, repl in _VOLATILE:
         text = pattern.sub(repl, text)

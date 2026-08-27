@@ -25,6 +25,15 @@ jobs:
           python-version: "3.12"
           cache: pip
       - run: pip install -r requirements.txt
+      - name: Cache browser Playwright
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-chromium-1.62.0
+      - name: Pasang Chromium untuk target render=js
+        run: |
+          pip install playwright==1.62.0
+          python -m playwright install --with-deps chromium
       - name: Periksa target
         env:
           APT_CONTACT_URL: https://github.com/${{ github.repository }}

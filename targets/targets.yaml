@@ -1,0 +1,324 @@
+# Daftar target pelacak harga.
+#
+# Aturan pengisian:
+#   slug      : id unik, huruf kecil, dipakai sebagai nama berkas. JANGAN diubah
+#               setelah dipakai — mengubahnya memutus riwayat arsip.
+#   name      : nama tampilan
+#   vendor    : perusahaan pemilik
+#   category  : ai-coding | ai-assistant | ai-api | ai-media | dev-infra |
+#               database | productivity | automation | observability
+#   url       : halaman harga PUBLIK. Tidak boleh di balik login/paywall.
+#   render    : static (default) | js  -> "js" hanya kalau harga benar-benar
+#               tidak muncul di HTML awal.
+#   currency  : mata uang utama yang ditampilkan halaman (perkiraan awal)
+#   enabled   : false untuk menonaktifkan sementara tanpa menghapus riwayat
+#   notes     : catatan bebas (mis. alasan dinonaktifkan)
+#
+# Sebelum menambah target baru, jalankan:  python -m scripts.check_targets
+
+defaults:
+  render: static
+  currency: USD
+  enabled: true
+
+targets:
+  # ---------- AI coding assistants ----------
+  - slug: cursor
+    name: Cursor
+    vendor: Anysphere
+    category: ai-coding
+    url: https://cursor.com/pricing
+
+  - slug: github-copilot
+    name: GitHub Copilot
+    vendor: GitHub
+    category: ai-coding
+    url: https://github.com/features/copilot/plans
+
+  - slug: windsurf
+    name: Windsurf
+    vendor: Cognition
+    category: ai-coding
+    url: https://windsurf.com/pricing
+
+  - slug: replit
+    name: Replit
+    vendor: Replit
+    category: ai-coding
+    url: https://replit.com/pricing
+
+  - slug: lovable
+    name: Lovable
+    vendor: Lovable
+    category: ai-coding
+    url: https://lovable.dev/pricing
+
+  - slug: v0
+    name: v0
+    vendor: Vercel
+    category: ai-coding
+    url: https://v0.app/pricing
+
+  - slug: tabnine
+    name: Tabnine
+    vendor: Tabnine
+    category: ai-coding
+    url: https://www.tabnine.com/pricing/
+
+  - slug: sourcegraph
+    name: Sourcegraph / Amp
+    vendor: Sourcegraph
+    category: ai-coding
+    url: https://sourcegraph.com/pricing
+
+  - slug: jetbrains-ai
+    name: JetBrains AI
+    vendor: JetBrains
+    category: ai-coding
+    url: https://www.jetbrains.com/ai-ides/buy/
+
+  - slug: devin
+    name: Devin
+    vendor: Cognition
+    category: ai-coding
+    url: https://devin.ai/pricing
+
+  # ---------- AI assistants (consumer / team) ----------
+  - slug: openai-chatgpt
+    name: ChatGPT
+    vendor: OpenAI
+    category: ai-assistant
+    url: https://openai.com/chatgpt/pricing/
+
+  - slug: anthropic-claude
+    name: Claude
+    vendor: Anthropic
+    category: ai-assistant
+    url: https://www.anthropic.com/pricing
+
+  - slug: perplexity
+    name: Perplexity
+    vendor: Perplexity AI
+    category: ai-assistant
+    url: https://www.perplexity.ai/hub/getting-started
+
+  - slug: notion
+    name: Notion
+    vendor: Notion Labs
+    category: productivity
+    url: https://www.notion.com/pricing
+
+  # ---------- AI APIs / model providers ----------
+  - slug: openai-api
+    name: OpenAI API
+    vendor: OpenAI
+    category: ai-api
+    url: https://openai.com/api/pricing/
+
+  - slug: anthropic-api
+    name: Anthropic API
+    vendor: Anthropic
+    category: ai-api
+    url: https://www.anthropic.com/pricing#api
+
+  - slug: google-gemini-api
+    name: Gemini API
+    vendor: Google
+    category: ai-api
+    url: https://ai.google.dev/pricing
+
+  - slug: mistral
+    name: Mistral AI
+    vendor: Mistral
+    category: ai-api
+    url: https://mistral.ai/pricing
+
+  - slug: cohere
+    name: Cohere
+    vendor: Cohere
+    category: ai-api
+    url: https://cohere.com/pricing
+
+  - slug: groq
+    name: Groq
+    vendor: Groq
+    category: ai-api
+    url: https://groq.com/pricing
+
+  - slug: together-ai
+    name: Together AI
+    vendor: Together
+    category: ai-api
+    url: https://www.together.ai/pricing
+
+  - slug: fireworks-ai
+    name: Fireworks AI
+    vendor: Fireworks
+    category: ai-api
+    url: https://fireworks.ai/pricing
+
+  - slug: deepinfra
+    name: DeepInfra
+    vendor: DeepInfra
+    category: ai-api
+    url: https://deepinfra.com/pricing
+
+  - slug: replicate
+    name: Replicate
+    vendor: Replicate
+    category: ai-api
+    url: https://replicate.com/pricing
+
+  - slug: huggingface
+    name: Hugging Face
+    vendor: Hugging Face
+    category: ai-api
+    url: https://huggingface.co/pricing
+
+  # ---------- AI media (voice, image, video) ----------
+  - slug: elevenlabs
+    name: ElevenLabs
+    vendor: ElevenLabs
+    category: ai-media
+    url: https://elevenlabs.io/pricing
+
+  - slug: assemblyai
+    name: AssemblyAI
+    vendor: AssemblyAI
+    category: ai-media
+    url: https://www.assemblyai.com/pricing
+
+  - slug: deepgram
+    name: Deepgram
+    vendor: Deepgram
+    category: ai-media
+    url: https://deepgram.com/pricing
+
+  - slug: runway
+    name: Runway
+    vendor: Runway
+    category: ai-media
+    url: https://runwayml.com/pricing
+
+  # ---------- Dev infrastructure ----------
+  - slug: vercel
+    name: Vercel
+    vendor: Vercel
+    category: dev-infra
+    url: https://vercel.com/pricing
+
+  - slug: netlify
+    name: Netlify
+    vendor: Netlify
+    category: dev-infra
+    url: https://www.netlify.com/pricing/
+
+  - slug: railway
+    name: Railway
+    vendor: Railway
+    category: dev-infra
+    url: https://railway.com/pricing
+
+  - slug: render
+    name: Render
+    vendor: Render
+    category: dev-infra
+    url: https://render.com/pricing
+
+  - slug: fly-io
+    name: Fly.io
+    vendor: Fly.io
+    category: dev-infra
+    url: https://fly.io/pricing/
+
+  - slug: cloudflare
+    name: Cloudflare
+    vendor: Cloudflare
+    category: dev-infra
+    url: https://www.cloudflare.com/plans/
+
+  - slug: digitalocean
+    name: DigitalOcean
+    vendor: DigitalOcean
+    category: dev-infra
+    url: https://www.digitalocean.com/pricing
+
+  # ---------- Databases ----------
+  - slug: supabase
+    name: Supabase
+    vendor: Supabase
+    category: database
+    url: https://supabase.com/pricing
+
+  - slug: neon
+    name: Neon
+    vendor: Neon
+    category: database
+    url: https://neon.com/pricing
+
+  - slug: planetscale
+    name: PlanetScale
+    vendor: PlanetScale
+    category: database
+    url: https://planetscale.com/pricing
+
+  - slug: mongodb-atlas
+    name: MongoDB Atlas
+    vendor: MongoDB
+    category: database
+    url: https://www.mongodb.com/pricing
+
+  - slug: upstash
+    name: Upstash
+    vendor: Upstash
+    category: database
+    url: https://upstash.com/pricing
+
+  # ---------- Productivity / automation / observability ----------
+  - slug: linear
+    name: Linear
+    vendor: Linear
+    category: productivity
+    url: https://linear.app/pricing
+
+  - slug: figma
+    name: Figma
+    vendor: Figma
+    category: productivity
+    url: https://www.figma.com/pricing/
+
+  - slug: airtable
+    name: Airtable
+    vendor: Airtable
+    category: productivity
+    url: https://www.airtable.com/pricing
+
+  - slug: slack
+    name: Slack
+    vendor: Salesforce
+    category: productivity
+    url: https://slack.com/pricing
+
+  - slug: zapier
+    name: Zapier
+    vendor: Zapier
+    category: automation
+    url: https://zapier.com/pricing
+
+  - slug: make
+    name: Make
+    vendor: Make
+    category: automation
+    url: https://www.make.com/en/pricing
+
+  - slug: n8n
+    name: n8n
+    vendor: n8n
+    category: automation
+    url: https://n8n.io/pricing/
+
+  - slug: sentry
+    name: Sentry
+    vendor: Sentry
+    category: observability
+    url: https://sentry.io/pricing/

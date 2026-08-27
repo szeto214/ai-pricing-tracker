@@ -1,0 +1,32 @@
+name: test
+
+on:
+  push:
+    paths-ignore:
+      - "data/**"
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Uji pipeline (tanpa internet)
+        run: python -m tests.test_pipeline
+      - name: Periksa daftar target bisa dimuat
+        run: |
+          python -c "
+          from collector.config import load_targets
+          t = load_targets()
+          print(f'{len(t)} target dimuat, {sum(1 for x in t if x.enabled)} aktif')
+          "

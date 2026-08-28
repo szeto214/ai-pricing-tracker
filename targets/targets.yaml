@@ -6,7 +6,8 @@
 #   name      : nama tampilan
 #   vendor    : perusahaan pemilik
 #   category  : ai-coding | ai-assistant | ai-api | ai-media | dev-infra |
-#               database | productivity | automation | observability
+#               database | productivity | automation | observability |
+#               gpu-rental
 #   url       : halaman harga PUBLIK. Tidak boleh di balik login/paywall.
 #   render    : static (default) | js  -> "js" hanya kalau harga benar-benar
 #               tidak muncul di HTML awal.
@@ -493,3 +494,110 @@ targets:
     vendor: monday.com
     category: productivity
     url: https://monday.com/pricing
+
+  # ---------- batch 3 (ditambahkan 28/08/2026) ------------------------------
+  # Fokus pada kategori yang terbukti bisa diambil di validasi #2 dan yang
+  # harganya paling sering bergerak. Yang gagal akan dinonaktifkan setelah
+  # validasi, bukan dihapus — slug harus tetap utuh selamanya.
+
+  # ----- penyedia model & inferensi -----
+  - {slug: openrouter,   name: OpenRouter,        vendor: OpenRouter,   category: ai-api, url: "https://openrouter.ai/models"}
+  - {slug: deepseek,     name: DeepSeek,          vendor: DeepSeek,     category: ai-api, url: "https://api-docs.deepseek.com/quick_start/pricing"}
+  - {slug: cerebras,     name: Cerebras,          vendor: Cerebras,     category: ai-api, url: "https://www.cerebras.ai/pricing"}
+  - {slug: nebius,       name: Nebius AI Studio,  vendor: Nebius,       category: ai-api, url: "https://nebius.com/prices"}
+  - {slug: writer,       name: Writer,            vendor: Writer,       category: ai-api, url: "https://writer.com/plans/"}
+  - {slug: perplexity-api, name: Perplexity API,  vendor: Perplexity,   category: ai-api, url: "https://docs.perplexity.ai/getting-started/pricing"}
+  - {slug: voyage-ai,    name: Voyage AI,         vendor: Voyage,       category: ai-api, url: "https://docs.voyageai.com/docs/pricing"}
+  - {slug: fal,          name: fal.ai,            vendor: fal,          category: ai-api, url: "https://fal.ai/pricing"}
+
+  # ----- sewa GPU (paling sering bergerak) -----
+  - {slug: lambda-labs,  name: Lambda,            vendor: Lambda,       category: gpu-rental, url: "https://lambda.ai/pricing"}
+  - {slug: vast-ai,      name: Vast.ai,           vendor: Vast.ai,      category: gpu-rental, url: "https://vast.ai/pricing"}
+  - {slug: hyperstack,   name: Hyperstack,        vendor: NexGen Cloud, category: gpu-rental, url: "https://www.hyperstack.cloud/gpu-pricing"}
+  - {slug: paperspace,   name: Paperspace,        vendor: DigitalOcean, category: gpu-rental, url: "https://www.paperspace.com/pricing"}
+
+  # ----- AI media -----
+  - {slug: leonardo-ai,  name: Leonardo.Ai,       vendor: Canva,        category: ai-media, url: "https://leonardo.ai/pricing/"}
+  - {slug: ideogram,     name: Ideogram,          vendor: Ideogram,     category: ai-media, url: "https://about.ideogram.ai/pricing"}
+  - {slug: heygen,       name: HeyGen,            vendor: HeyGen,       category: ai-media, url: "https://www.heygen.com/pricing"}
+  - {slug: synthesia,    name: Synthesia,         vendor: Synthesia,    category: ai-media, url: "https://www.synthesia.io/pricing"}
+  - {slug: descript,     name: Descript,          vendor: Descript,     category: ai-media, url: "https://www.descript.com/pricing"}
+  - {slug: murf,         name: Murf AI,           vendor: Murf,         category: ai-media, url: "https://murf.ai/pricing"}
+  - {slug: playht,       name: PlayHT,            vendor: PlayAI,       category: ai-media, url: "https://play.ht/pricing/"}
+  - {slug: suno,         name: Suno,              vendor: Suno,         category: ai-media, url: "https://suno.com/pricing"}
+  - {slug: luma-ai,      name: Luma AI,           vendor: Luma,         category: ai-media, url: "https://lumalabs.ai/api/pricing"}
+
+  # ----- AI coding -----
+  - {slug: augment,      name: Augment Code,      vendor: Augment,      category: ai-coding, url: "https://www.augmentcode.com/pricing"}
+  - {slug: zed,          name: Zed,               vendor: Zed,          category: ai-coding, url: "https://zed.dev/pricing"}
+  - {slug: cline,        name: Cline,             vendor: Cline,        category: ai-coding, url: "https://cline.bot/pricing"}
+  - {slug: qodo,         name: Qodo,              vendor: Qodo,         category: ai-coding, url: "https://www.qodo.ai/pricing/"}
+  - {slug: coderabbit,   name: CodeRabbit,        vendor: CodeRabbit,   category: ai-coding, url: "https://www.coderabbit.ai/pricing"}
+  - {slug: greptile,     name: Greptile,          vendor: Greptile,     category: ai-coding, url: "https://www.greptile.com/pricing"}
+  - {slug: graphite-dev, name: Graphite,          vendor: Graphite,     category: ai-coding, url: "https://graphite.dev/pricing"}
+  - {slug: warp,         name: Warp,              vendor: Warp,         category: ai-coding, url: "https://www.warp.dev/pricing"}
+
+  # ----- infrastruktur & PaaS -----
+  - {slug: vultr,        name: Vultr,             vendor: Vultr,        category: dev-infra, url: "https://www.vultr.com/pricing/"}
+  - {slug: linode,       name: Linode,            vendor: Akamai,       category: dev-infra, url: "https://www.linode.com/pricing/"}
+  - {slug: scaleway,     name: Scaleway,          vendor: Scaleway,     category: dev-infra, url: "https://www.scaleway.com/en/pricing/"}
+  - {slug: northflank,   name: Northflank,        vendor: Northflank,   category: dev-infra, url: "https://northflank.com/pricing"}
+  - {slug: porter,       name: Porter,            vendor: Porter,       category: dev-infra, url: "https://www.porter.run/pricing"}
+  - {slug: deno-deploy,  name: Deno Deploy,       vendor: Deno,         category: dev-infra, url: "https://deno.com/deploy/pricing"}
+  - {slug: docker,       name: Docker,            vendor: Docker,       category: dev-infra, url: "https://www.docker.com/pricing/"}
+  - {slug: circleci,     name: CircleCI,          vendor: CircleCI,     category: dev-infra, url: "https://circleci.com/pricing/"}
+  - {slug: buildkite,    name: Buildkite,         vendor: Buildkite,    category: dev-infra, url: "https://buildkite.com/pricing"}
+  - {slug: expo,         name: Expo,              vendor: Expo,         category: dev-infra, url: "https://expo.dev/pricing"}
+  - {slug: bunny-net,    name: Bunny.net,         vendor: BunnyWay,     category: dev-infra, url: "https://bunny.net/pricing/"}
+  - {slug: backblaze,    name: Backblaze B2,      vendor: Backblaze,    category: dev-infra, url: "https://www.backblaze.com/cloud-storage/pricing"}
+  - {slug: wasabi,       name: Wasabi,            vendor: Wasabi,       category: dev-infra, url: "https://wasabi.com/cloud-object-storage/pricing"}
+
+  # ----- basis data -----
+  - {slug: cockroachdb,  name: CockroachDB,       vendor: Cockroach Labs, category: database, url: "https://www.cockroachlabs.com/pricing/"}
+  - {slug: redis,        name: Redis Cloud,       vendor: Redis,        category: database, url: "https://redis.io/pricing/"}
+  - {slug: clickhouse,   name: ClickHouse Cloud,  vendor: ClickHouse,   category: database, url: "https://clickhouse.com/pricing"}
+  - {slug: timescale,    name: TigerData,         vendor: Timescale,    category: database, url: "https://www.timescale.com/pricing"}
+  - {slug: weaviate,     name: Weaviate,          vendor: Weaviate,     category: database, url: "https://weaviate.io/pricing"}
+  - {slug: zilliz,       name: Zilliz Cloud,      vendor: Zilliz,       category: database, url: "https://zilliz.com/pricing"}
+  - {slug: turso,        name: Turso,             vendor: Turso,        category: database, url: "https://turso.tech/pricing"}
+  - {slug: xata,         name: Xata,              vendor: Xata,         category: database, url: "https://xata.io/pricing"}
+  - {slug: influxdata,   name: InfluxDB Cloud,    vendor: InfluxData,   category: database, url: "https://www.influxdata.com/influxdb-cloud-pricing/"}
+
+  # ----- observability & keamanan -----
+  - {slug: grafana,      name: Grafana Cloud,     vendor: Grafana Labs, category: observability, url: "https://grafana.com/pricing/"}
+  - {slug: newrelic,     name: New Relic,         vendor: New Relic,    category: observability, url: "https://newrelic.com/pricing"}
+  - {slug: honeycomb,    name: Honeycomb,         vendor: Honeycomb,    category: observability, url: "https://www.honeycomb.io/pricing"}
+  - {slug: rollbar,      name: Rollbar,           vendor: Rollbar,      category: observability, url: "https://rollbar.com/pricing/"}
+  - {slug: snyk,         name: Snyk,              vendor: Snyk,         category: observability, url: "https://snyk.io/plans/"}
+  - {slug: sonarsource,  name: SonarQube Cloud,   vendor: Sonar,        category: observability, url: "https://www.sonarsource.com/plans-and-pricing/"}
+  - {slug: semgrep,      name: Semgrep,           vendor: Semgrep,      category: observability, url: "https://semgrep.dev/pricing/"}
+  - {slug: tailscale,    name: Tailscale,         vendor: Tailscale,    category: dev-infra, url: "https://tailscale.com/pricing"}
+  - {slug: onepassword,  name: 1Password,         vendor: AgileBits,    category: dev-infra, url: "https://1password.com/business-pricing"}
+  - {slug: bitwarden,    name: Bitwarden,         vendor: Bitwarden,    category: dev-infra, url: "https://bitwarden.com/pricing/"}
+
+  # ----- produktivitas & kolaborasi -----
+  - {slug: jira,         name: Jira,              vendor: Atlassian,    category: productivity, url: "https://www.atlassian.com/software/jira/pricing"}
+  - {slug: confluence,   name: Confluence,        vendor: Atlassian,    category: productivity, url: "https://www.atlassian.com/software/confluence/pricing"}
+  - {slug: miro,         name: Miro,              vendor: Miro,         category: productivity, url: "https://miro.com/pricing/"}
+  - {slug: canva,        name: Canva,             vendor: Canva,        category: productivity, url: "https://www.canva.com/pricing/"}
+  - {slug: loom,         name: Loom,              vendor: Atlassian,    category: productivity, url: "https://www.loom.com/pricing"}
+  - {slug: calendly,     name: Calendly,          vendor: Calendly,     category: productivity, url: "https://calendly.com/pricing"}
+  - {slug: typeform,     name: Typeform,          vendor: Typeform,     category: productivity, url: "https://www.typeform.com/pricing/"}
+  - {slug: webflow,      name: Webflow,           vendor: Webflow,      category: productivity, url: "https://webflow.com/pricing"}
+  - {slug: framer,       name: Framer,            vendor: Framer,       category: productivity, url: "https://www.framer.com/pricing/"}
+  - {slug: ghost,        name: Ghost,             vendor: Ghost,        category: productivity, url: "https://ghost.org/pricing/"}
+  - {slug: intercom,     name: Intercom,          vendor: Intercom,     category: productivity, url: "https://www.intercom.com/pricing"}
+  - {slug: zendesk,      name: Zendesk,           vendor: Zendesk,      category: productivity, url: "https://www.zendesk.com/pricing/"}
+  - {slug: mailchimp,    name: Mailchimp,         vendor: Intuit,       category: productivity, url: "https://mailchimp.com/pricing/"}
+  - {slug: shopify,      name: Shopify,           vendor: Shopify,      category: productivity, url: "https://www.shopify.com/pricing"}
+
+  # ----- otomasi & data -----
+  - {slug: retool,       name: Retool,            vendor: Retool,       category: automation, url: "https://retool.com/pricing"}
+  - {slug: bubble,       name: Bubble,            vendor: Bubble,       category: automation, url: "https://bubble.io/pricing"}
+  - {slug: activepieces, name: Activepieces,      vendor: Activepieces, category: automation, url: "https://www.activepieces.com/pricing"}
+  - {slug: windmill,     name: Windmill,          vendor: Windmill,     category: automation, url: "https://www.windmill.dev/pricing"}
+  - {slug: inngest,      name: Inngest,           vendor: Inngest,      category: automation, url: "https://www.inngest.com/pricing"}
+  - {slug: trigger-dev,  name: Trigger.dev,       vendor: Trigger.dev,  category: automation, url: "https://trigger.dev/pricing"}
+  - {slug: temporal,     name: Temporal Cloud,    vendor: Temporal,     category: automation, url: "https://temporal.io/pricing"}
+  - {slug: airbyte,      name: Airbyte,           vendor: Airbyte,      category: automation, url: "https://airbyte.com/pricing"}
+  - {slug: fivetran,     name: Fivetran,          vendor: Fivetran,     category: automation, url: "https://www.fivetran.com/pricing"}

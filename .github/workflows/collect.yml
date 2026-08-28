@@ -6,9 +6,15 @@ name: collect
 
 on:
   schedule:
-    # 02:10 UTC = 09:10 WIB. GitHub sering menunda cron beberapa menit; itu
-    # tidak masalah karena kita hanya butuh satu snapshot per hari.
-    - cron: "10 2 * * *"
+    # Dokumentasi GitHub: event `schedule` tertunda saat beban tinggi, dan
+    # "waktu beban tinggi termasuk awal setiap jam". Jadwal 02:10 UTC pernah
+    # dilewatkan total pada 28/08/2026 — masih terlalu dekat puncak jam.
+    # Karena itu menitnya ganjil dan jauh dari angka bulat.
+    - cron: "43 2 * * *"   # 09:43 WIB
+    # Cadangan sore: kalau yang pagi dilewatkan GitHub, yang ini menangkapnya
+    # supaya harinya tidak hilang. Kalau yang pagi sudah berhasil, penjaga
+    # sekali-per-hari membuat run ini berhenti dalam hitungan detik.
+    - cron: "17 7 * * *"   # 14:17 WIB
   workflow_dispatch:
     inputs:
       only:

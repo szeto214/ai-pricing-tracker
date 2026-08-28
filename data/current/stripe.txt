@@ -488,7 +488,8 @@ per 3D Secure attempt for accounts with custom pricing.
 Learn more
 Standalone 3DS
 $0.12
-per standalone 3DS attempt
+per
+standalone 3DS attempt
 Use the standalone 3DS API to run EMV 3D Secure (3DS) authentication and authorize the payment with any payment service provider (PSP).
 Custom pricing available. Contact sales to learn more
 Authorization Boost
@@ -684,6 +685,8 @@ $299.00
 Stripe Reader S710
 $299.00
 Stripe Reader S700
+$329.00
+Stripe Reader T600
 Cellular
 Unlimited cellular data usage on enabled readers. Apps on Device data usage limited to 10 GB per reader per month.
 $10.00

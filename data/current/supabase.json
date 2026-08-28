@@ -5,9 +5,9 @@
   "category": "database",
   "url": "https://supabase.com/pricing",
   "final_url": "https://supabase.com/pricing",
-  "content_hash": "e80d23705ef1b59a3ee143c53aca6cccd7adcf727927e325a8e60d2ea2bf4d83",
-  "raw_hash": "d3ea832b42a869a97777f4ad6041f330ec29738324f04ba6210dd2a31d645bc0",
-  "text_bytes": 17793,
+  "content_hash": "890f135953075e4a09fa21cb7115d79d2817dba6f51e95a8e306b0a63b50d322",
+  "raw_hash": "df3b0d4df463f8f87bdc4933d53fc52a9957007ae0e7b3698f7095e432a22333",
+  "text_bytes": 17697,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

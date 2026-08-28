@@ -5,9 +5,9 @@
   "category": "ai-api",
   "url": "https://cohere.com/pricing",
   "final_url": "https://cohere.com/pricing",
-  "content_hash": "093969d9d289c4eac52dbf62e94e3f11621d191ebc1cb41f530a16db048bebbf",
-  "raw_hash": "617b2fbe4344a686b486fd5f4e047712227badc6c79f56d945e06aab612c057d",
-  "text_bytes": 15899,
+  "content_hash": "c72a44ca8b5cd870f62e4236b55f935932e7bacd3ba16ad63b7b8607e7089af0",
+  "raw_hash": "5499eb505ba51fcc1360694b30138b3eca9857015855bdb8a38c16a96f8f7779",
+  "text_bytes": 15883,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

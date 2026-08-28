@@ -19,6 +19,7 @@ Flows
 Test & Validate
 API Client
 Collection Runner
+Performance Testing
 Monitors
 Webhook Testing
 Functional Testing
@@ -77,10 +78,10 @@ Press and Media
 About Postman
 Tools
 new
-Spec editor and visualizer
-Check API health
-Check site uptime
-Check site speed
+OpenAPI editor and visualizer
+API health check
+Website uptime check
+Website speed test
 cURL to code
 See all tools →
 Contact Sales
@@ -105,6 +106,7 @@ Flows
 Test & Validate
 API Client
 Collection Runner
+Performance Testing
 Monitors
 Webhook Testing
 Functional Testing
@@ -163,10 +165,10 @@ Press and Media
 About Postman
 Tools
 new
-Spec editor and visualizer
-Check API health
-Check site uptime
-Check site speed
+OpenAPI editor and visualizer
+API health check
+Website uptime check
+Website speed test
 cURL to code
 See all tools →
 Contact Sales

@@ -260,24 +260,14 @@ $1.32
 $0.13
 (cached)
 $3.96
+GLM-5.3-Flash
+$0.15
+$0.03
+(cached)
+$0.50
 Gemma 4 31B
 $0.39
 $0.97
-DeepSeek V4 Pro
-$1.74
-$0.20
-(cached)
-$3.48
-NVIDIA Nemotron 3 Ultra
-$0.60
-$0.20
-(cached)
-$3.60
-Kimi K2.7 Code
-$0.95
-$0.19
-(cached)
-$4.00
 Qwen3.7-Plus
 $0.32
 $1.28
@@ -313,9 +303,6 @@ $3.60
 Qwen3.5 9B
 $0.17
 $0.25
-Gemma-4-31B-it-Pearl
-$0.28
-$0.86
 Cogito v2.1 671B
 $1.25
 $1.25
@@ -365,12 +352,12 @@ $6.25
 Muse Glimmer 30B
 $0.35
 $1.50
+GLM-5.3-Flash
+$0.15
+$0.50
 Gemma 4 31B
 $0.39
 $0.97
-Kimi K2.7 Code
-$0.95
-$4.00
 Qwen3.7-Plus
 $0.32
 $1.28

@@ -250,9 +250,11 @@ Use Cases
 Pricing
 Login
 Dev
-Dev Portal
+Platform
 ↗
 Models
+↗
+footer.modelRouter
 ↗
 Workflows
 Recipes
@@ -260,6 +262,7 @@ Recipes
 Characters
 Documentation
 ↗
+Pricing
 Robotics
 Overview
 Policy Model

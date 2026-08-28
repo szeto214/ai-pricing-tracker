@@ -868,6 +868,29 @@ queries to Google Search. You will be charged for each individual search query
 performed.
 **
 Can be tested in Google AI Studio.
+Gemini Omni Flash
+gemini-omni-1.1-flash
+Try it in Google AI Studio
+Our next-generation video generation and editing model, now generally available
+to developers on the paid tier of the Gemini API.
+Standard
+Free Tier
+Paid Tier, per 1M tokens in USD
+Input price
+Not available
+$1.50 (text / image / video / audio)
+Output price (including thinking tokens)
+Not available
+$9.00 (text)
+$17.50 (video)
+*
+Used to improve our products
+Yes
+No
+*
+Billing is based on total output token consumption, calculated at
+a rate of 5,792 tokens per second of 720p video. Under Standard pricing, this
+equates to an effective price of approximately $0.10 per second.
 Gemini Omni Flash Preview
 gemini-omni-flash-preview
 Try it in Google AI Studio
@@ -2213,7 +2236,7 @@ Apache 2.0 License
 . For details, see the
 Google Developers Site Policies
 . Java is a registered trademark of Oracle and/or its affiliates.
-Last updated 2026-08-26 UTC.
+Last updated 2026-08-27 UTC.
 Terms
 Privacy
 English

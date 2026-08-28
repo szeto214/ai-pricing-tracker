@@ -5,9 +5,9 @@
   "category": "ai-api",
   "url": "https://www.together.ai/pricing",
   "final_url": "https://www.together.ai/pricing",
-  "content_hash": "cea6d7d46e27f66ef2589fd34246ec746da8edb8402da5beb5f6bc71c18bd3f8",
-  "raw_hash": "2e8b5cabb03776c4df5529c630208bb3eb884d4c6f826a2e1f8e7f225dcdd660",
-  "text_bytes": 12329,
+  "content_hash": "d3fe9ab86dd27cf4c1d9463f22a0d8d9e287fed3a5e0eec3fd16473b18b03ede",
+  "raw_hash": "8404e6f47b8ac6a273ee0d5dd4e809cafe94d0db429e4487d1de2b3aa6eba0b5",
+  "text_bytes": 12200,
   "extractor": "jsonld",
   "confidence": "medium",
   "plans": [
@@ -156,24 +156,14 @@
           "$3.96"
         ],
         [
+          "GLM-5.3-Flash",
+          "$0.15 $0.03 (cached)",
+          "$0.50"
+        ],
+        [
           "Gemma 4 31B",
           "$0.39",
           "$0.97"
-        ],
-        [
-          "DeepSeek V4 Pro",
-          "$1.74 $0.20 (cached)",
-          "$3.48"
-        ],
-        [
-          "NVIDIA Nemotron 3 Ultra",
-          "$0.60 $0.20 (cached)",
-          "$3.60"
-        ],
-        [
-          "Kimi K2.7 Code",
-          "$0.95 $0.19 (cached)",
-          "$4.00"
         ],
         [
           "Qwen3.7-Plus",
@@ -219,11 +209,6 @@
           "Qwen3.5 9B",
           "$0.17",
           "$0.25"
-        ],
-        [
-          "Gemma-4-31B-it-Pearl",
-          "$0.28",
-          "$0.86"
         ],
         [
           "Cogito v2.1 671B",
@@ -301,14 +286,14 @@
           "$1.50"
         ],
         [
+          "GLM-5.3-Flash",
+          "$0.15",
+          "$0.50"
+        ],
+        [
           "Gemma 4 31B",
           "$0.39",
           "$0.97"
-        ],
-        [
-          "Kimi K2.7 Code",
-          "$0.95",
-          "$4.00"
         ],
         [
           "Qwen3.7-Plus",

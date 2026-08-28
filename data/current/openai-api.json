@@ -5,9 +5,9 @@
   "category": "ai-api",
   "url": "https://platform.openai.com/docs/pricing",
   "final_url": "https://developers.openai.com/api/docs/pricing",
-  "content_hash": "a9b89e4afddc4803a5f6764ded7b026fddc42ec6ebe6d0b1eeb4ae9b7617a6e5",
-  "raw_hash": "5fe01cd0a4a58dd05404c5e172ac56d1aa43a54893625407b6e7c5486e2605d7",
-  "text_bytes": 7922,
+  "content_hash": "717eeeea71c957aac5d93021d32bfe5a1ed31cdc7a179ef37b98db6da2169d32",
+  "raw_hash": "556631502666b16d48023bca569e0e80bd21d80193b148e8d97223694c37cedc",
+  "text_bytes": 7921,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

@@ -62,6 +62,17 @@ _VOLATILE = [
 _WS = re.compile(r"[ \t   ]+")
 _MULTI_NL = re.compile(r"\n{3,}")
 
+_PRICE_HINT = re.compile(r"[$€£¥]\s?\d|\bUSD\b|\bEUR\b|\bRp\s?\d")
+
+# Baris yang ISINYA HANYA satu angka bersufiks K/M/B adalah penghitung
+# (bintang GitHub, jumlah pengguna, unduhan). Ia berubah tiap hari tanpa ada
+# hubungannya dengan harga — firecrawl tercatat "berubah" pada 28/08/2026
+# hanya karena 173.1K menjadi 173.4K.
+# Syaratnya sengaja ketat: HARUS sendirian di barisnya dan HARUS bersufiks,
+# supaya batas kuota seperti "10K requests per month" tidak ikut tersamarkan.
+# Perubahan batas kuota justru sinyal yang kita cari, bukan derau.
+_COUNTER_LINE = re.compile(r"^\d{1,3}(?:[.,]\d+)?\s?[KMB]\+?$")
+
 _KEEP_ATTRS = {"class", "id", "href", "aria-label", "alt", "title", "itemprop",
                "data-testid"}
 
@@ -112,6 +123,18 @@ def _strip_noise(soup: BeautifulSoup) -> None:
             doomed.append(tag)
     _decompose_all(doomed)
 
+    # Navigasi dan footer adalah perabot situs, bukan isi halaman harga.
+    # Label menunya diganti-ganti tanpa ada hubungannya dengan harga —
+    # pada 28/08/2026 mistral tercatat "berubah" hanya karena footer-nya
+    # berganti dari "Legal" jadi "Company".
+    # Footer TETAP dipertahankan kalau di dalamnya ada angka mata uang,
+    # karena sebagian situs memang menaruh harga ringkas di sana.
+    _decompose_all(list(soup.find_all("nav")))
+    _decompose_all([
+        f for f in soup.find_all("footer")
+        if _alive(f) and not _PRICE_HINT.search(f.get_text(" ", strip=True))
+    ])
+
 
 def clean_html(raw_html: str) -> tuple[BeautifulSoup, str]:
     """Kembalikan (soup bersih, html bersih untuk arsip)."""
@@ -143,8 +166,11 @@ def to_text(soup: BeautifulSoup) -> str:
     lines = []
     for line in text.split("\n"):
         line = _WS.sub(" ", line).strip()
-        if line:
-            lines.append(line)
+        if not line:
+            continue
+        if _COUNTER_LINE.match(line):
+            line = "<count>"
+        lines.append(line)
 
     out = "\n".join(lines)
     return _MULTI_NL.sub("\n\n", out).strip() + "\n"

@@ -121,6 +121,46 @@ def test_nested_noise() -> None:
     check("hash tetap stabil", a["content_hash"] == proc["content_hash"])
 
 
+def test_site_chrome_noise() -> None:
+    """Regresi dari snapshot kedua (28/08/2026).
+
+    15 dari 65 halaman tercatat "berubah" padahal harganya diam. Yang bergerak:
+    penghitung bintang (firecrawl 173.1K -> 173.4K) dan label menu footer
+    (mistral "Legal" -> "Company"). Kalau dibiarkan, firecrawl akan melapor
+    berubah SETIAP HARI selamanya dan arsipnya jadi tidak bisa dipercaya.
+    """
+    print("\n2b. perabot situs & penghitung (regresi derau harian)")
+
+    a = normalize.process(render("chrome-noise.html",
+                                __STARS__="173.1K", __FOOTER_LABEL__="Legal"))
+    b = normalize.process(render("chrome-noise.html",
+                                __STARS__="173.4K", __FOOTER_LABEL__="Company"))
+
+    check("penghitung berubah + label footer berubah -> TIDAK dianggap berubah",
+          a["content_hash"] == b["content_hash"],
+          f"\n       {a['content_hash'][:16]} vs {b['content_hash'][:16]}")
+    check("penghitung tidak tersisa di teks", "173.1K" not in a["text"])
+    check("menu navigasi terbuang", "Docs" not in a["text"])
+    check("label footer terbuang", "Careers" not in a["text"])
+
+    # Yang penting: batas kuota BUKAN penghitung, dan harus tetap terbaca.
+    check("batas kuota tetap utuh", "10K requests per month" in a["text"],
+          f"-> {a['text']!r}")
+    check("isi harga tetap utuh",
+          "$16" in a["text"] and "500 credits per month" in a["text"])
+
+    # Perubahan kuota sungguhan tetap harus terdeteksi.
+    c = normalize.process(
+        render("chrome-noise.html", __STARS__="173.1K", __FOOTER_LABEL__="Legal")
+        .replace("10K requests per month", "5K requests per month"))
+    check("penurunan kuota 10K -> 5K tetap terdeteksi",
+          c["content_hash"] != a["content_hash"])
+
+    res = extract.extract("noise", a["soup"], render("chrome-noise.html"))
+    names = sorted(p["name"] for p in res["plans"])
+    check("2 paket tetap terekstrak", names == ["Free", "Standard"], f"-> {names}")
+
+
 def test_extraction() -> None:
     print("\n2. ekstraksi")
     html = render("cards.html")
@@ -386,6 +426,7 @@ def main() -> int:
     print(f"data uji: {config.DATA_DIR}")
     test_hash_stability()
     test_nested_noise()
+    test_site_chrome_noise()
     test_extraction()
     test_secret_redaction()
     test_diff()

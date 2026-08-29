@@ -1,0 +1,170 @@
+{
+  "slug": "coderabbit",
+  "name": "CodeRabbit",
+  "vendor": "CodeRabbit",
+  "category": "ai-coding",
+  "url": "https://www.coderabbit.ai/pricing",
+  "final_url": "https://www.coderabbit.ai/pricing",
+  "content_hash": "851528f696a369f3b8c054a296ea916330163178d053bdf515426be78bff05b1",
+  "raw_hash": "f1021d522fc6b9c5012480e612625868e15c667be0861abb1f9dca0bf44aca6b",
+  "text_bytes": 3163,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "We raised $143M to build the control layer for s",
+      "price_raw": "$143M",
+      "amount": 143000000.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": ":",
+      "price_raw": "$143M",
+      "amount": 143000000.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Pro",
+      "price_raw": "$24",
+      "amount": 24.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Pro Plus",
+      "price_raw": "$48",
+      "amount": 48.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "CodeRabbit Security",
+      "price_raw": "$40",
+      "amount": 40.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "CodeRabbit Agent for Slack",
+      "price_raw": "$0.50",
+      "amount": 0.5,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    }
+  ],
+  "tables": [
+    {
+      "caption": "",
+      "rows": [
+        [
+          "",
+          "Pro",
+          "Pro Plus",
+          "Enterprise"
+        ],
+        [
+          "Agentic AI reviews on PRs & CLI",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "1-click fixes",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Learnings",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Loops with coding agents",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "MCP connections",
+          "5",
+          "15",
+          "20"
+        ],
+        [
+          "Multi-repo analysis",
+          "1",
+          "10",
+          "20"
+        ],
+        [
+          "Built-in pre-merge checks",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Agentic chat",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Linters and SAST tools support",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Jira and Linear integrations",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Advanced"
+        ],
+        [
+          "Custom pre-merge checks",
+          "Not included",
+          "20",
+          "20"
+        ],
+        [
+          "Finishing touches: unit tests, merge conflict resolution, simplify",
+          "Not included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Post-merge actions",
+          "Not included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Issue planner",
+          "Not included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Rate limits: PR reviews per developer per hour",
+          "5*",
+          "10*",
+          "12"
+        ]
+      ]
+    }
+  ],
+  "extract_errors": []
+}

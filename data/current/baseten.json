@@ -5,9 +5,9 @@
   "category": "ai-api",
   "url": "https://www.baseten.co/pricing/",
   "final_url": "https://www.baseten.co/pricing/",
-  "content_hash": "aacf1def78785c02b85732233081e84047cab93f1de105a5fdd19aa82dca9c26",
-  "raw_hash": "813e2f06223e0dbaf1b351dde100baf17ec9e0732a5ccd959de2afdb8fa1179b",
-  "text_bytes": 7359,
+  "content_hash": "675bde22f67d704291031f973bf41c15acdff4fd844f2df075d292ec78bc06aa",
+  "raw_hash": "fa1adf4d613f45c824e7dffe45c2f8c588fb47e5779168524b45b1c416724c1d",
+  "text_bytes": 6082,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -17,6 +17,22 @@
       "amount": 0.0,
       "currency": "USD",
       "period": "month",
+      "features": []
+    },
+    {
+      "name": "GLM-5.3",
+      "price_raw": "$1.40",
+      "amount": 1.4,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "$4.40",
+      "price_raw": "$4.40",
+      "amount": 4.4,
+      "currency": "USD",
+      "period": null,
       "features": []
     },
     {
@@ -39,14 +55,6 @@
       "name": "GLM-5.2",
       "price_raw": "$1.40",
       "amount": 1.4,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "$4.40",
-      "price_raw": "$4.40",
-      "amount": 4.4,
       "currency": "USD",
       "period": null,
       "features": []
@@ -149,22 +157,6 @@
     },
     {
       "name": "Kimi K2.6",
-      "price_raw": "$0.95",
-      "amount": 0.95,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "$4.00",
-      "price_raw": "$4.00",
-      "amount": 4.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "Kimi K2.7 Code",
       "price_raw": "$0.95",
       "amount": 0.95,
       "currency": "USD",

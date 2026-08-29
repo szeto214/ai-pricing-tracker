@@ -5,12 +5,20 @@
   "category": "ai-api",
   "url": "https://www.firecrawl.dev/pricing",
   "final_url": "https://www.firecrawl.dev/pricing",
-  "content_hash": "81ee92c650ab6556ea1a1da03843593e35607589a8b996f46e71c9cf63dab7fa",
-  "raw_hash": "2890754d0dfc645bc6be7f123a4cd53d97f913851bd8a5dcfae5e8a1e7251813",
-  "text_bytes": 7461,
+  "content_hash": "7793283ae3319bf93b3bc61dd29f4e81fe47c3b765c7bdbe1b354c79eb68e4a6",
+  "raw_hash": "882ae20150cdb28d0cc00ca51c1a8d654772ff7e2300d5c50624721de4bd6112",
+  "text_bytes": 6880,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
+    {
+      "name": "Free Plan",
+      "price_raw": "$83",
+      "amount": 83.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
     {
       "name": "Hobby",
       "price_raw": "$ 16",

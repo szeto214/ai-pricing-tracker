@@ -1,0 +1,146 @@
+{
+  "slug": "deepseek",
+  "name": "DeepSeek",
+  "vendor": "DeepSeek",
+  "category": "ai-api",
+  "url": "https://api-docs.deepseek.com/quick_start/pricing",
+  "final_url": "https://api-docs.deepseek.com/quick_start/pricing/",
+  "content_hash": "fc3e32f3a5bf1d47aad4496684d3b620b8d6ea62bd419d6b4c0d5d4016031020",
+  "raw_hash": "cf2c6fb2dd8a32a538f12a8176175b8809a3516326a5cb30dfe52d63c490a968",
+  "text_bytes": 2164,
+  "extractor": "dom",
+  "confidence": "low",
+  "plans": [
+    {
+      "name": "Models & Pricing",
+      "price_raw": "$0.00",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    }
+  ],
+  "tables": [
+    {
+      "caption": "",
+      "rows": [
+        [
+          "MODEL",
+          "deepseek-v4-flash",
+          "deepseek-v4-pro",
+          "deepseek-v4-flash-vision-exp"
+        ],
+        [
+          "BASE URL (OpenAI Format)",
+          "https://api.deepseek.com"
+        ],
+        [
+          "BASE URL (Anthropic Format)",
+          "https://api.deepseek.com/anthropic"
+        ],
+        [
+          "MODEL VERSION",
+          "DeepSeek-V4-Flash-0731",
+          "DeepSeek-V4-Pro-0813",
+          "DeepSeek-V4-Flash-Vision-Exp"
+        ],
+        [
+          "THINKING MODE",
+          "Supports both non-thinking and thinking (default) modes See Thinking Mode for how to switch"
+        ],
+        [
+          "CONTEXT LENGTH",
+          "1M"
+        ],
+        [
+          "MAX OUTPUT",
+          "MAXIMUM: 384K"
+        ],
+        [
+          "FEATURES",
+          "Json Output",
+          "✓",
+          "✓",
+          "✓"
+        ],
+        [
+          "Tool Calls",
+          "✓",
+          "✓",
+          "✓"
+        ],
+        [
+          "Responses API",
+          "✓",
+          "✓",
+          "✓"
+        ],
+        [
+          "Anthropic API",
+          "✓",
+          "✓",
+          "✓"
+        ],
+        [
+          "Chat Prefix Completion（Beta）",
+          "✓",
+          "✓",
+          "✓"
+        ],
+        [
+          "FIM Completion（Beta）",
+          "Non-thinking mode only",
+          "Non-thinking mode only",
+          "Not supported"
+        ],
+        [
+          "PRICING (1)(2)",
+          "1M INPUT TOKENS (CACHE HIT)",
+          "OFF-PEAK",
+          "$0.007",
+          "$0.022",
+          "$0.007"
+        ],
+        [
+          "PEAK",
+          "$0.014",
+          "$0.044",
+          "$0.014"
+        ],
+        [
+          "1M INPUT TOKENS (CACHE MISS)",
+          "OFF-PEAK",
+          "$0.22",
+          "$0.66",
+          "$0.22"
+        ],
+        [
+          "PEAK",
+          "$0.44",
+          "$1.32",
+          "$0.44"
+        ],
+        [
+          "1M OUTPUT TOKENS",
+          "OFF-PEAK",
+          "$0.66",
+          "$1.98",
+          "$0.66"
+        ],
+        [
+          "PEAK",
+          "$1.32",
+          "$3.96",
+          "$1.32"
+        ],
+        [
+          "Concurrency Limit (3)",
+          "2500",
+          "500",
+          "2500"
+        ]
+      ]
+    }
+  ],
+  "extract_errors": []
+}

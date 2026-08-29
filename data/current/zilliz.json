@@ -1,0 +1,591 @@
+{
+  "slug": "zilliz",
+  "name": "Zilliz Cloud",
+  "vendor": "Zilliz",
+  "category": "database",
+  "url": "https://zilliz.com/pricing",
+  "final_url": "https://zilliz.com/pricing",
+  "content_hash": "ea072402593f14c8463d39f897e5d691773be2bc306411973db992f8ad86a9ef",
+  "raw_hash": "2f35583edccc825bc3318d9b9ccdf1fd40c696e66a8d2272e5abec7e015b5a57",
+  "text_bytes": 11034,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Free",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "5 GB storage",
+        "2.5M vCUs per month included",
+        "Up to 5 collections"
+      ]
+    },
+    {
+      "name": "Standard",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Fully managed vector databases with core APIs",
+        "Backup, restore, and basic monitoring",
+        "Built-in encryption for data in transit and at rest"
+      ]
+    },
+    {
+      "name": "Enterprise MOST POPULAR",
+      "price_raw": "$197",
+      "amount": 197.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "99.95% uptime SLA",
+        "Audit logs, SSO (SAML 2.0 based), granular RBAC",
+        "Multi-replica and elastic scaling",
+        "Private endpoint and VPC peering",
+        "On-demand",
+        "Enterprise support included"
+      ]
+    },
+    {
+      "name": "Performance-optimized",
+      "price_raw": "$63",
+      "amount": 63.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Capacity-optimized",
+      "price_raw": "$16",
+      "amount": 16.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Tiered-storage",
+      "price_raw": "$5",
+      "amount": 5.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Free",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Number of Entities",
+      "price_raw": "$200",
+      "amount": 200.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Query CU $",
+        "GB Storage $"
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Deployment"
+        ],
+        [
+          "Environment",
+          "Shared",
+          "Shared",
+          "Dedicated",
+          "Dedicated",
+          "Dedicated"
+        ],
+        [
+          "Cluster Type"
+        ],
+        [
+          "Performance-optimized Ideal for applications requiring low latency and high throughput. Each query CU can handle about 2 million 768-dim vectors.",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Capacity-optimized Suited for managing large datasets with moderate search performance requirements. Each query CU can handle about 8 million 768-dim vectors.",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Tiered-storage Best for ultra-large-scale, cost-sensitive workloads. Each query CU can handle about 40 million 768-dim vectors.",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Public cloud provider",
+          "AWS, Google Cloud",
+          "AWS, Google Cloud",
+          "AWS, Google Cloud, Azure",
+          "AWS, Google Cloud, Azure",
+          "AWS, Google Cloud, Azure"
+        ],
+        [
+          "Compute Scaling",
+          "",
+          "System-managed auto-scaling (No configuration required)",
+          "Manual scaling to 32 CUs",
+          "Configurable auto-scaling Manual scaling up to 2,048 CUs; CU × replica ≤ 204,800 (Contact us for larger needs.)",
+          "Configurable auto-scaling Manual scaling up to 2,048 CUs; CU × replica ≤ 204,800 (Contact us for larger needs.)"
+        ],
+        [
+          "Uptime SLA",
+          "",
+          "",
+          "",
+          "99.95%",
+          "99.99% if multi-replica is enabled"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "High Availability"
+        ],
+        [
+          "Availability zone",
+          "",
+          "Single",
+          "Single",
+          "Multiple",
+          "Multiple"
+        ],
+        [
+          "Replica",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Snapshot",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Global Cluster",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Data Service"
+        ],
+        [
+          "Vector search",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Filtered search",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Range search",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Grouping search",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Hybrid search",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Full text search",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Text match",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Query",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Data processing",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Data Management"
+        ],
+        [
+          "Cross-cluster migration",
+          "",
+          "From free and serverless cluster",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Zero downtime migration",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Migration from external sources",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Volume",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "High speed data import",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Recycle bin",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Data Security & Compliance"
+        ],
+        [
+          "OAuth 2.0",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Enterprise SSO",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Customer managed encryption keys (CMEK)",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "MFA",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Auditing",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "API key management",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Data encryption in transit and at rest",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Basic backup & restore",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Cross-region backup",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Continuous data protection",
+          "",
+          "",
+          "",
+          "",
+          "Book a Demo"
+        ],
+        [
+          "Point-in-time recovery (PITR)",
+          "",
+          "",
+          "",
+          "",
+          "Book a Demo"
+        ],
+        [
+          "Data masking/tokenization",
+          "",
+          "",
+          "",
+          "",
+          "Book a Demo"
+        ],
+        [
+          "Cluster IP allowlist",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Private networking",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "SOC 2 Type II and ISO/IEC 27001 compliant, GDPR ready",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "HIPAA ready",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Observability"
+        ],
+        [
+          "Fine-grained metrics with real-time monitoring dashboards",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Alerts",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Alerting and monitoring integrations",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Job Center",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Role-based Access Control"
+        ],
+        [
+          "Organization and project management",
+          "1 organization Up to 100 projects",
+          "1 organization Up to 100 projects",
+          "1 organization Up to 100 projects",
+          "1 organization (Contact us for more organizations) Up to 100 projects",
+          "1 organization (Contact us for more organizations) Up to 100 projects"
+        ],
+        [
+          "Organization and project RBAC",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Data plane RBAC",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Integrations and Tools"
+        ],
+        [
+          "Intuitive RESTful APIs for control and data plane operations",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "User-friendly SDKs in multiple programming languages",
+          "Python, Java, Go, and Node.js SDKs",
+          "Python, Java, Go, and Node.js SDKs",
+          "Python, Java, Go, and Node.js SDKs",
+          "Python, Java, Go, and Node.js SDKs",
+          "Python, Java, Go, and Node.js SDKs"
+        ],
+        [
+          "VTS (Vector Transport Service)",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "VectorDBBench",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    }
+  ],
+  "extract_errors": []
+}

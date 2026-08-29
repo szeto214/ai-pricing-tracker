@@ -1,0 +1,885 @@
+Windmill
+Contact us
+Windmill cloud
+Open menu
+Pricing
+Open source. Open pricing. No lock-in.
+Payment frequency
+Cloud
+Self-hosted
+White Label
+Payment period
+Monthly
+Annually
+Free and Open-source
+from
+$
+0
+/mo
+Unlimited executions.
+Self-host in minutes
+Easy deployment on Fargate / Docker / Kubernetes
+Community support on Discord
+Max 10 users with SSO
+Enterprise
+from
+$
+120
+/mo
+Pro
+Nonprofit
+Enterprise
+For advanced needs in observability, security and performance.
+Try it for a month
+Windmill
+Enterprise
+Edition features (see table below), including:
+Audit logs
+Distributed dependency cache backed by S3
+SAML support including groups synchronization
+Uncapped SSO (requires seats)
+Commercial licence
+SLA & Priority Support 24/7 with 3h response time and engineer assistance
+Dedicated Slack or Discord channel
+Design partners for roadmap
+Price
+$170
+/mo
+1
+developer
+$
+20
+/mo/dev
+0
+operator or ext JWT token
+An
+operator
+is a user who can only execute scripts, flows and apps, but not create and edit them. Each unique
+external JWT
+user (counted per username/email + scope + instance, active in the last 30 days) also counts here. Operators and ext JWT users are 1/2 price of developers (or 1/2 seats).
+$
+10
+/mo/op
+Get a simulation of the number of Units needed by reproducing your workers config below.
+More details
+Worker group
+1
+2
+standard
+workers
+2
+CU
+·
+$
+100
+/
+mo
+2
+GB memory limit
+per worker
+$
+50
+/worker/
+mo
++ Add worker group
+Native subworkers
+Native subworkers
+run within a native worker, in the native
+worker group
+. This group is pre-configured to listen to native jobs tags (query languages). Those jobs are executed under a special mode with native subworkers, which go 8 by 8, for increased throughput. You can set the number of native subworkers to 0.
+8
+native
+subworkers
+$
+50
+/
+mo
+Agent workers
+Agent
+workers are remote computing resources that can execute jobs from anywhere. Each agent worker counts as 1 Compute Unit on self-hosted if not used for compute, and 0.5 Compute Unit on cloud if not used for compute.
+0
+agent
+workers
+$
+0
+/
+mo
+Our pricing explained
+Summary
+$170
+/
+mo
+Total seats:
+1
+1
+developer
+Total
+compute units
+(CU):
+3
+2
+standard
+workers
+=
+2
+CU
+8
+native
+subworkers
+=
+1
+CU
+Download quote
+Get in touch
+Feature comparison
+Free and Open-source
+Unlimited executions.
+Platform
+Executions per month
+Unlimited
+Number of workspaces
+3
+Maximum number of users
+50
+Variables, resources, scripts, apps, flows
+Unlimited
+Groups, folders and granular permissions
+Maximum 4 groups
+All open source features
+Yes
+Public apps
+Yes
+Oracle DB and MS SQL runtimes as languages (including as dbt adapters)
+No
+Multiplayer on WebIDE
+No
+Content search
+No
+Workspace object storage
+10 GiB storage quota
+Write-audit-publish for pipeline data tests (failing tests roll back the write)
+No
+Range backfill for partitioned pipelines
+Single-partition runs only
+Freshness watchdog (auto re-run of stale pipeline assets)
+Fresh/stale badge only
+Email triggers
+Max 100 emails per day
+Postgres triggers
+Yes
+WebSocket triggers
+Yes
+MQTT triggers
+i
+Self-hosted only
+Yes
+Kafka triggers
+No
+NATS triggers
+No
+SQS triggers
+No
+GCP triggers
+No
+Azure Event Grid triggers
+No
+Private Hub
+No
+Commercial licence
+No
+Security & Support
+Number of users with SSO
+10
+Workspace secret custom encryption
+Yes
+External secret backends (HashiCorp Vault, Azure Key Vault, AWS Secrets Manager)
+No
+IAM database authentication for AWS RDS / Aurora
+i
+Self-hosted Enterprise only
+No
+Entra ID database authentication for Azure PostgreSQL and MS SQL
+i
+Self-hosted Enterprise only
+No
+Workspace service accounts
+No
+Instance-level roles via instance groups
+No
+Custom OAuth
+No
+SAML & SCIM support including groups synchronization
+No
+External auth with JWT (each unique user per email+scope+instance billed as 1/2 seat)
+No
+Support level
+Community support on Discord
+SOC 2 Type II report
+No
+Design partners for roadmap
+No
+Observability
+Audit logs
+No
+Retention period of jobs runs details
+<= 30 days
+Schedule error handler
+No
+Workspace error handler
+No
+Queue metrics
+No
+Prometheus metrics
+No
+HTTP tracing
+No
+OpenTelemetry tracing & logging
+No
+Service logs storage on S3
+No
+Instance events webhook
+No
+Developers & Deployments
+Deployment on Fargate / Docker / Kubernetes
+i
+Self-hosted only
+Yes
+Isolated & dedicated workers and database
+i
+Cloud only
+No
+Deploy from GitHub
+Yes
+Sync Windmill to a git repository (Git sync)
+Up to 2 users
+Agent workers
+No
+SSH execution (#ssh directive)
+No
+GitHub App
+No
+Deploy to staging/prod web UI
+No
+"Run on behalf of" selector when deploying across workspaces
+No
+Workspace forks
+i
+Self-hosted only — global 3-workspace limit applies on Community Edition
+Counts toward 3-workspace limit
+Dev workspaces (persistent fork paired with a lockable prod workspace)
+i
+Self-hosted only — locking the prod workspace reuses protection rulesets (Enterprise)
+Counts toward 3-workspace limit
+Infrastructure as code & Kubernetes operator
+i
+Self-hosted only
+Yes
+CI test scripts with auto-trigger on deploy
+Yes
+OpenID Connect (OIDC)
+No
+Codebases & bundles
+No
+Private PyPI repositories & npm registries and packages
+No
+Workspace dependencies (centralized dependency files)
+Yes
+Distributed dependency cache backed by S3
+No
+Windows workers
+i
+Self-hosted only
+No
+Performance
+Worker group management UI (incl. Init scripts)
+i
+Only available on self-hosting and enterprise edition on private clusters
+No
+Autoscaling
+i
+Self-hosted only
+No
+Critical alerts
+No
+Script-specific workers (dedicated) / High throughput
+No
+Concurrency limits
+No
+Flows
+Priority for steps
+i
+Self-hosted only
+No
+Restart deployed flows from any node and version
+No
+Lifetime / Delete after use
+No
+Approval steps - Adding forms
+No
+Approval steps - Adding prompts (self-approval)
+No
+Approval steps - Require approvers to be logged in
+No
+Approval steps - Disable self-approval
+No
+Approval steps - Require approvers to be members of a group
+No
+Workflows as code v2 (checkpoint/replay orchestration)
+Yes
+Apps
+Global CSS
+No
+Send schedule reports of Apps (png or pdf) through Slack, Discord or e-mail
+No
+Workspace default app
+No
+Importing custom React components
+No
+Enterprise
+For advanced needs in observability, security and performance.
+Platform
+Executions per month
+Unlimited
+Number of workspaces
+Unlimited
+Maximum number of users
+Unlimited
+Variables, resources, scripts, apps, flows
+Unlimited
+Groups, folders and granular permissions
+Unlimited
+All open source features
+Yes
+Public apps
+Yes
+Oracle DB and MS SQL runtimes as languages (including as dbt adapters)
+Yes
+Multiplayer on WebIDE
+Yes
+Content search
+Yes
+Workspace object storage
+Unlimited
+Write-audit-publish for pipeline data tests (failing tests roll back the write)
+Yes
+Range backfill for partitioned pipelines
+Yes
+Freshness watchdog (auto re-run of stale pipeline assets)
+Yes
+Email triggers
+Unlimited
+Postgres triggers
+Yes
+WebSocket triggers
+Yes
+MQTT triggers
+i
+Self-hosted only
+Yes
+Kafka triggers
+Yes
+NATS triggers
+Yes
+SQS triggers
+Yes
+GCP triggers
+Yes
+Azure Event Grid triggers
+Yes
+Private Hub
+Yes
+Commercial licence
+Yes
+Security & Support
+Number of users with SSO
+Uncapped (requires seats)
+Workspace secret custom encryption
+Yes
+External secret backends (HashiCorp Vault, Azure Key Vault, AWS Secrets Manager)
+Yes
+IAM database authentication for AWS RDS / Aurora
+i
+Self-hosted Enterprise only
+Yes
+Entra ID database authentication for Azure PostgreSQL and MS SQL
+i
+Self-hosted Enterprise only
+Yes
+Workspace service accounts
+Yes
+Instance-level roles via instance groups
+Yes
+Custom OAuth
+Yes
+SAML & SCIM support including groups synchronization
+Yes
+External auth with JWT (each unique user per email+scope+instance billed as 1/2 seat)
+Yes
+Support level
+24/7 Priority support with 3h response and dedicated Slack channel
+SOC 2 Type II report
+Yes
+Design partners for roadmap
+Yes
+Observability
+Audit logs
+Unlimited
+Retention period of jobs runs details
+Unlimited
+Schedule error handler
+Yes
+Workspace error handler
+Yes
+Queue metrics
+Yes
+Prometheus metrics
+Yes
+HTTP tracing
+Yes
+OpenTelemetry tracing & logging
+Yes
+Service logs storage on S3
+Yes
+Instance events webhook
+Yes
+Developers & Deployments
+Deployment on Fargate / Docker / Kubernetes
+i
+Self-hosted only
+Yes
+Isolated & dedicated workers and database
+i
+Cloud only
+No
+Deploy from GitHub
+Yes
+Sync Windmill to a git repository (Git sync)
+Yes
+Agent workers
+Yes
+SSH execution (#ssh directive)
+Yes
+GitHub App
+Yes
+Deploy to staging/prod web UI
+Yes
+"Run on behalf of" selector when deploying across workspaces
+Yes
+Workspace forks
+i
+Self-hosted only — global 3-workspace limit applies on Community Edition
+Yes
+Dev workspaces (persistent fork paired with a lockable prod workspace)
+i
+Self-hosted only — locking the prod workspace reuses protection rulesets (Enterprise)
+Yes
+Infrastructure as code & Kubernetes operator
+i
+Self-hosted only
+Yes
+CI test scripts with auto-trigger on deploy
+Yes
+OpenID Connect (OIDC)
+Yes
+Codebases & bundles
+Yes
+Private PyPI repositories & npm registries and packages
+Yes
+Workspace dependencies (centralized dependency files)
+Yes
+Distributed dependency cache backed by S3
+Yes
+Windows workers
+i
+Self-hosted only
+Yes
+Performance
+Worker group management UI (incl. Init scripts)
+i
+Only available on self-hosting and enterprise edition on private clusters
+Yes
+Autoscaling
+i
+Self-hosted only
+Yes
+Critical alerts
+Yes
+Script-specific workers (dedicated) / High throughput
+Yes
+Concurrency limits
+Yes
+Flows
+Priority for steps
+i
+Self-hosted only
+Yes
+Restart deployed flows from any node and version
+Yes
+Lifetime / Delete after use
+Yes
+Approval steps - Adding forms
+Yes
+Approval steps - Adding prompts (self-approval)
+Yes
+Approval steps - Require approvers to be logged in
+Yes
+Approval steps - Disable self-approval
+Yes
+Approval steps - Require approvers to be members of a group
+Yes
+Workflows as code v2 (checkpoint/replay orchestration)
+Yes
+Apps
+Global CSS
+Yes
+Send schedule reports of Apps (png or pdf) through Slack, Discord or e-mail
+Yes
+Workspace default app
+Yes
+Importing custom React components
+Yes
+Feature comparison
+Free and Open-source
+Unlimited executions.
+Enterprise
+For advanced needs in observability, security and performance.
+Platform
+Feature
+tier-free-selfhost
+tier
+tier-enterprise-selfhost
+tier
+Executions per month
+Unlimited
+Unlimited
+Number of workspaces
+3
+Unlimited
+Maximum number of users
+50
+Unlimited
+Variables, resources, scripts, apps, flows
+Unlimited
+Unlimited
+Groups, folders and granular permissions
+Maximum 4 groups
+Unlimited
+All open source features
+Yes
+Yes
+Public apps
+Yes
+Yes
+Oracle DB and MS SQL runtimes as languages (including as dbt adapters)
+No
+Yes
+Multiplayer on WebIDE
+No
+Yes
+Content search
+No
+Yes
+Workspace object storage
+10 GiB storage quota
+Unlimited
+Write-audit-publish for pipeline data tests (failing tests roll back the write)
+No
+Yes
+Range backfill for partitioned pipelines
+Single-partition runs only
+Yes
+Freshness watchdog (auto re-run of stale pipeline assets)
+Fresh/stale badge only
+Yes
+Email triggers
+Max 100 emails per day
+Unlimited
+Postgres triggers
+Yes
+Yes
+WebSocket triggers
+Yes
+Yes
+MQTT triggers
+i
+Self-hosted only
+Yes
+Yes
+Kafka triggers
+No
+Yes
+NATS triggers
+No
+Yes
+SQS triggers
+No
+Yes
+GCP triggers
+No
+Yes
+Azure Event Grid triggers
+No
+Yes
+Private Hub
+No
+Yes
+Commercial licence
+No
+Yes
+Security & Support
+Feature
+tier-free-selfhost
+tier
+tier-enterprise-selfhost
+tier
+Number of users with SSO
+10
+Uncapped (requires seats)
+Workspace secret custom encryption
+Yes
+Yes
+External secret backends (HashiCorp Vault, Azure Key Vault, AWS Secrets Manager)
+No
+Yes
+IAM database authentication for AWS RDS / Aurora
+i
+Self-hosted Enterprise only
+No
+Yes
+Entra ID database authentication for Azure PostgreSQL and MS SQL
+i
+Self-hosted Enterprise only
+No
+Yes
+Workspace service accounts
+No
+Yes
+Instance-level roles via instance groups
+No
+Yes
+Custom OAuth
+No
+Yes
+SAML & SCIM support including groups synchronization
+No
+Yes
+External auth with JWT (each unique user per email+scope+instance billed as 1/2 seat)
+No
+Yes
+Support level
+Community support on Discord
+24/7 Priority support with 3h response and dedicated Slack channel
+SOC 2 Type II report
+No
+Yes
+Design partners for roadmap
+No
+Yes
+Observability
+Feature
+tier-free-selfhost
+tier
+tier-enterprise-selfhost
+tier
+Audit logs
+No
+Unlimited
+Retention period of jobs runs details
+<= 30 days
+Unlimited
+Schedule error handler
+No
+Yes
+Workspace error handler
+No
+Yes
+Queue metrics
+No
+Yes
+Prometheus metrics
+No
+Yes
+HTTP tracing
+No
+Yes
+OpenTelemetry tracing & logging
+No
+Yes
+Service logs storage on S3
+No
+Yes
+Instance events webhook
+No
+Yes
+Developers & Deployments
+Feature
+tier-free-selfhost
+tier
+tier-enterprise-selfhost
+tier
+Deployment on Fargate / Docker / Kubernetes
+i
+Self-hosted only
+Yes
+Yes
+Isolated & dedicated workers and database
+i
+Cloud only
+No
+No
+Deploy from GitHub
+Yes
+Yes
+Sync Windmill to a git repository (Git sync)
+Up to 2 users
+Yes
+Agent workers
+No
+Yes
+SSH execution (#ssh directive)
+No
+Yes
+GitHub App
+No
+Yes
+Deploy to staging/prod web UI
+No
+Yes
+"Run on behalf of" selector when deploying across workspaces
+No
+Yes
+Workspace forks
+i
+Self-hosted only — global 3-workspace limit applies on Community Edition
+Counts toward 3-workspace limit
+Yes
+Dev workspaces (persistent fork paired with a lockable prod workspace)
+i
+Self-hosted only — locking the prod workspace reuses protection rulesets (Enterprise)
+Counts toward 3-workspace limit
+Yes
+Infrastructure as code & Kubernetes operator
+i
+Self-hosted only
+Yes
+Yes
+CI test scripts with auto-trigger on deploy
+Yes
+Yes
+OpenID Connect (OIDC)
+No
+Yes
+Codebases & bundles
+No
+Yes
+Private PyPI repositories & npm registries and packages
+No
+Yes
+Workspace dependencies (centralized dependency files)
+Yes
+Yes
+Distributed dependency cache backed by S3
+No
+Yes
+Windows workers
+i
+Self-hosted only
+No
+Yes
+Performance
+Feature
+tier-free-selfhost
+tier
+tier-enterprise-selfhost
+tier
+Worker group management UI (incl. Init scripts)
+i
+Only available on self-hosting and enterprise edition on private clusters
+No
+Yes
+Autoscaling
+i
+Self-hosted only
+No
+Yes
+Critical alerts
+No
+Yes
+Script-specific workers (dedicated) / High throughput
+No
+Yes
+Concurrency limits
+No
+Yes
+Flows
+Feature
+tier-free-selfhost
+tier
+tier-enterprise-selfhost
+tier
+Priority for steps
+i
+Self-hosted only
+No
+Yes
+Restart deployed flows from any node and version
+No
+Yes
+Lifetime / Delete after use
+No
+Yes
+Approval steps - Adding forms
+No
+Yes
+Approval steps - Adding prompts (self-approval)
+No
+Yes
+Approval steps - Require approvers to be logged in
+No
+Yes
+Approval steps - Disable self-approval
+No
+Yes
+Approval steps - Require approvers to be members of a group
+No
+Yes
+Workflows as code v2 (checkpoint/replay orchestration)
+Yes
+Yes
+Apps
+Feature
+tier-free-selfhost
+tier
+tier-enterprise-selfhost
+tier
+Global CSS
+No
+Yes
+Send schedule reports of Apps (png or pdf) through Slack, Discord or e-mail
+No
+Yes
+Workspace default app
+No
+Yes
+Importing custom React components
+No
+Yes
+Frequently asked questions
+What is the logic behind Windmill's pricing?
+Which organizations can subscribe to the Pro plan and non-profit EE?
+What is an operator? How are external JWT users billed?
+What is an execution?
+What are native subworkers?
+What are agent workers?
+What are compute units?
+How many compute units do I need?
+How is the use of the number of seats & compute units estimated and reported to Windmill?
+Do I need a separate license for staging/development environments?
+How is payment done?
+Is Windmill billed based on usage?
+Can I increase the subscription terms during the subscription period?
+How can I update my subscription?
+What is Windmill's technical support SLA?
+What is Windmill's security level on cloud?
+Can I get services and workshops from Windmill or partners?
+Could the application keep running if Windmill as a company is shut down?

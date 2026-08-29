@@ -1,0 +1,260 @@
+{
+  "slug": "sonarsource",
+  "name": "SonarQube Cloud",
+  "vendor": "Sonar",
+  "category": "observability",
+  "url": "https://www.sonarsource.com/plans-and-pricing/",
+  "final_url": "https://www.sonarsource.com/plans-and-pricing/",
+  "content_hash": "cfc959ce52bab191479f22dc88f8afe7240e2089d163e9956caa9a682faf4ae9",
+  "raw_hash": "c33f8a31d9a60d2dbd13f34d4cd18ddb4848c65618e1642dd56514609e6d5fa2",
+  "text_bytes": 10509,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Team",
+      "price_raw": "$34",
+      "amount": 34.0,
+      "currency": "USD",
+      "period": null,
+      "features": [
+        "Recommended for teams <50 developers",
+        "30+ languages",
+        "Code quality standards",
+        "Detecting bugs and vulnerabilities",
+        "Secrets detection",
+        "AI-driven code fixes",
+        "Pull request analysis",
+        "Architecture management",
+        "Commercial support available"
+      ]
+    },
+    {
+      "name": "Core",
+      "price_raw": "$20",
+      "amount": 20.0,
+      "currency": "USD",
+      "period": "user",
+      "features": [
+        "Fully customizable code reviews",
+        "Automatic PR summaries",
+        "CI failure analysis (GitHub Actions, GitLab Pipelines)",
+        "Fixes via comments (Ask Gitar to fix issues on your PRs)",
+        "Interactive agent on your PRs",
+        "Developer insights"
+      ]
+    },
+    {
+      "name": "Pro",
+      "price_raw": "$40",
+      "amount": 40.0,
+      "currency": "USD",
+      "period": "user",
+      "features": [
+        "Auto-approve & merge blocking (Approve PRs automatically, block merges on issues)",
+        "Auto-apply — fix until PR is green",
+        "Advanced CI failure analysis (CircleCI, Buildkite, Bitrise)",
+        "3rd-party integrations (Slack, Linear, Jira)",
+        "User-defined checks & automations",
+        "Advanced insights"
+      ]
+    },
+    {
+      "name": "Capability",
+      "price_raw": "$34",
+      "amount": 34.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "How does pricing work for private projects?",
+      "price_raw": "$34",
+      "amount": 34.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Is support available for SonarQube?",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    }
+  ],
+  "tables": [
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Capability",
+          "Team $34 monthly",
+          "★ Most teams choose this Enterprise Custom pricing"
+        ],
+        [
+          "Agentic & AI"
+        ],
+        [
+          "SonarQube MCP Server",
+          "",
+          ""
+        ],
+        [
+          "SonarQube CLI",
+          "",
+          ""
+        ],
+        [
+          "AI Code Assurance",
+          "",
+          ""
+        ],
+        [
+          "AI-driven code fixes",
+          "",
+          ""
+        ],
+        [
+          "Detect issues in AI-generated code",
+          "",
+          ""
+        ],
+        [
+          "Languages & Frameworks"
+        ],
+        [
+          "Languages and frameworks supported",
+          "30+",
+          "40+"
+        ],
+        [
+          "Code Quality"
+        ],
+        [
+          "Quality gates and profiles",
+          "",
+          ""
+        ],
+        [
+          "Architecture management",
+          "",
+          ""
+        ],
+        [
+          "Technical debt management",
+          "",
+          ""
+        ],
+        [
+          "Enforce custom coding standards",
+          "",
+          ""
+        ],
+        [
+          "Test coverage",
+          "",
+          ""
+        ],
+        [
+          "Pull request and branch analysis",
+          "",
+          ""
+        ],
+        [
+          "Code Security"
+        ],
+        [
+          "SAST",
+          "",
+          ""
+        ],
+        [
+          "Taint analysis",
+          "",
+          ""
+        ],
+        [
+          "Secrets detection",
+          "",
+          ""
+        ],
+        [
+          "IaC scanning",
+          "",
+          ""
+        ],
+        [
+          "SCA and Advanced SAST",
+          "—",
+          "Included in Advanced Security"
+        ],
+        [
+          "OWASP Top 10, CWE, PCI DSS, STIG, CASA",
+          "—",
+          ""
+        ],
+        [
+          "MISRA C++:2023 compliance",
+          "—",
+          ""
+        ],
+        [
+          "Cyber Resilience Act (CRA) compliance",
+          "—",
+          ""
+        ],
+        [
+          "GitHub Advanced Security integration",
+          "—",
+          ""
+        ],
+        [
+          "Security reports and audit logs",
+          "—",
+          ""
+        ],
+        [
+          "Enterprise & Scale"
+        ],
+        [
+          "Unlimited users and projects",
+          "—",
+          ""
+        ],
+        [
+          "SSO, SCIM, CMK/BYOK",
+          "—",
+          ""
+        ],
+        [
+          "IP allowlist",
+          "—",
+          ""
+        ],
+        [
+          "Enterprise hierarchy and portfolios",
+          "—",
+          ""
+        ],
+        [
+          "Customizable dashboards",
+          "—",
+          ""
+        ],
+        [
+          "Enterprise SLA",
+          "—",
+          ""
+        ],
+        [
+          "Premium support",
+          "Add-on",
+          "Add-on"
+        ]
+      ]
+    }
+  ],
+  "extract_errors": []
+}

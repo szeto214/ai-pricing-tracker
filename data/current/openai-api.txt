@@ -4,46 +4,9 @@ llms.txt
 .md
 to the page URL.
 ChatGPT
-Home
-API
-Codex
-Docs
-Guides, concepts, and product docs for Codex
-Use cases
-Example workflows and tasks teams can take on with ChatGPT or Codex
-Docs
-Use cases
-Resources
-ChatGPT
-Plugins
-Extend ChatGPT and Codex
-Workspace Agents
-Trigger published ChatGPT workspace agents
-Commerce
-Build commerce flows in ChatGPT
-Ads
-Publish and measure ads in ChatGPT
-Resources
-Showcase
-Demo apps to get inspired
-Blog
-Learnings and experiences from developers
-Cookbook
-Notebook examples for building with OpenAI models
-Learn
-Docs, videos, and demo apps for building with OpenAI
-Community
-Programs, meetups, and support for builders
 Start searching
 API Dashboard
 Try ChatGPT
-Overview
-Models
-Agents
-Tools
-Voice & Audio
-Production
-API reference
 Search the API docs
 Search docs
 Suggested
@@ -52,13 +15,6 @@ reasoning_effort
 realtime
 prompt caching
 Primary navigation
-API
-Codex
-ChatGPT
-Docs
-Use cases
-Resources
-Resources
 Search docs
 Suggested
 responses create
@@ -112,37 +68,6 @@ Embeddings
 Moderation
 API Dashboard
 Try ChatGPT
-Model catalog
-Choose a model
-Pricing
-Model selection
-Text and code
-Text generation
-Code generation
-Structured output
-Prompting
-Overview
-Prompt engineering
-Citation formatting
-Migration guide
-Prompt generation
-Frontend prompting
-Reasoning
-Reasoning models
-Reasoning best practices
-Images and video
-Images and vision
-Image input cost calculator
-Image generation
-Video generation
-Realtime and audio
-Audio and speech
-Overview
-Voice agents
-Specialized models
-Deep research
-Embeddings
-Moderation
 Copy Page
 Pricing
 Copy Page
@@ -471,8 +396,6 @@ All models
 Tokens used for model grading in reinforcement fine-tuning are billed at that model's per-token rate. Inference discounts are available if you enable data sharing when creating the fine-tune job.
 Learn more
 .
-Next
-Model selection
 Ask AI
 Docs agent
 Loading docs agent...

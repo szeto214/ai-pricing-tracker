@@ -1,0 +1,41 @@
+{
+  "slug": "miro",
+  "name": "Miro",
+  "vendor": "Miro",
+  "category": "productivity",
+  "url": "https://miro.com/pricing/",
+  "final_url": "https://miro.com/pricing/",
+  "content_hash": "13ac8cedb72aa886d59049b1e5bba49d23886b0f83b26c012c45342b6352d44d",
+  "raw_hash": "5b1f8debabe50391ca27e0f0e711a3521746923a93afbbee93dbbaf0b75b499d",
+  "text_bytes": 23913,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Free",
+      "price_raw": "$ 0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Free Starter Business Enterprise",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Do you offer discounts for startups?",
+      "price_raw": "$1,000",
+      "amount": 1000.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    }
+  ],
+  "tables": [],
+  "extract_errors": []
+}

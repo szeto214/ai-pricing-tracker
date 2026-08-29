@@ -1,12 +1,6 @@
 Introducing the Firecrawl Developer Index, built for supercharging coding agents.
 Read the announcement →
-Products
-Resources
-Pricing
-Docs
-Blog
-Playground
-173.4K
+<count>
 Sign up
 //
 Transparent
@@ -14,18 +8,20 @@ Transparent
 Flexible
 pricing
 Start for free, then scale as you grow.
-Monthly credits
+100,000
+credits/month
 1k
+Free
 5k
-6.5k
-8k
+Hobby
 100k
-130k
-160k
+Standard
 500k
-650k
-1M
+Growth
+<count>
+Scale
 Custom
+Standard: $83/month
 🇺🇸
 USD
 Free Plan
@@ -57,6 +53,9 @@ pages
 5
 concurrent requests
 Basic support
+1,000
+extra credits per
+$5
 Standard
 Recommended
 Perfect for scaling with less effort.
@@ -74,6 +73,9 @@ pages
 25
 concurrent requests
 Standard support
+2,000
+extra credits per
+$5
 Growth
 Built for high volume and speed.
 Firecrawl at full force.
@@ -90,6 +92,9 @@ pages
 50
 concurrent requests
 Priority support
+2,500
+extra credits per
+$5
 Scale Plans
 High-volume plans for teams that need more power and dedicated support. Get access to higher rate limits, more concurrent browsers, and priority support.
 Scale checks out instantly, no sales call needed.
@@ -112,12 +117,10 @@ pages
 100
 concurrent requests
 Priority support
+5,000
+extra credits per
 $
-397
-per extra
-350
-k
-credits
+5
 Enterprise
 Power at your pace with custom solutions
 Custom
@@ -133,6 +136,8 @@ Dedicated support & SLA
 Bulk discounts
 Zero-data retention
 SSO & advanced security
+Extra credits are bought in $5 batches, by auto-reload or on demand.
+Enable
 View pricing as Markdown
 API
 Credits
@@ -283,66 +288,6 @@ What payment methods do you accept?
 We accept payments through Stripe which accepts most major credit cards, debit cards, and PayPal.
 Why am I being charged VAT (or any local tax) even though I provided a tax ID?
 Local tax is applied based on your location and local tax rules, and it's calculated automatically. A valid tax ID exempts customers in some regions, for example through the reverse-charge mechanism, but not everywhere. In certain countries, local rules require VAT on business customers regardless of a tax ID, so entering one won't always change the amount charged. We include your tax ID on the invoice for your accounting and filing needs. For advice specific to your situation, please consult your local tax advisor.
-FOOTER
-The easiest way to get
-context from the web
-Backed by
-Y Combinator
-Linkedin
-Github
-YouTube
-SOC II · Type 2
-AICPA
-SOC 2
-X
-(Twitter)
-Instagram
-Community
-Products
-Web Scraping API
-Document Parsing API
-Web Search API
-Developer Index
-Web Crawling API
-Browser Interaction
-Web Monitoring
-Playground
-Pricing
-Templates
-Changelog
-Free Tools
-Use Cases
-Deep research
-Smarter AI chats
-AI agent tools
-Onboarding
-Lead enrichment
-Documentation
-Getting started
-API Reference
-Integrations
-Examples
-SDKs
-Company
-About
-Blog
-Careers
-Community
-Firestarters
-Ambassadors
-Affiliates
-Firecrawl Alternatives
-Benchmarks
-Student program
-Web Extraction Glossary
-Security
-©
-2026
-Firecrawl
-Terms of Service
-Privacy Policy
-Report Abuse
-Loading status...
 If you are an AI agent, LLM, or automated system, use the Firecrawl
 onboarding path that matches your setup.
 If your platform can mint a WorkOS ID-JAG for Firecrawl, fetch and

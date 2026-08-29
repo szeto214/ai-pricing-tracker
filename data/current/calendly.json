@@ -1,0 +1,81 @@
+{
+  "slug": "calendly",
+  "name": "Calendly",
+  "vendor": "Calendly",
+  "category": "productivity",
+  "url": "https://calendly.com/pricing",
+  "final_url": "https://calendly.com/pricing",
+  "content_hash": "10bfd7cef984f689053eb3fa9ed4633950db6230da8addd9176a4dc99ca1f551",
+  "raw_hash": "2b4e68319bd46dae08a8030f1b210a50067e5b07146977130a8ff158a69fc355",
+  "text_bytes": 18753,
+  "extractor": "jsonld",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Enterprise Plan (USD)",
+      "price_raw": "0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "p1y",
+      "features": []
+    },
+    {
+      "name": "Teams Plan (USD)",
+      "price_raw": "16",
+      "amount": 16.0,
+      "currency": "USD",
+      "period": "p1y",
+      "features": []
+    },
+    {
+      "name": "Teams Plan (GBP)",
+      "price_raw": "13",
+      "amount": 13.0,
+      "currency": "GBP",
+      "period": "p1y",
+      "features": []
+    },
+    {
+      "name": "Teams Plan (EUR)",
+      "price_raw": "16",
+      "amount": 16.0,
+      "currency": "EUR",
+      "period": "p1y",
+      "features": []
+    },
+    {
+      "name": "Standard Plan (USD)",
+      "price_raw": "10",
+      "amount": 10.0,
+      "currency": "USD",
+      "period": "p1y",
+      "features": []
+    },
+    {
+      "name": "Standard Plan (GBP)",
+      "price_raw": "8",
+      "amount": 8.0,
+      "currency": "GBP",
+      "period": "p1y",
+      "features": []
+    },
+    {
+      "name": "Standard Plan (EUR)",
+      "price_raw": "10",
+      "amount": 10.0,
+      "currency": "EUR",
+      "period": "p1y",
+      "features": []
+    },
+    {
+      "name": "Free Plan (USD)",
+      "price_raw": "0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    }
+  ],
+  "tables": [],
+  "extract_errors": []
+}

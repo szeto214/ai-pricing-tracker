@@ -1,0 +1,97 @@
+{
+  "slug": "webflow",
+  "name": "Webflow",
+  "vendor": "Webflow",
+  "category": "productivity",
+  "url": "https://webflow.com/pricing",
+  "final_url": "https://webflow.com/pricing",
+  "content_hash": "664aa252c4fcf24cdd0edd862c0d793f7ebc02dcdc62b73ebdd2bf0280cd57f0",
+  "raw_hash": "fb120c8cebc52486d18fb5adce3c578d152bf5fdbf547801a4702352527282c5",
+  "text_bytes": 56308,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Starter",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Site plans:",
+      "price_raw": "$2",
+      "amount": 2.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "200 MB",
+      "price_raw": "$2",
+      "amount": 2.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "200,000",
+      "price_raw": "$2",
+      "amount": 2.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "20,000",
+      "price_raw": "$2",
+      "amount": 2.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "2 GB",
+      "price_raw": "$2",
+      "amount": 2.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "4,000",
+      "price_raw": "$2",
+      "amount": 2.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "500 MB",
+      "price_raw": "$2",
+      "amount": 2.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "500,000",
+      "price_raw": "$2",
+      "amount": 2.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "50,000",
+      "price_raw": "$2",
+      "amount": 2.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    }
+  ],
+  "tables": [],
+  "extract_errors": []
+}

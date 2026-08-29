@@ -5,9 +5,9 @@
   "category": "observability",
   "url": "https://sentry.io/pricing/",
   "final_url": "https://sentry.io/pricing/",
-  "content_hash": "230b132f17f8e99bdf2198d5ab24dba64c8711b30fb888af2c831ae5c6fdb580",
-  "raw_hash": "3450bf5ce7220aeaac30459e0c6f59c78753550730e6c3f607ab3037b1e28256",
-  "text_bytes": 8602,
+  "content_hash": "ab1ced85804b828b9e9fd4601b802ac760429b3d2d39f26eb9939f55e24d41ac",
+  "raw_hash": "4379bf3359b4ec27dcd49986b8f64200d181a873b087bd65c0508199b152228c",
+  "text_bytes": 5754,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

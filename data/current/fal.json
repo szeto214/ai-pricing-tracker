@@ -1,0 +1,163 @@
+{
+  "slug": "fal",
+  "name": "fal.ai",
+  "vendor": "fal",
+  "category": "ai-api",
+  "url": "https://fal.ai/pricing",
+  "final_url": "https://fal.ai/pricing",
+  "content_hash": "29baeb74e2888793b4b26385ae948b5734388bad307d6846f16aab9d92224399",
+  "raw_hash": "efef13a824f7634b38a04fe3cd8841a28a813f4cd3a9f2596508d2ce43824e78",
+  "text_bytes": 2078,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Serverless & Compute Pricing",
+      "price_raw": "$1.89",
+      "amount": 1.89,
+      "currency": "USD",
+      "period": "hour",
+      "features": []
+    },
+    {
+      "name": "B300",
+      "price_raw": "$8.50",
+      "amount": 8.5,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Video Models",
+      "price_raw": "$1",
+      "amount": 1.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Image Models",
+      "price_raw": "$1",
+      "amount": 1.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    }
+  ],
+  "tables": [
+    {
+      "caption": "",
+      "rows": [
+        [
+          "GPU",
+          "VRAM",
+          "List Price",
+          "As low as"
+        ],
+        [
+          "B300",
+          "288GB",
+          "$8.50/h",
+          "$4.49/h"
+        ],
+        [
+          "B200",
+          "180GB",
+          "$6.25/h",
+          "$3.49/h"
+        ],
+        [
+          "H200",
+          "141GB",
+          "$4.50/h",
+          "$2.10/h"
+        ],
+        [
+          "H100",
+          "80GB",
+          "$4.50/h",
+          "$1.89/h"
+        ],
+        [
+          "RTX PRO 6000",
+          "96GB",
+          "$2.99/h",
+          "$1.10/h"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Model",
+          "Unit",
+          "Price",
+          "Output per $1",
+          ""
+        ],
+        [
+          "Wan 2.5",
+          "second",
+          "$ 0.05",
+          "20 seconds"
+        ],
+        [
+          "Kling 2.5 Turbo Pro",
+          "second",
+          "$ 0.07",
+          "14 seconds"
+        ],
+        [
+          "Veo 3",
+          "second",
+          "$ 0.4",
+          "3 seconds"
+        ],
+        [
+          "Ovi",
+          "video",
+          "$ 0.2",
+          "5 videos"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Model",
+          "Unit",
+          "Price",
+          "Output per $1",
+          ""
+        ],
+        [
+          "Seedream V4",
+          "image",
+          "$ 0.03",
+          "33 images"
+        ],
+        [
+          "Flux Kontext Pro",
+          "image",
+          "$ 0.04",
+          "25 images"
+        ],
+        [
+          "Nanobanana",
+          "image",
+          "$ 0.0398",
+          "25 images"
+        ],
+        [
+          "Qwen",
+          "megapixel",
+          "$ 0.02",
+          "50 megapixels"
+        ]
+      ]
+    }
+  ],
+  "extract_errors": []
+}

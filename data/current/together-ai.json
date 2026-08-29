@@ -5,9 +5,9 @@
   "category": "ai-api",
   "url": "https://www.together.ai/pricing",
   "final_url": "https://www.together.ai/pricing",
-  "content_hash": "d3fe9ab86dd27cf4c1d9463f22a0d8d9e287fed3a5e0eec3fd16473b18b03ede",
-  "raw_hash": "8404e6f47b8ac6a273ee0d5dd4e809cafe94d0db429e4487d1de2b3aa6eba0b5",
-  "text_bytes": 12200,
+  "content_hash": "e6bb5c2534effe986c08bca1224928c2f3fdc4b027affea13cedca9223e51cd8",
+  "raw_hash": "9abf86a02c027809c1c0522ea60c214cce0e8d9bcfd5bef3a8dbf86b69eeb62e",
+  "text_bytes": 8088,
   "extractor": "jsonld",
   "confidence": "medium",
   "plans": [
@@ -126,11 +126,6 @@
           "$1.20"
         ],
         [
-          "GLM-5.2",
-          "$1.40 $0.26 (cached)",
-          "$4.40"
-        ],
-        [
           "Kimi K3",
           "$3.00 $0.30 (cached)",
           "$15.00"
@@ -142,8 +137,8 @@
         ],
         [
           "Qwen3.8-2.4T-A95B",
-          "$2.50 $0.50 (cached)",
-          "$6.25"
+          "$2.00 $0.25 (cached)",
+          "$6.00"
         ],
         [
           "Muse Glimmer 30B",
@@ -154,6 +149,11 @@
           "DeepSeek V4 Pro 0813",
           "$1.32 $0.13 (cached)",
           "$3.96"
+        ],
+        [
+          "GLM-5.3",
+          "$1.40 $0.26 (cached)",
+          "$4.40"
         ],
         [
           "GLM-5.3-Flash",
@@ -169,6 +169,11 @@
           "Qwen3.7-Plus",
           "$0.32",
           "$1.28"
+        ],
+        [
+          "GLM-5.2",
+          "$1.40 $0.26 (cached)",
+          "$4.40"
         ],
         [
           "Ternary Bonsai 27B",
@@ -277,8 +282,8 @@
         ],
         [
           "Qwen3.8-2.4T-A95B",
-          "$2.50",
-          "$6.25"
+          "$2.00",
+          "$6.00"
         ],
         [
           "Muse Glimmer 30B",

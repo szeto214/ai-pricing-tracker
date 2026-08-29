@@ -1,0 +1,25 @@
+{
+  "slug": "cline",
+  "name": "Cline",
+  "vendor": "Cline",
+  "category": "ai-coding",
+  "url": "https://cline.bot/pricing",
+  "final_url": "https://cline.bot/pricing",
+  "content_hash": "cb0f671c9b69a10e7c2b23002f6a1d440328bbc4113b1d4a3863089f25832787",
+  "raw_hash": "f369456eb74c385982578b62650749ff7ad77365360809634374b42826060b99",
+  "text_bytes": 2355,
+  "extractor": "dom",
+  "confidence": "low",
+  "plans": [
+    {
+      "name": "Open Source",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    }
+  ],
+  "tables": [],
+  "extract_errors": []
+}

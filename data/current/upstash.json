@@ -5,9 +5,9 @@
   "category": "database",
   "url": "https://upstash.com/pricing",
   "final_url": "https://upstash.com/pricing/redis",
-  "content_hash": "5ab26bf23c009ed4195afa51b046cc68b442e15f27235decf93019f56060fea8",
+  "content_hash": "d2956d48055e4abbc820c71eb9b2ca2bb4345873c8c77ae0298e718a2ab4db7d",
   "raw_hash": "acd18678ef822619f8d9c206a50ef835510cac2cdeab9298875cfc1dccc0825b",
-  "text_bytes": 13029,
+  "text_bytes": 12039,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

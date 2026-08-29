@@ -1,0 +1,86 @@
+{
+  "slug": "zendesk",
+  "name": "Zendesk",
+  "vendor": "Zendesk",
+  "category": "productivity",
+  "url": "https://www.zendesk.com/pricing/",
+  "final_url": "https://www.zendesk.com/pricing/",
+  "content_hash": "71b60d1f421f47140b52ccac8160b2bdcc0ab9c4982255e9c4cc0fe33b8f4e87",
+  "raw_hash": "5ccc0c8a072ab1d064efe68543d4e74fd08e370e6cf85471afa2625fe973b1c9",
+  "text_bytes": 22858,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Support Team",
+      "price_raw": "$19",
+      "amount": 19.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Email and ticketing system",
+        "Ticket routing",
+        "Prebuilt analytics dashboards",
+        "Pre-written responses",
+        "Customer context",
+        "Automations and triggers"
+      ]
+    },
+    {
+      "name": "Suite Team",
+      "price_raw": "$55",
+      "amount": 55.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "AI AI Agents",
+        "AI Knowledge Base",
+        "AI Action Builder",
+        "Omnichannel routing",
+        "Messaging and live chat",
+        "Telephony"
+      ]
+    },
+    {
+      "name": "Suite Professional",
+      "price_raw": "$115",
+      "amount": 115.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "AI Admin Copilot",
+        "AI App Builder",
+        "AI Writing Tools",
+        "AI Quick Reports",
+        "Skills-based routing",
+        "IVR phone tree"
+      ]
+    },
+    {
+      "name": "Copilot",
+      "price_raw": "$50",
+      "amount": 50.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Workforce Engagement Bundle",
+      "price_raw": "$50",
+      "amount": 50.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Contact Center",
+      "price_raw": "$83",
+      "amount": 83.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    }
+  ],
+  "tables": [],
+  "extract_errors": []
+}

@@ -1,0 +1,360 @@
+DNS filtering by Control D, with one less bill.
+Read the blog →
+Plans that work
+for engineers, IT, security, and home users.
+Personal
+Standard
+Premium
+Enterprise
+Personal
+For individuals who want to securely connect devices, servers, or software. Access nearly all of Tailscale's offerings and products for free, indefinitely.
+$0
+Free forever
+Get started
+Plan highlights
+Unlimited user devices
+Up to 6 users
+Up to 3 ACL groups
+Up to 50 tagged resources to start
+1,000 mins per month for ephemeral resources
+Ephemeral resources enable short-lived workloads like CI/CD runners and Kubernetes pods. Premium plan is ideal for heavy usage.
+Access nearly all of Tailscale’s features
+Try SSH and Kubernetes features
+Standard
+For teams adopting the Tailscale platform as a secure connectivity solution and more.
+$8
+Per user, per month
+Get started
+Everything in Personal, plus
+Unlimited users
+Deploy users and groups with SCIM
+Up to 10 ACL groups
+1,000 mins per month for ephemeral resources
+Ephemeral resources enable short-lived workloads like CI/CD runners and Kubernetes pods. Premium plan is ideal for heavy usage.
+Configure Tailscale with MDM tools
+Device posture integrations with MDM, EDR, XDR
+Advanced user roles for billing, IT, auditors, and more
+Most popular
+Premium
+For organizations wanting the most from the Tailscale platform with advanced compliance needs, heavy ephemeral resource use, and AI security.
+$18
+Per user, per month
+Get started
+Everything in Standard, plus
+Up to 300 ACL groups
+10,000 mins per month for ephemeral resources
+Ephemeral resources enable short-lived workloads like CI/CD runners and Kubernetes pods. Premium plan is ideal for heavy usage.
+Just-in-time access to resources
+Advanced Tailscale SSH
+Network flow logs
+Log streaming
+Regional routing and traffic steering
+Priority support
+Our best self-serve plan to try all of Tailscale’s products
+Enterprise
+For enterprises running the full Tailscale platform, extending into multiple products like PAM, AI security, CI/CD, Edge & IoT, and Kubernetes connectivity at scale, and more.
+Custom
+Contact sales
+Everything in Premium, plus
+Custom device quantities and limits
+Solutions Engineer consultation and implementation assistance
+Custom MSA & SLAs
+Premium support with dedicated professional services
+Custom pricing and bundling to meet your organization’s needs and budget
+Pay by invoice
+Bring AI usage into focus with Aperture
+A unified AI governance solution for AI agents and users, without needing to manage or distribute API keys. Get full LLM session recordings, including local and MCP tool calls.
+Get started
+Platform extensions
+Privileged Access Management (PAM)
+Supercharge your security with granular elevated access control for K8s, SSH, and databases.
+Contact sales
+CI/CD connectivity at scale
+Secure your managed CI/CD runners and workloads, wherever they are. Grant ephemeral segmented access, and get rid of long-lived secrets.
+Contact sales
+Workload connectivity at scale
+Connect Kubernetes workloads, applications, and pipelines across clusters, clouds, and networks. All without exposure to the public internet.
+Contact sales
+IoT Edge connectivity at scale
+Manage your device fleet, robotics, vehicles, and more through our platform. Stop manually managing thousands of edge devices and avoid local IP clashes.
+Contact sales
+Add-ons
+Mullvad
+Browse the internet privately, and securely with Tailscale and Mullvad.
+$5
+Per month for every 5 devices
+Get started
+Add more tagged resources
+Scale your needs beyond the 50 tagged resources given free each month.
+$1
+Per month for every tagged resource
+Add resources
+Connect more ephemeral resources
+Scale beyond your monthly allotted minutes for ephemeral resources.
+Contact sales
+Multiple tailnets
+Great option for OEM. Create multiple tailnets under a single organization and IdP. Get separation for testing, development, or automation.
+Contact sales
+Premium support, dedicated services
+Connect across clouds and environments securely, privately, and without complex networking.
+Contact sales
+Compare plans
+Users & Devices
+Basics
+Infrastructure & Developer
+AI Governance & Security
+Device Posture
+User & Device Management
+Logging
+Support & Billing
+Users & Devices
+Personal
+Standard
+Premium
+Enterprise
+Users
+$0 for up to 6 users
+$8 per user, per month
+$18 per user, per month
+Custom
+User Devices
+Computers, phones, etc.
+Unlimited
+Tagged resources
+Resources like exit nodes, etc.
+50 tagged resources included; add more for $1/month each.
+Ephemeral resources
+Short-running k8s pods, CI/CD runners, etc.
+1,000 mins per month
+1,000 mins per month
+10,000 mins per month
+Custom
+Basics
+Secure peer-to-peer connections
+Subnet routers & exit nodes
+Split tunneling & MagicDNS
+ACLs (Zero Trust)
+ACL Groups
+3
+10
+300
+Custom
+Peer relays
+Infrastructure & Developer
+Basic Tailscale SSH
+Up to 5 hosts
+Advanced Tailscale SSH
+Non-default check mode length
+,
+localpart username matching
+.
+Kubernetes ingress & egress
+Kubernetes api proxy
+Funnel
+Privileged Access Management
+K8s, DB, and SSH recording
+See platform extensions
+CI/CD connectivity at scale
+Secure managed CI/CD runners and more
+See platform extensions
+Workload connectivity at scale
+Connect K8s workloads, apps, and pipelines
+See platform extensions
+Edge & IoT connectivity at scale
+Mange your device fleet, robotics, vehicles
+See platform extensions
+AI Governance & Security
+Aperture by Tailscale
+Unified governance for AI agents
+See platform extensions
+Device Posture
+Basic device posture
+OS and TS version information
+Device posture integrations
+MDM, EDR, XDR, and more
+Device posture geolocation
+Plus identity collection
+Just-in-time access
+Custom device posture attributes
+User & Device Management
+SSO with any IdP
+User approval
+Device approval
+Custom authentication periods
+Custom admin console session timers
+Basic user roles
+Advanced user roles
+User & group provisioning (SCIM)
+User management APIs
+Deploy with MDM
+Configure with MDM
+Regional routing
+Logging
+Webhooks
+Configuration audit logs
+Network flow logs
+Log streaming
+Support & Billing
+Customer support
+Basic
+Basic
+Priority
+Premium
+Priority customer support
+Custom MSAs & Support SLAs
+Dedicated professional services
+Pay by invoice
+Cloud Marketplaces
+Get started with Tailscale through your preferred cloud marketplace — consolidate billing, and speed up deployment.
+AWS
+Simplify procurement by purchasing Tailscale through AWS Marketplace. Enjoy flexible terms, consolidated billing, and utilize your existing AWS spend commitments and credits. Benefit from seamless AWS integration, automated deployment, and centralized vendor management.
+Buy with AWS
+View on AWS Marketplace
+Request a quote
+Azure
+Seamlessly deploy and manage Tailscale in your Azure infrastructure while consolidating billing and streamlining vendor management.
+Get started
+Frequently asked questions
+Free trial
+Does Tailscale offer a free trial?
+Yes! Business customers can enjoy a 14-day free trial of the product with no user limit. After the 14-day trial, you’ll just need to choose a plan to keep using Tailscale. If you need an extension, our sales team is happy to help, and we’ll talk through your options.
+Personal users have access to the free tier plan, which will be free forever.
+Can I get a trial of a paid plan from the Personal plan?
+We highly recommend signing up with a separate work email. This way, you get access to our full suite of enterprise features, which ensures you get the most out of your trial period.
+If you don’t have access to a work email, our sales team is happy to help.
+How do I upgrade or downgrade to a new plan?
+First, make sure that you’re either the account Owner, Admin, or Billing admin for the tailnet. If you are on a monthly subscription plan or a Personal plan, you can change your plan from the Billing page of the admin console.
+If you are on an annual subscription plan and would like to make any changes, our sales team is happy to help. We’ll help sort it out.
+What is the difference between business and personal use? What determines who gets access to trials and who stays on the Personal plan?
+Our Personal plan is for individuals who want to use Tailscale at home. This is a free plan and is only suitable for non-commercial use of Tailscale. It’s perfect for things like building a homelab or home VPN, playing games with friends, or securely connecting to anything from a DigitalOcean droplet to a Raspberry Pi, home security camera, or even a Steam Deck.
+If you create a tailnet with a public domain, such as Gmail, Apple, or a personal GitHub account, it’s treated as personal use. These tailnets are automatically enrolled in the free Personal plan.
+If you create a tailnet with a custom domain, it’s considered business use, and you’ll be automatically enrolled in a free trial. This setup is ideal for securely connecting critical infrastructure like production clusters, Kubernetes clusters, on-premise databases, and more.
+I am a user with a custom domain (e.g., @example.com ) who plans to use Tailscale for personal use. Can I opt out of the trial?
+Yes, you can opt out of the trial in the admin console. Once the trial ends, you will be on the Personal plan.
+Please note, however, that the Personal plan is not intended for commercial use. If you sign up for Tailscale with your work email or other custom domains (e.g., @acme.com), then the Tailscale account is owned by the company or organization that owns and controls that email domain, regardless of which plan you are on.
+Do you offer discounts for non-profits or educational institutions?
+Yes! Tailscale offers special pricing for eligible not-for-profit organizations and educational institutions.
+To receive the discount, you’ll need documentation of your registered entity. Choose your plan on the Billing page of the admin console and reach out to our Support team—we’ll take care of applying the appropriate discount
+Seat-based pricing, devices, and resources
+Why does Tailscale use a seat-based pricing model?
+Our pricing model is focused on giving you more value and ensuring your bill is as predictable as possible. Previously, we charged based on monthly active users, but we heard from customers that this led to unpredictable billing.
+As part of our switchover to seat-based pricing, we’ve made the free tier more generous and added meaningful new features to both the Standard and Premium plans. With the shift from our former Starter plan to the new and better Standard plan, we have slightly increased the price per seat. But even though we’ve also added more to the Premium plan, we’ve kept this price point the same.
+Our goal is to give Tailscale users more value while making it easier to use Tailscale across both simple and more advanced use cases.
+What is seat-based pricing, and how does it work?
+Just as the name suggests, it’s all about seats. Not user devices, those are unlimited on every plan. With Tailscale, you pay for a certain number of seats on your tailnet. When a user joins your tailnet, they “occupy” a seat. A user can also “vacate” that seat to free it up.
+You choose the number of seats your tailnet has. At the start of the month, you will be billed based on the number of seats. There’s no hard limit on seats—you can scale up as needed.
+And, if you’re on an Enterprise plan, you can also choose to pay via an annual invoice.
+What are user devices, tagged resources, and ephemeral resources?
+A user device is simply anything that is not tagged as a resource! User devices are free and unlimited.
+A tagged resource is a device that is owned by a
+tag
+rather than a user identity. You should tag resources like servers, subnet routers, app connectors, and other shared infrastructure.
+Ephemeral resources are devices tagged as short-running resources. This is done by our Kubernetes operator, GitHub action, or set by the user. Ephemeral resource usage is based on a minute pool that is tied to the resource’s lifespan. If an ephemeral device is present in the tailnet for more than four hours, it will not count against the minute pool, and will instead be counted as a standard tagged resource.
+What counts as an occupied seat? What counts as a vacant seat?
+For a user to join a tailnet, a vacant seat must be available for them to occupy. Seats are reusable, meaning they can be continually vacated and occupied by different users.
+Upon inviting or provisioning a user, that user does not immediately occupy a seat. If the approvals feature is enabled as recommended, users also need admin approval to join. A user then occupies a vacant seat when they first log in to the admin console or when they first authenticate a device.
+A user vacates a seat when they leave the tailnet, or if their account is deleted, suspended, or otherwise deprovisioned by the IdP (a user just deleting all of their devices is not enough). This allows a different user to occupy it.
+What about users who have not accepted an invite or are pending approval? Do they occupy a seat?
+These users don’t count as occupying a seat, and we make sure you are not charged for it. Specifically, a user who is invited does not occupy a seat until they first log in to the admin console or when they first authenticate a device. If the approvals feature is enabled as recommended, users also need admin approval to join.
+Do users provisioned by SCIM occupy a seat?
+Users provisioned by SCIM do not occupy a seat until they log in. Once they first log in to the admin console or when they first authenticate a device, they are charged normally as a user occupying a seat.
+We chose this specifically to help avoid charges from over-provisioning mistakes, so please go forth and provision without worry!
+How do you add and remove seats?
+The tailnet Owner, Admin, or Billing admin can increase or decrease the number of purchased seats per month.
+Keep in mind that you cannot decrease below the number of seats that are occupied. For example, if you have 20 seats and they’re all occupied, you would need to remove some users before decreasing the number of seats. If you have 20 seats and 3 seats are vacant, you can simply decrease to 17 seats.
+Can you give me the billing specifics around seat number changes?
+Here are the nitty-gritty details:
+Adding seats within a monthly billing period will charge the prorated seat cost. In other words, if you add a seat halfway through the month, you will only be charged half a month for that seat.
+Removing seats within a monthly billing period does not affect the cost for that month. Changes will reflect on the next month’s billing cycle.
+The number of seats you have can’t go below the number of actively-filled seats. After all, every user who logs in needs to occupy a seat.
+Can a seat be reused by multiple users in a single billing period?
+Yes! We were very intentional in our design and choice of seat-based pricing to ensure this aspect is as fair and flexible as possible.
+A seat can be reused by multiple users. For example, a user can join a tailnet and occupy a seat. They can vacate that seat, such as by being deleted, and a second user can then join and occupy that same seat. In that case, you’re only charged for one seat, not two.
+What happens if we have vacant seats at the end of a billing period?
+With seat-based pricing, you pay for the number of seats on your tailnet, not whether someone is actively using each one. This generally works in your favor, allowing multiple users to reuse the same seat, as detailed in “Can a seat be reused by multiple users in a single billing period?”
+In practice, you’re charged for all seats on your tailnet, including any that are currently vacant. The good news is that avoiding charges is as easy as removing seats that are not in use.
+Can I add more tagged resources?
+Yes! Adding more tagged resources is now available as a self-serve option. You can
+purchase them yourself here
+, though feel free to
+contact us
+with any questions or bespoke needs that may require an Enterprise plan.
+Do my tagged resources automatically increase or decrease with usage?
+No, unlike seats, tagged resources do not automatically increase or decrease based on usage.
+Platform Extensions & Aperture
+What are Platform Extensions? How are they beneficial?
+Separate from the plans, Platform Extensions are available as a way for you to tailor and customize Tailscale to your specific needs. Whether you need more tagged resources for your exit node-heavy setup or more ephemeral nodes for your CI/CD focus, our Platform Extensions aim to remove the constraints of a handful of rigid plans and help you tailor Tailscale and our platform and products to your specific needs.
+How do I purchase a Platform Extension?
+For now, Platform Extensions are available by reaching out to our sales team. We plan on making many of these Platform Extensions available for self-serve in the near future.
+What is Aperture by Tailscale? How does it relate to AI?
+If you’re looking for AI solutions, Aperture is Tailscale’s new unified AI governance solution. It’s feature-rich with the ability to see and stop tool calls before users or agents make them, keep API keys safe, get detailed session logs for auditability, and more. Aperture provides visibility and control over AI agent usage by centralizing access and tying it to Tailscale identity.
+Aperture supports major agents, like Claude Code, Codex, Gemini CLI, and agent frameworks that support a custom base URL. It connects self-hosted OSS models and hosted models from OpenAI, Anthropic, and Google. For more information,
+visit this page
+.
+Is it possible to use Aperture without using Tailscale?
+Yes, it is possible. Tailscale and Aperture work fantastically together, with Tailscale solving the secure connectivity part of the networking puzzle, but you can use Aperture as a standalone product.
+Legacy plans
+What happens to accounts on the former Personal and Personal Plus plans?
+We believe moving to the new plans is a great option for most users. We designed the new Personal plan to have updated benefits, like allowing more users, which makes the switch a net positive for former Personal users. Current Personal Plus users will be able to keep their plans as is or switch to the free Personal Plan that should meet the needs of the vast majority of current Personal Plus users.
+That said, there’s no rush. If you prefer to stay on the former Personal and Personal Plus plans, you can continue using them as legacy accounts for the foreseeable future. And if you ever decide to move to a new plan, you’re free to do so at any time. However, moving to a new plan is a one-way change, and you won’t be able to move back to your previous legacy plan.
+Has the maximum number of users changed for the free Personal plan?
+The new Personal plan now allows 6 users, an increase from the former plan’s 3 users. This is also equivalent to the former Personal Plus plan, which had a maximum of 6 users as well.
+What happens to accounts on the former Personal Pro?
+Much like with the legacy Personal and Personal Plus plans, Personal Pro accounts stand to gain a lot from a migration to the new Personal plan, which now grants more free benefits.
+To grant these accounts those free and added benefits, we will migrate former Personal Pro plans to the new Personal plan. For anyone interested in what the new Standard plan offers, we’ll also provide a discount to help make that transition easier.
+What happens to accounts on the former Starter and Premium plans?
+To be upfront, we do recommend making a switch. We’ve designed the new Standard and Premium plans to better support the kinds of use cases users and teams typically have at this level, with added benefits.
+That said, if you’re currently on a
+self-service
+legacy Starter or Premium plan, you can choose to stay on your existing plan for now. After the first year, we will work with customers who are still on these legacy plans to transition to the new ones. Specifically, Starter plans will migrate to the new Standard plan, and legacy Premium plans will migrate to the new Premium plan.
+We are really excited to offer more value and features to more self-service plans. We understand that changing plans or pricing can sometimes have friction, and we're here to support you through that.
+What happens to accounts on the former Team plan?
+This will be handled the same way as accounts on the former Starter plan, as detailed in “What happens to accounts on the former Starter and Premium plans?”
+What happens to accounts on the former Business plan?
+This will be handled the same way as accounts on the former Premium plan, as detailed in “What happens to accounts on the former Starter and Premium plans?”
+What happens to accounts on the former Tailscale Connectivity License and Tailscale Security License plans?
+This will be handled the same way as accounts on the former Starter and Premium plans, as detailed in “What happens to accounts on the former Starter and Premium plans?”
+I’m on a paid plan, but have been getting up to three free users through a previous plan. What happens to me?
+If you have six or fewer users, we encourage you to check out our free personal plan. We’ve added more to this plan and expect that this may meet your needs for free.
+If you have more than six users or are looking for features offered only in paid plans, you will be able to stick to your legacy plan (including the up-to-three free users) for at least a year. After the first year, we plan to help those still on these plans transition to the new plans through support and discounts. We’ve added much more to each plan, so while we aren’t currently offering an up-to-three free user discount for these updated plans, we still recommend seeing if the new features will better meet your business or organization’s needs and if it could make sense to switch sooner.
+If you have questions or concerns or need additional help, please reach out.
+Overages
+How will we know when an account approaches its plan limits?
+We believe the best user experience comes from having clear visibility into approaching plan limits and receiving appropriate and timely alerts, like email notifications, so that there are no surprises.
+With that in mind, we are currently not enforcing the hard limits or overages of ACL groups, multiple tailnets, tagged resources, and ephemeral resources.
+Over the next few months, we’ll begin introducing these limits, along with added visibility into account limits and email notifications to help you stay informed and in control. We plan to overcommunicate as much as possible when we’ve added this visibility and when we plan to start enforcing plan limits.
+What happens when a user joins a tailnet with full seats?
+Upon inviting or provisioning a user, that user does not immediately occupy a seat. If the approvals feature is enabled as recommended, users also need admin approval before joining the tailnet.
+If a user logs in to the tailnet while seats are full, the seat count will automatically increase by 1 to accommodate and match the number of logged-in users.
+For example, let’s say you invite a user to join your tailnet, but your tailnet’s seats are all occupied. When that user logs in, your tailnet’s seat count is automatically increased by 1 to accommodate the new user. In terms of billing, your total seats increased by one, and we will prorate the cost of that extra seat on your next bill.
+What happens if an account exceeds the number of prepaid seats?
+First, if the approvals feature is enabled as recommended, users also need admin approval before joining the tailnet. For monthly paid plans, if more users are allowed to join than there are seats available, the number of seats on the account is increased to match the new user count. Additional seats are immediately charged to Stripe, prorated to the end of the month.
+How can I avoid overage charges? Can I remove users and seats after exceeding my number of prepaid seats?
+We recommend working with our sales team to figure out the right allocation of seats for your needs. That said, removing a user and decreasing the number of seats right after an overage occurrence does not remove the charge on the account.
+When and how do overages appear in my billing invoice?
+Overages will appear on the invoice for your next billing cycle. It will reflect the current user count, plus the partial-month bill for the previous month.
+Features
+What's the benefit of Access Control Lists (ACLs)? How are user roles and SCIM different in paid plans?
+ACLs enable the adoption of least-privileged access, a core tenet of Zero Trust networking. Before joining your tailnet, every user is authenticated using an identity provider (IdP) such as Okta, Azure AD, or GitHub. ACL tags allow you to assign an identity to your devices. This is available for all plans!
+Plans differ in the number of ACL groups and user roles available. Personal tailnets get access to the basic user roles of Owner, Admin, and Member. Paid plans can access advanced user roles to further segment their users and apply policies at scale.
+Additionally, user provisioning through SCIM, which was previously only available to Enterprise plans, is now accessible to all paid plans!
+What is the difference in logging at the Premium and Enterprise tiers?
+All plans get access to Webhooks and Configuration audit logs!
+Webhooks let you subscribe to events on your Tailscale network and process the event notifications through an integration or app. Configuration audit logs let you identify who did what, and when, in your tailnet.
+While previously exclusive to our highest tier, Premium and higher plans can now access network flow logs, which let you understand how and when nodes on your tailnet connect. Log streaming is also available, allowing you to collect and send configuration audit logs or network flow logs about your tailnet to systems like a SIEM.
+What is the difference between basic Tailscale SSH and advanced Tailscale SSH?
+Tailscale SSH is available on all plans as a powerful feature that lets Tailscale manage the authentication and authorization of SSH connections within your tailnet.
+Advanced Tailscale SSH further enables functionality like non-default check mode length and localpart username matching.
+For Advanced Tailscale SSH, is check mode available on the Personal plan? What about non-default check mode lengths?
+Check mode itself is available for all plans, including the Personal plan.
+To change the check mode length from the default value
+, a Premium or Enterprise plan is required.
+What is the difference between basic device posture and device posture with integrations and geolocation?
+Tailscale provides device posture information like OS and Tailscale version to all plans!
+Paid plans extend this further with MDM, EDR, and XDR integrations, such as with CrowdStrike, SentinelOne, XAM, and more. Geolocation adds even more information with identity collection.
+How is MDM functionality different in paid plans?
+Deployment with MDM is available on all plans! This enables streamlined deployment at scale. Going deeper with configuration through MDM is available for paid plans.
+What is included in Priority and Premium support?
+With priority and premium support, requests from Premium and Enterprise customers are prioritized and moved to the front of the queue, where our team will get back to you as soon as possible. If you're in need of a guaranteed response time SLA, contact sales to discuss our additional support and onboarding packages.
+Have more questions about our pricing?
+Contact our sales team for more details.

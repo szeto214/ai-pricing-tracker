@@ -1,0 +1,581 @@
+{
+  "slug": "northflank",
+  "name": "Northflank",
+  "vendor": "Northflank",
+  "category": "dev-infra",
+  "url": "https://northflank.com/pricing",
+  "final_url": "https://northflank.com/pricing",
+  "content_hash": "2c149787edf4a5c941f44abb969e45806b9f4ac951e0e75f66884399feab1e1e",
+  "raw_hash": "3645cff6a177b0d1da60de5336787270b41ff92e8cf4e8358840549358819c8e",
+  "text_bytes": 13998,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Network Egress",
+      "price_raw": "$ 0.06",
+      "amount": 0.06,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Disk",
+      "price_raw": "$ 0.15",
+      "amount": 0.15,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "You’re in good company",
+      "price_raw": "$24M",
+      "amount": 24000000.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Pricing",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    }
+  ],
+  "tables": [
+    {
+      "caption": "",
+      "rows": [
+        [
+          "",
+          "Developer Try for free →",
+          "Pay as you go Get started →",
+          "Enterprise Get in touch →"
+        ],
+        [
+          "Resources",
+          ""
+        ],
+        [
+          "Projects Organise your Northflank resources",
+          "",
+          "2",
+          "∞",
+          "∞"
+        ],
+        [
+          "Services Build and deploy your code and custom Docker images",
+          "",
+          "2",
+          "∞",
+          "∞"
+        ],
+        [
+          "Jobs Run your code on a cron schedule or as a one off",
+          "",
+          "2",
+          "∞",
+          "∞"
+        ],
+        [
+          "Addons Deploy databases and other stateful services",
+          "",
+          "1",
+          "∞",
+          "∞"
+        ],
+        [
+          "Secret groups Secure and inject environment variables and other secrets",
+          "",
+          "∞",
+          "∞",
+          "∞"
+        ],
+        [
+          "Pipelines Set up complex release and deployment pipelines",
+          "",
+          "∞",
+          "∞",
+          "∞"
+        ],
+        [
+          "Compute Meet vCPU and memory requirements",
+          "",
+          "Limited",
+          "∞",
+          "∞"
+        ],
+        [
+          "Custom compute plans Request custom vCPU + memory combinations",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Build",
+          ""
+        ],
+        [
+          "Continuous integration Build all new commits or create branch & PR rules",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Build with Dockerfiles Build anything with a custom Dockerfile",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Build with Buildpacks Build with zero configuration using Buildpacks",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Advanced builds Caching, target Docker stage, skip and path rules",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Version control",
+          ""
+        ],
+        [
+          "GitHub, GitLab & Bitbucket integration Build and deploy from your preferred VCS",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Self-hosted GitLab integration Build and deploy from your self-hosted GitLab instance",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Azure DevOps integration Build and deploy from your Azure DevOps or Entra app",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Deployment",
+          ""
+        ],
+        [
+          "Continuous deployment Automatically deploy changes on build and merge",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Continuous delivery Release changes to staging and production environments",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Deploy container images built on Northflank Deploy any commit you’ve built on Northflank in seconds",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Deploy container images from external registries Deploy Docker images from public & private registries",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Rollback and select specific builds Rapidly rollback or switch between your stored builds",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Volumes and persistence Easily attach, scale and mount persistent disks to your workloads",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "GPUs Run LLMs, ML inference, training and Jupyter notebooks seamlessly",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Secure runtime & sandboxing Run untrusted code and multi-tenant workloads in a secure sandbox",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Time-slicing & MIG Run multiple containers or multi-tenant workloads on the same GPU node cost effectively",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Multi read write volumes High performance ReadWriteMany (RWX) volumes for AI & stateful workloads",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Platform",
+          ""
+        ],
+        [
+          "UI / API / CLI access Use Northflank via the app, API, or command line",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Templates Codify infrastructure in reusable IaC",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "GitOps Manage your templates and releases with Git",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Workflows Automated workflows with triggers for advanced releases, data pipelines, backups and more",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Real-time platform Work in a fully reactive environment",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Platform SDK Build and deliver your own comprehensive platform utilising Northflank’s APIs",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Teams",
+          ""
+        ],
+        [
+          "Users Scale up as your organisation grows",
+          "",
+          "∞",
+          "∞",
+          "∞"
+        ],
+        [
+          "Fine-grained RBAC Assign roles with detailed permissions to individual members",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Organisations Handle organisations with multiple independent teams",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "SAML & OIDC Advanced authorisation and authentication",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Audit logging Advanced audit logging",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Networking",
+          ""
+        ],
+        [
+          "Custom domains Point your own domains at Northflank services",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Automatic TLS & DNS Free TLS and global DNS on the code.run domain",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Load balancing across instances Scale up to multiple instances and get auto load balancing",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Northflank proxy Access your private services & databases via our CLI proxy",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Service mesh and mTLS Cloud native service mesh with end-to-end encryption",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Network security Create IP policies and basic authentication rules",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Egress IP & Gateway Route egress traffic via a gateway for static IPs",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Databases",
+          ""
+        ],
+        [
+          "Datastores you know and love PostgreSQL, MySQL, MongoDB®, Redis®, and more",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Queues Use events and message brokers with RabbitMQ & Redis",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "High availability Spin up multiple replicas of your stateful services",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Backups & restores Make and restore dumps & disk images of your databases",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Fork databases Create a new database from the existing state of another",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Zonal redundancy Run database replicas across multiple availability zones",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Scaling",
+          ""
+        ],
+        [
+          "Vertical scaling Give your instances more CPU & RAM resources",
+          "",
+          "Limited",
+          "",
+          ""
+        ],
+        [
+          "Horizontal scaling Deploy multiple replicas of your services and addons",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Autoscaling Automatically scale based on usage thresholds",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Observability",
+          ""
+        ],
+        [
+          "Real-time log tailing Stream your application logs in real time",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Real-time metrics View CPU usage, memory consumption, and more",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Log manipulation Powerful log searching and filtering",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "30 day retention Logs and metrics are retained for a month",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Log sinks Stream your logs in real-time to 3rd party observability platforms",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Alerting Trigger alerts based on important container events",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Notifications Send platform events to Slack, Email, Discord, Teams, and Webhooks",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Audit logging Maintain a log of all actions and events within your org",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Cloud and Regions",
+          ""
+        ],
+        [
+          "Northflank’s managed cloud Run workloads on Northflank’s multi-tenant cloud",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Northflank’s regions Choose from many regions distributed globally",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Cloud providers Link your GCP, AWS, Azure and Civo accounts",
+          "",
+          "1",
+          "All",
+          "All"
+        ],
+        [
+          "AWS Deploy in minutes with your AWS account with Amazon Elastic Kubernetes Service (EKS)",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Azure Deploy in minutes with your Azure account and Azure Kubernetes Service (AKS)",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "GCP Deploy in minutes with your GCP account with Google Kubernetes Engine (GKE)",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "CoreWeave Deploy in minutes with your CoreWeave GPUs with Kubernetes",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Oracle Deploy in minutes with your Oracle Kubernetes",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    }
+  ],
+  "extract_errors": []
+}

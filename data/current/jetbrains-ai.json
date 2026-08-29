@@ -5,9 +5,9 @@
   "category": "ai-coding",
   "url": "https://www.jetbrains.com/ai-ides/buy/",
   "final_url": "https://www.jetbrains.com/ai-ides/buy/?section=personal&billing=yearly",
-  "content_hash": "fd0e3b5284e94e57c2bcb0b17a32474abb82959c1daa805c2f986d607a27f8be",
-  "raw_hash": "7f7e20d15f4c475bcc33eedbbb6b18f78812e6c55dd6a94a1fca9cb61ebb0551",
-  "text_bytes": 11000,
+  "content_hash": "61efdaed128a42526ad0af27da6e4a4e462540b35e3db789a5b6b830696571e4",
+  "raw_hash": "a202ad2b96eb628dbc006ba81fda1b04b017e6e2e175b9ba91ce04ffe6a5548b",
+  "text_bytes": 4576,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

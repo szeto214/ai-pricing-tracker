@@ -1,0 +1,122 @@
+{
+  "slug": "redis",
+  "name": "Redis Cloud",
+  "vendor": "Redis",
+  "category": "database",
+  "url": "https://redis.io/pricing/",
+  "final_url": "https://redis.io/pricing/",
+  "content_hash": "940ba25b68915fe3e2ea535309e1303b3b6e9f714022452b1d4d2d37fbc0d911",
+  "raw_hash": "0f119eed684e9de198507085fefe792150eb5208c9ee0d609e75dc0d86bcc82f",
+  "text_bytes": 4263,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Let's talk numbers",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "hour",
+      "features": []
+    },
+    {
+      "name": "General",
+      "price_raw": "$0.00",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "hour",
+      "features": []
+    },
+    {
+      "name": "Free",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "hour",
+      "features": []
+    },
+    {
+      "name": "Essentials",
+      "price_raw": "$0.00",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "hour",
+      "features": []
+    }
+  ],
+  "tables": [
+    {
+      "caption": "",
+      "rows": [
+        [
+          "General"
+        ],
+        [
+          "Availability",
+          "AWS, Azure, GCP",
+          "AWS, Azure, GCP",
+          "AWS, Azure, GCP",
+          "AWS, GCP"
+        ],
+        [
+          "Sold through",
+          "Direct/partner marketplaces",
+          "Direct/partner marketplaces",
+          "Direct/partner marketplaces",
+          "Direct/partner marketplaces"
+        ],
+        [
+          "Pricing methodology",
+          "On demand",
+          "On demand",
+          "On demand",
+          "On demand, annual"
+        ],
+        [
+          "Data transfer",
+          "Included in price, limited",
+          "Included in price, limited",
+          "Included in price, limited",
+          "Usage based"
+        ],
+        [
+          "Architecture",
+          "RAM, SSD, shared",
+          "RAM only, shared",
+          "RAM, SSD, shared",
+          "RAM, SSD, dedicated"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Deployment"
+        ],
+        [
+          "Active-Passive global distribution",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Active-Active global distribution",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Multi-cloud & hybrid cloud/ on-prem deployment",
+          "",
+          "",
+          "",
+          "Available with an annual plan Talk to sales"
+        ]
+      ]
+    }
+  ],
+  "extract_errors": []
+}

@@ -5,9 +5,9 @@
   "category": "dev-infra",
   "url": "https://auth0.com/pricing",
   "final_url": "https://auth0.com/pricing",
-  "content_hash": "e71a681283348a457e7b8776c65af1b1d2b3f34657534d6a56ac9532aac6ae2d",
+  "content_hash": "1708802b99140c1660d40effedaa6654e910b2139b2afe9fee65ca8cd1adbd4e",
   "raw_hash": "06b0971442bf50696b9227288dca189542fcb59ef6e1a85627c177a6143d1e67",
-  "text_bytes": 16545,
+  "text_bytes": 13021,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

@@ -1,0 +1,65 @@
+{
+  "slug": "typeform",
+  "name": "Typeform",
+  "vendor": "Typeform",
+  "category": "productivity",
+  "url": "https://www.typeform.com/pricing/",
+  "final_url": "https://www.typeform.com/pricing",
+  "content_hash": "78f673d5f9edda3a4034e26c917b71e9c55c336b1de5ca4b57f703fe459f43d4",
+  "raw_hash": "85be324330b0098c132a43f5d55aa06b853c0412b02699c322aef1b44912d956",
+  "text_bytes": 19926,
+  "extractor": "jsonld",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Typeform Subscription Plans",
+      "price_raw": "28.00",
+      "amount": 28.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Basic Plan",
+      "price_raw": "28.00",
+      "amount": 28.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Plus Plan",
+      "price_raw": "56.00",
+      "amount": 56.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Business Plan",
+      "price_raw": "91.00",
+      "amount": 91.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Talent Plan",
+      "price_raw": "119.00",
+      "amount": 119.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Growth Pro",
+      "price_raw": "266.00",
+      "amount": 266.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    }
+  ],
+  "tables": [],
+  "extract_errors": []
+}

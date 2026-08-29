@@ -1,0 +1,529 @@
+{
+  "slug": "windmill",
+  "name": "Windmill",
+  "vendor": "Windmill",
+  "category": "automation",
+  "url": "https://www.windmill.dev/pricing",
+  "final_url": "https://www.windmill.dev/pricing",
+  "content_hash": "ff5d6e2ae80535085dc995f491bc67768cecef92b33f87f5f66642829d19bb03",
+  "raw_hash": "39eee57020528d70be239876249d33b9175ceeab1d11cc30239a1ee7f227a670",
+  "text_bytes": 15654,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Price",
+      "price_raw": "$170",
+      "amount": 170.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Summary",
+      "price_raw": "$170",
+      "amount": 170.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    }
+  ],
+  "tables": [
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Feature",
+          "tier-free-selfhost tier",
+          "tier-enterprise-selfhost tier"
+        ],
+        [
+          "Executions per month",
+          "Unlimited",
+          "Unlimited"
+        ],
+        [
+          "Number of workspaces",
+          "3",
+          "Unlimited"
+        ],
+        [
+          "Maximum number of users",
+          "50",
+          "Unlimited"
+        ],
+        [
+          "Variables, resources, scripts, apps, flows",
+          "Unlimited",
+          "Unlimited"
+        ],
+        [
+          "Groups, folders and granular permissions",
+          "Maximum 4 groups",
+          "Unlimited"
+        ],
+        [
+          "All open source features",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Public apps",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Oracle DB and MS SQL runtimes as languages (including as dbt adapters)",
+          "No",
+          "Yes"
+        ],
+        [
+          "Multiplayer on WebIDE",
+          "No",
+          "Yes"
+        ],
+        [
+          "Content search",
+          "No",
+          "Yes"
+        ],
+        [
+          "Workspace object storage",
+          "10 GiB storage quota",
+          "Unlimited"
+        ],
+        [
+          "Write-audit-publish for pipeline data tests (failing tests roll back the write)",
+          "No",
+          "Yes"
+        ],
+        [
+          "Range backfill for partitioned pipelines",
+          "Single-partition runs only",
+          "Yes"
+        ],
+        [
+          "Freshness watchdog (auto re-run of stale pipeline assets)",
+          "Fresh/stale badge only",
+          "Yes"
+        ],
+        [
+          "Email triggers",
+          "Max 100 emails per day",
+          "Unlimited"
+        ],
+        [
+          "Postgres triggers",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "WebSocket triggers",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "MQTT triggers ⓘ Self-hosted only",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Kafka triggers",
+          "No",
+          "Yes"
+        ],
+        [
+          "NATS triggers",
+          "No",
+          "Yes"
+        ],
+        [
+          "SQS triggers",
+          "No",
+          "Yes"
+        ],
+        [
+          "GCP triggers",
+          "No",
+          "Yes"
+        ],
+        [
+          "Azure Event Grid triggers",
+          "No",
+          "Yes"
+        ],
+        [
+          "Private Hub",
+          "No",
+          "Yes"
+        ],
+        [
+          "Commercial licence",
+          "No",
+          "Yes"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Feature",
+          "tier-free-selfhost tier",
+          "tier-enterprise-selfhost tier"
+        ],
+        [
+          "Number of users with SSO",
+          "10",
+          "Uncapped (requires seats)"
+        ],
+        [
+          "Workspace secret custom encryption",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "External secret backends (HashiCorp Vault, Azure Key Vault, AWS Secrets Manager)",
+          "No",
+          "Yes"
+        ],
+        [
+          "IAM database authentication for AWS RDS / Aurora ⓘ Self-hosted Enterprise only",
+          "No",
+          "Yes"
+        ],
+        [
+          "Entra ID database authentication for Azure PostgreSQL and MS SQL ⓘ Self-hosted Enterprise only",
+          "No",
+          "Yes"
+        ],
+        [
+          "Workspace service accounts",
+          "No",
+          "Yes"
+        ],
+        [
+          "Instance-level roles via instance groups",
+          "No",
+          "Yes"
+        ],
+        [
+          "Custom OAuth",
+          "No",
+          "Yes"
+        ],
+        [
+          "SAML & SCIM support including groups synchronization",
+          "No",
+          "Yes"
+        ],
+        [
+          "External auth with JWT (each unique user per email+scope+instance billed as 1/2 seat)",
+          "No",
+          "Yes"
+        ],
+        [
+          "Support level",
+          "Community support on Discord",
+          "24/7 Priority support with 3h response and dedicated Slack channel"
+        ],
+        [
+          "SOC 2 Type II report",
+          "No",
+          "Yes"
+        ],
+        [
+          "Design partners for roadmap",
+          "No",
+          "Yes"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Feature",
+          "tier-free-selfhost tier",
+          "tier-enterprise-selfhost tier"
+        ],
+        [
+          "Audit logs",
+          "No",
+          "Unlimited"
+        ],
+        [
+          "Retention period of jobs runs details",
+          "<= 30 days",
+          "Unlimited"
+        ],
+        [
+          "Schedule error handler",
+          "No",
+          "Yes"
+        ],
+        [
+          "Workspace error handler",
+          "No",
+          "Yes"
+        ],
+        [
+          "Queue metrics",
+          "No",
+          "Yes"
+        ],
+        [
+          "Prometheus metrics",
+          "No",
+          "Yes"
+        ],
+        [
+          "HTTP tracing",
+          "No",
+          "Yes"
+        ],
+        [
+          "OpenTelemetry tracing & logging",
+          "No",
+          "Yes"
+        ],
+        [
+          "Service logs storage on S3",
+          "No",
+          "Yes"
+        ],
+        [
+          "Instance events webhook",
+          "No",
+          "Yes"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Feature",
+          "tier-free-selfhost tier",
+          "tier-enterprise-selfhost tier"
+        ],
+        [
+          "Deployment on Fargate / Docker / Kubernetes ⓘ Self-hosted only",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Isolated & dedicated workers and database ⓘ Cloud only",
+          "No",
+          "No"
+        ],
+        [
+          "Deploy from GitHub",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Sync Windmill to a git repository (Git sync)",
+          "Up to 2 users",
+          "Yes"
+        ],
+        [
+          "Agent workers",
+          "No",
+          "Yes"
+        ],
+        [
+          "SSH execution (#ssh directive)",
+          "No",
+          "Yes"
+        ],
+        [
+          "GitHub App",
+          "No",
+          "Yes"
+        ],
+        [
+          "Deploy to staging/prod web UI",
+          "No",
+          "Yes"
+        ],
+        [
+          "\"Run on behalf of\" selector when deploying across workspaces",
+          "No",
+          "Yes"
+        ],
+        [
+          "Workspace forks ⓘ Self-hosted only — global 3-workspace limit applies on Community Edition",
+          "Counts toward 3-workspace limit",
+          "Yes"
+        ],
+        [
+          "Dev workspaces (persistent fork paired with a lockable prod workspace) ⓘ Self-hosted only — locking the prod workspace reuses protection rulesets (Enterprise)",
+          "Counts toward 3-workspace limit",
+          "Yes"
+        ],
+        [
+          "Infrastructure as code & Kubernetes operator ⓘ Self-hosted only",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "CI test scripts with auto-trigger on deploy",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "OpenID Connect (OIDC)",
+          "No",
+          "Yes"
+        ],
+        [
+          "Codebases & bundles",
+          "No",
+          "Yes"
+        ],
+        [
+          "Private PyPI repositories & npm registries and packages",
+          "No",
+          "Yes"
+        ],
+        [
+          "Workspace dependencies (centralized dependency files)",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Distributed dependency cache backed by S3",
+          "No",
+          "Yes"
+        ],
+        [
+          "Windows workers ⓘ Self-hosted only",
+          "No",
+          "Yes"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Feature",
+          "tier-free-selfhost tier",
+          "tier-enterprise-selfhost tier"
+        ],
+        [
+          "Worker group management UI (incl. Init scripts) ⓘ Only available on self-hosting and enterprise edition on private clusters",
+          "No",
+          "Yes"
+        ],
+        [
+          "Autoscaling ⓘ Self-hosted only",
+          "No",
+          "Yes"
+        ],
+        [
+          "Critical alerts",
+          "No",
+          "Yes"
+        ],
+        [
+          "Script-specific workers (dedicated) / High throughput",
+          "No",
+          "Yes"
+        ],
+        [
+          "Concurrency limits",
+          "No",
+          "Yes"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Feature",
+          "tier-free-selfhost tier",
+          "tier-enterprise-selfhost tier"
+        ],
+        [
+          "Priority for steps ⓘ Self-hosted only",
+          "No",
+          "Yes"
+        ],
+        [
+          "Restart deployed flows from any node and version",
+          "No",
+          "Yes"
+        ],
+        [
+          "Lifetime / Delete after use",
+          "No",
+          "Yes"
+        ],
+        [
+          "Approval steps - Adding forms",
+          "No",
+          "Yes"
+        ],
+        [
+          "Approval steps - Adding prompts (self-approval)",
+          "No",
+          "Yes"
+        ],
+        [
+          "Approval steps - Require approvers to be logged in",
+          "No",
+          "Yes"
+        ],
+        [
+          "Approval steps - Disable self-approval",
+          "No",
+          "Yes"
+        ],
+        [
+          "Approval steps - Require approvers to be members of a group",
+          "No",
+          "Yes"
+        ],
+        [
+          "Workflows as code v2 (checkpoint/replay orchestration)",
+          "Yes",
+          "Yes"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Feature",
+          "tier-free-selfhost tier",
+          "tier-enterprise-selfhost tier"
+        ],
+        [
+          "Global CSS",
+          "No",
+          "Yes"
+        ],
+        [
+          "Send schedule reports of Apps (png or pdf) through Slack, Discord or e-mail",
+          "No",
+          "Yes"
+        ],
+        [
+          "Workspace default app",
+          "No",
+          "Yes"
+        ],
+        [
+          "Importing custom React components",
+          "No",
+          "Yes"
+        ]
+      ]
+    }
+  ],
+  "extract_errors": []
+}

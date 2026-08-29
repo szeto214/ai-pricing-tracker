@@ -1,197 +1,3 @@
-Inference
-Serverless Inference
-High-performance inference as APIs
-Batch Inference
-Inference for batch workloads
-Provisioned Throughput
-Token-based capacity with SLAs
-Dedicated Model Inference
-Inference on custom hardware
-Dedicated Container Inference
-Inference for custom models
-MiniMax M3
-Gemma 4 31B
-DeepSeek V4 Pro
-GLM-5.2
-kimi K2.7 Code
-gpt-oss-120B
-Model library
-Explore the top open-source models
-Compute
-Accelerated Compute
-GPU Clusters
-Reliable GPU clusters at scale
-AI Factory
-Custom infrastructure at frontier scale
-Developer Environments
-Sandbox
-Build development environments for AI
-Storage
-Managed Storage
-Store model weights & data securely
-GB300
-GB200
-B200
-H200
-H100
-Model Shaping
-Custom Training
-From reinforcement learning to full control
-Fine-Tuning
-Shape models with your data
-Evaluations
-Measure model quality
-kimi K2.7 Code
-Gemma 4 31B-it FP8
-GLM 5.1 FP4
-gpt-oss-120b
-Qwen3.5 397B A17b
-Llama 4 Maverick
-Model library
-Fine-tune top open-source models
-Research
-Research
-Systems research for production AI
-Research blog
-All our research publications
-Featured publications
-FlashAttention
-ATLAS
-Kernel Collection
-ThunderKittens
-DSGym
-Show all
-Developers
-Documentation
-Technical docs for Together AI
-Demos
-Our open-source demo apps
-Cookbooks
-Practical implementation guides
-Voice Agents
-Build voice agents for production
-Open-source AI
-Build better with open models
-Model Library
-Playground
-Together Chat
-Which LLM to use
-Open-source ROI calculator
-Company
-Resources
-Customer stories
-Testimonials from AI Natives
-Startup accelerator
-Build and scale your startup
-Customer support
-Find answers to your questions
-Blog
-Our latest news & blog posts
-Events
-Explore our events calendar
-Company
-About
-Get to know us
-Careers
-Join our mission
-Press
-Together in the news
-Pricing
-Serverless Inference
-High-performance inference as APIs
-Batch Inference
-Inference for batch workloads
-Provisioned Throughput
-Token-based capacity with SLAs
-Dedicated Model Inference
-Inference on custom hardware
-Dedicated Container Inference
-Inference for custom models
-MiniMax M3
-Gemma 4 31B
-DeepSeek V4 Pro
-GLM-5.2
-kimi K2.7 Code
-gpt-oss-120B
-Model library
-Explore the top open-source models
-Accelerated Compute
-GPU Clusters
-Reliable GPU clusters at scale
-AI Factory
-Custom infrastructure at frontier scale
-Developer Environments
-Sandbox
-Build development environments for AI
-Storage
-Managed Storage
-Store model weights & data securely
-GB300
-GB200
-B200
-H200
-H100
-Custom Training
-From reinforcement learning to full control
-Fine-Tuning
-Shape models with your data
-Evaluations
-Measure model quality
-kimi K2.7 Code
-Gemma 4 31B-it FP8
-GLM 5.1 FP4
-gpt-oss-120b
-Qwen3.5 397B A17b
-Llama 4 Maverick
-Model library
-Fine-tune top open-source models
-Research
-Systems research for production AI
-Research blog
-All our research publications
-Featured publications
-FlashAttention
-ATLAS
-Kernel Collection
-ThunderKittens
-DSGym
-Show all
-Documentation
-Technical docs for Together AI
-Demos
-Our open-source demo apps
-Cookbooks
-Practical implementation guides
-Voice Agents
-Build voice agents for production
-Open-source AI
-Build better with open models
-Model Library
-Playground
-Together Chat
-Which LLM to use
-Open-source ROI calculator
-Resources
-Customer stories
-Testimonials from AI Natives
-Startup accelerator
-Build and scale your startup
-Customer support
-Find answers to your questions
-Blog
-Our latest news & blog posts
-Events
-Explore our events calendar
-Company
-About
-Get to know us
-Careers
-Join our mission
-Press
-Together in the news
-Contact sales
-Contact sales
-Sign in
 INFERENCE
 Serverless Inference
 Provisioned Throughput
@@ -230,11 +36,6 @@ $0.30
 $0.06
 (cached)
 $1.20
-GLM-5.2
-$1.40
-$0.26
-(cached)
-$4.40
 Kimi K3
 $3.00
 $0.30
@@ -246,10 +47,10 @@ $0.03
 (cached)
 $0.28
 Qwen3.8-2.4T-A95B
-$2.50
-$0.50
+$2.00
+$0.25
 (cached)
-$6.25
+$6.00
 Muse Glimmer 30B
 $0.35
 $0.04
@@ -260,6 +61,11 @@ $1.32
 $0.13
 (cached)
 $3.96
+GLM-5.3
+$1.40
+$0.26
+(cached)
+$4.40
 GLM-5.3-Flash
 $0.15
 $0.03
@@ -271,6 +77,11 @@ $0.97
 Qwen3.7-Plus
 $0.32
 $1.28
+GLM-5.2
+$1.40
+$0.26
+(cached)
+$4.40
 Ternary Bonsai 27B
 $0.00
 $0.00
@@ -347,8 +158,8 @@ Kimi K3
 $3.00
 $15.00
 Qwen3.8-2.4T-A95B
-$2.50
-$6.25
+$2.00
+$6.00
 Muse Glimmer 30B
 $0.35
 $1.50
@@ -840,44 +651,3 @@ $22.00
 Price is based on the sum of tokens processed in the fine-tuning training dataset (training dataset size * number of epochs) plus any tokens in the optional evaluation dataset (validation dataset size * number of evaluations).
 No matching models
 Trusted by
-Start building on Together AI
-From optimized training and model shaping to large-scale production inference
-Get Started now
-Products
-Accelerated Compute
-Serverless Inference
-Provisioned Throughput
-Dedicated Inference
-Fine-Tuning
-Sandbox
-Evaluations
-Models
-See all models
-DeepSeek
-Meta
-Qwen
-Google
-OpenAI
-Mistral AI
-Custom models
-Developers
-Research
-Docs
-Open-source AI
-OSS ROI calculator
-Pricing
-Pricing overview
-Inference
-Fine-Tuning
-GPU Clusters
-Resources
-Blog
-About us
-Careers
-Customer Stories
-Support
-Privacy Policy
-Terms of service
-Cookie Policy
-Consent Preferences
-© 2026 Together AI. All Rights Reserved.

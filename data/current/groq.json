@@ -5,9 +5,9 @@
   "category": "ai-api",
   "url": "https://groq.com/pricing",
   "final_url": "https://groq.com/",
-  "content_hash": "632381c2dc076f662eef2daf20ae5ded41ffd6ecf8ffd08cdbe9fc494e084f31",
-  "raw_hash": "6218e01de33a1264cafab1d34cba45c036eb3007f7aa9ce4d49d1a068a7a2ddc",
-  "text_bytes": 283,
+  "content_hash": "756ec4812c7de6da27aa3fa28b10aeb411f759f4b234329a30c25b371f4476cc",
+  "raw_hash": "e0203d60722b5d0ee03af4a278e864198018b6cc7565c2bb3f0290325cb06fe5",
+  "text_bytes": 108,
   "extractor": "dom",
   "confidence": "low",
   "plans": [

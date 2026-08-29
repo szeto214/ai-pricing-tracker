@@ -1,0 +1,671 @@
+{
+  "slug": "shopify",
+  "name": "Shopify",
+  "vendor": "Shopify",
+  "category": "productivity",
+  "url": "https://www.shopify.com/pricing",
+  "final_url": "https://www.shopify.com/pricing",
+  "content_hash": "7ab7ca3d138314ccc622d7f52e99be7fd445ffcf47ba9f015e1372c60dd93833",
+  "raw_hash": "cc595bd59e434a619c025ed31d6965feab21b7df7bb715cc6d4a86cfe225cb0a",
+  "text_bytes": 15225,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "You've got plans. Us too.",
+      "price_raw": "$1",
+      "amount": 1.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Basic",
+      "price_raw": "$29",
+      "amount": 29.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Sell online, in person, and in AI chats",
+      "price_raw": "$5,000",
+      "amount": 5000.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Grow",
+      "price_raw": "$79",
+      "amount": 79.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Everything in Basic",
+      "price_raw": "$7,500",
+      "amount": 7500.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Advanced",
+      "price_raw": "$299",
+      "amount": 299.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Everything in Grow",
+      "price_raw": "$10,000",
+      "amount": 10000.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Plus",
+      "price_raw": "$2,300",
+      "amount": 2300.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Level up your stores with:",
+      "price_raw": "$89",
+      "amount": 89.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Unlimited staff roles & permissions",
+        "In-store inventory management",
+        "In-store pickup & flexible delivery"
+      ]
+    },
+    {
+      "name": "Word on the street",
+      "price_raw": "$1.1",
+      "amount": 1.1,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Earn 1% back on all sales",
+      "price_raw": "$5,000",
+      "amount": 5000.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "POS Pro: Advanced tools for brick‑and‑mortar ret",
+      "price_raw": "$89",
+      "amount": 89.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "50 synced marketplace orders per month",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Over 50 synced marketplace orders",
+      "price_raw": "$99",
+      "amount": 99.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Compare all features",
+      "price_raw": "$399",
+      "amount": 399.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Pay monthly",
+      "price_raw": "$39",
+      "amount": 39.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Pay yearly",
+      "price_raw": "$29",
+      "amount": 29.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    }
+  ],
+  "tables": [
+    {
+      "caption": "Compare features across Shopify plans",
+      "rows": [
+        [
+          "Compare all features",
+          "Basic Start for free",
+          "Grow Start for free",
+          "Advanced Start for free",
+          "Plus Try for $399"
+        ],
+        [
+          "Pricing"
+        ],
+        [
+          "Pay monthly",
+          "$39 USD/mo",
+          "$105 USD/mo",
+          "$399 USD/mo",
+          "Starts at $2,300 USD/mo"
+        ],
+        [
+          "Pay yearly",
+          "$29 USD/mo",
+          "$79 USD/mo",
+          "$299 USD/mo",
+          ""
+        ],
+        [
+          "Core features"
+        ],
+        [
+          "Earn 1% back on all sales",
+          "Up to $5,000 USD",
+          "Up to $7,500 USD",
+          "Up to $10,000 USD",
+          "Up to $15,000 USD"
+        ],
+        [
+          "Online store",
+          "Full-featured",
+          "Full-featured",
+          "Full-featured",
+          "Full-featured"
+        ],
+        [
+          "Themes and templates",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Sell unlimited products",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "World's best-converting checkout",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Sell on social and marketplaces",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Sell in AI chats",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Shopify B2B",
+          "Up to 3 catalogs",
+          "Up to 3 catalogs",
+          "Up to 3 catalogs",
+          "Unlimited catalogs"
+        ],
+        [
+          "Inventory management",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Inventory locations",
+          "10",
+          "10",
+          "10",
+          "200"
+        ],
+        [
+          "Additional staff accounts",
+          "",
+          "5",
+          "15",
+          "Unlimited"
+        ],
+        [
+          "Invite third-party collaborators",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Sell and source products with Shopify Collective",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "200+ real-time reports, plus custom analytics",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "24/7 support",
+          "Live chat",
+          "Live chat",
+          "Enhanced live chat",
+          "Priority support"
+        ],
+        [
+          "Free Shopify Academy courses",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "In-person sales"
+        ],
+        [
+          "Casual, in-person sales at pop-ups and events",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "POS Pro: Advanced tools for brick‑and‑mortar retailers",
+          "$89/mo per location",
+          "$89/mo per location",
+          "$89/mo per location",
+          "Includes 20 locations. Up to 200 with Shopify Payments."
+        ],
+        [
+          "AI features"
+        ],
+        [
+          "Website builder",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Millions of tokens",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Sidekick, AI assistant for commerce",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Accepting payments"
+        ],
+        [
+          "Shopify Payments",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Online standard card rates",
+          "2.9% + 30¢",
+          "2.7% + 30¢",
+          "2.5% + 30¢",
+          "Most competitive rates"
+        ],
+        [
+          "Online premium card rates",
+          "3.5% + 30¢",
+          "3.3% + 30¢",
+          "3.1% + 30¢",
+          "Most competitive rates"
+        ],
+        [
+          "Online international rates",
+          "+ 1%",
+          "+ 1%",
+          "+ 1%",
+          "Most competitive rates"
+        ],
+        [
+          "PayPal Wallet rates",
+          "Starting at 3.49% + 49¢",
+          "Starting at 3.49% + 49¢",
+          "Starting at 3.49% + 49¢",
+          "Most competitive rates"
+        ],
+        [
+          "MB WAY rates",
+          "3.9% + 30¢",
+          "3.7% + 30¢",
+          "3.5% + 30¢",
+          "Most competitive rates"
+        ],
+        [
+          "Bizum rates",
+          "3.9% + 30¢",
+          "3.7% + 30¢",
+          "3.5% + 30¢",
+          "Most competitive rates"
+        ],
+        [
+          "In-person card rates",
+          "2.6% + 10¢",
+          "2.5% + 10¢",
+          "2.4% + 10¢",
+          "Most competitive rates"
+        ],
+        [
+          "USDC rates",
+          "2.9% + 30¢",
+          "2.7% + 30¢",
+          "2.5% + 30¢",
+          "Most competitive rates"
+        ],
+        [
+          "In-person manual rates",
+          "3.5% + 10¢",
+          "3.5% + 10¢",
+          "3.5% + 10¢",
+          "Most competitive rates"
+        ],
+        [
+          "Third-party transaction fees",
+          "2%",
+          "1%",
+          "0.6%",
+          "0.2%"
+        ],
+        [
+          "Built-in fraud analysis*",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "*Requires Shopify Payments"
+        ],
+        [
+          "Hosting"
+        ],
+        [
+          "Unlimited web hosting",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Custom domain name",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Free SSL certificate",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Marketing"
+        ],
+        [
+          "Unlimited contacts",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Create customer segments",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Create email campaigns",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Pay-per-send SMS campaigns",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Capture customer leads",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Chat with customers",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Create marketing automations",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Abandoned checkout recovery",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Create and share discount codes",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Sell gift cards",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Acquire customers risk-free with Shop Campaigns",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Shipping"
+        ],
+        [
+          "Shipping discounts",
+          "Up to 87% off",
+          "Up to 87% off",
+          "Up to 87% off",
+          "Up to 87% off"
+        ],
+        [
+          "Buy and print shipping labels",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Shipping insurance*",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "3rd-party calculated shipping rates",
+          "",
+          "Add on",
+          "",
+          ""
+        ],
+        [
+          "*Requires Shopify Payments"
+        ],
+        [
+          "Marketplaces"
+        ],
+        [
+          "Import unlimited orders from marketplaces",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "50 synced marketplace orders per month",
+          "Free",
+          "Free",
+          "Free",
+          "Free"
+        ],
+        [
+          "Over 50 synced marketplace orders",
+          "1% up to $99/mo",
+          "1% up to $99/mo",
+          "1% up to $99/mo",
+          "1% up to $99/mo"
+        ],
+        [
+          "Customization"
+        ],
+        [
+          "Integrate with 1000s of apps",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Checkout customization",
+          "Limited",
+          "Limited",
+          "Limited",
+          "Full"
+        ],
+        [
+          "Build custom apps using Shopify APIs",
+          "Limited data access",
+          "Full data access",
+          "Full data access",
+          "Full data access"
+        ],
+        [
+          "API rate limits",
+          "Standard",
+          "Standard",
+          "Up to 2x on select APIs",
+          "Up to 10x on select APIs"
+        ],
+        [
+          "Build headless storefronts",
+          "1",
+          "1",
+          "1",
+          "25"
+        ],
+        [
+          "Sell globally"
+        ],
+        [
+          "Translate your storefront",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Show prices in local currencies*",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Localized selling with Shopify Markets",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Accept local payment methods*",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Assign local domains",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    }
+  ],
+  "extract_errors": []
+}

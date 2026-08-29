@@ -1,0 +1,120 @@
+Announcing Porter's $20M Series A!
+Read more
+Solutions
+Resources
+Solutions
+For Startups
+Migrate from Heroku
+Resources
+Docs
+Customers
+Changelog
+Blog
+Pricing
+Log In
+Get Started
+Solutions
+Resources
+Solutions
+For Startups
+Migrate from Heroku
+Resources
+Docs
+Customers
+Changelog
+Blog
+Pricing
+Log In
+Get Started
+Pricing
+Bring your own cloud account
+Deploy applications into your own AWS, Azure, or GCP account without DevOps overhead. Your total Porter + compute cost matches or is less expensive than alternatives like ECS Fargate and Cloud Run.
+Porter only charges for the resources your applications use.
+Standard
+Pay per use and scale indefinitely on metered billing.
+Porter bills for requested app resources, not cloud instance capacity.
+Does not include the cost of the underlying cloud provider.
+$6
+per month GB RAM
+($0.009 per hour)
+Deploy from GitHub
+Unlimited Applications
+Preview Environments
+Autoscaling
+Jobs & Cron Jobs
+$13
+per month vCPU
+($0.019 per hour)
+Certificate Management
+Monitoring
+Logging
+Custom Autoscaling
+Alerting
+Get Started
+Enterprise
+For companies running at scale.
+Get volume discounts along with enterprise-grade support and features.
+Volume Discount Available
+Everything in Standard
+Starting at
+40 vCPU,
+80GB RAM
+Premium Support
+Advanced RBAC
+SAML-based SSO
+Custom Alerts
+On-Prem Installation
+Talk to Sales
+Pricing Calculator
+Estimate your monthly bill. Simply enter in the expected resource usage for your applications.
+Pricing Calculator
+vCPU
+0.1
+Volume Discount
+0.1
+0.1
+40
+0.1
+GB RAM
+0.1
+Volume Discount
+0.1
+0.1
+80
+0.1
+Contact us
+Porter Cost
++ AWS/Azure/GCP Cost (Cloud credits can be used to cover the underlying cloud provider cost)
+$
+1.9
+/ mo*
+*Prorated to the minute
+Contact us
+Pay only for the resources your apps use.
+Frequently Asked Questions
+Does this price include the cost of the underlying cloud provider?
+No, this pricing does not include the cost of the underlying cloud provider. To estimate the full amount of your bill, please calculate how much the equivalent resources would cost on AWS, Azure, or Google Cloud.
+Porter's pricing model is anchored to the cost of AWS managed services - as a rough example, every additional 2 vCPU and 4GB RAM is $112/mo per month on AWS App Runner. The total cost of running equivalent compute on Porter (including EC2s on AWS) is $80/mo. At greater levels of scale, we offer volume discount contracts so costs scale asymptotically rather than linearly, as it would on an AWS Managed Service like ECS Fargate or App Runner.
+‍
+Why does Porter charge based on the amount of resources if the infrastructure runs in my own cloud account?
+Porter charges for the management of your infrastructure and the developer experience provided. Infrastructure created by Porter is plugged into our internal system called the Cluster Control Plane that constantly monitors and manages your cluster and is also monitored 24/7 by our SREs.
+If I stop paying for Porter, will my servers shut down?
+No, absolutely not. Your servers will continue to run even if you stop using Porter - it's your own infrastructure!
+If you stop paying for Porter, Porter will stop managing your cluster and no longer be responsible for its reliability. You will simply lose access to the layer of abstraction that Porter provides. The underlying Kubernetes cluster will be intact, and you will just have to operate it on your own like any other Kubernetes cluster. Porter does not lock you in in any way.
+How do volume discounts work?
+On traditional Platform as a Service providers, your bill increases more and more rapidly as you scale your infrastructure - you get "punished" as you scale. On Porter, it's the opposite. Your cost increases more slowly as you scale.
+‍
+If your usage exceeds 40 vCPU or 80 GB RAM, you qualify for a volume discount, along with private support and more advanced features. Contact us for a discounted quote through the chat widget on your Porter dashboard.
+Can I use my AWS, Azure, and Google Cloud Credits with Porter?
+Yes, it is possible to use your cloud credits with Porter. Porter imposes no constraints on how you pay for the underlying cloud provider.
+Do you offer discounts for startups and non-profits?
+Yes. If you are a professionally funded startup, it is very likely that you have access to our startup deal through your accelerators and investors. Some examples of investors that have a Porter deal are Y Combinator and a16z speedrun - if your investor does not offer a deal for Porter, you can apply for our
+startup deal
+.
+For non-profits, we offer a 50% discount.
+HomeLight is a real estate technology company, not an infrastructure company. Using Porter, we get Heroku’s ease of deployment while running everything in our own AWS cloud. I don’t believe our resources should be spent doing things that aren’t core to our business.
+Mike Abner
+CTO
+Homelight
+Start deploying in minutes.
+Deploy with your cloud credits

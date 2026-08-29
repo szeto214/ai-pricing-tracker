@@ -1,0 +1,180 @@
+{
+  "slug": "grafana",
+  "name": "Grafana Cloud",
+  "vendor": "Grafana Labs",
+  "category": "observability",
+  "url": "https://grafana.com/pricing/",
+  "final_url": "https://grafana.com/pricing/",
+  "content_hash": "2110fbc67796ed7df92bc1915c1e8bc8185a22fd130f92f533d19a59235dc3c8",
+  "raw_hash": "e703b629a1d814eeae38c6df012d27e736b51d265b4462824b6fc8e86aaea761",
+  "text_bytes": 38272,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Free",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": [
+        "All Grafana Cloud services, with limited usage",
+        "Community support",
+        "14 days retention for metrics, logs, traces, profiles, & k6 performance tests"
+      ]
+    },
+    {
+      "name": "Pro",
+      "price_raw": "$19",
+      "amount": 19.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Pay as you go above the Free tier",
+        "8X5 email support",
+        "13 months retention for metrics; 30 days retention for logs, traces, profiles, & k6 performance tests"
+      ]
+    },
+    {
+      "name": "Enterprise",
+      "price_raw": "$25,000",
+      "amount": 25000.0,
+      "currency": "USD",
+      "period": "year",
+      "features": [
+        "Premium support",
+        "Custom retention",
+        "Deployment flexibility (Public Cloud, Federal Cloud , or Bring Your Own Cloud )"
+      ]
+    },
+    {
+      "name": "Metrics",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Limited to 10k active series per month",
+        "14 days retention",
+        "Community support",
+        "10k active series per month then pay as you go",
+        "13 months retention",
+        "8x5 email support",
+        "Custom retention",
+        "Premium support",
+        "Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)"
+      ]
+    },
+    {
+      "name": "Pro",
+      "price_raw": "$6.50",
+      "amount": 6.5,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Enterprise",
+      "price_raw": "$3",
+      "amount": 3.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Logs",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Limited to 50 GB ingested per month",
+        "14 day retention",
+        "Community support",
+        "50 GB ingested per month then pay as you go",
+        "30 days retention",
+        "8×5 email support",
+        "Custom retention",
+        "Premium support",
+        "Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)"
+      ]
+    },
+    {
+      "name": "Pro",
+      "price_raw": "$0.05",
+      "amount": 0.05,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Traces",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Limited to 50 GB ingested per month",
+        "14 day retention",
+        "Community support",
+        "50 GB ingested per month then pay as you go",
+        "30 days retention",
+        "8×5 email support",
+        "Custom retention",
+        "Premium support",
+        "Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)"
+      ]
+    },
+    {
+      "name": "Profiles",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Limited to 50 GB ingested per month",
+        "14 day retention",
+        "Community support",
+        "50 GB ingested per month then pay as you go",
+        "30 days retention",
+        "8×5 email support",
+        "Custom retention",
+        "Premium support",
+        "Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)"
+      ]
+    },
+    {
+      "name": "Kubernetes Monitoring",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Limited to 2,232 host hours + 37,944 container hours per month",
+        "Community support",
+        "Includes 2,232 host hours + 37,944 container hours per month then pay as you go (including telemetry generated)",
+        "8 x 5 email support",
+        "Premium support",
+        "Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)"
+      ]
+    },
+    {
+      "name": "Starts at",
+      "price_raw": "$0.01",
+      "amount": 0.01,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "$0.00070",
+      "price_raw": "$0.00",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    }
+  ],
+  "tables": [],
+  "extract_errors": []
+}

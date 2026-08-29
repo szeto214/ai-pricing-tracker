@@ -1,0 +1,342 @@
+12.1k
+12.1k
+Log in
+Sign up
+Pricing
+Our pricing model is resource based and designed to provide the capacity you need for every agent to run its own isolated Postgres branch without multiplying storage and compute costs. We don't bill you per user or per branch.
+Open Source
+Self-managed.
+Built by the Xata team.
+Free
+Self-host on your own infrastructure.
+Branching
+Included
+Scale-to-zero
+Included
+Wake-up time
+~10s
+Storage
+OpenEBS/Mayastor
+Anonymization
+Standard
+Provisioning
+Self-managed
+Support
+Community
+Observability
+Not included
+Compliance
+Not included
+Multi-region
+Not included
+GitHub
+Most Popular
+Xata Cloud
+Fully managed.
+Pay as you go.
+Starting at
+$0.012
+/hr
++ $0.28/GB/mo storage
+Branching
+Included
+Scale-to-zero
+Included
+Wake-up time
+~1s
+Storage
+Xatastor
+Anonymization
+Standard
+Provisioning
+Fully managed
+Support
+Standard
+Observability
+Included
+Compliance
+SOC 2, GDPR
+Multi-region
+AWS, GCP
+Start your
+14
+-day free trial
+No credit card required
+BYOC
+Your cloud, full control.
+We manage the platform.
+Quote
+% of Xata managed cloud spend. Estimate available upon request
+Branching
+Included
+Scale-to-zero
+Included
+Wake-up time
+~1s
+Storage
+Xatastor
+Anonymization
+Advanced (HIPAA)
+Provisioning
+Your cloud
+Support
+24/7 + dedicated SE
+Observability
+Included
+Compliance
+SOC 2, GDPR + BAA
+Multi-region
+AWS, Azure, GCP
+Book discovery
+Give your agent our pricing context
+Feed
+pricing.md
+to your agent for a complete, machine-readable pricing reference.
+Copy skill
+Download
+Pricing by region
+Region
+Instance pricing
+Instance Type
+vCPUs
+RAM
+Cost per Hour
+Cost per Month
+micro
+≤2
+vCPU
+1
+GB RAM
+$
+0.012
+/hr
+$
+9
+/month
+small
+≤2
+vCPU
+2
+GB RAM
+$
+0.024
+/hr
+$
+18
+/month
+medium
+≤2
+vCPU
+4
+GB RAM
+$
+0.048
+/hr
+$
+35
+/month
+large
+2
+vCPU
+8
+GB RAM
+$
+0.096
+/hr
+$
+70
+/month
+xlarge
+4
+vCPU
+16
+GB RAM
+$
+0.192
+/hr
+$
+140
+/month
+2xlarge
+8
+vCPU
+32
+GB RAM
+$
+0.384
+/hr
+$
+280
+/month
+4xlarge
+16
+vCPU
+64
+GB RAM
+$
+0.768
+/hr
+$
+561
+/month
+8xlarge
+32
+vCPU
+128
+GB RAM
+$
+1.536
+/hr
+$
+1121
+/month
+Storage
+$
+0.28
+/ GB / month
+All regions. Pay only for what you use, no overprovisioning. Billed by the minute. Powered by Xatastor.
+Companies and platforms, at any scale
+Deploy via BYOC in your own cloud account, also available on the
+AWS Marketplace
+.
+Tier
+Concurrent branches
+Ideal for
+Team
+Up to 1,000
+Mature engineering orgs transitioning away from shared staging as agents become core to daily work
+Company
+Up to 10,000
+Centralized company-wide AI rollouts with agent governance policies
+Platform
+Up to 100,000
+Early stage platforms serving thousands of users with dedicated databases
+Hyperscale
+100,000+
+Mature platforms provisioning databases for millions of users
+Schedule a meeting
+Pricing Calculator
+Configure your setup and estimate what it costs.
+Region:
+Can’t find your region?
+Request one
+Production on Xata
+Toggle on to add production hosting costs
+Instance type
+small
+≤2
+vCPU
+2
+GB RAM
+$
+0.024
+/hr
+Branches
+Number of branches
+<count>
+1
+<count>
+Average branch lifespan
+How long branches typically exist before cleanup. Storage is billed by the minute for that window.
+Scale-to-zero
+Branches scale to zero when not in use
+Percent of lifespan active
+75
+%
+Share of each branch's life spent running compute vs scaled to zero.
+Storage
+Production database size
+1 TB
+5 GB
+5 TB
+Monthly rate:
+$
+0.28
+/GB/month
+Billed by the minute. Only pay for the time storage is in use.
+Change data per branch
+0.32
+%
+CoW branches only store changed data.
+0.32
+% of
+1 TB
+=
+3 GB
+per branch. Estimate auto-adjusts with database size.
+Total
+$
+313.54
+/month
+Estimated avg. cost per month
+Production Clone
+$
+297.52
+/mo
+Required — source database for all branches
+Compute
+$
+0.024
+/hr ×
+730
+hrs = $
+17.52
+Always running (24/7)
+Storage
+1 TB
+× $
+0.28
+/GB = $
+280.00
+Development Branches
+$
+16.02
+/mo
+Compute
+$
+0.024
+/hr ×
+10 minutes × 75% active
+×
+5,000
+branches = $
+15.00
+Scale-to-zero enabled
+Storage (deltas only)
+0.32
+% of
+1 TB
+×
+5,000
+branches × $
+0.28
+/GB/month ×
+10
+/
+43,800
+minutes = $
+1.02
+Prorated. Branches average
+10 minutes
+before cleanup
+Production hosting not included. Toggle "Production on Xata" to add.
+Start your
+14
+-day free trial
+No credit card required
+Share Configuration
+Frequently Asked Questions
+Find answers to common questions about Xata pricing
+Do you charge per branch?
+How is monthly storage calculated?
+How does Xata reduce my cloud costs?
+Is there a free tier?
+Can I start on SaaS and move to BYOC later?
+With BYOC, can I use my existing cloud commitment (EA/EDP)?
+How does the BYOC management fee work?
+Are anonymization features and zero-downtime schema changes included?
+We're a platform and want to offer Postgres to our customers. Can we use Xata?
+What features are only available on paid plans?
+Let's scope it for your team.
+See how Xata fits your stack, your scale, and your security requirements.
+Get in Touch

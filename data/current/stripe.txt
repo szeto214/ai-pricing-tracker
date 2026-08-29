@@ -1,15 +1,4 @@
-Products
-Solutions
-Developers
-Resources
-Pricing
-Contact sales
 Back
-Products
-Solutions
-Developers
-Resources
-Pricing
 Payments
 Payments
 Online payments
@@ -220,6 +209,9 @@ Online identity verification
 Stripe Sessions 2026
 See how Stripe is building the economic infrastructure for AI.
 Watch now
+Not sure where to start?
+Tell us about your business to get personalized Stripe product recommendations.
+Find what's right for you
 By stage
 Enterprises
 Startups
@@ -298,108 +290,18 @@ IC+ pricing
 Volume discounts
 Multi-product discounts
 Country-specific rates
-Standard pricing
-Custom pricing
-FAQs
 Features available out of the box:
 Global access
-195 countries
-Accept payments around the world with cardholder support in 195+ countries.
-135+ currencies
-Process charges and display prices in your customer’s preferred currency to increase conversion.
-100+ payment methods
-From Alipay to iDEAL, seamlessly support popular payment methods.
-1 integration
-Accept payments globally through a single integration.
 Built-in fraud prevention
-Powerful machine learning
-Detect and block fraud using machine learning trained on data across millions of companies.
-Adapts to new fraud patterns
-Adapt faster to the latest trends with Radar’s machine learning.
-No integration required
-Get started with zero code thanks to Stripe’s built-in fraud protection.
-Fraud analytics
-Monitor your fraud performance with advanced analytics and alerting.
 Tools to optimize your checkout
-Flexible UI components
-Use UI building blocks to design a secure payments experience that perfectly matches your site.
-Pre-built payment forms
-Embed a prebuilt payments form into your website or direct customers to a Stripe-hosted page.
-Accelerated checkout
-Autofill your customers’ saved cards to deliver a frictionless checkout experience.
-No-code payments
-Accept payments in minutes by generating no-code links.
 Payments optimizations to boost revenue
-Real-time retries
-Increase revenue with selective retries powered by machine learning.
-Auto-updated cards
-Update card information in real-time, improving customer experience and increasing revenue.
-Customer authentication
-Verify a customer’s identity using 3D Secure, an authentication method for card transactions
 Embedded payments for platforms & marketplaces
-Seamless onboarding
-Onboard and verify users with conversion-optimized UIs.
-Platform management
-Manage payment operations with tools for your platform and your users.
-Embedded components
-Embed and white label payment workflows for your users.
-Risk tools
-Access tools to help you mitigate risk for your connected accounts.
 Fast, predictable payouts to your bank accounts
-Flexible payout options
-Opt to receive transfers on a rolling basis, weekly, or monthly.
-Like-for-like settlement
-In select regions, get paid out in your preferred currencies.
-Payout transparency
-See upcoming payouts, expected deposit dates, payout history, and more in the Dashboard.
 Phone, chat, and email support
-24x7 support
-Our team is here to help over email, phone, or chat. You can even get email support in 6 languages.
-Industry-leading documentation
-Build using our robust technical docs. Sample code in 8+ languages.
-Technical support on Discord
-Chat with our technical team on the official Stripe Developer Discord server.
 Security, reliability and compliance
-99.999% average historical uptime
-Maximize your revenue with a platform that handles 250 million+ API requests a day, while maintaining 99.999% uptime.
-PCI compliant
-Use our libraries to collect payment information without sensitive data ever hitting your servers.
-Regulatory licenses globally
-Stripe is certified to the highest industry standards and has obtained regulatory licenses around the world.
-Standard pricing
-Custom pricing
-FAQs
-Contact sales
 Standard pricing for all products
 Explore pricing for the full Stripe platform
 Online and in-person payments, recurring billing, embedded payments, and much more.
-Global payments
-Payments
-Link
-Payment Links
-Checkout
-Managed Payments
-Terminal
-Financial Connections
-Money management
-Connect
-Treasury
-Global Payouts
-Issuing
-Revenue and finance automation
-Billing
-Metronome
-Invoicing
-Tax
-Stripe Sigma
-Data Pipeline
-Revenue Recognition
-More
-Radar
-Identity
-Atlas
-Climate
-Workflows
 Custom pricing
 Global payments
 Optimize checkout conversion, accept local payment methods, and increase acceptance rates.
@@ -1118,7 +1020,6 @@ Join leading enterprises on Stripe
 Create tailored solutions to help you expand into new markets, optimize payments performance, automate revenue and finance workflows, monetize financial services, and
 more
 .
-Contact sales
 Build your custom package
 Work with our sales team to design a solution that meets your needs:
 Payments
@@ -1141,7 +1042,6 @@ Cost transparency
 Dashboards, tools, and APIs that give you transparency into your costs.
 Integrating Stripe provides a 326% return on investment
 Forrester’s Total Economic impact study suggests a more than 3x return on investment among businesses that deployed Stripe.
-Read the report
 Report
 The Total Economic ImpactTM Of Stripe
 100+ category leaders each process more than $1 billion per year on Stripe.
@@ -1150,29 +1050,21 @@ BMW owners using ConnectedDrive Store
 350+
 US dealerships
 Products used
-Payments
-Connect
 5+
 Amazon businesses on Stripe including Prime, Audible, and Amazon Pay.
 50+
 Payment methods available on Stripe
 Products used
-Payments
-Connect
 130
 Countries in logistics network
 $10B+
 Worth of goods moved around the world each year
 Products used
-Payments
-Connect
 +5.5%
 Uplift from Stripe's Global Payments Infrastructure
 +1%
 Uplift from Adaptive Acceptance
 Products used
-Payments
-Stripe Sigma
 Read story
 Learn why BMW chose Stripe to power ecommerce and payments
 Read story
@@ -1200,229 +1092,11 @@ Do you offer any discounts?
 Stripe offers custom pricing for businesses with large processing volumes. Eligibility varies by market.
 Ready to get started? Get in touch or create an account.
 Access a complete payments platform with simple, pay-as-you-go pricing, or contact us to design a custom package specifically for your business.
-Start now
-Contact sales
 See our customers
 From startups to Fortune 500s, explore how millions of businesses use Stripe to start and scale their companies.
-Learn more
 Explore the docs
 Start building your integration and accept your first payment in minutes. Stripe libraries are available in every language from Ruby to Go.
-Read the docs
 1 Stripe Radar for Fraud teams and Stripe Connect with platform-controlled pricing are priced separately.
 2
 Basic usage-based billing
 features will continue to be available via Stripe's Meters API as part of Billing pricing, with up to 100M events per month included.
-United States (English)
-Australia
-English
-Austria
-Deutsch
-English
-Belgium
-Nederlands
-Français
-Deutsch
-English
-Brazil
-Português
-English
-Bulgaria
-English
-Canada
-English
-Français
-Croatia
-English
-Italiano
-Cyprus
-English
-Czech Republic
-English
-Denmark
-English
-Estonia
-English
-Finland
-English
-Svenska
-France
-Français
-English
-Germany
-Deutsch
-English
-Gibraltar
-English
-Greece
-English
-Hong Kong SAR, China
-English
-简体中文
-Hungary
-English
-India
-English
-Ireland
-English
-Italy
-Italiano
-English
-Japan
-日本語
-English
-Latvia
-English
-Liechtenstein
-Deutsch
-English
-Lithuania
-English
-Luxembourg
-Français
-Deutsch
-English
-Mainland China
-简体中文
-English
-Malaysia
-English
-简体中文
-Malta
-English
-Mexico
-Español
-English
-Netherlands
-Nederlands
-English
-New Zealand
-English
-Norway
-English
-Poland
-English
-Portugal
-Português
-English
-Romania
-English
-Singapore
-English
-简体中文
-Slovakia
-English
-Slovenia
-English
-Italiano
-Spain
-Español
-English
-Sweden
-Svenska
-English
-Switzerland
-Deutsch
-Français
-Italiano
-English
-Thailand
-ไทย
-English
-United Arab Emirates
-English
-United Kingdom
-English
-United States
-English
-Español
-简体中文
-Products & pricing
-Pricing
-Atlas
-Authorization Boost
-Billing
-Capital
-Checkout
-Climate
-Connect
-Crypto
-Data Pipeline
-Elements
-Financial Connections
-Identity
-Invoicing
-Issuing
-Link
-Managed Payments
-Payment links
-Payments
-Payouts
-Radar
-Revenue Recognition
-Stripe Sigma
-Tax
-Terminal
-Treasury
-Solutions
-Enterprises
-Startups
-Agentic commerce
-Crypto
-Ecommerce
-Embedded finance
-Finance automation
-Global businesses
-In-app payments
-Marketplaces
-Money management
-Platforms
-SaaS
-AI companies
-Creator economy
-Fintech
-Gaming
-Hospitality, travel, and leisure
-Insurance
-Media and entertainment
-Nonprofits
-Professional services
-Public sector
-Retail
-Integrations & custom solutions
-Stripe App Marketplace
-Stripe Partner ecosystem
-Professional services
-Developers
-Documentation
-API reference
-API status
-API changelog
-Libraries and SDKs
-Stripe Projects
-Developer blog
-Resources
-Guides
-Customer stories
-Blog
-Community
-Sessions annual conference
-Privacy & terms
-Prohibited & restricted businesses
-Licenses
-Sitemap
-Cookie settings
-Your privacy choices
-More resources
-Company
-Product roadmap
-Careers
-Newsroom
-Stripe Press
-Contact sales
-Support
-Get support
-Managed support plans
-CA residents:
-+1 888 926 2289
-Sign in
-© 2026 Stripe, LLC

@@ -1,0 +1,57 @@
+{
+  "slug": "airbyte",
+  "name": "Airbyte",
+  "vendor": "Airbyte",
+  "category": "automation",
+  "url": "https://airbyte.com/pricing",
+  "final_url": "https://airbyte.com/pricing",
+  "content_hash": "d706e886ebae23d72a3d5ae1774eeab28d45071110025133732de07c1404f578",
+  "raw_hash": "ccb7a30058bd2bc80fed188a0aa316d907f00dcd01d80a1f1a8563ac0345aa19",
+  "text_bytes": 7356,
+  "extractor": "jsonld",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Airbyte Standard",
+      "price_raw": "10.00",
+      "amount": 10.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Airbyte Core",
+      "price_raw": "0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Airbyte Agents Team",
+      "price_raw": "299.00",
+      "amount": 299.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Airbyte Agents Individual",
+      "price_raw": "29.00",
+      "amount": 29.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Airbyte Agents Free",
+      "price_raw": "0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    }
+  ],
+  "tables": [],
+  "extract_errors": []
+}

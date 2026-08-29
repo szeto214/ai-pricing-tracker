@@ -1,0 +1,33 @@
+{
+  "slug": "greptile",
+  "name": "Greptile",
+  "vendor": "Greptile",
+  "category": "ai-coding",
+  "url": "https://www.greptile.com/pricing",
+  "final_url": "https://www.greptile.com/pricing",
+  "content_hash": "a93b52f7a955ba75c3c80adf272fc45f0e224ecba942f1d494545784de7e59ca",
+  "raw_hash": "28a1c9724ab4fda4f09f357857d3f1266f79066c3a94caf1f179e6d92ecb9824",
+  "text_bytes": 2540,
+  "extractor": "jsonld",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Starter",
+      "price_raw": "0.00",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "p1m",
+      "features": []
+    },
+    {
+      "name": "Pro",
+      "price_raw": "30.00",
+      "amount": 30.0,
+      "currency": "USD",
+      "period": "p1m",
+      "features": []
+    }
+  ],
+  "tables": [],
+  "extract_errors": []
+}

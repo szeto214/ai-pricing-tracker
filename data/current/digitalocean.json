@@ -5,9 +5,9 @@
   "category": "dev-infra",
   "url": "https://www.digitalocean.com/pricing",
   "final_url": "https://www.digitalocean.com/pricing",
-  "content_hash": "793d4e1ad3ef1663bb733086b83dffbf8f79a9ff8a72b9a81416f78da8dcdd68",
-  "raw_hash": "0c5f4c638bd13f3553775b64249f3c4d4a2a3c95d177a3e6225f6e569afbe40c",
-  "text_bytes": 13728,
+  "content_hash": "4fb8ba4c4c8f3332caa415d6b3b7b2bd51a469c6d058cf156f2263ee13671452",
+  "raw_hash": "e06c33f1f7a1c9150a5698445f2fccb46cfadc019acfa53b7510f9ea06727fa3",
+  "text_bytes": 10791,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

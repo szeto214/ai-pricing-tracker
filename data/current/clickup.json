@@ -5,9 +5,9 @@
   "category": "productivity",
   "url": "https://clickup.com/pricing",
   "final_url": "https://clickup.com/pricing",
-  "content_hash": "ff7c20f4fbfb4cef3e6c1bb730919aa66dc462e0f678c325d5fc3a3fb9c1fdc6",
-  "raw_hash": "e0c85937817bdb2567146aec9b11cf8a5efaa376d08c8eeae78305a31f901744",
-  "text_bytes": 9337,
+  "content_hash": "533bed5c2a6209a9e9b7f4f57b962fe1426a7ca56e58939941d1a289cb379b2d",
+  "raw_hash": "ff1e194a8219fe18ddc1b41c2bb15c0ae64c14b5ec37acd9f1bd819a328b9ba1",
+  "text_bytes": 9195,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

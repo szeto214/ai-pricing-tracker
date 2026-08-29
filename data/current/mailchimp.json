@@ -1,0 +1,260 @@
+{
+  "slug": "mailchimp",
+  "name": "Mailchimp",
+  "vendor": "Intuit",
+  "category": "productivity",
+  "url": "https://mailchimp.com/pricing/",
+  "final_url": "https://mailchimp.com/pricing/marketing/",
+  "content_hash": "03099993758a1541774378618a5672fd6581e1d01f56810837cb343769f430e3",
+  "raw_hash": "1b42dd714a1ca713d802d2f3efe8988208fe10631636d495ed2e1de6688f51d1",
+  "text_bytes": 22538,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Try our Standard plan for",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Standard",
+      "price_raw": "$20",
+      "amount": 20.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Free for 14 days",
+      "price_raw": "$20",
+      "amount": 20.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Premium",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": [
+        "Premium",
+        "Standard",
+        "Essentials",
+        "Free"
+      ]
+    },
+    {
+      "name": "Free for 14 days",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Free",
+      "price_raw": "$ 0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Free",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Customer Success Management:",
+      "price_raw": "$299",
+      "amount": 299.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    }
+  ],
+  "tables": [
+    {
+      "caption": "",
+      "rows": [
+        [
+          "",
+          "Free Trial of Premium for 1 Month and plans for large contact lists available. Talk to our Sales team at +1 (800) 330-4838 or contact us ."
+        ],
+        [
+          "Not sure how to choose? Here are your results We’ve got your back. Answer a few quick questions and we can make a personalized recommendation for you. We’ve got",
+          "Best value Best value Recommended Mailchimp Recommends Premium Our most advanced tools, unlimited contacts, and priority support; built for teams. Save 15% on 1",
+          "Best value Best value Recommended Mailchimp Recommends Standard Sell even more with automations, personalization, and optimization tools. Contact limit exceeded",
+          "Best value Best value Recommended Mailchimp Recommends Essentials Send the right content at the right time with testing and scheduling features. Contact limit e",
+          "Best value Best value Recommended Mailchimp Recommends Free Easily create email campaigns and learn more about your customers Contact limit exceeded You've sele"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Key Plan Features"
+        ],
+        [
+          "SMS Marketing",
+          "SMS and MMS add-on",
+          "SMS and MMS add-on",
+          "SMS add-on",
+          "Not included"
+        ],
+        [
+          "Marketing Automation Flows",
+          "Up to 200 flows",
+          "Up to 200 flows",
+          "Up to 4 flow steps",
+          "Not included"
+        ],
+        [
+          "Generative AI Features",
+          "No additional cost add-on",
+          "No additional cost add-on",
+          "Not included",
+          "Not included"
+        ],
+        [
+          "Custom-coded Templates",
+          "Create and Send",
+          "Create and Send",
+          "Create — upgrade to send",
+          "Create — upgrade to send"
+        ],
+        [
+          "Premium Migration Services",
+          "Contact Sales",
+          "Not included",
+          "Not included",
+          "Not included"
+        ],
+        [
+          "Admin"
+        ],
+        [
+          "Monthly Email Sends",
+          "15X contacts",
+          "12X contacts",
+          "10X contacts",
+          "Max of 500/mo or 250/day"
+        ],
+        [
+          "Users",
+          "Unlimited",
+          "5 Seats",
+          "3 Seats",
+          "1 Seat"
+        ],
+        [
+          "Audiences",
+          "Unlimited",
+          "5 Audiences",
+          "3 Audiences",
+          "1 Audience"
+        ],
+        [
+          "Role-based Access",
+          "5 Roles",
+          "4 Roles",
+          "2 Roles",
+          "Not included"
+        ],
+        [
+          "Services & Support"
+        ],
+        [
+          "Customer Support",
+          "Phone & Priority Support",
+          "24/7 Email & Chat Support",
+          "24/7 Email & Chat Support",
+          "Email support for first 30 days"
+        ],
+        [
+          "300+ Integrations",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Personalized Onboarding",
+          "4 Sessions",
+          "1 Session",
+          "Not included",
+          "Not included"
+        ],
+        [
+          "Dedicated Onboarding Specialist",
+          "Included",
+          "Not included",
+          "Not included",
+          "Not included"
+        ],
+        [
+          "Email Marketing & Segmentation"
+        ],
+        [
+          "Popup Forms",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Pre-built Email Templates",
+          "Included",
+          "Included",
+          "Included",
+          "Limited"
+        ],
+        [
+          "Email Scheduling",
+          "Included",
+          "Included",
+          "Included",
+          "Not included"
+        ],
+        [
+          "Remove Mailchimp Branding",
+          "Included",
+          "Included",
+          "Included",
+          "Not included"
+        ],
+        [
+          "Branded Templates",
+          "Included",
+          "Included",
+          "Not included",
+          "Not included"
+        ],
+        [
+          "Custom Reports",
+          "Included",
+          "Included",
+          "Not included",
+          "Not included"
+        ],
+        [
+          "Dynamic Content",
+          "Included",
+          "Included",
+          "Not included",
+          "Not included"
+        ]
+      ]
+    }
+  ],
+  "extract_errors": []
+}

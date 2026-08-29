@@ -1,0 +1,932 @@
+Searching...
+Site search
+Ask Grot AI
+Try using
+Grot AI
+for this query ->
+Grafana Labs is a Leader in the 2026 Gartner® Magic
+QuadrantTM for Observability Platforms.
+Learn more
+Downloads
+Contact Us
+Site Search
+Ask AI
+Send more, charge more is broken. We are changing it.
+Free
+Always free
+Always
+$0
+Perfect for personal projects, exploring new ideas, and early-stage startups. No charges ever.
+Start free
+Benefits:
+All Grafana Cloud services, with limited usage
+Community support
+14 days retention for metrics, logs, traces, profiles, & k6 performance tests
+Pro
+Self-serve
+From
+$19
+/ month + usage with volume discounts
+Ready for scaling with more retention, basic support, and usage-based pricing.
+Sign up
+Everything in Free plus:
+Pay as you go above the Free tier
+8X5 email support
+13 months retention for metrics; 30 days retention for logs, traces, profiles, & k6 performance tests
+Enterprise
+Full service
+Starts at
+$25,000
+/ year spend commit
+A full-service offering for companies with security, compliance, and deployment requirements.
+Contact us
+Let’s talk if you’re thinking about:
+Premium support
+Custom retention
+Deployment flexibility (Public Cloud,
+Federal Cloud
+, or
+Bring Your Own Cloud
+)
+Pricing Philosophy
+Adaptive
+In-product tools to eliminate spending on unused data.
+Scalable pricing
+Automatically unlock volume discounts based on consumption.
+Composable
+Opinionated solutions only when they add value.
+Estimate your Grafana Cloud cost
+Use the interactive calculator to see what you'll pay at your scale. Pricing is volume-based and tiered, so your effective rate drops automatically as you grow.
+Product pricing
+All the details you need to know about pricing and plans.
+Metrics
+Fully-managed, highly-scalable metrics service in Grafana Cloud with built-in features to optimize cost.
+Free
+Always free
+Always
+$0
+No credit card required
+Start free
+Actually useful free tier with access to everything that Grafana Cloud has to offer.
+Limited to 10k active series per month
+14 days retention
+Community support
+Pro
+Self-serve
+Starts at
+$6.50
+/ 1k series
+Automatic volume discounts. Pricing at scale.
+View calculator
+Sign up
+Platform fee of $19 per month includes:
+10k active series per month then pay as you go
+13 months retention
+8x5 email support
+Enterprise
+Full service
+Prices are
+As low as $3
+/ 1k series
+Scalable unit price based on annual commit and volume discounts
+Contact us
+Minimum commit of $25,000 per year.
+Custom retention
+Premium support
+Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)
+Optimize metrics by up to 80%
+Pay only for what you use
+Adaptive Metrics eliminates unused time series data through aggregation and cardinality optimization.
+Watch Adaptive Metrics at work →
+FAQ
+What is metrics billable series?
+Metrics billable series is calculated based on two components: active series and data points per minute (DPM). By understanding these components, you’ll be able to better manage usage and reduce costs for your organization.
+See pricing docs –>
+Do you provide discounts for higher usage volumes?
+Yes, we provide volume discounts for enterprise-scale usage.
+Contact us
+for more details.
+Back to menu
+Logs
+Fully-managed log aggregation system powered by Grafana Loki. Only pay for data you use with the Adaptive Logs feature.
+Free
+Always free
+Always
+$0
+No credit card required
+Start free
+Actually useful free tier with access to everything that Grafana Cloud has to offer.
+Limited to 50 GB ingested per month
+14 day retention
+Community support
+Pro
+Self-serve
+Starts at
+$0.050/GB
+Process
+Starts at
+$0.400/GB
+Write
+Starts at
+$0.100/GB
+Retain
+Automatic volume discounts. Pricing at scale.
+View calculator
+Start free
+Platform fee of $19 per month includes:
+50 GB ingested per month then pay as you go
+30 days retention
+8×5 email support
+Enterprise
+Full service
+Prices are
+Custom
+Scalable unit price based on annual commit
+Contact us
+Minimum commit of $25,000 per year.
+Custom retention
+Premium support
+Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)
+Optimize log ingest by up to 50%
+Pay only for what you use
+Adaptive Logs identifies commonly ingested log patterns and creates a set of customized recommendations for dropping unused telemetry.
+Watch Adaptive Logs at work →
+FAQ
+How do you define process, write, retain, and query?
+Process:
+The work done to receive,
+process
+and optimize the signals sent by your systems.
+Write:
+The work done to
+write
+only the useful data to the database.
+Retain:
+The work done to
+retain
+and protect your stored data over time.
+Query:
+The work done to
+query
+your stored data beyond the included fair-use ratio.
+Do you offer retention greater than 30 days?
+Yes, we have additional retention options available.
+Contact us
+for more details.
+Do you offer discounts for higher usage?
+Yes, we provide volume discounts for enterprise-scale usage.
+Contact us
+for more details.
+Back to menu
+Traces
+Fully-managed, easy-to-use, highly-scalable, and cost-effective distributed tracing backend.
+Free
+Always free
+Always
+$0
+No credit card required
+Start free
+Limited to 50 GB ingested per month
+14 day retention
+Community support
+Pro
+Self-serve
+Starts at
+$0.050/GB
+Process
+Starts at
+$0.400/GB
+Write
+Starts at
+$0.100/GB
+Retain
+Automatic volume discounts. Pricing at scale.
+View calculator
+Start free
+Platform fee of $19 per month includes:
+50 GB ingested per month then pay as you go
+30 days retention
+8×5 email support
+Enterprise
+Full service
+Prices are
+Custom
+Scalable unit price based on annual commit
+Contact us
+Minimum commit of $25,000 per year.
+Custom retention
+Premium support
+Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)
+FAQ
+How do you define process, write, retain?
+Process:
+The work done to receive,
+process
+and optimize the signals sent by your systems.
+Write:
+The work done to
+write
+only the useful data to the database.
+Retain:
+The work done to
+retain
+and protect your stored data over time.
+Do you offer retention greater than 30 days?
+Yes, we have additional retention options available.
+Contact us
+for more details.
+Do you offer discounts for higher usage?
+Yes, we provide volume discounts for enterprise-scale usage.
+Contact us
+for more details.
+Back to menu
+Profiles
+Fully-managed continuous profiling tool that gives you a cost-efficient way to better understand the resource usage of code.
+Free
+Always free
+Always
+$0
+No credit card required
+Start free
+Actually useful free tier with access to everything that Grafana Cloud has to offer
+Limited to 50 GB ingested per month
+14 day retention
+Community support
+Pro
+Self-serve
+Starts at
+$0.050/GB
+Process
+Starts at
+$0.400/GB
+Write
+Starts at
+$0.100/GB
+Retain
+Automatic volume discounts. Pricing at scale.
+View calculator
+Start free
+Platform fee of $19 per month includes:
+50 GB ingested per month then pay as you go
+30 days retention
+8×5 email support
+Enterprise
+Full service
+Prices are
+Custom
+Scalable unit price based on annual commit
+Contact us
+Minimum commit of $25,000 per year.
+Custom retention
+Premium support
+Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)
+FAQ
+How do you define process, write, retain?
+Process:
+The work done to receive,
+process
+and optimize the signals sent by your systems.
+Write:
+The work done to
+write
+only the useful data to the database.
+Retain:
+The work done to
+retain
+and protect your stored data over time.
+Do you offer retention greater than 30 days?
+Yes, we have additional retention options available.
+Contact us
+for more details.
+Do you offer discounts for higher usage?
+Yes, we provide volume discounts for enterprise-scale usage.
+Contact us
+for more details.
+Back to menu
+Kubernetes Monitoring
+End-to-end Kubernetes observability for performance, health, and cost monitoring.
+Free
+Always free
+Always
+$0
+No credit card required
+Start free
+Actually useful free tier with access to everything that Grafana Cloud has to offer.
+Limited to 2,232 host hours + 37,944 container hours per month
+Community support
+Pro
+Self-serve
+Starts at
+$0.0100
+/ per host hour ($7.20/host)
+Starts at
+$0.00070
+/ per container hour ($0.50/container)
+Automatic volume discounts. Pricing at scale.
+View calculator
+Start free
+Platform fee of $19 per month includes:
+Includes 2,232 host hours + 37,944 container hours per month then pay as you go (including telemetry generated)
+8 x 5 email support
+Enterprise
+Full service
+Prices are
+Custom
+Scalable unit price based on annual commit
+Contact us
+Minimum commit of $25,000 per year.
+Premium support
+Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)
+FAQ
+What exactly is a "Host Hour"?
+A Host is any physical or virtual OS instance sending observability signals (including K8s metrics). It is considered active if it has sent a signal in the last 15 minutes.
+Your bill is the sum of these active hours throughout the month—meaning you don’t pay for hosts that are spun down over the weekend or during off-peak hours.
+When does host hour pricing apply?
+Host hour billing applies when you opt into the curated experience built off the raw telemetry data.
+Alternatively, you can opt out of the curated experience and be billed solely based on telemetry storage.
+How is this different from included telemetry pricing model?
+We made this change to give customers more control on telemetry usage and costs.
+Customers can now use adaptive telemetry to reduce the unused / unwanted telemetry and lower their overall costs.
+Read more in the
+documentation
+.
+Back to menu
+Application Observability
+Gain application performance insights and reduce MTTR out of the box, with native OpenTelemetry and Prometheus support.
+Free
+Always free
+Always
+$0
+No credit card required
+Start free
+Actually useful free tier with access to everything that Grafana Cloud has to offer.
+Limited to 2,232 host hours
+Community support
+Pro
+Self-serve
+Starts at
+$0.025
+/ per host hour ($18 / host)
+Automatic volume discounts. Pricing at scale.
+View calculator
+Start free
+Platform fee of $19 per month includes:
+Includes 2,232 host hours then pay as you go (including telemetry generated)
+8 x 5 email support
+Enterprise
+Full service
+Prices are
+Custom
+Scalable unit price based on annual commit
+Contact us
+Minimum commit of $25,000 per year.
+Premium support
+Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)
+FAQ
+What exactly is a "Host Hour"?
+A Host is any physical or virtual OS instance sending observability signals (including K8s metrics). It is considered active if it has sent a signal in the last 15 minutes.
+Your bill is the sum of these active hours throughout the month—meaning you don’t pay for hosts that are spun down over the weekend or during off-peak hours.
+When does host hour pricing apply?
+Host hour billing applies when you opt into the curated experience built off the raw telemetry data.
+Alternatively, you can opt out of the curated experience and be billed solely based on telemetry storage.
+How is this different from included telemetry pricing model?
+We made this change to give customers more control on telemetry usage and costs.
+Customers can now use adaptive telemetry to reduce the unused / unwanted telemetry and lower their overall costs.
+Back to menu
+Frontend Observability
+Fully-managed real user monitoring (RUM) that provides immediate, clear, actionable insights into the end user experience of web applications.
+Free
+Always free
+Always
+$0
+No credit card required
+Start free
+Actually useful free tier with access to everything that Grafana Cloud has to offer.
+Limited to 50k sessions per month
+Community support
+Pro
+Self-serve
+Starts at
+$0.750
+/ 1k sessions
+Automatic volume discounts. Pricing at scale.
+View calculator
+Start free
+Platform fee of $19 per month includes:
+50k sessions per month then pay as you go
+8×5 email support
+Enterprise
+Full service
+Prices are
+Custom
+Scalable unit price based on annual commit
+Contact us
+Minimum commit of $25,000 per year.
+Premium support
+Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)
+FAQ
+How is this different from included telemetry pricing model?
+We made this change to give customers more control on telemetry usage and costs. Customers can now use adaptive telemetry to reduce the unused / unwanted telemetry and lower their overall costs.
+What is a session?
+A “session” is defined as the time that a user is spending in a frontend application on and off from start to finish or timeout. A user session is either created or resumed when a user visits and uses the site. A user session ends after a maximum lifetime of 4 hours or after inactivity timeout of 15 minutes. The SDK will automatically create a new user session in any of these situations, if the user returns.
+Do you provide discounts for higher usage volumes?
+Yes, we provide volume discounts for enterprise-scale usage.
+Contact us
+for more details.
+Back to menu
+Database Observability
+Gain deep visibility into database performance and query behavior out of the box, with correlation across your stack.
+Free
+Always free
+Always
+$0
+No credit card required
+Start free
+Actually useful free tier with access to everything that Grafana Cloud has to offer.
+Limited to 2,232 database host hours (3 database hosts)
+Telemetry usage counts toward Grafana Cloud free tier allowances
+Community Support
+Pro
+Self-serve
+Starts at
+$0.070
+/ host hour (~$51 / host)
+Automatic volume discounts. Pricing at scale.
+View calculator
+Start free
+Platform fee of $19 per month includes:
+Includes 2,232 database host hours, then pay as you go
+Telemetry billed separately.
+8×5 email support
+Enterprise
+Full service
+Prices are
+Custom
+Scalable unit price based on annual commit
+Contact us
+Minimum commit of $25,000 per year.
+Premium support
+Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)
+FAQ
+What exactly is a "Host Hour" for Database Observability?
+A database host is any database instance sending monitoring data to Grafana Cloud. It is considered active if it has sent data in the last 15 minutes.
+Your bill is the sum of active host hours throughout the month, meaning you don’t pay for database instances that are spun down over the weekend or during off-peak hours.
+What counts as a database host?
+Each database server instance counts as one database host – for example, each MySQL or PostgreSQL server, each RDS or Cloud SQL instance, or each node in a database cluster. If you run multiple database instances on a single machine, each instance is counted separately.
+Do you provide discounts for higher usage volumes?
+Yes, we provide volume discounts for enterprise-scale usage.
+Contact us
+for more details.
+What telemetry costs should I expect?
+Database Observability generates metrics and logs that are stored in Grafana Cloud. These are billed at standard Grafana Cloud rates for metrics and logs, separate from your host hour usage. You can control telemetry volume by adjusting your collection configuration in Grafana Alloy.
+Back to menu
+Grafana Assistant
+Your AI teammate for Grafana Cloud — ask questions, build dashboards, run investigations, and automate routine work, from Grafana, Slack, your terminal, or your pocket.
+Free
+Always free
+Always
+$0
+No credit card required
+Start free
+Actually useful free tier with access to everything that Grafana Cloud has to offer.
+Limited to 3 active AI users per month (40M tokens / user / mo) & 25M tokens per month for system-initiated usage
+Community support
+Pro
+Self-serve
+Starts at
+$20.00
+/ active AI user (includes 40M tokens per user)
+Starts at
+$2
+/ 1M tokens (for additional tokens)
+Automatic volume discounts for AI users. Pricing at scale.
+View calculator
+Start free
+Platform fee of $19 per month includes:
+3 active AI users per month (40M tokens / user / mo) & 25M tokens per month for system-initiated usage, then pay as you go
+8×5 email support
+Enterprise
+Full service
+Prices are
+Custom
+Scalable unit price based on annual commit
+Contact us
+Minimum commit of $25,000 per year.
+Premium support
+Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)
+FAQ
+What is an active AI user?
+An active AI user is anyone who uses Grafana Assistant during the monthly billing period — sending a message, clicking an action like Explain in Assistant, or working with Assistant through any of its surfaces: in Grafana or Workspace, in Slack or Microsoft Teams, in the Grafana mobile or desktop app, or through the gcx CLI. Connecting through the Cloud MCP server also counts as active use. Running an Assistant Automation manually, or having one run automatically, also counts as active use.
+Each active user includes up to 40M tokens per month. Additional usage is charged at $2 per 1M tokens. Token limits apply per user and are not shared across users.
+What consumes my tokens?
+Token consumption falls into two buckets:
+Your per-user tokens (40M per user per month) cover everything you do with Assistant manually — conversations in any surface, Assistant Search, dashboard and query generation, investigations you start, and any prompts or questions you send within a system-initiated investigation. A manual Assistant Automation run counts toward the token usage of the user who starts it. Scheduled and event-triggered runs count toward the creator’s token usage.
+The system-initiated pool (25M per month on Free and Pro; custom pools on contracted plans) covers all other AI work that runs automatically — investigations triggered by alerts, incidents, or IRM webhooks, LLM-based evals and guards from Agent Observability, and service-account or API usage.
+Watcher agents are free while in public preview.
+Once a pool is used, additional tokens are billed at $2 per 1M.
+What is the system-initiated usage?
+Tokens consumed by system-initiated AI activity — investigations triggered automatically by alerts, incidents, watchers or IRM webhooks, LLM-based evals and guards, and service-account or API usage — draw from a shared monthly pool: 25M tokens on Free and Pro plans, with custom pool sizes on contracted plans, separate from per-user allowances. The pool is shared across all system-initiated AI usage in your organization. Assistant Automations are the exception: scheduled and event-triggered runs draw from their creator’s per-user tokens, not this pool. (This pool replaces the 25M tokens previously described as “service account usage.”)
+Does using gcx or the Grafana MCP server consume my tokens?
+Not for data access. When your own coding agent or MCP client uses gcx or the Cloud MCP server to query Grafana — pulling metrics, dashboards, alerts, or incidents — the reasoning happens in your agent’s model, and no Grafana AI tokens are consumed. Grafana tokens are consumed when Grafana’s models do the work: chatting with Assistant through the gcx CLI, invoking Assistant tools like ask_assistant through MCP, or starting an investigation from either surface. One thing to know: connecting through the Cloud MCP server counts you as an active AI user for that billing period, even if your token usage is zero.
+Does Assistant Search consume my tokens?
+Searching itself doesn’t. The retrieval — semantic and keyword search across your dashboards, incidents, investigations, alert rules, and infrastructure — runs on Grafana’s search index, not an AI model, and consumes no tokens. Tokens are consumed by the AI work around a search: a small amount to rewrite your query for better results, and — the bulk of it — when Assistant reasons over what comes back, either as part of its reply in chat or through Deep Search’s enrichment, which runs a full Assistant pass on each new search. There is no separate search-token pool; this usage draws from the same allowances as the rest of Assistant.
+What is an AI token?
+A token is a piece of text that an AI model reads or generates. Tokens can be whole words, parts of words, punctuation, or spaces. As a rough rule of thumb: 1 token ≈ 4 characters in English; 100 tokens ≈ 75 words. Tokens can be consumed by active AI users and by system-initiated usage; system-initiated usage is not billed per user.
+Do you provide discounts for higher usage volumes?
+Yes, we provide volume discounts for enterprise-scale usage
+(note: discounts do not apply to tokens)
+. Contact us for more details.
+Contact us
+for more details.
+Back to menu
+Investigations
+Agent-powered root-cause investigations for Grafana Cloud — Investigations forms hypotheses, chases down leads across your metrics, logs, traces, and profiles, and hands back a structured report. Run one yourself, or let alerts and incidents trigger them automatically.
+Free
+Always free
+Always
+$0
+No credit card required
+Start free
+Actually useful free tier with access to everything that Grafana Cloud has to offer.
+Automatically triggered investigations (alerts, incidents) draw from the system-initiated token pool (25M tokens per month)
+Investigations you run yourself count toward per-user Assistant allowances (40M tokens / user / mo)
+Community support
+Pro
+Self-serve
+Starts at
+$2
+/ 1M tokens (beyond included allowances)
+No separate subscription — pay only for the tokens investigations consume.
+Automatic volume discounts. Pricing at scale.
+View calculator
+Start free
+Platform fee of $19 per month includes:
+25M tokens per month for system-initiated usage & 40M tokens per active AI user per month, then pay as you go
+Investigation reports, history, and IRM webhook triggers included — no per-seat or per-investigation fee
+8×5 email support
+Enterprise
+Full service
+Prices are
+Custom
+Scalable unit price based on annual commit
+Contact us
+Minimum commit of $25,000 per year.
+Premium support
+Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)
+Investigations is generally available now. Until October 1, 2026, investigations don’t count toward your token allowances and aren’t billed — you’ll see their token usage in your usage views so you know what to expect before billing begins.
+FAQ
+What is an investigation?
+An investigation is a longer, deeper task you hand to Grafana Assistant: point it at an alert, incident, or question, and it forms hypotheses, dispatches sub-agents to prove or disprove them against your telemetry, and produces a structured report with findings, supporting evidence, and recommended next steps.
+How are investigations billed?
+Investigations are billed by the tokens they consume — there is no per-investigation or per-seat charge. Investigations you start yourself count toward your per-user Grafana Assistant allowance (40M tokens per user per month). Investigations triggered automatically — by alerts, incident updates, watchers or IRM webhooks — count toward the system-initiated token pool (25M tokens per month included). If you send prompts or questions within an automatically triggered investigation, those interactions count toward your per-user allowance. Beyond your included allowances, additional tokens are billed at $2 per 1M.
+What is the system-initiated usage?
+Tokens consumed by system-initiated AI activity — investigations triggered automatically by alerts, incidents, or IRM webhooks, LLM-based evals and guards, and service-account or API usage — draw from a shared monthly pool: 25M tokens on Free and Pro plans, with custom pool sizes on contracted plans, separate from per-user allowances. The pool is shared across all system-initiated AI usage in your organization. Assistant Automations are the exception: scheduled and event-triggered runs draw from their creator’s per-user tokens, not this pool. (This pool replaces the 25M tokens previously described as “service account usage.”)
+How many tokens does an investigation use?
+It depends on the scope of the problem and the effort level you choose — deeper investigations explore more hypotheses and query more data.
+What is a token?
+A token is a piece of text that an AI model reads or generates. Tokens can be whole words, parts of words, punctuation, or spaces. As a rough rule of thumb: 1 token ≈ 4 characters in English; 100 tokens ≈ 75 words.
+Do you provide discounts for higher usage volumes?
+Yes, we provide volume discounts for enterprise-scale usage
+(note: discounts do not apply to tokens)
+. Contact us for more details.
+Contact us
+for more details.
+Back to menu
+Agent Observability
+Out-of-the-box observability for AI agents and LLM applications — trace every generation, evaluate output quality, and enforce guardrails in production.
+Free
+Always free
+Always
+$0
+No credit card required
+Start free
+Actually useful free tier with access to everything that Grafana Cloud has to offer.
+Limited to 30k generations per month & 25M tokens per month for system-initiated usage (Evals & Guards)
+Telemetry usage counts toward Grafana Cloud free tier allowances
+Community support
+Pro
+Self-serve
+Starts at
+$1.50
+/ 1k generations
+Starts at
+$2
+/ 1M tokens (for Evals & Guards)
+Start free
+Platform fee of $19 per month includes:
+30k generations per month & 25M tokens per month for system-initiated usage (Evals & Guards), then pay as you go
+Telemetry billed separately
+8×5 email support
+Enterprise
+Full service
+Prices are
+Custom
+Scalable unit price based on annual commit
+Contact us
+Minimum commit of $25,000 per year.
+Premium support
+Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)
+Custom token pools for system-initiated usage
+Agent Observability is generally available now. Generations and Evals & Guards tokens aren’t metered or billed until October 1, 2026. Telemetry is billed at standard Grafana Cloud rates from day one.
+FAQ
+What is a generation?
+A generation is a single call to an AI model — one request and response — captured by Agent Observability. Agents typically produce multiple generations per user interaction: planning steps, tool selections, and final answers each count as one generation.
+When am I charged for tokens?
+Token charges apply only to Evals & Guards that use an LLM to score or screen your application’s outputs (for example, LLM-as-judge evaluators). These tokens count toward your system-initiated token pool (25M tokens per month included); once the pool is used, additional tokens are billed at $2 per 1M. Evals and guards that run static checks — schema validation, regex, heuristics — consume no tokens and incur no token charge.
+What is the system-initiated usage?
+Tokens consumed by system-initiated AI activity — investigations triggered automatically by alerts, incidents, or IRM webhooks, LLM-based evals and guards, and service-account or API usage — draw from a shared monthly pool: 25M tokens on Free and Pro plans, with custom pool sizes on contracted plans, separate from per-user allowances. The pool is shared across all system-initiated AI usage in your organization. Assistant Automations are the exception: scheduled and event-triggered runs draw from their creator’s per-user tokens, not this pool. (This pool replaces the 25M tokens previously described as “service account usage.”)
+What is a token?
+A token is a piece of text that an AI model reads or generates. Tokens can be whole words, parts of words, punctuation, or spaces. As a rough rule of thumb: 1 token ≈ 4 characters in English; 100 tokens ≈ 75 words.
+Is my AI application telemetry included?
+Traces, logs, and metrics generated by your AI applications are stored in Grafana Cloud and billed at standard Grafana Cloud rates, separate from generations. You can control telemetry volume through your instrumentation and collection configuration.
+Do you provide discounts for higher usage volumes?
+Yes, we provide volume discounts for enterprise-scale usage
+(note: discounts do not apply to tokens)
+. Contact us for more details.
+Contact us
+for more details.
+Back to menu
+Synthetics API Testing
+Proactively monitor your APIs and web applications globally and throughout the application lifecycle, with out-of-the-box debugging insights.
+Free
+Always free
+Always
+$0
+No credit card required
+Start free
+Actually useful free tier with access to everything that Grafana Cloud has to offer.
+Limited to 100k API test executions & 10k browser test executions per month
+Community support
+Pro
+Self-serve
+Starts at
+$5.00
+/ 10k API test executions
+Automatic volume discounts. Pricing at scale.
+View calculator
+Start free
+Platform fee of $19 per month includes:
+100k API test executions & 10k browser test executions per month then pay as you go
+8×5 email support
+Enterprise
+Full service
+Prices are
+Custom
+Scalable unit price based on annual commit
+Contact us
+Minimum commit of $25,000 per year.
+Premium support
+Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)
+FAQ
+What is a test execution?
+A test execution is a Synthetic test running in a probe location per minute of run time.
+Example: A synthetic test running in 5 locations that takes 1.5 minutes to complete will consume 10 executions each time it runs.
+How do I estimate the number of test executions?
+To estimate the number of test executions per month, you will need the following inputs:
+Number of Locations (Probes)
+Number of Targets (Tests)
+Duration of Test (rounded to the nearest minute)
+Frequency of Tests (in Minutes)
+Using the above info, you can calculate the number of test executions per month by applying this formula (where 43,200 is the total minutes in a month):
+probes x tests x duration x (43,200 / frequency)
+Do you provide discounts for higher usage volumes?
+Yes, we provide volume discounts for enterprise-scale usage.
+Contact us
+for more details.
+Back to menu
+Synthetics Browser Testing
+Simulate real user interactions in the browser to validate end-to-end user journeys and frontend performance.
+Free
+Always free
+Always
+$0
+No credit card required
+Start free
+Actually useful free tier with access to everything that Grafana Cloud has to offer.
+Limited to 100k API test executions & 10k browser test executions per month
+Community support
+Pro
+Self-serve
+Starts at
+$50.00
+/ 10k browser test executions
+Automatic volume discounts. Pricing at scale.
+View calculator
+Start free
+Platform fee of $19 per month includes:
+100k API test executions & 10k browser test executions per month then pay as you go
+8×5 email support
+Enterprise
+Full service
+Prices are
+Custom
+Scalable unit price based on annual commit
+Contact us
+Minimum commit of $25,000 per year.
+Premium support
+Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)
+FAQ
+What is a test execution?
+A test execution is a Synthetic test running in a probe location per minute of run time.
+Example: A synthetic test running in 5 locations that takes 1.5 minutes to complete will consume 10 executions each time it runs.
+What are MultiHTTP checks and k6 scripted checks?
+MultiHTTP checks are like HTTP checks but you can test multiple URLs in a single check to validate multi-step user flows.
+k6 scripted checks are like MultiHTTP checks, but you can write the checks in code instead of via a form-based approach.
+How do I estimate the number of test executions?
+To estimate the number of test executions per month, you will need the following inputs:
+Number of Locations (Probes)
+Number of Targets (Tests)
+Duration of Test (rounded to the nearest minute)
+Frequency of Tests (in Minutes)
+Using the above info, you can calculate the number of test executions per month by applying this formula:
+# of locations (probes) X number of targets (tests) X duration of test (rounded up to the nearest minute) X [43,200 total minutes in a month / frequency of tests in minutes)
+Do you provide discounts for higher usage volumes?
+Yes, we provide volume discounts for enterprise-scale usage.
+Contact us
+for more details.
+Back to menu
+Performance Testing (k6)
+Fully-managed performance testing platform to prevent system failures and consistently deliver fast and reliable applications.
+Free
+Always free
+Always
+$0
+No credit card required
+Start free
+Actually useful free tier with access to everything that Grafana Cloud has to offer.
+Limited to 500 virtual user hours per month
+Community support
+Pro
+Self-serve
+Starts at
+$0.150
+/ virtual user hour
+Automatic volume discounts. Pricing at scale.
+View calculator
+Start free
+Platform fee of $19 per month includes:
+500 virtual user hours per month then pay as you go
+8×5 email support
+Virtual user hour pricing goes down with volume. See how much with our
+calculator
+.
+Enterprise
+Full service
+Prices are
+Custom
+Scalable unit price based on annual commit
+Contact us
+Minimum commit of $25,000 per year.
+Premium support
+Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)
+Scale up to 1 million concurrent virtual users
+FAQ
+What is a virtual user hour (VUh)?
+VUh is calculated by using the following formula:
+(Maximum number of VUs x test execution duration in minutes) / 60 minutes = VUh
+If your test ramps up to a maximum of 100 VUs and runs for 10 minutes, the test run will use 16.67 VUh ((100 VUs x 10 minutes)/60 = 16.67 VUh).
+Note that VU hours are calculated based on the period that the test run executes, not the preconfigured test duration. If the test duration is 2 or more hours but runs for only 30.01 minutes, then the subscription will be charged for the test-execution period rounded up to the next minute (in this case, 31 minutes).
+The minimum for a test is 1 VUh. Find
+additional details here
+.
+What limitations are there in the free tier?
+Both the free tier and free trial period are limited to 500 VUh / month.
+How can I calculate how many VUH my tests will consume?
+With our
+public calculator
+, you can model your testing workload and estimate the monthly and yearly consumption of VUH.
+Do you provide discounts for higher usage volumes?
+Yes, we provide volume discounts for enterprise-scale usage.
+Contact us
+for more details.
+Back to menu
+Grafana Visualization
+The most popular single-pane of glass for developers. Query, visualize, alert on, and understand your data no matter where it’s stored.
+Free
+Always free
+Always
+$0
+No credit card required
+Start free
+Actually useful free tier with access to everything that Grafana Cloud has to offer.
+Limited to 3 active users per month
+Community support
+Pro
+Self-serve
+Starts at
+$8.00
+/ active user
+Automatic volume discounts. Pricing at scale.
+View calculator
+Start free
+Platform fee of $19 per month includes:
+3 active users per month then pay as you go
+8×5 email support
+Enterprise
+Full service
+Prices are
+Custom
+Scalable unit price based on annual commit
+Contact us
+Minimum commit of $25,000 per year.
+Cloud or self-hosted
+Premium support
+FAQ
+What is a Grafana active user?
+Any user that logs into Grafana during the billing month is considered an active user.
+Does the Cloud Pro Pay As You Go plan include Enterprise plugins?
+Enterprise plugins are a paid add-on for the Cloud Pro Pay As You Go Plan that is priced at $55 per active user per month. By default, your account will have Grafana without Enterprise plugins, which is priced at $8 per active user per month.
+Do you provide discounts for higher usage volumes?
+Yes, we provide volume discounts for enterprise-scale usage.
+Contact us
+for more details.
+Back to menu
+Grafana Visualization with Enterprise Plugins
+The most popular single-pane of glass for developers. Query, visualize, alert on, and understand your data no matter where it’s stored and unlock all Enterprise Plugins built & maintained by Grafana Labs.
+Free
+Always free
+Always
+$0
+No credit card required
+Start free
+Actually useful free tier with access to everything that Grafana Cloud has to offer.
+Limited to 3 active users per month
+Community support
+Pro
+Self-serve
+Starts at
+$55.00
+/ user with Enterprise Plugins
+Automatic volume discounts. Pricing at scale.
+View calculator
+Start free
+Platform fee of $19 per month includes:
+3 active users per month then pay as you go
+8×5 email support
+Enterprise
+Full service
+Prices are
+Custom
+Scalable unit price based on annual commit
+Contact us
+Minimum commit of $25,000 per year.
+Premium support
+Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)
+Enterprise Plugins
+The only pane of glass to visualize all of your data sources - both proprietary and open source. Enterprise plugins are available on Cloud or via a license key for self-hosted deployments.
+FAQ
+What is a Grafana active user?
+Any user that logs into Grafana during the billing month is considered an active user.
+Does the Cloud Pro Pay As You Go plan include Enterprise plugins?
+Enterprise plugins are a paid add-on for the Cloud Pro Pay As You Go Plan that is priced at $55 per active user per month. By default, your account will have Grafana without Enterprise plugins, which is priced at $8 per active user per month.
+Do you provide discounts for higher usage volumes?
+Yes, we provide volume discounts for enterprise-scale usage.
+Contact us
+for more details.
+Back to menu
+Incident Response & Management (IRM)
+Fully-managed incident and response management including on-call scheduling, notifications, and incident management.
+Free
+Always free
+Always
+$0
+No credit card required
+Start free
+Actually useful free tier with access to everything that Grafana Cloud has to offer.
+Limited to 3 active IRM users per month
+Community support
+Pro
+Self-serve
+Starts at
+$20.00
+/ active IRM user
+Automatic volume discounts. Pricing at scale.
+View calculator
+Start free
+Platform fee of $19 per month includes:
+3 active IRM users per month then pay as you go
+8×5 email support
+Enterprise
+Full service
+Prices are
+Custom
+Scalable unit price based on annual commit
+Contact us
+Minimum commit of $25,000 per year.
+Premium support
+Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)
+FAQ
+What is an IRM active user?
+An active IRM user is defined as a user who is included in OnCall schedules or escalation chains or performs any of the following actions:
+Changed the status of an alert group or OnCall configuration
+Received a page or paged another user
+Created, edited, or updated an incident
+Do you provide discounts for higher usage volumes?
+Yes, we provide volume discounts for enterprise-scale usage.
+Contact us
+for more details.
+Back to menu
+Sign-up time
+Get hands-on with Grafana Cloud or connect with us to figure out the right path. Either way, the next step’s yours.
+Start free
+Contact us

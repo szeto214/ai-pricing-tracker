@@ -5,9 +5,9 @@
   "category": "ai-api",
   "url": "https://replicate.com/pricing",
   "final_url": "https://replicate.com/pricing",
-  "content_hash": "55d5f1a0295d5a1088a30fb8656045881b47d8eda0ccc6ab974f3f7e394b7143",
-  "raw_hash": "e58ccbad4b51c6ce748ca25f547234bb791e6b4e3e3aa1f89629b630722daa76",
-  "text_bytes": 8215,
+  "content_hash": "e2128294821f8407907292ad0d1c6aadcc73b4580848aa8b79f6eac3e39ce283",
+  "raw_hash": "b44a6da4041abccaac6571bb9fba051a8b3ef6e6aedb5f4b28f5509e56fe4329",
+  "text_bytes": 8157,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

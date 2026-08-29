@@ -1,0 +1,393 @@
+{
+  "slug": "tailscale",
+  "name": "Tailscale",
+  "vendor": "Tailscale",
+  "category": "dev-infra",
+  "url": "https://tailscale.com/pricing",
+  "final_url": "https://tailscale.com/pricing",
+  "content_hash": "a2cd0d742cbf41b34008c3851ddb78c9b2e6a94c89f515452c38106bbd44b58f",
+  "raw_hash": "ac9f6a4d38c1fea80f0a340b579f50f7f053d3bff6681f69a32a2d6da6563a3e",
+  "text_bytes": 27675,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Personal",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Standard",
+      "price_raw": "$8",
+      "amount": 8.0,
+      "currency": "USD",
+      "period": "user",
+      "features": []
+    },
+    {
+      "name": "Premium",
+      "price_raw": "$18",
+      "amount": 18.0,
+      "currency": "USD",
+      "period": "user",
+      "features": []
+    },
+    {
+      "name": "Mullvad",
+      "price_raw": "$5",
+      "amount": 5.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Add more tagged resources",
+      "price_raw": "$1",
+      "amount": 1.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Users & Devices",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "user",
+      "features": []
+    }
+  ],
+  "tables": [
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Users & Devices",
+          "Personal",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Users",
+          "$0 for up to 6 users",
+          "$8 per user, per month",
+          "$18 per user, per month",
+          "Custom"
+        ],
+        [
+          "User Devices Computers, phones, etc.",
+          "Unlimited"
+        ],
+        [
+          "Tagged resources Resources like exit nodes, etc.",
+          "50 tagged resources included; add more for $1/month each."
+        ],
+        [
+          "Ephemeral resources Short-running k8s pods, CI/CD runners, etc.",
+          "1,000 mins per month",
+          "1,000 mins per month",
+          "10,000 mins per month",
+          "Custom"
+        ],
+        [
+          "Basics"
+        ],
+        [
+          "Secure peer-to-peer connections",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Subnet routers & exit nodes",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Split tunneling & MagicDNS",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "ACLs (Zero Trust)",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "ACL Groups",
+          "3",
+          "10",
+          "300",
+          "Custom"
+        ],
+        [
+          "Peer relays",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Infrastructure & Developer"
+        ],
+        [
+          "Basic Tailscale SSH",
+          "",
+          "Up to 5 hosts",
+          "",
+          ""
+        ],
+        [
+          "Advanced Tailscale SSH Non-default check mode length , localpart username matching .",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Kubernetes ingress & egress",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Kubernetes api proxy",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Funnel",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Privileged Access Management K8s, DB, and SSH recording",
+          "See platform extensions"
+        ],
+        [
+          "CI/CD connectivity at scale Secure managed CI/CD runners and more",
+          "See platform extensions"
+        ],
+        [
+          "Workload connectivity at scale Connect K8s workloads, apps, and pipelines",
+          "See platform extensions"
+        ],
+        [
+          "Edge & IoT connectivity at scale Mange your device fleet, robotics, vehicles",
+          "See platform extensions"
+        ],
+        [
+          "AI Governance & Security"
+        ],
+        [
+          "Aperture by Tailscale Unified governance for AI agents",
+          "See platform extensions"
+        ],
+        [
+          "Device Posture"
+        ],
+        [
+          "Basic device posture OS and TS version information",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Device posture integrations MDM, EDR, XDR, and more",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Device posture geolocation Plus identity collection",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Just-in-time access Custom device posture attributes",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "User & Device Management"
+        ],
+        [
+          "SSO with any IdP",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "User approval",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Device approval",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Custom authentication periods",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Custom admin console session timers",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Basic user roles",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Advanced user roles",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "User & group provisioning (SCIM)",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "User management APIs",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Deploy with MDM",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Configure with MDM",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Regional routing",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Logging"
+        ],
+        [
+          "Webhooks",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Configuration audit logs",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Network flow logs",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Log streaming",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Support & Billing"
+        ],
+        [
+          "Customer support",
+          "Basic",
+          "Basic",
+          "Priority",
+          "Premium"
+        ],
+        [
+          "Priority customer support",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Custom MSAs & Support SLAs",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Dedicated professional services",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Pay by invoice",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    }
+  ],
+  "extract_errors": []
+}

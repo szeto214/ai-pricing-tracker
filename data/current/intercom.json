@@ -1,0 +1,73 @@
+{
+  "slug": "intercom",
+  "name": "Intercom",
+  "vendor": "Intercom",
+  "category": "productivity",
+  "url": "https://www.intercom.com/pricing",
+  "final_url": "https://www.intercom.com/pricing",
+  "content_hash": "6abb95ce55b4ef38d93887429108af963daac522d966030e57b746070b939aee",
+  "raw_hash": "7f2435bf3d2fd5ce008c6d4f179cf3fad220662f543120d33aa58d230cda61a2",
+  "text_bytes": 5086,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Essential",
+      "price_raw": "$0.99",
+      "amount": 0.99,
+      "currency": "USD",
+      "period": "seat",
+      "features": []
+    },
+    {
+      "name": "Advanced",
+      "price_raw": "$0.99",
+      "amount": 0.99,
+      "currency": "USD",
+      "period": "seat",
+      "features": []
+    },
+    {
+      "name": "Expert",
+      "price_raw": "$0.99",
+      "amount": 0.99,
+      "currency": "USD",
+      "period": "seat",
+      "features": []
+    },
+    {
+      "name": "Fin AI Agent",
+      "price_raw": "$0.99",
+      "amount": 0.99,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Pro",
+      "price_raw": "$99",
+      "amount": 99.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Copilot",
+      "price_raw": "$29",
+      "amount": 29.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Proactive Support Plus",
+      "price_raw": "$99",
+      "amount": 99.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    }
+  ],
+  "tables": [],
+  "extract_errors": []
+}

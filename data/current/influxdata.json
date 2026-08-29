@@ -1,0 +1,278 @@
+{
+  "slug": "influxdata",
+  "name": "InfluxDB Cloud",
+  "vendor": "InfluxData",
+  "category": "database",
+  "url": "https://www.influxdata.com/influxdb-cloud-pricing/",
+  "final_url": "https://www.influxdata.com/influxdb-cloud-pricing/",
+  "content_hash": "9b462bfd0f5c5f95d3c43153fe782ad89bf6d7bef98ace3169e47832fda3c4e7",
+  "raw_hash": "a8f3030563728247eef39c94b86b9a20beb3d704866c30cc1d02b8cc9a42d6ce",
+  "text_bytes": 3774,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "InfluxDB Cloud Offerings",
+      "price_raw": "$0.00",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": [
+        "Volume of data in: $0.0025/MB",
+        "Query count: $0.012 per 100 query executions",
+        "Storage (total disk usage): $0.002/GB-hour",
+        "Volume of data out: $0.09/GB"
+      ]
+    },
+    {
+      "name": "Start building now",
+      "price_raw": "$250",
+      "amount": 250.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    }
+  ],
+  "tables": [
+    {
+      "caption": "",
+      "rows": [
+        [
+          "",
+          "Serverless",
+          "Dedicated"
+        ],
+        [
+          "",
+          "Free Plan",
+          "Usage-Based Plan",
+          "Annual Plans",
+          "Dedicated"
+        ],
+        [
+          "",
+          "Rate-limited plan for quickly and easily learning InfluxDB and prototyping. Single click upgrade to Usage-Based Plan.",
+          "For more extensive testing and development and smaller or early stage production workloads. Pay only for what you use—no minimums or long-term commitment.",
+          "Committed use plans for production or high-volume workloads offering scale discounts, elevated support, and enhanced feature access.",
+          "Single-tenant environment for high-volume production workloads offering workload isolation, private networking, elevated support, and enhanced feature access."
+        ],
+        [
+          "General",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Fully managed",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Service Environment",
+          "Serverless, Multi-Tenant",
+          "Serverless, Multi-Tenant",
+          "Serverless, Multi-Tenant",
+          "Single-Tenant"
+        ],
+        [
+          "Uptime SLA",
+          "—",
+          "—",
+          "",
+          ""
+        ],
+        [
+          "Pricing",
+          "Free",
+          "Volume of data in: $0.0025/MB Query count: $0.012 per 100 query executions Storage (total disk usage): $0.002/GB-hour Volume of data out: $0.09/GB",
+          "Usage-based, committed scale discounts",
+          "Annual subscription based on dedicated instance CPU / RAM"
+        ],
+        [
+          "Scale",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Writes",
+          "5MB/5 mins",
+          "300MB/5 mins",
+          "Contact Sales",
+          "No applied service quota"
+        ],
+        [
+          "Queries (Data Read)",
+          "300MB/5 mins",
+          "3000MB/5 mins",
+          "Contact Sales",
+          "No applied service quota"
+        ],
+        [
+          "Data Retention",
+          "30 days",
+          "Unlimited",
+          "Unlimited",
+          "Unlimited"
+        ],
+        [
+          "Cardinality",
+          "Contact Sales to scale for high-cardinality datasets",
+          "Contact Sales to scale for high-cardinality datasets",
+          "Contact Sales",
+          "No applied service quota"
+        ],
+        [
+          "Database (Buckets)",
+          "2",
+          "Unlimited",
+          "Unlimited",
+          "Unlimited"
+        ],
+        [
+          "Notification Rules",
+          "2 Notification Rules",
+          "Unlimited",
+          "Unlimited",
+          "Unlimited"
+        ],
+        [
+          "Separate Organizations Allowed Per Account Ability to create multiple organizations under the same parent account to separate data for different environments an",
+          "1",
+          "3",
+          "20",
+          "N/A"
+        ],
+        [
+          "Cloud",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Cloud Marketplace",
+          "—",
+          "AWS , Google Cloud , Microsoft Azure",
+          "Private offers available Contact Sales",
+          "Private offers available Contact Sales"
+        ],
+        [
+          "Security",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "End-to-end encryption",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "SAML/SSO",
+          "—",
+          "—",
+          "Available as an add-on",
+          "Available as an add-on"
+        ],
+        [
+          "Private networking",
+          "—",
+          "—",
+          "—",
+          "Available as an add-on"
+        ],
+        [
+          "Compliance",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "SOC 2 Type 2",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "ISO 27001",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "",
+          "Free Plan",
+          "Usage-Based Plan",
+          "Annual Plans",
+          "Dedicated"
+        ],
+        [
+          "Community Forum",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Slack",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Cloud Infrastructure Monitored 24x7 (1)",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Uptime SLA",
+          "Not available",
+          "Not available",
+          "",
+          ""
+        ],
+        [
+          "InfluxData Help Desk Support (2)",
+          "Not available",
+          "Contact Sales",
+          "",
+          ""
+        ],
+        [
+          "Dedicated Customer Success",
+          "Not available",
+          "Not available",
+          "With qualifying annual plan",
+          "With qualifying plan"
+        ],
+        [
+          "Professional Services",
+          "Not available",
+          "Not available",
+          "Contact Sales",
+          "Contact Sales"
+        ]
+      ]
+    }
+  ],
+  "extract_errors": []
+}

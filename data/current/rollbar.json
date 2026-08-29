@@ -1,0 +1,61 @@
+{
+  "slug": "rollbar",
+  "name": "Rollbar",
+  "vendor": "Rollbar",
+  "category": "observability",
+  "url": "https://rollbar.com/pricing/",
+  "final_url": "https://rollbar.com/pricing",
+  "content_hash": "337f40206d6be17e93d5ab0f87d07f5a99cdf839ca9f986b9380570c296c42ca",
+  "raw_hash": "93917247a652dd0cbb5280cd60ca717f7defcb62530d9fbb6cafb9e1c79732fd",
+  "text_bytes": 12567,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "desktop",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "tablet",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "phone",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "$0",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Start catching errors today.",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "5K occurrences + 1K replays free per month",
+        "14-day full access trial",
+        "Easy and quick installation"
+      ]
+    }
+  ],
+  "tables": [],
+  "extract_errors": []
+}

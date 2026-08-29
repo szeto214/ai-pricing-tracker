@@ -1,0 +1,57 @@
+{
+  "slug": "nebius",
+  "name": "Nebius AI Studio",
+  "vendor": "Nebius",
+  "category": "ai-api",
+  "url": "https://nebius.com/prices",
+  "final_url": "https://nebius.com/prices",
+  "content_hash": "7e823d2ca8a5ca5ad06f53085bcaf60daf520d5b53a1833cdac7f21bd1a8528f",
+  "raw_hash": "5beb3fd910032fed6476fcdf2e1eb0dbb023887607ec90df52f4ff633283ac86",
+  "text_bytes": 4771,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "NVIDIA GPU Instances",
+      "price_raw": "$4.30",
+      "amount": 4.3,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "CPU-only instances",
+      "price_raw": "$0.10",
+      "amount": 0.1,
+      "currency": "USD",
+      "period": "hour",
+      "features": []
+    },
+    {
+      "name": "Storage",
+      "price_raw": "$0.08",
+      "amount": 0.08,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Other services",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Questions and answers about payments",
+      "price_raw": "$25",
+      "amount": 25.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    }
+  ],
+  "tables": [],
+  "extract_errors": []
+}

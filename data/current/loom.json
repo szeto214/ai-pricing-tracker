@@ -1,0 +1,16 @@
+{
+  "slug": "loom",
+  "name": "Loom",
+  "vendor": "Atlassian",
+  "category": "productivity",
+  "url": "https://www.loom.com/pricing",
+  "final_url": "https://www.loom.com/pricing",
+  "content_hash": "a43fe63d4820d4e376a0105ff8d204b3ade5c9e85fe1708d3800d9a539fb80fc",
+  "raw_hash": "99ca1ee5a48deb0cb26422f9cc603e8ba2940724a92a0283490b595802dcff1d",
+  "text_bytes": 16,
+  "extractor": "none",
+  "confidence": "none",
+  "plans": [],
+  "tables": [],
+  "extract_errors": []
+}

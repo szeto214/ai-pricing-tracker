@@ -1,0 +1,412 @@
+Products
+Zilliz Cloud
+Fully managed Vector Lakebase services designed for high reliability, performance, and cost efficiency at scale.
+Milvus
+Open-source vector database built for billion-scale vector similarity search.
+Zilliz Cloud vs. Milvus
+Announcing Zilliz Vector Lakebase
+BYOC
+Migration
+Benchmark
+Integrations
+Open Source
+Support Portal
+From Vector Database to Vector Lakebase
+Pricing
+Pricing Plan
+Flexible pricing options for every team on any budget.
+Calculator
+Estimate your cost.
+List Price
+View detailed list prices for every billing item.
+Free Tier
+Unleash Your Imagination with the Power of Managed Milvus.
+Business Critical Plan
+Developers
+Documentation
+The Zilliz Cloud Developer Hub where you can find all the information to work with Zilliz Cloud.
+Learn More
+Learn
+GenAI Resource Hub
+Notebooks
+AI Models
+Community
+Download Milvus
+Join the Milvus Discord Community
+Resources
+Blog
+Guides
+Research
+Analyst Reports
+Webinars
+Trainings
+Podcasts
+Events
+Trust Center
+Startup Program
+Definitive Guide to Choosing a Vector Database
+Customers
+View by industry
+View all customer stories
+OpenEvidence Powers Medical AI with Zilliz Cloud
+English
+日本語
+한국어
+Español
+Français
+Deutsch
+Italiano
+Português
+Русский
+45.8k
+Book a Demo
+Log In
+Get Started Free
+Zilliz Cloud Pricing
+Built to scale with your usage, meet your security and compliance needs, and remain cost-effective for any budget.
+Estimate Cost
+Subscribe on Marketplace.
+AWS
+GCP
+Azure
+Free
+Starting point for learning and personal projects.
+$0
+Start for Free
+5 GB storage
+<count>
+vCUs
+per month included
+Up to 5 collections
+Standard
+Managed essentials for non-critical workloads.
+Best for: prototypes and testing environments
+.
+From $0
+/month (Serverless)
+From $126
+/GB/month (Dedicated)
+Start 30-day Free Trial
+Fully managed vector databases with core APIs
+Backup, restore, and basic monitoring
+Built-in encryption for data in transit and at rest
+View Pricing
+Enterprise
+MOST POPULAR
+Enterprise-grade reliability and controls.
+Best for: production applications
+.
+From $197
+/month (Dedicated)
+Start 30-day Free Trial
+99.95% uptime SLA
+Audit logs, SSO (SAML 2.0 based), granular RBAC
+Multi-replica and elastic scaling
+Private endpoint and VPC peering
+On-demand
+Enterprise support
+included
+View Pricing
+Business Critical
+Regulated-ready with maximum resilience.
+Best for: healthcare, finance, and other highly regulated, mission-critical systems
+.
+Let's Talk
+Book a Demo
+Global cluster with high-level availability and disaster recovery
+Advanced security: CMEK and full-path in-transit encryption (edge TLS + internal)
+HIPAA-eligible with enhanced data privacy features
+Priority support
+and rapid incident response
+View Pricing
+On-demand Compute
+New!
+Run lake-scale search and indexing jobs on zero-copy external data.
+Zero-copy access to external data
+On-demand query jobs and system-managed index builds
+Pay only for active job runtime, with no always-on compute
+View Pricing
+Book a Demo
+BYOC (Bring Your Own Cloud)
+Designed for organizations that prioritize custom infrastructure, enhanced data protection, and compliance.
+Deploy on your infrastructure of choice
+High-level control and security
+Same features and experience as SaaS Dedicated clusters
+Book a Demo
+Compare Plans
+Flexible Deployment Options
+Dedicated
+Serverless
+BYOC
+Dedicated
+Dedicated provides isolated, reserved environments for production workloads that demand consistent and predictable performance. This option is ideal for sustained high-throughput and latency-sensitive applications.
+Predictable Performance
+Leverage dedicated compute units (CU) to ensure stable performance without resource contention.
+Fixed and Transparent Costs
+Easily manage your budget with a clear, pay-as-you-go pricing model.
+Full Control & Customization
+Gain granular control over your resources and access advanced features to meet your specific application requirements.
+Cluster Types
+Dedicated clusters offer diverse types tailored to fit your use cases. A CU (compute unit) is a measure of computational resources for data processing. Each cluster type offers different combination of CPU, memory, and storage.
+Performance-optimized
+Ideal for real-time applications requiring instant search results and high concurrent traffic.
+Per CU Capacity
+2 million vectors
+Search QPS
+500-1500
+Search Latency
+10 ms
+From $63
+per million vectors / month
+Capacity-optimized
+Perfect for applications handling large vector datasets while maintaining reliable search speeds.
+Per CU Capacity
+8 million vectors
+Search QPS
+100-300
+Search Latency
+50-100 ms
+From $16
+per million vectors / month
+Tiered-storage
+Best for ultra-large-scale, cost-sensitive workloads.
+Per CU Capacity
+40 million vectors
+Search QPS
+10-50
+Search Latency
+100-1000ms
+From $5
+per million vectors / month
+*This data is based on evaluations of 768-dimensional vectors.
+View Plan Feature Details
+Free
+Start for Free
+Serverless
+Try Free
+Dedicated
+Standard
+Try Free
+MOST POPULAR
+Dedicated
+Enterprise
+Try Free
+Dedicated
+Business Critical
+Book a Demo
+Deployment
+Deployment
+Environment
+Shared
+Shared
+Dedicated
+Dedicated
+Dedicated
+Cluster Type
+Performance-optimized
+Ideal for applications requiring low latency and high throughput. Each query CU can handle about 2 million 768-dim vectors.
+Capacity-optimized
+Suited for managing large datasets with moderate search performance requirements. Each query CU can handle about 8 million 768-dim vectors.
+Tiered-storage
+Best for ultra-large-scale, cost-sensitive workloads. Each query CU can handle about 40 million 768-dim vectors.
+Public cloud provider
+AWS, Google Cloud
+AWS, Google Cloud
+AWS, Google Cloud, Azure
+AWS, Google Cloud, Azure
+AWS, Google Cloud, Azure
+Compute Scaling
+System-managed auto-scaling
+(No configuration required)
+Manual scaling to
+32 CUs
+Configurable auto-scaling
+Manual scaling up to 2,048 CUs; CU × replica ≤ 204,800
+(Contact us for larger needs.)
+Configurable auto-scaling
+Manual scaling up to 2,048 CUs; CU × replica ≤ 204,800
+(Contact us for larger needs.)
+Uptime SLA
+99.95%
+99.99% if multi-replica is enabled
+High Availability
+High Availability
+Availability zone
+Single
+Single
+Multiple
+Multiple
+Replica
+Snapshot
+Global Cluster
+Data Service
+Data Service
+Vector search
+Filtered search
+Range search
+Grouping search
+Hybrid search
+Full text search
+Text match
+Query
+Data processing
+Data Management
+Data Management
+Cross-cluster migration
+From free and serverless cluster
+Zero downtime migration
+Migration from external sources
+Volume
+High speed data import
+Recycle bin
+Data Security & Compliance
+Data Security & Compliance
+OAuth 2.0
+Enterprise SSO
+Customer managed encryption keys (CMEK)
+MFA
+Auditing
+API key management
+Data encryption in transit and at rest
+Basic backup & restore
+Cross-region backup
+Continuous data protection
+Book a Demo
+Point-in-time recovery (PITR)
+Book a Demo
+Data masking/tokenization
+Book a Demo
+Cluster IP allowlist
+Private networking
+SOC 2 Type II and ISO/IEC 27001 compliant, GDPR ready
+HIPAA ready
+Observability
+Observability
+Fine-grained metrics with real-time monitoring dashboards
+Alerts
+Alerting and monitoring integrations
+Job Center
+Role-based Access Control
+Role-based Access Control
+Organization and project management
+1 organization
+Up to 100 projects
+1 organization
+Up to 100 projects
+1 organization
+Up to 100 projects
+1 organization (Contact us for more organizations)
+Up to 100 projects
+1 organization (Contact us for more organizations)
+Up to 100 projects
+Organization and project RBAC
+Data plane RBAC
+Integrations and Tools
+Integrations and Tools
+Intuitive RESTful APIs for control and data plane operations
+User-friendly SDKs in multiple programming languages
+Python, Java, Go, and Node.js SDKs
+Python, Java, Go, and Node.js SDKs
+Python, Java, Go, and Node.js SDKs
+Python, Java, Go, and Node.js SDKs
+Python, Java, Go, and Node.js SDKs
+VTS (Vector Transport Service)
+VectorDBBench
+Support
+Support
+On-call availability
+Business hours
+Business hours
+24/7/365
+24/7/365
+First response SLAs
+Emergency
+30 min on-call
+Urgent
+4 hours
+4 hours
+1 hour
+1 hour
+High priority
+1 business day
+1 business day
+4 hours
+4 hours
+Medium/Normal
+2 business days
+2 business days
+1 business day
+1 business day
+Support Options
+Community
+Support bot
+Email/Ticket portal
+Slack channel
+Zoom/Google Meet/Teams
+Assigned support engineers
+Architectural Guidance
+General
+Use-case specific
+Code reviews
+Live consultations
+Estimate Your Cost
+Use this calculator to understand how Zilliz Cloud charges.
+Dedicated
+Serverless
+Cloud Provider
+Please select
+Region
+Please select
+Pricing Plan
+Please select
+Cluster Type
+Please select
+Number of Entities
+An entity is a row of data. For example, an entity can represent an image or a doc chunk.
+1
+Million
+Vector Dimensions
+Vector dimension refers to the length of the vector and can vary depending on the embedding model you use.
+768
+Vector Data Type
+Please select
+Field
+mmap
+Enabling mmap (memory mapping) can optimize memory usage and the amount of data that can be stored in the same Query CU will be increased.
+Learn More
+Estimated total cost per month
+$
+Evaluate your cost with $200 free credits
+Prices are estimates and may differ from actual costs. We recommend running a Proof of Concept (PoC) using the free credits to validate costs and performance, or contacting us for a tailored cost-optimization plan and additional PoC resources.
+Query CU
+$
+GB
+Storage
+$
+Try Free
+Book a Demo
+Frequently Asked Questions
+What is a Compute Unit (CU)?
+A compute unit (CU) is a group of hardware resources for serving your indexes and search requests. You can simply consider a CU as a fully-managed physical node for deploying search service.
+What is a vCU?
+A virtual compute unit (vCU) is used to measure the resources consumed by read operations (such as search and query) and write operations (such as insert, upsert, and delete). The read and write costs vary for different vCU usage. The
+read and write costs
+vary for different vCU usage
+Which type of cluster should I pick?
+Select the Performance-optimized cluster if you instant search results and high concurrent traffic for real-time applications.
+Choose the Capacity-optimized cluster if you need to handle large vector datasets while maintaining reliable search speeds.
+Opt for the Tiered-storage cluster if you need to handle ultra-large-scale, cost-sensitive workloads.
+How many query CUs do I need for a given collection?
+Performance-optimized
+: Supports up to 2 million 768-dimensional vectors.
+Capacity-optimized
+: Supports up to 8 million 768-dimensional vectors.
+Tiered-storage
+: Supports up to 40 million 768-dimensional vectors.
+These estimates are based on vectors with primary keys only. Additional scalar fields like IDs or labels may reduce capacity. We recommend conducting your own tests for accurate assessment.
+How can I get Zilliz Cloud discounts?
+When you commit to an annual plan, you can get additional credits based on your usage.
+How can I request a new cloud region?
+To request a new cloud service provider region for Zilliz Cloud, please
+fill out the form
+.

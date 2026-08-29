@@ -1,70 +1,5 @@
 A deep dive on the lakebase storage: S3 + WAL for the era of agents
 Neon
-Product
-Solutions
-Docs
-Pricing
-Resources
-Core Primitives
-Lakebase Postgres
-Serverless Postgres database
-Auth
-Authentication built into your database
-Functions
-Serverless compute next to your data
-Object Storage
-S3-compatible storage that branches
-AI Gateway
-One API for frontier and open-source models
-Features
-Lakebase Architecture
-Storage-compute separation
-Autoscaling
-Automatic instance sizing
-Branching
-Faster Postgres workflows
-Search
-Vector, keyword, and hybrid search
-Instant Restore
-Instant recovery when mistakes happen
-What is Neon
-Built around Lakebase Postgres, by Databricks
-Use cases
-Full-stack apps
-Deploy backends via your agent
-Branching workflows
-Simplify DB ops to ship faster & safer
-Bursty workloads
-Avoid overprovisioning & optimize performance
-Large databases
-Restore & replicate your DB in seconds
-Deploy at scale
-Agents
-Infra for app-generation agents like Replit & v0
-Platforms
-Deploy isolated backends for your end users
-Learn
-Blog
-Technical posts & product updates
-Case studies
-Explore customer stories
-Changelog
-Product updates
-Community
-Connect on Discord
-Startups
-Build with Neon
-Company
-About us
-The company and the mission
-Careers
-Join the team
-Contact sales
-Contact sales team
-Security
-Compliance & privacy
-Status
-Service status
 Discord
 23k
 Log in
@@ -267,8 +202,8 @@ Invocations
 $0.60 per 1M invocations
 Charges
 No charges during beta
-No charges applied during beta.
-Pricing will match model provider
+List prices here
+No charges during beta
 500 GB per project included
 then $0.10/GB
 3 days
@@ -303,8 +238,8 @@ Invocations
 $0.60 per 1M invocations
 Charges
 No charges during beta
-No charges applied during beta.
-Pricing will match model provider
+List prices here
+No charges during beta
 500 GB per project included
 then $0.10/GB
 $0.01 per GB
@@ -510,50 +445,3 @@ ASK AI
 Still have questions? Ask our AI.
 It knows Neon inside and out.
 Get Answers
-Neon
-Neon is part of the Databricks Platform
-Neon status loading...
-© Neon 2026. All rights reserved. Apache, Apache Spark, Spark, the Spark Logo, Apache Iceberg, Iceberg, and the Apache Iceberg logo are trademarks of the
-Apache Software Foundation
-.
-Privacy Notice
-Terms of Use
-Neon Platform Terms
-Modern Slavery Statement
-California Privacy
-Company
-About
-Blog
-Careers
-Contact Sales
-Security
-Resources
-Docs
-Changelog
-Support
-Community Guides
-FAQs
-PostgreSQL Tutorial
-Startups
-Community
-Discord
-GitHub
-X.com
-LinkedIn
-YouTube
-Compliance
-CCPA
-Compliant
-GDPR
-Compliant
-ISO 27001
-Certified
-ISO 27701
-Certified
-SOC 2
-Certified
-HIPAA
-Compliant
-Compliance Guide
-Neon’s Sub Contractors
-Trust Center

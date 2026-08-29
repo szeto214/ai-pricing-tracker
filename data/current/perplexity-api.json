@@ -1,0 +1,376 @@
+{
+  "slug": "perplexity-api",
+  "name": "Perplexity API",
+  "vendor": "Perplexity",
+  "category": "ai-api",
+  "url": "https://docs.perplexity.ai/getting-started/pricing",
+  "final_url": "https://docs.perplexity.ai/docs/getting-started/pricing",
+  "content_hash": "0ba3a3e88969e5d3a277eefd26b0ca3192089aa9d1d1270cd039388497cc9ade",
+  "raw_hash": "d153fe981f04997907a80f285e207806e154b3af09cae054715c5e416878068f",
+  "text_bytes": 8643,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "web_search",
+      "price_raw": "$0.00",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "fetch_url",
+      "price_raw": "$0.00",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "people_search",
+      "price_raw": "$0.00",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Looks up professionals, employees, and people. $",
+      "price_raw": "$5",
+      "amount": 5.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "finance_search",
+      "price_raw": "$0.00",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Retrieves financial data and market information.",
+      "price_raw": "$5",
+      "amount": 5.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "sandbox",
+      "price_raw": "$0.03",
+      "amount": 0.03,
+      "currency": "USD",
+      "period": "request",
+      "features": []
+    },
+    {
+      "name": "Isolated container for executing code during an ",
+      "price_raw": "$0.00",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "request",
+      "features": []
+    },
+    {
+      "name": "Search API",
+      "price_raw": "$5.00",
+      "amount": 5.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Sonar",
+      "price_raw": "$1",
+      "amount": 1.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Sonar",
+      "price_raw": "$5",
+      "amount": 5.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "fast",
+      "price_raw": "$6",
+      "amount": 6.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "pro",
+      "price_raw": "$14",
+      "amount": 14.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "​ Pro Search Pricing (Pro Search for Sonar Pro)",
+      "price_raw": "$6",
+      "amount": 6.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "pplx-embed-v1-0.6b",
+      "price_raw": "$0.00",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "pplx-embed-context-v1-0.6b",
+      "price_raw": "$0.00",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Input tokens",
+      "price_raw": "$0.00",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Model input tokens",
+      "price_raw": "$0.00",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    }
+  ],
+  "tables": [
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Tool",
+          "Price",
+          "Description"
+        ],
+        [
+          "web_search",
+          "$0.0025 per invocation",
+          "Performs web searches to retrieve current information"
+        ],
+        [
+          "fetch_url",
+          "$0.0005 per invocation",
+          "Fetches and extracts content from specific URLs"
+        ],
+        [
+          "people_search",
+          "$0.005 per invocation",
+          "Looks up professionals, employees, and people. $5 per 1,000 tool invocations"
+        ],
+        [
+          "finance_search",
+          "$0.005 per invocation",
+          "Retrieves financial data and market information. $5 per 1,000 tool invocations"
+        ],
+        [
+          "sandbox",
+          "$0.03 per session",
+          "Isolated container for executing code during an Agent API request. A session covers up to 20 minutes of active use for billing purposes — this is the billing wi"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "API",
+          "Price per 1K requests",
+          "Description"
+        ],
+        [
+          "Search API",
+          "$5.00",
+          "Raw web search results with advanced filtering"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Model",
+          "Input Tokens ($/1M)",
+          "Output Tokens ($/1M)",
+          "Citation Tokens ($/1M)",
+          "Search Queries ($/1K)",
+          "Reasoning Tokens ($/1M)"
+        ],
+        [
+          "Sonar",
+          "$1",
+          "$1",
+          "-",
+          "-",
+          "-"
+        ],
+        [
+          "Sonar Pro",
+          "$3",
+          "$15",
+          "-",
+          "-",
+          "-"
+        ],
+        [
+          "Sonar Reasoning Pro",
+          "$2",
+          "$8",
+          "-",
+          "-",
+          "-"
+        ],
+        [
+          "Sonar Deep Research",
+          "$2",
+          "$8",
+          "$2",
+          "$5",
+          "$3"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Model",
+          "Low Context Size",
+          "Medium Context Size",
+          "High Context Size"
+        ],
+        [
+          "Sonar",
+          "$5",
+          "$8",
+          "$12"
+        ],
+        [
+          "Sonar Pro",
+          "$6",
+          "$10",
+          "$14"
+        ],
+        [
+          "Sonar Reasoning Pro",
+          "$6",
+          "$10",
+          "$14"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Search Type",
+          "Description",
+          "Request Fee (per 1K)"
+        ],
+        [
+          "fast",
+          "(default) Standard Sonar Pro behavior",
+          "$6 / $10 / $14"
+        ],
+        [
+          "pro",
+          "Multi-step tool usage for complex queries",
+          "$14 / $18 / $22"
+        ],
+        [
+          "auto",
+          "Automatic classification based on query complexity",
+          "Varies by classification"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Model",
+          "Dimensions",
+          "Price ($/1M tokens)"
+        ],
+        [
+          "pplx-embed-v1-0.6b",
+          "1024",
+          "$0.004"
+        ],
+        [
+          "pplx-embed-v1-4b",
+          "2560",
+          "$0.03"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Model",
+          "Dimensions",
+          "Price ($/1M tokens)"
+        ],
+        [
+          "pplx-embed-context-v1-0.6b",
+          "1024",
+          "$0.008"
+        ],
+        [
+          "pplx-embed-context-v1-4b",
+          "2560",
+          "$0.05"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Component",
+          "Cost"
+        ],
+        [
+          "Input tokens",
+          "$0.000875"
+        ],
+        [
+          "Output tokens",
+          "$0.0028"
+        ],
+        [
+          "web_search",
+          "$0.0025"
+        ],
+        [
+          "Total",
+          "$0.006175"
+        ]
+      ]
+    }
+  ],
+  "extract_errors": []
+}

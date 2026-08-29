@@ -1,0 +1,16 @@
+{
+  "slug": "scaleway",
+  "name": "Scaleway",
+  "vendor": "Scaleway",
+  "category": "dev-infra",
+  "url": "https://www.scaleway.com/en/pricing/",
+  "final_url": "https://www.scaleway.com/en/pricing/",
+  "content_hash": "bf34a766d7209030d00c22ca8f268b4edfc7bb341c2e62b6d9cc8bf23e83e195",
+  "raw_hash": "24cbf06934eb097e5afd8523ab07a16d140289c2223f42612f80efb5cd3aa651",
+  "text_bytes": 3537,
+  "extractor": "none",
+  "confidence": "none",
+  "plans": [],
+  "tables": [],
+  "extract_errors": []
+}

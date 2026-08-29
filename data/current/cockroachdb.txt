@@ -1,0 +1,143 @@
+CockroachDB Pricing
+The cloud-native, distributed SQL database
+CockroachDB Cloud
+CockroachDB Bring your own cloud
+CockroachDB Self-Hosted
+CockroachDB Cloud
+CockroachDB Self-Hosted
+CockroachDB Bring your own cloud
+Compare CockroachDB pricing plans
+Basic
+Starts at $0 / month
+Get started free
+For smaller, bursty workloads up to 30K RU/sec (~60 vCPUs).
+50 million RUs and 10 GiB storage free per month
+On-demand compute and storage that scales to zero
+AWS and GCP multi-region support for select regions
+IP allowlist access control
+99.99% availability
+Integration of vector data with transactional data
+Includes MCP, CLI and Agent Skills
+View pricing
+Standard
+Preview
+2 vCPUs start at $0.18 / hr
+Get started free
+For steady workloads at scale, up to 200 vCPUs.
+Provisioned compute with instant scaling up to 200 vCPUs, and on-demand storage
+AWS and GCP multi-region support for select regions
+Private connectivity
+Metrics and log export to DataDog
+99.99% availability
+Integration of vector data with transactional data
+Includes MCP, CLI and Agent Skills
+View pricing
+Advanced
+4 vCPUs start at $0.60 / hr
+Get started
+For high-scale applications with advanced security and compliance requirements.
+Provisioned compute and storage with unlimited scaling
+AWS, GCP and Azure multi-region support for all regions
+Private connectivity
+Metrics and log export to Datadog
+Up to 99.999% availability
+CMEK and other controls for your PCI / HIPAA needs
+Integration of vector data with transactional data
+Includes MCP, CLI and Agent Skills
+View pricing
+Try free with $400 in credits. No credit card required for Basic and Standard plans.
+CockroachDB Cloud customers with annual or multi-year contracts entered into prior to December 1, 2024 can view legacy pricing
+here
+(effective until their renewal).
+Compare CockroachDB pricing plans
+Basic
+Starts at $0 / month
+Get started free
+Standard
+preview
+2 vCPUs start at $0.18 / hr
+Get started free
+Advanced
+4 vCPUs start at $0.60 / hr
+Get started
+Database features
+Compute limits
+Request units based, first 50 million RUs free per month
+vCPU based, up to 200 vCPUs
+vCPU based, unlimited scaling
+Storage limits
+Up to 3 TiB, first 10 GiB free per month
+Up to 3 TiB
+Unlimited up to 10 TiB per node
+Uptime SLA
+99.99%
+99.99%
+99.999% for multi-region
+Cloud availability
+AWS and GCP
+AWS and GCP
+AWS, GCP and Azure
+Automatic 3x data replication
+Multi-region support
+Technical support, professional services, training content
+Deployments and Operations features
+No-downtime version upgrades
+Automated major and minor upgrades
+Customer-scheduled major upgrades.
+Automated minor upgrades.
+Customer-scheduled major and minor upgrades.
+Deferral period and maintenance windows available.
+Compute scaling
+On-demand, scales down to zero
+Provisioned compute with instant scaling
+Dedicated resources.
+Vertical and horizontal scaling options.
+Provisioned compute with unlimited scaling.
+Storage scaling
+On-demand storage
+On-demand storage
+Provisioned storage
+Multi-region
+Yes
+Yes
+Yes
+Data domiciling
+Yes
+Yes
+Yes
+Security and Compliance features
+Role-based access control
+Console single sign-on
+Encrypted data in motion
+Private connectivity (PrivateLink, Private Service Connect)
+LDAP support
+Customer managed encryption keys (CMEK)
+Row level security
+Encrypted backups
+PCI-DSS support
+HIPAA ready
+ISO certified
+SOC2 certified
+Disaster Recovery and Integrations features
+Flexible RPO and retention for managed backups
+Change data capture
+Enterprise changefeeds
+Enterprise changefeeds
+Enterprise changefeeds
+APIs and Terraform support
+Observability features
+Monitoring and alerting integrations for metrics and logs (e.g., Datadog, Splunk, Dynatrace, New Relic)
+Intelligent insights
+AI Capabilities
+new
+MCP Server
+Connect AI tools like Claude Code, Cursor, Windsurf directly with CockroachDB
+ccloud CLI
+Let your AI agents manage clusters, schemas and workflows from the CLI
+Agent Skills
+Give any LLM the knowledge and tools to work with CockroachDB out of the box
+Distributed vector index
+Store and query high-dimensional embeddings natively across a globally distributed cluster, with pgvector compatibility
+Get started with CockroachDB today
+Get started
+Contact us

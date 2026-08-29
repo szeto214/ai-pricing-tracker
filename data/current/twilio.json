@@ -5,9 +5,9 @@
   "category": "dev-infra",
   "url": "https://www.twilio.com/en-us/pricing",
   "final_url": "https://www.twilio.com/en-us/pricing",
-  "content_hash": "77ba556c63b6e8afd8a21c2d7235bfd5b9b5f25a1350b4009112ab925e6f757f",
+  "content_hash": "7dff11a605d2ce02b18f707654bef0906b0bbc473b68a7c30802496cc0ea1f67",
   "raw_hash": "286879a930787d32bd740c0a7a404cb725f2e7b3f74f2b6ca4a94713388ea884",
-  "text_bytes": 13109,
+  "text_bytes": 6494,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

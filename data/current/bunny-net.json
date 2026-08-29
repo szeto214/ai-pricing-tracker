@@ -1,0 +1,99 @@
+{
+  "slug": "bunny-net",
+  "name": "Bunny.net",
+  "vendor": "BunnyWay",
+  "category": "dev-infra",
+  "url": "https://bunny.net/pricing/",
+  "final_url": "https://bunny.net/pricing/",
+  "content_hash": "001c953e93dc46e070a38d32b5a3018c28656e208a1d4c6ae90f3630da0efd5b",
+  "raw_hash": "c9d2be2b42afb923de8858c104e086a08b59491e8b7fe62edb35b2fcee3c3384",
+  "text_bytes": 4359,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Bunny Pricing",
+      "price_raw": "$1",
+      "amount": 1.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Standard network 119 PoPs",
+      "price_raw": "$0.01",
+      "amount": 0.01,
+      "currency": "USD",
+      "period": null,
+      "features": [
+        "Europe & North America $0.01/GB",
+        "South America $0.045/GB",
+        "Asia & Oceania $0.03/GB",
+        "Middle East & Africa $0.06/GB"
+      ]
+    },
+    {
+      "name": "Volume network 10 PoPs",
+      "price_raw": "$0.00",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": [
+        "First 500 TB $0.005/GB",
+        "500 TB - 1 PB $0.004/GB",
+        "1 PB - 2 PB $0.002/GB",
+        "From 2 PB+ Contact us"
+      ]
+    },
+    {
+      "name": "$1 Monthly Minimum",
+      "price_raw": "$1",
+      "amount": 1.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "bunny.net",
+      "price_raw": "$50",
+      "amount": 50.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "BytePlus",
+      "price_raw": "$220",
+      "amount": 220.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "CacheFly",
+      "price_raw": "$125",
+      "amount": 125.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "CloudFront",
+      "price_raw": "$425",
+      "amount": 425.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Fastly",
+      "price_raw": "$600",
+      "amount": 600.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    }
+  ],
+  "tables": [],
+  "extract_errors": []
+}

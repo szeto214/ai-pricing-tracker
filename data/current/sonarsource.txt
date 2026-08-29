@@ -1,0 +1,294 @@
+Pricing
+Plans and pricing
+Try enterprise-grade code verification without the surprise usage bills. 14-day trial on paid plans, and a free tier that never expires.
+SonarQube plans
+Code verification and governance for the AI era
+Cloud-hosted analysis for your CI/CD workflows. Priced per instance per year, based on your lines of code.
+Team
+Team
+Essential capabilities for small teams
+Starts at
+$34
+monthly
+Request trial
+Contact sales
+Includes:
+Recommended for teams <50 developers
+30+ languages
+Code quality standards
+Detecting bugs and vulnerabilities
+Secrets detection
+AI-driven code fixes
+Pull request analysis
+Architecture management
+Commercial support available
+Need SonarQube for an OSS project?
+★ Most teams choose this
+Enterprise
+Enterprise
+Mission critical scale & performance
+Annual price
+Custom pricing
+Contact sales
+Request a demo
+Team plan, plus:
+Advanced security reports & audit logs
+OWASP, CWE, PCI DSS, and MISRA C++:2023
+Unlimited users and projects
+40+ languages incl. ABAP, COBOL, Apex
+SSO, SCIM, CMK/BYOK, IP allowlist
+Enterprise hierarchy, portfolios, org-wide defaults
+Customizable portfolio & project dashboards
+Enterprise SLA
+Premium support available
+Gitar plans
+AI code review that turns your PRs green
+Fixes validated against your CI pipeline. Try the full platform free for 14 days.
+Annual
+Save 20%
+Monthly
+Best for getting started
+Core
+Unlimited public & private repos · Up to 50 users
+$20
+/ user / mo
+$25
+/ user / mo
+Billed annually · 14-day free trial
+Billed monthly · 14-day free trial
+Get started
+Includes:
+Fully customizable code reviews
+Automatic PR summaries
+CI failure analysis (GitHub Actions, GitLab Pipelines)
+Fixes via comments (Ask Gitar to fix issues on your PRs)
+Interactive agent on your PRs
+Developer insights
+★ Best for growing teams
+Most popular
+Pro
+Unlimited public & private repos · Up to 50 users
+$40
+/ user / mo
+$50
+/ user / mo
+Billed annually · 14-day free trial
+Billed monthly · 14-day free trial
+Start free trial
+Everything in Core, plus:
+Auto-approve & merge blocking (Approve PRs automatically, block merges on issues)
+Auto-apply — fix until PR is green
+Advanced CI failure analysis (CircleCI, Buildkite, Bitrise)
+3rd-party integrations (Slack, Linear, Jira)
+User-defined checks & automations
+Advanced insights
+Comprehensive platform engineering
+Enterprise
+Unlimited public & private repos · Unlimited users
+Contact us
+Custom pricing & agreements
+Book a demo
+Everything in Pro, plus:
+Self-hosted Code Hosting
+Bring your own LLM API key
+SSO / SAML
+Custom deployment options
+Audit logs
+Dedicated support
+Custom agreements
+Custom integrations
+API access
+New
+Free for Open Source
+Open source projects get Gitar at no cost. Includes all the same features as the Pro plan.
+Public repository
+On GitHub or GitLab
+OSI-approved license
+MIT, Apache-2.0, GPL, and more
+Apply now
+Also available
+For your agent-centric development
+Add Sonar Agent essentials, SonarQube Advanced Security, and SonarQube Hunter Agent to extend SonarQube across the agent-centric development cycle. Built on your SonarQube plan, not beside it.
+Agentic package · Team and Enterprise
+Sonar Agent Essentials
+Context and verification for AI agents
+Custom pricing
+Usage based
+Contact sales
+Learn more
+Includes:
+Sonar Vortex:
+Guide agents with your architecture and standards before they write, then verify every output in real time inside the inner loop.
+Inject context and constraints
+Verify code in the agent loop
+Remediation Agent:
+Opens verified-fix PRs automatically. Build must pass before merge.
+Integrated with agents using:
+SonarQube CLI
+: Unified CLI for agentic workflows. Run analysis from any terminal, CI pipeline, or coding agent.
+SonarQube MCP Server
+: Bring code quality and security into your AI workflow. Open source and free.
+SonarQube agent plugins: Slash commands and quality gates for Claude Code, Gemini, and Kiro.
+For Team and Enterprise
+Advanced Security
+Advanced SAST and supply-chain security
+Custom pricing
+Custom pricing
+Contact sales
+Learn more
+Includes:
+CVE detection
+Identify known vulnerabilities in open source dependencies, prioritized by severity and exploitability.
+Malicious package detection
+Block compromised and malicious libraries from entering your supply chain in real time.
+Dependency-aware taint analysis
+Traces data flow across code boundaries into third-party libraries — uncovering complex vulnerabilities that cross-file analysis alone misses.
+SBOM
+Enterprise
+Generate and export a complete software bill of materials for every project.
+License policy management
+Enterprise
+Define and enforce open source license policies across all projects and dependencies.
+For Enterprise
+SonarQube Hunter Agent
+AI agent for logic-based vulnerabilities
+Custom pricing
+Custom pricing
+Contact sales
+Learn more
+Includes:
+Finds logic-based vulnerabilities
+Uncovers broken access control, business logic abuse, and authentication and session issues, the vulnerabilities that depend on intent, not a code pattern
+Reasons like a security researcher
+Runs structured playbooks that trace code, data, and identity flows across the whole codebase, rather than matching patterns.
+Runs in the background
+Scan on demand or on schedule, with no pull request or CI slowdown.
+Native to your workflow
+Findings arrive as SonarQube issues, auto-tagged and CWE-severity mapped, ready to triage and fix. Nothing to install.
+Complements SAST and SCA
+Adds a reasoning layer to SonarQube's deterministic analysis, for coverage no single method delivers.
+Feature comparison
+Compare SonarQube plans
+Capability
+Team
+$34 monthly
+★ Most teams choose this
+Enterprise
+Custom pricing
+Agentic & AI
+SonarQube MCP Server
+SonarQube CLI
+AI Code Assurance
+AI-driven code fixes
+Detect issues in AI-generated code
+Languages & Frameworks
+Languages and frameworks supported
+30+
+40+
+Code Quality
+Quality gates and profiles
+Architecture management
+Technical debt management
+Enforce custom coding standards
+Test coverage
+Pull request and branch analysis
+Code Security
+SAST
+Taint analysis
+Secrets detection
+IaC scanning
+SCA and Advanced SAST
+—
+Included in Advanced Security
+OWASP Top 10, CWE, PCI DSS, STIG, CASA
+—
+MISRA C++:2023 compliance
+—
+Cyber Resilience Act (CRA) compliance
+—
+GitHub Advanced Security integration
+—
+Security reports and audit logs
+—
+Enterprise & Scale
+Unlimited users and projects
+—
+SSO, SCIM, CMK/BYOK
+—
+IP allowlist
+—
+Enterprise hierarchy and portfolios
+—
+Customizable dashboards
+—
+Enterprise SLA
+—
+Premium support
+Add-on
+Add-on
+Frequently asked questions
+How does pricing work for private projects?
+Subscribing to a paid plan on SonarQube allows you to create a private organization containing private projects.
+There are two paid plans available: Team and Enterprise. You pay upfront for a maximum number of private lines of code to be analyzed in your organization.
+SonarQube plan pricing starts at $34 monthly for analysis of up to 100k LOC. Other LOC increments are available.
+We also offer a free tier that allows you to explore SonarQube using your private projects up to a maximum of 50k LoC.
+Do you offer pricing for a self-hosted solution?
+Yes. If you prefer to manage your own infrastructure,
+SonarQube Server
+is our self-managed static analysis solution.
+It's available in three editions —
+Developer
+,
+Enterprise
+, and
+Data Center
+— each priced per instance, per year, based on your lines of code (LOC).
+View SonarQube Server plans and pricing →
+What payment options are available?
+For the Team plan, payment is completed online via credit card and will happen automatically every month. For all billing questions, use the
+Contact Us
+form.
+What is a Line of Code (LOC) on SonarQube?
+LOCs are computed by summing up the lines of code of each project analyzed in SonarQube. The LOCs used for a project are the ones found during the most recent analysis of this project.
+How are Lines of Code (LOCs) counted towards billing?
+Only LOCs from your private projects are counted toward your maximum number of LOCs.
+If your project contains branches, we only count the lines of code in your largest branch
+The count is not related to how frequently the source code is analyzed. If your private project has 6K LOCs and you analyze it 100 times in the month, this will be counted as 6K for the billing.
+If you are getting close to the threshold, you will be notified to either upgrade your plan or reduce the number of LOCs in your projects.
+Please note - in the future, we plan to introduce compute analysis measurements to enable admin monitoring of the volume of analyses made.
+When will I be invoiced?
+With SonarQube Team plan you will be invoiced once a month, the day of the month after your trial ends. For example if you start your free trial on January 1st, it will last until January 14th and you will be first billed on January 15th for your upcoming month, e.g. January 15th to February 15th.
+Which programming languages does SonarQube Cloud support?
+SonarQube currently supports the following languages and frameworks in the Team plan: Ansible, Azure Resource Manager, C, C++, CloudFormation, C#, CSS, Docker, Flex, Go, HTML, Java, JavaScript, Kotlin, Kubernetes, Objective-C, PHP, PL/SQL, Python, RPG, Ruby, Rust, Scala, Swift, Terraform, TypeScript, T-SQL, VB.NET, VB6, XML, JSON, YAML and Groovy. Additionally, the Enterprise Plan offers ABAP, COBOL, JCL, RPG, PL/I, and Apex.
+Is support available for SonarQube?
+Yes.
+The SonarQube
+Enterprise
+plan includes
+commercial support
+(starting at 5M LOC).
+For the
+Team
+plan commercial support is available to purchase (contact sales).
+For the
+Free
+plan (as well as
+Enterprise
+and
+Team
+plans) the
+Sonar Community
+is a channel for you to ask questions and receive help from our community members.
+Can I try a private project on SonarQube for free?
+Yes. The free tier enables you to explore SonarQube with your private project up to a maximum size of 50k LoC. Sign up
+here
+Can I cancel my subscription?
+Of course! There's no commitment. You can delete your paid organization whenever you wish. Or simply downgrade to the free tier if you wish to keep on analyzing some public projects.
+Can I try the enterprise features?
+Yes. Please
+contact sales
+and request a trial of SonarQube Enterprise features to discover the value they will bring to your organization.
+How can I get SCA?
+SCA is available with the Advanced Security subscription available to Enterprise plan users. It offers vulnerability detection, license checks, and SBOM visibility. Head
+here
+to discover more.

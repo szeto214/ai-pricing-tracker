@@ -1,0 +1,59 @@
+{
+  "slug": "descript",
+  "name": "Descript",
+  "vendor": "Descript",
+  "category": "ai-media",
+  "url": "https://www.descript.com/pricing",
+  "final_url": "https://www.descript.com/pricing",
+  "content_hash": "3d5c5c7d3f51314718cbe4a89991ddea0b8e3c28dbc94aa6f8c07fd937ce1991",
+  "raw_hash": "11c7943a9c8d92b196d06b288b4d5d64c13a89b8b3b327cd4fb2e7357483522b",
+  "text_bytes": 14573,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Hobbyist",
+      "price_raw": "$ 16",
+      "amount": 16.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "10 media hours / month",
+        "400 AI credits / month",
+        "Export 1080p, watermark-free",
+        "Access to Underlord, our AI video co-editor",
+        "AI tools including Studio Sound, Remove Filler Words, Create Clips, and more",
+        "AI Speech with custom voice clones and video regenerate",
+        "30 media hours / month",
+        "800 AI credits / month",
+        "Export 4k, watermark-free",
+        "Full access to Underlord, our AI video co-editor and 20+ more AI tools",
+        "Generate video with the latest AI models",
+        "Unlimited access to royalty-free stock media library",
+        "Access to top ups for more media hours and AI credits",
+        "40 media hours / month",
+        "1500 AI credits / month",
+        "Team-wide access to Brand Studio",
+        "Translate and dub video in 30+ languages with proofread",
+        "Generate custom avatars from photo upload or text",
+        "Priority support (with SLA)",
+        "Access to top ups for more media hours and AI credits",
+        "Text-based editing: Edit video by editing a doc",
+        "AI credits and media hours: sized to your team",
+        "Brand Studio: shared templates and company-wide guardrails",
+        "AI and data controls: opt-out of training, custom retention",
+        "SOC 2 Type II: SSO, SCIM, and audit logs"
+      ]
+    },
+    {
+      "name": "Free",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    }
+  ],
+  "tables": [],
+  "extract_errors": []
+}

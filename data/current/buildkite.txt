@@ -1,0 +1,792 @@
+Pricing
+Built for those who build
+Plans
+Start Free or Pro with 30 days of the all-access trial. No credit card or commitment.
+Free Plan
+For solo developers and small teams
+$
+0
+Start an all-access trial
+No credit card required
+See what’s included
+Your 30-day all-access trial includes:
+30 days of full access to the entire Buildkite Platform
+No credit card needed to start
+A dedicated Developer Success Engineer to help you get started
+The option to choose the plan that fits your needs after 30 days, or walk away without any commitment.
+See what’s included
+Your 30-day all-access trial includes:
+30 days of full access to the entire Buildkite Platform
+No credit card needed to start
+A dedicated Developer Success Engineer to help you get started
+The option to choose the plan that fits your needs after 30 days, or walk away without any commitment.
+Plan details
+Up to 5 users
+Up to 10 concurrent jobs
+Up to 2,000 Linux vCPU minutes per month
+Up to 250k test executions per month
+Dynamic pipelines
+Community support
+Pro Plan
+For growing engineering teams
+$
+30
+per active user/month
+Start an all-access trial
+No credit card required
+See what’s included
+Your 30-day all-access trial includes:
+30 days of full access to the entire Buildkite Platform
+No credit card needed to start
+A dedicated Developer Success Engineer to help you get started
+The option to choose the plan that fits your needs after 30 days, or walk away without any commitment.
+See what’s included
+Your 30-day all-access trial includes:
+30 days of full access to the entire Buildkite Platform
+No credit card needed to start
+A dedicated Developer Success Engineer to help you get started
+The option to choose the plan that fits your needs after 30 days, or walk away without any commitment.
+Plan details
+Up to 50 users
+Up to 250 concurrent agents, 10 included
+Includes 4,000 Linux vCPU minutes per month with access to macOS agents, larger machine sizes, and higher concurrency
+1M test executions per month
+Dynamic pipelines
+Priority email support
+Enterprise Plan
+For organizations that need enterprise-grade security, compliance, and scale
+Custom
+Contact sales
+Platform
+Custom usage and rate limits
+Full access to Buildkite’s testing platform
+Buildkite hosted agents with remote Docker builders, private container registry, largest machine sizes, Linux ARM64, and scalable concurrency
+Custom storage and retention policies for builds, artifacts, and logs
+Dynamic pipelines
+99.95% platform uptime commitment
+Security
+SCIM, custom SAML & ADFS
+Private log and artifact storage
+Audit log exports
+Observability integrations, including EventBridge and SIEM
+Advanced governance and control
+Support
+Access to Enterprise support with SLA credits
+Priority response times
+Slack Connect
+All prices in USD
+Plan details
+Free Plan
+Pro Plan
+Enterprise Plan
++
+−
+Pipelines
+Expand to see 9 features
+Dynamic pipelines
+Generate and upload pipeline steps at runtime, so each build can adapt to code changes, test results, or other build-time logic.
+✓
+✓
+✓
+Self-hosted agents
+The maximum number of Buildkite agents connected simultaneously.
+Up to 10 concurrent jobs
+Up to 250
+10 included, then $3.50 agent/month
+Unlimited
+Volume discounts
+Active users
+Up to 5
+Up to 50
+Unlimited
+30 user minimum
+Build retention
+Automatically remove your finished builds after a set period.
+30 days
+90 days
+1 year + historical export
+Artifact retention
+30 days
+30 days
+Custom
+Artifact storage
+50GB/month
+250GB/month
+Custom
+Artifact downloads
+250GB/month
+2.5TB/month
+Custom
+GitHub Enterprise support
+Connect to an on-premise GitHub Enterprise instance.
+—
+✓
+✓
+Pipeline templates
+Define standard pipeline step configurations to use across your organization.
+—
+—
+✓
++
+−
+Tests
+Expand to see 4 features
+Test executions
+A test execution is a recorded result from one run of a test. Ingesting this data is optional.
+250k/month
+1M/month included
+Then $15/M executions
+Custom
+Workflows
+—
+1 workflow
+Includes test state management and auto-quarantine
+Custom
+Set custom quarantine rules
+Test history window
+How far back Buildkite can query ingested test results and insights.
+24 hours
+7 days
+28 days
+Test splitting
+Effortlessly bin pack your test suite across multiple nodes without having to manually rebalance your test plan.
+✓
+✓
+✓
++
+−
+Package Registries
+Expand to see 4 features
+Storage & transfer
+Storage and data transfer included per org/month for Package Registries.
+1GB indexed + distributed/month
+20GB included
+Custom
+Private registries
+✓
+✓
+✓
+Arbitrary files
+—
+✓
+✓
+Software (SLSA) provenance
+—
+—
+✓
++
+−
+Hosted Agents
+Expand to see 11 features
+Linux vCPU minutes
+Included Linux hosted agent vCPU minutes per month.
+Up to 2,000 mins/month
+Small only
+4,000 mins/month included
+Additional at per-minute rates
+Volume discounts
+Linux vCPU concurrency
+The maximum combined Linux vCPUs your jobs can utilize at once.
+Up to 20 vCPU
+Up to 256 vCPU
+Custom
+Linux shapes
+Available Linux hosted agent sizes.
+Small
+AMD64 only
+Small, Medium, Large
+AMD64 only
+Larger sizes available
+ARM64 available on request
+M4 Mac vCPU minutes
+Included M4 Mac hosted agent vCPU minutes per month.
+—
+Pay-as-you-go
+Additional at per-minute rates
+Volume discounts
+M4 Mac vCPU concurrency
+The maximum combined M4 Mac vCPUs your jobs can utilize at once.
+—
+Up to 48 vCPU
+Custom
+M4 Mac shapes
+Available M4 Mac hosted agent sizes.
+—
+Medium, Large
+Medium, Large
+Git mirror volumes
+✓
+✓
+✓
+Custom agent images
+✓
+✓
+✓
+Cache volumes
+—
+✓
+✓
+Internal container registry
+—
+—
+✓
+Remote Docker builds
+—
+—
+✓
++
+−
+Team management
+Expand to see 2 features
+Member permissions
+Manage default member permissions, such as disabling pipeline creation.
+—
+—
+✓
+Custom announcement banners
+Communicate important messages and alerts to your entire organization, as you need.
+—
+—
+✓
++
+−
+Security & audit
+Expand to see 9 features
+GitHub auth
+✓
+✓
+✓
+Signed pipelines
+Prevent unauthorized pipeline modifications by signing step definitions and verifying signatures before running jobs.
+—
+✓
+✓
+Single sign on
+Connect an SSO provider to simplify and protect access to your organization's data.
+—
+✓
+✓
+SCIM, custom SAML & ADFS
+SCIM support for automatic user management, and advanced SSO providers.
+—
+—
+✓
+Private log storage
+Store your job logs in a private S3 bucket.
+—
+—
+✓
+Activity log
+Track all user activity within your organization.
+—
+—
+✓
+Inactive user list
+Audit inactive users and easily remove them.
+—
+—
+✓
+Inactive API token revocation
+Prevent potential security risks created by unused API tokens.
+—
+—
+✓
+SSO session IP address pinning
+Prompt your users to re-authorize when their origin changes.
+—
+—
+✓
++
+−
+Support & billing
+Expand to see 6 features
+Priority email support
+Priority status for all email support requests.
+—
+✓
+✓
+Enterprise support
+Enterprise support with account management and service commitments.
+—
+—
+✓
+Slack Connect
+Collaborate directly with Buildkite support in Slack.
+—
+—
+✓
+Platform uptime commitment
+The Buildkite platform is backed by a 99.95% uptime commitment.
+—
+—
+✓
+Invoice payment
+Pay annually or via invoice.
+—
+—
+✓
+Consolidated billing
+Consolidated billing & invoicing across multiple accounts.
+—
+—
+✓
+Free Plan
++
+−
+Pipelines
+Expand to see 7 features
+Dynamic pipelines
+Generate and upload pipeline steps at runtime, so each build can adapt to code changes, test results, or other build-time logic.
+✓
+Self-hosted agents
+The maximum number of Buildkite agents connected simultaneously.
+Up to 10 concurrent jobs
+Active users
+Up to 5
+Build retention
+Automatically remove your finished builds after a set period.
+30 days
+Artifact retention
+30 days
+Artifact storage
+50GB/month
+Artifact downloads
+250GB/month
++
+−
+Tests
+Expand to see 4 features
+Test executions
+A test execution is a recorded result from one run of a test. Ingesting this data is optional.
+250k/month
+Workflows
+—
+Test history window
+How far back Buildkite can query ingested test results and insights.
+24 hours
+Test splitting
+Effortlessly bin pack your test suite across multiple nodes without having to manually rebalance your test plan.
+✓
++
+−
+Package Registries
+Expand to see 2 features
+Storage & transfer
+Storage and data transfer included per org/month for Package Registries.
+1GB indexed + distributed/month
+Private registries
+✓
++
+−
+Hosted Agents
+Expand to see 8 features
+Linux vCPU minutes
+Included Linux hosted agent vCPU minutes per month.
+Up to 2,000 mins/month
+Small only
+Linux vCPU concurrency
+The maximum combined Linux vCPUs your jobs can utilize at once.
+Up to 20 vCPU
+Linux shapes
+Available Linux hosted agent sizes.
+Small
+AMD64 only
+M4 Mac vCPU minutes
+Included M4 Mac hosted agent vCPU minutes per month.
+—
+M4 Mac vCPU concurrency
+The maximum combined M4 Mac vCPUs your jobs can utilize at once.
+—
+M4 Mac shapes
+Available M4 Mac hosted agent sizes.
+—
+Git mirror volumes
+✓
+Custom agent images
+✓
++
+−
+Security & audit
+Expand to see 1 features
+GitHub auth
+✓
+Pro Plan
++
+−
+Pipelines
+Expand to see 8 features
+Dynamic pipelines
+Generate and upload pipeline steps at runtime, so each build can adapt to code changes, test results, or other build-time logic.
+✓
+Self-hosted agents
+The maximum number of Buildkite agents connected simultaneously.
+Up to 250
+10 included, then $3.50 agent/month
+Active users
+Up to 50
+Build retention
+Automatically remove your finished builds after a set period.
+90 days
+Artifact retention
+30 days
+Artifact storage
+250GB/month
+Artifact downloads
+2.5TB/month
+GitHub Enterprise support
+Connect to an on-premise GitHub Enterprise instance.
+✓
++
+−
+Tests
+Expand to see 4 features
+Test executions
+A test execution is a recorded result from one run of a test. Ingesting this data is optional.
+1M/month included
+Then $15/M executions
+Workflows
+1 workflow
+Includes test state management and auto-quarantine
+Test history window
+How far back Buildkite can query ingested test results and insights.
+7 days
+Test splitting
+Effortlessly bin pack your test suite across multiple nodes without having to manually rebalance your test plan.
+✓
++
+−
+Package Registries
+Expand to see 3 features
+Storage & transfer
+Storage and data transfer included per org/month for Package Registries.
+20GB included
+Private registries
+✓
+Arbitrary files
+✓
++
+−
+Hosted Agents
+Expand to see 9 features
+Linux vCPU minutes
+Included Linux hosted agent vCPU minutes per month.
+4,000 mins/month included
+Additional at per-minute rates
+Linux vCPU concurrency
+The maximum combined Linux vCPUs your jobs can utilize at once.
+Up to 256 vCPU
+Linux shapes
+Available Linux hosted agent sizes.
+Small, Medium, Large
+AMD64 only
+M4 Mac vCPU minutes
+Included M4 Mac hosted agent vCPU minutes per month.
+Pay-as-you-go
+Additional at per-minute rates
+M4 Mac vCPU concurrency
+The maximum combined M4 Mac vCPUs your jobs can utilize at once.
+Up to 48 vCPU
+M4 Mac shapes
+Available M4 Mac hosted agent sizes.
+Medium, Large
+Git mirror volumes
+✓
+Custom agent images
+✓
+Cache volumes
+✓
++
+−
+Security & audit
+Expand to see 3 features
+GitHub auth
+✓
+Signed pipelines
+Prevent unauthorized pipeline modifications by signing step definitions and verifying signatures before running jobs.
+✓
+Single sign on
+Connect an SSO provider to simplify and protect access to your organization's data.
+✓
++
+−
+Support & billing
+Expand to see 1 features
+Priority email support
+Priority status for all email support requests.
+✓
+Enterprise Plan
++
+−
+Pipelines
+Expand to see 9 features
+Dynamic pipelines
+Generate and upload pipeline steps at runtime, so each build can adapt to code changes, test results, or other build-time logic.
+✓
+Self-hosted agents
+The maximum number of Buildkite agents connected simultaneously.
+Unlimited
+Volume discounts
+Active users
+Unlimited
+30 user minimum
+Build retention
+Automatically remove your finished builds after a set period.
+1 year + historical export
+Artifact retention
+Custom
+Artifact storage
+Custom
+Artifact downloads
+Custom
+GitHub Enterprise support
+Connect to an on-premise GitHub Enterprise instance.
+✓
+Pipeline templates
+Define standard pipeline step configurations to use across your organization.
+✓
++
+−
+Tests
+Expand to see 4 features
+Test executions
+A test execution is a recorded result from one run of a test. Ingesting this data is optional.
+Custom
+Workflows
+Custom
+Set custom quarantine rules
+Test history window
+How far back Buildkite can query ingested test results and insights.
+28 days
+Test splitting
+Effortlessly bin pack your test suite across multiple nodes without having to manually rebalance your test plan.
+✓
++
+−
+Package Registries
+Expand to see 4 features
+Storage & transfer
+Storage and data transfer included per org/month for Package Registries.
+Custom
+Private registries
+✓
+Arbitrary files
+✓
+Software (SLSA) provenance
+✓
++
+−
+Hosted Agents
+Expand to see 11 features
+Linux vCPU minutes
+Included Linux hosted agent vCPU minutes per month.
+Volume discounts
+Linux vCPU concurrency
+The maximum combined Linux vCPUs your jobs can utilize at once.
+Custom
+Linux shapes
+Available Linux hosted agent sizes.
+Larger sizes available
+ARM64 available on request
+M4 Mac vCPU minutes
+Included M4 Mac hosted agent vCPU minutes per month.
+Volume discounts
+M4 Mac vCPU concurrency
+The maximum combined M4 Mac vCPUs your jobs can utilize at once.
+Custom
+M4 Mac shapes
+Available M4 Mac hosted agent sizes.
+Medium, Large
+Git mirror volumes
+✓
+Custom agent images
+✓
+Cache volumes
+✓
+Internal container registry
+✓
+Remote Docker builds
+✓
++
+−
+Team management
+Expand to see 2 features
+Member permissions
+Manage default member permissions, such as disabling pipeline creation.
+✓
+Custom announcement banners
+Communicate important messages and alerts to your entire organization, as you need.
+✓
++
+−
+Security & audit
+Expand to see 9 features
+GitHub auth
+✓
+Signed pipelines
+Prevent unauthorized pipeline modifications by signing step definitions and verifying signatures before running jobs.
+✓
+Single sign on
+Connect an SSO provider to simplify and protect access to your organization's data.
+✓
+SCIM, custom SAML & ADFS
+SCIM support for automatic user management, and advanced SSO providers.
+✓
+Private log storage
+Store your job logs in a private S3 bucket.
+✓
+Activity log
+Track all user activity within your organization.
+✓
+Inactive user list
+Audit inactive users and easily remove them.
+✓
+Inactive API token revocation
+Prevent potential security risks created by unused API tokens.
+✓
+SSO session IP address pinning
+Prompt your users to re-authorize when their origin changes.
+✓
++
+−
+Support & billing
+Expand to see 6 features
+Priority email support
+Priority status for all email support requests.
+✓
+Enterprise support
+Enterprise support with account management and service commitments.
+✓
+Slack Connect
+Collaborate directly with Buildkite support in Slack.
+✓
+Platform uptime commitment
+The Buildkite platform is backed by a 99.95% uptime commitment.
+✓
+Invoice payment
+Pay annually or via invoice.
+✓
+Consolidated billing
+Consolidated billing & invoicing across multiple accounts.
+✓
+View all features
+Hosted Agents Pro Plan Pricing
+Choose the Buildkite platform plan that suits your team, then pay as you go for a fully managed CI/CD environment. Usage is billed per vCPU minute and metered to the second, with no minimums and no rounding.
+Linux Hosted Agents
+$0.004
+USD per vCPU minute
+Every Linux shape uses the same rate; effective cost scales with vCPU count.
+Shape
+vCPU multiplier
+Effective rate
+Small
+2 vCPU, 4GB RAM
+×2
+2 vCPU min / min
+$0.008
+per minute
+Medium
+4 vCPU, 16GB RAM
+×4
+4 vCPU min / min
+$0.016
+per minute
+Large
+8 vCPU, 32GB RAM
+×8
+8 vCPU min / min
+$0.032
+per minute
+Shapes shown are AMD64. ARM64 and larger shapes are available on request for Enterprise customers.
+Mac Hosted Agents
+$0.02
+USD per vCPU minute
+Every Mac shape uses the same rate; effective cost scales with vCPU count.
+Shape
+vCPU multiplier
+Effective rate
+M4 Medium
+6 vCPU, 28GB RAM
+×6
+6 vCPU min / min
+$0.12
+per minute
+M4 Large
+12 vCPU, 56GB RAM
+×12
+12 vCPU min / min
+$0.24
+per minute
+Linux AMD64, Linux ARM64, and Mac are billed as separate platforms, each with its own per-vCPU minute rate.
+Frequently asked questions
+Got a question that's not on our list? Want a demo? Just want to chat?
+Get in touch
+.
+What is an agent?
+A build agent (commonly referred to as a runner) runs on your infrastructure or on Buildkite-hosted compute, and runs one build job at a time. You can run as many agents as you want, in the same or separate queues, and Buildkite will coordinate the work between them. Agents can be securely and reliably deployed across different networks and environments.
+Who counts as an active user?
+Active users are unique users that access the Buildkite system in any given month. Accessing the system includes logging into Buildkite.com, interacting with the Buildkite API, or triggering a build.
+How does burst capacity affect my bill?
+Buildkite is designed for workloads that spike. Self-hosted agent charges reflect sustained monthly usage rather than isolated peaks, so short bursts won't turn into unexpected overage bills. You aren't penalized for temporarily using the capacity your builds need.
+Enterprise includes more headroom for large, variable workloads, with custom pricing designed to keep costs predictable when demand surges.
+Contact us
+for more information.
+Are there any limits to scale or concurrency with Buildkite?
+No, with our Enterprise plan, you set your own limits with self-hosted agents. Buildkite simultaneously handles multiple enterprise customers with over 100,000 concurrent agents.
+Do you offer special pricing for open source projects?
+Yes, Buildkite offers special pricing for open source projects.
+Contact us
+to confirm your project is open source, and we'll enable your account.
+What is included in the All Access Trial?
+You get 30 days of access to Buildkite Pipelines, Test Suites, Package Registries, and Hosted Agents, plus a dedicated Developer Success Engineer to help you get started. No credit card is required, and you choose a plan only when the trial ends.
+Platform
+Pipelines
+Public pipelines
+Test Engine
+Package Registries
+Mobile Delivery Cloud
+Pricing
+Hosting options
+Self-hosted agents
+Mac hosted agents
+Linux hosted agents
+Resources
+Docs
+Blog
+Changelog
+Example pipelines
+Plugins
+Webinars
+Case studies
+Events
+Migration Services
+CI/CD perspectives
+Company
+About
+Careers
+Press
+Security
+Brand assets
+Contact
+Solutions
+Replace Jenkins
+Workflows for MLOps
+Testing at scale
+Monorepo mojo
+Bazel orchestration
+Compare
+Buildkite vs GitHub Actions
+Buildkite vs Depot
+Legal
+Terms of Service
+Acceptable Use Policy
+Privacy Policy
+Subprocessors
+Service Level Agreement
+Supplier Code of Conduct
+Modern Slavery Statement
+Support
+System status
+Forum
+Theme:
+System
+© Buildkite Pty Ltd 2026

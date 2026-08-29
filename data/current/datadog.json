@@ -5,9 +5,9 @@
   "category": "observability",
   "url": "https://www.datadoghq.com/pricing/",
   "final_url": "https://www.datadoghq.com/pricing/",
-  "content_hash": "6d5640a0a7521299174a0a88779da047dc10d817dc574adf521ca1724c184308",
-  "raw_hash": "9f0748319d790f358cbb34a833be73a66fa3b0ca96141d802d221d8857a0746e",
-  "text_bytes": 225996,
+  "content_hash": "7041812aada078fd06719f77c07e3a883ff49090b7cedb8c3bbcbdc535a70ab2",
+  "raw_hash": "624fe2f6042b719eeaa8c2f27e1a89956481f6f76a80b01bdc087d00382f5ade",
+  "text_bytes": 219633,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

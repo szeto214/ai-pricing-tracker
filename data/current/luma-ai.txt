@@ -1,0 +1,108 @@
+Build with Luma APIs
+State-of-the-art image and video generation APIs for creative products, workflows, and production pipelines.
+Use the API
+Explore docs
+Partners building with our API
+Video Generation
+Build with Ray3.2
+The Ray3.2 API exposes the full control surface. Cinema-grade output, ready to drop into the pipelines you already run.
+Use Ray3.2 API
+Learn more
+Direct the cut, frame by frame.
+Multi-Keyframe lets you set up to 16 keyframes inside a single clip. Direct what changes and what holds, beat by beat. Sequence-level control, exposed at the API.
+Scale one shoot into every variant.
+Reframe handles the backdrop. V2V handles the SKU. HDR Generation and EXR Export handle the mood. One brand system, every market, every format, generated consistently through a single API.
+Build cinema into your pipeline.
+1080p output across the model. V2V at up to 20 seconds. Native HDR Generation and 16-bit EXR Export so AI work composites alongside live-action plates in your users' Resolve or Nuke.
+Image Generation
+Build with Uni-1.1
+Half the price. Half the latency. First-pass success.
+Use Uni-1.1 API
+Learn more
+Brand as infrastructure
+Brand systems that update across products, pages, and campaigns at once. Messy or chained prompts work natively. No middleware or prompt engineering required.
+Scale across your pipeline
+Generate across markets, every shot on brand. Less than half the cost means volume math finally works. Free tiers become viable. Fewer retries compound the savings.
+Two endpoints. Full intent.
+One reasoning endpoint. One generation endpoint. The model thinks before it ships, so the first pass is usually the right one.
+Multi-Model Workflows
+Better Together
+Use Uni-1 for image generation and Ray3.2 for video generation to create richer multimodal creative workflows with greater consistency and control.
+Contact Sales
+Plans
+Build it. Scale it.
+Build
+Pay per image. No commitment.
+Ideal for prototyping and early production.
+Start Building
+Prices are approximate and based on billing tokens.
+No minimum commitment.
+Rate limits apply, no latency SLA.
+Scale
+Dedicated capacity with guaranteed throughput and latency.
+Built for production workloads at scale.
+Contact Sales
+1 unit = 1 request per minute (Base) or 0.4 RPM (Max).
+Minimum 4 units.
+Includes SLA, moderation, and prompt enhancement.
+No-train guarantee.
+Cost Breakdown
+Ray3.2
+Uni-1.1
+Pay per video. No commitment. Ideal for prototyping and early production.
+Task
+540p
+720p
+1080p
+T2V/I2V (5s)
+$0.15
+$0.30
+$1.20
+T2V/I2V (10s)
+$0.45
+$0.90
+$3.60
+V2V (5s)
+$0.72
+$1.44
+$2.16
+V2V (10s)
+$1.08
+$2.16
+$4.32
+Reframe (per second)
+$0.06
+$0.12
+$0.36
+Prices shown are SDR output
+HDR output is 2× SDR pricing
+HDR + EXR output is 3× SDR pricing
+No minimum commitment
+Rate limits apply, no latency SLA
+API FAQs
+Ray3.2
+Uni-1.1
+What key capabilities are available via the API?
+What output formats are supported?
+Which aspect ratios are supported?
+Can I outpaint a video to a different aspect ratio?
+What resolutions and generation lengths are supported?
+How do I reference a video for editing?
+Can I extend a prior video?
+Can I interpolate using a prior video?
+How is usage billed?
+Are there specific requirements for source videos?
+Where can I test my API requests?
+I am migrating from the legacy Dream Machine video API — where's the guide? Does video pricing differ from image pricing?
+Why am I getting "Unexpected token '<', is not valid JSON"?
+Why do I get "Failed to download video" on Modify or V2V requests?
+Why does V2V Modify ignore my source video motion and generate from the prompt only?
+Why does my HDR request fall back to Ray 3 instead of Ray 3.2?
+Why does Extend fail with "Generation failed"?
+Why does the cost display always show 1% regardless of the actual credit cost?
+Why does the Reframe panel only use Ray 2 with no engine selector?
+Why do imported videos fail on Modify with "Failed to download video"?
+Why are multiple videos generated from a single click (duplicate charges)?
+Stop generating. Start shipping.
+Use the API
+Contact Sales

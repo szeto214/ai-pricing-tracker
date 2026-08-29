@@ -5,9 +5,9 @@
   "category": "dev-infra",
   "url": "https://www.koyeb.com/pricing",
   "final_url": "https://www.koyeb.com/pricing",
-  "content_hash": "8376aa26c612e593011941aaa8feb46abd3c75033ef8227d2a14d33cab81d2f0",
-  "raw_hash": "bd849c40e331eef5f9cf7284c8fec561176b3f08fc056dfc4432cf802cae2ece",
-  "text_bytes": 9179,
+  "content_hash": "85d45b9ac717b18f79f513b4ee1a69a494afc523d4935642359de1f57f905a55",
+  "raw_hash": "8a77550c9d62f80737a308ad06da800a54a5780ad55fcd41be1a2ba064c05b9f",
+  "text_bytes": 9038,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

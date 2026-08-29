@@ -1,0 +1,101 @@
+{
+  "slug": "semgrep",
+  "name": "Semgrep",
+  "vendor": "Semgrep",
+  "category": "observability",
+  "url": "https://semgrep.dev/pricing/",
+  "final_url": "https://semgrep.dev/pricing/",
+  "content_hash": "87b074f171592a850d46c67c63fc48a0c73295347ba493ac972b628a6bb11cc9",
+  "raw_hash": "69d197492a138ccb6d59385232a7cb48a2e6170e4055227efd9c8730328f08ee",
+  "text_bytes": 6142,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Get started for free with the most popular code ",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Cross-file analysis with Pro rules",
+        "AI-powered detection, triage, and remediation",
+        "60 AI credits included",
+        "Fast CI/CD deploy via Semgrep infrastructure",
+        "Scan up to 10 repositories",
+        "Maximum 10 contributors",
+        "Authentication via GitHub/GitLab",
+        "Includes:",
+        "Code ($0/month/contributor)",
+        "Supply Chain ($0/month/contributor)"
+      ]
+    },
+    {
+      "name": "Cross-file analysis with Pro rules",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Cross-file analysis with Pro rules",
+        "AI-powered detection, triage, and remediation",
+        "60 AI credits included",
+        "Fast CI/CD deploy via Semgrep infrastructure",
+        "Scan up to 10 repositories",
+        "Maximum 10 contributors",
+        "Authentication via GitHub/GitLab",
+        "Includes:",
+        "Code ($0/month/contributor)",
+        "Supply Chain ($0/month/contributor)"
+      ]
+    },
+    {
+      "name": "Starting at",
+      "price_raw": "$30",
+      "amount": 30.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Cross-file analysis with Pro rules",
+        "AI-powered detection, triage, and remediation",
+        "AI credits: 20 per developer per month",
+        "One-click CI/CD deploy using Semgrep infrastructure",
+        "Single sign-on (SSO)",
+        "Award-winning support",
+        "Choose from:",
+        "Code ($30/month/contributor)",
+        "Supply Chain ($30/month/contributor)",
+        "Secrets ($15/month/contributor)"
+      ]
+    },
+    {
+      "name": "Cross-file analysis with Pro rules",
+      "price_raw": "$30",
+      "amount": 30.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Cross-file analysis with Pro rules",
+        "AI-powered detection, triage, and remediation",
+        "AI credits: 20 per developer per month",
+        "One-click CI/CD deploy using Semgrep infrastructure",
+        "Single sign-on (SSO)",
+        "Award-winning support",
+        "Choose from:",
+        "Code ($30/month/contributor)",
+        "Supply Chain ($30/month/contributor)",
+        "Secrets ($15/month/contributor)"
+      ]
+    },
+    {
+      "name": "See the difference in features",
+      "price_raw": "$30",
+      "amount": 30.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    }
+  ],
+  "tables": [],
+  "extract_errors": []
+}

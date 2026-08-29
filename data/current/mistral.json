@@ -5,9 +5,9 @@
   "category": "ai-api",
   "url": "https://mistral.ai/pricing",
   "final_url": "https://mistral.ai/pricing/",
-  "content_hash": "ae3117d2de0083bccd571e11d719def5e7c4962f24f09bfa72cc0cc1c3eac928",
-  "raw_hash": "abf971419ed23227378021731fe8e4e6d95b07cb8e21fa1ecd77eadc82a3ec16",
-  "text_bytes": 10036,
+  "content_hash": "a1b25952ec5600b15e7dacf508519949ea653f45c1cc431d9c909c538b75a24b",
+  "raw_hash": "460e4583332875fe6fd100ff74444c19fd95f57de98f18efaf9279e779494936",
+  "text_bytes": 9410,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

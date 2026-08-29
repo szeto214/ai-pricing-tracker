@@ -5,9 +5,9 @@
   "category": "automation",
   "url": "https://zapier.com/pricing",
   "final_url": "https://zapier.com/pricing",
-  "content_hash": "f4a747d4dd42cb3bfe9284c456265d01403854521bd785512923e6efaa5f9986",
-  "raw_hash": "0d7cc5283b839fb6f72e95c00e18ddc211319ae96a45dd357237bfbc73caf8eb",
-  "text_bytes": 23186,
+  "content_hash": "a1b59557d57f631899521ed6968bb1f592f2076b019881f5d71ffbec7efe6972",
+  "raw_hash": "1e5cec90458f79d34534af3f2ae4d02f1a1093b1264551b5dff4424fe7f14624",
+  "text_bytes": 18755,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

@@ -5,9 +5,9 @@
   "category": "dev-infra",
   "url": "https://railway.com/pricing",
   "final_url": "https://railway.com/pricing",
-  "content_hash": "5e66241977ba207828d2464b3a099443caf50cd038ef5a260f45b79c83340e0b",
-  "raw_hash": "416bbc881e253a281b0cbc9973723ed927a22355c2065813e087058eb7a38570",
-  "text_bytes": 8641,
+  "content_hash": "7bf7c58c473ad9e31713d8487d3e4eaa687a53ae6c131845a6f759e8274729d3",
+  "raw_hash": "14410ed0978437249d542261daa5ca81124ef358535ec29d2be1fbbf7266d2a7",
+  "text_bytes": 7760,
   "extractor": "jsonld",
   "confidence": "medium",
   "plans": [

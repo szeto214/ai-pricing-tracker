@@ -1,0 +1,87 @@
+{
+  "slug": "augment",
+  "name": "Augment Code",
+  "vendor": "Augment",
+  "category": "ai-coding",
+  "url": "https://www.augmentcode.com/pricing",
+  "final_url": "https://www.augmentcode.com/pricing",
+  "content_hash": "863d82d33f161ac80c44c361a35a483d23bd58a97c6328feaf0e5020b8cf2b00",
+  "raw_hash": "1b9d683a1e99422eb1f3f38f541c3c441ddfc8efcf0df4252f1b6ea5f9c6159e",
+  "text_bytes": 6147,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "BUSINESS",
+      "price_raw": "$100",
+      "amount": 100.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "$100/mo of usage across LLM, Context Engine & compute",
+        "Up to 50 seats included",
+        "Cosmos NEW",
+        "CLI access",
+        "MCP & Native Tools",
+        "Top-ups, pay as you go",
+        "SOC 2 Type II",
+        "No AI training allowed"
+      ]
+    },
+    {
+      "name": "$100/mo of usage across LLM, Context Engine & co",
+      "price_raw": "$100",
+      "amount": 100.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "$100/mo of usage across LLM, Context Engine & compute",
+        "Up to 50 seats included",
+        "Cosmos NEW",
+        "CLI access",
+        "MCP & Native Tools",
+        "Top-ups, pay as you go",
+        "SOC 2 Type II",
+        "No AI training allowed"
+      ]
+    },
+    {
+      "name": "001",
+      "price_raw": "$100",
+      "amount": 100.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "$100/mo of usage included",
+      "price_raw": "$100",
+      "amount": 100.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "The Business plan includes $100 of usage every m",
+      "price_raw": "$100",
+      "amount": 100.0,
+      "currency": "USD",
+      "period": null,
+      "features": [
+        "LLM — model inference, billed at the provider's public API list price",
+        "Service fee — a flat 40% fee on LLM usage (no fee on compute)",
+        "Compute — Cosmos compute time"
+      ]
+    },
+    {
+      "name": "A seat is any team member with access to your Au",
+      "price_raw": "$100",
+      "amount": 100.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    }
+  ],
+  "tables": [],
+  "extract_errors": []
+}

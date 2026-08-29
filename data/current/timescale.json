@@ -1,0 +1,67 @@
+{
+  "slug": "timescale",
+  "name": "TigerData",
+  "vendor": "Timescale",
+  "category": "database",
+  "url": "https://www.timescale.com/pricing",
+  "final_url": "https://www.tigerdata.com/pricing",
+  "content_hash": "66852153c2f07bea2d0274e788ee28bddb77e853c4536a1a4165e7b8f7085999",
+  "raw_hash": "fd280cec1c8cbef046be4180bf21410220f63cfed49d7fba6c6620ef4648efa9",
+  "text_bytes": 11487,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Performance",
+      "price_raw": "$ 30",
+      "amount": 30.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "4 database services",
+        "Up to 8 CPU and 32 GB memory per service",
+        "Up to 16 TB disk storage per service",
+        "Up to 5K IOPS, 250 MB/s throughput",
+        "1 VPC",
+        "1 IP Allow-list",
+        "Single-node high-availability replicas",
+        "Point-in-time-recovery to 3 days",
+        "Performance Insights",
+        "Basic support (9-5 ET)"
+      ]
+    },
+    {
+      "name": "Scale",
+      "price_raw": "$ 36",
+      "amount": 36.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Unlimited database services",
+        "Up to 32 CPU and 128 GB memory per service",
+        "Up to 64 TB disk storage per service",
+        "Up to 40K IOPS, 1,500 MB/s throughput",
+        "Unlimited Tiered Storage",
+        "Horizontal read scaling with read replicas",
+        "AWS Transit Gateway",
+        "Private endpoints",
+        "Unlimited VPC",
+        "Unlimited IP Allow lists",
+        "SOC 2 report",
+        "Multi-node high-availability replicas",
+        "Point-in-time-recovery to 14 days",
+        "Integrations with observability tools"
+      ]
+    },
+    {
+      "name": "Features",
+      "price_raw": "$30",
+      "amount": 30.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    }
+  ],
+  "tables": [],
+  "extract_errors": []
+}

@@ -5,9 +5,9 @@
   "category": "productivity",
   "url": "https://www.airtable.com/pricing",
   "final_url": "https://airtable.com/pricing",
-  "content_hash": "18e7e79e84cc410cdfb33b1cd00f6a08d2ba2b227ee41b9d02c361da174f89ea",
-  "raw_hash": "0be360ab1b375ac79129154bbb44a231369cec60318a464f217e488d3455f34c",
-  "text_bytes": 16665,
+  "content_hash": "2c7c2d3bac3da98635043534271b68bb0f4c3a1c78638a33c8c93455e566e718",
+  "raw_hash": "a60b34aede2ac58fb224db5e887f8b4f0a68c3bd36d28f9ad83e9c46590aea60",
+  "text_bytes": 11570,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

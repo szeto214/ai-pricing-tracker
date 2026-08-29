@@ -1,0 +1,885 @@
+Pricing
+Simple, flexible pricing
+Not sure where to start?
+Create a free account
+to explore the platform.
+Platform
+Plans
+Compute
+Usage pricing
+ML platform
+Gradient enables individuals and teams to quickly develop, track, and collaborate on Machine Learning models of any size and complexity.
+Learn more
+.
+Managed Service
+Private Cluster
+For private cloud, on-premise deployments, and private clusters running on the Paperspace Cloud.
+Learn more.
+Jupyter Notebooks
+Workflows
+-
+Distributed Training
+-
+Deployments (inference)
+-
+Model Repository
+-
+-
+Private Azure/AWS/GCP/Paperspace
+Private cloud, or hybrid environment support
+Learn more.
+-
+On-premise installation eg DGX
+On-premise or hybrid environment support.
+Learn more.
+Managed
+Self-Hosted
+For private cloud and on-premise deployments.
+Learn more.
+Individual
+Team
+Free
+FREE GPU
+For beginners, explorers, and adventurous learners
+$
+0
+Plus utilization costs on paid instances
+Instances outside of the free-tier are billed per hour at their hourly rate.
+Learn more.
+Public projects
+Auto-shutdown (12 hour limit)
+5GB storage
+Basic instances
+Start Now
+Get Started
+Most popular
+Pro
+For ML/AI engineers, data scientists, and researchers
+$
+8
+per month
+Plus utilization costs on paid instances
+Instances outside of the free-tier are billed per hour at their hourly rate.
+Learn more.
+Private projects
+15GB storage
+Auto-shutdown (configurable)
+Mid-range instances
+Faster free GPUs 🚀
+(based on availability)
+Start Now
+Get Started
+Growth
+For teams, research groups, & startups
+$
+39
+per month
+Plus utilization costs on paid instances
+Instances outside of the free-tier are billed per hour at their hourly rate.
+Learn more.
+Private projects
+50GB storage
+Auto-shutdown (configurable)
+High-end instances
+Expert Support
+Start Now
+Get Started
+T0
+Small Teams
+For teams to collaborate on notebooks, experiments, and models
+$
+0
++ utilization costs on paid instance types
+Instances outside of the free-tier are billed per hour at their hourly rate.
+Learn more.
+Low Instance Types
+Public Notebooks
+10GB Persistent Storage included ($0.29/GB overage)
+Auto-shutdown (12 hour limit)
+Total Notebooks: 10
+Running Notebook limit: 1
+Start Now
+T1
+Mid-Size Teams
+For professional teams building intelligent applications at scale
+$
+12
+user/month
++ utilization costs on paid instance types
+Instances outside of the free-tier are billed per hour at their hourly rate.
+Learn more.
+Low - Mid Instance Types
+Private Notebooks
+500GB Persistent Storage included ($0.29/GB overage)
+Auto-shutdown (configurable)
+Total Notebooks: 100
+Running Notebook limit: 10
+Start Now
+T2
+Large Teams
+For professional teams, researchers, start-up, and ML dev teams
+Low - High Instance Types
+Private Notebooks
+Scalable Storage
+Auto-shutdown (configurable)
+Unlimited Notebooks
+Unlimited Running Notebooks
+Contact Sales
+Free
+For beginners, explorers, and adventurous learners
+$
+0
+Public projects
+Auto-shutdown (12 hour limit)
+5GB storage
+Basic instances
+(billed per hour)
+Start Now
+Get Started
+Pro
+For ML/AI engineers, data scientists, and researchers
+$
+12
+per month
+Private projects
+15GB storage
+Auto-shutdown (configurable)
+Mid-range instances
+(billed per hour)
+Start Now
+Get Started
+Growth
+For teams, research groups, & startups
+$
+39
+per month
+Private projects
+50GB storage
+Auto-shutdown (configurable)
+High-end instances
+(billed per hour)
+Expert Support
+Start Now
+Get Started
+Compare features
+View Gradient pricing
+here
+.
+Enterprise?
+Host Gradient on your own infrastructure and run without limits. Schedule time with a product specialist to learn more about our custom plans.
+Contact Sales
+View plan details
+View hosted instance pricing
+Common Questions
+FAQs
+How does pricing work?
+Your plan lets you use different Gradient tools and determines your limits. You are also charged for storage overages ($0.29/GB) and for compute usage (unless you are using a “free” instance types).
+What forms of payment do you accept?
+We use Stripe to process payments. We accept all major credit and debit cards including Visa, MasterCard, American Express and Discover. Custom invoicing is available on our business plans.
+Contact our sales team
+to learn more.
+When will I be billed?
+Billing occurs monthly and runs at midnight on the first of each month. You can check view your invoices on the billing tab and track compute utilization in realtime on the utilization tab.
+Can I upgrade or downgrade my plan?
+You can upgrade or cancel your paid subscriptions at anytime from within your console.
+What's the difference between individual & team plans?
+When you sign up for Gradient, you start with a "private workspace." This is your individual plan. To invite collaborators, create a new team and you'll see an option to invite other users. Your private workspace and team(s) are billed separately.
+How do I cancel my account?
+You can cancel your account anytime through the console, under the settings tab.
+Can I set a billing alert or limit?
+Yes! Navigate to the billing tab to control alerts and limits account-wide. On a team, you can also set individual alerts and limits on each user by opening the settings panel for a specific user.
+Do you offer refunds?
+No. Please open a support ticket if there are extenuating circumstances.
+Is private data shared with advertisers?
+No.
+GPU Cloud
+CORE
+A high-performance computing foundation built for scaling AI applications
+.
+Learn more.
+Hourly
+Monthly
+On-Demand Compute
+Dedicated GPUs
+Servers & Desktops
+H100
+NewLy
+Available
+$
+3.09
+/ hour
+NVIDIA A100 GPU
+90GB RAM
+12 vCPU
+$
+2.24*
+/ hour
+NVIDIA HGX H100 GPU
+256 GB RAM
+20 vCPU
+Multi-GPU types:
+8x
+Create
+A100-80G
+$
+1.15**
+/ hour
+NVIDIA A100 GPU
+90GB RAM
+12 vCPU
+Multi-GPU types:
+8x
+Create
+A4000
+$
+0.76
+/ hour
+NVIDIA A4000 GPU
+45GB RAM
+8 vCPU
+Multi-GPU types:
+2x 4x
+Create
+A6000
+$
+1.89
+/ hour
+NVIDIA A6000 GPU
+45GB RAM
+8 vCPU
+Multi-GPU types:
+2x 4x
+Create
+V100
+$
+2.30
+/ hour
+16 GB GPU
+30 GB RAM
+8 vCPU
+Multi-GPU types:
+2x 4x
+Create
+A5000
+$
+1.38
+/ hour
+NVIDIA A5000 GPU
+45GB RAM
+8 vCPU
+Multi-GPU types:
+2x 4x
+Create
+P6000
+$
+1.10
+/ hour
+24 GB GPU
+30 GB RAM
+8 vCPU
+Multi-GPU types:
+2x 4x
+Create
+RTX5000
+$
+0.82
+/ hour
+NVIDIA RTX5000 GPU
+30GB RAM
+8 vCPU
+Multi-GPU types:
+2x 4x
+Create
+P5000
+$
+0.78
+/ hour
+16 GB GPU
+30 GB RAM
+8 vCPU
+Multi-GPU types:
+2x 4x
+Create
+RTX4000
+$
+0.56
+/ hour
+NVIDIA RTX4000 GPU
+30 GB RAM
+8 vCPU
+Multi-GPU types:
+2x 4x
+Create
+P4000
+$
+0.51
+/ hour
+8 GB GPU
+30 GB RAM
+8 vCPU
+Multi-GPU types:
+2x 4x
+Create
+M4000
+$
+0.45
+/ hour
+8 GB GPU
+30 GB RAM
+8 vCPU
+Multi-GPU types:
+none
+Create
+P4000
+For intensive 3D apps, rendering, simulations, ML, gaming etc.
+$
+0.51
+/ hour
+8 vCPU
+30 GB RAM
+8 GB GPU
+DEDICATED
+Starts at 50GB SSD
++ Windows License Included
+Create
+P5000
+For heavy 3D apps, rendering, simulations, ML, gaming, and GPU compute
+$
+0.78
+/ hour
+8 vCPU
+30 GB RAM
+16 GB GPU
+DEDICATED
+Starts at 50GB SSD
++ Windows License Included
+Create
+P6000
+For extreme 3D apps, rendering, simulations, ML, gaming, and GPU compute
+$
+1.10
+/ hour
+8 vCPU
+30 GB RAM
+24 GB GPU
+DEDICATED
+Starts at 50GB SSD
++ Windows License Included
+Create
+Linux Only
+V100
+The most powerful GPU in the world with 112 TeraFLOPS
+$
+2.30
+/ hour
+8 vCPU
+30 GB RAM
+16 GB GPU
+DEDICATED
+Starts at 50GB SSD
+Create
+*$2.24/hour pricing is for a 3-year commitment. On-demand pricing for H100 is $5.95/hour under our special promo price.**$1.15/hour pricing is for a 3-year commitment.
+**$1.15/hour pricing is for a 3-year commitment.
+Multi GPU
+Multi-GPU instances are offered in 2X, 4X, and 8X variants.
+‍
+Specs & pricing:
+Multiply the specs and price of each type above by the number of GPUs.
+‍
+P5000 x2
+$
+1.56
+/ hour
+32 GB GPU
+60 GB RAM
+16 vCPU
+Create
+P6000 x2
+$
+2.20
+/ hour
+60 GB GPU
+48 GB RAM
+16 vCPU
+Create
+Desktops
+CPU
+Servers & Desktops
+C1
+$
+0.0045
+/ hour
+1 vCPU
+512 MB RAM
+Starts at 50GB SSD
+Create
+C2
+$
+0.009
+/ hour
+1 vCPU
+1 GB RAM
+Starts at 50GB SSD
+Create
+C3
+$
+0.018
+/ hour
+2 vCPU
+2 GB RAM
+Starts at 50GB SSD
+Create
+C4
+$
+0.04
+/ hour
+2 vCPU
+4 GB RAM
+Starts at 50GB SSD
+Create
+C5
+$
+0.08
+/ hour
+4 vCPU
+8 GB RAM
+Starts at 50GB SSD
+Create
+C6
+$
+0.16
+/ hour
+8 vCPU
+16 GB RAM
+Starts at 50GB SSD
+Create
+C7
+$
+0.30
+/ hour
+12 vCPU
+30 GB RAM
+Starts at 50GB SSD
+Create
+C8
+$
+0.60
+/ hour
+16 vCPU
+60 GB RAM
+Starts at 50GB SSD
+Create
+C9
+$
+0.90
+/ hour
+24 vCPU
+120 GB RAM
+Starts at 50GB SSD
+Create
+C10
+$
+1.60
+/ hour
+32 vCPU
+244 GB RAM
+Starts at 50GB SSD
+Create
+Dedicated GPU
+M4000
+$
+268
+/ month
+8 GB GPU
+30 GB RAM
+8 vCPU
+Create
+P4000
+$
+303
+/ month
+8 GB GPU
+30 GB RAM
+8 vCPU
+Create
+P5000
+$
+461
+/ month
+16 GB GPU
+30 GB RAM
+8 vCPU
+Create
+P6000
+$
+647
+/ month
+24 GB GPU
+30 GB RAM
+8 vCPU
+Create
+V100
+$
+1348
+/ month
+16 GB GPU
+30 GB RAM
+8 vCPU
+Create
+RTX4000
+$
+337
+/ month
+NVIDIA RTX4000 GPU
+30 GB RAM
+8 vCPU
+Create
+RTX5000
+$
+484
+/ month
+NVIDIA RTX5000 GPU
+30GB RAM
+8 vCPU
+Create
+A4000
+$
+488
+/ month
+NVIDIA A4000 GPU
+44GB RAM
+8 vCPU
+Create
+A5000
+$
+891
+/ month
+NVIDIA A5000 GPU
+44GB RAM
+12 vCPU
+Create
+A6000
+$
+1219
+/ month
+NVIDIA A6000 GPU
+90GB RAM
+12 vCPU
+Create
+A100
+$
+1994
+/ month
+NVIDIA A100 GPU
+90GB RAM
+12 vCPU
+Create
+H100
+$
+1994
+/ month
+NVIDIA A100 GPU
+90GB RAM
+12 vCPU
+Reserve Now
+GPU+
+For intensive 3D apps, rendering, simulations, ML, gaming etc.
+$
+298
+/ month
+$0.361
+effective hourly price
+8 vCPU
+30 GB RAM
+8 GB GPU
+DEDICATED
+Starts at 50GB SSD
++ Windows License Included
+Create
+P5000
+For heavy 3D apps, rendering, simulations, ML, gaming, and GPU compute
+$
+456
+/ month
+$0.625
+effective hourly price
+8 vCPU
+30 GB RAM
+16 GB GPU
+DEDICATED
+Starts at 50GB SSD
++ Windows License Included
+Create
+P6000
+For extreme 3D apps, rendering, simulations, ML, gaming, and GPU compute
+$
+642
+/ month
+$0.879
+effective hourly price
+8 vCPU
+30 GB RAM
+24 GB GPU
+DEDICATED
+Starts at 50GB SSD
++ Windows License Included
+Create
+Linux Only
+V100
+The most powerful GPU in the world with 112 TeraFLOPS
+$
+1343
+/ month
+$1.84
+effective hourly price
+8 vCPU
+30 GB RAM
+16 GB GPU
+DEDICATED
+Starts at 50GB SSD
+Create
+Multi GPU
+‍
+Multi-GPU instances are offered in 2X, 4X, and 8X variants.
+Specs & pricing:
+Simply double, quadruple, etc. the specs and price of each type above.
+‍
+Types
+P4000x2, P4000x4
+P5000x2, P5000x4
+P6000x2, P6000x4
+RTX4000x2, RTX4000x4
+RTX5000x2, RTX5000x4
+A4000x2, A4000x4
+A5000x2, A5000x4
+A6000x2, A6000x4
+A100x2, A100x4, A100x8
+P5000 x2
+$
+1.56
+/ hour
+32 GB GPU
+60 GB RAM
+16 vCPU
+Create
+P6000 x2
+$
+2.20
+/ hour
+60 GB GPU
+48 GB RAM
+16 vCPU
+Create
+Standard GPU
+Desktops & Servers
+Air
+A lightweight machine in the cloud
+$
+22
+/ month
+$0.03
+effective hourly price
+2 vCPU
+4 GB RAM
+512 MB GPU
+Starts at 50GB SSD
++ Windows License Included
+Create
+Standard
+For Office, web browsing, and everyday access
+$
+35
+/ month
+$0.05
+effective hourly price
+4 vCPU
+8 GB RAM
+512 MB GPU
+Starts at 50GB SSD
++ Windows License Included
+Create
+Advanced
+For mid-range applications and intensive 2D CAD
+$
+65
+/ month
+$0.09
+effective hourly price
+6 vCPU
+16 GB RAM
+2 GB GPU
+Starts at 50GB SSD
++ Windows License Included
+Create
+Pro
+For moderately-intensive 3D CAD, Photoshop, etc.
+$
+120
+/ month
+$0.16
+effective hourly price
+8 vCPU
+32 GB RAM
+4 GB GPU
+Starts at 50GB SSD
++ Windows License Included
+Create
+CPU
+Servers (Linux only)
+C1
+$
+6
+/ month
+1 vCPU
+512 MB RAM
+Starts at 50GB SSD
+Create
+C2
+$
+9
+/ month
+1 vCPU
+1 GB RAM
+Starts at 50GB SSD
+Create
+C3
+$
+14
+/ month
+2 vCPU
+2 GB RAM
+Starts at 50GB SSD
+Create
+C4
+$
+25
+/ month
+2 vCPU
+4 GB RAM
+Starts at 50GB SSD
+Create
+C5
+$
+48
+/ month
+4 vCPU
+8 GB RAM
+Starts at 50GB SSD
+Create
+C6
+$
+92
+/ month
+8 vCPU
+16 GB RAM
+Starts at 50GB SSD
+Create
+C7
+$
+158
+/ month
+12 vCPU
+30 GB RAM
+Starts at 50GB SSD
+Create
+C8
+$
+278
+/ month
+16 vCPU
+60 GB RAM
+Starts at 50GB SSD
+Create
+C9
+$
+408
+/ month
+24 vCPU
+120 GB RAM
+Starts at 50GB SSD
+Create
+C10
+$
+788
+/ month
+32 vCPU
+244 GB RAM
+Starts at 50GB SSD
+Create
+View detailed system specs
+Add-ons & Integrations
+Private Networking
+VPN Gateways
+Shared Drives
+Free unlimited bandwidth
+Templates
+Snapshots
+Public IPs
+View add-on details
+What's included
+Premium Support
+SAML SSO
+User management & permissions
+Consolidated billing
+Enterprise?
+Schedule time with a product specialist to learn more about our custom plans and how DigitalOcean can work for your business.
+Contact Sales
+Common Questions
+FAQs
+How does pricing work?
+For hourly plans you are charged a flat rate (depending on machine type) per month to cover storage and access. Additionally, you are charged an hourly rate when the machine is running. Monthly plans are offered at a flat rate for unlimited access.
+Where are the servers located?
+You can learn more about our global coverage
+here
+.
+Am I charged when my machine is off?
+For hourly plans, if your machine is powered off, you will only be billed for your storage. Monthly machines have a flat rate per month regardless if the machine is on or off.
+Can I upgrade or downgrade my plan?
+You can upgrade or cancel your paid subscriptions at anytime from within your console.
+Do you offer refunds?
+No. Please open a support ticket if there are extenuating circumstances.
+How do I cancel my account?
+You can cancel your account anytime through the console, under the settings tab.
+Is private data shared with third parties or advertisers?
+No.
+Products
+Notebooks
+Machines
+Deployments
+Cloud Desktops (VDI)
+3D Workstations
+Gaming
+Solutions
+Machine Learning
+GPU Infrastructure
+Cloud Desktops (VDI)
+3D Workstations
+Gaming
+Learn
+Products
+Docs
+Changelog
+Status Page
+Referral Program
+Download App
+Customers
+Media Kit
+Resources
+Support
+Talk to an expert
+Forum
+Business
+Security
+Cloud GPU Comparison
+NVIDIA Cloud Partner
+Media Kit
+Company
+Blog
+Careers
+Paperspace dba DigitalOcean
+© Copyright by
+DigitalOcean
+• All rights reserved
+Terms of Service
+•
+Privacy Policy

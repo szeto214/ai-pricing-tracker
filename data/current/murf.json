@@ -1,0 +1,57 @@
+{
+  "slug": "murf",
+  "name": "Murf AI",
+  "vendor": "Murf",
+  "category": "ai-media",
+  "url": "https://murf.ai/pricing",
+  "final_url": "https://murf.ai/pricing",
+  "content_hash": "9512b5af40b310a909a39d390fcbb31c89790b4db8cb5379e3334d47d139833b",
+  "raw_hash": "40f436dd7e6d3c1a24aa0ce01c60bacb0fc8ee1c97cd298fbc3d86b0a4b034dd",
+  "text_bytes": 10687,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Free",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Buy Plan",
+      "price_raw": "$19",
+      "amount": 19.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Buy Plan",
+      "price_raw": "$66",
+      "amount": 66.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Creator",
+      "price_raw": "$19",
+      "amount": 19.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Business",
+      "price_raw": "$66",
+      "amount": 66.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    }
+  ],
+  "tables": [],
+  "extract_errors": []
+}

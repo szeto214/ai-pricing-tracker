@@ -1,0 +1,140 @@
+{
+  "slug": "honeycomb",
+  "name": "Honeycomb",
+  "vendor": "Honeycomb",
+  "category": "observability",
+  "url": "https://www.honeycomb.io/pricing",
+  "final_url": "https://www.honeycomb.io/pricing",
+  "content_hash": "499904e74b26142fb58f680f9e0d8235b9fd2f994c6bb7ecf164fe16792614c9",
+  "raw_hash": "a73227764238cd595827027470cd122c91a79b579f86de2b6d9c2446561ce984",
+  "text_bytes": 4333,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Free",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Pro",
+      "price_raw": "$150",
+      "amount": 150.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Collect all your telemetry",
+      "price_raw": "$0.10",
+      "amount": 0.1,
+      "currency": "USD",
+      "period": null,
+      "features": [
+        "Starting at $0.10 / GB",
+        "OpenTelemetry processing and fleet management",
+        "Query access with Honeycomb"
+      ]
+    },
+    {
+      "name": "Ingest real-time events",
+      "price_raw": "$150",
+      "amount": 150.0,
+      "currency": "USD",
+      "period": null,
+      "features": [
+        "Free: Up to 20M events and 100M time series data points",
+        "Pro: Starting at $150 / 50M events (up to 750M) and 250M time series data points (up to 3.75B)",
+        "Enterprise: Volume discounts available"
+      ]
+    },
+    {
+      "name": "Free",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    }
+  ],
+  "tables": [
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Features",
+          "Free Start for free",
+          "Pro Start for free",
+          "Enterprise Request a trial"
+        ],
+        [
+          "Core features"
+        ],
+        [
+          "Distributed Tracing",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Triggers",
+          "",
+          "",
+          ""
+        ],
+        [
+          "BubbleUp",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Honeycomb Metrics",
+          "Up to 100M data points/month",
+          "Up to 3.75B data points/month",
+          ""
+        ],
+        [
+          "Honeycomb Intelligence",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Canvas AI Copilot",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Honeycomb MCP",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Agent Timeline",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Service-Level Objectives (SLOs)",
+          "-",
+          "2",
+          "100"
+        ],
+        [
+          "Service Map",
+          "-",
+          "-",
+          ""
+        ]
+      ]
+    }
+  ],
+  "extract_errors": []
+}

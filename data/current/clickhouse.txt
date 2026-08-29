@@ -1,0 +1,200 @@
+Cookie Policy
+Dismiss
+Skip to content
+Copy logo as SVG
+Download full logo
+Download logomark
+Open search
+Open region selector
+English
+Japanese
+Korean
+Chinese
+French
+Spanish
+Portuguese
+Arabic
+Open menu
+Open search
+Open region selector
+English
+Japanese
+Korean
+Chinese
+French
+Spanish
+Portuguese
+Arabic
+49.5k
+Sign in
+Get Started
+Pricing
+Options for every user, organization, and use case.
+N. Virginia (us-east-1)
+Or
+request a private/other region
+Basic
+Great for testing out new ideas or starter projects. Limited storage and memory.
+Estimate your monthly cost ↓
+Up to 1 TB storage
+8-12 GiB total memory
+Backups every 24h, retained for 1 day
+1 availability zone
+Export backups to your own cloud account
+Expert support with 1 business day response time
+Single sign-on authentication (SSO) using Google or Microsoft Social login
+Multi-factor authentication (MFA)
+Storage
+$25.30
+Per 1TB / mo
+Compute
+$0.2181
+Per unit / hr
+Start your 30-day free trial
+Scale
+For working with production environments, data at scale, or professional use cases.
+Estimate your monthly cost ↓
+Everything in
+Basic
+, plus:
+Unlimited storage
+Configurable memory
+Compute-compute separation
+Backups every 24h, retained for 1 day
+Configurable backups
+2+ availability zones
+Expert support with 1 hour response time 24x7 for Severity 1 issues
+S3 role-based access
+Private networking
+Automatic vertical scaling
+Manual horizontal scaling
+Storage
+$25.30
+Per 1TB / mo
+Compute
+$0.2985
+Per unit / hr
+Start your 30-day free trial
+Enterprise
+For working with production environments, very large data at scale, or enterprise use cases.
+Estimate your monthly cost ↓
+Everything in
+Scale
+, plus:
+SAML Single sign-on authentication (SSO)
+Private regions
+Manual vertical scaling for custom profiles
+Enterprise support with 30 min response time for Severity 1 issues
+Named Lead Support Engineer
+Transparent data encryption / CMEK
+Scheduled upgrades
+Consultative migrations guides
+HIPAA and PCI compliance
+Storage
+$25.30
+Per 1TB / mo
+Compute
+$0.3903
+Per unit / hr
+Start your 30-day free trial
+Data transfer
+for public internet egress starting at
+$0.1152 / GB
+, inter region egress starting at
+$0.0312 / GB
+.
+ClickPipes pricing depends on the connector type. See the
+ClickPipes pricing dimensions
+for current rates.
+For more information about our billing and pricing please refer to our
+Billing & Pricing FAQ
+. Or download the forever-free
+open source distribution of ClickHouse
+->
+->
+more options
+Compute and storage from
+$0.125
+Per unit / hr
+Postgres managed by ClickHouse
+Fast, scalable, enterprise-grade Postgres, natively integrated with ClickHouse. Built for real-time and AI-driven applications.
+Available in Beta on all three plans.
+Learn more
+Estimate your monthly cost ↓
+Start your 30-day free trial
+Bring Your Own Cloud
+Do you have strict data residency and compliance requirements that make typical SaaS offerings a nonstarter? Our Bring Your Own Cloud deployment model allows you to experience the advantages of ClickHouse Cloud within your own Virtual Private Cloud (VPC).
+Learn more
+Contact us
+Need help with your proof of concept?
+Contact us
+Estimate your monthly cost
+Basic
+Scale
+Enterprise
+ClickHouse
+For analytics, observability, and BI
+Postgres
+BETA
+50% discount
+For transactional workloads
+Cloud provider
+Region
+N. Virginia (us-east-1)
+What's your use case?
+Real-time analytics
+Storage and compute
+Data volume
+GB
+Is your data compressed?
+No
+Yes
+Backups
+Enable Backups
+Backup frequency
+Retention period
+Do you know the size of your full and incremental backup?
+No
+Yes
+Full backup
+MB
+Incremental backup
+MB
+Data ingestion (ClickPipes)
+Enable Data ingestion (ClickPipes)
++
+Add data source
+Data transfer
+Enable Data transfer
+Public internet egress / month
+GB
+Inter-region egress / month
+GB
+For details on data transfer and billing, visit our
+data transfer docs
+Average price per month
+--
+Start free trial
+Share
+Contact us
+You’re eligible for custom terms
+🎉
+Contact us for more details
+Get a custom quote
+Start free trial
+Share
+Pricing philosophy
+Pay only for what you use
+We automatically scale up and down compute resources based on your workload
+We scale storage and compute separately, due to our flexible architecture
+We automatically scale unused resources down to zero so that you don't pay for idle services
+Control and transparency
+Identify key usage drivers using our metered pricing dimensions
+Reserve compute resources to meet the needs of the most demanding workloads
+Set compute autoscaling limits to prevent runaway queries from unexpected bills
+Need help with your ClickHouse Cloud PoC?
+Contact our team of experts
+Loading form...
+Still have questions?
+Have a complex setup or additional questions around pricing? Contact our sales team for help and to get more information on ClickHouse pricing.
+Contact sales

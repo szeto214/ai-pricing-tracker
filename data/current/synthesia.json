@@ -1,0 +1,49 @@
+{
+  "slug": "synthesia",
+  "name": "Synthesia",
+  "vendor": "Synthesia",
+  "category": "ai-media",
+  "url": "https://www.synthesia.io/pricing",
+  "final_url": "https://www.synthesia.io/pricing",
+  "content_hash": "e281172299df87474dc591b87772f28f2826b186cfa13d6f9bf28a579b6d4be0",
+  "raw_hash": "443a28c0578857c81a6daac13d94c291e4f1f580062eb259dc3a067a2d6bf5e2",
+  "text_bytes": 24339,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Free",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "The creation of a Studio Express-1 avatar is a p",
+      "price_raw": "$100",
+      "amount": 100.0,
+      "currency": "USD",
+      "period": "year",
+      "features": []
+    },
+    {
+      "name": "Studio Avatars",
+      "price_raw": "$100",
+      "amount": 100.0,
+      "currency": "USD",
+      "period": "year",
+      "features": []
+    },
+    {
+      "name": "How much does Synthesia cost?",
+      "price_raw": "$29",
+      "amount": 29.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    }
+  ],
+  "tables": [],
+  "extract_errors": []
+}

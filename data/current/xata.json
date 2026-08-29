@@ -1,0 +1,132 @@
+{
+  "slug": "xata",
+  "name": "Xata",
+  "vendor": "Xata",
+  "category": "database",
+  "url": "https://xata.io/pricing",
+  "final_url": "https://xata.io/pricing",
+  "content_hash": "1f528ad00fff1a0d2f7bfb2a52f2c22edfb080f98ae4739dd1a0317ce0710b47",
+  "raw_hash": "0f504625af21ebbb739c8946bb5b664f875fd590ea6cf56b25fbca3d264f597b",
+  "text_bytes": 4808,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Open Source",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Xata Cloud",
+      "price_raw": "$0.01",
+      "amount": 0.01,
+      "currency": "USD",
+      "period": "hour",
+      "features": []
+    }
+  ],
+  "tables": [
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Instance Type",
+          "vCPUs",
+          "RAM",
+          "Cost per Hour",
+          "Cost per Month"
+        ],
+        [
+          "micro",
+          "≤2 vCPU",
+          "1 GB RAM",
+          "$ 0.012 /hr",
+          "$ 9 /month"
+        ],
+        [
+          "small",
+          "≤2 vCPU",
+          "2 GB RAM",
+          "$ 0.024 /hr",
+          "$ 18 /month"
+        ],
+        [
+          "medium",
+          "≤2 vCPU",
+          "4 GB RAM",
+          "$ 0.048 /hr",
+          "$ 35 /month"
+        ],
+        [
+          "large",
+          "2 vCPU",
+          "8 GB RAM",
+          "$ 0.096 /hr",
+          "$ 70 /month"
+        ],
+        [
+          "xlarge",
+          "4 vCPU",
+          "16 GB RAM",
+          "$ 0.192 /hr",
+          "$ 140 /month"
+        ],
+        [
+          "2xlarge",
+          "8 vCPU",
+          "32 GB RAM",
+          "$ 0.384 /hr",
+          "$ 280 /month"
+        ],
+        [
+          "4xlarge",
+          "16 vCPU",
+          "64 GB RAM",
+          "$ 0.768 /hr",
+          "$ 561 /month"
+        ],
+        [
+          "8xlarge",
+          "32 vCPU",
+          "128 GB RAM",
+          "$ 1.536 /hr",
+          "$ 1121 /month"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Tier",
+          "Concurrent branches",
+          "Ideal for"
+        ],
+        [
+          "Team",
+          "Up to 1,000",
+          "Mature engineering orgs transitioning away from shared staging as agents become core to daily work"
+        ],
+        [
+          "Company",
+          "Up to 10,000",
+          "Centralized company-wide AI rollouts with agent governance policies"
+        ],
+        [
+          "Platform",
+          "Up to 100,000",
+          "Early stage platforms serving thousands of users with dedicated databases"
+        ],
+        [
+          "Hyperscale",
+          "100,000+",
+          "Mature platforms provisioning databases for millions of users"
+        ]
+      ]
+    }
+  ],
+  "extract_errors": []
+}

@@ -3,49 +3,6 @@ Copy Wordmark
 Copy Logo
 Download Brand Assets
 Brand Guidelines
-Products
-Agent Stack
-AI SDK
-AI Gateway
-Sandbox
-Passport
-Connect
-eve
-Core Platform
-Security
-Content Delivery
-Fluid Compute
-Observability
-Workflows
-CI/CD
-Tools
-Next.js
-Vercel Agent
-Vercel Plugin
-Open Source
-Domains
-v0
-Resources
-Learn
-Docs
-About
-Blog
-Changelog
-Knowledge Base
-Build
-AI Apps
-Web Apps
-Marketing Sites
-Platforms
-Commerce
-Explore
-Customers
-Marketplace
-Partner Finder
-AWS
-Community
-Enterprise
-Pricing
 Get a Demo
 Log In
 Sign Up
@@ -318,7 +275,7 @@ Starting at $0.15 per GB
 Custom
 Concurrent Sandboxes
 10
-10K
+<count>
 Custom
 Snapshot Storage
 15 GB
@@ -638,110 +595,3 @@ vercel.com/docs/plans/pro-plan#monthly-credit
 Can't decide?
 Talk to sales
 Get started for free
-Agent Stack
-AI SDK
-AI Gateway
-Sandbox
-Workflows
-Connect
-New
-Passport
-New
-eve
-New
-Core Platform
-CI/CD
-Content Delivery
-Fluid Compute
-Observability
-Security
-Platform Security
-WAF
-Bot Management
-BotID
-Tools
-Vercel Drop
-New
-Vercel Agent
-Vercel Plugin
-New
-Agent Skills
-Domains
-v0
-Frameworks
-eve
-New
-Next.js
-Nuxt
-SvelteKit
-Nitro
-Turborepo
-Tanstack Start
-FastAPI
-xmcp
-All frameworks
-SDKs
-Vercel SDK
-Workflow SDK
-New
-Flags SDK
-Chat SDK
-New
-Queues SDK
-New
-Streamdown
-Build
-AI Apps
-Web Apps
-Marketing Sites
-Platforms
-Commerce
-Platform Engineers
-Design Engineers
-Learn
-Docs
-Blog
-Changelog
-Knowledge Base
-Academy
-Articles
-Community
-Is Agentic
-Explore
-Customers
-Marketplace
-Templates
-Partner Finder
-Vercel + AWS
-Company
-About
-Careers
-Press
-Events
-Startups
-Shipped on Vercel
-Open Source Program
-Enterprise
-Pricing
-Help
-Legal & Trust
-Privacy Policy
-Terms of Service
-Cookie Policy
-DPA
-Acceptable Use Policy
-Legal (all documents)
-Trust Center
-Status
-Cookie Preferences
-Social
-GitHub
-X
-LinkedIn
-YouTube
-Instagram
-Loading status...
-Select a display theme:
-system
-light
-dark

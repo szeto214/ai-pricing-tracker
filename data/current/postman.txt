@@ -1,179 +1,4 @@
 Skip to main content
-Home
-Product
-Platform
-What's New
-Security
-Integrations
-Explore
-Postman API Network
-MCP Server Catalog
-Download Postman →
-Design & Build
-Spec Hub
-Workspaces
-Documents
-Mock Servers
-SDK Generator
-Flows
-Test & Validate
-API Client
-Collection Runner
-Performance Testing
-Monitors
-Webhook Testing
-Functional Testing
-Manage & Operate
-API Catalog
-Insights
-Application Inventory
-AI Engineer
-Scale velocity with agents. Keep quality and security.
-Agent Mode
-Automate API workflows with native AI
-Postman CLI
-Work with Postman from the command line
-Postman MCP Server
-Give API context to your AI agents
-More from Postman
-Fabric
-Route, govern, and observe your AI traffic
-Fern
-Instantly generate API docs and SDKs
-Astro AI
-Manage and control AI agents in production
-Solutions
-API Governance
-Enforce API standards at scale
-Partner API Management
-Onboard partners in days, not months
-API Lifecycle Management
-Run every stage as one connected system
-SDLC Automation
-Embed quality into every delivery stage
-Pricing
-Enterprise
-Resources
-Learn
-Learning Hub
-Docs
-Enterprise Onboarding
-Postman Academy
-Customer Stories
-Postman Best Practices
-Connect
-Community
-Events
-Discord
-Postman MCP Server
-Partner Program
-Get Support
-Support Center
-Release Notes
-Postman Status
-Security
-Postman
-Blog
-Press and Media
-About Postman
-Tools
-new
-OpenAPI editor and visualizer
-API health check
-Website uptime check
-Website speed test
-cURL to code
-See all tools →
-Contact Sales
-Sign In
-Sign Up for Free
-Product
-Platform
-What's New
-Security
-Integrations
-Explore
-Postman API Network
-MCP Server Catalog
-Download Postman →
-Design & Build
-Spec Hub
-Workspaces
-Documents
-Mock Servers
-SDK Generator
-Flows
-Test & Validate
-API Client
-Collection Runner
-Performance Testing
-Monitors
-Webhook Testing
-Functional Testing
-Manage & Operate
-API Catalog
-Insights
-Application Inventory
-AI Engineer
-Scale velocity with agents. Keep quality and security.
-Agent Mode
-Automate API workflows with native AI
-Postman CLI
-Work with Postman from the command line
-Postman MCP Server
-Give API context to your AI agents
-More from Postman
-Fabric
-Route, govern, and observe your AI traffic
-Fern
-Instantly generate API docs and SDKs
-Astro AI
-Manage and control AI agents in production
-Solutions
-API Governance
-Enforce API standards at scale
-Partner API Management
-Onboard partners in days, not months
-API Lifecycle Management
-Run every stage as one connected system
-SDLC Automation
-Embed quality into every delivery stage
-Pricing
-Enterprise
-Resources
-Learn
-Learning Hub
-Docs
-Enterprise Onboarding
-Postman Academy
-Customer Stories
-Postman Best Practices
-Connect
-Community
-Events
-Discord
-Postman MCP Server
-Partner Program
-Get Support
-Support Center
-Release Notes
-Postman Status
-Security
-Postman
-Blog
-Press and Media
-About Postman
-Tools
-new
-OpenAPI editor and visualizer
-API health check
-Website uptime check
-Website speed test
-cURL to code
-See all tools →
-Contact Sales
-Sign In
-Sign Up for Free
 Pricing built for how you work
 Clear plans for individuals, teams, and enterprises
 Pay monthly
@@ -306,7 +131,13 @@ Testing
 Automated API testing (Unlimited, Collection Runner)
 Multi-protocol Runner
 Data file support in Collection Runner
-Performance testing (unlimited runs)
+Datasets
+Unlimited local performance testing
+Cloud performance testing
+$0.04 / VuH
+$0.04 / VuH
+$0.04 / VuH
+Beta
 Playwright integration
 Test result exports
 Automation Flows
@@ -458,7 +289,10 @@ Testing
 Automated API testing (Unlimited, Collection Runner)
 Multi-protocol Runner
 Data file support in Collection Runner
-Performance testing (unlimited runs)
+Datasets
+Unlimited local performance testing
+Cloud performance testing
+$0.04 / VuH
 Playwright integration
 Test result exports
 Automation Flows
@@ -550,7 +384,10 @@ Testing
 Automated API testing (Unlimited, Collection Runner)
 Multi-protocol Runner
 Data file support in Collection Runner
-Performance testing (unlimited runs)
+Datasets
+Unlimited local performance testing
+Cloud performance testing
+$0.04 / VuH
 Playwright integration
 Test result exports
 Automation Flows
@@ -642,7 +479,10 @@ Testing
 Automated API testing (Unlimited, Collection Runner)
 Multi-protocol Runner
 Data file support in Collection Runner
-Performance testing (unlimited runs)
+Datasets
+Unlimited local performance testing
+Cloud performance testing
+$0.04 / VuH
 Playwright integration
 Test result exports
 Automation Flows
@@ -740,7 +580,10 @@ Testing
 Automated API testing (Unlimited, Collection Runner)
 Multi-protocol Runner
 Data file support in Collection Runner
-Performance testing (unlimited runs)
+Datasets
+Unlimited local performance testing
+Cloud performance testing
+Beta
 Playwright integration
 Test result exports
 Automation Flows
@@ -820,12 +663,6 @@ Buy with AWS
 Extend Postman with add-ons
 Add advanced security and support capabilities as your team scales.
 Simple Security
-Simplify authentication with SSO integration for your team.
-Advanced Security Administration
-Strengthen data protection with compliance-ready security controls.
-Premium Support
-Enterprise-grade support for mission-critical API infrastructure.
-Simple Security
 Simple Security
 Advanced Security Administration
 Premium Support
@@ -868,14 +705,11 @@ Organization-level add-on. Must be purchased for all licensed users. Enterprise 
 Usage-Based Services
 Extend your API development and testing with pay-as-you-go capabilities on paid plans only. Usage-based pricing lets you start small and scale intentionally.
 AI Credits
-Monitoring
-Insights
-Flows Credits
-AI Credits
 AI Credits
 Monitoring
 Insights
 Flows Credits
+Cloud Performance Testing
 AI Credits
 Each paid plan includes a monthly allotment of AI credits to power AI-driven actions across Postman including generating requests, writing tests, updating documentation, and executing workflow steps.
 If you exceed your included credits, you can continue using Postman AI with pay-as-you-go pricing when enabled by your Billing Admin. Enterprise customers can contact Sales to discuss volume pricing options.
@@ -913,6 +747,16 @@ Flows credits power API orchestration and automation steps within Postman Flows.
 Use Flows to design and run API-driven workflows across systems using a visual builder. Credits are consumed as flows execute and perform usage-based operations.
 $1
 per 1000 Flows credits
+Contact Sales
+Learn more →
+Cloud Performance Testing
+Run performance tests on Postman-hosted infrastructure so load is not limited by your local machine.
+Generate load from Postman-hosted infrastructure
+Scale virtual users beyond local machine limits
+Drive load from datasets for data-driven load tests
+Track response times, error rates, and throughput
+$0.04
+per virtual user hour
 Contact Sales
 Learn more →
 Frequently asked questions
@@ -993,58 +837,3 @@ Moving between plans is expected as work evolves from individual → team → or
 The world's APIs are built and shipped on Postman.
 Sign up for Free
 For AI agents: the clean markdown version of this page is available at https://www.postman.com/pricing.md
-Product
-Postman Overview
-Enterprise
-Spec Hub
-Flows
-Agent Mode
-API Catalog
-Fern
-Postman CLI
-Integrations
-Workspaces
-Plans and Pricing
-API Network
-App Security
-Artificial Intelligence
-Communication
-Data Analytics
-Database
-Developer Productivity
-DevOps
-E-Commerce
-eSignature
-Financial Services
-Payments
-Travel
-Resources
-Postman Docs
-Academy
-Community
-Intergalactic
-Videos
-MCP Servers
-Legal and Security
-Legal Terms Hub
-Terms of Service
-Postman Product Terms
-Security
-Website Terms of Use
-Company
-About
-Careers and Culture
-Contact Us
-Partner Program
-Customer Stories
-Press and Media
-Events
-Languages
-English
-Download Postman
-Cookie Preferences
-|
-Tracking Cookies Used.
-Do Not Sell or Share My Personal Information
-Privacy Policy
-© 2026 Postman, Inc.

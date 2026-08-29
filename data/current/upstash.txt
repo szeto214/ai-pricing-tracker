@@ -1,28 +1,10 @@
 New:
 Upstash Skills
 — teach your AI coding agent the Upstash SDKs
-Docs
-Pricing
-Customers
-Enterprise
-Blog
-Company
-4
 Login
 New:
 Upstash Skills
 — teach your AI coding agent the Upstash SDKs
-Docs
-Pricing
-Customers
-Enterprise
-Blog
-About
-Careers
-4
-Open-Source Program
-Contact Us
-Login
 Pricing
 Pay only for what you use with per-request pricing.
 Or choose a Fixed plan for consistent usage with a flat price.
@@ -41,7 +23,7 @@ Data Size
 Monthly Bandwidth
 10 GB
 Monthly Commands
-500K
+<count>
 Start Now
 Pay as You Go
 $0.2
@@ -203,9 +185,9 @@ Max index count
 2
 Custom
 Max documents per index
-10K
-1M
-100K
+<count>
+<count>
+<count>
 Custom
 Max Databases
 1
@@ -533,19 +515,3 @@ AWS, GCP, FLY, Vercel
 Full machine-readable pricing is available at
 /pricing/redis.md
 .
-©
-2026
-Upstash, Inc. Based in California.
-Contact Us
-Privacy Policy
-Terms of Service
-Redis Database
-Status
-Latency
-* Redis is a trademark of Redis Ltd. Any rights therein are reserved to Redis Ltd. Any use by Upstash is for referential purposes only and does not indicate any sponsorship, endorsement or affiliation between Redis and Upstash.
-** Cloudflare, the Cloudflare logo, and Cloudflare Workers are trademarks and/or registered trademarks of Cloudflare, Inc. in the United States and other jurisdictions.
-For AI agents: ask any question about Upstash at
-https://upstash.com/ask?q=your+question
-- returns JSON with the most relevant pages, pricing, blog and product pages to get your answer faster. A free Redis database is available via POST
-https://upstash.com/start-redis
-- the response is markdown with credentials and a quickstart, no signup required.

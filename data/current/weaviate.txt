@@ -1,0 +1,357 @@
+Skip to main content
+Contact
+Log in
+Try now
+☰
+All the power your AI needs,
+without the overhead
+Flexible deployment options and pricing to meet the needs of every use case.
+Database
+Engram
+✦
+Always free
+Free
+Forever
+$0
+/mo
+No credit card required
+A fully managed AI Database to explore Weaviate features. Easiest way to get started, always free.
+Start free
+✓
+Always free — 1 cluster per user, upgrade to paid anytime.
+✓
+100,000 objects · 1 GB memory · 10 GB disk.
+✓
+1 collection, up to 3 tenants.
+✓
+Embeddings (2,000 req/day) + Query Agent (1,000 req/mo).
+✓
+Basic Support
+Flex
+Starts at
+$45
+/mo
+Pay-as-you-go
+Zero-commitment entry point to experiment and ship quickly. Ideal for prototypes, pilots, small use cases.
+Upgrade to Flex
+✓
+Pay-as-you-go, monthly, no commitment.
+✓
+Shared cloud cluster with full core DB toolkit + replication.
+✓
+Baseline security with RBAC.
+✓
+Highly available clusters — 99.5% uptime.
+✓
+Query Agent free tier + usage-based; Embeddings usage-based.
+✓
+Standard support — next-business-day Sev 1
+Premium
+Starts at
+$400
+/mo
+Prepaid contract
+For teams scaling AI in production who need predictable pricing and enhanced reliability.
+Contact Sales
+✓
+Prepaid contract with predictable spend.
+✓
+Choice of shared or dedicated deployment.
+✓
+Trusted reliability — up to 99.95% uptime.
+✓
+Global coverage on AWS, GCP & Azure.
+✓
+Query Agent free tier + usage-based; Embeddings usage-based.
+✓
+Enterprise support — as fast as 1-hour Sev 1 + dedicated Technical Account Team
+Estimate costs with Pricing Calculator
+Plans
+Pay-as-you-go with flexible scaling
+flex
+premium
+Vector Dimensions
+Number of Objects
+Object Size
+Optimization profile
+Cost Optimized
+Lower memory footprint and storage cost. Suitable for small or non-latency-sensitive workloads.
+Vector index
+HFresh
+·
+Compression
+Auto
+Performance Optimized
+In-memory retrieval balancing speed and search quality. Suitable for most workloads.
+Vector index
+HNSW
+·
+Compression
+RQ-8
+Learn more about
+vector index types
+and
+compression
+.
+Your estimated cost:
+$
+45
+/mo
+Get started
+Contact Sales Team for more information
+Database AI Services
+Native services that run inside Weaviate Cloud — included on every plan, billed by usage.
+Weaviate Embeddings
+Access embedding models hosted in Weaviate Cloud. Simple, pay-as-you-go, GPU-powered.
+SNOWFLAKE ARCTIC-EMBED-M-V1.5
+$0.025
+/ 1M tokens
+SNOWFLAKE ARCTIC-EMBED-M-V2.0
+$0.040
+/ 1M tokens
+MODERNVBERT COLMODERNVBERT
+$0.065
+/ 1M tokens
+Learn more
+Weaviate Query Agent
+Turn natural-language questions into precise Weaviate database operations.
+Free to try
+— 1,000 requests / month
+$30
+/ organization · monthly plan
+4,000 requests
+included
+Unlimited additional requests, usage-based
+Learn more
+Compare Database plans
+Plan
+Free
+Flex
+Premium
+Shared
+Dedicated
+Contract
+Contract
+Always free
+Monthly (Pay-as-you-go)
+Prepaid Commitment
+Prepaid Commitment
+Core Database
+Deployment type
+Shared
+Shared
+Shared
+Dedicated
+Object limit
+100,000
+Unlimited
+Unlimited
+Unlimited
+Collection limit
+1
+1000
+1000
+1000
+Hybrid search
+✓
+✓
+✓
+✓
+Backup retention
+×
+7 days
+30 days
+45 days
+Flexible index types
+×
+✓
+✓
+✓
+Vector compression
+✓
+✓
+✓
+✓
+HA / replication
+×
+✓
+✓
+✓
+Multi-tenancy
+✓
+✓
+✓
+✓
+Security
+RBAC
+✓
+✓
+✓
+✓
+SSO / SAML
+×
+×
+✓
+✓
+Bring your own IdP
+×
+×
+×
+Coming soon
+HIPAA compliant
+×
+×
+×
+✓
+PrivateLink (AWS)
+×
+×
+×
+✓
+Encrypted volumes (customer keys)
+×
+×
+×
+✓
+Observability
+Metrics endpoint
+×
+×
+✓
+✓
+Console metrics
+✓
+✓
+✓
+✓
+AI Services
+Query Agent
+Free tier
+Free tier + usage-based
+Free tier + usage-based
+Free tier + usage-based
+Query Agent rate limits
+1,000 req/mo
+30,000 req/mo
+Unlimited
+Unlimited
+Embeddings
+2,000 req/day
+Usage-based
+Usage-based
+Coming soon
+Support / Onboarding
+Email support
+✓
+✓
+✓
+✓
+Phone support
+×
+×
+✓
+✓
+Slack support
+×
+×
+✓
+✓
+Technical Account Team
+×
+×
+Add-on
+Add-on
+Instructor-led jumpstart training
+×
+×
+Available
+Available
+SLAs
+Availability
+Best effort
+99.5%
+99.9%
+99.95%
+Severity 1 response time
+×
+1 business day
+4-hours
+1-hour
+Upgrades
+Cluster upgrades
+Weaviate-managed
+Weaviate-managed
+Weaviate-managed
+Customer-directed
+Cloud Availability
+Cloud Service Provider
+AWS
+GCP, AWS
+GCP, AWS
+GCP, AWS, Azure
+Regions
+Limited (2)
+Limited (7)
+Limited (7)
+All (~40)
+Pricing dimensions
+Minimum
+Free
+$45 / month
+from $400 / month
+from $400 / month
+Vector dimensions
+Free
+from $0.00465 / 1M
+from $0.003875 / 1M
+from $0.002718 / 1M
+Storage
+Free
+from $0.12 / GiB
+from $0.10 / GiB
+from $0.1505 / GiB
+Backup
+Free
+from $0.0264 / GiB
+from $0.0042 / GiB
+from $0.0063 / GiB
+Data transfer
+Free
+Free for promotional period
+Free for promotional period
+Free for promotional period
+1
+Vector dimension pricing varies by index type, compression method, and region. For rates specific to your data, see the Running Costs module in Weaviate Cloud Console or contact support@weaviate.io.
+2
+Data transfers currently incur no additional cost for a limited promotional period; Weaviate may introduce charges in future with advance notice.
+Built for trust
+SOC2
+SOC 2 Type II
+Independently audited via Drata. See our
+Trust Portal.
+HIPAA
+HIPAA compliant
+Available on Enterprise Cloud (AWS) for regulated healthcare workloads.
+Database pricing FAQ
+Why is pricing based on the total number of vector dimensions?
+The total count of vector dimensions is a good indicator of the resources required — a simple number you can calculate, rather than abstract Read/Write units or CPU cycles. You are also billed for persistent and backup storage of objects and their embeddings.
+What is the minimum monthly amount?
+The minimum covers the baseline cluster cost and includes charges for Vector Dimensions and Storage: $45/month on Flex and from $400/month on Premium. Backups are charged on top, based on data volume and retention.
+Does compression change the cost?
+Compression does not change the number of vector dimensions stored, but it reduces the memory and compute required for search. More aggressive compression yields greater efficiency, reflected in discounted list prices for vector dimensions.
+Does the cloud provider and region affect what I pay?
+Yes — list prices for all vector-dimension rates vary by cloud provider and region to reflect regional cost variations.
+Is open-source Weaviate the same as Weaviate Cloud?
+Weaviate Cloud uses the Weaviate open-source project, wrapped in a managed service that removes administration overhead and adds features like the Embedding Service, Query Agent, and Data Import.
+Is Weaviate Cloud SOC 2 / HIPAA compliant?
+Yes. Weaviate Cloud is SOC 2 audited, and Enterprise Cloud on AWS is HIPAA compliant. See the
+Trust Portal
+for details.
+Start building on Weaviate Cloud today
+Get started
+Ready to get started?
+Try Weaviate Cloud today, or get in touch with our team to discuss your needs. We can’t wait to meet you.
+Try Weaviate Cloud
+Weaviate Products
+Pricing
+Partners

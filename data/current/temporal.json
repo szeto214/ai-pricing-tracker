@@ -1,0 +1,162 @@
+{
+  "slug": "temporal",
+  "name": "Temporal Cloud",
+  "vendor": "Temporal",
+  "category": "automation",
+  "url": "https://temporal.io/pricing",
+  "final_url": "https://temporal.io/pricing",
+  "content_hash": "fe6bc9bf99ae060d2e3bae006f0a7638f2a5dba5439a78dd5ed279d51005061d",
+  "raw_hash": "d0594d617cdf07dc010cca9d34f400274cfb852d3d385dc2a98a9442feec35d8",
+  "text_bytes": 5551,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "pricing",
+      "price_raw": "$1,000",
+      "amount": 1000.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "1 M Actions",
+        "1 GB Active Storage",
+        "40 GB Retained Storage",
+        "99.9% SLA, 99.99% HA options",
+        "Multi-Cloud & Multi-Region",
+        "User Roles",
+        "Service Accounts & API Keys",
+        "Audit Logging",
+        "Workflow Management",
+        "Workflow Availability",
+        "1 business day P0 response time",
+        "Core platform configuration",
+        "2.5 M Actions",
+        "2.5 GB Active Storage",
+        "100 GB Retained Storage",
+        "Commitments",
+        "Everything in Essentials",
+        "SAML SSO included",
+        "SCIM add-on",
+        "2 business hours P0 response times",
+        "Workflow troubleshooting",
+        "Worker configuration",
+        "SDK implementation",
+        "10 M Actions",
+        "10 GB Active Storage"
+      ]
+    },
+    {
+      "name": "Pay-As-You-Go",
+      "price_raw": "$50",
+      "amount": 50.0,
+      "currency": "USD",
+      "period": "hour",
+      "features": []
+    },
+    {
+      "name": "Plans",
+      "price_raw": "$100",
+      "amount": 100.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "FAQs",
+      "price_raw": "$1,000",
+      "amount": 1000.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    }
+  ],
+  "tables": [
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Actions",
+          "Price per Million Actions"
+        ],
+        [
+          "First Actions",
+          "Included in the Temporal Cloud Plan"
+        ],
+        [
+          "Next 5M",
+          "$50"
+        ],
+        [
+          "Next 5M",
+          "$45"
+        ],
+        [
+          "Next 10M",
+          "$40"
+        ],
+        [
+          "Next 30M",
+          "$35"
+        ],
+        [
+          "Next 50M",
+          "$30"
+        ],
+        [
+          "Next 100M",
+          "$25"
+        ],
+        [
+          "Over 200M",
+          "Contact Sales Pro Tip: More discounts, helpful humans."
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Capacity",
+          "APS",
+          "Required Actions/hr"
+        ],
+        [
+          "On Demand",
+          "500",
+          "Any Usage"
+        ],
+        [
+          "",
+          "Scales based on usage from last 7 days"
+        ],
+        [
+          "Pro­visioned",
+          "500/TRU",
+          "Any Usage"
+        ],
+        [
+          "",
+          "Each additional TRU @ 360,000 Actions/hr"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Storage",
+          "Price per GBh"
+        ],
+        [
+          "Active Storage",
+          "$0.042 GBh"
+        ],
+        [
+          "Retained Storage",
+          "$0.00105 GBh"
+        ]
+      ]
+    }
+  ],
+  "extract_errors": []
+}

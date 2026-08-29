@@ -5,9 +5,9 @@
   "category": "ai-media",
   "url": "https://runwayml.com/pricing",
   "final_url": "https://runway.com/pricing",
-  "content_hash": "8246e84b1be83a30609bf9381553186caa15d4025691b008e2d5f2410b0e9540",
-  "raw_hash": "286225ce8e1caaac06ae7eef35a8139b0b58886ded7392c48e03e49e87940363",
-  "text_bytes": 5906,
+  "content_hash": "da2350501bb4d8a8c58e22a9cdada54065015358e3c7d0d477fd46adbfaa80b5",
+  "raw_hash": "1398bd80791369c97dfe227b77d37679811cc5c0359e1de5c069424dafc232d9",
+  "text_bytes": 4995,
   "extractor": "jsonld",
   "confidence": "medium",
   "plans": [

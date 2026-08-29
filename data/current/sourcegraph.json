@@ -5,9 +5,9 @@
   "category": "ai-coding",
   "url": "https://sourcegraph.com/pricing",
   "final_url": "https://sourcegraph.com/pricing",
-  "content_hash": "74a31b5dbe63e2fe7b07ac8d9ed7a0c3d2853da4764f440b2ac939643fbfac06",
-  "raw_hash": "30bd7674a7beb839d21e4a510ea6b5c9feefbf59994a8d6b06e5ebbf67afe481",
-  "text_bytes": 3151,
+  "content_hash": "bc95e48aefdbfba83a84ee4a63a7e98fa72cf3bbfa1bc6bc33efe00dfc250246",
+  "raw_hash": "94d4d032d0e2d66467dc8d90d1c02269e0dbd3d587711f2b829f5856331c1e20",
+  "text_bytes": 1593,
   "extractor": "dom",
   "confidence": "low",
   "plans": [

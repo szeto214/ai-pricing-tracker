@@ -1,0 +1,82 @@
+{
+  "slug": "clickhouse",
+  "name": "ClickHouse Cloud",
+  "vendor": "ClickHouse",
+  "category": "database",
+  "url": "https://clickhouse.com/pricing",
+  "final_url": "https://clickhouse.com/pricing?service=clickhouse&pg.plan=scale&pg.provider=aws&pg.profile=memory&pg.architecture=arm&pg.standby=0&pg.region=us-east-1&useCase=real-time-analytics&hours=24&plan=scale&provider=aws&region=us-east-1&storageCompressed=false",
+  "content_hash": "e226d53fe103a899d96dc26d426b0055b041c65a0a8ca6b41db00d3b5a70dc92",
+  "raw_hash": "cc6adc3971b69f9697ffa11a3bd5db05087936606fcbaf3f0f269d768ae0f6b3",
+  "text_bytes": 4799,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Basic",
+      "price_raw": "$25.30",
+      "amount": 25.3,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Up to 1 TB storage",
+        "8-12 GiB total memory",
+        "Backups every 24h, retained for 1 day",
+        "1 availability zone",
+        "Export backups to your own cloud account",
+        "Expert support with 1 business day response time",
+        "Single sign-on authentication (SSO) using Google or Microsoft Social login",
+        "Multi-factor authentication (MFA)"
+      ]
+    },
+    {
+      "name": "Scale",
+      "price_raw": "$25.30",
+      "amount": 25.3,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Everything in Basic , plus:",
+        "Unlimited storage",
+        "Configurable memory",
+        "Compute-compute separation",
+        "Backups every 24h, retained for 1 day",
+        "Configurable backups",
+        "2+ availability zones",
+        "Expert support with 1 hour response time 24x7 for Severity 1 issues",
+        "S3 role-based access",
+        "Private networking",
+        "Automatic vertical scaling",
+        "Manual horizontal scaling"
+      ]
+    },
+    {
+      "name": "Enterprise",
+      "price_raw": "$25.30",
+      "amount": 25.3,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Everything in Scale , plus:",
+        "SAML Single sign-on authentication (SSO)",
+        "Private regions",
+        "Manual vertical scaling for custom profiles",
+        "Enterprise support with 30 min response time for Severity 1 issues",
+        "Named Lead Support Engineer",
+        "Transparent data encryption / CMEK",
+        "Scheduled upgrades",
+        "Consultative migrations guides",
+        "HIPAA and PCI compliance"
+      ]
+    },
+    {
+      "name": "Postgres managed by ClickHouse",
+      "price_raw": "$0.12",
+      "amount": 0.12,
+      "currency": "USD",
+      "period": "hour",
+      "features": []
+    }
+  ],
+  "tables": [],
+  "extract_errors": []
+}

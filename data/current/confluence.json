@@ -1,0 +1,25 @@
+{
+  "slug": "confluence",
+  "name": "Confluence",
+  "vendor": "Atlassian",
+  "category": "productivity",
+  "url": "https://www.atlassian.com/software/confluence/pricing",
+  "final_url": "https://www.atlassian.com/software/confluence/pricing",
+  "content_hash": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+  "raw_hash": "0f7a23856cd265d0d1dfccdb16664b8b95ba6bd0ba1bbbf9a2feecc2f547e293",
+  "text_bytes": 1,
+  "extractor": "jsonld",
+  "confidence": "low",
+  "plans": [
+    {
+      "name": "Free",
+      "price_raw": "0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    }
+  ],
+  "tables": [],
+  "extract_errors": []
+}

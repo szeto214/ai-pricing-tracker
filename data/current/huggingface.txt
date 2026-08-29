@@ -1,36 +1,4 @@
 Hugging Face
-Models
-Datasets
-Spaces
-Buckets
-new
-Docs
-Enterprise
-Pricing
-Website
-Tasks
-HuggingChat
-Collections
-Languages
-Organizations
-Community
-Blog
-Posts
-Daily Papers
-Hardware
-Learn
-Discord
-Forum
-GitHub
-Solutions
-Team & Enterprise
-Hugging Face PRO
-Enterprise Support
-Inference Providers
-Inference Endpoints
-Storage Buckets
-Log In
-Sign Up
 ✳ ⟡ · ◎ ✦ · ⟡ ✳ · ◎ ✧ · ⟡ ✳ → · ◎ ✦ ⟡ · ✳ ✧ · ◎ ⟡ ✳ ✳ ⟡ · ◎ ✦ · ⟡ ✳ ·
 ◎
 ✧ · ⟡ ✳ → · ◎ ✦ ⟡ · ✳ ✧ · ◎ ⟡ ✳ ✳ ⟡ · ◎ ✦ · ⟡ ✳ · ◎ ✧ · ⟡ ✳ → · ◎ ✦ ⟡ · ✳ ✧ · ◎ ⟡ ✳ ✳ ⟡ · ◎ ✦ · ⟡ ✳ · ◎ ✧ · ⟡ ✳ → · ◎ ✦ ⟡ ·
@@ -441,15 +409,6 @@ Boost your personal HF experience
 $9
 /month
 Get Pro
-10× private storage capacity
-2× public storage capacity
-20× included inference credits
-8× ZeroGPU quota and highest queue priority
-Host ZeroGPU, Gradio & Docker Spaces
-Spaces Dev Mode
-Personal blog publishing
-Dataset Viewer for private datasets
-Show your support with a PRO badge
 Team
 Most popular
 Instant setup for growing teams
@@ -457,31 +416,12 @@ $20
 /month
 per user
 Get Team (via credit card)
-SSO support (SAML & OIDC)
-Data location control with Storage Regions
-Detailed action reviews with Audit Logs
-Granular access control via Resource Groups
-Repository usage Analytics
-Advanced auth policies and repository visibility controls
-Centralized token control and approvals
-Dataset Viewer for private datasets
-Create Gradio & Docker Spaces, with advanced compute options
-+
-All organization members get ZeroGPU and Inference Providers PRO benefits
 Enterprise
 Custom onboarding and enterprise features
 $50
 /month
 per user
 Talk to sales
-+
-All benefits from the Team plan
-Highest storage, bandwidth, and API rate limits
-Automated user management with SCIM provisioning
-Advanced security and access controls
-Managed billing with annual commitments
-Legal and Compliance processes
-Dedicated support
 Need support to adopt the HF Hub in your organization?
 View our
 Enterprise Support
@@ -866,30 +806,3 @@ Get early access to upcoming features
 PRO
 PRO Badge
 Show your support with a PRO badge
-System theme
-Website
-Models
-Datasets
-Spaces
-Changelog
-Inference Endpoints
-HuggingChat
-Company
-About
-Brand assets
-Terms of service
-Privacy
-Careers
-Press
-Resources
-Learn
-Documentation
-Blog
-Forum
-Service Status
-Speed test
-Social
-GitHub
-Twitter
-LinkedIn
-Discord

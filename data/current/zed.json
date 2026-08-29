@@ -1,0 +1,65 @@
+{
+  "slug": "zed",
+  "name": "Zed",
+  "vendor": "Zed",
+  "category": "ai-coding",
+  "url": "https://zed.dev/pricing",
+  "final_url": "https://zed.dev/pricing",
+  "content_hash": "201fabd96aad91fdf1ee4b35b341362ad432ae2a61a13920c7ab5438d33b2cf0",
+  "raw_hash": "0c0c04a3f658b27a551393bc1cdb724df969e1794c1c46009bca27136bc1e112",
+  "text_bytes": 4886,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Personal",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Pro",
+      "price_raw": "$10",
+      "amount": 10.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Business",
+      "price_raw": "$30",
+      "amount": 30.0,
+      "currency": "USD",
+      "period": "seat",
+      "features": []
+    },
+    {
+      "name": "We offer a two week free trial of our Pro plan w",
+      "price_raw": "$20",
+      "amount": 20.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "What happens if I exceed Pro's $5 token credits?",
+      "price_raw": "$5",
+      "amount": 5.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Once you use up your included monthly credits, y",
+      "price_raw": "$10",
+      "amount": 10.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    }
+  ],
+  "tables": [],
+  "extract_errors": []
+}

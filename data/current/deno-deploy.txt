@@ -1,0 +1,577 @@
+Skip to main content
+Introducing Claw Patrol: an open-source security firewall for agents
+Read the post
+Dismiss
+Deno Deploy pricing
+Transparent pricing
+that scales with your needs
+Whether you're shipping a hobby project or an international SaaS platform, Deno Deploy has a plan to fit your needs.
+Pricing shown covers all Deno Deploy products and usage, including
+Deno Sandbox
+and
+Deno Subhosting
+.
+— Compare Deno Deploy plans —
+Features
+Free
+$0
+/month
+For personal use and smaller projects
+Start free
+Pro
+$20
+/month
+For team collaboration with advanced features
+Go Pro
+Builder
+$200
+/month
+For Subhosting users and growing platforms
+Start Building
+Enterprise
+Custom
+Maximum support, security, and performance
+Contact us
+Applications
+Requests/month
+Allowed inbound HTTP requests to your deployments per month
+<count>
+<count>
+(then $2/M)
+<count>
+(then $2/M)
+Custom
+Egress Bandwidth
+Monthly limit on data egress across all your deployments. Inbound request data does not count against this number.
+20GiB
+200GiB
+(then $0.20/GiB)
+2,000GiB
+(then $0.20/GiB)
+Custom
+Custom domains
+Total number of domains that can be assigned to active deployments
+5
+100
+1,000
+Unlimited
+Wildcard subdomains
+Assign all requests to subdomains to a particular deployment
+Not included
+Included
+Included
+Included
+Active CPU
+You're only billed for CPU while your app is actively running code. CPU isn't consumed while your app is waiting for incoming requests or blocked on network I/O.
+10 hr
+50 hr
+(then $0.10/hr)
+500 hr
+(then $0.10/hr)
+Custom
+Memory time
+You're billed for 768 MB of memory for each second your app is loaded in memory - the default allocation. Pro and Builder can configure a higher app/build memory limit, billed at that higher amount. Idle apps automatically shut down after ~20-30 seconds, so you're not billed for memory while scaled to zero.
+150 GiB-hr
+750 GiB-hr
+(then $0.025/GiB-hr)
+7,500 GiB-hr
+(then $0.025/GiB-hr)
+Custom
+Revision storage
+Storage used by your app's deployment revisions - each revision's built image and its assets. Older revisions are automatically removed according to your retention settings.
+10 GiB
+50 GiB
+(then $0.08/GiB-mo)
+500 GiB
+(then $0.08/GiB-mo)
+Custom
+Apps
+Total number of deployments that can be active at any given time in your organization
+10
+50
+10,000
+Custom
+Concurrent builds
+Number of builds that can run at the same time within your organization
+1
+3
+20
+Custom
+Builds per hour
+15
+60
+250
+Custom
+Sandboxes
+Sandboxes
+Run untrusted or generated code in isolated microVMs. Sandbox compute bills through the same CPU, memory, and egress meters at your plan's rates; only availability, concurrency, and volume storage differ per plan.
+Not included
+Included
+Included
+Included
+Concurrent sandboxes
+Number of sandboxes that can run at the same time within your organization, per region.
+Not included
+3
+20
+Custom
+Volume storage
+Persistent block-storage volumes attachable to sandboxes.
+Not included
+5 GiB
+(then $0.20/GiB-mo)
+50 GiB
+(then $0.20/GiB-mo)
+Custom
+KV
+KV storage
+1 GiB
+5 GiB
+(then $0.75/GiB)
+10 GiB
+(then $0.75/GiB)
+Custom
+KV read units/mo (4KiB)
+A "read unit" is an invocation of a Deno KV command which fetches data, like "get"
+1,000,000
+5,000,000
+(then $1/M)
+25,000,000
+(then $1/M)
+Custom
+KV write units/mo (1KiB)
+A "write unit" is an invocation of a Deno KV command which updates data, like "set"
+500,000
+2,500,000
+(then $2.50/M)
+12,500,000
+(then $2.50/M)
+Custom
+Observability
+Log streaming API
+Get real-time logs from your deployments
+Included
+Included
+Included
+Included
+Logs & traces retention
+How far back you can query your apps' runtime logs and traces.
+1 Day
+1 Week
+1 Week
+Custom
+App metrics
+Requests, CPU, memory, network and KV usage per app, with this much history in the dashboard and the API.
+1 Month
+3 Months
+3 Months
+Custom
+Teams
+Team members
+Number of authenticated Deno Deploy users who can manage resources within an organization
+3
+10
+25
+Custom
+Support
+Community support
+Get support from the Deno community via Discord
+Included
+Included
+Included
+Included
+Email support
+Not included
+Included
+Included
+Included
+Email support SLA
+Not included
+Not included
+Not included
+Included
+Onboarding support
+Receive hands-on expert guidance from our engineers as you onboard to Deno Deploy
+Not included
+Not included
+Not included
+Included
+Reliability SLA
+Not included
+Not included
+Not included
+99.95%
+Compliance
+SOC2 Type 1
+Not included
+Not included
+Not included
+Included
+DPA
+Not included
+Not included
+Not included
+Included
+Free
+$0 /month
+For personal use and smaller projects
+Applications
+Requests/month:
+Allowed inbound HTTP requests to your deployments per month
+<count>
+Egress Bandwidth:
+Monthly limit on data egress across all your deployments. Inbound request data does not count against this number.
+20GiB
+Custom domains:
+Total number of domains that can be assigned to active deployments
+5
+Wildcard subdomains:
+Assign all requests to subdomains to a particular deployment
+No
+Active CPU:
+You're only billed for CPU while your app is actively running code. CPU isn't consumed while your app is waiting for incoming requests or blocked on network I/O.
+10 hr
+Memory time:
+You're billed for 768 MB of memory for each second your app is loaded in memory - the default allocation. Pro and Builder can configure a higher app/build memory limit, billed at that higher amount. Idle apps automatically shut down after ~20-30 seconds, so you're not billed for memory while scaled to zero.
+150 GiB-hr
+Revision storage:
+Storage used by your app's deployment revisions - each revision's built image and its assets. Older revisions are automatically removed according to your retention settings.
+10 GiB
+Apps:
+Total number of deployments that can be active at any given time in your organization
+10
+Concurrent builds:
+Number of builds that can run at the same time within your organization
+1
+Builds per hour:
+15
+Sandboxes
+Sandboxes:
+Run untrusted or generated code in isolated microVMs. Sandbox compute bills through the same CPU, memory, and egress meters at your plan's rates; only availability, concurrency, and volume storage differ per plan.
+No
+Concurrent sandboxes:
+Number of sandboxes that can run at the same time within your organization, per region.
+No
+Volume storage:
+Persistent block-storage volumes attachable to sandboxes.
+No
+KV
+KV storage:
+1 GiB
+KV read units/mo (4KiB):
+A "read unit" is an invocation of a Deno KV command which fetches data, like "get"
+1,000,000
+KV write units/mo (1KiB):
+A "write unit" is an invocation of a Deno KV command which updates data, like "set"
+500,000
+Observability
+Log streaming API:
+Get real-time logs from your deployments
+Yes
+Logs & traces retention:
+How far back you can query your apps' runtime logs and traces.
+1 Day
+App metrics:
+Requests, CPU, memory, network and KV usage per app, with this much history in the dashboard and the API.
+1 Month
+Teams
+Team members:
+Number of authenticated Deno Deploy users who can manage resources within an organization
+3
+Support
+Community support:
+Get support from the Deno community via Discord
+Yes
+Email support:
+No
+Email support SLA:
+No
+Onboarding support:
+Receive hands-on expert guidance from our engineers as you onboard to Deno Deploy
+No
+Reliability SLA:
+No
+Compliance
+SOC2 Type 1:
+No
+DPA:
+No
+Start free
+Pro
+$20 /month
+For team collaboration with advanced features
+Applications
+Requests/month:
+Allowed inbound HTTP requests to your deployments per month
+<count>
+(then $2/M)
+Egress Bandwidth:
+Monthly limit on data egress across all your deployments. Inbound request data does not count against this number.
+200GiB
+(then $0.20/GiB)
+Custom domains:
+Total number of domains that can be assigned to active deployments
+100
+Wildcard subdomains:
+Assign all requests to subdomains to a particular deployment
+Yes
+Active CPU:
+You're only billed for CPU while your app is actively running code. CPU isn't consumed while your app is waiting for incoming requests or blocked on network I/O.
+50 hr
+(then $0.10/hr)
+Memory time:
+You're billed for 768 MB of memory for each second your app is loaded in memory - the default allocation. Pro and Builder can configure a higher app/build memory limit, billed at that higher amount. Idle apps automatically shut down after ~20-30 seconds, so you're not billed for memory while scaled to zero.
+750 GiB-hr
+(then $0.025/GiB-hr)
+Revision storage:
+Storage used by your app's deployment revisions - each revision's built image and its assets. Older revisions are automatically removed according to your retention settings.
+50 GiB
+(then $0.08/GiB-mo)
+Apps:
+Total number of deployments that can be active at any given time in your organization
+50
+Concurrent builds:
+Number of builds that can run at the same time within your organization
+3
+Builds per hour:
+60
+Sandboxes
+Sandboxes:
+Run untrusted or generated code in isolated microVMs. Sandbox compute bills through the same CPU, memory, and egress meters at your plan's rates; only availability, concurrency, and volume storage differ per plan.
+Yes
+Concurrent sandboxes:
+Number of sandboxes that can run at the same time within your organization, per region.
+3
+Volume storage:
+Persistent block-storage volumes attachable to sandboxes.
+5 GiB
+(then $0.20/GiB-mo)
+KV
+KV storage:
+5 GiB
+(then $0.75/GiB)
+KV read units/mo (4KiB):
+A "read unit" is an invocation of a Deno KV command which fetches data, like "get"
+5,000,000
+(then $1/M)
+KV write units/mo (1KiB):
+A "write unit" is an invocation of a Deno KV command which updates data, like "set"
+2,500,000
+(then $2.50/M)
+Observability
+Log streaming API:
+Get real-time logs from your deployments
+Yes
+Logs & traces retention:
+How far back you can query your apps' runtime logs and traces.
+1 Week
+App metrics:
+Requests, CPU, memory, network and KV usage per app, with this much history in the dashboard and the API.
+3 Months
+Teams
+Team members:
+Number of authenticated Deno Deploy users who can manage resources within an organization
+10
+Support
+Community support:
+Get support from the Deno community via Discord
+Yes
+Email support:
+Yes
+Email support SLA:
+No
+Onboarding support:
+Receive hands-on expert guidance from our engineers as you onboard to Deno Deploy
+No
+Reliability SLA:
+No
+Compliance
+SOC2 Type 1:
+No
+DPA:
+No
+Go Pro
+Builder
+$200 /month
+For Subhosting users and growing platforms
+Applications
+Requests/month:
+Allowed inbound HTTP requests to your deployments per month
+<count>
+(then $2/M)
+Egress Bandwidth:
+Monthly limit on data egress across all your deployments. Inbound request data does not count against this number.
+2,000GiB
+(then $0.20/GiB)
+Custom domains:
+Total number of domains that can be assigned to active deployments
+1,000
+Wildcard subdomains:
+Assign all requests to subdomains to a particular deployment
+Yes
+Active CPU:
+You're only billed for CPU while your app is actively running code. CPU isn't consumed while your app is waiting for incoming requests or blocked on network I/O.
+500 hr
+(then $0.10/hr)
+Memory time:
+You're billed for 768 MB of memory for each second your app is loaded in memory - the default allocation. Pro and Builder can configure a higher app/build memory limit, billed at that higher amount. Idle apps automatically shut down after ~20-30 seconds, so you're not billed for memory while scaled to zero.
+7,500 GiB-hr
+(then $0.025/GiB-hr)
+Revision storage:
+Storage used by your app's deployment revisions - each revision's built image and its assets. Older revisions are automatically removed according to your retention settings.
+500 GiB
+(then $0.08/GiB-mo)
+Apps:
+Total number of deployments that can be active at any given time in your organization
+10,000
+Concurrent builds:
+Number of builds that can run at the same time within your organization
+20
+Builds per hour:
+250
+Sandboxes
+Sandboxes:
+Run untrusted or generated code in isolated microVMs. Sandbox compute bills through the same CPU, memory, and egress meters at your plan's rates; only availability, concurrency, and volume storage differ per plan.
+Yes
+Concurrent sandboxes:
+Number of sandboxes that can run at the same time within your organization, per region.
+20
+Volume storage:
+Persistent block-storage volumes attachable to sandboxes.
+50 GiB
+(then $0.20/GiB-mo)
+KV
+KV storage:
+10 GiB
+(then $0.75/GiB)
+KV read units/mo (4KiB):
+A "read unit" is an invocation of a Deno KV command which fetches data, like "get"
+25,000,000
+(then $1/M)
+KV write units/mo (1KiB):
+A "write unit" is an invocation of a Deno KV command which updates data, like "set"
+12,500,000
+(then $2.50/M)
+Observability
+Log streaming API:
+Get real-time logs from your deployments
+Yes
+Logs & traces retention:
+How far back you can query your apps' runtime logs and traces.
+1 Week
+App metrics:
+Requests, CPU, memory, network and KV usage per app, with this much history in the dashboard and the API.
+3 Months
+Teams
+Team members:
+Number of authenticated Deno Deploy users who can manage resources within an organization
+25
+Support
+Community support:
+Get support from the Deno community via Discord
+Yes
+Email support:
+Yes
+Email support SLA:
+No
+Onboarding support:
+Receive hands-on expert guidance from our engineers as you onboard to Deno Deploy
+No
+Reliability SLA:
+No
+Compliance
+SOC2 Type 1:
+No
+DPA:
+No
+Start Building
+Enterprise
+Custom
+Maximum support, security, and performance
+Applications
+Requests/month:
+Allowed inbound HTTP requests to your deployments per month
+Custom
+Egress Bandwidth:
+Monthly limit on data egress across all your deployments. Inbound request data does not count against this number.
+Custom
+Custom domains:
+Total number of domains that can be assigned to active deployments
+Unlimited
+Wildcard subdomains:
+Assign all requests to subdomains to a particular deployment
+Yes
+Active CPU:
+You're only billed for CPU while your app is actively running code. CPU isn't consumed while your app is waiting for incoming requests or blocked on network I/O.
+Custom
+Memory time:
+You're billed for 768 MB of memory for each second your app is loaded in memory - the default allocation. Pro and Builder can configure a higher app/build memory limit, billed at that higher amount. Idle apps automatically shut down after ~20-30 seconds, so you're not billed for memory while scaled to zero.
+Custom
+Revision storage:
+Storage used by your app's deployment revisions - each revision's built image and its assets. Older revisions are automatically removed according to your retention settings.
+Custom
+Apps:
+Total number of deployments that can be active at any given time in your organization
+Custom
+Concurrent builds:
+Number of builds that can run at the same time within your organization
+Custom
+Builds per hour:
+Custom
+Sandboxes
+Sandboxes:
+Run untrusted or generated code in isolated microVMs. Sandbox compute bills through the same CPU, memory, and egress meters at your plan's rates; only availability, concurrency, and volume storage differ per plan.
+Yes
+Concurrent sandboxes:
+Number of sandboxes that can run at the same time within your organization, per region.
+Custom
+Volume storage:
+Persistent block-storage volumes attachable to sandboxes.
+Custom
+KV
+KV storage:
+Custom
+KV read units/mo (4KiB):
+A "read unit" is an invocation of a Deno KV command which fetches data, like "get"
+Custom
+KV write units/mo (1KiB):
+A "write unit" is an invocation of a Deno KV command which updates data, like "set"
+Custom
+Observability
+Log streaming API:
+Get real-time logs from your deployments
+Yes
+Logs & traces retention:
+How far back you can query your apps' runtime logs and traces.
+Custom
+App metrics:
+Requests, CPU, memory, network and KV usage per app, with this much history in the dashboard and the API.
+Custom
+Teams
+Team members:
+Number of authenticated Deno Deploy users who can manage resources within an organization
+Custom
+Support
+Community support:
+Get support from the Deno community via Discord
+Yes
+Email support:
+Yes
+Email support SLA:
+Yes
+Onboarding support:
+Receive hands-on expert guidance from our engineers as you onboard to Deno Deploy
+Yes
+Reliability SLA:
+99.95%
+Compliance
+SOC2 Type 1:
+Yes
+DPA:
+Yes
+Contact us
+*Additional pricing applies for Deno Sandboxes. See the
+Deno Sandbox page
+for details.
+Learn more about Deno Deploy
+Deno Deploy docs

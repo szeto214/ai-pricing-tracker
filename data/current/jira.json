@@ -1,0 +1,41 @@
+{
+  "slug": "jira",
+  "name": "Jira",
+  "vendor": "Atlassian",
+  "category": "productivity",
+  "url": "https://www.atlassian.com/software/jira/pricing",
+  "final_url": "https://www.atlassian.com/software/jira/pricing",
+  "content_hash": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+  "raw_hash": "694770f758956f125c8cfe8e68bce2c8f0cff61433fb13e6344d3d3ae212da3f",
+  "text_bytes": 1,
+  "extractor": "jsonld",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Jira Free",
+      "price_raw": "0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "per user/month",
+      "features": []
+    },
+    {
+      "name": "Jira Standard",
+      "price_raw": "7.91",
+      "amount": 7.91,
+      "currency": "USD",
+      "period": "{'@type': 'quantitativevalue', 'value': '1', 'unitcode': 'mon'}",
+      "features": []
+    },
+    {
+      "name": "Jira Premium",
+      "price_raw": "14.54",
+      "amount": 14.54,
+      "currency": "USD",
+      "period": "{'@type': 'quantitativevalue', 'value': '1', 'unitcode': 'mon'}",
+      "features": []
+    }
+  ],
+  "tables": [],
+  "extract_errors": []
+}

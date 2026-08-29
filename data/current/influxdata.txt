@@ -1,0 +1,180 @@
+Skip to content
+Pricing Details
+From usage-based to annual subscriptions,
+we have plans designed for every team.
+InfluxDB Cloud Offerings
+Serverless
+Dedicated
+Free Plan
+Usage-Based Plan
+Annual Plans
+Dedicated
+Rate-limited plan for quickly and easily learning InfluxDB and prototyping. Single click upgrade to Usage-Based Plan.
+For more extensive testing and development and smaller or early stage production workloads. Pay only for what you use—no minimums or long-term commitment.
+Committed use plans for production or high-volume workloads offering scale discounts, elevated support, and enhanced feature access.
+Single-tenant environment for high-volume production workloads offering workload isolation, private networking, elevated support, and enhanced feature access.
+General
+Fully managed
+Service Environment
+Serverless, Multi-Tenant
+Serverless, Multi-Tenant
+Serverless, Multi-Tenant
+Single-Tenant
+Uptime SLA
+—
+—
+Pricing
+Free
+Volume of data in: $0.0025/MB
+Query count: $0.012 per 100 query executions
+Storage (total disk usage): $0.002/GB-hour
+Volume of data out: $0.09/GB
+Usage-based, committed scale discounts
+Annual subscription based on dedicated instance CPU / RAM
+Scale
+Writes
+5MB/5 mins
+300MB/5 mins
+Contact Sales
+No applied service quota
+Queries (Data Read)
+300MB/5 mins
+3000MB/5 mins
+Contact Sales
+No applied service quota
+Data Retention
+30 days
+Unlimited
+Unlimited
+Unlimited
+Cardinality
+Contact Sales
+to scale for high-cardinality datasets
+Contact Sales
+to scale for high-cardinality datasets
+Contact Sales
+No applied service quota
+Database (Buckets)
+2
+Unlimited
+Unlimited
+Unlimited
+Notification Rules
+2 Notification Rules
+Unlimited
+Unlimited
+Unlimited
+Separate Organizations Allowed Per Account
+Ability to create multiple organizations under the same parent account to separate data for different environments and teams
+1
+3
+20
+N/A
+Cloud
+Cloud Marketplace
+—
+AWS
+,
+Google Cloud
+,
+Microsoft Azure
+Private offers available
+Contact Sales
+Private offers available
+Contact Sales
+Security
+End-to-end encryption
+SAML/SSO
+—
+—
+Available as an add-on
+Available as an add-on
+Private networking
+—
+—
+—
+Available as an add-on
+Compliance
+SOC 2 Type 2
+ISO 27001
+InfluxDB Cloud Support
+Free Plan
+Usage-Based Plan
+Annual Plans
+Dedicated
+Community Forum
+Slack
+Cloud Infrastructure Monitored 24x7 (1)
+Uptime SLA
+Not available
+Not available
+InfluxData Help Desk Support (2)
+Not available
+Contact Sales
+Dedicated Customer Success
+Not available
+Not available
+With qualifying annual plan
+With qualifying plan
+Professional Services
+Not available
+Not available
+Contact Sales
+Contact Sales
+(1) Does not include support for questions about using, optimizing, or troubleshooting InfluxDB itself.
+(2) Provides access to support engineers to help troubleshoot issues and answer questions about using and optimizing InfluxDB.
+Documentation
+Access docs and learn more about InfluxData products.
+Learn More
+Start building now
+Get started in minutes for free. Upgrade anytime to get $250 in credit for your project.
+Start Now
+Request a Proof of Concept
+Product & Solutions
+InfluxDB
+InfluxDB 3 Enterprise
+InfluxDB Cloud Serverless
+InfluxDB Cloud Dedicated
+Telegraf Enterprise
+Integrations
+Data Lake / Warehouse
+Data Collector
+Pricing
+Use Cases
+Time Series Data
+Time Series Database
+Time Series Forecasting
+Data Warehousing
+Network Monitoring
+Developers
+Guides
+Blog
+Customers
+Support
+Webinars
+Documentation
+Events & Live Training
+InfluxDB University
+Community Forum
+InfluxDB 3 Core (OSS)
+Telegraf
+AWS
+Product Integrations
+Telegraf Inputs
+Telegraf Outputs
+Glossary
+Company
+About
+Careers
+Partners
+Newsroom
+Contact Us
+Customers
+548 Market St, PMB 77953
+San Francisco, California 94104
+Follow Us
+© 2026 InfluxData Inc. All Rights Reserved.
+Legal
+Security
+Cookie Policy
+Comparison

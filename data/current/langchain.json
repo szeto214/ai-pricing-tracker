@@ -5,9 +5,9 @@
   "category": "ai-api",
   "url": "https://www.langchain.com/pricing",
   "final_url": "https://www.langchain.com/pricing",
-  "content_hash": "a2854bdb31b097c68fc1964e1c40a8f4c18238fb98992d09a20b81e7c611a805",
-  "raw_hash": "8d09d02001ae5054a4379b54b78cadeacb5f3ef304697d3e2ff8605e9c5a7a92",
-  "text_bytes": 17195,
+  "content_hash": "3010d297e0943b665dc4aafbfd54eb253323ab4e8b925eb7123ddb3f2bf3ad14",
+  "raw_hash": "fd7c9c312feee9a1f7448b39ef65aaf8f259efa3e03339215d561d53b92f0c2a",
+  "text_bytes": 15820,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

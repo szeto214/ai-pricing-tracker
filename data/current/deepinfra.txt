@@ -4,38 +4,6 @@ Reject
 DeepInfra raises $107M Series B to scale the inference cloud —
 read the announcement
 Models
-By Category
-Automatic Speech Recognition
-Embeddings
-Reranker
-Text Generation
-Text To Image
-Text To Music
-Text To Speech
-Text To Video
-World Model
-Zero Shot Image Classification
-View all models
-By Family
-/Claude
-/DeepSeek
-/Flux
-/Gemini
-/Kimi
-/Llama
-/Mistral
-/Nemotron
-/Qwen
-Docs
-Pricing
-GPUs
-Chat
-DeepStart
-DeepCluster
-Blog
-Contact Sales
-Log In
-Models
 Automatic Speech Recognition
 Embeddings
 Reranker
@@ -1164,6 +1132,9 @@ DeepGPT
 Latest Models
 zai-org
 /
+GLM-5.3
+zai-org
+/
 GLM-5.3-Flash
 ibm-granite
 /
@@ -1174,25 +1145,22 @@ granite-4.2-8b
 ibm-granite
 /
 granite-4.2-3b
-Wan-AI
-/
-Wan3.0-Video
 Featured Models
-moonshotai
-/
-Kimi-K3
 zai-org
 /
-GLM-5.1
+GLM-5.3-Flash
 moonshotai
 /
 Kimi-K2.7-Code
+moonshotai
+/
+Kimi-K2.5
 google
 /
-gemma-4-26B-A4B-it
-nvidia
+gemma-4-31B-it
+deepseek-ai
 /
-NVIDIA-Nemotron-3-Super-120B-A12B
+DeepSeek-V4-Pro
 © 2026 DeepInfra. All rights reserved.
 Privacy Policy
 Terms of Service

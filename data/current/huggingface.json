@@ -5,9 +5,9 @@
   "category": "ai-api",
   "url": "https://huggingface.co/pricing",
   "final_url": "https://huggingface.co/pricing",
-  "content_hash": "1e59ae416f772c019e7ec1112ca9106afca17cc65ead143e4b9280262a4c3341",
-  "raw_hash": "5dde424cf78ea23ee9498e74551b3297092bb5fa97f16728eb4cd7d953847a94",
-  "text_bytes": 23438,
+  "content_hash": "ef0e0f6802a68a32c390e691eaeff8d82d6febe49b14bf36bffe35c12e6e13b1",
+  "raw_hash": "5eefcd742d24dcf73a1950c2f3c069fb2177061f78603eadc74f9569859f2204",
+  "text_bytes": 21861,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -17,17 +17,7 @@
       "amount": 9.0,
       "currency": "USD",
       "period": "month",
-      "features": [
-        "10× private storage capacity",
-        "2× public storage capacity",
-        "20× included inference credits",
-        "8× ZeroGPU quota and highest queue priority",
-        "Host ZeroGPU, Gradio & Docker Spaces",
-        "Spaces Dev Mode",
-        "Personal blog publishing",
-        "Dataset Viewer for private datasets",
-        "Show your support with a PRO badge"
-      ]
+      "features": []
     },
     {
       "name": "Team",
@@ -35,18 +25,7 @@
       "amount": 20.0,
       "currency": "USD",
       "period": "month",
-      "features": [
-        "SSO support (SAML & OIDC)",
-        "Data location control with Storage Regions",
-        "Detailed action reviews with Audit Logs",
-        "Granular access control via Resource Groups",
-        "Repository usage Analytics",
-        "Advanced auth policies and repository visibility controls",
-        "Centralized token control and approvals",
-        "Dataset Viewer for private datasets",
-        "Create Gradio & Docker Spaces, with advanced compute options",
-        "+ All organization members get ZeroGPU and Inference Providers PRO benefits"
-      ]
+      "features": []
     },
     {
       "name": "Enterprise",
@@ -54,15 +33,7 @@
       "amount": 50.0,
       "currency": "USD",
       "period": "month",
-      "features": [
-        "+ All benefits from the Team plan",
-        "Highest storage, bandwidth, and API rate limits",
-        "Automated user management with SCIM provisioning",
-        "Advanced security and access controls",
-        "Managed billing with annual commitments",
-        "Legal and Compliance processes",
-        "Dedicated support"
-      ]
+      "features": []
     },
     {
       "name": "Transparent, volume-based pricing",

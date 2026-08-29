@@ -5,9 +5,9 @@
   "category": "observability",
   "url": "https://betterstack.com/pricing",
   "final_url": "https://betterstack.com/pricing",
-  "content_hash": "2b2c3615d46e6bfceb267911f989cb0b8b4802d962183c24c894eda91d8ecee1",
-  "raw_hash": "80529693af576add29b160e2a01baa58c717b662f78db0ccbbf7ed0b59e309b3",
-  "text_bytes": 19010,
+  "content_hash": "7a000dbfe37789bc820eba9c01d8f4c65add652f25ed97099485a6b2a59d3dfa",
+  "raw_hash": "4a353031f2ddadedbf2fa0528066d13f164280ea18e4e5e0c956d3a909e3ee13",
+  "text_bytes": 16746,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

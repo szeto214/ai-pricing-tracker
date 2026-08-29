@@ -1,0 +1,174 @@
+{
+  "slug": "paperspace",
+  "name": "Paperspace",
+  "vendor": "DigitalOcean",
+  "category": "gpu-rental",
+  "url": "https://www.paperspace.com/pricing",
+  "final_url": "https://www.paperspace.com/pricing",
+  "content_hash": "a1da48736d0011d4a1880832aa8e080c635859c57c346681dec62b4e6d5c7ed1",
+  "raw_hash": "e368beda1757f45df0676d81e3a4150862bcbc732fec4183ded2a9e02d000144",
+  "text_bytes": 13531,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Free",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "T0",
+      "price_raw": "$ 0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "hour",
+      "features": [
+        "Low Instance Types",
+        "Public Notebooks",
+        "10GB Persistent Storage included ($0.29/GB overage)",
+        "Auto-shutdown (12 hour limit)",
+        "Total Notebooks: 10",
+        "Running Notebook limit: 1"
+      ]
+    },
+    {
+      "name": "T1",
+      "price_raw": "$ 12",
+      "amount": 12.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Low - Mid Instance Types",
+        "Private Notebooks",
+        "500GB Persistent Storage included ($0.29/GB overage)",
+        "Auto-shutdown (configurable)",
+        "Total Notebooks: 100",
+        "Running Notebook limit: 10"
+      ]
+    },
+    {
+      "name": "How does pricing work?",
+      "price_raw": "$0.29",
+      "amount": 0.29,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Multi GPU",
+      "price_raw": "$2.24",
+      "amount": 2.24,
+      "currency": "USD",
+      "period": "hour",
+      "features": [
+        "32 GB GPU",
+        "60 GB RAM",
+        "16 vCPU",
+        "60 GB GPU",
+        "48 GB RAM",
+        "16 vCPU"
+      ]
+    },
+    {
+      "name": "GPU+",
+      "price_raw": "$ 298",
+      "amount": 298.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "8 vCPU",
+        "30 GB RAM",
+        "8 GB GPU DEDICATED Starts at 50GB SSD + Windows License Included"
+      ]
+    },
+    {
+      "name": "P5000",
+      "price_raw": "$ 456",
+      "amount": 456.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "8 vCPU",
+        "30 GB RAM",
+        "16 GB GPU DEDICATED Starts at 50GB SSD + Windows License Included"
+      ]
+    },
+    {
+      "name": "P6000",
+      "price_raw": "$ 642",
+      "amount": 642.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "8 vCPU",
+        "30 GB RAM",
+        "24 GB GPU DEDICATED Starts at 50GB SSD + Windows License Included"
+      ]
+    },
+    {
+      "name": "V100",
+      "price_raw": "$ 134",
+      "amount": 134.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "8 vCPU",
+        "30 GB RAM",
+        "16 GB GPU DEDICATED Starts at 50GB SSD"
+      ]
+    },
+    {
+      "name": "Air",
+      "price_raw": "$ 22",
+      "amount": 22.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "2 vCPU",
+        "4 GB RAM",
+        "512 MB GPU Starts at 50GB SSD + Windows License Included"
+      ]
+    },
+    {
+      "name": "Standard",
+      "price_raw": "$ 35",
+      "amount": 35.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "4 vCPU",
+        "8 GB RAM",
+        "512 MB GPU Starts at 50GB SSD + Windows License Included"
+      ]
+    },
+    {
+      "name": "Advanced",
+      "price_raw": "$ 65",
+      "amount": 65.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "6 vCPU",
+        "16 GB RAM",
+        "2 GB GPU Starts at 50GB SSD + Windows License Included"
+      ]
+    },
+    {
+      "name": "Pro",
+      "price_raw": "$ 120",
+      "amount": 120.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "8 vCPU",
+        "32 GB RAM",
+        "4 GB GPU Starts at 50GB SSD + Windows License Included"
+      ]
+    }
+  ],
+  "tables": [],
+  "extract_errors": []
+}

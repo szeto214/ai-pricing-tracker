@@ -1,0 +1,33 @@
+{
+  "slug": "bubble",
+  "name": "Bubble",
+  "vendor": "Bubble",
+  "category": "automation",
+  "url": "https://bubble.io/pricing",
+  "final_url": "https://bubble.io/pricing",
+  "content_hash": "4463151b0d630230226f6aec1efebe008b76318383a4dc45e80602f0f23437a5",
+  "raw_hash": "0291953d6e3b9f4488ea25a5bc8c1198344d94fe383a97183bbcc3fe1c8664d3",
+  "text_bytes": 7272,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Free",
+      "price_raw": "$ 0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "What are the add-ons I can purchase separate fro",
+      "price_raw": "$3",
+      "amount": 3.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    }
+  ],
+  "tables": [],
+  "extract_errors": []
+}

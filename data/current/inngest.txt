@@ -1,0 +1,262 @@
+Build now: Outcome-based scoring for your workflow
+→
+Sign in
+Start free
+Reliable workflows. Invisible infra.
+Scalable pricing.
+Hobby
+For individual developers and small projects getting started with durable execution.
+$0/mo
+No credit card required
+Get started for Free
+50k
+executions
+5
+concurrent steps
+500 MB
+span data ingested
+<count>
+scores
+500k
+events ingested
+100k
+queue depth
+50
+realtime connections
+Basic tracing, metrics, and alerts
+POPULAR
+POPULAR
+Pro
+For growing teams building production-ready workflows with increased scale and reliability.
+Starting at
+$99/mo
+Get started for Free
+<count>
+executions included
+Pay as you go up to 20M
+100+
+concurrent steps
+5 GB
+span data ingested
+<count>
+scores
+<count>
+events ingested
+<count>
+queue depth
+1000
+realtime connections
+Granular tracing, metrics, alerts + 7 day trace retention
+Increased throughput
+Enterprise
+For organizations running critical workflows at scale with advanced security, support, and customization.
+Scalable Pricing
+Contact us to learn more & request a demo
+Contact Us
+Custom
+executions
+Custom
+concurrent steps
+Custom
+span data ingested
+Custom
+scores
+Custom
+events ingested
+Custom
+queue depth
+Custom
+realtime connections
+Advanced tracing, metrics, alerts + 90 day trace retention
+Dedicated Slack channel
+SAML, RBAC, audit trails
+Which plan is right for me?
+Use the pricing calculator to see which plan is the best option for you.
+PRICING CALCULATOR
+Total executions per month
+(
+30,000
+runs ×
+2
+steps per run) +
+30,000
+runs =
+90,000
+executions
+90,000
+Number of runs
+30,000
+Average number of steps per run
+2
+Number of users
+Step concurrency
+Number of workers
+HOBBY
+Recommended Plan
+For individual developers and small projects getting started with durable execution.
+$0
+/mo
+No credit card required
+5 concurrent steps
+500 MB span data
+10K scores
+500K events ingested
+Get started for Free
+Plan features
+Hobby
+Get Started
+Pro
+Start Building
+Enterprise
+Contact Us
+Plan Comparison
+Base price
+$0
+$99 /mo
+Contact us
+Executions
+A single durable function run or step execution
+50k /mo included
+1M executions included
+Pay as you go up to 20M
+Custom
+Concurrent steps
+Process steps in parallel while smoothing load
+5 included
+100 included
+then $25 per 25
+500 included
+Users
+Develop with your entire team
+3
+15
+then $10/user
+50
+Workers
+Low latency always-connected workers
+3
+20
+then $10 per 10 workers
+Custom
+Serverless workers
+Serverless endpoints for your apps
+Unlimited
+Unlimited
+Unlimited
+Dedicated slack channel
+Direct P0 support from our team
+HIPAA
+BAAs for healthcare compliance
+Add-on
+Events
+Events
+Received/processed
+500k/mo included
+5m/mo included
+then $0.5 per 1m
+Custom
+Queue depth
+Maximum events queued awaiting execution
+100k included
+1m included
+Custom
+Size
+Size of a single event
+256 KiB
+3 MiB
+Custom
+Batch capacity
+Number of events in a single batch
+5
+100
+Custom
+Batch timeout
+Time to wait for a batch to be full
+30 seconds
+5 minutes
+Custom
+Realtime
+Connections
+50
+1000
+1000
+Messages
+250k per day
+1m per day
+1m per day
+Observability
+Metrics granularity
+Real-time function metrics
+30 minutes
+15 minutes
+1 minute
+Trace and log history
+Tracing for every function run
+24 hours
+7 days
+90 days
+Span data ingested
+Trace span data ingested for observability
+500 MB included
+5 GB included
+then $3/GB
+Custom
+Scores
+Evaluation scores ingested for observability
+10K included
+50K included
+then $1.50 per 1K
+Custom
+Trace and log exports
+Push traces and logs to other systems
+Contact us
+Advanced observability
+Integration with Datadog, etc
+$300
+Trusted in the
+Big Leagues
+Deployed within
+1 week
+Read Customer Story
+Increased processing by
+50x
+Read Customer Story
+Solved
+Bi-directional synchronization
+Read Customer Story
+How it works
+See Docs
+01
+Write your function with Steps
+Wrap your existing code in step.run(). Each step automatically handles retries, state, and failure recovery. No refactoring, no new patterns to learn — just wrap and go.
+02
+Connect Inngest with one command
+Run npx inngest-cli dev locally. Inngest discovers your functions instantly and gives you a real-time dev server with traces, logs, and a UI — zero config.
+03
+Deploy & forget the infra
+Push your code. Inngest handles the orchestration — retries, concurrency, throttling, scheduling, and observability — all without workers or queues on your end.
+01
+Write your function with Steps
+Wrap your existing code in step.run(). Each step automatically handles retries, state, and failure recovery. No refactoring, no new patterns to learn — just wrap and go.
+02
+Connect Inngest with one command
+Run npx inngest-cli dev locally. Inngest discovers your functions instantly and gives you a real-time dev server with traces, logs, and a UI — zero config.
+03
+Deploy & forget the infra
+Push your code. Inngest handles the orchestration — retries, concurrency, throttling, scheduling, and observability — all without workers or queues on your end.
+FAQ
+What counts as an execution?
+An execution is a single durable function run plus each step inside it. If your function has 5 step.run() calls, one run uses 6 executions (the run itself + 5 steps).
+What happens if I exceed the included executions on my plan?
+Pro plans bill metered usage above the included executions at tiered rates — the more you use, the lower the per-execution price. Hobby plans pause execution once the free quota is exhausted; upgrade to keep running.
+Can I switch plans later?
+Yes. You can upgrade from Hobby to Pro at any time, and switch to Enterprise once you need custom scale, SAML, or dedicated support. Plan changes take effect immediately and prorate the current billing cycle.
+Can I self-host Inngest?
+Yes. Inngest is open-source and can be self-hosted. The cloud product adds managed infrastructure, observability, and reliability on top — but the core engine is yours to run.
+I have other billing questions. How do I get in touch?
+Email us at support@inngest.com or open a support ticket from the dashboard. Pro and Enterprise customers get faster SLAs on billing and account questions.
+Contact sales
+Start for free in under two minutes
+No credit card required.
+Start Building
+Talk to Sales

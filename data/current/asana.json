@@ -5,9 +5,9 @@
   "category": "productivity",
   "url": "https://asana.com/pricing",
   "final_url": "https://asana.com/pricing",
-  "content_hash": "8a7f0fd9a265672d11260de693e0da6ca800b1928f45116cc775425df88bc7f2",
-  "raw_hash": "4c43b35fc289740714fec17a9da59f4a17371d08cad920f88157ad8eb0ffd98f",
-  "text_bytes": 39643,
+  "content_hash": "6ab079cae3899f206d68dd6ed7fdf2188fee1d8ac0fd72274609cae51d4e05b4",
+  "raw_hash": "05a7fbe7f0a596531bba2b2f3371659386796ea3dc6c89937024d4a027f81ae7",
+  "text_bytes": 38196,
   "extractor": "jsonld",
   "confidence": "medium",
   "plans": [

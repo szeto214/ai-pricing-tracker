@@ -1,0 +1,448 @@
+{
+  "slug": "circleci",
+  "name": "CircleCI",
+  "vendor": "CircleCI",
+  "category": "dev-infra",
+  "url": "https://circleci.com/pricing/",
+  "final_url": "https://circleci.com/pricing/",
+  "content_hash": "ba150ce9d09bc0bdefe9cc43d9c2f6de32726f224c75582df585304c6715a97c",
+  "raw_hash": "f5ccb098f15be70b1aff84cb544607580442867ecb1095ee52c011f41333bf87",
+  "text_bytes": 14328,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Up to $20,000 in free compute credits for qualif",
+      "price_raw": "$20,000",
+      "amount": 20000.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Free",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Free",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Performance",
+      "price_raw": "$15",
+      "amount": 15.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Plan overview",
+      "price_raw": "$15",
+      "amount": 15.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Small",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Medium",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "M4 Pro Medium",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Small Nvidia Tesla P4 GPU",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Key features",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Included support",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Support packages",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    }
+  ],
+  "tables": [
+    {
+      "caption": "",
+      "rows": [
+        [
+          "",
+          "Free",
+          "Performance",
+          "Scale"
+        ],
+        [
+          "Credits ? Credits are used to pay for your team’s usage based on number of active users, machine type and size, and premium features.",
+          "30,000 free credits/month",
+          "30,000 credits 30,000 free credits/month + $15 for every additional 25,000 credits. /month included",
+          "Custom"
+        ],
+        [
+          "Users ? Any user who commits code changes on a project building on CircleCI.",
+          "5 active users included",
+          "5 active users 25,000 credits per month for each additional user. included",
+          "Custom"
+        ],
+        [
+          "Network ? The network transfer limit applies to self-hosted runners only, when restoring caches and workspaces.",
+          "1 GB included",
+          "5 GB included",
+          "50 GB included"
+        ],
+        [
+          "Storage",
+          "2 GB included",
+          "2 GB included",
+          "200 GB included"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "(x86) Docker",
+          "Free",
+          "Performance",
+          "Scale"
+        ],
+        [
+          "Small",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Medium",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Medium+",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Large",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "X-large",
+          "—",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "2 X-large",
+          "—",
+          "—",
+          "Yes"
+        ],
+        [
+          "2 X-large+",
+          "—",
+          "—",
+          "Yes"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "(x86) Docker (Gen 2)",
+          "Free",
+          "Performance",
+          "Scale"
+        ],
+        [
+          "Small",
+          "—",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Medium",
+          "—",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Medium+",
+          "—",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Large",
+          "—",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "X-large",
+          "—",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "2 X-large",
+          "—",
+          "—",
+          "Yes"
+        ],
+        [
+          "2 X-large+",
+          "—",
+          "—",
+          "Yes"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "(Arm) Docker / Remote Docker",
+          "Free",
+          "Performance",
+          "Scale"
+        ],
+        [
+          "Medium",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Large",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "X-large",
+          "—",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "2 X-large",
+          "—",
+          "—",
+          "Yes"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Linux VM / (x86) Remote Docker",
+          "Free",
+          "Performance",
+          "Scale"
+        ],
+        [
+          "Medium",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Large",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "X-large",
+          "—",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "2 X-large",
+          "—",
+          "—",
+          "Yes"
+        ],
+        [
+          "2 X-large+",
+          "—",
+          "—",
+          "Yes"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Linux VM / (x86) Remote Docker (Gen 2)",
+          "Free",
+          "Performance",
+          "Scale"
+        ],
+        [
+          "Medium",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Large",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "X-large",
+          "—",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "2 X-large",
+          "—",
+          "—",
+          "Yes"
+        ],
+        [
+          "2 X-large+",
+          "—",
+          "—",
+          "Yes"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Linux VM / (x86) Remote Docker (Gen 3)",
+          "Free",
+          "Performance",
+          "Scale"
+        ],
+        [
+          "Medium",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Large",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "X-large",
+          "—",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "2 X-large",
+          "—",
+          "—",
+          "Yes"
+        ],
+        [
+          "2 X-large+",
+          "—",
+          "—",
+          "Yes"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Arm VM (Linux)",
+          "Free",
+          "Performance",
+          "Scale"
+        ],
+        [
+          "Medium",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Large",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "X-large",
+          "—",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "2 X-large",
+          "—",
+          "—",
+          "Yes"
+        ]
+      ]
+    }
+  ],
+  "extract_errors": []
+}

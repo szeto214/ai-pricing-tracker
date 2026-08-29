@@ -1,0 +1,339 @@
+{
+  "slug": "voyage-ai",
+  "name": "Voyage AI",
+  "vendor": "Voyage",
+  "category": "ai-api",
+  "url": "https://docs.voyageai.com/docs/pricing",
+  "final_url": "https://docs.voyageai.com/docs/pricing",
+  "content_hash": "9525d58b07b1a8dd225cd2f491a6d17f6469657aef5ca8b657a185c82d951a2a",
+  "raw_hash": "d87951a97904004f28c1c3be02f22f5e0a4f4560886f46810a7d09b7fad928ec",
+  "text_bytes": 4844,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "voyage-4-large",
+      "price_raw": "$0.00",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "voyage-4-lite",
+      "price_raw": "$0.00",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "voyage-context-4",
+      "price_raw": "$0.00",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "voyage-code-4",
+      "price_raw": "$0.00",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "voyage-finance-2",
+      "price_raw": "$0.00",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "voyage-multimodal-3.5",
+      "price_raw": "$0.12",
+      "amount": 0.12,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Images with fewer than 50,000 pixels will be ups",
+      "price_raw": "$0.00",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "200px x 200px",
+      "price_raw": "$0.00",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "4000px x 4000px",
+      "price_raw": "$0.00",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "For example, the cost to vectorize a single inpu",
+      "price_raw": "$0.00",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "rerank-2.5",
+      "price_raw": "$0.00",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "rerank-2.5-lite",
+      "price_raw": "$0.00",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Our",
+      "price_raw": "$0.05",
+      "amount": 0.05,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "voyage-context-3",
+      "price_raw": "$0.00",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "voyage-multilingual-2",
+      "price_raw": "$0.00",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "voyage-01",
+      "price_raw": "$0.00",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "voyage-3-lite",
+      "price_raw": "$0.00",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    }
+  ],
+  "tables": [
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Model",
+          "Price per thousand tokens",
+          "Price per million tokens",
+          "Number of free tokens"
+        ],
+        [
+          "voyage-4-large",
+          "$0.00012",
+          "$0.12",
+          "200 million"
+        ],
+        [
+          "voyage-4",
+          "$0.00006",
+          "$0.06",
+          "200 million"
+        ],
+        [
+          "voyage-4-lite",
+          "$0.00002",
+          "$0.02",
+          "200 million"
+        ],
+        [
+          "voyage-context-4",
+          "$0.00012",
+          "$0.12",
+          "200 million"
+        ],
+        [
+          "voyage-code-4",
+          "$0.00012",
+          "$0.12",
+          "200 million"
+        ],
+        [
+          "voyage-finance-2 voyage-law-2 voyage-code-2",
+          "$0.00012",
+          "$0.12",
+          "50 million"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Model",
+          "Price per million tokens",
+          "Price per billion pixels",
+          "Number of free tokens and pixels"
+        ],
+        [
+          "voyage-multimodal-3.5 voyage-multimodal-3",
+          "$0.12",
+          "$0.60",
+          "200M text tokens and 150B pixels"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Image resolution",
+          "Number of pixels",
+          "Price per image",
+          "Price per thousand images"
+        ],
+        [
+          "200px x 200px",
+          "40,000",
+          "$0.00003",
+          "$0.03"
+        ],
+        [
+          "1000px x 1000px",
+          "1 million",
+          "$0.0006",
+          "$0.60"
+        ],
+        [
+          "2000px x 2000px",
+          "4 million",
+          "$0.0012",
+          "$1.20"
+        ],
+        [
+          "4000px x 4000px",
+          "16 million",
+          "$0.0012",
+          "$1.20"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Model",
+          "Price per thousand tokens",
+          "Price per million tokens",
+          "Estimated price per request*",
+          "Number of free tokens"
+        ],
+        [
+          "rerank-2.5",
+          "$0.00005",
+          "$0.05",
+          "$0.0025",
+          "200 million"
+        ],
+        [
+          "rerank-2.5-lite",
+          "$0.00002",
+          "$0.02",
+          "$0.001",
+          "200 million"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Model",
+          "Price per thousand tokens",
+          "Price per million tokens"
+        ],
+        [
+          "voyage-context-3",
+          "$0.00018",
+          "$0.18"
+        ],
+        [
+          "voyage-code-3",
+          "$0.00018",
+          "$0.18"
+        ],
+        [
+          "voyage-3-large",
+          "$0.00018",
+          "$0.18"
+        ],
+        [
+          "voyage-3.5",
+          "$0.00006",
+          "$0.06"
+        ],
+        [
+          "voyage-3.5-lite",
+          "$0.00002",
+          "$0.02"
+        ],
+        [
+          "voyage-multilingual-2 voyage-large-2-instruct voyage-large-2",
+          "$0.00012",
+          "$0.12"
+        ],
+        [
+          "voyage-01 voyage-lite-01 voyage-lite-01-instruct voyage-02 voyage-lite-02-instruct voyage-2",
+          "$0.0001",
+          "$0.1"
+        ],
+        [
+          "voyage-3",
+          "$0.00006",
+          "$0.06"
+        ],
+        [
+          "rerank-1 rerank-2",
+          "$0.00005",
+          "$0.05"
+        ],
+        [
+          "voyage-3-lite rerank-lite-1 rerank-2-lite",
+          "$0.00002",
+          "$0.02"
+        ]
+      ]
+    }
+  ],
+  "extract_errors": []
+}

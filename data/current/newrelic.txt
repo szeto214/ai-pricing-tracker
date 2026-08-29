@@ -1,0 +1,331 @@
+Skip to main content
+Simple, transparent pricing
+Only pay for what you use
+50+ capabilities
+in one platform
+100 GB of free data ingest/month
+Unlimited free basic users
+Get Started Free
+Request Pricing
+Pay as you grow
+Pick the edition that's right for you
+Looking for pricing options?
+Get in touch or explore answers to common questions.
+Request Pricing
+View FAQs
+Free
+Start here
+Sign up for free access with our perpetual free tier and 100 GB/month of data ingest included.
+100 GB data ingest
+i
+Automatic logs obfuscation
+i
+Unlimited basic
+One free full platform user
+Access to
+50+
+capabilities
+Data retention
+No credit card required
+Start for Free
+Standard
+As of September 5, 2023 the Standard edition has new features. Any customers on Standard prior to September 5, 2023 who would like to have access to these features must convert to the new edition.
+For small teams looking to get started with observability.
+Limited to 5 full platform users
+Ticketed support availability
+2 business days support response SLA
+SAML single sign-on
+Get Standard Pricing
+Pro
+For teams with more than five engineers and complex workloads.
+Unlimited full platform users.
+Commitment options
+i
+2-hour critical initial support response SLA
+Data Plus eligibility
+i
+Optional:
+Full consumption pricing
+with no user licenses
+Get Pro Pricing
+Enterprise
+For at-scale organizations with advanced security and support needs.
+Everything in Pro plus:
+FedRAMP Moderate and HIPAA eligibility with Data Plus
+Priority ticket routing
+1-hour critical initial support response SLA
+Optional:
+Full consumption pricing
+with no user licenses
+Get Custom Pricing
+How we calculate price
+Usage-based pricing for full-stack, Intelligent Observability.
+Data
+100 GB of free data ingest per month and $0.40/GB ingested beyond.
+Learn More About Data
+Users
+Three user types: basic (free), core, and full platform. Prices vary by edition. Access to the platform is based on user type.
+Learn More About Users
+Advanced Compute
+Access the latest Intelligent Observability capabilities: Transaction 360, Security RX, New Relic AI, and more.
+Learn More About Compute
+Your price
+The price is subject to variability if add-on features are enabled (ex: Advanced Compute), which would incur additional charges.
+Access 50+ capabilities, 780+ integrations, and unlimited hosts at no additional cost. For
+Advanced Compute
+, use
+Feature Control Manager
+to toggle capabilities
+ON
+or
+OFF
+and control exactly what you spend.
+Get Started
+New
+New Relic Compute and Advanced Compute
+Pay only for the compute you use, with no user fees
+Learn More
+Compare editions to suit your scale.
+For more in-depth details on our editions and what's included,
+read our docs
+.
+Free
+Standard
+Pro
+Enterprise
+DATA COSTS (MONTHLY)
+Option 1:
+Original data ingest
+i
+Free
+100 GB free
+i
+Standard
+$0.40/GB
+beyond free 100 GB
+limit
+Pro
+$0.40/GB
+beyond free 100 GB
+limit
+Enterprise
+Contact Sales
+Option 2:
+Data Plus data ingest
+i
+Free
+Standard
+$0.60/GB
+beyond free 100 GB
+limit
+Pro
+$0.60/GB
+beyond free 100 GB
+limit
+Enterprise
+Contact Sales
+(includes FedRAMP Moderate
+and HIPAA eligibility)
+i
+USER COSTS (MONTHLY)
+i
+VIEW PERMISSIONS
+Basic user permissions include:
+Basic users can access custom non-quickstart dashboards, queries, alerts, and instrumentation. The basic user type is ideal for product managers, engineers, and executives who only need shared performance dashboards or alert-status visibility.
+Core user permissions include:
+Core users can access everything basic users can plus telemetry data in their IDE via the New Relic CodeStream extension, error tracking, logs, and more. The core user type is ideal for developers who want visibility into their code's performance across production and pre-production environments or who collaborate on issues with DevOps and SRE teams.
+Full platform user permissions include:
+Full platform users can monitor, debug, and improve their entire stack with access to the full New Relic observability platform, which includes 30+ capabilities. The full platform user type is ideal for engineers responsible for app and system uptime and reliability or any engineer who needs advanced troubleshooting capabilities. A New Relic customer can have only have a single edition at a time (Standard, Pro, or Enterprise). This means, for example, that all your full platform users will be on a single edition at a time.
+Basic users
+Free
+$0
+Standard
+$0
+Pro
+$0
+Enterprise
+$0
+Core users
+Free
+-
+Standard
+$49/user
+Pro
+$49/user
+Enterprise
+$49/user
+Full platform users
+Free
+One free user
+Standard
+$10/first user
+$99/additional user
+(maximum of 5)
+Pro
+$349/user
+(for annual commitments)
+$418.80/user
+(for monthly pay as you go)
+i
+Enterprise
+Contact Sales
+COMPUTE COSTS (MONTHLY)
+i
+Compute capacity unit (CCU) tiers
+i
+Free
+Standard
+Pro
+Contact Sales
+Enterprise
+Contact Sales
+Free
+Start for free
+Standard
+Get Standard
+Pro
+Get Pro
+Enterprise
+Get Enterprise
+Value Calculator
+Calculate the ROI of observability
+Instantly analyze the value of system-level views to your business.
+Calculate ROI
+Maximize your monitoring with optional add-ons and bundles
+Explore Options
+Looking for more? Bundle to get these features and more at a discounted price:
+50+ platform capabilities
+Extended data retention
+EU data center
+Synthetic monitor checks
+Volume discounts and commit pricing
+New Relic Pricing FAQs
+Is New Relic free to use?
+New Relic has the most generous free tier in the industry, so you get the same cloud-based observability used by the best software teams in the world.
+Our free tier includes (per month):
+One full platform user with the ability to visualize, analyze, and troubleshoot your entire stack and access to all 50+ New Relic platform capabilities, such as APM with distributed tracing, infrastructure monitoring, error tracking, digital experience monitoring (DEM, including browser, mobile, and synthetic monitoring), log management, serverless monitoring, AIOps, and more.
+Unlimited basic users with access to data ingest, querying, dashboards, and alerts.
+100 GB data ingest
+Default data retention of at least 8 days.
+Default logs obfuscation (automatically masks known credit-card and Social-Security-number patterns in logs).
+500 synthetic checks.
+Start now
+—no credit card required.
+When your account is within 85% of exceeding your monthly 100 GB of free data ingest, you’ll receive an email and also get an onscreen alert in the platform that will prompt you to upgrade to Standard or Pro by adding a credit card, billing info, and accepting terms.
+Contact us
+to upgrade to Enterprise. Data ingest will cease and you will lose access to the platform when you exceed your free 100 GB of data ingest for the month until you upgrade to a paid edition or until the first day of the following month when both data ingestion and access to the platform are re-enabled.
+Do you charge per host?
+No. With New Relic
+usage-based pricing
+, you no longer have to count hosts or CPUs. Our straightforward pricing is based on just two core metrics—users and data ingest OR compute and data ingest—making it easy to understand what you’re paying for. In both scenarios, you pay a single, low rate for data, and either a monthly price for each engineer to access 50+ observability capabilities, or a compute price that unlocks platform access for all users. New Relic is the only observability vendor that offers user-based pricing and compute pricing (in combination with telemetry-based pricing). We’re also the only vendor to publicly announce availability of user-tiered pricing for eligible customers, which helps provide observability for all engineers.
+These models are widely regarded as superior to legacy host-based pricing. With New Relic, unlimited hosts, agents, containers, devices, AWS Fargate tasks, cloud functions, and more are included at no additional cost.
+View
+The Best Pricing and Billing Models for Observability
+white paper to learn more about host-based pricing versus usage-based pricing. View a full-stack observability
+cost comparison
+of our user-based pricing with that of host-based pricing.
+What are the differences between basic, core, and full platform users?
+Access to the 50+ New Relic observability platform capabilities is determined by user type, unless you’re on the Compute model.
+Unlimited free basic users
+can access custom dashboards, queries, alerts, and instrumentation. The basic user type is ideal for product managers, engineers, and executives who only need shared performance dashboards or alert-status visibility.
+Core users—starting at $49 per user—
+can access everything basic users can plus telemetry data in their IDE via the New Relic CodeStream integration, error tracking, logs, and more. The core user type is ideal for developers who want visibility into their code's performance across production and pre-production environments or who collaborate on issues with DevOps and site reliability engineering (SRE) teams.
+Full platform users—starting at $10 per user based on your edition—
+can monitor, debug, and improve their entire stack with access to the full New Relic observability platform, which includes 50+ capabilities such as APM with distributed tracing, infrastructure monitoring, digital experience monitoring (browser, mobile, and synthetics), log management, AIOps, Service Architecture Intelligence (scorecards, teams, catalogs, maps), and more. The full platform user type is ideal for engineers responsible for app and system uptime and reliability or any engineer who needs advanced troubleshooting capabilities.
+View a
+comparison of permissions by user type
+.
+How does New Relic calculate data ingest?
+New Relic calculates data ingest costs based on the volume of data your organization saved in the platform after processing. This includes applying data transformation and trimming rules to the raw data in New Relic for more observability value. You can customize the amount of data you send and ingest.
+Learn how to
+estimate your data ingest cost
+.
+How much data retention is included with data ingest?
+Data retention varies by data option. Data Plus includes up to 90 days of extra retention for most data types over the default. Extended data retention is also available as an add-on.
+View a comparison table
+.
+How much do you charge for egress or data hydration?
+Nothing! Unlike our competitors, we don’t charge for data egress or hydration. All your data is indexed and ready to query.
+Do you offer billable add-on options and bundles?
+Yes. We offer several optional billable add-ons, including:
+Advanced Compute capabilities (pay for what you use)
+Additional
+synthetic monitor checks
+for when you exceed the default number
+Additional
+data retention time
+for when you exceed the default time
+In addition to our billable add-ons, our
+Data Plus option
+is a bundle that offers advanced data capabilities for optimized performance, scale, security, and governance.
+What’s Data Plus?
+Choose between the New Relic original data option ($0.40/GB beyond the 100 GB free each month) and the Data Plus option ($0.60/GB beyond the 100 GB free each month). You can also choose to store data in the European Union (EU) data center for an additional $0.05/GB per month.
+New Relic Data Plus is for teams of all sizes that need access to advanced performance, governance, and compliance capabilities, including:
+Up to 90-day extended data retention over default levels:
+Instead of paying individual premiums for the data indexing and retention of each data source, you can choose which data is stored longer in New Relic without increasing your monthly costs per data type.
+FedRAMP Moderate and HIPAA eligibility:
+With the New Relic Data Plus option, Enterprise edition customers can request additional security configurations to help with FedRAMP and HIPAA compliance, which is especially helpful if you’re in a highly-regulated sector.
+Advanced logs obfuscation:
+Create and track rules directly in the log management UI and mask or hash sensitive log data.
+Enhanced streaming and historical-data export:
+Easily export New Relic data to external destinations for historical analysis and modeling, long-term storage, and integration with other data analytics platforms.
+Learn more about
+Data Plus
+.
+Do you offer volume discounts and commit pricing?
+Yes. New Relic offers commitment contract options to Pro and Enterprise edition customers with volume and savings plans that provide volume discounts, predictability, scalability, and flexibility. With the savings plan, you can use an annual or multi-year pool of funds for any combination of usage across the entire term. Plus, New Relic is the only observability vendor that offers an automatic rollover of unused funds for up to 12 months.
+Learn more about New Relic
+commitment options
+.
+Do you offer pay-as-you-go options?
+Yes. New Relic offers pay-as-you-go options for Standard and Pro edition customers.
+With this option, billing happens at the end of each calendar month. There are no payment commitments past the current month and an organization can cancel at any time. An organization's first end-of-month bill includes billable usage starting from when their credit card information was input into New Relic.
+You pay as low as $10 for your first full user (Standard edition) and any usage beyond your free benefits (100 GB ingested, 10,000 synthetic monitors).
+View more
+details of plans offered and upgrade today.
+How is my monthly bill calculated?
+New Relic is one of only two observability vendors that offer usage-based billing. That means we bill you based on your number of provisioned full platform users, the amount of gigabytes ingested, and any Compute Capacity Units (CCUs) consumed by Advanced Compute capabilities above the free 100 GB. Our original data option is $0.40/GB per month. Our Data Plus option is $0.60/GB per month and includes extended data retention and advanced data governance/performance.
+You can also store data in the EU data center for an additional $0.05/GB per month. Additional synthetics checks beyond the amount included in your edition are available at $0.005 per check.
+At any point, you can use tools to query, track, and alert on your monthly billing-related usage in the New Relic platform.
+Do you have discounts for startups and nonprofits?
+Yes. New Relic has an
+Observability for Good
+program for nonprofits, and
+New Relic for Startups
+helps early-stage startups build and scale their next great idea.
+How can I be sure my data is secure?
+New Relic is deeply committed to the
+security of your data
+. Our industry-standard security technologies and comprehensive policies and controls keep everything you rely on safe.
+You can also make personal data requests to New Relic in accordance with data protection laws, such as the EU General Data Protection Regulation (GDPR) and the California Consumer Privacy Act (CCPA). In addition, you can request HIPAA- and FedRAMP-compliant data encryption and security for your eligible account and services with Data Plus and Enterprise edition.
+Can I cancel my account?
+You can cancel anytime with the pay-as-you-go option, and you will only pay for any usage prior to cancellation. If you're on another buying program with a term commitment fee, you remain responsible for payment of your commitment fee regardless of whether you want to cease use of New Relic's offerings.
+Related Resources
+New Relic, Datadog, and Dynatrace cost comparison
+Learn More
+Top five observability pricing traps
+Learn More
+Data Plus pricing: Affordable observability at scale
+Learn More
+The Best Pricing and Billing Models for Observability
+Learn More
+Get started today
+for free
+Get Started Free
+Get Demo
+Experience AI-driven operations at scale.
+Register for New Relic Now
+Search toggle
+Main navigation menu, 5 items
+Back
+Search
+Submit
+Search toggle
+Search
+Submit
+Log in
+Get Started Free
+Get Demo
+Log in
+Get Started Free
+Get Demo

@@ -1,0 +1,768 @@
+Skip to content
+CircleCI
+Product
+Overview
+Product
+Demo
+Product roadmap
+Documentation
+Features
+Execution environments
+Chunk
+MCP server
+New
+Build images
+Build optimization
+Autoscaling
+Technical services
+View all features
+Integrations
+GitHub
+GitLab
+Bitbucket
+AWS
+GCP
+Azure
+Kubernetes
+View all integrations
+Solutions
+Role
+Developers
+Platform engineers
+Security engineers
+Engineering managers
+Business leaders
+AI agents
+Use case
+Automation
+Continuous integration
+Mobile
+AI
+Release orchestration
+Security & compliance
+View all use cases
+Company size
+Enterprise
+SMB
+Startup
+Resources
+Developers
+Documentation
+Support portal
+Orbs registry
+Image registry
+Explore
+Customer stories
+Reports & guides
+Podcast
+Blog
+Topics
+Changelog
+Community
+Events
+Discuss forum
+Open source
+Why CircleCI
+Benefits
+Calculate your ROI
+Boost dev productivity
+Benchmark your team
+See customer wins
+Compare
+CircleCI vs GitHub Actions
+CircleCI vs Harness
+CircleCI vs Buildkite
+CircleCI vs Jenkins
+CircleCI vs Bitrise
+Company
+About us
+Careers
+Partners
+Newsroom
+Pricing
+Search
+Select language
+English
+Deutsch
+Español
+日本語
+한국인
+Русский
+英语
+Log in
+Sign up
+Go to application
+Menu
+close
+Sign up
+Log in
+Go to application
+Product
+Solutions
+Resources
+Why CircleCI
+Pricing
+Search
+Back
+Product
+close
+Overview
+Product
+Demo
+Product roadmap
+Documentation
+Features
+Execution environments
+Chunk
+MCP server
+New
+Build images
+Build optimization
+Autoscaling
+Technical services
+View all features
+Integrations
+GitHub
+GitLab
+Bitbucket
+AWS
+GCP
+Azure
+Kubernetes
+View all integrations
+Sign up
+Log in
+Go to application
+Search
+Back
+Solutions
+close
+Role
+Developers
+Platform engineers
+Security engineers
+Engineering managers
+Business leaders
+AI agents
+Use case
+Automation
+Continuous integration
+Mobile
+AI
+Release orchestration
+Security & compliance
+View all use cases
+Company size
+Enterprise
+SMB
+Startup
+Sign up
+Log in
+Go to application
+Search
+Back
+Resources
+close
+Developers
+Documentation
+Support portal
+Orbs registry
+Image registry
+Explore
+Customer stories
+Reports & guides
+Podcast
+Blog
+Topics
+Changelog
+Community
+Events
+Discuss forum
+Open source
+Sign up
+Log in
+Go to application
+Search
+Back
+Why CircleCI
+close
+Benefits
+Calculate your ROI
+Boost dev productivity
+Benchmark your team
+See customer wins
+Compare
+CircleCI vs GitHub Actions
+CircleCI vs Harness
+CircleCI vs Buildkite
+CircleCI vs Jenkins
+CircleCI vs Bitrise
+Company
+About us
+Careers
+Partners
+Newsroom
+Sign up
+Log in
+Go to application
+Search
+Back
+Search
+close
+close
+Results from
+:
+...
+Site
+Blog
+Docs
+Images
+Orbs
+Resources
+Site
+Blog
+Docs
+Images
+Orbs
+Resources
+Site
+Blog
+Docs
+Images
+Orbs
+Resources
+Site
+Blog
+Docs
+Images
+Orbs
+Resources
+Explore
+Blog
+Documentation
+Reports & guides
+Image registry
+Orbs registry
+Startup program
+Up to $20,000 in free compute credits for qualifying startups.
+Apply now
+The most flexible usage-based CI/CD anywhere
+Cloud
+Server
+Free
+All our premium features. For free.
+No credit card required.
+$0
+/month
+Start now
+Up to
+6,000 build minutes
+Number of build minutes when using a small Docker resource class
+Up to 5 active users/month
+Docker, Windows, Linux, Arm, macOS, self hosted runners
+30x concurrency
+Performance
+Our most flexible plan. Pay only for what you use.
+Starting at
+$15
+/month
+Option to purchase bulk credits at a discount.
+Build your plan
+30,000 credits included free
+5 active users
+Add additional users for $15/month.
+included free
+Larger resources
+80x concurrency
+Optional 8x5 support add-on
+Scale
+Enterprise-level power. Built for unlimited scale.
+Billed annually.
+Get in touch
+Book a demo
+Customizable plans
+Enterprise controls
+Largest resource classes
+All environments, even GPU
+Optional 24/7 support add-on
+Prices do not include applicable taxes.
+Compare features
+CircleCI runs on credits
+Buy
+Choose the credit plan that’s right for your team.
+Build
+Spend credits on seats, resources, and more.
+Repeat
+Automatic refills keep your team building.
+Free
+Start now
+Performance
+Build your plan
+Scale
+Book a demo
+Plan overview
+Free
+Performance
+Scale
+Credits
+?
+Credits are used to pay for your team’s usage based on number of active users, machine type and size, and premium features.
+30,000 free credits/month
+30,000 credits
+30,000 free credits/month + $15 for every additional 25,000 credits.
+/month included
+Custom
+Users
+?
+Any user who commits code changes on a project building on CircleCI.
+5 active users included
+5 active users
+25,000 credits per month for each additional user.
+included
+Custom
+Network
+?
+The network transfer limit applies to self-hosted runners only, when restoring caches and workspaces.
+1 GB included
+5 GB included
+50 GB included
+Storage
+2 GB included
+2 GB included
+200 GB included
+Resource classes
+(x86) Docker
+(x86) Docker
+Free
+Performance
+Scale
+Small
+Yes
+Yes
+Yes
+Medium
+Yes
+Yes
+Yes
+Medium+
+Yes
+Yes
+Yes
+Large
+Yes
+Yes
+Yes
+X-large
+—
+Yes
+Yes
+2 X-large
+—
+—
+Yes
+2 X-large+
+—
+—
+Yes
+(x86) Docker (Gen 2)
+—
+(x86) Docker (Gen 2)
+Free
+Performance
+Scale
+Small
+—
+Yes
+Yes
+Medium
+—
+Yes
+Yes
+Medium+
+—
+Yes
+Yes
+Large
+—
+Yes
+Yes
+X-large
+—
+Yes
+Yes
+2 X-large
+—
+—
+Yes
+2 X-large+
+—
+—
+Yes
+(Arm) Docker / Remote Docker
+(Arm) Docker / Remote Docker
+Free
+Performance
+Scale
+Medium
+Yes
+Yes
+Yes
+Large
+Yes
+Yes
+Yes
+X-large
+—
+Yes
+Yes
+2 X-large
+—
+—
+Yes
+Linux VM / (x86) Remote Docker
+Linux VM / (x86) Remote Docker
+Free
+Performance
+Scale
+Medium
+Yes
+Yes
+Yes
+Large
+Yes
+Yes
+Yes
+X-large
+—
+Yes
+Yes
+2 X-large
+—
+—
+Yes
+2 X-large+
+—
+—
+Yes
+Linux VM / (x86) Remote Docker (Gen 2)
+Linux VM / (x86) Remote Docker (Gen 2)
+Free
+Performance
+Scale
+Medium
+Yes
+Yes
+Yes
+Large
+Yes
+Yes
+Yes
+X-large
+—
+Yes
+Yes
+2 X-large
+—
+—
+Yes
+2 X-large+
+—
+—
+Yes
+Linux VM / (x86) Remote Docker (Gen 3)
+Linux VM / (x86) Remote Docker (Gen 3)
+Free
+Performance
+Scale
+Medium
+Yes
+Yes
+Yes
+Large
+Yes
+Yes
+Yes
+X-large
+—
+Yes
+Yes
+2 X-large
+—
+—
+Yes
+2 X-large+
+—
+—
+Yes
+Arm VM (Linux)
+Arm VM (Linux)
+Free
+Performance
+Scale
+Medium
+Yes
+Yes
+Yes
+Large
+Yes
+Yes
+Yes
+X-large
+—
+Yes
+Yes
+2 X-large
+—
+—
+Yes
+Windows VM
+Windows VM
+Free
+Performance
+Scale
+Medium
+Yes
+Yes
+Yes
+Large
+Yes
+Yes
+Yes
+X-large
+—
+Yes
+Yes
+2 X-large
+—
+—
+Yes
+macOS VM
+—
+macOS VM
+Free
+Performance
+Scale
+M4 Pro Medium
+—
+Yes
+Yes
+M4 Pro Large
+—
+Yes
+Yes
+GPU
+—
+—
+GPU
+Free
+Performance
+Scale
+Small
+Nvidia Tesla P4 GPU
+—
+—
+Yes
+Small Multi
+2 Nvidia Tesla T4 GPUs
+—
+—
+Yes
+Small Gen2
+Nvidia Tesla A10G GPU
+—
+—
+Yes
+Medium
+Nvidia Tesla T4 GPU
+—
+—
+Yes
+Medium Multi
+4 Nvidia Tesla T4 GPUs
+—
+—
+Yes
+Windows Medium
+Nvidia Tesla T4 GPU
+—
+—
+Yes
+Large
+Nvidia Tesla V100 GPU
+—
+—
+Yes
+See full pricing list
+Key features
+Concurrent job runs
+?
+Jobs that run simultaneously, without queuing.
+30
+80
+Unlimited
+Concurrent job runs
+Docker
+30
+80
+Unlimited
+Linux VM
+30
+80
+Unlimited
+Arm VM (Linux)
+30
+80
+Unlimited
+Windows VM
+30
+80
+Unlimited
+macOS VM
+1
+15
+Custom
+Insights
+Insights
+Flaky test detection
+5 tests
+Unlimited
+Unlimited
+Free
+Performance
+Scale
+Self-hosted runner
+?
+The amount of concurrent tasks per self-hosted runner is restricted by plan.
+5
+20
+Unlimited
+Docker layer caching
+?
+Cache the individual layers of any Docker images built during your jobs.
+Yes
+Yes
+Yes
+IP ranges
+?
+Usage for IP ranges is billed at 450 credits/GB per job.
+—
+Yes
+Yes
+Private orbs
+?
+Create reusable packages of YAML config, called orbs, to be used exclusively by your organization.
+Yes
+Yes
+Yes
+Deploys
+Yes
+Yes
+Yes
+Single sign-on (SSO)
+—
+—
+Yes
+Config policies
+—
+—
+Yes
+Included support
+Free
+Performance
+Scale
+Community support
+?
+Access to our 24/7 community support forum.
+Yes
+Yes
+Yes
+Ticket-based global support
+?
+Our team of expert support engineers, based around the world.
+—
+Yes
+Yes
+Support packages
+Learn more
+Free
+Performance
+Scale
+Support SLA
+—
+8x5 SLAs available
+8x5 and 24x7 SLAs available
+Technical services
+Learn more
+Free
+Performance
+Scale
+Technical services
+—
+—
+Add-on services available
+See full pricing list
+Frequently asked questions
+What are credits?
+Credits are the currency of CircleCI. Credits are purchased up-front and are used to pay for CircleCI platform usage in real time. Platform usage consists of:
+Monthly active users
+- By using credits to pay for monthly active users, your organization is never restricted to a static number of active users each month.
+Compute time
+- Each resource type on CircleCI has an associated credits-per-minute price. Your credits are used in real time whenever your organization is actively using a compute resource on CircleCI.
+Add-on features
+- Some features of CircleCI have additional credit costs associated with them. These costs may be represented in credits per use or in credits per minute.
+Additional network & storage use
+- network and storage utilization beyond the plan-specified thresholds is charged at 420 credits per GB.
+Do credits expire?
+Credits on the Free plan expire after a month and do not roll over.
+The Performance plan includes the 30,000 credits available to the Free plan; these expire and do not roll over month-to-month.
+Performance plan users may purchase additional credits at $15 for every 25,000 credits. Any paid credits roll over month to month, and expire after a year.
+Unused credits will be forfeited if the account subscription is canceled.
+How do CircleCI credits translate to build minutes?
+Example: 30,000 credits at a rate of 10 credits per min (using Linux Medium) is 3,000 minutes.
+It’s important to note that a minute on CircleCI is different than a minute on other CI platforms. Access to more powerful resources, Docker Layer Caching, as well as concurrency and parallelism mean you can do more in a minute on CircleCI than anywhere else.
+How do I manage billing with the Performance Plan?
+An admin for your CircleCI account can sign up for a paid plan using using a credit card, log into the CircleCI application, and go to Settings → Plan Overview.
+The Performance plan provides two purchase options for your convenience.
+In the M2M (or default) option, credits are purchased on a monthly cycle. You can set up a monthly amount to be billed at the start of your billing cycle.
+Credits are purchased in blocks of 25,000. At the beginning of each billing month (based on your purchase date), you are charged for your credits and those credits are added to your account.
+When you use up all your credits, then credits automatically refill to a level of 25% of your monthly amount, with a minimum refill amount of 25,000 credits.
+For example:
+If your monthly credit purchase is 200,000 credits, you will automatically be refilled 50,000 credits when you run out of credits.
+In the Prepaid Billing option, credits can be purchased at a discount based on credit volume. When credits run out, the account is reloaded based on your usage.
+Bulk purchases can be made starting at 1 million credits for $600. Discounts start when you purchase 5 million credits for $3,000.
+To purchase discounted credits in bulk, visit the
+Plan Overview
+Page in your CircleCI account, and select the
+Prepaid Billing
+option.
+Please note that all paid credits are valid up to 12 months from the time of purchase, regardless of the purchase option. Updates to payments can be made in the billing portal, and also in the applications Plan Overview page.
+Learn more about Prepaid Billing here
+.
+What if I am building open-source?
+CircleCI offers free access to compute time and resources for organizations on our Free plan. Open source projects can access up to 400,000 credits per month (equivalent to 80,000 build minutes) to use on Linux, Arm, and Docker.
+Open source Windows and macOS builds or private repositories can use the 30,000 credits offered in our free plan.
+If you are building a bigger open source project and would like the flexibility of our new plans,
+let us know
+how we can help you!
+Learn more about building open source projects with CircleCI.
+What are concurrent job runs?
+Concurrent job runs refers to the number of jobs that can run simultaneously without queueing. You pay for compute based on the total amount of time you use compute resources, not the number of resources that you have access to. This means you can choose the right plan for your team to maximize concurrent jobs and parallelism for your jobs to minimize queuing.
+For example, say you have a workflow with 10 jobs that each take 5 minutes to run. If you are limited to 1x concurrency, each of these jobs runs sequentially, and the workflow completes in 50 minutes. With scaling concurrency, you can run all 10 jobs concurrently (at the same time), and the workflow completes in 5 minutes. In both cases, your total usage time is 50 minutes since you used 10 machines for 5 minutes each. With usage-based pricing, that means you pay the same amount either way, but if you maximize your concurrency, you save 45 minutes of time waiting for your workflow to complete.
+What is self-hosted runner concurrency?
+Self-hosted runner concurrency is the amount of runner tasks that can be run at the same time. This applies to both machine and container runner. For example, CircleCI customers on the Free plan have 5 concurrent tasks that can be used for machine and container runner.
+How is network egress measured?
+Network egress is triggered by restoring caches and workspaces to self-hosted runners.
+Any egress triggered by our cloud executors is not passed on to the customer.
+Self-hosted runners can incur network egress cost (at a rate of 420 credits per GB) if usage exceeds the network allowance included in your plan. CircleCI does not charge per build minute on self-hosted runners.
+Learn more about how to calculate and adjust network and storage usage
+Activities that utilize
+storage
+include saving caches and workspaces in jobs, uploading test results, and building artifacts.
+Both network and storage beyond the monthly thresholds are charged at 420 credits per GB ($0.252/GB).
+How is Docker Layer Caching (DLC) charged?
+Docker layer caching uses 200 credits per job run in a pipeline (equivalent to $0.12 per job run). For example, if your configuration specifies a workflow with three parallel Docker build jobs, you will be charged 600 credits each time these jobs are run in addition to the compute credits per minute usage.
+How much does the IP ranges feature cost?
+The IP ranges feature costs 450 credits per GB of data used by jobs with the feature enabled.
+>build faster today
+Start for free
+Build your plan

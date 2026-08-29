@@ -1,0 +1,85 @@
+{
+  "slug": "hyperstack",
+  "name": "Hyperstack",
+  "vendor": "NexGen Cloud",
+  "category": "gpu-rental",
+  "url": "https://www.hyperstack.cloud/gpu-pricing",
+  "final_url": "https://www.hyperstack.cloud/gpu-pricing",
+  "content_hash": "cbc8c82dc691be2148212c190078430dcfe1a5cb7665d55d25222b5f6b4dd7fd",
+  "raw_hash": "ed806e0d003a62671f1f6a15ef8f4db268efd34cf922d95e3e88ec36311577bc",
+  "text_bytes": 7894,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "On-Demand GPU Pricing",
+      "price_raw": "$3.99",
+      "amount": 3.99,
+      "currency": "USD",
+      "period": "hour",
+      "features": []
+    },
+    {
+      "name": "Reservation Pricing",
+      "price_raw": "$2.79",
+      "amount": 2.79,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Spot VM Pricing",
+      "price_raw": "$2.00",
+      "amount": 2.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "On-Demand CPU Pricing",
+      "price_raw": "$0.35",
+      "amount": 0.35,
+      "currency": "USD",
+      "period": "hour",
+      "features": []
+    },
+    {
+      "name": "Storage Pricing",
+      "price_raw": "$0.00",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "hour",
+      "features": [
+        "The size of your virtual machine",
+        "Any attached volumes",
+        "Current Cloud-SSD storage rates"
+      ]
+    },
+    {
+      "name": "Other Services",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": "hour",
+      "features": []
+    },
+    {
+      "name": "Token-based Pricing",
+      "price_raw": "$0.80",
+      "amount": 0.8,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Fine-Tuning Pricing",
+      "price_raw": "$0.06",
+      "amount": 0.06,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    }
+  ],
+  "tables": [],
+  "extract_errors": []
+}

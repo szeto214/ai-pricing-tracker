@@ -5,9 +5,9 @@
   "category": "ai-api",
   "url": "https://fireworks.ai/pricing",
   "final_url": "https://fireworks.ai/pricing",
-  "content_hash": "950fdbea6d01e28e62c8b8950ef741279994ef651cbc0b8beaa5cf21ccb47c18",
-  "raw_hash": "af6a1c93e690a204509dbdd019d0fc8d5ee45d0bc8766d1e43d91e55700782dd",
-  "text_bytes": 3961,
+  "content_hash": "72c710f41c7f7cd00969c967e2710f3b4ca9f6e4a8d72e5420384aabb9bcdcbf",
+  "raw_hash": "2edb832f7e08134a69c1eae3f6798320b8da511a6c440ca34a82aab0b99369ee",
+  "text_bytes": 3487,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

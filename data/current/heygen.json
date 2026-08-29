@@ -1,0 +1,604 @@
+{
+  "slug": "heygen",
+  "name": "HeyGen",
+  "vendor": "HeyGen",
+  "category": "ai-media",
+  "url": "https://www.heygen.com/pricing",
+  "final_url": "https://www.heygen.com/pricing",
+  "content_hash": "d1ba087fa763fe07e8f9039751c5b3cb627acb42892e55a05123b239df89c5ed",
+  "raw_hash": "d1c7176ac1efa4b228dcedd4eceaf9a46c29a2c8d5484545bb68aad035b2902a",
+  "text_bytes": 12753,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Free",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "3 videos per month",
+        "Videos up to 1 min",
+        "Access to Avatar IV",
+        "Standard video processing",
+        "500+ Stock Digital Twins",
+        "1 Custom Digital Twin",
+        "30+ languages",
+        "Videos up to 30 mins",
+        "1080p video export",
+        "Extended Avatar IV video generation",
+        "Fast video processing",
+        "Unlimited Photo Avatars",
+        "Watermark removal",
+        "Voice Cloning",
+        "175+ languages and dialects",
+        "Credit rollovers",
+        "Videos up to 30 mins",
+        "4K video export",
+        "Extended Avatar IV video generation",
+        "Faster video processing",
+        "Unlimited Photo Avatars",
+        "Watermark removal",
+        "Customizable monthly usage",
+        "Edit & proofread translation script",
+        "Access to all Advanced AI models"
+      ]
+    },
+    {
+      "name": "Creator",
+      "price_raw": "$29",
+      "amount": 29.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Videos up to 30 mins",
+        "1080p video export",
+        "Extended Avatar IV video generation",
+        "Fast video processing",
+        "Unlimited Photo Avatars",
+        "Watermark removal",
+        "Voice Cloning",
+        "175+ languages and dialects",
+        "Credit rollovers"
+      ]
+    },
+    {
+      "name": "Pro",
+      "price_raw": "$49",
+      "amount": 49.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Videos up to 30 mins",
+        "4K video export",
+        "Extended Avatar IV video generation",
+        "Faster video processing",
+        "Unlimited Photo Avatars",
+        "Watermark removal",
+        "Customizable monthly usage",
+        "Edit & proofread translation script",
+        "Access to all Advanced AI models"
+      ]
+    },
+    {
+      "name": "Business",
+      "price_raw": "$149",
+      "amount": 149.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Videos up to 60 mins",
+        "4k video export",
+        "Faster video processing",
+        "2x more concurrency than Pro",
+        "5 Custom Digital Twins",
+        "Scale your brand and centralize assets",
+        "SAML/ SSO",
+        "Centralized billing",
+        "Flexible top-up or auto-reload credits",
+        "Add team members for $20/seat/month",
+        "Workspace collaboration",
+        "Video draft commenting & editing",
+        "Invites & team management",
+        "Interactive Video (Quizzes, Links, more)",
+        "SCORM Export",
+        "LMS Integrations",
+        "Integrations with n8n, Make, Hubspot & Zapier"
+      ]
+    },
+    {
+      "name": "Free",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "How much does HeyGen cost?",
+      "price_raw": "$29",
+      "amount": 29.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "What's the difference between Pro plan tiers?",
+      "price_raw": "$49",
+      "amount": 49.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    }
+  ],
+  "tables": [
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Video Creation"
+        ],
+        [
+          "AI studio editor",
+          "Full access",
+          "Full access",
+          "Full access",
+          "Full access",
+          "Full access"
+        ],
+        [
+          "Max duration per video",
+          "1 minute",
+          "30 minutes",
+          "30 minutes",
+          "60 minutes",
+          "No video duration max"
+        ],
+        [
+          "Video processing speed",
+          "Standard",
+          "Fast",
+          "Faster",
+          "Faster",
+          "Fastest"
+        ],
+        [
+          "Export resolution",
+          "",
+          "Up to 1080P",
+          "Up to 4K",
+          "Up to 4K",
+          "Up to 4K"
+        ],
+        [
+          "Video templates",
+          "75+",
+          "75+",
+          "75+",
+          "75+",
+          "75+"
+        ],
+        [
+          "PowerPoint & PDF Imports",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Audio input",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Screen recorder",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Save designs as templates",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Watermark removal",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "AI Avatars & Voices"
+        ],
+        [
+          "Stock Video Avatars",
+          "500+",
+          "700+",
+          "700+",
+          "700+",
+          "700+"
+        ],
+        [
+          "Custom Digital Twins",
+          "1",
+          "1+",
+          "1+",
+          "5+",
+          "10+"
+        ],
+        [
+          "Custom Digital Twin Looks",
+          "500",
+          "500",
+          "500",
+          "500",
+          "500"
+        ],
+        [
+          "AI Voice",
+          "1,000+",
+          "1,000+",
+          "1,000+",
+          "1,000+",
+          "1,000+"
+        ],
+        [
+          "Voice Cloning",
+          "1 voice clone",
+          "Unlimited",
+          "Unlimited",
+          "Unlimited",
+          "Unlimited"
+        ],
+        [
+          "Photo Avatars",
+          "Up to 3",
+          "Unlimited",
+          "Unlimited",
+          "Unlimited",
+          "Unlimited"
+        ],
+        [
+          "Avatar IV Gen Minutes",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Avatar IV max duration per video",
+          "1 minute",
+          "30 minutes",
+          "30 minutes",
+          "30 minutes",
+          "30 minutes"
+        ],
+        [
+          "Motion / Gesture Control",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Generate Looks",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "AI Model Training",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Look Packs",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Product Placement",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Custom Voice Emotion",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Additional Digital Twins",
+          "",
+          "Add-on",
+          "Add-on",
+          "Add-on",
+          "Add-on"
+        ],
+        [
+          "AI background removal",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Video Translation & Languages"
+        ],
+        [
+          "Max duration per video",
+          "1 minute",
+          "30 minutes",
+          "30 minutes",
+          "60 minutes",
+          "No video duration max"
+        ],
+        [
+          "Video processing speed",
+          "Standard",
+          "Fast",
+          "Fastest",
+          "Faster",
+          "Fastest"
+        ],
+        [
+          "Global Language Suite",
+          "30+ languages",
+          "175 languages & dialects",
+          "175 languages & dialects",
+          "175 languages & dialects",
+          "175 languages & dialects"
+        ],
+        [
+          "Brand voice (Brand glossary)",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Upload transcription as source",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Edit and proofread translation script",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Switch voice",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Learning & Development"
+        ],
+        [
+          "Interactive Video",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Video Link Embedding",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Interactive Quizzes",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Video Branching & Decisioning",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "SCORM Export",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Workspace & Collaboration"
+        ],
+        [
+          "User seats",
+          "1",
+          "1",
+          "1",
+          "1+",
+          "1+"
+        ],
+        [
+          "Video comments",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Brand kit",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Video draft collaboration",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Tag and assign tasks",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Collaborative workspace",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Team templates",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Role controls",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Content access controls",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Granular content access controls",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Privacy & Security"
+        ],
+        [
+          "Multi-factor authentication (MFA)",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "SAML/SSO",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "SCIM",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Password protected URLs",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Audit log",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Team Member 2FA Enforcement",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Support & Resources"
+        ],
+        [
+          "Live chat support",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    }
+  ],
+  "extract_errors": []
+}

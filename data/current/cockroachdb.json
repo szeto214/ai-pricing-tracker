@@ -1,0 +1,74 @@
+{
+  "slug": "cockroachdb",
+  "name": "CockroachDB",
+  "vendor": "Cockroach Labs",
+  "category": "database",
+  "url": "https://www.cockroachlabs.com/pricing/",
+  "final_url": "https://www.cockroachlabs.com/pricing/",
+  "content_hash": "54313ea53d20819bce2887b8224e6b0419c763bddca964a242a9f0cd68644957",
+  "raw_hash": "0b813ac24604f38751811756978f96a868b9106d3bc9663caca2b5615852dd7f",
+  "text_bytes": 4175,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Basic",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "50 million RUs and 10 GiB storage free per month",
+        "On-demand compute and storage that scales to zero",
+        "AWS and GCP multi-region support for select regions",
+        "IP allowlist access control",
+        "99.99% availability",
+        "Integration of vector data with transactional data",
+        "Includes MCP, CLI and Agent Skills"
+      ]
+    },
+    {
+      "name": "Standard",
+      "price_raw": "$0.18",
+      "amount": 0.18,
+      "currency": "USD",
+      "period": "hour",
+      "features": [
+        "Provisioned compute with instant scaling up to 200 vCPUs, and on-demand storage",
+        "AWS and GCP multi-region support for select regions",
+        "Private connectivity",
+        "Metrics and log export to DataDog",
+        "99.99% availability",
+        "Integration of vector data with transactional data",
+        "Includes MCP, CLI and Agent Skills"
+      ]
+    },
+    {
+      "name": "Advanced",
+      "price_raw": "$0.60",
+      "amount": 0.6,
+      "currency": "USD",
+      "period": "hour",
+      "features": [
+        "Provisioned compute and storage with unlimited scaling",
+        "AWS, GCP and Azure multi-region support for all regions",
+        "Private connectivity",
+        "Metrics and log export to Datadog",
+        "Up to 99.999% availability",
+        "CMEK and other controls for your PCI / HIPAA needs",
+        "Integration of vector data with transactional data",
+        "Includes MCP, CLI and Agent Skills"
+      ]
+    },
+    {
+      "name": "Database features",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    }
+  ],
+  "tables": [],
+  "extract_errors": []
+}

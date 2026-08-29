@@ -1,0 +1,534 @@
+{
+  "slug": "ghost",
+  "name": "Ghost",
+  "vendor": "Ghost",
+  "category": "productivity",
+  "url": "https://ghost.org/pricing/",
+  "final_url": "https://ghost.org/pricing/",
+  "content_hash": "230e31b2b074fc362f6fc248464d4c78cb085b4eb08c2bd1da057c5d415dca75",
+  "raw_hash": "986979ffbe40d25d7fd7eef1bb8c715c246cb865fdfae5b5852bbeed501f5fbb",
+  "text_bytes": 15117,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Managed Subdirectory Install",
+      "price_raw": "$50",
+      "amount": 50.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Enterprise-grade security",
+      "price_raw": "$50",
+      "amount": 50.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    }
+  ],
+  "tables": [
+    {
+      "caption": "Feature comparison",
+      "rows": [
+        [
+          "Feature",
+          "Starter plan",
+          "Publisher plan",
+          "Business plan"
+        ],
+        [
+          "Staff users Staff users Staff users are people who can log into Ghost Admin and\npublish posts, which includes Author , Editor , Administrator and Owner roles. C",
+          "1",
+          "3",
+          "15",
+          "Unlimited"
+        ],
+        [
+          "File\nuploads File upload limits You can upload unlimited files to each Ghost(Pro) plan. The\nfile upload limit applies to how large each individual file\ncan be, ",
+          "5mb",
+          "100mb",
+          "250mb",
+          "1gb"
+        ],
+        [
+          "Whitelabel branding Whitelabel Branding Other platforms put their logo all over your website and\nemail newsletters to try and capture your audience. With\nGhost,",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Free\ncustom domain Custom domains All Ghost(Pro) sites come with a free ghost.io subdomain by default, and also support\nthe use of any custom domain name via a ",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Internationalization Internationalization Write your content and present your website in any language,\nso your subscribers feel right at home.",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Design settings",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Marketplace themes Marketplace themes Install any theme from the Ghost\nMarketplace and use it on your site. Choose from\nhundreds of professionally designed them",
+          "– No",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Custom themes Custom themes Our Starter plan comes with a built-in default theme with\nplenty of layout and color settings. On higher plans, you\ncan install and ",
+          "– No",
+          "Yes",
+          "Yes",
+          "Yes"
+        ]
+      ]
+    },
+    {
+      "caption": "Membership comparison",
+      "rows": [
+        [
+          "Feature",
+          "Starter plan",
+          "Publisher plan",
+          "Business plan",
+          "Custom plan"
+        ],
+        [
+          "Registered members Registered members Members are any users who have either a free or paid account\non your site with which they can subscribe or log-in, using\nG",
+          "1,000",
+          "1,000",
+          "10,000",
+          "Unlimited"
+        ],
+        [
+          "Member tagging Member tagging Organize and segment your members with tags. Apply tags\nautomatically based on behavior, manually, or through\nautomation to create",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Member import/export Member import/export Easily import your existing subscriber list or export your\nmember data at any time. We support CSV format for seamless",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Community comments Community comments Enable commenting on your posts with options to restrict to\nmembers only or paid members only, fostering a healthy\ncommuni",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Paid\nsubscriptions Paid subscriptions Accept payments from members using Stripe integration.\nProcess subscriptions, one-time payments, and manage billing\nwith e",
+          "– No",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Tips/donations Tips/donations Collect one-time payments as tips to support your work or\ndonations. Allow your audience to show appreciation with\nflexible paymen",
+          "– No",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Premium tiers Premium tiers Ghost allows you to offer multiple membership products, each\nwith unique prices, benefits, and content access levels. A\ntiered prici",
+          "– No",
+          "3",
+          "10",
+          "Unlimited"
+        ],
+        [
+          "Special offers Special offers Create special discounts for Black Friday sales or special\nevents to drive upgrades and premium subscriptions. Set\ntime-limited pr",
+          "– No",
+          "15",
+          "50",
+          "Unlimited"
+        ],
+        [
+          "Transaction fees Transaction fees Process payments for your premium subscriptions without any\nadditional transaction fees from Ghost. Payment processor\nfees sti",
+          "– No",
+          "0% Yes",
+          "0% Yes",
+          "0% Yes"
+        ]
+      ]
+    },
+    {
+      "caption": "Growth comparison",
+      "rows": [
+        [
+          "Feature",
+          "Starter plan",
+          "Publisher plan",
+          "Business plan",
+          "Custom plan"
+        ],
+        [
+          "Social web distribution Social web distribution Connect your publication to the social web with ActivityPub\nintegration, allowing readers to discover, follow an",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Ghost Explore network Ghost Explore network Your site will be featured in the Ghost Explore\ndirectory , so that more new readers can discover\nyour content.",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Recommendations Recommendations Recommend other publications to your audience and get\nrecommended by others to grow your readership through mutual\ndiscovery.",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Referral program Member referral program Native integration with First Promoter enables seamless\nmember referrals, allowing your subscribers to earn rewards\nfor",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Advanced SEO tools Advanced SEO tools Built-in SEO features including meta tags, structured data,\nXML sitemaps, and canonical URLs to help your content rank\nbet",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "RSS\nfeeds",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ]
+      ]
+    },
+    {
+      "caption": "Newsletter comparison",
+      "rows": [
+        [
+          "Feature",
+          "Starter plan",
+          "Publisher plan",
+          "Business plan",
+          "Custom plan"
+        ],
+        [
+          "Email Sends Email Sends The number of emails you can send to your subscribers each\nmonth. All plans include unlimited email sends with no\nrestrictions.",
+          "Unlimited",
+          "Unlimited",
+          "Unlimited",
+          "Unlimited"
+        ],
+        [
+          "Custom template Email templates Beautiful, responsive email templates that look great on any\ndevice. Customize colors, fonts, and layouts to match your\nbrand.",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Edit\nlinks after sending Edit links after sending Update links in your email newsletters even after they've\nbeen sent, allowing you to fix broken links or updat",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Managed deliverability Managed deliverability Professional email infrastructure with high deliverability\nrates, bounce management, and reputation monitoring.",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Newsletters Newsletters Multiple newsletters in Ghost allow you to create more than\none newsletter, each with its own subscriptions and design\nsettings. This al",
+          "1",
+          "3",
+          "10",
+          "Unlimited"
+        ],
+        [
+          "Custom sending domain Custom sending domain Send emails from your own domain for better deliverability\nand brand consistency. Includes DKIM and SPF authenticati",
+          "– No",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Dedicated IP Managed Subdirectory Install All Ghost(Pro) sites can be configured to\nrun on a root domain, like example.com , or on a\nsubdomain, like blog.exampl",
+          "– No",
+          "– No",
+          "– No",
+          "Yes"
+        ],
+        [
+          "Deliverability Consultation Deliverability Consultation Get expert guidance on email deliverability best practices,\nincluding authentication setup, sender reput",
+          "– No",
+          "– No",
+          "– No",
+          "Yes"
+        ]
+      ]
+    },
+    {
+      "caption": "Analytics comparison",
+      "rows": [
+        [
+          "Feature",
+          "Starter plan",
+          "Publisher plan",
+          "Business plan",
+          "Custom plan"
+        ],
+        [
+          "Subscriber engagement Subscriber engagement Track subscriber behavior with detailed engagement metrics so\nyou can understand what they're reading and clicking o",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Email analytics Email analytics Track email performance with open rates, click rates, and\nengagement metrics. Optimize your newsletter strategy with\ndata-driven",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Signup attribution Signup attribution Track where your new members come from with detailed\nattribution analytics. Understand which content, campaigns,\nand chann",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Third-party services Third-party services Integrate with external analytics platforms like Google\nAnalytics, Plausible, Fathom, and other privacy-focused\nanalyt",
+          "Basic",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Advanced native analytics Advanced native analytics Monitor your site's performance with detailed, native\nanalytics built into Ghost, giving you insights into y",
+          "– No",
+          "Yes",
+          "Yes",
+          "Yes"
+        ]
+      ]
+    },
+    {
+      "caption": "Integrations comparison",
+      "rows": [
+        [
+          "Feature",
+          "Starter plan",
+          "Publisher plan",
+          "Business plan",
+          "Custom plan"
+        ],
+        [
+          "Embedded media Embedded media Ghost has native integrations for Unsplash, Giphy, YouTube,\nsocial embeds, and many more to enrich your content with\nmedia.",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Image editing Image editing Edit images directly within Ghost. Crop, resize, and apply\nfilters to your images without needing external software.",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Slack Slack Post new messages to Slack anytime there's new content\npublished with Ghost, keeping your team updated\nautomatically.",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Content API Content API Full access to Ghost's Content API for reading and displaying\ncontent in custom applications and headless implementations.",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Ad\nnetworks Ad networks Any advertising network can be integrated into Ghost,\nincluding BuySellAds, Google AdSense, and any other\nadvertising platform to moneti",
+          "– No",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Zapier automation Zapier automation Connect Ghost to 5,000+ apps through Zapier. Automate\nworkflows and sync data between your favorite tools.",
+          "– No",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "n8n\nautomation n8n automation Connect Ghost to n8n workflow automation platform for\ncreating complex workflows and integrations with over a\nthousand services.",
+          "– No",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Custom integrations Custom integrations Build custom integrations with third-party services using\nGhost's flexible APIs and webhook system.",
+          "– No",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Admin API Admin API Full access to Ghost's Admin API for creating, editing, and\nmanaging content programmatically.",
+          "– No",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Webhooks Webhooks Real-time event notifications sent to your applications when\nthings happen in Ghost, perfect for automations and\nintegrations.",
+          "– No",
+          "Yes",
+          "Yes",
+          "Yes"
+        ]
+      ]
+    },
+    {
+      "caption": "Platform comparison",
+      "rows": [
+        [
+          "Feature",
+          "Starter plan",
+          "Publisher plan",
+          "Business plan"
+        ],
+        [
+          "Fully managed service",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Automatic weekly updates",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Worldwide CDN",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Enterprise-grade security Enterprise-grade security All Ghost(Pro) installs are integrated with Fastly , with 24/7\nDDoS mitigation, a sophisticated Web Applicat",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Threat & uptime management Threat & uptime management When you're under attack or the servers catch fire, if you\nself-host then you're the one who loses sleep. ",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Automated backups",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Free\nSSL certificate",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Custom SSL certificate",
+          "– No",
+          "– No",
+          "+ $50/mo",
+          "Yes"
+        ],
+        [
+          "Custom subdirectory install Managed Subdirectory Install All Ghost(Pro) sites can be configured to\nrun on a root domain, like example.com , or on a\nsubdomain, l",
+          "– No",
+          "– No",
+          "+ $50/mo",
+          "Yes"
+        ]
+      ]
+    },
+    {
+      "caption": "Security comparison",
+      "rows": [
+        [
+          "Feature",
+          "Starter plan",
+          "Publisher plan",
+          "Business plan",
+          "Custom plan"
+        ],
+        [
+          "Device verification Device verification Automatic device verification is available on all plans, and\nenabled by default. If a login from an unknown device is de",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Two-factor authentication Two-factor authentication Add an extra layer of security to staff accounts with\nemail-based two-factor authentication (2FA). Protect y",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "SSO\n(Single Sign-On) Single Sign-On Enable enterprise-grade authentication with SSO support for\nSAML, OAuth, and other identity providers. Streamline access\nman",
+          "– No",
+          "– No",
+          "– No",
+          "Yes"
+        ]
+      ]
+    }
+  ],
+  "extract_errors": []
+}

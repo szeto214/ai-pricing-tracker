@@ -1,0 +1,33 @@
+{
+  "slug": "graphite-dev",
+  "name": "Graphite",
+  "vendor": "Graphite",
+  "category": "ai-coding",
+  "url": "https://graphite.dev/pricing",
+  "final_url": "https://graphite.com/pricing",
+  "content_hash": "f7bb37cee988dc2276ed819a0f646d50298ceb0bce1d791b96887e3f6959af04",
+  "raw_hash": "7825288f1cf0c39e7615e424b6d189fbe165eafdbc43e7050227fb504d878fd9",
+  "text_bytes": 3499,
+  "extractor": "dom",
+  "confidence": "low",
+  "plans": [
+    {
+      "name": "Hobby",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": [
+        "Personal account repos support",
+        "Inbox and in-app notifications",
+        "CLI for stacked PRs and simplified git commands",
+        "MCP",
+        "VSCode extension",
+        "Limited access to Graphite Chat",
+        "Limited AI Reviews"
+      ]
+    }
+  ],
+  "tables": [],
+  "extract_errors": []
+}

@@ -5,9 +5,9 @@
   "category": "database",
   "url": "https://planetscale.com/pricing",
   "final_url": "https://planetscale.com/pricing",
-  "content_hash": "24aef00649bb0e37de8154010a835d34f31007998e1d16826e47001dd74f58ae",
-  "raw_hash": "6b6d304d24448ac29a021a13a34922dc1b2ab2f571cab942aebecb8807e3572e",
-  "text_bytes": 7271,
+  "content_hash": "4d04eab4ca892710b0c2b4f6d1cf25adc887fa40be324cd31ca4f3b68ce07eb2",
+  "raw_hash": "7b30deb4ece437254cb87c3aaa71a5ef9cb47050e34376c81761b02a0ccf3a06",
+  "text_bytes": 6703,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

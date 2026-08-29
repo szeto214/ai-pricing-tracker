@@ -1,0 +1,194 @@
+pricing
+Pricing plans that scale with you
+Flexible, predictable pricing whether you're building agents or data pipelines.
+Airbyte Agents
+Data Replication
+Free
+Get started for free before picking a plan.
+$0
+/month
+1000 AOs / Mo
+Single user
+API and MCP access
+Context Store refreshes daily (hourly for the first 14 days)
+Community and AI support
+No overage available
+START for FREE
+Individual
+For personal use and small scale workflows.
+$29
+/month
+5000 AOs / Mo
+Single user
+API and MCP access
+Context Store with hourly refresh
+Standard and AI support
+Overage AOs priced at $0.004
+Start for free
+Team
+popular
+For teams building agents in production.
+$299
+/month
+10,000 AOs / mo
+Everything in Individual
+Parallel workflow execution
+Multiple users and workspaces
+Standard and AI support
+Overage AOs priced at $0.005
+Start for free
+Custom
+For companies with enterprise needs.
+Custom
+CUSTOM AO LIMITS
+Everything in Team
+Custom workspace limits
+Custom Context Store refresh frequency
+Dedicated Solutions Architect
+Dedicated support with SLA
+Talk to us
+Core
+For sophisticated data engineering orgs who are comfortable running open source software entirely on their own. Always free.
+Self-managed
+Always free
+Open source
+Get started
+Standard
+popular
+For practitioners looking for fully managed software, basic functionality and prefer to be billed based on data volume. Starting at $10 / month
+Fully managed cloud hosting
+Volume-based pricing
+Deploy quickly
+TrY IT NOW
+Pro
+For organizations that need scalability, governance, and security while simplifying pipeline management.
+Fully managed cloud hosting
+Capacity-based pricing
+Multiple Workspaces
+SSO, RBAC
+Premium Support
+15-minute syncs
+Custom mappings
+Talk to sales
+Enterprise Flex
+For enterprises in regulated industries that require full control of their sovereign data, with the convenience of managed SaaS.
+Sovereign data movement inside your own boundary
+Available on-premises and multi-region
+Hybrid deployment with Airbyte managed control plane
+All the features of Airbyte Pro, including premium support
+Talk to sales
+You shouldn't pay more just because your data volume spikes
+Airbyte prices on compute capacity, not data moved (Pro Plan). Scale your pipelines without scaling your bill
+A better pricing model
+The Pro plan uses capacity-based pricing built on Data Workers, the dedicated compute units that power your pipelines.
+You scale by adding capacity, not by worrying about volume spikes. Costs stay predictable as your workloads grow.
+‍
+A note on volume-based pricing
+For smaller teams with predictable data volumes, pay-per-use still makes sense. That's what Standard is for.
+Pick the model that fits: fixed capacity on Pro, or volume-based on Standard.
+Why we price this way
+Agents don't just answer — they loop continuously through four cognitive steps to complete real work. We price the loop, not the message.
+Search
+Across your business through the Context Store.
+Read
+Act
+Reason
+Over what it just pulled to decide what's next.
+Each action uses up a certain number of agent operations, or AOs. Reasoning tends to consume the most AOs, while Reading consumes the least.
+AOs help us charge based on a cost per outcome framework — the best and fairest way to price agentic infrastructure.
+Talk to us
+plans & features
+Compare our plans
+Core
+Get started
+Standard
+Get started
+Pro
+Talk to sales
+Enterprise Flex
+Talk to sales
+Data Ingestion
+Connector Availability
+600+
+600+
+600+
+600+
+Change Data Capture (CDC)
+Schema Propagation
+Column Selection
+Max Sync Frequency
+<5 min
+1 hr
+15 min
+15 min
+Cron Scheduling
+Connector Builder
+Enterprise Connectors
+Add-on
+Add-on
+Extensible Access
+Airbyte API
+Terraform Provider
+PyAirbyte
+Integration with Airflow, Dagster, Prefect
+Data Governance
+In-Boundary Deployment
+Single Sign-On (SSO)
+Multitenancy (Multiple Users)
+Multiple Workspaces
+Role-Based Access Control
+Field Hashing & Encryption
+Row Filtering
+Monitoring Integrations
+External Secret References
+Multiple Data Regions
+AWS PrivateLink
+Add on
+Add on
+User groups & SCIM
+OpenTelemetry metrics
+Support & Reliability
+Community Support
+Airbyte Support Portal
+Premium Support
+Priority Support
+Add on
+Add on
+Business Critical Support
+Add on
+Add on
+FAQs
+Didn't find your answer? Please don't hesitate to reach out.
+What plans does Airbyte offer, and how do they differ?
+Click
+here
+to scroll up and see all of the plans Airbyte currently offers along with a useful comparison matrix.
+What is capacity-based pricing (Data Workers)?
+Airbyte’s Pro plan is priced by Data Workers, a unit of capacity that powers your pipelines. There are multiple variables that we use to determine the cost of a Data Worker.
+Each Data Worker can run multiple syncs concurrently; typically ~3 at once.
+This model gives you predictable spend, guaranteed performance, and no charges based on data volume.
+How is capacity-based pricing different from usage or volume-based?
+Usage or volume-based pricing bills you by rows, GBs, or events. Costs grow as data grows and we know that not all data is equally valuable.
+Airbyte uses capacity-based pricing, so you can control spend up-front, avoid surprise bills and can scale only when needed, so your data can grow without inflating your bill.
+What is the Pro plan?
+Pro includes everything in Standard, plus 15-minute syncs, custom mappings, premium support, and enhanced platform features like RBAC, row filtering, hashing & encryption, and support for multiple data regions. It’s built for production workloads that require reliability, control, and guaranteed performance.
+What is Enterprise Flex?
+Enterprise Flex is for enterprises that need sovereign data movement inside their own boundary, with deployment options including on-premises and multi-region, plus a hybrid model with an Airbyte managed control plane. It includes all Airbyte Pro features, including premium support.
+What do you recommend for a small team of 3-4 developers?
+We typically recommend starting with Standard (fully managed, volume-based) if you want zero infrastructure overhead and pay-as-you-go billing. Either way, you can always move to more robust pricing plans like Pro or Enterprise Flex as you scale and your needs change.
+Can Airbyte provide a tailored quote?
+Yes. Just work with our team and we'll be happy to provide a tailored quote based on your needs. Click
+here to talk to sales
+FAQs
+Didn't find your answer? Please don't hesitate to reach out.
+What happens when I run out of AOs?
+On the Free Plan, when you hit the monthly usage limits, capacity is paused until the next month. On the Individual and Team Plans, overage kicks in at the rate shown in the pricing matrix above. On the Custom Plan, overages are noted in your contract.
+Do idle connectors or workspaces cost me anything?
+No. We only meter Agent Operations (AOs).
+How do tokens relate to AOs?
+Reasoning AOs scale with the complexity of the task, so a heavier multi-step workflow costs more than a simple summarization.
+‍
+Can I start Free and upgrade later?
+Yes. Everything you build on the Free Plan moves with you.
+What counts as "embedded" for the Custom plan?
+If you're putting Airbyte Agents inside your own product for your customers, you're embedded. Since we meter on your customers' agent activity, you'll need to work with our team for pricing. We'll work with you to design a Custom Plan that fits your need.

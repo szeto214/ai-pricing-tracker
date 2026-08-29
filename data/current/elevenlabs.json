@@ -5,9 +5,9 @@
   "category": "ai-media",
   "url": "https://elevenlabs.io/pricing",
   "final_url": "https://elevenlabs.io/pricing",
-  "content_hash": "3e0013c0cd7c08c3fb79a9f92b1be7416f7688b9c0ca79aeee79d4cc2e600c03",
-  "raw_hash": "4dca46199c049bea3a00685ccbb288cf94610322e6d00423520d393d1aebcda6",
-  "text_bytes": 4086,
+  "content_hash": "530ec29d1b6e5488e656f2baeb8f094233674e4e266d78ed8e60350acbc1f41f",
+  "raw_hash": "fb7a275099e59a4b66caca056a897f727935bcd849790706a39e546dadadb852",
+  "text_bytes": 3199,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

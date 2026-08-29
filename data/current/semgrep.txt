@@ -1,0 +1,191 @@
+Pricing
+Feel secure about our pricing
+We make it expensive to exploit software, not to secure it.
+Free Edition
+Get started for free with the most popular code scanning engine. Connect your code and start securing your code with just a few clicks.
+Get started fast
+Free
+Highlights:
+Cross-file analysis with Pro rules
+AI-powered detection, triage, and remediation
+60 AI credits included
+Fast CI/CD deploy via Semgrep infrastructure
+Scan up to 10 repositories
+Maximum 10 contributors
+Authentication via GitHub/GitLab
+Includes:
+Code ($0/month/contributor)
+Supply Chain ($0/month/contributor)
+Sign up
+Teams
+Choose from Code (SAST), Supply Chain (SCA), or Secrets detection to eliminate noise out of the box, streamline developer workflows, and give security teams full visibility. Built-in AI-powered detection, triage, and remediation.
+Starting at
+$30
+/ month per contributor
+Highlights:
+Cross-file analysis with Pro rules
+AI-powered detection, triage, and remediation
+AI credits: 20 per developer per month
+One-click CI/CD deploy using Semgrep infrastructure
+Single sign-on (SSO)
+Award-winning support
+Choose from:
+Code ($30/month/contributor)
+Supply Chain ($30/month/contributor)
+Secrets ($15/month/contributor)
+Contact us
+Enterprise
+Built for impact and scale. Get the same powerful AppSec platform as Teams with additional flexibility to suit Enterprise environments. Plus white glove onboarding, dedicated support, roadmap access, and a team deeply invested in your success.
+Custom
+Contact us
+Everything in Teams, plus:
+Support for on-prem source code management
+Support for custom CI/CD integrations
+AI credits: 50 per developer per month
+Optional deployment in dedicated infrastructure
+No limit on number of repositories scanned
+No limit on contributors
+Dedicated account manager
+Tailored onboarding
+Volume pricing
+Contact us
+Compare Plans
+See the difference in features
+Free Edition
+No charge
+for up to 10 contributors
+Sign up
+Teams
+Starting at $30
+/ month per contributor
+Contact us
+Enterprise
+Custom pricing available
+Contact us
+Free Edition
+No charge
+for up to 10 contributors
+Sign up
+Teams
+Starting at $30
+/ month per contributor
+Contact us
+Enterprise
+Custom pricing available
+Contact us
+Code (SAST)
+Static Code Analysis engine
+Pro Engine
+Pro Engine
+Pro Engine
+Security Rulesets
+Pro Rules
+Pro Rules
+Pro Rules
+Supported Languages
+35+
+35+
+35+
+Custom Rules
+Cross-function Taint Analysis
+Cross-file Analysis
+Supply Chain (SCA)
+Software Composition Analysis
+Lockfile and Code Scanning
+Reachability Analysis
+Malicious Dependency Detection
+Exploit Prediction Scoring System (EPSS)
+SBOM Generation
+License Compliance Checking
+Dependency Search
+Secrets Detection
+Semantic Analysis
+Entropy Analysis
+Secret Validation
+Historical Scanning (Beta)
+Pre-Commit Hook
+Semgrep Multimodal (AI)
+AI-powered detection
+AI Memories
+Remediation Guidance
+Dependency Upgrade Guidance
+Auto-triage
+Autofix
+Custom AI Model Provider
+AI Credits included in plan
+60
+20 per developer per month
+50 per developer per month
+Source Code Management (SCM)
+Public Repositories
+Unlimited
+Unlimited
+Unlimited
+Private Repositories
+10 max
+500 max
+Unlimited
+Monorepo Support
+Distributed Scans
+Self-managed / on-prem repositories
+Integrations / SDLC
+CLI
+CI/CD Integration
+via Semgrep infrastructure
+via Semgrep infrastructure
+Custom CI/CD integration available
+PR/MR Integration
+AI coding agent plugin
+IDE Plugins: VS Code, Jetbrains
+Slack, Email
+Jira Ticketing
+Wiz Integration
+Palo Alto Networks Cortex Integration
+REST API
+Security & Compliance
+Policy Engine
+Single Sign-on (SSO)
+via GitHub/GitLab only
+OIDC + SAML
+OIDC + SAML
+Role-based Access Control (RBAC)
+Support
+Support Type
+Community-based
+Award-Winning Support
+Award-Winning Support,
+Dedicated account manager
+Training & Onboarding
+Documentation
+Semgrep Academy, Documentation
+Tailored onboarding
+FAQS
+Frequently Asked Questions (FAQs)
+How are contributors counted?
+A contributor is someone who made at least one commit to your organization's private repository scanned by Semgrep in the past 90 days. More information regarding the methodology used to define and calculate the number of contributors is available on our
+usage and billing documentation
+.
+Is there special pricing for security consultants?
+Many of us were security consultants in our previous roles. To inquire about using Semgrep in your consulting work, please
+contact us
+.
+Is there special pricing for early stage startups?
+Yes, and we love startups. To get access to special pricing, please
+contact us
+.
+Is private source code shared with Semgrep?
+If Semgrep runs either locally or fully in your CI pipeline, then no, your source code never leaves your computer or your CI environment. Only meta-data related to Semgrep runs (
+see docs
+) are sent to Semgrep's service.
+If you opt-in to Semgrep’s AI-powered detection, triage and remediation, part of the file that has a finding in it to for processing by a model. Model vendors are not allowed to use the submitted code for training their models.
+If you opt-in to Semgrep Managed Scans, allowing onboarding of repositories and their scanning without the need for per-project provisioning, then Semgrep’s service clones your repository at the beginning of every scan. Once the scan completes, the clone is destroyed and is not persisted anywhere.
+What are private rules? How about Pro rules?
+Users in the Teams and Enterprise tiers for Semgrep can publish rules to the Semgrep Registry as Private rules that are not visible to others outside their organization. The private rules enable you to hide code-sensitive information or legal requirements that prevent you from using a public registry.
+Pro rules are proprietary rules written by our security research team with the goal to provide a set of supported rules with improved coverage (across languages and vulnerability types), leveraging the latest Semgrep features, and providing high-confidence results.
+Loved by Leading Engineering Teams
+Need something
+custom
+?
+Ask us about our Enterprise tier, including customized support plans and feature development.
+Your privacy matters to us. By submitting this form, you agree to our
+Privacy Policy

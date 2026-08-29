@@ -1,0 +1,225 @@
+{
+  "slug": "newrelic",
+  "name": "New Relic",
+  "vendor": "New Relic",
+  "category": "observability",
+  "url": "https://newrelic.com/pricing",
+  "final_url": "https://newrelic.com/pricing",
+  "content_hash": "da3f65b1e9d84fb841bef200a57c99bd8fe1da94ce77cca823bfdda706dc4c54",
+  "raw_hash": "c5f5007b4696e703ff42ca0949d36b441eb406022b1603f46756bf6235badbae",
+  "text_bytes": 15888,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Free",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": "month",
+      "features": [
+        "100 GB data ingest i",
+        "Automatic logs obfuscation i",
+        "Unlimited basic",
+        "One free full platform user",
+        "Access to 50+ capabilities",
+        "Data retention"
+      ]
+    },
+    {
+      "name": "100 GB of free data ingest per month and $0.40/G",
+      "price_raw": "$0.40",
+      "amount": 0.4,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "DATA COSTS (MONTHLY)",
+      "price_raw": "$0.40",
+      "amount": 0.4,
+      "currency": "USD",
+      "period": "user",
+      "features": []
+    },
+    {
+      "name": "Free",
+      "price_raw": "$0.40",
+      "amount": 0.4,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Standard",
+      "price_raw": "$0.40",
+      "amount": 0.4,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Free",
+      "price_raw": "$0.60",
+      "amount": 0.6,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Standard",
+      "price_raw": "$0.60",
+      "amount": 0.6,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Free",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Free",
+      "price_raw": "$49",
+      "amount": 49.0,
+      "currency": "USD",
+      "period": "user",
+      "features": []
+    },
+    {
+      "name": "Free",
+      "price_raw": "$10",
+      "amount": 10.0,
+      "currency": "USD",
+      "period": "user",
+      "features": []
+    },
+    {
+      "name": "$10/first user",
+      "price_raw": "$10",
+      "amount": 10.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "$349/user",
+      "price_raw": "$349",
+      "amount": 349.0,
+      "currency": "USD",
+      "period": "user",
+      "features": []
+    },
+    {
+      "name": "What are the differences between basic, core, an",
+      "price_raw": "$49",
+      "amount": 49.0,
+      "currency": "USD",
+      "period": "user",
+      "features": []
+    },
+    {
+      "name": "What’s Data Plus?",
+      "price_raw": "$0.40",
+      "amount": 0.4,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Advanced logs obfuscation: Create and track rules directly in the log management UI and mask or hash sensitive log data."
+      ]
+    },
+    {
+      "name": "Do you offer pay-as-you-go options?",
+      "price_raw": "$10",
+      "amount": 10.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "How is my monthly bill calculated?",
+      "price_raw": "$0.40",
+      "amount": 0.4,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    }
+  ],
+  "tables": [
+    {
+      "caption": "",
+      "rows": [
+        [
+          "",
+          "Free",
+          "Standard",
+          "Pro",
+          "Enterprise"
+        ],
+        [
+          "DATA COSTS (MONTHLY)"
+        ],
+        [
+          "Option 1: Original data ingest i",
+          "Free 100 GB free i",
+          "Standard $0.40/GB beyond free 100 GB limit",
+          "Pro $0.40/GB beyond free 100 GB limit",
+          "Enterprise Contact Sales"
+        ],
+        [
+          "Option 2: Data Plus data ingest i",
+          "Free",
+          "Standard $0.60/GB beyond free 100 GB limit",
+          "Pro $0.60/GB beyond free 100 GB limit",
+          "Enterprise Contact Sales (includes FedRAMP Moderate and HIPAA eligibility) i"
+        ],
+        [
+          "USER COSTS (MONTHLY) i VIEW PERMISSIONS Basic user permissions include: Basic users can access custom non-quickstart dashboards, queries, alerts, and instrument"
+        ],
+        [
+          "Basic users",
+          "Free $0",
+          "Standard $0",
+          "Pro $0",
+          "Enterprise $0"
+        ],
+        [
+          "Core users",
+          "Free -",
+          "Standard $49/user",
+          "Pro $49/user",
+          "Enterprise $49/user"
+        ],
+        [
+          "Full platform users",
+          "Free One free user",
+          "Standard $10/first user $99/additional user (maximum of 5)",
+          "Pro $349/user (for annual commitments) $418.80/user (for monthly pay as you go) i",
+          "Enterprise Contact Sales"
+        ],
+        [
+          "COMPUTE COSTS (MONTHLY) i"
+        ],
+        [
+          "Compute capacity unit (CCU) tiers i",
+          "Free",
+          "Standard",
+          "Pro Contact Sales",
+          "Enterprise Contact Sales"
+        ],
+        [
+          "",
+          "Free Start for free",
+          "Standard Get Standard",
+          "Pro Get Pro",
+          "Enterprise Get Enterprise"
+        ]
+      ]
+    }
+  ],
+  "extract_errors": []
+}

@@ -1,0 +1,236 @@
+Skip to content
+Product
+Cosmos
+CLI
+Changelog
+Solutions
+Code Review
+Review every PR with agents
+Test Coverage
+Coverage that climbs, suites that stay green
+Incident Management
+Investigate alerts before humans arrive
+Ticket to PR
+Assign a ticket, merge a reviewed PR
+Large Projects
+From design doc to shipped feature
+Automations
+Recurring work as repeatable workflows
+Security Remediation
+From CVE alert to a reviewed fix
+Migrations
+Modernization as a program, not a project
+Onboarding
+Ramp every engineer in days
+Team Standards at Scale
+Your best workflow, everyone's default
+Context Engine
+Pricing
+Docs
+Blog
+Resources
+Workflows
+Podcast
+Books & Guides
+Customers
+Status Page
+Trust Center
+Talk to Sales
+Sign in
+Try Cosmos
+Get Started
+PRICING
+Pricing that scales with you & your team.
+POPULAR
+BUSINESS
+$100
+/month
+flat — no per-seat charge
+One flat price for your whole team — up to 50 seats with $100 of usage included every month.
+Try Cosmos
+$100/mo of usage across LLM, Context Engine & compute
+Up to 50 seats included
+Cosmos
+NEW
+CLI access
+MCP & Native Tools
+Top-ups, pay as you go
+SOC 2 Type II
+No AI training allowed
+ENTERPRISE
+Custom
+For enterprise teams with high volume, security, or support needs.
+Contact sales
+Cosmos
+NEW
+Custom user pricing
+Bespoke usage limits
+Volume-based annual discounts
+SSO, OIDC, & SCIM support
+SOC 2 & Security Reports
+CMEK & ISO 42001 compliance
+Dedicated support
+No AI training allowed
+TRUSTED BY ENGINEERS AT
+Meet our customers
+001
+Compare plans
+BUSINESS
+$100
+ENTERPRISE
+Custom
+BUSINESS
+POPULAR
+$100
+/month
+flat — no per-seat charge
+$100/mo of usage included
+Top-ups, pay as you go
+Up to 50 seats
+Context Engine
+Coding Agent
+Chat & Agents
+CLI access
+MCP & Native Tools
+Usage Analytics
+Cosmos
+Standard size compute
+Daemon mode
+50 concurrent sessions
+Security
+SOC 2 Type II
+CMEK & ISO 42001 Compliance
+SIEM Integration
+Data Residency Options
+Granular Access Controls
+Comprehensive Audit Trails
+Enterprise SSO Integration
+ENTERPRISE
+Custom
+Custom usage
+Custom top-up
+Unlimited users
+Context Engine
+Coding Agent
+Chat & Agents
+CLI access
+MCP & Native Tools
+Usage Analytics
+Cosmos
+Custom size compute
+Multi-region compute
+Daemon mode
+Unlimited concurrent sessions
+Security
+SOC 2 Type II
+CMEK & ISO 42001 Compliance
+SIEM Integration
+Data Residency Options
+Granular Access Controls
+Comprehensive Audit Trails
+Enterprise SSO Integration
+BUSINESS
+$100
+/month
+flat — no per-seat charge
+ENTERPRISE
+Custom
+$100/mo of usage included
+Top-ups, pay as you go
+Up to 50 seats
+Context Engine
+Custom usage
+Custom top-up
+Unlimited users
+Context Engine
+Coding Agent
+Chat & Agents
+CLI access
+MCP & Native Tools
+Usage Analytics
+Chat & Agents
+CLI access
+MCP & Native Tools
+Usage Analytics
+Cosmos
+Standard size compute
+Daemon mode
+50 concurrent sessions
+Custom size compute
+Multi-region compute
+Daemon mode
+Unlimited concurrent sessions
+Security
+SOC 2 Type II
+CMEK & ISO 42001 Compliance
+SIEM Integration
+Data Residency Options
+Granular Access Controls
+Comprehensive Audit Trails
+Enterprise SSO Integration
+SOC 2 Type II
+CMEK & ISO 42001 Compliance
+SIEM Integration
+Data Residency Options
+Granular Access Controls
+Comprehensive Audit Trails
+Enterprise SSO Integration
+002
+Frequently asked questions
+01
+How does usage work on the Business plan?
+The Business plan includes $100 of usage every month, measured in dollars across everything you use:
+LLM
+— model inference, billed at the provider's public API list price
+Service fee
+— a flat 40% fee on LLM usage (no fee on compute)
+Compute
+— Cosmos compute time
+If you use more than your included $100, you can top up as you go — pay only for what you use, with no plan changes required.
+02
+Is usage pooled across my team?
+Yes. Your included usage and any top-ups are pooled across your whole team — up to 50 seats on the Business plan, with no per-seat charge. Heavy users and occasional users draw from the same shared balance, so you never pay for seats that go unused.
+03
+What counts as a seat on the Business plan?
+A seat is any team member with access to your Augment workspace. The Business plan includes up to 50 seats at one flat price of $100/month — there is no per-seat charge. If your team is larger than 50,
+talk to us about Enterprise →
+04
+Do you train on my data on a paid plan?
+No. All paid plans exclude any AI training on your data as part of our Commercial Terms of Service.
+05
+How are you handling Security & Compliance?
+We take security & compliance seriously. In addition to our rigorous encryption and access controls, we undergo annual SOC 2 audits. Visit our Security page to learn more, or head to our Trust Center to request additional details and reports.
+06
+What SLA and support do I get on each plan?
+All paid subscriptions are covered by the same core uptime and response targets described in our SLA and Support Policy. Support channels differ by plan:
+Business:
+Community-based support, plus the ability to file tickets via our support portal at
+support.augmentcode.com
+. Tickets submitted through the portal are handled under our SLA.
+Enterprise:
+Full SLA coverage with dedicated support on top of our standard commitments.
+Trials and beta use:
+Community support only; our SLA does not apply to trials or beta usage.
+Read the full SLA and Support Policy →
+07
+When do my top-ups expire?
+Usage top-ups that are not part of your paid plan are valid 12 months after the date of purchase.
+08
+What is the difference between Code Review and Code Review Enterprise?
+Code Review is available on all plans and provides AI-powered code review for GitHub pull requests. Enterprise Code Review includes additional capabilities:
+Advanced Analytics:
+Dashboard showing reviews performed and comments addressed
+User Allowlists:
+Control which users receive PR reviews
+MCP Configuration:
+Connect to ticketing systems (Jira, Linear), docs (Notion), and other tools for richer context
+Multi-org Support:
+Install on multiple GitHub organizations
+Unlimited Seats & Repos:
+No limits on team size or connected repositories
+Learn more in the docs
+.
+Ready to get started?
+Feel the difference with AI built for production scale codebases.
+Try Cosmos
+Talk to Sales

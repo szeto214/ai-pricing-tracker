@@ -1,0 +1,271 @@
+Simple pricing, built for growth
+Begin for free, invite your team, and scale without limits.
+Free
+$0
+/month
+Get started
+$
+5
+/ month free credits
+20
+concurrent runs
+Unlimited
+tasks
+5
+team members
+Dev and Prod
+environments
+Preview
+branches
+Custom dashboards
+10
+schedules
+1
+day log retention
+1
+day
+query period
+Community support
+1
+alert destination
+10
+concurrent Realtime connections
+Hobby
+$10
+/month
+Get started
+$
+10
+/ month credits included
+50
+concurrent runs
+Unlimited
+tasks
+5
+team members
+Dev, Preview and Prod
+environments
+5
+preview
+branches
+1
+custom
+dashboard
+100
+schedules
+7
+day log retention
+7
+days
+query period
+Community support
+3
+alert destinations
+150
+concurrent Realtime connections
+HIPAA BAA
+add-on
+Request a BAA
+Pro
+$50
+/month
+Get started
+$
+50
+/ month credits included
+200
++
+concurrent runs
+Then $10/month per 50
+Unlimited
+tasks
+25
++
+team members
+Then $20/month per seat
+Dev, Preview and Prod
+environments
+20
++
+preview
+branches
+Then $10/month per branch
+5
++
+custom
+dashboards
+Then $10/month per dashboard
+1000
++
+schedules
+Then $10/month per 1,000
+30
+day log retention
+30
+days
+query period
+Dedicated Slack support
+100
++
+alert destinations
+1000
++
+concurrent Realtime connections
+Then $10/month per 1,000
+AWS PrivateLink
+HIPAA BAA
+add-on
+Request a BAA
+Enterprise
+Custom
+Contact us
+Custom discounts
+All Pro plan features +
+Custom log retention
+Priority support
+Role-based access control (RBAC)
+SOC 2 report
+Penetration test report
+Single sign-on (SSO)
+HIPAA BAA
+add-on
+Request a BAA
+Compute pricing
+Per sec
+Per hour
+Machine
+vCPU
+GB RAM
+Cost/
+sec
+Micro
+0.25
+0.25
+$0.0000169
+Small 1x
+Default
+0.5
+0.5
+$0.0000338
+Small 2x
+1
+1
+$0.0000675
+Medium 1x
+1
+2
+$0.0000850
+Medium 2x
+2
+4
+$0.0001700
+Large 1x
+4
+8
+$0.0003400
+Large 2x
+8
+16
+$0.0006800
+Tasks are executed on our managed workers. You are only charged when your tasks are executing.
+Run pricing
+Cost/run invocation
+$
+0.000025
+($
+0.25
+per 10,000 runs)
+Every run that starts executing on our managed workers is charged an invocation cost in addition to compute costs. Runs in the DEV environment are not charged for.
+Frequently asked questions
+What is a task?
+Tasks are functions that can run for a long time and provide strong resilience to failure. They run on our servers so there are no timeouts and no infrastructure to manage. You can read more about how they work in
+our docs
+.
+Can I self-host Trigger.dev?
+Absolutely. We have a self hosting guide
+right here
+.
+How long can a task run for?
+Tasks can run for as long as you need, with no timeouts.
+Where are my tasks run?
+On our managed infrastructure. Your task code lives in
+trigger
+folders (commonly
+src/trigger
+), and the code inside is bundled and deployed together. You can also
+self-host
+if you prefer.
+How do I estimate my usage?
+Multiply per second machine price by the seconds your run will take. Add the per run invocation cost and multiply by your run count.
+A 10s task that does 100 runs per day on the small-1x machine:
+1 run = (10s × $0.0000338) + $0.000025 = $0.000363
+1 day = 100 × $0.000363 = $0.0363
+1 month = $0.0363 × 30 = $1.09
+How does usage work?
+We charge for usage in 2 ways: the number of seconds of compute your tasks execute for, and the number of runs you do. The
+compute cost
+depends on the machine you've chosen.
+When triggering and waiting for subtasks, the parent is checkpointed and while waiting does not count towards compute usage. When waiting for a time period (wait.for or wait.until), if the wait is longer than 5 seconds we checkpoint and it does not count towards compute usage.
+Are there rate limits?
+Yes. All plans are limited to 1,500 API requests per minute, and you can request a higher limit on paid plans. If you need to trigger many tasks at once, use
+batchTrigger()
+to fit up to 1,000 tasks in a single API call. See the full
+limits docs
+.
+Can I get more concurrency?
+Yes. Concurrency is limited on our Free plan but you can increase your concurrency limit by upgrading to a paid plan. If your tasks require more than the Pro plan limit (
+200
+), you can purchase bundles of
+50
+for
+$10
+per month.
+Do tasks waiting to execute count towards my concurrency limit?
+No. Concurrency limits in Trigger.dev only apply when code is executing. Our built-in
+wait
+functions snapshot the process and restore it later, meaning you don't pay for time spent waiting. This approach allows you to efficiently manage long-running tasks, such as multi-day email marketing flows, without unnecessarily consuming your concurrency limits or incurring costs during idle periods.
+Can I run Trigger.dev locally?
+Yes. Using our CLI you develop your tasks locally with hot reloading.
+What frameworks does Trigger.dev support?
+Trigger.dev is framework agnostic so it works with most JavaScript frameworks. We have created
+guides for popular frameworks
+which provide a great way to get started.
+Can I run AI agents on Trigger.dev?
+Yes. Tasks have no timeouts and survive crashes via durable execution, so agent runs can last minutes or hours without you managing infrastructure. Works with the Vercel AI SDK and any LLM provider, and you can stream responses and tool calls to your frontend with Realtime.
+Can I build complex tasks?
+Yes. There’s no limit to the complexity of tasks you can create. Tasks are created in code so you can write conditional, looping, branching or time delayed logic using normal async code.
+Can I use version control or roll-backs?
+Yes. You create tasks directly in your own code so it’s version controlled with everything else. You can also rollback to previous deploys in the dashboard.
+How long does it take to code a task?
+A simple task triggering using APIs will take about 5 minutes to create.
+Can I use any API I need?
+Yes. You can use any API either by using their SDK or through web requests using fetch or your preferred alternative.
+Is Trigger.dev open source?
+Yes. Trigger.dev is open source using the Apache 2.0 license. We are committed to open source software and working with
+our community
+to build a great product.
+What happens when I use up my monthly credits?
+On paid plans, your tasks keep running. Compute past your included credits is billed at our
+compute usage rates
+. On the Free plan, you'll need to upgrade to keep running tasks once the included $5 of credits is used.
+Can I set spend limits or billing alerts?
+Yes. Configure billing alerts in your dashboard's organization settings. Standard alerts fire at 75%, 90%, 100%, 200%, and 500% of your monthly budget, and spike alerts catch runaway usage at up to 100x. See the
+billing alerts docs
+.
+Do you sign a BAA for HIPAA?
+Yes. A signed Business Associate Agreement is available as a paid add-on, so you can run tasks that process Protected Health Information on Trigger.dev Cloud.
+Request a BAA
+.
+Does Trigger.dev support Python?
+Yes. Trigger.dev supports running Python scripts from inside your TypeScript tasks using our
+Python build extension
+. It handles installing Python and your dependencies during the build, then you call into Python from a task at runtime.
+Ready to start building?
+Build and deploy your first task in 3 mins with no timeouts and no infrastructure to manage.
+Get started for free
+Enterprise
+Custom plans and support for your enterprise needs.
+Contact us
+Self-host
+Trigger.dev is open source and self-hostable.
+Self-hosting docs

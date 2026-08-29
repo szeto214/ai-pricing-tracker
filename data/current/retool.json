@@ -1,0 +1,492 @@
+{
+  "slug": "retool",
+  "name": "Retool",
+  "vendor": "Retool",
+  "category": "automation",
+  "url": "https://retool.com/pricing",
+  "final_url": "https://retool.com/pricing",
+  "content_hash": "da54e11412ba06f3ef4f0e4bf68a35f72e5b8d5d9a85416e7128a8c5720eca65",
+  "raw_hash": "08c2d0fce14c673261deb4fb45920e5c0dca262d86220c2d02129ab66dd719e6",
+  "text_bytes": 15461,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Free",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Enterprise",
+      "price_raw": "$10k",
+      "amount": 10000.0,
+      "currency": "USD",
+      "period": "year",
+      "features": [
+        "Everything in Business, plus...",
+        "SAML/OpenID Connect SSO, SCIM provisioning",
+        "2FA enforcement",
+        "Audit logs with streaming",
+        "Source control (Git)",
+        "Error monitoring and usage analytics",
+        "Managed cloud or blessed self-hosted, up to custom self-hosted and air-gapped deployment",
+        "Up to 6 instances, unlimited spaces",
+        "BYOK for AI, multiple keys",
+        "Secrets Manager integrations",
+        "Full platform APIs, incl. write access and Terraform",
+        "Unlimited end users",
+        "Granular custom roles",
+        "Performance monitoring",
+        "Full white-labeling",
+        "Enterprise support",
+        "1,000 credits/builder + 4,000 pooled AI credits/month; additional packs available §"
+      ]
+    },
+    {
+      "name": "Builder",
+      "price_raw": "$10",
+      "amount": 10.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "$10/month",
+      "price_raw": "$10",
+      "amount": 10.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "$50/month",
+      "price_raw": "$50",
+      "amount": 50.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Internal user",
+      "price_raw": "$5",
+      "amount": 5.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "0-50",
+      "price_raw": "$8",
+      "amount": 8.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Additional runs are available at $75 per 5,000 r",
+      "price_raw": "$75",
+      "amount": 75.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    }
+  ],
+  "tables": [
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Builder Users with full access to create, edit, and deploy apps and workflows.",
+          "Free 250 AI credits/month §",
+          "$10/month 750 + 250 bonus = 1,000 AI credits/month; additional packs available §",
+          "$50/month 1,500 + 1,500 bonus = 3,000 AI credits/month; additional packs available §",
+          "Custom Get pricing ↗ 5,000 + 5,000 bonus = 10,000 AI credits/month; additional packs available §"
+        ],
+        [
+          "Internal user Employees in your organization who use apps for daily work. Includes full SSO and permission (RBAC) controls.",
+          "Free",
+          "$5/month",
+          "$15/month",
+          "Custom Get pricing ↗"
+        ],
+        [
+          "External user Partners, clients, or vendors outside your organization. Supports both secure login portals and public (unauthenticated) app access.",
+          "—",
+          "—",
+          "0-50 Free 51-250 $8/month 251-500 $6/month Over 500 $4/month",
+          "0-50",
+          "Free",
+          "51-250",
+          "$8/month",
+          "251-500",
+          "$6/month",
+          "Over 500",
+          "$4/month"
+        ],
+        [
+          "0-50",
+          "Free"
+        ],
+        [
+          "51-250",
+          "$8/month"
+        ],
+        [
+          "251-500",
+          "$6/month"
+        ],
+        [
+          "Over 500",
+          "$4/month"
+        ],
+        [
+          "User Limits",
+          "Up to 5",
+          "—",
+          "—",
+          "—"
+        ],
+        [
+          "Web apps",
+          "Unlimited",
+          "Unlimited",
+          "Unlimited",
+          "Unlimited"
+        ],
+        [
+          "Authenticated, embedded apps Embed authenticated apps into your business software.",
+          "—",
+          "—",
+          "Included",
+          "Included"
+        ],
+        [
+          "External applications Deploy branded customer-facing portals with built-in user management and permissions. Applications with external user pricing require a cu",
+          "—",
+          "—",
+          "Included",
+          "Included"
+        ],
+        [
+          "Modules Reuse groups of components and queries between Retool applications.",
+          "Up to 5",
+          "Up to 5",
+          "Unlimited",
+          "Unlimited"
+        ],
+        [
+          "App themes Keep apps consistent with visual themes.",
+          "—",
+          "—",
+          "Included",
+          "Included"
+        ],
+        [
+          "Branding Customize headers, sign-up and login pages, email invites, and more, in app presentation mode and for internal users.",
+          "—",
+          "—",
+          "Included",
+          "✓ Full white-labeling"
+        ],
+        [
+          "Mobile apps Build native mobile apps and deploy on iOS, Android, or as a PWA.",
+          "Unlimited",
+          "Unlimited",
+          "Unlimited",
+          "Unlimited"
+        ],
+        [
+          "App themes Keep apps consistent with visual themes.",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Offline mode Read and write data, even when you're not connected to the internet.",
+          "—",
+          "—",
+          "Included",
+          "Included"
+        ],
+        [
+          "Push notifications Get built-in support for writing, customizing, and subscribing mobile users to push notifications.",
+          "—",
+          "—",
+          "Included",
+          "Included"
+        ],
+        [
+          "White-label apps Launch your own branded app to iOS and Android app stores.",
+          "—",
+          "—",
+          "—",
+          "Included"
+        ],
+        [
+          "Biometric authentication Protect access to your app using on-device facial or fingerprint recognition.",
+          "—",
+          "—",
+          "—",
+          "Included"
+        ],
+        [
+          "Workflows runs Every time a workflow successfully executes when triggered counts as a run.",
+          "500/month",
+          "5,000/month Additional runs are available at $75 per 5,000 runs per month.",
+          "5,000/month Additional runs are available at $75 per 5,000 runs per month.",
+          "Custom Get pricing ↗"
+        ],
+        [
+          "Workflows steps Each block on the canvas that transforms, reads from, or writes to your data represents a step in your workflow.",
+          "Unlimited",
+          "Unlimited",
+          "Unlimited",
+          "Unlimited"
+        ],
+        [
+          "Schedule trigger Run your workflow on a set schedule.",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Webhook trigger Trigger event-based workflows with a webhook event or API call.",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Custom error handling Trigger custom error messages and set automatic retry policies in the event of a workflow failure.",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Observability Monitor and track agent behavior",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Evaluations Evaluate and test agents to optimize",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Tuning Control parameters like temperature and max iterations of a wide array of model choices",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Access Control agent and tool access with robust RBAC",
+          "—",
+          "—",
+          "Included",
+          "Included"
+        ],
+        [
+          "Free Hours Useful for experimentation and light automation. Upgrade for larger use cases.",
+          "Up to 20/month Additional capacity is available in Team, Business, or Enterprise plans.",
+          "Up to 20/month Additional capacity scales based on model capability.",
+          "Up to 20/month Additional capacity scales based on model capability.",
+          "Up to 20/month Additional capacity scales based on model capability."
+        ],
+        [
+          "Hourly Rates Pricing varies by model capability",
+          "See docs ↗",
+          "See docs ↗",
+          "See docs ↗",
+          "See docs ↗"
+        ],
+        [
+          "Rows and tables Up to 5GB of stored data.",
+          "Unlimited",
+          "Unlimited",
+          "Unlimited",
+          "Unlimited"
+        ],
+        [
+          "Database editor UI Manage data and schema with filters, sorts, searches, edits, and more.",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Connection strings Get external access to the PostgreSQL database.",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Environments & schema migrations Get isolated tables for each environment in your Retool instance. Migrate schema changes between environments.",
+          "—",
+          "Staging & Production",
+          "Unlimited environments",
+          "Unlimited environments"
+        ],
+        [
+          "Connect to all databases and APIs",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Query library Build, share, and reuse queries for any database or API with Retool's IDE.",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Staging & production resources Test your app against a staging resource (database or API). Switch seamlessly to production resources when in user mode.",
+          "—",
+          "Staging & Production",
+          "Unlimited",
+          "Unlimited"
+        ],
+        [
+          "Resource environment permissions Restrict and manage user access to dev/staging/prod environments.",
+          "—",
+          "—",
+          "Included",
+          "Included"
+        ],
+        [
+          "Version release & history Create and manage releases for your app. Revert to any previous state in its history.",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Rich permission controls Grant data-level and role-based permissions for granular control over app and data access.",
+          "—",
+          "—",
+          "Included",
+          "Included"
+        ],
+        [
+          "Audit logs Track every query run against your databases and APIs, as well as user actions taken in Retool.",
+          "—",
+          "—",
+          "Included",
+          "Included"
+        ],
+        [
+          "Usage analytics Monitor usage across all apps and users.",
+          "—",
+          "—",
+          "—",
+          "Included"
+        ],
+        [
+          "Source control Use branch-based editing processes that are compatible with Git.",
+          "—",
+          "—",
+          "—",
+          "Included"
+        ],
+        [
+          "Custom SSO Integrate with Okta, Active Directory, or any other SAML or OpenID SSO provider.",
+          "—",
+          "—",
+          "—",
+          "Included"
+        ],
+        [
+          "Connect to analytics vendors Send analytics data to Segment, Google Analytics, and other analytics trackers.",
+          "—",
+          "—",
+          "—",
+          "Included"
+        ],
+        [
+          "Environmental configuration variables Easily define and reference environment-specific values and secrets across Retool.",
+          "—",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Flexible spaces Set up independent Workspaces for teams to manage their own apps, permissions, resources, connections, and Git repos.",
+          "—",
+          "—",
+          "—",
+          "Included"
+        ],
+        [
+          "Versatile platform APIs Programmatically manage your Retool projects.",
+          "—",
+          "—",
+          "Limited access",
+          "Full access to all API scopes"
+        ],
+        [
+          "Orchestrated governance Trigger custom logic in response to events in Retool, like org invitations or password reset requests.",
+          "—",
+          "—",
+          "—",
+          "Included"
+        ],
+        [
+          "Access to a technical advisor Get help onboarding and training new teams, and guidance on how to get the most out of Retool.",
+          "—",
+          "—",
+          "—",
+          "Included"
+        ],
+        [
+          "Technical support Retool's Support Engineering team is here to help.",
+          "—",
+          "—",
+          "—",
+          "Included"
+        ],
+        [
+          "Access to professional services Hire a pro to build Retool apps, integrate systems, or do other development work on your behalf.",
+          "—",
+          "Included",
+          "Included",
+          "Included"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "0-50",
+          "Free"
+        ],
+        [
+          "51-250",
+          "$8/month"
+        ],
+        [
+          "251-500",
+          "$6/month"
+        ],
+        [
+          "Over 500",
+          "$4/month"
+        ]
+      ]
+    }
+  ],
+  "extract_errors": []
+}

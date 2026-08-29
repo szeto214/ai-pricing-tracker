@@ -1,0 +1,409 @@
+NVIDIA B300s are coming to Hyperstack — On-Demand in August, reserved private clusters in Q4
+Register Your Interest
+We’ve been made aware of a
+fraudulent website
+impersonating Hyperstack at
+hyperstack.my
+.
+This domain
+is not affiliated with Hyperstack
+or
+NexGen Cloud
+.
+If you’ve been approached or interacted with this site, please contact our team immediately at
+support@hyperstack.cloud
+.
+Skip to content
++44 (0) 203 137 5256
+Login
+Why Hyperstack
+GPU Pricing
+AI Studio
+Cloud GPUs
+Secure Private Cloud
+Spot VMs
+NVIDIA GB200 NVL72
+NVIDIA GB300 NVL72
+NVIDIA HGX B200
+NVIDIA HGX B300
+NVIDIA RTX Pro 6000 SE
+NVIDIA H200 SXM
+NVIDIA H100 SXM
+NVIDIA H100 PCIe
+NVIDIA A100 SXM
+NVIDIA A100
+NVIDIA L40
+NVIDIA RTX A6000
+Product
+Object Storage
+On-Demand Kubernetes
+Resources
+Blog
+Product Updates
+Hyperstack Tutorials
+Performance Benchmarks
+Case Studies
+Documentation
+DevOps Tools
+LLM Inference Toolkit
+Terraform Provider
+SDKs
+Go SDK
+Python SDK
+Support Hub
+Contact
++44 (0) 203 137 5256
+Sign-Up / Login
+Call us
+Sign-Up / Login
+Why Hyperstack
+GPU Pricing
+AI Studio
+Cloud GPUs
+Secure Private Cloud
+Spot VMs
+NVIDIA GB200 NVL72
+NVIDIA GB300 NVL72
+NVIDIA HGX B200
+NVIDIA HGX B300
+NVIDIA RTX Pro 6000 SE
+NVIDIA H200 SXM
+NVIDIA H100 SXM
+NVIDIA H100 PCIe
+NVIDIA A100 SXM
+NVIDIA A100
+NVIDIA L40
+NVIDIA RTX A6000
+Product
+Object Storage
+On-Demand Kubernetes
+Resources
+Blog
+Product Updates
+Hyperstack Tutorials
+Performance Benchmarks
+Case Studies
+Documentation
+DevOps Tools
+LLM Inference Toolkit
+Terraform Provider
+SDKs
+Go SDK
+Python SDK
+Support Hub
+Contact
+AI Cloud Pricing
+Up to 75% more cost-effective than Hyperscalers
+GET STARTED
+AI Cloud
+Pricing
+AI Studio
+Pricing
+AI Cloud
+Pricing
+Accurately track and forecast costs with our transparent and competitive pricing structure, billed per minute. For larger enterprise-scale contracts, please contact us directly.
+On-Demand GPU
+Pricing
+GPU Model
+VRAM (GB)
+Max pCPUs per GPU
+Max RAM (GB) per GPU
+Pricing Per Hour
+NVIDIA H200 SXM
+141
+22
+225
+$3.99
+NVIDIA H100 SXM
+80
+24
+240
+$3.20
+NVIDIA H100 NVLink
+80
+31
+180
+$2.60
+NVIDIA H100
+80
+28
+180
+$2.50
+NVIDIA RTX Pro 6000 SE
+96
+31
+180
+$1.85
+NVIDIA A100 SXM
+80
+24
+120
+$1.60
+NVIDIA A100 NVLink
+80
+31
+240
+$1.40
+NVIDIA A100
+80
+28
+120
+$1.35
+NVIDIA L40
+48
+28
+120
+$1.00
+NVIDIA A6000
+48
+28
+58
+$0.50
+NVIDIA A4000
+16
+6
+24
+$0.15
+NVIDIA B200
+192
+31
+256
+$6.00
+NVIDIA B300
+288
+28
+240
+$7.40
+Reservation
+Pricing
+GPU Model
+Starting from
+Reserve
+NVIDIA H200 SXM
+$2.79
+Reserve here
+NVIDIA H100 SXM
+$2.72
+Reserve here
+NVIDIA H100 NVLink
+$1.82
+Reserve here
+NVIDIA H100
+$1.75
+Reserve here
+NVIDIA A100 SXM
+$1.36
+Reserve here
+NVIDIA RTX Pro 6000 SE
+$1.30
+Reserve here
+NVIDIA A100 NVLink
+$0.98
+Reserve here
+NVIDIA A100
+$0.95
+Reserve here
+NVIDIA L40
+$0.70
+Reserve here
+NVIDIA A6000
+$0.35
+Reserve here
+NVIDIA A4000
+$0.11
+Reserve here
+NVIDIA B200
+$5.10
+Reserve here
+Spot VM
+Pricing
+Learn More
+GPU Model
+Spot VM
+NVIDIA H100 PCIe
+$2.00
+NVIDIA RTX Pro 6000 SE
+$1.48
+NVIDIA A100
+$1.08
+NVIDIA L40
+$0.80
+NVIDIA A6000
+$0.40
+On-Demand CPU
+Pricing
+CPU Flavor
+GPU Cores
+RAM (GB)
+ROOT Disk (GB)
+Pricing Per Hour
+n1-cpu-small
+4
+4
+100
+$0.35
+n1-cpu-medium
+8
+8
+100
+$0.65
+n1-cpu-large
+16
+16
+200
+$1.30
+n1-cpu-xlarge
+16
+32
+100
+$1.90
+n1-cpu-xxlarge
+32
+64
+100
+$3.74
+Storage
+Pricing
+Service
+Pricing
+SSVs
+$0.000096774 per GB per hour (approximately $0.10 per TB per hour).
+Snapshots
+When you create a snapshot, an estimated cost is displayed based on:
+The size of your virtual machine
+Any attached volumes
+Current Cloud-SSD storage rates
+Other Services
+Service
+Pricing
+Public IP address
+0.00672043 per hour
+Egress/Ingress traffic
+Free
+On-Demand Kubernetes
+Free master node
+AI Studio
+Pricing
+Accurately track and forecast costs with our transparent and competitive pricing structure, billed per minute. For larger enterprise-scale contracts, please contact us directly.
+Token-based
+Pricing
+Model
+Input Price (per 1M tokens)
+Output Price (per 1M tokens)
+Llama 3.3 70B
+$0.80
+$0.80
+Llama 3.1 8B
+$0.20
+$0.20
+Mistral Small 3
+$0.40
+$0.40
+OpenAI gpt-oss-120b
+$0.10
+$0.40
+Fine-Tuning
+Pricing
+Time Unit
+Price
+Per Minute
+$0.063
+Frequently
+Asked
+Questions
+Our product support and development go hand in hand to deliver you the best solutions available.
+How can you be 75% cheaper than public cloud providers?
+Optimised performance means optimised cost.
+Public cloud providers offer GPU-acceleration, but most of their hardware and infrastructure is based on CPUs. They might have the same stock - but they do not offer the same service.
+Their GPU solutions are built on legacy architecture, and with that comes hidden costs around every corner.
+We have built a whole ecosystem around enterprise-grade GPUs. Everything, down to our platform, networking, and hardware, is optimised to provide the highest efficiency and speed at the most competitive cost for GPU cloud workloads.
+Do you charge for bandwidth/data transfer?
+No, there are no additional charges for bandwidth or data transfer. We believe in transparent pricing with no hidden costs. All applicable costs are mentioned on our pricing page.
+What is a GPU hour cost?
+The GPU hour cost is calculated based on your usage.
+When will I be billed?
+Hyperstack's on-demand prepaid platform bills you for each minute of use. In the case of longer-term contracts made by reservation, you will be invoiced monthly.
+What forms of payment do you accept?
+We process payments using Stripe; all you have to do is add your credit card details and you're set!
+In longer term contracts made by reservation, we will invoice you every month.
+How do I cancel my account?
+If you wish to cancel your account, please reach out to our Support team at support@hyperstack.cloud. Our team will assist you with the cancellation process and provide further guidance.
+Can I set a billing alert or limit?
+Absolutely. We understand the importance of managing your budget and resources effectively. To help you stay informed, we send email notifications when your account balance reaches specific thresholds: 50%, 70%, 80%, 90% and 100% depletion. Once your balance hits 100%, after a short grace period, your resources will be scheduled for termination, resulting in loss of access.
+What happens when my balance drains?
+Once your account balance is completely drained, your resources are at risk of termination. If you fail to recharge your account within a grace period, access to your resources will be temporarily suspended. However, if you do not recharge your account within one week, your resources may be permanently deleted. We strongly recommend monitoring your account balance and promptly recharging to avoid any disruptions or data loss.
+Or Get
+Directly
+In Touch
+Working on a large-scale project? Contact us directly for longer-term contracts.
+Sales Inquiries
+Email:
+sales@hyperstack.cloud
+Tel:
++44 (0) 203 475 3402
+Career Inquiries
+E-Mail:
+hr@hyperstack.cloud
+Investor Relations
+E-Mail:
+sales@hyperstack.cloud
+Tel:
++44 (0) 203 475 3402
+SIGN UP/LOGIN
+POWERED BY:
+United Kingdom (Head office)
+TechSpace.
+9-13 St Andrew St, 3rd Floor,
+London EC4A 3AF,
+United Kingdom
+Registered Office
+6th Floor, 99 Gresham Street,
+London, EC2V 7NG
+United Kingdom
+Spain
+Ctra NACIONAL 340,
+KM 176
+Local C-12,
+Marbella 29600
+Malaga
+Solutions
+AI
+Rendering
+Machine Learning
+Deep learning
+Virtual Workstations
+High-Performance Computing
+Simulations & Visualisations
+Data Analytics
+Resources
+Blog
+Tutorials
+Case Study
+Performance Benchmarks
+Site map
+Homepage
+Why Hyperstack
+GPU Pricing
+Resources
+Documentation
+Performance Benchmarks
+Careers
+Contact
+Login
+About
+Bug Bounty
+Security
+Products
+NVIDIA HGX SXM5 H100
+NVIDIA H100 PCIe
+NVIDIA A100
+NVIDIA L40
+NVIDIA RTX A6000
+NVIDIA HGX B200
+NVIDIA H200 SXM
+Legal
+T&Cs
+SLAs
+Privacy Policy
+Data processing
+® 2026 Hyperstack. All rights reserved. The Hyperstack logo is a registered trademark of NexGen Cloud Ltd. in the UK. Other company and product names be trademarks of the respective companies with which they are associated.

@@ -1,0 +1,237 @@
+Skip to main content
+New features for faster build and reliable AI |
+See what you missed at Replay 2026 ›
+pricing
+Scale with Pay-As-You-Go Pricing
+Save with volume discounts and commitments.
+Estimate costs with the pricing
+calculator
+.
+Get started for free with $1,000 in credits
+Essentials
+Starting at $100/mo.
+Get Started
+For basic workflows
+1 M Actions
+1 GB Active Storage
+40 GB Retained Storage
+Cloud platform
+99.9% SLA, 99.99% HA options
+Multi-Cloud & Multi-Region
+User Roles
+Service Accounts & API Keys
+Audit Logging
+Workflow Management
+Workflow Availability
+Essentials support with
+1 business day P0 response time
+Core platform configuration
+Business
+Starting at $500/mo.
+Get Started
+For teams scaling Temporal
+2.5 M Actions
+2.5 GB Active Storage
+100 GB Retained Storage
+Commitments
+Cloud platform
+Everything in Essentials
+SAML SSO included
+SCIM add-on
+Business support with
+2 business hours P0 response times
+Workflow troubleshooting
+Worker configuration
+SDK implementation
+Enterprise
+Contact Sales
+Contact Sales
+For enterprise and Mission Critical
+10 M Actions
+10 GB Active Storage
+400 GB Retained Storage
+Commitments
+Cloud platform
+Everything in Business
+SAML SSO included
+SCIM included
+Enterprise support with
+24/7, 30 minute P0
+Usage optimization
+Technical onboarding
+Design review
+Worker tuning
+Senior support staff
+Cost reviews
+Security and contract reviews
+For more support
+Mission Critical add-on
+Dedicated Platform Architect add-on
+Prefer plain text? View our
+pricing in Markdown
+for easy reference and AI agents.
+are you a startup under $30M?
+Temporal Startup Program
+Our startup program offers $6,000 in free Temporal Cloud credits to
+startups with less than $30M in funding.
+Apply Now
+Pay-As-You-Go
+Peek under the hood at how we calculate pricing for your usage across
+Actions, Capacity, Storage, and Support.
+YOUR WORKFLOW BUILDING BLOCKS
+Actions
+Actions represent billable operations between your application and
+Temporal Cloud.
+Write your business logic as code in a Temporal Workflow using our
+open-source SDKs, and the Temporal Service maps your Workflow Events to
+Temporal Cloud Actions to track your usage.
+Actions
+Price per Million Actions
+First Actions
+Included in the Temporal Cloud Plan
+Next 5M
+$50
+Next 5M
+$45
+Next 10M
+$40
+Next 30M
+$35
+Next 50M
+$30
+Next 100M
+$25
+Over 200M
+Contact Sales
+Pro Tip:
+More discounts, helpful humans.
+CHOOSE HOW YOU SCALE
+Capacity
+By default, all Namespaces start with On-Demand mode at 500 APS, scaling
+automatically based on 7-day usage.
+Optionally, you can switch to Provisioned to set capacity with Temporal
+Resource Units (TRUs), each adding 500 APS. You'll get a base number of
+Actions/hr, and pay only for usage beyond that.
+Capacity
+APS
+Required Actions/hr
+On Demand
+500
+Any Usage
+Scales based on usage from last 7 days
+Pro­visioned
+500/TRU
+Any Usage
+Each additional TRU @ 360,000 Actions/hr
+EVENT HISTORY AND RETENTION
+Storage
+Temporal stores workflow event history as Active storage for open
+workflows and Retained Storage for closed workflows
+Storage
+Price per GBh
+Active Storage
+$0.042
+GBh
+Retained Storage
+$0.00105
+GBh
+SERVICE LEVEL AND PLAN FEE
+Support
+Temporal Cloud Plans charge the greater of your monthly plan or
+5%-10%
+of usage as you scale to maintain your level of support
+Pricing Calculator
+Do you feel like doing some math? Well? Do ya?
+Show the Calculator
+For a full breakdown of our pricing structure, view our
+pricing documentation
+.
+Note:
+There may be additional cost for optional add-on
+capabilities.
+Compare All Features
+Essentials
+Business
+Enterprise
+Mission Critical
+Pick a plan and get started.
+Starting at $100/mo
+Get Started
+Starting at $500/mo
+Get Started
+Custom
+Contact Sales
+Custom
+Contact Sales
+Plans
+Actions
+Workflow building blocks that measure billable operations between your application and Temporal Cloud
+<count>
+<count>
+<count>
+<count>
+Additional Actions
+Starting at $50/Per Million Actions
+Volume Discounts down to
+$25/Per Million Actions
+Capacity
+On-Demand: APS scales with your past 7-day usage (min. 500 APS)
+Provisioned: Set your own APS with Temporal Resource Units (500
+per TRU, 360k Actions/hr)
+Storage
+1 GB Active
+40 GB Retained
+2.5 GB Active
+100 GB Retained
+10 GB Active
+400 GB Retained
+10 GB Active
+400 GB Retained
+Additional Storage
+Active: $0.042/per GBh
+Retained: $0.00105/per GBh
+Commitments
+Commitments with additional discounts
+Workflow Orchestration
+Platform
+Security and Governance
+Support
+Ready to get started?
+Start free or talk to our team.
+Get Started
+Get Started
+Contact Sales
+Contact Sales
+Host It Yourself
+Open Source
+Temporal Self-Hosted
+Open Source
+Everything you need, on your infra.
+Temporal Service
+Temporal SDKs
+Temporal CLI
+Temporal UI
+Community Support
+Temporal Service
+Temporal SDKs
+Temporal CLI
+Temporal UI
+Community Support
+Run Locally
+FAQs
+What is included in the base fee?
+What is an Action and how can I estimate how many I need?
+Do you offer any discounts or commitments?
+Why is a credit card required for the free trial?
+Will my credit card be charged during my trial?
+Why do I get $1,000 in credits if the base plan is $100/month?
+What happens when my free trial expires or if I run out of credits?
+Do I need a company credit card to sign up?
+Will I get alerts if I'm nearing my usage limits during the trial?
+Can I still explore Temporal even if I'm not ready to sign up for Temporal Cloud Trial?
+Does Temporal offer Professional Services?
+Still have questions? Get in touch with us.
+Talk to an Expert
+Get paid back for downtime
+Temporal Cloud guarantees availability, backed by an SLA.
+Try for Free

@@ -1,0 +1,111 @@
+{
+  "slug": "warp",
+  "name": "Warp",
+  "vendor": "Warp",
+  "category": "ai-coding",
+  "url": "https://www.warp.dev/pricing",
+  "final_url": "https://www.warp.dev/pricing",
+  "content_hash": "f5de1c40b045b061860205f2a958378147ae5cbc3943481eeaabb43cfa0ecce6",
+  "raw_hash": "b0b6c4098c78b540134c2defe36bc8fa3074994866583c2f9aabd6910fe10a0d",
+  "text_bytes": 8597,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Warp Factories, now in Early Access — select tea",
+      "price_raw": "$10,000",
+      "amount": 10000.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Free",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Build",
+      "price_raw": "$20",
+      "amount": 20.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Max",
+      "price_raw": "$200",
+      "amount": 200.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Business",
+      "price_raw": "$50",
+      "amount": 50.0,
+      "currency": "USD",
+      "period": "user",
+      "features": []
+    },
+    {
+      "name": "Build",
+      "price_raw": "$18",
+      "amount": 18.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Max",
+      "price_raw": "$180",
+      "amount": 180.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Business",
+      "price_raw": "$45",
+      "amount": 45.0,
+      "currency": "USD",
+      "period": "user",
+      "features": []
+    },
+    {
+      "name": "Warp Factories, now in Early Access",
+      "price_raw": "$10,000",
+      "amount": 10000.0,
+      "currency": "USD",
+      "period": null,
+      "features": [
+        "Create and run factories with the Warp Agent",
+        "Automate from GitHub, Slack, webhooks, and schedules",
+        "Insights like cost per PR and automation rate",
+        "Factory config as code in a Warp-managed repo",
+        "Pay-as-you-go usage, 20% markup, no subscription",
+        "Factory usage covered by your plan's included credits",
+        "20% savings over pay-as-you-go, at API rates",
+        "Additional usage priced at API rates",
+        "Private email support",
+        "12x Build's included factory usage",
+        "More compute per cloud agent run",
+        "Additional usage priced at API rates",
+        "Up to 25 seats, with per-seat included credits",
+        "Advanced factory insights and team usage metrics",
+        "SAML-based SSO",
+        "Admin-configurable data controls with ZDR",
+        "Unlimited seats with custom shared usage pools",
+        "Self-hosted workers on your own infrastructure",
+        "Your own code forge for factory config",
+        "BYOLLM inference at no credit cost",
+        "Dedicated implementation engineer"
+      ]
+    }
+  ],
+  "tables": [],
+  "extract_errors": []
+}

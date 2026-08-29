@@ -1,0 +1,277 @@
+{
+  "slug": "activepieces",
+  "name": "Activepieces",
+  "vendor": "Activepieces",
+  "category": "automation",
+  "url": "https://www.activepieces.com/pricing",
+  "final_url": "https://www.activepieces.com/pricing",
+  "content_hash": "9105bc926950796a65680780d247a855d680249ac4c620032f43a8fb27c7a37f",
+  "raw_hash": "b7cec900f9c681c10c8e879d1694c9d4f48921d005c36b047696acf469402cd6",
+  "text_bytes": 8757,
+  "extractor": "jsonld",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Plus plan",
+      "price_raw": "20",
+      "amount": 20.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Team plan",
+      "price_raw": "200",
+      "amount": 200.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    }
+  ],
+  "tables": [
+    {
+      "caption": "Activepieces plan comparison",
+      "rows": [
+        [
+          "Pricing"
+        ],
+        [
+          "Price",
+          "$0",
+          "$16/mo",
+          "$166/mo",
+          "Talk to us"
+        ],
+        [
+          "Hosting",
+          "Cloud or on-prem",
+          "Cloud or on-prem",
+          "Cloud or on-prem",
+          "Cloud or on-prem"
+        ],
+        [
+          "Credits"
+        ],
+        [
+          "Credits included",
+          "100 a day",
+          "10,000 a month",
+          "50,000 a month",
+          "Custom, pooled yearly"
+        ],
+        [
+          "What one credit buys",
+          "One full flow run",
+          "One full flow run",
+          "One full flow run",
+          "One full flow run"
+        ],
+        [
+          "Past your allowance",
+          "Runs wait for tomorrow",
+          "$0.007 per extra credit",
+          "$0.007 per extra credit",
+          "Custom"
+        ],
+        [
+          "Limits"
+        ],
+        [
+          "Users",
+          "Just you",
+          "Up to 5",
+          "25 included, then $25/user/mo",
+          "Custom"
+        ],
+        [
+          "Flows",
+          "Unlimited",
+          "Unlimited",
+          "Unlimited",
+          "Unlimited"
+        ],
+        [
+          "Products"
+        ],
+        [
+          "Flows",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Agents and Chat",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Tables",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Projects",
+          "Not included",
+          "Not included",
+          "Unlimited",
+          "Unlimited"
+        ],
+        [
+          "MCPs",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Capabilities"
+        ],
+        [
+          "Bring your own AI keys",
+          "Not included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Global connections",
+          "Not included",
+          "Not included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Team analytics",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "API access",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Releases and Git Sync",
+          "Not included",
+          "Not included",
+          "Not included",
+          "Included"
+        ],
+        [
+          "Priority execution",
+          "Not included",
+          "Not included",
+          "Not included",
+          "Included"
+        ],
+        [
+          "Per-project execution priority",
+          "Not included",
+          "Not included",
+          "Not included",
+          "Included"
+        ],
+        [
+          "Enterprise features"
+        ],
+        [
+          "SSO",
+          "Not included",
+          "Not included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Standard roles",
+          "Not included",
+          "Not included",
+          "Included",
+          "Included"
+        ],
+        [
+          "SCIM",
+          "Not included",
+          "Not included",
+          "Not included",
+          "Included"
+        ],
+        [
+          "Custom RBAC",
+          "Not included",
+          "Not included",
+          "Not included",
+          "Included"
+        ],
+        [
+          "Secret managers",
+          "Not included",
+          "Not included",
+          "Not included",
+          "Included"
+        ],
+        [
+          "Audit logs",
+          "Not included",
+          "Not included",
+          "Not included",
+          "Included"
+        ],
+        [
+          "Event streaming",
+          "Not included",
+          "Not included",
+          "Not included",
+          "Included"
+        ],
+        [
+          "Private pieces",
+          "Not included",
+          "Not included",
+          "Not included",
+          "Included"
+        ],
+        [
+          "Branding",
+          "Not included",
+          "Not included",
+          "Not included",
+          "Included"
+        ],
+        [
+          "Platform governance",
+          "Not included",
+          "Not included",
+          "Not included",
+          "Included"
+        ],
+        [
+          "Custom terms and invoicing",
+          "Not included",
+          "Not included",
+          "Not included",
+          "Included"
+        ],
+        [
+          "Support"
+        ],
+        [
+          "Support by Humans",
+          "Community",
+          "Community",
+          "Email",
+          "Dedicated"
+        ]
+      ]
+    }
+  ],
+  "extract_errors": []
+}

@@ -1,0 +1,97 @@
+{
+  "slug": "inngest",
+  "name": "Inngest",
+  "vendor": "Inngest",
+  "category": "automation",
+  "url": "https://www.inngest.com/pricing",
+  "final_url": "https://www.inngest.com/pricing",
+  "content_hash": "74d2187cf9c2adace5a64eb5f89fc5a0af606ea3a70974657d17dee79e778b87",
+  "raw_hash": "8153ad4d316d8c867d90ca06daa1f147b96cfca0473dd894f680bb188af7182c",
+  "text_bytes": 6126,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Hobby",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Pro",
+      "price_raw": "$99",
+      "amount": 99.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Base price",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Concurrent steps",
+      "price_raw": "$25",
+      "amount": 25.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Users",
+      "price_raw": "$10",
+      "amount": 10.0,
+      "currency": "USD",
+      "period": "user",
+      "features": []
+    },
+    {
+      "name": "Workers",
+      "price_raw": "$10",
+      "amount": 10.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Events",
+      "price_raw": "$0.5",
+      "amount": 0.5,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Span data ingested",
+      "price_raw": "$3",
+      "amount": 3.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Scores",
+      "price_raw": "$1.50",
+      "amount": 1.5,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Advanced observability",
+      "price_raw": "$300",
+      "amount": 300.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    }
+  ],
+  "tables": [],
+  "extract_errors": []
+}

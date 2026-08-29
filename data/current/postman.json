@@ -5,9 +5,9 @@
   "category": "productivity",
   "url": "https://www.postman.com/pricing/",
   "final_url": "https://www.postman.com/pricing/",
-  "content_hash": "eecbd2a3df0c56f732247fc15e5bd3819cd450e1efdd5f31b546711e4eeeba11",
-  "raw_hash": "8a5cfd34ad68e0ceaef189a1d0b9e1d4d202abd6867c73c2b7d5002049fe34a8",
-  "text_bytes": 26702,
+  "content_hash": "33f8e7be7e43cdec6c4d004182f559aad60d1b3dc1512afd8bfeba2e2da83513",
+  "raw_hash": "8f9936805a7733889d930504da419bba49e67a33d64425bfbe6dadec0b1b71de",
+  "text_bytes": 23387,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -89,11 +89,43 @@
       "features": []
     },
     {
+      "name": "Cloud performance testing",
+      "price_raw": "$0.04",
+      "amount": 0.04,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Postman AI",
+      "price_raw": "$0.04",
+      "amount": 0.04,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Postman AI",
+      "price_raw": "$0.05",
+      "amount": 0.05,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
       "name": "Postman AI overages (Pay-as-you-go)",
       "price_raw": "$0.04",
       "amount": 0.04,
       "currency": "USD",
       "period": "credit",
+      "features": []
+    },
+    {
+      "name": "Postman AI",
+      "price_raw": "$0.04",
+      "amount": 0.04,
+      "currency": "USD",
+      "period": "user",
       "features": []
     },
     {
@@ -124,31 +156,6 @@
         "Securely reuse sensitive data with Azure Key Vault, HashiCorp Vault, AWS Secrets Manager, and 1Password.",
         "Configure and apply custom patterns across all secret scanning capabilities, including local secret protection, cloud secret detection, and Agent Mode guardrails.",
         "Bring Your Own Key (BYOK) encryption to protect sensitive data in compliance with industry standards."
-      ]
-    },
-    {
-      "name": "Monitoring",
-      "price_raw": "$20",
-      "amount": 20.0,
-      "currency": "USD",
-      "period": "month",
-      "features": [
-        "Monitor individual endpoints or entire APIs",
-        "Track HTTP response codes and failures",
-        "Measure latency over time",
-        "Get alerted when tests fail"
-      ]
-    },
-    {
-      "name": "Flows Credits",
-      "price_raw": "$1",
-      "amount": 1.0,
-      "currency": "USD",
-      "period": null,
-      "features": [
-        "Track request volume and trends over time",
-        "Flows credits power API orchestration and automation steps within Postman Flows.",
-        "Use Flows to design and run API-driven workflows across systems using a visual builder. Credits are consumed as flows execute and perform usage-based operations."
       ]
     }
   ],
@@ -345,7 +352,7 @@
           ""
         ],
         [
-          "Automated API testing (Unlimited, Collection Runner) Multi-protocol Runner Data file support in Collection Runner Performance testing (unlimited runs) Playwrigh",
+          "Automated API testing (Unlimited, Collection Runner) Multi-protocol Runner Data file support in Collection Runner Datasets Unlimited local performance testing C",
           "Automated API testing (Unlimited, Collection Runner)",
           "",
           "",
@@ -380,11 +387,25 @@
           ""
         ],
         [
-          "Performance testing (unlimited runs)",
+          "Datasets",
           "",
           "",
           "",
           ""
+        ],
+        [
+          "Unlimited local performance testing",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Cloud performance testing",
+          "$0.04 / VuH",
+          "$0.04 / VuH",
+          "$0.04 / VuH",
+          "Beta"
         ],
         [
           "Playwright integration",
@@ -735,20 +756,6 @@
           "",
           "",
           "Advanced Security add-on"
-        ],
-        [
-          "Advanced secret security controls",
-          "",
-          "",
-          "",
-          "Advanced Security add-on"
-        ],
-        [
-          "Account Discovery",
-          "",
-          "",
-          "",
-          "Advanced Security add-on"
         ]
       ]
     },
@@ -920,11 +927,25 @@
           ""
         ],
         [
-          "Performance testing (unlimited runs)",
+          "Datasets",
           "",
           "",
           "",
           ""
+        ],
+        [
+          "Unlimited local performance testing",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Cloud performance testing",
+          "$0.04 / VuH",
+          "$0.04 / VuH",
+          "$0.04 / VuH",
+          "Beta"
         ],
         [
           "Playwright integration",

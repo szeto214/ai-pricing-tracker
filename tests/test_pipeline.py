@@ -243,6 +243,44 @@ def test_secret_redaction() -> None:
     check("harga di halaman yang sama tetap utuh", "$39" in text, f"-> {text!r}")
 
 
+def test_plan_name_sanity() -> None:
+    """Regresi dari snapshot ketiga (29/08/2026).
+
+    Ringkasan melaporkan "Perubahan harga: 4", padahal keempatnya palsu:
+    judul bagian ("Everything in Pro and:"), nama model ("Kimi K2.7 Code"),
+    dan bahkan angka harga ("$4.00") terbaca sebagai NAMA PAKET, lalu
+    penambahan/penghapusannya dihitung sebagai perubahan harga. Metrik itu
+    yang menentukan gerbang bulan ke-3 — kalau menggelembung, gerbangnya
+    kehilangan arti.
+    """
+    print("\n3c. saringan nama paket")
+    from collector.extract import _plausible_plan_name as ok
+
+    for bad in ["Everything in Pro and:", "Everything in Free and", "$4.00",
+                "1.234", "Includes everything in Team:", "", "x",
+                "Get started free", "Contact sales"]:
+        check(f"tolak nama palsu: {bad!r}", not ok(bad))
+    for good in ["Pro", "Business", "Free", "Team", "Scale", "Enterprise",
+                 "Pay as you go", "Hobby"]:
+        check(f"terima nama sah: {good!r}", ok(good))
+
+    # Sampah di kedua sisi tidak boleh menghasilkan peristiwa apa pun.
+    old = [{"name": "Pro", "amount": 20.0, "period": "month", "features": []},
+           {"name": "Everything in Pro and:", "amount": 0.0, "features": []}]
+    new = [{"name": "Pro", "amount": 20.0, "period": "month", "features": []}]
+    check("sampah hilang dari rekaman -> nol peristiwa",
+          diff_plans(old, new) == [], f"-> {diff_plans(old, new)}")
+
+    # Penghapusan paket SUNGGUHAN tetap harus tercatat.
+    real = diff_plans(
+        [{"name": "Free", "amount": 0.0, "features": []},
+         {"name": "Pro", "amount": 20.0, "features": []}],
+        [{"name": "Pro", "amount": 20.0, "features": []}])
+    check("penghapusan paket sungguhan tetap tercatat",
+          any(e["type"] == "plan_removed" and e["plan"] == "Free" for e in real),
+          f"-> {real}")
+
+
 def test_diff() -> None:
     print("\n3. pembanding")
     old = [
@@ -429,6 +467,7 @@ def main() -> int:
     test_site_chrome_noise()
     test_extraction()
     test_secret_redaction()
+    test_plan_name_sanity()
     test_diff()
     test_end_to_end()
 

@@ -48,9 +48,35 @@ NAME_HINT_RE = re.compile(r"title|name|plan|tier|heading|header", re.I)
 
 _BAD_NAME_RE = re.compile(
     r"^\s*(get started|start free|contact sales|talk to sales|sign up|try |"
-    r"learn more|compare|see all|buy now|choose|select|upgrade|book a demo)",
+    r"learn more|compare|see all|buy now|choose|select|upgrade|book a demo|"
+    # Judul penyambung antar-kolom tabel perbandingan, bukan nama paket.
+    # Snapshot 29/08 mencatat "Everything in Pro and:" sebagai paket dihapus.
+    r"everything in|includes everything|all features|plus everything)",
     re.I,
 )
+
+
+def _plausible_plan_name(name: str) -> bool:
+    """Saringan terakhir sebelum sesuatu diakui sebagai nama paket.
+
+    Penambahan/penghapusan paket dihitung sebagai `price_change` — metrik yang
+    menentukan gerbang bulan ke-3. Kalau judul bagian atau nama model ikut
+    terbaca sebagai paket, metrik itu jadi menggelembung dan gerbangnya
+    kehilangan arti. Lebih baik kehilangan satu paket asli daripada
+    memasukkan sepuluh yang palsu.
+    """
+    n = (name or "").strip()
+    if not (1 < len(n) <= 48):
+        return False
+    if n.endswith(":"):                    # "Everything in Pro and:"
+        return False
+    if PRICE_RE.search(n):                 # "$4.00" terbaca sebagai nama
+        return False
+    if _BAD_NAME_RE.match(n):
+        return False
+    if not re.search(r"[A-Za-z]", n):      # angka atau simbol saja
+        return False
+    return True
 
 PERIOD_CANON = {
     "mo": "month", "month": "month",
@@ -200,16 +226,20 @@ def _card_for(node, max_up: int = 8):
 
 
 def _plan_name(card) -> str:
+    """Kembalikan "" kalau tidak ada kandidat yang meyakinkan — bukan tebakan."""
     for tag in card.find_all(["h1", "h2", "h3", "h4", "h5", "h6"], limit=4):
         t = tag.get_text(" ", strip=True)
-        if t and 1 < len(t) <= 48 and not PRICE_RE.search(t) and not _BAD_NAME_RE.match(t):
+        if _plausible_plan_name(t):
             return t
     for tag in card.find_all(attrs={"class": NAME_HINT_RE}, limit=8):
         t = tag.get_text(" ", strip=True)
-        if t and 1 < len(t) <= 48 and not PRICE_RE.search(t) and not _BAD_NAME_RE.match(t):
+        if _plausible_plan_name(t):
             return t
+    # Cadangan: baris pertama kartu — TETAP harus lolos saringan yang sama.
+    # Versi lama mengembalikan baris pertama apa adanya, dan itulah yang
+    # memasukkan "$4.00" sebagai nama paket pada snapshot 29/08.
     first = card.get_text("\n", strip=True).split("\n")[0]
-    return first[:48] if first else "?"
+    return first if _plausible_plan_name(first) else ""
 
 
 def _features(card, limit: int = 25) -> list[str]:

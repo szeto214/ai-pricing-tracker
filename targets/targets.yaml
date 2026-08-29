@@ -519,7 +519,7 @@ targets:
 
   # ----- AI media -----
   - {slug: leonardo-ai,  name: Leonardo.Ai,       vendor: Canva,        category: ai-media, url: "https://leonardo.ai/pricing/", enabled: false, notes: "validasi #3: HTTP 403 — bot diblokir"}
-  - {slug: ideogram,     name: Ideogram,          vendor: Ideogram,     category: ai-media, url: "https://ideogram.ai/pricing"}
+  - {slug: ideogram,     name: Ideogram,          vendor: Ideogram,     category: ai-media, url: "https://ideogram.ai/pricing", enabled: false, notes: "validasi #3: HTTP 404; URL diperbaiki lalu jadi HTTP 403 pada snapshot 29/08 — bot diblokir"}
   - {slug: heygen,       name: HeyGen,            vendor: HeyGen,       category: ai-media, url: "https://www.heygen.com/pricing"}
   - {slug: synthesia,    name: Synthesia,         vendor: Synthesia,    category: ai-media, url: "https://www.synthesia.io/pricing"}
   - {slug: descript,     name: Descript,          vendor: Descript,     category: ai-media, url: "https://www.descript.com/pricing"}

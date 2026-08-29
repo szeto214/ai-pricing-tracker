@@ -10,10 +10,21 @@ def _plan_key(plan: dict) -> str:
 
 
 def _plan_index(plans: list[dict]) -> dict[str, dict]:
+    """Saring nama paket yang tidak masuk akal di KEDUA sisi perbandingan.
+
+    Penambahan/penghapusan paket dihitung sebagai `price_change`, dan itu
+    metrik yang menentukan gerbang bulan ke-3. Judul bagian seperti
+    "Everything in Pro and:" atau nama model yang kebetulan terbaca sebagai
+    paket akan menggelembungkan metrik itu. Karena penyaringan dilakukan di
+    kedua sisi, sampah lama di rekaman kemarin tidak ikut tercatat sebagai
+    "paket dihapus" hari ini.
+    """
+    from .extract import _plausible_plan_name
+
     out: dict[str, dict] = {}
     for p in plans or []:
         key = _plan_key(p)
-        if key and key not in out:
+        if key and key not in out and _plausible_plan_name(p.get("name", "")):
             out[key] = p
     return out
 

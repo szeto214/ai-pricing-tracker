@@ -6,7 +6,7 @@
   "url": "https://www.notion.com/pricing",
   "final_url": "https://www.notion.com/pricing",
   "content_hash": "acfbecaae4c3414f31e9ee0c2d6dbfd622a22a2fae118190bc5932da8a0e8be0",
-  "raw_hash": "16f635c0108a17b741ed000ddc494f63b8be28b71edb6ff047a2ca01cac597d7",
+  "raw_hash": "d1d6d2ea24d577b20806366400c0916e8207e883c452c3976d600b82b00b604f",
   "text_bytes": 21094,
   "extractor": "dom",
   "confidence": "medium",
@@ -49,22 +49,6 @@
       "amount": 0.0,
       "currency": "USD",
       "period": "seat",
-      "features": []
-    },
-    {
-      "name": "AI agents handle repetitive tasks autonomously, ",
-      "price_raw": "$10",
-      "amount": 10.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "Connect a custom domain to your Site and remove ",
-      "price_raw": "$8",
-      "amount": 8.0,
-      "currency": "USD",
-      "period": "month",
       "features": []
     }
   ],

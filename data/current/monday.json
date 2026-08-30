@@ -6,21 +6,13 @@
   "url": "https://monday.com/pricing",
   "final_url": "https://monday.com/pricing",
   "content_hash": "797de32432de966a694b4ab0eabd9de16928e3359e61bbe1e575e4aaa0f9a85d",
-  "raw_hash": "fe98c91f5dbef1ec868bb3fa4007f8565877d129ff247689eca70f5330157724",
+  "raw_hash": "1043d4c679a3042afb57c3982c80d0981b41709d0b5aff42d47178e65b28cb73",
   "text_bytes": 50871,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
     {
       "name": "Free",
-      "price_raw": "$ 0",
-      "amount": 0.0,
-      "currency": "USD",
-      "period": "month",
-      "features": []
-    },
-    {
-      "name": "$",
       "price_raw": "$ 0",
       "amount": 0.0,
       "currency": "USD",
@@ -40,14 +32,6 @@
       ]
     },
     {
-      "name": "$9 x 10 seats =",
-      "price_raw": "$9",
-      "amount": 9.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
       "name": "Standard",
       "price_raw": "$ 12",
       "amount": 12.0,
@@ -60,14 +44,6 @@
         "Turn any business need into a custom business app in minutes Vibe app builder",
         "AI columns run your repetitive work directly within your boards, so you can focus on your main priorities AI columns"
       ]
-    },
-    {
-      "name": "$12 x 10 seats =",
-      "price_raw": "$12",
-      "amount": 12.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
     },
     {
       "name": "Pro",
@@ -85,27 +61,11 @@
       ]
     },
     {
-      "name": "$19 x 10 seats =",
-      "price_raw": "$19",
-      "amount": 19.0,
+      "name": "Our customers achieve more",
+      "price_raw": "$250K",
+      "amount": 250000.0,
       "currency": "USD",
       "period": null,
-      "features": []
-    },
-    {
-      "name": "$",
-      "price_raw": "$ 31",
-      "amount": 31.0,
-      "currency": "USD",
-      "period": "month",
-      "features": []
-    },
-    {
-      "name": "$",
-      "price_raw": "$ 45",
-      "amount": 45.0,
-      "currency": "USD",
-      "period": "month",
       "features": []
     }
   ],

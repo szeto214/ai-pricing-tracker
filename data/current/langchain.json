@@ -66,30 +66,6 @@
       "currency": "USD",
       "period": "seat",
       "features": []
-    },
-    {
-      "name": "LangChain Compute Unit (LCU):",
-      "price_raw": "$1.50",
-      "amount": 1.5,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "LangChain Storage Unit (LSU):",
-      "price_raw": "$1.00",
-      "amount": 1.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "Engine is metered in LCUs (LangChain Compute Uni",
-      "price_raw": "$1.50",
-      "amount": 1.5,
-      "currency": "USD",
-      "period": null,
-      "features": []
     }
   ],
   "tables": [],

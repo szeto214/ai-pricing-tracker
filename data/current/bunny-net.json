@@ -46,14 +46,6 @@
       ]
     },
     {
-      "name": "$1 Monthly Minimum",
-      "price_raw": "$1",
-      "amount": 1.0,
-      "currency": "USD",
-      "period": "month",
-      "features": []
-    },
-    {
       "name": "bunny.net",
       "price_raw": "$50",
       "amount": 50.0,

@@ -27,14 +27,6 @@
       ]
     },
     {
-      "name": "100 GB of free data ingest per month and $0.40/G",
-      "price_raw": "$0.40",
-      "amount": 0.4,
-      "currency": "USD",
-      "period": "month",
-      "features": []
-    },
-    {
       "name": "DATA COSTS (MONTHLY)",
       "price_raw": "$0.40",
       "amount": 0.4,
@@ -94,30 +86,6 @@
       "name": "Free",
       "price_raw": "$10",
       "amount": 10.0,
-      "currency": "USD",
-      "period": "user",
-      "features": []
-    },
-    {
-      "name": "$10/first user",
-      "price_raw": "$10",
-      "amount": 10.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "$349/user",
-      "price_raw": "$349",
-      "amount": 349.0,
-      "currency": "USD",
-      "period": "user",
-      "features": []
-    },
-    {
-      "name": "What are the differences between basic, core, an",
-      "price_raw": "$49",
-      "amount": 49.0,
       "currency": "USD",
       "period": "user",
       "features": []

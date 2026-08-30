@@ -12,25 +12,6 @@
   "confidence": "medium",
   "plans": [
     {
-      "name": "Get started for free with the most popular code ",
-      "price_raw": "$0",
-      "amount": 0.0,
-      "currency": "USD",
-      "period": "month",
-      "features": [
-        "Cross-file analysis with Pro rules",
-        "AI-powered detection, triage, and remediation",
-        "60 AI credits included",
-        "Fast CI/CD deploy via Semgrep infrastructure",
-        "Scan up to 10 repositories",
-        "Maximum 10 contributors",
-        "Authentication via GitHub/GitLab",
-        "Includes:",
-        "Code ($0/month/contributor)",
-        "Supply Chain ($0/month/contributor)"
-      ]
-    },
-    {
       "name": "Cross-file analysis with Pro rules",
       "price_raw": "$0",
       "amount": 0.0,

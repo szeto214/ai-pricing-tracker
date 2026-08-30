@@ -6,7 +6,7 @@
   "url": "https://elevenlabs.io/pricing",
   "final_url": "https://elevenlabs.io/pricing",
   "content_hash": "530ec29d1b6e5488e656f2baeb8f094233674e4e266d78ed8e60350acbc1f41f",
-  "raw_hash": "fb7a275099e59a4b66caca056a897f727935bcd849790706a39e546dadadb852",
+  "raw_hash": "157d14e32a62a81114bebaa954bf8d580bfced3df40e71153b976b85508591b1",
   "text_bytes": 3199,
   "extractor": "dom",
   "confidence": "medium",
@@ -71,22 +71,6 @@
       "name": "Minutes included",
       "price_raw": "$0.36",
       "amount": 0.36,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "~",
-      "price_raw": "$0.18",
-      "amount": 0.18,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "~",
-      "price_raw": "$0.17",
-      "amount": 0.17,
       "currency": "USD",
       "period": null,
       "features": []

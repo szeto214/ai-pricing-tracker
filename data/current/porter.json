@@ -6,31 +6,15 @@
   "url": "https://www.porter.run/pricing",
   "final_url": "https://www.porter.run/pricing",
   "content_hash": "8a652ae21579c6d8a1d9ae0caa5f2524633c5476aae92d32e39e20a5d9a70ce5",
-  "raw_hash": "d3356e9bea6c870106fbfe3dcb0a5fb81a41621a4d7f7fd62854656bed306f49",
+  "raw_hash": "db3236d4562394e4f013d8e6bbf7773d7b72273b6386ae2e5c9dcdae916e9232",
   "text_bytes": 4912,
   "extractor": "dom",
-  "confidence": "medium",
+  "confidence": "low",
   "plans": [
-    {
-      "name": "Announcing Porter's $20M Series A!",
-      "price_raw": "$20M",
-      "amount": 20000000.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
     {
       "name": "Standard",
       "price_raw": "$6",
       "amount": 6.0,
-      "currency": "USD",
-      "period": "month",
-      "features": []
-    },
-    {
-      "name": "Does this price include the cost of the underlyi",
-      "price_raw": "$112",
-      "amount": 112.0,
       "currency": "USD",
       "period": "month",
       "features": []

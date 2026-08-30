@@ -6,7 +6,7 @@
   "url": "https://platform.openai.com/docs/pricing",
   "final_url": "https://developers.openai.com/api/docs/pricing",
   "content_hash": "d89855826ba4c6707c75783ca7d1632916429f69caf736af0ede5c491cc4de09",
-  "raw_hash": "c57d5e542d68231b161838a72f23f64cacafba6261dfb82ab76935e5eadcb990",
+  "raw_hash": "e1975d9c39f1a0880ab9d7375081679f2edc2331050f1b9ae518a311fafea938",
   "text_bytes": 6676,
   "extractor": "dom",
   "confidence": "medium",
@@ -124,19 +124,35 @@
       "features": []
     },
     {
-      "name": "$10.00 / 1k calls",
+      "name": "File search",
+      "price_raw": "$0.10",
+      "amount": 0.1,
+      "currency": "USD",
+      "period": "day",
+      "features": []
+    },
+    {
+      "name": "Web search",
       "price_raw": "$10.00",
       "amount": 10.0,
+      "currency": "USD",
+      "period": "day",
+      "features": []
+    },
+    {
+      "name": "ChatGPT",
+      "price_raw": "$5.00",
+      "amount": 5.0,
       "currency": "USD",
       "period": null,
       "features": []
     },
     {
-      "name": "$25.00 / 1k calls",
-      "price_raw": "$25.00",
-      "amount": 25.0,
+      "name": "o4-mini-2025-04-16",
+      "price_raw": "$100.00",
+      "amount": 100.0,
       "currency": "USD",
-      "period": null,
+      "period": "hour",
       "features": []
     }
   ],

@@ -6,20 +6,11 @@
   "url": "https://groq.com/pricing",
   "final_url": "https://groq.com/",
   "content_hash": "756ec4812c7de6da27aa3fa28b10aeb411f759f4b234329a30c25b371f4476cc",
-  "raw_hash": "e0203d60722b5d0ee03af4a278e864198018b6cc7565c2bb3f0290325cb06fe5",
+  "raw_hash": "576182739cce60086b3f2895410b85fe8f3eab448223a06bdafd37b960456e56",
   "text_bytes": 108,
-  "extractor": "dom",
-  "confidence": "low",
-  "plans": [
-    {
-      "name": "Groq Closes $350 million Series A, Building the ",
-      "price_raw": "$350",
-      "amount": 350.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    }
-  ],
+  "extractor": "none",
+  "confidence": "none",
+  "plans": [],
   "tables": [],
   "extract_errors": []
 }

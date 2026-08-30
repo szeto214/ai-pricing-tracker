@@ -6,7 +6,7 @@
   "url": "https://retool.com/pricing",
   "final_url": "https://retool.com/pricing",
   "content_hash": "da54e11412ba06f3ef4f0e4bf68a35f72e5b8d5d9a85416e7128a8c5720eca65",
-  "raw_hash": "08c2d0fce14c673261deb4fb45920e5c0dca262d86220c2d02129ab66dd719e6",
+  "raw_hash": "111cfe27f0e5197d01c986dfabbdce0e4c12fa9eb44e76b9b1e0d91a1211454b",
   "text_bytes": 15461,
   "extractor": "dom",
   "confidence": "medium",
@@ -54,41 +54,9 @@
       "features": []
     },
     {
-      "name": "$10/month",
-      "price_raw": "$10",
-      "amount": 10.0,
-      "currency": "USD",
-      "period": "month",
-      "features": []
-    },
-    {
-      "name": "$50/month",
-      "price_raw": "$50",
-      "amount": 50.0,
-      "currency": "USD",
-      "period": "month",
-      "features": []
-    },
-    {
       "name": "Internal user",
       "price_raw": "$5",
       "amount": 5.0,
-      "currency": "USD",
-      "period": "month",
-      "features": []
-    },
-    {
-      "name": "0-50",
-      "price_raw": "$8",
-      "amount": 8.0,
-      "currency": "USD",
-      "period": "month",
-      "features": []
-    },
-    {
-      "name": "Additional runs are available at $75 per 5,000 r",
-      "price_raw": "$75",
-      "amount": 75.0,
       "currency": "USD",
       "period": "month",
       "features": []

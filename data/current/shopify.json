@@ -6,7 +6,7 @@
   "url": "https://www.shopify.com/pricing",
   "final_url": "https://www.shopify.com/pricing",
   "content_hash": "7ab7ca3d138314ccc622d7f52e99be7fd445ffcf47ba9f015e1372c60dd93833",
-  "raw_hash": "cc595bd59e434a619c025ed31d6965feab21b7df7bb715cc6d4a86cfe225cb0a",
+  "raw_hash": "87319fd59e7e98adaf2067c7c6af765c53950cc15a538292bdcd3bee9eb3f599",
   "text_bytes": 15225,
   "extractor": "dom",
   "confidence": "medium",
@@ -44,27 +44,11 @@
       "features": []
     },
     {
-      "name": "Everything in Basic",
-      "price_raw": "$7,500",
-      "amount": 7500.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
       "name": "Advanced",
       "price_raw": "$299",
       "amount": 299.0,
       "currency": "USD",
       "period": "month",
-      "features": []
-    },
-    {
-      "name": "Everything in Grow",
-      "price_raw": "$10,000",
-      "amount": 10000.0,
-      "currency": "USD",
-      "period": null,
       "features": []
     },
     {
@@ -76,7 +60,7 @@
       "features": []
     },
     {
-      "name": "Level up your stores with:",
+      "name": "POS Pro",
       "price_raw": "$89",
       "amount": 89.0,
       "currency": "USD",
@@ -104,14 +88,6 @@
       "features": []
     },
     {
-      "name": "POS Pro: Advanced tools for brick‑and‑mortar ret",
-      "price_raw": "$89",
-      "amount": 89.0,
-      "currency": "USD",
-      "period": "month",
-      "features": []
-    },
-    {
       "name": "50 synced marketplace orders per month",
       "price_raw": "Free",
       "amount": 0.0,
@@ -128,14 +104,6 @@
       "features": []
     },
     {
-      "name": "Compare all features",
-      "price_raw": "$399",
-      "amount": 399.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
       "name": "Pay monthly",
       "price_raw": "$39",
       "amount": 39.0,
@@ -149,6 +117,22 @@
       "amount": 29.0,
       "currency": "USD",
       "period": "month",
+      "features": []
+    },
+    {
+      "name": "How much does Shopify cost?",
+      "price_raw": "$1",
+      "amount": 1.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Turn plans into progress",
+      "price_raw": "$1",
+      "amount": 1.0,
+      "currency": "USD",
+      "period": null,
       "features": []
     }
   ],

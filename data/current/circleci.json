@@ -12,14 +12,6 @@
   "confidence": "medium",
   "plans": [
     {
-      "name": "Up to $20,000 in free compute credits for qualif",
-      "price_raw": "$20,000",
-      "amount": 20000.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
       "name": "Free",
       "price_raw": "Free",
       "amount": 0.0,
@@ -101,6 +93,14 @@
     },
     {
       "name": "Support packages",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Technical services",
       "price_raw": "Free",
       "amount": 0.0,
       "currency": null,

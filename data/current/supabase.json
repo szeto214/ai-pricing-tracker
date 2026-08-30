@@ -140,19 +140,19 @@
       "features": []
     },
     {
-      "name": "Choose the best compute size for you",
-      "price_raw": "$10",
-      "amount": 10.0,
-      "currency": "USD",
-      "period": "month",
-      "features": []
-    },
-    {
       "name": "Advanced disk configurations",
       "price_raw": "$0.12",
       "amount": 0.12,
       "currency": "USD",
       "period": null,
+      "features": []
+    },
+    {
+      "name": "Custom Domain",
+      "price_raw": "$10",
+      "amount": 10.0,
+      "currency": "USD",
+      "period": "month",
       "features": []
     }
   ],

@@ -26,14 +26,6 @@
       "currency": "USD",
       "period": "hour",
       "features": []
-    },
-    {
-      "name": "What is included in the $4.50/hr Voice Agent API",
-      "price_raw": "$4.50",
-      "amount": 4.5,
-      "currency": "USD",
-      "period": "hour",
-      "features": []
     }
   ],
   "tables": [

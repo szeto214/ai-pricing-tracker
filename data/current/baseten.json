@@ -28,25 +28,9 @@
       "features": []
     },
     {
-      "name": "$4.40",
-      "price_raw": "$4.40",
-      "amount": 4.4,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
       "name": "GLM-5.3-Flash",
       "price_raw": "$0.15",
       "amount": 0.15,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "$0.50",
-      "price_raw": "$0.50",
-      "amount": 0.5,
       "currency": "USD",
       "period": null,
       "features": []
@@ -68,25 +52,9 @@
       "features": []
     },
     {
-      "name": "$6.60",
-      "price_raw": "$6.60",
-      "amount": 6.6,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
       "name": "GLM 4.7",
       "price_raw": "$0.60",
       "amount": 0.6,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "$2.20",
-      "price_raw": "$2.20",
-      "amount": 2.2,
       "currency": "USD",
       "period": null,
       "features": []
@@ -100,25 +68,9 @@
       "features": []
     },
     {
-      "name": "$3.96",
-      "price_raw": "$3.96",
-      "amount": 3.96,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
       "name": "DeepSeek V4 Pro",
       "price_raw": "$1.74",
       "amount": 1.74,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "$3.48",
-      "price_raw": "$3.48",
-      "amount": 3.48,
       "currency": "USD",
       "period": null,
       "features": []
@@ -132,14 +84,6 @@
       "features": []
     },
     {
-      "name": "$0.26",
-      "price_raw": "$0.26",
-      "amount": 0.26,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
       "name": "Kimi K3",
       "price_raw": "$3.00",
       "amount": 3.0,
@@ -148,17 +92,81 @@
       "features": []
     },
     {
-      "name": "$15.00",
-      "price_raw": "$15.00",
-      "amount": 15.0,
+      "name": "Kimi K2.6",
+      "price_raw": "$0.95",
+      "amount": 0.95,
       "currency": "USD",
       "period": null,
       "features": []
     },
     {
-      "name": "Kimi K2.6",
+      "name": "Kimi K2.7 Code",
       "price_raw": "$0.95",
       "amount": 0.95,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Inkling-Small",
+      "price_raw": "$0.50",
+      "amount": 0.5,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Inkling",
+      "price_raw": "$1.00",
+      "amount": 1.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "NVIDIA Nemotron 3 Ultra",
+      "price_raw": "$0.60",
+      "amount": 0.6,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "GPT OSS 120B",
+      "price_raw": "$0.10",
+      "amount": 0.1,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "GPU Instances",
+      "price_raw": "$0.01",
+      "amount": 0.01,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "H100 MIG",
+      "price_raw": "$0.06",
+      "amount": 0.06,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "B200",
+      "price_raw": "$0.16",
+      "amount": 0.16,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "1x2",
+      "price_raw": "$0.00",
+      "amount": 0.0,
       "currency": "USD",
       "period": null,
       "features": []

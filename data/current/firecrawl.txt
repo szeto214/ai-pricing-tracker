@@ -273,11 +273,17 @@ questions
 Everything you need to know about Firecrawl.
 Billing
 Is Firecrawl free?
-Firecrawl is free for 1,000 pages every month (1,000 free credits per month). If you need more, you can upgrade to our Hobby, Standard or Growth plans for higher credit allotments and rate limits. AI agents can get started with https://www.firecrawl.dev/agent-onboarding/SKILL.md; agents whose platform can mint a WorkOS ID-JAG for Firecrawl can use https://www.firecrawl.dev/auth.md for direct authentication.
-Is there a pay-per-use plan instead of monthly?
-We currently do not offer a pay-per-use plan, instead you can upgrade to our Hobby, Standard or Growth plans for more credits and higher rate limits.
+Firecrawl gives you 1,000 free credits every month, which covers about 1,000 pages, and no card is required. When you need more, choose Hobby, Standard, Growth, or Scale. Every self-serve plan runs on pay-as-you-go: you get the plan's monthly credits, and auto-reload buys more in $5 batches when you run out. You set a monthly auto-reload limit to cap the spend, or turn auto-reload off. AI agents can get started with https://www.firecrawl.dev/agent-onboarding/SKILL.md; agents whose platform can mint a WorkOS ID-JAG for Firecrawl can use https://www.firecrawl.dev/auth.md for direct authentication.
+Is there a pay-per-use plan?
+Yes. Pay-as-you-go is how self-serve billing works. You start with 1,000 free credits every month. On Hobby, Standard, Growth, or Scale you get that plan's monthly credits, and auto-reload buys more in $5 batches when you run out. A $5 batch is 1,000 credits on Hobby, 2,000 on Standard, 2,500 on Growth, and 5,000 on Scale. You set a monthly auto-reload limit to cap the spend, and you can buy credits yourself at any time.
 Do credits roll over to the next month?
 Credits do not roll over on self-serve plans. Credit rollover is available on our Scale and Enterprise plans.
+How does auto-reload work?
+Auto-reload buys credits for you when your balance runs out, so your requests keep working. Each batch costs $5 and charges the card on file. Set your
+Monthly auto-reload limit
+in your Billing settings: enter a whole multiple of $5 to cap what auto-reload spends in a month, enter 0 to turn auto-reload off, or enter nothing for no limit. Credits you buy yourself do not count toward that limit.
+How many credits does a $5 auto-reload batch give me?
+A $5 batch gives you 1,000 credits on Hobby, 2,000 on Standard, 2,500 on Growth, and 5,000 on Scale.
 How many credits does each request cost?
 Scrape, Crawl, Map, and Monitor each cost 1 credit per page. Search costs 2 credits per 10 results. Interact costs 2 credits per browser minute. The Firecrawl Research Index paper endpoints are free across every category, including AI/ML and life sciences. Agent is in preview with 5 free daily runs and dynamic pricing. Advanced features (JSON format, etc.) cost additional credits. Check out the credits table on the pricing page for more details.
 Do you charge for failed requests?

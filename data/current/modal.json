@@ -6,7 +6,7 @@
   "url": "https://modal.com/pricing",
   "final_url": "https://modal.com/pricing",
   "content_hash": "73384926c29e1bc8767491bc070c8ec6af89e1c6f4b714d2bc2b2d755b686ff0",
-  "raw_hash": "de232bf711993099eaadc489defc81f896f7206e7507d83147899e3d50b2078f",
+  "raw_hash": "b4710ca5c870ea9747739af9a337de9e13d4af6553e92ccfd89350cd84933fa9",
   "text_bytes": 4629,
   "extractor": "dom",
   "confidence": "medium",
@@ -23,21 +23,6 @@
       "name": "Starter",
       "price_raw": "$0",
       "amount": 0.0,
-      "currency": "USD",
-      "period": "month",
-      "features": [
-        "$30 / month free credits",
-        "3 workspace seats included",
-        "100 containers + 10 GPU concurrency",
-        "Scheduled and Web Functions (limited)",
-        "Real-time metrics and logs",
-        "Region selection"
-      ]
-    },
-    {
-      "name": "$30 / month free credits",
-      "price_raw": "$30",
-      "amount": 30.0,
       "currency": "USD",
       "period": "month",
       "features": [
@@ -67,23 +52,6 @@
       ]
     },
     {
-      "name": "$100 / month free credits",
-      "price_raw": "$100",
-      "amount": 100.0,
-      "currency": "USD",
-      "period": "month",
-      "features": [
-        "$100 / month free credits",
-        "Unlimited seats",
-        "5000 containers + 50 GPU concurrency",
-        "Unlimited Scheduled Functions",
-        "Custom domains",
-        "Static IP proxy",
-        "Deployment rollbacks",
-        "Environment-level budgets"
-      ]
-    },
-    {
       "name": "Credit grants for academics",
       "price_raw": "$10k",
       "amount": 10000.0,
@@ -97,22 +65,6 @@
       "amount": 0.0,
       "currency": "USD",
       "period": "hour",
-      "features": []
-    },
-    {
-      "name": "Traditional cloud: $5,400",
-      "price_raw": "$5,400",
-      "amount": 5400.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "Modal serverless cloud: $4,740",
-      "price_raw": "$4,740",
-      "amount": 4740.0,
-      "currency": "USD",
-      "period": null,
       "features": []
     },
     {

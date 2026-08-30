@@ -6,10 +6,10 @@
   "url": "https://bubble.io/pricing",
   "final_url": "https://bubble.io/pricing",
   "content_hash": "4463151b0d630230226f6aec1efebe008b76318383a4dc45e80602f0f23437a5",
-  "raw_hash": "0291953d6e3b9f4488ea25a5bc8c1198344d94fe383a97183bbcc3fe1c8664d3",
+  "raw_hash": "d18cee28b436f73c670d57fcd3d4380878a17adf22bbe2bc8d95b6a31b74f9cd",
   "text_bytes": 7272,
   "extractor": "dom",
-  "confidence": "medium",
+  "confidence": "low",
   "plans": [
     {
       "name": "Free",
@@ -17,14 +17,6 @@
       "amount": 0.0,
       "currency": "USD",
       "period": "month",
-      "features": []
-    },
-    {
-      "name": "What are the add-ons I can purchase separate fro",
-      "price_raw": "$3",
-      "amount": 3.0,
-      "currency": "USD",
-      "period": null,
       "features": []
     }
   ],

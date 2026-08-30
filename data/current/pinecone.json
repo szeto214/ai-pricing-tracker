@@ -60,38 +60,6 @@
       "features": []
     },
     {
-      "name": "$4-$4.50 per million (varies by cloud and region",
-      "price_raw": "$4",
-      "amount": 4.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "$6-$6.75 per million (varies by cloud and region",
-      "price_raw": "$6",
-      "amount": 6.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "$16-$18 per million (varies by cloud and region)",
-      "price_raw": "$16",
-      "amount": 16.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "$24-$27 per million (varies by cloud and region)",
-      "price_raw": "$24",
-      "amount": 24.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
       "name": "Egress",
       "price_raw": "$0.10",
       "amount": 0.1,
@@ -135,6 +103,38 @@
       "name": "Output Tokens",
       "price_raw": "$15",
       "amount": 15.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Context Processed Tokens",
+      "price_raw": "$5",
+      "amount": 5.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Evaluation Processed Tokens",
+      "price_raw": "$8",
+      "amount": 8.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Evaluation Output Tokens",
+      "price_raw": "$15",
+      "amount": 15.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "llama-text-embed-v2",
+      "price_raw": "$0.16",
+      "amount": 0.16,
       "currency": "USD",
       "period": "month",
       "features": []

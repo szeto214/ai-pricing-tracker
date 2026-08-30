@@ -5,9 +5,9 @@
   "category": "ai-api",
   "url": "https://www.firecrawl.dev/pricing",
   "final_url": "https://www.firecrawl.dev/pricing",
-  "content_hash": "7793283ae3319bf93b3bc61dd29f4e81fe47c3b765c7bdbe1b354c79eb68e4a6",
-  "raw_hash": "882ae20150cdb28d0cc00ca51c1a8d654772ff7e2300d5c50624721de4bd6112",
-  "text_bytes": 6880,
+  "content_hash": "ca195c8221fc905462c59f6c6965ca3e2bddf755bdcc7dfacdf6d3226e094051",
+  "raw_hash": "3e9b30b222cd376677b45c11519beac33bb92b253fa140d80f4b52d3d238a20d",
+  "text_bytes": 7906,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

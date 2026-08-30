@@ -5,8 +5,8 @@
   "category": "ai-api",
   "url": "https://docs.voyageai.com/docs/pricing",
   "final_url": "https://docs.voyageai.com/docs/pricing",
-  "content_hash": "9525d58b07b1a8dd225cd2f491a6d17f6469657aef5ca8b657a185c82d951a2a",
-  "raw_hash": "d87951a97904004f28c1c3be02f22f5e0a4f4560886f46810a7d09b7fad928ec",
+  "content_hash": "58547d05fe7b674e28af4e8c7246bf8ca5a1beaaf099900608e6705bb9aad85f",
+  "raw_hash": "52d43767befff8831bada18c2e6cf715b5d6b2ea1a186f5c1e6b92f998aead5c",
   "text_bytes": 4844,
   "extractor": "dom",
   "confidence": "medium",
@@ -60,14 +60,6 @@
       "features": []
     },
     {
-      "name": "Images with fewer than 50,000 pixels will be ups",
-      "price_raw": "$0.00",
-      "amount": 0.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
       "name": "200px x 200px",
       "price_raw": "$0.00",
       "amount": 0.0,
@@ -77,14 +69,6 @@
     },
     {
       "name": "4000px x 4000px",
-      "price_raw": "$0.00",
-      "amount": 0.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "For example, the cost to vectorize a single inpu",
       "price_raw": "$0.00",
       "amount": 0.0,
       "currency": "USD",

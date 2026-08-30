@@ -36,14 +36,6 @@
       "features": []
     },
     {
-      "name": "$0",
-      "price_raw": "$0",
-      "amount": 0.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
       "name": "Start catching errors today.",
       "price_raw": "$0",
       "amount": 0.0,

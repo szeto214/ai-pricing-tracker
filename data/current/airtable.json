@@ -6,7 +6,7 @@
   "url": "https://www.airtable.com/pricing",
   "final_url": "https://airtable.com/pricing",
   "content_hash": "2c7c2d3bac3da98635043534271b68bb0f4c3a1c78638a33c8c93455e566e718",
-  "raw_hash": "a60b34aede2ac58fb224db5e887f8b4f0a68c3bd36d28f9ad83e9c46590aea60",
+  "raw_hash": "3daa6f5616ee71b534dcb1eee1826c5c57042022ca7ded828abe911a7e5b305c",
   "text_bytes": 11570,
   "extractor": "dom",
   "confidence": "medium",
@@ -52,14 +52,6 @@
       "features": []
     },
     {
-      "name": "Compare our plans",
-      "price_raw": "Free",
-      "amount": 0.0,
-      "currency": null,
-      "period": null,
-      "features": []
-    },
-    {
       "name": "Pricing",
       "price_raw": "$20",
       "amount": 20.0,
@@ -73,22 +65,6 @@
       "amount": 120.0,
       "currency": "USD",
       "period": "month",
-      "features": []
-    },
-    {
-      "name": "* Pricing for Portals starts at $127.50/month fo",
-      "price_raw": "$127.50",
-      "amount": 127.5,
-      "currency": "USD",
-      "period": "month",
-      "features": []
-    },
-    {
-      "name": "Our Free plan is available at no cost for users ",
-      "price_raw": "$20",
-      "amount": 20.0,
-      "currency": "USD",
-      "period": "user",
       "features": []
     }
   ],

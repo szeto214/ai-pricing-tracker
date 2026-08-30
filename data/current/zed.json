@@ -34,30 +34,6 @@
       "currency": "USD",
       "period": "seat",
       "features": []
-    },
-    {
-      "name": "We offer a two week free trial of our Pro plan w",
-      "price_raw": "$20",
-      "amount": 20.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "What happens if I exceed Pro's $5 token credits?",
-      "price_raw": "$5",
-      "amount": 5.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "Once you use up your included monthly credits, y",
-      "price_raw": "$10",
-      "amount": 10.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
     }
   ],
   "tables": [],

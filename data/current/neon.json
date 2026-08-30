@@ -20,14 +20,6 @@
       "features": []
     },
     {
-      "name": "$0",
-      "price_raw": "$0",
-      "amount": 0.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
       "name": "Launch",
       "price_raw": "$ 15",
       "amount": 15.0,

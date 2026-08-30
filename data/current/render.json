@@ -6,22 +6,11 @@
   "url": "https://render.com/pricing",
   "final_url": "https://render.com/pricing",
   "content_hash": "1178ea389eeb26444ec82e1d8dafe5944b5782536f09b4d72f71912208664cf1",
-  "raw_hash": "4c09a15f91b667448290839e1c719d9976abc26cf53e21ff5978dc4de6916918",
+  "raw_hash": "1d89f23881883bf6910816324b898f60adfc8db4b4bf2765c4a5d5a73a87c091",
   "text_bytes": 196,
-  "extractor": "dom",
-  "confidence": "low",
-  "plans": [
-    {
-      "name": "Migrating production infrastructure? Get up to $",
-      "price_raw": "$10K",
-      "amount": 10000.0,
-      "currency": "USD",
-      "period": null,
-      "features": [
-        "Migrate to Render"
-      ]
-    }
-  ],
+  "extractor": "none",
+  "confidence": "none",
+  "plans": [],
   "tables": [],
   "extract_errors": []
 }

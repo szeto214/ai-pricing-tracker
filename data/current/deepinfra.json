@@ -5,20 +5,12 @@
   "category": "ai-api",
   "url": "https://deepinfra.com/pricing",
   "final_url": "https://deepinfra.com/pricing",
-  "content_hash": "8594a3072eae5c84b7bc4a48f91302be88f4223380f6be7afa93210f4ffa72d3",
-  "raw_hash": "74345e1ee49f1d96b5b3a04b660d2b4bf44ce887f02bdf649452d766423f0b08",
-  "text_bytes": 16797,
+  "content_hash": "1819be139c001569ad0ec136d523b57509b5bd2c9d6dc73f17207f53e8fd836c",
+  "raw_hash": "f2c9e46d87d8cc857599de3e78b93c8daaf251fff82af2828e7ba9c9d344d8b2",
+  "text_bytes": 16804,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
-    {
-      "name": "DeepInfra raises $107M Series B to scale the inf",
-      "price_raw": "$107M",
-      "amount": 107000000.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
     {
       "name": "DeepSeek-V4-Flash-0731",
       "price_raw": "$0.08",
@@ -95,6 +87,14 @@
       "name": "Kimi-K2.6",
       "price_raw": "$0.75",
       "amount": 0.75,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Kimi-K2.5",
+      "price_raw": "$0.45",
+      "amount": 0.45,
       "currency": "USD",
       "period": null,
       "features": []

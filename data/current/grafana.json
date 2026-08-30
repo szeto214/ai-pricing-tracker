@@ -6,7 +6,7 @@
   "url": "https://grafana.com/pricing/",
   "final_url": "https://grafana.com/pricing/",
   "content_hash": "2110fbc67796ed7df92bc1915c1e8bc8185a22fd130f92f533d19a59235dc3c8",
-  "raw_hash": "e703b629a1d814eeae38c6df012d27e736b51d265b4462824b6fc8e86aaea761",
+  "raw_hash": "bc54898d14cda19f997582f618414ea417ba138e38d7e8b482ca184ccf146ba7",
   "text_bytes": 38272,
   "extractor": "dom",
   "confidence": "medium",
@@ -167,12 +167,19 @@
       "features": []
     },
     {
-      "name": "$0.00070",
-      "price_raw": "$0.00",
+      "name": "Application Observability",
+      "price_raw": "$0",
       "amount": 0.0,
       "currency": "USD",
-      "period": null,
-      "features": []
+      "period": "month",
+      "features": [
+        "Limited to 2,232 host hours",
+        "Community support",
+        "Includes 2,232 host hours then pay as you go (including telemetry generated)",
+        "8 x 5 email support",
+        "Premium support",
+        "Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)"
+      ]
     }
   ],
   "tables": [],

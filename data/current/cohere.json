@@ -6,7 +6,7 @@
   "url": "https://cohere.com/pricing",
   "final_url": "https://cohere.com/pricing",
   "content_hash": "054e6099913d46b7b6bad83f728f88841f6127185c25336e329d29224522c826",
-  "raw_hash": "127c8c859f4e07fd4067ab5837b98766db105172bfa696c7a6c980afa3356ae2",
+  "raw_hash": "f97a4ee738cd8bc003d0b77c34b4978954ae84d3430e0b3e0e9149303a64810a",
   "text_bytes": 12385,
   "extractor": "dom",
   "confidence": "medium",
@@ -39,14 +39,6 @@
         "Command R 03-2024 pricing is $0.50/1M tokens for input and $1.50/1M tokens for output",
         "Command R+ 04-2024 pricing is $3.00/1M tokens for input and $15.00/1M tokens for output"
       ]
-    },
-    {
-      "name": "What is the cost for accessing the research Aya ",
-      "price_raw": "$0.50",
-      "amount": 0.5,
-      "currency": "USD",
-      "period": null,
-      "features": []
     }
   ],
   "tables": [],

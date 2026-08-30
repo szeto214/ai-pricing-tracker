@@ -6,7 +6,7 @@
   "url": "https://betterstack.com/pricing",
   "final_url": "https://betterstack.com/pricing",
   "content_hash": "7a000dbfe37789bc820eba9c01d8f4c65add652f25ed97099485a6b2a59d3dfa",
-  "raw_hash": "4a353031f2ddadedbf2fa0528066d13f164280ea18e4e5e0c956d3a909e3ee13",
+  "raw_hash": "2d09f125912a4c13bc9c0ff3b6b5717044e9eafa913ed0d5f4a663ac38c958d8",
   "text_bytes": 16746,
   "extractor": "dom",
   "confidence": "medium",
@@ -56,30 +56,6 @@
       "name": "Additional public status page",
       "price_raw": "$15",
       "amount": 15.0,
-      "currency": "USD",
-      "period": "month",
-      "features": []
-    },
-    {
-      "name": "$15 per page per month",
-      "price_raw": "$15",
-      "amount": 15.0,
-      "currency": "USD",
-      "period": "month",
-      "features": []
-    },
-    {
-      "name": "$250 per page per month",
-      "price_raw": "$250",
-      "amount": 250.0,
-      "currency": "USD",
-      "period": "month",
-      "features": []
-    },
-    {
-      "name": "$50 per page per month",
-      "price_raw": "$50",
-      "amount": 50.0,
       "currency": "USD",
       "period": "month",
       "features": []
@@ -152,6 +128,54 @@
       "name": "Mega",
       "price_raw": "$315",
       "amount": 315.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Tera",
+      "price_raw": "$630",
+      "amount": 630.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Nano",
+      "price_raw": "$88",
+      "amount": 88.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Micro",
+      "price_raw": "$350",
+      "amount": 350.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Mega",
+      "price_raw": "$735",
+      "amount": 735.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Tera",
+      "price_raw": "$1,470",
+      "amount": 1470.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Included",
+      "price_raw": "$0.15",
+      "amount": 0.15,
       "currency": "USD",
       "period": "month",
       "features": []

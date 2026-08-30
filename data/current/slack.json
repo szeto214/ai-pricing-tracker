@@ -5,9 +5,9 @@
   "category": "productivity",
   "url": "https://slack.com/pricing",
   "final_url": "https://slack.com/pricing",
-  "content_hash": "9ba5b3afec6c0f7ab94e22a2b847699393b074d18babbbb6f85e522a711261b3",
-  "raw_hash": "cbf127597861b5a56d130f846c1d3b30f5da95d140d24a2c123c042966c4f17c",
-  "text_bytes": 28797,
+  "content_hash": "2b76745fbd8d81f175c9224f7fce4520b6e7683256d87a763c5ca9435c059ae8",
+  "raw_hash": "3b8e2b6e3813dbf7d026b6f4e5fd8bf684f1d6c36c6b719fdb8272cbd9f0d8bc",
+  "text_bytes": 26781,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -36,25 +36,9 @@
       "features": []
     },
     {
-      "name": "$7.25 USD per user / month, when paying annually",
-      "price_raw": "$7.25",
-      "amount": 7.25,
-      "currency": "USD",
-      "period": "user",
-      "features": []
-    },
-    {
       "name": "USD",
       "price_raw": "$18",
       "amount": 18.0,
-      "currency": "USD",
-      "period": "user",
-      "features": []
-    },
-    {
-      "name": "$15 USD per user / month, when paying annually",
-      "price_raw": "$15",
-      "amount": 15.0,
       "currency": "USD",
       "period": "user",
       "features": []

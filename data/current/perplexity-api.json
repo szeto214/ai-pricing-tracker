@@ -6,7 +6,7 @@
   "url": "https://docs.perplexity.ai/getting-started/pricing",
   "final_url": "https://docs.perplexity.ai/docs/getting-started/pricing",
   "content_hash": "0ba3a3e88969e5d3a277eefd26b0ca3192089aa9d1d1270cd039388497cc9ade",
-  "raw_hash": "d153fe981f04997907a80f285e207806e154b3af09cae054715c5e416878068f",
+  "raw_hash": "38ce5f78b6a8b46866a6c84022ead001fcda7114a223101577e897d4afb779d4",
   "text_bytes": 8643,
   "extractor": "dom",
   "confidence": "medium",
@@ -36,14 +36,6 @@
       "features": []
     },
     {
-      "name": "Looks up professionals, employees, and people. $",
-      "price_raw": "$5",
-      "amount": 5.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
       "name": "finance_search",
       "price_raw": "$0.00",
       "amount": 0.0,
@@ -52,25 +44,9 @@
       "features": []
     },
     {
-      "name": "Retrieves financial data and market information.",
-      "price_raw": "$5",
-      "amount": 5.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
       "name": "sandbox",
       "price_raw": "$0.03",
       "amount": 0.03,
-      "currency": "USD",
-      "period": "request",
-      "features": []
-    },
-    {
-      "name": "Isolated container for executing code during an ",
-      "price_raw": "$0.00",
-      "amount": 0.0,
       "currency": "USD",
       "period": "request",
       "features": []

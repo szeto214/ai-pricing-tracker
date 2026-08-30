@@ -6,7 +6,7 @@
   "url": "https://www.digitalocean.com/pricing",
   "final_url": "https://www.digitalocean.com/pricing",
   "content_hash": "4fb8ba4c4c8f3332caa415d6b3b7b2bd51a469c6d058cf156f2263ee13671452",
-  "raw_hash": "e06c33f1f7a1c9150a5698445f2fccb46cfadc019acfa53b7510f9ea06727fa3",
+  "raw_hash": "02b48bdb8437aa14feecc3b6c72cdbef1c2b6d4459edec8d052e3427a5d5b420",
   "text_bytes": 10791,
   "extractor": "dom",
   "confidence": "medium",
@@ -244,14 +244,6 @@
       "name": "Experience a 186% return on investment",
       "price_raw": "$2.37",
       "amount": 2.37,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "No. Your card is only charged at the end of the ",
-      "price_raw": "$1",
-      "amount": 1.0,
       "currency": "USD",
       "period": null,
       "features": []

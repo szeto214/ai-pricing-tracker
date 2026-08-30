@@ -6,19 +6,11 @@
   "url": "https://www.warp.dev/pricing",
   "final_url": "https://www.warp.dev/pricing",
   "content_hash": "f5de1c40b045b061860205f2a958378147ae5cbc3943481eeaabb43cfa0ecce6",
-  "raw_hash": "b0b6c4098c78b540134c2defe36bc8fa3074994866583c2f9aabd6910fe10a0d",
+  "raw_hash": "d07c59bd755c107037c3e6faaa5b908432de4bdbf46851febb3528dc629b760d",
   "text_bytes": 8597,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
-    {
-      "name": "Warp Factories, now in Early Access — select tea",
-      "price_raw": "$10,000",
-      "amount": 10000.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
     {
       "name": "Free",
       "price_raw": "$0",

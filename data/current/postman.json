@@ -81,14 +81,6 @@
       "features": []
     },
     {
-      "name": "$0.035 / credit",
-      "price_raw": "$0.03",
-      "amount": 0.03,
-      "currency": "USD",
-      "period": "credit",
-      "features": []
-    },
-    {
       "name": "Cloud performance testing",
       "price_raw": "$0.04",
       "amount": 0.04,
@@ -156,6 +148,31 @@
         "Securely reuse sensitive data with Azure Key Vault, HashiCorp Vault, AWS Secrets Manager, and 1Password.",
         "Configure and apply custom patterns across all secret scanning capabilities, including local secret protection, cloud secret detection, and Agent Mode guardrails.",
         "Bring Your Own Key (BYOK) encryption to protect sensitive data in compliance with industry standards."
+      ]
+    },
+    {
+      "name": "Monitoring",
+      "price_raw": "$20",
+      "amount": 20.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Monitor individual endpoints or entire APIs",
+        "Track HTTP response codes and failures",
+        "Measure latency over time",
+        "Get alerted when tests fail"
+      ]
+    },
+    {
+      "name": "Flows Credits",
+      "price_raw": "$1",
+      "amount": 1.0,
+      "currency": "USD",
+      "period": null,
+      "features": [
+        "Track request volume and trends over time",
+        "Flows credits power API orchestration and automation steps within Postman Flows.",
+        "Use Flows to design and run API-driven workflows across systems using a visual builder. Credits are consumed as flows execute and perform usage-based operations."
       ]
     }
   ],

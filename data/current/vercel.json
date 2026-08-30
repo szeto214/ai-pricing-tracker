@@ -6,7 +6,7 @@
   "url": "https://vercel.com/pricing",
   "final_url": "https://vercel.com/pricing",
   "content_hash": "2dfea0c400493b03131a4629c8559b5aec823471c458ae1ef438689e2d76ec20",
-  "raw_hash": "4a5bc173ec5d810dd8fd79a6e800738c050a221c2da995b2315b70e0706f7859",
+  "raw_hash": "a3d79d212a16e1c47302e511eb7d1452388c133489e8a24f584658dc487b0578",
   "text_bytes": 12036,
   "extractor": "dom",
   "confidence": "medium",
@@ -28,14 +28,6 @@
       "features": []
     },
     {
-      "name": "All Hobby features, plus:",
-      "price_raw": "$20",
-      "amount": 20.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
       "name": "10M / month included",
       "price_raw": "$2",
       "amount": 2.0,
@@ -49,14 +41,6 @@
       "amount": 0.15,
       "currency": "USD",
       "period": "month",
-      "features": []
-    },
-    {
-      "name": "Starting at $0.50 per 1M allowed requests",
-      "price_raw": "$0.50",
-      "amount": 0.5,
-      "currency": "USD",
-      "period": null,
       "features": []
     },
     {
@@ -167,6 +151,22 @@
       "name": "Vercel Workflows",
       "price_raw": "$20",
       "amount": 20.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Vercel Queues",
+      "price_raw": "$0.60",
+      "amount": 0.6,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Token Requests",
+      "price_raw": "$3.00",
+      "amount": 3.0,
       "currency": "USD",
       "period": "month",
       "features": []

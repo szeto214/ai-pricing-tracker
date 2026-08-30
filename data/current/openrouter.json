@@ -5,20 +5,12 @@
   "category": "ai-api",
   "url": "https://openrouter.ai/models",
   "final_url": "https://openrouter.ai/models",
-  "content_hash": "8be14a8b4f27e9b237820588a78098531aff4294fe700f5b6f978d22442541f4",
-  "raw_hash": "f48d49382b4305980308518379c27c0e836227016baae0112f5d43594241f0d6",
-  "text_bytes": 9540,
+  "content_hash": "a3001535915e2b379b82163c1b2057e362fcad8469d0ea40717b7e70c1782120",
+  "raw_hash": "6e57a2cb40366cfe479d0f57295601535d1366e126bff9d0cd050f334730ccfc",
+  "text_bytes": 9583,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
-    {
-      "name": "$0.834/M input",
-      "price_raw": "$0.83",
-      "amount": 0.83,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
     {
       "name": "by",
       "price_raw": "$0.06",
@@ -36,14 +28,6 @@
       "features": []
     },
     {
-      "name": "$0.15/M input",
-      "price_raw": "$0.15",
-      "amount": 0.15,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
       "name": "by",
       "price_raw": "$0.01",
       "amount": 0.01,
@@ -52,35 +36,11 @@
       "features": []
     },
     {
-      "name": "$0.075/M input",
-      "price_raw": "$0.07",
-      "amount": 0.07,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "Recraft V4 Styles Pro is a style-consistent imag",
-      "price_raw": "$0.10",
-      "amount": 0.1,
-      "currency": "USD",
-      "period": "request",
-      "features": []
-    },
-    {
       "name": "by",
       "price_raw": "$0.10",
       "amount": 0.1,
       "currency": "USD",
       "period": null,
-      "features": []
-    },
-    {
-      "name": "Recraft V4 Styles Vector is a style-consistent i",
-      "price_raw": "$0.05",
-      "amount": 0.05,
-      "currency": "USD",
-      "period": "request",
       "features": []
     },
     {
@@ -92,27 +52,11 @@
       "features": []
     },
     {
-      "name": "Recraft V4 Styles Pro Vector is a style-consiste",
-      "price_raw": "$0.12",
-      "amount": 0.12,
-      "currency": "USD",
-      "period": "request",
-      "features": []
-    },
-    {
       "name": "by",
       "price_raw": "$0.12",
       "amount": 0.12,
       "currency": "USD",
       "period": null,
-      "features": []
-    },
-    {
-      "name": "Recraft V4 Styles is a style-consistent image ge",
-      "price_raw": "$0.03",
-      "amount": 0.03,
-      "currency": "USD",
-      "period": "request",
       "features": []
     },
     {
@@ -135,30 +79,6 @@
       "name": "HeyGen: Avatar IV",
       "price_raw": "$0.05",
       "amount": 0.05,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "$0.10/M input",
-      "price_raw": "$0.10",
-      "amount": 0.1,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "$0.22/M input",
-      "price_raw": "$0.22",
-      "amount": 0.22,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "$0.044/M input",
-      "price_raw": "$0.04",
-      "amount": 0.04,
       "currency": "USD",
       "period": null,
       "features": []

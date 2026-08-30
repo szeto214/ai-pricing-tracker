@@ -28,14 +28,6 @@
       ]
     },
     {
-      "name": "Wasabi Pay as You Go pricing vs. the hyperscaler",
-      "price_raw": "$7.99",
-      "amount": 7.99,
-      "currency": "USD",
-      "period": "month",
-      "features": []
-    },
-    {
       "name": "Pay as You Go Pricing",
       "price_raw": "$0.00",
       "amount": 0.0,

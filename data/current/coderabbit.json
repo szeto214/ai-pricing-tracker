@@ -12,22 +12,6 @@
   "confidence": "medium",
   "plans": [
     {
-      "name": "We raised $143M to build the control layer for s",
-      "price_raw": "$143M",
-      "amount": 143000000.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": ":",
-      "price_raw": "$143M",
-      "amount": 143000000.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
       "name": "Pro",
       "price_raw": "$24",
       "amount": 24.0,

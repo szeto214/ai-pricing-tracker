@@ -5,9 +5,9 @@
   "category": "ai-api",
   "url": "https://deepinfra.com/pricing",
   "final_url": "https://deepinfra.com/pricing",
-  "content_hash": "1819be139c001569ad0ec136d523b57509b5bd2c9d6dc73f17207f53e8fd836c",
-  "raw_hash": "f2c9e46d87d8cc857599de3e78b93c8daaf251fff82af2828e7ba9c9d344d8b2",
-  "text_bytes": 16804,
+  "content_hash": "29e57c50fc120a291aaec09c4cddae7defb6f9a9cf49b7fd1d2cd90f60df6d80",
+  "raw_hash": "f8e41854123fd4463087d6c87c86e00350395e8b355011136d30ddd7b25df09d",
+  "text_bytes": 16793,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

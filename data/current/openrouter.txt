@@ -1,13 +1,13 @@
 Models
 Tencent: Hy4 preview
 Hy4 preview
-2.08T tokens
-Academia (#33)
-Finance (#36)
-Health (#37)
-Marketing (#42)
-SEO (#50)
-+3 categories
+3.17T tokens
+Academia (#23)
+Finance (#30)
+Health (#36)
+Legal (#48)
+Marketing (#33)
++4 categories
 Tencent: Hy4 preview is a mixture-of-experts model from Tencent, with 49B active parameters out of 770B total. It is designed for coding agents, complex tool-use workflows, and productivity tasks that require planning, context continuity, and sustained multi-step execution.
 by
 tencent
@@ -19,7 +19,7 @@ $2.501/M output
 tokens
 Alibaba: Wan 3.0 Prime
 Wan 3.0 Prime
-1 hour
+2 hours
 Wan 3.0 Prime is a fast-mode variant of
 Wan 3.0
 from Alibaba. It supports text-to-video and first-frame image-to-video generation.
@@ -29,7 +29,7 @@ Aug 27, 2026
 from $0.068/second
 Ling 3.0 Flash Fin (free)
 Ling 3.0 Flash Fin (free)
-138B tokens
+231B tokens
 Ling 3.0 Flash Fin is a finance-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for real-world investment workflows that require complex multi-step tasks and long-horizon planning and execution, while retaining general capabilities in reasoning, coding, and mathematics.
 by
 inclusionai
@@ -41,7 +41,8 @@ $0/M output
 tokens
 Qwen: Qwen3.8 Flash
 Qwen3.8 Flash
-52.7B tokens
+81.1B tokens
+Programming (#50)
 Qwen3.8 Flash is a multimodal reasoning model from Alibaba. It is suited for coding assistance, agentic workflows, visual understanding, document and codebase analysis, desktop interaction, chart analysis, and long-video analysis.
 by
 qwen
@@ -54,7 +55,7 @@ tokens
 Meta: Muse Image
 Muse Image
 18+
-111M tokens
+157M tokens
 Muse Image is an agentic image generation model from Meta that generates and edits images from text and reference images. Unlike single-pass image models, it reasons before it renders, breaking down multi-part prompts and refining its output within the chain of thought, and invokes web search for factual accuracy on knowledge-intensive prompts. The model supports text-to-image generation, targeted image editing, multi-image composition, reference-image conditioning for style and subject consistency across a series, and precise text rendering within generated images. Iterative editing works by passing the previous output image back with a new instruction.
 by
 meta
@@ -63,25 +64,25 @@ Aug 26, 2026
 $0.01/image
 Z.ai: GLM 5.3 Flash
 GLM 5.3 Flash
-4.77T tokens
-Academia (#10)
+6.33T tokens
+Academia (#5)
 Finance (#2)
-Health (#8)
-Legal (#11)
-Marketing (#8)
+Health (#7)
+Legal (#9)
+Marketing (#6)
 +7 categories
 GLM-5.3-Flash is a native multimodal model from Z.ai. It is suited for efficient coding and long-horizon agent tasks. Its hybrid sparse and linear attention architecture maintains accurate long-context behavior while reducing compute overhead.
 by
 z-ai
 Aug 26, 2026
 1.31M context
-$0.075/M input
+$0.05/M input
 tokens
-$0.25/M output
+$0.1667/M output
 tokens
 Z.ai: GLM 5.3 Flash (batch)
 GLM 5.3 Flash (batch)
-9.22M tokens
+127M tokens
 GLM-5.3-Flash is a native multimodal model from Z.ai. It is suited for efficient coding and long-horizon agent tasks. Its hybrid sparse and linear attention architecture maintains accurate long-context behavior while reducing compute overhead.
 by
 z-ai
@@ -93,7 +94,7 @@ $0.50/M output
 tokens
 Recraft: Recraft V4 Styles Pro
 Recraft V4 Styles Pro
-6.62M tokens
+8.26M tokens
 Recraft V4 Styles Pro is a style-consistent image generation model from Recraft. Every request requires at least one style reference image and generates a new image that reproduces the reference's rendering technique, colour, texture, and composition rather than editing it. It produces raster images at approximately 2K resolution. Note: 1 to 10 reference images in PNG, JPG or WEBP, each at least 256 px on its shortest edge. Pricing has two parts: $0.10 per image plus a one-time $0.005 style-creation charge per request, regardless of how many images that request returns. A single-image request costs $0.105, and a six-image request costs $0.605.
 by
 recraft
@@ -102,7 +103,7 @@ Aug 26, 2026
 from $0.10/image
 Recraft: Recraft V4 Styles Vector
 Recraft V4 Styles Vector
-1.2M tokens
+2.42M tokens
 Recraft V4 Styles Vector is a style-consistent image generation model from Recraft. Every request requires at least one style reference image and generates a new image that reproduces the reference's rendering technique, colour, texture, and composition rather than editing it. It produces SVG output for graphics that need to scale cleanly. Note: 1 to 10 reference images in PNG, JPG or WEBP, each at least 256 px on its shortest edge. Pricing has two parts: $0.05 per image plus a one-time $0.005 style-creation charge per request, regardless of how many images that request returns. A single-image request costs $0.055, and a six-image request costs $0.305.
 by
 recraft
@@ -111,7 +112,7 @@ Aug 26, 2026
 from $0.05/image
 Recraft: Recraft V4 Styles Pro Vector
 Recraft V4 Styles Pro Vector
-814K tokens
+922K tokens
 Recraft V4 Styles Pro Vector is a style-consistent image generation model from Recraft. Every request requires at least one style reference image and generates a new image that reproduces the reference's rendering technique, colour, texture, and composition rather than editing it. It produces SVG output for graphics that need to scale cleanly. Note: 1 to 10 reference images in PNG, JPG or WEBP, each at least 256 px on its shortest edge. Pricing has two parts: $0.12 per image plus a one-time $0.005 style-creation charge per request, regardless of how many images that request returns. A single-image request costs $0.125, and a six-image request costs $0.725.
 by
 recraft
@@ -120,7 +121,7 @@ Aug 26, 2026
 from $0.12/image
 Recraft: Recraft V4 Styles
 Recraft V4 Styles
-1.53M tokens
+1.99M tokens
 Recraft V4 Styles is a style-consistent image generation model from Recraft. Every request requires at least one style reference image and generates a new image that reproduces the reference's rendering technique, colour, texture, and composition rather than editing it. It produces raster images at approximately 1K resolution. Note: 1 to 10 reference images in PNG, JPG or WEBP, each at least 256 px on its shortest edge. Pricing has two parts: $0.035 per image plus a one-time $0.005 style-creation charge per request, regardless of how many images that request returns. A single-image request costs $0.040, and a six-image request costs $0.215.
 by
 recraft
@@ -130,7 +131,7 @@ from $0.035/image
 Alibaba: Wan 3.0
 Wan 3.0
 15% off
-12 hours
+14 hours
 Wan 3.0 is a video generation model from Alibaba for text-to-video, image-to-video, and reference-guided video generation. It produces 480p, 720p, or 1080p video with durations from 2 to 30 seconds.
 by
 alibaba
@@ -147,12 +148,12 @@ $0.05/second
 Meta: Muse Spark 1.2 Contributor
 Muse Spark 1.2 Contributor
 18+
-261B tokens
-Academia (#28)
-Finance (#39)
-Programming (#30)
+258B tokens
+Academia (#34)
+Finance (#40)
+Programming (#31)
 Roleplay (#24)
-Science (#46)
+Science (#49)
 Muse Spark 1.2 contributor tier is a reasoning model from Meta designed for developers who want to start building at an even lower cost. It’s meaningfully cheaper than Muse Spark 1.2. Your prompts and outputs may be used to improve Meta’s products, making it ideal for experimentation, learning, and early-stage projects without worry about spend. It is a reasoning model from Meta, tailored for complex agentic tasks. It accepts text, images, video, audio, and PDF documents, returns text, and offers a 1M-token context window. The model is built to support multi-agent workflows, whether as either a main agent that plans and delegates or as a subagent executing in parallel. It works across multiple coding harnesses and supports structured output, parallel function calling, and configurable reasoning effort. In Meta’s testing, it performs well on multi-file refactors, extended debugging sessions, whole-repository generation, and tasks that stretch well past a single prompt.
 by
 meta
@@ -164,8 +165,8 @@ $0.20/M output
 tokens
 DeepSeek: DeepSeek V4 Flash Vision Exp
 DeepSeek V4 Flash Vision Exp
-212B tokens
-Programming (#27)
+210B tokens
+Programming (#26)
 Science (#39)
 DeepSeek V4 Flash Vision Exp is an experimental vision-enabled version of
 DeepSeek V4 Flash 0731
@@ -174,13 +175,13 @@ by
 deepseek
 Aug 21, 2026
 1.05M context
-$0.22/M input
+$0.44/M input
 tokens
-$0.66/M output
+$1.32/M output
 tokens
 Tencent: Hy-MT2-1.8B
 Hy-MT2-1.8B
-40.5M tokens
+40.6M tokens
 Hy-MT2-1.8B is a compact 1.8B-parameter translation model from Tencent. It supports 33 language pairs and five Chinese dialect and minority-language pairs, with workflows for structured, delimiter-based, contextual, glossary-based, and style-guided translation.
 by
 tencent

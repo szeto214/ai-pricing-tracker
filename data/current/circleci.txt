@@ -48,7 +48,7 @@ Startup
 Resources
 Developers
 Documentation
-Support portal
+Support
 Orbs registry
 Image registry
 Explore
@@ -165,7 +165,7 @@ Resources
 close
 Developers
 Documentation
-Support portal
+Support
 Orbs registry
 Image registry
 Explore
@@ -365,25 +365,24 @@ Yes
 —
 Yes
 (x86) Docker (Gen 2)
-—
 (x86) Docker (Gen 2)
 Free
 Performance
 Scale
 Small
-—
+Yes
 Yes
 Yes
 Medium
-—
+Yes
 Yes
 Yes
 Medium+
-—
+Yes
 Yes
 Yes
 Large
-—
+Yes
 Yes
 Yes
 X-large

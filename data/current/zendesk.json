@@ -5,9 +5,9 @@
   "category": "productivity",
   "url": "https://www.zendesk.com/pricing/",
   "final_url": "https://www.zendesk.com/pricing/",
-  "content_hash": "71b60d1f421f47140b52ccac8160b2bdcc0ab9c4982255e9c4cc0fe33b8f4e87",
-  "raw_hash": "0deed1cf3bd374a103f0d15bc67ecfd83b6f5602745e1647bd7514c747db7a8b",
-  "text_bytes": 22858,
+  "content_hash": "c88d547ec484e992d074508fee9dab5a64198b0b670288df249291f92acb652e",
+  "raw_hash": "61e7289cb1ae99230badbe823faee0ab5578ea6b0c1e3b48a3613ae44cf6b24f",
+  "text_bytes": 22856,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

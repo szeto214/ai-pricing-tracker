@@ -5,9 +5,9 @@
   "category": "ai-api",
   "url": "https://nebius.com/prices",
   "final_url": "https://nebius.com/prices",
-  "content_hash": "7e823d2ca8a5ca5ad06f53085bcaf60daf520d5b53a1833cdac7f21bd1a8528f",
-  "raw_hash": "5beb3fd910032fed6476fcdf2e1eb0dbb023887607ec90df52f4ff633283ac86",
-  "text_bytes": 4771,
+  "content_hash": "614183e5082abb893eeab81e27a518d72c3e5e08b408a2da1296c359166b5367",
+  "raw_hash": "22f212f4ae1d7e41d7b23cc02e04ece5a2d473012bab6d0c44d3ccce2d630f75",
+  "text_bytes": 4792,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

@@ -1,4 +1,4 @@
-GLM 5.3 is available now on Fireworks
+Training API now generally available
 Log In
 Get Started
 Pricing to seamlessly scale from idea to enterprise
@@ -77,24 +77,30 @@ Prefill / 1M
 Cached Prefill / 1M
 Sample / 1M
 Train / 1M
-Qwen 3.5 9B
-64k
-$0.66
-$0.132
-$1.995
-$1.463
-Qwen 3.6 27B
-128k
+Qwen 3.8 27B
+<count>
 $1.86
 $0.372
 $5.595
 $4.103
 Kimi K3
-192k
+<count>
 $10.87
 $2.17
 $27.11
 $32.55
+DeepSeek V4 Flash 0731
+<count>
+$1.74
+$0.35
+$4.33
+$5.20
+Muse Glimmer 30B
+<count>
+$1.96
+$0.39
+$4.88
+$5.86
 •
 Checkpoint storage for serverless models is included during private preview.
 •

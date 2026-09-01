@@ -5,9 +5,9 @@
   "category": "dev-infra",
   "url": "https://about.gitlab.com/pricing/",
   "final_url": "https://about.gitlab.com/pricing/",
-  "content_hash": "82ee22931dd96f73631c9b3556d54b5b8ab3ca07594f262f60bd79d10c5cb9e1",
-  "raw_hash": "526f1942ad75bbf37a2fe05afe0bf9363f3c386f76f5cd69ef42ec564ca5e963",
-  "text_bytes": 26456,
+  "content_hash": "ec49f61286022ff7a37e258320b7156b24a1f5cdbd7af6a9bea5585f53968ba4",
+  "raw_hash": "6fa47d2a7d3a2d8e6e4643371636779e6d344bf5ab7649ee40e287f19adf4406",
+  "text_bytes": 26455,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

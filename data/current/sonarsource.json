@@ -5,9 +5,9 @@
   "category": "observability",
   "url": "https://www.sonarsource.com/plans-and-pricing/",
   "final_url": "https://www.sonarsource.com/plans-and-pricing/",
-  "content_hash": "cfc959ce52bab191479f22dc88f8afe7240e2089d163e9956caa9a682faf4ae9",
-  "raw_hash": "f586063e713c56abac7f28ea3abcb5b5d980b7f0bf4920a03ccee5aeb30c6f95",
-  "text_bytes": 10509,
+  "content_hash": "46138a59d7513844984e73f0cf15f5c194ba9b9666296141e0f31e6a5166c2da",
+  "raw_hash": "d0a31da2e2f7fcb16eddedd42e8df4e8c9f3c2e9edf2674dac48681e4408e504",
+  "text_bytes": 12895,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -81,6 +81,14 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
+      "features": []
+    },
+    {
+      "name": "How much does SonarQube cost?",
+      "price_raw": "$32",
+      "amount": 32.0,
+      "currency": "USD",
+      "period": "month",
       "features": []
     }
   ],

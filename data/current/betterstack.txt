@@ -825,6 +825,24 @@ Number of exceptions
 < 5M exceptions / month
 5M+ exceptions / month
 I don't know
+Session replays
+Number of replays
+< 10k replays / month
+< 50k replays / month
+< 100k replays / month
+< 500k replays / month
+500k+ replays / month
+I don't know
+Web events
+Number of events
+< 1M events / month
+< 10M events / month
+< 50M events / month
+< 100M events / month
+< 500M events / month
+< 1B events / month
+1B+ events / month
+I don't know
 Data region
 Select data region
 United States

@@ -98,6 +98,9 @@ $0.50
 $0.10
 (cached)
 $1.20
+Qwen3.8 Flash
+$0.15
+$0.47
 Qwen3.7-Max
 $1.25
 $0.13
@@ -123,9 +126,6 @@ $0.15
 Llama 3.3 70B
 $1.04
 $1.04
-Gemma 3n E4B Instruct
-$0.06
-$0.12
 gpt-oss-20B
 $0.05
 $0.20
@@ -181,12 +181,12 @@ $4.05
 Inkling Small
 $0.50
 $1.20
+Qwen3.8 Flash
+$0.15
+$0.47
 Qwen3.5 9B
 $0.17
 $0.25
-Gemma 3n E4B Instruct
-$0.06
-$0.12
 Qwen3.6-Plus
 $0.50
 $3.00
@@ -416,8 +416,7 @@ Price
 Price per 1M tokens
 Model
 Price
-Llama Guard 4 12B
-$0.20
+No matching models
 Provisioned Throughput
 Reserve dedicated capacity in throughput units (PTUs). Each PTU represents fixed capacity. The tokens-per-minute it delivers depends on the model and the token type.
 Estimate your PTUs & cost
@@ -463,7 +462,10 @@ Pay as you go
 Reserved
 NVIDIA
 HGX H100
+Promo
+Promotion valid until 09/30/26
 $5.49
+$3.99
 Contact sales
 NVIDIA
 HGX H200

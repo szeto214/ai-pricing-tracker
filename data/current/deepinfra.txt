@@ -141,11 +141,6 @@ Kimi-K2.6
 $0.75 / $0.15 cached
 $3.50
 View more
-Kimi-K2.5
-256k
-$0.45 / $0.07 cached
-$2.25
-View more
 Model
 Context
 $ per 1M input tokens
@@ -165,11 +160,6 @@ Kimi-K2.6
 256k
 $0.75 / $0.15 cached
 $3.50
-View more
-Kimi-K2.5
-256k
-$0.45 / $0.07 cached
-$2.25
 View more
 Qwen
 Qwen series offers a comprehensive suite of dense and mixture-of-experts models.
@@ -1148,19 +1138,19 @@ granite-4.2-3b
 Featured Models
 deepseek-ai
 /
-DeepSeek-V4-Flash
-zai-org
-/
-GLM-5.1
+DeepSeek-V4-Flash-0731
 Qwen
 /
 Qwen3-Max-Thinking
-zai-org
+XiaomiMiMo
 /
-GLM-5.3-Flash
+MiMo-V2.5-Pro
 Qwen
 /
-Qwen3.5-397B-A17B
+Qwen3.8-2.4T-A95B
+deepseek-ai
+/
+DeepSeek-V4-Pro-0813
 © 2026 DeepInfra. All rights reserved.
 Privacy Policy
 Terms of Service

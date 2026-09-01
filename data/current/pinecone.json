@@ -5,9 +5,9 @@
   "category": "database",
   "url": "https://www.pinecone.io/pricing/",
   "final_url": "https://www.pinecone.io/pricing/",
-  "content_hash": "79e8438b4a92d068cade1fabffa92d7938bb3eab83df137052311ac081202be3",
-  "raw_hash": "bf13bb89adde20759d331368a3057c32a8d38d7bfdd1e57673f69569fa2310c6",
-  "text_bytes": 8801,
+  "content_hash": "866a73c136b947d923503431716c6a94b5af6b1c79f44326ad55aa7350a16f56",
+  "raw_hash": "ba39213f2e146b4e57556013a59d41330eaaadc5e17dd9049ad2ad6db3ebcb8f",
+  "text_bytes": 8811,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -420,11 +420,11 @@
           "Unlimited $2/1k requests"
         ],
         [
-          "cohere-rerank-v3.5",
+          "cohere-rerank-4-fast",
           "",
           "",
-          "Unlimited $2/1k requests",
-          "Unlimited $2/1k requests"
+          "Unlimited $2/1k rerank units",
+          "Unlimited $2/1k rerank units"
         ],
         [
           "Org Management"

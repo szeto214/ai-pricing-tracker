@@ -5,9 +5,9 @@
   "category": "ai-media",
   "url": "https://www.heygen.com/pricing",
   "final_url": "https://www.heygen.com/pricing",
-  "content_hash": "d1ba087fa763fe07e8f9039751c5b3cb627acb42892e55a05123b239df89c5ed",
-  "raw_hash": "d15223fd007ed23cbfcb64b9c31b5928ce1c647923bd64814b993e56ec5ebc02",
-  "text_bytes": 12753,
+  "content_hash": "15a46ae4349bc439268fbef2eb61673e02cda7db93422070eb4b64f5a269b7c6",
+  "raw_hash": "0cf595703f55bf7e798f37678ac30b88599029d6d6c950eddd865e920a7cdc11",
+  "text_bytes": 12781,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -22,8 +22,8 @@
         "Videos up to 1 min",
         "Access to Avatar IV",
         "Standard video processing",
-        "500+ Stock Digital Twins",
-        "1 Custom Digital Twin",
+        "500+ Stock Custom Video Avatars",
+        "1 Custom Video Avatar",
         "30+ languages",
         "Videos up to 30 mins",
         "1080p video export",
@@ -92,7 +92,7 @@
         "4k video export",
         "Faster video processing",
         "2x more concurrency than Pro",
-        "5 Custom Digital Twins",
+        "5 Custom Video Avatars",
         "Scale your brand and centralize assets",
         "SAML/ SSO",
         "Centralized billing",
@@ -231,7 +231,7 @@
           "700+"
         ],
         [
-          "Custom Digital Twins",
+          "Custom Video Avatars",
           "1",
           "1+",
           "1+",
@@ -239,7 +239,7 @@
           "10+"
         ],
         [
-          "Custom Digital Twin Looks",
+          "Custom Video Avatar Looks",
           "500",
           "500",
           "500",
@@ -335,7 +335,7 @@
           ""
         ],
         [
-          "Additional Digital Twins",
+          "Additional Custom Video Avatars",
           "",
           "Add-on",
           "Add-on",

@@ -5,9 +5,9 @@
   "category": "ai-api",
   "url": "https://fireworks.ai/pricing",
   "final_url": "https://fireworks.ai/pricing",
-  "content_hash": "28f10cd0d33627abfe5f4e00508804c83fe74e41e2746c35337886a370671c4f",
-  "raw_hash": "718762f5716e30ede2483ab06199bb11934a9c1dd0a831a441525edd667de821",
-  "text_bytes": 3477,
+  "content_hash": "47b60649be448071d03dee09914883d879345e62fbb52f85cb3f5b3e77f48e1e",
+  "raw_hash": "012bac0f3204c937cfe65673a81dc0c0fae8a2bd2a567d91e25ec23803d07418",
+  "text_bytes": 3543,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -39,8 +39,8 @@
     },
     {
       "name": "Serverless Training API",
-      "price_raw": "$0.66",
-      "amount": 0.66,
+      "price_raw": "$1.86",
+      "amount": 1.86,
       "currency": "USD",
       "period": null,
       "features": [
@@ -133,16 +133,8 @@
           "Train / 1M"
         ],
         [
-          "Qwen 3.5 9B",
-          "64k",
-          "$0.66",
-          "$0.132",
-          "$1.995",
-          "$1.463"
-        ],
-        [
-          "Qwen 3.6 27B",
-          "128k",
+          "Qwen 3.8 27B",
+          "128K",
           "$1.86",
           "$0.372",
           "$5.595",
@@ -150,11 +142,27 @@
         ],
         [
           "Kimi K3",
-          "192k",
+          "192K",
           "$10.87",
           "$2.17",
           "$27.11",
           "$32.55"
+        ],
+        [
+          "DeepSeek V4 Flash 0731",
+          "262K",
+          "$1.74",
+          "$0.35",
+          "$4.33",
+          "$5.20"
+        ],
+        [
+          "Muse Glimmer 30B",
+          "128K",
+          "$1.96",
+          "$0.39",
+          "$4.88",
+          "$5.86"
         ]
       ]
     },

@@ -9,28 +9,34 @@ No credit card required
 Annual
 Save 20%
 Monthly
-Pro
-Pull Request Reviews & Insights
+Essentials
+Agentic code reviews for every PR.
 $24
-/mo/user
+/ developer / month
 Billed annually
+AI Code Review
+Triage
+Change Stack
+Continuous Security Monitoring
 Agentic AI reviews on PRs & CLI
 1-click fixes
 Learnings
 Loops with coding agents
 MCP connections
-Built-in pre-merge checks
 Agentic chat
 Linters and SAST tools support
 Jira and Linear integrations
 Get a free trial
-Pro Plus
-Recommended
-Comprehensive feature set and higher limits.
+Team
+More context and control with triage, custom checks and higher limits.
 $48
-/mo/user
+/ developer / month
 Billed annually
-All Pro plan features
+AI Code Review
+Triage
+Change Stack
+Continuous Security Monitoring
+All features in Essentials
 Multi-repo analysis
 Custom pre-merge checks
 Finishing touches: unit tests, merge conflict resolution, simplify
@@ -38,10 +44,29 @@ Post-merge actions
 Issue planner
 Higher limits across the product
 Get a free trial
+Advanced
+Our most comprehensive plan with advanced code review and continuous security monitoring.
+$72
+/ developer / month
+Billed annually
+AI Code Review
+Triage
+Change Stack
+Continuous Security Monitoring
+All Team plan features
+Continuous security monitoring of your repositories
+Security review of each PR
+Higher limits across the product
+Get a free trial
 Enterprise
-Centralized quality, security, and support for large organizations.
-Talk to us
-All Pro Plus plan features
+Enterprise controls, multi-org support and dedicated support at scale.
+Custom
+Billed annually
+AI Code Review
+Triage
+Change Stack
+Continuous Security Monitoring
+All Advanced plan features
 Custom RBAC, SSO and audit logging
 API access
 Self-hosting option
@@ -53,19 +78,25 @@ Vendor security review and agreement redlines
 Custom setup including ALB, etc.
 EU SaaS deployment
 Contact us
+Add-ons
 CodeRabbit Security
-$40
-/mo/user
+Full codebase scans with variable, usage-based pricing
 Continuous security monitoring of your repositories
-Security review of each PR
-Full repo scan — usage-based billing
+Full codebase scan — usage-based billing
 Get a free trial
-Usage-based add-on
-Unrestricted CLI and PR Reviews
+Usage-based reviews
+Pay-as-you-go CLI and PR reviews
 Unlimited code reviews across every agentic coding loop
 Full control over usage and scaling through the dashboard
-Flexible purchase options (one-time & monthly subscription)
-Buy credits
+Pay as you go after included limits, with a configurable monthly spending cap
+Manage usage
+Cloud Coding Agent
+First turn included, then $0.50 per agent minute.
+Run repository-backed coding tasks in the cloud
+Review progress and steer work while it runs
+Deliver completed changes as pull requests
+Set a monthly spending cap
+Start coding
 CodeRabbit Agent for Slack
 Pay only for what you use: $0.50 per agent minute.
 Investigate incidents and troubleshoot customer tickets
@@ -75,10 +106,12 @@ Generate code and open pull requests
 Summarize progress and report instantly
 Get a free trial
 Compare plans
-Pro
-Pro Plus
+Essentials
+Team
+Advanced
 Enterprise
 Agentic AI reviews on PRs & CLI
+Included
 Included
 Included
 Included
@@ -86,7 +119,9 @@ Included
 Included
 Included
 Included
+Included
 Learnings
+Included
 Included
 Included
 Included
@@ -94,15 +129,19 @@ Loops with coding agents
 Included
 Included
 Included
+Included
 MCP connections
 5
+10
 15
 20
 Multi-repo analysis
 1
+5
 10
 20
 Built-in pre-merge checks
+Included
 Included
 Included
 Included
@@ -110,7 +149,9 @@ Agentic chat
 Included
 Included
 Included
+Included
 Linters and SAST tools support
+Included
 Included
 Included
 Included
@@ -118,35 +159,69 @@ Jira and Linear integrations
 Included
 Included
 Included
-Advanced
+Included
+Triage
+Not included
+Included
+Included
+Included
 Custom pre-merge checks
 Not included
+10
 20
 20
 Finishing touches: unit tests, merge conflict resolution, simplify
 Not included
 Included
 Included
+Included
 Post-merge actions
 Not included
+Included
 Included
 Included
 Issue planner
 Not included
 Included
 Included
+Included
 Rate limits: PR reviews per developer per hour
 5*
+8*
 10*
 12
+Blast radius
+Not included
+Not included
+Included
+Included
+Architectural impact
+Not included
+Not included
+Included
+Included
+Continuous security monitoring
+Not included
+Not included
+Included
+Included
+Security review of each PR
+Not included
+Not included
+Included
+Included
 * Subject to
 Fair Usage Policy
-FAQ
-How does pricing work for the CodeRabbit Slack agent?
+Frequently Asked Questions
+Are Essentials and Team new plans?
+Will the plan renaming change my price?
+What’s the difference between Essentials and Team?
+If reviews are unlimited, why are there hourly review limits?
+How do usage-based reviews work?
+How are add-ons priced?
+Which plans include CodeRabbit Security?
 Will I be charged for all the developers in my organization?
-Is there a limit on the number of reviews or repositories?
 Is it possible to reassign seats to other developers?
-What kind of support is available for CodeRabbit users?
+Can I switch between Essentials and Team?
 How do I sign up for the free open-source plan?
-How does CodeRabbit work?
 View all questions

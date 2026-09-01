@@ -5,9 +5,9 @@
   "category": "automation",
   "url": "https://temporal.io/pricing",
   "final_url": "https://temporal.io/pricing",
-  "content_hash": "fe6bc9bf99ae060d2e3bae006f0a7638f2a5dba5439a78dd5ed279d51005061d",
-  "raw_hash": "4bb80167dfad1bd0c1445ccd874053a9f89d1cec80e824076023706765976c8a",
-  "text_bytes": 5551,
+  "content_hash": "44325daf880cdf68a206ba11145ba6e7d80863a6c351187708c646ca811114e3",
+  "raw_hash": "0259809b767f941813e8b629a8cf61a8d0208ddb6f0f38d5d36e1820c7a21d08",
+  "text_bytes": 5585,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

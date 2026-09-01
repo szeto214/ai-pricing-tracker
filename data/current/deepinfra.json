@@ -5,9 +5,9 @@
   "category": "ai-api",
   "url": "https://deepinfra.com/pricing",
   "final_url": "https://deepinfra.com/pricing",
-  "content_hash": "29e57c50fc120a291aaec09c4cddae7defb6f9a9cf49b7fd1d2cd90f60df6d80",
-  "raw_hash": "f8e41854123fd4463087d6c87c86e00350395e8b355011136d30ddd7b25df09d",
-  "text_bytes": 16793,
+  "content_hash": "ebfbc710d306c80980c98c7900ffc9fd35b776b8fe31ad24a25822ad76cf4fc2",
+  "raw_hash": "1bddad15b013714d08a4cc076937220e61b7fcdb5efa41c9ec336068fff290e5",
+  "text_bytes": 16714,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -87,14 +87,6 @@
       "name": "Kimi-K2.6",
       "price_raw": "$0.75",
       "amount": 0.75,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "Kimi-K2.5",
-      "price_raw": "$0.45",
-      "amount": 0.45,
       "currency": "USD",
       "period": null,
       "features": []
@@ -267,13 +259,6 @@
           "$0.75 / $0.15 cached",
           "$3.50",
           "View more"
-        ],
-        [
-          "Kimi-K2.5",
-          "256k",
-          "$0.45 / $0.07 cached",
-          "$2.25",
-          "View more"
         ]
       ]
     },
@@ -306,13 +291,6 @@
           "256k",
           "$0.75 / $0.15 cached",
           "$3.50",
-          "View more"
-        ],
-        [
-          "Kimi-K2.5",
-          "256k",
-          "$0.45 / $0.07 cached",
-          "$2.25",
           "View more"
         ]
       ]

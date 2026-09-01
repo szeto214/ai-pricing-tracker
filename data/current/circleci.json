@@ -5,9 +5,9 @@
   "category": "dev-infra",
   "url": "https://circleci.com/pricing/",
   "final_url": "https://circleci.com/pricing/",
-  "content_hash": "ba150ce9d09bc0bdefe9cc43d9c2f6de32726f224c75582df585304c6715a97c",
-  "raw_hash": "a94899483b163b74636833e4d3bba214c3e0b5fb1ae4ce74a95626adc8e68ac2",
-  "text_bytes": 14328,
+  "content_hash": "af8ca76e6fe534030dfef83f559e141b567c95d2d3090ba3d331c05bda9af673",
+  "raw_hash": "d8cd7068ea2c768b48522cd80cb1781b31fbe107c483363022b82c94bd682e88",
+  "text_bytes": 14310,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -208,25 +208,25 @@
         ],
         [
           "Small",
-          "—",
+          "Yes",
           "Yes",
           "Yes"
         ],
         [
           "Medium",
-          "—",
+          "Yes",
           "Yes",
           "Yes"
         ],
         [
           "Medium+",
-          "—",
+          "Yes",
           "Yes",
           "Yes"
         ],
         [
           "Large",
-          "—",
+          "Yes",
           "Yes",
           "Yes"
         ],

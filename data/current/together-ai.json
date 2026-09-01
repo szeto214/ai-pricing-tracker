@@ -5,9 +5,9 @@
   "category": "ai-api",
   "url": "https://www.together.ai/pricing",
   "final_url": "https://www.together.ai/pricing",
-  "content_hash": "e6bb5c2534effe986c08bca1224928c2f3fdc4b027affea13cedca9223e51cd8",
-  "raw_hash": "9abf86a02c027809c1c0522ea60c214cce0e8d9bcfd5bef3a8dbf86b69eeb62e",
-  "text_bytes": 8088,
+  "content_hash": "c630e8761a5fdb3812a7960ccad9c11442a81a564a420a940d232fdfecb3cdea",
+  "raw_hash": "69a449e1c8aa5d5b32e73764d2fb7127d2fe9e48754c750763043a6d49ccfba7",
+  "text_bytes": 8110,
   "extractor": "jsonld",
   "confidence": "medium",
   "plans": [
@@ -196,6 +196,11 @@
           "$1.20"
         ],
         [
+          "Qwen3.8 Flash",
+          "$0.15",
+          "$0.47"
+        ],
+        [
           "Qwen3.7-Max",
           "$1.25 $0.13 (cached)",
           "$3.75"
@@ -229,11 +234,6 @@
           "Llama 3.3 70B",
           "$1.04",
           "$1.04"
-        ],
-        [
-          "Gemma 3n E4B Instruct",
-          "$0.06",
-          "$0.12"
         ],
         [
           "gpt-oss-20B",
@@ -321,14 +321,14 @@
           "$1.20"
         ],
         [
+          "Qwen3.8 Flash",
+          "$0.15",
+          "$0.47"
+        ],
+        [
           "Qwen3.5 9B",
           "$0.17",
           "$0.25"
-        ],
-        [
-          "Gemma 3n E4B Instruct",
-          "$0.06",
-          "$0.12"
         ],
         [
           "Qwen3.6-Plus",
@@ -699,8 +699,8 @@
       "caption": "",
       "rows": [
         [
-          "NVIDIA HGX H100",
-          "$5.49",
+          "NVIDIA HGX H100 Promo Promotion valid until 09/30/26",
+          "$5.49 $3.99",
           "Contact sales"
         ],
         [

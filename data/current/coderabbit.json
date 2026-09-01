@@ -5,14 +5,14 @@
   "category": "ai-coding",
   "url": "https://www.coderabbit.ai/pricing",
   "final_url": "https://www.coderabbit.ai/pricing",
-  "content_hash": "851528f696a369f3b8c054a296ea916330163178d053bdf515426be78bff05b1",
-  "raw_hash": "f1021d522fc6b9c5012480e612625868e15c667be0861abb1f9dca0bf44aca6b",
-  "text_bytes": 3163,
+  "content_hash": "2049353557006a1e54a8a584b1f4247bd1362ff4c86470fc91033a8149c0eee5",
+  "raw_hash": "2431e46bf79fcea3bb4eabadeeb4742dd78ff9a6ea2854fcd5aeab08f0fa1ddf",
+  "text_bytes": 4633,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
     {
-      "name": "Pro",
+      "name": "Essentials",
       "price_raw": "$24",
       "amount": 24.0,
       "currency": "USD",
@@ -20,7 +20,7 @@
       "features": []
     },
     {
-      "name": "Pro Plus",
+      "name": "Team",
       "price_raw": "$48",
       "amount": 48.0,
       "currency": "USD",
@@ -28,11 +28,19 @@
       "features": []
     },
     {
-      "name": "CodeRabbit Security",
-      "price_raw": "$40",
-      "amount": 40.0,
+      "name": "Advanced",
+      "price_raw": "$72",
+      "amount": 72.0,
       "currency": "USD",
       "period": "month",
+      "features": []
+    },
+    {
+      "name": "Cloud Coding Agent",
+      "price_raw": "$0.50",
+      "amount": 0.5,
+      "currency": "USD",
+      "period": null,
       "features": []
     },
     {
@@ -50,12 +58,14 @@
       "rows": [
         [
           "",
-          "Pro",
-          "Pro Plus",
+          "Essentials",
+          "Team",
+          "Advanced",
           "Enterprise"
         ],
         [
           "Agentic AI reviews on PRs & CLI",
+          "Included",
           "Included",
           "Included",
           "Included"
@@ -64,10 +74,12 @@
           "1-click fixes",
           "Included",
           "Included",
+          "Included",
           "Included"
         ],
         [
           "Learnings",
+          "Included",
           "Included",
           "Included",
           "Included"
@@ -76,22 +88,26 @@
           "Loops with coding agents",
           "Included",
           "Included",
+          "Included",
           "Included"
         ],
         [
           "MCP connections",
           "5",
+          "10",
           "15",
           "20"
         ],
         [
           "Multi-repo analysis",
           "1",
+          "5",
           "10",
           "20"
         ],
         [
           "Built-in pre-merge checks",
+          "Included",
           "Included",
           "Included",
           "Included"
@@ -100,10 +116,12 @@
           "Agentic chat",
           "Included",
           "Included",
+          "Included",
           "Included"
         ],
         [
           "Linters and SAST tools support",
+          "Included",
           "Included",
           "Included",
           "Included"
@@ -112,14 +130,20 @@
           "Jira and Linear integrations",
           "Included",
           "Included",
+          "Included",
           "Included"
         ],
         [
-          "Advanced"
+          "Triage",
+          "Not included",
+          "Included",
+          "Included",
+          "Included"
         ],
         [
           "Custom pre-merge checks",
           "Not included",
+          "10",
           "20",
           "20"
         ],
@@ -127,11 +151,13 @@
           "Finishing touches: unit tests, merge conflict resolution, simplify",
           "Not included",
           "Included",
+          "Included",
           "Included"
         ],
         [
           "Post-merge actions",
           "Not included",
+          "Included",
           "Included",
           "Included"
         ],
@@ -139,13 +165,43 @@
           "Issue planner",
           "Not included",
           "Included",
+          "Included",
           "Included"
         ],
         [
           "Rate limits: PR reviews per developer per hour",
           "5*",
+          "8*",
           "10*",
           "12"
+        ],
+        [
+          "Blast radius",
+          "Not included",
+          "Not included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Architectural impact",
+          "Not included",
+          "Not included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Continuous security monitoring",
+          "Not included",
+          "Not included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Security review of each PR",
+          "Not included",
+          "Not included",
+          "Included",
+          "Included"
         ]
       ]
     }

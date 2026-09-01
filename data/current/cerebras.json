@@ -5,9 +5,9 @@
   "category": "ai-api",
   "url": "https://www.cerebras.ai/pricing",
   "final_url": "https://www.cerebras.ai/pricing",
-  "content_hash": "c288589a76716942b464bfb068f8867d9048f01e905391166e64c2ae33de0333",
-  "raw_hash": "ef96d47e710f8a18defbc61fef3db38888270bc08e09ac43ef5923f67e916fde",
-  "text_bytes": 2271,
+  "content_hash": "a1b1311c071587edab2ca19365565e67ef872f266e646ea411df6ec69b29f380",
+  "raw_hash": "68118ee9062efcc86a91117f208fdfe827c367af95c378b9997ed23f603fc1d9",
+  "text_bytes": 2242,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -19,7 +19,7 @@
       "period": null,
       "features": [
         "Access to all Cerebras powered models",
-        "The world’s fastest inference – 20x faster than OpenAI and Anthropic",
+        "Up to 30x faster inference than GPU systems",
         "Community support via Discord"
       ]
     },

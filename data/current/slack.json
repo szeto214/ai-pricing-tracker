@@ -5,9 +5,9 @@
   "category": "productivity",
   "url": "https://slack.com/pricing",
   "final_url": "https://slack.com/pricing",
-  "content_hash": "2b76745fbd8d81f175c9224f7fce4520b6e7683256d87a763c5ca9435c059ae8",
-  "raw_hash": "7ef62a52ed7e47b01349f549e57c876ebd9c176dc87ad1d1948f161334187e9d",
-  "text_bytes": 26781,
+  "content_hash": "9ba5b3afec6c0f7ab94e22a2b847699393b074d18babbbb6f85e522a711261b3",
+  "raw_hash": "09d2e7ec19c5ef4d9eff9b9586265562f4a516c2d45215dec4542436abeb0ebf",
+  "text_bytes": 28797,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

@@ -5,9 +5,9 @@
   "category": "automation",
   "url": "https://retool.com/pricing",
   "final_url": "https://retool.com/pricing",
-  "content_hash": "da54e11412ba06f3ef4f0e4bf68a35f72e5b8d5d9a85416e7128a8c5720eca65",
-  "raw_hash": "d881117f7f2cbd95275feaa93053ca0de25fd2c93c88ea642664c43fbea5e4dd",
-  "text_bytes": 15461,
+  "content_hash": "76ad77c7be5edd12632076970be1eabace6246f1235f03ac7b6738c4901482fb",
+  "raw_hash": "4e6d0fc2e30d21a2b39097478acb91ac67af43805e465834d2ca03672055789e",
+  "text_bytes": 15473,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

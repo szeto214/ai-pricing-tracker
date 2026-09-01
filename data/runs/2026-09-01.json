@@ -1,6 +1,6 @@
 {
   "date": "2026-09-01",
-  "finished_at": "2026-09-01T02:54:45+00:00",
+  "finished_at": "2026-09-01T07:30:10+00:00",
   "user_agent": "ai-pricing-tracker/0.1 (+https://github.com/szeto214/ai-pricing-tracker) price-archive-bot; 1 request per page per day",
   "summary": {
     "total": 143,
@@ -563,7 +563,7 @@
       "url": "https://devin.ai/pricing",
       "status": "http_error",
       "http_status": 429,
-      "elapsed_ms": 30131,
+      "elapsed_ms": 30263,
       "robots_note": "robots.txt HTTP 429 -> dianggap mengizinkan",
       "reason": "HTTP 429"
     },
@@ -2183,7 +2183,7 @@
       "url": "https://windsurf.com/pricing",
       "status": "http_error",
       "http_status": 429,
-      "elapsed_ms": 30929,
+      "elapsed_ms": 30543,
       "robots_note": "robots.txt terbaca",
       "reason": "HTTP 429"
     },

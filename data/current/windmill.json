@@ -6,7 +6,7 @@
   "url": "https://www.windmill.dev/pricing",
   "final_url": "https://www.windmill.dev/pricing",
   "content_hash": "ff5d6e2ae80535085dc995f491bc67768cecef92b33f87f5f66642829d19bb03",
-  "raw_hash": "0000fcb00622305062d6bd7dad9ce6c776c65b71c5b91729aac24bd206f1be8c",
+  "raw_hash": "c20e0817a4175d36f418f6281155a848903e7e089d9d70c13fda23aa561b13ea",
   "text_bytes": 15654,
   "extractor": "dom",
   "confidence": "medium",
@@ -20,7 +20,7 @@
       "features": []
     },
     {
-      "name": "Summary",
+      "name": "Our pricing explained",
       "price_raw": "$170",
       "amount": 170.0,
       "currency": "USD",

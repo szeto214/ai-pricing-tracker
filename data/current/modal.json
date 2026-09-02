@@ -6,7 +6,7 @@
   "url": "https://modal.com/pricing",
   "final_url": "https://modal.com/pricing",
   "content_hash": "73384926c29e1bc8767491bc070c8ec6af89e1c6f4b714d2bc2b2d755b686ff0",
-  "raw_hash": "e8a61ba19c7a0af14646f919d8cb460ba6048a6c88582f0adce23c142436f61f",
+  "raw_hash": "653713cb101d40ed7b97e1beeb55753b88609a93dd492e29dcbe28be55ccbbd1",
   "text_bytes": 4629,
   "extractor": "dom",
   "confidence": "medium",
@@ -65,14 +65,6 @@
       "amount": 0.0,
       "currency": "USD",
       "period": "hour",
-      "features": []
-    },
-    {
-      "name": "Ship your first app in minutes.",
-      "price_raw": "$30",
-      "amount": 30.0,
-      "currency": "USD",
-      "period": "month",
       "features": []
     }
   ],

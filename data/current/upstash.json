@@ -6,7 +6,7 @@
   "url": "https://upstash.com/pricing",
   "final_url": "https://upstash.com/pricing/redis",
   "content_hash": "6b5a8e9aa67319ac87029fc0ea3447e503c1ad48948cdf799540567e8779ab44",
-  "raw_hash": "8429225370b470ae9fdc22101671d070983df1a4705e8aa3027dc791286af26f",
+  "raw_hash": "a7c8d47b95a732ffb8bfa24c960f4fff5d8dd809471d3908e66944d048900af1",
   "text_bytes": 12044,
   "extractor": "dom",
   "confidence": "medium",
@@ -58,62 +58,6 @@
       "currency": "USD",
       "period": "month",
       "features": []
-    },
-    {
-      "name": "Are read and write commands same price?",
-      "price_raw": "$0.4",
-      "amount": 0.4,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "How is the storage cost calculated?",
-      "price_raw": "$0.25",
-      "amount": 0.25,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "How many databases can I create?",
-      "price_raw": "$0.5",
-      "amount": 0.5,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "How much is the price for bandwidth?",
-      "price_raw": "$0.03",
-      "amount": 0.03,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "What happened to the Pro 2K and Pro 10K plans?",
-      "price_raw": "$280",
-      "amount": 280.0,
-      "currency": "USD",
-      "period": "month",
-      "features": []
-    },
-    {
-      "name": "Upstash Redis pricing — all plans",
-      "price_raw": "$0",
-      "amount": 0.0,
-      "currency": "USD",
-      "period": "month",
-      "features": [
-        "Commands: $0.20 per 100K commands",
-        "Storage: $0.25 per GB (first 1 GB free)",
-        "Bandwidth: Free up to 200 GB/month, then $0.03/GB",
-        "Max data size: 100 GB",
-        "Max request size: 10 MB",
-        "Max record size: 100 MB",
-        "Platforms: AWS, GCP, FLY, Vercel"
-      ]
     }
   ],
   "tables": [

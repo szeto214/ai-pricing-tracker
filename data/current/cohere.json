@@ -6,10 +6,10 @@
   "url": "https://cohere.com/pricing",
   "final_url": "https://cohere.com/pricing",
   "content_hash": "054e6099913d46b7b6bad83f728f88841f6127185c25336e329d29224522c826",
-  "raw_hash": "21a2a5837ad78c59a84dc548637dd3c7019f62d0203603aa6608b9786b30bbbe",
+  "raw_hash": "9edeb3517cda3dc79cb16a112aaca41457fda88653a656a90d717cb0273038b1",
   "text_bytes": 12385,
   "extractor": "dom",
-  "confidence": "medium",
+  "confidence": "low",
   "plans": [
     {
       "name": "Embed 4",
@@ -18,27 +18,6 @@
       "currency": "USD",
       "period": null,
       "features": []
-    },
-    {
-      "name": "When do I get billed?",
-      "price_raw": "$250",
-      "amount": 250.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "Where do I find pricing for our legacy models?",
-      "price_raw": "$1.00",
-      "amount": 1.0,
-      "currency": "USD",
-      "period": null,
-      "features": [
-        "Command pricing is $1.00/1M tokens for input and $2.00/1M tokens for output",
-        "Command-light pricing is $0.30/1M tokens for input and $0.60/1M tokens for output",
-        "Command R 03-2024 pricing is $0.50/1M tokens for input and $1.50/1M tokens for output",
-        "Command R+ 04-2024 pricing is $3.00/1M tokens for input and $15.00/1M tokens for output"
-      ]
     }
   ],
   "tables": [],

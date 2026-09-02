@@ -6,7 +6,7 @@
   "url": "https://supabase.com/pricing",
   "final_url": "https://supabase.com/pricing",
   "content_hash": "313f083d499edc6fe15d7b789ab2727ae7ffdaa9382b653375584ea7c3332041",
-  "raw_hash": "04f331718104eb11715f10f37861ca1d1e12c7d06ccd4816e5b4b76424ee30b6",
+  "raw_hash": "ad6865fc2fe2d59b3edc7f8db1639456bf724afb6c3a5211a4f3a3cf7701e29d",
   "text_bytes": 16643,
   "extractor": "dom",
   "confidence": "medium",
@@ -36,15 +36,7 @@
       "features": []
     },
     {
-      "name": "2. Configure compute for your projects",
-      "price_raw": "$ 25",
-      "amount": 25.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "Scale compute up to 64 cores and 256 GB RAM",
+      "name": "Starts from",
       "price_raw": "$10",
       "amount": 10.0,
       "currency": "USD",
@@ -151,6 +143,14 @@
       "name": "Custom Domain",
       "price_raw": "$10",
       "amount": 10.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Point in Time Recovery",
+      "price_raw": "$100",
+      "amount": 100.0,
       "currency": "USD",
       "period": "month",
       "features": []

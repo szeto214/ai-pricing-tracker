@@ -6,7 +6,7 @@
   "url": "https://www.airtable.com/pricing",
   "final_url": "https://airtable.com/pricing",
   "content_hash": "2c7c2d3bac3da98635043534271b68bb0f4c3a1c78638a33c8c93455e566e718",
-  "raw_hash": "28dbc84a931933a547db1171d71199795300c41d926dad4c356c77dffb3191fb",
+  "raw_hash": "8907e1223c4156d540e125f425063b8d20b428c0ed991ad20ad7f69a3f3e4704",
   "text_bytes": 11570,
   "extractor": "dom",
   "confidence": "medium",
@@ -49,22 +49,6 @@
       "amount": 45.0,
       "currency": "USD",
       "period": "seat",
-      "features": []
-    },
-    {
-      "name": "Pricing",
-      "price_raw": "$20",
-      "amount": 20.0,
-      "currency": "USD",
-      "period": "month",
-      "features": []
-    },
-    {
-      "name": "Pricing",
-      "price_raw": "$120",
-      "amount": 120.0,
-      "currency": "USD",
-      "period": "month",
       "features": []
     }
   ],

@@ -5,9 +5,9 @@
   "category": "dev-infra",
   "url": "https://resend.com/pricing",
   "final_url": "https://resend.com/pricing",
-  "content_hash": "684899d0e8c81c90557bc81b0d2924140dd51862b66052501c9143ff05e1d89c",
-  "raw_hash": "b920e2fd6f35a2a690abcfea61e804a1cc1d69902bfbba575360c20c76d298ef",
-  "text_bytes": 9118,
+  "content_hash": "7367995041ce4b71cbfd0b486be9db222e9afb804af0784b004fbc6f9907bb5a",
+  "raw_hash": "efe6f40fb65dbb1c3736232d29e35f96441fec455db2791497f74ce2238e0667",
+  "text_bytes": 9335,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -23,6 +23,14 @@
       "name": "Dedicated IPs -",
       "price_raw": "$30",
       "amount": 30.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Single Sign-On -",
+      "price_raw": "$150",
+      "amount": 150.0,
       "currency": "USD",
       "period": "month",
       "features": []
@@ -270,6 +278,13 @@
           "",
           "",
           ""
+        ],
+        [
+          "Single Sign-On",
+          "–",
+          "–",
+          "With add-on",
+          "Included"
         ],
         [
           "GDPR compliance",

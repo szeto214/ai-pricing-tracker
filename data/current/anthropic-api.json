@@ -5,9 +5,9 @@
   "category": "ai-api",
   "url": "https://www.anthropic.com/pricing#api",
   "final_url": "https://claude.com/pricing#api",
-  "content_hash": "2afd7bc3ab4f14a8bef736ea336304b8d5d2fc4812a50f77447afa4ccb9b9ea5",
-  "raw_hash": "89cd1a62c31d7c0fd06b89faa35937a0b89c2098118f540646b44c0d0972cfd4",
-  "text_bytes": 17459,
+  "content_hash": "be2514ba4859d565aaac2180de3927253840e4b5b0164297adaaaa51c145b59f",
+  "raw_hash": "e20ee9a4e120b5c215ba7a76acbeafa3a6931d7fc8da244ff9f6a75baae833bb",
+  "text_bytes": 17561,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -59,7 +59,7 @@
       "features": []
     },
     {
-      "name": "Chat on web, iOS, Android and Desktop",
+      "name": "Claude Code",
       "price_raw": "Free",
       "amount": 0.0,
       "currency": null,
@@ -67,7 +67,7 @@
       "features": []
     },
     {
-      "name": "Single sign-on (SSO) and domain capture",
+      "name": "Central billing and administration",
       "price_raw": "Free",
       "amount": 0.0,
       "currency": null,
@@ -151,14 +151,6 @@
       "amount": 0.05,
       "currency": "USD",
       "period": "hour",
-      "features": []
-    },
-    {
-      "name": "How much does the Claude Enterprise plan cost?",
-      "price_raw": "$20",
-      "amount": 20.0,
-      "currency": "USD",
-      "period": "seat",
       "features": []
     }
   ],

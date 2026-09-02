@@ -5,9 +5,9 @@
   "category": "automation",
   "url": "https://www.inngest.com/pricing",
   "final_url": "https://www.inngest.com/pricing",
-  "content_hash": "74d2187cf9c2adace5a64eb5f89fc5a0af606ea3a70974657d17dee79e778b87",
-  "raw_hash": "e6e8f7836e2e2113b237cff4eabe9f0fad6b3bdbb92bc28710ff8fcddb417c5d",
-  "text_bytes": 6126,
+  "content_hash": "949fa1b537d3758aece49b98b6771111098353de61e6f44eb432c76b6c36781d",
+  "raw_hash": "27b4f0228cc283373fc9322d11bbcc8d482debf14f654c8f7b84c48dcf9ed604",
+  "text_bytes": 6071,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

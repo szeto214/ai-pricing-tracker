@@ -5,12 +5,20 @@
   "category": "ai-media",
   "url": "https://suno.com/pricing",
   "final_url": "https://suno.com/pricing",
-  "content_hash": "d9c68377e3dc62efa9524836eb86428623593743a8b5fb920e544a311c4a465a",
-  "raw_hash": "707fe4e903c3df4d3c1b5a33f049a4ea3e8be5d0e824c68f6c1182ef4d8244d8",
-  "text_bytes": 3050,
+  "content_hash": "9a7e8c578d6ac031ed5433afaf08e0d33c09f804ac1294694053556b8dd7e10e",
+  "raw_hash": "711a8151997a7c914845af27b3583e8c81d72f43e77d4a166109e50d6a93b322",
+  "text_bytes": 3330,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
+    {
+      "name": "Free Plan",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
     {
       "name": "Pro Plan",
       "price_raw": "$8",

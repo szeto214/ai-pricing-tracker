@@ -5,9 +5,9 @@
   "category": "productivity",
   "url": "https://www.framer.com/pricing/",
   "final_url": "https://www.framer.com/pricing",
-  "content_hash": "af77ba10db1c534bcc57cedcd05c406b9aa309fcf83f9a98648f4731d76544a2",
-  "raw_hash": "b33dc19fd1a7d81ae420ebdc48cb221f3fd42299d8a07397e06d4a7d611803ce",
-  "text_bytes": 9730,
+  "content_hash": "42a89a86e9231cf061e1ee8b53a5236e304fa41cd8433dff2814b715028a5172",
+  "raw_hash": "31463b82b6342a71290a3361e8b40aa4636c1f767a483b21a8c060b59fd95f55",
+  "text_bytes": 9735,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

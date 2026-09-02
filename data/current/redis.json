@@ -5,14 +5,14 @@
   "category": "database",
   "url": "https://redis.io/pricing/",
   "final_url": "https://redis.io/pricing/",
-  "content_hash": "aebaff65ff3ea4b6e4b6522eef932edeb11f1168b604b9023abb0231c6026d2a",
-  "raw_hash": "6f251fee771d8908b464086a9538204908c73cfba2c53bde50e3cc8c2f32afdf",
-  "text_bytes": 4379,
+  "content_hash": "940ba25b68915fe3e2ea535309e1303b3b6e9f714022452b1d4d2d37fbc0d911",
+  "raw_hash": "9169f252ad0dc01c9ac87340523c8a6f7a4cc828bf04ef0ae2f2b7b808882796",
+  "text_bytes": 4263,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
     {
-      "name": "Pricing",
+      "name": "Free",
       "price_raw": "$0",
       "amount": 0.0,
       "currency": "USD",
@@ -22,14 +22,6 @@
     {
       "name": "General",
       "price_raw": "$0.00",
-      "amount": 0.0,
-      "currency": "USD",
-      "period": "hour",
-      "features": []
-    },
-    {
-      "name": "Free",
-      "price_raw": "$0",
       "amount": 0.0,
       "currency": "USD",
       "period": "hour",

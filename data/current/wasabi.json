@@ -6,13 +6,13 @@
   "url": "https://wasabi.com/pricing",
   "final_url": "https://wasabi.com/pricing",
   "content_hash": "d0f0cd3d2da27a0d54274ec109891db1e4bd14216855111902433b3a099fed1f",
-  "raw_hash": "eb66683c008703cee258415ea74f69aa709c1bcf42b627a2728171f24518dd91",
+  "raw_hash": "b65d48c48f3978a6bb115305ba5cc81e1db919c454dc3289a83fb2f036907e17",
   "text_bytes": 2303,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
     {
-      "name": "Greater discounts for term & capacity",
+      "name": "Pay as You Go",
       "price_raw": "$7.99",
       "amount": 7.99,
       "currency": "USD",

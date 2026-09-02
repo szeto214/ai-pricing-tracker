@@ -110,16 +110,26 @@ Price per thousand tokens
 Price per million tokens
 Estimated price per request*
 Number of free tokens
-rerank-2.5
+rerank-3
 $0.00005
 $0.05
 $0.0025
 200 million
-rerank-2.5-lite
+rerank-3-lite
 $0.00002
 $0.02
 $0.001
 200 million
+rerank-2.5
+$0.00005
+$0.05
+$0.0025
+0
+rerank-2.5-lite
+$0.00002
+$0.02
+$0.001
+0
 This price estimate assumes each request includes 100 documents and that the sum of the number of tokens in the query and the number of tokens in each document is 500.
 Batch and Files API
 Our
@@ -185,7 +195,7 @@ For fine-tuned models with dedicated instances and support channels, please get 
 sales team
 .
 Updated
-18 days ago
+6 days ago
 Did this page help you?
 Yes
 No

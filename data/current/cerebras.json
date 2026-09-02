@@ -5,9 +5,9 @@
   "category": "ai-api",
   "url": "https://www.cerebras.ai/pricing",
   "final_url": "https://www.cerebras.ai/pricing",
-  "content_hash": "a1b1311c071587edab2ca19365565e67ef872f266e646ea411df6ec69b29f380",
-  "raw_hash": "68118ee9062efcc86a91117f208fdfe827c367af95c378b9997ed23f603fc1d9",
-  "text_bytes": 2242,
+  "content_hash": "b73f9740342bfd99cec04b175f664074c200e430cc5c1dab02d8dc8df3fbed76",
+  "raw_hash": "341123f61fe37f55fb0378d669d49d4652e2a037888f44533de6a188fcb4f56f",
+  "text_bytes": 2261,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

@@ -6,7 +6,7 @@
   "url": "https://huggingface.co/pricing",
   "final_url": "https://huggingface.co/pricing",
   "content_hash": "ef0e0f6802a68a32c390e691eaeff8d82d6febe49b14bf36bffe35c12e6e13b1",
-  "raw_hash": "82c9be1744bd0048084a4754b44ca8d74eddbc3673e655b40deafe5dce77bec7",
+  "raw_hash": "569ddd8c78e64e31d9f8d874412d162818481f4a7fe7691202086b4a8ce70b29",
   "text_bytes": 21861,
   "extractor": "dom",
   "confidence": "medium",
@@ -92,7 +92,7 @@
       "features": []
     },
     {
-      "name": "Do more with Hugging Face PRO",
+      "name": "PRO",
       "price_raw": "$9",
       "amount": 9.0,
       "currency": "USD",

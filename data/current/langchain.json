@@ -6,7 +6,7 @@
   "url": "https://www.langchain.com/pricing",
   "final_url": "https://www.langchain.com/pricing",
   "content_hash": "3010d297e0943b665dc4aafbfd54eb253323ab4e8b925eb7123ddb3f2bf3ad14",
-  "raw_hash": "aa9bb79968b2b9efa825bd46a3e7210353fdbf3368e4b226c00037cace4ce5dc",
+  "raw_hash": "f2641562ac20cd8e4607269075c025183d99cef7e7cff6cef8375317711ac581",
   "text_bytes": 15820,
   "extractor": "dom",
   "confidence": "medium",
@@ -36,27 +36,11 @@
       ]
     },
     {
-      "name": "Small team just getting started?",
-      "price_raw": "$10,000",
-      "amount": 10000.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
       "name": "Estimate your monthly usage",
       "price_raw": "$1.50",
       "amount": 1.5,
       "currency": "USD",
       "period": "month",
-      "features": []
-    },
-    {
-      "name": "Features",
-      "price_raw": "$0",
-      "amount": 0.0,
-      "currency": "USD",
-      "period": "seat",
       "features": []
     },
     {

@@ -5,12 +5,28 @@
   "category": "ai-api",
   "url": "https://openrouter.ai/models",
   "final_url": "https://openrouter.ai/models",
-  "content_hash": "f41de85d9d0b9f732c420095656f8e7f2d5c75b89f0f6a69e0b7c149ea174c66",
-  "raw_hash": "970b8d5af3a465d12829dafce6a58b89146a5f925648482b0caf790109780d47",
-  "text_bytes": 9777,
+  "content_hash": "3c6aa2abad3470c985e607cd4c1178989edb28ab70e7904a437b549831892adf",
+  "raw_hash": "cd22472454128499bb0ca3648726a88abd9286a7469d8043ec615ce1169f2959",
+  "text_bytes": 9047,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
+    {
+      "name": "by",
+      "price_raw": "$0.05",
+      "amount": 0.05,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "by",
+      "price_raw": "$10",
+      "amount": 10.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
     {
       "name": "by",
       "price_raw": "$0.06",
@@ -45,14 +61,6 @@
     },
     {
       "name": "by",
-      "price_raw": "$0.05",
-      "amount": 0.05,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "by",
       "price_raw": "$0.12",
       "amount": 0.12,
       "currency": "USD",
@@ -71,14 +79,6 @@
       "name": "by",
       "price_raw": "$0.04",
       "amount": 0.04,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "HeyGen: Avatar IV",
-      "price_raw": "$0.05",
-      "amount": 0.05,
       "currency": "USD",
       "period": null,
       "features": []

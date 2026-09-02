@@ -93,11 +93,6 @@ $4.05
 LFM2.5-8B-A1B
 $0.03
 $0.12
-Inkling Small
-$0.50
-$0.10
-(cached)
-$1.20
 Qwen3.8 Flash
 $0.15
 $0.47
@@ -126,9 +121,6 @@ $0.15
 Llama 3.3 70B
 $1.04
 $1.04
-gpt-oss-20B
-$0.05
-$0.20
 MiniMax M2.7
 $0.30
 $0.06
@@ -178,9 +170,6 @@ $0.00
 Inkling
 $1.00
 $4.05
-Inkling Small
-$0.50
-$1.20
 Qwen3.8 Flash
 $0.15
 $0.47
@@ -318,8 +307,6 @@ Model
 Price
 Inkling
 $1.00
-Inkling Small
-$0.50
 NVIDIA Parakeet TDT 0.6B V3 Realtime
 $0.0035
 Cartesia Sonic-3
@@ -408,8 +395,7 @@ $0.0035
 Price per 1M tokens
 Model
 Price
-Multilingual e5 large instruct
-$0.02
+No matching models
 Price per 1M tokens
 Model
 Price

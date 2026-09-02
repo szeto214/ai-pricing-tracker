@@ -5,9 +5,9 @@
   "category": "ai-api",
   "url": "https://docs.voyageai.com/docs/pricing",
   "final_url": "https://docs.voyageai.com/docs/pricing",
-  "content_hash": "b44f913c7f8f492d27b7b4af96e2a5dce0300a38f6d1d1787806edf1f4e2a8fb",
-  "raw_hash": "70774662b170e924fd4a280ef4510ff311188bb29392bed7a991408212cad8a6",
-  "text_bytes": 4844,
+  "content_hash": "a90e9501aa942b215294d36a9c3f0dfa18e3cb7e5c850e622acfcff809be721f",
+  "raw_hash": "c9649d8cc6da97c394d15a347a0a6c1fdfc98cea9ce67390256eab1dd113f6bb",
+  "text_bytes": 4915,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -76,7 +76,7 @@
       "features": []
     },
     {
-      "name": "rerank-2.5",
+      "name": "rerank-3",
       "price_raw": "$0.00",
       "amount": 0.0,
       "currency": "USD",
@@ -84,7 +84,7 @@
       "features": []
     },
     {
-      "name": "rerank-2.5-lite",
+      "name": "rerank-3-lite",
       "price_raw": "$0.00",
       "amount": 0.0,
       "currency": "USD",
@@ -243,18 +243,32 @@
           "Number of free tokens"
         ],
         [
-          "rerank-2.5",
+          "rerank-3",
           "$0.00005",
           "$0.05",
           "$0.0025",
           "200 million"
         ],
         [
-          "rerank-2.5-lite",
+          "rerank-3-lite",
           "$0.00002",
           "$0.02",
           "$0.001",
           "200 million"
+        ],
+        [
+          "rerank-2.5",
+          "$0.00005",
+          "$0.05",
+          "$0.0025",
+          "0"
+        ],
+        [
+          "rerank-2.5-lite",
+          "$0.00002",
+          "$0.02",
+          "$0.001",
+          "0"
         ]
       ]
     },

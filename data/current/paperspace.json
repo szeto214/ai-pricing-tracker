@@ -6,7 +6,7 @@
   "url": "https://www.paperspace.com/pricing",
   "final_url": "https://www.paperspace.com/pricing",
   "content_hash": "a1da48736d0011d4a1880832aa8e080c635859c57c346681dec62b4e6d5c7ed1",
-  "raw_hash": "e368beda1757f45df0676d81e3a4150862bcbc732fec4183ded2a9e02d000144",
+  "raw_hash": "f55fdd9f941c8f338cfb08a1f27f4c7567e2667f86112d3dbeed45da66d9f3fe",
   "text_bytes": 13531,
   "extractor": "dom",
   "confidence": "medium",
@@ -48,14 +48,6 @@
         "Total Notebooks: 100",
         "Running Notebook limit: 10"
       ]
-    },
-    {
-      "name": "How does pricing work?",
-      "price_raw": "$0.29",
-      "amount": 0.29,
-      "currency": "USD",
-      "period": null,
-      "features": []
     },
     {
       "name": "Multi GPU",

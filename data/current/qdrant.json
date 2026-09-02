@@ -5,9 +5,9 @@
   "category": "database",
   "url": "https://qdrant.tech/pricing/",
   "final_url": "https://qdrant.tech/pricing/",
-  "content_hash": "6ac2d3b698487e2ee7c8d8a9ee7bc79923911edbf10d1d2a36e1caaa769af902",
-  "raw_hash": "a5d78de8f66893e35016800fa5ce0f2ef1f93995ee8a97876834416dfba84dec",
-  "text_bytes": 6048,
+  "content_hash": "49b07abf17a56c90abd99ec049cd14d7e008c8643ac5631d62bb0bd83ee66c49",
+  "raw_hash": "94307008ede7e031a128c7cef415e3237a673492b3fef633704bb0c4fd97b4ed",
+  "text_bytes": 6098,
   "extractor": "dom",
   "confidence": "low",
   "plans": [

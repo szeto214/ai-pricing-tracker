@@ -5,20 +5,12 @@
   "category": "ai-coding",
   "url": "https://github.com/features/copilot/plans",
   "final_url": "https://github.com/features/copilot/plans",
-  "content_hash": "1bf6c1ad867ee9efc9faf9b85f01211c89de818659dbf3d57713b6ead675ff12",
-  "raw_hash": "87e5773009d0240e7e8623399f64e9f3b6d306ac4c6f6e25f04838721377f690",
-  "text_bytes": 46109,
+  "content_hash": "1c4c3ae972d30be1632d4dc47f86078e5690e2abfd64bf5ac511a6ed633ddba3",
+  "raw_hash": "633872442489086fba7d535f8faed564d226370df15e2dbeeabbbb5c98e852fc",
+  "text_bytes": 46255,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
-    {
-      "name": "Pricing plans",
-      "price_raw": "$0",
-      "amount": 0.0,
-      "currency": "USD",
-      "period": "month",
-      "features": []
-    },
     {
       "name": "Free plan",
       "price_raw": "$15",

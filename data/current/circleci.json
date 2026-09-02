@@ -5,9 +5,9 @@
   "category": "dev-infra",
   "url": "https://circleci.com/pricing/",
   "final_url": "https://circleci.com/pricing/",
-  "content_hash": "af8ca76e6fe534030dfef83f559e141b567c95d2d3090ba3d331c05bda9af673",
-  "raw_hash": "d8cd7068ea2c768b48522cd80cb1781b31fbe107c483363022b82c94bd682e88",
-  "text_bytes": 14310,
+  "content_hash": "093a7bded0616db95b79a78db8660c431e3a1ac9b0c525a87e77f8cd76144d4d",
+  "raw_hash": "a36351bbeb30301ea202aaf2cb9dbb4e716bc9754135ddd65eff63e3b338ae02",
+  "text_bytes": 14320,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

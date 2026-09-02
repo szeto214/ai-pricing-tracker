@@ -6,13 +6,13 @@
   "url": "https://temporal.io/pricing",
   "final_url": "https://temporal.io/pricing",
   "content_hash": "44325daf880cdf68a206ba11145ba6e7d80863a6c351187708c646ca811114e3",
-  "raw_hash": "0259809b767f941813e8b629a8cf61a8d0208ddb6f0f38d5d36e1820c7a21d08",
+  "raw_hash": "4847332c4862dae208e085273cd6df48db56d44bbe4e615c62327299d7b88aa7",
   "text_bytes": 5585,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
     {
-      "name": "pricing",
+      "name": "Scale with Pay-As-You-Go Pricing",
       "price_raw": "$1,000",
       "amount": 1000.0,
       "currency": "USD",
@@ -54,7 +54,7 @@
       "features": []
     },
     {
-      "name": "Plans",
+      "name": "Workflow Orchestration",
       "price_raw": "$100",
       "amount": 100.0,
       "currency": "USD",

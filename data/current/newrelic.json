@@ -89,32 +89,6 @@
       "currency": "USD",
       "period": "user",
       "features": []
-    },
-    {
-      "name": "What’s Data Plus?",
-      "price_raw": "$0.40",
-      "amount": 0.4,
-      "currency": "USD",
-      "period": "month",
-      "features": [
-        "Advanced logs obfuscation: Create and track rules directly in the log management UI and mask or hash sensitive log data."
-      ]
-    },
-    {
-      "name": "Do you offer pay-as-you-go options?",
-      "price_raw": "$10",
-      "amount": 10.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "How is my monthly bill calculated?",
-      "price_raw": "$0.40",
-      "amount": 0.4,
-      "currency": "USD",
-      "period": "month",
-      "features": []
     }
   ],
   "tables": [

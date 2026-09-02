@@ -6,7 +6,7 @@
   "url": "https://www.jetbrains.com/ai-ides/buy/",
   "final_url": "https://www.jetbrains.com/ai-ides/buy/?section=personal&billing=yearly",
   "content_hash": "61efdaed128a42526ad0af27da6e4a4e462540b35e3db789a5b6b830696571e4",
-  "raw_hash": "9f623f12b7338e94e4b3206c71b37b25e9a803cdb6a2a5027b9c231bf80059c9",
+  "raw_hash": "ade6d1aa25bfa74c9475c0bcf6b94585bdb5cfe98cecab563e0577cdf647b083",
   "text_bytes": 4576,
   "extractor": "dom",
   "confidence": "medium",
@@ -55,14 +55,6 @@
       "name": "dotUltimate",
       "price_raw": "$219.00",
       "amount": 219.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "Running low on your monthly quota?",
-      "price_raw": "USD 1.00",
-      "amount": 1.0,
       "currency": "USD",
       "period": null,
       "features": []

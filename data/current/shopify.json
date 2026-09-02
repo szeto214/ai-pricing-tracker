@@ -5,8 +5,8 @@
   "category": "productivity",
   "url": "https://www.shopify.com/pricing",
   "final_url": "https://www.shopify.com/pricing",
-  "content_hash": "8700791a0dbac99370ca2641a4e233b526bca103cc3b083eca6592448d4f6e1e",
-  "raw_hash": "63e5b562c8b47d3450d7bf7310996e65b97e0168418b1e321a6c56f384d9c20f",
+  "content_hash": "be5fa245620bef26e117284fda1a94ba1ba1f4bf1fd867362cbb145904f56537",
+  "raw_hash": "12b0a025bb829861b40587e2a1c29757f1c35d847c50763f268e97538e0381ac",
   "text_bytes": 15225,
   "extractor": "dom",
   "confidence": "medium",
@@ -25,14 +25,6 @@
       "amount": 29.0,
       "currency": "USD",
       "period": "month",
-      "features": []
-    },
-    {
-      "name": "Sell online, in person, and in AI chats",
-      "price_raw": "$5,000",
-      "amount": 5000.0,
-      "currency": "USD",
-      "period": null,
       "features": []
     },
     {
@@ -80,22 +72,6 @@
       "features": []
     },
     {
-      "name": "Earn 1% back on all sales",
-      "price_raw": "$5,000",
-      "amount": 5000.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "50 synced marketplace orders per month",
-      "price_raw": "Free",
-      "amount": 0.0,
-      "currency": null,
-      "period": "month",
-      "features": []
-    },
-    {
       "name": "Over 50 synced marketplace orders",
       "price_raw": "$99",
       "amount": 99.0,
@@ -115,14 +91,6 @@
       "name": "Pay yearly",
       "price_raw": "$29",
       "amount": 29.0,
-      "currency": "USD",
-      "period": "month",
-      "features": []
-    },
-    {
-      "name": "How much does Shopify cost?",
-      "price_raw": "$1",
-      "amount": 1.0,
       "currency": "USD",
       "period": "month",
       "features": []

@@ -5,9 +5,9 @@
   "category": "ai-media",
   "url": "https://www.heygen.com/pricing",
   "final_url": "https://www.heygen.com/pricing",
-  "content_hash": "15a46ae4349bc439268fbef2eb61673e02cda7db93422070eb4b64f5a269b7c6",
-  "raw_hash": "0cf595703f55bf7e798f37678ac30b88599029d6d6c950eddd865e920a7cdc11",
-  "text_bytes": 12781,
+  "content_hash": "955dde9b028059cc61f82506e718360af9d10b887fecdde3202dbab827e8df02",
+  "raw_hash": "0e1ec6ebed3af983e6a8b3518fc0aa3b07264c16cbce5503934fabd016ca3f89",
+  "text_bytes": 12767,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -22,7 +22,7 @@
         "Videos up to 1 min",
         "Access to Avatar IV",
         "Standard video processing",
-        "500+ Stock Custom Video Avatars",
+        "500+ Stock Video Avatars",
         "1 Custom Video Avatar",
         "30+ languages",
         "Videos up to 30 mins",
@@ -113,22 +113,6 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
-    },
-    {
-      "name": "How much does HeyGen cost?",
-      "price_raw": "$29",
-      "amount": 29.0,
-      "currency": "USD",
-      "period": "month",
-      "features": []
-    },
-    {
-      "name": "What's the difference between Pro plan tiers?",
-      "price_raw": "$49",
-      "amount": 49.0,
-      "currency": "USD",
-      "period": "month",
       "features": []
     }
   ],

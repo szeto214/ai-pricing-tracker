@@ -6,7 +6,7 @@
   "url": "https://www.warp.dev/pricing",
   "final_url": "https://www.warp.dev/pricing",
   "content_hash": "f5de1c40b045b061860205f2a958378147ae5cbc3943481eeaabb43cfa0ecce6",
-  "raw_hash": "522e950ec2170a363d6418cfcc3d013ed4c49c0336e1120d59ac2a8e850ac3a0",
+  "raw_hash": "60ff50845f864c047d25a87dd7fb297c26838af726f3bedf06a84e428a1c40c8",
   "text_bytes": 8597,
   "extractor": "dom",
   "confidence": "medium",
@@ -68,7 +68,7 @@
       "features": []
     },
     {
-      "name": "Warp Factories, now in Early Access",
+      "name": "Pay as you go",
       "price_raw": "$10,000",
       "amount": 10000.0,
       "currency": "USD",

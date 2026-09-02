@@ -2060,6 +2060,14 @@ pricing details
 ).
 Environment compute (CPU, memory, sandbox execution) is not billed during the preview period.
 Notes
+Agentic video understanding:
+When using agentic video understanding,
+token usage is variable based on the content loaded by the model rather than
+full video length. This typically results in up to 88% fewer input tokens for
+long-form video, though token counts depend on query complexity and dynamic
+sampling depth (which may exceed 1 FPS for detailed visual segments). See
+Agentic video understanding
+.
 Document token billing:
 Tokens for the
 DOCUMENT
@@ -2090,4 +2098,4 @@ Apache 2.0 License
 . For details, see the
 Google Developers Site Policies
 . Java is a registered trademark of Oracle and/or its affiliates.
-Last updated 2026-08-28 UTC.
+Last updated 2026-09-01 UTC.

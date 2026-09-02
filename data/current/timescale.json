@@ -6,7 +6,7 @@
   "url": "https://www.timescale.com/pricing",
   "final_url": "https://www.tigerdata.com/pricing",
   "content_hash": "66852153c2f07bea2d0274e788ee28bddb77e853c4536a1a4165e7b8f7085999",
-  "raw_hash": "a1f87336032524daa5ac2ee8bf216b3b8c2d4ef355150a01009a32d5cb5230aa",
+  "raw_hash": "3faee1d0378b58c1411ba2919c9842147795efaff67c3ea6b4b8cccdb3680b76",
   "text_bytes": 11487,
   "extractor": "dom",
   "confidence": "medium",
@@ -52,14 +52,6 @@
         "Point-in-time-recovery to 14 days",
         "Integrations with observability tools"
       ]
-    },
-    {
-      "name": "Features",
-      "price_raw": "$30",
-      "amount": 30.0,
-      "currency": "USD",
-      "period": "month",
-      "features": []
     }
   ],
   "tables": [],

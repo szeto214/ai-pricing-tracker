@@ -6,7 +6,7 @@
   "url": "https://weaviate.io/pricing",
   "final_url": "https://weaviate.io/pricing",
   "content_hash": "19b4427c14836a0de6a7a20c3ebeef5498963461da7c9e219c7e375e716bdf18",
-  "raw_hash": "5f06a1b65f6a00387daa8ab02c079d68b40870973ac5cb180760801be1aa78cf",
+  "raw_hash": "de577108dbe199a025a120974e1c2545939a028f6423cbb55e70a97fbef04ea8",
   "text_bytes": 6948,
   "extractor": "dom",
   "confidence": "medium",
@@ -81,7 +81,7 @@
       ]
     },
     {
-      "name": "Plan",
+      "name": "Contract",
       "price_raw": "$45",
       "amount": 45.0,
       "currency": "USD",

@@ -5,9 +5,9 @@
   "category": "dev-infra",
   "url": "https://tailscale.com/pricing",
   "final_url": "https://tailscale.com/pricing",
-  "content_hash": "cda95358c0d8a0083c36daa3f3bb1f3f2e35fbef874916b465769627f09e13f4",
-  "raw_hash": "2a538ad1c2f5e44815a6d1900d66a685346be06cc8b76b644fcf204f60a4a6ae",
-  "text_bytes": 27670,
+  "content_hash": "bca71e9e412e7835832b43f035338d8628eb294d88d8fb22964a5d2d4e650ac8",
+  "raw_hash": "e9156176ed23cb72979b3c4ab2b6e1945e16e57a16088a0561727169ac63ca9a",
+  "text_bytes": 27665,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

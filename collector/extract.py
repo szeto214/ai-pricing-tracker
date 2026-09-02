@@ -56,6 +56,23 @@ _BAD_NAME_RE = re.compile(
 )
 
 
+# Judul bagian halaman harga yang bukan nama paket. Snapshot 01/09 mencatat
+# "Pricing" (redis) dan "Let's talk numbers" (redis) sebagai paket baru/hilang.
+# Dicocokkan UTUH atau sebagai awalan ajakan bicara — bukan pencarian bebas,
+# supaya paket sah seperti "Pricing Pro" tidak ikut tersaring.
+_GENERIC_HEADING_RE = re.compile(
+    r"^\s*(?:"
+    r"pricing|pricing plans?|plans?|our plans?|all plans?|compare plans?|compare|"
+    r"features?|faq|frequently asked questions|questions?|overview|summary|"
+    r"pricing details|how it works|why us|resources|documentation|docs|blog|"
+    r"contact|contact us|support|sales"
+    r")\s*$"
+    r"|^\s*(?:let'?s talk|talk to|need more|still have|got questions|"
+    r"ready to|not sure)\b",
+    re.I,
+)
+
+
 def _plausible_plan_name(name: str) -> bool:
     """Saringan terakhir sebelum sesuatu diakui sebagai nama paket.
 
@@ -70,11 +87,17 @@ def _plausible_plan_name(name: str) -> bool:
         return False
     if n.endswith(":"):                    # "Everything in Pro and:"
         return False
+    if n.endswith("?"):                    # "How much does SonarQube cost?"
+        return False                       # pertanyaan FAQ, bukan paket
     if PRICE_RE.search(n):                 # "$4.00" terbaca sebagai nama
         return False
     if _BAD_NAME_RE.match(n):
         return False
     if not re.search(r"[A-Za-z]", n):      # angka atau simbol saja
+        return False
+    if len(n.split()) > 5:                 # nama paket bukan kalimat
+        return False
+    if _GENERIC_HEADING_RE.match(n):       # "Pricing", "Let's talk numbers"
         return False
     return True
 

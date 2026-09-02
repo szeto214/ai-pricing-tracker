@@ -258,10 +258,20 @@ def test_plan_name_sanity() -> None:
 
     for bad in ["Everything in Pro and:", "Everything in Free and", "$4.00",
                 "1.234", "Includes everything in Team:", "", "x",
-                "Get started free", "Contact sales"]:
+                "Get started free", "Contact sales",
+                # Kasus nyata dari snapshot 01/09/2026:
+                "How much does SonarQube cost?",   # pertanyaan FAQ (sonarsource)
+                "Pricing",                          # judul halaman (redis)
+                "Let's talk numbers",               # ajakan bicara (redis)
+                "Plans", "Compare plans", "FAQ", "Contact us",
+                "Images with fewer than 50,000 px",  # kalimat dokumentasi
+                ]:
         check(f"tolak nama palsu: {bad!r}", not ok(bad))
     for good in ["Pro", "Business", "Free", "Team", "Scale", "Enterprise",
-                 "Pay as you go", "Hobby"]:
+                 "Pay as you go", "Hobby",
+                 # Nama sah dari data nyata — tidak boleh ikut tersaring:
+                 "Essentials", "Cloud Coding Agent", "Serverless Training API",
+                 "RTX PRO 6000 Max-Q", "H100 PCIE", "Pricing Pro"]:
         check(f"terima nama sah: {good!r}", ok(good))
 
     # Sampah di kedua sisi tidak boleh menghasilkan peristiwa apa pun.

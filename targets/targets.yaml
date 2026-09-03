@@ -41,9 +41,8 @@ targets:
     vendor: Cognition
     category: ai-coding
     url: https://windsurf.com/pricing
-    notes: "validasi 27/08: HTTP 429 setelah 2 percobaan ulang — mungkin
-      pembatasan laju sesaat. Dibiarkan aktif; kalau 429 terus selama seminggu,
-      nonaktifkan."
+    enabled: false
+    notes: "validasi #1-#5 + snapshot 27/08-02/09: HTTP 429 tujuh hari berturut-turut. Tenggat 03/09 tercapai, dinonaktifkan. Slug dipertahankan — aktifkan lagi kalau pembatasannya dicabut."
 
   - slug: replit
     name: Replit
@@ -94,7 +93,8 @@ targets:
     vendor: Cognition
     category: ai-coding
     url: https://devin.ai/pricing
-    notes: "validasi #1/#2/#3: HTTP 429 tiga kali berturut-turut. Kalau masih 429 pada 03/09, nonaktifkan."
+    enabled: false
+    notes: "validasi #1-#5 + snapshot 27/08-02/09: HTTP 429 tujuh hari berturut-turut. Tenggat 03/09 tercapai, dinonaktifkan. Slug dipertahankan — aktifkan lagi kalau pembatasannya dicabut."
 
   # ---------- AI assistants (consumer / team) ----------
   - slug: openai-chatgpt

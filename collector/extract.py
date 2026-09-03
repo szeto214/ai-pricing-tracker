@@ -51,7 +51,7 @@ _BAD_NAME_RE = re.compile(
     r"learn more|compare|see all|buy now|choose|select|upgrade|book a demo|"
     # Judul penyambung antar-kolom tabel perbandingan, bukan nama paket.
     # Snapshot 29/08 mencatat "Everything in Pro and:" sebagai paket dihapus.
-    r"everything in|includes everything|all features|plus everything)",
+    r"everything in|includes everything|all features|plus everything|up to |save |discount|limited time|promo)",
     re.I,
 )
 
@@ -73,6 +73,23 @@ _GENERIC_HEADING_RE = re.compile(
 )
 
 
+# Pecahan kalimat yang sempat tercatat sebagai nama paket (openrouter, 02/09).
+_FRAGMENTS = {
+    "by", "and", "or", "the", "a", "an", "per", "from", "to", "for", "with",
+    "in", "on", "at", "of", "up", "new", "more", "all", "each",
+}
+
+
+def clean_plan_name(name: str) -> str:
+    """Rapikan sebelum dipakai maupun sebelum divalidasi.
+
+    Tanda baca menggantung membuat nama yang sama terbaca berbeda antar hari
+    ("Single Sign-On -" vs "Single Sign-On") lalu tercatat sebagai paket
+    hilang + paket baru, padahal tidak terjadi apa-apa.
+    """
+    return re.sub(r"\s+", " ", (name or "")).strip(" \t-–—:·|")
+
+
 def _plausible_plan_name(name: str) -> bool:
     """Saringan terakhir sebelum sesuatu diakui sebagai nama paket.
 
@@ -82,8 +99,10 @@ def _plausible_plan_name(name: str) -> bool:
     kehilangan arti. Lebih baik kehilangan satu paket asli daripada
     memasukkan sepuluh yang palsu.
     """
-    n = (name or "").strip()
+    n = clean_plan_name(name)
     if not (1 < len(n) <= 48):
+        return False
+    if n.lower() in _FRAGMENTS:            # "by", "and", "per" — pecahan kalimat
         return False
     if n.endswith(":"):                    # "Everything in Pro and:"
         return False
@@ -253,16 +272,16 @@ def _plan_name(card) -> str:
     for tag in card.find_all(["h1", "h2", "h3", "h4", "h5", "h6"], limit=4):
         t = tag.get_text(" ", strip=True)
         if _plausible_plan_name(t):
-            return t
+            return clean_plan_name(t)
     for tag in card.find_all(attrs={"class": NAME_HINT_RE}, limit=8):
         t = tag.get_text(" ", strip=True)
         if _plausible_plan_name(t):
-            return t
+            return clean_plan_name(t)
     # Cadangan: baris pertama kartu — TETAP harus lolos saringan yang sama.
     # Versi lama mengembalikan baris pertama apa adanya, dan itulah yang
     # memasukkan "$4.00" sebagai nama paket pada snapshot 29/08.
     first = card.get_text("\n", strip=True).split("\n")[0]
-    return first if _plausible_plan_name(first) else ""
+    return clean_plan_name(first) if _plausible_plan_name(first) else ""
 
 
 def _features(card, limit: int = 25) -> list[str]:

@@ -55,21 +55,30 @@ def main() -> int:
     s = run["summary"]
     date = run["date"]
     changes = changes_for(date)
+    # `price_change` = angka bergerak pada paket yang ada di kedua hari.
+    # `catalog_change` = paket muncul/hilang — berguna, tapi bergantung pada
+    # kestabilan ekstraksi, jadi dihitung terpisah dan TIDAK dipakai untuk
+    # gerbang bulan ke-3.
     price_changes = [c for c in changes if c["kind"] == "price_change"]
+    catalog_changes = [c for c in changes if c["kind"] == "catalog_change"]
 
     if not args.markdown:
         msg = (f"data: snapshot {date} — {s['ok']}/{s['total']} ok, "
                f"{len(price_changes)} perubahan harga, "
+               f"{len(catalog_changes)} perubahan katalog, "
                f"{len(changes)} halaman berubah")
         print(f"message={msg}")
         print(f"ok={s['ok']}")
         print(f"changed={len(changes)}")
+        print(f"price_changes={len(price_changes)}")
         return 0
 
     print(f"## Snapshot {date}\n")
     print(f"- Target berhasil: **{s['ok']}/{s['total']}**")
     print(f"- Halaman berubah: **{len(changes)}**")
-    print(f"- Perubahan harga: **{len(price_changes)}**\n")
+    print(f"- Perubahan harga (angka bergerak): **{len(price_changes)}**")
+    print(f"- Perubahan katalog (paket muncul/hilang): "
+          f"**{len(catalog_changes)}**\n")
 
     failed = [t for t in run["targets"] if t.get("status") != "ok"]
     if failed:
@@ -79,6 +88,16 @@ def main() -> int:
         for t in failed:
             print(f"| {t['slug']} | {t['status']} | "
                   f"{(t.get('reason') or '')[:90]} |")
+        print()
+
+    if catalog_changes:
+        print("### Perubahan katalog\n")
+        for c in catalog_changes:
+            evs = [e for e in c["plan_events"]
+                   if e["type"] in ("plan_added", "plan_removed")]
+            head = ", ".join(f"{e['type'].replace('plan_', '')}: {e.get('plan', '')}"
+                             for e in evs[:4])
+            print(f"- **{c['name']}** — {head}")
         print()
 
     if price_changes:

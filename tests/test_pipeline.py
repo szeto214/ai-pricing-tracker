@@ -265,6 +265,11 @@ def test_plan_name_sanity() -> None:
                 "Let's talk numbers",               # ajakan bicara (redis)
                 "Plans", "Compare plans", "FAQ", "Contact us",
                 "Images with fewer than 50,000 px",  # kalimat dokumentasi
+                # Kasus nyata dari snapshot 02/09/2026:
+                "Up to 15% off",      # badge promo (replit)
+                "Save 20%",           # badge promo
+                "by",                 # pecahan kalimat (openrouter)
+                "and", "per",
                 ]:
         check(f"tolak nama palsu: {bad!r}", not ok(bad))
     for good in ["Pro", "Business", "Free", "Team", "Scale", "Enterprise",
@@ -289,6 +294,71 @@ def test_plan_name_sanity() -> None:
     check("penghapusan paket sungguhan tetap tercatat",
           any(e["type"] == "plan_removed" and e["plan"] == "Free" for e in real),
           f"-> {real}")
+
+    # Tanda baca menggantung tidak boleh menghasilkan paket hilang + baru.
+    from collector.extract import clean_plan_name
+    check("nama dirapikan: 'Single Sign-On -' -> 'Single Sign-On'",
+          clean_plan_name("Single Sign-On -") == "Single Sign-On")
+    same = diff_plans(
+        [{"name": "Single Sign-On", "amount": 150.0, "features": []}],
+        [{"name": "Single Sign-On", "amount": 150.0, "features": []}])
+    check("nama identik -> nol peristiwa", same == [], f"-> {same}")
+
+
+def test_change_classification() -> None:
+    """`price_change` hanya untuk angka yang benar-benar bergerak.
+
+    Snapshot 02/09/2026 menunjukkan penambahan/penghapusan paket tidak bisa
+    dipercaya: halaman render-JS kadang menampilkan paket kadang tidak
+    (synthesia "Free" hilang, suno "Free Plan" muncul), dan baris fitur ikut
+    terbaca sebagai paket. Karena `price_change` adalah metrik penentu
+    gerbang bulan ke-3, add/remove dipisah ke `catalog_change`.
+    """
+    print("\n3d. klasifikasi jenis perubahan")
+
+    def kind_of(old_plans, new_plans):
+        old = {"content_hash": "a", "plans": old_plans, "_text": "lama"}
+        new = {"content_hash": "b", "plans": new_plans}
+        return compare(old, new, "baru")["kind"]
+
+    check("angka bergerak -> price_change",
+          kind_of([{"name": "Pro", "amount": 20.0, "features": []}],
+                  [{"name": "Pro", "amount": 25.0, "features": []}])
+          == "price_change")
+
+    check("paket baru muncul -> catalog_change (BUKAN price_change)",
+          kind_of([{"name": "Pro", "amount": 20.0, "features": []}],
+                  [{"name": "Pro", "amount": 20.0, "features": []},
+                   {"name": "Max", "amount": 200.0, "features": []}])
+          == "catalog_change")
+
+    check("paket hilang -> catalog_change",
+          kind_of([{"name": "Pro", "amount": 20.0, "features": []},
+                   {"name": "Free", "amount": 0.0, "features": []}],
+                  [{"name": "Pro", "amount": 20.0, "features": []}])
+          == "catalog_change")
+
+    check("hanya fitur berubah -> plan_detail_change",
+          kind_of([{"name": "Pro", "amount": 20.0, "features": ["A"]}],
+                  [{"name": "Pro", "amount": 20.0, "features": ["B"]}])
+          == "plan_detail_change")
+
+    check("teks berubah tapi paket sama -> page_change",
+          kind_of([{"name": "Pro", "amount": 20.0, "features": []}],
+                  [{"name": "Pro", "amount": 20.0, "features": []}])
+          == "page_change")
+
+    # Peristiwanya TIDAK boleh hilang, hanya klasifikasinya yang berubah.
+    old = {"content_hash": "a", "plans": [{"name": "Pro", "amount": 20.0,
+                                           "features": []}], "_text": "l"}
+    new = {"content_hash": "b", "plans": [{"name": "Pro", "amount": 20.0,
+                                           "features": []},
+                                          {"name": "Max", "amount": 200.0,
+                                           "features": []}]}
+    res = compare(old, new, "b")
+    check("peristiwa tetap tercatat lengkap di plan_events",
+          any(e["type"] == "plan_added" and e["plan"] == "Max"
+              for e in res["plan_events"]), f"-> {res['plan_events']}")
 
 
 def test_diff() -> None:
@@ -478,6 +548,7 @@ def main() -> int:
     test_extraction()
     test_secret_redaction()
     test_plan_name_sanity()
+    test_change_classification()
     test_diff()
     test_end_to_end()
 

@@ -124,10 +124,29 @@ def compare(old: dict | None, new: dict, new_text: str) -> dict | None:
     plan_events = diff_plans(old.get("plans") or [], new.get("plans") or [])
     text = text_diff_summary(old.get("_text", ""), new_text)
 
-    price_events = [e for e in plan_events
-                    if e["type"] in ("price_changed", "plan_added", "plan_removed")]
-    if price_events:
+    # `price_change` DISEDIAKAN KHUSUS untuk angka yang benar-benar bergerak
+    # pada paket yang ada di kedua hari. Itu satu-satunya jenis peristiwa yang
+    # tidak bisa dipalsukan oleh ekstraksi yang goyah.
+    #
+    # Penambahan dan penghapusan paket pindah ke `catalog_change`. Alasannya
+    # dibuktikan data 02/09: halaman yang dirender JavaScript kadang
+    # menampilkan paket dan kadang tidak (synthesia "Free" hilang, suno
+    # "Free Plan" muncul), dan baris fitur ikut terbaca sebagai paket
+    # ("Claude Code", "Central billing and administration", "Up to 15% off").
+    # Selama itu belum beres, add/remove tidak boleh masuk metrik yang
+    # menentukan gerbang bulan ke-3.
+    #
+    # Tidak ada data yang hilang — peristiwanya tetap tercatat lengkap di
+    # plan_events, hanya klasifikasinya yang lebih jujur. Kalau ekstraksi
+    # sudah stabil, add/remove bisa dinaikkan kembali.
+    moved = [e for e in plan_events if e["type"] == "price_changed"]
+    catalog = [e for e in plan_events
+               if e["type"] in ("plan_added", "plan_removed")]
+
+    if moved:
         kind = "price_change"
+    elif catalog:
+        kind = "catalog_change"
     elif plan_events:
         kind = "plan_detail_change"
     else:

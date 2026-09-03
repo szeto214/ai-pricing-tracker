@@ -6,13 +6,13 @@
   "url": "https://replit.com/pricing",
   "final_url": "https://replit.com/pricing",
   "content_hash": "e092221688fecb3eeb00c7bcdd0a5ee6db32fa4be081ae3102be1d21606530f7",
-  "raw_hash": "04b8c7fc5c084c6ce6b08d968a775162395ff3e3ea6462fc97b2a961cd76b825",
+  "raw_hash": "cc72e0115f5f704d9474fbc6f2c2ad6b0a668b7a2a94fdac482aeeed25ab831c",
   "text_bytes": 1800,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
     {
-      "name": "Up to 15% off",
+      "name": "Starter Free Daily agent credits",
       "price_raw": "$20",
       "amount": 20.0,
       "currency": "USD",

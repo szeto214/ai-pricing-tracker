@@ -5,28 +5,27 @@
   "category": "ai-coding",
   "url": "https://www.augmentcode.com/pricing",
   "final_url": "https://www.augmentcode.com/pricing",
-  "content_hash": "863d82d33f161ac80c44c361a35a483d23bd58a97c6328feaf0e5020b8cf2b00",
-  "raw_hash": "fb1371d1b358dac59a4e532d86cd0253d8810bcac4f359d4f1335fbf0ba7517b",
-  "text_bytes": 6147,
-  "extractor": "dom",
-  "confidence": "low",
+  "content_hash": "b845cc7b6359107a1afcb6fc1535b9146a4210333cfd3a382408afff72e08e22",
+  "raw_hash": "26a40b23d98c5259664448227e86db96b5af217a3a2e698452ed8da332cbc263",
+  "text_bytes": 7360,
+  "extractor": "jsonld",
+  "confidence": "medium",
   "plans": [
     {
-      "name": "BUSINESS",
-      "price_raw": "$100",
+      "name": "Standard",
+      "price_raw": "20",
+      "amount": 20.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Business",
+      "price_raw": "100",
       "amount": 100.0,
       "currency": "USD",
-      "period": "month",
-      "features": [
-        "$100/mo of usage across LLM, Context Engine & compute",
-        "Up to 50 seats included",
-        "Cosmos NEW",
-        "CLI access",
-        "MCP & Native Tools",
-        "Top-ups, pay as you go",
-        "SOC 2 Type II",
-        "No AI training allowed"
-      ]
+      "period": null,
+      "features": []
     }
   ],
   "tables": [],

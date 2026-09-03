@@ -5,24 +5,16 @@
   "category": "gpu-rental",
   "url": "https://vast.ai/pricing",
   "final_url": "https://vast.ai/pricing",
-  "content_hash": "28afc1a2fe830991347fdf23b28ee123884e9437e28a5983517f972a9ce594cb",
-  "raw_hash": "2b926c3cf0150fcd2ec46f15dc9c7a13baa0b14f8708b0071c508a23bf889143",
-  "text_bytes": 7600,
+  "content_hash": "3e3c9737c60dde65c1a392d438ef66a8c9d3eed50113cadaa84eb6a88c45dec7",
+  "raw_hash": "86edf8f4fd7dfb185befa5cb1a299ff496c3f544863635651e6bb18e26c6a18b",
+  "text_bytes": 7553,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
     {
-      "name": "B200",
-      "price_raw": "$4.13",
-      "amount": 4.13,
-      "currency": "USD",
-      "period": "hour",
-      "features": []
-    },
-    {
       "name": "H200",
-      "price_raw": "$2.76",
-      "amount": 2.76,
+      "price_raw": "$3.75",
+      "amount": 3.75,
       "currency": "USD",
       "period": "hour",
       "features": []
@@ -36,49 +28,57 @@
       "features": []
     },
     {
-      "name": "B300",
-      "price_raw": "$5.63",
-      "amount": 5.63,
+      "name": "B200",
+      "price_raw": "$3.88",
+      "amount": 3.88,
       "currency": "USD",
       "period": "hour",
       "features": []
     },
     {
-      "name": "H200 NVL",
-      "price_raw": "$3.47",
-      "amount": 3.47,
+      "name": "B300",
+      "price_raw": "$9.69",
+      "amount": 9.69,
       "currency": "USD",
       "period": "hour",
       "features": []
     },
     {
       "name": "H100 PCIE",
-      "price_raw": "$1.93",
-      "amount": 1.93,
+      "price_raw": "$1.99",
+      "amount": 1.99,
+      "currency": "USD",
+      "period": "hour",
+      "features": []
+    },
+    {
+      "name": "H200 NVL",
+      "price_raw": "$3.60",
+      "amount": 3.6,
       "currency": "USD",
       "period": "hour",
       "features": []
     },
     {
       "name": "H100 NVL",
-      "price_raw": "$2.40",
-      "amount": 2.4,
+      "price_raw": "$1.53",
+      "amount": 1.53,
       "currency": "USD",
       "period": "hour",
       "features": []
     },
     {
       "name": "RTX 5090",
-      "price_raw": "$0.32",
-      "amount": 0.32,
+      "price_raw": "$0.21",
+      "amount": 0.21,
       "currency": "USD",
       "period": "hour",
       "features": []
     },
     {
       "name": "RTX 4090",
-      "price_raw": "$0.12",
-      "amount": 0.12,
+      "price_raw": "$0.13",
+      "amount": 0.13,
       "currency": "USD",
       "period": "hour",
       "features": []
@@ -93,8 +93,8 @@
     },
     {
       "name": "RTX 4090D",
-      "price_raw": "$0.44",
-      "amount": 0.44,
+      "price_raw": "$0.40",
+      "amount": 0.4,
       "currency": "USD",
       "period": "hour",
       "features": []
@@ -117,16 +117,8 @@
     },
     {
       "name": "RTX PRO 6000 S",
-      "price_raw": "$0.67",
-      "amount": 0.67,
-      "currency": "USD",
-      "period": "hour",
-      "features": []
-    },
-    {
-      "name": "RTX PRO 6000 WS",
-      "price_raw": "$0.93",
-      "amount": 0.93,
+      "price_raw": "$0.97",
+      "amount": 0.97,
       "currency": "USD",
       "period": "hour",
       "features": []
@@ -148,9 +140,25 @@
       "features": []
     },
     {
+      "name": "RTX PRO 6000 WS",
+      "price_raw": "$0.93",
+      "amount": 0.93,
+      "currency": "USD",
+      "period": "hour",
+      "features": []
+    },
+    {
       "name": "RTX PRO 6000 Max-Q",
-      "price_raw": "$0.87",
-      "amount": 0.87,
+      "price_raw": "$0.89",
+      "amount": 0.89,
+      "currency": "USD",
+      "period": "hour",
+      "features": []
+    },
+    {
+      "name": "RTX 5070 Ti",
+      "price_raw": "$0.11",
+      "amount": 0.11,
       "currency": "USD",
       "period": "hour",
       "features": []
@@ -159,14 +167,6 @@
       "name": "RTX PRO 4000",
       "price_raw": "$0.13",
       "amount": 0.13,
-      "currency": "USD",
-      "period": "hour",
-      "features": []
-    },
-    {
-      "name": "RTX 5070 Ti",
-      "price_raw": "$0.12",
-      "amount": 0.12,
       "currency": "USD",
       "period": "hour",
       "features": []

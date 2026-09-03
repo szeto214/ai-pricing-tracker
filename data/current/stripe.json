@@ -5,9 +5,9 @@
   "category": "dev-infra",
   "url": "https://stripe.com/pricing",
   "final_url": "https://stripe.com/pricing",
-  "content_hash": "e4e4f5a307a030bb30588c99ac75ad2d501bd27b32da4cbf521ca9bcbf741278",
-  "raw_hash": "fd4db37fc1c4aa5de600ebbc42d0d7f8ae284cded7b812e03de5e2ef17d82a36",
-  "text_bytes": 31462,
+  "content_hash": "a580d0e92efca7fa249e9f07053de779de256c3c93ce3d3131ff0663a790bfaf",
+  "raw_hash": "aca8935503d5ab1fff49290ecdcda906b03e57e0f226555ee191b8742ec00736",
+  "text_bytes": 31461,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

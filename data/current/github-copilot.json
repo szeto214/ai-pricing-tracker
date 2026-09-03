@@ -5,12 +5,25 @@
   "category": "ai-coding",
   "url": "https://github.com/features/copilot/plans",
   "final_url": "https://github.com/features/copilot/plans",
-  "content_hash": "1c4c3ae972d30be1632d4dc47f86078e5690e2abfd64bf5ac511a6ed633ddba3",
-  "raw_hash": "633872442489086fba7d535f8faed564d226370df15e2dbeeabbbb5c98e852fc",
-  "text_bytes": 46255,
+  "content_hash": "8e40460ddf70f6843838b6c5bf6755430295d4a690565a280916ca12683e1082",
+  "raw_hash": "bb53b598493e128ea6dfa6bb0f4ed981b2902c4667caeb373b846e7cbf3f24dd",
+  "text_bytes": 47157,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
+    {
+      "name": "Free",
+      "price_raw": "$ 0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "2,000 completions per month",
+        "Access to Haiku 4.5, GPT-5 mini, and more",
+        "Copilot CLI",
+        "Community Support"
+      ]
+    },
     {
       "name": "Free plan",
       "price_raw": "$15",

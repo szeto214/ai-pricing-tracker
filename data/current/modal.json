@@ -5,9 +5,9 @@
   "category": "ai-api",
   "url": "https://modal.com/pricing",
   "final_url": "https://modal.com/pricing",
-  "content_hash": "73384926c29e1bc8767491bc070c8ec6af89e1c6f4b714d2bc2b2d755b686ff0",
-  "raw_hash": "653713cb101d40ed7b97e1beeb55753b88609a93dd492e29dcbe28be55ccbbd1",
-  "text_bytes": 4629,
+  "content_hash": "7df44143b75dd8ded404ca63b41ca7717067ae7dcf30c4e84e183c9b9a4dce75",
+  "raw_hash": "2e82d813475dfbcebf1994615cbdc159a7cee3c3197df76d665bdd817e71e149",
+  "text_bytes": 4632,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

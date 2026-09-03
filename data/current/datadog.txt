@@ -3882,7 +3882,7 @@ Support plans
 Services & enablement
 Common Questions
 How do you define a database host?
-A database host is any physical or virtual instance hosting your database on a server that you monitor with Datadog.
+A billable host is any database instance (self-hosted or managed by a cloud provider) that runs one or more logical databases.
 Note: Azure SQL Database deploys a database in an isolated network; each database is treated as a single host.
 What databases are supported?
 We support

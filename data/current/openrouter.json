@@ -5,85 +5,12 @@
   "category": "ai-api",
   "url": "https://openrouter.ai/models",
   "final_url": "https://openrouter.ai/models",
-  "content_hash": "3c6aa2abad3470c985e607cd4c1178989edb28ab70e7904a437b549831892adf",
-  "raw_hash": "cd22472454128499bb0ca3648726a88abd9286a7469d8043ec615ce1169f2959",
-  "text_bytes": 9047,
-  "extractor": "dom",
-  "confidence": "medium",
-  "plans": [
-    {
-      "name": "by",
-      "price_raw": "$0.05",
-      "amount": 0.05,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "by",
-      "price_raw": "$10",
-      "amount": 10.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "by",
-      "price_raw": "$0.06",
-      "amount": 0.06,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "by",
-      "price_raw": "$0",
-      "amount": 0.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "by",
-      "price_raw": "$0.01",
-      "amount": 0.01,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "by",
-      "price_raw": "$0.10",
-      "amount": 0.1,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "by",
-      "price_raw": "$0.12",
-      "amount": 0.12,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "by",
-      "price_raw": "$0.03",
-      "amount": 0.03,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "by",
-      "price_raw": "$0.04",
-      "amount": 0.04,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    }
-  ],
+  "content_hash": "7f2d76d0178031f3864dfad876cf6fcbc5173da70fc4f9bc13dafa5abea865d5",
+  "raw_hash": "47a0973b79bf0c836c965cec88ca100af0388c2a5abeba98f9efe20a6b5bfca1",
+  "text_bytes": 7910,
+  "extractor": "none",
+  "confidence": "none",
+  "plans": [],
   "tables": [],
   "extract_errors": []
 }

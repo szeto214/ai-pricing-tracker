@@ -6,7 +6,7 @@
   "url": "https://webflow.com/pricing",
   "final_url": "https://webflow.com/pricing",
   "content_hash": "664aa252c4fcf24cdd0edd862c0d793f7ebc02dcdc62b73ebdd2bf0280cd57f0",
-  "raw_hash": "76024f1f6e311d49989baf13a47edee3d8930a99b3257eb6425b65fb7c749f43",
+  "raw_hash": "1988f0d7794e98fa82b1b5dc85dd4a70977e33ba47e9d68ab5ee4cc10681575e",
   "text_bytes": 56308,
   "extractor": "dom",
   "confidence": "medium",
@@ -20,7 +20,7 @@
       "features": []
     },
     {
-      "name": "Apps",
+      "name": "Site plans",
       "price_raw": "$2",
       "amount": 2.0,
       "currency": "USD",

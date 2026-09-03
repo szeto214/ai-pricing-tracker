@@ -78,6 +78,8 @@ Includes
 Everything in Essentials, plus...1
 Use your existing User Database for Logins
 Enterprise Multi-Factor Authentication
+Custom Token
+Exchange
 Enhanced Attack Protection
 M2M Tokens
 Add-on
@@ -236,6 +238,11 @@ Long Lived Sessions
 Not included
 Not included
 Not included
+Included
+Custom Token Exchange
+Not included
+Not included
+Included
 Included
 AI
 CIBA

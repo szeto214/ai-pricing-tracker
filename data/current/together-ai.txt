@@ -499,8 +499,10 @@ $5.99
 On-demand hourly rates and reserved capacity
 All prices are per GPU per hour.
 Hardware
+Preemptible Compute
 ON-Demand
 Reserved
+Pay as you go
 Pay as you go
 7-30 days
 31-90 days
@@ -508,6 +510,7 @@ Pay as you go
 181+ days
 NVIDIA
 HGX H100
+$1.99
 $3.99
 $3.69
 $3.45
@@ -515,6 +518,7 @@ $3.19
 Contact us
 NVIDIA
 HGX H200
+$2.99
 $5.99
 $4.99
 $4.15
@@ -522,6 +526,7 @@ $3.99
 Contact us
 NVIDIA
 HGX B200
+$4.09
 $8.19
 $7.99
 $7.79
@@ -530,13 +535,16 @@ Contact us
 NVIDIA
 GB200 NVL72
 —
+—
 Contact us
 NVIDIA
 GB300 NVL72
 —
+—
 Contact us
 NVIDIA
 HGX B300
+—
 —
 Contact us
 Sandbox

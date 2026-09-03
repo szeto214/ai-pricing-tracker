@@ -5,9 +5,9 @@
   "category": "ai-api",
   "url": "https://www.baseten.co/pricing/",
   "final_url": "https://www.baseten.co/pricing/",
-  "content_hash": "675bde22f67d704291031f973bf41c15acdff4fd844f2df075d292ec78bc06aa",
-  "raw_hash": "bd00b6946ad21fa297c5f40d0a3d02bf0c7d5e27bb5ce45c1c0a7885f1bdbdf7",
-  "text_bytes": 6082,
+  "content_hash": "aa8d59d931aae5dba2aa97e938a4317b0f6a8185a8797a0019f9960a55f7ebc2",
+  "raw_hash": "84ad7dd1dd00f47c7abda3428c68a1102f0caa6f91b2d3916aefd2e15f844e42",
+  "text_bytes": 6092,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

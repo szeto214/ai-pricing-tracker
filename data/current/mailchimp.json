@@ -5,17 +5,25 @@
   "category": "productivity",
   "url": "https://mailchimp.com/pricing/",
   "final_url": "https://mailchimp.com/pricing/marketing/",
-  "content_hash": "5eeadfc0ffb3986ae4eba146f1f01ac52b1decad1550fe7577cb92f3dd9598d0",
-  "raw_hash": "8c93ce2db1d52e43cff231b6bd770f24e788822829282189fad40ccc621e236c",
-  "text_bytes": 22536,
+  "content_hash": "03099993758a1541774378618a5672fd6581e1d01f56810837cb343769f430e3",
+  "raw_hash": "dab98db1d2d42c45cc62eba582cd193f09a8e94ea0ee42056adccee82ab3edad",
+  "text_bytes": 22538,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
     {
       "name": "Standard",
-      "price_raw": "Free",
-      "amount": 0.0,
-      "currency": null,
+      "price_raw": "$20",
+      "amount": 20.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Free for 14 days",
+      "price_raw": "$20",
+      "amount": 20.0,
+      "currency": "USD",
       "period": "month",
       "features": []
     },
@@ -54,6 +62,14 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
+      "features": []
+    },
+    {
+      "name": "Customer Success Management",
+      "price_raw": "$299",
+      "amount": 299.0,
+      "currency": "USD",
+      "period": "month",
       "features": []
     }
   ],

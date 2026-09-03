@@ -5,9 +5,9 @@
   "category": "productivity",
   "url": "https://www.shopify.com/pricing",
   "final_url": "https://www.shopify.com/pricing",
-  "content_hash": "be5fa245620bef26e117284fda1a94ba1ba1f4bf1fd867362cbb145904f56537",
-  "raw_hash": "12b0a025bb829861b40587e2a1c29757f1c35d847c50763f268e97538e0381ac",
-  "text_bytes": 15225,
+  "content_hash": "a0a949f7b98c0d7e08a35bedd3ccdebb85d6cb0725bb9c5b2e8553a578dacc7a",
+  "raw_hash": "bf2d7d50a0f08e47f303883446dee86572fa971e2f5f7b61b15cd8708696e3b9",
+  "text_bytes": 15227,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -52,7 +52,7 @@
       "features": []
     },
     {
-      "name": "POS Pro",
+      "name": "Level up your stores with",
       "price_raw": "$89",
       "amount": 89.0,
       "currency": "USD",

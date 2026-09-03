@@ -6,7 +6,7 @@
   "url": "https://www.langchain.com/pricing",
   "final_url": "https://www.langchain.com/pricing",
   "content_hash": "3010d297e0943b665dc4aafbfd54eb253323ab4e8b925eb7123ddb3f2bf3ad14",
-  "raw_hash": "f2641562ac20cd8e4607269075c025183d99cef7e7cff6cef8375317711ac581",
+  "raw_hash": "5fe9796a796963b8dcd905a007136833d529f60470752fff5681711eb9b9f8ed",
   "text_bytes": 15820,
   "extractor": "dom",
   "confidence": "medium",
@@ -49,6 +49,22 @@
       "amount": 39.0,
       "currency": "USD",
       "period": "seat",
+      "features": []
+    },
+    {
+      "name": "LangChain Compute Unit (LCU)",
+      "price_raw": "$1.50",
+      "amount": 1.5,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "LangChain Storage Unit (LSU)",
+      "price_raw": "$1.00",
+      "amount": 1.0,
+      "currency": "USD",
+      "period": null,
       "features": []
     }
   ],

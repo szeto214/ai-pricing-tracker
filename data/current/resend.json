@@ -6,13 +6,13 @@
   "url": "https://resend.com/pricing",
   "final_url": "https://resend.com/pricing",
   "content_hash": "7367995041ce4b71cbfd0b486be9db222e9afb804af0784b004fbc6f9907bb5a",
-  "raw_hash": "efe6f40fb65dbb1c3736232d29e35f96441fec455db2791497f74ce2238e0667",
+  "raw_hash": "b1683b971fe5d5018449dcdf4df622e4563b88c0a869d7a188cd0e40c5254b8a",
   "text_bytes": 9335,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
     {
-      "name": "Domains -",
+      "name": "Domains",
       "price_raw": "$20",
       "amount": 20.0,
       "currency": "USD",
@@ -20,7 +20,7 @@
       "features": []
     },
     {
-      "name": "Dedicated IPs -",
+      "name": "Dedicated IPs",
       "price_raw": "$30",
       "amount": 30.0,
       "currency": "USD",
@@ -28,7 +28,7 @@
       "features": []
     },
     {
-      "name": "Single Sign-On -",
+      "name": "Single Sign-On",
       "price_raw": "$150",
       "amount": 150.0,
       "currency": "USD",

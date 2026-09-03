@@ -5,9 +5,9 @@
   "category": "dev-infra",
   "url": "https://vercel.com/pricing",
   "final_url": "https://vercel.com/pricing",
-  "content_hash": "e7af22fb3169baeb01c9b7afb6ebae3cefd31792f21be5ea9411652abaae8672",
-  "raw_hash": "049914ed5d41a96cfba2218da60641e59d494b891e009b85af27e1009181c1a2",
-  "text_bytes": 12597,
+  "content_hash": "0814f498c83e4ffeb1995057fea9d00621b341cbe8eeaeda962d7b674b79aea6",
+  "raw_hash": "562bc68df58320267794677a4f80908480b1a842e68e3d0862f8c195c720d272",
+  "text_bytes": 12657,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -25,6 +25,14 @@
       "amount": 20.0,
       "currency": "USD",
       "period": "month",
+      "features": []
+    },
+    {
+      "name": "All Hobby features, plus",
+      "price_raw": "$20",
+      "amount": 20.0,
+      "currency": "USD",
+      "period": null,
       "features": []
     },
     {
@@ -159,14 +167,6 @@
       "name": "Vercel Queues",
       "price_raw": "$0.60",
       "amount": 0.6,
-      "currency": "USD",
-      "period": "month",
-      "features": []
-    },
-    {
-      "name": "Token Requests",
-      "price_raw": "$3.00",
-      "amount": 3.0,
       "currency": "USD",
       "period": "month",
       "features": []

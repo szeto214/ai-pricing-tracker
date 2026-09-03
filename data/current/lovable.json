@@ -5,9 +5,9 @@
   "category": "ai-coding",
   "url": "https://lovable.dev/pricing",
   "final_url": "https://lovable.dev/pricing",
-  "content_hash": "c663c7066848afc94e3187fecf4caecee02e1316ca806464a7473638ed7144d7",
-  "raw_hash": "6a1af833121c26cb5b1a31a8b72407323fa2f014c48b6fe60e1e64151a958372",
-  "text_bytes": 2609,
+  "content_hash": "f9d39fb3b23bc2645e1f3061c8f3a9f27bf074b334a25abafdf2c3d2aa5f51c1",
+  "raw_hash": "465dbbe59c10df45909437dabe5d234cb39c9a11a207dae3da2970518ae6dc63",
+  "text_bytes": 2612,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

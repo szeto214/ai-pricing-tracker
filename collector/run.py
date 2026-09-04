@@ -117,6 +117,26 @@ async def process_target(target, *, client, robots, gate, sem, date, args) -> di
     return entry
 
 
+def dedupe_by_url(targets: list) -> tuple[list, list[tuple[str, str]]]:
+    """Satu halaman = satu permintaan per eksekusi.
+
+    Aturan kita sendiri: "Ambil maksimal sekali sehari per halaman." Penjaga
+    sekali-per-hari di bawah memakai kunci slug, jadi dua slug berbeda yang
+    menunjuk halaman yang sama lolos begitu saja. Yang pertama muncul di
+    targets.yaml dipertahankan; sisanya dilewati dan dilaporkan.
+    """
+    seen: dict[str, str] = {}
+    kept, dropped = [], []
+    for t in targets:
+        key = t.fetch_key
+        if key in seen:
+            dropped.append((seen[key], t.slug))
+            continue
+        seen[key] = t.slug
+        kept.append(t)
+    return kept, dropped
+
+
 async def main_async(args) -> int:
     config.ensure_dirs()
     targets = config.load_targets(
@@ -132,6 +152,13 @@ async def main_async(args) -> int:
         targets = [t for t in targets if t.slug in wanted]
 
     targets = [t for t in targets if t.enabled]
+    targets, duplicates = dedupe_by_url(targets)
+    for kept, dropped in duplicates:
+        # Jaring pengaman, bukan pengganti kerapian daftar target: kalau ini
+        # sampai tercetak, targets.yaml perlu dibereskan. Tapi selama belum,
+        # halaman itu tetap hanya diambil sekali.
+        print(f"! {dropped} memakai halaman yang sama dengan {kept} "
+              f"— dilewati supaya tidak dua kali sehari", file=sys.stderr)
     if args.limit:
         targets = targets[: args.limit]
 

@@ -65,6 +65,28 @@ class Target:
 
         return urlsplit(self.url).netloc.lower()
 
+    @property
+    def fetch_key(self) -> str:
+        return fetch_key(self.url)
+
+
+def fetch_key(url: str) -> str:
+    """URL sebagaimana dilihat server penerima permintaan.
+
+    Fragment (`#api`) TIDAK PERNAH dikirim ke server, jadi dua target yang
+    hanya berbeda di fragment adalah satu halaman yang sama. Tanpa
+    penyeragaman ini, `anthropic-claude` dan `anthropic-api` mengambil
+    https://www.anthropic.com/pricing dua kali dalam satu eksekusi —
+    melanggar aturan kita sendiri: maksimal sekali sehari per halaman.
+    """
+    from urllib.parse import urlsplit, urlunsplit
+
+    p = urlsplit((url or "").strip())
+    path = p.path or "/"
+    if len(path) > 1:
+        path = path.rstrip("/") or "/"
+    return urlunsplit((p.scheme.lower(), p.netloc.lower(), path, p.query, ""))
+
 
 def load_targets(path: Path | None = None) -> list[Target]:
     path = path or TARGETS_FILE

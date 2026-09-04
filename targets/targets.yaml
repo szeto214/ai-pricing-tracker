@@ -138,6 +138,11 @@ targets:
     vendor: Anthropic
     category: ai-api
     url: https://www.anthropic.com/pricing#api
+    enabled: false
+    notes: "04/09: halaman yang sama persis dengan anthropic-claude — fragment
+      #api tidak dikirim ke server, jadi selama ini anthropic.com/pricing
+      diambil DUA KALI sehari dan tiap perubahan tercatat dobel. Slug ditahan;
+      aktifkan lagi kalau Anthropic memberi URL harga API yang terpisah."
 
   - slug: google-gemini-api
     name: Gemini API
@@ -524,7 +529,7 @@ targets:
   - {slug: synthesia,    name: Synthesia,         vendor: Synthesia,    category: ai-media, url: "https://www.synthesia.io/pricing"}
   - {slug: descript,     name: Descript,          vendor: Descript,     category: ai-media, url: "https://www.descript.com/pricing"}
   - {slug: murf,         name: Murf AI,           vendor: Murf,         category: ai-media, url: "https://murf.ai/pricing", render: js}
-  - {slug: playht,       name: PlayHT,            vendor: PlayAI,       category: ai-media, url: "https://play.ht/pricing/", notes: "validasi #3: robots.txt tidak terbaca (ConnectError) — mungkin sesaat, dipantau"}
+  - {slug: playht,       name: PlayHT,            vendor: PlayAI,       category: ai-media, url: "https://play.ht/pricing/", enabled: false, notes: "29/08-04/09: robots.txt tidak pernah bisa dibaca (ConnectError) tujuh hari berturut-turut. Tanpa robots.txt kita tidak boleh mengambil, jadi tidak ada gunanya mencoba tiap hari. Slug ditahan; uji ulang dengan check_targets --include-disabled."}
   - {slug: suno,         name: Suno,              vendor: Suno,         category: ai-media, url: "https://suno.com/pricing", render: js}
   - {slug: luma-ai,      name: Luma AI,           vendor: Luma,         category: ai-media, url: "https://lumalabs.ai/api/pricing"}
 

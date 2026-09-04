@@ -305,6 +305,50 @@ def test_plan_name_sanity() -> None:
     check("nama identik -> nol peristiwa", same == [], f"-> {same}")
 
 
+def test_one_request_per_page() -> None:
+    """Satu halaman = satu permintaan per eksekusi.
+
+    Ditemukan 04/09/2026: `anthropic-claude` (…/pricing) dan `anthropic-api`
+    (…/pricing#api) adalah halaman yang sama — fragment tidak pernah dikirim
+    ke server. Penjaga sekali-per-hari memakai kunci slug, jadi keduanya lolos
+    dan anthropic.com/pricing diambil dua kali sehari selama sepekan.
+    """
+    from collector.config import Target, fetch_key
+    from collector.run import dedupe_by_url
+
+    check("fragment diabaikan saat membandingkan halaman",
+          fetch_key("https://a.com/pricing#api") == fetch_key("https://a.com/pricing"))
+    check("garis miring di ujung diabaikan",
+          fetch_key("https://a.com/pricing/") == fetch_key("https://a.com/pricing"))
+    check("nama host tidak peka huruf besar-kecil",
+          fetch_key("https://A.COM/pricing") == fetch_key("https://a.com/pricing"))
+    check("query TIDAK diabaikan — halaman yang beda",
+          fetch_key("https://a.com/p?plan=team") != fetch_key("https://a.com/p"))
+    check("path akar tetap utuh",
+          fetch_key("https://a.com/") == "https://a.com/")
+
+    def t(slug, url):
+        return Target(slug=slug, name=slug, url=url)
+
+    kept, dropped = dedupe_by_url([
+        t("anthropic-claude", "https://www.anthropic.com/pricing"),
+        t("anthropic-api", "https://www.anthropic.com/pricing#api"),
+        t("cursor", "https://cursor.com/pricing"),
+    ])
+    check("halaman ganda hanya diambil sekali",
+          [x.slug for x in kept] == ["anthropic-claude", "cursor"],
+          f"-> {[x.slug for x in kept]}")
+    check("yang pertama di daftar dipertahankan",
+          dropped == [("anthropic-claude", "anthropic-api")], f"-> {dropped}")
+
+    import collector.config as _cfg
+    live = [x for x in _cfg.load_targets(ROOT / "targets" / "targets.yaml")
+            if x.enabled]
+    _, live_dupes = dedupe_by_url(live)
+    check("targets.yaml produksi tidak punya halaman ganda",
+          live_dupes == [], f"-> {live_dupes}")
+
+
 def test_change_classification() -> None:
     """`price_change` hanya untuk angka yang benar-benar bergerak.
 
@@ -548,6 +592,7 @@ def main() -> int:
     test_extraction()
     test_secret_redaction()
     test_plan_name_sanity()
+    test_one_request_per_page()
     test_change_classification()
     test_diff()
     test_end_to_end()

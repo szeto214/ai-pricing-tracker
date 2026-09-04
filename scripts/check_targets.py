@@ -74,6 +74,19 @@ async def main_async(args) -> int:
     if args.limit:
         targets = targets[: args.limit]
 
+    # Halaman ganda diperiksa SEBELUM apa pun diambil. Fragment (#api) tidak
+    # dikirim ke server, jadi dua target yang cuma beda fragment adalah satu
+    # halaman — dan mengambilnya dua kali melanggar aturan sekali-sehari.
+    by_key: dict[str, list[str]] = {}
+    for t in targets:
+        by_key.setdefault(t.fetch_key, []).append(t.slug)
+    dupes = {k: v for k, v in by_key.items() if len(v) > 1}
+    if dupes:
+        print("HALAMAN GANDA — satu URL dipakai lebih dari satu slug:\n")
+        for url, slugs in dupes.items():
+            print(f"  {url}\n    -> {', '.join(slugs)}")
+        print("\n  Nonaktifkan salah satunya (enabled: false), jangan dihapus.\n")
+
     sem = asyncio.Semaphore(args.concurrency)
     gate = fetcher.HostGate()
     async with fetcher.make_client() as client:

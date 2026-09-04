@@ -5,9 +5,9 @@
   "category": "ai-coding",
   "url": "https://www.coderabbit.ai/pricing",
   "final_url": "https://www.coderabbit.ai/pricing",
-  "content_hash": "5f595b14722bfdba4c07d93fb41dc5f2316ab40014cba96110b0ecd1d8c1180d",
-  "raw_hash": "37529af19576e0e3a49ddb7abc491aed9f9e63cfb1085b8cc17d521dab8e9ff9",
-  "text_bytes": 4631,
+  "content_hash": "10b9005616c69f812cd9a75b25e02e95e60edc01911417b65e25993b719a3991",
+  "raw_hash": "74e6cbb6591a4ad2cac430f423854b640714c2248057e8a96be40c68b796d3a3",
+  "text_bytes": 4563,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -156,13 +156,6 @@
         ],
         [
           "Post-merge actions",
-          "Not included",
-          "Included",
-          "Included",
-          "Included"
-        ],
-        [
-          "Issue planner",
           "Not included",
           "Included",
           "Included",

@@ -5,12 +5,20 @@
   "category": "ai-api",
   "url": "https://platform.openai.com/docs/pricing",
   "final_url": "https://developers.openai.com/api/docs/pricing",
-  "content_hash": "d89855826ba4c6707c75783ca7d1632916429f69caf736af0ede5c491cc4de09",
-  "raw_hash": "a9eadd18d25fa24d16e9bc14f3286481363327999d413f5b29ab04a3910731de",
-  "text_bytes": 6676,
+  "content_hash": "527d8e65ede3aa32a58e2eea985049766978631da63fef4881e92e4c986fe58b",
+  "raw_hash": "b55a42328e779d4eb62e3b4fad9719de15993781af3d363fa35f7845a49c098c",
+  "text_bytes": 6928,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
+    {
+      "name": "gpt-6-astra",
+      "price_raw": "$10.00",
+      "amount": 10.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
     {
       "name": "gpt-5.6-sol",
       "price_raw": "$4.00",
@@ -146,14 +154,6 @@
       "currency": "USD",
       "period": null,
       "features": []
-    },
-    {
-      "name": "o4-mini-2025-04-16",
-      "price_raw": "$100.00",
-      "amount": 100.0,
-      "currency": "USD",
-      "period": "hour",
-      "features": []
     }
   ],
   "tables": [
@@ -175,6 +175,17 @@
           "Cached input",
           "Cache writes",
           "Output"
+        ],
+        [
+          "gpt-6-astra",
+          "$10.00",
+          "$1.00",
+          "$12.50",
+          "$50.00",
+          "$20.00",
+          "$2.00",
+          "$25.00",
+          "$75.00"
         ],
         [
           "gpt-5.6-sol",

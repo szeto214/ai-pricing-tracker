@@ -199,7 +199,6 @@ Taint analysis
 Secrets detection
 IaC scanning
 SCA and Advanced SAST
-—
 Included in Advanced Security
 OWASP Top 10, CWE, PCI DSS, STIG, CASA
 —
@@ -213,7 +212,6 @@ Security reports and audit logs
 —
 Enterprise & Scale
 Unlimited users and projects
-—
 SSO, SCIM, CMK/BYOK
 —
 IP allowlist

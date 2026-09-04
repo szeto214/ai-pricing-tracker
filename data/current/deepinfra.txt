@@ -1052,7 +1052,7 @@ bge-m3
 8k
 $0.01
 bge-m3-multi
-8k
+512
 $0.01
 gte-base
 512
@@ -1129,6 +1129,12 @@ Media Center
 Trust Center
 DeepGPT
 Latest Models
+inclusionAI
+/
+Ling-3.0-flash-Fin
+BAAI
+/
+bge-m3-multi-8k
 deepseek-ai
 /
 DeepSeek-V4-Flash-Vision-Exp
@@ -1138,28 +1144,22 @@ GLM-5.3
 zai-org
 /
 GLM-5.3-Flash
-ibm-granite
-/
-granite-4.2-30b
-ibm-granite
-/
-granite-4.2-8b
 Featured Models
-Qwen
+black-forest-labs
 /
-Qwen3-Max
-moonshotai
-/
-Kimi-K2.7-Code
+FLUX-2-klein-4b
 deepseek-ai
 /
 DeepSeek-V4-Flash
 Qwen
 /
-Qwen3-Max-Thinking
-google
+Qwen3.8-2.4T-A95B
+deepseek-ai
 /
-gemma-4-31B-it
+DeepSeek-V4-Pro-0813
+moonshotai
+/
+Kimi-K2.7-Code
 © 2026 DeepInfra. All rights reserved.
 Privacy Policy
 Terms of Service

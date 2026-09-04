@@ -555,6 +555,7 @@ Ensure GDPR Compliance
 GDPR compliance for privacy and information use is built right into Typeform.
 Set up Single Sign-On (SSO)
 Set up SSO authentication for your account. Your single sign-on (SSO) identity provider can be Okta, OneLogin, Azure, PingFederate or other providers that support SAML, OAuth or OpenID.
+Enterprise only
 Set up two-factor authentication (2FA)
 Set up an extra layer of security with two-factor authentication.
 Ensure HIPAA Compliance

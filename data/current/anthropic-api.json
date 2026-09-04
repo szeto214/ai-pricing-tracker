@@ -5,9 +5,9 @@
   "category": "ai-api",
   "url": "https://www.anthropic.com/pricing#api",
   "final_url": "https://claude.com/pricing#api",
-  "content_hash": "be2514ba4859d565aaac2180de3927253840e4b5b0164297adaaaa51c145b59f",
-  "raw_hash": "406c3b1860c154ef8fd36fe67b1bce7540ff09b4f11beaa911542691c678ba0a",
-  "text_bytes": 17561,
+  "content_hash": "61e51ba7792031a703a39469421d82c1f25397d584f5ad940356acd0c6d72336",
+  "raw_hash": "40f3691e5347a690bd150343aed232b561b5a3532eda5a8d68e2ffab94f40cdd",
+  "text_bytes": 6442,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -83,74 +83,11 @@
       "features": []
     },
     {
-      "name": "Fable",
+      "name": "Fable More information",
       "price_raw": "Free",
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
-    },
-    {
-      "name": "Team",
-      "price_raw": "$20",
-      "amount": 20.0,
-      "currency": "USD",
-      "period": "seat",
-      "features": [
-        "Includes Claude Code and Claude Cowork",
-        "Includes Claude Design",
-        "Includes Claude Science",
-        "Connect Microsoft 365, @Claude, and more",
-        "Enterprise search across your organization",
-        "Central billing and administration",
-        "Single sign-on (SSO)",
-        "Admin controls for remote and local connectors",
-        "Enterprise deployment for the Claude desktop app",
-        "No model training on your content by default",
-        "Mix and match seat types"
-      ]
-    },
-    {
-      "name": "Enterprise",
-      "price_raw": "$20",
-      "amount": 20.0,
-      "currency": "USD",
-      "period": "seat",
-      "features": [
-        "Admins set user and org spend limits",
-        "Role-based access with fine grained permissioning",
-        "System for Cross-domain Identity Management (SCIM)",
-        "Audit logs",
-        "Compliance API for observability and monitoring",
-        "Custom data retention controls",
-        "Network-level access control",
-        "IP allowlisting",
-        "HIPAA-ready offering available",
-        "Claude Security (beta)"
-      ]
-    },
-    {
-      "name": "Managed Agents",
-      "price_raw": "$0.08",
-      "amount": 0.08,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "Web search",
-      "price_raw": "$10",
-      "amount": 10.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "Additional hours",
-      "price_raw": "$0.05",
-      "amount": 0.05,
-      "currency": "USD",
-      "period": "hour",
       "features": []
     }
   ],
@@ -167,171 +104,171 @@
         ],
         [
           "Chat on web, iOS, Android and Desktop",
-          "",
-          "",
-          "",
-          ""
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
         ],
         [
           "Claude Code",
-          "",
-          "",
-          "",
-          ""
+          "No",
+          "Yes",
+          "Yes",
+          "Yes"
         ],
         [
-          "Claude Cowork",
-          "",
-          "",
-          "",
-          ""
+          "Claude Cowork More information",
+          "No",
+          "Yes",
+          "Yes",
+          "Yes"
         ],
         [
           "Claude Design",
-          "",
-          "",
-          "",
-          ""
+          "No",
+          "Yes",
+          "Yes",
+          "Yes"
         ],
         [
           "Claude Science",
-          "",
-          "",
-          "",
-          ""
+          "No",
+          "Yes",
+          "Yes",
+          "Yes"
         ],
         [
           "@Claude",
-          "",
-          "",
-          "",
-          ""
+          "No",
+          "No",
+          "No",
+          "No"
         ],
         [
           "Ability to search the web",
-          "",
-          "",
-          "",
-          ""
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
         ],
         [
           "Desktop extensions",
-          "",
-          "",
-          "",
-          ""
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
         ],
         [
           "Voice mode",
-          "",
-          "",
-          "",
-          ""
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
         ],
         [
-          "Incognito chats",
-          "",
-          "",
-          "",
-          ""
+          "Incognito chats More information",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
         ],
         [
           "User preferences",
-          "",
-          "",
-          "",
-          ""
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
         ],
         [
-          "Artifacts",
-          "",
-          "",
-          "",
-          ""
+          "Artifacts More information",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
         ],
         [
           "Projects",
-          "",
-          "",
-          "",
-          ""
+          "No",
+          "Yes",
+          "Yes",
+          "Yes"
         ],
         [
           "Project sharing and collaboration",
-          "",
-          "",
-          "",
-          ""
+          "No",
+          "No",
+          "No",
+          "No"
         ],
         [
-          "Create and edit files with code execution",
-          "",
-          "",
-          "",
-          ""
+          "Create and edit files with code execution More information",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
         ],
         [
           "Research",
-          "",
-          "",
-          "",
-          ""
+          "No",
+          "Yes",
+          "Yes",
+          "Yes"
         ],
         [
           "Memory",
-          "",
-          "",
-          "",
-          ""
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
         ],
         [
-          "Skills",
-          "",
-          "",
-          "",
-          ""
+          "Skills More information",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
         ],
         [
-          "Connectors",
-          "",
-          "",
-          "",
-          ""
+          "Connectors More information",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
         ],
         [
           "Web search",
-          "",
-          "",
-          "",
-          ""
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
         ],
         [
-          "Enterprise search",
-          "",
-          "",
-          "",
-          ""
+          "Enterprise search More information",
+          "No",
+          "No",
+          "No",
+          "No"
         ],
         [
           "Claude in Chrome",
-          "",
-          "",
-          "",
-          ""
+          "No",
+          "Yes",
+          "Yes",
+          "Yes"
         ],
         [
           "Claude for Microsoft 365",
-          "",
-          "",
-          "",
-          ""
+          "No",
+          "Yes",
+          "Yes",
+          "Yes"
         ],
         [
           "Claude for Microsoft Outlook",
-          "",
-          "",
-          "",
-          ""
+          "No",
+          "Yes",
+          "Yes",
+          "Yes"
         ]
       ]
     },
@@ -347,87 +284,87 @@
         ],
         [
           "Single sign-on (SSO) and domain capture",
-          "",
-          "",
-          "",
-          ""
+          "No",
+          "No",
+          "No",
+          "No"
         ],
         [
           "Central billing and administration",
-          "",
-          "",
-          "",
-          ""
+          "No",
+          "No",
+          "No",
+          "No"
         ],
         [
           "Admin controls for remote and local connectors",
-          "",
-          "",
-          "",
-          ""
+          "No",
+          "No",
+          "No",
+          "No"
         ],
         [
           "Enterprise deployment for the Claude desktop app",
-          "",
-          "",
-          "",
-          ""
+          "No",
+          "No",
+          "No",
+          "No"
         ],
         [
           "Role-based access",
-          "",
-          "",
-          "",
-          ""
+          "No",
+          "No",
+          "No",
+          "No"
         ],
         [
           "System for Cross-domain Identity Management (SCIM)",
-          "",
-          "",
-          "",
-          ""
+          "No",
+          "No",
+          "No",
+          "No"
         ],
         [
           "Audit logs",
-          "",
-          "",
-          "",
-          ""
+          "No",
+          "No",
+          "No",
+          "No"
         ],
         [
           "Usage analytics",
-          "",
-          "",
-          "",
-          ""
+          "No",
+          "No",
+          "No",
+          "No"
         ],
         [
           "Compliance API",
-          "",
-          "",
-          "",
-          ""
+          "No",
+          "No",
+          "No",
+          "No"
         ],
         [
           "HIPAA-ready offering",
-          "",
-          "",
-          "",
-          ""
+          "No",
+          "No",
+          "No",
+          "No"
         ],
         [
           "Custom data retention controls",
-          "",
-          "",
-          "",
-          ""
+          "No",
+          "No",
+          "No",
+          "No"
         ],
         [
           "Organization wide skills deployment",
-          "",
-          "",
-          "",
-          ""
+          "No",
+          "No",
+          "No",
+          "No"
         ]
       ]
     },
@@ -444,23 +381,23 @@
         [
           "Credit card",
           "n/a",
-          "",
-          "",
-          ""
+          "Yes",
+          "Yes",
+          "Yes"
         ],
         [
           "ACH",
-          "",
-          "",
-          "",
-          ""
+          "No",
+          "No",
+          "No",
+          "No"
         ],
         [
           "Invoicing / net terms",
-          "",
-          "",
-          "",
-          ""
+          "No",
+          "No",
+          "No",
+          "No"
         ],
         [
           "Billing cycle",
@@ -489,429 +426,67 @@
           "Max 20x"
         ],
         [
-          "Fable",
-          "",
+          "Fable More information",
+          "No",
           "Usage credits",
           "50% of weekly limits*",
           "50% of weekly limits*"
         ],
         [
           "Opus",
-          "",
-          "",
-          "",
-          ""
+          "No",
+          "Yes",
+          "Yes",
+          "Yes"
         ],
         [
           "Sonnet",
-          "",
-          "",
-          "",
-          ""
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
         ],
         [
           "Haiku",
-          "",
-          "",
-          "",
-          ""
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
         ],
         [
-          "Context window",
+          "Context window More information",
           "200k",
           "200k",
           "200k",
           "200k"
         ],
         [
-          "Usage credits",
-          "",
-          "",
-          "",
-          ""
+          "Usage credits More information",
+          "No",
+          "Yes",
+          "Yes",
+          "Yes"
         ],
         [
           "Priority access at high traffic times",
-          "",
-          "",
-          "",
-          ""
+          "No",
+          "No",
+          "Yes",
+          "Yes"
         ],
         [
           "User and organizational level spend controls",
-          "",
-          "",
-          "",
-          ""
+          "No",
+          "No",
+          "No",
+          "No"
         ],
         [
-          "Model training",
+          "Model training More information",
           "Opt-out",
           "Opt-out",
           "Opt-out",
           "Opt-out"
-        ]
-      ]
-    },
-    {
-      "caption": "",
-      "rows": [
-        [
-          "Features",
-          "Team",
-          "Enterprise (self-serve)",
-          "Enterprise (sales-assisted)"
-        ],
-        [
-          "Chat on web, iOS, Android and Desktop",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Claude Code",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Claude Cowork",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Claude Design",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Claude Science",
-          "",
-          "",
-          ""
-        ],
-        [
-          "@Claude",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Claude Security",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Ability to search the web",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Desktop extensions",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Voice mode",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Incognito chats",
-          "",
-          "",
-          ""
-        ],
-        [
-          "User preferences",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Artifacts",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Projects",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Project sharing and collaboration",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Create and edit files with code execution",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Research",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Memory",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Skills",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Connectors",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Web search",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Enterprise search",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Claude in Chrome",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Claude for Microsoft 365",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Claude for Microsoft Outlook",
-          "",
-          "",
-          ""
-        ]
-      ]
-    },
-    {
-      "caption": "",
-      "rows": [
-        [
-          "Features",
-          "Team",
-          "Enterprise (self-serve)",
-          "Enterprise (sales-assisted)"
-        ],
-        [
-          "Single sign-on (SSO)",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Domain verification",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Restrict org creation",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Migrate accounts using your domains",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Central billing and administration",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Admin controls for remote and local connectors",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Enterprise deployment for the Claude desktop app",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Usage analytics",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Organization wide skills deployment",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Domain capture",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Role-based access",
-          "",
-          "",
-          ""
-        ],
-        [
-          "System for Cross-domain Identity Management (SCIM)",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Audit logs",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Compliance API",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Custom data retention controls",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Set org instructions",
-          "",
-          "",
-          ""
-        ],
-        [
-          "HIPAA-ready offering",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Inference hooks",
-          "",
-          "",
-          ""
-        ]
-      ]
-    },
-    {
-      "caption": "",
-      "rows": [
-        [
-          "Features",
-          "Team",
-          "Enterprise (self-serve)",
-          "Enterprise (sales-assisted)"
-        ],
-        [
-          "Credit card",
-          "",
-          "",
-          ""
-        ],
-        [
-          "ACH",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Invoicing / net terms",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Billing cycle",
-          "Monthly and annual",
-          "Annual",
-          "Annual"
-        ],
-        [
-          "Adding seats midterm",
-          "",
-          "",
-          ""
-        ]
-      ]
-    },
-    {
-      "caption": "",
-      "rows": [
-        [
-          "Features",
-          "Team",
-          "Enterprise (self-serve)",
-          "Enterprise (sales-assisted)"
-        ],
-        [
-          "AWS Marketplace availability",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Consultation",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Tiered incentives on committed spend",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Trials",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Customer success support at certain spend thresholds",
-          "",
-          "",
-          ""
         ]
       ]
     }

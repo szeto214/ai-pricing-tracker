@@ -5,9 +5,9 @@
   "category": "ai-api",
   "url": "https://fal.ai/pricing",
   "final_url": "https://fal.ai/pricing",
-  "content_hash": "29baeb74e2888793b4b26385ae948b5734388bad307d6846f16aab9d92224399",
-  "raw_hash": "31f548b52973b0954817816822cc9f8251f8ae230aa8802d2162af7c1f6ef5a0",
-  "text_bytes": 2078,
+  "content_hash": "39ad62dec05d759fc5058abdace78e1ee3df3c24191e08777b891cd6059cdd4e",
+  "raw_hash": "8aa62d98957479aae3ef54451cfd62aa5f4af87d2175bb0235b960977a792f7b",
+  "text_bytes": 2079,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

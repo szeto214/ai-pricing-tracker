@@ -5,9 +5,9 @@
   "category": "ai-coding",
   "url": "https://cursor.com/pricing",
   "final_url": "https://cursor.com/pricing",
-  "content_hash": "da6c384e025a49a0e4e6d20b854f765b93aa485a93a519ba5d3b1723cb8951e7",
-  "raw_hash": "59383d3dfcb9e634285437e8992d15948a0ea14d130b74ad5e8e8ef72843f10e",
-  "text_bytes": 3995,
+  "content_hash": "591e4dc9d0899fda7ecbc336f58833433a03edcb37bab76bb594f3e508e542e6",
+  "raw_hash": "8a2fca0ed4f1c72a48b9b61de3a1ad838a013d4599015f711a0344ce2044cd57",
+  "text_bytes": 4048,
   "extractor": "jsonld",
   "confidence": "medium",
   "plans": [

@@ -5,9 +5,9 @@
   "category": "dev-infra",
   "url": "https://clerk.com/pricing",
   "final_url": "https://clerk.com/pricing",
-  "content_hash": "7d7d444277dc666beeaba0094178a806ddc70bac84552807d2048ef4c6621cfa",
-  "raw_hash": "d180086477f736cec7ad67c612714fb9effea3ac5dc2e17ccf6b5a255dceb1c7",
-  "text_bytes": 12760,
+  "content_hash": "dee94cf482c5bd1c15b775dfbf4f109e8cf8c700b989d8a8e7a068fcec392335",
+  "raw_hash": "2dda8222473386c0f6022ad631e347e7ba48253bc3b260a3164d5ce86faf067b",
+  "text_bytes": 12884,
   "extractor": "jsonld",
   "confidence": "medium",
   "plans": [
@@ -151,6 +151,12 @@
         ],
         [
           "Passkeys Authenticate with any form of passkeys.",
+          "Not included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Biometric sign-in Let returning users sign in to native apps with their device's biometrics.",
           "Not included",
           "Included",
           "Included"

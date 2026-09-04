@@ -273,6 +273,11 @@ Authenticate with any form of passkeys.
 Not included
 Included
 Included
+Biometric sign-in
+Let returning users sign in to native apps with their device's biometrics.
+Not included
+Included
+Included
 Custom password requirements
 By default, Clerk strictly adheres to NIST 800-63B for password requirements. This feature allows setting custom requirements.
 Not included

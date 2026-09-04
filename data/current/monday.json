@@ -5,9 +5,9 @@
   "category": "productivity",
   "url": "https://monday.com/pricing",
   "final_url": "https://monday.com/pricing",
-  "content_hash": "b068709cdadce211b03dda65007517213b7c083c5cc786867418d3d05816d4f8",
-  "raw_hash": "1a7dba1f707b2c96152cd7ddec7cef10430020b008c4388eee251efb16923397",
-  "text_bytes": 48894,
+  "content_hash": "797de32432de966a694b4ab0eabd9de16928e3359e61bbe1e575e4aaa0f9a85d",
+  "raw_hash": "f43fd63fb1d3dc2f242174d865cfdf04cf534bf07b9dffe0f8982a8756ce0114",
+  "text_bytes": 50871,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

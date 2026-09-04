@@ -5,12 +5,21 @@
   "category": "ai-api",
   "url": "https://openrouter.ai/models",
   "final_url": "https://openrouter.ai/models",
-  "content_hash": "7f2d76d0178031f3864dfad876cf6fcbc5173da70fc4f9bc13dafa5abea865d5",
-  "raw_hash": "47a0973b79bf0c836c965cec88ca100af0388c2a5abeba98f9efe20a6b5bfca1",
-  "text_bytes": 7910,
-  "extractor": "none",
-  "confidence": "none",
-  "plans": [],
+  "content_hash": "a7d3d17c10ac84bbeccafadcf149fa87183285fdfaa873d6b4a1ad3bcc2ee3b8",
+  "raw_hash": "b4083cc226748d79c5581ce2f2714cf27c54af901d1379813d4c4ffd277fbdb2",
+  "text_bytes": 8363,
+  "extractor": "dom",
+  "confidence": "low",
+  "plans": [
+    {
+      "name": "Microsoft: MAI-Transcribe 2",
+      "price_raw": "$0.10",
+      "amount": 0.1,
+      "currency": "USD",
+      "period": "hour",
+      "features": []
+    }
+  ],
   "tables": [],
   "extract_errors": []
 }

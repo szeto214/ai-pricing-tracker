@@ -82,6 +82,7 @@ async def process_target(target, *, client, robots, gate, sem, date, args) -> di
         "extractor": structured["extractor"],
         "confidence": structured["confidence"],
         "plans_count": len(structured["plans"]),
+        "models_count": len(structured.get("models") or []),
         "tables_count": len(structured["tables"]),
         "changed": change is not None,
         "change_kind": change["kind"] if change else None,
@@ -112,6 +113,7 @@ async def process_target(target, *, client, robots, gate, sem, date, args) -> di
             "extractor": record["extractor"],
             "confidence": record["confidence"],
             "plan_events": change["plan_events"],
+            "model_events": change.get("model_events") or [],
             "text_diff": change["text"],
         }
     return entry

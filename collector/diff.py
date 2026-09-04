@@ -4,6 +4,8 @@ from __future__ import annotations
 
 import difflib
 
+from .modeltable import diff_models
+
 
 def _plan_key(plan: dict) -> str:
     return (plan.get("name") or "").strip().lower()
@@ -115,6 +117,7 @@ def compare(old: dict | None, new: dict, new_text: str) -> dict | None:
         return {
             "kind": "first_seen",
             "plan_events": [],
+            "model_events": [],
             "text": {"lines_added": len(new_text.splitlines()), "lines_removed": 0,
                      "sample_added": [], "sample_removed": []},
         }
@@ -122,6 +125,9 @@ def compare(old: dict | None, new: dict, new_text: str) -> dict | None:
         return None
 
     plan_events = diff_plans(old.get("plans") or [], new.get("plans") or [])
+    # `old.get("models")` sengaja TANPA `or []`: None berarti rekaman kemarin
+    # dibuat sebelum tabel model dibaca, jadi belum ada dasar pembanding.
+    model_events = diff_models(old.get("models"), new.get("models") or [])
     text = text_diff_summary(old.get("_text", ""), new_text)
 
     # `price_change` DISEDIAKAN KHUSUS untuk angka yang benar-benar bergerak
@@ -139,9 +145,16 @@ def compare(old: dict | None, new: dict, new_text: str) -> dict | None:
     # Tidak ada data yang hilang — peristiwanya tetap tercatat lengkap di
     # plan_events, hanya klasifikasinya yang lebih jujur. Kalau ekstraksi
     # sudah stabil, add/remove bisa dinaikkan kembali.
-    moved = [e for e in plan_events if e["type"] == "price_changed"]
-    catalog = [e for e in plan_events
-               if e["type"] in ("plan_added", "plan_removed")]
+    # Harga per-model dihitung setara dengan harga paket: sumbernya `<table>`
+    # dengan kolom yang eksplisit, jadi justru lebih tepercaya daripada
+    # heuristik kartu. Model muncul/hilang tetap masuk `catalog_change` —
+    # peluncuran dan pensiunnya model memang peristiwa katalog, bukan harga.
+    moved = ([e for e in plan_events if e["type"] == "price_changed"]
+             + [e for e in model_events if e["type"] == "model_price_changed"])
+    catalog = ([e for e in plan_events
+                if e["type"] in ("plan_added", "plan_removed")]
+               + [e for e in model_events
+                  if e["type"] in ("model_added", "model_removed")])
 
     if moved:
         kind = "price_change"
@@ -152,4 +165,5 @@ def compare(old: dict | None, new: dict, new_text: str) -> dict | None:
     else:
         kind = "page_change"      # teks berubah tapi harga terdeteksi sama
 
-    return {"kind": kind, "plan_events": plan_events, "text": text}
+    return {"kind": kind, "plan_events": plan_events,
+            "model_events": model_events, "text": text}

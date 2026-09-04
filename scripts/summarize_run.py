@@ -62,21 +62,33 @@ def main() -> int:
     price_changes = [c for c in changes if c["kind"] == "price_change"]
     catalog_changes = [c for c in changes if c["kind"] == "catalog_change"]
 
+    # Halaman-hari vs angka: satu halaman API bisa menggerakkan puluhan harga
+    # model sekaligus. Gerbang bulan ke-3 tetap dihitung per halaman-hari
+    # supaya satu halaman ramai tidak bisa memenuhinya sendirian.
+    moved_numbers = sum(
+        len([e for e in c["plan_events"] if e["type"] == "price_changed"])
+        + sum(len(e["changes"]) for e in c.get("model_events") or []
+              if e["type"] == "model_price_changed")
+        for c in price_changes
+    )
+
     if not args.markdown:
         msg = (f"data: snapshot {date} — {s['ok']}/{s['total']} ok, "
-               f"{len(price_changes)} perubahan harga, "
+               f"{len(price_changes)} perubahan harga ({moved_numbers} angka), "
                f"{len(catalog_changes)} perubahan katalog, "
                f"{len(changes)} halaman berubah")
         print(f"message={msg}")
         print(f"ok={s['ok']}")
         print(f"changed={len(changes)}")
         print(f"price_changes={len(price_changes)}")
+        print(f"moved_numbers={moved_numbers}")
         return 0
 
     print(f"## Snapshot {date}\n")
     print(f"- Target berhasil: **{s['ok']}/{s['total']}**")
     print(f"- Halaman berubah: **{len(changes)}**")
-    print(f"- Perubahan harga (angka bergerak): **{len(price_changes)}**")
+    print(f"- Perubahan harga (angka bergerak): **{len(price_changes)}** halaman, "
+          f"{moved_numbers} angka")
     print(f"- Perubahan katalog (paket muncul/hilang): "
           f"**{len(catalog_changes)}**\n")
 
@@ -95,23 +107,45 @@ def main() -> int:
         for c in catalog_changes:
             evs = [e for e in c["plan_events"]
                    if e["type"] in ("plan_added", "plan_removed")]
-            head = ", ".join(f"{e['type'].replace('plan_', '')}: {e.get('plan', '')}"
-                             for e in evs[:4])
-            print(f"- **{c['name']}** — {head}")
+            head = [f"{e['type'].replace('plan_', '')}: {e.get('plan', '')}"
+                    for e in evs[:4]]
+            mevs = [e for e in c.get("model_events") or []
+                    if e["type"] in ("model_added", "model_removed")]
+            head += [f"{e['type'].replace('model_', 'model ')}: {e.get('model', '')}"
+                     for e in mevs[:4]]
+            print(f"- **{c['name']}** — {', '.join(head)}")
         print()
 
     if price_changes:
-        print("### Perubahan harga\n")
-        print("| tool | paket | dari | ke | % |")
-        print("| --- | --- | --- | --- | --- |")
-        for c in price_changes:
-            for ev in c["plan_events"]:
-                if ev["type"] != "price_changed":
-                    continue
-                print(f"| {c['name']} | {ev.get('plan', '')} | "
-                      f"{ev['from'].get('raw', '')} | {ev['to'].get('raw', '')} | "
-                      f"{ev.get('pct_change', '')} |")
-        print()
+        rows = [(c["name"], ev.get("plan", ""), ev["from"].get("raw", ""),
+                 ev["to"].get("raw", ""), ev.get("pct_change", ""))
+                for c in price_changes for ev in c["plan_events"]
+                if ev["type"] == "price_changed"]
+        if rows:
+            print("### Perubahan harga paket\n")
+            print("| tool | paket | dari | ke | % |")
+            print("| --- | --- | --- | --- | --- |")
+            for r in rows:
+                print("| " + " | ".join(str(x) for x in r) + " |")
+            print()
+
+        # Harga per-model dilaporkan terpisah: satu halaman API bisa
+        # menggerakkan puluhan angka sekaligus, dan mencampurnya ke tabel di
+        # atas akan menenggelamkan perubahan paket yang jumlahnya sedikit.
+        mrows = [(c["name"], ev.get("model", ""), ch["field"],
+                  ch["from"].get("raw", ""), ch["to"].get("raw", ""),
+                  ch.get("pct_change", ""), ev.get("unit", ""))
+                 for c in price_changes for ev in c.get("model_events") or []
+                 if ev["type"] == "model_price_changed" for ch in ev["changes"]]
+        if mrows:
+            print(f"### Perubahan harga model ({len(mrows)} angka)\n")
+            print("| tool | model | kolom | dari | ke | % | satuan |")
+            print("| --- | --- | --- | --- | --- | --- | --- |")
+            for r in mrows[:60]:
+                print("| " + " | ".join(str(x) for x in r) + " |")
+            if len(mrows) > 60:
+                print(f"\n_{len(mrows) - 60} baris lain ada di changes.jsonl._")
+            print()
 
     low = [t for t in run["targets"]
            if t.get("status") == "ok" and t.get("confidence") in ("low", "none")]

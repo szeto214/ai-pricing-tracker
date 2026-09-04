@@ -31,7 +31,10 @@ CURRENCY_SYMBOLS = {
 
 PRICE_RE = re.compile(
     r"(?P<cur>US\$|A\$|C\$|S\$|\$|€|£|¥|USD|EUR|GBP|IDR|Rp)\s?"
-    r"(?P<amt>\d{1,3}(?:,\d{3})*(?:\.\d{1,2})?|\d+(?:\.\d{1,2})?)"
+    # Sampai 6 desimal: harga API per-token memang sehalus itu. Dengan batas
+    # 2 desimal, $0.00012 dan $0.00015 sama-sama terbaca $0.00 — kenaikan 25%
+    # jadi tak terlihat sama sekali (terlihat di voyage-ai, 04/09/2026).
+    r"(?P<amt>\d{1,3}(?:,\d{3})*(?:\.\d{1,6})?|\d+(?:\.\d{1,6})?)"
     r"(?P<suffix>\s?[kKmM]\b)?",
     re.I,
 )
@@ -423,10 +426,22 @@ def extract(slug: str, soup: BeautifulSoup, raw_html: str) -> dict:
 
 
 def _result(plans, extractor, confidence, tables, errors) -> dict:
+    # Harga per-model dibaca dari tabel yang sama, terlepas dari ekstraktor
+    # paket mana yang menang. Keduanya hidup berdampingan: satu halaman bisa
+    # punya paket langganan DAN tabel harga per-token sekaligus.
+    try:
+        from .modeltable import extract_model_tables
+
+        models = extract_model_tables(tables)
+    except Exception as exc:  # noqa: BLE001
+        errors.append(f"modeltable gagal: {type(exc).__name__}: {exc}")
+        models = []
+
     return {
         "extractor": extractor,
         "confidence": confidence,
         "plans": [asdict(p) for p in plans],
+        "models": models,
         "tables": tables,
         "extract_errors": errors,
     }

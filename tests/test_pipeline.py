@@ -305,6 +305,101 @@ def test_plan_name_sanity() -> None:
     check("nama identik -> nol peristiwa", same == [], f"-> {same}")
 
 
+def test_model_tables() -> None:
+    """Harga per-model dari tabel halaman API.
+
+    Sampai 04/09/2026 perubahan di halaman harga API selalu jatuh ke
+    `catalog_change`, karena nama model terbaca sebagai nama paket:
+    `gpt-6-astra` tercatat sebagai "paket baru". Padahal itu peristiwa harga
+    yang sah — dan halaman-halaman inilah yang paling sering berubah.
+    """
+    print("\n6. tabel harga model")
+    from collector.modeltable import diff_models
+
+    html = render("modeltable.html")
+    proc = normalize.process(html)
+    res = extract.extract("zephyr", proc["soup"], html)
+    models = {m["model"]: m for m in res["models"]}
+
+    check("model terbaca dari tabel", set(models) ==
+          {"zephyr-large", "zephyr-mini", "zephyr-embed", "zephyr-embed-lite"},
+          f"-> {sorted(models)}")
+    check("tabel perbandingan paket TIDAK dibaca sebagai model",
+          not any(m in models for m in ("Seats", "Support")))
+    # Kolom pertamanya berjudul "MODEL", jadi pemeriksaan header saja tidak
+    # cukup — yang menolaknya adalah bentuk: cuma 2 dari 6 baris berisi harga.
+    check("tabel yang diputar (model jadi kolom) TIDAK dibaca sebagai model",
+          not any(m in models for m in
+                  ("1M INPUT TOKENS", "1M OUTPUT TOKENS", "CONTEXT LENGTH")),
+          f"-> {sorted(models)}")
+
+    if "zephyr-large" in models:
+        p = models["zephyr-large"]["prices"]
+        check("kolom berjudul sama diberi nomor, tidak saling menimpa",
+              p.get("input", {}).get("amount") == 10.0
+              and p.get("input (2)", {}).get("amount") == 20.0
+              and p.get("output (2)", {}).get("amount") == 75.0, f"-> {p}")
+    if "zephyr-embed" in models:
+        check("enam desimal utuh ($0.00012, bukan $0.00)",
+              models["zephyr-embed"]["prices"]["price per thousand tokens"]["amount"]
+              == 0.00012, f"-> {models['zephyr-embed']['prices']}")
+        check("satuan harga terbaca dari caption",
+              "thousand tokens" in models["zephyr-embed"]["unit"],
+              f"-> {models['zephyr-embed']['unit']}")
+
+    check("tabel yang dicetak dua kali tidak menggandakan model",
+          len([m for m in res["models"] if m["model"] == "zephyr-large"]) == 1)
+
+    # --- pembanding --------------------------------------------------------
+    old = res["models"]
+    naik = json.loads(json.dumps(old))
+    for m in naik:
+        if m["model"] == "zephyr-mini":
+            m["prices"]["input"] = {"raw": "$0.30", "amount": 0.30}
+    ev = diff_models(old, naik)
+    check("kenaikan harga model terdeteksi sekali",
+          len(ev) == 1 and ev[0]["type"] == "model_price_changed"
+          and ev[0]["model"] == "zephyr-mini", f"-> {ev}")
+    if ev and ev[0].get("changes"):
+        c = ev[0]["changes"][0]
+        check("persentase & arah benar (0.20 -> 0.30 = +50%)",
+              c["pct_change"] == 50.0 and c["direction"] == "up", f"-> {c}")
+
+    tambah = json.loads(json.dumps(old))
+    tambah.append({"key": "zephyr-ultra", "model": "zephyr-ultra",
+                   "prices": {"input": {"raw": "$30", "amount": 30.0}},
+                   "currency": "USD", "unit": ""})
+    types = {e["type"] for e in diff_models(old, tambah)}
+    check("model baru tercatat sebagai model_added", types == {"model_added"},
+          f"-> {types}")
+    check("model hilang tercatat sebagai model_removed",
+          {e["type"] for e in diff_models(tambah, old)} == {"model_removed"})
+    check("halaman tanpa perubahan: tidak ada peristiwa",
+          diff_models(old, json.loads(json.dumps(old))) == [])
+
+    # Ini yang mencegah banjir laporan di hari pertama pemasangan: rekaman
+    # kemarin belum punya kunci "models" sama sekali, jadi seluruh isi tabel
+    # akan terbaca sebagai "model baru" kalau tidak dijaga.
+    check("rekaman lama tanpa tabel model: DIAM, bukan banjir model baru",
+          diff_models(None, old) == [], f"-> {len(diff_models(None, old))}")
+
+    # --- klasifikasi --------------------------------------------------------
+    base = {"content_hash": "a", "plans": [], "models": old, "_text": "x"}
+    moved = {"content_hash": "b", "plans": [], "models": naik}
+    ch = compare(base, moved, "y")
+    check("harga model bergerak -> price_change", ch["kind"] == "price_change",
+          f"-> {ch['kind']}")
+    added = {"content_hash": "b", "plans": [], "models": tambah}
+    ch2 = compare(base, added, "y")
+    check("model baru saja -> catalog_change", ch2["kind"] == "catalog_change",
+          f"-> {ch2['kind']}")
+    lama = {"content_hash": "a2", "plans": [], "_text": "x"}   # tanpa "models"
+    ch3 = compare(lama, moved, "y")
+    check("hari pertama: bukan price_change palsu",
+          ch3["kind"] == "page_change" and ch3["model_events"] == [],
+          f"-> {ch3['kind']}")
+
+
 def test_one_request_per_page() -> None:
     """Satu halaman = satu permintaan per eksekusi.
 
@@ -592,6 +687,7 @@ def main() -> int:
     test_extraction()
     test_secret_redaction()
     test_plan_name_sanity()
+    test_model_tables()
     test_one_request_per_page()
     test_change_classification()
     test_diff()

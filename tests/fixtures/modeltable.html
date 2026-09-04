@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head><title>Zephyr API pricing</title><script>var b="__BUILD__";</script></head>
+<body>
+  <h1>API pricing</h1>
+
+  <!-- Header dua tingkat, seperti platform.openai.com/docs/pricing.
+       Baris pertama adalah grup kolom, baris kedua barulah judul kolom,
+       dan 'Input'/'Output' muncul dua kali. -->
+  <table>
+    <tr><th></th><th colspan="2">Short context</th><th colspan="2">Long context</th></tr>
+    <tr><th>Model</th><th>Input</th><th>Output</th><th>Input</th><th>Output</th></tr>
+    <tr><td>zephyr-large</td><td>$10.00</td><td>$50.00</td><td>$20.00</td><td>$75.00</td></tr>
+    <tr><td>zephyr-mini</td><td>$0.20</td><td>$1.20</td><td>$0.40</td><td>$1.80</td></tr>
+  </table>
+
+  <!-- Tabel yang sama dicetak ulang di bagian bawah halaman. Tidak boleh
+       menghasilkan model ganda. -->
+  <table>
+    <tr><th></th><th colspan="2">Short context</th><th colspan="2">Long context</th></tr>
+    <tr><th>Model</th><th>Input</th><th>Output</th><th>Input</th><th>Output</th></tr>
+    <tr><td>zephyr-large</td><td>$10.00</td><td>$50.00</td><td>$20.00</td><td>$75.00</td></tr>
+  </table>
+
+  <!-- Harga halus: enam desimal harus utuh. -->
+  <table>
+    <caption>Embeddings, price per thousand tokens</caption>
+    <tr><th>Model</th><th>Price per thousand tokens</th></tr>
+    <tr><td>zephyr-embed</td><td>$0.00012</td></tr>
+    <tr><td>zephyr-embed-lite</td><td>$0.00002</td></tr>
+  </table>
+
+  <!-- Tabel perbandingan PAKET, bukan model: kolom pertama tidak berjudul
+       "Model". Tidak boleh masuk daftar harga model. -->
+  <table>
+    <tr><th></th><th>Free Start now</th><th>Pro Start now</th><th>Team Contact us</th></tr>
+    <tr><td>Seats</td><td>1</td><td>$20</td><td>$60</td></tr>
+    <tr><td>Support</td><td>Community</td><td>Email</td><td>Priority</td></tr>
+  </table>
+
+  <!-- Tabel yang DIPUTAR: model jadi kolom, metrik jadi baris (bentuk
+       api-docs.deepseek.com). Kolom pertama berjudul "MODEL" sehingga lolos
+       pemeriksaan header, tapi barisnya bukan model. Ciri pembedanya: hanya
+       segelintir baris yang berisi angka harga. -->
+  <table>
+    <tr><th>MODEL</th><th>zephyr-flash</th><th>zephyr-pro</th></tr>
+    <tr><td>BASE URL</td><td>https://api.zephyr.dev</td><td>https://api.zephyr.dev</td></tr>
+    <tr><td>CONTEXT LENGTH</td><td>128K</td><td>256K</td></tr>
+    <tr><td>MAX OUTPUT</td><td>8K</td><td>16K</td></tr>
+    <tr><td>FEATURES</td><td>JSON, tools</td><td>JSON, tools, vision</td></tr>
+    <tr><td>1M INPUT TOKENS</td><td>$0.08</td><td>$1.30</td></tr>
+    <tr><td>1M OUTPUT TOKENS</td><td>$0.18</td><td>$2.60</td></tr>
+  </table>
+
+  <p>Snapshot __TS__ request __UUID__</p>
+</body>
+</html>

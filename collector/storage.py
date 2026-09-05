@@ -6,6 +6,11 @@
                                `git diff` langsung terbaca manusia)
     data/raw/<slug>/<tgl>.html.gz   HTML bersih, HANYA ditulis saat isi berubah
     data/changes/changes.jsonl      log perubahan append-only
+    data/changes/corrections.jsonl  catatan koreksi, juga append-only:
+                                    peristiwa yang TERBUKTI bukan perubahan
+                                    harga sungguhan. Log aslinya tidak pernah
+                                    diubah — arsip tidak boleh ditulis ulang;
+                                    yang berubah hanya cara menghitungnya.
     data/runs/<tgl>.json            log eksekusi harian (status tiap target)
 
 Riwayat git-lah arsipnya. Berkas `current` sengaja bebas timestamp supaya
@@ -72,6 +77,33 @@ def save_run_log(date: str, log: dict) -> Path:
     path = config.RUNS_DIR / f"{date}.json"
     _write_json(path, log)
     return path
+
+
+CORRECTIONS_LOG = config.CHANGES_DIR / "corrections.jsonl"
+
+
+def load_corrections() -> set[tuple[str, str, str]]:
+    """(tanggal, slug, kind) yang terbukti bukan perubahan sungguhan.
+
+    Arsip tidak pernah ditulis ulang. Kalau kelak terbukti sebuah peristiwa
+    lahir dari cacat pembaca dan bukan dari vendor, catatannya ditambahkan di
+    sini dan penghitunglah yang menyesuaikan. Dengan begitu riwayatnya tetap
+    jujur: terlihat apa yang dulu tercatat, DAN terlihat apa yang kemudian
+    diketahui salah.
+    """
+    out: set[tuple[str, str, str]] = set()
+    if not CORRECTIONS_LOG.exists():
+        return out
+    for line in CORRECTIONS_LOG.read_text(encoding="utf-8").splitlines():
+        if not line.strip():
+            continue
+        try:
+            e = json.loads(line)
+        except json.JSONDecodeError:
+            continue
+        if e.get("date") and e.get("slug"):
+            out.add((e["date"], e["slug"], e.get("kind", "price_change")))
+    return out
 
 
 def load_run_log(date: str) -> dict | None:

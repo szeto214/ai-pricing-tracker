@@ -45,6 +45,23 @@ MAX_RETRIES = 2
 RETRY_BACKOFF = 8.0             # detik, dikalikan percobaan ke-n
 MAX_BYTES = 6 * 1024 * 1024     # tolak halaman > 6 MB
 
+# --- versi pembaca angka ------------------------------------------------------
+# NAIKKAN setiap kali cara MEMBACA angka berubah: regex harga, pembersihan nama
+# paket, aturan ekstraksi — apa pun yang bisa membuat halaman yang SAMA PERSIS
+# terbaca dengan angka berbeda.
+#
+# Kenapa ini ada. Pada 04/09/2026 PRICE_RE dilebarkan dari 2 ke 6 desimal supaya
+# $0.00012 tidak lagi terbaca $0.00. Perbaikan itu benar, tapi rekaman kemarin
+# sudah tersimpan dengan pembacaan lama. Keesokan harinya pembanding melihat
+# $0.00 -> $0.0045 dan mencatatnya sebagai kenaikan harga: 26 perubahan palsu
+# di 7 halaman, padahal tidak satu vendor pun mengubah harga. Yang berubah
+# pembacanya, bukan harganya.
+#
+# Dengan penanda versi, hari pertama setelah pembaca berubah diklasifikasikan
+# sebagai `parser_upgrade` dan TIDAK pernah dihitung sebagai perubahan harga.
+# Peristiwanya tetap tercatat lengkap, jadi tidak ada data yang hilang.
+PARSER_VERSION = 2
+
 
 @dataclass
 class Target:

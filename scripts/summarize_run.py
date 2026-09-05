@@ -13,7 +13,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from collector import config  # noqa: E402
+from collector import config, storage  # noqa: E402
 
 
 def latest_run() -> dict | None:
@@ -59,8 +59,13 @@ def main() -> int:
     # `catalog_change` = paket muncul/hilang — berguna, tapi bergantung pada
     # kestabilan ekstraksi, jadi dihitung terpisah dan TIDAK dipakai untuk
     # gerbang bulan ke-3.
-    price_changes = [c for c in changes if c["kind"] == "price_change"]
+    corrections = storage.load_corrections()
+    price_changes = [c for c in changes if c["kind"] == "price_change"
+                     and (date, c["slug"], "price_change") not in corrections]
+    corrected = [c for c in changes if c["kind"] == "price_change"
+                 and (date, c["slug"], "price_change") in corrections]
     catalog_changes = [c for c in changes if c["kind"] == "catalog_change"]
+    reparsed = [c for c in changes if c["kind"] == "parser_upgrade"]
 
     # Halaman-hari vs angka: satu halaman API bisa menggerakkan puluhan harga
     # model sekaligus. Gerbang bulan ke-3 tetap dihitung per halaman-hari
@@ -90,7 +95,14 @@ def main() -> int:
     print(f"- Perubahan harga (angka bergerak): **{len(price_changes)}** halaman, "
           f"{moved_numbers} angka")
     print(f"- Perubahan katalog (paket muncul/hilang): "
-          f"**{len(catalog_changes)}**\n")
+          f"**{len(catalog_changes)}**")
+    if corrected:
+        print(f"- Dikoreksi (terbukti cacat pembaca, tidak dihitung): "
+              f"**{len(corrected)}** — {', '.join(c['slug'] for c in corrected)}")
+    if reparsed:
+        print(f"- Pembaca angka baru saja dinaikkan versinya: "
+              f"**{len(reparsed)}** halaman tidak dihitung hari ini")
+    print()
 
     failed = [t for t in run["targets"] if t.get("status") != "ok"]
     if failed:

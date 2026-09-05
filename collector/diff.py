@@ -156,6 +156,27 @@ def compare(old: dict | None, new: dict, new_text: str) -> dict | None:
                + [e for e in model_events
                   if e["type"] in ("model_added", "model_removed")])
 
+    # Rekaman kemarin dibaca oleh pembaca versi lain -> selisih apa pun bisa
+    # berasal dari pembacanya, bukan dari vendornya. Sehari ini tidak ada yang
+    # boleh dihitung sebagai perubahan harga. Peristiwanya tetap dicatat utuh.
+    #
+    # Rekaman tanpa penanda versi dianggap SUDAH versi sekarang: rekaman lama
+    # yang tersisa hanya dari sebelum penanda ini ada, dan kasus itu sudah
+    # ditangani sekali lewat data/changes/corrections.jsonl. Tanpa anggapan ini,
+    # satu hari sinyal asli akan ikut dibungkam tanpa alasan.
+    from . import config
+
+    old_ver = old.get("parser_version", config.PARSER_VERSION)
+    if old_ver != new.get("parser_version", config.PARSER_VERSION):
+        return {
+            "kind": "parser_upgrade",
+            "parser_version_from": old_ver,
+            "parser_version_to": new.get("parser_version"),
+            "plan_events": plan_events,
+            "model_events": model_events,
+            "text": text,
+        }
+
     if moved:
         kind = "price_change"
     elif catalog:

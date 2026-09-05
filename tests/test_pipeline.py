@@ -305,6 +305,68 @@ def test_plan_name_sanity() -> None:
     check("nama identik -> nol peristiwa", same == [], f"-> {same}")
 
 
+def test_parser_version_guard() -> None:
+    """Pembaca angka berubah != harga berubah.
+
+    Terjadi 05/09/2026. PRICE_RE dilebarkan dari 2 ke 6 desimal — perbaikan
+    yang benar — tapi rekaman kemarin sudah tersimpan dengan pembacaan lama.
+    Keesokan harinya pembanding melihat $0.00 -> $0.0045 pada halaman yang
+    sama persis dan mencatatnya sebagai kenaikan harga: 26 angka palsu di 7
+    halaman, tanpa satu vendor pun mengubah harga.
+    """
+    print("\n7. penjaga versi pembaca")
+    old = {
+        "parser_version": 1, "content_hash": "a", "_text": "x",
+        "plans": [{"name": "Pro", "price_raw": "$0.00", "amount": 0.0,
+                   "currency": "USD", "period": "month"}],
+        "models": [],
+    }
+    new = {
+        "parser_version": 2, "content_hash": "b",
+        "plans": [{"name": "Pro", "price_raw": "$0.0045", "amount": 0.0045,
+                   "currency": "USD", "period": "month"}],
+        "models": [],
+    }
+    ch = compare(old, new, "y")
+    check("versi pembaca beda -> BUKAN price_change",
+          ch["kind"] == "parser_upgrade", f"-> {ch['kind']}")
+    check("peristiwanya tetap tercatat, tidak ada yang hilang",
+          any(e["type"] == "price_changed" for e in ch["plan_events"]),
+          f"-> {ch['plan_events']}")
+    check("versi asal & tujuan ikut dicatat",
+          ch["parser_version_from"] == 1 and ch["parser_version_to"] == 2)
+
+    same = dict(new, parser_version=1)
+    check("versi pembaca sama -> perubahan harga dihitung seperti biasa",
+          compare(old, same, "y")["kind"] == "price_change")
+
+    # Rekaman lama (sebelum penanda ini ada) tidak boleh membungkam sinyal asli
+    # selama sehari tanpa alasan — kasusnya sudah ditangani lewat corrections.
+    tanpa_versi = {k: v for k, v in old.items() if k != "parser_version"}
+    check("rekaman tanpa penanda dianggap versi sekarang",
+          compare(tanpa_versi, dict(new, parser_version=config.PARSER_VERSION),
+                  "y")["kind"] == "price_change")
+
+
+def test_corrections_log() -> None:
+    """Arsip tidak ditulis ulang; penghitungnya yang menyesuaikan."""
+    print("\n8. catatan koreksi")
+    path = config.CHANGES_DIR / "corrections.jsonl"
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(
+        json.dumps({"date": "2026-09-05", "slug": "voyage-ai",
+                    "kind": "price_change", "reason": "uji"}) + "\n"
+        + "\n"                                   # baris kosong harus diabaikan
+        + "{bukan json}\n",                      # baris rusak tidak boleh crash
+        encoding="utf-8")
+    got = storage.load_corrections()
+    check("koreksi terbaca sebagai (tanggal, slug, kind)",
+          got == {("2026-09-05", "voyage-ai", "price_change")}, f"-> {got}")
+    path.unlink()
+    check("tanpa berkas koreksi: kosong, bukan galat",
+          storage.load_corrections() == set())
+
+
 def test_model_tables() -> None:
     """Harga per-model dari tabel halaman API.
 
@@ -687,6 +749,8 @@ def main() -> int:
     test_extraction()
     test_secret_redaction()
     test_plan_name_sanity()
+    test_parser_version_guard()
+    test_corrections_log()
     test_model_tables()
     test_one_request_per_page()
     test_change_classification()

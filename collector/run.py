@@ -63,6 +63,7 @@ async def process_target(target, *, client, robots, gate, sem, date, args) -> di
         "category": target.category,
         "url": target.url,
         "final_url": res.final_url or target.url,
+        "parser_version": config.PARSER_VERSION,
         "content_hash": proc["content_hash"],
         "raw_hash": proc["raw_hash"],
         "text_bytes": proc["text_bytes"],

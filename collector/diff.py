@@ -31,6 +31,19 @@ def _plan_index(plans: list[dict]) -> dict[str, dict]:
     return out
 
 
+# Field rekaman yang benar-benar DIBACA oleh compare(). Satu-satunya sumber
+# kebenaran, dan diuji terhadap rekaman yang sungguh-sungguh tersimpan.
+#
+# Kenapa ini ada: 04/09/2026 harga per-model diekstrak dengan benar tiap hari
+# tapi tidak ikut ditulis ke data/current/. Semua tampak sehat — log eksekusi
+# melaporkan models_count 34 — padahal pembanding tidak pernah punya bahan
+# pembanding, dan fiturnya mati tanpa satu pun pesan galat. Kesalahan yang
+# diam adalah yang paling mahal, jadi sekarang ada tes yang meneriakkannya.
+RECORD_FIELDS_USED = (
+    "content_hash", "parser_version", "text_bytes", "plans", "models",
+)
+
+
 def _structured_key(record: dict) -> tuple:
     """Sidik jari data terstruktur, untuk halaman yang teksnya kosong."""
     plans = tuple(sorted(

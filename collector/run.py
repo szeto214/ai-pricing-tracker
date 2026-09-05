@@ -70,6 +70,13 @@ async def process_target(target, *, client, robots, gate, sem, date, args) -> di
         "extractor": structured["extractor"],
         "confidence": structured["confidence"],
         "plans": structured["plans"],
+        # Tanpa baris ini, harga per-model diekstrak setiap hari lalu dibuang
+        # sebelum disimpan. Rekaman kemarin tidak pernah punya kunci "models",
+        # penjaga dasar-belum-ada selalu aktif, dan `diff_models` selalu
+        # mengembalikan daftar kosong. Fiturnya tampak jalan — models_count di
+        # log eksekusi menunjukkan 34 untuk deepinfra — padahal mustahil
+        # mendeteksi apa pun. Diam-diam mati selama dua hari.
+        "models": structured.get("models") or [],
         "tables": structured["tables"],
         "extract_errors": structured["extract_errors"],
     }

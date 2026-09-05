@@ -555,6 +555,59 @@ def test_model_tables() -> None:
           f"-> {ch3['kind']}")
 
 
+def test_model_table_shapes() -> None:
+    """Bentuk tabel harga lain yang ditemukan di arsip 06/09/2026."""
+    print("\n6b. bentuk tabel harga lain")
+    from collector.modeltable import _is_model_column
+
+    check("kolom 'Base Model' dikenali", _is_model_column("base model"))
+    check("kolom 'GPU Type' dikenali", _is_model_column("gpu type"))
+    check("kolom 'Hardware' dikenali", _is_model_column("hardware"))
+    check("kolom 'Base model parameter count' dikenali",
+          _is_model_column("base model parameter count"))
+    check("kolom 'Feature' DITOLAK — itu tabel perbandingan paket",
+          not _is_model_column("feature"))
+    check("kolom 'Model capabilities' DITOLAK",
+          not _is_model_column("model capabilities"))
+    check("kalimat panjang ditolak",
+          not _is_model_column("compare every model across all of our plans"))
+
+    # --- tabel tanpa baris judul (bentuk together-ai) -----------------------
+    tanpa_judul = """<!doctype html><html><body><table>
+      <tr><td>MiniMax M3</td><td>$0.30</td><td>$1.20</td></tr>
+      <tr><td>Kimi K3</td><td>$3.00</td><td>$15.00</td></tr>
+      <tr><td>Qwen3 Plus</td><td>$0.80</td><td>$2.40</td></tr>
+    </table></body></html>"""
+    res = extract.extract("t", normalize.process(tanpa_judul)["soup"], tanpa_judul)
+    got = {m["model"] for m in res["models"]}
+    check("tabel tanpa judul kolom tetap terbaca",
+          got == {"MiniMax M3", "Kimi K3", "Qwen3 Plus"}, f"-> {sorted(got)}")
+    check("jumlah kolom ikut ke dalam kunci",
+          all(m["key"].endswith("|k3") for m in res["models"]),
+          f"-> {[m['key'] for m in res['models']]}")
+
+    # --- nama baris berulang antar tabel (bentuk halaman Gemini) -----------
+    # Satu tabel per model, semua memakai baris "Input price"/"Output price".
+    # Dengan kolom bernomor posisi, baris milik model berbeda bertabrakan pada
+    # kunci yang sama — dan satu model baru akan menggeser SEMUA kunci lalu
+    # tercatat sebagai harga bergerak. Harus ditolak seluruhnya.
+    bertabrakan = """<!doctype html><html><body>
+      <h3>gemini-flash</h3><table>
+        <tr><td>Input price</td><td>Free of charge</td><td>$0.375</td></tr>
+        <tr><td>Output price</td><td>Free of charge</td><td>$1.875</td></tr>
+        <tr><td>Context caching price</td><td>Free of charge</td><td>$0.0375</td></tr>
+      </table>
+      <h3>gemini-pro</h3><table>
+        <tr><td>Input price</td><td>Not available</td><td>$1.35</td></tr>
+        <tr><td>Output price</td><td>Not available</td><td>$6.75</td></tr>
+        <tr><td>Context caching price</td><td>Not available</td><td>$0.135</td></tr>
+      </table>
+    </body></html>"""
+    res2 = extract.extract("g", normalize.process(bertabrakan)["soup"], bertabrakan)
+    check("nama baris berulang antar tabel -> ditolak seluruhnya",
+          res2["models"] == [], f"-> {[m['model'] for m in res2['models']]}")
+
+
 def test_one_request_per_page() -> None:
     """Satu halaman = satu permintaan per eksekusi.
 
@@ -819,6 +872,18 @@ def test_end_to_end() -> None:
             check("arsip mentah versi baru tersimpan",
                   (config.RAW_DIR / "acme" / "2026-08-29.html.gz").exists())
 
+        # --- kontrak rekaman -------------------------------------------------
+        # Diekstrak dengan benar tapi tidak ikut disimpan = fitur yang mati
+        # tanpa suara. Persis itu yang terjadi pada harga per-model 04-05/09:
+        # log melaporkan 34 model untuk deepinfra, tapi data/current/ tidak
+        # pernah memuatnya, sehingga pembanding tidak punya bahan pembanding.
+        from collector.diff import RECORD_FIELDS_USED
+        tersimpan = json.loads(
+            (config.CURRENT_DIR / "acme.json").read_text(encoding="utf-8"))
+        hilang = [k for k in RECORD_FIELDS_USED if k not in tersimpan]
+        check("setiap field yang dibaca pembanding benar-benar tersimpan",
+              not hilang, f"-> hilang: {hilang}")
+
         # --- penjaga sekali-per-hari -----------------------------------------
         import asyncio
 
@@ -847,6 +912,7 @@ def main() -> int:
     test_parser_version_guard()
     test_corrections_log()
     test_model_tables()
+    test_model_table_shapes()
     test_one_request_per_page()
     test_change_classification()
     test_diff()

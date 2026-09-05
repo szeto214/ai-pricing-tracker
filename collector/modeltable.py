@@ -28,8 +28,28 @@ from dataclasses import asdict, dataclass, field
 # ini, tabel perbandingan paket ikut tertangkap: header mistral berbunyi
 # ['', 'Free Start now', 'Pro Start now', ...] — itu paket, bukan model.
 _MODEL_COL_RE = re.compile(
-    r"^(model|models|model name|name|engine|endpoint|llm|api|resource)$", re.I
+    r"^(model|models|model name|name|engine|endpoint|llm|api|resource|"
+    # Bentuk lain dari kolom "barang yang dihargai", ditemukan 06/09 di arsip:
+    # fireworks-ai memakai "Base Model" dan "GPU Type", replicate "Hardware".
+    r"hardware|gpu type|gpu|instance type|instance|sku|tier name|accelerator)$",
+    re.I,
 )
+
+# Judul kolom pertama yang MENGANDUNG kata "model" juga diterima — misalnya
+# "Base model parameter count" (fireworks-ai). Dibatasi panjangnya supaya
+# kalimat panjang tidak ikut lolos. Kata "feature"/"fitur" sengaja TIDAK
+# pernah diterima: itu penanda tabel perbandingan paket yang diputar
+# (firecrawl), bukan tabel harga barang.
+_MODEL_COL_LOOSE_RE = re.compile(r"\bmodels?\b", re.I)
+_NOT_MODEL_COL_RE = re.compile(r"\b(feature|fitur|capabilit|benefit|include)", re.I)
+
+
+def _is_model_column(label: str) -> bool:
+    if not label or len(label) > 40:
+        return False
+    if _NOT_MODEL_COL_RE.search(label):
+        return False
+    return bool(_MODEL_COL_RE.match(label) or _MODEL_COL_LOOSE_RE.search(label))
 
 # Satuan harga biasanya tertulis di caption atau di judul kolom:
 # "$ per 1M input tokens", "Price per million tokens", "/1K characters".
@@ -68,7 +88,7 @@ def _find_header(rows: list[list[str]], look: int = 3) -> int:
     ['Model', 'Input', 'Cached input', ...].
     """
     for i, row in enumerate(rows[:look]):
-        if row and _MODEL_COL_RE.match(_norm_label(row[0])):
+        if row and _is_model_column(_norm_label(row[0])):
             return i
     return -1
 
@@ -109,6 +129,39 @@ def _plausible_model(name: str) -> bool:
     return True
 
 
+def _headerless_labels(rows: list[list[str]]) -> list[str] | None:
+    """Tabel tanpa baris judul sama sekali — bentuk together-ai.
+
+    Barisnya langsung data: ['MiniMax M3', '$0.30', '$1.20']. Tidak ada judul
+    kolom yang bisa dipakai, jadi kolomnya dinamai menurut posisi. Itu rapuh
+    kalau situsnya menambah kolom, maka jumlah kolom IKUT ke dalam kunci
+    model: begitu bentuk tabelnya berubah, peristiwanya tercatat sebagai model
+    muncul/hilang (perubahan katalog), BUKAN sebagai harga yang bergerak.
+    Lebih baik kehilangan satu sinyal daripada mengarang satu.
+    """
+    from .extract import parse_price
+
+    if len(rows) < 3:
+        return None
+    ncols = len(rows[0])
+    if ncols < 2:
+        return None
+
+    baik = 0
+    for row in rows:
+        if len(row) != ncols:
+            return None                       # bentuk tidak konsisten
+        nama = (row[0] or "").strip()
+        if parse_price(nama)[0] is not None:  # sel pertama berisi harga
+            return None                       #  -> ini bukan kolom nama
+        if _plausible_model(nama) and any(
+                parse_price(c)[0] is not None for c in row[1:]):
+            baik += 1
+    if baik < max(3, int(len(rows) * 0.8)):
+        return None
+    return [""] + [f"kolom {i + 1}" for i in range(1, ncols)]
+
+
 def extract_model_tables(tables: list[dict]) -> list[dict]:
     """Ubah tabel mentah (dari extract.extract_tables) jadi daftar harga model."""
     from .extract import parse_price
@@ -116,12 +169,37 @@ def extract_model_tables(tables: list[dict]) -> list[dict]:
     out: list[ModelPrice] = []
     seen: dict[str, dict] = {}
 
+    # Tabel tanpa judul kolom hanya aman kalau nama barisnya UNIK di seluruh
+    # halaman. Halaman harga Gemini memuat satu tabel per model, dan semua
+    # tabel itu memakai baris yang sama persis: "Input price", "Output price",
+    # "Context caching price". Dengan kolom yang dinamai menurut posisi, baris
+    # dari model berbeda akan bertabrakan pada kunci yang sama — dan begitu
+    # Google menambah satu model, seluruh kunci bergeser dan tercatat sebagai
+    # harga yang bergerak. Persis kesalahan tabel-diputar yang sudah kita
+    # perbaiki. Kalau nama barisnya berulang antar tabel, jangan dipakai.
+    tanpa_judul = [t for t in (tables or [])[:MAX_TABLES]
+                   if _find_header(t.get("rows") or []) < 0]
+    hitung: dict[str, int] = {}
+    for t in tanpa_judul:
+        for nama in {(_norm_label(r[0]) if r else "") for r in t.get("rows") or []}:
+            if nama:
+                hitung[nama] = hitung.get(nama, 0) + 1
+    nama_bertabrakan = {n for n, c in hitung.items() if c > 1}
+
     for table in (tables or [])[:MAX_TABLES]:
         rows = table.get("rows") or []
         h = _find_header(rows)
+        suffix = ""
         if h < 0:
-            continue
-        labels = _labels(rows[h])
+            if any(_norm_label(r[0]) in nama_bertabrakan for r in rows if r):
+                continue
+            labels = _headerless_labels(rows)
+            if labels is None:
+                continue
+            h = -1
+            suffix = f"|k{len(labels)}"       # bentuk tabel ikut ke dalam kunci
+        else:
+            labels = _labels(rows[h])
         unit = _unit_for(table.get("caption", ""), labels)
 
         data_rows = [r for r in rows[h + 1:] if r and (r[0] or "").strip()]
@@ -150,7 +228,7 @@ def extract_model_tables(tables: list[dict]) -> list[dict]:
             continue
 
         for model, prices, currency in parsed:
-            base = model.lower()
+            base = model.lower() + suffix
             prev = seen.get(base)
             if prev is not None:
                 # Sama, atau versi ringkas dari tabel yang sama (tabel yang

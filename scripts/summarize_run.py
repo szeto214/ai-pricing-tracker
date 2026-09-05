@@ -150,8 +150,10 @@ def main() -> int:
                  for c in price_changes for ev in c.get("model_events") or []
                  if ev["type"] == "model_price_changed" for ch in ev["changes"]]
         if mrows:
-            print(f"### Perubahan harga model ({len(mrows)} angka)\n")
-            print("| tool | model | kolom | dari | ke | % | satuan |")
+            print(f"### Perubahan harga per-baris ({len(mrows)} angka)\n")
+            print("Model API, tipe GPU, ukuran instance, tingkat "
+                  "pemakaian — apa pun yang dihargai per baris tabel.\n")
+            print("| tool | baris | kolom | dari | ke | % | satuan |")
             print("| --- | --- | --- | --- | --- | --- | --- |")
             for r in mrows[:60]:
                 print("| " + " | ".join(str(x) for x in r) + " |")

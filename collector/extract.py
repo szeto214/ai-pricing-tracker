@@ -47,6 +47,23 @@ PERIOD_RE = re.compile(
 
 FREE_RE = re.compile(r"^\s*(free|gratis|\$0(?:\.00)?|no cost)\s*$", re.I)
 
+# Penanda gratis yang sah letaknya di slot harga — dekat nama paket, di bagian
+# atas kartu. Bukan terkubur di tabel fitur di bawahnya.
+_FREE_AT_TOP_RE = re.compile(r"\b(free|gratis)\b|\$\s?0(?:\.00)?\b", re.I)
+_FREE_TOP_CHARS = 100
+
+
+def _free_in_price_slot(card_text: str) -> bool:
+    """Kartu ini benar-benar menyatakan dirinya gratis?
+
+    Tanpa pemeriksaan ini, satu elemen "Free" yang nyasar di dalam tabel
+    perbandingan membuat SELURUH paket terbaca gratis walau kartunya tidak
+    memuat harga sama sekali. Itulah yang membuat Mailchimp bolak-balik
+    "$20 -> Free -> $20" selama sepekan dan mengisi separuh metrik gerbang
+    dengan perubahan yang tidak pernah terjadi.
+    """
+    return bool(_FREE_AT_TOP_RE.search((card_text or "")[:_FREE_TOP_CHARS]))
+
 NAME_HINT_RE = re.compile(r"title|name|plan|tier|heading|header", re.I)
 
 _BAD_NAME_RE = re.compile(
@@ -325,7 +342,11 @@ def extract_dom(soup: BeautifulSoup) -> list[Plan]:
         card_text = card.get_text(" ", strip=True)
         amount, currency, raw = parse_price(card_text)
         if amount is None:
-            if not is_free:
+            # Tidak ada harga di kartu ini. Jangan menebak: "harga tidak
+            # ditemukan" bukan "harganya nol". Menebaknya sebagai Free akan
+            # tercatat besok sebagai penurunan harga 100% yang tidak pernah
+            # terjadi.
+            if not is_free or not _free_in_price_slot(card_text):
                 continue
             amount, raw = 0.0, "Free"
 

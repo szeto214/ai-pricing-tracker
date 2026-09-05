@@ -305,6 +305,43 @@ def test_plan_name_sanity() -> None:
     check("nama identik -> nol peristiwa", same == [], f"-> {same}")
 
 
+def test_phantom_free() -> None:
+    """"Harga tidak ditemukan" bukan "harganya nol".
+
+    Halaman Mailchimp menghitung harganya di sisi klien, jadi sebagian
+    pengambilan menghasilkan HTML tanpa angka sama sekali. Satu elemen "Free"
+    yang nyasar di tabel fitur lalu membuat seluruh paket terbaca gratis, dan
+    keesokan harinya tercatat sebagai penurunan harga 100%. Selama sepekan itu
+    mengisi separuh metrik gerbang dengan peristiwa yang tidak pernah terjadi.
+    """
+    print("\n7. harga hilang bukan berarti gratis")
+    html = """<!doctype html><html><body>
+      <div><h3>Hobby</h3><p>Free</p><ul><li>1 project</li></ul></div>
+      <div><h3>Standard</h3>
+        <p>Send up to 6,000 emails each month. Need to manage more contacts?
+           Get in touch to learn about custom plans.</p>
+        <table><tr><td>Automations</td><td>Free</td></tr>
+               <tr><td>Support</td><td>Email</td></tr></table>
+      </div>
+      <div><h3>Pro</h3><p>$20<span>/month</span></p><ul><li>Everything</li></ul></div>
+    </body></html>"""
+    res = extract.extract("acme", normalize.process(html)["soup"], html)
+    by = {p["name"]: p for p in res["plans"]}
+    check("kartu tanpa harga TIDAK ditebak sebagai Free",
+          "Standard" not in by, f"-> {sorted(by)}")
+    check("paket gratis sungguhan tetap terbaca",
+          by.get("Hobby", {}).get("amount") == 0.0, f"-> {by.get('Hobby')}")
+    check("paket berharga tidak terpengaruh",
+          by.get("Pro", {}).get("amount") == 20.0, f"-> {by.get('Pro')}")
+    check("penanda gratis di slot harga diterima",
+          extract._free_in_price_slot("Hobby Free 1 project"))
+    check("penanda gratis terkubur di tabel fitur ditolak",
+          not extract._free_in_price_slot(
+              "Standard Send up to 6,000 emails each month. Need to manage "
+              "more contacts? Get in touch to learn about custom plans. "
+              "Automations Free"))
+
+
 def test_parser_version_guard() -> None:
     """Pembaca angka berubah != harga berubah.
 
@@ -314,7 +351,7 @@ def test_parser_version_guard() -> None:
     sama persis dan mencatatnya sebagai kenaikan harga: 26 angka palsu di 7
     halaman, tanpa satu vendor pun mengubah harga.
     """
-    print("\n7. penjaga versi pembaca")
+    print("\n8. penjaga versi pembaca")
     old = {
         "parser_version": 1, "content_hash": "a", "_text": "x",
         "plans": [{"name": "Pro", "price_raw": "$0.00", "amount": 0.0,
@@ -350,7 +387,7 @@ def test_parser_version_guard() -> None:
 
 def test_corrections_log() -> None:
     """Arsip tidak ditulis ulang; penghitungnya yang menyesuaikan."""
-    print("\n8. catatan koreksi")
+    print("\n9. catatan koreksi")
     path = config.CHANGES_DIR / "corrections.jsonl"
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(
@@ -749,6 +786,7 @@ def main() -> int:
     test_extraction()
     test_secret_redaction()
     test_plan_name_sanity()
+    test_phantom_free()
     test_parser_version_guard()
     test_corrections_log()
     test_model_tables()

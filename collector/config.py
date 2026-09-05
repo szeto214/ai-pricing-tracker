@@ -60,7 +60,9 @@ MAX_BYTES = 6 * 1024 * 1024     # tolak halaman > 6 MB
 # Dengan penanda versi, hari pertama setelah pembaca berubah diklasifikasikan
 # sebagai `parser_upgrade` dan TIDAK pernah dihitung sebagai perubahan harga.
 # Peristiwanya tetap tercatat lengkap, jadi tidak ada data yang hilang.
-PARSER_VERSION = 2
+#   2 (04/09) PRICE_RE dilebarkan ke 6 desimal
+#   3 (05/09) kartu tanpa harga tidak lagi ditebak sebagai "Free"
+PARSER_VERSION = 3
 
 
 @dataclass

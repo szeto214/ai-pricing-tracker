@@ -342,6 +342,62 @@ def test_phantom_free() -> None:
               "Automations Free"))
 
 
+def test_jsonld_only_pages() -> None:
+    """Halaman yang isinya cuma cangkang SPA + JSON-LD.
+
+    Ditemukan 05/09/2026. Arsip jira seluruhnya berbunyi
+    `<div id="wac-root"></div>` — teksnya kosong, jadi content_hash-nya sama
+    persis dengan bitwarden, confluence dan n8n: hash string kosong. Selama itu
+    harga jira yang tercatat ($7.91 Standard, $14.54 Premium) datang dari
+    JSON-LD, yang dibuang sebelum pengarsipan. Dua akibatnya:
+    perubahan harga di sana tidak akan pernah terdeteksi, dan angka yang
+    terlanjur dicatat tidak bisa diperiksa ulang dari arsip.
+    """
+    print("\n8. halaman JSON-LD tanpa teks")
+    html = ('<!doctype html><html><head><script type="application/ld+json">'
+            '{"@type":"Product","offers":[{"@type":"Offer","name":"Standard",'
+            '"price":"7.91","priceCurrency":"USD"}]}</script>'
+            '<script>var k="pscale_pw_' + "a" * 32 + '";</script>'
+            '</head><body><div id="wac-root"></div></body></html>')
+    proc = normalize.process(html)
+    check("teks tetap kosong (JSON-LD tidak mencemari teks/hash)",
+          proc["text"].strip() == "", f"-> {proc['text']!r}")
+    check("halaman ditandai tipis",
+          proc["text_bytes"] < config.THIN_TEXT_BYTES, f"-> {proc['text_bytes']}")
+    check("JSON-LD ikut tersimpan di arsip",
+          "ld+json" in proc["archive_html"] and "7.91" in proc["archive_html"])
+    check("script biasa TETAP tidak diarsipkan",
+          "var k=" not in proc["archive_html"])
+    check("kredensial di dalam JSON-LD tetap disamarkan",
+          "pscale_pw_" not in proc["archive_html"], )
+
+    naik = normalize.process(html.replace('"7.91"', '"9.50"'))
+    check("hash teks memang tidak bergerak — inilah titik butanya",
+          naik["content_hash"] == proc["content_hash"])
+    check("tapi arsipnya kini menyimpan bedanya",
+          naik["archive_html"] != proc["archive_html"])
+
+    # --- deteksi ------------------------------------------------------------
+    base = {"content_hash": "sama", "text_bytes": 1, "_text": "",
+            "plans": [{"name": "Standard", "amount": 7.91, "currency": "USD",
+                       "period": "month"}], "models": []}
+    tetap = dict(base, plans=[dict(base["plans"][0])])
+    check("tipis + isi sama -> tetap tenang", compare(base, tetap, "") is None)
+
+    beda = dict(base, plans=[dict(base["plans"][0], amount=9.5)])
+    ch = compare(base, beda, "")
+    check("tipis + harga JSON-LD bergerak -> terdeteksi",
+          ch is not None and ch["kind"] == "price_change",
+          f"-> {ch and ch['kind']}")
+
+    # Halaman normal TIDAK ikut berubah perilakunya: hash teks tetap satu-satunya
+    # pemicu di sana. Itu yang membuat arsip ini tenang selama ini.
+    tebal = dict(base, text_bytes=50_000)
+    tebal_beda = dict(beda, text_bytes=50_000)
+    check("halaman normal: hash sama -> tetap tidak dianggap berubah",
+          compare(tebal, tebal_beda, "") is None)
+
+
 def test_parser_version_guard() -> None:
     """Pembaca angka berubah != harga berubah.
 
@@ -351,7 +407,7 @@ def test_parser_version_guard() -> None:
     sama persis dan mencatatnya sebagai kenaikan harga: 26 angka palsu di 7
     halaman, tanpa satu vendor pun mengubah harga.
     """
-    print("\n8. penjaga versi pembaca")
+    print("\n9. penjaga versi pembaca")
     old = {
         "parser_version": 1, "content_hash": "a", "_text": "x",
         "plans": [{"name": "Pro", "price_raw": "$0.00", "amount": 0.0,
@@ -387,7 +443,7 @@ def test_parser_version_guard() -> None:
 
 def test_corrections_log() -> None:
     """Arsip tidak ditulis ulang; penghitungnya yang menyesuaikan."""
-    print("\n9. catatan koreksi")
+    print("\n10. catatan koreksi")
     path = config.CHANGES_DIR / "corrections.jsonl"
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(
@@ -787,6 +843,7 @@ def main() -> int:
     test_secret_redaction()
     test_plan_name_sanity()
     test_phantom_free()
+    test_jsonld_only_pages()
     test_parser_version_guard()
     test_corrections_log()
     test_model_tables()

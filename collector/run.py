@@ -85,6 +85,11 @@ async def process_target(target, *, client, robots, gate, sem, date, args) -> di
         "plans_count": len(structured["plans"]),
         "models_count": len(structured.get("models") or []),
         "tables_count": len(structured["tables"]),
+        # Diambil dengan sukses, tapi isinya nyaris tidak ada — cangkang SPA
+        # kosong. Statusnya SENGAJA tetap "ok": penjaga sekali-per-hari memakai
+        # status itu, dan menandainya gagal akan membuat halaman yang sama
+        # diambil dua kali sehari. Ini penanda terpisah, untuk dilaporkan.
+        "thin": proc["text_bytes"] < config.THIN_TEXT_BYTES,
         "changed": change is not None,
         "change_kind": change["kind"] if change else None,
     })

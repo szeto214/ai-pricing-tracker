@@ -31,6 +31,22 @@ def _plan_index(plans: list[dict]) -> dict[str, dict]:
     return out
 
 
+def _structured_key(record: dict) -> tuple:
+    """Sidik jari data terstruktur, untuk halaman yang teksnya kosong."""
+    plans = tuple(sorted(
+        (str(p.get("name") or ""), p.get("amount"), p.get("currency"),
+         p.get("period"))
+        for p in record.get("plans") or []
+    ))
+    models = tuple(sorted(
+        (str(m.get("key") or ""),
+         tuple(sorted((k, v.get("amount"))
+                      for k, v in (m.get("prices") or {}).items())))
+        for m in record.get("models") or []
+    ))
+    return plans, models
+
+
 def diff_plans(old_plans: list[dict], new_plans: list[dict]) -> list[dict]:
     old, new = _plan_index(old_plans), _plan_index(new_plans)
     events: list[dict] = []
@@ -122,7 +138,22 @@ def compare(old: dict | None, new: dict, new_text: str) -> dict | None:
                      "sample_added": [], "sample_removed": []},
         }
     if old.get("content_hash") == new.get("content_hash"):
-        return None
+        # Halaman yang seluruh isinya dirender JavaScript menyisakan cangkang
+        # kosong: <div id="wac-root"></div>. Teksnya kosong, jadi content_hash
+        # SELALU sama — jira, confluence, bitwarden, n8n semuanya berbagi hash
+        # string kosong yang sama persis. Padahal harga jira ADA, tersimpan di
+        # JSON-LD ($7.91 Standard, $14.54 Premium), dan kalau berubah besok
+        # kita tidak akan pernah melihatnya.
+        #
+        # Untuk halaman setipis itu, data terstruktur adalah satu-satunya
+        # sinyal yang kita punya. Halaman normal tetap memakai hash teks —
+        # itu yang menjaga arsip ini tenang selama ini, dan tidak diutak-atik.
+        from . import config
+
+        if new.get("text_bytes", 0) >= config.THIN_TEXT_BYTES:
+            return None
+        if _structured_key(old) == _structured_key(new):
+            return None
 
     plan_events = diff_plans(old.get("plans") or [], new.get("plans") or [])
     # `old.get("models")` sengaja TANPA `or []`: None berarti rekaman kemarin

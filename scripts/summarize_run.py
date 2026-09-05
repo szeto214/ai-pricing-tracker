@@ -159,6 +159,15 @@ def main() -> int:
                 print(f"\n_{len(mrows) - 60} baris lain ada di changes.jsonl._")
             print()
 
+    thin = [t for t in run["targets"] if t.get("thin")]
+    if thin:
+        print(f"### Arsip tipis ({len(thin)}) — halaman dirender JavaScript\n")
+        print("Diambil dengan sukses, tapi HTML-nya nyaris kosong. Perubahan "
+              "harga di sini hanya terdeteksi lewat JSON-LD.\n")
+        print(", ".join(f"{t['slug']} ({t.get('plans_count', 0)} paket)"
+                        for t in thin))
+        print()
+
     low = [t for t in run["targets"]
            if t.get("status") == "ok" and t.get("confidence") in ("low", "none")]
     if low:

@@ -136,9 +136,39 @@ def _strip_noise(soup: BeautifulSoup) -> None:
     ])
 
 
+_LDJSON_TYPE = re.compile(r"ld\+json", re.I)
+_MAX_LDJSON_BYTES = 200_000
+
+
+def _keep_jsonld(soup: BeautifulSoup) -> str:
+    """Blok JSON-LD, disimpan untuk arsip — bukan untuk teks maupun hash.
+
+    <script> dibuang sebelum pengarsipan, dan untuk sebagian situs itu berarti
+    arsipnya kosong melompong. Arsip jira 29/08 seluruhnya berbunyi
+    `<div id="wac-root"></div>`, padahal harga yang kita catat hari itu —
+    Standard $7.91, Premium $14.54 — datang dari JSON-LD di halaman yang sama.
+    Mencatat angka tanpa menyimpan sumbernya membuat angka itu tidak bisa
+    diperiksa ulang, dan arsip yang tidak bisa diperiksa tidak ada gunanya.
+    """
+    out, size = [], 0
+    for tag in soup.find_all("script", attrs={"type": _LDJSON_TYPE}):
+        block = str(tag)
+        if size + len(block) > _MAX_LDJSON_BYTES:
+            break
+        out.append(block)
+        size += len(block)
+    if not out:
+        return ""
+    text = "\n".join(out)
+    for pattern in _SECRETS:                 # aturan yang sama dengan teks
+        text = pattern.sub("<secret-redacted>", text)
+    return "\n<!-- json-ld disimpan untuk arsip -->\n" + text
+
+
 def clean_html(raw_html: str) -> tuple[BeautifulSoup, str]:
     """Kembalikan (soup bersih, html bersih untuk arsip)."""
     soup = BeautifulSoup(raw_html, "lxml")
+    jsonld = _keep_jsonld(soup)              # sebelum <script> dibuang
     _strip_noise(soup)
 
     archive = BeautifulSoup(str(soup), "lxml")
@@ -146,7 +176,7 @@ def clean_html(raw_html: str) -> tuple[BeautifulSoup, str]:
         if not _alive(tag):
             continue
         tag.attrs = {k: v for k, v in tag.attrs.items() if k in _KEEP_ATTRS}
-    return soup, str(archive)
+    return soup, str(archive) + jsonld
 
 
 def to_text(soup: BeautifulSoup) -> str:

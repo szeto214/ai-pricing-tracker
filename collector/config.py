@@ -45,6 +45,12 @@ MAX_RETRIES = 2
 RETRY_BACKOFF = 8.0             # detik, dikalikan percobaan ke-n
 MAX_BYTES = 6 * 1024 * 1024     # tolak halaman > 6 MB
 
+# Di bawah ini, halaman praktis tidak punya teks terbaca — biasanya cangkang
+# SPA kosong yang seluruh isinya dirender JavaScript. Ambang dipilih dari data:
+# tujuh target menghasilkan 1-196 byte, sedangkan yang tertipis berikutnya
+# 1.235 byte. Jadi 500 memisahkan keduanya dengan jarak aman.
+THIN_TEXT_BYTES = 500
+
 # --- versi pembaca angka ------------------------------------------------------
 # NAIKKAN setiap kali cara MEMBACA angka berubah: regex harga, pembersihan nama
 # paket, aturan ekstraksi — apa pun yang bisa membuat halaman yang SAMA PERSIS

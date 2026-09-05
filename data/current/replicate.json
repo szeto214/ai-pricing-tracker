@@ -6,7 +6,7 @@
   "url": "https://replicate.com/pricing",
   "final_url": "https://replicate.com/pricing",
   "content_hash": "e2128294821f8407907292ad0d1c6aadcc73b4580848aa8b79f6eac3e39ce283",
-  "raw_hash": "1ea7e222926d16eb56517294e5f82d6f25ebfe7d7368892b9b99472d27c062f6",
+  "raw_hash": "2b229a42d88645e6cb76242c55657cd66b9fc870263bb379b217fbcbf0c09f3d",
   "text_bytes": 8157,
   "extractor": "dom",
   "confidence": "medium",
@@ -21,8 +21,8 @@
     },
     {
       "name": "black-forest-labs / flux-dev",
-      "price_raw": "$0.02",
-      "amount": 0.02,
+      "price_raw": "$0.025",
+      "amount": 0.025,
       "currency": "USD",
       "period": null,
       "features": []

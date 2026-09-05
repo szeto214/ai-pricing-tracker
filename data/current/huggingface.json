@@ -6,7 +6,7 @@
   "url": "https://huggingface.co/pricing",
   "final_url": "https://huggingface.co/pricing",
   "content_hash": "ef0e0f6802a68a32c390e691eaeff8d82d6febe49b14bf36bffe35c12e6e13b1",
-  "raw_hash": "907f2906cacdfcab836cdb89a7c7d0720492ee083918b71fe2d84b2066f3842f",
+  "raw_hash": "9c65b81780e9bfee0bbbd8b107d68371dc967fd0216ddfae22d789bfdc339a27",
   "text_bytes": 21861,
   "extractor": "dom",
   "confidence": "medium",
@@ -61,8 +61,8 @@
     },
     {
       "name": "Inference Endpoints",
-      "price_raw": "$0.03",
-      "amount": 0.03,
+      "price_raw": "$0.033",
+      "amount": 0.033,
       "currency": "USD",
       "period": "hour",
       "features": []

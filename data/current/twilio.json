@@ -5,24 +5,24 @@
   "category": "dev-infra",
   "url": "https://www.twilio.com/en-us/pricing",
   "final_url": "https://www.twilio.com/en-us/pricing",
-  "content_hash": "7dff11a605d2ce02b18f707654bef0906b0bbc473b68a7c30802496cc0ea1f67",
-  "raw_hash": "42d722b7f1543d26c9820d08a13f34c481f5b8a80b6c00b465196da143b8d771",
-  "text_bytes": 6494,
+  "content_hash": "b32102827e906713c1a9ecc3458fda0e28835a75d7af29107472bff06aaa2b38",
+  "raw_hash": "c7035f8dcfff6f78bbf50406d397157a8f520584b0e5f1cf75e7ea67f857037a",
+  "text_bytes": 8317,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
     {
       "name": "Conversations",
-      "price_raw": "$0.00",
-      "amount": 0.0,
+      "price_raw": "$0.0002",
+      "amount": 0.0002,
       "currency": "USD",
       "period": null,
       "features": []
     },
     {
       "name": "Communications",
-      "price_raw": "$0.00",
-      "amount": 0.0,
+      "price_raw": "$0.0083",
+      "amount": 0.0083,
       "currency": "USD",
       "period": "month",
       "features": []
@@ -45,8 +45,8 @@
     },
     {
       "name": "Builder tools",
-      "price_raw": "$0.00",
-      "amount": 0.0,
+      "price_raw": "$0.0025",
+      "amount": 0.0025,
       "currency": "USD",
       "period": "request",
       "features": []

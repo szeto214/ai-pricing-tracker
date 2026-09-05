@@ -6,7 +6,7 @@
   "url": "https://www.baseten.co/pricing/",
   "final_url": "https://www.baseten.co/pricing/",
   "content_hash": "aa8d59d931aae5dba2aa97e938a4317b0f6a8185a8797a0019f9960a55f7ebc2",
-  "raw_hash": "fe9a07a6bab79792685c12c308fbad88c14d3c1a4b7899e0b6ba663776375e6f",
+  "raw_hash": "d05cfaff87a973ad5cc417e3ca7a793b171260daab9f68637a5edc4ac8fd5481",
   "text_bytes": 6092,
   "extractor": "dom",
   "confidence": "medium",
@@ -141,32 +141,32 @@
     },
     {
       "name": "GPU Instances",
-      "price_raw": "$0.01",
-      "amount": 0.01,
+      "price_raw": "$0.01052",
+      "amount": 0.01052,
       "currency": "USD",
       "period": null,
       "features": []
     },
     {
       "name": "H100 MIG",
-      "price_raw": "$0.06",
-      "amount": 0.06,
+      "price_raw": "$0.0625",
+      "amount": 0.0625,
       "currency": "USD",
       "period": null,
       "features": []
     },
     {
       "name": "B200",
-      "price_raw": "$0.16",
-      "amount": 0.16,
+      "price_raw": "$0.16633",
+      "amount": 0.16633,
       "currency": "USD",
       "period": null,
       "features": []
     },
     {
       "name": "1x2",
-      "price_raw": "$0.00",
-      "amount": 0.0,
+      "price_raw": "$0.00058",
+      "amount": 0.00058,
       "currency": "USD",
       "period": null,
       "features": []

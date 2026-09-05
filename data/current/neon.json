@@ -5,9 +5,9 @@
   "category": "database",
   "url": "https://neon.com/pricing",
   "final_url": "https://neon.com/pricing",
-  "content_hash": "6cb302ea548de7a47363a0984dbecf5d2e655159dd78123c86d4654f5e921453",
-  "raw_hash": "4ff1c5dcd851df9dccf0c3cd2c8fea52e0c22d84877e758cea4800355f25d859",
-  "text_bytes": 18455,
+  "content_hash": "4b42d972ed47e0246007b63b88ac1142ee93fe8b7896b0bddd895f025d16902a",
+  "raw_hash": "61707878ba77df55c8423a4f14068858e625b3cd99421b4e99b5a9be25d7021e",
+  "text_bytes": 18424,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -73,8 +73,8 @@
     },
     {
       "name": "Launch",
-      "price_raw": "$0.00",
-      "amount": 0.0,
+      "price_raw": "$0.002",
+      "amount": 0.002,
       "currency": "USD",
       "period": "month",
       "features": [
@@ -100,8 +100,8 @@
     },
     {
       "name": "Scale",
-      "price_raw": "$0.00",
-      "amount": 0.0,
+      "price_raw": "$0.002",
+      "amount": 0.002,
       "currency": "USD",
       "period": "month",
       "features": [

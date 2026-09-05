@@ -6,7 +6,7 @@
   "url": "https://nebius.com/prices",
   "final_url": "https://nebius.com/prices",
   "content_hash": "614183e5082abb893eeab81e27a518d72c3e5e08b408a2da1296c359166b5367",
-  "raw_hash": "dc465f79e6cd8cd601efcdcb2e6cd321ba35288d2d11538d442f3a35a9e600d1",
+  "raw_hash": "71b6e77c0a9c35cc28f842440da72cb96a4b1efd6b34b73f3e4d17a8f25f1ba3",
   "text_bytes": 4792,
   "extractor": "dom",
   "confidence": "medium",
@@ -29,7 +29,7 @@
     },
     {
       "name": "Storage",
-      "price_raw": "$0.08",
+      "price_raw": "$0.0800",
       "amount": 0.08,
       "currency": "USD",
       "period": "month",

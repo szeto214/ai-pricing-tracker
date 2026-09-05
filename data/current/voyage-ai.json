@@ -5,48 +5,48 @@
   "category": "ai-api",
   "url": "https://docs.voyageai.com/docs/pricing",
   "final_url": "https://docs.voyageai.com/docs/pricing",
-  "content_hash": "5982ed00ef449bb679969e9e0817ae3addfad828788a49d6ccfeb1dac958333a",
-  "raw_hash": "328bd553259fe50f74e0fc3bedf61d7efff7e9be400a0ff6d872cf700f718315",
+  "content_hash": "07e7d20724fc46ee3ee93802aa92b2c0832821616496b570f8f6e3f5534d9665",
+  "raw_hash": "1e1e17f32ec94cde65385f2439c60b62f5ffe8cc13b4ad594f66133c648e9858",
   "text_bytes": 4915,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
     {
       "name": "voyage-4-large",
-      "price_raw": "$0.00",
-      "amount": 0.0,
+      "price_raw": "$0.00012",
+      "amount": 0.00012,
       "currency": "USD",
       "period": null,
       "features": []
     },
     {
       "name": "voyage-4-lite",
-      "price_raw": "$0.00",
-      "amount": 0.0,
+      "price_raw": "$0.00002",
+      "amount": 2e-05,
       "currency": "USD",
       "period": null,
       "features": []
     },
     {
       "name": "voyage-context-4",
-      "price_raw": "$0.00",
-      "amount": 0.0,
+      "price_raw": "$0.00012",
+      "amount": 0.00012,
       "currency": "USD",
       "period": null,
       "features": []
     },
     {
       "name": "voyage-code-4",
-      "price_raw": "$0.00",
-      "amount": 0.0,
+      "price_raw": "$0.00012",
+      "amount": 0.00012,
       "currency": "USD",
       "period": null,
       "features": []
     },
     {
       "name": "voyage-finance-2",
-      "price_raw": "$0.00",
-      "amount": 0.0,
+      "price_raw": "$0.00012",
+      "amount": 0.00012,
       "currency": "USD",
       "period": null,
       "features": []
@@ -61,32 +61,32 @@
     },
     {
       "name": "200px x 200px",
-      "price_raw": "$0.00",
-      "amount": 0.0,
+      "price_raw": "$0.00003",
+      "amount": 3e-05,
       "currency": "USD",
       "period": null,
       "features": []
     },
     {
       "name": "4000px x 4000px",
-      "price_raw": "$0.00",
-      "amount": 0.0,
+      "price_raw": "$0.0012",
+      "amount": 0.0012,
       "currency": "USD",
       "period": null,
       "features": []
     },
     {
       "name": "rerank-3",
-      "price_raw": "$0.00",
-      "amount": 0.0,
+      "price_raw": "$0.00005",
+      "amount": 5e-05,
       "currency": "USD",
       "period": null,
       "features": []
     },
     {
       "name": "rerank-3-lite",
-      "price_raw": "$0.00",
-      "amount": 0.0,
+      "price_raw": "$0.00002",
+      "amount": 2e-05,
       "currency": "USD",
       "period": null,
       "features": []
@@ -101,32 +101,32 @@
     },
     {
       "name": "voyage-context-3",
-      "price_raw": "$0.00",
-      "amount": 0.0,
+      "price_raw": "$0.00018",
+      "amount": 0.00018,
       "currency": "USD",
       "period": null,
       "features": []
     },
     {
       "name": "voyage-multilingual-2",
-      "price_raw": "$0.00",
-      "amount": 0.0,
+      "price_raw": "$0.00012",
+      "amount": 0.00012,
       "currency": "USD",
       "period": null,
       "features": []
     },
     {
       "name": "voyage-01",
-      "price_raw": "$0.00",
-      "amount": 0.0,
+      "price_raw": "$0.0001",
+      "amount": 0.0001,
       "currency": "USD",
       "period": null,
       "features": []
     },
     {
       "name": "voyage-3-lite",
-      "price_raw": "$0.00",
-      "amount": 0.0,
+      "price_raw": "$0.00002",
+      "amount": 2e-05,
       "currency": "USD",
       "period": null,
       "features": []

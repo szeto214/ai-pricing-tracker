@@ -45,8 +45,8 @@
     },
     {
       "name": "Storage Pricing",
-      "price_raw": "$0.00",
-      "amount": 0.0,
+      "price_raw": "$0.000096",
+      "amount": 9.6e-05,
       "currency": "USD",
       "period": "hour",
       "features": [
@@ -73,8 +73,8 @@
     },
     {
       "name": "Fine-Tuning Pricing",
-      "price_raw": "$0.06",
-      "amount": 0.06,
+      "price_raw": "$0.063",
+      "amount": 0.063,
       "currency": "USD",
       "period": null,
       "features": []

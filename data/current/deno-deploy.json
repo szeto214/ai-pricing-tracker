@@ -6,7 +6,7 @@
   "url": "https://deno.com/deploy/pricing",
   "final_url": "https://deno.com/deploy/pricing",
   "content_hash": "0df16c300ac2ac0eefdf5cbaa1b8bc410f242a0db2b083477b28e557dccbecaf",
-  "raw_hash": "f77b559779da9dc6c8e5c49427c2ded05ed23bee7266c746005daabcfcf079a4",
+  "raw_hash": "7bb8b89d2b98185a5fb45f8cc4df0bac0182bb1d6eb74b2b385790aa8fa7d8e7",
   "text_bytes": 16068,
   "extractor": "dom",
   "confidence": "medium",
@@ -61,8 +61,8 @@
     },
     {
       "name": "Memory time",
-      "price_raw": "$0.02",
-      "amount": 0.02,
+      "price_raw": "$0.025",
+      "amount": 0.025,
       "currency": "USD",
       "period": null,
       "features": []

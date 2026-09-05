@@ -5,9 +5,9 @@
   "category": "ai-media",
   "url": "https://www.synthesia.io/pricing",
   "final_url": "https://www.synthesia.io/pricing",
-  "content_hash": "3b92e5e0a5cf9cf561a899bc43f8c1fd5299e08632dbd6198693a441df0ab484",
-  "raw_hash": "5c0551421e82aa95120cb91446b2b1279d00253005940017f53ca7604ec22227",
-  "text_bytes": 23827,
+  "content_hash": "eb08a1da7bedee74ad7835fc3c4f2bdfef7702d8056ba84c9da4ca0c6d28b9ea",
+  "raw_hash": "966b2c9a064589b941a81d9415517b4b7463ef4880f9c71cadcd691e6580c8ad",
+  "text_bytes": 23849,
   "extractor": "dom",
   "confidence": "low",
   "plans": [

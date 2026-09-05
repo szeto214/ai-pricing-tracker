@@ -6,7 +6,7 @@
   "url": "https://sentry.io/pricing/",
   "final_url": "https://sentry.io/pricing/",
   "content_hash": "ab1ced85804b828b9e9fd4601b802ac760429b3d2d39f26eb9939f55e24d41ac",
-  "raw_hash": "9de0fed7254a5fa99a09582938e2a1692ed43e3080f19f80a1bd27f42d69779c",
+  "raw_hash": "167ca3af1f3ebcff6a379ec1536b1fcc3270aab17a1dbaea61ca0abf82bd3d97",
   "text_bytes": 5754,
   "extractor": "dom",
   "confidence": "medium",
@@ -104,8 +104,8 @@
     },
     {
       "name": "Continuous Profiling",
-      "price_raw": "$0.03",
-      "amount": 0.03,
+      "price_raw": "$0.0315",
+      "amount": 0.0315,
       "currency": "USD",
       "period": "hour",
       "features": []

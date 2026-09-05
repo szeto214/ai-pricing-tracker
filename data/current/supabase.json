@@ -6,7 +6,7 @@
   "url": "https://supabase.com/pricing",
   "final_url": "https://supabase.com/pricing",
   "content_hash": "313f083d499edc6fe15d7b789ab2727ae7ffdaa9382b653375584ea7c3332041",
-  "raw_hash": "04bb07c8d3b8d98875a318a8f1a516024652b22b8a27632f6169c856ff48de3d",
+  "raw_hash": "4baa491c43a20115d7e576148f7e512cb8eaf053a2d018f5da399de063a6015f",
   "text_bytes": 16643,
   "extractor": "dom",
   "confidence": "medium",
@@ -133,8 +133,8 @@
     },
     {
       "name": "Advanced disk configurations",
-      "price_raw": "$0.12",
-      "amount": 0.12,
+      "price_raw": "$0.125",
+      "amount": 0.125,
       "currency": "USD",
       "period": null,
       "features": []

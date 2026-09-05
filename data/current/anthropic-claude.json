@@ -5,9 +5,9 @@
   "category": "ai-assistant",
   "url": "https://www.anthropic.com/pricing",
   "final_url": "https://claude.com/pricing",
-  "content_hash": "61e51ba7792031a703a39469421d82c1f25397d584f5ad940356acd0c6d72336",
-  "raw_hash": "9cdba6988d3a901206706523d9f1bba59f05f87bfa9f8b69b12abdc801fa1787",
-  "text_bytes": 6442,
+  "content_hash": "13e9f62dd4ee70c87540cd4185899e9fe5095d6bf1259b00c69e31868cdbf8c5",
+  "raw_hash": "3c79722ef6987ea4a24c783ee973b00ea43ca96ed21f0639a7cd9d7d77ead946",
+  "text_bytes": 6399,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -32,7 +32,6 @@
         "Includes Claude Design",
         "Includes Claude Science",
         "Access to unlimited projects to organize chats and documents",
-        "Access to Research",
         "Ability to use more Claude models",
         "Claude for Microsoft 365"
       ]
@@ -203,13 +202,6 @@
         [
           "Create and edit files with code execution More information",
           "Yes",
-          "Yes",
-          "Yes",
-          "Yes"
-        ],
-        [
-          "Research",
-          "No",
           "Yes",
           "Yes",
           "Yes"

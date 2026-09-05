@@ -5,9 +5,9 @@
   "category": "ai-api",
   "url": "https://openrouter.ai/models",
   "final_url": "https://openrouter.ai/models",
-  "content_hash": "a7d3d17c10ac84bbeccafadcf149fa87183285fdfaa873d6b4a1ad3bcc2ee3b8",
-  "raw_hash": "b4083cc226748d79c5581ce2f2714cf27c54af901d1379813d4c4ffd277fbdb2",
-  "text_bytes": 8363,
+  "content_hash": "6ff8ae5a9c11f483786643968ae7f30718e3085ded9b7dfed2de27df97ea3147",
+  "raw_hash": "57cba60f95e5e75f1b860fc5ff11c9a3d67802d021015afed631428fa2399a1b",
+  "text_bytes": 8503,
   "extractor": "dom",
   "confidence": "low",
   "plans": [

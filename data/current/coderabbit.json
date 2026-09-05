@@ -5,9 +5,9 @@
   "category": "ai-coding",
   "url": "https://www.coderabbit.ai/pricing",
   "final_url": "https://www.coderabbit.ai/pricing",
-  "content_hash": "10b9005616c69f812cd9a75b25e02e95e60edc01911417b65e25993b719a3991",
-  "raw_hash": "74e6cbb6591a4ad2cac430f423854b640714c2248057e8a96be40c68b796d3a3",
-  "text_bytes": 4563,
+  "content_hash": "63888b73e692328c0886606793b23b2376dcd998e85e8296485a2e43b21e9695",
+  "raw_hash": "b333539ac5ee193f919ea68bab7935e6a65f952aa8be6b851c6624348fbee3cf",
+  "text_bytes": 5376,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -134,14 +134,14 @@
           "Included"
         ],
         [
-          "Triage",
+          "Triage : Opens in a new tab",
           "Not included",
           "Included",
           "Included",
           "Included"
         ],
         [
-          "Custom pre-merge checks",
+          "Custom pre-merge checks : Opens in a new tab",
           "Not included",
           "10",
           "20",
@@ -169,7 +169,7 @@
           "12"
         ],
         [
-          "Blast radius",
+          "Blast radius : Opens in a new tab",
           "Not included",
           "Not included",
           "Included",

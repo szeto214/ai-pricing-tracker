@@ -106,6 +106,51 @@ Summarize progress and report instantly
 Get a free trial
 Compare plans
 Essentials
+Agentic AI reviews on PRs & CLI
+Included
+1-click fixes
+Included
+Learnings
+Included
+Loops with coding agents
+Included
+MCP connections
+5
+Multi-repo analysis
+1
+Built-in pre-merge checks
+Included
+Agentic chat
+Included
+Linters and SAST tools support
+Included
+Jira and Linear integrations
+Included
+Triage
+:
+Opens in a new tab
+Not included
+Custom pre-merge checks
+:
+Opens in a new tab
+Not included
+Finishing touches: unit tests, merge conflict resolution, simplify
+Not included
+Post-merge actions
+Not included
+Rate limits: PR reviews per developer per hour
+5*
+Blast radius
+:
+Opens in a new tab
+Not included
+Architectural impact
+Not included
+Continuous security monitoring
+Not included
+Security review of each PR
+Not included
+Essentials
 Team
 Advanced
 Enterprise
@@ -160,11 +205,15 @@ Included
 Included
 Included
 Triage
+:
+Opens in a new tab
 Not included
 Included
 Included
 Included
 Custom pre-merge checks
+:
+Opens in a new tab
 Not included
 10
 20
@@ -185,6 +234,8 @@ Rate limits: PR reviews per developer per hour
 10*
 12
 Blast radius
+:
+Opens in a new tab
 Not included
 Not included
 Included
@@ -206,6 +257,8 @@ Included
 Included
 * Subject to
 Fair Usage Policy
+:
+Opens in a new tab
 Frequently Asked Questions
 Are Essentials and Team new plans?
 Will the plan renaming change my price?

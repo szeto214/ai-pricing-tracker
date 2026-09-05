@@ -6,7 +6,7 @@
   "url": "https://xata.io/pricing",
   "final_url": "https://xata.io/pricing",
   "content_hash": "1f528ad00fff1a0d2f7bfb2a52f2c22edfb080f98ae4739dd1a0317ce0710b47",
-  "raw_hash": "22c9570ba15340e90f02f19ba35b48e58fd825f101349f2106c4487edae78991",
+  "raw_hash": "a8ffc5dc30fa659586329ad38db8908fea1cc5f292697bbf5bbb1fb972a76100",
   "text_bytes": 4808,
   "extractor": "dom",
   "confidence": "medium",
@@ -21,8 +21,8 @@
     },
     {
       "name": "Xata Cloud",
-      "price_raw": "$0.01",
-      "amount": 0.01,
+      "price_raw": "$0.012",
+      "amount": 0.012,
       "currency": "USD",
       "period": "hour",
       "features": []

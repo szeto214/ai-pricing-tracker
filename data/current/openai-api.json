@@ -5,9 +5,9 @@
   "category": "ai-api",
   "url": "https://platform.openai.com/docs/pricing",
   "final_url": "https://developers.openai.com/api/docs/pricing",
-  "content_hash": "527d8e65ede3aa32a58e2eea985049766978631da63fef4881e92e4c986fe58b",
-  "raw_hash": "b55a42328e779d4eb62e3b4fad9719de15993781af3d363fa35f7845a49c098c",
-  "text_bytes": 6928,
+  "content_hash": "e7f2d3aac70c0c5c7efe798d65f72c78b0518966caaec19d8c0a5ad32ccc33c7",
+  "raw_hash": "92a4f5e595d8992b7cd0c0d0dab2edbbbc52ab27b18631c95addc885dd549a99",
+  "text_bytes": 6742,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -85,32 +85,32 @@
     },
     {
       "name": "gpt-realtime-translate",
-      "price_raw": "$0.03",
-      "amount": 0.03,
+      "price_raw": "$0.034",
+      "amount": 0.034,
       "currency": "USD",
       "period": null,
       "features": []
     },
     {
       "name": "gpt-live-transcribe",
-      "price_raw": "$0.01",
-      "amount": 0.01,
+      "price_raw": "$0.017",
+      "amount": 0.017,
       "currency": "USD",
       "period": null,
       "features": []
     },
     {
       "name": "gpt-realtime-whisper",
-      "price_raw": "$0.01",
-      "amount": 0.01,
+      "price_raw": "$0.017",
+      "amount": 0.017,
       "currency": "USD",
       "period": null,
       "features": []
     },
     {
       "name": "gpt-transcribe",
-      "price_raw": "$0.00",
-      "amount": 0.0,
+      "price_raw": "$0.0045",
+      "amount": 0.0045,
       "currency": "USD",
       "period": null,
       "features": []

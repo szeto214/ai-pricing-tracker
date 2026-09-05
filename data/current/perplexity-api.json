@@ -6,39 +6,39 @@
   "url": "https://docs.perplexity.ai/getting-started/pricing",
   "final_url": "https://docs.perplexity.ai/docs/getting-started/pricing",
   "content_hash": "0ba3a3e88969e5d3a277eefd26b0ca3192089aa9d1d1270cd039388497cc9ade",
-  "raw_hash": "9e1598a834d3a4178d1e1c524cd120ed69eaabc359a1f652ede30b147d3d5981",
+  "raw_hash": "d74b7c29555663d7c80c139cabb54cb34d19f16d6cd85e4f750726feb5315bed",
   "text_bytes": 8643,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
     {
       "name": "web_search",
-      "price_raw": "$0.00",
-      "amount": 0.0,
+      "price_raw": "$0.0025",
+      "amount": 0.0025,
       "currency": "USD",
       "period": null,
       "features": []
     },
     {
       "name": "fetch_url",
-      "price_raw": "$0.00",
-      "amount": 0.0,
+      "price_raw": "$0.0005",
+      "amount": 0.0005,
       "currency": "USD",
       "period": null,
       "features": []
     },
     {
       "name": "people_search",
-      "price_raw": "$0.00",
-      "amount": 0.0,
+      "price_raw": "$0.005",
+      "amount": 0.005,
       "currency": "USD",
       "period": null,
       "features": []
     },
     {
       "name": "finance_search",
-      "price_raw": "$0.00",
-      "amount": 0.0,
+      "price_raw": "$0.005",
+      "amount": 0.005,
       "currency": "USD",
       "period": null,
       "features": []
@@ -101,32 +101,32 @@
     },
     {
       "name": "pplx-embed-v1-0.6b",
-      "price_raw": "$0.00",
-      "amount": 0.0,
+      "price_raw": "$0.004",
+      "amount": 0.004,
       "currency": "USD",
       "period": null,
       "features": []
     },
     {
       "name": "pplx-embed-context-v1-0.6b",
-      "price_raw": "$0.00",
-      "amount": 0.0,
+      "price_raw": "$0.008",
+      "amount": 0.008,
       "currency": "USD",
       "period": null,
       "features": []
     },
     {
       "name": "Input tokens",
-      "price_raw": "$0.00",
-      "amount": 0.0,
+      "price_raw": "$0.000875",
+      "amount": 0.000875,
       "currency": "USD",
       "period": null,
       "features": []
     },
     {
       "name": "Model input tokens",
-      "price_raw": "$0.00",
-      "amount": 0.0,
+      "price_raw": "$0.001",
+      "amount": 0.001,
       "currency": "USD",
       "period": null,
       "features": []

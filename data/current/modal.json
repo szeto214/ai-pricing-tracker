@@ -6,15 +6,15 @@
   "url": "https://modal.com/pricing",
   "final_url": "https://modal.com/pricing",
   "content_hash": "6ee883893872a0d5270176b6bf960b0dc6e47186a3f6da0ace89148052e7cd83",
-  "raw_hash": "755b154cbbc0dca7137375fda366c8d942078c31037d0fa3a030a9758f34b84a",
+  "raw_hash": "3d141d2cf5e9348a90684ea4ddc4d6a9456f1f2c79744c36868b0d8e2afb3d7d",
   "text_bytes": 4632,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
     {
       "name": "Resource costs",
-      "price_raw": "$0.00",
-      "amount": 0.0,
+      "price_raw": "$0.001972",
+      "amount": 0.001972,
       "currency": "USD",
       "period": "hour",
       "features": []
@@ -61,8 +61,8 @@
     },
     {
       "name": "Compute costs",
-      "price_raw": "$0.00",
-      "amount": 0.0,
+      "price_raw": "$0.000039",
+      "amount": 3.9e-05,
       "currency": "USD",
       "period": "hour",
       "features": []

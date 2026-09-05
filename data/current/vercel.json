@@ -6,7 +6,7 @@
   "url": "https://vercel.com/pricing",
   "final_url": "https://vercel.com/pricing",
   "content_hash": "0814f498c83e4ffeb1995057fea9d00621b341cbe8eeaeda962d7b674b79aea6",
-  "raw_hash": "919ed0c35c40d082bdb14079d14bd405f0bb015e0ff9168bfb4647e6308cfb2d",
+  "raw_hash": "476c46f464299ea093f95865e1de26e9c7b884dd080ba2ac1360b6dd0f518548",
   "text_bytes": 12657,
   "extractor": "dom",
   "confidence": "medium",
@@ -77,8 +77,8 @@
     },
     {
       "name": "Blob",
-      "price_raw": "$0.02",
-      "amount": 0.02,
+      "price_raw": "$0.023",
+      "amount": 0.023,
       "currency": "USD",
       "period": "month",
       "features": []
@@ -117,8 +117,8 @@
     },
     {
       "name": "Vercel Functions",
-      "price_raw": "$0.12",
-      "amount": 0.12,
+      "price_raw": "$0.128",
+      "amount": 0.128,
       "currency": "USD",
       "period": "month",
       "features": []
@@ -133,8 +133,8 @@
     },
     {
       "name": "Vercel Sandbox",
-      "price_raw": "$0.12",
-      "amount": 0.12,
+      "price_raw": "$0.128",
+      "amount": 0.128,
       "currency": "USD",
       "period": "month",
       "features": []

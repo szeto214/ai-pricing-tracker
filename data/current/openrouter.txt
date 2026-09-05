@@ -1,8 +1,116 @@
 Models
+OpenAI: GPT-6 Astra (batch)
+GPT-6 Astra (batch)
+242K tokens
+GPT-6 Astra is OpenAI's flagship model for demanding end-to-end work. It is suited for advanced analysis, software engineering, deep research, scientific work, and document creation, with particular strengths in long-horizon agentic tasks that involve computer and browser use.
+by
+openai
+Sep 4, 2026
+1.05M context
+$5/M input
+tokens
+$25/M output
+tokens
+OpenAI: GPT-6 Astra
+GPT-6 Astra
+9.09B tokens
+GPT-6 Astra is OpenAI's flagship model for demanding end-to-end work. It is suited for advanced analysis, software engineering, deep research, scientific work, and document creation, with particular strengths in long-horizon agentic tasks that involve computer and browser use.
+by
+openai
+Sep 4, 2026
+1.05M context
+$10/M input
+tokens
+$50/M output
+tokens
+OpenAI: GPT-6 Astra Pro (batch)
+GPT-6 Astra Pro (batch)
+210K tokens
+GPT-6 Astra Pro is the same underlying model as
+GPT-6 Astra
+, served with
+reasoning.mode
+set to
+pro
+for higher-quality responses on complex tasks. Learn more in OpenAI's docs:
+https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode
+by
+openai
+Sep 4, 2026
+1.05M context
+$5/M input
+tokens
+$25/M output
+tokens
+OpenAI: GPT-6 Astra Pro
+GPT-6 Astra Pro
+2.78B tokens
+GPT-6 Astra Pro is the same underlying model as
+GPT-6 Astra
+, served with
+reasoning.mode
+set to
+pro
+for higher-quality responses on complex tasks. Learn more in OpenAI's docs:
+https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode
+by
+openai
+Sep 4, 2026
+1.05M context
+$10/M input
+tokens
+$50/M output
+tokens
+Microsoft: MAI-Image-2.6
+MAI-Image-2.6
+2.4M tokens
+Microsoft's MAI-Image-2.6 is an image generation and editing model available via Azure AI Foundry. It creates images from text prompts and supports image-guided editing across multiple aspect ratios.
+by
+microsoft
+Sep 4, 2026
+4K context
+$5/M tokens
+Microsoft: MAI-Image-2.6 Flash
+MAI-Image-2.6 Flash
+1.9M tokens
+Microsoft's MAI-Image-2.6 Flash is the lower-latency variant of MAI-Image-2.6, available via Azure AI Foundry. It supports image generation and image-guided editing across multiple aspect ratios.
+by
+microsoft
+Sep 4, 2026
+4K context
+$1.75/M tokens
+inclusionAI: Ling 3.0 Flash Sante (free)
+Ling 3.0 Flash Sante (free)
+4.73B tokens
+Ling 3.0 Flash Sante is a health and medicine-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for medical knowledge reasoning, clinical safety, evidence-based retrieval, and long-horizon medical tasks, while retaining general capabilities in reasoning, coding, and agentic tasks.
+by
+inclusionai
+Sep 4, 2026
+262K context
+$0/M input
+tokens
+$0/M output
+tokens
 Microsoft: MAI-Transcribe 2
 MAI-Transcribe 2
-11.4M characters
-MAI-Transcribe 2 is a multilingual speech-to-text model from Microsoft AI, ranked #1 on the FLEURS multilingual benchmark. It supports 60 languages with automatic language identification, code switching for mixed-language speech, speaker diarization, word-level timestamps, keyword biasing for domain-specific terminology, and configurable verbatim or clean transcription styles. It is suited for captions, call transcription, subtitling, accessibility, and other voice-enabled applications, and is faster than MAI-Transcribe-1.5 on long-form audio.
+88M characters
+MAI-Transcribe 2 is a multilingual speech-to-text model from Microsoft AI, ranked #1 on the FLEURS multilingual benchmark. It supports 60 languages with automatic language identification, code switching for mixed-language speech, speaker diarization, word-level timestamps, keyword biasing for domain-specific terminology, and configurable verbatim or clean transcription styles. It is suited for captions, call transcription, subtitling, accessibility, and other voice-enabled applications, and is faster than MAI-Transcribe-1.5 on long-form audio. On OpenRouter, set
+response_format
+to
+"verbose_json"
+for segment timestamps, and add
+timestamp_granularities: ["word"]
+for word-level timestamps. Set
+provider.options.azure.diarization.enabled
+to
+true
+for speaker labels, provide keywords through
+provider.options.azure.phraseList.phrases
+, and select a transcription style through
+provider.options.azure.enhancedMode.modelOptions.transcribeStyle
+. See the
+speech-to-text guide
+.
 by
 microsoft
 Sep 3, 2026
@@ -10,9 +118,11 @@ $0.10/hour
 Meta: Muse Spark 1.3 Contributor
 Muse Spark 1.3 Contributor
 18+
-168B tokens
-Programming (#27)
-Trivia (#19)
+349B tokens
+Programming (#21)
+Science (#34)
+Technology (#38)
+Trivia (#17)
 Muse Spark 1.3 Contributor is the cost-efficient contributor tier of Meta’s multimodal reasoning model for experimentation, learning, and early-stage agentic, multi-agent, and coding workflows. It is designed to track information across extended tasks, work through conflicting inputs, and request clarification or confirmation when needed. Prompts and outputs may be used to improve Meta’s products.
 by
 meta
@@ -25,7 +135,8 @@ tokens
 Meta: Muse Spark 1.3
 Muse Spark 1.3
 18+
-59.1B tokens
+89.7B tokens
+Programming (#49)
 Muse Spark 1.3 is a multimodal reasoning model from Meta for long-running agentic, multi-agent, and coding workflows. It is designed to keep track of information across extended tasks, work through conflicting inputs, and request clarification or confirmation when needed, with an emphasis on concise execution.
 by
 meta
@@ -38,13 +149,13 @@ tokens
 Google: Gemini 3.8 Flash
 Gemini 3.8 Flash
 50% off
-353B tokens
-Academia (#32)
-Finance (#45)
-Marketing (#37)
+666B tokens
+Academia (#26)
+Finance (#31)
+Health (#36)
+Marketing (#31)
 SEO (#34)
-Programming (#24)
-+3 categories
++5 categories
 Gemini 3.8 Flash is Google's most intelligent Flash model with significant gains from 3.7 Flash across software engineering, agentic tasks, and multi-step reasoning.
 by
 google
@@ -57,7 +168,7 @@ tokens
 Google: Gemini 3.8 Flash (batch)
 Gemini 3.8 Flash (batch)
 50% off
-740M tokens
+924M tokens
 Gemini 3.8 Flash is Google's most intelligent Flash model with significant gains from 3.7 Flash across software engineering, agentic tasks, and multi-step reasoning.
 by
 google
@@ -69,7 +180,7 @@ $1.875/M output
 tokens
 MiniMax: H3 Max
 H3 Max
-7 hours
+9 hours
 MiniMax H3 Max is a video-generation model from MiniMax, jointly released with fal.ai. Derived through additional training from MiniMax H3, it is designed for faster text-to-video and image-to-video generation with controlled first-frame or last-frame keyframes.
 by
 minimax
@@ -77,7 +188,7 @@ Sep 2, 2026
 from $0.05/second
 Anthropic: Claude Fable 5.1 (batch)
 Claude Fable 5.1 (batch)
-4.06M tokens
+32.7M tokens
 Claude Fable 5.1 improves on Claude Fable 5 across the board, with the biggest gains in agentic coding, long-running agentic workflows, and knowledge work: long code refactors, front-end and visual code generation, and finance and analysis tasks in particular. It also tends to be more concise than Fable 5 in its plans and summaries. We recommend testing it as a direct upgrade wherever you use Fable 5 today, and alongside Opus 5 on reasoning-heavy tasks.
 by
 anthropic
@@ -89,10 +200,11 @@ $25/M output
 tokens
 Anthropic: Claude Fable 5.1
 Claude Fable 5.1
-159B tokens
-Finance (#44)
-Programming (#44)
-Technology (#46)
+224B tokens
+Finance (#35)
+Programming (#36)
+Science (#45)
+Technology (#37)
 Claude Fable 5.1 improves on Claude Fable 5 across the board, with the biggest gains in agentic coding, long-running agentic workflows, and knowledge work: long code refactors, front-end and visual code generation, and finance and analysis tasks in particular. It also tends to be more concise than Fable 5 in its plans and summaries. We recommend testing it as a direct upgrade wherever you use Fable 5 today, and alongside Opus 5 on reasoning-heavy tasks.
 by
 anthropic
@@ -105,7 +217,7 @@ tokens
 Inception: Mercury 2.5 Preview
 Mercury 2.5 Preview
 80% off
-27.6B tokens
+34B tokens
 Mercury 2.5 is the fastest reasoning LLM, and the latest diffusion LLM (dLLM) from Inception. Instead of generating tokens sequentially, Mercury 2.5 produces and refines multiple tokens in parallel, achieving 1,107 tokens/sec on standard GPUs. It delivers a 10+ point jump in intelligence over Mercury 2, comparable quality to cost-optimized frontier models like GPT-5.6 Luna (Low), Gemini 3.5 Flash-Lite, and Claude Haiku 4.5. Mercury 2.5 supports tunable reasoning levels, parallel tool calls, and schema-aligned JSON output. It's built for production workloads where latency compounds: search agents, voice pipelines, and coding subagents.
 by
 inception
@@ -117,7 +229,7 @@ $0.15/M output
 tokens
 IBM: Granite 4.2 8B
 Granite 4.2 8B
-1.74B tokens
+1.93B tokens
 Granite 4.2 8B is a dense reasoning model from IBM. It is suited for mathematics, code generation, multilingual dialogue, and agentic workflows that need multi-step reasoning. It supports full, low-effort, and non-thinking modes. The model supports 12 languages: English, German, Spanish, French, Japanese, Portuguese, Arabic, Czech, Italian, Korean, Dutch, and Chinese.
 by
 ibm-granite
@@ -127,94 +239,5 @@ $0.06/M input
 tokens
 $0.25/M output
 tokens
-Tencent: Hy4 preview
-Hy4 preview
-11.6T tokens
-Academia (#7)
-Finance (#9)
-Health (#25)
-Legal (#15)
-Marketing (#7)
-+6 categories
-Tencent: Hy4 preview is a mixture-of-experts model from Tencent, with 49B active parameters out of 770B total. It is designed for coding agents, complex tool-use workflows, and productivity tasks that require planning, context continuity, and sustained multi-step execution.
-by
-tencent
-Aug 28, 2026
-1.05M context
-$0.834/M input
-tokens
-$2.501/M output
-tokens
-Alibaba: Wan 3.0 Prime
-Wan 3.0 Prime
-4 hours
-Wan 3.0 Prime is a fast-mode variant of
-Wan 3.0
-from Alibaba. It supports text-to-video and first-frame image-to-video generation.
-by
-alibaba
-Aug 27, 2026
-from $0.068/second
-Ling 3.0 Flash Fin (free)
-Ling 3.0 Flash Fin (free)
-690B tokens
-Programming (#38)
-Ling 3.0 Flash Fin is a finance-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for real-world investment workflows that require complex multi-step tasks and long-horizon planning and execution, while retaining general capabilities in reasoning, coding, and mathematics.
-by
-inclusionai
-Aug 27, 2026
-262K context
-$0/M input
-tokens
-$0/M output
-tokens
-Ling 3.0 Flash Fin
-Ling 3.0 Flash Fin
-452M tokens
-Ling 3.0 Flash Fin is a finance-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for real-world investment workflows that require complex multi-step tasks and long-horizon planning and execution, while retaining general capabilities in reasoning, coding, and mathematics.
-by
-inclusionai
-Aug 27, 2026
-262K context
-$0.06/M input
-tokens
-$0.18/M output
-tokens
-Z.ai: GLM Flash Latest
-GLM Flash Latest
-50% off
-This model always redirects to the latest model in the GLM Flash family.
-by
-z-ai
-Aug 27, 2026
-1.31M context
-$0.075/M input
-tokens
-$0.25/M output
-tokens
-Qwen: Qwen3.8 Flash
-Qwen3.8 Flash
-149B tokens
-Programming (#39)
-Science (#46)
-Qwen3.8 Flash is a multimodal reasoning model from Alibaba. It is suited for coding assistance, agentic workflows, visual understanding, document and codebase analysis, desktop interaction, chart analysis, and long-video analysis.
-by
-qwen
-Aug 26, 2026
-1M context
-$0.15/M input
-tokens
-$0.47/M output
-tokens
-Meta: Muse Image
-Muse Image
-18+
-318M tokens
-Muse Image is an agentic image generation model from Meta that generates and edits images from text and reference images. Unlike single-pass image models, it reasons before it renders, breaking down multi-part prompts and refining its output within the chain of thought, and invokes web search for factual accuracy on knowledge-intensive prompts. The model supports text-to-image generation, targeted image editing, multi-image composition, reference-image conditioning for style and subject consistency across a series, and precise text rendering within generated images. Iterative editing works by passing the previous output image back with a new instruction.
-by
-meta
-Aug 26, 2026
-66K context
-$0.01/image
 Compare
 Discover Models

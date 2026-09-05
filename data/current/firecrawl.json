@@ -5,9 +5,9 @@
   "category": "ai-api",
   "url": "https://www.firecrawl.dev/pricing",
   "final_url": "https://www.firecrawl.dev/pricing",
-  "content_hash": "877fd13440f8ee8845babddd55131eb2d1e59726ebd6ab27e1fb17436a1ed081",
-  "raw_hash": "38e0757e35cfa10ec2d12120a7173b78967acde5239e395e2ec9bdb42d427fe1",
-  "text_bytes": 8071,
+  "content_hash": "6382dc249fecb8d01e45779aff7e6f9aa03a64dca3f22be8cac315fd7d23ec34",
+  "raw_hash": "c485d6e164f74758d0e5ee384556bcd04007c9d9e074f2b6b119f7782d09e014",
+  "text_bytes": 13215,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -50,8 +50,345 @@
       "currency": "USD",
       "period": "month",
       "features": []
+    },
+    {
+      "name": "Limits and Performance",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Team and Access",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Billing and Usage",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Security and Compliance",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
     }
   ],
-  "tables": [],
+  "tables": [
+    {
+      "caption": "Limits and Performance , compared across every Firecrawl plan",
+      "rows": [
+        [
+          "Feature",
+          "Free",
+          "Hobby",
+          "Standard",
+          "Growth",
+          "Scale",
+          "Enterprise"
+        ],
+        [
+          "Concurrent browsers Concurrent browsers set how many pages render at the same time.",
+          "2",
+          "5",
+          "25",
+          "50",
+          "100",
+          "Custom"
+        ],
+        [
+          "Max queued jobs This is how many jobs can wait in the queue at once. Above Scale you get 2,000 for each browser, up to 2,000,000.",
+          "50,000",
+          "50,000",
+          "50,000",
+          "100,000",
+          "200,000+",
+          "200,000+"
+        ],
+        [
+          "Rate limit, /scrape, /map and /search Your team gets this many requests a minute for each endpoint.",
+          "10 / min",
+          "100 / min",
+          "500 / min",
+          "5,000 / min",
+          "10,000 / min",
+          "Custom"
+        ],
+        [
+          "Rate limit, /crawl and /agent Your team can send this many requests a minute. Batch scrape shares the crawl limit, and extract shares the agent limit.",
+          "2 / min",
+          "20 / min",
+          "100 / min",
+          "1,000 / min",
+          "2,000 / min",
+          "Custom"
+        ],
+        [
+          "Rate limit, /interact Your team can start this many browser sandbox sessions a minute.",
+          "2 / min",
+          "20 / min",
+          "100 / min",
+          "1,000 / min",
+          "1,500 / min",
+          "Custom"
+        ]
+      ]
+    },
+    {
+      "caption": "Team and Access , compared across every Firecrawl plan",
+      "rows": [
+        [
+          "Feature",
+          "Free",
+          "Hobby",
+          "Standard",
+          "Growth",
+          "Scale",
+          "Enterprise"
+        ],
+        [
+          "Multi-team organizations An organization can run more than one team, and our team sets that up for you.",
+          "Not available",
+          "Not available",
+          "Not available",
+          "Contact support",
+          "Contact support",
+          "Contact support"
+        ],
+        [
+          "Single Sign-On Your team signs in through your own identity provider, over SAML or OIDC.",
+          "Not available",
+          "Not available",
+          "Not available",
+          "Not available",
+          "Not available",
+          "Included"
+        ],
+        [
+          "SCIM provisioning Your identity provider adds and removes team members automatically. This needs Single Sign-On.",
+          "Not available",
+          "Not available",
+          "Not available",
+          "Not available",
+          "Not available",
+          "Included"
+        ]
+      ]
+    },
+    {
+      "caption": "Support , compared across every Firecrawl plan",
+      "rows": [
+        [
+          "Feature",
+          "Free",
+          "Hobby",
+          "Standard",
+          "Growth",
+          "Scale",
+          "Enterprise"
+        ],
+        [
+          "Support tier",
+          "Community",
+          "Basic",
+          "Standard",
+          "Priority",
+          "Priority",
+          "Dedicated"
+        ],
+        [
+          "Support SLA Your agreement sets the uptime and response targets we commit to.",
+          "Not available",
+          "Not available",
+          "Not available",
+          "Not available",
+          "Not available",
+          "Included"
+        ],
+        [
+          "Slack support You get a shared Slack channel with our team.",
+          "Not available",
+          "Not available",
+          "Not available",
+          "Included",
+          "Included",
+          "Included"
+        ]
+      ]
+    },
+    {
+      "caption": "Billing and Usage , compared across every Firecrawl plan",
+      "rows": [
+        [
+          "Feature",
+          "Free",
+          "Hobby",
+          "Standard",
+          "Growth",
+          "Scale",
+          "Enterprise"
+        ],
+        [
+          "Credit rollover Unused credits carry into the next period.",
+          "Not available",
+          "Not available",
+          "Not available",
+          "Not available",
+          "One month",
+          "Custom"
+        ],
+        [
+          "Invoiced billing We bill you by invoice against a signed order form, instead of charging a card.",
+          "Not available",
+          "Not available",
+          "Not available",
+          "Not available",
+          "Included",
+          "Included"
+        ],
+        [
+          "Pay as you go You can manually load extra credits onto your account, or set a monthly spend limit.",
+          "Not available",
+          "Included",
+          "Included",
+          "Included",
+          "Included",
+          "Custom"
+        ],
+        [
+          "Annual discount This is what you save on the annual price against twelve monthly payments.",
+          "Not available",
+          "16.7%",
+          "16.7%",
+          "16.7%",
+          "20%",
+          "Custom"
+        ],
+        [
+          "Custom analytics dashboard We shape usage reporting around your teams and workloads.",
+          "Not available",
+          "Not available",
+          "Not available",
+          "Not available",
+          "Not available",
+          "Included"
+        ],
+        [
+          "Data Processing Agreement This contract covers how we process data for you, and we countersign one on a paid plan.",
+          "Not available",
+          "Not available",
+          "Standard",
+          "Standard",
+          "Standard",
+          "Custom"
+        ]
+      ]
+    },
+    {
+      "caption": "Security and Compliance , compared across every Firecrawl plan",
+      "rows": [
+        [
+          "Feature",
+          "Free",
+          "Hobby",
+          "Standard",
+          "Growth",
+          "Scale",
+          "Enterprise"
+        ],
+        [
+          "SOC 2 Type II An outside firm audits our security controls for data protection and operations.",
+          "Included",
+          "Included",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Penetration testing Outside security testers attack the platform on a regular schedule.",
+          "Included",
+          "Included",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Multi-factor authentication You add a second factor on top of your password when you sign in.",
+          "Included",
+          "Included",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Signed webhook endpoints Each webhook carries a signature, so you can prove that it came from us.",
+          "Included",
+          "Included",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "PII redaction You can take personal information out of scrape and parse output.",
+          "Included",
+          "Included",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Zero Data Retention We keep no scraped content after the request, on approved use cases.",
+          "Not available",
+          "Not available",
+          "Not available",
+          "Not available",
+          "Not available",
+          "Included"
+        ],
+        [
+          "API key restrictions You can lock one key to the formats and endpoints you choose, and no request can override it.",
+          "Not available",
+          "Not available",
+          "Not available",
+          "Not available",
+          "Not available",
+          "Included"
+        ],
+        [
+          "API key IP restrictions Your team keys work only from the IP addresses and ranges you allowlist.",
+          "Not available",
+          "Not available",
+          "Not available",
+          "Not available",
+          "Not available",
+          "Included"
+        ],
+        [
+          "Static egress IPs Our traffic reaches your systems from dedicated IP addresses that you can allowlist.",
+          "Not available",
+          "Not available",
+          "Not available",
+          "Not available",
+          "Not available",
+          "Included"
+        ]
+      ]
+    }
+  ],
   "extract_errors": []
 }

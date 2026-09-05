@@ -5,9 +5,9 @@
   "category": "database",
   "url": "https://redis.io/pricing/",
   "final_url": "https://redis.io/pricing/",
-  "content_hash": "aebaff65ff3ea4b6e4b6522eef932edeb11f1168b604b9023abb0231c6026d2a",
-  "raw_hash": "ce6ed1608438d7072ebef6468a7b7aeadf6d253d4bb3fca7274c2f3b5e3b9b3b",
-  "text_bytes": 4379,
+  "content_hash": "940ba25b68915fe3e2ea535309e1303b3b6e9f714022452b1d4d2d37fbc0d911",
+  "raw_hash": "9fb5dd3c58baaf734464de7ada6fdcc01404590b3fac3b7633e4c715b60b0b50",
+  "text_bytes": 4263,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -21,16 +21,16 @@
     },
     {
       "name": "General",
-      "price_raw": "$0.00",
-      "amount": 0.0,
+      "price_raw": "$0.007",
+      "amount": 0.007,
       "currency": "USD",
       "period": "hour",
       "features": []
     },
     {
       "name": "Essentials",
-      "price_raw": "$0.00",
-      "amount": 0.0,
+      "price_raw": "$0.007",
+      "amount": 0.007,
       "currency": "USD",
       "period": "hour",
       "features": []

@@ -6,15 +6,15 @@
   "url": "https://www.influxdata.com/influxdb-cloud-pricing/",
   "final_url": "https://www.influxdata.com/influxdb-cloud-pricing/",
   "content_hash": "9b462bfd0f5c5f95d3c43153fe782ad89bf6d7bef98ace3169e47832fda3c4e7",
-  "raw_hash": "d8d6550b8777838475524bb8856a4a97914dd186d048bca1e551700e73f904d1",
+  "raw_hash": "a0996447f0ba9db4384b763611ab4f97516fcffd819bf07e9fb309717f6a3016",
   "text_bytes": 3774,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
     {
       "name": "InfluxDB Cloud Offerings",
-      "price_raw": "$0.00",
-      "amount": 0.0,
+      "price_raw": "$0.0025",
+      "amount": 0.0025,
       "currency": "USD",
       "period": null,
       "features": [

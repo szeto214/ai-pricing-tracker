@@ -29,8 +29,8 @@
     },
     {
       "name": "Hosted Agents Pro Plan Pricing",
-      "price_raw": "$0.00",
-      "amount": 0.0,
+      "price_raw": "$0.004",
+      "amount": 0.004,
       "currency": "USD",
       "period": null,
       "features": [

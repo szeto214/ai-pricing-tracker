@@ -5,25 +5,17 @@
   "category": "productivity",
   "url": "https://mailchimp.com/pricing/",
   "final_url": "https://mailchimp.com/pricing/marketing/",
-  "content_hash": "03099993758a1541774378618a5672fd6581e1d01f56810837cb343769f430e3",
-  "raw_hash": "d077b572bb27799376ea144ba1b61b400a5a9de8a45dc8ec8b589dc337215a64",
-  "text_bytes": 22538,
+  "content_hash": "5eeadfc0ffb3986ae4eba146f1f01ac52b1decad1550fe7577cb92f3dd9598d0",
+  "raw_hash": "16d9375dd83d09ffa07a98676c50aee820fc70af050a6dcb61fd3be1b45f7a43",
+  "text_bytes": 22536,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
     {
       "name": "Standard",
-      "price_raw": "$20",
-      "amount": 20.0,
-      "currency": "USD",
-      "period": "month",
-      "features": []
-    },
-    {
-      "name": "Free for 14 days",
-      "price_raw": "$20",
-      "amount": 20.0,
-      "currency": "USD",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
       "period": "month",
       "features": []
     },

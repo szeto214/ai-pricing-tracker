@@ -5,9 +5,9 @@
   "category": "ai-api",
   "url": "https://ai.google.dev/pricing",
   "final_url": "https://ai.google.dev/gemini-api/docs/pricing",
-  "content_hash": "fbdb8485aa262d47f52c40489903fe3a89fc6ebed7241089b52e658e58525050",
-  "raw_hash": "de38d1b48691471428324e574085bb380cdaae35415d8b506f61728b45b98e29",
-  "text_bytes": 55738,
+  "content_hash": "07952349dbe7e5ff08832aaad4000193210b6a6f914e85e25458d8c26ba0d75c",
+  "raw_hash": "49c3081c1cbad38a95afd58be4590724a198facaf34d7264d81643aa27db5dfd",
+  "text_bytes": 55530,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -34,16 +34,16 @@
     },
     {
       "name": "Batch",
-      "price_raw": "$0.37",
-      "amount": 0.37,
+      "price_raw": "$0.375",
+      "amount": 0.375,
       "currency": "USD",
       "period": "hour",
       "features": []
     },
     {
       "name": "Flex",
-      "price_raw": "$0.37",
-      "amount": 0.37,
+      "price_raw": "$0.375",
+      "amount": 0.375,
       "currency": "USD",
       "period": "hour",
       "features": []

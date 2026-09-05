@@ -6,7 +6,7 @@
   "url": "https://grafana.com/pricing/",
   "final_url": "https://grafana.com/pricing/",
   "content_hash": "2110fbc67796ed7df92bc1915c1e8bc8185a22fd130f92f533d19a59235dc3c8",
-  "raw_hash": "320a043b9de3fcd28250d7ff32874695d97e2371a2bc63f081267ae7c184f21f",
+  "raw_hash": "e3fb28a22e64c8bd11dbb9b63fc0ead076d317a86e0bca019cce7c28260d2ad3",
   "text_bytes": 38272,
   "extractor": "dom",
   "confidence": "medium",
@@ -101,7 +101,7 @@
     },
     {
       "name": "Pro",
-      "price_raw": "$0.05",
+      "price_raw": "$0.050",
       "amount": 0.05,
       "currency": "USD",
       "period": null,
@@ -160,7 +160,7 @@
     },
     {
       "name": "Starts at",
-      "price_raw": "$0.01",
+      "price_raw": "$0.0100",
       "amount": 0.01,
       "currency": "USD",
       "period": null,

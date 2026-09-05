@@ -5,9 +5,9 @@
   "category": "database",
   "url": "https://clickhouse.com/pricing",
   "final_url": "https://clickhouse.com/pricing?service=clickhouse&pg.plan=scale&pg.provider=aws&pg.profile=memory&pg.architecture=arm&pg.standby=0&pg.region=us-east-1&useCase=real-time-analytics&hours=24&plan=scale&provider=aws&region=us-east-1&storageCompressed=false",
-  "content_hash": "21738ec0c692449c841c9e1347169f66575a5971cdbf0cef1140259a5baf325a",
-  "raw_hash": "49a7a1607590402b1f5573fa4e558f6d53c3c6d38a9b53556778cdd6058054b5",
-  "text_bytes": 4813,
+  "content_hash": "33c925b498a47f84c60c7de5d2edd1ab0b44ffdb5db252ae739c67be9b8b0f47",
+  "raw_hash": "3f6d91637de5d698f1296bdb3487f98375068179f7e50c6818f8743c17b2bb98",
+  "text_bytes": 4823,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -70,8 +70,8 @@
     },
     {
       "name": "Postgres managed by ClickHouse",
-      "price_raw": "$0.12",
-      "amount": 0.12,
+      "price_raw": "$0.125",
+      "amount": 0.125,
       "currency": "USD",
       "period": "hour",
       "features": []

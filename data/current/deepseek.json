@@ -13,8 +13,8 @@
   "plans": [
     {
       "name": "Models & Pricing",
-      "price_raw": "$0.00",
-      "amount": 0.0,
+      "price_raw": "$0.007",
+      "amount": 0.007,
       "currency": "USD",
       "period": null,
       "features": []

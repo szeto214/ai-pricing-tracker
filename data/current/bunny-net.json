@@ -34,8 +34,8 @@
     },
     {
       "name": "Volume network 10 PoPs",
-      "price_raw": "$0.00",
-      "amount": 0.0,
+      "price_raw": "$0.005",
+      "amount": 0.005,
       "currency": "USD",
       "period": null,
       "features": [

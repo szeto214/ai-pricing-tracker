@@ -6,7 +6,7 @@
   "url": "https://clickup.com/pricing",
   "final_url": "https://clickup.com/pricing",
   "content_hash": "533bed5c2a6209a9e9b7f4f57b962fe1426a7ca56e58939941d1a289cb379b2d",
-  "raw_hash": "e4632c6abffd3967eb77480e26bbe1168aea51354a84e68363c242806385b894",
+  "raw_hash": "fdabe8e3960a8e1acf334fb99f92ad7c5dde471c67c58edde550a261e2ceb16a",
   "text_bytes": 9195,
   "extractor": "dom",
   "confidence": "medium",
@@ -85,8 +85,8 @@
     },
     {
       "name": "AI Super Credits",
-      "price_raw": "$0.00",
-      "amount": 0.0,
+      "price_raw": "$0.001",
+      "amount": 0.001,
       "currency": "USD",
       "period": "credit",
       "features": []

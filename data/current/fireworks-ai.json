@@ -5,9 +5,9 @@
   "category": "ai-api",
   "url": "https://fireworks.ai/pricing",
   "final_url": "https://fireworks.ai/pricing",
-  "content_hash": "47b60649be448071d03dee09914883d879345e62fbb52f85cb3f5b3e77f48e1e",
-  "raw_hash": "0f523f208295ed587291f1aecc87605ebc90d7e25e625c315432b94361094550",
-  "text_bytes": 3543,
+  "content_hash": "ad08cca840d73df244ccb9e05add4735618bdea7c10a0c29bafc22e728d32ab4",
+  "raw_hash": "b76596b6ad6368aba61734f86f2177530b607beb8db2ca3382722f8ff2294f89",
+  "text_bytes": 3563,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -21,8 +21,8 @@
     },
     {
       "name": "Embeddings",
-      "price_raw": "$0.00",
-      "amount": 0.0,
+      "price_raw": "$0.008",
+      "amount": 0.008,
       "currency": "USD",
       "period": null,
       "features": []

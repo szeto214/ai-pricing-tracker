@@ -1145,21 +1145,21 @@ zai-org
 /
 GLM-5.3-Flash
 Featured Models
-black-forest-labs
-/
-FLUX-2-klein-4b
-deepseek-ai
-/
-DeepSeek-V4-Flash
 Qwen
 /
-Qwen3.8-2.4T-A95B
-deepseek-ai
-/
-DeepSeek-V4-Pro-0813
+Qwen3.6-35B-A3B
 moonshotai
 /
-Kimi-K2.7-Code
+Kimi-K2.6
+google
+/
+gemma-4-31B-it
+nvidia
+/
+NVIDIA-Nemotron-3-Super-120B-A12B
+deepseek-ai
+/
+DeepSeek-V4-Pro
 © 2026 DeepInfra. All rights reserved.
 Privacy Policy
 Terms of Service

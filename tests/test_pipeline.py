@@ -608,6 +608,26 @@ def test_model_table_shapes() -> None:
           res2["models"] == [], f"-> {[m['model'] for m in res2['models']]}")
 
 
+def test_target_diagnosis() -> None:
+    """Validator harus memberi tindakan, bukan sekadar angka."""
+    print("\n6c. diagnosis target")
+    sys.path.insert(0, str(ROOT / "scripts"))
+    from check_targets import diagnose
+
+    tipis = {"thin": True, "plans": 0, "tables": 0}
+    check("cangkang kosong pada target static -> sarankan render: js",
+          "coba render: js" in diagnose(tipis, "static"))
+    check("cangkang kosong PADAHAL sudah js -> sarankan tindakan lain",
+          "kandidat nonaktif" in diagnose(tipis, "js"))
+    check("halaman sehat -> tanpa catatan",
+          diagnose({"thin": False, "plans": 4, "tables": 0}, "static") == "")
+    check("hanya tabel -> wajar untuk halaman API",
+          "wajar" in diagnose({"thin": False, "plans": 0, "tables": 3}, "static"))
+    check("satu paket saja -> minta periksa manual",
+          "periksa manual" in
+          diagnose({"thin": False, "plans": 1, "tables": 0}, "static"))
+
+
 def test_one_request_per_page() -> None:
     """Satu halaman = satu permintaan per eksekusi.
 
@@ -913,6 +933,7 @@ def main() -> int:
     test_corrections_log()
     test_model_tables()
     test_model_table_shapes()
+    test_target_diagnosis()
     test_one_request_per_page()
     test_change_classification()
     test_diff()

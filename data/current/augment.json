@@ -5,6 +5,7 @@
   "category": "ai-coding",
   "url": "https://www.augmentcode.com/pricing",
   "final_url": "https://www.augmentcode.com/pricing",
+  "parser_version": 3,
   "content_hash": "b845cc7b6359107a1afcb6fc1535b9146a4210333cfd3a382408afff72e08e22",
   "raw_hash": "26a40b23d98c5259664448227e86db96b5af217a3a2e698452ed8da332cbc263",
   "text_bytes": 7360,
@@ -28,6 +29,7 @@
       "features": []
     }
   ],
+  "models": [],
   "tables": [],
   "extract_errors": []
 }

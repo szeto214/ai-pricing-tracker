@@ -5,8 +5,9 @@
   "category": "ai-coding",
   "url": "https://v0.app/pricing",
   "final_url": "https://v0.app/pricing",
+  "parser_version": 3,
   "content_hash": "7de1b68750c3093e73bfb1fe4a0efe7b8538654d6a539044e75285e24a745e54",
-  "raw_hash": "894e5d926c19201527e86190f987e8b0a082431a8c5d8acdd24378605b317c52",
+  "raw_hash": "fab824cd2e95bfcb32d403e569bb16b0693fadd67b15660e2e11022b12db0a1f",
   "text_bytes": 3883,
   "extractor": "dom",
   "confidence": "medium",
@@ -68,6 +69,7 @@
       "features": []
     }
   ],
+  "models": [],
   "tables": [],
   "extract_errors": []
 }

@@ -5,6 +5,7 @@
   "category": "observability",
   "url": "https://www.datadoghq.com/pricing/",
   "final_url": "https://www.datadoghq.com/pricing/",
+  "parser_version": 3,
   "content_hash": "13d9d366fcde4703f67ff701443908b982ef731598367acdb412746323afcef5",
   "raw_hash": "d9825abc707e42b63223a96c5deaff868027e03f56363fcc1e356267a42941ef",
   "text_bytes": 219643,
@@ -119,6 +120,108 @@
       "currency": null,
       "period": null,
       "features": []
+    }
+  ],
+  "models": [
+    {
+      "key": "> 50k - 100k errors|k4",
+      "model": "> 50k - 100k errors",
+      "prices": {
+        "kolom 2": {
+          "raw": "$ 0.25",
+          "amount": 0.25
+        },
+        "kolom 3": {
+          "raw": "$ 0.30",
+          "amount": 0.3
+        },
+        "kolom 4": {
+          "raw": "$ 0.38",
+          "amount": 0.38
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "> 100k - 500k errors|k4",
+      "model": "> 100k - 500k errors",
+      "prices": {
+        "kolom 2": {
+          "raw": "$ 0.21",
+          "amount": 0.21
+        },
+        "kolom 3": {
+          "raw": "$ 0.25",
+          "amount": 0.25
+        },
+        "kolom 4": {
+          "raw": "$ 0.32",
+          "amount": 0.32
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "> 500k - 10m errors|k4",
+      "model": "> 500k - 10M errors",
+      "prices": {
+        "kolom 2": {
+          "raw": "$ 0.17",
+          "amount": 0.17
+        },
+        "kolom 3": {
+          "raw": "$ 0.20",
+          "amount": 0.2
+        },
+        "kolom 4": {
+          "raw": "$ 0.26",
+          "amount": 0.26
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "> 10m - 20m errors|k4",
+      "model": "> 10M - 20M errors",
+      "prices": {
+        "kolom 2": {
+          "raw": "$ 0.12",
+          "amount": 0.12
+        },
+        "kolom 3": {
+          "raw": "$ 0.14",
+          "amount": 0.14
+        },
+        "kolom 4": {
+          "raw": "$ 0.22",
+          "amount": 0.22
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "> 20m+ errors|k4",
+      "model": "> 20M+ errors",
+      "prices": {
+        "kolom 2": {
+          "raw": "$ 0.10",
+          "amount": 0.1
+        },
+        "kolom 3": {
+          "raw": "$ 0.12",
+          "amount": 0.12
+        },
+        "kolom 4": {
+          "raw": "$ 0.18",
+          "amount": 0.18
+        }
+      },
+      "currency": "USD",
+      "unit": ""
     }
   ],
   "tables": [

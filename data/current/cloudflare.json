@@ -5,8 +5,9 @@
   "category": "dev-infra",
   "url": "https://www.cloudflare.com/plans/",
   "final_url": "https://www.cloudflare.com/plans/",
+  "parser_version": 3,
   "content_hash": "a569d5724342bad633c2db2edb80cb6639705e2f24155ad37e543eba01533645",
-  "raw_hash": "cc19326a9d8cd93141e6d8d8af17e5674940f435d63470429b9e02b13b090bd6",
+  "raw_hash": "a1f10f56094f75ce30ab4f4503deea7930343fb0ddb5a5f6027a361835156a7e",
   "text_bytes": 15658,
   "extractor": "dom",
   "confidence": "medium",
@@ -132,6 +133,7 @@
       "features": []
     }
   ],
+  "models": [],
   "tables": [
     {
       "caption": "",

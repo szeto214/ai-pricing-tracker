@@ -5,8 +5,9 @@
   "category": "ai-media",
   "url": "https://suno.com/pricing",
   "final_url": "https://suno.com/pricing",
+  "parser_version": 3,
   "content_hash": "4a5f487ee47f1c2c5dc0037d54f1b439b855fab16d234c32dcacd22f6330c525",
-  "raw_hash": "f1654a36ece6d2caf6c4bfd91dbe92981c6493539320b2ba51a88caeab14bbbc",
+  "raw_hash": "14549cfcdd59272a9976acae011b5a5f6491b393b499028c0038a4a811bbfb30",
   "text_bytes": 3276,
   "extractor": "dom",
   "confidence": "medium",
@@ -36,6 +37,7 @@
       "features": []
     }
   ],
+  "models": [],
   "tables": [],
   "extract_errors": []
 }

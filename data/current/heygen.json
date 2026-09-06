@@ -5,8 +5,9 @@
   "category": "ai-media",
   "url": "https://www.heygen.com/pricing",
   "final_url": "https://www.heygen.com/pricing",
+  "parser_version": 3,
   "content_hash": "955dde9b028059cc61f82506e718360af9d10b887fecdde3202dbab827e8df02",
-  "raw_hash": "e46cc94226bde1b26631be5df4d811167b1aefc786a4ac4d3021a1c4a0981431",
+  "raw_hash": "653aa5fbc1a65abcc01eb6b673ac87ee82c5e3b6a2fd0ab41ae7ea34c9e20d5a",
   "text_bytes": 12767,
   "extractor": "dom",
   "confidence": "medium",
@@ -116,6 +117,7 @@
       "features": []
     }
   ],
+  "models": [],
   "tables": [
     {
       "caption": "",

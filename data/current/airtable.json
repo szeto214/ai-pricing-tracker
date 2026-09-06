@@ -5,8 +5,9 @@
   "category": "productivity",
   "url": "https://www.airtable.com/pricing",
   "final_url": "https://airtable.com/pricing",
+  "parser_version": 3,
   "content_hash": "2c7c2d3bac3da98635043534271b68bb0f4c3a1c78638a33c8c93455e566e718",
-  "raw_hash": "f1e020731fc64ff0eba86757066f563cc3042bd8fe42e1fb940deefd111c44f6",
+  "raw_hash": "5f9fdbbf90d46c77bd3cfb47981bc3c53ca3d2635f247b52e67e07303d476b3d",
   "text_bytes": 11570,
   "extractor": "dom",
   "confidence": "medium",
@@ -52,6 +53,7 @@
       "features": []
     }
   ],
+  "models": [],
   "tables": [],
   "extract_errors": []
 }

@@ -5,6 +5,7 @@
   "category": "database",
   "url": "https://www.timescale.com/pricing",
   "final_url": "https://www.tigerdata.com/pricing",
+  "parser_version": 3,
   "content_hash": "66852153c2f07bea2d0274e788ee28bddb77e853c4536a1a4165e7b8f7085999",
   "raw_hash": "140af1b9c8be290226de21a2dda4e6c46b45633456cbc4b5421ea0702f2370e2",
   "text_bytes": 11487,
@@ -54,6 +55,7 @@
       ]
     }
   ],
+  "models": [],
   "tables": [],
   "extract_errors": []
 }

@@ -5,6 +5,7 @@
   "category": "ai-coding",
   "url": "https://graphite.dev/pricing",
   "final_url": "https://graphite.com/pricing",
+  "parser_version": 3,
   "content_hash": "f7bb37cee988dc2276ed819a0f646d50298ceb0bce1d791b96887e3f6959af04",
   "raw_hash": "7825288f1cf0c39e7615e424b6d189fbe165eafdbc43e7050227fb504d878fd9",
   "text_bytes": 3499,
@@ -28,6 +29,7 @@
       ]
     }
   ],
+  "models": [],
   "tables": [],
   "extract_errors": []
 }

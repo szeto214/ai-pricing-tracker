@@ -5,6 +5,7 @@
   "category": "gpu-rental",
   "url": "https://www.paperspace.com/pricing",
   "final_url": "https://www.paperspace.com/pricing",
+  "parser_version": 3,
   "content_hash": "a1da48736d0011d4a1880832aa8e080c635859c57c346681dec62b4e6d5c7ed1",
   "raw_hash": "f55fdd9f941c8f338cfb08a1f27f4c7567e2667f86112d3dbeed45da66d9f3fe",
   "text_bytes": 13531,
@@ -161,6 +162,7 @@
       ]
     }
   ],
+  "models": [],
   "tables": [],
   "extract_errors": []
 }

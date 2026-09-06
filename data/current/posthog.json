@@ -5,8 +5,9 @@
   "category": "observability",
   "url": "https://posthog.com/pricing",
   "final_url": "https://posthog.com/pricing",
+  "parser_version": 3,
   "content_hash": "358e88788551c3af6a0f66bf01f635085331745ebb7a3cb9dc36311530bfc504",
-  "raw_hash": "f465d3a130eb2eeedf90b92313d0db5ebe33514dee81f856cc869cb9cc5bb555",
+  "raw_hash": "5de19a8b2fe89d62d2842b8a01f2627963ca37b7c11a9a2bacc1b67d2ff9dfdc",
   "text_bytes": 5462,
   "extractor": "dom",
   "confidence": "medium",
@@ -59,6 +60,7 @@
       ]
     }
   ],
+  "models": [],
   "tables": [],
   "extract_errors": []
 }

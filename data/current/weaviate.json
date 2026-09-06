@@ -5,6 +5,7 @@
   "category": "database",
   "url": "https://weaviate.io/pricing",
   "final_url": "https://weaviate.io/pricing",
+  "parser_version": 3,
   "content_hash": "19b4427c14836a0de6a7a20c3ebeef5498963461da7c9e219c7e375e716bdf18",
   "raw_hash": "1c399306c9b5185e251a0d2e52d1521ede88a71cd17dcf9f3a5ec8856a9f2095",
   "text_bytes": 6948,
@@ -97,6 +98,7 @@
       "features": []
     }
   ],
+  "models": [],
   "tables": [
     {
       "caption": "",

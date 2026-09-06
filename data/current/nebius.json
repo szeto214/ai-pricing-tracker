@@ -5,6 +5,7 @@
   "category": "ai-api",
   "url": "https://nebius.com/prices",
   "final_url": "https://nebius.com/prices",
+  "parser_version": 3,
   "content_hash": "614183e5082abb893eeab81e27a518d72c3e5e08b408a2da1296c359166b5367",
   "raw_hash": "71b6e77c0a9c35cc28f842440da72cb96a4b1efd6b34b73f3e4d17a8f25f1ba3",
   "text_bytes": 4792,
@@ -52,6 +53,7 @@
       "features": []
     }
   ],
+  "models": [],
   "tables": [],
   "extract_errors": []
 }

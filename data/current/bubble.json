@@ -5,8 +5,9 @@
   "category": "automation",
   "url": "https://bubble.io/pricing",
   "final_url": "https://bubble.io/pricing",
+  "parser_version": 3,
   "content_hash": "4463151b0d630230226f6aec1efebe008b76318383a4dc45e80602f0f23437a5",
-  "raw_hash": "34d445d5b898dcc72cf58f1bf8ed59dec396c8790fccf9448c790ad6cbe3f323",
+  "raw_hash": "6a865509292e6d401ef4160e8bce4584713e7908777d26f31d5ffff50a2adb06",
   "text_bytes": 7272,
   "extractor": "dom",
   "confidence": "low",
@@ -20,6 +21,7 @@
       "features": []
     }
   ],
+  "models": [],
   "tables": [],
   "extract_errors": []
 }

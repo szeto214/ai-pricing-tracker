@@ -5,8 +5,9 @@
   "category": "productivity",
   "url": "https://www.shopify.com/pricing",
   "final_url": "https://www.shopify.com/pricing",
+  "parser_version": 3,
   "content_hash": "ab892e27ace283c3adf7f3957ca909bd96b02ebe21deefc3f1fab155f1756664",
-  "raw_hash": "9bae88d8fc7b78b0eac4a707db979526bfdcadbb41d7c61d2a58993661b22eb6",
+  "raw_hash": "8e5da0122ac79390d9abdcc6d55fef710f4541b64d51f69c2e2a61c3664317d3",
   "text_bytes": 15227,
   "extractor": "dom",
   "confidence": "medium",
@@ -104,6 +105,7 @@
       "features": []
     }
   ],
+  "models": [],
   "tables": [
     {
       "caption": "Compare features across Shopify plans",

@@ -5,8 +5,9 @@
   "category": "observability",
   "url": "https://grafana.com/pricing/",
   "final_url": "https://grafana.com/pricing/",
+  "parser_version": 3,
   "content_hash": "2110fbc67796ed7df92bc1915c1e8bc8185a22fd130f92f533d19a59235dc3c8",
-  "raw_hash": "e3fb28a22e64c8bd11dbb9b63fc0ead076d317a86e0bca019cce7c28260d2ad3",
+  "raw_hash": "ac55997a4bea3921e8fb8997854f54f181870426340b3ec5e9a0432f179b6bae",
   "text_bytes": 38272,
   "extractor": "dom",
   "confidence": "medium",
@@ -182,6 +183,7 @@
       ]
     }
   ],
+  "models": [],
   "tables": [],
   "extract_errors": []
 }

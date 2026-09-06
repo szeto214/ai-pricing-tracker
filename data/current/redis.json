@@ -5,9 +5,10 @@
   "category": "database",
   "url": "https://redis.io/pricing/",
   "final_url": "https://redis.io/pricing/",
-  "content_hash": "940ba25b68915fe3e2ea535309e1303b3b6e9f714022452b1d4d2d37fbc0d911",
-  "raw_hash": "9fb5dd3c58baaf734464de7ada6fdcc01404590b3fac3b7633e4c715b60b0b50",
-  "text_bytes": 4263,
+  "parser_version": 3,
+  "content_hash": "aebaff65ff3ea4b6e4b6522eef932edeb11f1168b604b9023abb0231c6026d2a",
+  "raw_hash": "1a58a06bc051e529bf8b7e7a8cf5e28ba65c719e7c0401de8a05c7ae2bdfddd2",
+  "text_bytes": 4379,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -36,6 +37,7 @@
       "features": []
     }
   ],
+  "models": [],
   "tables": [
     {
       "caption": "",

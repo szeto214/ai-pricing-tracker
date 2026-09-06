@@ -5,6 +5,7 @@
   "category": "productivity",
   "url": "https://webflow.com/pricing",
   "final_url": "https://webflow.com/pricing",
+  "parser_version": 3,
   "content_hash": "664aa252c4fcf24cdd0edd862c0d793f7ebc02dcdc62b73ebdd2bf0280cd57f0",
   "raw_hash": "e4ac6cc1cf8b16a39efab5e98b4eba0140e0439927575ac8fda24f427ad1b887",
   "text_bytes": 56308,
@@ -76,6 +77,7 @@
       "features": []
     }
   ],
+  "models": [],
   "tables": [],
   "extract_errors": []
 }

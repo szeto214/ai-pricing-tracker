@@ -5,8 +5,9 @@
   "category": "observability",
   "url": "https://sentry.io/pricing/",
   "final_url": "https://sentry.io/pricing/",
+  "parser_version": 3,
   "content_hash": "ab1ced85804b828b9e9fd4601b802ac760429b3d2d39f26eb9939f55e24d41ac",
-  "raw_hash": "167ca3af1f3ebcff6a379ec1536b1fcc3270aab17a1dbaea61ca0abf82bd3d97",
+  "raw_hash": "f0654920e7dd156ff7848e8cbbd31be075968549752eab5b1284b5add1138600",
   "text_bytes": 5754,
   "extractor": "dom",
   "confidence": "medium",
@@ -117,6 +118,68 @@
       "currency": "USD",
       "period": "month",
       "features": []
+    }
+  ],
+  "models": [
+    {
+      "key": "50k – 100k|k2",
+      "model": "50K – 100K",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.000362",
+          "amount": 0.000362
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "100k – 500k|k2",
+      "model": "100K – 500K",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.000218",
+          "amount": 0.000218
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "500k – 10m|k2",
+      "model": "500K – 10M",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.000187",
+          "amount": 0.000187
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "10m – 20m|k2",
+      "model": "10M – 20M",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.000162",
+          "amount": 0.000162
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "20m+|k2",
+      "model": "20M+",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.000150",
+          "amount": 0.00015
+        }
+      },
+      "currency": "USD",
+      "unit": ""
     }
   ],
   "tables": [

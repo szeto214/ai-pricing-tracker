@@ -5,8 +5,9 @@
   "category": "ai-media",
   "url": "https://lumalabs.ai/api/pricing",
   "final_url": "https://lumalabs.ai/api",
+  "parser_version": 3,
   "content_hash": "f2525475fd58a6f448743190c46257619f42964e3fb03752e4aec6f121f97d42",
-  "raw_hash": "853ce155421760d824806610e3d58f345ed981a53fe1b32deb6bb094460647bc",
+  "raw_hash": "8ff3418a97ce735807a04a3e1b93f3b36d2264a6764abd919e56940633d8af36",
   "text_bytes": 4035,
   "extractor": "dom",
   "confidence": "low",
@@ -26,6 +27,7 @@
       ]
     }
   ],
+  "models": [],
   "tables": [],
   "extract_errors": []
 }

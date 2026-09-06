@@ -97,7 +97,7 @@ H100 SXM
 20
 vCPUs
 $
-3.29
+3.49
 /hr
 80 GB VRAM
 125 GB RAM
@@ -110,7 +110,7 @@ A100 PCIe
 8
 vCPUs
 $
-1.39
+1.59
 /hr
 80 GB VRAM
 117 GB RAM
@@ -150,7 +150,7 @@ L40S
 16
 vCPUs
 $
-0.99
+1.09
 /hr
 48 GB VRAM
 94 GB RAM
@@ -176,7 +176,7 @@ A40
 9
 vCPUs
 $
-0.44
+0.49
 /hr
 48 GB VRAM
 50 GB RAM

@@ -5,6 +5,7 @@
   "category": "ai-api",
   "url": "https://www.together.ai/pricing",
   "final_url": "https://www.together.ai/pricing",
+  "parser_version": 3,
   "content_hash": "65072376cf11d4daa0bb142ec06ca11bb85a43649d793a251680f93f8fcc5c93",
   "raw_hash": "6984d26b9de3350bbdfb32533286dbe8efbb5ee181e1efa1edaae01688b3b398",
   "text_bytes": 8045,
@@ -114,6 +115,68 @@
       "currency": "USD",
       "period": null,
       "features": []
+    }
+  ],
+  "models": [
+    {
+      "key": "nvidia nemotron 3 asr streaming 0.6b|k2",
+      "model": "NVIDIA Nemotron 3 ASR Streaming 0.6B",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.0015",
+          "amount": 0.0015
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "nvidia parakeet tdt 0.6b v3|k2",
+      "model": "NVIDIA Parakeet TDT 0.6B v3",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.0015",
+          "amount": 0.0015
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "nvidia nemotron 3.5 asr|k2",
+      "model": "NVIDIA Nemotron 3.5 ASR",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.0045",
+          "amount": 0.0045
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "whisper large v3|k2",
+      "model": "Whisper Large v3",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.0015",
+          "amount": 0.0015
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "whisper large v3 (streaming)|k2",
+      "model": "Whisper Large v3 (Streaming)",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.0035",
+          "amount": 0.0035
+        }
+      },
+      "currency": "USD",
+      "unit": ""
     }
   ],
   "tables": [

@@ -5,8 +5,9 @@
   "category": "automation",
   "url": "https://trigger.dev/pricing",
   "final_url": "https://trigger.dev/pricing",
+  "parser_version": 3,
   "content_hash": "4cdcb2bd27b6f65dff6fa7e65f78283a860e92eabe8be906ff95bb22a1201255",
-  "raw_hash": "50c6ff307de69b0ffb2f61e77f9bb72eb8222403e0c22fe35c366226bc6b4afe",
+  "raw_hash": "9d9ee8ae5caf73533a5aef367006014c059808969a1fc0cf36861921025b002f",
   "text_bytes": 7297,
   "extractor": "jsonld",
   "confidence": "medium",
@@ -34,6 +35,92 @@
       "currency": "USD",
       "period": null,
       "features": []
+    }
+  ],
+  "models": [
+    {
+      "key": "micro|k4",
+      "model": "Micro",
+      "prices": {
+        "kolom 4": {
+          "raw": "$0.000016",
+          "amount": 1.6e-05
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "small 1x default|k4",
+      "model": "Small 1x Default",
+      "prices": {
+        "kolom 4": {
+          "raw": "$0.000033",
+          "amount": 3.3e-05
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "small 2x|k4",
+      "model": "Small 2x",
+      "prices": {
+        "kolom 4": {
+          "raw": "$0.000067",
+          "amount": 6.7e-05
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "medium 1x|k4",
+      "model": "Medium 1x",
+      "prices": {
+        "kolom 4": {
+          "raw": "$0.000085",
+          "amount": 8.5e-05
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "medium 2x|k4",
+      "model": "Medium 2x",
+      "prices": {
+        "kolom 4": {
+          "raw": "$0.000170",
+          "amount": 0.00017
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "large 1x|k4",
+      "model": "Large 1x",
+      "prices": {
+        "kolom 4": {
+          "raw": "$0.000340",
+          "amount": 0.00034
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "large 2x|k4",
+      "model": "Large 2x",
+      "prices": {
+        "kolom 4": {
+          "raw": "$0.000680",
+          "amount": 0.00068
+        }
+      },
+      "currency": "USD",
+      "unit": ""
     }
   ],
   "tables": [

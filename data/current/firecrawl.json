@@ -5,8 +5,9 @@
   "category": "ai-api",
   "url": "https://www.firecrawl.dev/pricing",
   "final_url": "https://www.firecrawl.dev/pricing",
+  "parser_version": 3,
   "content_hash": "6382dc249fecb8d01e45779aff7e6f9aa03a64dca3f22be8cac315fd7d23ec34",
-  "raw_hash": "c485d6e164f74758d0e5ee384556bcd04007c9d9e074f2b6b119f7782d09e014",
+  "raw_hash": "b49a9c6503a2bb6f723c75cbdc8a6f011f015b3c0d4be3f683263e9c6ffbf770",
   "text_bytes": 13215,
   "extractor": "dom",
   "confidence": "medium",
@@ -84,6 +85,7 @@
       "features": []
     }
   ],
+  "models": [],
   "tables": [
     {
       "caption": "Limits and Performance , compared across every Firecrawl plan",

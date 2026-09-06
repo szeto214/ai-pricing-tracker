@@ -5,12 +5,14 @@
   "category": "productivity",
   "url": "https://www.loom.com/pricing",
   "final_url": "https://www.loom.com/pricing",
+  "parser_version": 3,
   "content_hash": "a43fe63d4820d4e376a0105ff8d204b3ade5c9e85fe1708d3800d9a539fb80fc",
-  "raw_hash": "49dc19c77eb92f11d38b37dede64ff3c1fb0469c594b4e41f9a176313ce30316",
+  "raw_hash": "bc9fb2d15ea29ceeb41beeaf9ac2d76e3152fcd20daa844899006bfbabbe7ba8",
   "text_bytes": 16,
   "extractor": "none",
   "confidence": "none",
   "plans": [],
+  "models": [],
   "tables": [],
   "extract_errors": []
 }

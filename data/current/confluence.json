@@ -5,8 +5,9 @@
   "category": "productivity",
   "url": "https://www.atlassian.com/software/confluence/pricing",
   "final_url": "https://www.atlassian.com/software/confluence/pricing",
+  "parser_version": 3,
   "content_hash": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
-  "raw_hash": "4c6d9958df28f65b8c3905e8c8b6285cecab2081ce0617fb5ae67609c3ec4f17",
+  "raw_hash": "911f2d5b480a2b9960b39174f1a810a66f4fa439ab7704e23d823890b86aa35a",
   "text_bytes": 1,
   "extractor": "jsonld",
   "confidence": "low",
@@ -20,6 +21,7 @@
       "features": []
     }
   ],
+  "models": [],
   "tables": [],
   "extract_errors": []
 }

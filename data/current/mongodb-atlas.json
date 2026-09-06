@@ -5,8 +5,9 @@
   "category": "database",
   "url": "https://www.mongodb.com/pricing",
   "final_url": "https://www.mongodb.com/pricing",
+  "parser_version": 3,
   "content_hash": "efb1531caad4954ecd67ac890cecf1132d2aeb16de3c3443c0d0961c666870d5",
-  "raw_hash": "a2cd5e9c9434ac89a7a3e7efabadda6207e635eb9b529d38307e95035feafb14",
+  "raw_hash": "4953fd0d0c365809f5b29af72589b87a7dfb30c16e81053bef894fdc9bd0a306",
   "text_bytes": 22086,
   "extractor": "jsonld",
   "confidence": "medium",
@@ -26,6 +27,88 @@
       "currency": "USD",
       "period": null,
       "features": []
+    }
+  ],
+  "models": [
+    {
+      "key": "0 - 100 (base)|k3",
+      "model": "0 - 100 (Base)",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.0110",
+          "amount": 0.011
+        },
+        "kolom 3": {
+          "raw": "$8.00",
+          "amount": 8.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "100 - 200|k3",
+      "model": "100 - 200",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.0205",
+          "amount": 0.0205
+        },
+        "kolom 3": {
+          "raw": "$15.00",
+          "amount": 15.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "200 - 300|k3",
+      "model": "200 - 300",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.0288",
+          "amount": 0.0288
+        },
+        "kolom 3": {
+          "raw": "$21.00",
+          "amount": 21.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "300 - 400|k3",
+      "model": "300 - 400",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.0356",
+          "amount": 0.0356
+        },
+        "kolom 3": {
+          "raw": "$26.00",
+          "amount": 26.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "400 - 500|k3",
+      "model": "400 - 500",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.0411",
+          "amount": 0.0411
+        },
+        "kolom 3": {
+          "raw": "$30.00",
+          "amount": 30.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
     }
   ],
   "tables": [

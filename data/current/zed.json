@@ -5,6 +5,7 @@
   "category": "ai-coding",
   "url": "https://zed.dev/pricing",
   "final_url": "https://zed.dev/pricing",
+  "parser_version": 3,
   "content_hash": "950ceb9a191f35b8acfe699c9acf3ef40a71bd1ab55386fbf9bd55522a82c40f",
   "raw_hash": "2d29e92b2cc7e8c4ab363a0a82187cce575960c060233bab2af869005452130c",
   "text_bytes": 5101,
@@ -36,6 +37,7 @@
       "features": []
     }
   ],
+  "models": [],
   "tables": [],
   "extract_errors": []
 }

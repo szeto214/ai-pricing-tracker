@@ -5,8 +5,9 @@
   "category": "productivity",
   "url": "https://linear.app/pricing",
   "final_url": "https://linear.app/pricing",
+  "parser_version": 3,
   "content_hash": "55d000717672e03b6e5680c30bca5ab22b1194eb9fde43366f05c20656d8c73a",
-  "raw_hash": "ade88ce59c75a2d291b1cc2982158b10455038b86a5ca78edc39ebc1d74eb39e",
+  "raw_hash": "9dbd8e5c7d0a7a4ad72122f0009c45bb9d5b44f98fc7e53b243e48da3a9abb04",
   "text_bytes": 2359,
   "extractor": "dom",
   "confidence": "medium",
@@ -50,6 +51,7 @@
       "features": []
     }
   ],
+  "models": [],
   "tables": [],
   "extract_errors": []
 }

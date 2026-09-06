@@ -5,6 +5,7 @@
   "category": "productivity",
   "url": "https://miro.com/pricing/",
   "final_url": "https://miro.com/pricing/",
+  "parser_version": 3,
   "content_hash": "13ac8cedb72aa886d59049b1e5bba49d23886b0f83b26c012c45342b6352d44d",
   "raw_hash": "8f0981659202f510e2029caf9378a75ad37010421286c4f95148b8f9c65a3845",
   "text_bytes": 23913,
@@ -28,6 +29,7 @@
       "features": []
     }
   ],
+  "models": [],
   "tables": [],
   "extract_errors": []
 }

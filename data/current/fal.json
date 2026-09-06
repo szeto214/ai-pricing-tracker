@@ -5,8 +5,9 @@
   "category": "ai-api",
   "url": "https://fal.ai/pricing",
   "final_url": "https://fal.ai/pricing",
+  "parser_version": 3,
   "content_hash": "39ad62dec05d759fc5058abdace78e1ee3df3c24191e08777b891cd6059cdd4e",
-  "raw_hash": "975eddc8121b1a713b5d3e27e7b056ab5083aafd6f4c2bef3b2d4188e68bf915",
+  "raw_hash": "9a04dbeff9f0f2f75e0a40c30cac831cd5c0d7005233f6a87379244da117de51",
   "text_bytes": 2079,
   "extractor": "dom",
   "confidence": "medium",
@@ -42,6 +43,184 @@
       "currency": "USD",
       "period": null,
       "features": []
+    }
+  ],
+  "models": [
+    {
+      "key": "b300",
+      "model": "B300",
+      "prices": {
+        "list price": {
+          "raw": "$8.50",
+          "amount": 8.5
+        },
+        "as low as": {
+          "raw": "$4.49",
+          "amount": 4.49
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "b200",
+      "model": "B200",
+      "prices": {
+        "list price": {
+          "raw": "$6.25",
+          "amount": 6.25
+        },
+        "as low as": {
+          "raw": "$3.49",
+          "amount": 3.49
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "h200",
+      "model": "H200",
+      "prices": {
+        "list price": {
+          "raw": "$4.50",
+          "amount": 4.5
+        },
+        "as low as": {
+          "raw": "$2.10",
+          "amount": 2.1
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "h100",
+      "model": "H100",
+      "prices": {
+        "list price": {
+          "raw": "$4.50",
+          "amount": 4.5
+        },
+        "as low as": {
+          "raw": "$1.89",
+          "amount": 1.89
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "rtx pro 6000",
+      "model": "RTX PRO 6000",
+      "prices": {
+        "list price": {
+          "raw": "$2.99",
+          "amount": 2.99
+        },
+        "as low as": {
+          "raw": "$1.10",
+          "amount": 1.1
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "wan 2.5",
+      "model": "Wan 2.5",
+      "prices": {
+        "price": {
+          "raw": "$ 0.05",
+          "amount": 0.05
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "kling 2.5 turbo pro",
+      "model": "Kling 2.5 Turbo Pro",
+      "prices": {
+        "price": {
+          "raw": "$ 0.07",
+          "amount": 0.07
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "veo 3",
+      "model": "Veo 3",
+      "prices": {
+        "price": {
+          "raw": "$ 0.4",
+          "amount": 0.4
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "ovi",
+      "model": "Ovi",
+      "prices": {
+        "price": {
+          "raw": "$ 0.2",
+          "amount": 0.2
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "seedream v4",
+      "model": "Seedream V4",
+      "prices": {
+        "price": {
+          "raw": "$ 0.03",
+          "amount": 0.03
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "flux kontext pro",
+      "model": "Flux Kontext Pro",
+      "prices": {
+        "price": {
+          "raw": "$ 0.04",
+          "amount": 0.04
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "nanobanana",
+      "model": "Nanobanana",
+      "prices": {
+        "price": {
+          "raw": "$ 0.0398",
+          "amount": 0.0398
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "qwen",
+      "model": "Qwen",
+      "prices": {
+        "price": {
+          "raw": "$ 0.02",
+          "amount": 0.02
+        }
+      },
+      "currency": "USD",
+      "unit": ""
     }
   ],
   "tables": [

@@ -5,8 +5,9 @@
   "category": "automation",
   "url": "https://www.windmill.dev/pricing",
   "final_url": "https://www.windmill.dev/pricing",
+  "parser_version": 3,
   "content_hash": "ff5d6e2ae80535085dc995f491bc67768cecef92b33f87f5f66642829d19bb03",
-  "raw_hash": "d623267a32d6dec84fca9a64628ebbff22784eb4b9049b0ebec7d0beecd5c466",
+  "raw_hash": "4926720e805302c6b9e43c598ed1d0e0ba9ff15f3849b0f2b1c8c3c40a6b6c1f",
   "text_bytes": 15654,
   "extractor": "dom",
   "confidence": "medium",
@@ -28,6 +29,7 @@
       "features": []
     }
   ],
+  "models": [],
   "tables": [
     {
       "caption": "",

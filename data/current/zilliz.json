@@ -5,8 +5,9 @@
   "category": "database",
   "url": "https://zilliz.com/pricing",
   "final_url": "https://zilliz.com/pricing",
+  "parser_version": 3,
   "content_hash": "ea1d0abf6fbf29287f45a112ca178a43d807b93fa7399e93b263b2282777445b",
-  "raw_hash": "ed313616cbf60b26c4bdf25af64692de8312a5c9e3b26b5a8ebbc123f2052372",
+  "raw_hash": "33e1be2df8114fcb153101fc0606684ab16bcacb95e556f955154be05a91268c",
   "text_bytes": 11116,
   "extractor": "dom",
   "confidence": "medium",
@@ -96,6 +97,7 @@
       ]
     }
   ],
+  "models": [],
   "tables": [
     {
       "caption": "",

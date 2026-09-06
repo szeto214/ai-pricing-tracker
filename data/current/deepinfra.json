@@ -5,9 +5,10 @@
   "category": "ai-api",
   "url": "https://deepinfra.com/pricing",
   "final_url": "https://deepinfra.com/pricing",
-  "content_hash": "469ba9205a0496ea9c6c0832671980b42938b64467c870e7cd5d68ac1c343ef8",
-  "raw_hash": "5cb996ce5d85e4cb9fe7cb176d83ffbd15adc95bef1e80db7faac41eafac5121",
-  "text_bytes": 16868,
+  "parser_version": 3,
+  "content_hash": "3dc47e166756f99436a9041ad730765bf5af34c0d3b9739557c3479d1c15d35e",
+  "raw_hash": "6416b0b22d276902686e3664817277cded9cecac7a7603ea1b19c11af06645cf",
+  "text_bytes": 16858,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -90,6 +91,552 @@
       "currency": "USD",
       "period": null,
       "features": []
+    }
+  ],
+  "models": [
+    {
+      "key": "deepseek-v4-flash-0731",
+      "model": "DeepSeek-V4-Flash-0731",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$0.08",
+          "amount": 0.08
+        },
+        "$ per 1m output tokens": {
+          "raw": "$0.18",
+          "amount": 0.18
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "deepseek-v4-pro",
+      "model": "DeepSeek-V4-Pro",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$1.30",
+          "amount": 1.3
+        },
+        "$ per 1m output tokens": {
+          "raw": "$2.60",
+          "amount": 2.6
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "deepseek-v4-flash",
+      "model": "DeepSeek-V4-Flash",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$0.09",
+          "amount": 0.09
+        },
+        "$ per 1m output tokens": {
+          "raw": "$0.18",
+          "amount": 0.18
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "deepseek-v3.2",
+      "model": "DeepSeek-V3.2",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$0.26",
+          "amount": 0.26
+        },
+        "$ per 1m output tokens": {
+          "raw": "$0.38",
+          "amount": 0.38
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "deepseek-v3.1",
+      "model": "DeepSeek-V3.1",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$0.25",
+          "amount": 0.25
+        },
+        "$ per 1m output tokens": {
+          "raw": "$0.95",
+          "amount": 0.95
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "deepseek-v3-0324",
+      "model": "DeepSeek-V3-0324",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$0.24",
+          "amount": 0.24
+        },
+        "$ per 1m output tokens": {
+          "raw": "$0.90",
+          "amount": 0.9
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "deepseek-v3",
+      "model": "DeepSeek-V3",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$0.32",
+          "amount": 0.32
+        },
+        "$ per 1m output tokens": {
+          "raw": "$0.89",
+          "amount": 0.89
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "deepseek-r1-0528",
+      "model": "DeepSeek-R1-0528",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$0.50",
+          "amount": 0.5
+        },
+        "$ per 1m output tokens": {
+          "raw": "$2.15",
+          "amount": 2.15
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "kimi-k3",
+      "model": "Kimi-K3",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$2.85",
+          "amount": 2.85
+        },
+        "$ per 1m output tokens": {
+          "raw": "$14.25",
+          "amount": 14.25
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "kimi-k2.7-code",
+      "model": "Kimi-K2.7-Code",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$0.68",
+          "amount": 0.68
+        },
+        "$ per 1m output tokens": {
+          "raw": "$3.40",
+          "amount": 3.4
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "kimi-k2.6",
+      "model": "Kimi-K2.6",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$0.75",
+          "amount": 0.75
+        },
+        "$ per 1m output tokens": {
+          "raw": "$3.50",
+          "amount": 3.5
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "qwen3.6-27b",
+      "model": "Qwen3.6-27B",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$0.32",
+          "amount": 0.32
+        },
+        "$ per 1m output tokens": {
+          "raw": "$3.20",
+          "amount": 3.2
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "qwen3.6-35b-a3b",
+      "model": "Qwen3.6-35B-A3B",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$0.10",
+          "amount": 0.1
+        },
+        "$ per 1m output tokens": {
+          "raw": "$0.95",
+          "amount": 0.95
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "qwen3.5-397b-a17b",
+      "model": "Qwen3.5-397B-A17B",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$0.45",
+          "amount": 0.45
+        },
+        "$ per 1m output tokens": {
+          "raw": "$3.00",
+          "amount": 3.0
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "qwen3.5-122b-a10b",
+      "model": "Qwen3.5-122B-A10B",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$0.29",
+          "amount": 0.29
+        },
+        "$ per 1m output tokens": {
+          "raw": "$2.40",
+          "amount": 2.4
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "qwen3.5-35b-a3b",
+      "model": "Qwen3.5-35B-A3B",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$0.14",
+          "amount": 0.14
+        },
+        "$ per 1m output tokens": {
+          "raw": "$1.00",
+          "amount": 1.0
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "qwen3.5-27b",
+      "model": "Qwen3.5-27B",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$0.26",
+          "amount": 0.26
+        },
+        "$ per 1m output tokens": {
+          "raw": "$2.60",
+          "amount": 2.6
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "qwen3.5-9b",
+      "model": "Qwen3.5-9B",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$0.10",
+          "amount": 0.1
+        },
+        "$ per 1m output tokens": {
+          "raw": "$0.15",
+          "amount": 0.15
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "qwen3.8-max",
+      "model": "Qwen3.8-Max",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$1.65",
+          "amount": 1.65
+        },
+        "$ per 1m output tokens": {
+          "raw": "$4.951",
+          "amount": 4.951
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "qwen3.7-max",
+      "model": "Qwen3.7-Max",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$2.50",
+          "amount": 2.5
+        },
+        "$ per 1m output tokens": {
+          "raw": "$7.50",
+          "amount": 7.5
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "qwen3-vl-30b-a3b-instruct",
+      "model": "Qwen3-VL-30B-A3B-Instruct",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$0.15",
+          "amount": 0.15
+        },
+        "$ per 1m output tokens": {
+          "raw": "$0.60",
+          "amount": 0.6
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "qwen3-vl-235b-a22b-instruct",
+      "model": "Qwen3-VL-235B-A22B-Instruct",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$0.20",
+          "amount": 0.2
+        },
+        "$ per 1m output tokens": {
+          "raw": "$0.88",
+          "amount": 0.88
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "qwen3-max-thinking",
+      "model": "Qwen3-Max-Thinking",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$1.20",
+          "amount": 1.2
+        },
+        "$ per 1m output tokens": {
+          "raw": "$6.00",
+          "amount": 6.0
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "qwen3-max",
+      "model": "Qwen3-Max",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$1.20",
+          "amount": 1.2
+        },
+        "$ per 1m output tokens": {
+          "raw": "$6.00",
+          "amount": 6.0
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "qwen3-next-80b-a3b-instruct",
+      "model": "Qwen3-Next-80B-A3B-Instruct",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$0.09",
+          "amount": 0.09
+        },
+        "$ per 1m output tokens": {
+          "raw": "$1.10",
+          "amount": 1.1
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "qwen3-coder-480b-a35b-instruct-turbo",
+      "model": "Qwen3-Coder-480B-A35B-Instruct-Turbo",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$0.30",
+          "amount": 0.3
+        },
+        "$ per 1m output tokens": {
+          "raw": "$1.00",
+          "amount": 1.0
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "qwen3-235b-a22b-instruct-2507",
+      "model": "Qwen3-235B-A22B-Instruct-2507",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$0.09",
+          "amount": 0.09
+        },
+        "$ per 1m output tokens": {
+          "raw": "$0.55",
+          "amount": 0.55
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "qwen3-32b",
+      "model": "Qwen3-32B",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$0.08",
+          "amount": 0.08
+        },
+        "$ per 1m output tokens": {
+          "raw": "$0.28",
+          "amount": 0.28
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "qwen3-30b-a3b",
+      "model": "Qwen3-30B-A3B",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$0.12",
+          "amount": 0.12
+        },
+        "$ per 1m output tokens": {
+          "raw": "$0.50",
+          "amount": 0.5
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "qwen3-14b",
+      "model": "Qwen3-14B",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$0.12",
+          "amount": 0.12
+        },
+        "$ per 1m output tokens": {
+          "raw": "$0.24",
+          "amount": 0.24
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "qwen2.5-72b-instruct",
+      "model": "Qwen2.5-72B-Instruct",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$0.36",
+          "amount": 0.36
+        },
+        "$ per 1m output tokens": {
+          "raw": "$0.40",
+          "amount": 0.4
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "llama-4-scout-17b-16e",
+      "model": "Llama-4-Scout-17B-16E",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$0.10",
+          "amount": 0.1
+        },
+        "$ per 1m output tokens": {
+          "raw": "$0.30",
+          "amount": 0.3
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "llama-4-maverick-17b-128e",
+      "model": "Llama-4-Maverick-17B-128E",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$0.20",
+          "amount": 0.2
+        },
+        "$ per 1m output tokens": {
+          "raw": "$0.80",
+          "amount": 0.8
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "llama-guard-4-12b",
+      "model": "Llama-Guard-4-12B",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$0.18",
+          "amount": 0.18
+        },
+        "$ per 1m output tokens": {
+          "raw": "$0.18",
+          "amount": 0.18
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
     }
   ],
   "tables": [

@@ -5,8 +5,9 @@
   "category": "dev-infra",
   "url": "https://www.heroku.com/pricing",
   "final_url": "https://www.heroku.com/pricing/",
+  "parser_version": 3,
   "content_hash": "d26b7f01395043a11ea57b5ee52c16b768e296104163dbe32eb0dcc6a54ea87b",
-  "raw_hash": "bc91db6f165df8eb7814f149ef5b8c2656bf5b39268019a991c0f49e5004e8a1",
+  "raw_hash": "f7d83edc3d6a706005184de3bd85dfb4980254d9c9393b993e9db0a983ef5b27",
   "text_bytes": 51852,
   "extractor": "dom",
   "confidence": "medium",
@@ -339,6 +340,7 @@
       ]
     }
   ],
+  "models": [],
   "tables": [
     {
       "caption": "",

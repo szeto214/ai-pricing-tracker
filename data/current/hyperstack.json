@@ -5,6 +5,7 @@
   "category": "gpu-rental",
   "url": "https://www.hyperstack.cloud/gpu-pricing",
   "final_url": "https://www.hyperstack.cloud/gpu-pricing",
+  "parser_version": 3,
   "content_hash": "cbc8c82dc691be2148212c190078430dcfe1a5cb7665d55d25222b5f6b4dd7fd",
   "raw_hash": "ed806e0d003a62671f1f6a15ef8f4db268efd34cf922d95e3e88ec36311577bc",
   "text_bytes": 7894,
@@ -80,6 +81,7 @@
       "features": []
     }
   ],
+  "models": [],
   "tables": [],
   "extract_errors": []
 }

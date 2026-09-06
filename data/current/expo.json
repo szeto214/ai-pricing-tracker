@@ -5,8 +5,9 @@
   "category": "dev-infra",
   "url": "https://expo.dev/pricing",
   "final_url": "https://expo.dev/pricing",
+  "parser_version": 3,
   "content_hash": "4e89764052abc08c6727528a2c8b95e3a1299831a9f87afeb6fe64fdc6ee5cb1",
-  "raw_hash": "f5d7d0bba67804bbb4253f388b3090661eb447611a8851719fb4cb8840a115d6",
+  "raw_hash": "dfa35659d5734f92c8d05ab7cc92360d2a550e2a818f6eeac91e2f6837b550fd",
   "text_bytes": 1459,
   "extractor": "dom",
   "confidence": "low",
@@ -20,6 +21,7 @@
       "features": []
     }
   ],
+  "models": [],
   "tables": [],
   "extract_errors": []
 }

@@ -5,8 +5,9 @@
   "category": "dev-infra",
   "url": "https://deno.com/deploy/pricing",
   "final_url": "https://deno.com/deploy/pricing",
+  "parser_version": 3,
   "content_hash": "0df16c300ac2ac0eefdf5cbaa1b8bc410f242a0db2b083477b28e557dccbecaf",
-  "raw_hash": "7bb8b89d2b98185a5fb45f8cc4df0bac0182bb1d6eb74b2b385790aa8fa7d8e7",
+  "raw_hash": "ce6cdb5d05151b98c546b8bc2bc84cde9ee7e30d2c144e952069c93f8c34d390",
   "text_bytes": 16068,
   "extractor": "dom",
   "confidence": "medium",
@@ -148,6 +149,7 @@
       ]
     }
   ],
+  "models": [],
   "tables": [
     {
       "caption": "",

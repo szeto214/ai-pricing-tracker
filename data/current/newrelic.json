@@ -5,6 +5,7 @@
   "category": "observability",
   "url": "https://newrelic.com/pricing",
   "final_url": "https://newrelic.com/pricing",
+  "parser_version": 3,
   "content_hash": "da3f65b1e9d84fb841bef200a57c99bd8fe1da94ce77cca823bfdda706dc4c54",
   "raw_hash": "340b46514ff3de285a36f74c51f8dac4a2df4488b0c2634d64efb05f7a1a9101",
   "text_bytes": 15888,
@@ -91,6 +92,7 @@
       "features": []
     }
   ],
+  "models": [],
   "tables": [
     {
       "caption": "",

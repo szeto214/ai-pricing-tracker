@@ -5,12 +5,14 @@
   "category": "ai-api",
   "url": "https://writer.com/plans/",
   "final_url": "https://writer.com/plans/",
+  "parser_version": 3,
   "content_hash": "5bef5b3e8cce1044ec95ffbc8819924d95bed7564df3a46ee06585a6681cde1b",
-  "raw_hash": "772ea6e0e7944c7603ca68500eac1e432ea99ae7c01c2994b0f9aba33df43b20",
+  "raw_hash": "68590ffc9cad40989d28f4c6cf8f4d68eac940f898d21fe3b5475108054ac807",
   "text_bytes": 7771,
   "extractor": "none",
   "confidence": "none",
   "plans": [],
+  "models": [],
   "tables": [],
   "extract_errors": []
 }

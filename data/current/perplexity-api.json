@@ -5,8 +5,9 @@
   "category": "ai-api",
   "url": "https://docs.perplexity.ai/getting-started/pricing",
   "final_url": "https://docs.perplexity.ai/docs/getting-started/pricing",
+  "parser_version": 3,
   "content_hash": "0ba3a3e88969e5d3a277eefd26b0ca3192089aa9d1d1270cd039388497cc9ade",
-  "raw_hash": "d74b7c29555663d7c80c139cabb54cb34d19f16d6cd85e4f750726feb5315bed",
+  "raw_hash": "ce15fe58d93c203ce1ae30869a8b796933931b5142642b7cf877c9185935bdd4",
   "text_bytes": 8643,
   "extractor": "dom",
   "confidence": "medium",
@@ -130,6 +131,192 @@
       "currency": "USD",
       "period": null,
       "features": []
+    }
+  ],
+  "models": [
+    {
+      "key": "sonar",
+      "model": "Sonar",
+      "prices": {
+        "input tokens ($/1m)": {
+          "raw": "$1",
+          "amount": 1.0
+        },
+        "output tokens ($/1m)": {
+          "raw": "$1",
+          "amount": 1.0
+        }
+      },
+      "currency": "USD",
+      "unit": "/1m"
+    },
+    {
+      "key": "sonar pro",
+      "model": "Sonar Pro",
+      "prices": {
+        "input tokens ($/1m)": {
+          "raw": "$3",
+          "amount": 3.0
+        },
+        "output tokens ($/1m)": {
+          "raw": "$15",
+          "amount": 15.0
+        }
+      },
+      "currency": "USD",
+      "unit": "/1m"
+    },
+    {
+      "key": "sonar reasoning pro",
+      "model": "Sonar Reasoning Pro",
+      "prices": {
+        "input tokens ($/1m)": {
+          "raw": "$2",
+          "amount": 2.0
+        },
+        "output tokens ($/1m)": {
+          "raw": "$8",
+          "amount": 8.0
+        }
+      },
+      "currency": "USD",
+      "unit": "/1m"
+    },
+    {
+      "key": "sonar deep research",
+      "model": "Sonar Deep Research",
+      "prices": {
+        "input tokens ($/1m)": {
+          "raw": "$2",
+          "amount": 2.0
+        },
+        "output tokens ($/1m)": {
+          "raw": "$8",
+          "amount": 8.0
+        },
+        "citation tokens ($/1m)": {
+          "raw": "$2",
+          "amount": 2.0
+        },
+        "search queries ($/1k)": {
+          "raw": "$5",
+          "amount": 5.0
+        },
+        "reasoning tokens ($/1m)": {
+          "raw": "$3",
+          "amount": 3.0
+        }
+      },
+      "currency": "USD",
+      "unit": "/1m"
+    },
+    {
+      "key": "sonar#2",
+      "model": "Sonar",
+      "prices": {
+        "low context size": {
+          "raw": "$5",
+          "amount": 5.0
+        },
+        "medium context size": {
+          "raw": "$8",
+          "amount": 8.0
+        },
+        "high context size": {
+          "raw": "$12",
+          "amount": 12.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "sonar pro#2",
+      "model": "Sonar Pro",
+      "prices": {
+        "low context size": {
+          "raw": "$6",
+          "amount": 6.0
+        },
+        "medium context size": {
+          "raw": "$10",
+          "amount": 10.0
+        },
+        "high context size": {
+          "raw": "$14",
+          "amount": 14.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "sonar reasoning pro#2",
+      "model": "Sonar Reasoning Pro",
+      "prices": {
+        "low context size": {
+          "raw": "$6",
+          "amount": 6.0
+        },
+        "medium context size": {
+          "raw": "$10",
+          "amount": 10.0
+        },
+        "high context size": {
+          "raw": "$14",
+          "amount": 14.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "pplx-embed-v1-0.6b",
+      "model": "pplx-embed-v1-0.6b",
+      "prices": {
+        "price ($/1m tokens)": {
+          "raw": "$0.004",
+          "amount": 0.004
+        }
+      },
+      "currency": "USD",
+      "unit": "/1m"
+    },
+    {
+      "key": "pplx-embed-v1-4b",
+      "model": "pplx-embed-v1-4b",
+      "prices": {
+        "price ($/1m tokens)": {
+          "raw": "$0.03",
+          "amount": 0.03
+        }
+      },
+      "currency": "USD",
+      "unit": "/1m"
+    },
+    {
+      "key": "pplx-embed-context-v1-0.6b",
+      "model": "pplx-embed-context-v1-0.6b",
+      "prices": {
+        "price ($/1m tokens)": {
+          "raw": "$0.008",
+          "amount": 0.008
+        }
+      },
+      "currency": "USD",
+      "unit": "/1m"
+    },
+    {
+      "key": "pplx-embed-context-v1-4b",
+      "model": "pplx-embed-context-v1-4b",
+      "prices": {
+        "price ($/1m tokens)": {
+          "raw": "$0.05",
+          "amount": 0.05
+        }
+      },
+      "currency": "USD",
+      "unit": "/1m"
     }
   ],
   "tables": [

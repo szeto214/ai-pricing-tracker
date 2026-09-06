@@ -5,8 +5,9 @@
   "category": "dev-infra",
   "url": "https://fly.io/pricing/",
   "final_url": "https://fly.io/pricing/",
+  "parser_version": 3,
   "content_hash": "ee7d05cd86dd2396f94e847efe0321a32187764579252910fae552c867866da6",
-  "raw_hash": "a4411464217f29c2b19a8693620b4d107d0cac6740176107cf0f0eed864c4ea9",
+  "raw_hash": "e66cefb1a2aa1a7a45f128cbe972f8a9c1752a0f2f734e7756969eb80880c5d1",
   "text_bytes": 1832,
   "extractor": "dom",
   "confidence": "medium",
@@ -28,6 +29,7 @@
       "features": []
     }
   ],
+  "models": [],
   "tables": [],
   "extract_errors": []
 }

@@ -5,8 +5,9 @@
   "category": "ai-api",
   "url": "https://huggingface.co/pricing",
   "final_url": "https://huggingface.co/pricing",
+  "parser_version": 3,
   "content_hash": "ef0e0f6802a68a32c390e691eaeff8d82d6febe49b14bf36bffe35c12e6e13b1",
-  "raw_hash": "9c65b81780e9bfee0bbbd8b107d68371dc967fd0216ddfae22d789bfdc339a27",
+  "raw_hash": "169944635de50b5e7faf934ea39f8376054059d6eec7517511477bafe16c373e",
   "text_bytes": 21861,
   "extractor": "dom",
   "confidence": "medium",
@@ -98,6 +99,188 @@
       "currency": "USD",
       "period": "month",
       "features": []
+    }
+  ],
+  "models": [
+    {
+      "key": "cpu upgrade",
+      "model": "CPU Upgrade",
+      "prices": {
+        "hourly price": {
+          "raw": "$0.03",
+          "amount": 0.03
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "nvidia t4 - small",
+      "model": "Nvidia T4 - small",
+      "prices": {
+        "hourly price": {
+          "raw": "$0.40",
+          "amount": 0.4
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "nvidia t4 - medium",
+      "model": "Nvidia T4 - medium",
+      "prices": {
+        "hourly price": {
+          "raw": "$0.60",
+          "amount": 0.6
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "1x nvidia l4",
+      "model": "1x Nvidia L4",
+      "prices": {
+        "hourly price": {
+          "raw": "$0.80",
+          "amount": 0.8
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "4x nvidia l4",
+      "model": "4x Nvidia L4",
+      "prices": {
+        "hourly price": {
+          "raw": "$3.80",
+          "amount": 3.8
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "1x nvidia l40s",
+      "model": "1x Nvidia L40S",
+      "prices": {
+        "hourly price": {
+          "raw": "$1.80",
+          "amount": 1.8
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "4x nvidia l40s",
+      "model": "4x Nvidia L40S",
+      "prices": {
+        "hourly price": {
+          "raw": "$8.30",
+          "amount": 8.3
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "8x nvidia l40s",
+      "model": "8x Nvidia L40S",
+      "prices": {
+        "hourly price": {
+          "raw": "$23.50",
+          "amount": 23.5
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "nvidia a10g - small",
+      "model": "Nvidia A10G - small",
+      "prices": {
+        "hourly price": {
+          "raw": "$1.00",
+          "amount": 1.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "nvidia a10g - large",
+      "model": "Nvidia A10G - large",
+      "prices": {
+        "hourly price": {
+          "raw": "$1.50",
+          "amount": 1.5
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "2x nvidia a10g - large",
+      "model": "2x Nvidia A10G - large",
+      "prices": {
+        "hourly price": {
+          "raw": "$3.00",
+          "amount": 3.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "4x nvidia a10g - large",
+      "model": "4x Nvidia A10G - large",
+      "prices": {
+        "hourly price": {
+          "raw": "$5.00",
+          "amount": 5.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "nvidia a100 - large",
+      "model": "Nvidia A100 - large",
+      "prices": {
+        "hourly price": {
+          "raw": "$2.50",
+          "amount": 2.5
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "4x nvidia a100",
+      "model": "4x Nvidia A100",
+      "prices": {
+        "hourly price": {
+          "raw": "$10.00",
+          "amount": 10.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "8x nvidia a100",
+      "model": "8x Nvidia A100",
+      "prices": {
+        "hourly price": {
+          "raw": "$20.00",
+          "amount": 20.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
     }
   ],
   "tables": [

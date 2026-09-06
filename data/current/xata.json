@@ -5,8 +5,9 @@
   "category": "database",
   "url": "https://xata.io/pricing",
   "final_url": "https://xata.io/pricing",
+  "parser_version": 3,
   "content_hash": "1f528ad00fff1a0d2f7bfb2a52f2c22edfb080f98ae4739dd1a0317ce0710b47",
-  "raw_hash": "a8ffc5dc30fa659586329ad38db8908fea1cc5f292697bbf5bbb1fb972a76100",
+  "raw_hash": "b084a31ac496bbcd3373df18e994970f19ae93dd1d5ca5a676885c7167ed5db9",
   "text_bytes": 4808,
   "extractor": "dom",
   "confidence": "medium",
@@ -26,6 +27,136 @@
       "currency": "USD",
       "period": "hour",
       "features": []
+    }
+  ],
+  "models": [
+    {
+      "key": "micro",
+      "model": "micro",
+      "prices": {
+        "cost per hour": {
+          "raw": "$ 0.012",
+          "amount": 0.012
+        },
+        "cost per month": {
+          "raw": "$ 9",
+          "amount": 9.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "small",
+      "model": "small",
+      "prices": {
+        "cost per hour": {
+          "raw": "$ 0.024",
+          "amount": 0.024
+        },
+        "cost per month": {
+          "raw": "$ 18",
+          "amount": 18.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "medium",
+      "model": "medium",
+      "prices": {
+        "cost per hour": {
+          "raw": "$ 0.048",
+          "amount": 0.048
+        },
+        "cost per month": {
+          "raw": "$ 35",
+          "amount": 35.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "large",
+      "model": "large",
+      "prices": {
+        "cost per hour": {
+          "raw": "$ 0.096",
+          "amount": 0.096
+        },
+        "cost per month": {
+          "raw": "$ 70",
+          "amount": 70.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "xlarge",
+      "model": "xlarge",
+      "prices": {
+        "cost per hour": {
+          "raw": "$ 0.192",
+          "amount": 0.192
+        },
+        "cost per month": {
+          "raw": "$ 140",
+          "amount": 140.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "2xlarge",
+      "model": "2xlarge",
+      "prices": {
+        "cost per hour": {
+          "raw": "$ 0.384",
+          "amount": 0.384
+        },
+        "cost per month": {
+          "raw": "$ 280",
+          "amount": 280.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "4xlarge",
+      "model": "4xlarge",
+      "prices": {
+        "cost per hour": {
+          "raw": "$ 0.768",
+          "amount": 0.768
+        },
+        "cost per month": {
+          "raw": "$ 561",
+          "amount": 561.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "8xlarge",
+      "model": "8xlarge",
+      "prices": {
+        "cost per hour": {
+          "raw": "$ 1.536",
+          "amount": 1.536
+        },
+        "cost per month": {
+          "raw": "$ 112",
+          "amount": 112.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
     }
   ],
   "tables": [

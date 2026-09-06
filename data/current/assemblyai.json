@@ -5,6 +5,7 @@
   "category": "ai-media",
   "url": "https://www.assemblyai.com/pricing",
   "final_url": "https://www.assemblyai.com/pricing",
+  "parser_version": 3,
   "content_hash": "4e6033f16e501fecd8c682371701d18b2c50d93e30d7ab6f61fe4c96aa0145a6",
   "raw_hash": "b2576c0bfafab1e26fbff8c54a5ad3b33020356c13089b620322a038666b4c25",
   "text_bytes": 9131,
@@ -28,6 +29,7 @@
       "features": []
     }
   ],
+  "models": [],
   "tables": [
     {
       "caption": "",

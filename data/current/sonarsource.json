@@ -5,8 +5,9 @@
   "category": "observability",
   "url": "https://www.sonarsource.com/plans-and-pricing/",
   "final_url": "https://www.sonarsource.com/plans-and-pricing/",
+  "parser_version": 3,
   "content_hash": "754d7d99e8e69c8076c137dcc895b691eb63855769810387cc3e60f0230e63be",
-  "raw_hash": "39a7a0652b559a7af6a960ee89181b80422f4ceeccf9918eb893beaf4bc4073d",
+  "raw_hash": "305b1ee058f23add7497cab097fb50f9d93cb21d39670daa55bd6772b7153adc",
   "text_bytes": 12967,
   "extractor": "dom",
   "confidence": "medium",
@@ -68,6 +69,7 @@
       "features": []
     }
   ],
+  "models": [],
   "tables": [
     {
       "caption": "",

@@ -5,6 +5,7 @@
   "category": "dev-infra",
   "url": "https://auth0.com/pricing",
   "final_url": "https://auth0.com/pricing",
+  "parser_version": 3,
   "content_hash": "fc4ad64771604656d8ed542d5f0c641ef91eb9eadd21f68c21f5f17f6b12c1a3",
   "raw_hash": "f6e49c7d60282042a63645cd6ed974b55a5680401fc7fe52147ada19cde7356b",
   "text_bytes": 13109,
@@ -40,6 +41,7 @@
       "features": []
     }
   ],
+  "models": [],
   "tables": [
     {
       "caption": "",

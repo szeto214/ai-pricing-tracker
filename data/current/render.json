@@ -5,12 +5,14 @@
   "category": "dev-infra",
   "url": "https://render.com/pricing",
   "final_url": "https://render.com/pricing",
+  "parser_version": 3,
   "content_hash": "1178ea389eeb26444ec82e1d8dafe5944b5782536f09b4d72f71912208664cf1",
-  "raw_hash": "2c698e06d27ad60dd047d9f3a3202f2991d741ccf3a29b28e6a2daf7fd367d80",
+  "raw_hash": "a24bdf8efc4bf04dc49d057f29e8e9d3885225dab7b8d582ef177319a482bb5b",
   "text_bytes": 196,
   "extractor": "none",
   "confidence": "none",
   "plans": [],
+  "models": [],
   "tables": [],
   "extract_errors": []
 }

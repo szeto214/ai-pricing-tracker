@@ -5,8 +5,9 @@
   "category": "dev-infra",
   "url": "https://northflank.com/pricing",
   "final_url": "https://northflank.com/pricing",
+  "parser_version": 3,
   "content_hash": "2c149787edf4a5c941f44abb969e45806b9f4ac951e0e75f66884399feab1e1e",
-  "raw_hash": "7f854fd942323691026222197249e4fac1737a246d2035cc96abb1c410444606",
+  "raw_hash": "c2486328b5037c6ff31e67a471eb17a03d01de89bcc982eeb8b8aca12b6835af",
   "text_bytes": 13998,
   "extractor": "dom",
   "confidence": "medium",
@@ -36,6 +37,7 @@
       "features": []
     }
   ],
+  "models": [],
   "tables": [
     {
       "caption": "",

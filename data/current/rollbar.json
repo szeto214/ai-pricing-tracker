@@ -5,6 +5,7 @@
   "category": "observability",
   "url": "https://rollbar.com/pricing/",
   "final_url": "https://rollbar.com/pricing",
+  "parser_version": 3,
   "content_hash": "337f40206d6be17e93d5ab0f87d07f5a99cdf839ca9f986b9380570c296c42ca",
   "raw_hash": "30edb83cf9e06a295e72f9e201f93139547255f48482831231d2fc80f65defe4",
   "text_bytes": 12567,
@@ -48,6 +49,7 @@
       ]
     }
   ],
+  "models": [],
   "tables": [],
   "extract_errors": []
 }

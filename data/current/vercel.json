@@ -5,8 +5,9 @@
   "category": "dev-infra",
   "url": "https://vercel.com/pricing",
   "final_url": "https://vercel.com/pricing",
+  "parser_version": 3,
   "content_hash": "0814f498c83e4ffeb1995057fea9d00621b341cbe8eeaeda962d7b674b79aea6",
-  "raw_hash": "476c46f464299ea093f95865e1de26e9c7b884dd080ba2ac1360b6dd0f518548",
+  "raw_hash": "07162c2256919df5c0b91a122df2f41c5034a25587ade20dedbdac8730594a48",
   "text_bytes": 12657,
   "extractor": "dom",
   "confidence": "medium",
@@ -172,6 +173,7 @@
       "features": []
     }
   ],
+  "models": [],
   "tables": [],
   "extract_errors": []
 }

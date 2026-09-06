@@ -5,6 +5,7 @@
   "category": "automation",
   "url": "https://www.activepieces.com/pricing",
   "final_url": "https://www.activepieces.com/pricing",
+  "parser_version": 3,
   "content_hash": "9105bc926950796a65680780d247a855d680249ac4c620032f43a8fb27c7a37f",
   "raw_hash": "4bbabb1e9abcb4efadfdee33910c2dfe64cad0492d877115f45fc67283a33054",
   "text_bytes": 8757,
@@ -28,6 +29,7 @@
       "features": []
     }
   ],
+  "models": [],
   "tables": [
     {
       "caption": "Activepieces plan comparison",

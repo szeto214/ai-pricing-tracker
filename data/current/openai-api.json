@@ -5,8 +5,9 @@
   "category": "ai-api",
   "url": "https://platform.openai.com/docs/pricing",
   "final_url": "https://developers.openai.com/api/docs/pricing",
+  "parser_version": 3,
   "content_hash": "e7f2d3aac70c0c5c7efe798d65f72c78b0518966caaec19d8c0a5ad32ccc33c7",
-  "raw_hash": "92a4f5e595d8992b7cd0c0d0dab2edbbbc52ab27b18631c95addc885dd549a99",
+  "raw_hash": "b550add66092bf65ac8fe1a934f6ff7bfb28ff626976e6183914c373a22d64f2",
   "text_bytes": 6742,
   "extractor": "dom",
   "confidence": "medium",
@@ -154,6 +155,512 @@
       "currency": "USD",
       "period": null,
       "features": []
+    }
+  ],
+  "models": [
+    {
+      "key": "gpt-6-astra",
+      "model": "gpt-6-astra",
+      "prices": {
+        "input": {
+          "raw": "$10.00",
+          "amount": 10.0
+        },
+        "cached input": {
+          "raw": "$1.00",
+          "amount": 1.0
+        },
+        "cache writes": {
+          "raw": "$12.50",
+          "amount": 12.5
+        },
+        "output": {
+          "raw": "$50.00",
+          "amount": 50.0
+        },
+        "input (2)": {
+          "raw": "$20.00",
+          "amount": 20.0
+        },
+        "cached input (2)": {
+          "raw": "$2.00",
+          "amount": 2.0
+        },
+        "cache writes (2)": {
+          "raw": "$25.00",
+          "amount": 25.0
+        },
+        "output (2)": {
+          "raw": "$75.00",
+          "amount": 75.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "gpt-5.6-sol",
+      "model": "gpt-5.6-sol",
+      "prices": {
+        "input": {
+          "raw": "$4.00",
+          "amount": 4.0
+        },
+        "cached input": {
+          "raw": "$0.40",
+          "amount": 0.4
+        },
+        "cache writes": {
+          "raw": "$5.00",
+          "amount": 5.0
+        },
+        "output": {
+          "raw": "$20.00",
+          "amount": 20.0
+        },
+        "input (2)": {
+          "raw": "$8.00",
+          "amount": 8.0
+        },
+        "cached input (2)": {
+          "raw": "$0.80",
+          "amount": 0.8
+        },
+        "cache writes (2)": {
+          "raw": "$10.00",
+          "amount": 10.0
+        },
+        "output (2)": {
+          "raw": "$30.00",
+          "amount": 30.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "gpt-5.6-terra",
+      "model": "gpt-5.6-terra",
+      "prices": {
+        "input": {
+          "raw": "$2.00",
+          "amount": 2.0
+        },
+        "cached input": {
+          "raw": "$0.20",
+          "amount": 0.2
+        },
+        "cache writes": {
+          "raw": "$2.50",
+          "amount": 2.5
+        },
+        "output": {
+          "raw": "$12.00",
+          "amount": 12.0
+        },
+        "input (2)": {
+          "raw": "$4.00",
+          "amount": 4.0
+        },
+        "cached input (2)": {
+          "raw": "$0.40",
+          "amount": 0.4
+        },
+        "cache writes (2)": {
+          "raw": "$5.00",
+          "amount": 5.0
+        },
+        "output (2)": {
+          "raw": "$18.00",
+          "amount": 18.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "gpt-5.6-luna",
+      "model": "gpt-5.6-luna",
+      "prices": {
+        "input": {
+          "raw": "$0.20",
+          "amount": 0.2
+        },
+        "cached input": {
+          "raw": "$0.02",
+          "amount": 0.02
+        },
+        "cache writes": {
+          "raw": "$0.25",
+          "amount": 0.25
+        },
+        "output": {
+          "raw": "$1.20",
+          "amount": 1.2
+        },
+        "input (2)": {
+          "raw": "$0.40",
+          "amount": 0.4
+        },
+        "cached input (2)": {
+          "raw": "$0.04",
+          "amount": 0.04
+        },
+        "cache writes (2)": {
+          "raw": "$0.50",
+          "amount": 0.5
+        },
+        "output (2)": {
+          "raw": "$1.80",
+          "amount": 1.8
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "gpt-5.6-cyber",
+      "model": "gpt-5.6-cyber",
+      "prices": {
+        "input": {
+          "raw": "$12.50",
+          "amount": 12.5
+        },
+        "cached input": {
+          "raw": "$1.25",
+          "amount": 1.25
+        },
+        "cache writes": {
+          "raw": "$15.625",
+          "amount": 15.625
+        },
+        "output": {
+          "raw": "$75.00",
+          "amount": 75.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "gpt-realtime-2.1",
+      "model": "gpt-realtime-2.1",
+      "prices": {
+        "input": {
+          "raw": "$32.00",
+          "amount": 32.0
+        },
+        "cached input": {
+          "raw": "$0.40",
+          "amount": 0.4
+        },
+        "output / cost": {
+          "raw": "$64.00",
+          "amount": 64.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "text",
+      "model": "Text",
+      "prices": {
+        "modality": {
+          "raw": "$4.00",
+          "amount": 4.0
+        },
+        "input": {
+          "raw": "$0.40",
+          "amount": 0.4
+        },
+        "cached input": {
+          "raw": "$24.00",
+          "amount": 24.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "image",
+      "model": "Image",
+      "prices": {
+        "modality": {
+          "raw": "$5.00",
+          "amount": 5.0
+        },
+        "input": {
+          "raw": "$0.50",
+          "amount": 0.5
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "gpt-realtime-2.1-mini",
+      "model": "gpt-realtime-2.1-mini",
+      "prices": {
+        "input": {
+          "raw": "$10.00",
+          "amount": 10.0
+        },
+        "cached input": {
+          "raw": "$0.30",
+          "amount": 0.3
+        },
+        "output / cost": {
+          "raw": "$20.00",
+          "amount": 20.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "text#2",
+      "model": "Text",
+      "prices": {
+        "modality": {
+          "raw": "$0.60",
+          "amount": 0.6
+        },
+        "input": {
+          "raw": "$0.06",
+          "amount": 0.06
+        },
+        "cached input": {
+          "raw": "$2.40",
+          "amount": 2.4
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "image#2",
+      "model": "Image",
+      "prices": {
+        "modality": {
+          "raw": "$0.80",
+          "amount": 0.8
+        },
+        "input": {
+          "raw": "$0.08",
+          "amount": 0.08
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "gpt-image-2",
+      "model": "gpt-image-2",
+      "prices": {
+        "input": {
+          "raw": "$8.00",
+          "amount": 8.0
+        },
+        "cached input": {
+          "raw": "$2.00",
+          "amount": 2.0
+        },
+        "output": {
+          "raw": "$30.00",
+          "amount": 30.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "text#3",
+      "model": "Text",
+      "prices": {
+        "modality": {
+          "raw": "$5.00",
+          "amount": 5.0
+        },
+        "input": {
+          "raw": "$1.25",
+          "amount": 1.25
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "sora-2",
+      "model": "sora-2",
+      "prices": {
+        "price per second": {
+          "raw": "$0.10",
+          "amount": 0.1
+        }
+      },
+      "currency": "USD",
+      "unit": "per second"
+    },
+    {
+      "key": "sora-2-pro",
+      "model": "sora-2-pro",
+      "prices": {
+        "price per second": {
+          "raw": "$0.30",
+          "amount": 0.3
+        }
+      },
+      "currency": "USD",
+      "unit": "per second"
+    },
+    {
+      "key": "1024p",
+      "model": "1024p",
+      "prices": {
+        "landscape": {
+          "raw": "$0.50",
+          "amount": 0.5
+        }
+      },
+      "currency": "USD",
+      "unit": "per second"
+    },
+    {
+      "key": "1080p",
+      "model": "1080p",
+      "prices": {
+        "landscape": {
+          "raw": "$0.70",
+          "amount": 0.7
+        }
+      },
+      "currency": "USD",
+      "unit": "per second"
+    },
+    {
+      "key": "gpt-realtime-translate",
+      "model": "gpt-realtime-translate",
+      "prices": {
+        "estimated cost": {
+          "raw": "$0.034",
+          "amount": 0.034
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "gpt-live-transcribe",
+      "model": "gpt-live-transcribe",
+      "prices": {
+        "estimated cost": {
+          "raw": "$0.017",
+          "amount": 0.017
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "gpt-realtime-whisper",
+      "model": "gpt-realtime-whisper",
+      "prices": {
+        "estimated cost": {
+          "raw": "$0.017",
+          "amount": 0.017
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "gpt-transcribe",
+      "model": "gpt-transcribe",
+      "prices": {
+        "estimated cost": {
+          "raw": "$0.0045",
+          "amount": 0.0045
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "gpt-4o-transcribe",
+      "model": "gpt-4o-transcribe",
+      "prices": {
+        "input": {
+          "raw": "$2.50",
+          "amount": 2.5
+        },
+        "output": {
+          "raw": "$10.00",
+          "amount": 10.0
+        },
+        "estimated cost": {
+          "raw": "$0.006",
+          "amount": 0.006
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "gpt-4o-mini-transcribe",
+      "model": "gpt-4o-mini-transcribe",
+      "prices": {
+        "input": {
+          "raw": "$1.25",
+          "amount": 1.25
+        },
+        "output": {
+          "raw": "$5.00",
+          "amount": 5.0
+        },
+        "estimated cost": {
+          "raw": "$0.003",
+          "amount": 0.003
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "web search preview (reasoning models, including gpt-5 , o-series )",
+      "model": "Web search preview (reasoning models, including gpt-5 , o-series )",
+      "prices": {
+        "$10.00 / 1k calls + search content tokens billed at model rates.": {
+          "raw": "$10.00",
+          "amount": 10.0
+        }
+      },
+      "currency": "USD",
+      "unit": "/ 1k"
+    },
+    {
+      "key": "web search preview (non-reasoning models)",
+      "model": "Web search preview (non-reasoning models)",
+      "prices": {
+        "$10.00 / 1k calls + search content tokens billed at model rates.": {
+          "raw": "$25.00",
+          "amount": 25.0
+        }
+      },
+      "currency": "USD",
+      "unit": "/ 1k"
+    },
+    {
+      "key": "tool call",
+      "model": "Tool call",
+      "prices": {
+        "$10.00 / 1k calls + search content tokens billed at model rates.": {
+          "raw": "$2.50",
+          "amount": 2.5
+        }
+      },
+      "currency": "USD",
+      "unit": "/ 1k"
     }
   ],
   "tables": [

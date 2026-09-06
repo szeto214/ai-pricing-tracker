@@ -5,8 +5,9 @@
   "category": "ai-api",
   "url": "https://replicate.com/pricing",
   "final_url": "https://replicate.com/pricing",
+  "parser_version": 3,
   "content_hash": "e2128294821f8407907292ad0d1c6aadcc73b4580848aa8b79f6eac3e39ce283",
-  "raw_hash": "2b229a42d88645e6cb76242c55657cd66b9fc870263bb379b217fbcbf0c09f3d",
+  "raw_hash": "559328465b78df68dbc7648aa9ba5c46e1ad731685f6c492b537540b8033c082",
   "text_bytes": 8157,
   "extractor": "dom",
   "confidence": "medium",
@@ -74,6 +75,236 @@
       "currency": "USD",
       "period": null,
       "features": []
+    }
+  ],
+  "models": [
+    {
+      "key": "cpu (small) cpu-small",
+      "model": "CPU (Small) cpu-small",
+      "prices": {
+        "price": {
+          "raw": "$ 0.000025",
+          "amount": 2.5e-05
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "cpu cpu",
+      "model": "CPU cpu",
+      "prices": {
+        "price": {
+          "raw": "$ 0.000100",
+          "amount": 0.0001
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "nvidia a100 (80gb) gpu gpu-a100-large",
+      "model": "Nvidia A100 (80GB) GPU gpu-a100-large",
+      "prices": {
+        "price": {
+          "raw": "$ 0.001400",
+          "amount": 0.0014
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "2x nvidia a100 (80gb) gpu gpu-a100-large-2x",
+      "model": "2x Nvidia A100 (80GB) GPU gpu-a100-large-2x",
+      "prices": {
+        "price": {
+          "raw": "$ 0.002800",
+          "amount": 0.0028
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "nvidia h100 gpu gpu-h100",
+      "model": "Nvidia H100 GPU gpu-h100",
+      "prices": {
+        "price": {
+          "raw": "$ 0.001525",
+          "amount": 0.001525
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "nvidia l40s gpu gpu-l40s",
+      "model": "Nvidia L40S GPU gpu-l40s",
+      "prices": {
+        "price": {
+          "raw": "$ 0.000975",
+          "amount": 0.000975
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "2x nvidia l40s gpu gpu-l40s-2x",
+      "model": "2x Nvidia L40S GPU gpu-l40s-2x",
+      "prices": {
+        "price": {
+          "raw": "$ 0.001950",
+          "amount": 0.00195
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "nvidia t4 gpu gpu-t4",
+      "model": "Nvidia T4 GPU gpu-t4",
+      "prices": {
+        "price": {
+          "raw": "$ 0.000225",
+          "amount": 0.000225
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "4x nvidia a100 (80gb) gpu gpu-a100-large-4x",
+      "model": "4x Nvidia A100 (80GB) GPU gpu-a100-large-4x",
+      "prices": {
+        "price": {
+          "raw": "$ 0.005600",
+          "amount": 0.0056
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "8x nvidia a100 (80gb) gpu gpu-a100-large-8x",
+      "model": "8x Nvidia A100 (80GB) GPU gpu-a100-large-8x",
+      "prices": {
+        "price": {
+          "raw": "$ 0.011200",
+          "amount": 0.0112
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "2x nvidia h100 gpu gpu-h100-2x",
+      "model": "2x Nvidia H100 GPU gpu-h100-2x",
+      "prices": {
+        "price": {
+          "raw": "$ 0.003050",
+          "amount": 0.00305
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "4x nvidia h100 gpu gpu-h100-4x",
+      "model": "4x Nvidia H100 GPU gpu-h100-4x",
+      "prices": {
+        "price": {
+          "raw": "$ 0.006100",
+          "amount": 0.0061
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "8x nvidia h100 gpu gpu-h100-8x",
+      "model": "8x Nvidia H100 GPU gpu-h100-8x",
+      "prices": {
+        "price": {
+          "raw": "$ 0.012200",
+          "amount": 0.0122
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "nvidia h200 gpu gpu-h200",
+      "model": "Nvidia H200 GPU gpu-h200",
+      "prices": {
+        "price": {
+          "raw": "$ 0.001525",
+          "amount": 0.001525
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "2x nvidia h200 gpu gpu-h200-2x",
+      "model": "2x Nvidia H200 GPU gpu-h200-2x",
+      "prices": {
+        "price": {
+          "raw": "$ 0.003050",
+          "amount": 0.00305
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "4x nvidia h200 gpu gpu-h200-4x",
+      "model": "4x Nvidia H200 GPU gpu-h200-4x",
+      "prices": {
+        "price": {
+          "raw": "$ 0.006100",
+          "amount": 0.0061
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "8x nvidia h200 gpu gpu-h200-8x",
+      "model": "8x Nvidia H200 GPU gpu-h200-8x",
+      "prices": {
+        "price": {
+          "raw": "$ 0.012200",
+          "amount": 0.0122
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "4x nvidia l40s gpu gpu-l40s-4x",
+      "model": "4x Nvidia L40S GPU gpu-l40s-4x",
+      "prices": {
+        "price": {
+          "raw": "$ 0.003900",
+          "amount": 0.0039
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "8x nvidia l40s gpu gpu-l40s-8x",
+      "model": "8x Nvidia L40S GPU gpu-l40s-8x",
+      "prices": {
+        "price": {
+          "raw": "$ 0.007800",
+          "amount": 0.0078
+        }
+      },
+      "currency": "USD",
+      "unit": ""
     }
   ],
   "tables": [

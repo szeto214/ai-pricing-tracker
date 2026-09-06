@@ -5,8 +5,9 @@
   "category": "productivity",
   "url": "https://www.intercom.com/pricing",
   "final_url": "https://www.intercom.com/pricing",
+  "parser_version": 3,
   "content_hash": "3fb0d474252a23b03da84635f0fbdcb80c006bc7fbe867bd65469bb19492353d",
-  "raw_hash": "d9103c59754ef0e297dec3ed91e8a09d04ef7ed57792011d5c5a5caab7b5a54b",
+  "raw_hash": "71d6ac5b9eb87d286cad7b2e73a860ea230798157fad2a6c4761d4c82826e9be",
   "text_bytes": 5085,
   "extractor": "dom",
   "confidence": "medium",
@@ -68,6 +69,7 @@
       "features": []
     }
   ],
+  "models": [],
   "tables": [],
   "extract_errors": []
 }

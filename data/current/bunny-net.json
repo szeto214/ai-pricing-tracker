@@ -5,6 +5,7 @@
   "category": "dev-infra",
   "url": "https://bunny.net/pricing/",
   "final_url": "https://bunny.net/pricing/",
+  "parser_version": 3,
   "content_hash": "001c953e93dc46e070a38d32b5a3018c28656e208a1d4c6ae90f3630da0efd5b",
   "raw_hash": "c9d2be2b42afb923de8858c104e086a08b59491e8b7fe62edb35b2fcee3c3384",
   "text_bytes": 4359,
@@ -86,6 +87,7 @@
       "features": []
     }
   ],
+  "models": [],
   "tables": [],
   "extract_errors": []
 }

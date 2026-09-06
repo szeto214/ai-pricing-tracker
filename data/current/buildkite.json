@@ -5,6 +5,7 @@
   "category": "dev-infra",
   "url": "https://buildkite.com/pricing",
   "final_url": "https://buildkite.com/pricing/",
+  "parser_version": 3,
   "content_hash": "d427d0ad79232f954f3ae2fd2d4e4c720ccf8a114c38be74e81e8d8c8a41aa68",
   "raw_hash": "d9588dcbe02b7032af59da067d40addf7ca3da803cc8db9001dd6803036902de",
   "text_bytes": 18870,
@@ -38,6 +39,7 @@
       ]
     }
   ],
+  "models": [],
   "tables": [],
   "extract_errors": []
 }

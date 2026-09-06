@@ -5,6 +5,7 @@
   "category": "observability",
   "url": "https://semgrep.dev/pricing/",
   "final_url": "https://semgrep.dev/pricing/",
+  "parser_version": 3,
   "content_hash": "87b074f171592a850d46c67c63fc48a0c73295347ba493ac972b628a6bb11cc9",
   "raw_hash": "f8d51d5636962058344f975742a8de58bef510beb9523c42dec0a30649ee70c0",
   "text_bytes": 6142,
@@ -77,6 +78,7 @@
       "features": []
     }
   ],
+  "models": [],
   "tables": [],
   "extract_errors": []
 }

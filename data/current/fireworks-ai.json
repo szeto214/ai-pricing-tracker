@@ -5,9 +5,10 @@
   "category": "ai-api",
   "url": "https://fireworks.ai/pricing",
   "final_url": "https://fireworks.ai/pricing",
-  "content_hash": "ad08cca840d73df244ccb9e05add4735618bdea7c10a0c29bafc22e728d32ab4",
-  "raw_hash": "b76596b6ad6368aba61734f86f2177530b607beb8db2ca3382722f8ff2294f89",
-  "text_bytes": 3563,
+  "parser_version": 3,
+  "content_hash": "47b60649be448071d03dee09914883d879345e62fbb52f85cb3f5b3e77f48e1e",
+  "raw_hash": "e7f98bba068ecc6158a4a9c089bd230a01a1befc7672fb1fc02265704dc44164",
+  "text_bytes": 3543,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -57,6 +58,316 @@
       "features": [
         "• Region-restricted deployments are priced at a 1.5x premium. Contact Sales to get started."
       ]
+    }
+  ],
+  "models": [
+    {
+      "key": "up to 150m",
+      "model": "up to 150M",
+      "prices": {
+        "$ / 1m input tokens": {
+          "raw": "$0.008",
+          "amount": 0.008
+        }
+      },
+      "currency": "USD",
+      "unit": "/ 1m"
+    },
+    {
+      "key": "150m - 350m",
+      "model": "150M - 350M",
+      "prices": {
+        "$ / 1m input tokens": {
+          "raw": "$0.016",
+          "amount": 0.016
+        }
+      },
+      "currency": "USD",
+      "unit": "/ 1m"
+    },
+    {
+      "key": "qwen3 8b",
+      "model": "Qwen3 8B",
+      "prices": {
+        "$ / 1m input tokens": {
+          "raw": "$0.1",
+          "amount": 0.1
+        }
+      },
+      "currency": "USD",
+      "unit": "/ 1m"
+    },
+    {
+      "key": "models up to 16b parameters",
+      "model": "Models up to 16B parameters",
+      "prices": {
+        "lora sft": {
+          "raw": "$0.50",
+          "amount": 0.5
+        },
+        "lora dpo": {
+          "raw": "$1.00",
+          "amount": 1.0
+        },
+        "full param sft": {
+          "raw": "$1.00",
+          "amount": 1.0
+        },
+        "full param dpo": {
+          "raw": "$2.00",
+          "amount": 2.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "models 16.1b - 80b",
+      "model": "Models 16.1B - 80B",
+      "prices": {
+        "lora sft": {
+          "raw": "$3.00",
+          "amount": 3.0
+        },
+        "lora dpo": {
+          "raw": "$6.00",
+          "amount": 6.0
+        },
+        "full param sft": {
+          "raw": "$6.00",
+          "amount": 6.0
+        },
+        "full param dpo": {
+          "raw": "$12.00",
+          "amount": 12.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "models 80b - 300b (e.g. qwen3-235b, gpt-oss-120b)",
+      "model": "Models 80B - 300B (e.g. Qwen3-235B, gpt-oss-120B)",
+      "prices": {
+        "lora sft": {
+          "raw": "$6.00",
+          "amount": 6.0
+        },
+        "lora dpo": {
+          "raw": "$12.00",
+          "amount": 12.0
+        },
+        "full param sft": {
+          "raw": "$12.00",
+          "amount": 12.0
+        },
+        "full param dpo": {
+          "raw": "$24.00",
+          "amount": 24.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "models >300b (e.g. deepseek v3, kimi k2)",
+      "model": "Models >300B (e.g. DeepSeek V3, Kimi K2)",
+      "prices": {
+        "lora sft": {
+          "raw": "$10.00",
+          "amount": 10.0
+        },
+        "lora dpo": {
+          "raw": "$20.00",
+          "amount": 20.0
+        },
+        "full param sft": {
+          "raw": "$20.00",
+          "amount": 20.0
+        },
+        "full param dpo": {
+          "raw": "$40.00",
+          "amount": 40.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "qwen 3.8 27b",
+      "model": "Qwen 3.8 27B",
+      "prices": {
+        "prefill / 1m": {
+          "raw": "$1.86",
+          "amount": 1.86
+        },
+        "cached prefill / 1m": {
+          "raw": "$0.372",
+          "amount": 0.372
+        },
+        "sample / 1m": {
+          "raw": "$5.595",
+          "amount": 5.595
+        },
+        "train / 1m": {
+          "raw": "$4.103",
+          "amount": 4.103
+        }
+      },
+      "currency": "USD",
+      "unit": "/ 1m"
+    },
+    {
+      "key": "kimi k3",
+      "model": "Kimi K3",
+      "prices": {
+        "prefill / 1m": {
+          "raw": "$10.87",
+          "amount": 10.87
+        },
+        "cached prefill / 1m": {
+          "raw": "$2.17",
+          "amount": 2.17
+        },
+        "sample / 1m": {
+          "raw": "$27.11",
+          "amount": 27.11
+        },
+        "train / 1m": {
+          "raw": "$32.55",
+          "amount": 32.55
+        }
+      },
+      "currency": "USD",
+      "unit": "/ 1m"
+    },
+    {
+      "key": "deepseek v4 flash 0731",
+      "model": "DeepSeek V4 Flash 0731",
+      "prices": {
+        "prefill / 1m": {
+          "raw": "$1.74",
+          "amount": 1.74
+        },
+        "cached prefill / 1m": {
+          "raw": "$0.35",
+          "amount": 0.35
+        },
+        "sample / 1m": {
+          "raw": "$4.33",
+          "amount": 4.33
+        },
+        "train / 1m": {
+          "raw": "$5.20",
+          "amount": 5.2
+        }
+      },
+      "currency": "USD",
+      "unit": "/ 1m"
+    },
+    {
+      "key": "muse glimmer 30b",
+      "model": "Muse Glimmer 30B",
+      "prices": {
+        "prefill / 1m": {
+          "raw": "$1.96",
+          "amount": 1.96
+        },
+        "cached prefill / 1m": {
+          "raw": "$0.39",
+          "amount": 0.39
+        },
+        "sample / 1m": {
+          "raw": "$4.88",
+          "amount": 4.88
+        },
+        "train / 1m": {
+          "raw": "$5.86",
+          "amount": 5.86
+        }
+      },
+      "currency": "USD",
+      "unit": "/ 1m"
+    },
+    {
+      "key": "h100 80 gb gpu",
+      "model": "H100 80 GB GPU",
+      "prices": {
+        "price ($) per hour - upto aug 31": {
+          "raw": "$7.00",
+          "amount": 7.0
+        },
+        "price ($) per hour - from sep 1": {
+          "raw": "$8.00",
+          "amount": 8.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "h200 141 gb gpu",
+      "model": "H200 141 GB GPU",
+      "prices": {
+        "price ($) per hour - upto aug 31": {
+          "raw": "$7.00",
+          "amount": 7.0
+        },
+        "price ($) per hour - from sep 1": {
+          "raw": "$8.00",
+          "amount": 8.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "b200 180 gb gpu",
+      "model": "B200 180 GB GPU",
+      "prices": {
+        "price ($) per hour - upto aug 31": {
+          "raw": "$10.00",
+          "amount": 10.0
+        },
+        "price ($) per hour - from sep 1": {
+          "raw": "$13.00",
+          "amount": 13.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "b300 288 gb gpu",
+      "model": "B300 288 GB GPU",
+      "prices": {
+        "price ($) per hour - upto aug 31": {
+          "raw": "$12.00",
+          "amount": 12.0
+        },
+        "price ($) per hour - from sep 1": {
+          "raw": "$15.00",
+          "amount": 15.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "gb300 288 gb gpu",
+      "model": "GB300 288 GB GPU",
+      "prices": {
+        "price ($) per hour - upto aug 31": {
+          "raw": "$18.00",
+          "amount": 18.0
+        },
+        "price ($) per hour - from sep 1": {
+          "raw": "$20.00",
+          "amount": 20.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
     }
   ],
   "tables": [

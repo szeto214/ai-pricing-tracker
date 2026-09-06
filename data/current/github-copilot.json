@@ -5,8 +5,9 @@
   "category": "ai-coding",
   "url": "https://github.com/features/copilot/plans",
   "final_url": "https://github.com/features/copilot/plans",
+  "parser_version": 3,
   "content_hash": "1e473b04efff0dd0ad63d4bec558644b409aa50b3580969beabde0c07b1fa3ae",
-  "raw_hash": "bbee586fdef195f1cbfdd31094605f101ae8c154517280c8a66d384f666f4235",
+  "raw_hash": "b8ac32fbad8942921b228c390869d2e1d78598e76911f1f4e4179e919d696f60",
   "text_bytes": 47253,
   "extractor": "dom",
   "confidence": "medium",
@@ -57,6 +58,7 @@
       "features": []
     }
   ],
+  "models": [],
   "tables": [],
   "extract_errors": []
 }

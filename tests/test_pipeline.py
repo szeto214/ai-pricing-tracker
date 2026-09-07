@@ -608,6 +608,37 @@ def test_model_table_shapes() -> None:
           res2["models"] == [], f"-> {[m['model'] for m in res2['models']]}")
 
 
+def test_settle_ms() -> None:
+    """Jeda render per-target — untuk halaman yang lambat memunculkan harga.
+
+    Empat target (bitwarden, n8n, loom, groq) sudah memakai render: js tapi
+    arsipnya tetap cangkang kosong. Menaikkan jeda global akan memperlambat
+    139 target lain tanpa alasan, jadi jedanya diberikan per target.
+
+    Buktinya diambil lewat pengambilan harian yang normal — BUKAN lewat
+    permintaan tambahan. Menjalankan validator pada hari yang sama dengan
+    kolektor tetap berarti dua permintaan untuk satu halaman.
+    """
+    print("\n6d. jeda render per-target")
+    from collector.fetcher import _settle
+
+    check("tanpa setelan -> pakai bawaan",
+          _settle(None) == config.JS_SETTLE_MS, f"-> {_settle(None)}")
+    check("setelan wajar dipakai apa adanya", _settle(9000) == 9000)
+    check("lebih kecil dari bawaan tidak menurunkan mutu",
+          _settle(100) == config.JS_SETTLE_MS, f"-> {_settle(100)}")
+    check("salah ketik tidak bisa menggantung eksekusi harian",
+          _settle(9_999_999) == config.JS_SETTLE_MAX,
+          f"-> {_settle(9_999_999)}")
+    check("nol dianggap tidak diisi", _settle(0) == config.JS_SETTLE_MS)
+
+    live = {t.slug: t for t in config.load_targets(ROOT / "targets" / "targets.yaml")}
+    salah = [t.slug for t in live.values()
+             if t.settle_ms and t.render != "js"]
+    check("settle_ms tidak dipasang pada target static (tidak ada gunanya)",
+          not salah, f"-> {salah}")
+
+
 def test_target_diagnosis() -> None:
     """Validator harus memberi tindakan, bukan sekadar angka."""
     print("\n6c. diagnosis target")
@@ -933,6 +964,7 @@ def main() -> int:
     test_corrections_log()
     test_model_tables()
     test_model_table_shapes()
+    test_settle_ms()
     test_target_diagnosis()
     test_one_request_per_page()
     test_change_classification()

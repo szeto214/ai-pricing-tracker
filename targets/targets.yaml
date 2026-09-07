@@ -12,6 +12,10 @@
 #   render    : static (default) | js  -> "js" hanya kalau harga benar-benar
 #               tidak muncul di HTML awal.
 #   currency  : mata uang utama yang ditampilkan halaman (perkiraan awal)
+#   settle_ms : hanya untuk render: js. Jeda tambahan setelah DOM siap, dalam
+#               milidetik, untuk halaman yang harganya baru muncul belakangan.
+#               Bawaan 2500, batas atas 20000. Isi HANYA kalau terbukti perlu —
+#               tiap milidetik di sini memperlambat eksekusi harian.
 #   enabled   : false untuk menonaktifkan sementara tanpa menghapus riwayat
 #   notes     : catatan bebas (mis. alasan dinonaktifkan)
 #
@@ -170,7 +174,8 @@ targets:
     category: ai-api
     url: https://groq.com/pricing
     render: js
-    notes: "validasi 27/08: 0.9 kB teks, harga dimuat lewat JS"
+    settle_ms: 9000
+    notes: "06/09: render js sudah dipakai tapi arsipnya tetap cangkang kosong. Jeda dinaikkan ke 9 detik; kalau besok masih kosong -> nonaktifkan seperti devin/windsurf."
 
   - slug: together-ai
     name: Together AI
@@ -253,6 +258,8 @@ targets:
     vendor: Render
     category: dev-infra
     url: https://render.com/pricing
+    render: js
+    notes: "06/09: arsip = cangkang SPA kosong (<200 byte). Belum pernah dicoba render JS — dicoba lewat pengambilan harian biasa, tanpa permintaan tambahan."
 
   - slug: fly-io
     name: Fly.io
@@ -350,7 +357,8 @@ targets:
     category: automation
     url: https://n8n.io/pricing/
     render: js
-    notes: "validasi 27/08: 15.9 kB teks tapi nol angka harga"
+    settle_ms: 9000
+    notes: "06/09: render js sudah dipakai tapi arsipnya tetap cangkang kosong. Jeda dinaikkan ke 9 detik; kalau besok masih kosong -> nonaktifkan seperti devin/windsurf."
 
   - slug: sentry
     name: Sentry
@@ -579,14 +587,14 @@ targets:
   - {slug: semgrep,      name: Semgrep,           vendor: Semgrep,      category: observability, url: "https://semgrep.dev/pricing/"}
   - {slug: tailscale,    name: Tailscale,         vendor: Tailscale,    category: dev-infra, url: "https://tailscale.com/pricing"}
   - {slug: onepassword,  name: 1Password,         vendor: AgileBits,    category: dev-infra, url: "https://1password.com/business-pricing"}
-  - {slug: bitwarden,    name: Bitwarden,         vendor: Bitwarden,    category: dev-infra, url: "https://bitwarden.com/pricing/", render: js}
+  - {slug: bitwarden,    name: Bitwarden,         vendor: Bitwarden,    category: dev-infra, url: "https://bitwarden.com/pricing/", render: js, settle_ms: 9000, notes: "06/09: render js sudah dipakai tapi arsipnya tetap cangkang kosong. Jeda dinaikkan ke 9 detik; kalau besok masih kosong -> nonaktifkan seperti devin/windsurf."}
 
   # ----- produktivitas & kolaborasi -----
-  - {slug: jira,         name: Jira,              vendor: Atlassian,    category: productivity, url: "https://www.atlassian.com/software/jira/pricing"}
-  - {slug: confluence,   name: Confluence,        vendor: Atlassian,    category: productivity, url: "https://www.atlassian.com/software/confluence/pricing"}
+  - {slug: jira,         name: Jira,              vendor: Atlassian,    category: productivity, url: "https://www.atlassian.com/software/jira/pricing", render: js, notes: "06/09: arsip = cangkang SPA kosong (<200 byte). Belum pernah dicoba render JS — dicoba lewat pengambilan harian biasa, tanpa permintaan tambahan."}
+  - {slug: confluence,   name: Confluence,        vendor: Atlassian,    category: productivity, url: "https://www.atlassian.com/software/confluence/pricing", render: js, notes: "06/09: arsip = cangkang SPA kosong (<200 byte). Belum pernah dicoba render JS — dicoba lewat pengambilan harian biasa, tanpa permintaan tambahan."}
   - {slug: miro,         name: Miro,              vendor: Miro,         category: productivity, url: "https://miro.com/pricing/"}
   - {slug: canva,        name: Canva,             vendor: Canva,        category: productivity, url: "https://www.canva.com/pricing/", enabled: false, notes: "validasi #3: HTTP 403 — bot diblokir"}
-  - {slug: loom,         name: Loom,              vendor: Atlassian,    category: productivity, url: "https://www.loom.com/pricing", render: js}
+  - {slug: loom,         name: Loom,              vendor: Atlassian,    category: productivity, url: "https://www.loom.com/pricing", render: js, settle_ms: 9000, notes: "06/09: render js sudah dipakai tapi arsipnya tetap cangkang kosong. Jeda dinaikkan ke 9 detik; kalau besok masih kosong -> nonaktifkan seperti devin/windsurf."}
   - {slug: calendly,     name: Calendly,          vendor: Calendly,     category: productivity, url: "https://calendly.com/pricing"}
   - {slug: typeform,     name: Typeform,          vendor: Typeform,     category: productivity, url: "https://www.typeform.com/pricing/"}
   - {slug: webflow,      name: Webflow,           vendor: Webflow,      category: productivity, url: "https://webflow.com/pricing"}

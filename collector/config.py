@@ -37,6 +37,10 @@ REQUEST_TIMEOUT = 30.0          # detik
 JS_TIMEOUT = 60.0               # detik, halaman render=js butuh lebih lama
 JS_SETTLE_MS = 2500             # jeda tetap setelah DOM siap, untuk harga
                                 # yang baru muncul setelah fetch klien
+# Batas atas untuk `settle_ms` per-target di targets.yaml. JS_TIMEOUT 60 detik
+# dipakai untuk memuat halaman; jeda sesudahnya tidak boleh sampai
+# menggantung eksekusi harian gara-gara salah ketik.
+JS_SETTLE_MAX = 20_000
 MAX_CONCURRENCY = 5             # permintaan paralel lintas host
 # APT_MIN_INTERVAL hanya untuk test lokal. JANGAN diturunkan di produksi.
 PER_HOST_MIN_INTERVAL = float(os.environ.get("APT_MIN_INTERVAL", "6.0"))
@@ -81,6 +85,7 @@ class Target:
     render: str = "static"
     currency: str = "USD"
     enabled: bool = True
+    settle_ms: int | None = None      # hanya untuk render: js
     notes: str = ""
     extra: dict = field(default_factory=dict)
 
@@ -138,6 +143,7 @@ def load_targets(path: Path | None = None) -> list[Target]:
             "render",
             "currency",
             "enabled",
+            "settle_ms",
             "notes",
         }
         extra = {k: v for k, v in merged.items() if k not in known}
@@ -151,6 +157,7 @@ def load_targets(path: Path | None = None) -> list[Target]:
                 render=merged.get("render", "static"),
                 currency=merged.get("currency", "USD"),
                 enabled=bool(merged.get("enabled", True)),
+                settle_ms=merged.get("settle_ms"),
                 notes=merged.get("notes", "") or "",
                 extra=extra,
             )

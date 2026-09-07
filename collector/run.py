@@ -35,7 +35,7 @@ async def process_target(target, *, client, robots, gate, sem, date, args) -> di
     async with sem:
         res = await fetcher.fetch(
             target.url, client=client, robots=robots, gate=gate,
-            render=target.render,
+            render=target.render, settle_ms=target.settle_ms,
         )
 
     entry["http_status"] = res.http_status

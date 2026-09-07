@@ -110,6 +110,7 @@ async def fetch(
     robots: RobotsCache,
     gate: HostGate,
     render: str = "static",
+    settle_ms: int | None = None,
 ) -> FetchResult:
     started = time.monotonic()
     host = urlsplit(url).netloc.lower()
@@ -129,7 +130,8 @@ async def fetch(
     gate.set_delay(host, float(delay) if delay else config.DEFAULT_CRAWL_DELAY)
 
     if render == "js":
-        return await _fetch_js(url, gate=gate, host=host, started=started, note=note)
+        return await _fetch_js(url, gate=gate, host=host, started=started,
+                               note=note, settle_ms=settle_ms)
 
     last_reason = ""
     for attempt in range(config.MAX_RETRIES + 1):
@@ -187,8 +189,16 @@ async def fetch(
                        elapsed_ms=_ms(started), robots_note=note)
 
 
+def _settle(settle_ms: int | None) -> int:
+    """Jeda setelah DOM siap. Dibatasi supaya salah ketik di targets.yaml
+    tidak bisa menggantung eksekusi harian sampai kena JS_TIMEOUT."""
+    if not settle_ms:
+        return config.JS_SETTLE_MS
+    return max(config.JS_SETTLE_MS, min(int(settle_ms), config.JS_SETTLE_MAX))
+
+
 async def _fetch_js(url: str, *, gate: HostGate, host: str, started: float,
-                    note: str) -> FetchResult:
+                    note: str, settle_ms: int | None = None) -> FetchResult:
     try:
         from playwright.async_api import async_playwright
     except Exception:  # noqa: BLE001
@@ -218,7 +228,11 @@ async def _fetch_js(url: str, *, gate: HostGate, host: str, started: float,
                     await page.wait_for_load_state("networkidle", timeout=8000)
                 except Exception:  # noqa: BLE001
                     pass
-                await page.wait_for_timeout(config.JS_SETTLE_MS)
+                # Sebagian situs butuh jeda lebih panjang daripada bawaan.
+                # Diberikan per-target lewat `settle_ms` di targets.yaml,
+                # supaya 139 target lain tidak ikut diperlambat.
+                await page.wait_for_timeout(
+                    _settle(settle_ms))
                 html = await page.content()
                 final = page.url
                 await browser.close()

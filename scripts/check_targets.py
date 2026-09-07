@@ -26,7 +26,8 @@ from collector import config, extract, fetcher, normalize  # noqa: E402
 async def check(target, *, client, robots, gate, sem) -> dict:
     async with sem:
         res = await fetcher.fetch(target.url, client=client, robots=robots,
-                                  gate=gate, render=target.render)
+                                  gate=gate, render=target.render,
+                                  settle_ms=target.settle_ms)
     row = {
         "slug": target.slug,
         "status": res.status,

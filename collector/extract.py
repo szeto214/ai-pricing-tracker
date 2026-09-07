@@ -53,6 +53,11 @@ _FREE_AT_TOP_RE = re.compile(r"\b(free|gratis)\b|\$\s?0(?:\.00)?\b", re.I)
 _FREE_TOP_CHARS = 100
 
 
+# "Free", "Free plan", "Free for 14 days" — nama yang menyatakan dirinya
+# gratis. Batas kata penting: "Freelancer" bukan pernyataan gratis.
+_FREE_NAME_RE = re.compile(r"^\s*(free|gratis)\b", re.I)
+
+
 def _free_in_price_slot(card_text: str) -> bool:
     """Kartu ini benar-benar menyatakan dirinya gratis?
 
@@ -352,6 +357,18 @@ def extract_dom(soup: BeautifulSoup) -> list[Plan]:
 
         name = _plan_name(card)
         if not name or name == "?":
+            continue
+        # Kartu yang namanya menyatakan gratis tapi berharga adalah kartu yang
+        # harganya terambil dari tetangganya. Ini pemeriksaan konsistensi di
+        # dalam SATU snapshot, bukan daftar kata terlarang: nama kartu
+        # bertentangan dengan angka kartu itu sendiri.
+        #
+        # Ditemukan 07/09 lewat Mailchimp: "Free for 14 days" kemarin Free,
+        # hari ini $20 — tercatat sebagai perubahan harga yang tidak pernah
+        # terjadi. Sapuan seluruh arsip menemukan 13 kartu serupa di 8 situs
+        # (airtable "Free" $20, github-copilot "Free plan" $15, newrelic
+        # "Free" $49), semuanya salah, dan semuanya bom waktu yang sama.
+        if _FREE_NAME_RE.match(name) and amount and amount > 0:
             continue
         plans.append(Plan(
             name=name,

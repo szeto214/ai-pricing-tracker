@@ -85,7 +85,19 @@ def diff_plans(old_plans: list[dict], new_plans: list[dict]) -> list[dict]:
 
     for key in old.keys() & new.keys():
         o, n = old[key], new[key]
-        if o.get("amount") != n.get("amount") or o.get("currency") != n.get("currency"):
+        # Harga bergerak = ANGKANYA berubah. Titik.
+        #
+        # Versi lama juga memicu saat mata uangnya berbeda walau angkanya sama
+        # persis. Pada 07/09 halaman Confluence mulai dirender JavaScript,
+        # ekstraktornya berpindah dari JSON-LD ke DOM, dan paket "Free" terbaca
+        # `0 (USD)` kemarin lalu `Free (mata uang tidak diketahui)` hari ini.
+        # Nol tetap nol — tapi tercatat sebagai perubahan harga.
+        #
+        # Mata uang yang berubah dari diketahui ke TIDAK diketahui adalah
+        # celah pembacaan, bukan peristiwa harga. Perpindahan mata uang yang
+        # sungguhan (USD -> EUR) tetap dicatat, terpisah, dan tidak dihitung
+        # sebagai perubahan harga.
+        if o.get("amount") != n.get("amount"):
             ev = {
                 "type": "price_changed",
                 "plan": n.get("name"),
@@ -102,6 +114,13 @@ def diff_plans(old_plans: list[dict], new_plans: list[dict]) -> list[dict]:
             except (TypeError, ValueError):
                 pass
             events.append(ev)
+        elif (o.get("currency") and n.get("currency")
+              and o.get("currency") != n.get("currency")):
+            events.append({
+                "type": "currency_changed", "plan": n.get("name"),
+                "from": o.get("currency"), "to": n.get("currency"),
+                "amount": n.get("amount"),
+            })
         elif o.get("period") != n.get("period"):
             events.append({
                 "type": "period_changed", "plan": n.get("name"),

@@ -608,6 +608,65 @@ def test_model_table_shapes() -> None:
           res2["models"] == [], f"-> {[m['model'] for m in res2['models']]}")
 
 
+def test_price_moves_need_a_moving_number() -> None:
+    """Mata uang berubah tapi angkanya sama = BUKAN perubahan harga.
+
+    07/09/2026: halaman Confluence mulai dirender JavaScript, ekstraktornya
+    berpindah dari JSON-LD ke DOM, dan paket "Free" terbaca `0 (USD)` kemarin
+    lalu `Free (mata uang tidak diketahui)` hari ini. Nol tetap nol — tapi
+    tercatat sebagai perubahan harga. Dari 123 catatan price_changed di arsip,
+    hanya inilah satu-satunya yang angkanya tidak bergerak.
+    """
+    print("\n6e. harga bergerak = angkanya berubah")
+    sama = diff_plans(
+        [{"name": "Free", "price_raw": "0", "amount": 0.0, "currency": "USD"}],
+        [{"name": "Free", "price_raw": "Free", "amount": 0.0, "currency": None}])
+    check("mata uang jadi tidak diketahui -> bukan peristiwa apa pun",
+          sama == [], f"-> {sama}")
+
+    pindah = diff_plans(
+        [{"name": "Pro", "price_raw": "$20", "amount": 20.0, "currency": "USD"}],
+        [{"name": "Pro", "price_raw": "€20", "amount": 20.0, "currency": "EUR"}])
+    check("USD -> EUR dengan angka sama -> currency_changed, bukan harga",
+          [e["type"] for e in pindah] == ["currency_changed"], f"-> {pindah}")
+
+    naik = diff_plans(
+        [{"name": "Pro", "price_raw": "$20", "amount": 20.0, "currency": "USD"}],
+        [{"name": "Pro", "price_raw": "$25", "amount": 25.0, "currency": "USD"}])
+    check("angka bergerak -> tetap price_changed",
+          [e["type"] for e in naik] == ["price_changed"], f"-> {naik}")
+
+
+def test_free_name_contradiction() -> None:
+    """Namanya bilang gratis, angkanya bilang berbayar — kartunya salah baca.
+
+    Ditemukan 07/09 lewat Mailchimp: "Free for 14 days" kemarin Free, hari ini
+    $20. Sapuan seluruh arsip menemukan 13 kartu serupa di 8 situs — airtable
+    "Free" $20, github-copilot "Free plan" $15, newrelic "Free" $49 — semuanya
+    salah, dan tiap satunya bom waktu yang sama.
+    """
+    print("\n6f. nama gratis vs angka berbayar")
+    html = """<!doctype html><html><body>
+      <div><h3>Free</h3><p>$0</p><ul><li>1 project</li></ul></div>
+      <div><h3>Free for 14 days</h3><p>$20<span>/month</span></p>
+           <ul><li>Trial banner</li></ul></div>
+      <div><h3>Freelancer</h3><p>$12<span>/month</span></p>
+           <ul><li>Paket sah, bukan pernyataan gratis</li></ul></div>
+      <div><h3>Pro</h3><p>$20<span>/month</span></p><ul><li>Semua</li></ul></div>
+    </body></html>"""
+    res = extract.extract("acme", normalize.process(html)["soup"], html)
+    by = {p["name"]: p for p in res["plans"]}
+    check("kartu 'Free for 14 days' seharga $20 dibuang",
+          "Free for 14 days" not in by, f"-> {sorted(by)}")
+    check("paket gratis sungguhan tetap ada",
+          by.get("Free", {}).get("amount") == 0.0, f"-> {by.get('Free')}")
+    check("'Freelancer' TIDAK ikut terbuang — batas kata dijaga",
+          by.get("Freelancer", {}).get("amount") == 12.0,
+          f"-> {by.get('Freelancer')}")
+    check("paket berbayar biasa tidak terpengaruh",
+          by.get("Pro", {}).get("amount") == 20.0)
+
+
 def test_settle_ms() -> None:
     """Jeda render per-target — untuk halaman yang lambat memunculkan harga.
 
@@ -964,6 +1023,8 @@ def main() -> int:
     test_corrections_log()
     test_model_tables()
     test_model_table_shapes()
+    test_price_moves_need_a_moving_number()
+    test_free_name_contradiction()
     test_settle_ms()
     test_target_diagnosis()
     test_one_request_per_page()

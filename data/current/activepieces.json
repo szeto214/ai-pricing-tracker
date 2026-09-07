@@ -6,39 +6,108 @@
   "url": "https://www.activepieces.com/pricing",
   "final_url": "https://www.activepieces.com/pricing",
   "parser_version": 3,
-  "content_hash": "9105bc926950796a65680780d247a855d680249ac4c620032f43a8fb27c7a37f",
-  "raw_hash": "4bbabb1e9abcb4efadfdee33910c2dfe64cad0492d877115f45fc67283a33054",
-  "text_bytes": 8757,
-  "extractor": "jsonld",
+  "content_hash": "94211e00f065438dc0141d46c2bb1c3aa6694564a786f987d5750dc6fbf45846",
+  "raw_hash": "fdd095228767276b960cabb39559418cc28f11c522e46487b6a8d4f9f910c08e",
+  "text_bytes": 5930,
+  "extractor": "dom",
   "confidence": "medium",
   "plans": [
     {
-      "name": "Plus plan",
-      "price_raw": "20",
-      "amount": 20.0,
+      "name": "Pays for itself by",
+      "price_raw": "$16",
+      "amount": 16.0,
       "currency": "USD",
       "period": null,
       "features": []
     },
     {
-      "name": "Team plan",
-      "price_raw": "200",
-      "amount": 200.0,
+      "name": "Free",
+      "price_raw": "$0",
+      "amount": 0.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [
+        "100 credits a day",
+        "Chat to automation",
+        "Unlimited flows",
+        "Flows, Agents, Tables",
+        "MCPs and API access"
+      ]
+    },
+    {
+      "name": "Plus",
+      "price_raw": "$16",
+      "amount": 16.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "10,000 credits a month",
+        "Then pay as you go",
+        "Up to 5 users",
+        "Bring your own AI keys"
+      ]
+    },
+    {
+      "name": "Team",
+      "price_raw": "$166",
+      "amount": 166.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "50,000 credits a month",
+        "Unlimited projects",
+        "25 users included",
+        "SSO and standard roles",
+        "Global connections",
+        "Email support"
+      ]
+    },
+    {
+      "name": "Price",
+      "price_raw": "$16",
+      "amount": 16.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Price $16/mo",
+        "Hosting Cloud or on-prem",
+        "How to buy Self-serve"
+      ]
+    },
+    {
+      "name": "Credits included",
+      "price_raw": "$0.007",
+      "amount": 0.007,
+      "currency": "USD",
+      "period": "credit",
+      "features": [
+        "Credits included 10,000 a month",
+        "Credit reset Monthly",
+        "Going over $0.007/credit"
+      ]
     }
   ],
   "models": [],
   "tables": [
     {
-      "caption": "Activepieces plan comparison",
+      "caption": "",
       "rows": [
         [
-          "Pricing"
+          "Features",
+          "Free Get started",
+          "Plus Get started",
+          "Team Get started",
+          "Ultimate Talk to sales"
         ],
         [
-          "Price",
+          "Pricing",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Price Billed annually",
           "$0",
           "$16/mo",
           "$166/mo",
@@ -52,38 +121,53 @@
           "Cloud or on-prem"
         ],
         [
-          "Credits"
+          "How to buy",
+          "Self-serve",
+          "Self-serve",
+          "Self-serve",
+          "Sales"
+        ],
+        [
+          "Credits",
+          "",
+          "",
+          "",
+          ""
         ],
         [
           "Credits included",
           "100 a day",
           "10,000 a month",
           "50,000 a month",
-          "Custom, pooled yearly"
+          "Sized with you"
         ],
         [
-          "What one credit buys",
-          "One full flow run",
-          "One full flow run",
-          "One full flow run",
-          "One full flow run"
+          "Credit reset",
+          "Daily",
+          "Monthly",
+          "Monthly",
+          "Yearly"
         ],
         [
-          "Past your allowance",
-          "Runs wait for tomorrow",
-          "$0.007 per extra credit",
-          "$0.007 per extra credit",
-          "Custom"
+          "Going over",
+          "Waits for tomorrow",
+          "$0.007/credit",
+          "$0.007/credit",
+          "Volume rates"
         ],
         [
-          "Limits"
+          "Limits",
+          "",
+          "",
+          "",
+          ""
         ],
         [
           "Users",
           "Just you",
           "Up to 5",
-          "25 included, then $25/user/mo",
-          "Custom"
+          "25 users",
+          "Unlimited"
         ],
         [
           "Flows",
@@ -93,184 +177,214 @@
           "Unlimited"
         ],
         [
-          "Products"
+          "Products",
+          "",
+          "",
+          "",
+          ""
         ],
         [
           "Flows",
-          "Included",
-          "Included",
-          "Included",
-          "Included"
+          "",
+          "",
+          "",
+          ""
         ],
         [
           "Agents and Chat",
-          "Included",
-          "Included",
-          "Included",
-          "Included"
+          "",
+          "",
+          "",
+          ""
         ],
         [
           "Tables",
-          "Included",
-          "Included",
-          "Included",
-          "Included"
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "MCPs",
+          "",
+          "",
+          "",
+          ""
         ],
         [
           "Projects",
-          "Not included",
-          "Not included",
+          "—",
+          "—",
           "Unlimited",
           "Unlimited"
         ],
         [
-          "MCPs",
-          "Included",
-          "Included",
-          "Included",
-          "Included"
-        ],
-        [
-          "Capabilities"
+          "Capabilities",
+          "",
+          "",
+          "",
+          ""
         ],
         [
           "Bring your own AI keys",
-          "Not included",
-          "Included",
-          "Included",
-          "Included"
+          "—",
+          "",
+          "",
+          ""
         ],
         [
           "Global connections",
-          "Not included",
-          "Not included",
-          "Included",
-          "Included"
+          "—",
+          "—",
+          "",
+          ""
         ],
         [
           "Team analytics",
-          "Included",
-          "Included",
-          "Included",
-          "Included"
+          "",
+          "",
+          "",
+          ""
         ],
         [
-          "API access",
-          "Included",
-          "Included",
-          "Included",
-          "Included"
+          "API and SDK",
+          "",
+          "",
+          "",
+          ""
         ],
         [
           "Releases and Git Sync",
-          "Not included",
-          "Not included",
-          "Not included",
-          "Included"
+          "—",
+          "—",
+          "—",
+          ""
         ],
         [
           "Priority execution",
-          "Not included",
-          "Not included",
-          "Not included",
-          "Included"
+          "—",
+          "—",
+          "—",
+          ""
         ],
         [
           "Per-project execution priority",
-          "Not included",
-          "Not included",
-          "Not included",
-          "Included"
+          "—",
+          "—",
+          "—",
+          ""
         ],
         [
-          "Enterprise features"
+          "Governance",
+          "",
+          "",
+          "",
+          ""
         ],
         [
           "SSO",
-          "Not included",
-          "Not included",
-          "Included",
-          "Included"
+          "—",
+          "—",
+          "",
+          ""
         ],
         [
           "Standard roles",
-          "Not included",
-          "Not included",
-          "Included",
-          "Included"
+          "—",
+          "—",
+          "",
+          ""
         ],
         [
           "SCIM",
-          "Not included",
-          "Not included",
-          "Not included",
-          "Included"
+          "—",
+          "—",
+          "—",
+          ""
         ],
         [
           "Custom RBAC",
-          "Not included",
-          "Not included",
-          "Not included",
-          "Included"
+          "—",
+          "—",
+          "—",
+          ""
         ],
         [
           "Secret managers",
-          "Not included",
-          "Not included",
-          "Not included",
-          "Included"
+          "—",
+          "—",
+          "—",
+          ""
         ],
         [
           "Audit logs",
-          "Not included",
-          "Not included",
-          "Not included",
-          "Included"
+          "—",
+          "—",
+          "—",
+          ""
         ],
         [
           "Event streaming",
-          "Not included",
-          "Not included",
-          "Not included",
-          "Included"
+          "—",
+          "—",
+          "—",
+          ""
         ],
         [
           "Private pieces",
-          "Not included",
-          "Not included",
-          "Not included",
-          "Included"
+          "—",
+          "—",
+          "—",
+          ""
+        ],
+        [
+          "Credit usage by project",
+          "—",
+          "—",
+          "—",
+          ""
         ],
         [
           "Branding",
-          "Not included",
-          "Not included",
-          "Not included",
-          "Included"
+          "—",
+          "—",
+          "—",
+          ""
         ],
         [
           "Platform governance",
-          "Not included",
-          "Not included",
-          "Not included",
-          "Included"
+          "—",
+          "—",
+          "—",
+          ""
         ],
         [
           "Custom terms and invoicing",
-          "Not included",
-          "Not included",
-          "Not included",
-          "Included"
+          "—",
+          "—",
+          "—",
+          ""
         ],
         [
-          "Support"
+          "Support",
+          "",
+          "",
+          "",
+          ""
         ],
         [
-          "Support by Humans",
+          "Support by humans",
           "Community",
           "Community",
           "Email",
           "Dedicated"
+        ],
+        [
+          "AI support",
+          "",
+          "",
+          "",
+          ""
         ]
       ]
     }

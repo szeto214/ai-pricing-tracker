@@ -6,9 +6,9 @@
   "url": "https://www.atlassian.com/software/jira/pricing",
   "final_url": "https://www.atlassian.com/software/jira/pricing",
   "parser_version": 3,
-  "content_hash": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
-  "raw_hash": "3319ded24fea908cbc7b9922c7053c8096c57d34994b5e141b2cf183b48934f5",
-  "text_bytes": 1,
+  "content_hash": "2948896e74b9cbc23710f4423ea49493497d5113441dd594cf19ae7cd2a3aa03",
+  "raw_hash": "582ccd6e1f126d4cb552d14ddd25b296e7d6c900f36d3b866b844c7c634ed29b",
+  "text_bytes": 27591,
   "extractor": "jsonld",
   "confidence": "medium",
   "plans": [
@@ -38,6 +38,539 @@
     }
   ],
   "models": [],
-  "tables": [],
+  "tables": [
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Project management essentials"
+        ],
+        [
+          "Unlimited goals Create goals to align teams and projects to desired outcomes.",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Unlimited work items In Jira, teams use issues to track individual pieces of work that must be completed. Depending on how your team uses Jira, an issue could r",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Unlimited spaces Jira Spaces are flexible containers that organize your work – whether they’re around a time-boxed project, a team, or a topic. For recommended ",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Unlimited forms Create dynamic forms with our drag-and-drop, user-friendly form builder so your teams can collect the data they need. Learn more about forms.",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Customizable workflows Every team has their own style for moving work from ‘to do’ to ‘done.’ Create a custom workflow that helps your team work as efficiently ",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Custom fields Capture the data your team needs by adding custom fields to work items, from text and dropdowns to dates, labels, and user pickers. Use them to tr",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Automation Automate tasks, processes, or agents in a few clicks. Create automation flows within a single space, across multiple spaces, or across all spaces on ",
+          "Free 150 automation steps per subscription per month",
+          "Standard 400 automation steps per user per month",
+          "Premium 750 automation steps per user per month",
+          "Enterprise 1,000 automation steps per user per month"
+        ],
+        [
+          "Templates Choose from a wide selection of templates based on your team function or use case. Templates include pre-configured work types, workflows, and other r",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Backlog view The backlog is a type of to-do list for your Jira work. Backlogs are dedicated views for keeping track of tasks that you want to do in the future. ",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "List view List view combines the intuitive nature of spreadsheets with the power of Jira. Add, update, sort, filter, group, and rank items with blazing speed us",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Board view Board view helps you track work all the way to completion through your team’s custom workflow. See assignees, statuses, and due dates at a glance. Le",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Timeline view Timeline view allows you to plan work, track progress, and map dependencies at a granular level within a single team or space. Learn more about ti",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Calendar view Calendar view allows you to manage tasks across schedules to meet your deadlines. You can also see the duration of calendar items from start date ",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Summary view The Summary view is your space’s central, customizable dashboard — see an overview of your work, pin the charts and widgets that matter most to you",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Reports and insights Build custom reports with 7+ chart types, count tiles, work item lists, and activity streams — or let AI create charts for you using natura",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Apps and integrations Connect Jira to the tools you already use. Improve your team's workflow with thousands of integrations and apps built for Jira. Learn more",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "iOS and Android apps",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "AI that understands your work"
+        ],
+        [
+          "Atlassian Rovo Turn knowledge into action across your work with Rovo, from finding answers to making decisions and moving work forward. Learn more about Rovo.",
+          "Free",
+          "Standard 25 Rovo credits per user per month 100 indexed objects per user",
+          "Premium 70 Rovo credits per user per month 250 indexed objects per user",
+          "Enterprise 150 Rovo credits per user per month 625 indexed objects per user"
+        ],
+        [
+          "Agents in Jira Turn plans into progress by assigning work to AI agents and tracking their progress alongside your team’s work in Jira. Learn more about agents i",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Teamwork Graph Connects work, code, people, decisions, and dependencies so agents have the context to deliver better results. Learn more about the Teamwork Grap",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Agent Sessions See what your agents did, what they need, and what is next. The Agent Sessions tab on your Jira For You page tracks all agent activity across spa",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Rovo Studio Build agents, automations, and apps in plain language, no code required. Studio assembles the right skills, context, and integrations with built-in ",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Rovo MCP Server Connect Jira, Confluence, Bitbucket, and more to Claude, ChatGPT, Cursor, VS Code, and other AI tools, so they act on your work with your existi",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Teamwork Graph CLI Give coding agents like Claude Code and Cursor connected context in the terminal, so they can traverse work, code, and decisions across your ",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Third-party agents Bring third-party agents into Jira alongside Rovo, including coding agents like Claude, Cursor, and GitHub Copilot. Assign them, mention them",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Bring all your teams into Jira"
+        ],
+        [
+          "User limit per site This is the maximum number of users or user licenses you can add to each Jira site.",
+          "Free 10 users",
+          "Standard 100,000 users",
+          "Premium 100,000 users",
+          "Enterprise 100,000 users"
+        ],
+        [
+          "Number of sites This is the number of sites (also called “instances”) you can license based on the subscription plan you choose. One site is typically enough fo",
+          "Free 1 site",
+          "Standard 1 site",
+          "Premium 1 site",
+          "Enterprise Up to 150"
+        ],
+        [
+          "Storage Products in the Jira suite and Confluence all come with their own file storage space. Learn more about storage.",
+          "Free 2 GB file storage",
+          "Standard 250 GB file storage",
+          "Premium Unlimited file storage",
+          "Enterprise Unlimited file storage"
+        ],
+        [
+          "Email notifications On the Free plan, Jira sends up to 100 emails per day across your entire site, counting notifications and automation together, to any recipi",
+          "Free 100 emails per day",
+          "Standard Unlimited",
+          "Premium Unlimited",
+          "Enterprise Unlimited"
+        ],
+        [
+          "User roles and permissions Assign roles to different users, like administrator or end-user. In the Free plan, every user is a admin. Different permissions apply",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Anonymous access Anonymous access lets people outside of your organization view and create work items without logging in. Allow external partners to see work in",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Free guest access Invite people outside your organization to collaborate on work as guests, at no extra cost and without using a paid seat.",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Simplify cross-functional work"
+        ],
+        [
+          "Advanced planning (Plans) Plans allow you to plan and track work across multiple teams and spaces. Designed for cross-functional visibility and collaboration, a",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Dependency management Dependencies show the relationship between work items in a project or plan. Dependencies within a single team or project can be visualized",
+          "Free Single Project",
+          "Standard Single Project",
+          "Premium Cross-project",
+          "Enterprise Cross-project"
+        ],
+        [
+          "Capacity management Plan individual capacity right where your work lives. Allocate each person's time to epics, tasks, or non-specific work like leave or KTLO, ",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Expandable Work Type Hierarchy Add custom levels above the standard epic level to track larger initiatives and connect work across spaces. Learn more about work",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Scenario Modeling Scenarios allow you to explore alternative paths for your plan, such as best case and worst case. This allows you to quickly assess the downst",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Approvals Add approval steps to your workflows to ensure that reviewers sign off on tasks before they’re advanced to the next stage. Learn more about approvals.",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Custom onboarding Custom onboarding enables admins to deliver personalized welcome experiences, embed relevant resources, and gain insights on user engagement i",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Scale on the Atlassian platform"
+        ],
+        [
+          "Teamwork Graph Connects work, code, people, decisions, and dependencies so agents have the context to deliver better results. Learn more about the Teamwork Grap",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Custom templates Create your own custom Jira space templates for both team-managed and company-managed spaces to scale standardized ways of working across your ",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Goals, projects, and communication Beta Share status updates on how projects and goals are progressing.",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Employee directory for people and teams Know who you’re working with and what they're working on.",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Automation Automate tasks, processes, or agents in a few clicks. Create automation flows within a single space, across multiple spaces, or across all spaces on ",
+          "Free 150 automation steps per subscription per month",
+          "Standard 400 automation steps per user per month",
+          "Premium 750 automation steps per user per month",
+          "Enterprise 1,000 automation steps per user per month"
+        ],
+        [
+          "Atlassian Analytics Build interactive, customizable charts, and dashboards across products and instances with a low- to no-code editor. Learn more about Atlassi",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Assets objects *Assets objects are available to Standard and Premium single-site customers. Rollout to additional customers is in progress.",
+          "Free",
+          "Standard 1,000 objects per month*",
+          "Premium 1,000 objects per month*",
+          "Enterprise 1,000 objects per month*"
+        ],
+        [
+          "Atlassian Data Lake Access fully modeled data across your Atlassian tools in one place. Learn more about Atlassian Data Lake.",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Data connectors Data connectors let you query your preferred non-Atlassian data source alongside Atlassian data for holistic insights. Learn more about data con",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Manage users & products"
+        ],
+        [
+          "Domain verification and account capture Domain verification lets an organization admin centrally manage all of the Atlassian accounts that use the company's dom",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Session duration management (desktop) Set an organization-wide session timeout for managed users across Atlassian cloud products.",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Atlassian Command-Line Interface Complete Jira tasks faster and with more control through a text-based interface that enables you to perform actions using comma",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Admin insights Gain visibility and a better understanding of your product usage with data such as level of security and access and activity over time.",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Sandbox Prepare, test, and experiment with products and apps before making changes to your production environment. The sandbox gives you a realistic understandi",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Release tracks Control when and how you release changes to users with release tracks. With options to control Atlassian cloud releases, release tracks make your",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Space archiving Archive inactive spaces and their associated work items to keep your site organized and focused on current work.",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "User counts User counts gives Atlassian admins visibility into how many users they are able to add to an Enterprise product; and conversely, user counts indicat",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Centralized user subscriptions With centralized user subscriptions, you can give a user entry into all sites (also called \"instances\") with a single license. Th",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Product requests Enable admins to manage how and when managed users create Atlassian products.",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Site Optimizer Monitor Jira data health from. a central hub, and take action on work item archival, custom-field cleanup, and unused space-role permissions.",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Security & Compliance"
+        ],
+        [
+          "AI governance Human-in-the-loop checkpoints, permission-aware context delivery, and a full audit trail for every agent action.",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Atlassian Guard Standard (SSO, SCIM, Active Directory Sync) Enforce single sign-on, provision users with SCIM and Active Directory Sync, manage mobile apps, gai",
+          "Free Requires Atlassian Guard Standard subscription",
+          "Standard Requires Atlassian Guard Standard subscription",
+          "Premium Requires Atlassian Guard Standard subscription",
+          "Enterprise Included"
+        ],
+        [
+          "Password policies Password policies help ensure best practices for user-created passwords in Atlassian cloud products. This helps reduce the risk of security br",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Encryption in transit and at rest All customer data stored within Atlassian cloud products and services is encrypted in transit over public networks using Trans",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Business continuity and disaster recovery Our Disaster Recovery Program consists of a few key practices to ensure the appropriate levels of governance, oversigh",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "MDM (Mobile Device Management) Enforce security controls on mobile app usage through mobile device management (MDM) support for iOS and Android. Learn more abou",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Audit logs - site changes Review site configuration changes, including changes to global permissions, to troubleshoot issues and maintain an audit record.",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Data residency Specify where you want your data hosted in Atlassian's global cloud footprint. This can help meet your corporate policies and compliance requirem",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Work item-level security Safe for every type of sensitive work, lock down work items so only specific users or user groups can see and edit information. Learn m",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "IP allowlisting Bolster your team’s security by limiting your site access to trusted IP ranges.",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Multiple IdP Support multiple identity providers for a single organization. Customers can now connect multiple identity providers to implement SAML SSO and SCIM",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Audit logs - user activity Comprehensive audit logging of user-initiated activity in Jira, including permission changes.",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Customer Support"
+        ]
+      ]
+    }
+  ],
   "extract_errors": []
 }

@@ -6,22 +6,473 @@
   "url": "https://www.atlassian.com/software/confluence/pricing",
   "final_url": "https://www.atlassian.com/software/confluence/pricing",
   "parser_version": 3,
-  "content_hash": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
-  "raw_hash": "911f2d5b480a2b9960b39174f1a810a66f4fa439ab7704e23d823890b86aa35a",
-  "text_bytes": 1,
-  "extractor": "jsonld",
-  "confidence": "low",
+  "content_hash": "33b243b40c73519f4ad63d5090e4e7941d6723c529ae763a7efba946b12b5c1b",
+  "raw_hash": "c9ce6ae13eba832e6f00b1fef023436dd743fec2ca147af6dd03d042e9b2308c",
+  "text_bytes": 23494,
+  "extractor": "dom",
+  "confidence": "medium",
   "plans": [
     {
       "name": "Free",
-      "price_raw": "0",
+      "price_raw": "Free",
       "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Standard",
+      "price_raw": "$5.42",
+      "amount": 5.42,
       "currency": "USD",
+      "period": "user",
+      "features": []
+    },
+    {
+      "name": "Premium",
+      "price_raw": "$10.44",
+      "amount": 10.44,
+      "currency": "USD",
+      "period": "user",
+      "features": []
+    },
+    {
+      "name": "Free",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Apps and integrations",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Page insights",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Product requests",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "IP allowlisting",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Guaranteed uptime SLA",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
       "period": null,
       "features": []
     }
   ],
   "models": [],
-  "tables": [],
+  "tables": [
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Core Features"
+        ],
+        [
+          "User limit per site This is the maximum number of users or user licenses you can add to each of your Confluence sites.",
+          "Free 10 users",
+          "Standard 250,000 users",
+          "Premium 250,000 users",
+          "Enterprise 250,000 users"
+        ],
+        [
+          "Number of sites This is the number of sites (also called “instances”) you can license based on the subscription plan you choose. One site is typically enough fo",
+          "Free One",
+          "Standard One",
+          "Premium One",
+          "Enterprise Up to 150"
+        ],
+        [
+          "Whiteboards Confluence whiteboards brings the flexibility of a digital whiteboard into your team workspace, allowing you to brainstorm, plan, and action work li",
+          "Free 3 active whiteboards per user",
+          "Standard 10 active whiteboards per user",
+          "Premium Unlimited",
+          "Enterprise Unlimited"
+        ],
+        [
+          "Automation Build flexible flows to reduce repetitive, manual tasks – from archiving content to notifying teams. Automation helps your teams save time, increase ",
+          "Free 50 automation steps per subscription per month",
+          "Standard 100 automation steps per user per month",
+          "Premium 250 automation steps per user per month",
+          "Enterprise 500 automation steps per user per month"
+        ],
+        [
+          "Unlimited spaces and pages Create as much content as your team needs with unlimited pages and spaces.",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Databases Confluence databases allow users to aggregate, structure, and connect information, driving consistency and visibility across teams. Learn more.",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Macros Macros add interactivity to your Confluence pages with extra functionality or dynamic content. For example, use the Jira Issues macro to attach live upda",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Structured page tree organization Organize the content in your pages easily with a hierarchy. Page tree hierarchies can make finding work quick.",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Page versioning Track and view the history of changes to each page, compare different versions, and roll back to a previous version if needed.",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Template library Use the template library for everything from product requirement documents to marketing plans. Or, create your own custom template.",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Apps and integrations",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Goals, projects, and communication Beta Share status updates on how projects and goals are progressing.",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Employee directory for people and teams Know who you’re working with and what they're working on.",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Space and page permissions Assign, revoke, and modify space or page permissions to individual users, groups, or anonymous users. The Free plan doesn’t allow per",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Archive and unarchive pages Archive outdated pages to keep page trees organized with relevant content. Access archived pages any time for historical context.",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Page insights Get engagement analytics on page views and user views.",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Atlassian Rovo Unlock knowledge, create together, and tackle the biggest challenges with Rovo Search, Chat, and specialized Agents. Learn more.",
+          "Free",
+          "Standard 25 Rovo credits per user per month 100 indexed objects per user",
+          "Premium 70 Rovo credits per user per month 250 indexed objects per user",
+          "Enterprise 150 Rovo credits per user per month 625 indexed objects per user"
+        ],
+        [
+          "Dynamic intranet Customize a dynamic info hub for your entire company with company hub, a single go-to destination for company news, announcements, and resource",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Analytics Analytics lets you see user engagement and make more informed decisions with filters for the site, space, and page levels.",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Inspect permissions Understand all active permissions for a specific user in one place so you can address issues quickly.",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Data & insights"
+        ],
+        [
+          "Atlassian Analytics Build interactive, customizable charts, and dashboards across products and instances with a low- to no-code editor. Learn more about Atlassi",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Atlassian Data Lake Access fully modeled data across your Atlassian tools in one place. Learn more about Atlassian Data Lake.",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Data connectors Query your preferred non-Atlassian data sources and visualize alongside Atlassian data for holistic insights. Learn more about data connectors.",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Admin controls"
+        ],
+        [
+          "Domain verification and account capture Domain verification lets an organization admin centrally manage all of the Atlassian accounts that use the company's dom",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Session duration management (desktop) Session duration management allows an organization admin to set a session timeout value different from the default policy ",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Admin key Admin key lets site admins diagnose problems faster with temporary access to restricted pages. Page authors receive an email when a site admin has use",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Announcement banner Create and manage critical announcements to ensure important messages are seen where your teams are actually working.",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Copy space permissions Copy permissions from one space to another to save time and prevent mistakes.",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Admin insights Confluence mission control allows product admins to quickly and easily access site-level insights and controls – all in one place. This includes ",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Sandbox Prepare, test, and experiment with products and apps before making changes to your production environment. The sandbox gives you a realistic understandi",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Release tracks Control when and how you release changes to users with release tracks. With options to control Atlassian cloud releases, release tracks make your",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Product requests Enable admins to manage how and when managed users create Atlassian products.",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "User counts User counts gives Atlassian admins visibility into how many users they are able to add to an Enterprise product; and conversely, user counts indicat",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Security & Compliance"
+        ],
+        [
+          "Atlassian Guard Standard (SSO, SCIM, mobile app management) Proactively protect your mission-critical work with advanced authentication controls and flexible se",
+          "Free Requires Atlassian Guard Standard subscription",
+          "Standard Requires Atlassian Guard Standard subscription",
+          "Premium Requires Atlassian Guard Standard subscription",
+          "Enterprise Included"
+        ],
+        [
+          "Atlassian Guard Premium (Data classification, threat detections, content scanning) Guard your top-priority projects with our most advanced security capabilities",
+          "Free Requires Atlassian Guard Premium subscription",
+          "Standard Requires Atlassian Guard Premium subscription",
+          "Premium Requires Atlassian Guard Premium subscription",
+          "Enterprise Requires Atlassian Guard Premium subscription"
+        ],
+        [
+          "Password policies Password policies help ensure best practices for user-created passwords in Atlassian cloud products. This helps reduce the risk of security br",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Encryption in transit and at rest All customer data stored within Atlassian cloud products and services is encrypted in transit over public networks using Trans",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Business continuity and disaster recovery Our Disaster Recovery Program consists of a few key practices to ensure the appropriate levels of governance, oversigh",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "MDM (Mobile Device Management) Enforce security controls on mobile app usage through built-in mobile device management (MDM) support for iOS and Android. Learn ",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Audit logs Audit logs let administrators look at changes made to your site. This is useful when you need to troubleshoot a problem or keep a record of important",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Data residency Specify where you want your data hosted in Atlassian's global cloud footprint. This can help meet your corporate policies and compliance requirem",
+          "Free",
+          "Standard Confluence & Jira only",
+          "Premium Confluence & Jira only",
+          "Enterprise Confluence & Jira only"
+        ],
+        [
+          "IP allowlisting Bolster your team’s security by limiting your site access to trusted IP ranges.",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Multiple idP Support multiple identity providers for a single organization. Customers can now connect multiple identity providers to implement SAML SSO and SCIM",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Audit logs for user activity Comprehensive audit logging of user-initiated activity in Confluence, including permission changes.",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Storage, Support & Invoicing"
+        ],
+        [
+          "Storage Products in the Jira suite and Confluence all come with their own file storage space. Learn more about storage.",
+          "Free 2 GB file storage",
+          "Standard 250 GB file storage",
+          "Premium Unlimited file storage",
+          "Enterprise Unlimited file storage"
+        ],
+        [
+          "Support",
+          "Free Community Support",
+          "Standard Local Business Hours",
+          "Premium 24/7 Premium Support",
+          "Enterprise 24/7 Enterprise Support"
+        ],
+        [
+          "Guaranteed uptime SLA",
+          "Free",
+          "Standard",
+          "Premium 99.9%",
+          "Enterprise 99.95%"
+        ],
+        [
+          "Centralized per-user licensing With centralized per-user licensing, you can give a user entry into all sites (also called \"instances\") with a single license. Ce",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "External Collaboration"
+        ],
+        [
+          "Public links Public links allow users to share a view-only version of a Confluence page with anyone on the internet via the unique Public Link URL. Easily copy ",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Guests For each paid user, admins can add up to five guests for no additional cost or licenses. There are no limits to how many spaces you can share or how many",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Anonymous access Anonymous access makes your Confluence site publicly available, enabling access to your content to users outside of your organization. Confluen",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ]
+      ]
+    }
+  ],
   "extract_errors": []
 }

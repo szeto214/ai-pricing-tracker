@@ -6,9 +6,9 @@
   "url": "https://slack.com/pricing",
   "final_url": "https://slack.com/pricing",
   "parser_version": 3,
-  "content_hash": "9ba5b3afec6c0f7ab94e22a2b847699393b074d18babbbb6f85e522a711261b3",
-  "raw_hash": "76d7f094ba8f9f3625f9be803de3062b955b32a39d2facb85955db33797d613f",
-  "text_bytes": 28797,
+  "content_hash": "2b76745fbd8d81f175c9224f7fce4520b6e7683256d87a763c5ca9435c059ae8",
+  "raw_hash": "a3356a6a56327e64c0985768679bfc0fed19abf53b8ea52ad7c8010de696acf7",
+  "text_bytes": 26781,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

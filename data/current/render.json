@@ -6,13 +6,613 @@
   "url": "https://render.com/pricing",
   "final_url": "https://render.com/pricing",
   "parser_version": 3,
-  "content_hash": "1178ea389eeb26444ec82e1d8dafe5944b5782536f09b4d72f71912208664cf1",
-  "raw_hash": "a24bdf8efc4bf04dc49d057f29e8e9d3885225dab7b8d582ef177319a482bb5b",
-  "text_bytes": 196,
-  "extractor": "none",
-  "confidence": "none",
-  "plans": [],
+  "content_hash": "02a000b0cdca859db72b6dba511f4b47bf8b4ec1bfe2c0beb777a434f5dd0e9e",
+  "raw_hash": "58e0beafbadf6575e972d6d4d287d44138a61183b4388930187cbc988c7fd0f4",
+  "text_bytes": 14828,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Private services",
+      "price_raw": "$0.25",
+      "amount": 0.25,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Private services",
+        "Web services with HTTP/2 and full TLS",
+        "Background workers",
+        "Node, Python, Go, Rust, Ruby, and Elixir",
+        "Custom Docker containers",
+        "SSDs for $0.25/GB per month"
+      ]
+    },
+    {
+      "name": "Free",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Less than 1 CPU",
+      "price_raw": "$7",
+      "amount": 7.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Fully managed PostgreSQL",
+      "price_raw": "$0.30",
+      "amount": 0.3,
+      "currency": "USD",
+      "period": null,
+      "features": [
+        "Fully managed PostgreSQL",
+        "Logical backup for paid instances",
+        "Connect from anywhere",
+        "Expandable storage ($0.30/GB)",
+        "1 GB SSD storage included",
+        "Point-in-time-recovery (PITR)"
+      ]
+    },
+    {
+      "name": "Less than 1 CPU",
+      "price_raw": "$6",
+      "amount": 6.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Less than 1 CPU",
+      "price_raw": "$19",
+      "amount": 19.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "1 CPU",
+      "price_raw": "$40",
+      "amount": 40.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "1 CPU",
+      "price_raw": "$55",
+      "amount": 55.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "2 CPU",
+      "price_raw": "$75",
+      "amount": 75.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "2 CPU",
+      "price_raw": "$100",
+      "amount": 100.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "2 CPU",
+      "price_raw": "$160",
+      "amount": 160.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "4 CPU",
+      "price_raw": "$200",
+      "amount": 200.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "4 CPU",
+      "price_raw": "$350",
+      "amount": 350.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "8 CPU",
+      "price_raw": "$400",
+      "amount": 400.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "8 CPU",
+      "price_raw": "$750",
+      "amount": 750.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "16 CPU",
+      "price_raw": "$800",
+      "amount": 800.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "16 CPU",
+      "price_raw": "$1,500",
+      "amount": 1500.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "32 CPU",
+      "price_raw": "$1,700",
+      "amount": 1700.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    }
+  ],
   "models": [],
-  "tables": [],
+  "tables": [
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Free ( limitations apply )",
+          "$0/month",
+          "512 MB RAM",
+          "free"
+        ],
+        [
+          "Less than 1 CPU",
+          "$7/month",
+          "512 MB RAM",
+          "0.5c-512mb"
+        ],
+        [
+          "1 CPU",
+          "$25/month",
+          "2 GB RAM",
+          "1c-2g"
+        ],
+        [
+          "2 CPU",
+          "$85/month",
+          "4 GB RAM",
+          "2c-4g"
+        ],
+        [
+          "2 CPU",
+          "$135/month",
+          "8 GB RAM",
+          "2c-8g"
+        ],
+        [
+          "2 CPU",
+          "$200/month",
+          "16 GB RAM",
+          "2c-16g"
+        ],
+        [
+          "4 CPU",
+          "$175/month",
+          "8 GB RAM",
+          "4c-8g"
+        ],
+        [
+          "4 CPU",
+          "$225/month",
+          "16 GB RAM",
+          "4c-16g"
+        ],
+        [
+          "4 CPU",
+          "$350/month",
+          "32 GB RAM",
+          "4c-32g"
+        ],
+        [
+          "8 CPU",
+          "$300/month",
+          "16 GB RAM",
+          "8c-16g"
+        ],
+        [
+          "8 CPU",
+          "$450/month",
+          "32 GB RAM",
+          "8c-32g"
+        ],
+        [
+          "8 CPU",
+          "$1,000/month",
+          "64 GB RAM",
+          "8c-64g"
+        ],
+        [
+          "12 CPU",
+          "$450/month",
+          "24 GB RAM",
+          "12c-24g"
+        ],
+        [
+          "12 CPU",
+          "$800/month",
+          "48 GB RAM",
+          "12c-48g"
+        ],
+        [
+          "12 CPU",
+          "$1,500/month",
+          "96 GB RAM",
+          "12c-96g"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Free ( limitations apply )",
+          "$0/month",
+          "256 MB RAM",
+          "100 connections",
+          "free"
+        ],
+        [
+          "Less than 1 CPU",
+          "$6/month",
+          "256 MB RAM",
+          "100 connections",
+          "0.1c-256mb"
+        ],
+        [
+          "Less than 1 CPU",
+          "$19/month",
+          "1 GB RAM",
+          "100 connections",
+          "0.5c-1g"
+        ],
+        [
+          "1 CPU",
+          "$40/month",
+          "2GB RAM",
+          "100 connections",
+          "1c-2g"
+        ],
+        [
+          "1 CPU",
+          "$55/month",
+          "4GB RAM",
+          "100 connections",
+          "1c-4g"
+        ],
+        [
+          "2 CPU",
+          "$75/month",
+          "4GB RAM",
+          "100 connections",
+          "2c-4g"
+        ],
+        [
+          "2 CPU",
+          "$100/month",
+          "8GB RAM",
+          "200 connections",
+          "2c-8g"
+        ],
+        [
+          "2 CPU",
+          "$160/month",
+          "16GB RAM",
+          "400 connections",
+          "2c-16g"
+        ],
+        [
+          "4 CPU",
+          "$200/month",
+          "16GB RAM",
+          "400 connections",
+          "4c-16g"
+        ],
+        [
+          "4 CPU",
+          "$350/month",
+          "32GB RAM",
+          "500 connections",
+          "4c-32g"
+        ],
+        [
+          "8 CPU",
+          "$400/month",
+          "32GB RAM",
+          "500 connections",
+          "8c-32g"
+        ],
+        [
+          "8 CPU",
+          "$750/month",
+          "64GB RAM",
+          "500 connections",
+          "8c-64g"
+        ],
+        [
+          "16 CPU",
+          "$800/month",
+          "64GB RAM",
+          "500 connections",
+          "16c-64g"
+        ],
+        [
+          "16 CPU",
+          "$1,500/month",
+          "128GB RAM",
+          "500 connections",
+          "16c-128g"
+        ],
+        [
+          "32 CPU",
+          "$1,700/month",
+          "128GB RAM",
+          "500 connections",
+          "32c-128g"
+        ],
+        [
+          "32 CPU",
+          "$2,500/month",
+          "256GB RAM",
+          "500 connections",
+          "32c-256g"
+        ],
+        [
+          "48 CPU",
+          "$2,500/month",
+          "192GB RAM",
+          "500 connections",
+          "48c-192g"
+        ],
+        [
+          "48 CPU",
+          "$4,500/month",
+          "384GB RAM",
+          "500 connections",
+          "48c-384g"
+        ],
+        [
+          "64 CPU",
+          "$3,000/month",
+          "256GB RAM",
+          "500 connections",
+          "64c-256g"
+        ],
+        [
+          "64 CPU",
+          "$6,000/month",
+          "512GB RAM",
+          "500 connections",
+          "64c-512g"
+        ],
+        [
+          "96 CPU",
+          "$4,600/month",
+          "384GB RAM",
+          "500 connections",
+          "96c-384g"
+        ],
+        [
+          "96 CPU",
+          "$9,000/month",
+          "768GB RAM",
+          "500 connections",
+          "96-768g"
+        ],
+        [
+          "128 CPU",
+          "$6,200/month",
+          "512GB RAM",
+          "500 connections",
+          "128c-512g"
+        ],
+        [
+          "128 CPU",
+          "$11,000/month",
+          "1024GB RAM",
+          "500 connections",
+          "128c-1024g"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Free ( limitations apply )",
+          "Free",
+          "25 MB RAM",
+          "50 connections",
+          "free"
+        ],
+        [
+          "Standard CPU",
+          "$10/month",
+          "256 MB RAM",
+          "250 connections",
+          "256mb"
+        ],
+        [
+          "Standard CPU",
+          "$32/month",
+          "1 GB RAM",
+          "1,000 connections",
+          "1g"
+        ],
+        [
+          "Standard CPU",
+          "$135/month",
+          "5 GB RAM",
+          "5,000 connections",
+          "5g"
+        ],
+        [
+          "High CPU",
+          "$250/month",
+          "10 GB RAM",
+          "10,000 connections",
+          "10g"
+        ],
+        [
+          "High CPU",
+          "$550/month",
+          "20 GB RAM",
+          "20,000 connections",
+          "20g"
+        ],
+        [
+          "High CPU",
+          "$1100/month",
+          "40 GB RAM",
+          "40,000 connections",
+          "40g"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Less than 1 CPU",
+          "$0.00016/minute",
+          "512 MB RAM",
+          "0.5c-512mb"
+        ],
+        [
+          "1 CPU",
+          "$0.00058/minute",
+          "2 GB RAM",
+          "1c-2g"
+        ],
+        [
+          "2 CPU",
+          "$0.00197/minute",
+          "4 GB RAM",
+          "2c-4g"
+        ],
+        [
+          "2 CPU",
+          "$0.00313/minute",
+          "8 GB RAM",
+          "2c-8g"
+        ],
+        [
+          "2 CPU",
+          "$0.00463/minute",
+          "16 GB RAM",
+          "2c-16g"
+        ],
+        [
+          "4 CPU",
+          "$0.00405/minute",
+          "8 GB RAM",
+          "4c-8g"
+        ],
+        [
+          "4 CPU",
+          "$0.00521/minute",
+          "16 GB RAM",
+          "4c-16g"
+        ],
+        [
+          "4 CPU",
+          "$0.00810/minute",
+          "32 GB RAM",
+          "4c-32g"
+        ],
+        [
+          "8 CPU",
+          "$0.00694/minute",
+          "16 GB RAM",
+          "8c-16g"
+        ],
+        [
+          "8 CPU",
+          "$0.01042/minute",
+          "32 GB RAM",
+          "8c-32g"
+        ],
+        [
+          "8 CPU",
+          "$0.02315/minute",
+          "64 GB RAM",
+          "8c-64g"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Up to 1 CPU",
+          "$0.20 / active CPU hour; $0.05 / active GB hour",
+          "Up to 4GB RAM",
+          "flex"
+        ],
+        [
+          "Less than 1 CPU",
+          "$0.05/hour",
+          "512 MB RAM",
+          "starter"
+        ],
+        [
+          "1 CPU",
+          "$0.20/hour",
+          "2 GB RAM",
+          "standard"
+        ],
+        [
+          "2 CPU",
+          "$0.40/hour",
+          "4 GB RAM",
+          "2c-4g"
+        ],
+        [
+          "2 CPU",
+          "$0.70/hour",
+          "8 GB RAM",
+          "2c-8g"
+        ],
+        [
+          "4 CPU",
+          "$1.00/hour",
+          "8 GB RAM",
+          "4c-8g"
+        ],
+        [
+          "4 CPU",
+          "$1.50/hour",
+          "16 GB RAM",
+          "4c-16g"
+        ]
+      ]
+    }
+  ],
   "extract_errors": []
 }

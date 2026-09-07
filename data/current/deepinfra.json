@@ -6,16 +6,16 @@
   "url": "https://deepinfra.com/pricing",
   "final_url": "https://deepinfra.com/pricing",
   "parser_version": 3,
-  "content_hash": "3dc47e166756f99436a9041ad730765bf5af34c0d3b9739557c3479d1c15d35e",
-  "raw_hash": "6416b0b22d276902686e3664817277cded9cecac7a7603ea1b19c11af06645cf",
-  "text_bytes": 16858,
+  "content_hash": "af9570f3b1b1d36612016fd5a65d957dd9188113513ebd2ed6ca6d37c77626cc",
+  "raw_hash": "725233d0a544d41b0e9cfeee5a36b62e7ba5d8e372193b26e6999f42b2514c14",
+  "text_bytes": 16841,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
     {
       "name": "DeepSeek-V4-Flash-0731",
-      "price_raw": "$0.08",
-      "amount": 0.08,
+      "price_raw": "$0.06",
+      "amount": 0.06,
       "currency": "USD",
       "period": null,
       "features": []
@@ -99,8 +99,8 @@
       "model": "DeepSeek-V4-Flash-0731",
       "prices": {
         "$ per 1m input tokens": {
-          "raw": "$0.08",
-          "amount": 0.08
+          "raw": "$0.06",
+          "amount": 0.06
         },
         "$ per 1m output tokens": {
           "raw": "$0.18",
@@ -653,7 +653,7 @@
         [
           "DeepSeek-V4-Flash-0731",
           "1024k",
-          "$0.08 / $0.016 cached",
+          "$0.06 / $0.015 cached",
           "$0.18",
           "View more"
         ],
@@ -721,7 +721,7 @@
         [
           "DeepSeek-V4-Flash-0731",
           "1024k",
-          "$0.08 / $0.016 cached",
+          "$0.06 / $0.015 cached",
           "$0.18",
           "View more"
         ],

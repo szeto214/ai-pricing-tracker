@@ -3,9 +3,912 @@ Apply now
 Migrate to Render
 Sign In
 Get Started
+Predictable pricing that scales with you.
+Jump to
+workspace plans
+,
+compute pricing
+, and
+FAQs
+.
+Are you a VC-funded startup? Get up to $100K in credits with
+Render for Startups ↗
+Looking to migrate? We can help and you can get up to $10K in credits.
+Sign up now ↗
 Workspace Plans
+Hobby
+Pro
+Scale
+Enterprise
+For individuals building personal projects and prototypes.
+$
+0
+/mo
++ compute
+For teams deploying production-grade apps and agents.
+$
+25
+/mo
++ compute
+For teams that need advanced governance and compliance.
+$
+499
+/mo
++ compute
+For teams that need dedicated support and uptime SLAs.
+Custom pricing
+Deploy for free
+Start with Pro
+Start with Scale
+Get in touch
+Connect your repo, and go
+Deploy up to 25 services
+5 GB of bandwidth included
+Single-service previews
+Global regions & CDN
+Custom domains
+Firewall & DDoS mitigation
+Database PITR
+Chat support
+All Hobby features, plus:
+Unlimited seats & services
+25 GB bandwidth included
+Full-stack previews
+Horizontal autoscaling
+Isolated environments
+OIDC authentication
+AWS Private Links
+Workspace audit logs
+All Pro features, plus:
+Multiple workspaces
+1 TB of bandwidth included
+Extended metrics retention
+Inbound IP rules
+HIPAA-compliant workspaces
+SAML SSO & SCIM
+Advanced RBAC roles
+Organization audit logs
+All Scale features, plus:
+Contractual uptime SLAs
+Technical account manager
+Support Slack channel
+Support response SLAs
+Hobby
+For individuals building personal projects and prototypes.
+$
+0
+/mo
++ compute
+Deploy for free
+Pro
+For teams deploying production-grade apps and agents.
+$
+25
+/mo
++ compute
+Start with Pro
+Scale
+For teams that need advanced governance and compliance.
+$
+499
+/mo
++ compute
+Start with Scale
+Enterprise
+For teams that need dedicated support and uptime SLAs.
+Custom pricing
+Get in touch
 Plan Details and Features Prompt
+Compare all workspace features
 Compute
+Compute
+Deploy for free, scale compute as you need.
+Services & Workers
+Scale up to
+12
+CPU and
+96
+GB of RAM
+Private services
+Web services with HTTP/2 and full TLS
+Background workers
+Node, Python, Go, Rust, Ruby, and Elixir
+Custom Docker containers
+SSDs
+for $0.25/GB per month
+Free
+(
+limitations apply
+)
+$0/month
+512 MB RAM
+free
+Less than 1 CPU
+$7/month
+512 MB RAM
+0.5c-512mb
+1 CPU
+$25/month
+2 GB RAM
+1c-2g
+2 CPU
+$85/month
+4 GB RAM
+2c-4g
+2 CPU
+$135/month
+8 GB RAM
+2c-8g
+2 CPU
+$200/month
+16 GB RAM
+2c-16g
+4 CPU
+$175/month
+8 GB RAM
+4c-8g
+4 CPU
+$225/month
+16 GB RAM
+4c-16g
+4 CPU
+$350/month
+32 GB RAM
+4c-32g
+8 CPU
+$300/month
+16 GB RAM
+8c-16g
+8 CPU
+$450/month
+32 GB RAM
+8c-32g
+8 CPU
+$1,000/month
+64 GB RAM
+8c-64g
+12 CPU
+$450/month
+24 GB RAM
+12c-24g
+12 CPU
+$800/month
+48 GB RAM
+12c-48g
+12 CPU
+$1,500/month
+96 GB RAM
+12c-96g
+Expand compute table
+Postgres
+Scale up to
+128
+CPU and
+1024
+GB of RAM
+Fully managed PostgreSQL
+Logical backup for paid instances
+Connect from anywhere
+Expandable storage ($0.30/GB)
+1 GB SSD storage included
+Point-in-time-recovery (PITR)
+Free
+(
+limitations apply
+)
+$0/month
+256 MB RAM
+100 connections
+free
+Less than 1 CPU
+$6/month
+256 MB RAM
+100 connections
+0.1c-256mb
+Less than 1 CPU
+$19/month
+1 GB RAM
+100 connections
+0.5c-1g
+1 CPU
+$40/month
+2GB RAM
+100 connections
+1c-2g
+1 CPU
+$55/month
+4GB RAM
+100 connections
+1c-4g
+2 CPU
+$75/month
+4GB RAM
+100 connections
+2c-4g
+2 CPU
+$100/month
+8GB RAM
+200 connections
+2c-8g
+2 CPU
+$160/month
+16GB RAM
+400 connections
+2c-16g
+4 CPU
+$200/month
+16GB RAM
+400 connections
+4c-16g
+4 CPU
+$350/month
+32GB RAM
+500 connections
+4c-32g
+8 CPU
+$400/month
+32GB RAM
+500 connections
+8c-32g
+8 CPU
+$750/month
+64GB RAM
+500 connections
+8c-64g
+16 CPU
+$800/month
+64GB RAM
+500 connections
+16c-64g
+16 CPU
+$1,500/month
+128GB RAM
+500 connections
+16c-128g
+32 CPU
+$1,700/month
+128GB RAM
+500 connections
+32c-128g
+32 CPU
+$2,500/month
+256GB RAM
+500 connections
+32c-256g
+48 CPU
+$2,500/month
+192GB RAM
+500 connections
+48c-192g
+48 CPU
+$4,500/month
+384GB RAM
+500 connections
+48c-384g
+64 CPU
+$3,000/month
+256GB RAM
+500 connections
+64c-256g
+64 CPU
+$6,000/month
+512GB RAM
+500 connections
+64c-512g
+96 CPU
+$4,600/month
+384GB RAM
+500 connections
+96c-384g
+96 CPU
+$9,000/month
+768GB RAM
+500 connections
+96-768g
+128 CPU
+$6,200/month
+512GB RAM
+500 connections
+128c-512g
+128 CPU
+$11,000/month
+1024GB RAM
+500 connections
+128c-1024g
+Expand compute table
+Key Value
+Scale up to
+40
+GB of RAM
+Fully managed Redis-compatible storage
+Connect from anywhere
+Disk-backed persistence on paid plans
+Maximize availability by queueing jobs
+Reduce primary DB's load
+Cache pages, results, fragments
+Free
+(
+limitations apply
+)
+Free
+25 MB RAM
+50 connections
+free
+Standard CPU
+$10/month
+256 MB RAM
+250 connections
+256mb
+Standard CPU
+$32/month
+1 GB RAM
+1,000 connections
+1g
+Standard CPU
+$135/month
+5 GB RAM
+5,000 connections
+5g
+High CPU
+$250/month
+10 GB RAM
+10,000 connections
+10g
+High CPU
+$550/month
+20 GB RAM
+20,000 connections
+20g
+High CPU
+$1100/month
+40 GB RAM
+40,000 connections
+40g
+Expand compute table
+Cron Jobs
+Scale up to
+8
+CPU and
+64
+GB of RAM
+Run any command or script periodically
+Failure notifications
+Full support for cron expressions
+Prorated by the second
+Live cron job logs
+Less than 1 CPU
+$0.00016/minute
+512 MB RAM
+0.5c-512mb
+1 CPU
+$0.00058/minute
+2 GB RAM
+1c-2g
+2 CPU
+$0.00197/minute
+4 GB RAM
+2c-4g
+2 CPU
+$0.00313/minute
+8 GB RAM
+2c-8g
+2 CPU
+$0.00463/minute
+16 GB RAM
+2c-16g
+4 CPU
+$0.00405/minute
+8 GB RAM
+4c-8g
+4 CPU
+$0.00521/minute
+16 GB RAM
+4c-16g
+4 CPU
+$0.00810/minute
+32 GB RAM
+4c-32g
+8 CPU
+$0.00694/minute
+16 GB RAM
+8c-16g
+8 CPU
+$0.01042/minute
+32 GB RAM
+8c-32g
+8 CPU
+$0.02315/minute
+64 GB RAM
+8c-64g
+Expand compute table
+Workflows
+Scale up to
+4
+CPU and
+16
+GB of RAM
+Fully managed durable execution
+Sub-second task spin-up
+Automatic task retries
+Run up to 10,000 CPUs of parallel task compute
+Up to 1 CPU
+$0.20 / active CPU hour; $0.05 / active GB hour
+Up to 4GB RAM
+flex
+Less than 1 CPU
+$0.05/hour
+512 MB RAM
+starter
+1 CPU
+$0.20/hour
+2 GB RAM
+standard
+2 CPU
+$0.40/hour
+4 GB RAM
+2c-4g
+2 CPU
+$0.70/hour
+8 GB RAM
+2c-8g
+4 CPU
+$1.00/hour
+8 GB RAM
+4c-8g
+4 CPU
+$1.50/hour
+16 GB RAM
+4c-16g
+Expand compute table
+Static Sites
+Always free to deploy
+Lightning-fast CDN
+Automatic continuous deploys from Git
+Instant cache invalidation
+Custom domains with fully managed TLS
 Features
+Workspace features
+Compare features across workspace plans.
+Hobby
+Pro
+Scale
+Enterprise
+Render Services & Storage
+Compute
+Render services run on compute.
+See compute pricing for details
+.
+Maximum services
+25
+Unlimited
+Unlimited
+Unlimited
+Static Sites
+Standard services
+Web services
+Private services
+Background workers
+Persistent disks
+$0.25 per GB per month
+$0.25 per GB per month
+$0.25 per GB per month
+$0.25 per GB per month
+Postgres databases
+Expandable storage
+$0.30 per GB
+$0.30 per GB
+$0.30 per GB
+$0.30 per GB
+Point-in-time recovery window
+3 days
+7 days
+7 days
+7 days
+Read-only replicas
+High availability
+Key-value (Redis-compatible)
+Cron jobs
+Workflows
+Concurrent task runs
+20 task runs
+50 task runs
+then $10/mo per 50
+100 task runs
+then $10/mo per 50
+Custom
+Task compute plans
+Up to Pro
+Up to Pro Ultra
+Up to Pro Ultra
+Custom
+Service scaling
+Vertical scaling
+Horizontal autoscaling
+—
+Networking
+Automatic private networking
+Bandwidth
+5 GB included per month
+then $0.15 per GB
+25 GB included per month
+then $0.15 per GB
+1 TB included per month
+then $0.15 per GB
+Custom
+Global regions
+Zero-config CDN
+Edge caching for web services
+Custom domains
+2 included
+then $0.25/domain/month
+15 included
+then $0.25/domain/month
+25 included
+then $0.25/domain/month
+Custom
+Automatic TLS
+Wildcard domains
+WebSockets
+Service discovery
+Dedicated IPs
+—
+$100 per month
+for each IP set
+$100 per month
+for each IP set
+Custom
+AWS private links
+—
+$30 per month
+Includes up to 3 links
+$30 per month
+Includes up to 3 links
+Custom
+Private link outbound bandwidth
+—
+$0.03 per GB
+$0.03 per GB
+Custom
+Protection
+Automatic DDoS mitigation
+Firewall
+HTTPS only
+Inbound IP rules
+Datastores only
+Postgres and Key Value
+Datastores only
+Postgres and Key Value
+Network-isolated environments
+—
+Build & Deploy
+Automatic builds
+Standard build pipeline
+500 mins per month
+then $5 per 1K mins
+1K mins per month
+then $5 per 1K mins
+5K mins per workspace per mo.
+then $5 per 1K mins
+Custom
+Performance build pipeline
+—
+$25 per 1000 mins
+$25 per 1000 mins
+Custom
+Native runtimes
+Docker builds
+Environment variables & secret files
+Monorepo support
+Previews
+Single-service previews
+Full-stack preview environments
+—
+Deploy orchestration
+Auto-deploys
+Zero-downtime deploys
+Deploy hooks
+Pre-deploy command
+Instant rollbacks
+5 builds retained
+15 builds retained
+30 builds retained
+30 builds retained
+Projects
+Unlimited
+Unlimited
+Unlimited
+Unlimited
+Environments
+2 per project
+Unlimited
+Unlimited
+Unlimited
+Protected environments
+Infrastructure as code
+Monitoring
+SSH access
+Health checks
+Service metrics
+Notifications
+Log retention
+7 days
+14 days
+30 days
+30 days
+Log streams
+HTTP request logs
+—
+OpenTelemetry metrics stream
+—
+Platform Access & Security
+Team seats
+1
+Unlimited
+Unlimited
+Unlimited
+Workspaces
+1
+1
+Unlimited
+Unlimited
+2FA & Google login
+Enforce 2FA & Google login
+—
+Workspace user roles
+—
+Admin, Developer
+Admin, Developer, Contributor, Viewer, Billing
+Admin, Developer, Contributor, Viewer, Billing
+Organization user roles
+—
+—
+Owner, Member, Guest
+Owner, Member, Guest
+SAML SSO
+—
+—
+SCIM
+—
+—
+OIDC authentication
+—
+Audit logs
+—
+Workspace
+Workspace and organization
+Workspace and organization
+Compliance
+GDPR DPA
+SOC 2 Type II
+ISO 27001
+SOC 2 & ISO documentation
+—
+HIPAA BAA
+—
+—
+20% compute premium for enabled workspaces
+20% compute premium for enabled workspaces
+Support
+Community
+Email
+Chat
+Premium support
+—
+Add-on
+Add-on
+Private Slack channel
+—
+Add-on
+Add-on
+Dedicated technical account manager
+—
+Add-on
+Add-on
+Support response SLAs
+—
+Add-on
+Add-on
+Migration assistance & architecture review
+—
+Add-on
+Add-on
+Compare Pricing
+Find the plan that meets your needs.
+Select Plan
+Hobby
+Pro
+Scale
+Enterprise
+Start deploying
+Render Services & Storage
+Compute
+Render services run on compute.
+See compute pricing for details
+.
+Maximum services
+25
+Static Sites
+Standard services
+Web services
+Private services
+Background workers
+Persistent disks
+$0.25 per GB per month
+Postgres databases
+Expandable storage
+$0.30 per GB
+Point-in-time recovery window
+3 days
+Read-only replicas
+High availability
+Key-value (Redis-compatible)
+Cron jobs
+Workflows
+Concurrent task runs
+20 task runs
+Task compute plans
+Up to Pro
+Service scaling
+Vertical scaling
+Horizontal autoscaling
+—
+Networking
+Automatic private networking
+Bandwidth
+5 GB included per month
+then $0.15 per GB
+Global regions
+Zero-config CDN
+Edge caching for web services
+Custom domains
+2 included
+then $0.25/domain/month
+Automatic TLS
+Wildcard domains
+WebSockets
+Service discovery
+Dedicated IPs
+—
+AWS private links
+—
+Private link outbound bandwidth
+—
+Protection
+Automatic DDoS mitigation
+Firewall
+HTTPS only
+Inbound IP rules
+Datastores only
+Postgres and Key Value
+Network-isolated environments
+—
+Build & Deploy
+Automatic builds
+Standard build pipeline
+500 mins per month
+then $5 per 1K mins
+Performance build pipeline
+—
+Native runtimes
+Docker builds
+Environment variables & secret files
+Monorepo support
+Previews
+Single-service previews
+Full-stack preview environments
+—
+Deploy orchestration
+Auto-deploys
+Zero-downtime deploys
+Deploy hooks
+Pre-deploy command
+Instant rollbacks
+5 builds retained
+Projects
+Unlimited
+Environments
+2 per project
+Protected environments
+Infrastructure as code
+Monitoring
+SSH access
+Health checks
+Service metrics
+Notifications
+Log retention
+7 days
+Log streams
+HTTP request logs
+—
+OpenTelemetry metrics stream
+—
+Platform Access & Security
+Team seats
+1
+Workspaces
+1
+2FA & Google login
+Enforce 2FA & Google login
+—
+Workspace user roles
+—
+Organization user roles
+—
+SAML SSO
+—
+SCIM
+—
+OIDC authentication
+—
+Audit logs
+—
+Compliance
+GDPR DPA
+SOC 2 Type II
+ISO 27001
+SOC 2 & ISO documentation
+—
+HIPAA BAA
+—
+Support
+Community
+Email
+Chat
+Premium support
+—
+Private Slack channel
+—
+Dedicated technical account manager
+—
+Support response SLAs
+—
+Migration assistance & architecture review
+—
 FAQ
+Frequently Asked Questions
+How does billing work?
+Render charges for three things: your workspace plan (flat subscription), metered features like bandwidth (usage-based), and
+compute
+for your applications (usage-based).
+How am I billed for compute?
+Compute plans
+are set at a per-service basis, and billing is prorated to the second. If you create a web service on a paid compute plan and turn it off 24 hours later, you are only billed for 24 hours of compute. This also applies to service types that spin up and shut down automatically, like Cron Jobs and Workflows. You are only billed for compute when these services are actively running your workload.
+My Pro or Scale workspace did not have any activity or services this month. Will I still be charged for the workspace subscription?
+If a workspace has no services (live or suspended) and no activity during a month, the workspace subscription fee for that month will be waived.
+I run a large agency with developers on multiple teams. What does this mean for us?
+Scale and Enterprise plans let you create multiple workspaces within the same organization to better manage multiple teams. Our team is happy to help you determine the best way to organize your teams on Render.
+Contact us
+here.
+What are build pipeline minutes, and how can I track my usage?
+Your workspace's builds and other pre-deploy tasks use Render compute resources.
+Pipeline minutes
+track the duration of these tasks. You can view your pipeline usage from your dashboard's Billing page.
+With a Professional plan or higher, you can enable the
+Performance pipeline
+to run builds on larger compute instances, with an additional corresponding charge for pipeline minutes.
+How do free compute plans work?
+With Render’s
+Free compute plans
+, you can spin up
+web services
+,
+Render Key Value instances
+, and
+Render Postgres databases
+at no charge. Free compute plans types have usage limits and are designed to help you to explore new tech, build personal projects, and preview Render's developer experience.
+Which payment methods do you accept?
+We accept all major credit and debit cards. Your payment info is stored and processed securely by
+Stripe
+and never touches our servers.
+Why was I charged $1 after adding a credit card?
+A $1 USD transaction is performed as a credit security check to ensure your card details are correct and authorized. The charge is refunded after the transaction completes.
+I have an infrequently asked question.
+Great! We're always around to help. You can email us any time at
+support@render.com
+, or talk to us in our
+user community
+.
 CTA
+Start building with Render
+The Zero DevOps cloud for developers and teams.
+Get Started

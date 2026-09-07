@@ -45,7 +45,7 @@ $ per 1M output tokens
 Actions
 DeepSeek-V4-Flash-0731
 1024k
-$0.08 / $0.016 cached
+$0.06 / $0.015 cached
 $0.18
 View more
 DeepSeek-V4-Pro
@@ -90,7 +90,7 @@ $ per 1M output tokens
 Actions
 DeepSeek-V4-Flash-0731
 1024k
-$0.08 / $0.016 cached
+$0.06 / $0.015 cached
 $0.18
 View more
 DeepSeek-V4-Pro
@@ -1145,21 +1145,21 @@ zai-org
 /
 GLM-5.3-Flash
 Featured Models
-google
-/
-gemma-4-26B-A4B-it
-zai-org
-/
-GLM-5.1
 Qwen
 /
-Qwen3-Max-Thinking
+Qwen3-TTS-VoiceDesign
+Qwen
+/
+Qwen3-TTS
+deepseek-ai
+/
+DeepSeek-V3.2
+Qwen
+/
+Qwen3-Max
 Qwen
 /
 Qwen3.8-2.4T-A95B
-black-forest-labs
-/
-FLUX-2-klein-4b
 © 2026 DeepInfra. All rights reserved.
 Privacy Policy
 Terms of Service

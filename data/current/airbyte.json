@@ -6,9 +6,9 @@
   "url": "https://airbyte.com/pricing",
   "final_url": "https://airbyte.com/pricing",
   "parser_version": 3,
-  "content_hash": "d706e886ebae23d72a3d5ae1774eeab28d45071110025133732de07c1404f578",
-  "raw_hash": "028ea1be582e9f718b825b9c83fb2422e4b76f2f0ebf52ab96c15dfcfb094623",
-  "text_bytes": 7356,
+  "content_hash": "edb4762f9c5c95d2b7e64017e9f3313be499227407ba7114f7ace77fba02e3b6",
+  "raw_hash": "06dc1933417862247981a356ce567a5c9b250f2419bc106dcc2f3b219cf2f91c",
+  "text_bytes": 7218,
   "extractor": "jsonld",
   "confidence": "medium",
   "plans": [
@@ -16,14 +16,6 @@
       "name": "Airbyte Standard",
       "price_raw": "10.00",
       "amount": 10.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "Airbyte Core",
-      "price_raw": "0",
-      "amount": 0.0,
       "currency": "USD",
       "period": null,
       "features": []

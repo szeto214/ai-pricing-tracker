@@ -51,14 +51,6 @@
       "currency": null,
       "period": null,
       "features": []
-    },
-    {
-      "name": "Free",
-      "price_raw": "$0.2",
-      "amount": 0.2,
-      "currency": "USD",
-      "period": "month",
-      "features": []
     }
   ],
   "models": [],

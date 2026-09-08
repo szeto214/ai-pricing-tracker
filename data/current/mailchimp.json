@@ -7,21 +7,13 @@
   "final_url": "https://mailchimp.com/pricing/marketing/",
   "parser_version": 3,
   "content_hash": "03099993758a1541774378618a5672fd6581e1d01f56810837cb343769f430e3",
-  "raw_hash": "38234ea0f54a16f317830cc99a954ef324de089a9e5723d8aae7fb35d34e5c00",
+  "raw_hash": "b507781ea95e88983401b92e30dd410e1a249f128964ff238fed69b6978e2f2a",
   "text_bytes": 22538,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
     {
       "name": "Standard",
-      "price_raw": "$20",
-      "amount": 20.0,
-      "currency": "USD",
-      "period": "month",
-      "features": []
-    },
-    {
-      "name": "Free for 14 days",
       "price_raw": "$20",
       "amount": 20.0,
       "currency": "USD",

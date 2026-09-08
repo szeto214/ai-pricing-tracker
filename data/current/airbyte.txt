@@ -47,12 +47,6 @@ Custom Context Store refresh frequency
 Dedicated Solutions Architect
 Dedicated support with SLA
 Talk to us
-Core
-For sophisticated data engineering orgs who are comfortable running open source software entirely on their own. Always free.
-Self-managed
-Always free
-Open source
-Get started
 Standard
 popular
 For practitioners looking for fully managed software, basic functionality and prefer to be billed based on data volume. Starting at $10 / month
@@ -77,6 +71,8 @@ Available on-premises and multi-region
 Hybrid deployment with Airbyte managed control plane
 All the features of Airbyte Pro, including premium support
 Talk to sales
+Prefer to self-host? Explore Airbyte Open Source.
+Explore open source
 You shouldn't pay more just because your data volume spikes
 Airbyte prices on compute capacity, not data moved (Pro Plan). Scale your pipelines without scaling your bill
 A better pricing model
@@ -99,8 +95,6 @@ AOs help us charge based on a cost per outcome framework — the best and faires
 Talk to us
 plans & features
 Compare our plans
-Core
-Get started
 Standard
 Get started
 Pro
@@ -112,12 +106,10 @@ Connector Availability
 600+
 600+
 600+
-600+
 Change Data Capture (CDC)
 Schema Propagation
 Column Selection
 Max Sync Frequency
-<5 min
 1 hr
 15 min
 15 min

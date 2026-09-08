@@ -1,7 +1,7 @@
 Models
 OpenAI: GPT-6 Astra (batch)
 GPT-6 Astra (batch)
-49.8M tokens
+71.7M tokens
 GPT-6 Astra is OpenAI's flagship model for demanding end-to-end work. It is suited for advanced analysis, software engineering, deep research, scientific work, and document creation, with particular strengths in long-horizon agentic tasks that involve computer and browser use.
 by
 openai
@@ -13,10 +13,11 @@ $25/M output
 tokens
 OpenAI: GPT-6 Astra
 GPT-6 Astra
-147B tokens
-Programming (#35)
-Technology (#38)
-Trivia (#43)
+239B tokens
+Programming (#27)
+Science (#33)
+Technology (#28)
+Trivia (#41)
 GPT-6 Astra is OpenAI's flagship model for demanding end-to-end work. It is suited for advanced analysis, software engineering, deep research, scientific work, and document creation, with particular strengths in long-horizon agentic tasks that involve computer and browser use.
 by
 openai
@@ -28,7 +29,7 @@ $50/M output
 tokens
 OpenAI: GPT-6 Astra Pro (batch)
 GPT-6 Astra Pro (batch)
-10.7M tokens
+14.2M tokens
 GPT-6 Astra Pro is the same underlying model as
 GPT-6 Astra
 , served with
@@ -47,7 +48,7 @@ $25/M output
 tokens
 OpenAI: GPT-6 Astra Pro
 GPT-6 Astra Pro
-37.7B tokens
+62.5B tokens
 GPT-6 Astra Pro is the same underlying model as
 GPT-6 Astra
 , served with
@@ -66,7 +67,7 @@ $50/M output
 tokens
 MicrosoftAI: MAI-Image-2.6
 MAI-Image-2.6
-18.3M tokens
+22.7M tokens
 Microsoft's MAI-Image-2.6 is an image generation and editing model available via Azure AI Foundry. It creates images from text prompts and supports image-guided editing across multiple aspect ratios.
 by
 microsoft
@@ -75,7 +76,7 @@ Sep 4, 2026
 $5/M tokens
 MicrosoftAI: MAI-Image-2.6 Flash
 MAI-Image-2.6 Flash
-16.1M tokens
+23.9M tokens
 Microsoft's MAI-Image-2.6 Flash is the lower-latency variant of MAI-Image-2.6, available via Azure AI Foundry. It supports image generation and image-guided editing across multiple aspect ratios.
 by
 microsoft
@@ -84,7 +85,7 @@ Sep 4, 2026
 $1.75/M tokens
 inclusionAI: Ling 3.0 Flash Sante (free)
 Ling 3.0 Flash Sante (free)
-75B tokens
+127B tokens
 Ling 3.0 Flash Sante is a health and medicine-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for medical knowledge reasoning, clinical safety, evidence-based retrieval, and long-horizon medical tasks, while retaining general capabilities in reasoning, coding, and agentic tasks.
 by
 inclusionai
@@ -96,8 +97,9 @@ $0/M output
 tokens
 Qwen: Qwen3.8 Max (0902)
 Qwen3.8 Max (0902)
-79.1B tokens
-Programming (#46)
+152B tokens
+Programming (#36)
+Technology (#48)
 Qwen3.8 Max 0902 is an updated snapshot of Qwen3.8 Max from Alibaba's Qwen team. It is a 2.4-trillion-parameter mixture-of-experts model that accepts text, image, and video input and returns text, with a 1M-token context window and reasoning enabled by default. This snapshot is post-trained for coding and agentic work, including multi-step software projects, multi-tool orchestration, and long-horizon task execution. It also targets chart reasoning, document parsing, and multimodal understanding over long documents and extended video. Tool calling, structured outputs, and configurable reasoning effort are supported.
 by
 qwen
@@ -109,7 +111,7 @@ $6/M output
 tokens
 MicrosoftAI: MAI-Transcribe 2
 MAI-Transcribe 2
-152M characters
+211M characters
 MAI-Transcribe 2 is a multilingual speech-to-text model from Microsoft AI, ranked #1 on the FLEURS multilingual benchmark. It supports 60 languages with automatic language identification, code switching for mixed-language speech, speaker diarization, word-level timestamps, keyword biasing for domain-specific terminology, and configurable verbatim or clean transcription styles. It is suited for captions, call transcription, subtitling, accessibility, and other voice-enabled applications, and is faster than MAI-Transcribe-1.5 on long-form audio. On OpenRouter, set
 response_format
 to
@@ -134,13 +136,13 @@ $0.10/hour
 Meta: Muse Spark 1.3 Contributor
 Muse Spark 1.3 Contributor
 18+
-893B tokens
-Academia (#43)
-Finance (#46)
-SEO (#50)
+1.15T tokens
+Academia (#34)
+Finance (#43)
+Marketing (#42)
+SEO (#46)
 Programming (#14)
-Roleplay (#44)
-+3 categories
++4 categories
 Muse Spark 1.3 Contributor is the cost-efficient contributor tier of Meta’s multimodal reasoning model for experimentation, learning, and early-stage agentic, multi-agent, and coding workflows. It is designed to track information across extended tasks, work through conflicting inputs, and request clarification or confirmation when needed. Prompts and outputs may be used to improve Meta’s products.
 by
 meta
@@ -153,9 +155,9 @@ tokens
 Meta: Muse Spark 1.3
 Muse Spark 1.3
 18+
-147B tokens
-Finance (#43)
-Programming (#39)
+192B tokens
+Finance (#32)
+Programming (#32)
 Muse Spark 1.3 is a multimodal reasoning model from Meta for long-running agentic, multi-agent, and coding workflows. It is designed to keep track of information across extended tasks, work through conflicting inputs, and request clarification or confirmation when needed, with an emphasis on concise execution.
 by
 meta
@@ -168,12 +170,12 @@ tokens
 Google: Gemini 3.8 Flash
 Gemini 3.8 Flash
 50% off
-1.09T tokens
-Academia (#17)
-Finance (#15)
-Health (#19)
-Legal (#50)
-Marketing (#20)
+1.37T tokens
+Academia (#13)
+Finance (#12)
+Health (#18)
+Legal (#34)
+Marketing (#17)
 +7 categories
 Gemini 3.8 Flash is Google's most intelligent Flash model with significant gains from 3.7 Flash across software engineering, agentic tasks, and multi-step reasoning.
 by
@@ -187,7 +189,7 @@ tokens
 Google: Gemini 3.8 Flash (batch)
 Gemini 3.8 Flash (batch)
 50% off
-1.64B tokens
+2.25B tokens
 Gemini 3.8 Flash is Google's most intelligent Flash model with significant gains from 3.7 Flash across software engineering, agentic tasks, and multi-step reasoning.
 by
 google
@@ -199,7 +201,7 @@ $1.875/M output
 tokens
 MiniMax: H3 Max
 H3 Max
-12 hours
+14 hours
 MiniMax H3 Max is a video-generation model from MiniMax, jointly released with fal.ai. Derived through additional training from MiniMax H3, it is designed for faster text-to-video and image-to-video generation with controlled first-frame or last-frame keyframes.
 by
 minimax
@@ -207,7 +209,7 @@ Sep 2, 2026
 from $0.05/second
 Anthropic: Claude Fable 5.1 (batch)
 Claude Fable 5.1 (batch)
-54.7M tokens
+532M tokens
 Claude Fable 5.1 improves on Claude Fable 5 across the board, with the biggest gains in agentic coding, long-running agentic workflows, and knowledge work: long code refactors, front-end and visual code generation, and finance and analysis tasks in particular. It also tends to be more concise than Fable 5 in its plans and summaries. We recommend testing it as a direct upgrade wherever you use Fable 5 today, and alongside Opus 5 on reasoning-heavy tasks.
 by
 anthropic
@@ -219,11 +221,11 @@ $25/M output
 tokens
 Anthropic: Claude Fable 5.1
 Claude Fable 5.1
-306B tokens
-Finance (#32)
-Programming (#30)
-Science (#34)
-Technology (#34)
+353B tokens
+Finance (#29)
+Programming (#28)
+Science (#30)
+Technology (#32)
 Claude Fable 5.1 improves on Claude Fable 5 across the board, with the biggest gains in agentic coding, long-running agentic workflows, and knowledge work: long code refactors, front-end and visual code generation, and finance and analysis tasks in particular. It also tends to be more concise than Fable 5 in its plans and summaries. We recommend testing it as a direct upgrade wherever you use Fable 5 today, and alongside Opus 5 on reasoning-heavy tasks.
 by
 anthropic
@@ -236,7 +238,7 @@ tokens
 Inception: Mercury 2.5 Preview
 Mercury 2.5 Preview
 80% off
-47.4B tokens
+52.5B tokens
 Mercury 2.5 is the fastest reasoning LLM, and the latest diffusion LLM (dLLM) from Inception. Instead of generating tokens sequentially, Mercury 2.5 produces and refines multiple tokens in parallel, achieving 1,107 tokens/sec on standard GPUs. It delivers a 10+ point jump in intelligence over Mercury 2, comparable quality to cost-optimized frontier models like GPT-5.6 Luna (Low), Gemini 3.5 Flash-Lite, and Claude Haiku 4.5. Mercury 2.5 supports tunable reasoning levels, parallel tool calls, and schema-aligned JSON output. It's built for production workloads where latency compounds: search agents, voice pipelines, and coding subagents.
 by
 inception

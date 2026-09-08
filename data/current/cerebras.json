@@ -7,23 +7,11 @@
   "final_url": "https://www.cerebras.ai/pricing",
   "parser_version": 3,
   "content_hash": "b73f9740342bfd99cec04b175f664074c200e430cc5c1dab02d8dc8df3fbed76",
-  "raw_hash": "cf7d3ca6fd983fefdd4dfa4e60b53183ffa2fa6e1bd7f93365fb7ffe181b07b0",
+  "raw_hash": "6fb2ad1aec35e022ef74940a324bb21facd0ef1bd2b6a2af793a49daa799f0b3",
   "text_bytes": 2261,
   "extractor": "dom",
-  "confidence": "medium",
+  "confidence": "low",
   "plans": [
-    {
-      "name": "Free Trial",
-      "price_raw": "$5",
-      "amount": 5.0,
-      "currency": "USD",
-      "period": null,
-      "features": [
-        "Access to all Cerebras powered models",
-        "Up to 30x faster inference than GPU systems",
-        "Community support via Discord"
-      ]
-    },
     {
       "name": "Developer",
       "price_raw": "$10",

@@ -7,7 +7,7 @@
   "final_url": "https://github.com/features/copilot/plans",
   "parser_version": 3,
   "content_hash": "1e473b04efff0dd0ad63d4bec558644b409aa50b3580969beabde0c07b1fa3ae",
-  "raw_hash": "7ab39ca863ada7867e08d94dffec0b9dbd7db9d16e4ce6389b3a321a30e54913",
+  "raw_hash": "cd2c208e5ae64d308620e8a986eb3902d687b5277d73d11bb39200cfc5421614",
   "text_bytes": 47253,
   "extractor": "dom",
   "confidence": "medium",
@@ -24,30 +24,6 @@
         "Copilot CLI",
         "Community Support"
       ]
-    },
-    {
-      "name": "Free plan",
-      "price_raw": "$15",
-      "amount": 15.0,
-      "currency": "USD",
-      "period": "month",
-      "features": []
-    },
-    {
-      "name": "Free plan",
-      "price_raw": "$10",
-      "amount": 10.0,
-      "currency": "USD",
-      "period": "month",
-      "features": []
-    },
-    {
-      "name": "Free plan",
-      "price_raw": "$5",
-      "amount": 5.0,
-      "currency": "USD",
-      "period": "month",
-      "features": []
     },
     {
       "name": "Free plan",

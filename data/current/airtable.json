@@ -7,7 +7,7 @@
   "final_url": "https://airtable.com/pricing",
   "parser_version": 3,
   "content_hash": "2c7c2d3bac3da98635043534271b68bb0f4c3a1c78638a33c8c93455e566e718",
-  "raw_hash": "6646d994dfbe5c1a07dbbe6bdb52b5d00a1af8400be676709d377883c3abba7d",
+  "raw_hash": "764a0d3f454446c9b1fe1842b9baaa1888dde8757da73a38b58ceca1bbaa244a",
   "text_bytes": 11570,
   "extractor": "dom",
   "confidence": "medium",
@@ -18,14 +18,6 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
-    },
-    {
-      "name": "Free",
-      "price_raw": "$20",
-      "amount": 20.0,
-      "currency": "USD",
-      "period": "seat",
       "features": []
     },
     {

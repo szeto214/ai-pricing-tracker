@@ -7,19 +7,11 @@
   "final_url": "https://www.firecrawl.dev/pricing",
   "parser_version": 3,
   "content_hash": "6382dc249fecb8d01e45779aff7e6f9aa03a64dca3f22be8cac315fd7d23ec34",
-  "raw_hash": "f0de3b3928befa7bf26cfe428aa9ca80d081e64801c9f46bc9ee2e783988c9dc",
+  "raw_hash": "c79f25cf3cc9bc8064b115d608c7795d84c0f4d0684090a82d12b8587209f1c6",
   "text_bytes": 13215,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
-    {
-      "name": "Free Plan",
-      "price_raw": "$83",
-      "amount": 83.0,
-      "currency": "USD",
-      "period": "month",
-      "features": []
-    },
     {
       "name": "Hobby",
       "price_raw": "$ 16",

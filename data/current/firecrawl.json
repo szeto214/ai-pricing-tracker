@@ -6,9 +6,9 @@
   "url": "https://www.firecrawl.dev/pricing",
   "final_url": "https://www.firecrawl.dev/pricing",
   "parser_version": 3,
-  "content_hash": "6382dc249fecb8d01e45779aff7e6f9aa03a64dca3f22be8cac315fd7d23ec34",
-  "raw_hash": "c79f25cf3cc9bc8064b115d608c7795d84c0f4d0684090a82d12b8587209f1c6",
-  "text_bytes": 13215,
+  "content_hash": "87f8585522a25c5a4da39327a3a9f0a53a274df07b01fc1b33fccc56f15c61d4",
+  "raw_hash": "a7d17bf2c19ff76ee8ecc55fd75fdef3c45c502c497e39a4d1a52f25384324a0",
+  "text_bytes": 14252,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -40,6 +40,14 @@
       "name": "Scale",
       "price_raw": "$ 599",
       "amount": 599.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Pricing at a glance",
+      "price_raw": "$19",
+      "amount": 19.0,
       "currency": "USD",
       "period": "month",
       "features": []

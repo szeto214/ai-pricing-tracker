@@ -6,9 +6,9 @@
   "url": "https://posthog.com/pricing",
   "final_url": "https://posthog.com/pricing",
   "parser_version": 3,
-  "content_hash": "358e88788551c3af6a0f66bf01f635085331745ebb7a3cb9dc36311530bfc504",
-  "raw_hash": "7c374ac40fc296f09d2db35f5a2ff45f290b8223f542b2f7b4af4472eae85bb6",
-  "text_bytes": 5462,
+  "content_hash": "6e4ae428cbe18bf09d9a19ca0b04bc194186181166476cd390bbae06fe560aa2",
+  "raw_hash": "ce11284ae38a1975752c069d246fe1561271e4ccf1e226a7bfc09ca94ad115ff",
+  "text_bytes": 6599,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -43,6 +43,49 @@
       "price_raw": "$80",
       "amount": 80.0,
       "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Analytics",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Analytics $0",
+        "Session Replay $0",
+        "AI Observability $0",
+        "Replay Vision $0",
+        "Feature Flags $0",
+        "Error Tracking $0",
+        "PostHog AI $0",
+        "Group analytics add-on $ 0.000071 per identified event Use setting"
+      ]
+    },
+    {
+      "name": "Analytics",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Analytics",
+      "price_raw": "$0.000198",
+      "amount": 0.000198,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Group analytics add-on $ 0.000071 per identified event Use setting"
+      ]
+    },
+    {
+      "name": "Estimated total",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
       "period": null,
       "features": []
     },

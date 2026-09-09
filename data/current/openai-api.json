@@ -6,9 +6,9 @@
   "url": "https://platform.openai.com/docs/pricing",
   "final_url": "https://developers.openai.com/api/docs/pricing",
   "parser_version": 3,
-  "content_hash": "e7f2d3aac70c0c5c7efe798d65f72c78b0518966caaec19d8c0a5ad32ccc33c7",
-  "raw_hash": "246484787e272a8231e46c54765e7e95286ae8bbf964f8a3ff66b8b45e3516db",
-  "text_bytes": 6742,
+  "content_hash": "214efefd82e1dc264a16908e0e532f3faa63b224295d264e244ce2af47937925",
+  "raw_hash": "46cadc3a2c25e3ef6cf8282c0f9b76a81ca03e42dff96fd81ef401436ed40b12",
+  "text_bytes": 6842,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -69,7 +69,15 @@
       "features": []
     },
     {
-      "name": "gpt-image-2",
+      "name": "gpt-image-2.5-sunburst",
+      "price_raw": "$8.00",
+      "amount": 8.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "gpt-image-2.5-flare",
       "price_raw": "$8.00",
       "amount": 8.0,
       "currency": "USD",
@@ -138,22 +146,6 @@
       "amount": 0.1,
       "currency": "USD",
       "period": "day",
-      "features": []
-    },
-    {
-      "name": "Web search",
-      "price_raw": "$10.00",
-      "amount": 10.0,
-      "currency": "USD",
-      "period": "day",
-      "features": []
-    },
-    {
-      "name": "ChatGPT",
-      "price_raw": "$5.00",
-      "amount": 5.0,
-      "currency": "USD",
-      "period": null,
       "features": []
     }
   ],
@@ -455,8 +447,8 @@
       "unit": ""
     },
     {
-      "key": "gpt-image-2",
-      "model": "gpt-image-2",
+      "key": "gpt-image-2.5-sunburst",
+      "model": "gpt-image-2.5-sunburst",
       "prices": {
         "input": {
           "raw": "$8.00",
@@ -476,6 +468,42 @@
     },
     {
       "key": "text#3",
+      "model": "Text",
+      "prices": {
+        "modality": {
+          "raw": "$5.00",
+          "amount": 5.0
+        },
+        "input": {
+          "raw": "$1.25",
+          "amount": 1.25
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "gpt-image-2.5-flare",
+      "model": "gpt-image-2.5-flare",
+      "prices": {
+        "input": {
+          "raw": "$8.00",
+          "amount": 8.0
+        },
+        "cached input": {
+          "raw": "$2.00",
+          "amount": 2.0
+        },
+        "output": {
+          "raw": "$30.00",
+          "amount": 30.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "text#4",
       "model": "Text",
       "prices": {
         "modality": {
@@ -833,7 +861,20 @@
           "Output"
         ],
         [
-          "gpt-image-2",
+          "gpt-image-2.5-sunburst",
+          "Image",
+          "$8.00",
+          "$2.00",
+          "$30.00"
+        ],
+        [
+          "Text",
+          "$5.00",
+          "$1.25",
+          "-"
+        ],
+        [
+          "gpt-image-2.5-flare",
           "Image",
           "$8.00",
           "$2.00",

@@ -1,52 +1,6 @@
 pricing
 Pricing plans that scale with you
-Flexible, predictable pricing whether you're building agents or data pipelines.
-Airbyte Agents
-Data Replication
-Free
-Get started for free before picking a plan.
-$0
-/month
-1000 AOs / Mo
-Single user
-API and MCP access
-Context Store refreshes daily (hourly for the first 14 days)
-Community and AI support
-No overage available
-START for FREE
-Individual
-For personal use and small scale workflows.
-$29
-/month
-5000 AOs / Mo
-Single user
-API and MCP access
-Context Store with hourly refresh
-Standard and AI support
-Overage AOs priced at $0.004
-Start for free
-Team
-popular
-For teams building agents in production.
-$299
-/month
-10,000 AOs / mo
-Everything in Individual
-Parallel workflow execution
-Multiple users and workspaces
-Standard and AI support
-Overage AOs priced at $0.005
-Start for free
-Custom
-For companies with enterprise needs.
-Custom
-CUSTOM AO LIMITS
-Everything in Team
-Custom workspace limits
-Custom Context Store refresh frequency
-Dedicated Solutions Architect
-Dedicated support with SLA
-Talk to us
+Flexible, predictable pricing for your data pipelines.
 Standard
 popular
 For practitioners looking for fully managed software, basic functionality and prefer to be billed based on data volume. Starting at $10 / month
@@ -82,17 +36,6 @@ You scale by adding capacity, not by worrying about volume spikes. Costs stay pr
 A note on volume-based pricing
 For smaller teams with predictable data volumes, pay-per-use still makes sense. That's what Standard is for.
 Pick the model that fits: fixed capacity on Pro, or volume-based on Standard.
-Why we price this way
-Agents don't just answer — they loop continuously through four cognitive steps to complete real work. We price the loop, not the message.
-Search
-Across your business through the Context Store.
-Read
-Act
-Reason
-Over what it just pulled to decide what's next.
-Each action uses up a certain number of agent operations, or AOs. Reasoning tends to consume the most AOs, while Reading consumes the least.
-AOs help us charge based on a cost per outcome framework — the best and fairest way to price agentic infrastructure.
-Talk to us
 plans & features
 Compare our plans
 Standard
@@ -103,9 +46,9 @@ Enterprise Flex
 Talk to sales
 Data Ingestion
 Connector Availability
-600+
-600+
-600+
+700+
+700+
+700+
 Change Data Capture (CDC)
 Schema Propagation
 Column Selection
@@ -171,16 +114,3 @@ We typically recommend starting with Standard (fully managed, volume-based) if y
 Can Airbyte provide a tailored quote?
 Yes. Just work with our team and we'll be happy to provide a tailored quote based on your needs. Click
 here to talk to sales
-FAQs
-Didn't find your answer? Please don't hesitate to reach out.
-What happens when I run out of AOs?
-On the Free Plan, when you hit the monthly usage limits, capacity is paused until the next month. On the Individual and Team Plans, overage kicks in at the rate shown in the pricing matrix above. On the Custom Plan, overages are noted in your contract.
-Do idle connectors or workspaces cost me anything?
-No. We only meter Agent Operations (AOs).
-How do tokens relate to AOs?
-Reasoning AOs scale with the complexity of the task, so a heavier multi-step workflow costs more than a simple summarization.
-‍
-Can I start Free and upgrade later?
-Yes. Everything you build on the Free Plan moves with you.
-What counts as "embedded" for the Custom plan?
-If you're putting Airbyte Agents inside your own product for your customers, you're embedded. Since we meter on your customers' agent activity, you'll need to work with our team for pricing. We'll work with you to design a Custom Plan that fits your need.

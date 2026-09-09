@@ -6,30 +6,260 @@
   "url": "https://fly.io/pricing/",
   "final_url": "https://fly.io/pricing/",
   "parser_version": 3,
-  "content_hash": "ee7d05cd86dd2396f94e847efe0321a32187764579252910fae552c867866da6",
-  "raw_hash": "8dd06b18f9d093f5ae0815f19bff3e98ef39d9295881c983d09785d55adc8ffa",
-  "text_bytes": 1832,
+  "content_hash": "e40d1eeef9cda57967cce6d80da8f6b88a414bb1ea0d5f87a64ae0269a65e6cd",
+  "raw_hash": "80c4b5ccf850936b6213ef63cc4fdbfb68b674d56e143971be7ecf666fa0ca5d",
+  "text_bytes": 2583,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
     {
-      "name": "Serious Support",
-      "price_raw": "$29",
-      "amount": 29.0,
+      "name": "Machines Compute",
+      "price_raw": "$0.0027",
+      "amount": 0.0027,
+      "currency": "USD",
+      "period": "hour",
+      "features": []
+    },
+    {
+      "name": "Machines Storage and network",
+      "price_raw": "$0.15",
+      "amount": 0.15,
       "currency": "USD",
       "period": "month",
       "features": []
     },
     {
-      "name": "Compliance Made Easy",
-      "price_raw": "$99",
-      "amount": 99.0,
+      "name": "Machines pricing",
+      "price_raw": "$0.0027",
+      "amount": 0.0027,
+      "currency": "USD",
+      "period": "hour",
+      "features": []
+    },
+    {
+      "name": "Standard",
+      "price_raw": "$29",
+      "amount": 29.0,
       "currency": "USD",
       "period": "month",
+      "features": [
+        "36-hour first response time",
+        "Technical architecture support"
+      ]
+    },
+    {
+      "name": "Premium",
+      "price_raw": "$199",
+      "amount": 199.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "24-hour first response time",
+        "1-hour first response for urgent issues",
+        "Dedicated Slack support channel",
+        "Quarterly Solutions Architecture sessions"
+      ]
+    },
+    {
+      "name": "Enterprise",
+      "price_raw": "$2,500",
+      "amount": 2500.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "4-hour first response time, 24x7",
+        "15-minute emergency first response, 24x7",
+        "Dedicated Slack support channel",
+        "Quarterly Solutions Architecture sessions",
+        "99.9% uptime SLA"
+      ]
+    },
+    {
+      "name": "Startup program",
+      "price_raw": "$15,000",
+      "amount": 15000.0,
+      "currency": "USD",
+      "period": null,
       "features": []
     }
   ],
-  "models": [],
-  "tables": [],
+  "models": [
+    {
+      "key": "shared-cpu-1x · 256mb|k3",
+      "model": "shared-cpu-1x · 256MB",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.0027",
+          "amount": 0.0027
+        },
+        "kolom 3": {
+          "raw": "$1.94",
+          "amount": 1.94
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "performance-1x · 2gb|k3",
+      "model": "performance-1x · 2GB",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.0431",
+          "amount": 0.0431
+        },
+        "kolom 3": {
+          "raw": "$31.00",
+          "amount": 31.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "stopped machine, per gb rootfs|k3",
+      "model": "Stopped Machine, per GB rootfs",
+      "prices": {
+        "kolom 3": {
+          "raw": "$0.15",
+          "amount": 0.15
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "volumes, per gb / month|k2",
+      "model": "Volumes, per GB / month",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.15",
+          "amount": 0.15
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "snapshots, per gb / month|k2",
+      "model": "Snapshots, per GB / month",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.08",
+          "amount": 0.08
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "egress, north america and europe|k2",
+      "model": "Egress, North America and Europe",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.02",
+          "amount": 0.02
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "egress, asia pacific, oceania and south america|k2",
+      "model": "Egress, Asia Pacific, Oceania and South America",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.04",
+          "amount": 0.04
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "egress, africa and india|k2",
+      "model": "Egress, Africa and India",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.12",
+          "amount": 0.12
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "dedicated ipv4|k2",
+      "model": "Dedicated IPv4",
+      "prices": {
+        "kolom 2": {
+          "raw": "$2.00",
+          "amount": 2.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    }
+  ],
+  "tables": [
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Preset",
+          "Per hour",
+          "Per month"
+        ],
+        [
+          "shared-cpu-1x · 256MB",
+          "$0.0027",
+          "$1.94"
+        ],
+        [
+          "performance-1x · 2GB",
+          "$0.0431",
+          "$31.00"
+        ],
+        [
+          "Stopped Machine, per GB rootfs",
+          "—",
+          "$0.15"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Item",
+          "Price"
+        ],
+        [
+          "Volumes, per GB / month",
+          "$0.15"
+        ],
+        [
+          "Snapshots, per GB / month",
+          "$0.08"
+        ],
+        [
+          "Egress, North America and Europe",
+          "$0.02 / GB"
+        ],
+        [
+          "Egress, Asia Pacific, Oceania and South America",
+          "$0.04 / GB"
+        ],
+        [
+          "Egress, Africa and India",
+          "$0.12 / GB"
+        ],
+        [
+          "Dedicated IPv4",
+          "$2.00 / mo"
+        ]
+      ]
+    }
+  ],
   "extract_errors": []
 }

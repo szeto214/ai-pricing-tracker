@@ -6,9 +6,9 @@
   "url": "https://mailchimp.com/pricing/",
   "final_url": "https://mailchimp.com/pricing/marketing/",
   "parser_version": 3,
-  "content_hash": "03099993758a1541774378618a5672fd6581e1d01f56810837cb343769f430e3",
-  "raw_hash": "b507781ea95e88983401b92e30dd410e1a249f128964ff238fed69b6978e2f2a",
-  "text_bytes": 22538,
+  "content_hash": "064098cc6fdf7edda1fef436d739723f56805c5a04b05c9b500cb6c6d14cf61e",
+  "raw_hash": "8551bf8269631d0d3786bfdda84a2182afd2f2388c45d8b2fbe51255e8127a4e",
+  "text_bytes": 22507,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

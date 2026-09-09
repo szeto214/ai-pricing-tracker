@@ -1128,6 +1128,9 @@ DeepGPT
 Latest Models
 inclusionAI
 /
+Ling-3.0-flash-VL
+inclusionAI
+/
 Ling-3.0-flash-Fin
 BAAI
 /
@@ -1138,25 +1141,22 @@ DeepSeek-V4-Flash-Vision-Exp
 zai-org
 /
 GLM-5.3
-zai-org
-/
-GLM-5.3-Flash
 Featured Models
+nvidia
+/
+NVIDIA-Nemotron-3-Super-120B-A12B
+XiaomiMiMo
+/
+MiMo-V2.5-Pro
+google
+/
+gemma-4-26B-A4B-it
 black-forest-labs
 /
-FLUX-2-klein-4b
-Qwen
+FLUX-2-klein-9b
+google
 /
-Qwen3.6-35B-A3B
-moonshotai
-/
-Kimi-K2.7-Code
-deepseek-ai
-/
-DeepSeek-V4-Pro
-zai-org
-/
-GLM-5.3
+gemma-4-31B-it
 © 2026 DeepInfra. All rights reserved.
 Privacy Policy
 Terms of Service

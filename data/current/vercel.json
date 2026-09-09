@@ -6,9 +6,9 @@
   "url": "https://vercel.com/pricing",
   "final_url": "https://vercel.com/pricing",
   "parser_version": 3,
-  "content_hash": "0814f498c83e4ffeb1995057fea9d00621b341cbe8eeaeda962d7b674b79aea6",
-  "raw_hash": "a2a404433385145f90c476e980cbfd5ef9ed68d9f4bc54eb1c8a3a2d274fa465",
-  "text_bytes": 12657,
+  "content_hash": "8a9ae69d6c436123cb6d209c8843028cc09077e6475ce859d8e36e902029e857",
+  "raw_hash": "ec5508a6216792ec87c70419cf1176df98e10e9508c8d9c513918aa75e9b9ea5",
+  "text_bytes": 13140,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -37,7 +37,7 @@
       "features": []
     },
     {
-      "name": "10M / month included",
+      "name": "Edge Requests",
       "price_raw": "$2",
       "amount": 2.0,
       "currency": "USD",
@@ -45,7 +45,7 @@
       "features": []
     },
     {
-      "name": "1TB / month included",
+      "name": "Fast Data Transfer",
       "price_raw": "$0.15",
       "amount": 0.15,
       "currency": "USD",

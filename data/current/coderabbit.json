@@ -6,9 +6,9 @@
   "url": "https://www.coderabbit.ai/pricing",
   "final_url": "https://www.coderabbit.ai/pricing",
   "parser_version": 3,
-  "content_hash": "63888b73e692328c0886606793b23b2376dcd998e85e8296485a2e43b21e9695",
-  "raw_hash": "4ade04aec6fc359fdd9f3b6950d801a852b07a3eb45284f75671edc846bf287e",
-  "text_bytes": 5376,
+  "content_hash": "6333627095c0bb766e28978b48b3444c0ac0c339132102ab8945732dd12feb4b",
+  "raw_hash": "f662b2a4c7bf0752f6fce0144d5bc838ea91a8579141247443dc022de4bc951d",
+  "text_bytes": 5175,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -37,20 +37,17 @@
       "features": []
     },
     {
-      "name": "Cloud Coding Agent",
-      "price_raw": "$0.4",
+      "name": "CodeRabbit Agent",
+      "price_raw": "$0.40",
       "amount": 0.4,
       "currency": "USD",
       "period": null,
-      "features": []
-    },
-    {
-      "name": "CodeRabbit Agent for Slack",
-      "price_raw": "$0.4",
-      "amount": 0.4,
-      "currency": "USD",
-      "period": null,
-      "features": []
+      "features": [
+        "$0.40 per agent minute",
+        "Trial and free minutes are used before paid usage",
+        "Paid access for everyone in your organization when enabled",
+        "Set a monthly spending cap"
+      ]
     }
   ],
   "models": [],

@@ -6,9 +6,9 @@
   "url": "https://fireworks.ai/pricing",
   "final_url": "https://fireworks.ai/pricing",
   "parser_version": 3,
-  "content_hash": "47b60649be448071d03dee09914883d879345e62fbb52f85cb3f5b3e77f48e1e",
-  "raw_hash": "8a292c0e2a37a6dc0331fa6de547276bb2376d823b2555e51db6e7ed6a36174f",
-  "text_bytes": 3543,
+  "content_hash": "589ff001561fd1a9591a7b39bb827146fcb1afed660bd9f4e681fac90917ff80",
+  "raw_hash": "943a61954d57f83190b2cd72ed046e42ae9a425413023f2ca9c4f14a3bc0e30a",
+  "text_bytes": 3555,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

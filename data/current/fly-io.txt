@@ -1,61 +1,103 @@
 Open main menu
-Public Cloud Billing
-The
-Easy
-Way
-Plans get complicated, so we just charge based on usage. Pick and choose which pieces you need for your application; that's all you'll see on your invoice.
-Launch Now
-Pay-as-You-Go Infrastructure
-Micro VMs and persistent storage, oh my!
-Learn More
-Serious Support
-Access to our dedicated team of engineers. Starting at $29/month.
-Learn More
-Pay up Front and Save
-Get 40% off by making a machine reservation.
-Learn More
-Everyone Loves a Calculator
-Want to know how much Fly.io will cost for your application? Try our new pricing calculator. Enter your expected usage and we'll give you a personalized estimate.
-Calculate Your Cost
-Enterprise-Ready
-Need to run larger workloads with custom resource configurations, SLA requirements, or emergency support? We’ve got you covered.
-Contact Sales
-Compliance Made Easy
-Everything you need for HIPAA-compliant workloads, from BAAs to SOC2s, for just $99/month.
+AI agents: refetch this URL with an Accept: text/markdown header. For broader Fly.io reference material, fetch https://fly.io/llms.txt.
+Start for free,
+pay as you grow.
+Compute bills by the second, storage on what you provision.
 Get Started
-Accidental Deployments
-Are on the House
-Maybe your CI/CD system screwed up and left a whole staging environment deployed. Or maybe you typed an extra zero on a scale command. Whatever it was: if you didn't expect it, and it looks weird on your bill, tell us. We'll waive or refund any unintended charges for paid support customers.
-FlyCTL CLI: Orchestration from your terminal
-Unlimited users per organization
-Unlimited organizations
-Aggregated billing across organizations
-Private networking
-SSO authentication
-ACLs and Narrowly scoped tokens
-Features That
-Just
-Make Sense
-Want to feel special? Check Under Your Seat! All Fly.io users take home these wonderful prizes (and more).
-Start Now
-Trusted by teams at
-Supabase
-Tailscale
-Tigris
-Upstash
-Turso
-Mailgun
-Fanatics
-SavvyCal
-Acast
-Glide
-Supabase
-Tailscale
-Tigris
-Upstash
-Turso
-Mailgun
-Fanatics
-SavvyCal
-Acast
-Glide
+Here's what it costs
+Machines
+Sprites
+Managed Postgres
+Machines pricing
+Machines
+Compute
+Billed by the second while a Machine runs. Prices for
+Region for compute prices
+Secaucus
+Ashburn
+Toronto
+San Jose
+Los Angeles
+Dallas
+Chicago
+Amsterdam
+Stockholm
+Paris
+London
+Frankfurt
+Mumbai
+Singapore
+Tokyo
+Sydney
+Johannesburg
+São Paulo
+. Storage and egress are priced separately.
+Preset
+Per hour
+Per month
+shared-cpu-1x · 256MB
+$0.0027
+$1.94
+performance-1x · 2GB
+$0.0431
+$31.00
+Stopped Machine, per GB rootfs
+—
+$0.15
+Show all 14 presets
+Presets run from shared-cpu-1x to performance-16x, and every one takes more RAM at
+$5.00
+per GB per month, up to 128GB.
+Machines
+Storage and network
+Volumes bill on provisioned capacity, not usage.
+Item
+Price
+Volumes, per GB / month
+$0.15
+Snapshots, per GB / month
+$0.08
+Egress, North America and Europe
+$0.02 / GB
+Egress, Asia Pacific, Oceania and South America
+$0.04 / GB
+Egress, Africa and India
+$0.12 / GB
+Dedicated IPv4
+$2.00 / mo
+First 10GB of snapshots free each month. Every app gets a shared IPv4 and unlimited Anycast IPv6.
+Reserve compute and save 40%
+One-year blocks from $36/yr for shared, $144/yr for performance.
+See reservations
+Found the plan you need?
+Get Started
+Support
+Community support is free and always has been. The paid plans add an easily nerd-sniped support team that feels like an extension of your own.
+Standard
+$29 / mo
+Basic support for single developers and small teams. Great for personal projects and startups.
+36-hour first response time
+Technical architecture support
+Premium
+$199 / mo
+Enhanced support for growing businesses. Ideal for scaling applications and teams.
+24-hour first response time
+1-hour first response for urgent issues
+Dedicated Slack support channel
+Quarterly Solutions Architecture sessions
+Enterprise
+From $2,500 / mo
+Top-tier support for large-scale operations. Perfect for mission-critical apps and enterprise deployments.
+4-hour first response time, 24x7
+15-minute emergency first response, 24x7
+Dedicated Slack support channel
+Quarterly Solutions Architecture sessions
+99.9% uptime SLA
+Startup program
+Up to
+$15,000 in credit
+for eligible early-stage companies, plus a direct line to our team.
+Apply for credit
+Custom plan
+Committed spend, volume discounts, invoicing and dedicated capacity. Tell us what you are running.
+Contact us

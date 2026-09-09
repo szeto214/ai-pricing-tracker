@@ -6,9 +6,9 @@
   "url": "https://github.com/features/copilot/plans",
   "final_url": "https://github.com/features/copilot/plans",
   "parser_version": 3,
-  "content_hash": "1e473b04efff0dd0ad63d4bec558644b409aa50b3580969beabde0c07b1fa3ae",
-  "raw_hash": "cd2c208e5ae64d308620e8a986eb3902d687b5277d73d11bb39200cfc5421614",
-  "text_bytes": 47253,
+  "content_hash": "083ae9d915ebd32513aeef57e7ec4f7ae123722b6ae70fb4bd390b577fbdf028",
+  "raw_hash": "39cd16389e674c81b6b860319f51b7602fa3a7efb03a46a5dc98c16ab7b0879c",
+  "text_bytes": 47329,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

@@ -6,9 +6,9 @@
   "url": "https://auth0.com/pricing",
   "final_url": "https://auth0.com/pricing",
   "parser_version": 3,
-  "content_hash": "fc4ad64771604656d8ed542d5f0c641ef91eb9eadd21f68c21f5f17f6b12c1a3",
-  "raw_hash": "f6e49c7d60282042a63645cd6ed974b55a5680401fc7fe52147ada19cde7356b",
-  "text_bytes": 13109,
+  "content_hash": "408c68c43aa5f3e573ada11829a0857ae06da0ecba3b3ffdc64dad5d17feec8c",
+  "raw_hash": "b1e9d46e74b37ec309da08dae9d878601b22d336fbc373768d2ffd257066df96",
+  "text_bytes": 13091,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

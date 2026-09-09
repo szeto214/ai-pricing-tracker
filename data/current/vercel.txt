@@ -75,9 +75,9 @@ $20
 Everything you need to build and scale your app.
 All Hobby features, plus:
 $20 of included usage credit
+Flat Rate CDN with traffic spike protection
 Advanced spend management
 Team collaboration & free viewer seats
-Faster builds + no queues
 Cold start prevention
 Free custom domain
 Start a free trial
@@ -125,13 +125,11 @@ Redirects
 Middleware Support
 Edge Requests
 1M / month included
-10M / month included
-then starting at $2 per 1M
+Starting at $2 per 1M
 Custom
 Fast Data Transfer
 100 GB / month included
-1TB / month included
-then starting at $0.15 per GB
+Starting at $0.15 per GB
 Custom
 Regional pricing
 Vercel Firewall
@@ -603,6 +601,16 @@ Attack Challenge Mode
 What I can spend my included usage credit on?
 The included monthly usage credit can be spent as outlined in
 vercel.com/docs/plans/pro-plan#monthly-credit
+What is Flat Rate CDN?
+Flat Rate CDN is an alternative to usage-based CDN billing available on Pro that provides teams with a predictable monthly bill and traffic spike protection. There are several advantages:
+Fixed monthly price
+: Pay a fixed amount for Vercel CDN each month, regardless of traffic and usage.
+Covers traffic spikes
+: CDN Requests, Fast Data Transfer, and other resources are no longer billed directly.
+No overages
+: Your bill will never increase because of temporary usage spikes.
+Learn more
+here.
 Can't decide?
 Talk to sales
 Get started for free

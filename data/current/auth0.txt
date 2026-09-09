@@ -112,7 +112,7 @@ Fine-Grained Authorization
 A highly scalable authorization service for developers that helps them implement authorization for any kind of application, and enable user collaboration and granular access control using easy-to-use APIs. Available in Public Cloud and Private Cloud AWS.
 Read the docs
 Attack Protection
-Keep your users and services safe from password leaks, intruders, and scripted attacks from bots. Protect and notify your users when credentials are leaked or during an attempted account takeover. Use risk intelligence enhanced with third-party supplemental signals to detect threats and inform access decisions. With Tenant Access Control List, create and manage rules to allow, block, or redirect requests to your app.
+Keep your users and services safe from password leaks, intruders, and scripted attacks from bots. Protect and notify your users when credentials are leaked or during an attempted account takeover. Use risk intelligence enhanced with third-party supplemental signals to detect threats and inform access decisions. With Tenant ACL, use out-of-the-box blocklists of known malicious networks & anonymizers.
 Read the docs
 Private Cloud
 A low-friction, dedicated Auth0 deployment model for enhanced performance, security, and compliance over our standard public cloud offering.

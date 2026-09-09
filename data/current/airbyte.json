@@ -6,40 +6,16 @@
   "url": "https://airbyte.com/pricing",
   "final_url": "https://airbyte.com/pricing",
   "parser_version": 3,
-  "content_hash": "edb4762f9c5c95d2b7e64017e9f3313be499227407ba7114f7ace77fba02e3b6",
-  "raw_hash": "06dc1933417862247981a356ce567a5c9b250f2419bc106dcc2f3b219cf2f91c",
-  "text_bytes": 7218,
+  "content_hash": "bb99f9afd3425d0b049a3194c8cf39ac3db48acca67b92ab829ba41c2a9b0653",
+  "raw_hash": "e420f910793d5f8eca2cdfe36be3ddb875c87605338b14caf23808b89b521ad8",
+  "text_bytes": 4714,
   "extractor": "jsonld",
-  "confidence": "medium",
+  "confidence": "low",
   "plans": [
     {
       "name": "Airbyte Standard",
       "price_raw": "10.00",
       "amount": 10.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "Airbyte Agents Team",
-      "price_raw": "299.00",
-      "amount": 299.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "Airbyte Agents Individual",
-      "price_raw": "29.00",
-      "amount": 29.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "Airbyte Agents Free",
-      "price_raw": "0",
-      "amount": 0.0,
       "currency": "USD",
       "period": null,
       "features": []

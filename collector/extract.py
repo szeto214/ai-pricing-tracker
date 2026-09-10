@@ -99,6 +99,14 @@ _GENERIC_HEADING_RE = re.compile(
 
 
 # Pecahan kalimat yang sempat tercatat sebagai nama paket (openrouter, 02/09).
+# Nama yang BERAKHIR dengan "pricing/harga" adalah judul bagian, bukan produk:
+# "On-Demand GPU Pricing", "Usage pricing", "Standard pricing". Sapuan seluruh
+# arsip 10/09/2026 menemukan 20 baris seperti ini di 12 situs — tidak satu pun
+# yang benar-benar paket. Sengaja hanya di AKHIR nama, supaya paket sah seperti
+# "Pricing Pro" tetap lolos.
+_HEADING_TAIL_RE = re.compile(r"\b(pricing|prices|harga)\s*$", re.I)
+
+
 _FRAGMENTS = {
     "by", "and", "or", "the", "a", "an", "per", "from", "to", "for", "with",
     "in", "on", "at", "of", "up", "new", "more", "all", "each",
@@ -142,6 +150,8 @@ def _plausible_plan_name(name: str) -> bool:
     if len(n.split()) > 5:                 # nama paket bukan kalimat
         return False
     if _GENERIC_HEADING_RE.match(n):       # "Pricing", "Let's talk numbers"
+        return False
+    if _HEADING_TAIL_RE.search(n):         # "On-Demand GPU Pricing"
         return False
     return True
 

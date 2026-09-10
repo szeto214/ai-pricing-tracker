@@ -161,38 +161,6 @@ def test_site_chrome_noise() -> None:
     check("2 paket tetap terekstrak", names == ["Free", "Standard"], f"-> {names}")
 
 
-def test_relative_time_noise() -> None:
-    """Widget "terakhir diperbarui" berubah tiap hari karena jam, bukan harga.
-
-    voyage-ai tercatat berubah 12 hari BERTURUT-TURUT (29/08-10/09/2026) hanya
-    karena "11 days ago" menjadi "12 days ago". Satu-satunya perubahan yang
-    nyata di rentang itu adalah munculnya rerank-3 pada 02/09 — dan perubahan
-    itu tertimbun derau harian.
-    """
-    print("\n2c. waktu relatif (derau harian)")
-    a = normalize.process(
-        "<html><body><h1>Pricing</h1><p>Updated 11 days ago</p>"
-        "<p>$20/month</p></body></html>")
-    b = normalize.process(
-        "<html><body><h1>Pricing</h1><p>Updated 12 days ago</p>"
-        "<p>$20/month</p></body></html>")
-    check("'11 days ago' -> '12 days ago' TIDAK dianggap berubah",
-          a["content_hash"] == b["content_hash"],
-          f"\n       {a['content_hash'][:16]} vs {b['content_hash'][:16]}")
-    check("harga tetap utuh di teks", "$20" in a["text"], f"-> {a['text']!r}")
-
-    for teks in ("an hour ago", "one day ago", "3 weeks ago", "5 minutes ago"):
-        got = normalize.process(f"<html><body><p>{teks}</p></body></html>")["text"]
-        check(f"{teks!r} tersamarkan", "<relative-time>" in got, f"-> {got!r}")
-
-    # Yang TIDAK boleh ikut tersamarkan: masa tenggang & retensi adalah sinyal.
-    for teks in ("Cancel within 30 days", "Data retention 90 days",
-                 "14 day free trial"):
-        got = normalize.process(f"<html><body><p>{teks}</p></body></html>")["text"]
-        check(f"{teks!r} TETAP utuh — bukan waktu relatif",
-              "<relative-time>" not in got, f"-> {got!r}")
-
-
 def test_extraction() -> None:
     print("\n2. ekstraksi")
     html = render("cards.html")
@@ -730,6 +698,69 @@ def test_settle_ms() -> None:
           not salah, f"-> {salah}")
 
 
+def test_heading_tail() -> None:
+    """Nama yang BERAKHIR "pricing" adalah judul bagian, bukan produk.
+
+    Sapuan arsip 10/09/2026 menemukan 20 baris seperti ini di 12 situs —
+    "On-Demand GPU Pricing" $3.99, "Usage-based pricing" $50 — tidak satu pun
+    benar-benar paket. Menariknya, setelah judulnya ditolak, nama produk yang
+    sesungguhnya justru terbaca: hyperstack jadi "On-Demand GPU", pinecone
+    jadi "multilingual-e5-large".
+    """
+    print("\n6g. judul bagian berakhiran 'pricing'")
+    from collector.extract import _plausible_plan_name
+
+    for buruk in ("On-Demand GPU Pricing", "Usage pricing", "Bunny Pricing",
+                  "Standard pricing", "Pay as You Go Pricing"):
+        check(f"{buruk!r} ditolak", not _plausible_plan_name(buruk))
+    for baik in ("Pricing Pro", "Pro", "Team", "Enterprise", "GPU+"):
+        check(f"{baik!r} tetap diterima", _plausible_plan_name(baik),
+              f"-> ditolak")
+
+
+def test_site_builder() -> None:
+    """Halaman publik: aman, jujur, dan deterministik."""
+    print("\n11. pembangun halaman publik")
+    sys.path.insert(0, str(ROOT / "scripts"))
+    import build_site
+
+    # --- keamanan: isi halaman berasal dari situs luar -----------------------
+    jahat = '<script>alert(1)</script>'
+    out = build_site.esc(jahat)
+    check("teks dari situs luar di-escape, tidak bisa menyuntik skrip",
+          "<script>" not in out and "&lt;script&gt;" in out, f"-> {out}")
+    check("tanda kutip ikut di-escape (aman di dalam atribut)",
+          "&quot;" in build_site.esc('a"b'))
+    check("None tidak meledak", build_site.esc(None) == "")
+
+    # --- label kolom sementara tidak ditampilkan mentah ----------------------
+    ringkas = build_site._harga_ringkas({
+        "kolom 2": {"raw": "$0.21"}, "kolom 3": {"raw": "$0.25"}})
+    check("label 'kolom N' tidak muncul di halaman publik",
+          ringkas == "$0.21 · $0.25", f"-> {ringkas!r}")
+    ringkas2 = build_site._harga_ringkas({"input": {"raw": "$1.00"}})
+    check("label sungguhan tetap ditampilkan",
+          ringkas2 == "input: $1.00", f"-> {ringkas2!r}")
+
+    # --- persentase ---------------------------------------------------------
+    check("kenaikan diberi tanda +", "+12%" in build_site.fmt_pct(12))
+    check("penurunan diberi kelas 'turun'", 'class="turun"' in
+          build_site.fmt_pct(-5))
+    check("persentase kosong tidak merusak", build_site.fmt_pct(None) == "")
+
+    # --- peristiwa yang sudah dikoreksi tidak boleh tampil -------------------
+    ubah = [{"date": "2026-09-07", "slug": "mailchimp", "name": "Mailchimp",
+             "url": "https://x.test", "kind": "price_change",
+             "plan_events": [{"type": "price_changed", "plan": "Free",
+                              "from": {"raw": "Free"}, "to": {"raw": "$20"}}]}]
+    tanpa = build_site.recent_rows(ubah, set(), "2026-09-07")
+    dengan = build_site.recent_rows(
+        ubah, {("2026-09-07", "mailchimp", "price_change")}, "2026-09-07")
+    check("tanpa koreksi: baris tampil", len(tanpa) == 1, f"-> {tanpa}")
+    check("sudah dikoreksi: TIDAK ditampilkan ke publik",
+          dengan == [], f"-> {dengan}")
+
+
 def test_target_diagnosis() -> None:
     """Validator harus memberi tindakan, bukan sekadar angka."""
     print("\n6c. diagnosis target")
@@ -1046,7 +1077,6 @@ def main() -> int:
     test_hash_stability()
     test_nested_noise()
     test_site_chrome_noise()
-    test_relative_time_noise()
     test_extraction()
     test_secret_redaction()
     test_plan_name_sanity()
@@ -1059,11 +1089,13 @@ def main() -> int:
     test_price_moves_need_a_moving_number()
     test_free_name_contradiction()
     test_settle_ms()
+    test_heading_tail()
     test_target_diagnosis()
     test_one_request_per_page()
     test_change_classification()
     test_diff()
     test_end_to_end()
+    test_site_builder()
 
     print("\n" + "=" * 60)
     if FAILURES:

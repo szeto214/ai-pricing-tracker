@@ -126,6 +126,10 @@ def _plausible_model(name: str) -> bool:
     # Baris subtotal / pemisah bagian, bukan model.
     if _norm_label(n) in {"total", "subtotal", "model", "models", "name", "-", "—"}:
         return False
+    # "Serverless & Compute Pricing" adalah judul bagian, bukan barang berharga.
+    from .extract import _HEADING_TAIL_RE
+    if _HEADING_TAIL_RE.search(n):
+        return False
     return True
 
 

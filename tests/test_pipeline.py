@@ -161,6 +161,38 @@ def test_site_chrome_noise() -> None:
     check("2 paket tetap terekstrak", names == ["Free", "Standard"], f"-> {names}")
 
 
+def test_relative_time_noise() -> None:
+    """Widget "terakhir diperbarui" berubah tiap hari karena jam, bukan harga.
+
+    voyage-ai tercatat berubah 12 hari BERTURUT-TURUT (29/08-10/09/2026) hanya
+    karena "11 days ago" menjadi "12 days ago". Satu-satunya perubahan yang
+    nyata di rentang itu adalah munculnya rerank-3 pada 02/09 — dan perubahan
+    itu tertimbun derau harian.
+    """
+    print("\n2c. waktu relatif (derau harian)")
+    a = normalize.process(
+        "<html><body><h1>Pricing</h1><p>Updated 11 days ago</p>"
+        "<p>$20/month</p></body></html>")
+    b = normalize.process(
+        "<html><body><h1>Pricing</h1><p>Updated 12 days ago</p>"
+        "<p>$20/month</p></body></html>")
+    check("'11 days ago' -> '12 days ago' TIDAK dianggap berubah",
+          a["content_hash"] == b["content_hash"],
+          f"\n       {a['content_hash'][:16]} vs {b['content_hash'][:16]}")
+    check("harga tetap utuh di teks", "$20" in a["text"], f"-> {a['text']!r}")
+
+    for teks in ("an hour ago", "one day ago", "3 weeks ago", "5 minutes ago"):
+        got = normalize.process(f"<html><body><p>{teks}</p></body></html>")["text"]
+        check(f"{teks!r} tersamarkan", "<relative-time>" in got, f"-> {got!r}")
+
+    # Yang TIDAK boleh ikut tersamarkan: masa tenggang & retensi adalah sinyal.
+    for teks in ("Cancel within 30 days", "Data retention 90 days",
+                 "14 day free trial"):
+        got = normalize.process(f"<html><body><p>{teks}</p></body></html>")["text"]
+        check(f"{teks!r} TETAP utuh — bukan waktu relatif",
+              "<relative-time>" not in got, f"-> {got!r}")
+
+
 def test_extraction() -> None:
     print("\n2. ekstraksi")
     html = render("cards.html")
@@ -1014,6 +1046,7 @@ def main() -> int:
     test_hash_stability()
     test_nested_noise()
     test_site_chrome_noise()
+    test_relative_time_noise()
     test_extraction()
     test_secret_redaction()
     test_plan_name_sanity()

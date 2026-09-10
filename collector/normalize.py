@@ -57,6 +57,17 @@ _VOLATILE = [
     (re.compile(r"\b[0-9a-f]{16,}\b", re.I), "<hex>"),
     (re.compile(r"\b\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?Z?\b"), "<timestamp>"),
     (re.compile(r"\b\d{10,13}\b"), "<epoch>"),
+    # Waktu relatif dari widget "terakhir diperbarui". Nilainya berubah SETIAP
+    # HARI hanya karena jam berjalan — voyage-ai tercatat berubah tiga hari
+    # berturut-turut hanya karena "11 days ago" menjadi "12 days ago".
+    #
+    # Kata "ago" adalah penanda yang aman: halaman harga tidak pernah
+    # menyatakan harga atau kuota dengan "ago". "Batal dalam 30 hari" atau
+    # "retensi 30 hari" tidak memakai kata itu, jadi sinyal yang kita cari
+    # tidak ikut tersamarkan.
+    (re.compile(r"\b(?:\d+|an?|one)\s+"
+                r"(?:second|minute|hour|day|week|month|year)s?\s+ago\b", re.I),
+     "<relative-time>"),
 ]
 
 _WS = re.compile(r"[ \t   ]+")

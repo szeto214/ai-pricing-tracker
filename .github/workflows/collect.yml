@@ -78,6 +78,20 @@ jobs:
       - name: Commit snapshot
         run: python scripts/push_snapshot.py "${{ steps.sum.outputs.message }}"
 
+      # ---------------------------------------------------------------------
+      # Halaman publik. SENGAJA diletakkan SETELAH arsip aman tersimpan, dan
+      # SENGAJA memakai continue-on-error: kalau pembangun halaman rusak, itu
+      # tidak boleh sampai membuat satu hari arsip hilang. Arsip adalah aset
+      # proyek ini; halaman publik hanyalah tampilannya.
+      #
+      # Skrip ini tidak pernah mengambil apa pun dari internet dan tidak
+      # pernah menulis ke data/ — hanya membaca arsip lalu menulis docs/.
+      # ---------------------------------------------------------------------
+      - name: Bangun & terbitkan halaman publik
+        if: always()
+        continue-on-error: true
+        run: python scripts/build_site.py --commit
+
       - name: Tulis ringkasan ke halaman run
         if: always()
         run: python scripts/summarize_run.py --markdown >> "$GITHUB_STEP_SUMMARY"

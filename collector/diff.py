@@ -44,18 +44,42 @@ RECORD_FIELDS_USED = (
 )
 
 
+def _sort_safe(value):
+    """Kunci urut yang tidak pernah membandingkan None dengan str/float.
+
+    Kenapa ini ada (audit 10/09/2026): `sorted()` atas tuple
+    (nama, amount, currency, period) melempar TypeError begitu dua paket
+    bernama sama berbeda di kolom yang salah satunya None — misalnya
+    currency "USD" vs None. 13 dari 140 rekaman di data/current/ memuat
+    pasangan seperti itu (cloudflare, confluence, mailchimp, neon, ...).
+    Jalur ini hanya dilalui halaman TIPIS dengan hash sama, jadi belum pernah
+    meledak; tapi begitu salah satunya jadi cangkang JS (seperti confluence
+    07/09 dan newrelic 08/09), target itu akan `crash` setiap hari, rekamannya
+    tidak tersimpan, dan run cadangan sore mengambil halamannya DUA KALI.
+
+    Isi tuple tidak diubah — hanya urutannya yang dibuat aman — jadi hasil
+    perbandingan untuk data yang sudah bisa diurutkan tetap sama persis.
+    """
+    if isinstance(value, tuple):
+        return tuple(_sort_safe(v) for v in value)
+    return (value is None, type(value).__name__, "" if value is None else value)
+
+
 def _structured_key(record: dict) -> tuple:
     """Sidik jari data terstruktur, untuk halaman yang teksnya kosong."""
     plans = tuple(sorted(
-        (str(p.get("name") or ""), p.get("amount"), p.get("currency"),
-         p.get("period"))
-        for p in record.get("plans") or []
+        ((str(p.get("name") or ""), p.get("amount"), p.get("currency"),
+          p.get("period"))
+         for p in record.get("plans") or []),
+        key=_sort_safe,
     ))
     models = tuple(sorted(
-        (str(m.get("key") or ""),
-         tuple(sorted((k, v.get("amount"))
-                      for k, v in (m.get("prices") or {}).items())))
-        for m in record.get("models") or []
+        ((str(m.get("key") or ""),
+          tuple(sorted(((k, v.get("amount"))
+                        for k, v in (m.get("prices") or {}).items()),
+                       key=_sort_safe)))
+         for m in record.get("models") or []),
+        key=_sort_safe,
     ))
     return plans, models
 

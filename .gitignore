@@ -2,3 +2,9 @@ __pycache__/
 *.pyc
 .venv/
 .env
+
+# Catatan pribadi pemilik (serah terima, rencana pajak & monetisasi).
+# Repo ini PUBLIK, dan kebiasaan harian `git add -A` menyapu semua berkas
+# yang belum dikenal git — begitulah workflow-collect-baru.yml ikut terbit.
+# Dokumen ini tersimpan di Project Claude, bukan di repo publik.
+SERAH-TERIMA.md

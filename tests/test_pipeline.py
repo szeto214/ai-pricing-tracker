@@ -1072,6 +1072,199 @@ def test_end_to_end() -> None:
         srv.server_close()
 
 
+def test_audit_2026_09_10() -> None:
+    """Temuan audit menyeluruh 10/09/2026 — semua dikunci sebelum pernah terjadi.
+
+    Setiap butir di bawah dibuktikan dulu pada salinan repo atau pada arsip
+    sungguhan, lalu diperbaiki dengan cara yang TIDAK mengubah satu angka pun
+    di arsip maupun di halaman publik hari ini (dibandingkan byte-per-byte).
+    """
+    print("\n12. temuan audit 10/09")
+    import io
+    from contextlib import redirect_stdout
+
+    from collector.diff import _structured_key
+
+    # --- 1. pembanding halaman tipis tidak boleh crash ----------------------
+    # Dua paket bernama sama, satu currency "USD" satu None: sorted() dulu
+    # melempar TypeError. 13 dari 140 rekaman nyata punya pasangan begini.
+    rec = {"content_hash": "h", "text_bytes": 1, "parser_version":
+           config.PARSER_VERSION, "plans": [
+               {"name": "Pro", "amount": 20.0, "currency": "USD", "period": "month"},
+               {"name": "Pro", "amount": 20.0, "currency": None, "period": None},
+               {"name": "Free", "amount": None, "currency": None, "period": None},
+               {"name": "Free", "amount": 0.0, "currency": "USD", "period": None},
+           ], "models": [
+               {"key": "m", "prices": {"input": {"amount": None}}},
+               {"key": "m", "prices": {"input": {"amount": 1.0}}},
+           ]}
+    galat = None
+    try:
+        _structured_key(rec)
+    except Exception as exc:  # noqa: BLE001
+        galat = exc
+    check("halaman tipis + nama ganda ber-None: tidak crash",
+          galat is None, f"-> {galat!r}")
+    kembar = json.loads(json.dumps(rec))
+    kembar["plans"] = list(reversed(kembar["plans"]))
+    check("halaman tipis, isi sama (urutan beda) -> tetap tenang",
+          compare(rec, kembar, "") is None)
+    naik = json.loads(json.dumps(rec))
+    naik["plans"][0]["amount"] = 25.0
+    check("halaman tipis, harga bergerak -> tetap terdeteksi",
+          compare(rec, naik, "") is not None)
+
+    # --- 2. parser_upgrade tidak boleh tampil / dihitung --------------------
+    sys.path.insert(0, str(ROOT / "scripts"))
+    import build_site
+    import gate_status
+
+    upg = {"date": "2026-09-10", "slug": "xata", "name": "Xata",
+           "url": "https://x.test", "kind": "parser_upgrade",
+           "plan_events": [{"type": "price_changed", "plan": "8xlarge",
+                            "from": {"raw": "$112", "amount": 112.0},
+                            "to": {"raw": "$1121", "amount": 1121.0},
+                            "pct_change": 900.89}],
+           "model_events": []}
+    asli = dict(upg, kind="price_change", slug="acme", name="Acme")
+    rows = build_site.recent_rows([upg, asli], set(), "2026-09-10")
+    check("parser_upgrade TIDAK tampil di tabel perubahan publik",
+          [r["vendor"] for r in rows] == ["Acme"], f"-> {rows}")
+    check("parser_upgrade TIDAK jadi 'perubahan terakhir'",
+          ("xata", "8xlarge") not in build_site.last_moves([upg], set()))
+    check("perubahan harga biasa tetap tampil",
+          ("acme", "8xlarge") in build_site.last_moves([asli], set()))
+
+    config.CHANGES_DIR.mkdir(parents=True, exist_ok=True)
+    simpan = (config.CHANGES_LOG.read_text(encoding="utf-8")
+              if config.CHANGES_LOG.exists() else None)
+    config.CHANGES_LOG.write_text(json.dumps(upg) + "\n", encoding="utf-8")
+    buf = io.StringIO()
+    old_argv = sys.argv
+    try:
+        sys.argv = ["gate_status.py"]
+        with redirect_stdout(buf):
+            gate_status.main()
+    finally:
+        sys.argv = old_argv
+        if simpan is None:
+            config.CHANGES_LOG.unlink()
+        else:
+            config.CHANGES_LOG.write_text(simpan, encoding="utf-8")
+    check("gerbang bulan ke-3 tidak menghitung parser_upgrade",
+          "**0 / 100**" in buf.getvalue(), f"-> {buf.getvalue()[:300]!r}")
+
+    # --- 3. koreksi yang disunting tangan tidak boleh menjatuhkan run -------
+    path = config.CHANGES_DIR / "corrections.jsonl"
+    path.write_text('[1, 2]\n"x"\n{bukan json}\n'
+                    + json.dumps({"date": "2026-09-01", "slug": "a"}) + "\n",
+                    encoding="utf-8")
+    galat, got = None, None
+    try:
+        got = storage.load_corrections()
+    except Exception as exc:  # noqa: BLE001
+        galat = exc
+    path.unlink()
+    check("baris koreksi bukan-objek tidak menjatuhkan pemanggil",
+          galat is None, f"-> {galat!r}")
+    check("baris koreksi yang sah tetap terbaca",
+          got == {("2026-09-01", "a", "price_change")}, f"-> {got}")
+
+    # --- 4. pesan commit kosong tidak boleh membatalkan arsip ---------------
+    import push_snapshot
+    check("pesan kosong -> pesan cadangan (git menolak -m \"\")",
+          push_snapshot.commit_message(["x", ""]) == push_snapshot.FALLBACK_MESSAGE)
+    check("tanpa argumen -> pesan cadangan",
+          push_snapshot.commit_message(["x"]) == push_snapshot.FALLBACK_MESSAGE)
+    check("pesan normal dipakai apa adanya",
+          push_snapshot.commit_message(["x", "data: snapshot 2026-09-10"])
+          == "data: snapshot 2026-09-10")
+
+
+class _Handler429(http.server.BaseHTTPRequestHandler):
+    hits = 0
+
+    def log_message(self, *a):  # senyapkan
+        pass
+
+    def do_GET(self):  # noqa: N802
+        if self.path == "/robots.txt":
+            body, code = b"User-agent: *\nAllow: /\n", 200
+        else:
+            type(self).hits += 1
+            body, code = b"slow down", 429
+        self.send_response(code)
+        if code == 429:
+            self.send_header("Retry-After", "3600")
+        self.send_header("Content-Length", str(len(body)))
+        self.end_headers()
+        self.wfile.write(body)
+
+
+def test_refusal_is_final_for_the_day() -> None:
+    """429/4xx = kembali besok. Bukan diulang, bukan dicoba lagi sore.
+
+    Riwayat 27/08-02/09/2026: devin & windsurf menjawab 429 setiap hari.
+    Kode lama mengulang dua kali per eksekusi (Retry-After dibatasi 120 detik
+    walau server meminta satu jam), lalu run cadangan sore mengulang lagi —
+    sampai 6 permintaan per hari ke halaman yang sudah menolak, dan tidak
+    sekali pun berhasil. Aturan kita: maksimal SATU permintaan per halaman
+    per hari, termasuk permintaan yang ditolak.
+    """
+    print("\n13. penolakan server berlaku untuk sehari")
+    import asyncio
+
+    from collector.run import build_parser, main_async
+
+    socketserver.TCPServer.allow_reuse_address = True
+    srv = socketserver.TCPServer(("127.0.0.1", 0), _Handler429)
+    port = srv.server_address[1]
+    threading.Thread(target=srv.serve_forever, daemon=True).start()
+    targets_file = _TMP / "targets-429.yaml"
+    targets_file.write_text(
+        "targets:\n"
+        f"  - slug: sibuk\n    name: Sibuk\n    vendor: X\n"
+        f"    category: ai-api\n    url: http://127.0.0.1:{port}/pricing\n",
+        encoding="utf-8")
+    try:
+        _Handler429.hits = 0
+        args = build_parser().parse_args(
+            ["--targets", str(targets_file), "--date", "2026-09-10"])
+        asyncio.run(main_async(args))
+        log = storage.load_run_log("2026-09-10")
+        e = {x["slug"]: x for x in log["targets"]}["sibuk"]
+        check("429 dicatat sebagai http_error",
+              e["status"] == "http_error" and e["http_status"] == 429,
+              f"-> {e.get('status')} {e.get('http_status')}")
+        check("429 TIDAK diulang dalam eksekusi yang sama",
+              _Handler429.hits == 1, f"-> {_Handler429.hits} permintaan")
+        check("Retry-After ikut dicatat untuk pemeriksa",
+              "3600" in (e.get("reason") or ""), f"-> {e.get('reason')}")
+
+        # run cadangan sore, tanggal sama, tanpa --force
+        asyncio.run(main_async(args))
+        check("run cadangan sore TIDAK meminta ulang halaman yang menolak",
+              _Handler429.hits == 1, f"-> {_Handler429.hits} permintaan")
+
+        # --force tetap bisa dipakai pemilik secara sadar
+        forced = build_parser().parse_args(
+            ["--targets", str(targets_file), "--date", "2026-09-10", "--force"])
+        asyncio.run(main_async(forced))
+        check("--force tetap mengulang (keputusan manusia, bukan otomatis)",
+              _Handler429.hits == 2, f"-> {_Handler429.hits} permintaan")
+    finally:
+        srv.shutdown()
+        srv.server_close()
+
+    from collector.run import _refused_today
+    check("galat jaringan TETAP boleh dicoba sore (bukan penolakan)",
+          not _refused_today({"status": "network_error", "http_status": None}))
+    check("HTTP 503 TETAP boleh dicoba sore (gangguan sementara)",
+          not _refused_today({"status": "http_error", "http_status": 503}))
+    check("HTTP 403 dianggap penolakan untuk hari ini",
+          _refused_today({"status": "http_error", "http_status": 403}))
+
+
 def main() -> int:
     print(f"data uji: {config.DATA_DIR}")
     test_hash_stability()
@@ -1096,6 +1289,8 @@ def main() -> int:
     test_diff()
     test_end_to_end()
     test_site_builder()
+    test_audit_2026_09_10()
+    test_refusal_is_final_for_the_day()
 
     print("\n" + "=" * 60)
     if FAILURES:

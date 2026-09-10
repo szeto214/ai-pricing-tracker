@@ -152,7 +152,24 @@ async def fetch(
                 elapsed_ms=_ms(started), robots_note=note,
             )
 
-        if resp.status_code in (429, 500, 502, 503, 504):
+        # 429 = server meminta kita berhenti. TIDAK diulang dalam eksekusi
+        # yang sama, dan (lihat run.py) juga tidak diulang oleh run cadangan
+        # sore: kita kembali besok, sesuai janji "1 request per page per day"
+        # di User-Agent. Versi lama mengulang dua kali dan membatasi
+        # Retry-After ke 120 detik — padahal server bisa meminta satu jam.
+        # Riwayat 27/08-02/09: devin & windsurf menjawab 429 setiap hari;
+        # pengulangan tidak pernah sekali pun berhasil, hanya menambah beban
+        # sampai 6 permintaan per hari ke halaman yang sudah menolak.
+        if resp.status_code == 429:
+            ra = (resp.headers.get("retry-after") or "").strip()
+            return FetchResult(
+                False, "http_error", http_status=429,
+                reason="HTTP 429" + (f" (Retry-After: {ra[:40]})" if ra else "")
+                + " — tidak diulang hari ini",
+                elapsed_ms=_ms(started), robots_note=note,
+            )
+
+        if resp.status_code in (500, 502, 503, 504):
             last_reason = f"HTTP {resp.status_code}"
             if attempt < config.MAX_RETRIES:
                 wait = config.RETRY_BACKOFF * (attempt + 1)

@@ -24,6 +24,13 @@ diperiksa siapa pun:
     harga SOFTWARE cukup sering berubah untuk membuat arsip ini berguna.
   * Peristiwa yang tercatat di corrections.jsonl dikeluarkan. Log aslinya
     tidak pernah diubah.
+  * Catatan `parser_upgrade` TIDAK PERNAH dihitung, walau isinya memuat
+    `price_changed`: pada hari itu yang bergerak adalah pembaca angkanya,
+    bukan harganya (§10.6). Aturan "bukti, bukan label" di atas berlaku untuk
+    label lama yang terlalu longgar — bukan untuk label yang justru dibuat
+    untuk menandai hari yang tidak boleh dihitung. Celah ini ditemukan saat
+    audit 10/09/2026, sebelum pernah terjadi (arsip belum memuat satu pun
+    catatan parser_upgrade).
 
 Tidak menulis apa pun.
 """
@@ -80,7 +87,8 @@ def main() -> int:
                       if e["type"] == "model_price_changed"))
 
     # Bukti, bukan label. Lihat penjelasan di docstring.
-    price = [c for c in rows if moved_in(c) > 0]
+    price = [c for c in rows
+             if moved_in(c) > 0 and c.get("kind") != "parser_upgrade"]
     berlabel = len([c for c in rows if c.get("kind") == "price_change"])
     kept = [c for c in price
             if (c.get("date"), c.get("slug"), "price_change") not in corrections]

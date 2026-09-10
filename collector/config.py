@@ -22,10 +22,13 @@ TARGETS_FILE = Path(os.environ.get("APT_TARGETS_FILE")
 CHANGES_LOG = CHANGES_DIR / "changes.jsonl"
 
 # --- identitas bot -----------------------------------------------------------
-# Ganti CONTACT_URL setelah domain final dibeli. Bot HARUS bisa dihubungi.
+# Bot HARUS bisa dihubungi. Di CI nilainya diisi workflow dari nama repo;
+# bawaan di bawah dipakai saat dijalankan lokal (dulu masih "CHANGEME", jadi
+# pengambilan dari laptop pemilik tidak membawa alamat kontak yang benar).
+# Ganti setelah domain final dibeli.
 PROJECT_NAME = os.environ.get("APT_PROJECT_NAME", "ai-pricing-tracker")
 CONTACT_URL = os.environ.get(
-    "APT_CONTACT_URL", "https://github.com/CHANGEME/ai-pricing-tracker"
+    "APT_CONTACT_URL", "https://github.com/szeto214/ai-pricing-tracker"
 )
 USER_AGENT = (
     f"{PROJECT_NAME}/0.1 (+{CONTACT_URL}) "

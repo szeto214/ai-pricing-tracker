@@ -77,8 +77,22 @@ def redact_locations(output: str) -> list[str]:
     return touched
 
 
+FALLBACK_MESSAGE = "data: snapshot (ringkasan tidak tersedia)"
+
+
+def commit_message(argv: list[str]) -> str:
+    """Pesan kosong bukan alasan kehilangan satu hari arsip.
+
+    Kalau langkah "Ringkas hasil" gagal, workflow tetap memanggil skrip ini
+    dengan argumen "" — dan `git commit -m ""` DITOLAK git ("Aborting commit
+    due to empty commit message"). Maka pakai pesan cadangan. (Audit 10/09.)
+    """
+    message = (argv[1] if len(argv) > 1 else "").strip()
+    return message or FALLBACK_MESSAGE
+
+
 def main() -> int:
-    message = sys.argv[1] if len(sys.argv) > 1 else "data: snapshot"
+    message = commit_message(sys.argv)
     ref = branch()
 
     run("git", "config", "user.name", "pricing-bot")

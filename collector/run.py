@@ -132,6 +132,24 @@ async def process_target(target, *, client, robots, gate, sem, date, args) -> di
     return entry
 
 
+def _refused_today(entry: dict) -> bool:
+    """Server sudah menjawab dengan penolakan tegas (HTTP 4xx) hari ini.
+
+    Halaman seperti itu TIDAK diambil lagi oleh run cadangan sore. Penolakan
+    tetap sebuah permintaan yang terkirim, dan aturan kita "maksimal sekali
+    sehari per halaman" berlaku untuk permintaan, bukan untuk keberhasilan.
+    Riwayat 27/08-02/09: devin & windsurf (429) serta ideogram (403) diminta
+    ulang tiap sore dan tidak sekali pun berhasil.
+
+    Galat jaringan dan 5xx TETAP boleh dicoba sore — itu kegagalan sementara
+    di sisi mana pun, bukan penolakan; menyerah di sana berarti kehilangan
+    satu hari arsip tanpa alasan.
+    """
+    code = entry.get("http_status")
+    return (entry.get("status") == "http_error"
+            and isinstance(code, int) and 400 <= code < 500)
+
+
 def dedupe_by_url(targets: list) -> tuple[list, list[tuple[str, str]]]:
     """Satu halaman = satu permintaan per eksekusi.
 
@@ -183,13 +201,15 @@ async def main_async(args) -> int:
     if not args.force:
         done_ok = {
             e["slug"] for e in previous.get("targets", [])
-            if e.get("status") == "ok" and not e.get("dry_run")
+            if not e.get("dry_run") and (
+                e.get("status") == "ok" or _refused_today(e))
         }
         if done_ok:
             targets = [t for t in targets if t.slug not in done_ok]
 
     if not targets:
-        print(f"[{date}] semua target sudah diambil hari ini. "
+        print(f"[{date}] semua target sudah ditangani hari ini (berhasil, "
+              f"atau ditolak server dengan HTTP 4xx). "
               f"Pakai --force untuk mengulang.")
         return 0
 

@@ -10,19 +10,24 @@ ada kalau dikumpulkan sejak hari pertama.
 Riwayat git repo ini **adalah** arsipnya. Setiap commit harian adalah snapshot
 bertanggal yang bisa diverifikasi siapa pun.
 
+**Halaman publik:** https://szeto214.github.io/ai-pricing-tracker/ — dibangun
+ulang otomatis setiap hari dari `data/`, gratis untuk dibaca, setiap angka
+menautkan balik ke halaman harga resminya.
+
 ---
 
 ## Status
 
-Fase 1 (bulan 1–3): **mengumpulkan, belum menerbitkan apa pun.**
+Fase 1 (bulan 1–3): mengumpulkan setiap hari; halaman publik statis sudah
+terbit sejak 10/09/2026.
 
 - [x] Pengumpul data + normalisasi + hash stabil
-- [x] Ekstraktor hybrid (adapter → JSON-LD → heuristik DOM)
-- [x] Pembanding + log perubahan append-only
-- [x] GitHub Actions harian
-- [ ] Validasi 48 target terhadap situs sungguhan (`validate-targets`)
-- [ ] Naikkan ke ~200 target
-- [ ] Situs statis (bulan ke-3)
+- [x] Ekstraktor hybrid (adapter → JSON-LD → heuristik DOM) + harga per-baris tabel
+- [x] Pembanding + log perubahan append-only + catatan koreksi
+- [x] GitHub Actions harian (jadwal utama + cadangan)
+- [x] Validasi target terhadap situs sungguhan (`validate-targets`)
+- [x] Situs statis (`scripts/build_site.py` → `docs/`)
+- [ ] Membaca lebih banyak halaman API dengan benar (lebih penting daripada menambah target)
 
 ---
 
@@ -80,9 +85,9 @@ sebelum sempat tumbuh. Aturan berikut ditegakkan di kode, bukan cuma di dokumen:
 | `robots.txt` dihormati; yang melarang dilewati | `fetcher.fetch` |
 | robots.txt 5xx/gagal → **tidak** diambil (RFC 9309) | `RobotsCache._load` |
 | `Crawl-delay` dipatuhi, minimum 6 detik per host | `HostGate` |
-| Maksimum satu permintaan per halaman per hari | `run.main_async` |
+| Maksimum satu permintaan per halaman per hari (juga untuk halaman yang sama dengan slug berbeda) | `run.main_async`, `run.dedupe_by_url` |
 | User-Agent menyebut nama proyek + URL kontak | `config.USER_AGENT` |
-| Hormati `Retry-After` saat kena 429 | `fetcher.fetch` |
+| 429 / HTTP 4xx → tidak diulang, termasuk oleh run cadangan sore; kembali besok | `fetcher.fetch`, `run._refused_today` |
 | Tolak halaman > 6 MB | `config.MAX_BYTES` |
 
 Yang **tidak** ditegakkan kode dan jadi tanggung jawabmu saat menambah target:
@@ -93,9 +98,8 @@ Yang **tidak** ditegakkan kode dan jadi tanggung jawabmu saat menambah target:
 - Situs yang menerbitkan hasilnya nanti **wajib** menautkan balik ke halaman
   harga resmi setiap tool.
 
-**Sebelum menjalankan produksi:** ganti `APT_CONTACT_URL` (default masih
-`github.com/CHANGEME/...`). Bot tanpa alamat kontak yang benar adalah bot yang
-pantas diblokir.
+`APT_CONTACT_URL` diisi otomatis oleh workflow dengan alamat repo ini. Bot
+tanpa alamat kontak yang benar adalah bot yang pantas diblokir.
 
 ---
 
@@ -171,18 +175,15 @@ Kalau kamu menyentuh `normalize.py`, jalankan ulang test itu.
 - **Bulan 6** — ada pengunjung yang kembali tanpa disuruh?
 - **Bulan 12** — sudah $500/bulan?
 
-Cek progres kapan saja:
+Cek progres kapan saja — satu definisi tetap, satu sumber angka:
 
 ```bash
-wc -l data/changes/changes.jsonl
-python -c "
-import json,collections
-k=collections.Counter()
-for l in open('data/changes/changes.jsonl'):
-    k[json.loads(l)['kind']]+=1
-print(k)
-"
+python scripts/gate_status.py
 ```
+
+Jangan menghitung dari label `kind` mentah: label lama (sebelum 03/09/2026)
+lebih longgar, dan peristiwa yang terbukti cacat pembaca tercatat di
+`data/changes/corrections.jsonl`. `gate_status.py` menangani keduanya.
 
 ---
 

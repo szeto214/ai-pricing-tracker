@@ -20,6 +20,7 @@ commit harian tidak menghasilkan diff palsu.
 from __future__ import annotations
 
 import json
+import sys
 from pathlib import Path
 
 from . import config
@@ -94,15 +95,29 @@ def load_corrections() -> set[tuple[str, str, str]]:
     out: set[tuple[str, str, str]] = set()
     if not CORRECTIONS_LOG.exists():
         return out
-    for line in CORRECTIONS_LOG.read_text(encoding="utf-8").splitlines():
+    lines = CORRECTIONS_LOG.read_text(encoding="utf-8").splitlines()
+    for no, line in enumerate(lines, 1):
         if not line.strip():
             continue
+        # Berkas ini disunting tangan. Baris yang rusak TIDAK boleh
+        # menjatuhkan pemanggilnya: summarize_run.py berjalan SEBELUM arsip
+        # di-commit, jadi galat di sini dulu bisa menghilangkan satu hari
+        # arsip. Tapi juga tidak boleh diam — koreksi yang tidak terbaca
+        # berarti peristiwa yang sudah diketahui keliru tampil lagi ke publik.
+        # (Audit 10/09/2026: baris `[1,2]` atau `"x"` melempar AttributeError.)
         try:
             e = json.loads(line)
         except json.JSONDecodeError:
+            print(f"! corrections.jsonl baris {no}: bukan JSON — diabaikan",
+                  file=sys.stderr)
+            continue
+        if not isinstance(e, dict):
+            print(f"! corrections.jsonl baris {no}: bukan objek — diabaikan",
+                  file=sys.stderr)
             continue
         if e.get("date") and e.get("slug"):
-            out.add((e["date"], e["slug"], e.get("kind", "price_change")))
+            out.add((str(e["date"]), str(e["slug"]),
+                     str(e.get("kind") or "price_change")))
     return out
 
 

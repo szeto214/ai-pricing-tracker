@@ -68,6 +68,24 @@ def load_current(slug: str) -> dict | None:
         return None
 
 
+def counted(c: dict, corrections: set) -> bool:
+    """Boleh tampil / dihitung sebagai pergerakan harga di halaman publik?
+
+    Dua jenis catatan TIDAK boleh:
+      * yang sudah dikoreksi (corrections.jsonl) — kita sendiri tahu keliru;
+      * `parser_upgrade` — hari ketika PEMBACA angka berubah. Pembanding
+        sengaja tetap menyimpan seluruh peristiwanya (supaya tidak ada data
+        yang hilang), termasuk `price_changed`, padahal yang bergerak adalah
+        pembacanya, bukan harganya. Tanpa penyaring ini, kenaikan
+        PARSER_VERSION berikutnya akan menampilkan ulang kesalahan 05/09
+        (§10.6) ke publik: mis. Xata "$112 -> $1121 +900%". Ditemukan saat
+        audit 10/09/2026, sebelum pernah terjadi.
+    """
+    if c.get("kind") == "parser_upgrade":
+        return False
+    return (c.get("date"), c.get("slug"), "price_change") not in corrections
+
+
 def moved_numbers(entry: dict) -> int:
     return (len([e for e in entry.get("plan_events") or []
                  if e["type"] == "price_changed"])
@@ -84,7 +102,7 @@ def last_moves(changes: list[dict], corrections: set) -> dict[tuple, dict]:
     """
     out: dict[tuple, dict] = {}
     for c in sorted(changes, key=lambda x: x.get("date", "")):
-        if (c.get("date"), c.get("slug"), "price_change") in corrections:
+        if not counted(c, corrections):
             continue
         for e in c.get("plan_events") or []:
             if e["type"] != "price_changed":
@@ -200,7 +218,7 @@ def recent_rows(changes: list[dict], corrections: set,
     for c in changes:
         if c.get("date", "") < batas:
             continue
-        if (c.get("date"), c.get("slug"), "price_change") in corrections:
+        if not counted(c, corrections):
             continue
         for e in c.get("plan_events") or []:
             if e["type"] != "price_changed":
@@ -387,9 +405,7 @@ def build() -> str:
     hari = (dt.date.fromisoformat(akhir) - dt.date.fromisoformat(awal)).days + 1
 
     moves = last_moves(changes, corrections)
-    angka = sum(moved_numbers(c) for c in changes
-                if (c.get("date"), c.get("slug"), "price_change")
-                not in corrections)
+    angka = sum(moved_numbers(c) for c in changes if counted(c, corrections))
 
     return build_html(
         tanggal=akhir, hari=hari,
@@ -420,16 +436,32 @@ def commit_and_push(tanggal: str) -> int:
     _git("config", "user.email",
          "41898282+github-actions[bot]@users.noreply.github.com")
     _git("add", "-A", "docs/")
-    if _git("diff", "--cached", "--quiet").returncode == 0:
+    if _git("diff", "--cached", "--quiet", "--", "docs/").returncode == 0:
         print("halaman publik tidak berubah — tidak ada commit")
         return 0
-    c = _git("commit", "-m", f"site: perbarui halaman publik ({tanggal})")
+    # `-- docs/`: commit HANYA docs/, walau ada berkas lain yang kebetulan
+    # sudah di-stage oleh langkah sebelumnya. Commit berlabel "site:" tidak
+    # boleh diam-diam membawa isi arsip.
+    c = _git("commit", "-m", f"site: perbarui halaman publik ({tanggal})",
+             "--", "docs/")
     print(c.stdout.strip()[:300])
     if c.returncode != 0:
         return 1
     ref = (_git("rev-parse", "--abbrev-ref", "HEAD").stdout.strip() or "main")
     for attempt in range(1, 4):
-        _git("pull", "--rebase", "--autostash", "origin", ref)
+        pull = _git("pull", "--rebase", "--autostash", "origin", ref)
+        if pull.returncode != 0:
+            # Tanpa pemeriksaan ini, rebase yang tersangkut membuat `push`
+            # menjawab "Everything up-to-date" dan skrip melaporkan SUKSES
+            # padahal halaman tidak terbit (ditemukan saat audit 10/09/2026).
+            # Batalkan rebase (kalau ada) dan coba lagi; gangguan jaringan
+            # sesaat tetap punya kesempatan pulih. Kalau semua percobaan
+            # gagal, laporkan gagal dengan jujur — halaman bisa dibangun ulang
+            # kapan saja, arsipnya sudah aman di langkah sebelumnya.
+            print(f"pull --rebase gagal (percobaan {attempt}):\n"
+                  f"{pull.stdout[-500:]}")
+            _git("rebase", "--abort")
+            continue
         p = _git("push", "origin", f"HEAD:{ref}")
         if p.returncode == 0:
             print(p.stdout.strip()[-300:])
@@ -443,6 +475,21 @@ def main() -> int:
     ap.add_argument("--commit", action="store_true",
                     help="commit & push docs/ setelah dibangun")
     args = ap.parse_args()
+
+    if args.commit:
+        # Halaman publik hanya boleh memuat angka yang SUDAH ada di arsip git.
+        # Kalau data/ masih punya perubahan yang belum di-commit — misalnya
+        # kolektor jatuh di tengah jalan setelah menulis sebagian
+        # data/current/, sehingga langkah "Commit snapshot" dilewati —
+        # menerbitkan halaman berarti memamerkan angka yang tidak pernah
+        # masuk arsip. Ditemukan saat audit 10/09/2026 (dibuktikan pada
+        # salinan repo). Lebih baik halaman tertinggal sehari daripada
+        # menampilkan angka tanpa jejak.
+        kotor = _git("status", "--porcelain", "--", "data/").stdout.strip()
+        if kotor:
+            print("! data/ punya perubahan yang belum ter-commit — halaman "
+                  "TIDAK diterbitkan hari ini:\n" + kotor[:500])
+            return 1
 
     halaman = build()
     OUT_DIR.mkdir(parents=True, exist_ok=True)

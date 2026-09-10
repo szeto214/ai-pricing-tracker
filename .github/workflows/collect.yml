@@ -37,11 +37,16 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 90
     steps:
-      - uses: actions/checkout@v4
+      # Versi aksi WAJIB yang berjalan di Node 24. GitHub mengumumkan Node 20
+      # dihapus dari runner pada 23/09/2026 (changelog 2025-09-19). checkout@v4,
+      # setup-python@v5, dan cache@v4 masih Node 20 — kalau dibiarkan, run
+      # harian bisa gagal total dan hari yang hilang tidak bisa dikejar.
+      # Isian (fetch-depth, python-version, cache, path, key) tidak berubah.
+      - uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
           cache: pip
@@ -53,7 +58,7 @@ jobs:
       # ini dihapus, target itu dilewati dengan status skipped_render —
       # tidak menjatuhkan run, tapi arsipnya bolong.
       - name: Cache browser Playwright
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: ~/.cache/ms-playwright
           key: playwright-chromium-1.62.0
@@ -71,8 +76,13 @@ jobs:
             ${{ github.event.inputs.only && format('--only {0}', github.event.inputs.only) || '' }} \
             ${{ github.event.inputs.force == 'true' && '--force' || '' }}
 
+      # Ringkasan hanya menyusun PESAN commit. Ia tidak boleh bisa menggagalkan
+      # penyimpanan arsip: tanpa continue-on-error, satu galat di sini membuat
+      # langkah "Commit snapshot" dilewati dan seluruh hari itu hilang.
+      # Kalau pesannya kosong, push_snapshot.py memakai pesan cadangan.
       - name: Ringkas hasil
         id: sum
+        continue-on-error: true
         run: python scripts/summarize_run.py >> "$GITHUB_OUTPUT"
 
       - name: Commit snapshot

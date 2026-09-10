@@ -6,9 +6,9 @@
   "url": "https://cursor.com/pricing",
   "final_url": "https://cursor.com/pricing",
   "parser_version": 3,
-  "content_hash": "38aa27f4b8e482bb36b8af0eace54f844a86ab2b806cf9fa1eaeb38c3ce13eaf",
-  "raw_hash": "bd88bcd26cb524ac3993422dea1564239ec8596b5e039d0700a232b62fc76a96",
-  "text_bytes": 3265,
+  "content_hash": "3c325ed786eca8c004dfb1689b6383f927a6bd21eaf5d6a6c404a473521aa151",
+  "raw_hash": "22d5892c7507bdd9f4eb56dc52b2abb8fe431fad856863af08502103be887a4f",
+  "text_bytes": 2957,
   "extractor": "jsonld",
   "confidence": "medium",
   "plans": [

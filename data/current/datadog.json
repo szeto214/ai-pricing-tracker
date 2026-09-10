@@ -6,9 +6,9 @@
   "url": "https://www.datadoghq.com/pricing/",
   "final_url": "https://www.datadoghq.com/pricing/",
   "parser_version": 3,
-  "content_hash": "13d9d366fcde4703f67ff701443908b982ef731598367acdb412746323afcef5",
-  "raw_hash": "6a169fcfe310166757f6ff5606f969ff7d40e5c692c7cf46a63cb1afa0acf09f",
-  "text_bytes": 219643,
+  "content_hash": "b7f874f4249793496ed1ada19e821499233e62982ea1cd344b011bd21d80a943",
+  "raw_hash": "57abb5d0b33e81afa825118180d01a6888ac408ff3e9f634d82767b5e440003a",
+  "text_bytes": 219638,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -69,27 +69,6 @@
         "15-day trace retention",
         "Unlimited context & evals",
         "Full feature access"
-      ]
-    },
-    {
-      "name": "Data Streams Monitoring",
-      "price_raw": "$ 15",
-      "amount": 15.0,
-      "currency": "USD",
-      "period": "month",
-      "features": [
-        "Detect slowdowns anywhere in your event-driven applications",
-        "Localize and resolve pipeline bottlenecks and failures",
-        "Remediate floods of backed-up messages",
-        "Out-of-the-box pipeline topology mapping",
-        "Consumer lag and partition metrics",
-        "End-to-end latency and throughput metrics",
-        "Recommended monitors",
-        "Correlated telemetry: traces, logs, and infrastructure metrics",
-        "Schema tracking",
-        "Team ownership information",
-        "Custom dashboards",
-        "Unlimited users"
       ]
     },
     {

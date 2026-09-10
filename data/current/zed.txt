@@ -32,7 +32,7 @@ Our Personal plan is for users who want a best-in-class code editor without AI c
 Our Pro plan comes with Zed hosted models out of the box.
 Our Business plan is for teams that need centralized control over how Zed is used.
 What's the difference between Pro and Business?
-Pro is for individual developers: it comes with Zed-hosted AI models and unlimited Edit Predictions.
+Pro is for individual developers: it comes with Zed-hosted AI models and unlimited edit predictions.
 Business is an org-level layer on top of that, not a replacement. Members can hold their own Pro subscriptions.
 What Business adds is the admin layer – org-wide controls over AI features, data sharing policies, and unified billing across every seat.
 Do Business seats include AI credits?
@@ -52,16 +52,18 @@ sales@zed.dev
 What admin controls are available in Business?
 From
 dashboard.zed.dev
-, Business admins can restrict or disable Zed-hosted AI models by model, turn off Edit Predictions org-wide, and lock data sharing settings so members can't override them.
+, Business admins can restrict or disable Zed-hosted AI models by model, turn off edit predictions org-wide, and lock data sharing settings so members can't override them.
 Since Zed is open source, these controls govern Zed's hosted services specifically.
 SSO, SAML, and SCIM are planned but not currently available.
 How does the free trial work?
-We offer a two week free trial of our Pro plan which comes with $20 of token credits and unlimited accepted edit predictions.
-To start your trial, make sure you're logged in, and then visit
-your Account page
-to upgrade.
-The trial ends once you've used up your prompts or the two weeks pass–whatever comes first.
-Claude Fable, Claude Opus, and GPT Pro models are not available during the free trial.
+We offer a 14-day free trial of Pro with $5 of GPT-5.6 Luna usage and unlimited accepted edit predictions.
+No credit card is required.
+The trial ends when you use the $5 balance or 14 days pass, whichever comes first.
+Your $5 trial balance is shared across Zed and Delta.
+Start your trial on your
+Account page
+.
+GPT-5.6 Luna is the only hosted model available during the free trial.
 What is a token?
 A token is a unit of text processed by an LLM (roughly 3–4 characters of English text).
 With token-based billing, you’re only charged for the text your prompts and responses actually consume.

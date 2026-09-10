@@ -132,7 +132,7 @@ Regional processing (data residency) endpoints are charged a 10% uplift for mode
 Your data
 guide for supported regions and processing details.
 OpenAI models in Amazon Bedrock
-are billed through AWS and may differ from direct OpenAI pricing.
+are billed through AWS. Bedrock pricing in commercial regions matches OpenAI direct pricing for equivalent services.
 Priority processing was renamed Fast mode on July 30, 2026. You can use either
 service_tier: "priority"
 or

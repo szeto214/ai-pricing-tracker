@@ -6,9 +6,9 @@
   "url": "https://www.anthropic.com/pricing",
   "final_url": "https://claude.com/pricing",
   "parser_version": 3,
-  "content_hash": "13e9f62dd4ee70c87540cd4185899e9fe5095d6bf1259b00c69e31868cdbf8c5",
-  "raw_hash": "c37f63444e845ff80213c19c4d6dd1dab416cc27b89211fd0ac4ef923d698d35",
-  "text_bytes": 6399,
+  "content_hash": "61e51ba7792031a703a39469421d82c1f25397d584f5ad940356acd0c6d72336",
+  "raw_hash": "2077fa470f41c4d37f30dada8e9ffc23c3006b5d83c376f7f3230f8aab1dbe79",
+  "text_bytes": 6442,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -33,6 +33,7 @@
         "Includes Claude Design",
         "Includes Claude Science",
         "Access to unlimited projects to organize chats and documents",
+        "Access to Research",
         "Ability to use more Claude models",
         "Claude for Microsoft 365"
       ]
@@ -204,6 +205,13 @@
         [
           "Create and edit files with code execution More information",
           "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Research",
+          "No",
           "Yes",
           "Yes",
           "Yes"

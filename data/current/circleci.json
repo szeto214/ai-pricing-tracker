@@ -6,9 +6,9 @@
   "url": "https://circleci.com/pricing/",
   "final_url": "https://circleci.com/pricing/",
   "parser_version": 3,
-  "content_hash": "093a7bded0616db95b79a78db8660c431e3a1ac9b0c525a87e77f8cd76144d4d",
-  "raw_hash": "e5dfe8a6dba51d59bffa56c5b12a67702147d5f6efd95170d45ef1263910a222",
-  "text_bytes": 14320,
+  "content_hash": "b33e1a44d57670522d5321a7267962f20815e49f690b67cecb6a4c6f10bf8c10",
+  "raw_hash": "6f7a4fe1c0f92f592cae2fbb77a5637951447684232d4094ae32a24f0568c622",
+  "text_bytes": 14117,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -365,7 +365,7 @@
       "caption": "",
       "rows": [
         [
-          "Linux VM / (x86) Remote Docker (Gen 3)",
+          "Arm VM (Linux)",
           "Free",
           "Performance",
           "Scale"
@@ -393,12 +393,6 @@
           "—",
           "—",
           "Yes"
-        ],
-        [
-          "2 X-large+",
-          "—",
-          "—",
-          "Yes"
         ]
       ]
     },
@@ -406,7 +400,7 @@
       "caption": "",
       "rows": [
         [
-          "Arm VM (Linux)",
+          "Windows VM",
           "Free",
           "Performance",
           "Scale"

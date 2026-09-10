@@ -6,9 +6,9 @@
   "url": "https://www.sonarsource.com/plans-and-pricing/",
   "final_url": "https://www.sonarsource.com/plans-and-pricing/",
   "parser_version": 3,
-  "content_hash": "754d7d99e8e69c8076c137dcc895b691eb63855769810387cc3e60f0230e63be",
-  "raw_hash": "27f56c027e5c4145171830148ab442da3829fb652f775c93a24f1f6f4dccdf63",
-  "text_bytes": 12967,
+  "content_hash": "ced3ee972272917f3e1643ca233eefa98f722b64594a3fccfd66674abc115292",
+  "raw_hash": "d755d8e33abe43c01cf50c7e60c3d2b286c8c6af68c26a5339311fe97d643ab9",
+  "text_bytes": 12971,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

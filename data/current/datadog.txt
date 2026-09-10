@@ -348,7 +348,6 @@ Small
 Medium
 Large
 $
-0.05
 Per instance-hour,
 per month*
 Contact Us for Pricing
@@ -605,7 +604,6 @@ on-demand
 Start Free Trial
 Starting At
 *Billed annually or $
-27
 on-demand
 Start Free Trial
 DevSecOps Pro
@@ -3692,7 +3690,11 @@ Custom dashboards
 Unlimited users
 Serverless Applications
 AWS Fargate
-$2.9 per active application instances ($4.40 on-demand)
+$
+2.90
+per active application instances ($
+4.40
+on-demand)
 Support Plans & Post Sales Services
 From basic plans to bespoke offerings, Datadog offers the right level of support & services for any organization.
 Support plans

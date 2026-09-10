@@ -6,9 +6,9 @@
   "url": "https://www.windmill.dev/pricing",
   "final_url": "https://www.windmill.dev/pricing",
   "parser_version": 3,
-  "content_hash": "ff5d6e2ae80535085dc995f491bc67768cecef92b33f87f5f66642829d19bb03",
-  "raw_hash": "e3bcc5af932b3180cb62cd75eabe6d896a86701ef5c8cd8c3045cd071abb4b74",
-  "text_bytes": 15654,
+  "content_hash": "62d328c12591493405f25ceb7da644cfdcf6bd646527c8a62c78a770d4e0a661",
+  "raw_hash": "e0c3b62c75cd1ec5c23b67ce8c0d975e48e911a36e5ccf2dcf23fe3855d38a34",
+  "text_bytes": 17558,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -19,6 +19,17 @@
       "currency": "USD",
       "period": "month",
       "features": []
+    },
+    {
+      "name": "Worker group 1",
+      "price_raw": "$ 20",
+      "amount": 20.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "1 developer $ 20 /mo/dev",
+        "Worker group 1 2 standard workers 2 CU · $ 100 / mo 2 GB memory limit per worker $ 50 /worker/ mo"
+      ]
     },
     {
       "name": "Our pricing explained",
@@ -70,9 +81,14 @@
           "Yes"
         ],
         [
-          "Public apps",
+          "Public apps (anonymous, no login)",
           "Yes",
           "Yes"
+        ],
+        [
+          "Guest app users (identity-provider sign-in, no account) ⓘ Unlike a public app, which anyone holding the URL opens with no login at all, a guest signs in through",
+          "100 max / 30 days",
+          "100 free, then 4 guests = 1 seat"
         ],
         [
           "Oracle DB and MS SQL runtimes as languages (including as dbt adapters)",

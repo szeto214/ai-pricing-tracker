@@ -27,7 +27,7 @@ Contact Sales
 Token Pricing
 $0.2156
 / 1M input tokens
-$0.0686
+$0.0069
 / 1M cached input tokens
 $0.6468
 / 1M output tokens
@@ -1092,26 +1092,7 @@ All models run on H100 or A100 GPUs, optimized for inference performance and low
 Auto Scaling
 Our system will automatically scale the model to more hardware based on your needs. We limit each account to 200 concurrent requests. If you want more drop us a line
 Billing
-You have to add a card or pre-pay or you won't be able to use our services. An invoice is always generated at the beginning of the month, and also throughout the month if you hit your tier invoicing threshold. You can also set a spending limit to avoid surprises.
-Usage Tiers
-Every user is part of a usage tier. As your usage and your spending goes up, we automatically move you to the next usage tier. Every tier has an invoicing threshold. Once reached an invoice is automatically generated.
-Tier
-Qualification & Invoicing Threshold
-$
-Tier 1
-$20
-Tier 2
-$100 paid
-$100
-Tier 3
-$500 paid
-$500
-Tier 4
-$2,000 paid
-$2,000
-Tier 5
-$10,000 paid
-$10,000
+You have to add a card or pre-pay or you won't be able to use our services. Pre-paid accounts draw down their balance as they go, and invoiced accounts are billed once at the beginning of the following month. You can also set a spending limit to avoid surprises.
 Have questions or need a custom solution?
 Contact Sales
 Company
@@ -1142,21 +1123,21 @@ zai-org
 /
 GLM-5.3
 Featured Models
-nvidia
+zai-org
 /
-NVIDIA-Nemotron-3-Super-120B-A12B
-XiaomiMiMo
+GLM-5.3-Flash
+deepseek-ai
 /
-MiMo-V2.5-Pro
-google
+DeepSeek-V4-Pro-0813
+Qwen
 /
-gemma-4-26B-A4B-it
-black-forest-labs
+Qwen3.5-397B-A17B
+Qwen
 /
-FLUX-2-klein-9b
-google
+Qwen3-Max-Thinking
+Qwen
 /
-gemma-4-31B-it
+Qwen3-TTS
 © 2026 DeepInfra. All rights reserved.
 Privacy Policy
 Terms of Service

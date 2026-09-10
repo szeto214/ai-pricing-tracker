@@ -1,4 +1,4 @@
-Pinecone Nexus is now generally available. More accurate, faster, lower cost, and trusted knowledge for agents
+Full-Text Search is Now Generally Available In Pinecone Database
 -
 Read the announcement
 Dismiss
@@ -438,7 +438,7 @@ See docs for details
 Weighing this against what you run today? The
 Pinecone comparisons
 cover
-pgvector, Elasticsearch, Vertex AI, and more
+pgvector, Elasticsearch, Vertex AI Vector Search, and more
 .
 Start building knowledgeable AI today
 Create your first index for free, then pay as you go when you're ready to scale.

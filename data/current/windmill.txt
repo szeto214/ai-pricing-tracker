@@ -21,6 +21,9 @@ Self-host in minutes
 Easy deployment on Fargate / Docker / Kubernetes
 Community support on Discord
 Max 10 users with SSO
+100 free
+app guests
+per 30 days: they sign in through your identity provider, hold no account and take no seat
 Enterprise
 from
 $
@@ -60,6 +63,23 @@ user (counted per username/email + scope + instance, active in the last 30 days)
 $
 10
 /mo/op
+100
+app guests
+A
+guest
+signs in through one of the instance's identity providers (SSO, or SAML on Enterprise), or carries a JWT your own backend signs, and can then open one app and nothing else, without holding a Windmill account. This is not the same as a
+public app
+, which anyone with the URL opens anonymously with no login and no limit. Guests take no seat: the first
+100
+distinct guest emails over the last 30 days are free, including on the free Community Edition. Past
+100
+,
+4
+guests count as 1 seat, rounded up.
+Free
+First
+100
+guests per 30 days are free and take no seat
 Get a simulation of the number of Units needed by reproducing your workers config below.
 More details
 Worker group
@@ -113,6 +133,9 @@ Total seats:
 1
 1
 developer
+100
+guests
+= free, no seat
 Total
 compute units
 (CU):
@@ -147,8 +170,12 @@ Groups, folders and granular permissions
 Maximum 4 groups
 All open source features
 Yes
-Public apps
+Public apps (anonymous, no login)
 Yes
+Guest app users (identity-provider sign-in, no account)
+i
+Unlike a public app, which anyone holding the URL opens with no login at all, a guest signs in through one of the instance's configured identity providers (SSO, or SAML on Enterprise), or carries a JWT your backend signs. A guest has no Windmill account and takes no seat.
+100 max / 30 days
 Oracle DB and MS SQL runtimes as languages (including as dbt adapters)
 No
 Multiplayer on WebIDE
@@ -350,8 +377,12 @@ Groups, folders and granular permissions
 Unlimited
 All open source features
 Yes
-Public apps
+Public apps (anonymous, no login)
 Yes
+Guest app users (identity-provider sign-in, no account)
+i
+Unlike a public app, which anyone holding the URL opens with no login at all, a guest signs in through one of the instance's configured identity providers (SSO, or SAML on Enterprise), or carries a JWT your backend signs. A guest has no Windmill account and takes no seat.
+100 free, then 4 guests = 1 seat
 Oracle DB and MS SQL runtimes as languages (including as dbt adapters)
 Yes
 Multiplayer on WebIDE
@@ -567,9 +598,14 @@ Unlimited
 All open source features
 Yes
 Yes
-Public apps
+Public apps (anonymous, no login)
 Yes
 Yes
+Guest app users (identity-provider sign-in, no account)
+i
+Unlike a public app, which anyone holding the URL opens with no login at all, a guest signs in through one of the instance's configured identity providers (SSO, or SAML on Enterprise), or carries a JWT your backend signs. A guest has no Windmill account and takes no seat.
+100 max / 30 days
+100 free, then 4 guests = 1 seat
 Oracle DB and MS SQL runtimes as languages (including as dbt adapters)
 No
 Yes
@@ -868,6 +904,7 @@ Frequently asked questions
 What is the logic behind Windmill's pricing?
 Which organizations can subscribe to the Pro plan and non-profit EE?
 What is an operator? How are external JWT users billed?
+How are guests billed?
 What is an execution?
 What are native subworkers?
 What are agent workers?

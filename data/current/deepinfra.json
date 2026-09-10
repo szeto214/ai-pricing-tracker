@@ -6,9 +6,9 @@
   "url": "https://deepinfra.com/pricing",
   "final_url": "https://deepinfra.com/pricing",
   "parser_version": 3,
-  "content_hash": "0f8a0ceaf8ec3144c8c28e18e65eacebb167a16ddea967c84d24070f8b3e15dd",
-  "raw_hash": "6b8d7978eb3b5266cacff8f803fc3b619e190d1bbf829aba8d6a11acbcf03134",
-  "text_bytes": 16714,
+  "content_hash": "bdfbdf73c6234f9559d3f7928c2c5a17a937e4b493748f0e183ba51bacc3aa01",
+  "raw_hash": "c835b18e378482bf7f03ee014a828ce462c657ae528b76111407d0a92ee3d12f",
+  "text_bytes": 16300,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

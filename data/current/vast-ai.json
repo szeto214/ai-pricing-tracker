@@ -6,28 +6,12 @@
   "url": "https://vast.ai/pricing",
   "final_url": "https://vast.ai/pricing",
   "parser_version": 3,
-  "content_hash": "0c43c99350105b22e691fdec8b823847c882bdb6fc4dbff90616b59d979a63dd",
-  "raw_hash": "f3a47ab13ec757ca2fbb91d973dff4d147d843c123e829011e5a17d336421a71",
-  "text_bytes": 7574,
+  "content_hash": "1cc554c6409b8a9f0d531f372b2d86cadd31c0d6726f7b049eecf77f7340b054",
+  "raw_hash": "e8cef7fefdf156e88d898678dbc3f6030584c629fa8205d8966f538b7bfea5a6",
+  "text_bytes": 7458,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
-    {
-      "name": "H100 PCIE",
-      "price_raw": "$2.40",
-      "amount": 2.4,
-      "currency": "USD",
-      "period": "hour",
-      "features": []
-    },
-    {
-      "name": "H100 SXM",
-      "price_raw": "$1.33",
-      "amount": 1.33,
-      "currency": "USD",
-      "period": "hour",
-      "features": []
-    },
     {
       "name": "H200",
       "price_raw": "$1.97",
@@ -38,8 +22,16 @@
     },
     {
       "name": "B200",
-      "price_raw": "$5.00",
-      "amount": 5.0,
+      "price_raw": "$4.38",
+      "amount": 4.38,
+      "currency": "USD",
+      "period": "hour",
+      "features": []
+    },
+    {
+      "name": "H100 SXM",
+      "price_raw": "$1.32",
+      "amount": 1.32,
       "currency": "USD",
       "period": "hour",
       "features": []
@@ -53,17 +45,25 @@
       "features": []
     },
     {
+      "name": "H100 PCIE",
+      "price_raw": "$2.00",
+      "amount": 2.0,
+      "currency": "USD",
+      "period": "hour",
+      "features": []
+    },
+    {
       "name": "B300",
-      "price_raw": "$10.00",
-      "amount": 10.0,
+      "price_raw": "$8.75",
+      "amount": 8.75,
       "currency": "USD",
       "period": "hour",
       "features": []
     },
     {
       "name": "H100 NVL",
-      "price_raw": "$1.53",
-      "amount": 1.53,
+      "price_raw": "$1.59",
+      "amount": 1.59,
       "currency": "USD",
       "period": "hour",
       "features": []
@@ -93,14 +93,6 @@
       "features": []
     },
     {
-      "name": "RTX 3090 Ti",
-      "price_raw": "$0.16",
-      "amount": 0.16,
-      "currency": "USD",
-      "period": "hour",
-      "features": []
-    },
-    {
       "name": "RTX 4090D",
       "price_raw": "$0.67",
       "amount": 0.67,
@@ -109,17 +101,25 @@
       "features": []
     },
     {
+      "name": "RTX 3090 Ti",
+      "price_raw": "$0.16",
+      "amount": 0.16,
+      "currency": "USD",
+      "period": "hour",
+      "features": []
+    },
+    {
       "name": "GB10",
-      "price_raw": "$0.30",
-      "amount": 0.3,
+      "price_raw": "$0.29",
+      "amount": 0.29,
       "currency": "USD",
       "period": "hour",
       "features": []
     },
     {
       "name": "RTX PRO 6000 WS",
-      "price_raw": "$0.87",
-      "amount": 0.87,
+      "price_raw": "$0.83",
+      "amount": 0.83,
       "currency": "USD",
       "period": "hour",
       "features": []
@@ -134,32 +134,24 @@
     },
     {
       "name": "RTX PRO 6000 Max-Q",
-      "price_raw": "$0.87",
-      "amount": 0.87,
-      "currency": "USD",
-      "period": "hour",
-      "features": []
-    },
-    {
-      "name": "RTX 5080",
-      "price_raw": "$0.15",
-      "amount": 0.15,
+      "price_raw": "$0.96",
+      "amount": 0.96,
       "currency": "USD",
       "period": "hour",
       "features": []
     },
     {
       "name": "RTX 5060 Ti",
-      "price_raw": "$0.06",
-      "amount": 0.06,
+      "price_raw": "$0.07",
+      "amount": 0.07,
       "currency": "USD",
       "period": "hour",
       "features": []
     },
     {
-      "name": "RTX 5070 Ti",
-      "price_raw": "$0.11",
-      "amount": 0.11,
+      "name": "RTX 5080",
+      "price_raw": "$0.13",
+      "amount": 0.13,
       "currency": "USD",
       "period": "hour",
       "features": []
@@ -168,6 +160,14 @@
       "name": "RTX PRO 4000",
       "price_raw": "$0.13",
       "amount": 0.13,
+      "currency": "USD",
+      "period": "hour",
+      "features": []
+    },
+    {
+      "name": "RTX 5070 Ti",
+      "price_raw": "$0.11",
+      "amount": 0.11,
       "currency": "USD",
       "period": "hour",
       "features": []

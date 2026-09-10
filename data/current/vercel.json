@@ -6,9 +6,9 @@
   "url": "https://vercel.com/pricing",
   "final_url": "https://vercel.com/pricing",
   "parser_version": 3,
-  "content_hash": "8a9ae69d6c436123cb6d209c8843028cc09077e6475ce859d8e36e902029e857",
-  "raw_hash": "ec5508a6216792ec87c70419cf1176df98e10e9508c8d9c513918aa75e9b9ea5",
-  "text_bytes": 13140,
+  "content_hash": "8032412121f325657a8f251cf52eac33867171b2392af3844bd6717b80c6aaeb",
+  "raw_hash": "ca4e1329b01f834ea0a11bed6bcbe0163656792fd044f6d561af2c1dfb60d4bc",
+  "text_bytes": 13147,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -34,22 +34,6 @@
       "amount": 20.0,
       "currency": "USD",
       "period": null,
-      "features": []
-    },
-    {
-      "name": "Edge Requests",
-      "price_raw": "$2",
-      "amount": 2.0,
-      "currency": "USD",
-      "period": "month",
-      "features": []
-    },
-    {
-      "name": "Fast Data Transfer",
-      "price_raw": "$0.15",
-      "amount": 0.15,
-      "currency": "USD",
-      "period": "month",
       "features": []
     },
     {
@@ -170,6 +154,22 @@
       "amount": 0.6,
       "currency": "USD",
       "period": "month",
+      "features": []
+    },
+    {
+      "name": "Token Requests",
+      "price_raw": "$3.00",
+      "amount": 3.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "Build minutes",
+      "price_raw": "$0.007",
+      "amount": 0.007,
+      "currency": "USD",
+      "period": null,
       "features": []
     }
   ],

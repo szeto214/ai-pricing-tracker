@@ -6,9 +6,9 @@
   "url": "https://www.figma.com/pricing/",
   "final_url": "https://www.figma.com/pricing/",
   "parser_version": 3,
-  "content_hash": "5dbdb60d62e7dadd463108c4be10ef7b11a5d71b4067642c826b2eb6e95c43df",
-  "raw_hash": "93e2f4136ef50b970bc06da2b90ab79cbcfe636dd0c550e507554d5bd313e8ac",
-  "text_bytes": 10897,
+  "content_hash": "f7afbcef9c782998afbf99f444ff3d6016a035df2d1395c61f8168a2dd5a47aa",
+  "raw_hash": "bacc7988191a7d24e927dfc872698cbb7d93e0975462044b20bd00e925b4ab9f",
+  "text_bytes": 10895,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

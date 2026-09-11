@@ -6,9 +6,9 @@
   "url": "https://cohere.com/pricing",
   "final_url": "https://cohere.com/pricing",
   "parser_version": 3,
-  "content_hash": "1dfd27649a0b9029c38d2224fd7e24ede9c05ff400e14f277cdd04f94dbeeced",
-  "raw_hash": "a25bc76e9e71818e1c1d6f2f479f3a69adc8ac78454292fb46b23bb82d0e7f84",
-  "text_bytes": 12425,
+  "content_hash": "ad4cdec69754601cc0cde29ed101eef9df2485a7ba150b71e49d9f2815616c39",
+  "raw_hash": "fd4542b7493ea17f43fd8fe4702b8b35c28f18d9f5f2ac7f8407e37c9434135f",
+  "text_bytes": 12440,
   "extractor": "dom",
   "confidence": "low",
   "plans": [

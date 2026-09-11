@@ -6,9 +6,9 @@
   "url": "https://www.windmill.dev/pricing",
   "final_url": "https://www.windmill.dev/pricing",
   "parser_version": 3,
-  "content_hash": "62d328c12591493405f25ceb7da644cfdcf6bd646527c8a62c78a770d4e0a661",
-  "raw_hash": "e0c3b62c75cd1ec5c23b67ce8c0d975e48e911a36e5ccf2dcf23fe3855d38a34",
-  "text_bytes": 17558,
+  "content_hash": "890522ab2da06ee37ab6aafcefaaa29413a32d1638abd7a35a6c1a19fa6ba409",
+  "raw_hash": "ceda1c8367879a9e78a34f0da83d3092ca7b80cd7858de288d5d484640172118",
+  "text_bytes": 17560,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

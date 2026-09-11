@@ -7,10 +7,10 @@
   "final_url": "https://wasabi.com/pricing",
   "parser_version": 3,
   "content_hash": "d0f0cd3d2da27a0d54274ec109891db1e4bd14216855111902433b3a099fed1f",
-  "raw_hash": "5e72a38ceb3bbd47a504c52d2bd78e28dd0c5f02df4c1678f95c8717d5e76f24",
+  "raw_hash": "186a549f8a6983070bd846d53d351c0424153a78a556568cbcdb9b3b88df5e58",
   "text_bytes": 2303,
   "extractor": "dom",
-  "confidence": "medium",
+  "confidence": "low",
   "plans": [
     {
       "name": "Pay as You Go",
@@ -27,14 +27,6 @@
         "No fees for egress or API requests",
         "Premium support plan"
       ]
-    },
-    {
-      "name": "Pay as You Go Pricing",
-      "price_raw": "$0.00",
-      "amount": 0.0,
-      "currency": "USD",
-      "period": "month",
-      "features": []
     }
   ],
   "models": [],

@@ -6,9 +6,9 @@
   "url": "https://www.anthropic.com/pricing",
   "final_url": "https://claude.com/pricing",
   "parser_version": 3,
-  "content_hash": "61e51ba7792031a703a39469421d82c1f25397d584f5ad940356acd0c6d72336",
-  "raw_hash": "2077fa470f41c4d37f30dada8e9ffc23c3006b5d83c376f7f3230f8aab1dbe79",
-  "text_bytes": 6442,
+  "content_hash": "8c475b20307677493ae05e6bcfcf6a4667999415879470f99487385ffff657ad",
+  "raw_hash": "47c3d45e8281eed50e44884ea2c9c94371e9c49860e72841456e4938ff046b69",
+  "text_bytes": 6463,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

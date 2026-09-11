@@ -13,7 +13,7 @@
   "confidence": "medium",
   "plans": [
     {
-      "name": "On-Demand GPU Pricing",
+      "name": "On-Demand GPU",
       "price_raw": "$3.99",
       "amount": 3.99,
       "currency": "USD",
@@ -21,7 +21,7 @@
       "features": []
     },
     {
-      "name": "Reservation Pricing",
+      "name": "Reservation",
       "price_raw": "$2.79",
       "amount": 2.79,
       "currency": "USD",
@@ -29,7 +29,7 @@
       "features": []
     },
     {
-      "name": "Spot VM Pricing",
+      "name": "Spot VM",
       "price_raw": "$2.00",
       "amount": 2.0,
       "currency": "USD",
@@ -37,7 +37,7 @@
       "features": []
     },
     {
-      "name": "On-Demand CPU Pricing",
+      "name": "On-Demand CPU",
       "price_raw": "$0.35",
       "amount": 0.35,
       "currency": "USD",
@@ -45,7 +45,7 @@
       "features": []
     },
     {
-      "name": "Storage Pricing",
+      "name": "Storage",
       "price_raw": "$0.000096",
       "amount": 9.6e-05,
       "currency": "USD",
@@ -65,7 +65,7 @@
       "features": []
     },
     {
-      "name": "Token-based Pricing",
+      "name": "Token-based",
       "price_raw": "$0.80",
       "amount": 0.8,
       "currency": "USD",
@@ -73,7 +73,7 @@
       "features": []
     },
     {
-      "name": "Fine-Tuning Pricing",
+      "name": "Fine-Tuning",
       "price_raw": "$0.063",
       "amount": 0.063,
       "currency": "USD",

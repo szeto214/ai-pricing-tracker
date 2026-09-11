@@ -1,13 +1,11 @@
-📹 The future of AI infrastructure: optimize and shard your database with agents.
-Watch the talk
-Log in
-|
+Neki, sharded Postgres, is now available.
 Get started
-|
+Sign in
+View sandbox
 Get in touch
 Navigation
 Pricing
-You and your agent can query our pricing data using SQL. Instructions and an agent-friendly version of this page are in
+You and your agent can query Postgres, Vitess, and Neki cluster pricing using SQL. Instructions and an agent-friendly version of the available catalog are in
 pricing.md
 .
 Connect to pricing database
@@ -18,88 +16,11 @@ public.planetscale_prices
 . SSL is required.
 Copy the URI and connect with any Postgres client:
 postgresql://<secret-redacted>:<secret-redacted>@aws-us-east-1-3.pg.psdb.cloud:6432/postgres?sslmode=verify-full&sslrootcert=system
-Example queries and the full catalog are in
+Example queries and the available catalog are in
 pricing.md
 .
-Region
-For best performance, select the same region as your application.
-Request another region
-AWS us-east-1
-Database engine
-Postgres
-NEW
-The fastest cloud Postgres.
-Vitess
-MySQL at hyperscale.
-Cluster configuration
-Primary + multi-replica
-(HA)
-A primary and two included replica nodes ideal for high-availability workloads.
-99.99% SLA
-.
-Single node
-(non-HA)
-A single primary node suitable for non-high availability use cases.
-Cluster type
-High-availability clusters deployed across
-3 availability zones
-.
-Amazon Elastic Block Storage
-Network-attached storage volumes with
-autoscaling storage
-. The perfect choice for smaller databases with lower I/O requirements.
-⚡️
-PlanetScale Metal
-⚡️
-Ultra-fast
-NVMe drives
-and
-unlimited IOPS
-make high-availability Metal clusters the fastest nodes available in the cloud.
-Architecture:
-aarch64 (
-10
-)
-x86-64 (
-10
-)
-PS-5
-1/16 vCPU
-·
-512 MB
-memory
-·
-10 GB storage
-$15
-Includes 3 nodes
-CPU
-Memory
-1× primary database
-1/16 vCPU
-512 MB
-2× replica databases
-1/16 vCPU
-512 MB
-1/16 vCPU
-512 MB
-Total resources
-3/16 vCPU
-1.5 GB
-Storage
-Choose the disk size you would like to provision. Autoscaling, IOPS, and bandwidth settings can be configured in-app.
-View storage documentation
-GB
-Egress bandwidth
-100
-GB of egress bandwidth is included. Additional usage:
-$0.06
-/ GB
-.
-GB
-+ Show advanced options
-Estimated monthly total:
-$15
-Get started
+Neki
+Postgres with horizontal sharding for massive scale. Runs on network-attached storage or PlanetScale Metal.
 PlanetScale Postgres
 Single node
 Development and low-traffic production workloads. Starting at $5/month.
@@ -142,6 +63,8 @@ Base Plan
 The Base plan is what you get when you
 sign up at PlanetScale
 . No contract or sales interaction required. Pricing is resource-based, so you can upsize and downsize your instances as needed.
+Neki
+Postgres databases with horizontal sharding. Pricing is based on shard size and count, router configuration, replicas, storage, backup storage, and network usage. Metal also available.
 PlanetScale Postgres
 Single node
 — Starting at $5/month for development and low-traffic workloads
@@ -155,9 +78,14 @@ Pricing factors
 Pay as you go
 — Pay month to month based on the price in the calculator above.
 The main factors that determine your price are:
-Instance and VTGate sizes
-Storage amount
-— Included for Metal databases. For network-attached storage databases, the first 10 GB is free, with per-GB pricing beyond that. See the pricing calculator for details.
+Compute
+— Database instances, Neki routers, and Vitess VTGates
+Topology
+— The number of shards and replicas
+Storage
+— Storage capacity and, where configurable, provisioned IOPS and throughput. Storage is included for Metal databases.
+Usage
+— Backup storage and network egress
 Add-ons
 — Additional development branch hours, SSO, upgraded support
 For the full list of features and more information, see our

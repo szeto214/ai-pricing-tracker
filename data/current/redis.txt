@@ -129,8 +129,8 @@ Learn how to Build
 Visit our dev hub
 Try Redis
 Book a meeting
-pricing
 Let's talk numbers
+Pricing
 Find the right fit for your business and start building fast apps fast.
 Cloud
 On-prem
@@ -138,7 +138,7 @@ Free
 Always
 $0
 Up to 30 MB
-Try for free
+Just go for it
 Shared cloud deployment
 30 MB single DB
 Best-effort SLA, community support
@@ -163,9 +163,10 @@ $0.014
 Go Pro
 Dedicated cloud deployment
 Unlimited RAM, multiple DBs
-Everything in Essentials, plus active-active (multi-region), auto-tiering, private connectivity
+Everything in Essentials, plus active-active (multi-region), private connectivity
 Up to 99.999% uptime
 Flex for TBs of data, millions of ops/sec, adjustable pricing, and RAM:Flash ratio
+Redis Data Integration (RDI) for near-real-time sync from source databases and warehouses, with data optimized for fast reads
 View pricing
 Change plan
 Essentials
@@ -178,7 +179,7 @@ Get Essentials
 Free
 From $0
 /hour
-Try for free
+Just go for it
 Essentials
 From $0.007
 /hour

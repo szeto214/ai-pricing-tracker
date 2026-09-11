@@ -6,9 +6,9 @@
   "url": "https://www.together.ai/pricing",
   "final_url": "https://www.together.ai/pricing",
   "parser_version": 3,
-  "content_hash": "65072376cf11d4daa0bb142ec06ca11bb85a43649d793a251680f93f8fcc5c93",
-  "raw_hash": "8911c9c9a47d38e527053a37e355f8aeec89ab57d13114f544e8cd016b85372e",
-  "text_bytes": 8045,
+  "content_hash": "34b4da67e6f7323545e2fe46c2eaf4aa9829daecdb0733ed7c01213cf6c6387d",
+  "raw_hash": "e5fb5acce67e567c2d48066461d4a07c37a4911a909dea124f16c7ef8618d9f0",
+  "text_bytes": 7802,
   "extractor": "jsonld",
   "confidence": "medium",
   "plans": [
@@ -249,19 +249,14 @@
           "$4.05"
         ],
         [
-          "LFM2.5-8B-A1B",
-          "$0.03",
-          "$0.12"
-        ],
-        [
           "Qwen3.8 Flash",
           "$0.15",
           "$0.47"
         ],
         [
           "Qwen3.7-Max",
-          "$1.25 $0.13 (cached)",
-          "$3.75"
+          "$2.00 $0.25 (cached)",
+          "$6.00"
         ],
         [
           "gpt-oss-120B",
@@ -491,12 +486,6 @@
           "28"
         ],
         [
-          "FLUX.1 [schnell]",
-          "$0.0027",
-          "-",
-          "4"
-        ],
-        [
           "SD XL",
           "$0.0019",
           "-",
@@ -505,12 +494,6 @@
         [
           "Ideogram 3.0",
           "$0.06",
-          "-",
-          "-"
-        ],
-        [
-          "HiDream-I1-Full",
-          "$0.009",
           "-",
           "-"
         ],
@@ -633,10 +616,6 @@
           "$0.14"
         ],
         [
-          "Google Veo 3.0",
-          "$1.60"
-        ],
-        [
           "Kling 1.6 Standard",
           "$0.19"
         ],
@@ -653,20 +632,8 @@
           "$0.18"
         ],
         [
-          "Vidu 2.0",
-          "$0.28"
-        ],
-        [
           "Vidu Q1",
           "$0.22"
-        ],
-        [
-          "Wan 2.2 I2V",
-          "$0.31"
-        ],
-        [
-          "Wan 2.2 T2V",
-          "$0.66"
         ],
         [
           "Qwen3.6-Plus",
@@ -687,18 +654,6 @@
         [
           "ByteDance Seedance 1.0 Pro",
           "$0.57"
-        ],
-        [
-          "Google Veo 3.0 Fast + Audio",
-          "$1.20"
-        ],
-        [
-          "Google Veo 3.0 Fast",
-          "$0.80"
-        ],
-        [
-          "Google Veo 3.0 + Audio",
-          "$3.20"
         ],
         [
           "Google Veo 2.0",

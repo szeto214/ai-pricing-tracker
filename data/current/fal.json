@@ -7,19 +7,11 @@
   "final_url": "https://fal.ai/pricing",
   "parser_version": 3,
   "content_hash": "39ad62dec05d759fc5058abdace78e1ee3df3c24191e08777b891cd6059cdd4e",
-  "raw_hash": "4c338b49a8368c9c640ec45a7c5fc2ea61219830e3d15a1c8541a75ee5d1e890",
+  "raw_hash": "b3eb2f52265a3874f9fb97cbd724ab5302c7599ad68e4322c6709612b88a6c97",
   "text_bytes": 2079,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
-    {
-      "name": "Serverless & Compute Pricing",
-      "price_raw": "$1.89",
-      "amount": 1.89,
-      "currency": "USD",
-      "period": "hour",
-      "features": []
-    },
     {
       "name": "B300",
       "price_raw": "$8.50",

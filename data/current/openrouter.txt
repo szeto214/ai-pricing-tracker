@@ -1,7 +1,49 @@
 Models
+Black Forest Labs: FLUX Video Edit
+FLUX Video Edit
+<1 hour
+FLUX Video Edit [fast] takes a source video and an edit prompt and returns a precisely edited video. Add, remove, or replace objects and characters, rebuild the setting, edit on-screen text, change colors, materials and visual effects, change or translate dialogue with lip sync, or change the events of a clip. Output preserves the source duration, aspect ratio, and audio; inputs above 720p are downscaled to 720p. Source clips up to 15 seconds and 50 MiB.
+by
+black-forest-labs
+Sep 10, 2026
+$0.03/second
+inclusionAI: Ling 3.0 Flash VL (free)
+Ling 3.0 Flash VL (free)
+7.76B tokens
+Ling 3.0 Flash VL builds on Ling 3.0 Flash (124B total / 5.5B active MoE from InclusionAI), further strengthening its language capabilities while adding native visual perception and advanced visual agent capabilities. Hybrid instant/reasoning model with tool calling.
+by
+inclusionai
+Sep 10, 2026
+262K context
+$0/M input
+tokens
+$0/M output
+tokens
+DeepSeek: DeepSeek V4.1 Flash
+DeepSeek V4.1 Flash
+828B tokens
+Finance (#12)
+Marketing (#44)
+Programming (#22)
+Roleplay (#47)
+Science (#28)
++3 categories
+DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture. It activates 8B parameters on input and 16B on output from a 552B-parameter backbone, an asymmetric split that keeps per-token compute low relative to the model's total size. Image understanding is native to the architecture, with visual and text embeddings trained jointly from the start of pre-training rather than added afterward as in the earlier experimental
+V4 Flash Vision Exp
+. It is suited for coding, terminal, and computer-use agents, along with long-horizon tasks that must run to completion across many steps and long-context analysis. Compressed KV caching cuts cache memory to roughly a quarter of the previous Flash generation, significantly reducing costs on agentic workloads. DeepSeek positions it as the cost-efficient tier of the V4.1 family and reports that it exceeds
+V4 Pro
+on performance, speed, and task completion time.
+by
+deepseek
+Sep 10, 2026
+1.05M context
+$0.15/M input
+tokens
+$1.20/M output
+tokens
 OpenAI: GPT Image 2.5 Sunburst
 GPT Image 2.5 Sunburst
-186M tokens
+399M tokens
 GPT Image 2.5 Sunburst is an image generation and editing model from OpenAI, positioned as the precision-oriented tier of the GPT Image 2.5 series. It is suited to detailed creative work where editing accuracy matters more than generation speed, via the dedicated Images API.
 by
 openai
@@ -13,7 +55,7 @@ $30/M output
 tokens
 OpenAI: GPT Image 2.5 Flare
 GPT Image 2.5 Flare
-48.7M tokens
+98.8M tokens
 GPT Image 2.5 Flare is an image generation and editing model from OpenAI, positioned as the speed-oriented tier of the GPT Image 2.5 series. It is suited to high-volume everyday generation, creator content, and rapid prototyping via the dedicated Images API.
 by
 openai
@@ -26,7 +68,7 @@ tokens
 Inception: Mercury 2.5
 Mercury 2.5
 80% off
-9.59B tokens
+18.1B tokens
 Mercury 2.5 is the fastest reasoning LLM, and the latest diffusion LLM (dLLM) from Inception. Instead of generating tokens sequentially, Mercury 2.5 produces and refines multiple tokens in parallel, achieving 1,107 tokens/sec on standard GPUs. It delivers a 10+ point jump in intelligence over Mercury 2, comparable quality to cost-optimized frontier models like GPT-5.6 Luna (Low), Gemini 3.5 Flash-Lite, and Claude Haiku 4.5. Mercury 2.5 supports tunable reasoning levels, parallel tool calls, and schema-aligned JSON output. It's built for production workloads where latency compounds: search agents, voice pipelines, and coding subagents. Read more in the
 blog post
 .
@@ -40,7 +82,7 @@ $0.15/M output
 tokens
 Nex AGI: Nex-N2.5-Mini (free)
 Nex-N2.5-Mini (free)
-27B tokens
+51.8B tokens
 Nex-N2.5 is an agentic model built to turn goals into working, verified outcomes. Its core strength is agentic coding within a visual feedback loop: it can explore codebases, implement multi-file changes, run commands, launch applications, interact with browser and desktop interfaces, and test software from the user's perspective. When observed behavior does not match the intended result, Nex-N2.5 can diagnose the issue, revise its implementation, and test again. This makes it especially effective for autonomous software engineering, GUI-based QA, computer-use automation, deep research, and scientific workflows where success must be demonstrated in the environment—not merely inferred from generated code.
 by
 nex-agi
@@ -52,7 +94,7 @@ $0/M output
 tokens
 Nex AGI: Nex-N2.5-Pro (free)
 Nex-N2.5-Pro (free)
-51.2B tokens
+119B tokens
 Nex-N2.5 is an agentic model built to turn goals into working, verified outcomes. Its core strength is agentic coding within a visual feedback loop: it can explore codebases, implement multi-file changes, run commands, launch applications, interact with browser and desktop interfaces, and test software from the user's perspective. When observed behavior does not match the intended result, Nex-N2.5 can diagnose the issue, revise its implementation, and test again. This makes it especially effective for autonomous software engineering, GUI-based QA, computer-use automation, deep research, and scientific workflows where success must be demonstrated in the environment—not merely inferred from generated code.
 by
 nex-agi
@@ -64,7 +106,7 @@ $0/M output
 tokens
 OpenAI: GPT-6 Astra (batch)
 GPT-6 Astra (batch)
-115M tokens
+133M tokens
 GPT-6 Astra is OpenAI's flagship model for demanding end-to-end work. It is suited for advanced analysis, software engineering, deep research, scientific work, and document creation, with particular strengths in long-horizon agentic tasks that involve computer and browser use.
 by
 openai
@@ -76,12 +118,12 @@ $25/M output
 tokens
 OpenAI: GPT-6 Astra
 GPT-6 Astra
-484B tokens
-Marketing (#49)
-Programming (#24)
-Science (#26)
-Technology (#24)
-Trivia (#38)
+621B tokens
+Academia (#50)
+Finance (#48)
+Marketing (#47)
+Programming (#23)
+Science (#22)
 GPT-6 Astra is OpenAI's flagship model for demanding end-to-end work. It is suited for advanced analysis, software engineering, deep research, scientific work, and document creation, with particular strengths in long-horizon agentic tasks that involve computer and browser use.
 by
 openai
@@ -93,7 +135,7 @@ $50/M output
 tokens
 OpenAI: GPT-6 Astra Pro (batch)
 GPT-6 Astra Pro (batch)
-82.9M tokens
+86.1M tokens
 GPT-6 Astra Pro is the same underlying model as
 GPT-6 Astra
 , served with
@@ -112,7 +154,7 @@ $25/M output
 tokens
 OpenAI: GPT-6 Astra Pro
 GPT-6 Astra Pro
-92B tokens
+107B tokens
 GPT-6 Astra Pro is the same underlying model as
 GPT-6 Astra
 , served with
@@ -129,10 +171,12 @@ $10/M input
 tokens
 $50/M output
 tokens
-MicrosoftAI: MAI-Image-2.6
+Microsoft AI: MAI-Image-2.6
 MAI-Image-2.6
-42.7M tokens
-Microsoft's MAI-Image-2.6 is an image generation and editing model available via Azure AI Foundry. It creates images from text prompts and supports image-guided editing across multiple aspect ratios.
+46.2M tokens
+MAI-Image-2.6 is an image generation and editing model from Microsoft AI, the precision tier of the MAI-Image-2.6 family alongside the faster
+MAI-Image-2.6 Flash
+. It is suited for design-ready visuals and controlled, iterative editing, and is particularly strong at multi-reference editing that combines people, products, styles, and scenes from up to five input images while preserving composition, style, and detail. Aspect ratio can be fixed or left to the model to choose for the composition.
 by
 microsoft
 Sep 4, 2026
@@ -141,10 +185,12 @@ $8/M input
 tokens
 $38/M output
 tokens
-MicrosoftAI: MAI-Image-2.6 Flash
+Microsoft AI: MAI-Image-2.6 Flash
 MAI-Image-2.6 Flash
-39.9M tokens
-Microsoft's MAI-Image-2.6 Flash is the lower-latency variant of MAI-Image-2.6, available via Azure AI Foundry. It supports image generation and image-guided editing across multiple aspect ratios.
+46.3M tokens
+MAI-Image-2.6 Flash is the lower-latency, lower-cost member of the
+MAI-Image-2.6
+family from Microsoft AI, built for latency-sensitive, high-throughput production image generation and editing at comparable quality to the precision tier. It supports the same multi-reference editing with up to five input images and the same fixed or model-chosen aspect ratios.
 by
 microsoft
 Sep 4, 2026
@@ -155,7 +201,7 @@ $19/M output
 tokens
 inclusionAI: Ling 3.0 Flash Sante (free)
 Ling 3.0 Flash Sante (free)
-239B tokens
+291B tokens
 Ling 3.0 Flash Sante is a health and medicine-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for medical knowledge reasoning, clinical safety, evidence-based retrieval, and long-horizon medical tasks, while retaining general capabilities in reasoning, coding, and agentic tasks.
 by
 inclusionai
@@ -167,10 +213,10 @@ $0/M output
 tokens
 Qwen: Qwen3.8 Max (0902)
 Qwen3.8 Max (0902)
-280B tokens
+361B tokens
 Programming (#28)
-Science (#36)
-Technology (#37)
+Science (#35)
+Technology (#29)
 Qwen3.8 Max 0902 is an updated snapshot of Qwen3.8 Max from Alibaba's Qwen team. It is a 2.4-trillion-parameter mixture-of-experts model that accepts text, image, and video input and returns text, with a 1M-token context window and reasoning enabled by default. This snapshot is post-trained for coding and agentic work, including multi-step software projects, multi-tool orchestration, and long-horizon task execution. It also targets chart reasoning, document parsing, and multimodal understanding over long documents and extended video. Tool calling, structured outputs, and configurable reasoning effort are supported.
 by
 qwen
@@ -180,9 +226,9 @@ $2/M input
 tokens
 $6/M output
 tokens
-MicrosoftAI: MAI-Transcribe 2
+Microsoft AI: MAI-Transcribe 2
 MAI-Transcribe 2
-453M characters
+504M characters
 MAI-Transcribe 2 is a multilingual speech-to-text model from Microsoft AI, ranked #1 on the FLEURS multilingual benchmark. It supports 60 languages with automatic language identification, code switching for mixed-language speech, speaker diarization, word-level timestamps, keyword biasing for domain-specific terminology, and configurable verbatim or clean transcription styles. It is suited for captions, call transcription, subtitling, accessibility, and other voice-enabled applications, and is faster than MAI-Transcribe-1.5 on long-form audio. On OpenRouter, set
 response_format
 to
@@ -204,60 +250,5 @@ by
 microsoft
 Sep 3, 2026
 $0.10/hour
-Meta: Muse Spark 1.3 Contributor
-Muse Spark 1.3 Contributor
-18+
-1.78T tokens
-Academia (#23)
-Finance (#33)
-Health (#46)
-Legal (#38)
-Marketing (#29)
-+7 categories
-Muse Spark 1.3 Contributor is the cost-efficient contributor tier of Meta’s multimodal reasoning model for experimentation, learning, and early-stage agentic, multi-agent, and coding workflows. It is designed to track information across extended tasks, work through conflicting inputs, and request clarification or confirmation when needed. Prompts and outputs may be used to improve Meta’s products.
-by
-meta
-Sep 2, 2026
-1.05M context
-$0.10/M input
-tokens
-$0.20/M output
-tokens
-Meta: Muse Spark 1.3
-Muse Spark 1.3
-18+
-323B tokens
-Finance (#29)
-Legal (#45)
-Programming (#26)
-Technology (#41)
-Muse Spark 1.3 is a multimodal reasoning model from Meta for long-running agentic, multi-agent, and coding workflows. It is designed to keep track of information across extended tasks, work through conflicting inputs, and request clarification or confirmation when needed, with an emphasis on concise execution.
-by
-meta
-Sep 2, 2026
-1.05M context
-$1.25/M input
-tokens
-$4.25/M output
-tokens
-Google: Gemini 3.8 Flash
-Gemini 3.8 Flash
-50% off
-2.56T tokens
-Academia (#12)
-Finance (#11)
-Health (#13)
-Legal (#17)
-Marketing (#13)
-+7 categories
-Gemini 3.8 Flash is Google's most intelligent Flash model with significant gains from 3.7 Flash across software engineering, agentic tasks, and multi-step reasoning.
-by
-google
-Sep 2, 2026
-1.05M context
-$0.75/M input
-tokens
-$3.75/M output
-tokens
 Compare
 Discover Models

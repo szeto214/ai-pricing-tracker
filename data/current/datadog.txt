@@ -3666,28 +3666,46 @@ A host is any physical or virtual OS instance that you monitor with Datadog. It 
 Data Streams Monitoring
 Track and improve the performance of your
 streaming data pipelines from end to end
+Data Streams Monitoring
+Kafka, RabbitMQ, SQS, IBM MQ, and more
 Starting At
 $
 15
-Per host, per month*
-Start Free Trial
+Per client host, per month*
 Detect slowdowns anywhere in your event-driven applications
 Localize and resolve pipeline bottlenecks and failures
 Remediate floods of backed-up messages
-*Billed annually or $
+*Included with
+APM Pro & APM Enterprise
+plans.
+**Billed annually or $
 18
 on-demand
 Start Free Trial
+Kafka Console
+Self-hosted, Confluent Cloud, Amazon MSK provisioned
+Per broker host, per month
+Contact Us for Pricing
+Identify issues across brokers, partitions, and schemas
+Troubleshoot at the message level
+Optimize Kafka performance
+Start Free Trial
+Let's Talk
 Features
+Data Streams Monitoring
 Out-of-the-box pipeline topology mapping
 Consumer lag and partition metrics
 End-to-end latency and throughput metrics
 Recommended monitors
 Correlated telemetry: traces, logs, and infrastructure metrics
-Schema tracking
 Team ownership information
-Custom dashboards
-Unlimited users
+Kafka Console
+Cluster, broker, topic, and schema health monitoring, across any hosting environment
+Automatic Kafka health issue detection
+Message search and deserialization, by offset, timeframe, and filter
+Correlated telemetry across Kafka infrastructure, applications, and schemas
+Schema and configuration change tracking
+Optimization recommendations across producer, consumer, topic, and broker configurations
 Serverless Applications
 AWS Fargate
 $
@@ -3718,6 +3736,12 @@ What Technologies do you support?
 DSM currently supports Kafka, RabbitMQ, and SQS. For additional queueing technologies, we provide custom instrumentation options.
 How long is DSM data retained for?
 Map history is stored for 30 days and all metrics are retained for 15 months.
+What is Kafka Console?
+Kafka Console helps you monitor Kafka by collecting data directly from brokers, topics, partitions, and consumer groups. It gives you deeper visibility into Kafka itself – cluster availability, performance, and producer/consumer health – with message querying directly from topics, schema and configuration change tracking, and automatic alerting on cluster and consumer health metrics. When pipeline issues arise, Kafka Console helps you quickly determine whether the root cause sits at the infrastructure layer, what broke, why, and what’s at stake.
+How does Kafka Console differ from Data Streams Monitoring?
+Kafka Console reads directly from the Kafka broker to show how those same producers and consumers, and the infrastructure underneath them, are actually behaving. Data Streams Monitoring instruments application code to show data flow and latency across your services. They’re complementary; you can adopt either independently, or both together to see the full path from broker to application.
+Does Kafka Console support Amazon MSK Serverless?
+Kafka Console pricing only applies to MSK Provisioned clusters. You will not be billed for monitoring MSK Serverless.
 Cloud Cost Management
 A unified cost observability platform for Engineering and FinOps
 Datadog Cost Visibility

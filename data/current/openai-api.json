@@ -6,9 +6,9 @@
   "url": "https://platform.openai.com/docs/pricing",
   "final_url": "https://developers.openai.com/api/docs/pricing",
   "parser_version": 3,
-  "content_hash": "db4f59525eb94bf8edc468d9712f816f5c5558ccf30972aee9e5d373f88207db",
-  "raw_hash": "282e14273c44d67b169be984571b8123af3d393b925f70650ac49b12db54bd43",
-  "text_bytes": 6893,
+  "content_hash": "467374e914d2d1f048dfad9442e0cad76d24252a2e0811f0db08367355574744",
+  "raw_hash": "310ae0351a31878d2a800eda0ba5156a37d7915e202f3570031eaadba8dbb637",
+  "text_bytes": 7098,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -805,6 +805,19 @@
       "rows": [
         [
           "Model",
+          "Price per minute"
+        ],
+        [
+          "gpt-live-1",
+          "$0.05"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Model",
           "Modality",
           "Input",
           "Cached input",
@@ -1023,32 +1036,6 @@
           "Agent Kit",
           "ChatKit file and image upload storage",
           "$0.10 / GB-day after 1 GB free per account per month"
-        ]
-      ]
-    },
-    {
-      "caption": "",
-      "rows": [
-        [
-          "Category",
-          "Model",
-          "Input",
-          "Cached input",
-          "Output"
-        ],
-        [
-          "ChatGPT",
-          "chat-latest",
-          "$5.00",
-          "$0.50",
-          "$30.00"
-        ],
-        [
-          "Codex",
-          "gpt-5.3-codex",
-          "$1.75",
-          "$0.175",
-          "$14.00"
         ]
       ]
     }

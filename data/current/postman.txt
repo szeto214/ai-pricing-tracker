@@ -120,7 +120,7 @@ API versioning
 Native Git
 Test data storage
 IDE extension (VS Code)
-Unlimited cloud & local mock servers
+Mock Servers
 Unlimited manual Flows
 Postman CLI
 Webhooks
@@ -137,7 +137,6 @@ Cloud performance testing
 $0.04 / VuH
 $0.04 / VuH
 $0.04 / VuH
-Beta
 Playwright integration
 Test result exports
 Automation Flows
@@ -244,8 +243,8 @@ Collection Editor
 API Admin, Editor, Viewer
 Environment Editor
 Environment Viewer
-Mock server Editor
-Mock server Viewer
+Mock Server Editor
+Mock Server Viewer
 Monitor Editor
 Monitor Viewer
 API Network Folder Manager
@@ -278,7 +277,7 @@ API versioning
 Native Git
 Test data storage
 IDE extension (VS Code)
-Unlimited cloud & local mock servers
+Mock Servers
 Unlimited manual Flows
 Postman CLI
 Webhooks
@@ -292,7 +291,6 @@ Data file support in Collection Runner
 Datasets
 Unlimited local performance testing
 Cloud performance testing
-$0.04 / VuH
 Playwright integration
 Test result exports
 Automation Flows
@@ -373,7 +371,7 @@ API versioning
 Native Git
 Test data storage
 IDE extension (VS Code)
-Unlimited cloud & local mock servers
+Mock Servers
 Unlimited manual Flows
 Postman CLI
 Webhooks
@@ -468,7 +466,7 @@ API versioning
 Native Git
 Test data storage
 IDE extension (VS Code)
-Unlimited cloud & local mock servers
+Mock Servers
 Unlimited manual Flows
 Postman CLI
 Webhooks
@@ -569,7 +567,7 @@ API versioning
 Native Git
 Test data storage
 IDE extension (VS Code)
-Unlimited cloud & local mock servers
+Mock Servers
 Unlimited manual Flows
 Postman CLI
 Webhooks
@@ -583,7 +581,7 @@ Data file support in Collection Runner
 Datasets
 Unlimited local performance testing
 Cloud performance testing
-Beta
+$0.04 / VuH
 Playwright integration
 Test result exports
 Automation Flows
@@ -813,6 +811,7 @@ Some services scale with activity rather than team size.
 These include:
 API monitoring
 Insights (Enterprise only)
+Cloud performance testing
 AI and Flows usage
 Usage-based pricing, available on any paid plan, helps keep entry costs predictable while fairly supporting higher-scale use cases. You can see consumption costs above this FAQ section.
 What happens if I exceed my included usage?

@@ -7,7 +7,7 @@
   "final_url": "https://about.gitlab.com/pricing/",
   "parser_version": 3,
   "content_hash": "ec49f61286022ff7a37e258320b7156b24a1f5cdbd7af6a9bea5585f53968ba4",
-  "raw_hash": "d7f7d336b242de55274443f890fa62478f77ba49ee21b8acb5b9231eb8efbf72",
+  "raw_hash": "97122c87df2e21b54daabbf7fa44c1fbc8398171984114b7dd08ec8809a20fa6",
   "text_bytes": 26455,
   "extractor": "dom",
   "confidence": "medium",
@@ -53,7 +53,7 @@
       "features": []
     },
     {
-      "name": "Usage pricing",
+      "name": "Usage pricing Show all",
       "price_raw": "$1",
       "amount": 1.0,
       "currency": "USD",

@@ -6,9 +6,9 @@
   "url": "https://fly.io/pricing/",
   "final_url": "https://fly.io/pricing/",
   "parser_version": 3,
-  "content_hash": "e40d1eeef9cda57967cce6d80da8f6b88a414bb1ea0d5f87a64ae0269a65e6cd",
-  "raw_hash": "64676c3e09f2b96426bcfa35590bdad021eb94d1936df471faed6ff2dff12b74",
-  "text_bytes": 2583,
+  "content_hash": "0a9d26e6e2de596a0baa2a690f0ee41c4e10edf115ea78a6544985ef289bfd76",
+  "raw_hash": "04fa9f477e3f449f170d97a3e82f3ece4cbb424739b78964c5c142fb344c8801",
+  "text_bytes": 2781,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -26,14 +26,6 @@
       "amount": 0.15,
       "currency": "USD",
       "period": "month",
-      "features": []
-    },
-    {
-      "name": "Machines pricing",
-      "price_raw": "$0.0027",
-      "amount": 0.0027,
-      "currency": "USD",
-      "period": "hour",
       "features": []
     },
     {
@@ -73,6 +65,14 @@
         "Quarterly Solutions Architecture sessions",
         "99.9% uptime SLA"
       ]
+    },
+    {
+      "name": "Compliance",
+      "price_raw": "$99",
+      "amount": 99.0,
+      "currency": "USD",
+      "period": "month",
+      "features": []
     },
     {
       "name": "Startup program",

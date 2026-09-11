@@ -1107,6 +1107,9 @@ Media Center
 Trust Center
 DeepGPT
 Latest Models
+deepseek-ai
+/
+DeepSeek-V4.1-Flash
 inclusionAI
 /
 Ling-3.0-flash-VL
@@ -1119,25 +1122,22 @@ bge-m3-multi-8k
 deepseek-ai
 /
 DeepSeek-V4-Flash-Vision-Exp
-zai-org
-/
-GLM-5.3
 Featured Models
-zai-org
-/
-GLM-5.3-Flash
 deepseek-ai
 /
 DeepSeek-V4-Pro-0813
 Qwen
 /
-Qwen3.5-397B-A17B
-Qwen
+Qwen3.6-35B-A3B
+deepseek-ai
 /
-Qwen3-Max-Thinking
-Qwen
+DeepSeek-V3.2
+zai-org
 /
-Qwen3-TTS
+GLM-5.1
+nvidia
+/
+NVIDIA-Nemotron-3-Ultra-550B-A55B
 © 2026 DeepInfra. All rights reserved.
 Privacy Policy
 Terms of Service

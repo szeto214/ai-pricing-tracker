@@ -13,14 +13,6 @@
   "confidence": "medium",
   "plans": [
     {
-      "name": "Bunny Pricing",
-      "price_raw": "$1",
-      "amount": 1.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
       "name": "Standard network 119 PoPs",
       "price_raw": "$0.01",
       "amount": 0.01,

@@ -90,17 +90,14 @@ $1.00
 $0.17
 (cached)
 $4.05
-LFM2.5-8B-A1B
-$0.03
-$0.12
 Qwen3.8 Flash
 $0.15
 $0.47
 Qwen3.7-Max
-$1.25
-$0.13
+$2.00
+$0.25
 (cached)
-$3.75
+$6.00
 gpt-oss-120B
 $0.15
 $0.60
@@ -252,20 +249,12 @@ FLUX.1 Kontext [max]
 $0.08
 -
 28
-FLUX.1 [schnell]
-$0.0027
--
-4
 SD XL
 $0.0019
 -
 -
 Ideogram 3.0
 $0.06
--
--
-HiDream-I1-Full
-$0.009
 -
 -
 Juggernaut Lightning Flux
@@ -338,8 +327,6 @@ HappyHorse 1.1 I2V
 $0.14
 HappyHorse 1.1 R2V
 $0.14
-Google Veo 3.0
-$1.60
 Kling 1.6 Standard
 $0.19
 Kling 2.1 Master
@@ -348,14 +335,8 @@ Kling 2.1 Pro
 $0.32
 Kling 2.1 Standard
 $0.18
-Vidu 2.0
-$0.28
 Vidu Q1
 $0.22
-Wan 2.2 I2V
-$0.31
-Wan 2.2 T2V
-$0.66
 Qwen3.6-Plus
 $0.50
 Sora 2
@@ -366,12 +347,6 @@ ByteDance Seedance 1.0 Lite
 $0.14
 ByteDance Seedance 1.0 Pro
 $0.57
-Google Veo 3.0 Fast + Audio
-$1.20
-Google Veo 3.0 Fast
-$0.80
-Google Veo 3.0 + Audio
-$3.20
 Google Veo 2.0
 $2.50
 MiniMax Hailuo 02

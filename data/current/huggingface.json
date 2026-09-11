@@ -7,7 +7,7 @@
   "final_url": "https://huggingface.co/pricing",
   "parser_version": 3,
   "content_hash": "ef0e0f6802a68a32c390e691eaeff8d82d6febe49b14bf36bffe35c12e6e13b1",
-  "raw_hash": "28f91044d7f750a13bb11f67f27e029023dd5366e3a3fcec4600d6360fb26346",
+  "raw_hash": "a2a691ec1a1d390146625cc255bc9bc5ea614472639b7d0fb8cb7595e84c2b80",
   "text_bytes": 21861,
   "extractor": "dom",
   "confidence": "medium",
@@ -37,7 +37,7 @@
       "features": []
     },
     {
-      "name": "Transparent, volume-based pricing",
+      "name": "Storage",
       "price_raw": "$23",
       "amount": 23.0,
       "currency": "USD",
@@ -45,7 +45,7 @@
       "features": []
     },
     {
-      "name": "Transparent, volume-based pricing",
+      "name": "Storage",
       "price_raw": "$23",
       "amount": 23.0,
       "currency": "USD",

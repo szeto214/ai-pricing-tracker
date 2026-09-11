@@ -4,38 +4,132 @@
   "vendor": "DeepSeek",
   "category": "ai-api",
   "url": "https://api-docs.deepseek.com/quick_start/pricing",
-  "final_url": "https://api-docs.deepseek.com/quick_start/pricing",
+  "final_url": "https://api-docs.deepseek.com/quick_start/pricing/",
   "parser_version": 3,
-  "content_hash": "564ee85a00a3d9929ae0478d48637c07d5a84637a82a82be8fdca8b1b7c3d380",
-  "raw_hash": "fc590e5b2cc856c798d46314828dd790320e177317121a1864ef5428991d12d7",
-  "text_bytes": 2136,
-  "extractor": "none",
+  "content_hash": "8779bab0ed20054b9a057e7e7e37931872ebcc9c9ea506badd72751bd09955be",
+  "raw_hash": "6b0396cf74314644fb1b9e04efc23ec5495d0890b7b36ffebd3e3bcb123d912d",
+  "text_bytes": 2472,
+  "extractor": "dom",
   "confidence": "low",
-  "plans": [],
+  "plans": [
+    {
+      "name": "Model Details ​",
+      "price_raw": "$0.003",
+      "amount": 0.003,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    }
+  ],
   "models": [],
   "tables": [
     {
       "caption": "",
       "rows": [
         [
-          "PARAM",
-          "VALUE"
+          "MODEL",
+          "deepseek-flash (1)",
+          "deepseek-v4-pro (2)"
         ],
         [
-          "base_url (OpenAI)",
+          "BASE URL (OpenAI Format)",
           "https://api.deepseek.com"
         ],
         [
-          "base_url (Anthropic)",
+          "BASE URL (Anthropic Format)",
           "https://api.deepseek.com/anthropic"
         ],
         [
-          "api_key",
-          "apply for an API key"
+          "MODEL VERSION",
+          "DeepSeek-V4.1-Flash",
+          "DeepSeek-V4-Pro-0813"
         ],
         [
-          "model (1)",
-          "deepseek-v4-flash deepseek-v4-pro deepseek-v4-flash-vision-exp"
+          "THINKING MODE",
+          "Supports both non-thinking and thinking (default) modes See Thinking Mode for how to switch"
+        ],
+        [
+          "CONTEXT LENGTH",
+          "1M"
+        ],
+        [
+          "MAX OUTPUT",
+          "MAXIMUM: 384K"
+        ],
+        [
+          "FEATURES",
+          "Json Output",
+          "✓",
+          "✓"
+        ],
+        [
+          "Tool Calls",
+          "✓",
+          "✓"
+        ],
+        [
+          "Responses API",
+          "✓",
+          "✓"
+        ],
+        [
+          "Anthropic API",
+          "✓",
+          "✓"
+        ],
+        [
+          "Chat Prefix Completion（Beta）",
+          "✓",
+          "✓"
+        ],
+        [
+          "FIM Completion（Beta）",
+          "Non-thinking mode only",
+          "Non-thinking mode only"
+        ],
+        [
+          "Vision",
+          "✓",
+          "Not supported"
+        ],
+        [
+          "PRICING (3)",
+          "1M INPUT TOKENS (CACHE HIT)",
+          "OFF-PEAK",
+          "$0.003",
+          "$0.022"
+        ],
+        [
+          "PEAK",
+          "$0.006",
+          "$0.044"
+        ],
+        [
+          "1M INPUT TOKENS (CACHE MISS)",
+          "OFF-PEAK",
+          "$0.15",
+          "$0.66"
+        ],
+        [
+          "PEAK",
+          "$0.3",
+          "$1.32"
+        ],
+        [
+          "1M OUTPUT TOKENS",
+          "OFF-PEAK",
+          "$0.6",
+          "$1.98"
+        ],
+        [
+          "PEAK",
+          "$1.2",
+          "$3.96"
+        ],
+        [
+          "Concurrency Limit (4)",
+          "2500",
+          "500"
         ]
       ]
     }

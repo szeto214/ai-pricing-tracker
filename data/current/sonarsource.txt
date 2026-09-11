@@ -1,230 +1,62 @@
 [NEW] Sonar Launches SonarQube Hunter Agent to Catch Logic-based Security Flaws
-Pricing
 Plans and pricing
-Try enterprise-grade code verification without the surprise usage bills. 14-day trial on paid plans, and a free tier that never expires.
-SonarQube plans
-Code verification and governance for the AI era
-Cloud-hosted analysis for your CI/CD workflows. Priced per instance per year, based on your lines of code.
+Find the plan that fits your team
+Code quality, security, and AI code review on one platform. Start in minutes with a 14-day trial, no credit card. Free tier never expires.
+Most popular
 Team
-Team
-Essential capabilities for small teams
+Under 50 developers · set up today, no sales call
+SonarQube
+Finds bugs, vulnerabilities, and security hotspots across 30+ languages on every pull request.
 Starts at
 $34
 monthly
-Request trial
-Contact sales
 Includes:
-Recommended for teams <50 developers
-30+ languages
-Code quality standards
-Detecting bugs and vulnerabilities
-Secrets detection
-AI-driven code fixes
-Pull request analysis
-Architecture management
-Commercial support available
-Need SonarQube for an OSS project?
-★ Most teams choose this
-Enterprise
-Enterprise
-Mission critical scale & performance
-Annual price
-Custom pricing
-Contact sales
-Request a demo
-Team plan, plus:
-Advanced security reports & audit logs
-OWASP, CWE, PCI DSS, and MISRA C++:2023
-Unlimited users and projects
-40+ languages incl. ABAP, COBOL, Apex
-SSO, SCIM, CMK/BYOK, IP allowlist
-Enterprise hierarchy, portfolios, org-wide defaults
-Customizable portfolio & project dashboards
-Enterprise SLA
-Premium support available
-Gitar plans
-AI code review that turns your PRs green
-Fixes validated against your CI pipeline. Try the full platform free for 14 days.
-Annual
-Save 20%
-Monthly
-Best for getting started
-Core
-Unlimited public & private repos · Up to 50 users
+SonarQube Team plan
+SonarQube Advanced Security
+Start free SonarQube trial
+Gitar AI Code Review
+Reviews every pull request in full context, writes the fix, and iterates until CI passes. Unlimited public and private repos.
 $20
-/ user / mo
-$25
-/ user / mo
-Billed annually · 14-day free trial
-Billed monthly · 14-day free trial
-Get started
+/user/mo, billed annually
 Includes:
-Fully customizable code reviews
-Automatic PR summaries
-CI failure analysis (GitHub Actions, GitLab Pipelines)
-Fixes via comments (Ask Gitar to fix issues on your PRs)
-Interactive agent on your PRs
-Developer insights
-★ Best for growing teams
-Most popular
-Pro
-Unlimited public & private repos · Up to 50 users
-$40
-/ user / mo
-$50
-/ user / mo
-Billed annually · 14-day free trial
-Billed monthly · 14-day free trial
-Start free trial
-Everything in Core, plus:
-Auto-approve & merge blocking (Approve PRs automatically, block merges on issues)
-Auto-apply — fix until PR is green
-Advanced CI failure analysis (CircleCI, Buildkite, Bitrise)
-3rd-party integrations (Slack, Linear, Jira)
-User-defined checks & automations
-Advanced insights
-Comprehensive platform engineering
+Gitar AI Code Review, Core Plan
+Start free Gitar trial
 Enterprise
-Unlimited public & private repos · Unlimited users
-Contact us
-Custom pricing & agreements
-Book a demo
-Everything in Pro, plus:
-Self-hosted Code Hosting
-Bring your own LLM API key
-SSO / SAML
-Custom deployment options
-Audit logs
-Dedicated support
-Custom agreements
-Custom integrations
-API access
-New
-Free for Open Source
-Open source projects get Gitar at no cost. Includes all the same features as the Pro plan.
-Public repository
-On GitHub or GitLab
-OSI-approved license
-MIT, Apache-2.0, GPL, and more
-Apply now
-Also available
-For your agent-centric development
-Add Sonar Agent essentials, SonarQube Advanced Security, and SonarQube Hunter Agent to extend SonarQube across the agent-centric development cycle. Built on your SonarQube plan, not beside it.
-Agentic package · Team and Enterprise
-Sonar Agent Essentials
-Context and verification for AI agents
-Custom pricing
-Usage based
-Contact sales
-Learn more
-Includes:
-Sonar Vortex:
-Guide agents with your architecture and standards before they write, then verify every output in real time inside the inner loop.
-Inject context and constraints
-Verify code in the agent loop
-Remediation Agent:
-Opens verified-fix PRs automatically. Build must pass before merge.
-Integrated with agents using:
-SonarQube CLI
-: Unified CLI for agentic workflows. Run analysis from any terminal, CI pipeline, or coding agent.
-SonarQube MCP Server
-: Bring code quality and security into your AI workflow. Open source and free.
-SonarQube agent plugins: Slash commands and quality gates for Claude Code, Gemini, and Kiro.
-For Team and Enterprise
-Advanced Security
-Advanced SAST and supply-chain security
-Custom pricing
-Custom pricing
-Contact sales
-Learn more
-Includes:
-CVE detection
-Identify known vulnerabilities in open source dependencies, prioritized by severity and exploitability.
-Malicious package detection
-Block compromised and malicious libraries from entering your supply chain in real time.
-Dependency-aware taint analysis
-Traces data flow across code boundaries into third-party libraries — uncovering complex vulnerabilities that cross-file analysis alone misses.
-SBOM
-Enterprise
-Generate and export a complete software bill of materials for every project.
-License policy management
-Enterprise
-Define and enforce open source license policies across all projects and dependencies.
-For Enterprise
+Over 50 developers · one conversation, whole platform. Custom pricing
+SonarQube Enterprise plan
+40+ languages, SSO and SCIM, portfolios, OWASP, MISRA reporting, zero data retention and BYOK with LLMs
+SonarQube Advanced Security
+Advanced SAST and SCA: CVEs, malicious packages, SBOM, license policy
+Gitar AI Code Review
+Outcome-based pricing per PR, not per seat, with unlimited iterations
+Sonar Vortex
+Context before the agent writes, verification as it writes. Fewer tokens, fewer outages
+SonarQube Remediation Agent
+Clears backlog at scale. Every fix verified before it reaches a developer
 SonarQube Hunter Agent
-AI agent for logic-based vulnerabilities
-Custom pricing
-Custom pricing
+Hunts broken access control, business logic, and auth flaws at 90% precision
 Contact sales
-Learn more
-Includes:
-Finds logic-based vulnerabilities
-Uncovers broken access control, business logic abuse, and authentication and session issues, the vulnerabilities that depend on intent, not a code pattern
-Reasons like a security researcher
-Runs structured playbooks that trace code, data, and identity flows across the whole codebase, rather than matching patterns.
-Runs in the background
-Scan on demand or on schedule, with no pull request or CI slowdown.
-Native to your workflow
-Findings arrive as SonarQube issues, auto-tagged and CWE-severity mapped, ready to triage and fix. Nothing to install.
-Complements SAST and SCA
-Adds a reasoning layer to SonarQube's deterministic analysis, for coverage no single method delivers.
-Feature comparison
-Compare SonarQube plans
-Capability
-Team
-$34 monthly
-★ Most teams choose this
-Enterprise
-Custom pricing
-Agentic & AI
+OSS maintainers
+Free forever
+Public, OSI-licensed repos get SonarQube for OSS and Gitar AI Code Review for OSS, with the same features as the paid Pro plan.
+OSS for SonarQube
+OSS for Gitar
+Developers
+Free forever
+SonarQube Team Plan, free for your private projects up to 50k LOC. No card, no expiry.
+Start for free
+Trusted by over 7M developers and 75% of the Fortune 100
+Works with your coding agents
+Claude Code, Cursor, Copilot, Windsurf, Gemini CLI. Same verification engine, wherever code gets written.
 SonarQube MCP Server
+Open source and free. Bring analysis into any MCP-capable agent.
+Learn more
+SonarQube for IDE
+Free extension. On-the-fly analysis and guidance as you type.
+Learn more
 SonarQube CLI
-AI Code Assurance
-AI-driven code fixes
-Detect issues in AI-generated code
-Languages & Frameworks
-Languages and frameworks supported
-30+
-40+
-Code Quality
-Quality gates and profiles
-Architecture management
-Technical debt management
-Enforce custom coding standards
-Test coverage
-Pull request and branch analysis
-Code Security
-SAST
-Taint analysis
-Secrets detection
-IaC scanning
-SCA and Advanced SAST
-Included in Advanced Security
-OWASP Top 10, CWE, PCI DSS, STIG, CASA
-—
-MISRA C++:2023 compliance
-—
-Cyber Resilience Act (CRA) compliance
-—
-GitHub Advanced Security integration
-—
-Security reports and audit logs
-—
-Enterprise & Scale
-Unlimited users and projects
-SSO, SCIM, CMK/BYOK
-—
-IP allowlist
-—
-Enterprise hierarchy and portfolios
-—
-Customizable dashboards
-—
-Enterprise SLA
-—
-Premium support
-Add-on
-Add-on
+Run analysis from any terminal, CI pipeline, or coding agent.
+Learn more
 FAQ
 Frequently asked questions
 How does pricing work for private projects?
@@ -299,3 +131,8 @@ How much does SonarQube cost?
 SonarQube's pricing structure
 is designed to be flexible, serving both individual developers and organizations. Starting with the free tier, developers can leverage SonarQube Cloud at no cost, which includes basic code review functionality and works seamlessly with major DevOps platforms. For teams and businesses requiring additional capabilities, integration options, and more robust support, there is a Team Plan available for SonarQube Cloud: prices start at $32 per month (previously listed at $65), and include a free 14-day trial so organizations can evaluate the product risk-free before committing.
 For mission-critical, scalable, and performance-driven environments, especially at the enterprise level, SonarQube offers a dedicated Enterprise Plan with annual pricing tailored to each organization’s needs (details are provided by contacting sales directly). Self-managed SonarQube Server deployments and advanced security features are likewise available through commercial plans. Overall, users can begin with a free option and upgrade to paid tiers as project needs grow, ensuring SonarQube remains accessible and scalable for a wide range of use cases.
+See what's in your code in under 10 minutes
+Connect a repo and get your first analysis today. No credit card required.
+Start free SonarQube trial
+Start free Gitar trial
+Contact sales

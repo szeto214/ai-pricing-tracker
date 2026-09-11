@@ -6,9 +6,9 @@
   "url": "https://www.postman.com/pricing/",
   "final_url": "https://www.postman.com/pricing/",
   "parser_version": 3,
-  "content_hash": "33f8e7be7e43cdec6c4d004182f559aad60d1b3dc1512afd8bfeba2e2da83513",
-  "raw_hash": "905a6deafc4b4d6ffffa8120433de212ce9c55d9bb051a8a9be5bbdb3edd7e67",
-  "text_bytes": 23387,
+  "content_hash": "997fc41b2fa9d96a0387922ddb50defd7c7376557b7d2c8d663cad48077908c6",
+  "raw_hash": "0bdffdaaa03e175200749add905c746bfb1c10905f2796a7aef10f358e52cedf",
+  "text_bytes": 23283,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -91,14 +91,6 @@
     },
     {
       "name": "Postman AI",
-      "price_raw": "$0.04",
-      "amount": 0.04,
-      "currency": "USD",
-      "period": "month",
-      "features": []
-    },
-    {
-      "name": "Postman AI",
       "price_raw": "$0.05",
       "amount": 0.05,
       "currency": "USD",
@@ -117,6 +109,14 @@
       "name": "Postman AI",
       "price_raw": "$0.04",
       "amount": 0.04,
+      "currency": "USD",
+      "period": "user",
+      "features": []
+    },
+    {
+      "name": "Postman AI",
+      "price_raw": "$0.035",
+      "amount": 0.035,
       "currency": "USD",
       "period": "user",
       "features": []
@@ -315,7 +315,7 @@
           ""
         ],
         [
-          "Unlimited cloud & local mock servers",
+          "Mock Servers",
           "",
           "",
           "",
@@ -421,10 +421,10 @@
         ],
         [
           "Cloud performance testing",
+          "",
           "$0.04 / VuH",
           "$0.04 / VuH",
-          "$0.04 / VuH",
-          "Beta"
+          "$0.04 / VuH"
         ],
         [
           "Playwright integration",
@@ -871,7 +871,7 @@
           ""
         ],
         [
-          "Unlimited cloud & local mock servers",
+          "Mock Servers",
           "",
           "",
           "",
@@ -961,10 +961,10 @@
         ],
         [
           "Cloud performance testing",
+          "",
           "$0.04 / VuH",
           "$0.04 / VuH",
-          "$0.04 / VuH",
-          "Beta"
+          "$0.04 / VuH"
         ],
         [
           "Playwright integration",
@@ -1414,7 +1414,7 @@
           ""
         ],
         [
-          "Guest Access (collection viewer) Collection Editor API Admin, Editor, Viewer Environment Editor Environment Viewer Mock server Editor Mock server Viewer Monitor",
+          "Guest Access (collection viewer) Collection Editor API Admin, Editor, Viewer Environment Editor Environment Viewer Mock Server Editor Mock Server Viewer Monitor",
           "Guest Access (collection viewer)",
           "",
           "",
@@ -1463,14 +1463,14 @@
           ""
         ],
         [
-          "Mock server Editor",
+          "Mock Server Editor",
           "",
           "",
           "",
           ""
         ],
         [
-          "Mock server Viewer",
+          "Mock Server Viewer",
           "",
           "",
           "",

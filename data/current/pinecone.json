@@ -45,14 +45,6 @@
       "features": []
     },
     {
-      "name": "Usage-based pricing",
-      "price_raw": "$50",
-      "amount": 50.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
       "name": "Storage",
       "price_raw": "$0.33",
       "amount": 0.33,
@@ -136,6 +128,14 @@
       "name": "llama-text-embed-v2",
       "price_raw": "$0.16",
       "amount": 0.16,
+      "currency": "USD",
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "multilingual-e5-large",
+      "price_raw": "$0.08",
+      "amount": 0.08,
       "currency": "USD",
       "period": "month",
       "features": []

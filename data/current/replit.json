@@ -6,20 +6,12 @@
   "url": "https://replit.com/pricing",
   "final_url": "https://replit.com/pricing",
   "parser_version": 3,
-  "content_hash": "c54ed3b6b1b674e3a4565fd6d69e43d3cd75ec967cdf112171606026a0970e29",
-  "raw_hash": "301cc86304c6f0cb4b23c0a385e9ca2ba0101b6d4dbf949e270fcd8218d71929",
-  "text_bytes": 1800,
+  "content_hash": "3832c950aaf7e3b1e90c9b33b18342630b9605dab873da340263b598c553db2c",
+  "raw_hash": "bda60a704735d8eea26014404791710d24b2598e169a8a1a1eae47ef842b6ec5",
+  "text_bytes": 1605,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
-    {
-      "name": "Starter Free Daily agent credits",
-      "price_raw": "Free",
-      "amount": 0.0,
-      "currency": null,
-      "period": null,
-      "features": []
-    },
     {
       "name": "Core",
       "price_raw": "$20",
@@ -29,7 +21,7 @@
       "features": []
     },
     {
-      "name": "More free agent usage",
+      "name": "Plan mode",
       "price_raw": "$20",
       "amount": 20.0,
       "currency": "USD",
@@ -45,7 +37,7 @@
       "features": []
     },
     {
-      "name": "Even more free agent usage",
+      "name": "Invite up to 50 viewers",
       "price_raw": "$100",
       "amount": 100.0,
       "currency": "USD",

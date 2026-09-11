@@ -25,14 +25,14 @@ Overview
 Models
 Agents
 Tools
-Voice & Audio
+Audio & voice
 Production
 API reference
 Overview
 Models
 Agents
 Tools
-Voice & Audio
+Audio & voice
 Production
 API reference
 Model catalog
@@ -62,7 +62,7 @@ Image prompting
 Video generation
 Realtime and audio
 Audio and speech
-Overview
+Getting started
 Voice agents
 Specialized models
 Deep research
@@ -190,6 +190,15 @@ To estimate vision model input costs, use the
 image input cost
 calculator
 .
+GPT-Live sessions
+GPT-Live 1
+voice sessions are billed per second,
+without rounding up to a whole minute. Backend model and tool usage is charged
+separately.
+Model
+Price per minute
+gpt-live-1
+$0.05
 Realtime and audio generation models
 Prices per 1M tokens unless noted.
 Model

@@ -6,9 +6,9 @@
   "url": "https://ai.google.dev/pricing",
   "final_url": "https://ai.google.dev/gemini-api/docs/pricing",
   "parser_version": 3,
-  "content_hash": "d300c27798f1bee1de6e50c8131a85262e255f7af93004699b5649298e81122f",
-  "raw_hash": "5e1ea49e4293b620ce03f74217be71469f998658ff3c0502dfd3f519ebcb0c1d",
-  "text_bytes": 56301,
+  "content_hash": "fb6687190271191459149d711b53109367a2b22a1b113d1706126129351fd01b",
+  "raw_hash": "45b44e64b173a133b7b72eb382a0ec90c8a07fb498cac87774894a20ad66ca44",
+  "text_bytes": 55119,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

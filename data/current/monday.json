@@ -7,7 +7,7 @@
   "final_url": "https://monday.com/pricing",
   "parser_version": 3,
   "content_hash": "797de32432de966a694b4ab0eabd9de16928e3359e61bbe1e575e4aaa0f9a85d",
-  "raw_hash": "2446f463b2563958ee4cc41d8697a048c11efcf9ed2d83a76ec64c09862cfa31",
+  "raw_hash": "78e21b66ed803495ceb3ec4b9c26ae423ee2f8fd343f1683a2b24122f183ef4c",
   "text_bytes": 50871,
   "extractor": "dom",
   "confidence": "medium",

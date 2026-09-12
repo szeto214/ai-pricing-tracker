@@ -6,9 +6,9 @@
   "url": "https://buildkite.com/pricing",
   "final_url": "https://buildkite.com/pricing/",
   "parser_version": 3,
-  "content_hash": "d427d0ad79232f954f3ae2fd2d4e4c720ccf8a114c38be74e81e8d8c8a41aa68",
-  "raw_hash": "4f25f446f6c3b806cf1e801cd2d9882d69b42db8a82a63d7188120ecf90c0029",
-  "text_bytes": 18870,
+  "content_hash": "ace2e148066fd4698a3b102799feb35d703d67d1d555ce8669168e0e9d4ca2fe",
+  "raw_hash": "985cbb29cb5feefae8db85eaf945bb7122169cb79ead4220166249c9237ad005",
+  "text_bytes": 18787,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

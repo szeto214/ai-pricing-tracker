@@ -547,78 +547,178 @@ $0.16
 GiB/month
 Fine-Tuning
 Train open-source models for real production use.
-Standard pricing
-Specialized pricing
+LoRA fine-tuning
+Full fine-tuning
 Per 1M tokens
+Model
 Supervised Fine-Tuning
 Direct Preference Optimization
-Size
-LoRA
-Full Fine-Tuning
-LoRA
-Full Fine-Tuning
-Up to 16B
-$0.48
-$0.54
-$1.20
-$1.35
-17B-69B
-$1.50
-$1.65
-$3.75
-$4.12
-70-100B
-$2.90
-$3.20
-$7.25
-$8.00
-Price is based on the sum of tokens processed in the fine-tuning training dataset (training dataset size * number of epochs) plus any tokens in the optional evaluation dataset (validation dataset size * number of evaluations). Each job is subject to a minimum charge of $4.00.
-Size
-Supervised
-Fine-Tuning (LoRA)
-Direct Preference
-Optimization (LoRA)
 Minimum charge
-DeepSeek-V4 Flash 0731
-DeepSeek-V4 Flash
+Qwen3.5 0.8B
+$0.34
+$0.84
+$4.00
+Qwen3.5 122B A10B
+$4.20
+$10.50
+$10.00
+Qwen3.5 27B
+$1.05
+$2.62
+$4.00
+Qwen3.5 2B
+$0.34
+$0.84
+$4.00
+Qwen3.5 35B A3B
+$1.05
+$2.62
+$4.00
+Qwen3.5 397B A17B
+$5.60
+$14.00
+$22.00
+Qwen3.5 4B
+$0.34
+$0.84
+$4.00
+Qwen3.5 9B
+$0.34
+$0.84
+$4.00
+Qwen3.6 27B
+$1.05
+$2.62
+$4.00
+Qwen3.6 35B A3B
+$1.05
+$2.62
+$4.00
+Qwen3.8 27B
+$1.05
+$2.62
+$4.00
+DeepSeek-V3.1
+$7.00
+$17.50
+$20.00
+DeepSeek V4 Flash 0731
 $6.00
 $15.00
 $12.00
-DeepSeek-V3.1
-$10.00
-$25.00
-$20.00
-GLM-5.2
-GLM-5.1
-GLM-5
-$40
-$100
-$60
-gpt-oss-120B
-$5.00
-$12.50
+Gemma 4 26B A4B
+$1.05
+$2.62
+$4.00
+Gemma 4 31B
+$1.05
+$2.62
+$4.00
+Gemma 4 31B VLM
+$1.05
+$2.62
+$4.00
+Llama 3.3 70B
+$2.03
+$5.08
+$4.00
+Llama 4 Maverick
+$5.60
+$14.00
+$16.00
+Llama 4 Maverick VLM
+$5.60
+$14.00
+$16.00
+Llama 4 Scout
+$2.10
+$5.25
 $6.00
+Llama 4 Scout VLM
+$2.10
+$5.25
+$6.00
+Llama 3.1 8B
+$0.34
+$0.84
+$4.00
+Mixtral 8x7B Instruct v0.1
+$1.05
+$2.62
+$4.00
 Kimi K2.6
-Kimi K2.7-Code
 $15.00
 $37.50
 $60.00
-Llama 4 Maverick Instruct
-$8.00
-$20.00
-$16.00
-Llama 4 Scout Instruct
-$3.00
-$7.50
-$6.00
-Qwen3.5-122B-A10B
-$6.00
+Kimi K2.7 Code
 $15.00
-$10.00
-Qwen3.5-397B-A17B
-$8.00
-$20.00
-$22.00
-Price is based on the sum of tokens processed in the fine-tuning training dataset (training dataset size * number of epochs) plus any tokens in the optional evaluation dataset (validation dataset size * number of evaluations).
+$37.50
+$60.00
+gpt-oss-120B
+$2.50
+$6.25
+$6.00
+gpt-oss-20B
+$0.40
+$1.00
+$4.00
+GLM-5.1
+$40.00
+$100.00
+$60.00
+GLM-5.2
+$40.00
+$100.00
+$60.00
+Price is based on the sum of tokens processed in the fine-tuning training dataset (training dataset size × number of epochs) plus any tokens in the optional evaluation dataset (validation dataset size × number of evaluations). Each job is subject to the minimum charge shown for its model.
+Model
+Supervised Fine-Tuning
+Direct Preference Optimization
+Minimum charge
+Qwen3.5 0.8B
+$0.38
+$0.94
+$4.00
+Qwen3.5 27B
+$1.16
+$2.88
+$4.00
+Qwen3.5 2B
+$0.38
+$0.94
+$4.00
+Qwen3.5 4B
+$0.38
+$0.94
+$4.00
+Qwen3.5 9B
+$0.38
+$0.94
+$4.00
+Qwen3.6 27B
+$1.16
+$2.88
+$4.00
+Gemma 4 31B
+$1.16
+$2.88
+$4.00
+Gemma 4 31B VLM
+$1.16
+$2.88
+$4.00
+Llama 3.3 70B
+$2.24
+$5.60
+$4.00
+Llama 3.1 8B
+$0.38
+$0.94
+$4.00
+Mixtral 8x7B Instruct v0.1
+$1.16
+$2.88
+$4.00
+Price is based on the sum of tokens processed in the fine-tuning training dataset (training dataset size × number of epochs) plus any tokens in the optional evaluation dataset (validation dataset size × number of evaluations). Each job is subject to the minimum charge shown for its model.
 No matching models
 Trusted by

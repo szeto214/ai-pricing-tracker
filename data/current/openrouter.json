@@ -6,16 +6,16 @@
   "url": "https://openrouter.ai/models",
   "final_url": "https://openrouter.ai/models",
   "parser_version": 3,
-  "content_hash": "9e1c26a0f1a6431d36dc292fd42efc9df8ad2583eb43ffc694e238a9d7c0cfce",
-  "raw_hash": "f5066f037f419d973997a7a6b3618f1859c5a9463d4a0d7aa7669dc621b2d1c4",
-  "text_bytes": 10756,
+  "content_hash": "67770c23414e9fbff420be36e9660422155473332676c9348b2738bb30c6bb1d",
+  "raw_hash": "f63ae2d4f5dda6b03823d779b0cf452597e29665e89b73f7461856c7914e48a4",
+  "text_bytes": 9147,
   "extractor": "dom",
   "confidence": "low",
   "plans": [
     {
-      "name": "Microsoft AI: MAI-Transcribe 2",
-      "price_raw": "$0.10",
-      "amount": 0.1,
+      "name": "Meta: Muse Voice Transcribe 1.0",
+      "price_raw": "$0.18",
+      "amount": 0.18,
       "currency": "USD",
       "period": "hour",
       "features": []

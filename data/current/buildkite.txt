@@ -120,7 +120,7 @@ Custom
 GitHub Enterprise support
 Connect to an on-premise GitHub Enterprise instance.
 —
-✓
+—
 ✓
 Pipeline templates
 Define standard pipeline step configurations to use across your organization.
@@ -414,7 +414,7 @@ Pro Plan
 +
 −
 Pipelines
-Expand to see 8 features
+Expand to see 7 features
 Dynamic pipelines
 Generate and upload pipeline steps at runtime, so each build can adapt to code changes, test results, or other build-time logic.
 ✓
@@ -433,9 +433,6 @@ Artifact storage
 250GB/month
 Artifact downloads
 2.5TB/month
-GitHub Enterprise support
-Connect to an on-premise GitHub Enterprise instance.
-✓
 +
 −
 Tests

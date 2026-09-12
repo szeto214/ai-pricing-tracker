@@ -94,6 +94,10 @@ Add on
 Add on
 FAQs
 Didn't find your answer? Please don't hesitate to reach out.
+What are credits?
+Airbyte credits are used to pay for Airbyte resources when you run a sync. Credits are used to unify pricing across multiple types of sources. Credit metering differs across source types, and for more details on this, please consult our
+documentation
+.
 What plans does Airbyte offer, and how do they differ?
 Click
 here

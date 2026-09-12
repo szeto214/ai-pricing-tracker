@@ -6,9 +6,9 @@
   "url": "https://deno.com/deploy/pricing",
   "final_url": "https://deno.com/deploy/pricing",
   "parser_version": 3,
-  "content_hash": "0df16c300ac2ac0eefdf5cbaa1b8bc410f242a0db2b083477b28e557dccbecaf",
-  "raw_hash": "c177969c2fbb7883e90a906c7b09ff6139e0513b7332a02247abe446dfc8aaae",
-  "text_bytes": 16068,
+  "content_hash": "8baef8238fc9676ce55f84210f208e258e7f337cb63fe7a52c20d6d018c132be",
+  "raw_hash": "7f48546f9af19ab6ab8ac9cc06e3c0a8ca5636e0b725cca040e7d93389c81a71",
+  "text_bytes": 16056,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

@@ -5,7 +5,7 @@ View sandbox
 Get in touch
 Navigation
 Pricing
-You and your agent can query Postgres, Vitess, and Neki cluster pricing using SQL. Instructions and an agent-friendly version of the available catalog are in
+You and your agent can query Vitess, Neki, and Postgres cluster pricing using SQL. Instructions and an agent-friendly version of the available catalog are in
 pricing.md
 .
 Connect to pricing database
@@ -19,6 +19,8 @@ postgresql://<secret-redacted>:<secret-redacted>@aws-us-east-1-3.pg.psdb.cloud:6
 Example queries and the available catalog are in
 pricing.md
 .
+Vitess
+MySQL-compatible with horizontal sharding for massive scale. Runs on network-attached storage or PlanetScale Metal.
 Neki
 Postgres with horizontal sharding for massive scale. Runs on network-attached storage or PlanetScale Metal.
 PlanetScale Postgres
@@ -28,8 +30,6 @@ High Availability
 1 primary + 2 replicas across 3 availability zones.
 Metal
 High-performance local NVMe storage. Starting at $50/month.
-Vitess
-MySQL-compatible with horizontal sharding for massive scale. Runs on network-attached storage or PlanetScale Metal.
 Plans
 Base ↓
 Enterprise ↓
@@ -63,6 +63,8 @@ Base Plan
 The Base plan is what you get when you
 sign up at PlanetScale
 . No contract or sales interaction required. Pricing is resource-based, so you can upsize and downsize your instances as needed.
+Vitess
+MySQL-compatible databases with horizontal sharding. Pricing based on cluster size, VTGate configuration, and storage. Metal also available.
 Neki
 Postgres databases with horizontal sharding. Pricing is based on shard size and count, router configuration, replicas, storage, backup storage, and network usage. Metal also available.
 PlanetScale Postgres
@@ -72,8 +74,6 @@ Metal
 — Starting at $50/month with local NVMe storage for high-performance needs
 High Availability
 — 1 primary + 2 replicas across 3 availability zones
-Vitess
-MySQL-compatible databases with horizontal sharding. Pricing based on cluster size, VTGate configuration, and storage. Metal also available.
 Pricing factors
 Pay as you go
 — Pay month to month based on the price in the calculator above.

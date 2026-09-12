@@ -62,7 +62,7 @@ used to improve our products
 *
 Upgrade to Paid
 Enterprise
-For large-scale deployments with custom needs for security, support, and compliance, powered by
+For enterprise deployments, powered by
 Gemini Enterprise Agent Platform
 .
 check_circle
@@ -1708,6 +1708,16 @@ No
 Gemini 2.5 Flash Image (Nano Banana) 🍌
 gemini-2.5-flash-image
 Try it in Google AI Studio
+Warning:
+Gemini 2.5 Flash Image (
+gemini-2.5-flash-image
+) is
+deprecated
+and will be shut down on October 2, 2026; migrate to
+Gemini 3.1 Flash Image
+or
+Gemini 3.1 Flash Lite Image
+to avoid service disruption.
 A native image generation model, optimized for speed, flexibility, and
 contextual understanding. Text input and output is priced the same as
 2.5 Flash
@@ -1918,28 +1928,6 @@ $6.00 ($0.000395 per frame)
 Used to improve our products
 Yes
 No
-Gemini Embedding
-gemini-embedding-001
-Try the API
-Our first Gemini Embeddings model for text-only use cases.
-Standard
-Free Tier
-Paid Tier, per 1M tokens in USD
-Input price
-Free of charge
-$0.15
-Used to improve our products
-Yes
-No
-Batch
-Free Tier
-Paid Tier, per 1M tokens in USD
-Input price
-Not available
-$0.075
-Used to improve our products
-Yes
-No
 Gemini Robotics ER 2 Preview
 gemini-robotics-er-2-preview
 Try it in Google AI Studio
@@ -2011,44 +1999,6 @@ Output price
 Free of charge
 $5.00 through December 31, 2026.
 $10.00 starting January 1, 2027.
-Grounding with Google Search
-Not available
-5,000 free search requests per month (shared across all Gemini 3.x models), then $14 per 1,000 requests.
-Used to improve our products
-Yes
-No
-Gemini Robotics ER 1.6 Preview
-gemini-robotics-er-1.6-preview
-Try it in Google AI Studio
-Gemini Robotics ER, short for Gemini Robotics-Embodied Reasoning, is a thinking
-model that enhances robots' abilities to understand and interact with the
-physical world.
-Standard
-Free Tier
-Paid Tier, per 1M tokens in USD
-Input price
-Free of charge
-$1.00 (text / image / video)
-$2.00 (audio)
-Output price (including thinking tokens)
-Free of charge
-$5.00
-Grounding with Google Search
-Not available
-5,000 free search requests per month (shared across all Gemini 3.x models), then $14 per 1,000 requests.
-Used to improve our products
-Yes
-No
-Batch
-Free Tier
-Paid Tier, per 1M tokens in USD
-Input price
-Not available
-$0.50 (text / image / video)
-$1.00 (audio)
-Output price (including thinking tokens)
-Not available
-$2.50
 Grounding with Google Search
 Not available
 5,000 free search requests per month (shared across all Gemini 3.x models), then $14 per 1,000 requests.
@@ -2217,4 +2167,4 @@ Apache 2.0 License
 . For details, see the
 Google Developers Site Policies
 . Java is a registered trademark of Oracle and/or its affiliates.
-Last updated 2026-09-08 UTC.
+Last updated 2026-09-11 UTC.

@@ -6,9 +6,9 @@
   "url": "https://lovable.dev/pricing",
   "final_url": "https://lovable.dev/pricing",
   "parser_version": 3,
-  "content_hash": "c663c7066848afc94e3187fecf4caecee02e1316ca806464a7473638ed7144d7",
-  "raw_hash": "f8d030db7c4dd462c8d9d59d95d282d0e882c39f18fbeafc89a7bcaf2ac014f6",
-  "text_bytes": 2609,
+  "content_hash": "f9d39fb3b23bc2645e1f3061c8f3a9f27bf074b334a25abafdf2c3d2aa5f51c1",
+  "raw_hash": "deffc818bc61cc781a20b70fceaa1d0b502f6a81b0328ef6a0df3cacecd258ff",
+  "text_bytes": 2612,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

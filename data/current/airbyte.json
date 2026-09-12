@@ -6,9 +6,9 @@
   "url": "https://airbyte.com/pricing",
   "final_url": "https://airbyte.com/pricing",
   "parser_version": 3,
-  "content_hash": "bb99f9afd3425d0b049a3194c8cf39ac3db48acca67b92ab829ba41c2a9b0653",
-  "raw_hash": "797b60f3bfca6854ce563c901e8f2e6f5479b203ee68232d69a6c2f1b4499d63",
-  "text_bytes": 4714,
+  "content_hash": "c14c430db7f55a1d72261338ccff9abdb86d7a308419c0fb87c8233cd582f1fb",
+  "raw_hash": "b7352476dcdd37ab0286f537be579f1736e877262352b2830559f5cd8b9abfcf",
+  "text_bytes": 4985,
   "extractor": "jsonld",
   "confidence": "low",
   "plans": [

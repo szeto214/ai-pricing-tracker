@@ -6,9 +6,9 @@
   "url": "https://api-docs.deepseek.com/quick_start/pricing",
   "final_url": "https://api-docs.deepseek.com/quick_start/pricing/",
   "parser_version": 3,
-  "content_hash": "8779bab0ed20054b9a057e7e7e37931872ebcc9c9ea506badd72751bd09955be",
-  "raw_hash": "6b0396cf74314644fb1b9e04efc23ec5495d0890b7b36ffebd3e3bcb123d912d",
-  "text_bytes": 2472,
+  "content_hash": "33d490ca9ee04d9c5f6386a4a734975e2e5e651610aa1ead0588b12b1f41ecdb",
+  "raw_hash": "755aa9b488d1185cba016ca4de3b3b6b8f593f5e13e5f9f961305289a5c8d242",
+  "text_bytes": 2390,
   "extractor": "dom",
   "confidence": "low",
   "plans": [

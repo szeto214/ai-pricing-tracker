@@ -6,9 +6,9 @@
   "url": "https://modal.com/pricing",
   "final_url": "https://modal.com/pricing",
   "parser_version": 3,
-  "content_hash": "92cf9b5e840bc17bbc9de434877b37788d9db823248af688a2d73dbd3695315b",
-  "raw_hash": "37327e75ae3c99649afba66368fcbe5db09324f8e10f50406214547e59e3da64",
-  "text_bytes": 4632,
+  "content_hash": "13ab7dd0f01cd0e62b6bcc8ac430f27e085f22494cc33963586e409a745e1951",
+  "raw_hash": "bfcaf57a6bd438af4ef8b20650f379d14fd401c77f0dcd981c9be06f51517dce",
+  "text_bytes": 4744,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -27,7 +27,7 @@
       "currency": "USD",
       "period": "month",
       "features": [
-        "$30 / month free credits",
+        "$30 / month free compute",
         "3 workspace seats included",
         "100 containers + 10 GPU concurrency",
         "Scheduled and Web Functions (limited)",
@@ -42,7 +42,7 @@
       "currency": "USD",
       "period": "month",
       "features": [
-        "$100 / month free credits",
+        "$100 / month free compute",
         "Unlimited seats",
         "5000 containers + 50 GPU concurrency",
         "Unlimited Scheduled Functions",

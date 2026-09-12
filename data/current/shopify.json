@@ -6,9 +6,9 @@
   "url": "https://www.shopify.com/pricing",
   "final_url": "https://www.shopify.com/pricing",
   "parser_version": 3,
-  "content_hash": "531e887c30f4fea795f291c87fc5e05e49079577f49f52b309982db54852cc43",
-  "raw_hash": "d276c7cd265c8e35a3079373444998bc7ed87e19143cf29ec49a7d3ca73158ec",
-  "text_bytes": 15227,
+  "content_hash": "96504a39d44a9831e2a0547291a3a6655e08592a85d64843e8e72ecb8697338a",
+  "raw_hash": "ba5ece9ebba0dc375c4fd1315358459358faf6cd41332f303bcff4d8f8937ce1",
+  "text_bytes": 15228,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

@@ -7,7 +7,7 @@
   "final_url": "https://www.tigerdata.com/pricing",
   "parser_version": 3,
   "content_hash": "66852153c2f07bea2d0274e788ee28bddb77e853c4536a1a4165e7b8f7085999",
-  "raw_hash": "4b44511d44797c096609f64c0d53f5e8e729e270fe5cfd3ea257b92ff0e65000",
+  "raw_hash": "e6c7226f61df29c75c29987dc390608e53065f44df0048bfc1aa0723cb338591",
   "text_bytes": 11487,
   "extractor": "dom",
   "confidence": "medium",

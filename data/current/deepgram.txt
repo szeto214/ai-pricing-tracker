@@ -264,15 +264,15 @@ Speaker Diarization
 Detect multiple speakers and label who spoke when in the transcript.
 Text to Speech
 Generate natural, low-latency speech for your voice assistants and conversational AI applications.
-Through September 12, 2026, developers can build with Flux TTS free with up to 45 concurrent streaming connections globally (5 in EU/AU).
-Standard pricing applies beginning September 13, 2026.
+Through September 14, 2026, developers can build with Flux TTS free with up to 45 concurrent streaming connections globally (5 in EU/AU).
+Standard pricing applies beginning September 15, 2026.
 Model
 Pay As You Go
 Growth
 Flux TTS
-Free until 9/12
+Free until 9/14
 Then $0.0450/1k characters
-Free until 9/12
+Free until 9/14
 Then $0.0405/1k characters
 Aura-2
 $0.030/1k characters
@@ -283,7 +283,7 @@ $0.0135/1k characters
 Model
 Pay As You Go
 Flux TTS
-Free until 9/12
+Free until 9/14
 Then $0.0450/1k characters
 Aura-2
 $0.030/1k characters
@@ -295,7 +295,7 @@ Get your results!
 Get Results
 Voice Agent API
 Our Voice Agent API enables real-time conversational AI agents that seamlessly handle interruptions, take complex actions, and deliver natural, responsive customer interactions without delays or rigid turn-taking.
-Flux TTS in Voice Agent is free through September 12, 2026.
+Flux TTS in Voice Agent is free through September 14, 2026.
 Standard, Custom-BYO LLM, and Advanced tiers are billed at BYO TTS rates when using Flux TTS during this period.
 $/minute
 $/hour
@@ -303,11 +303,11 @@ Tier
 Pay As You Go
 Growth
 Standard
-$0.056/min through 9/12
+$0.056/min through 9/14
 Then $0.075/min
 i
 calculated based on websocket connection time.
-$0.051/min through 9/12
+$0.051/min through 9/14
 Then $0.068/min
 i
 calculated based on websocket connection time.
@@ -319,11 +319,11 @@ $0.051/min
 i
 calculated based on websocket connection time.
 Custom - BYO LLM
-$0.050/min through 9/12
+$0.050/min through 9/14
 Then $0.065/min
 i
 calculated based on websocket connection time.
-$0.041/min through 9/12
+$0.041/min through 9/14
 Then $0.059/min
 i
 calculated based on websocket connection time.
@@ -335,11 +335,11 @@ $0.041/min
 i
 calculated based on websocket connection time.
 Advanced
-$0.122/min through 9/12
+$0.122/min through 9/14
 Then $0.163/min
 i
 calculated based on websocket connection time.
-$0.110/min through 9/12
+$0.110/min through 9/14
 Then $0.146/min
 i
 calculated based on websocket connection time.
@@ -353,7 +353,7 @@ calculated based on websocket connection time.
 Tier
 Pay As You Go
 Standard
-$0.056/min through 9/12
+$0.056/min through 9/14
 Then $0.075/min
 i
 calculated based on websocket connection time.
@@ -362,7 +362,7 @@ $0.065/min
 i
 calculated based on websocket connection time.
 Custom - BYO LLM
-$0.050/min through 9/12
+$0.050/min through 9/14
 Then $0.065/min
 i
 calculated based on websocket connection time.
@@ -371,7 +371,7 @@ $0.050/min
 i
 calculated based on websocket connection time.
 Advanced
-$0.122/min through 9/12
+$0.122/min through 9/14
 Then $0.163/min
 i
 calculated based on websocket connection time.

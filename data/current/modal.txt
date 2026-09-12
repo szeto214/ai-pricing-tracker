@@ -67,9 +67,9 @@ $0
 +
 compute / month
 Built for small teams and independent developers looking to level up.
-Get started with $30 / month free credit
+Get started with $30 / month free compute
 Get Started
-$30 / month free credits
+$30 / month free compute
 3 workspace seats included
 100 containers + 10 GPU concurrency
 Scheduled and Web Functions (limited)
@@ -82,7 +82,7 @@ compute / month
 Built for startups and larger organizations looking to scale quickly.
 Sign in to upgrade
 Sign in to upgrade
-$100 / month free credits
+$100 / month free compute
 Unlimited seats
 5000 containers + 50 GPU concurrency
 Unlimited Scheduled Functions
@@ -171,6 +171,10 @@ Included compute
 $30 / month
 $100 / month
 Custom
+Included token usage
+0
+0
+0
 Features
 Containers
 100
@@ -251,6 +255,8 @@ Do I need to purchase credits?
 Can I add more than three team members on the starter plan?
 What kinds of applications can I deploy using Modal?
 Can I use my AWS, GCP, or Azure credits on Modal?
+What does my included usage cover?
+I'm on the Starter plan. Why am I being charged?
 Ship your first app in minutes.
 Get Started
 $30 / month free compute

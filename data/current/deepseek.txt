@@ -82,9 +82,7 @@ deepseek-v4-flash
 and
 deepseek-v4-flash-vision-exp
 are still accepted, but the corresponding models have been retired, their requests are served by the DeepSeek-V4.1-Flash model and billed at the Flash price.
-(2) After extensive testing, V4.1 Flash has comprehensively surpassed V4 Pro in performance, cost, speed, and total time, so we plan to retire V4 Pro in an orderly manner. From 12:00 Beijing Time on September 14, 2026, and until V4.1 Pro is released in the future, requests to
-deepseek-v4-pro
-will all be routed to V4.1 Flash and billed at the V4.1 Flash price.
+(2) In response to user demand, we have decided to continue providing API services for DeepSeek V4 Pro after September 14, 2026, with the billing method remaining unchanged. We will provide further notice should there be any changes. Thank you for your understanding and support!
 (3) Off-peak rates are half of the peak rates. Peak hours are 01:00 - 04:00 and 06:00 - 10:00 UTC, Monday through Friday (all other hours are off-peak).
 (4) For more details on concurrency limits, please refer to
 Rate Limit & Isolation

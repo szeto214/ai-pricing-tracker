@@ -6,25 +6,12 @@
   "url": "https://www.cerebras.ai/pricing",
   "final_url": "https://www.cerebras.ai/pricing",
   "parser_version": 3,
-  "content_hash": "b73f9740342bfd99cec04b175f664074c200e430cc5c1dab02d8dc8df3fbed76",
-  "raw_hash": "a299d0bc5f3e7dfa419d763fa6ae9dfda3b69f67653542983de5597aa6bcc769",
-  "text_bytes": 2261,
-  "extractor": "dom",
-  "confidence": "low",
-  "plans": [
-    {
-      "name": "Developer",
-      "price_raw": "$10",
-      "amount": 10.0,
-      "currency": "USD",
-      "period": null,
-      "features": [
-        "Self-serve payment starting at just $10",
-        "10x higher rate limits than free tier",
-        "Higher priority processing"
-      ]
-    }
-  ],
+  "content_hash": "aeb15cb128f1a220603555be3b43eda80ea0d4b07e03db694cc576777d2ecd06",
+  "raw_hash": "d707916286dd6d705025875d9877045a4c3ea9a84bd8a3c92a9c244b953b8426",
+  "text_bytes": 1448,
+  "extractor": "none",
+  "confidence": "none",
+  "plans": [],
   "models": [],
   "tables": [],
   "extract_errors": []

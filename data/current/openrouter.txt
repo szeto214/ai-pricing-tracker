@@ -1,7 +1,7 @@
 Models
 Inference.net: Schematron V2 Turbo
 Schematron V2 Turbo
-802K tokens
+43.6M tokens
 Schematron V2 Turbo is a 3B-parameter HTML-to-JSON extraction model from Inference.net. It prioritizes throughput for high-volume extraction workloads. Extraction instructions must be supplied through a JSON schema in response_format rather than through system or user prompts.
 by
 inference-net
@@ -13,7 +13,7 @@ $0.15/M output
 tokens
 Inference.net: Schematron V2 Small
 Schematron V2 Small
-516K tokens
+8.63M tokens
 Schematron V2 Small is a 3B-parameter HTML-to-JSON extraction model from Inference.net. It prioritizes extraction quality for complex schemas and long pages. Extraction instructions must be supplied through a JSON schema in response_format rather than through system or user prompts.
 by
 inference-net
@@ -26,15 +26,15 @@ tokens
 Meta: Muse Voice Transcribe 1.0
 Muse Voice Transcribe 1.0
 18+
-305K characters
+589K characters
 Muse Voice Transcribe 1.0 is a synchronous speech-to-text model from Meta. It is suited for push-to-talk, endpointing, and speaker-aware transcription, with keyword biasing for domain terms and language biasing through language-name hints. It accepts mono 16-bit PCM WAV audio at 16 kHz or 24 kHz for recordings up to 10 minutes. It does not provide word-level timestamps or confidence scores, and other audio formats must be converted to WAV before upload.
 by
 meta
 Sep 11, 2026
 $0.18/hour
-OpenAI GPT Astra Latest
-OpenAI GPT Astra Latest
-This model always redirects to the latest model in the OpenAI GPT Astra family.
+OpenAI: GPT Astra Latest
+GPT Astra Latest
+This model always redirects to the latest model in the GPT Astra family.
 by
 openai
 Sep 11, 2026
@@ -43,10 +43,10 @@ $10/M input
 tokens
 $50/M output
 tokens
-OpenAI GPT Sol Latest
-OpenAI GPT Sol Latest
+OpenAI: GPT Sol Latest
+GPT Sol Latest
 50% off
-This model always redirects to the latest model in the OpenAI GPT Sol family.
+This model always redirects to the latest model in the GPT Sol family.
 by
 openai
 Sep 11, 2026
@@ -55,9 +55,9 @@ $2/M input
 tokens
 $10/M output
 tokens
-OpenAI GPT Terra Latest
-OpenAI GPT Terra Latest
-This model always redirects to the latest model in the OpenAI GPT Terra family.
+OpenAI: GPT Terra Latest
+GPT Terra Latest
+This model always redirects to the latest model in the GPT Terra family.
 by
 openai
 Sep 11, 2026
@@ -66,9 +66,9 @@ $2/M input
 tokens
 $12/M output
 tokens
-OpenAI GPT Luna Latest
-OpenAI GPT Luna Latest
-This model always redirects to the latest model in the OpenAI GPT Luna family.
+OpenAI: GPT Luna Latest
+GPT Luna Latest
+This model always redirects to the latest model in the GPT Luna family.
 by
 openai
 Sep 11, 2026
@@ -79,7 +79,7 @@ $1.20/M output
 tokens
 Sakana: Fugu Ultra v2
 Fugu Ultra v2
-267M tokens
+511M tokens
 Fugu Ultra v2 is the higher-performance model in Sakana AI's Fugu family. Rather than a single monolithic model, Fugu is a learned multi-agent orchestration system: a language model trained to route tasks across a fixed pool of open and specialized models and to recursively call instances of itself. Fugu Ultra v2 prioritizes answer quality on complex multi-step reasoning, autonomous research, and full-stack software development, and does not rely on individual proprietary frontier models in its pool. It supports configurable reasoning effort (high, xhigh, max), function calling, structured outputs, image and PDF input, and built-in web search. Prompts above 272K tokens are billed at a higher rate. Orchestration tokens consumed by the system are billed as standard input/output tokens.
 by
 sakana
@@ -91,7 +91,7 @@ $30/M output
 tokens
 Sakana: Fugu Max
 Fugu Max
-197M tokens
+406M tokens
 Fugu Max is the cost-performance model in Sakana AI's Fugu family. Rather than a single monolithic model, Fugu is a learned multi-agent orchestration system: a language model trained to route tasks across a fixed pool of open-weights and specialized models, including NVIDIA's Nemotron family, and to recursively call instances of itself. Fugu Max dynamically selects efficient combinations of expert agents to improve quality and cost together, and is priced flat regardless of context length. It supports configurable reasoning effort (high, xhigh, max), function calling, structured outputs, image and PDF input, and built-in web search and web fetch. Orchestration tokens consumed by the system are billed as standard input/output tokens.
 by
 sakana
@@ -111,7 +111,7 @@ Sep 10, 2026
 $0.03/second
 inclusionAI: Ling 3.0 Flash VL (free)
 Ling 3.0 Flash VL (free)
-57.5B tokens
+125B tokens
 Ling 3.0 Flash VL builds on Ling 3.0 Flash (124B total / 5.5B active MoE from InclusionAI), further strengthening its language capabilities while adding native visual perception and advanced visual agent capabilities. Hybrid instant/reasoning model with tool calling.
 by
 inclusionai
@@ -123,7 +123,7 @@ $0/M output
 tokens
 inclusionAI: Ling 3.0 Flash VL
 Ling 3.0 Flash VL
-94.2M tokens
+223M tokens
 Ling 3.0 Flash VL builds on Ling 3.0 Flash (124B total / 5.5B active MoE from InclusionAI), further strengthening its language capabilities while adding native visual perception and advanced visual agent capabilities. Hybrid instant/reasoning model with tool calling.
 by
 inclusionai
@@ -135,12 +135,12 @@ $0.18/M output
 tokens
 DeepSeek: DeepSeek V4.1 Flash
 DeepSeek V4.1 Flash
-2.38T tokens
-Academia (#28)
-Finance (#4)
-Health (#8)
-Legal (#50)
-Marketing (#37)
+3.79T tokens
+Academia (#16)
+Finance (#3)
+Health (#7)
+Legal (#12)
+Marketing (#30)
 +7 categories
 DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture. It activates 8B parameters on input and 16B on output from a 552B-parameter backbone, an asymmetric split that keeps per-token compute low relative to the model's total size. Image understanding is native to the architecture, with visual and text embeddings trained jointly from the start of pre-training rather than added afterward as in the earlier experimental
 V4 Flash Vision Exp
@@ -157,7 +157,7 @@ $0.60/M output
 tokens
 OpenAI: GPT Image 2.5 Sunburst
 GPT Image 2.5 Sunburst
-571M tokens
+675M tokens
 GPT Image 2.5 Sunburst is an image generation and editing model from OpenAI, positioned as the precision-oriented tier of the GPT Image 2.5 series. It is suited to detailed creative work where editing accuracy matters more than generation speed, via the dedicated Images API.
 by
 openai
@@ -169,7 +169,7 @@ $30/M output
 tokens
 OpenAI: GPT Image 2.5 Flare
 GPT Image 2.5 Flare
-201M tokens
+235M tokens
 GPT Image 2.5 Flare is an image generation and editing model from OpenAI, positioned as the speed-oriented tier of the GPT Image 2.5 series. It is suited to high-volume everyday generation, creator content, and rapid prototyping via the dedicated Images API.
 by
 openai
@@ -182,7 +182,7 @@ tokens
 Inception: Mercury 2.5
 Mercury 2.5
 80% off
-24.7B tokens
+31.5B tokens
 Mercury 2.5 is the fastest reasoning LLM, and the latest diffusion LLM (dLLM) from Inception. Instead of generating tokens sequentially, Mercury 2.5 produces and refines multiple tokens in parallel, achieving 1,107 tokens/sec on standard GPUs. It delivers a 10+ point jump in intelligence over Mercury 2, comparable quality to cost-optimized frontier models like GPT-5.6 Luna (Low), Gemini 3.5 Flash-Lite, and Claude Haiku 4.5. Mercury 2.5 supports tunable reasoning levels, parallel tool calls, and schema-aligned JSON output. It's built for production workloads where latency compounds: search agents, voice pipelines, and coding subagents. Read more in the
 blog post
 .
@@ -196,7 +196,7 @@ $0.15/M output
 tokens
 Nex AGI: Nex-N2.5-Mini (free)
 Nex-N2.5-Mini (free)
-73.4B tokens
+91.4B tokens
 Nex-N2.5 is an agentic model built to turn goals into working, verified outcomes. Its core strength is agentic coding within a visual feedback loop: it can explore codebases, implement multi-file changes, run commands, launch applications, interact with browser and desktop interfaces, and test software from the user's perspective. When observed behavior does not match the intended result, Nex-N2.5 can diagnose the issue, revise its implementation, and test again. This makes it especially effective for autonomous software engineering, GUI-based QA, computer-use automation, deep research, and scientific workflows where success must be demonstrated in the environment—not merely inferred from generated code.
 by
 nex-agi

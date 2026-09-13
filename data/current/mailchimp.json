@@ -6,20 +6,12 @@
   "url": "https://mailchimp.com/pricing/",
   "final_url": "https://mailchimp.com/pricing/marketing/",
   "parser_version": 3,
-  "content_hash": "03099993758a1541774378618a5672fd6581e1d01f56810837cb343769f430e3",
-  "raw_hash": "07085e6606d4a50c8c4b9754d7be617fd14e5f5b3cb832c89f8c764503c24a22",
-  "text_bytes": 22538,
+  "content_hash": "c9738d05f4533a5de4a5a4f2c8dcae4e3f3ff78243db65571a9d6fd641ad081d",
+  "raw_hash": "6864e80d3fed77b7b34fd6ffa2fc1043c50adfcdbe9f4bcd96db63155de4ffe4",
+  "text_bytes": 22505,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
-    {
-      "name": "Standard",
-      "price_raw": "$20",
-      "amount": 20.0,
-      "currency": "USD",
-      "period": "month",
-      "features": []
-    },
     {
       "name": "Premium",
       "price_raw": "Free",

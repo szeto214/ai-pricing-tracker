@@ -6,9 +6,9 @@
   "url": "https://www.together.ai/pricing",
   "final_url": "https://www.together.ai/pricing",
   "parser_version": 3,
-  "content_hash": "73cb0fda39e5c643732577717bc2ac59d8bde35ca691f38829dc2426848b3480",
-  "raw_hash": "06a1d0b6256f4d669ff4af21445127058c3a39d323132a88893a4d9b15b0232f",
-  "text_bytes": 8687,
+  "content_hash": "b7259c11b3886cc10a0372e1ced802533cdea94927b1f5c3f0314bd2e8c9b25c",
+  "raw_hash": "a751e17fa0e61ae1b9ce58f01f405589cb62e8edfd3fded4d1a3b5d2e2d19f50",
+  "text_bytes": 8767,
   "extractor": "jsonld",
   "confidence": "medium",
   "plans": [
@@ -194,11 +194,6 @@
           "$15.00"
         ],
         [
-          "DeepSeek V4 Flash 0731",
-          "$0.14 $0.03 (cached)",
-          "$0.28"
-        ],
-        [
           "Qwen3.8-2.4T-A95B",
           "$2.00 $0.25 (cached)",
           "$6.00"
@@ -224,6 +219,11 @@
           "$0.50"
         ],
         [
+          "DeepSeek V4.1 Flash",
+          "$0.30 $0.006 (cached)",
+          "$1.20"
+        ],
+        [
           "Gemma 4 31B",
           "$0.39",
           "$0.97"
@@ -247,6 +247,11 @@
           "Inkling",
           "$1.00 $0.17 (cached)",
           "$4.05"
+        ],
+        [
+          "DeepSeek V4 Flash 0731",
+          "$0.14 $0.03 (cached)",
+          "$0.28"
         ],
         [
           "Qwen3.8 Flash",
@@ -342,6 +347,11 @@
           "GLM-5.3-Flash",
           "$0.15",
           "$0.50"
+        ],
+        [
+          "DeepSeek V4.1 Flash",
+          "$0.30",
+          "$1.20"
         ],
         [
           "Gemma 4 31B",

@@ -1,14 +1,13 @@
 {
   "date": "2026-09-14",
-  "finished_at": "2026-09-14T02:56:24+00:00",
+  "finished_at": "2026-09-14T07:31:43+00:00",
   "user_agent": "ai-pricing-tracker/0.1 (+https://github.com/szeto214/ai-pricing-tracker) price-archive-bot; 1 request per page per day",
   "summary": {
     "total": 135,
-    "ok": 132,
+    "ok": 135,
     "changed": 10,
     "by_status": {
-      "ok": 132,
-      "robots_denied": 3
+      "ok": 135
     }
   },
   "targets": [
@@ -880,11 +879,19 @@
       "slug": "heroku",
       "name": "Heroku",
       "url": "https://www.heroku.com/pricing",
-      "status": "robots_denied",
-      "http_status": null,
-      "elapsed_ms": 0,
-      "robots_note": "robots.txt tidak terbaca (ConnectError) -> tidak diambil",
-      "reason": "robots.txt tidak terbaca (ConnectError) -> tidak diambil"
+      "status": "ok",
+      "http_status": 200,
+      "elapsed_ms": 6386,
+      "robots_note": "robots.txt terbaca",
+      "content_hash": "d26b7f01395043a11ea57b5ee52c16b768e296104163dbe32eb0dcc6a54ea87b",
+      "extractor": "dom",
+      "confidence": "medium",
+      "plans_count": 20,
+      "models_count": 0,
+      "tables_count": 8,
+      "thin": false,
+      "changed": false,
+      "change_kind": null
     },
     {
       "slug": "heygen",
@@ -1196,11 +1203,19 @@
       "slug": "mistral",
       "name": "Mistral AI",
       "url": "https://mistral.ai/pricing",
-      "status": "robots_denied",
-      "http_status": null,
-      "elapsed_ms": 0,
-      "robots_note": "robots.txt tidak terbaca (ConnectError) -> tidak diambil",
-      "reason": "robots.txt tidak terbaca (ConnectError) -> tidak diambil"
+      "status": "ok",
+      "http_status": 200,
+      "elapsed_ms": 6956,
+      "robots_note": "robots.txt terbaca",
+      "content_hash": "81c1d0736aa3405b4fc6c3c2fdce7ec29324a7c1ebf105b0c979f0ab0eca0e38",
+      "extractor": "dom",
+      "confidence": "medium",
+      "plans_count": 4,
+      "models_count": 0,
+      "tables_count": 1,
+      "thin": false,
+      "changed": false,
+      "change_kind": null
     },
     {
       "slug": "modal",
@@ -2394,11 +2409,19 @@
       "slug": "zendesk",
       "name": "Zendesk",
       "url": "https://www.zendesk.com/pricing/",
-      "status": "robots_denied",
-      "http_status": null,
-      "elapsed_ms": 0,
-      "robots_note": "robots.txt tidak terbaca (ConnectError) -> tidak diambil",
-      "reason": "robots.txt tidak terbaca (ConnectError) -> tidak diambil"
+      "status": "ok",
+      "http_status": 200,
+      "elapsed_ms": 6118,
+      "robots_note": "robots.txt terbaca",
+      "content_hash": "c88d547ec484e992d074508fee9dab5a64198b0b670288df249291f92acb652e",
+      "extractor": "dom",
+      "confidence": "medium",
+      "plans_count": 6,
+      "models_count": 0,
+      "tables_count": 0,
+      "thin": false,
+      "changed": false,
+      "change_kind": null
     },
     {
       "slug": "zilliz",

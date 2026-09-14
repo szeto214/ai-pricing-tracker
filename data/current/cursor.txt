@@ -5,10 +5,10 @@ Contact
 Contact sales
 Download
 Pricing
-Individual
-Teams & Enterprise
-Save 20% with yearly billing
+Monthly
+Yearly
 Hobby
+For the tinkerer
 Free
 Includes:
 ✓
@@ -18,9 +18,13 @@ Limited Agent requests
 ✓
 Access to Composer
 Try Cursor
-Pro
+Individual
+For the agent-curious
 $20
 / mo.
+Pro
+Pro+
+Ultra
 Everything in Hobby, plus:
 ✓
 Extended limits on Agent
@@ -37,46 +41,53 @@ Cloud agents
 ✓
 Bugbot on usage-based billing
 Get Pro
-Pro+
-$60
-/ mo.
-Everything in Pro, plus:
+Teams
+For teams that ship together
+$40
+/ user / mo.
+Standard
+Premium
+Everything on Individual, plus:
 ✓
-3x Pro limits on Agent
+Centralized team billing and administration
 ✓
-Generous limits for Grok
+Team marketplace for internal rules, skills, and plugins
 ✓
-Access to frontier models
+Cloud agents and automations with shared team context
 ✓
-Higher Grok Bot usage limits
+Grok Bot access
 ✓
-MCPs, skills, and hooks
+Agentic code reviews with Bugbot
 ✓
-Cloud agents
+Usage analytics to understand team behavior
 ✓
-Bugbot on usage-based billing
-Get Pro+
-Ultra
-$200
-/ mo.
-Everything in Pro, plus:
+Team-wide privacy mode
 ✓
-20x Pro limits on Agent
+SAML/OIDC SSO
+Get Teams
+Enterprise
+For scaled organizations
+Custom
+Everything on Teams, plus:
 ✓
-Generous limits for Grok
+Pooled usage
 ✓
-Access to frontier models
+Invoice/PO billing
 ✓
-Highest Grok Bot usage limits
+SCIM seat management
 ✓
-MCPs, skills, and hooks
+Repository, model, and MCP access controls
 ✓
-Cloud agents
+Auto-run, browser, and network controls
 ✓
-Bugbot on usage-based billing
+Audit logs and service accounts
 ✓
-Priority access to new features
-Get Ultra
+AI code tracking API
+✓
+Access, network, and audit controls for Grok Bot
+✓
+Priority support and account management
+Contact sales
 Trusted every day by teams that build world-class software.
 What is the right plan for me?
 We recommend Pro+ for daily agent users, and Ultra for agent power users. The Teams plan is recommended for professionals collaborating with others, and larger organizations that need invoicing, pooled usage, or advanced security should choose Enterprise.

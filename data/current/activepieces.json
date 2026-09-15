@@ -6,9 +6,9 @@
   "url": "https://www.activepieces.com/pricing",
   "final_url": "https://www.activepieces.com/pricing",
   "parser_version": 3,
-  "content_hash": "94211e00f065438dc0141d46c2bb1c3aa6694564a786f987d5750dc6fbf45846",
-  "raw_hash": "25a9ed243e23ef53dc5a253b8e21ace630976285956009b87613f55b1acf62fa",
-  "text_bytes": 5930,
+  "content_hash": "593d1faaa46a1cae7b756142de49cfddb1372d2c5667bf1044b5aa957e9a3718",
+  "raw_hash": "501fba69e4a148097c8d5fc5c636ce247cd62604b937e67c9456f5e4fd12ab27",
+  "text_bytes": 5929,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

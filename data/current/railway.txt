@@ -83,6 +83,28 @@ $
 0.015
 per GB-month
 free egress
+Sandboxes & VMs
+Isolated Linux VMs for agents, builds, and untrusted code. Billed only for the CPU your sandbox actually uses and the memory it holds while running, never for the time it spends waiting.
+Learn more
+Memory
+$
+0.00001929
+per GB / sec
+about $
+50
+per GB-month, while running
+CPU
+$
+0.00001929
+per vCPU / sec
+about $
+50
+per vCPU-month, active use only
+Egress
+$
+0.05
+per GB
+for sandboxes
 Compare features
 Free
 Deploy Now
@@ -157,6 +179,30 @@ Default agent spend limit
 $5 / month
 $20 / month
 Custom
+Sandboxes
+Sandboxes
+Running sandboxes per environment
+10
+50
+100
+100, can be increased
+Default sandbox size
+2 vCPU / 2 GB
+4 vCPU / 4 GB
+8 vCPU / 8 GB
+8 vCPU / 8 GB
+Maximum sandbox size
+2 vCPU / 2 GB
+8 vCPU / 8 GB
+32 vCPU / 32 GB
+Custom
+Idle timeout
+Up to 5 minutes
+Up to 2 hours, or never
+Up to 2 hours, or never
+Up to 2 hours, or never
+Checkpoints, forks, and templates
+Private networking and public domains
 Collaboration
 Team members
 Unlimited
@@ -363,6 +409,7 @@ How do I get started with the free Trial?
 How does the Trial work?
 How does the Hobby plan included usage work?
 Does included usage on Hobby accumulate?
+How are sandboxes billed?
 How can I get a receipt?
 How to add company details on my invoice?
 What payment methods are accepted?

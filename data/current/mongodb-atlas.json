@@ -6,9 +6,9 @@
   "url": "https://www.mongodb.com/pricing",
   "final_url": "https://www.mongodb.com/pricing",
   "parser_version": 3,
-  "content_hash": "ac855ab65e3455b03b97b62c61f8f30b7e3e2ca3b78bd864f5e5e916f051dab4",
-  "raw_hash": "0c62363a54256ee9ab0fec4ffd2d83da4c1c278fe591d85007e4461be1d10b9f",
-  "text_bytes": 22089,
+  "content_hash": "78d02e715ed02b1a8522b7e3f75e4cf119f585380f0635081fea1f8ec5c8afa8",
+  "raw_hash": "a76a59de186122a0025c9da58c3633d826f8d3dcfa908d820d29dfc072f2e007",
+  "text_bytes": 22125,
   "extractor": "jsonld",
   "confidence": "medium",
   "plans": [

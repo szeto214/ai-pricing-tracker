@@ -6,9 +6,9 @@
   "url": "https://www.coderabbit.ai/pricing",
   "final_url": "https://www.coderabbit.ai/pricing",
   "parser_version": 3,
-  "content_hash": "6333627095c0bb766e28978b48b3444c0ac0c339132102ab8945732dd12feb4b",
-  "raw_hash": "b26974b507d4724445b6f84f7dbb70ea1feb67660f1af1924e86c926340001cb",
-  "text_bytes": 5175,
+  "content_hash": "606fd43a876fc4feb9c51a885fb911dc8059ed46f6eefa2d6c4b2216cbc4806a",
+  "raw_hash": "1cdeca833def694f11f24db84ad7b445e9b092ba75da05cd6542bd91a81db57f",
+  "text_bytes": 5191,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

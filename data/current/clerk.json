@@ -6,8 +6,8 @@
   "url": "https://clerk.com/pricing",
   "final_url": "https://clerk.com/pricing",
   "parser_version": 3,
-  "content_hash": "dee94cf482c5bd1c15b775dfbf4f109e8cf8c700b989d8a8e7a068fcec392335",
-  "raw_hash": "e175cc739d4ed0fe46f68dc25b61281bfbca03c386f765fa0c6b92c80984bb6d",
+  "content_hash": "8f74b4cef9bd71ed36c0f03814e1f82144e2476896d344def7822ad2ed4e1a8f",
+  "raw_hash": "3405816ac9fcc3c0ff59505c7ed0217e843205745b415b2e20c82ac86ba7938c",
   "text_bytes": 12884,
   "extractor": "jsonld",
   "confidence": "medium",
@@ -184,8 +184,8 @@
         [
           "Enterprise connections Leverage authentication with EASIE, SAML, or OIDC supported services.",
           "Not included",
-          "1 connection included per app 2 - 15 $75/mo each 16 - 100 $60/mo each 101 - 500 $30/mo each 500+ $15/mo each",
-          "1 connection included per app 2 - 15 $75/mo each 16 - 100 $60/mo each 101 - 500 $30/mo each 500+ $15/mo each"
+          "1 connection included per app 2 - 15 $75/mo each 16 - 100 $60/mo each 101 - 500 $30/mo each 501+ $15/mo each",
+          "1 connection included per app 2 - 15 $75/mo each 16 - 100 $60/mo each 101 - 500 $30/mo each 501+ $15/mo each"
         ],
         [
           "Machine Authentication"

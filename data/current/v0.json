@@ -6,9 +6,9 @@
   "url": "https://v0.app/pricing",
   "final_url": "https://v0.app/pricing",
   "parser_version": 3,
-  "content_hash": "7de1b68750c3093e73bfb1fe4a0efe7b8538654d6a539044e75285e24a745e54",
-  "raw_hash": "041eea5fbd865bfeb2ea4a0b3241745c2dd98918d6ea77acf8646b7aa3e24826",
-  "text_bytes": 3883,
+  "content_hash": "cda535884048169f0b57f8583a0fc7e7a7c95b3fae6bfd27ddf86f8b8bc9c4a9",
+  "raw_hash": "05dd1f4d831f60f6a0f786fa96b571674daadc48afcdbf7ddb68401719b0f22a",
+  "text_bytes": 2825,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -21,7 +21,7 @@
       "features": []
     },
     {
-      "name": "Plus Popular",
+      "name": "Plus",
       "price_raw": "$30",
       "amount": 30.0,
       "currency": "USD",
@@ -37,39 +37,105 @@
       "features": []
     },
     {
-      "name": "v0 Mini",
+      "name": "v 0 Mini",
       "price_raw": "$0.20",
       "amount": 0.2,
       "currency": "USD",
       "period": null,
       "features": []
-    },
-    {
-      "name": "v0 Pro",
-      "price_raw": "$2",
-      "amount": 2.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "v0 Max",
-      "price_raw": "$5",
-      "amount": 5.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "v0 Max Fast",
-      "price_raw": "$10",
-      "amount": 10.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
     }
   ],
-  "models": [],
-  "tables": [],
+  "models": [
+    {
+      "key": "v 0 mini lightning-fast speed with near-frontier intelligence",
+      "model": "v 0 Mini Lightning-fast speed with near-frontier intelligence",
+      "prices": {
+        "input": {
+          "raw": "$0.20",
+          "amount": 0.2
+        },
+        "cache write": {
+          "raw": "$0.25",
+          "amount": 0.25
+        },
+        "cache read": {
+          "raw": "$0.02",
+          "amount": 0.02
+        },
+        "output": {
+          "raw": "$1.20",
+          "amount": 1.2
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "v 0 max maximum intelligence for complex work and demanding users",
+      "model": "v 0 Max Maximum intelligence for complex work and demanding users",
+      "prices": {
+        "input": {
+          "raw": "$5",
+          "amount": 5.0
+        },
+        "cache write": {
+          "raw": "$6.25",
+          "amount": 6.25
+        },
+        "cache read": {
+          "raw": "$0.50",
+          "amount": 0.5
+        },
+        "output": {
+          "raw": "$25",
+          "amount": 25.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    }
+  ],
+  "tables": [
+    {
+      "caption": "v0 model token rates in US dollars per one million tokens",
+      "rows": [
+        [
+          "Model",
+          "Input",
+          "Cache write",
+          "Cache read",
+          "Output"
+        ],
+        [
+          "v 0 Mini Lightning-fast speed with near-frontier intelligence",
+          "$0.20/1M",
+          "$0.25/1M",
+          "$0.02/1M",
+          "$1.20/1M"
+        ],
+        [
+          "v 0 Pro Balanced speed and intelligence, with superior performance for most tasks",
+          "$2/1M",
+          "$2.50/1M",
+          "$0.20/1M",
+          "$10/1M"
+        ],
+        [
+          "v 0 Max Maximum intelligence for complex work and demanding users",
+          "$5/1M",
+          "$6.25/1M",
+          "$0.50/1M",
+          "$25/1M"
+        ],
+        [
+          "v 0 Max Fast Maximum intelligence with 2.5x faster output speed for rapid iteration",
+          "$10/1M",
+          "$12.50/1M",
+          "$1/1M",
+          "$50/1M"
+        ]
+      ]
+    }
+  ],
   "extract_errors": []
 }

@@ -6,125 +6,13 @@
   "url": "https://temporal.io/pricing",
   "final_url": "https://temporal.io/pricing",
   "parser_version": 3,
-  "content_hash": "44325daf880cdf68a206ba11145ba6e7d80863a6c351187708c646ca811114e3",
-  "raw_hash": "798835e784afbb8c63192e54d6052de7b464384a196e8ca4488d524a52a132a3",
-  "text_bytes": 5585,
-  "extractor": "dom",
-  "confidence": "medium",
-  "plans": [
-    {
-      "name": "Pay-As-You-Go",
-      "price_raw": "$50",
-      "amount": 50.0,
-      "currency": "USD",
-      "period": "hour",
-      "features": []
-    },
-    {
-      "name": "Workflow Orchestration",
-      "price_raw": "$100",
-      "amount": 100.0,
-      "currency": "USD",
-      "period": "month",
-      "features": []
-    },
-    {
-      "name": "FAQs",
-      "price_raw": "$1,000",
-      "amount": 1000.0,
-      "currency": "USD",
-      "period": "month",
-      "features": []
-    }
-  ],
+  "content_hash": "7d4246c8aead0143a39d38491e2fb06ed366b31178cd5b1e19be57766eb0c9fd",
+  "raw_hash": "02c729160a169ca0a6221574e015d882fc5d0f26c014144932fae69cbd701125",
+  "text_bytes": 726,
+  "extractor": "none",
+  "confidence": "none",
+  "plans": [],
   "models": [],
-  "tables": [
-    {
-      "caption": "",
-      "rows": [
-        [
-          "Actions",
-          "Price per Million Actions"
-        ],
-        [
-          "First Actions",
-          "Included in the Temporal Cloud Plan"
-        ],
-        [
-          "Next 5M",
-          "$50"
-        ],
-        [
-          "Next 5M",
-          "$45"
-        ],
-        [
-          "Next 10M",
-          "$40"
-        ],
-        [
-          "Next 30M",
-          "$35"
-        ],
-        [
-          "Next 50M",
-          "$30"
-        ],
-        [
-          "Next 100M",
-          "$25"
-        ],
-        [
-          "Over 200M",
-          "Contact Sales Pro Tip: More discounts, helpful humans."
-        ]
-      ]
-    },
-    {
-      "caption": "",
-      "rows": [
-        [
-          "Capacity",
-          "APS",
-          "Required Actions/hr"
-        ],
-        [
-          "On Demand",
-          "500",
-          "Any Usage"
-        ],
-        [
-          "",
-          "Scales based on usage from last 7 days"
-        ],
-        [
-          "Pro­visioned",
-          "500/TRU",
-          "Any Usage"
-        ],
-        [
-          "",
-          "Each additional TRU @ 360,000 Actions/hr"
-        ]
-      ]
-    },
-    {
-      "caption": "",
-      "rows": [
-        [
-          "Storage",
-          "Price per GBh"
-        ],
-        [
-          "Active Storage",
-          "$0.042 GBh"
-        ],
-        [
-          "Retained Storage",
-          "$0.00105 GBh"
-        ]
-      ]
-    }
-  ],
+  "tables": [],
   "extract_errors": []
 }

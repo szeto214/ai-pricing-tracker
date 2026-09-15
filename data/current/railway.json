@@ -6,9 +6,9 @@
   "url": "https://railway.com/pricing",
   "final_url": "https://railway.com/pricing",
   "parser_version": 3,
-  "content_hash": "a83867c4c2111bf543a272ec347872a0d313c0268d3e8c5999c5392751c3ff4d",
-  "raw_hash": "ebf4498576c15e77563dc775a0f66aec04ff49155c87a918965a3eb0164d1939",
-  "text_bytes": 7752,
+  "content_hash": "3a1e6a82faa8ae9f18aa13c96c88c1bd34aedb97217a062794469a34e9683b1c",
+  "raw_hash": "815862226927f0b2605713b228426dddfc45c3767ca84ed5371e7e3eeb115a9b",
+  "text_bytes": 8582,
   "extractor": "jsonld",
   "confidence": "medium",
   "plans": [

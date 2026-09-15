@@ -149,6 +149,7 @@ Guardrails
 LLM Gateway
 build
 Voice Agent API
+Dictation API
 Pre-recorded Speech-to-Text API
 Build Voice AI on the most accurate Speech-to-Text with language detection, formatting, filler words, keyterms prompting, custom spelling, word-level timestamps, and more.
 Models

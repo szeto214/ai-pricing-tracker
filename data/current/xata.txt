@@ -246,7 +246,7 @@ Percent of lifespan active
 Share of each branch's life spent running compute vs scaled to zero.
 Storage
 Production database size
-1 TB
+10 GB
 5 GB
 5 TB
 Monthly rate:
@@ -255,23 +255,23 @@ $
 /GB/month
 Billed by the minute. Only pay for the time storage is in use.
 Change data per branch
-0.32
+3.2
 %
 CoW branches only store changed data.
-0.32
+3.16
 % of
-1 TB
+10 GB
 =
-3 GB
+0 GB
 per branch. Estimate auto-adjusts with database size.
 Total
 $
-313.54
+35.42
 /month
 Estimated avg. cost per month
 Production Clone
 $
-297.52
+20.32
 /mo
 Required — source database for all branches
 Compute
@@ -283,14 +283,14 @@ hrs = $
 17.52
 Always running (24/7)
 Storage
-1 TB
+10 GB
 × $
 0.28
 /GB = $
-280.00
+2.80
 Development Branches
 $
-16.02
+15.10
 /mo
 Compute
 $
@@ -303,9 +303,9 @@ branches = $
 15.00
 Scale-to-zero enabled
 Storage (deltas only)
-0.32
+3.2
 % of
-1 TB
+10 GB
 ×
 5,000
 branches × $
@@ -315,7 +315,7 @@ branches × $
 /
 43,800
 minutes = $
-1.02
+0.10
 Prorated. Branches average
 10 minutes
 before cleanup

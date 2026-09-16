@@ -1265,6 +1265,70 @@ def test_refusal_is_final_for_the_day() -> None:
           _refused_today({"status": "http_error", "http_status": 403}))
 
 
+def test_empat_digit_tanpa_koma() -> None:
+    """Harga >= 4 digit tanpa koma pernah terpotong di digit ke-3 (15/09/2026).
+
+    Gejala: `$1500` terbaca 150, `$ 1121` terbaca 112, `$1343` terbaca 134.
+    Sebabnya alternatif pertama PRICE_RE memakai `(?:,\d{3})*` — cocok TANPA
+    koma sama sekali — dan regex mengambil alternatif pertama yang cocok.
+    Tiga angka salah ikut terbit di halaman publik: Xata 8xlarge $112 (padahal
+    $1121, sesuai $1,536/jam x 730), Paperspace V100 $134 (padahal $1343),
+    Synthesia Studio Avatars $100 (padahal $1000).
+
+    Yang paling berbahaya bukan angkanya salah, melainkan dua akibatnya:
+    perubahan notasi `$1343` -> `$1,343` terbaca sebagai lonjakan +902%, dan
+    kenaikan sungguhan `$1343` -> `$1349` tidak terlihat sama sekali karena
+    keduanya terbaca 134.
+    """
+    print("\n14. harga empat digit tanpa koma")
+    from collector.extract import parse_price
+
+    for teks, harap in [
+        ("$1500/mo", 1500.0),        # dulu 150
+        ("$ 1121", 1121.0),          # dulu 112  (Xata)
+        ("$1343 / month", 1343.0),   # dulu 134  (Paperspace)
+        ("$1000/year", 1000.0),      # dulu 100  (Synthesia)
+        ("$2000.50", 2000.5),        # dulu 200,5
+        ("$12345", 12345.0),         # dulu 123
+    ]:
+        check(f"{teks!r} terbaca utuh", parse_price(teks)[0] == harap,
+              f"-> {parse_price(teks)[0]}")
+
+    # Yang sudah benar TIDAK BOLEH berubah — ini syarat "meningkatkan, bukan
+    # merusak". Termasuk harga API per-token yang halus (PARSER_VERSION 2).
+    for teks, harap in [
+        ("$1,500/mo", 1500.0),
+        ("$1,234,567", 1234567.0),
+        ("$150", 150.0),
+        ("$12.50", 12.5),
+        ("$0.000012", 0.000012),
+        ("Rp 150", 150.0),
+        ("$1.5k", 1500.0),           # sufiks k tetap dikali seribu
+        ("$0", 0.0),
+    ]:
+        check(f"{teks!r} tetap seperti sebelumnya", parse_price(teks)[0] == harap,
+              f"-> {parse_price(teks)[0]}")
+
+    # Perubahan NOTASI bukan perubahan harga.
+    lama = [{"name": "Growth", "amount": parse_price("$1343")[0],
+             "price_raw": "$1343"}]
+    baru = [{"name": "Growth", "amount": parse_price("$1,343")[0],
+             "price_raw": "$1,343"}]
+    ev = [e for e in diff_plans(lama, baru) if e["type"] == "price_changed"]
+    check("notasi $1343 -> $1,343 BUKAN perubahan harga", ev == [], f"-> {ev}")
+
+    # Kenaikan sungguhan yang dulu tak terlihat, kini terbaca.
+    naik = [{"name": "Growth", "amount": parse_price("$1349")[0],
+             "price_raw": "$1349"}]
+    ev = [e for e in diff_plans(lama, naik) if e["type"] == "price_changed"]
+    check("kenaikan $1343 -> $1349 kini terdeteksi", len(ev) == 1, f"-> {ev}")
+
+    # Penanda versi pembaca WAJIB ikut naik, kalau tidak hari pertama setelah
+    # perbaikan ini akan mencatat 3 "kenaikan harga" palsu (§10.6).
+    check("PARSER_VERSION dinaikkan bersama perubahan pembaca",
+          config.PARSER_VERSION >= 4, f"-> {config.PARSER_VERSION}")
+
+
 def main() -> int:
     print(f"data uji: {config.DATA_DIR}")
     test_hash_stability()
@@ -1291,6 +1355,7 @@ def main() -> int:
     test_site_builder()
     test_audit_2026_09_10()
     test_refusal_is_final_for_the_day()
+    test_empat_digit_tanpa_koma()
 
     print("\n" + "=" * 60)
     if FAILURES:

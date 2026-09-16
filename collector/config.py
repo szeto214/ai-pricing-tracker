@@ -75,7 +75,11 @@ THIN_TEXT_BYTES = 500
 # Peristiwanya tetap tercatat lengkap, jadi tidak ada data yang hilang.
 #   2 (04/09) PRICE_RE dilebarkan ke 6 desimal
 #   3 (05/09) kartu tanpa harga tidak lagi ditebak sebagai "Free"
-PARSER_VERSION = 3
+#   4 (15/09) angka >= 4 digit tanpa koma tidak lagi terpotong di digit ke-3
+#             ($1121 dulu terbaca 112). Nilai tersimpan berubah untuk 3 target
+#             (xata, paperspace, synthesia), jadi hari pertama setelah ini
+#             WAJIB tidak dihitung sebagai perubahan harga.
+PARSER_VERSION = 4
 
 
 @dataclass

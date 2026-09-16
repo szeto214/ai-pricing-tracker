@@ -34,7 +34,19 @@ PRICE_RE = re.compile(
     # Sampai 6 desimal: harga API per-token memang sehalus itu. Dengan batas
     # 2 desimal, $0.00012 dan $0.00015 sama-sama terbaca $0.00 — kenaikan 25%
     # jadi tak terlihat sama sekali (terlihat di voyage-ai, 04/09/2026).
-    r"(?P<amt>\d{1,3}(?:,\d{3})*(?:\.\d{1,6})?|\d+(?:\.\d{1,6})?)"
+    # Alternatif pertama HARUS memuat kelompok ribuan ber-koma (`+`, bukan `*`).
+    # Dengan `*` ia cocok tanpa koma sama sekali, dan karena regex mengambil
+    # alternatif pertama yang cocok, angka tanpa koma terpotong di digit ke-3:
+    # `$1500` terbaca 150, `$ 1121` terbaca 112, `$1343` terbaca 134.
+    # Ditemukan saat audit 10/09/2026; tiga angka salah ikut terbit di halaman
+    # publik (Xata 8xlarge $112 padahal $1121 — $1,536/jam x 730 jam;
+    # Paperspace V100 $134 padahal $1343; Synthesia Studio Avatars $100
+    # padahal $1000). Angka tanpa koma kini ditangani alternatif kedua, utuh.
+    # A/B pada 573 arsip mentah yang sama persis (27/08-15/09): hanya 3 target,
+    # 10 nilai, dan tidak satu pun peristiwa harga lama yang lahir dari cacat
+    # ini — nilainya salah secara TETAP, jadi tidak pernah memicu sinyal palsu
+    # maupun menutupi pergerakan sungguhan.
+    r"(?P<amt>\d{1,3}(?:,\d{3})+(?:\.\d{1,6})?|\d+(?:\.\d{1,6})?)"
     r"(?P<suffix>\s?[kKmM]\b)?",
     re.I,
 )

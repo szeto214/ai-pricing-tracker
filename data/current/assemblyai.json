@@ -6,9 +6,9 @@
   "url": "https://www.assemblyai.com/pricing",
   "final_url": "https://www.assemblyai.com/pricing",
   "parser_version": 3,
-  "content_hash": "6c81965b78a7433ad757eea7e6f557b893c3cd5f1204c7ed7f3127189d81be0a",
-  "raw_hash": "2c07fd1f65be5f5bec50765429312ec2159e2ad545aa8f67d92995813c8fbf15",
-  "text_bytes": 9172,
+  "content_hash": "f48c99485727306cdfd6520f6a9066ba0a80663f0be929571733ca2a62826ef6",
+  "raw_hash": "b624771ffef583b2e98da6b617693816c926a81fd98961c0690f7160b6cc375f",
+  "text_bytes": 9171,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

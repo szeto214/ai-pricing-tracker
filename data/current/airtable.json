@@ -6,9 +6,9 @@
   "url": "https://www.airtable.com/pricing",
   "final_url": "https://airtable.com/pricing",
   "parser_version": 3,
-  "content_hash": "2c7c2d3bac3da98635043534271b68bb0f4c3a1c78638a33c8c93455e566e718",
-  "raw_hash": "29362812932a6184590c3b991ca68cd656eb23ee1ce8a500a9ed8fd5f09a1e42",
-  "text_bytes": 11570,
+  "content_hash": "0806b242f21b37109edc7b39963371e63c0811997df606b22bfb8482ad9709d5",
+  "raw_hash": "2f0645d4fff3ee4b8cf7ffade451f3df5dbeb696e4579d064796a7452ac8eb1b",
+  "text_bytes": 11643,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

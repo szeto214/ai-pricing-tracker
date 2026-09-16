@@ -6,9 +6,9 @@
   "url": "https://fireworks.ai/pricing",
   "final_url": "https://fireworks.ai/pricing",
   "parser_version": 3,
-  "content_hash": "589ff001561fd1a9591a7b39bb827146fcb1afed660bd9f4e681fac90917ff80",
-  "raw_hash": "7b11d4c4424f61c6c057635acaecd0c8057773cbfc5cd0709efca9b2635a73bb",
-  "text_bytes": 3555,
+  "content_hash": "2df78a75737cc43567fb6439a6c71372a905652561677c483eaa28ef13e69925",
+  "raw_hash": "98b24e0f1b3cec1c7056a2864a525df2e8187ad40bf129394bf5b7f1380ac742",
+  "text_bytes": 3598,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -40,8 +40,8 @@
     },
     {
       "name": "Serverless Training API",
-      "price_raw": "$1.86",
-      "amount": 1.86,
+      "price_raw": "$4.86",
+      "amount": 4.86,
       "currency": "USD",
       "period": null,
       "features": [
@@ -192,6 +192,30 @@
       },
       "currency": "USD",
       "unit": ""
+    },
+    {
+      "key": "glm 5.3",
+      "model": "GLM 5.3",
+      "prices": {
+        "prefill / 1m": {
+          "raw": "$4.86",
+          "amount": 4.86
+        },
+        "cached prefill / 1m": {
+          "raw": "$0.972",
+          "amount": 0.972
+        },
+        "sample / 1m": {
+          "raw": "$12.15",
+          "amount": 12.15
+        },
+        "train / 1m": {
+          "raw": "$14.58",
+          "amount": 14.58
+        }
+      },
+      "currency": "USD",
+      "unit": "/ 1m"
     },
     {
       "key": "qwen 3.8 27b",
@@ -442,6 +466,14 @@
           "Cached Prefill / 1M",
           "Sample / 1M",
           "Train / 1M"
+        ],
+        [
+          "GLM 5.3",
+          "262K",
+          "$4.86",
+          "$0.972",
+          "$12.15",
+          "$14.58"
         ],
         [
           "Qwen 3.8 27B",

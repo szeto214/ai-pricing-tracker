@@ -1,6 +1,6 @@
 Skip to content
-New: Qodo review and rules, inside your coding agent
-→ See the Agentic Toolbox
+Webinar: Qodo’s Agentic Toolbox: Quality Inside AI Velocity | Sept 17
+→ Register
 Log in
 Log in
 Log in
@@ -76,17 +76,31 @@ commercial
 Q&A
 Questions?
 What is a credit?
+A credit is the unit Qodo uses to meter review activity. Every code review draws credits from your monthly pool. Smaller PRs draw fewer credits, larger or more complex reviews draw more. Your dashboard shows real-time balance and burn rate so you always know where you stand.
 Do I need a credit card to start the trial?
+No. Sign in with GitHub, Google, or email, install Qodo on your repos, and reviews start running. You will need Admin access to install. A credit card is only required when you pick a paid plan.
 What happens when my trial ends?
+Reviews pause and the dashboard prompts you to pick a plan. We’ll suggest a credit pack based on the review volume your team generated during the trial. Once you upgrade, reviews resume immediately.
 Is there a free plan?
+We don’t offer a permanent free tier. After your trial, pick a paid plan to keep reviewing.
 Do you have a free plan for open source projects?
+Yes. Qualified open source projects can apply to the
+Qodo for Open Source program
+for free access.
 Can I change plans later?
+Yes. Upgrade, downgrade, or switch credit packs from the dashboard at any time. Changes take effect on your next billing cycle.
 What happens if I use all my credits before the month ends?
+Reviews keep running. Once your base credits are depleted, you enter overage at the same per-credit rate as your base plan, with no premium and no penalty. Overage accrues against a monthly spending cap that you set and can change at any time.
 Is there a limit on the number of repositories, users, or reviews?
+No limits on repositories or reviews. Add unlimited users during your free trial, and when you upgrade to Pro Teams, the plan supports up to 30 users. Install Qodo on as many repos as you want, run as many reviews as your credit pool supports, and your engineers never need to create Qodo accounts.
 Do unused credits roll over to the next month?
+Credits expire at the end of each monthly cycle. Each cycle starts fresh with a new pool. Pick a plan that fits your typical usage so you’re not leaving credits on the table, and size up if you find yourself in overage every month
 Will my reviews ever stop running unexpectedly?
+No. You’ll get notifications as you approach your overage cap, well before reviews pause. If you hit the cap, you can raise it from the dashboard and reviews resume immediately. If a payment fails, we’ll notify you before reviews pause so you have time to update your card.
 Do you train AI models on my code?
+No. Qodo does not train models on your code. Your code is used only to generate reviews for your team.
 What kind of support do I get on each plan?
+All paid self-serve plans include standard support: documentation, in-product help, and ticket-based response from our team. Enterprise plans add priority response, a dedicated SLA, and an assigned Qodo team member for your account.
 see qodo in action
 Looking for a tailored walk through?
 Book a demo

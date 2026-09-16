@@ -6,9 +6,9 @@
   "url": "https://www.zendesk.com/pricing/",
   "final_url": "https://www.zendesk.com/pricing/",
   "parser_version": 3,
-  "content_hash": "c88d547ec484e992d074508fee9dab5a64198b0b670288df249291f92acb652e",
-  "raw_hash": "b128b1a573a14e457a15177577a51d41f5a422723196591fdc16faf939602c09",
-  "text_bytes": 22856,
+  "content_hash": "9f95e9fed577a9fe4b23408b4ae65594b8e56a366fe93f68db49bfb60256601d",
+  "raw_hash": "e45adb859cc523dda5563bcff33a26c5e046d29f6e0c5159c318c980940f2792",
+  "text_bytes": 22883,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

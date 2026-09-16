@@ -6,16 +6,24 @@
   "url": "https://airbyte.com/pricing",
   "final_url": "https://airbyte.com/pricing",
   "parser_version": 3,
-  "content_hash": "c14c430db7f55a1d72261338ccff9abdb86d7a308419c0fb87c8233cd582f1fb",
-  "raw_hash": "0a3f9836a6c649424130fc89084c9b12ea43095c6279f5c42999bdfd697f7e59",
-  "text_bytes": 4985,
+  "content_hash": "3bbd91746a6b1f986248cd706a32ba516be590070f03f4926ef396a084792d1d",
+  "raw_hash": "d4dcd881e402542e7ebe0a1617f2213d32a4c33d7e4a2e3ba837850ce7df6331",
+  "text_bytes": 7111,
   "extractor": "jsonld",
-  "confidence": "low",
+  "confidence": "medium",
   "plans": [
     {
+      "name": "Airbyte Plus",
+      "price_raw": "189.00",
+      "amount": 189.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
       "name": "Airbyte Standard",
-      "price_raw": "10.00",
-      "amount": 10.0,
+      "price_raw": "20.00",
+      "amount": 20.0,
       "currency": "USD",
       "period": null,
       "features": []

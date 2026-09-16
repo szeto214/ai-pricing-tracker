@@ -6,9 +6,9 @@
   "url": "https://ai.google.dev/pricing",
   "final_url": "https://ai.google.dev/gemini-api/docs/pricing",
   "parser_version": 3,
-  "content_hash": "fb6687190271191459149d711b53109367a2b22a1b113d1706126129351fd01b",
-  "raw_hash": "c543ccdf6d1d3e84181b58696d9abbd16c5ebcfe8a6c2173cfa32aa24b383c28",
-  "text_bytes": 55119,
+  "content_hash": "12a23acfcd9a2371da0afbf8d4f5be8ed6d1ad27c97ee17bd7ffa73b7801cb6b",
+  "raw_hash": "00780fc740ae3280f8f657f89193add2cccbe1d78292287aa269c3c16a5857ef",
+  "text_bytes": 55252,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -91,16 +91,16 @@
     },
     {
       "name": "Standard",
-      "price_raw": "$3.50",
-      "amount": 3.5,
+      "price_raw": "$0.75",
+      "amount": 0.75,
       "currency": "USD",
-      "period": null,
+      "period": "month",
       "features": []
     },
     {
       "name": "Standard",
-      "price_raw": "$2.00",
-      "amount": 2.0,
+      "price_raw": "$3.50",
+      "amount": 3.5,
       "currency": "USD",
       "period": null,
       "features": []

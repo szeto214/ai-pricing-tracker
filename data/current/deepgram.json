@@ -6,9 +6,9 @@
   "url": "https://deepgram.com/pricing",
   "final_url": "https://deepgram.com/pricing",
   "parser_version": 3,
-  "content_hash": "07c9d24f320aeff32701e47e6fd0356e6694376fda725477c1d2d397ed5e9a01",
-  "raw_hash": "4049b61f4c65e4f2506f705a0c7a9c665ad115ecdf6fc56ea4e3cb69c0352cae",
-  "text_bytes": 13405,
+  "content_hash": "8c156e1ca422f0aa1e5f7993e7ec572dfa83a7c0ff402bfb4a4f5440e6dc04b0",
+  "raw_hash": "8115a56332596a078712df4313cf9a57cf0898659db721382a03ec7d15ed75a9",
+  "text_bytes": 12808,
   "extractor": "jsonld",
   "confidence": "medium",
   "plans": [
@@ -286,16 +286,16 @@
     },
     {
       "name": "Deepgram Voice AI Platform Pricing - Standard - Pay As You Go",
-      "price_raw": "0.056",
-      "amount": 0.056,
+      "price_raw": "0.075",
+      "amount": 0.075,
       "currency": "USD",
       "period": null,
       "features": []
     },
     {
       "name": "Deepgram Voice AI Platform Pricing - Standard - Growth",
-      "price_raw": "0.051",
-      "amount": 0.051,
+      "price_raw": "0.068",
+      "amount": 0.068,
       "currency": "USD",
       "period": null,
       "features": []
@@ -318,16 +318,16 @@
     },
     {
       "name": "Deepgram Voice AI Platform Pricing - Custom - BYO LLM - Pay As You Go",
-      "price_raw": "0.050",
-      "amount": 0.05,
+      "price_raw": "0.065",
+      "amount": 0.065,
       "currency": "USD",
       "period": null,
       "features": []
     },
     {
       "name": "Deepgram Voice AI Platform Pricing - Custom - BYO LLM - Growth",
-      "price_raw": "0.041",
-      "amount": 0.041,
+      "price_raw": "0.059",
+      "amount": 0.059,
       "currency": "USD",
       "period": null,
       "features": []
@@ -350,16 +350,16 @@
     },
     {
       "name": "Deepgram Voice AI Platform Pricing - Advanced - Pay As You Go",
-      "price_raw": "0.122",
-      "amount": 0.122,
+      "price_raw": "0.163",
+      "amount": 0.163,
       "currency": "USD",
       "period": null,
       "features": []
     },
     {
       "name": "Deepgram Voice AI Platform Pricing - Advanced - Growth",
-      "price_raw": "0.110",
-      "amount": 0.11,
+      "price_raw": "0.146",
+      "amount": 0.146,
       "currency": "USD",
       "period": null,
       "features": []

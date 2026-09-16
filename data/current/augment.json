@@ -6,9 +6,9 @@
   "url": "https://www.augmentcode.com/pricing",
   "final_url": "https://www.augmentcode.com/pricing",
   "parser_version": 3,
-  "content_hash": "b845cc7b6359107a1afcb6fc1535b9146a4210333cfd3a382408afff72e08e22",
-  "raw_hash": "eaae815d46f8478b0be2f6ac9afaa8051391d2148c6394b1aa3706313bb8366d",
-  "text_bytes": 7360,
+  "content_hash": "45e673a4b8f9bacd410f9bbf7340e76505e0d832130a5418e68d5236fae8bce6",
+  "raw_hash": "67fb21865f58c1d6bba6227fad9c98c1379a7a17b4e0c5b5ca47c2d3590f25f5",
+  "text_bytes": 7409,
   "extractor": "jsonld",
   "confidence": "medium",
   "plans": [

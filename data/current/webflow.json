@@ -6,9 +6,9 @@
   "url": "https://webflow.com/pricing",
   "final_url": "https://webflow.com/pricing",
   "parser_version": 3,
-  "content_hash": "664aa252c4fcf24cdd0edd862c0d793f7ebc02dcdc62b73ebdd2bf0280cd57f0",
-  "raw_hash": "fc2421649f38af117c2b4afc65b5c03049ded1c8a432a831729f9c92fedefd91",
-  "text_bytes": 56308,
+  "content_hash": "0b1713a59c46c83b9d408b54a2a1f4531ad79983bcf74bca7ace883bf6802462",
+  "raw_hash": "8ad01a59f7324113662f1eef752fa6d8a84d311903d951f6bf966417c2e80e77",
+  "text_bytes": 56188,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

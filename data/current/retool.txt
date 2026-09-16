@@ -119,6 +119,7 @@ Annual value of credits is based on total monthly credits over a twelve month co
 Additional credit packs are available for purchase to customers on paid plans. Enterprise plan customers can also use their own API key, which does not draw from this pool. Agents are billed separately.
 Builder
 Users with full access to create, edit, and deploy apps and workflows.
+Users with full access to create, edit, and deploy apps and workflows.
 Free
 250 AI credits/month
 §
@@ -135,6 +136,7 @@ Get pricing
 §
 Internal user
 Employees in your organization who use apps for daily work. Includes full SSO and permission (RBAC) controls.
+Employees in your organization who use apps for daily work. Includes full SSO and permission (RBAC) controls.
 Free
 $5/month
 $15/month
@@ -142,6 +144,7 @@ Custom
 Get pricing
 ↗
 External user
+Partners, clients, or vendors outside your organization. Supports both secure login portals and public (unauthenticated) app access.
 Partners, clients, or vendors outside your organization. Supports both secure login portals and public (unauthenticated) app access.
 —
 —
@@ -167,11 +170,13 @@ Unlimited
 Unlimited
 Authenticated, embedded apps
 Embed authenticated apps into your business software.
+Embed authenticated apps into your business software.
 —
 —
 Included
 Included
 External applications
+Deploy branded customer-facing portals with built-in user management and permissions. Applications with external user pricing require a custom annual plan for self-hosted deployments
 Deploy branded customer-facing portals with built-in user management and permissions. Applications with external user pricing require a custom annual plan for self-hosted deployments
 —
 —
@@ -179,11 +184,13 @@ Included
 Included
 Modules
 Reuse groups of components and queries between Retool applications.
+Reuse groups of components and queries between Retool applications.
 Up to 5
 Up to 5
 Unlimited
 Unlimited
 App themes
+Keep apps consistent with visual themes.
 Keep apps consistent with visual themes.
 —
 —
@@ -191,11 +198,13 @@ Included
 Included
 Branding
 Customize headers, sign-up and login pages, email invites, and more, in app presentation mode and for internal users.
+Customize headers, sign-up and login pages, email invites, and more, in app presentation mode and for internal users.
 —
 —
 Included
 ✓ Full white-labeling
 Mobile apps
+Build native mobile apps and deploy on iOS, Android, or as a PWA.
 Build native mobile apps and deploy on iOS, Android, or as a PWA.
 Unlimited
 Unlimited
@@ -203,11 +212,13 @@ Unlimited
 Unlimited
 App themes
 Keep apps consistent with visual themes.
+Keep apps consistent with visual themes.
 Included
 Included
 Included
 Included
 Offline mode
+Read and write data, even when you're not connected to the internet.
 Read and write data, even when you're not connected to the internet.
 —
 —
@@ -215,11 +226,13 @@ Included
 Included
 Push notifications
 Get built-in support for writing, customizing, and subscribing mobile users to push notifications.
+Get built-in support for writing, customizing, and subscribing mobile users to push notifications.
 —
 —
 Included
 Included
 White-label apps
+Launch your own branded app to iOS and Android app stores.
 Launch your own branded app to iOS and Android app stores.
 —
 —
@@ -227,21 +240,26 @@ Launch your own branded app to iOS and Android app stores.
 Included
 Biometric authentication
 Protect access to your app using on-device facial or fingerprint recognition.
+Protect access to your app using on-device facial or fingerprint recognition.
 —
 —
 —
 Included
 Workflows runs
 Every time a workflow successfully executes when triggered counts as a run.
+Every time a workflow successfully executes when triggered counts as a run.
 500/month
 5,000/month
 Additional runs are available at $75 per 5,000 runs per month.
+Additional runs are available at $75 per 5,000 runs per month.
 5,000/month
+Additional runs are available at $75 per 5,000 runs per month.
 Additional runs are available at $75 per 5,000 runs per month.
 Custom
 Get pricing
 ↗
 Workflows steps
+Each block on the canvas that transforms, reads from, or writes to your data represents a step in your workflow.
 Each block on the canvas that transforms, reads from, or writes to your data represents a step in your workflow.
 Unlimited
 Unlimited
@@ -255,11 +273,13 @@ Included
 Included
 Webhook trigger
 Trigger event-based workflows with a webhook event or API call.
+Trigger event-based workflows with a webhook event or API call.
 Included
 Included
 Included
 Included
 Custom error handling
+Trigger custom error messages and set automatic retry policies in the event of a workflow failure.
 Trigger custom error messages and set automatic retry policies in the event of a workflow failure.
 Included
 Included
@@ -279,11 +299,13 @@ Included
 Included
 Tuning
 Control parameters like temperature and max iterations of a wide array of model choices
+Control parameters like temperature and max iterations of a wide array of model choices
 Included
 Included
 Included
 Included
 Access
+Control agent and tool access with robust RBAC
 Control agent and tool access with robust RBAC
 —
 —
@@ -291,13 +313,18 @@ Included
 Included
 Free Hours
 Useful for experimentation and light automation. Upgrade for larger use cases.
+Useful for experimentation and light automation. Upgrade for larger use cases.
 Up to 20/month
+Additional capacity is available in Team, Business, or Enterprise plans.
 Additional capacity is available in Team, Business, or Enterprise plans.
 Up to 20/month
 Additional capacity scales based on model capability.
-Up to 20/month
 Additional capacity scales based on model capability.
 Up to 20/month
+Additional capacity scales based on model capability.
+Additional capacity scales based on model capability.
+Up to 20/month
+Additional capacity scales based on model capability.
 Additional capacity scales based on model capability.
 Hourly Rates
 Pricing varies by model capability
@@ -317,17 +344,20 @@ Unlimited
 Unlimited
 Database editor UI
 Manage data and schema with filters, sorts, searches, edits, and more.
+Manage data and schema with filters, sorts, searches, edits, and more.
 Included
 Included
 Included
 Included
 Connection strings
 Get external access to the PostgreSQL database.
+Get external access to the PostgreSQL database.
 Included
 Included
 Included
 Included
 Environments & schema migrations
+Get isolated tables for each environment in your Retool instance. Migrate schema changes between environments.
 Get isolated tables for each environment in your Retool instance. Migrate schema changes between environments.
 —
 Staging & Production
@@ -340,11 +370,13 @@ Included
 Included
 Query library
 Build, share, and reuse queries for any database or API with Retool's IDE.
+Build, share, and reuse queries for any database or API with Retool's IDE.
 Included
 Included
 Included
 Included
 Staging & production resources
+Test your app against a staging resource (database or API). Switch seamlessly to production resources when in user mode.
 Test your app against a staging resource (database or API). Switch seamlessly to production resources when in user mode.
 —
 Staging & Production
@@ -352,11 +384,13 @@ Unlimited
 Unlimited
 Resource environment permissions
 Restrict and manage user access to dev/staging/prod environments.
+Restrict and manage user access to dev/staging/prod environments.
 —
 —
 Included
 Included
 Version release & history
+Create and manage releases for your app. Revert to any previous state in its history.
 Create and manage releases for your app. Revert to any previous state in its history.
 Included
 Included
@@ -364,11 +398,13 @@ Included
 Included
 Rich permission controls
 Grant data-level and role-based permissions for granular control over app and data access.
+Grant data-level and role-based permissions for granular control over app and data access.
 —
 —
 Included
 Included
 Audit logs
+Track every query run against your databases and APIs, as well as user actions taken in Retool.
 Track every query run against your databases and APIs, as well as user actions taken in Retool.
 —
 —
@@ -376,11 +412,13 @@ Included
 Included
 Usage analytics
 Monitor usage across all apps and users.
+Monitor usage across all apps and users.
 —
 —
 —
 Included
 Source control
+Use branch-based editing processes that are compatible with Git.
 Use branch-based editing processes that are compatible with Git.
 —
 —
@@ -388,11 +426,13 @@ Use branch-based editing processes that are compatible with Git.
 Included
 Custom SSO
 Integrate with Okta, Active Directory, or any other SAML or OpenID SSO provider.
+Integrate with Okta, Active Directory, or any other SAML or OpenID SSO provider.
 —
 —
 —
 Included
 Connect to analytics vendors
+Send analytics data to Segment, Google Analytics, and other analytics trackers.
 Send analytics data to Segment, Google Analytics, and other analytics trackers.
 —
 —
@@ -400,11 +440,13 @@ Send analytics data to Segment, Google Analytics, and other analytics trackers.
 Included
 Environmental configuration variables
 Easily define and reference environment-specific values and secrets across Retool.
+Easily define and reference environment-specific values and secrets across Retool.
 —
 Included
 Included
 Included
 Flexible spaces
+Set up independent Workspaces for teams to manage their own apps, permissions, resources, connections, and Git repos.
 Set up independent Workspaces for teams to manage their own apps, permissions, resources, connections, and Git repos.
 —
 —
@@ -412,11 +454,13 @@ Set up independent Workspaces for teams to manage their own apps, permissions, r
 Included
 Versatile platform APIs
 Programmatically manage your Retool projects.
+Programmatically manage your Retool projects.
 —
 —
 Limited access
 Full access to all API scopes
 Orchestrated governance
+Trigger custom logic in response to events in Retool, like org invitations or password reset requests.
 Trigger custom logic in response to events in Retool, like org invitations or password reset requests.
 —
 —
@@ -424,17 +468,20 @@ Trigger custom logic in response to events in Retool, like org invitations or pa
 Included
 Access to a technical advisor
 Get help onboarding and training new teams, and guidance on how to get the most out of Retool.
+Get help onboarding and training new teams, and guidance on how to get the most out of Retool.
 —
 —
 —
 Included
 Technical support
 Retool's Support Engineering team is here to help.
+Retool's Support Engineering team is here to help.
 —
 —
 —
 Included
 Access to professional services
+Hire a pro to build Retool apps, integrate systems, or do other development work on your behalf.
 Hire a pro to build Retool apps, integrate systems, or do other development work on your behalf.
 —
 Included

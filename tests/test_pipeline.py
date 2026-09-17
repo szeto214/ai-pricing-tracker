@@ -1566,6 +1566,27 @@ def test_halaman_per_tool_17_09() -> None:
 
     # --- daftar tool di halaman utama (jalan masuk mesin pencari) ----------
     daftar = build_site.daftar_tool(targets, riwayat)
+    # --- verifikasi Search Console harus bertahan tiap kali dibangun ulang -
+    check("token verifikasi Search Console terpasang di halaman utama",
+          build_site.GOOGLE_SITE_VERIFICATION
+          and build_site.meta_verifikasi()
+          == '<meta name="google-site-verification" content='
+             f'"{build_site.GOOGLE_SITE_VERIFICATION}">',
+          f"-> {build_site.meta_verifikasi()}")
+    utama = build_site.build_html(
+        tanggal="2026-09-17", hari=22, halaman=135, angka=5,
+        gpu=[], gpu_lain=[], model=[], lain=[], terbaru=[], terbaru_gpu=[],
+        repo="https://github.com/u/r", parser_version=4, daftar="")
+    check("tag verifikasi ikut tertulis di halaman yang dibangun",
+          build_site.GOOGLE_SITE_VERIFICATION in utama)
+    asli = build_site.GOOGLE_SITE_VERIFICATION
+    try:
+        build_site.GOOGLE_SITE_VERIFICATION = ""
+        check("tanpa token: tidak ada tag kosong yang menggantung",
+              build_site.meta_verifikasi() == "")
+    finally:
+        build_site.GOOGLE_SITE_VERIFICATION = asli
+
     check("kategori diberi label yang dimengerti pembaca",
           build_site.label_kategori("ai-api") == "API model AI")
     check("kategori yang belum punya label tampil apa adanya, bukan hilang",

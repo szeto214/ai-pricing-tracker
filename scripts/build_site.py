@@ -45,6 +45,12 @@ OUT_FILE = OUT_DIR / "index.html"
 PAGES_DIR = OUT_DIR / "t"
 STYLE_FILE = OUT_DIR / "style.css"
 SITEMAP_FILE = OUT_DIR / "sitemap.xml"
+# Token verifikasi Google Search Console (17/09/2026). Bukan rahasia: memang
+# harus terbaca publik di <head> halaman utama. Ditaruh di sini, bukan
+# disunting tangan ke docs/index.html, supaya TIDAK hilang setiap kali
+# halaman dibangun ulang oleh CI. Search Console memeriksanya berkala; kalau
+# tagnya hilang, properti bisa kehilangan verifikasi.
+GOOGLE_SITE_VERIFICATION = "H3ICCYaHlGP7r5Q-tXOLi1pNY7CU0k23l29Nj-RCm9s"
 RECENT_DAYS = 30
 GPU_CATEGORY = "gpu-rental"
 
@@ -438,6 +444,7 @@ def build_html(*, tanggal: str, hari: int, halaman: int, angka: int,
 <meta name="description" content="Arsip harian perubahan harga tool AI, API model, dan sewa GPU. Dikumpulkan otomatis sekali sehari, setiap angka tertaut ke halaman harga resminya.">
 <link rel="stylesheet" href="style.css">
 <link rel="canonical" href="{esc(base_url())}">
+{meta_verifikasi()}
 </head>
 <body>
 <div class="wrap">
@@ -545,6 +552,15 @@ def tanggal_rekaman_terakhir(cadangan: str) -> str:
     except Exception:  # noqa: BLE001 — halaman tidak boleh jatuh karena ini
         pass
     return cadangan
+
+
+def meta_verifikasi() -> str:
+    """Tag verifikasi Search Console — hanya di halaman utama, dan hanya
+    kalau tokennya memang diisi."""
+    if not GOOGLE_SITE_VERIFICATION:
+        return ""
+    return ('<meta name="google-site-verification" content='
+            f'"{esc(GOOGLE_SITE_VERIFICATION)}">')
 
 
 def base_url() -> str:

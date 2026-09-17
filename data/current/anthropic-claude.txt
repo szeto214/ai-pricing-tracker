@@ -1,26 +1,28 @@
 Skip to main content
 Contact sales
 Try Claude
+Latest news
+Claude Cowork is now just Claude.
+Rolling out to Pro and Max, with more plans to follow.
+Read what changed
+(opens in new tab)
 Individual
+Developer
 Team & Enterprise
 API
+Individual
 Free
 Try Claude
 $0
 Free for everyone
 Try Claude
-Chat on web, iOS, Android, and on your desktop
-Generate code and visualize data
-Write, edit, and create content
-Ability to search the web
+Chat on web, desktop, and mobile
+Search the web, create files, and run code
 Memory across conversations
-Create files and execute code
-Unlock more from Claude with desktop extensions
-Connect Slack and Google Workspace services
-Integrate any context or tool through connectors with remote MCP
-Extended thinking for complex work
+Connect your apps and tools
+Create Artifacts
 Pro
-For everyday productivity
+For everyday work
 $17
 Per month with annual subscription discount (
 $200
@@ -30,16 +32,15 @@ if billed monthly.
 Try Claude
 Everything in Free, plus:
 More usage*
-Includes Claude Code
-Includes Claude Cowork
-Includes Claude Design
-Includes Claude Science
-Access to unlimited projects to organize chats and documents
-Access to Research
-Ability to use more Claude models
-Claude for Microsoft 365
+Hand off and schedule tasks
+Claude Design, Slides, Docs
+Claude Code
+Claude Science
+Projects
+More Claude models
+Claude in Chrome and Microsoft 365
 Max
-Get the most out of Claude
+For people who work with Claude all day
 From $100
 Per month
 Try Claude
@@ -67,23 +68,12 @@ Free
 Pro
 Max 5x
 Max 20x
-Chat on web, iOS, Android and Desktop
-Yes
-Yes
-Yes
-Yes
+@Claude
+No
+No
+No
+No
 Claude Code
-No
-Yes
-Yes
-Yes
-Claude Cowork
-More information
-No
-Yes
-Yes
-Yes
-Claude Design
 No
 Yes
 Yes
@@ -93,12 +83,38 @@ No
 Yes
 Yes
 Yes
-@Claude
+Claude in Chrome
 No
+Yes
+Yes
+Yes
+Claude for Microsoft 365
 No
+Yes
+Yes
+Yes
+Claude for Microsoft Outlook
 No
+Yes
+Yes
+Yes
+Chat on web, iOS, Android and Desktop
+Yes
+Yes
+Yes
+Yes
+Claude Design, Slides, Docs
 No
+Yes
+Yes
+Yes
 Ability to search the web
+Yes
+Yes
+Yes
+Yes
+Create Artifacts
+More information
 Yes
 Yes
 Yes
@@ -124,14 +140,8 @@ Yes
 Yes
 Yes
 Yes
-Artifacts
-More information
-Yes
-Yes
-Yes
-Yes
 Projects
-No
+Up to 5
 Yes
 Yes
 Yes
@@ -179,21 +189,6 @@ No
 No
 No
 No
-Claude in Chrome
-No
-Yes
-Yes
-Yes
-Claude for Microsoft 365
-No
-Yes
-Yes
-Yes
-Claude for Microsoft Outlook
-No
-Yes
-Yes
-Yes
 Security and administration
 Features
 Free
@@ -284,8 +279,8 @@ No
 Billing cycle
 n/a
 Monthly and annual
-Monthly and annual
-Monthly and annual
+Monthly
+Monthly
 Adding seats midterm
 n/a
 n/a
@@ -320,10 +315,14 @@ Yes
 Yes
 Context window
 More information
-200k
-200k
-200k
-200k
+Up to 1M
+varies by model
+Up to 1M
+varies by model
+Up to 1M
+varies by model
+Up to 1M
+varies by model
 Usage credits
 More information
 No
@@ -353,7 +352,7 @@ Plans and usage
 What do I get with Claude Pro?
 The
 Pro plan
-gives you everything in a Free plan with more usage and the full set of Claude capabilities. That includes Claude Code, Claude Cowork, Claude Design, along with projects to organize your chats and documents, access to more Claude models, and Claude for Microsoft 365. You can choose a monthly or annual subscription.
+gives you everything in a Free plan with more usage and more of Claude's capabilities. That includes Claude Code, Claude Design, Slides, and Docs, along with projects to organize your chats and documents, access to more Claude models, and Claude for Microsoft 365. You can choose a monthly or annual subscription.
 How is Claude Max different from Pro?
 The
 Max plan

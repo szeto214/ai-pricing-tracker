@@ -5,10 +5,10 @@
   "category": "database",
   "url": "https://www.cockroachlabs.com/pricing/",
   "final_url": "https://www.cockroachlabs.com/pricing/",
-  "parser_version": 3,
-  "content_hash": "809cd1efe43d7b774405cdb1cab730013fb555ca45ea4d07416eaad6a90f4a99",
-  "raw_hash": "fe2458094ce2f67fc3f0639541386505d94f8d1b5f5e222cbdb07a7db33af191",
-  "text_bytes": 9235,
+  "parser_version": 4,
+  "content_hash": "c7e7dff48e15a9044485778eaac8c46a02152a42db59349f4747f7f8ef17aa19",
+  "raw_hash": "74abc1f19692548449d5dae8134080a8b5d0d0f04376cc900901d6e616099f17",
+  "text_bytes": 9058,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -77,35 +77,11 @@
       "features": []
     },
     {
-      "name": "Monthly estimate",
-      "price_raw": "$1,528",
-      "amount": 1528.0,
+      "name": "Estimate your cost",
+      "price_raw": "$0.023",
+      "amount": 0.023,
       "currency": "USD",
       "period": "month",
-      "features": []
-    },
-    {
-      "name": "Compute — N. Virginia (us-east-1)",
-      "price_raw": "$1,420",
-      "amount": 1420.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "Storage — provisioned",
-      "price_raw": "$70",
-      "amount": 70.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "Backups",
-      "price_raw": "$38",
-      "amount": 38.0,
-      "currency": "USD",
-      "period": null,
       "features": []
     },
     {

@@ -5,17 +5,17 @@
   "category": "ai-media",
   "url": "https://www.synthesia.io/pricing",
   "final_url": "https://www.synthesia.io/pricing",
-  "parser_version": 3,
-  "content_hash": "381974cf95beddc1bf84177b04355a31b37a89c8f799d7a387301ee17563d149",
-  "raw_hash": "aa49c232276cfd9c0bf0a781a677f7d5878fba5dc8b6ddb76c490d9df90bee2b",
-  "text_bytes": 23896,
+  "parser_version": 4,
+  "content_hash": "d07708e47fb5c0d1b2a14737115d1113c23f8a16e7adcda8223a5ebb48d1aed3",
+  "raw_hash": "0e0f5faf9eb47d44f6c5350699802966f983f368fa461376e0cc6958da4b7729",
+  "text_bytes": 23903,
   "extractor": "dom",
   "confidence": "low",
   "plans": [
     {
       "name": "Studio Avatars",
-      "price_raw": "$100",
-      "amount": 100.0,
+      "price_raw": "$1000",
+      "amount": 1000.0,
       "currency": "USD",
       "period": "year",
       "features": []

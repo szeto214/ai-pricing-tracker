@@ -5,10 +5,10 @@
   "category": "ai-assistant",
   "url": "https://www.anthropic.com/pricing",
   "final_url": "https://claude.com/pricing",
-  "parser_version": 3,
-  "content_hash": "61e51ba7792031a703a39469421d82c1f25397d584f5ad940356acd0c6d72336",
-  "raw_hash": "8e560d4b255a651f6e1c97fc39bdd03bc1d0b8cd4eeb4f96f55b833ba1930fe2",
-  "text_bytes": 6442,
+  "parser_version": 4,
+  "content_hash": "4c99461e5a599d8bf0a63db76f676b23d0ccff23bd8d5ce7964c0101df294e05",
+  "raw_hash": "c2803331b71ccc2e95c027469323a0239791c25a8b000ebc03c33e5500a8ed2e",
+  "text_bytes": 6318,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -28,14 +28,13 @@
       "period": "month",
       "features": [
         "More usage*",
-        "Includes Claude Code",
-        "Includes Claude Cowork",
-        "Includes Claude Design",
-        "Includes Claude Science",
-        "Access to unlimited projects to organize chats and documents",
-        "Access to Research",
-        "Ability to use more Claude models",
-        "Claude for Microsoft 365"
+        "Hand off and schedule tasks",
+        "Claude Design, Slides, Docs",
+        "Claude Code",
+        "Claude Science",
+        "Projects",
+        "More Claude models",
+        "Claude in Chrome and Microsoft 365"
       ]
     },
     {
@@ -60,7 +59,7 @@
       "features": []
     },
     {
-      "name": "Claude Code",
+      "name": "@Claude",
       "price_raw": "Free",
       "amount": 0.0,
       "currency": null,
@@ -105,28 +104,14 @@
           "Max 20x"
         ],
         [
-          "Chat on web, iOS, Android and Desktop",
-          "Yes",
-          "Yes",
-          "Yes",
-          "Yes"
+          "@Claude",
+          "No",
+          "No",
+          "No",
+          "No"
         ],
         [
           "Claude Code",
-          "No",
-          "Yes",
-          "Yes",
-          "Yes"
-        ],
-        [
-          "Claude Cowork More information",
-          "No",
-          "Yes",
-          "Yes",
-          "Yes"
-        ],
-        [
-          "Claude Design",
           "No",
           "Yes",
           "Yes",
@@ -140,14 +125,49 @@
           "Yes"
         ],
         [
-          "@Claude",
+          "Claude in Chrome",
           "No",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Claude for Microsoft 365",
           "No",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Claude for Microsoft Outlook",
           "No",
-          "No"
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Chat on web, iOS, Android and Desktop",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Claude Design, Slides, Docs",
+          "No",
+          "Yes",
+          "Yes",
+          "Yes"
         ],
         [
           "Ability to search the web",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Create Artifacts More information",
           "Yes",
           "Yes",
           "Yes",
@@ -182,15 +202,8 @@
           "Yes"
         ],
         [
-          "Artifacts More information",
-          "Yes",
-          "Yes",
-          "Yes",
-          "Yes"
-        ],
-        [
           "Projects",
-          "No",
+          "Up to 5",
           "Yes",
           "Yes",
           "Yes"
@@ -250,27 +263,6 @@
           "No",
           "No",
           "No"
-        ],
-        [
-          "Claude in Chrome",
-          "No",
-          "Yes",
-          "Yes",
-          "Yes"
-        ],
-        [
-          "Claude for Microsoft 365",
-          "No",
-          "Yes",
-          "Yes",
-          "Yes"
-        ],
-        [
-          "Claude for Microsoft Outlook",
-          "No",
-          "Yes",
-          "Yes",
-          "Yes"
         ]
       ]
     },
@@ -405,8 +397,8 @@
           "Billing cycle",
           "n/a",
           "Monthly and annual",
-          "Monthly and annual",
-          "Monthly and annual"
+          "Monthly",
+          "Monthly"
         ],
         [
           "Adding seats midterm",
@@ -457,10 +449,10 @@
         ],
         [
           "Context window More information",
-          "200k",
-          "200k",
-          "200k",
-          "200k"
+          "Up to 1M varies by model",
+          "Up to 1M varies by model",
+          "Up to 1M varies by model",
+          "Up to 1M varies by model"
         ],
         [
           "Usage credits More information",

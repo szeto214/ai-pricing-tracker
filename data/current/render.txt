@@ -179,7 +179,8 @@ $800/month
 $1,500/month
 96 GB RAM
 12c-96g
-Expand compute table
+Expand
+compute table
 Postgres
 Scale up to
 128
@@ -315,7 +316,8 @@ $11,000/month
 1024GB RAM
 500 connections
 128c-1024g
-Expand compute table
+Expand
+compute table
 Key Value
 Scale up to
 40
@@ -364,7 +366,8 @@ $1100/month
 40 GB RAM
 40,000 connections
 40g
-Expand compute table
+Expand
+compute table
 Cron Jobs
 Scale up to
 8
@@ -420,7 +423,8 @@ $0.01042/minute
 $0.02315/minute
 64 GB RAM
 8c-64g
-Expand compute table
+Expand
+compute table
 Workflows
 Scale up to
 4
@@ -459,7 +463,8 @@ $1.00/hour
 $1.50/hour
 16 GB RAM
 4c-16g
-Expand compute table
+Expand
+compute table
 Static Sites
 Always free to deploy
 Lightning-fast CDN

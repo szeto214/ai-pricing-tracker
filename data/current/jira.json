@@ -5,35 +5,99 @@
   "category": "productivity",
   "url": "https://www.atlassian.com/software/jira/pricing",
   "final_url": "https://www.atlassian.com/software/jira/pricing",
-  "parser_version": 3,
+  "parser_version": 4,
   "content_hash": "2948896e74b9cbc23710f4423ea49493497d5113441dd594cf19ae7cd2a3aa03",
-  "raw_hash": "bdc1d6183ad9150f5f70737e476c2297e1d8cab31decb22e437d97bfcbea68d5",
+  "raw_hash": "17c0426a64edc46173ec1bd0759a114e93ce4efebf5c10773e9ecc95df26675d",
   "text_bytes": 27591,
-  "extractor": "jsonld",
+  "extractor": "dom",
   "confidence": "medium",
   "plans": [
     {
-      "name": "Jira Free",
-      "price_raw": "0",
+      "name": "Free",
+      "price_raw": "Free",
       "amount": 0.0,
-      "currency": "USD",
-      "period": "per user/month",
+      "currency": null,
+      "period": null,
       "features": []
     },
     {
-      "name": "Jira Standard",
-      "price_raw": "7.91",
+      "name": "Standard",
+      "price_raw": "$7.91",
       "amount": 7.91,
       "currency": "USD",
-      "period": "{'@type': 'quantitativevalue', 'value': '1', 'unitcode': 'mon'}",
+      "period": "user",
       "features": []
     },
     {
-      "name": "Jira Premium",
-      "price_raw": "14.54",
+      "name": "Premium",
+      "price_raw": "$14.54",
       "amount": 14.54,
       "currency": "USD",
-      "period": "{'@type': 'quantitativevalue', 'value': '1', 'unitcode': 'mon'}",
+      "period": "user",
+      "features": []
+    },
+    {
+      "name": "Unlimited goals",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Free",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": "month",
+      "features": []
+    },
+    {
+      "name": "iOS and Android apps",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Email notifications",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": "day",
+      "features": []
+    },
+    {
+      "name": "Free guest access",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Product requests",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "IP allowlisting",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Guaranteed uptime SLA",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
       "features": []
     }
   ],

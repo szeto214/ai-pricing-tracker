@@ -129,7 +129,6 @@ $38
 default policy · hourly · 30-day retention
 Talk to sales
 Copy estimate
-The final bill moves with actual usage. Data transfer is billed separately on data leaving the cluster, and is usually small for single-region clusters. All rates illustrative.
 This calculator provides an estimate only based on the inputs you provided. It is not a quote, binding offer, or guarantee of the cost of your actual usage. Credits consumed and fees due will depend on your actual use of Cockroach Continuum and may differ from this estimate. Data transfer is not included in the estimate and is billed separately on data leaving the cluster.
 Features
 Standard

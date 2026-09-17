@@ -5,9 +5,9 @@
   "category": "database",
   "url": "https://xata.io/pricing",
   "final_url": "https://xata.io/pricing",
-  "parser_version": 3,
+  "parser_version": 4,
   "content_hash": "3aef80afda3f910ce0fb6db4b8938d4ce4fc920c55e2b707a48414b240810260",
-  "raw_hash": "3049b53ec6ad7df9e97915964a7305d24cb7c3104b74b23ed6b9cf39e408ad2d",
+  "raw_hash": "92eaf86e6595e372ff2c610fc3b28244c56f3db31e60762862501b8ab2d6ce25",
   "text_bytes": 4806,
   "extractor": "dom",
   "confidence": "medium",
@@ -151,8 +151,8 @@
           "amount": 1.536
         },
         "cost per month": {
-          "raw": "$ 112",
-          "amount": 112.0
+          "raw": "$ 1121",
+          "amount": 1121.0
         }
       },
       "currency": "USD",

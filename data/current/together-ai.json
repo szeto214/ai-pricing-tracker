@@ -5,9 +5,9 @@
   "category": "ai-api",
   "url": "https://www.together.ai/pricing",
   "final_url": "https://www.together.ai/pricing",
-  "parser_version": 3,
-  "content_hash": "b7259c11b3886cc10a0372e1ced802533cdea94927b1f5c3f0314bd2e8c9b25c",
-  "raw_hash": "a751e17fa0e61ae1b9ce58f01f405589cb62e8edfd3fded4d1a3b5d2e2d19f50",
+  "parser_version": 4,
+  "content_hash": "645d570a1e3fe6f14b7a3692b659fe1fca1be37565f5fcf54a7f599feccfb40e",
+  "raw_hash": "015a2bd08acdfba532ee0cf6fcf25bab8df66fbfe4c3b6c3a6c408e27ce8d34c",
   "text_bytes": 8767,
   "extractor": "jsonld",
   "confidence": "medium",
@@ -260,8 +260,8 @@
         ],
         [
           "Qwen3.7-Max",
-          "$2.00 $0.25 (cached)",
-          "$6.00"
+          "$2.50 $0.25 (cached)",
+          "$7.50"
         ],
         [
           "gpt-oss-120B",

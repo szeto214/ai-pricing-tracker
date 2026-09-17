@@ -16,8 +16,8 @@ understand
 Speech Understanding API
 Guardrails and Safety
 LLM Gateway
-build
-Voice Agents
+interact
+Voice Agent API
 Dictation API
 inference
 Self Hosted
@@ -58,10 +58,9 @@ Support
 Changelog
 Status
 Latest Release
-Universal 3.5 Pro
-Our new flagship speech-to-text model handles real-world audio the way it actually happens. Available for real-time and pre-recorded audio.
-Realtime
-Pre-recorded
+Dictation API
+The first API built for dictation. Your users speak, and it returns text that is ready to send: filler gone, self-corrections resolved, names spelled right.
+Learn more
 resources
 Blog
 Partners
@@ -82,8 +81,8 @@ understand
 Speech Understanding API
 Guardrails and Safety
 LLM Gateway
-build
-Voice Agents
+interact
+Voice Agent API
 Dictation API
 inference
 Self Hosted
@@ -124,10 +123,9 @@ Support
 Changelog
 Status
 Latest Release
-Universal 3.5 Pro
-Our new flagship speech-to-text model handles real-world audio the way it actually happens. Available for real-time and pre-recorded audio.
-Realtime
-Pre-recorded
+Dictation API
+The first API built for dictation. Your users speak, and it returns text that is ready to send: filler gone, self-corrections resolved, names spelled right.
+Learn more
 resources
 Blog
 Partners

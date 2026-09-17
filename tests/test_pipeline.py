@@ -15,6 +15,7 @@ Yang diuji:
 
 from __future__ import annotations
 
+import datetime as dt
 import http.server
 import json
 import os
@@ -1447,6 +1448,132 @@ def test_halaman_publik_16_09() -> None:
           "tidak ada pelacakan" in halaman)
 
 
+def test_halaman_per_tool_17_09() -> None:
+    """Satu halaman per tool — dikerjakan 17/09/2026.
+
+    Alasannya bukan kosmetik. Statistik GitHub 14 hari (diperiksa 16/09)
+    menunjukkan 1 pengunjung unik, dan itu pemiliknya sendiri. Halaman utama
+    tidak akan pernah muncul untuk pencarian "cursor pricing history",
+    sedangkan halaman yang KHUSUS membahas satu tool bisa. Arsipnya sudah
+    mampu merekonstruksi riwayat per item — 62 item punya riwayat, Vast.ai
+    sampai 15 titik dalam 22 hari — dan sampai hari ini semua itu terkubur
+    di satu tabel besar bercampur 135 tool lain.
+
+    Syarat yang dikunci di sini: halaman tool TIDAK boleh memuat tanggal hari
+    ini (kalau tidak, 135 berkas berubah tiap hari tanpa menambah informasi),
+    tidak boleh memuat angka yang tidak ada di arsip, dan target yang
+    dinonaktifkan tidak boleh meninggalkan halaman yatim.
+    """
+    print("\n16. halaman per tool + sitemap")
+    sys.path.insert(0, str(ROOT / "scripts"))
+    import build_site
+
+    from collector.config import Target
+
+    # --- mata uang tidak boleh hilang, tapi juga tidak boleh dikarang ------
+    check("angka telanjang + USD -> $ (dua-duanya dari rekaman yang sama)",
+          build_site.uang("40", "USD") == "$40")
+    check("yang sudah bersimbol tidak diberi simbol dua kali",
+          build_site.uang("$40", "USD") == "$40")
+    check("mata uang tidak diketahui -> apa adanya, tidak ditebak",
+          build_site.uang("40", None) == "40")
+    check("GBP dan EUR ikut dikenali",
+          build_site.uang("13", "GBP") == "£13"
+          and build_site.uang("16", "EUR") == "€16")
+    check("mata uang tak bersimbol ditulis kodenya",
+          build_site.uang("500", "SGD") == "500 SGD")
+
+    # --- riwayat per tool: dikoreksi & parser_upgrade tidak ikut -----------
+    ubah = [
+        {"date": "2026-09-03", "slug": "acme", "name": "Acme", "url": "u",
+         "kind": "price_change", "plan_events": [
+             {"type": "price_changed", "plan": "Pro",
+              "from": {"raw": "$20"}, "to": {"raw": "$25"}, "pct_change": 25}]},
+        {"date": "2026-09-05", "slug": "acme", "name": "Acme", "url": "u",
+         "kind": "price_change", "plan_events": [
+             {"type": "price_changed", "plan": "Pro",
+              "from": {"raw": "$25"}, "to": {"raw": "$30"}, "pct_change": 20}]},
+        {"date": "2026-09-06", "slug": "acme", "name": "Acme", "url": "u",
+         "kind": "parser_upgrade", "plan_events": [      # hari pembaca naik
+             {"type": "price_changed", "plan": "Pro",
+              "from": {"raw": "$30"}, "to": {"raw": "$300"}}]},
+        {"date": "2026-09-07", "slug": "acme", "name": "Acme", "url": "u",
+         "kind": "price_change", "plan_events": [        # nanti dikoreksi
+             {"type": "price_changed", "plan": "Pro",
+              "from": {"raw": "$30"}, "to": {"raw": "$0"}}]},
+    ]
+    riwayat = build_site.riwayat_per_slug(
+        ubah, {("2026-09-07", "acme", "price_change")})
+    tgl = [r["date"] for r in riwayat.get("acme", [])]
+    check("riwayat tool: terbaru dulu", tgl == ["2026-09-05", "2026-09-03"],
+          f"-> {tgl}")
+    check("hari kenaikan versi pembaca TIDAK masuk riwayat publik",
+          "2026-09-06" not in tgl, f"-> {tgl}")
+    check("peristiwa yang sudah dikoreksi TIDAK masuk riwayat publik",
+          "2026-09-07" not in tgl, f"-> {tgl}")
+
+    # --- isi halaman --------------------------------------------------------
+    rec = {"slug": "acme", "plans": [
+        {"name": "Pro", "amount": 30.0, "price_raw": "30", "currency": "USD",
+         "period": "month"},
+        {"name": "Pricing", "amount": 1.0, "price_raw": "$1"},   # judul bagian
+    ], "models": []}
+    t = Target(slug="acme", name="Acme AI", url="https://acme.test/pricing",
+               category="ai-coding")
+    halaman = build_site.tool_page(t, rec, riwayat["acme"], "2026-08-27",
+                                   "https://github.com/u/r", 4)
+    check("judul halaman menyebut nama toolnya (ini yang dicari di mesin pencari)",
+          "<title>Riwayat harga Acme AI" in halaman)
+    check("harga tampil dengan mata uangnya", ">$30<" in halaman, "-> $30 hilang")
+    check("judul bagian tidak dipajang sebagai produk",
+          ">Pricing<" not in halaman)
+    check("menautkan balik ke halaman harga resmi",
+          'href="https://acme.test/pricing"' in halaman)
+    check("punya canonical supaya tidak dianggap halaman ganda",
+          '<link rel="canonical"' in halaman)
+    check("menyatakan merek dagang milik pemiliknya",
+          "merek dagang" in halaman and "tidak berafiliasi" in halaman)
+    check("menyediakan jalur lapor kesalahan", "issues/new" in halaman)
+    hari_ini = dt.date.today().isoformat()
+    check("TIDAK memuat tanggal hari ini (supaya tidak berubah tiap hari)",
+          hari_ini not in halaman, f"-> {hari_ini} muncul di halaman")
+
+    kosong = build_site.tool_page(t, rec, [], "2026-08-27",
+                                  "https://github.com/u/r", 4)
+    check("tool yang belum pernah berubah harga: dijawab jujur, bukan kosong",
+          "Belum pernah tercatat perubahan harga" in kosong)
+
+    # --- kumpulan halaman + sitemap ----------------------------------------
+    (config.CURRENT_DIR).mkdir(parents=True, exist_ok=True)
+    (config.CURRENT_DIR / "acme.json").write_text(json.dumps(rec), encoding="utf-8")
+    (config.CURRENT_DIR / "mati.json").write_text(json.dumps(rec), encoding="utf-8")
+    targets = {
+        "acme": t,
+        "mati": Target(slug="mati", name="Sudah Nonaktif",
+                       url="https://mati.test/pricing", enabled=False),
+    }
+    berkas = build_site.build_pages(targets, ubah, set(), "2026-08-27",
+                                    "2026-09-16")
+    check("satu halaman untuk tiap target aktif", "t/acme.html" in berkas)
+    check("target nonaktif TIDAK dibuatkan halaman", "t/mati.html" not in berkas)
+    check("sitemap ikut dihasilkan", "sitemap.xml" in berkas)
+    sm = berkas["sitemap.xml"]
+    check("sitemap memuat halaman tool", "/t/acme.html" in sm, f"-> {sm[:200]}")
+    check("sitemap memuat halaman utama", "<loc>https://" in sm)
+    check("sitemap tidak memuat halaman target nonaktif", "/t/mati.html" not in sm)
+    (config.CURRENT_DIR / "acme.json").unlink()
+    (config.CURRENT_DIR / "mati.json").unlink()
+
+    # --- daftar tool di halaman utama (jalan masuk mesin pencari) ----------
+    daftar = build_site.daftar_tool(targets, riwayat)
+    check("kategori diberi label yang dimengerti pembaca",
+          build_site.label_kategori("ai-api") == "API model AI")
+    check("kategori yang belum punya label tampil apa adanya, bukan hilang",
+          build_site.label_kategori("kategori-baru") == "kategori-baru")
+    check("halaman utama menautkan halaman tool", 'href="t/acme.html"' in daftar)
+    check("target nonaktif tidak ikut ditautkan", "t/mati.html" not in daftar)
+
+
 def main() -> int:
     print(f"data uji: {config.DATA_DIR}")
     test_hash_stability()
@@ -1475,6 +1602,7 @@ def main() -> int:
     test_refusal_is_final_for_the_day()
     test_empat_digit_tanpa_koma()
     test_halaman_publik_16_09()
+    test_halaman_per_tool_17_09()
 
     print("\n" + "=" * 60)
     if FAILURES:

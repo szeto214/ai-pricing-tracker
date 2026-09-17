@@ -37,6 +37,14 @@ from collector import config, storage  # noqa: E402
 
 OUT_DIR = ROOT / "docs"
 OUT_FILE = OUT_DIR / "index.html"
+# Satu halaman per tool. Alasannya bukan kosmetik: halaman utama tidak akan
+# pernah muncul untuk pencarian "cursor pricing history", sedangkan halaman
+# yang KHUSUS membahas satu tool bisa. Ini satu-satunya jalur gratis supaya
+# arsip ini ditemukan orang — dan sekaligus jawaban atas pertanyaan yang
+# benar-benar ditanyakan orang: "harga X naik atau tidak?".
+PAGES_DIR = OUT_DIR / "t"
+STYLE_FILE = OUT_DIR / "style.css"
+SITEMAP_FILE = OUT_DIR / "sitemap.xml"
 RECENT_DAYS = 30
 GPU_CATEGORY = "gpu-rental"
 
@@ -129,6 +137,28 @@ def esc(value) -> str:
     return html.escape("" if value is None else str(value), quote=True)
 
 
+_SIMBOL = {"USD": "$", "EUR": "€", "GBP": "£", "JPY": "¥", "IDR": "Rp "}
+
+
+def uang(raw, currency=None) -> str:
+    """Tampilkan harga apa adanya, tapi jangan biarkan mata uangnya hilang.
+
+    Halaman yang harganya dibaca dari JSON-LD menyimpan `price_raw` berupa
+    angka telanjang ("40") dengan `currency` terpisah ("USD") — 173 dari 975
+    baris di arsip seperti ini. Di halaman publik itu terbaca "Teams 40",
+    yang bagi pembaca tidak berarti apa-apa. Simbol di bawah TIDAK dikarang:
+    keduanya diambil dari rekaman yang sama. Kalau mata uangnya tidak
+    diketahui, angkanya ditampilkan apa adanya.
+    """
+    teks = (raw or "").strip()
+    if not teks or not currency:
+        return teks
+    if any(sim in teks for sim in ("$", "€", "£", "¥")) or currency in teks:
+        return teks
+    simbol = _SIMBOL.get(currency)
+    return f"{simbol}{teks}" if simbol else f"{teks} {currency}"
+
+
 def fmt_pct(pct) -> str:
     if pct in (None, ""):
         return ""
@@ -187,7 +217,7 @@ def gpu_rows(targets: dict, moves: dict) -> list[dict]:
                 continue
             rows.append({
                 "vendor": t.name, "url": t.url, "item": p.get("name"),
-                "harga": p.get("price_raw"),
+                "harga": uang(p.get("price_raw"), p.get("currency")),
                 "amount": p.get("amount"),
                 "periode": p.get("period"),
                 "satuan": periode_label(p.get("period")),
@@ -283,7 +313,9 @@ def recent_rows(changes: list[dict], corrections: set,
                 continue
             out.append({"date": c["date"], "vendor": c.get("name"),
                         "url": c.get("url"), "item": e.get("plan"),
-                        "dari": e["from"].get("raw"), "ke": e["to"].get("raw"),
+                        "dari": uang(e["from"].get("raw"),
+                                     e["from"].get("currency")),
+                        "ke": uang(e["to"].get("raw"), e["to"].get("currency")),
                         "pct": e.get("pct_change"),
                         "gpu": c.get("slug") in (gpu_slugs or set())})
         for e in c.get("model_events") or []:
@@ -343,9 +375,10 @@ footer li{margin-bottom:4px}
 """
 
 
-def table(headers: list[str], baris: list[str]) -> str:
+def table(headers: list[str], baris: list[str],
+          kosong: str = "Belum ada data pada rentang ini.") -> str:
     if not baris:
-        return '<p class="dim">Belum ada data pada rentang ini.</p>'
+        return f'<p class="dim">{esc(kosong)}</p>'
     head = "".join(f"<th>{esc(h)}</th>" for h in headers)
     return (f'<div class="tw"><table><thead><tr>{head}</tr></thead>'
             f'<tbody>{"".join(baris)}</tbody></table></div>')
@@ -354,7 +387,7 @@ def table(headers: list[str], baris: list[str]) -> str:
 def build_html(*, tanggal: str, hari: int, halaman: int, angka: int,
                gpu: list[dict], gpu_lain: list[dict], model: list[dict],
                lain: list[dict], terbaru: list[dict], terbaru_gpu: list[dict],
-               repo: str, parser_version: int) -> str:
+               repo: str, parser_version: int, daftar: str = "") -> str:
     def sumber(url, vendor):
         return f'<a href="{esc(url)}" rel="nofollow noopener">{esc(vendor)}</a>'
 
@@ -403,7 +436,8 @@ def build_html(*, tanggal: str, hari: int, halaman: int, angka: int,
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Arsip Perubahan Harga Tool AI &amp; Software</title>
 <meta name="description" content="Arsip harian perubahan harga tool AI, API model, dan sewa GPU. Dikumpulkan otomatis sekali sehari, setiap angka tertaut ke halaman harga resminya.">
-<style>{CSS}</style>
+<link rel="stylesheet" href="style.css">
+<link rel="canonical" href="{esc(base_url())}">
 </head>
 <body>
 <div class="wrap">
@@ -456,6 +490,12 @@ def build_html(*, tanggal: str, hari: int, halaman: int, angka: int,
    per baris tabel — di luar model API dan sewa GPU.</p>
 {table(["Penyedia", "Item", "Harga", "Satuan", "Perubahan terakhir"], baris_lain)}
 
+<h2>Semua tool yang dipantau</h2>
+<p class="sub">Tiap tool punya halamannya sendiri: harga terakhir yang kami
+   rekam, dan riwayat perubahannya. Angka dalam kurung = jumlah pergerakan
+   harga yang tercatat sejauh ini.</p>
+{daftar}
+
 <footer>
   <p><b>Cara data ini dikumpulkan</b></p>
   <ul>
@@ -507,7 +547,242 @@ def tanggal_rekaman_terakhir(cadangan: str) -> str:
     return cadangan
 
 
-def build() -> str:
+def base_url() -> str:
+    """Alamat situs ini, dihitung dari nama repo — bukan ditulis tangan."""
+    pemilik, _, nama = _repo_slug().partition("/")
+    return f"https://{pemilik}.github.io/{nama}/"
+
+
+def riwayat_per_slug(changes: list[dict], corrections: set) -> dict:
+    """Seluruh pergerakan harga per tool, terbaru dulu.
+
+    Inilah aset proyek ini yang sebenarnya: bukan harga hari ini — siapa pun
+    bisa membuka halaman harga vendor — melainkan kapan harganya berubah,
+    dari berapa ke berapa. Sampai 17/09/2026 semua itu terkubur di satu tabel
+    besar bercampur 135 tool lain, dan tidak ada satu halaman pun yang bisa
+    ditemukan orang yang mencari satu tool tertentu.
+    """
+    out: dict[str, list[dict]] = {}
+    for c in changes:
+        if not counted(c, corrections):
+            continue
+        slug = c.get("slug")
+        if not slug:
+            continue
+        baris = out.setdefault(slug, [])
+        for e in c.get("plan_events") or []:
+            if e["type"] != "price_changed":
+                continue
+            baris.append({"date": c["date"], "item": e.get("plan"),
+                          "dari": uang(e["from"].get("raw"),
+                                       e["from"].get("currency")),
+                          "ke": uang(e["to"].get("raw"),
+                                     e["to"].get("currency")),
+                          "pct": e.get("pct_change")})
+        for e in c.get("model_events") or []:
+            if e["type"] != "model_price_changed":
+                continue
+            for ch in e["changes"]:
+                baris.append({"date": c["date"],
+                              "item": f"{e.get('model')} · {ch['field']}",
+                              "dari": ch["from"].get("raw"),
+                              "ke": ch["to"].get("raw"),
+                              "pct": ch.get("pct_change")})
+    for slug, baris in out.items():
+        baris.sort(key=lambda r: (r["date"], (r["item"] or "")), reverse=True)
+        out[slug] = _buang_kembar(baris)
+    return out
+
+
+def harga_sekarang(rec: dict) -> list[dict]:
+    """Baris harga terakhir yang kami rekam untuk satu tool.
+
+    Nama paket disaring dengan penyaring yang SAMA dengan pembanding, supaya
+    halaman tool tidak memampang judul bagian sebagai produk.
+    """
+    from collector.extract import _plausible_plan_name
+
+    rows = []
+    for p in rec.get("plans") or []:
+        if not (p.get("price_raw") or "").strip():
+            continue
+        if not _plausible_plan_name(p.get("name") or ""):
+            continue
+        rows.append({"item": p.get("name"),
+                     "harga": uang(p.get("price_raw"), p.get("currency")),
+                     "satuan": periode_label(p.get("period"))})
+    for m in rec.get("models") or []:
+        harga = m.get("prices") or {}
+        if not harga:
+            continue
+        rows.append({"item": m.get("model"), "harga": _harga_ringkas(harga),
+                     "satuan": m.get("unit") or periode_label(None)})
+    return rows
+
+
+def tool_page(t, rec: dict, riwayat: list[dict], awal: str, repo: str,
+              parser_version: int) -> str:
+    """Satu halaman untuk satu tool. TIDAK memuat tanggal hari ini.
+
+    Kalau halaman ini mencantumkan "diperiksa hari ini", 135 berkas berubah
+    setiap hari dan riwayat git membengkak tanpa menambah satu pun informasi.
+    Semua tanggal di sini berasal dari ARSIP, jadi berkasnya hanya berubah
+    kalau datanya memang berubah.
+    """
+    sekarang = harga_sekarang(rec)
+    baris_harga = [
+        f'<tr><td class="wrap-ok">{esc(r["item"])}</td>'
+        f'<td class="wrap-ok">{esc(r["harga"])}</td>'
+        f'<td>{esc(r["satuan"])}</td></tr>' for r in sekarang]
+    baris_riwayat = [
+        f'<tr><td>{esc(r["date"])}</td><td class="wrap-ok">{esc(r["item"])}</td>'
+        f'<td>{esc(r["dari"])}</td><td>{esc(r["ke"])}</td>'
+        f'<td>{fmt_pct(r["pct"])}</td></tr>' for r in riwayat]
+
+    if riwayat:
+        ringkas = (f'Perubahan harga terakhir yang kami rekam: '
+                   f'<b>{esc(riwayat[0]["date"])}</b> — total {len(riwayat)} '
+                   f'pergerakan angka sejak {esc(awal)}.')
+        judul_riwayat = f"Riwayat perubahan harga ({len(riwayat)})"
+    else:
+        ringkas = (f'<b>Belum pernah tercatat perubahan harga</b> sejak kami '
+                   f'mulai merekam pada {esc(awal)}. Halaman harganya tetap '
+                   f'diperiksa setiap hari.')
+        judul_riwayat = "Riwayat perubahan harga"
+
+    kanonik = f"{base_url()}t/{t.slug}.html"
+    lapor = f"{repo}/issues/new?title=Laporan+kesalahan+angka+({t.slug})"
+    return f"""<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Riwayat harga {esc(t.name)} — arsip harian</title>
+<meta name="description" content="Riwayat perubahan harga {esc(t.name)}: kapan berubah, dari berapa ke berapa. Direkam otomatis sekali sehari sejak {esc(awal)}; setiap angka tertaut ke halaman harga resminya.">
+<link rel="canonical" href="{esc(kanonik)}">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="wrap">
+<header>
+  <p class="sub"><a href="../">← Semua tool yang dipantau</a></p>
+  <h1>Riwayat harga {esc(t.name)}</h1>
+  <p class="sub">{ringkas}</p>
+  <p class="sub">Sumber resmi:
+     <a href="{esc(t.url)}" rel="nofollow noopener">{esc(t.url)}</a> —
+     halaman itu yang berlaku, bukan halaman ini.</p>
+</header>
+
+<h2>{judul_riwayat}</h2>
+{table(["Tanggal (UTC)", "Item", "Dari", "Ke", "Selisih"], baris_riwayat,
+       kosong="Belum ada perubahan harga yang tercatat untuk tool ini.")}
+
+<h2>Harga terakhir yang kami rekam</h2>
+<p class="sub">Dibaca otomatis dari halaman harga resminya. Satuan ditulis apa
+   adanya; yang tidak disebutkan di halaman aslinya tidak kami tebak.</p>
+{table(["Item", "Harga", "Satuan"], baris_harga)}
+
+<footer>
+  <p>Diambil maksimal sekali sehari, menghormati <code>robots.txt</code>, tanpa
+     login atau paywall. Angka dibaca otomatis dan bisa saja keliru —
+     <a href="{esc(lapor)}" rel="noopener">laporkan kalau Anda menemukannya</a>.
+     Seluruh rekaman mentah terbuka di
+     <a href="{esc(repo)}" rel="noopener">repositori arsip</a>.</p>
+  <p>Nama produk dan merek dagang adalah milik pemiliknya masing-masing.
+     Situs ini tidak berafiliasi dengan, tidak disponsori oleh, dan tidak
+     mewakili vendor mana pun. Tidak ada iklan, tautan afiliasi, maupun
+     pelacakan. Tanggal memakai UTC · versi pembaca angka: {parser_version}.</p>
+</footer>
+</div>
+</body>
+</html>
+"""
+
+
+def sitemap(halaman: list) -> str:
+    """sitemap.xml — satu-satunya cara mesin pencari tahu halaman ini ada.
+
+    `lastmod` diambil dari ARSIP, bukan dari jam dinding, supaya berkas ini
+    pun tidak berubah tanpa alasan.
+    """
+    baris = "".join(
+        f"  <url><loc>{esc(loc)}</loc><lastmod>{esc(tgl)}</lastmod></url>\n"
+        for loc, tgl in halaman)
+    return ('<?xml version="1.0" encoding="UTF-8"?>\n'
+            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+            f'{baris}</urlset>\n')
+
+
+def build_pages(targets: dict, changes: list[dict], corrections: set,
+                awal: str, akhir: str) -> dict:
+    """Kembalikan {jalur relatif -> isi} untuk seluruh halaman per tool +
+    sitemap. Tidak menulis apa pun — supaya bisa diuji tanpa menyentuh disk."""
+    riwayat = riwayat_per_slug(changes, corrections)
+    repo = f"https://github.com/{_repo_slug()}"
+    keluaran: dict[str, str] = {}
+    url_sitemap = [(base_url(), akhir)]
+    for slug in sorted(targets):
+        t = targets[slug]
+        if not t.enabled:
+            continue
+        rec = load_current(slug)
+        if not rec:
+            continue
+        r = riwayat.get(slug, [])
+        keluaran[f"t/{slug}.html"] = tool_page(
+            t, rec, r, awal, repo, config.PARSER_VERSION)
+        url_sitemap.append((f"{base_url()}t/{slug}.html",
+                            r[0]["date"] if r else awal))
+    keluaran["sitemap.xml"] = sitemap(url_sitemap)
+    return keluaran
+
+
+# Label kategori untuk pembaca. Ini MURNI label tampilan — nilai aslinya di
+# targets.yaml tidak diubah (slug dan kategori adalah kunci arsip). Kategori
+# yang belum punya label tampil apa adanya, bukan disembunyikan.
+_LABEL_KATEGORI = {
+    "ai-api": "API model AI",
+    "ai-assistant": "Asisten AI",
+    "ai-coding": "Coding dengan AI",
+    "ai-media": "AI gambar, suara, dan video",
+    "automation": "Otomasi & alur kerja",
+    "database": "Basis data",
+    "dev-infra": "Infrastruktur developer",
+    "gpu-rental": "Sewa GPU",
+    "observability": "Observability & keamanan",
+    "productivity": "Produktivitas & kolaborasi",
+}
+
+
+def label_kategori(kategori: str) -> str:
+    return _LABEL_KATEGORI.get(kategori, kategori)
+
+
+def daftar_tool(targets: dict, riwayat: dict) -> str:
+    """Daftar seluruh tool di halaman utama — sekaligus jalan masuk mesin
+    pencari ke 135 halaman tool (tanpa tautan internal, halaman itu tidak
+    akan pernah ditemukan)."""
+    per_kategori: dict[str, list] = {}
+    for slug in sorted(targets):
+        t = targets[slug]
+        if not t.enabled:
+            continue
+        per_kategori.setdefault(t.category, []).append(t)
+    bagian = []
+    for kategori in sorted(per_kategori):
+        tautan = " · ".join(
+            f'<a href="t/{esc(t.slug)}.html">{esc(t.name)}</a>'
+            + (f' <span class="dim">({len(riwayat[t.slug])})</span>'
+               if riwayat.get(t.slug) else "")
+            for t in sorted(per_kategori[kategori], key=lambda x: x.name.lower()))
+        bagian.append(f'<p class="sub"><b>{esc(label_kategori(kategori))}</b>'
+                      f'<br>{tautan}</p>')
+    return "\n".join(bagian)
+
+
+
+def build() -> dict:
+    """Kembalikan {jalur relatif di docs/ -> isi}. Tidak menulis apa pun."""
     targets = {t.slug: t for t in config.load_targets()}
     changes = load_changes()
     corrections = storage.load_corrections()
@@ -530,8 +805,9 @@ def build() -> str:
 
     sewa = gpu_rows(targets, moves)
     terbaru_semua = recent_rows(changes, corrections, akhir, gpu_slugs)
+    riwayat = riwayat_per_slug(changes, corrections)
 
-    return build_html(
+    index = build_html(
         tanggal=tanggal_rekaman_terakhir(akhir), hari=hari,
         halaman=len([t for t in targets.values() if t.enabled]),
         angka=angka,
@@ -543,7 +819,12 @@ def build() -> str:
         terbaru_gpu=[r for r in terbaru_semua if r.get("gpu")],
         repo=f"https://github.com/{_repo_slug()}",
         parser_version=config.PARSER_VERSION,
+        daftar=daftar_tool(targets, riwayat),
     )
+
+    berkas = {"index.html": index, "style.css": CSS.strip() + "\n"}
+    berkas.update(build_pages(targets, changes, corrections, awal, akhir))
+    return berkas
 
 
 def _repo_slug() -> str:
@@ -597,6 +878,21 @@ def commit_and_push(tanggal: str) -> int:
     return 1
 
 
+def buang_halaman_usang(berkas: dict) -> int:
+    """Target yang dinonaktifkan tidak boleh meninggalkan halaman yatim yang
+    terus tayang dengan angka basi. Yang dihapus HANYA berkas `.html` di
+    docs/t/ yang memang kita hasilkan sendiri — tidak pernah menyentuh yang
+    lain."""
+    dihapus = 0
+    if not PAGES_DIR.exists():
+        return 0
+    for lama in sorted(PAGES_DIR.glob("*.html")):
+        if f"t/{lama.name}" not in berkas:
+            lama.unlink()
+            dihapus += 1
+    return dihapus
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--commit", action="store_true",
@@ -618,14 +914,25 @@ def main() -> int:
                   "TIDAK diterbitkan hari ini:\n" + kotor[:500])
             return 1
 
-    halaman = build()
+    berkas = build()
     OUT_DIR.mkdir(parents=True, exist_ok=True)
+    PAGES_DIR.mkdir(parents=True, exist_ok=True)
     # .nojekyll: tanpa ini GitHub Pages menjalankan Jekyll dan mengabaikan
     # berkas/direktori berawalan garis bawah. Kita tidak memakainya, tapi
     # mematikannya membuat perilakunya bisa ditebak.
     (OUT_DIR / ".nojekyll").write_text("", encoding="utf-8")
-    OUT_FILE.write_text(halaman, encoding="utf-8")
-    print(f"ditulis: {OUT_FILE.relative_to(ROOT)}  ({len(halaman):,} byte)")
+
+    total = 0
+    for rel, isi in berkas.items():
+        jalur = OUT_DIR / rel
+        jalur.parent.mkdir(parents=True, exist_ok=True)
+        jalur.write_text(isi, encoding="utf-8")
+        total += len(isi)
+
+    dihapus = buang_halaman_usang(berkas)
+
+    print(f"ditulis: {len(berkas)} berkas di docs/ ({total:,} byte)"
+          + (f", {dihapus} halaman usang dihapus" if dihapus else ""))
 
     if args.commit:
         return commit_and_push(dt.date.today().isoformat())

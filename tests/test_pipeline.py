@@ -1329,6 +1329,124 @@ def test_empat_digit_tanpa_koma() -> None:
           config.PARSER_VERSION >= 4, f"-> {config.PARSER_VERSION}")
 
 
+def test_halaman_publik_16_09() -> None:
+    """Mutu tampilan halaman publik — diperbaiki 16/09/2026.
+
+    Empat keluhan nyata dari membaca halaman itu sebagai pengunjung:
+      * 180 dari 185 baris "perubahan harga" adalah sewa GPU, sehingga empat
+        perubahan software yang justru jadi inti proyek ini tenggelam;
+      * 9 baris Paperspace bertanda `period: month` tampil di bawah judul
+        "Sewa GPU per jam" — angkanya benar, penyajiannya berbohong;
+      * DeepInfra 07/09 tampil DUA KALI (sekali sebagai paket, sekali sebagai
+        baris tabel model) dengan angka yang sama persis;
+      * judul bagian seperti "Storage Pricing" terbaca sebagai produk.
+    """
+    print("\n15. mutu halaman publik")
+    sys.path.insert(0, str(ROOT / "scripts"))
+    import build_site
+
+    from collector.config import Target
+
+    # --- satuan ditulis apa adanya, yang kosong tidak ditebak ---------------
+    check("period 'hour' -> 'per jam'", build_site.periode_label("hour") == "per jam")
+    check("period 'month' -> 'per bulan'",
+          build_site.periode_label("month") == "per bulan")
+    check("tanpa period -> 'tidak disebut', BUKAN ditebak per jam",
+          build_site.periode_label(None) == "tidak disebut")
+
+    # --- baris sewa: periode ikut, judul bagian disaring --------------------
+    rec = {"slug": "gpu-uji", "plans": [
+        {"name": "H100 SXM", "amount": 2.5, "price_raw": "$2.50", "period": "hour"},
+        {"name": "GPU+", "amount": 298.0, "price_raw": "$298", "period": "month"},
+        {"name": "Storage Pricing", "amount": 0.1, "price_raw": "$0.10",
+         "period": "hour"},                      # judul bagian, bukan produk
+        {"name": "Tanpa harga", "amount": None, "price_raw": ""},
+    ]}
+    (config.CURRENT_DIR).mkdir(parents=True, exist_ok=True)
+    (config.CURRENT_DIR / "gpu-uji.json").write_text(
+        json.dumps(rec), encoding="utf-8")
+    targets = {"gpu-uji": Target(slug="gpu-uji", name="GPU Uji",
+                                 url="https://gpu.test/pricing",
+                                 category="gpu-rental")}
+    rows = build_site.gpu_rows(targets, {})
+    nama = [r["item"] for r in rows]
+    check("judul bagian 'Storage Pricing' tidak tampil di halaman publik",
+          "Storage Pricing" not in nama, f"-> {nama}")
+    check("kartu sungguhan tetap tampil", "H100 SXM" in nama, f"-> {nama}")
+    check("baris tanpa angka tidak tampil", "Tanpa harga" not in nama)
+    satuan = {r["item"]: r["satuan"] for r in rows}
+    check("harga bulanan TIDAK diberi label per jam",
+          satuan.get("GPU+") == "per bulan", f"-> {satuan}")
+    check("baris per jam tetap per jam", satuan.get("H100 SXM") == "per jam")
+    (config.CURRENT_DIR / "gpu-uji.json").unlink()
+
+    # --- satu pergerakan, satu baris ---------------------------------------
+    kembar = [
+        {"date": "2026-09-07", "vendor": "DeepInfra", "url": "https://d.test",
+         "item": "DeepSeek-V4", "dari": "$0.08", "ke": "$0.06", "pct": -25},
+        {"date": "2026-09-07", "vendor": "DeepInfra", "url": "https://d.test",
+         "item": "DeepSeek-V4 · $ per 1m input tokens", "dari": "$0.08",
+         "ke": "$0.06", "pct": -25},
+    ]
+    sisa = build_site._buang_kembar(kembar)
+    check("baris kembar (paket + baris tabel) tampil sekali saja",
+          len(sisa) == 1, f"-> {sisa}")
+    check("yang dipertahankan adalah yang menyebut kolom harganya",
+          " · " in sisa[0]["item"], f"-> {sisa[0]['item']}")
+    beda = build_site._buang_kembar([
+        kembar[0], dict(kembar[0], ke="$0.07")])
+    check("angka berbeda TIDAK ikut dibuang", len(beda) == 2, f"-> {beda}")
+
+    # --- software vs GPU dipisah -------------------------------------------
+    ubah = [
+        {"date": "2026-09-16", "slug": "vast-ai", "name": "Vast.ai",
+         "url": "https://v.test", "kind": "price_change", "plan_events": [
+             {"type": "price_changed", "plan": "H100", "from": {"raw": "$1"},
+              "to": {"raw": "$2"}}]},
+        {"date": "2026-09-16", "slug": "airbyte", "name": "Airbyte",
+         "url": "https://a.test", "kind": "price_change", "plan_events": [
+             {"type": "price_changed", "plan": "Standard", "from": {"raw": "$10"},
+              "to": {"raw": "$20"}}]},
+    ]
+    rows = build_site.recent_rows(ubah, set(), "2026-09-16", {"vast-ai"})
+    sw = [r for r in rows if not r["gpu"]]
+    gpu = [r for r in rows if r["gpu"]]
+    check("perubahan software terpisah dari GPU",
+          [r["vendor"] for r in sw] == ["Airbyte"]
+          and [r["vendor"] for r in gpu] == ["Vast.ai"], f"-> {rows}")
+
+    # --- tanggal yang ditampilkan = kapan terakhir MENGAMBIL ----------------
+    (config.RUNS_DIR).mkdir(parents=True, exist_ok=True)
+    (config.RUNS_DIR / "2026-09-16.json").write_text("{}", encoding="utf-8")
+    check("tanggal diambil dari log eksekusi, bukan log perubahan",
+          build_site.tanggal_rekaman_terakhir("2026-09-01") == "2026-09-16")
+    (config.RUNS_DIR / "2026-09-16.json").unlink()
+    kosong = _TMP / "runs-kosong"
+    kosong.mkdir(exist_ok=True)
+    asli = config.RUNS_DIR
+    try:
+        config.RUNS_DIR = kosong
+        check("tanpa log eksekusi: pakai cadangan, bukan meledak",
+              build_site.tanggal_rekaman_terakhir("2026-09-01") == "2026-09-01")
+    finally:
+        config.RUNS_DIR = asli
+
+    # --- kewajiban hukum & kepercayaan di halaman --------------------------
+    halaman = build_site.build_html(
+        tanggal="2026-09-16", hari=21, halaman=135, angka=5,
+        gpu=[], gpu_lain=[], model=[], lain=[], terbaru=[], terbaru_gpu=[],
+        repo="https://github.com/szeto214/ai-pricing-tracker", parser_version=4)
+    check("halaman menyatakan merek dagang milik pemiliknya",
+          "merek dagang" in halaman and "tidak berafiliasi" in halaman)
+    check("halaman menyediakan jalur lapor kesalahan",
+          "issues/new" in halaman, "-> tautan laporan hilang")
+    check("halaman menyebut tanggalnya UTC", "UTC" in halaman)
+    check("halaman menyebut versi pembaca angka",
+          "versi pembaca angka: 4" in halaman)
+    check("halaman tetap menyatakan tidak ada pelacakan",
+          "tidak ada pelacakan" in halaman)
+
+
 def main() -> int:
     print(f"data uji: {config.DATA_DIR}")
     test_hash_stability()
@@ -1356,6 +1474,7 @@ def main() -> int:
     test_audit_2026_09_10()
     test_refusal_is_final_for_the_day()
     test_empat_digit_tanpa_koma()
+    test_halaman_publik_16_09()
 
     print("\n" + "=" * 60)
     if FAILURES:

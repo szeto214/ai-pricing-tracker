@@ -141,7 +141,38 @@ def fmt_pct(pct) -> str:
     return f'<span class="{arah}">{tanda}{v:g}%</span>'
 
 
+_PERIODE_LABEL = {
+    "hour": "per jam", "month": "per bulan", "year": "per tahun",
+    "day": "per hari", "seat": "per kursi", "user": "per pengguna",
+    "credit": "per kredit", "request": "per permintaan",
+}
+
+
+def periode_label(periode) -> str:
+    """Satuan waktu apa adanya. Yang tidak tertulis di halaman aslinya
+    ditandai jujur, bukan ditebak."""
+    if not periode:
+        return "tidak disebut"
+    return _PERIODE_LABEL.get(periode, str(periode))
+
+
 def gpu_rows(targets: dict, moves: dict) -> list[dict]:
+    """Baris sewa GPU, LENGKAP dengan satuan waktunya.
+
+    Sampai 16/09/2026 tabel ini berjudul "Sewa GPU per jam" padahal 9 baris
+    Paperspace bertanda `period: month` — pembaca melihat "$298" di bawah
+    judul "per jam" untuk harga yang sebenarnya per bulan. Angkanya benar,
+    penyajiannya yang berbohong. Sekarang satuannya ikut ditampilkan dan
+    baris bulanan dipisah ke tabelnya sendiri.
+
+    Nama paket disaring dengan `_plausible_plan_name` — penyaring yang SAMA
+    dengan yang dipakai pembanding. Jadi halaman publik tidak pernah
+    menampilkan sesuatu yang oleh proyek ini sendiri tidak diakui sebagai
+    paket (mis. judul bagian "Storage Pricing"). Satu sumber kebenaran, bukan
+    daftar kata baru.
+    """
+    from collector.extract import _plausible_plan_name
+
     rows = []
     for t in targets.values():
         if t.category != GPU_CATEGORY or not t.enabled:
@@ -152,10 +183,14 @@ def gpu_rows(targets: dict, moves: dict) -> list[dict]:
         for p in rec.get("plans") or []:
             if p.get("amount") in (None, ""):
                 continue
+            if not _plausible_plan_name(p.get("name") or ""):
+                continue
             rows.append({
                 "vendor": t.name, "url": t.url, "item": p.get("name"),
                 "harga": p.get("price_raw"),
                 "amount": p.get("amount"),
+                "periode": p.get("period"),
+                "satuan": periode_label(p.get("period")),
                 "gerak": moves.get((t.slug, (p.get("name") or "").lower())),
             })
     rows.sort(key=lambda r: (r["vendor"], -(r["amount"] or 0)))
@@ -210,8 +245,31 @@ def model_rows(targets: dict, moves: dict, *, api: bool) -> list[dict]:
     return rows
 
 
+def _buang_kembar(rows: list[dict]) -> list[dict]:
+    """Satu pergerakan harga cukup tampil sekali.
+
+    Halaman harga API kadang terbaca dua kali: sekali sebagai "paket" dan
+    sekali sebagai baris tabel model. DeepInfra 07/09 tampil dua kali di
+    halaman publik dengan angka yang sama persis, dan ikut terhitung dua kali.
+    Baris yang memuat label kolom (mis. "... · $ per 1m input tokens") lebih
+    informatif, jadi itu yang dipertahankan.
+    """
+    terbaik: dict[tuple, dict] = {}
+    urutan: list[tuple] = []
+    for r in rows:
+        dasar = (r.get("item") or "").split(" · ")[0].strip().lower()
+        kunci = (r.get("date"), r.get("vendor"), dasar, r.get("dari"), r.get("ke"))
+        lama = terbaik.get(kunci)
+        if lama is None:
+            terbaik[kunci] = r
+            urutan.append(kunci)
+        elif " · " in (r.get("item") or "") and " · " not in (lama.get("item") or ""):
+            terbaik[kunci] = r
+    return [terbaik[k] for k in urutan]
+
+
 def recent_rows(changes: list[dict], corrections: set,
-                until: str) -> list[dict]:
+                until: str, gpu_slugs: set | None = None) -> list[dict]:
     batas = (dt.date.fromisoformat(until)
              - dt.timedelta(days=RECENT_DAYS)).isoformat()
     out = []
@@ -226,7 +284,8 @@ def recent_rows(changes: list[dict], corrections: set,
             out.append({"date": c["date"], "vendor": c.get("name"),
                         "url": c.get("url"), "item": e.get("plan"),
                         "dari": e["from"].get("raw"), "ke": e["to"].get("raw"),
-                        "pct": e.get("pct_change")})
+                        "pct": e.get("pct_change"),
+                        "gpu": c.get("slug") in (gpu_slugs or set())})
         for e in c.get("model_events") or []:
             if e["type"] != "model_price_changed":
                 continue
@@ -236,9 +295,10 @@ def recent_rows(changes: list[dict], corrections: set,
                             "item": f"{e.get('model')} · {ch['field']}",
                             "dari": ch["from"].get("raw"),
                             "ke": ch["to"].get("raw"),
-                            "pct": ch.get("pct_change")})
+                            "pct": ch.get("pct_change"),
+                            "gpu": c.get("slug") in (gpu_slugs or set())})
     out.sort(key=lambda r: (r["date"], r["vendor"] or ""), reverse=True)
-    return out
+    return _buang_kembar(out)
 
 
 # --------------------------------------------------------------------------- #
@@ -292,8 +352,9 @@ def table(headers: list[str], baris: list[str]) -> str:
 
 
 def build_html(*, tanggal: str, hari: int, halaman: int, angka: int,
-               gpu: list[dict], model: list[dict], lain: list[dict],
-               terbaru: list[dict], repo: str) -> str:
+               gpu: list[dict], gpu_lain: list[dict], model: list[dict],
+               lain: list[dict], terbaru: list[dict], terbaru_gpu: list[dict],
+               repo: str, parser_version: int) -> str:
     def sumber(url, vendor):
         return f'<a href="{esc(url)}" rel="nofollow noopener">{esc(vendor)}</a>'
 
@@ -303,10 +364,15 @@ def build_html(*, tanggal: str, hari: int, halaman: int, angka: int,
         return (f'{esc(g["from"])} → {esc(g["to"])} {fmt_pct(g["pct"])}'
                 f'<br><span class="dim">{esc(g["date"])}</span>')
 
-    baris_gpu = [
-        f'<tr><td>{sumber(r["url"], r["vendor"])}</td>'
-        f'<td>{esc(r["item"])}</td><td>{esc(r["harga"])}</td>'
-        f'<td>{gerak(r["gerak"])}</td></tr>' for r in gpu]
+    def baris_sewa(rows):
+        return [
+            f'<tr><td>{sumber(r["url"], r["vendor"])}</td>'
+            f'<td>{esc(r["item"])}</td><td>{esc(r["harga"])}</td>'
+            f'<td>{esc(r["satuan"])}</td>'
+            f'<td>{gerak(r["gerak"])}</td></tr>' for r in rows]
+
+    baris_gpu = baris_sewa(gpu)
+    baris_gpu_lain = baris_sewa(gpu_lain)
 
     def baris_satuan(rows):
         return [
@@ -318,11 +384,17 @@ def build_html(*, tanggal: str, hari: int, halaman: int, angka: int,
     baris_model = baris_satuan(model)
     baris_lain = baris_satuan(lain)
 
-    baris_baru = [
-        f'<tr><td>{esc(r["date"])}</td><td>{sumber(r["url"], r["vendor"])}</td>'
-        f'<td class="wrap-ok">{esc(r["item"])}</td><td>{esc(r["dari"])}</td>'
-        f'<td>{esc(r["ke"])}</td><td>{fmt_pct(r["pct"])}</td></tr>'
-        for r in terbaru]
+    def baris_perubahan(rows):
+        return [
+            f'<tr><td>{esc(r["date"])}</td>'
+            f'<td>{sumber(r["url"], r["vendor"])}</td>'
+            f'<td class="wrap-ok">{esc(r["item"])}</td><td>{esc(r["dari"])}</td>'
+            f'<td>{esc(r["ke"])}</td><td>{fmt_pct(r["pct"])}</td></tr>'
+            for r in rows]
+
+    baris_baru = baris_perubahan(terbaru)
+    baris_baru_gpu = baris_perubahan(terbaru_gpu)
+    lapor = f"{repo}/issues/new?title=Laporan+kesalahan+angka"
 
     return f"""<!doctype html>
 <html lang="id">
@@ -344,20 +416,35 @@ def build_html(*, tanggal: str, hari: int, halaman: int, angka: int,
     <li><b>{halaman}</b><span>halaman dipantau</span></li>
     <li><b>{hari}</b><span>hari arsip</span></li>
     <li><b>{angka}</b><span>angka harga bergerak</span></li>
-    <li><b>{esc(tanggal)}</b><span>rekaman terakhir</span></li>
+    <li><b>{esc(tanggal)}</b><span>pengambilan terakhir (UTC)</span></li>
   </ul>
 </header>
 
-<h2>Perubahan harga {RECENT_DAYS} hari terakhir</h2>
+<h2>Perubahan harga software &amp; API — {RECENT_DAYS} hari terakhir</h2>
 <p class="sub">Hanya angka yang benar-benar bergerak pada item yang ada di dua
    hari berturut-turut. Penambahan atau penghapusan paket tidak dihitung di
-   sini.</p>
-{table(["Tanggal", "Sumber", "Item", "Dari", "Ke", "Selisih"], baris_baru)}
+   sini. Sewa GPU dipisah ke tabel berikutnya karena harganya mengikuti pasar
+   dan bergerak hampir tiap hari — kalau dicampur, perubahan software yang
+   jumlahnya sedikit akan tenggelam. Semua tanggal memakai UTC.</p>
+{table(["Tanggal (UTC)", "Sumber", "Item", "Dari", "Ke", "Selisih"], baris_baru)}
 
-<h2>Sewa GPU per jam</h2>
-<p class="sub">Harga pasar sewa GPU bergerak hampir setiap hari. Angka di
-   bawah adalah rekaman terakhir kami, bukan penawaran.</p>
-{table(["Penyedia", "Kartu", "Harga terakhir", "Perubahan terakhir"], baris_gpu)}
+<h2>Perubahan harga sewa GPU — {RECENT_DAYS} hari terakhir</h2>
+<p class="sub">Harga pasar. Bergerak hampir setiap hari, dan itu wajar.</p>
+{table(["Tanggal (UTC)", "Sumber", "Item", "Dari", "Ke", "Selisih"], baris_baru_gpu)}
+
+<h2>Sewa GPU &amp; infrastruktur — tarif per jam</h2>
+<p class="sub">Rekaman terakhir kami, bukan penawaran. Sebagian penyedia
+   memberi harga per tipe kartu, sebagian lagi per jenis layanan
+   (penyimpanan, CPU) — keduanya ditampilkan apa adanya, dengan nama seperti
+   yang tertulis di halaman aslinya.</p>
+{table(["Penyedia", "Item", "Harga terakhir", "Satuan", "Perubahan terakhir"], baris_gpu)}
+
+<h2>Sewa GPU &amp; infrastruktur — satuan lain atau tidak disebut</h2>
+<p class="sub">Baris yang halaman aslinya menagih per bulan, atau yang tidak
+   menyebut satuannya sama sekali. Dipisah supaya tidak terbaca seolah harga
+   per jam. Yang tidak menyebut satuan kami tandai apa adanya — tidak
+   ditebak.</p>
+{table(["Penyedia", "Item", "Harga terakhir", "Satuan", "Perubahan terakhir"], baris_gpu_lain)}
 
 <h2>Harga model API</h2>
 <p class="sub">Dibaca dari tabel harga resmi tiap penyedia. Kolomnya mengikuti
@@ -383,8 +470,18 @@ def build_html(*, tanggal: str, hari: int, halaman: int, angka: int,
      terjadi. Halaman resmi vendor selalu menjadi acuan — bukan halaman ini.
      Semua rekaman mentah, termasuk yang kemudian terbukti keliru, tersimpan
      terbuka di <a href="{esc(repo)}" rel="noopener">repositori arsip</a>.</p>
+  <p><b>Menemukan angka yang keliru?</b> Tolong beri tahu — sebutkan nama
+     tool dan tanggalnya:
+     <a href="{esc(lapor)}" rel="noopener">laporkan lewat GitHub Issues</a>.
+     Setiap laporan diperiksa terhadap arsip mentah hari itu.</p>
+  <p>Nama produk, merek dagang, dan logo adalah milik pemiliknya
+     masing-masing. Situs ini tidak berafiliasi dengan, tidak disponsori
+     oleh, dan tidak mewakili vendor mana pun. Yang diarsipkan di sini adalah
+     fakta harga yang mereka terbitkan sendiri di halaman publik.</p>
   <p>Halaman ini dibangun ulang otomatis setiap kali arsip bertambah.
-     Tidak ada iklan, tidak ada tautan afiliasi, tidak ada pelacakan.</p>
+     Tidak ada iklan, tidak ada tautan afiliasi, tidak ada pelacakan —
+     kunjungan Anda tidak dicatat di mana pun.
+     Tanggal memakai UTC · versi pembaca angka: {parser_version}.</p>
 </footer>
 </div>
 </body>
@@ -393,6 +490,23 @@ def build_html(*, tanggal: str, hari: int, halaman: int, angka: int,
 
 
 # --------------------------------------------------------------------------- #
+def tanggal_rekaman_terakhir(cadangan: str) -> str:
+    """Tanggal pengambilan terakhir, dibaca dari data/runs/.
+
+    Sebelumnya angka ini diambil dari log PERUBAHAN, jadi satu hari tanpa
+    perubahan apa pun membuat halaman publik memampang tanggal kemarin
+    seolah bot berhenti bekerja. Yang ingin diketahui pembaca adalah kapan
+    terakhir kami memeriksa, bukan kapan terakhir ada yang berubah.
+    """
+    try:
+        berkas = sorted(config.RUNS_DIR.glob("*.json"))
+        if berkas:
+            return berkas[-1].stem
+    except Exception:  # noqa: BLE001 — halaman tidak boleh jatuh karena ini
+        pass
+    return cadangan
+
+
 def build() -> str:
     targets = {t.slug: t for t in config.load_targets()}
     changes = load_changes()
@@ -407,15 +521,28 @@ def build() -> str:
     moves = last_moves(changes, corrections)
     angka = sum(moved_numbers(c) for c in changes if counted(c, corrections))
 
+    # Pemisahan software vs GPU memakai definisi yang SAMA dengan
+    # gate_status.py — kategori `gpu-rental` di targets.yaml. Satu definisi
+    # untuk semua penghitung, supaya halaman publik dan angka gerbang tidak
+    # pernah bercerita berbeda.
+    gpu_slugs = {t.slug for t in targets.values()
+                 if t.category == GPU_CATEGORY}
+
+    sewa = gpu_rows(targets, moves)
+    terbaru_semua = recent_rows(changes, corrections, akhir, gpu_slugs)
+
     return build_html(
-        tanggal=akhir, hari=hari,
+        tanggal=tanggal_rekaman_terakhir(akhir), hari=hari,
         halaman=len([t for t in targets.values() if t.enabled]),
         angka=angka,
-        gpu=gpu_rows(targets, moves),
+        gpu=[r for r in sewa if r["periode"] == "hour"],
+        gpu_lain=[r for r in sewa if r["periode"] != "hour"],
         model=model_rows(targets, moves, api=True),
         lain=model_rows(targets, moves, api=False),
-        terbaru=recent_rows(changes, corrections, akhir),
+        terbaru=[r for r in terbaru_semua if not r.get("gpu")],
+        terbaru_gpu=[r for r in terbaru_semua if r.get("gpu")],
         repo=f"https://github.com/{_repo_slug()}",
+        parser_version=config.PARSER_VERSION,
     )
 
 

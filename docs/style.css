@@ -33,3 +33,21 @@ footer{margin-top:56px;padding-top:20px;border-top:1px solid var(--line);
        color:var(--dim);font-size:13px}
 footer li{margin-bottom:4px}
 @media(max-width:520px){h1{font-size:22px}.stats li{flex:1 1 45%}}
+/* Layar sempit: tabel jadi kartu "label: nilai".
+   Diukur 18/09/2026 pada 390px — semua tabel memotong kolom harganya, jadi
+   pengunjung dari ponsel tidak pernah melihat satu angka pun. Menggeser
+   tabel ke samping bukan jawaban: kebanyakan orang tidak tahu bisa digeser. */
+@media(max-width:640px){
+  .tw{overflow-x:visible;border:0;background:transparent;margin-top:10px}
+  table{font-size:15px}
+  thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+  table,tbody,tr,td{display:block;width:100%}
+  tr{background:var(--card);border:1px solid var(--line);border-radius:8px;
+     margin-bottom:10px;padding:4px 0}
+  td{border:0;white-space:normal;display:flex;gap:14px;
+     justify-content:space-between;align-items:baseline;padding:4px 12px}
+  td::before{content:attr(data-label);color:var(--dim);font-size:12px;
+     text-transform:uppercase;letter-spacing:.04em;flex:0 0 auto}
+  td.wrap-ok{min-width:0}
+  td>br{display:none}
+}

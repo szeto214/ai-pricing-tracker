@@ -29,6 +29,11 @@ a{color:var(--link)}
 .naik{color:var(--naik);font-weight:600}
 .turun{color:var(--turun);font-weight:600}
 .dim{color:var(--dim)}
+.tool{display:inline-block;margin:0 14px 6px 0}
+.tool[hidden],.grup[hidden]{display:none}
+#cari{width:100%;max-width:340px;padding:9px 12px;font:inherit;
+      border:1px solid var(--line);border-radius:8px;background:var(--card);
+      color:var(--fg);margin-top:10px}
 footer{margin-top:56px;padding-top:20px;border-top:1px solid var(--line);
        color:var(--dim);font-size:13px}
 footer li{margin-bottom:4px}

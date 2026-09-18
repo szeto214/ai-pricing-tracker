@@ -1349,11 +1349,11 @@ def test_halaman_publik_16_09() -> None:
     from collector.config import Target
 
     # --- satuan ditulis apa adanya, yang kosong tidak ditebak ---------------
-    check("period 'hour' -> 'per jam'", build_site.periode_label("hour") == "per jam")
-    check("period 'month' -> 'per bulan'",
-          build_site.periode_label("month") == "per bulan")
-    check("tanpa period -> 'tidak disebut', BUKAN ditebak per jam",
-          build_site.periode_label(None) == "tidak disebut")
+    check("period 'hour' -> 'per hour'", build_site.periode_label("hour") == "per hour")
+    check("period 'month' -> 'per month'",
+          build_site.periode_label("month") == "per month")
+    check("tanpa period -> 'not stated', BUKAN ditebak per jam",
+          build_site.periode_label(None) == "not stated")
 
     # --- baris sewa: periode ikut, judul bagian disaring --------------------
     rec = {"slug": "gpu-uji", "plans": [
@@ -1377,8 +1377,8 @@ def test_halaman_publik_16_09() -> None:
     check("baris tanpa angka tidak tampil", "Tanpa harga" not in nama)
     satuan = {r["item"]: r["satuan"] for r in rows}
     check("harga bulanan TIDAK diberi label per jam",
-          satuan.get("GPU+") == "per bulan", f"-> {satuan}")
-    check("baris per jam tetap per jam", satuan.get("H100 SXM") == "per jam")
+          satuan.get("GPU+") == "per month", f"-> {satuan}")
+    check("baris per jam tetap per jam", satuan.get("H100 SXM") == "per hour")
     (config.CURRENT_DIR / "gpu-uji.json").unlink()
 
     # --- satu pergerakan, satu baris ---------------------------------------
@@ -1438,14 +1438,15 @@ def test_halaman_publik_16_09() -> None:
         gpu=[], gpu_lain=[], model=[], lain=[], terbaru=[], terbaru_gpu=[],
         repo="https://github.com/szeto214/ai-pricing-tracker", parser_version=4)
     check("halaman menyatakan merek dagang milik pemiliknya",
-          "merek dagang" in halaman and "tidak berafiliasi" in halaman)
+          "belong to their respective owners" in halaman
+          and "not affiliated with" in halaman)
     check("halaman menyediakan jalur lapor kesalahan",
           "issues/new" in halaman, "-> tautan laporan hilang")
-    check("halaman menyebut tanggalnya UTC", "UTC" in halaman)
+    check("halaman menyebut tanggalnya UTC", "Dates in UTC" in halaman)
     check("halaman menyebut versi pembaca angka",
-          "versi pembaca angka: 4" in halaman)
+          "parser version: 4" in halaman)
     check("halaman tetap menyatakan tidak ada pelacakan",
-          "tidak ada pelacakan" in halaman)
+          "no tracking" in halaman)
 
 
 def test_halaman_per_tool_17_09() -> None:
@@ -1523,7 +1524,7 @@ def test_halaman_per_tool_17_09() -> None:
     halaman = build_site.tool_page(t, rec, riwayat["acme"], "2026-08-27",
                                    "https://github.com/u/r", 4)
     check("judul halaman menyebut nama toolnya (ini yang dicari di mesin pencari)",
-          "<title>Riwayat harga Acme AI" in halaman)
+          "<title>Acme AI pricing history" in halaman)
     check("harga tampil dengan mata uangnya", ">$30<" in halaman, "-> $30 hilang")
     check("judul bagian tidak dipajang sebagai produk",
           ">Pricing<" not in halaman)
@@ -1532,7 +1533,8 @@ def test_halaman_per_tool_17_09() -> None:
     check("punya canonical supaya tidak dianggap halaman ganda",
           '<link rel="canonical"' in halaman)
     check("menyatakan merek dagang milik pemiliknya",
-          "merek dagang" in halaman and "tidak berafiliasi" in halaman)
+          "belong to their respective owners" in halaman
+          and "not affiliated with" in halaman)
     check("menyediakan jalur lapor kesalahan", "issues/new" in halaman)
     hari_ini = dt.date.today().isoformat()
     check("TIDAK memuat tanggal hari ini (supaya tidak berubah tiap hari)",
@@ -1541,7 +1543,7 @@ def test_halaman_per_tool_17_09() -> None:
     kosong = build_site.tool_page(t, rec, [], "2026-08-27",
                                   "https://github.com/u/r", 4)
     check("tool yang belum pernah berubah harga: dijawab jujur, bukan kosong",
-          "Belum pernah tercatat perubahan harga" in kosong)
+          "No price change recorded" in kosong)
 
     # --- kumpulan halaman + sitemap ----------------------------------------
     (config.CURRENT_DIR).mkdir(parents=True, exist_ok=True)
@@ -1566,6 +1568,39 @@ def test_halaman_per_tool_17_09() -> None:
 
     # --- daftar tool di halaman utama (jalan masuk mesin pencari) ----------
     daftar = build_site.daftar_tool(targets, riwayat)
+    # --- tabel harus terbaca di ponsel ------------------------------------
+    # 18/09/2026: diukur pada layar 390px, SEMUA tabel memotong kolom
+    # harganya. Halaman "CodeRabbit" hanya memperlihatkan tanggal dan nama
+    # item; Dari/Ke/Selisih ada di luar layar. Pengunjung dari Google
+    # (mayoritas ponsel) tidak pernah melihat satu angka pun lalu pergi.
+    tbl = build_site.table(["Date (UTC)", "Item", "From"],
+                           [["2026-09-03", ("CodeRabbit Agent", "wrap-ok"),
+                             "$0.50"]])
+    for label in ("Date (UTC)", "Item", "From"):
+        check(f"tiap sel membawa label kolomnya ({label})",
+              f'data-label="{build_site.esc(label)}"' in tbl, f"-> {tbl[:200]}")
+    check("kelas kolom tetap dipakai", 'class="wrap-ok"' in tbl)
+    check("CSS mengubah baris jadi kartu di layar sempit",
+          "@media(max-width:640px)" in build_site.CSS
+          and "content:attr(data-label)" in build_site.CSS)
+    check("tabel kosong tetap menjawab, bukan tabel hampa",
+          build_site.table(["a"], [], kosong="Nothing yet.")
+          == '<p class="dim">Nothing yet.</p>')
+
+    # --- halaman utama tidak boleh jadi gudang -----------------------------
+    banyak = [{"date": "2026-09-16", "vendor": "V", "url": "u",
+               "item": f"item {i}", "dari": "$1", "ke": "$2", "pct": 1,
+               "gpu": True} for i in range(50)]
+    tampil, sisa = build_site.potong(banyak, build_site.MAX_BARIS_INDEKS)
+    check("baris berlebih dipotong di halaman utama",
+          len(tampil) == build_site.MAX_BARIS_INDEKS and sisa == 50 - len(tampil),
+          f"-> {len(tampil)}, sisa {sisa}")
+    check("jumlah yang tidak ditampilkan SELALU disebutkan, tidak dihilangkan diam-diam",
+          "50" in build_site.catatan_sisa(sisa, 50))
+    check("kalau muat semua, tidak ada catatan menggantung",
+          build_site.potong([1, 2], 40) == ([1, 2], 0)
+          and build_site.catatan_sisa(0, 2) == "")
+
     # --- verifikasi Search Console harus bertahan tiap kali dibangun ulang -
     check("token verifikasi Search Console terpasang di halaman utama",
           build_site.GOOGLE_SITE_VERIFICATION
@@ -1588,7 +1623,7 @@ def test_halaman_per_tool_17_09() -> None:
         build_site.GOOGLE_SITE_VERIFICATION = asli
 
     check("kategori diberi label yang dimengerti pembaca",
-          build_site.label_kategori("ai-api") == "API model AI")
+          build_site.label_kategori("ai-api") == "AI model APIs")
     check("kategori yang belum punya label tampil apa adanya, bukan hilang",
           build_site.label_kategori("kategori-baru") == "kategori-baru")
     check("halaman utama menautkan halaman tool", 'href="t/acme.html"' in daftar)

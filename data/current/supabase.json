@@ -6,9 +6,9 @@
   "url": "https://supabase.com/pricing",
   "final_url": "https://supabase.com/pricing",
   "parser_version": 4,
-  "content_hash": "313f083d499edc6fe15d7b789ab2727ae7ffdaa9382b653375584ea7c3332041",
-  "raw_hash": "a8d405718e79e37d65b755e419f21583d6c76fe2664c542105d62b6282f9546b",
-  "text_bytes": 16643,
+  "content_hash": "0ea8fdf7f8cce3538caab30e950a22c3a87bf804c5d9d2b64f66f761fcb39c06",
+  "raw_hash": "5b62ec44fff6e62216b98776946d67b90adafd6ffb09a4ddff0f46529477be40",
+  "text_bytes": 16365,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -42,30 +42,6 @@
       "amount": 10.0,
       "currency": "USD",
       "period": "month",
-      "features": []
-    },
-    {
-      "name": "Micro",
-      "price_raw": "$10",
-      "amount": 10.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "Small",
-      "price_raw": "$15",
-      "amount": 15.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "Medium",
-      "price_raw": "$60",
-      "amount": 60.0,
-      "currency": "USD",
-      "period": null,
       "features": []
     },
     {
@@ -155,6 +131,14 @@
       "currency": "USD",
       "period": "month",
       "features": []
+    },
+    {
+      "name": "Dedicated Postgres Database",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": []
     }
   ],
   "models": [],
@@ -165,8 +149,7 @@
         [
           "Compute Size",
           "Price USD",
-          "CPU",
-          "Dedicated",
+          "Compute",
           "Memory",
           "Connections: Direct",
           "Connections: Pooler"
@@ -177,8 +160,7 @@
         [
           "Micro",
           "$10",
-          "2-core ARM",
-          "Not included in Free Plan",
+          "Shared compute",
           "1 GB",
           "60",
           "200"
@@ -186,8 +168,7 @@
         [
           "Small",
           "$15",
-          "2-core ARM",
-          "Not included in Free Plan",
+          "Shared compute",
           "2 GB",
           "90",
           "400"
@@ -195,8 +176,7 @@
         [
           "Medium",
           "$60",
-          "2-core ARM",
-          "Not included in Free Plan",
+          "Shared compute",
           "4 GB",
           "120",
           "600"
@@ -204,8 +184,7 @@
         [
           "Large",
           "$110",
-          "2-core ARM",
-          "Included in Pro Plan",
+          "Dedicated · 2 vCPUs",
           "8 GB",
           "160",
           "800"
@@ -213,8 +192,7 @@
         [
           "XL",
           "$210",
-          "4-core ARM",
-          "Included in Pro Plan",
+          "Dedicated · 4 vCPUs",
           "16 GB",
           "240",
           "1,000"
@@ -222,8 +200,7 @@
         [
           "2XL",
           "$410",
-          "8-core ARM",
-          "Included in Pro Plan",
+          "Dedicated · 8 vCPUs",
           "32 GB",
           "380",
           "1,500"
@@ -231,8 +208,7 @@
         [
           "4XL",
           "$960",
-          "16-core ARM",
-          "Included in Pro Plan",
+          "Dedicated · 16 vCPUs",
           "64 GB",
           "480",
           "3,000"
@@ -240,8 +216,7 @@
         [
           "8XL",
           "$1,870",
-          "32-core ARM",
-          "Included in Pro Plan",
+          "Dedicated · 32 vCPUs",
           "128 GB",
           "490",
           "6,000"
@@ -249,8 +224,7 @@
         [
           "12XL",
           "$2,800",
-          "48-core ARM",
-          "Included in Pro Plan",
+          "Dedicated · 48 vCPUs",
           "192 GB",
           "500",
           "9,000"
@@ -258,8 +232,7 @@
         [
           "16XL",
           "$3,730",
-          "64-core ARM",
-          "Included in Pro Plan",
+          "Dedicated · 64 vCPUs",
           "256 GB",
           "500",
           "12,000"
@@ -268,7 +241,6 @@
           ">16XL",
           "Contact Us",
           "Custom",
-          "Included in Pro Plan",
           "Custom",
           "Custom",
           "Custom"
@@ -287,12 +259,8 @@
           "$10"
         ],
         [
-          "CPU",
-          "2-core ARM"
-        ],
-        [
-          "Dedicated",
-          "Not included in Free Plan"
+          "Compute",
+          "Shared compute"
         ],
         [
           "Memory",
@@ -315,12 +283,8 @@
           "$15"
         ],
         [
-          "CPU",
-          "2-core ARM"
-        ],
-        [
-          "Dedicated",
-          "Not included in Free Plan"
+          "Compute",
+          "Shared compute"
         ],
         [
           "Memory",
@@ -343,12 +307,8 @@
           "$60"
         ],
         [
-          "CPU",
-          "2-core ARM"
-        ],
-        [
-          "Dedicated",
-          "Not included in Free Plan"
+          "Compute",
+          "Shared compute"
         ],
         [
           "Memory",
@@ -371,12 +331,8 @@
           "$110"
         ],
         [
-          "CPU",
-          "2-core ARM"
-        ],
-        [
-          "Dedicated",
-          "Included in Pro Plan"
+          "Compute",
+          "Dedicated · 2 vCPUs"
         ],
         [
           "Memory",
@@ -399,12 +355,8 @@
           "$210"
         ],
         [
-          "CPU",
-          "4-core ARM"
-        ],
-        [
-          "Dedicated",
-          "Included in Pro Plan"
+          "Compute",
+          "Dedicated · 4 vCPUs"
         ],
         [
           "Memory",
@@ -427,12 +379,8 @@
           "$410"
         ],
         [
-          "CPU",
-          "8-core ARM"
-        ],
-        [
-          "Dedicated",
-          "Included in Pro Plan"
+          "Compute",
+          "Dedicated · 8 vCPUs"
         ],
         [
           "Memory",
@@ -455,12 +403,8 @@
           "$960"
         ],
         [
-          "CPU",
-          "16-core ARM"
-        ],
-        [
-          "Dedicated",
-          "Included in Pro Plan"
+          "Compute",
+          "Dedicated · 16 vCPUs"
         ],
         [
           "Memory",
@@ -483,12 +427,8 @@
           "$1,870"
         ],
         [
-          "CPU",
-          "32-core ARM"
-        ],
-        [
-          "Dedicated",
-          "Included in Pro Plan"
+          "Compute",
+          "Dedicated · 32 vCPUs"
         ],
         [
           "Memory",
@@ -511,12 +451,8 @@
           "$2,800"
         ],
         [
-          "CPU",
-          "48-core ARM"
-        ],
-        [
-          "Dedicated",
-          "Included in Pro Plan"
+          "Compute",
+          "Dedicated · 48 vCPUs"
         ],
         [
           "Memory",
@@ -539,12 +475,8 @@
           "$3,730"
         ],
         [
-          "CPU",
-          "64-core ARM"
-        ],
-        [
-          "Dedicated",
-          "Included in Pro Plan"
+          "Compute",
+          "Dedicated · 64 vCPUs"
         ],
         [
           "Memory",
@@ -567,12 +499,8 @@
           "Contact Us"
         ],
         [
-          "CPU",
+          "Compute",
           "Custom"
-        ],
-        [
-          "Dedicated",
-          "Included in Pro Plan"
         ],
         [
           "Memory",
@@ -744,6 +672,10 @@
         ],
         [
           "Social OAuth providers",
+          "Included in free"
+        ],
+        [
+          "OAuth 2.1 Server",
           "Included in free"
         ],
         [

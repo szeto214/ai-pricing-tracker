@@ -6,9 +6,9 @@
   "url": "https://neon.com/pricing",
   "final_url": "https://neon.com/pricing",
   "parser_version": 4,
-  "content_hash": "3b024205b78420e21be8d2ba1e8d6acbf7ac68110e9b470e1c628dc8f7e414fb",
-  "raw_hash": "090b9299a345ba3ecfa2d588c10cab2eafab05e32d86a1d90639152c9977ad39",
-  "text_bytes": 18448,
+  "content_hash": "83636c8bd4335b460926d54451007b93d2f1829b0026f3886dadca9db9dce3ab",
+  "raw_hash": "668112dbeacbf30be0cc4e6cbadb3f859acb9ee7c0fdd17b8dd6aafb3905c6d6",
+  "text_bytes": 17876,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -33,9 +33,9 @@
         "Sizes up to 16 CU (64 GB RAM)",
         "3-day metrics/logs in UI",
         "Managed Better Auth",
-        "Object Storage Beta",
-        "Functions Beta",
-        "AI Gateway Beta"
+        "Object Storage",
+        "Functions",
+        "AI Gateway"
       ]
     },
     {
@@ -51,9 +51,9 @@
         "Sizes up to 56 CU (224 GB RAM)",
         "SLAs, HIPAA, private network",
         "Managed Better Auth",
-        "Object Storage Beta",
-        "Functions Beta",
-        "AI Gateway Beta"
+        "Object Storage",
+        "Functions",
+        "AI Gateway"
       ]
     },
     {
@@ -90,9 +90,9 @@
         "100 snapshots $0.09/GB-month",
         "Daily/Weekly/Monthly $0.09/GB-month",
         "Up to 1M MAUs If you're planning to go beyond that, contact us",
-        "$0.023 per GB-month No charges during beta",
-        "Compute $0.10 per active capacity-hour $0.025 per waiting capacity-hour Invocations $0.60 per 1M invocations Charges No charges during beta",
-        "List prices here No charges during beta",
+        "$0.023 per GB-month",
+        "Compute $0.10 per active capacity-hour $0.025 per waiting capacity-hour Invocations $0.60 per 1M invocations",
+        "List prices here Prepaid credits",
         "500 GB per project included then $0.10/GB",
         "3 days",
         "Unlimited",
@@ -117,9 +117,9 @@
         "100 snapshots $0.09/GB-month",
         "Daily/Weekly/Monthly $0.09/GB-month",
         "Up to 1M MAUs If you're planning to go beyond that, contact us",
-        "$0.023 per GB-month No charges during beta",
-        "Compute $0.12 per active capacity-hour $0.03 per waiting capacity-hour Invocations $0.60 per 1M invocations Charges No charges during beta",
-        "List prices here No charges during beta",
+        "$0.023 per GB-month",
+        "Compute $0.12 per active capacity-hour $0.03 per waiting capacity-hour Invocations $0.60 per 1M invocations",
+        "List prices here Prepaid credits",
         "500 GB per project included then $0.10/GB",
         "$0.01 per GB",
         "14 days",

@@ -6,9 +6,9 @@
   "url": "https://www.greptile.com/pricing",
   "final_url": "https://www.greptile.com/pricing",
   "parser_version": 4,
-  "content_hash": "a93b52f7a955ba75c3c80adf272fc45f0e224ecba942f1d494545784de7e59ca",
-  "raw_hash": "0acde270f84a99263b8b0e56c4fa59dfbafb5078a84a072ceaa0b1155cc51ceb",
-  "text_bytes": 2540,
+  "content_hash": "9464921c7e13f9d749a0aa94229b391ca8ec024321f82215b71c064c7728a2de",
+  "raw_hash": "c72b88ced1eb1e86ccd093584e95631b0bf45b29f907cae2b76fb36b93f32e5d",
+  "text_bytes": 2559,
   "extractor": "jsonld",
   "confidence": "medium",
   "plans": [
@@ -30,6 +30,27 @@
     }
   ],
   "models": [],
-  "tables": [],
+  "tables": [
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Review",
+          "Credits",
+          "What it does"
+        ],
+        [
+          "Standard review",
+          "1",
+          "Reviews your PR for bugs, style, and codebase context."
+        ],
+        [
+          "TREX review",
+          "3",
+          "Writes and runs targeted tests in a sandbox to catch missed edge cases."
+        ]
+      ]
+    }
+  ],
   "extract_errors": []
 }

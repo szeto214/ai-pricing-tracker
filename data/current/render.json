@@ -6,9 +6,9 @@
   "url": "https://render.com/pricing",
   "final_url": "https://render.com/pricing",
   "parser_version": 4,
-  "content_hash": "8c3fb60e34526c0a32c298a5d0cd6685921ff18ab87e3ef5aa4960c298091d6f",
-  "raw_hash": "fad66c0d9599648490abd63c3c3bc6a67eab6f4321d0426201268d462c2d0dd5",
-  "text_bytes": 14828,
+  "content_hash": "0525b9832dcb8a42593e8ed9f93f036bae74f5d07969bc4cb39956b962c95aba",
+  "raw_hash": "ff53692aa5ae5bbe7490a396260036c1faa911802f076bc9bca9b2dedf39f3e6",
+  "text_bytes": 14727,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -574,18 +574,6 @@
           "$0.20 / active CPU hour; $0.05 / active GB hour",
           "Up to 4GB RAM",
           "flex"
-        ],
-        [
-          "Less than 1 CPU",
-          "$0.05/hour",
-          "512 MB RAM",
-          "starter"
-        ],
-        [
-          "1 CPU",
-          "$0.20/hour",
-          "2 GB RAM",
-          "standard"
         ],
         [
           "2 CPU",

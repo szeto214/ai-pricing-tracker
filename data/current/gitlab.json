@@ -6,9 +6,9 @@
   "url": "https://about.gitlab.com/pricing/",
   "final_url": "https://about.gitlab.com/pricing/",
   "parser_version": 4,
-  "content_hash": "ec49f61286022ff7a37e258320b7156b24a1f5cdbd7af6a9bea5585f53968ba4",
-  "raw_hash": "af160e4b8c11f59e49787a3917e2e6c55ba7d5d47a340a349641dda19a5940c1",
-  "text_bytes": 26455,
+  "content_hash": "e21ab5fc7482a8300f174d6f109321579f153b23cbf8e2a094cdfbb1ef54f64f",
+  "raw_hash": "bf68d35b163a7b430a1058d2adaef4ff4af3e8754c9463235f7c55993c91cbf0",
+  "text_bytes": 27203,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -58,14 +58,6 @@
       "amount": 1.0,
       "currency": "USD",
       "period": "user",
-      "features": []
-    },
-    {
-      "name": "GitLab Flex",
-      "price_raw": "$1",
-      "amount": 1.0,
-      "currency": "USD",
-      "period": "credit",
       "features": []
     }
   ],

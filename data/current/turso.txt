@@ -11,8 +11,9 @@ Storage
 Monthly Rows Read
 Monthly Rows Written
 Monthly Syncs
-Point-In-Time Restore
 Audit Logs
+Point-In-Time Restore
+Restore Deleted DBs
 DPA
 IP Allow Lists
 AWS VPC Allow Lists
@@ -49,8 +50,8 @@ $1 / Million
 10GB
 +
 $0.35 / GB
-10 days
 3 Day Retention
+10 days
 Community
 Get Developer
 Scaler
@@ -69,8 +70,8 @@ $0.80 / Million
 24GB
 +
 $0.25 / GB
-30 days
 14 Day Retention
+30 days
 Community
 Get Scaler
 Pro
@@ -89,8 +90,8 @@ $0.75 / Million
 100GB
 +
 $0.15 / GB
-90 days
 30 Day Retention
+90 days
 Priority Email
 +
 Support
@@ -102,8 +103,8 @@ Unlimited
 250 Billion
 250 Million
 100GB
-90 days
 30 Day Retention
+90 days
 24x7 Priority Email
 +
 Support
@@ -120,9 +121,10 @@ Monthly Rows Written
 10 Million
 Monthly Syncs
 3GB
+Audit Logs
 Point-In-Time Restore
 1 day
-Audit Logs
+Restore Deleted DBs
 DPA
 IP Allow Lists
 AWS VPC Allow Lists
@@ -156,10 +158,11 @@ Monthly Syncs
 10GB
 +
 $0.35 / GB
-Point-In-Time Restore
-10 days
 Audit Logs
 3 Day Retention
+Point-In-Time Restore
+10 days
+Restore Deleted DBs
 DPA
 IP Allow Lists
 AWS VPC Allow Lists
@@ -193,10 +196,11 @@ Monthly Syncs
 24GB
 +
 $0.25 / GB
-Point-In-Time Restore
-30 days
 Audit Logs
 14 Day Retention
+Point-In-Time Restore
+30 days
+Restore Deleted DBs
 DPA
 IP Allow Lists
 AWS VPC Allow Lists
@@ -230,10 +234,11 @@ Monthly Syncs
 100GB
 +
 $0.15 / GB
-Point-In-Time Restore
-90 days
 Audit Logs
 30 Day Retention
+Point-In-Time Restore
+90 days
+Restore Deleted DBs
 DPA
 IP Allow Lists
 AWS VPC Allow Lists
@@ -260,10 +265,11 @@ Monthly Rows Written
 250 Million
 Monthly Syncs
 100GB
-Point-In-Time Restore
-90 days
 Audit Logs
 30 Day Retention
+Point-In-Time Restore
+90 days
+Restore Deleted DBs
 DPA
 IP Allow Lists
 AWS VPC Allow Lists
@@ -294,5 +300,7 @@ How do I contact Turso if I have additional questions or problems with my bill?
 Does using Drizzle Studio from the Turso Dashboard incur plan usage?
 What happens when I enable Overages?
 What happens if I disable Overages?
-Do point in time restores cost money?
 Do Database Branches cost money?
+Do point in time restores cost money?
+What is the difference between Point-In-Time Restore and Restore Deleted DBs?
+Can I restore a database that was deleted while I was on the Free plan?

@@ -117,22 +117,22 @@ On-Demand Pricing
 Pay per GPU second, with no extra charges for start-up times
 On demand deployments
 GPU Type
-Price ($) per hour - upto Aug 31
-Price ($) per hour - from Sep 1
+Price ($) per minute
+Price ($) per hour
 H100 80 GB GPU
-$7.00
+$0.134
 $8.00
 H200 141 GB GPU
-$7.00
+$0.134
 $8.00
 B200 180 GB GPU
-$10.00
+$0.217
 $13.00
 B300 288 GB GPU
-$12.00
+$0.250
 $15.00
 GB300 288 GB GPU
-$18.00
+$0.334
 $20.00
 •
 Region-restricted deployments are priced at a 1.5x premium.

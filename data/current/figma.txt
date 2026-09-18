@@ -293,11 +293,11 @@ Image editing (AI)
 Figma agent (Beta)
 On canvas chat
 Create shader effects and fills
-Skills
 Connectors
 Add images and files
 Add motion tools
 Generative plugins
+Skills
 Platform
 AI Credits
 150 AI credits/day, up to 500 credits/mo
@@ -341,7 +341,8 @@ Figma MCP server
 200 tool calls / day and 15 calls / min
 600 tool calls / day and 20 calls / min
 Live embeds
-MCP connectors
+Featured MCP connectors
+Custom MCP connectors
 Webhooks
 Private plugins and widgets
 Plugin management

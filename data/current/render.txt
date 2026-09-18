@@ -439,14 +439,6 @@ Up to 1 CPU
 $0.20 / active CPU hour; $0.05 / active GB hour
 Up to 4GB RAM
 flex
-Less than 1 CPU
-$0.05/hour
-512 MB RAM
-starter
-1 CPU
-$0.20/hour
-2 GB RAM
-standard
 2 CPU
 $0.40/hour
 4 GB RAM
@@ -694,7 +686,6 @@ HIPAA BAA
 20% compute premium for enabled workspaces
 20% compute premium for enabled workspaces
 Support
-Community
 Email
 Chat
 Premium support
@@ -856,7 +847,6 @@ SOC 2 & ISO documentation
 HIPAA BAA
 —
 Support
-Community
 Email
 Chat
 Premium support

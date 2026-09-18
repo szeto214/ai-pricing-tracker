@@ -1,4 +1,4 @@
-"A quarter of work, done in 6 days". How a solo founder built isolated Postgres per tenant on Neon
+The Neon backend is GA: a complete set of primitives so agents can build
 Neon
 Discord
 23.1k
@@ -20,9 +20,7 @@ Unlimited team members
 Backend
 Managed Better Auth
 5 GB of Object Storage
-Beta
 Functions
-Beta
 Launch
 Usage-based
 Typical spend:
@@ -44,11 +42,8 @@ Sizes up to 16 CU (64 GB RAM)
 Backend
 Managed Better Auth
 Object Storage
-Beta
 Functions
-Beta
 AI Gateway
-Beta
 Scale
 Usage-based
 Typical spend:
@@ -70,11 +65,8 @@ SLAs, HIPAA, private network
 Backend
 Managed Better Auth
 Object Storage
-Beta
 Functions
-Beta
 AI Gateway
-Beta
 Special programs
 Agent Plan
 App generation platforms
@@ -117,13 +109,10 @@ Scheduled Backups
 Backend
 Managed Better Auth
 Object Storage
-Beta
 Stored volume
 Functions
-Beta
 Compute and invocations
 AI Gateway
-Beta
 Network
 IP Allow Rules
 Private Networking
@@ -194,16 +183,13 @@ Up to 1M MAUs
 If you're planning to go beyond that,
 contact us
 $0.023 per GB-month
-No charges during beta
 Compute
 $0.10 per active capacity-hour
 $0.025 per waiting capacity-hour
 Invocations
 $0.60 per 1M invocations
-Charges
-No charges during beta
 List prices here
-No charges during beta
+Prepaid credits
 500 GB per project included
 then $0.10/GB
 3 days
@@ -230,16 +216,13 @@ Up to 1M MAUs
 If you're planning to go beyond that,
 contact us
 $0.023 per GB-month
-No charges during beta
 Compute
 $0.12 per active capacity-hour
 $0.03 per waiting capacity-hour
 Invocations
 $0.60 per 1M invocations
-Charges
-No charges during beta
 List prices here
-No charges during beta
+Prepaid credits
 500 GB per project included
 then $0.10/GB
 $0.01 per GB
@@ -291,8 +274,6 @@ Your questions,
 answered
 Does Neon offer a backend now?
 Yes. Alongside our serverless Postgres database, Neon now offers Managed Better Auth, Object Storage, Functions, and AI Gateway - a full backend suite that runs alongside your database and branches with it.
-What does the beta label imply on Object Storage, Functions, and AI Gateway?
-While these tools are in beta, they're not feature-complete - they're ready to deploy but expect some rough edges, evolving limits, and functionality that's still being built out (for example, monitoring coverage is still expanding, together with region availability). Billing is also paused during the beta phase.
 What is a Neon project?
 A project in Neon is the top-level container for your environment. Each project includes all branches, with your Postgres databases and (if you deploy them) your Object Storage buckets, Functions, Managed Better Auth endpoints, and AI Gateway access.
 What is a CU?
@@ -329,9 +310,9 @@ Over a month, this uses roughly 90 CU-hours, staying within the Free plan limits
 This model is designed to make it practical to have many small or intermittent databases (for development, demos, previews, or experiments) without being forced into an upgrade.
 Learn more about our Free Plan philosophy.
 Is Object Storage, Functions, or AI Gateway usage included in my Free plan CU-hours?
-No. CU-hours are specific to Postgres database compute. Object Storage, Functions, and AI Gateway will have their own usage limits that will be published before GA. During the beta phase, they are free to use within the guardrails we've set to prevent abuse.
+No. CU-hours measure Postgres database compute only. Object Storage, Functions, and AI Gateway have their own allowances and rates, shown in the plan table.
 How are the workload cost estimates calculated?
-The typical monthly cost estimates shown in our pricing plans are based on representative database workloads that reflect common usage patterns across different application types. These estimates cover Postgres compute and storage only - they don't factor in Object Storage, Functions, or AI Gateway usage, which are billed separately and currently free of charge during beta.
+The typical monthly cost estimates shown in our pricing plans are based on representative database workloads that reflect common usage patterns across different application types. These estimates cover Postgres compute and storage only - they don't factor in Object Storage, Functions, or AI Gateway usage, which are billed separately.
 Each estimate combines two components:
 Database compute cost:
 Based on the specified CU-hours per month.
@@ -368,8 +349,17 @@ Neon Console
 to understand your real costs.
 Learn more about how Neon billing works.
 How are Object Storage, Functions, and AI Gateway billed?
-They aren't billed yet. Usage is free of charge for all three during beta, with rate and usage guardrails in place. Public pricing for Object Storage and Functions will be announced before general availability (GA).
-AI Gateway requires a paid Neon plan (Launch or Scale) to access, and while it's also free of charge during beta, its pricing model is already public - Neon will charge the same per-token rate as the underlying model provider, with zero markup. Exact per-model rates will be published before billing begins.
+Each is billed separately from Postgres compute (CU-hours).
+Object Storage
+is $0.023 per GB-month of stored volume. There's no per-operation charge. Egress counts toward your public network transfer allowance. The Free plan includes 5 GB of Object Storage per project.
+Functions
+are billed for active compute, waiting compute, and invocations at the rates in the plan table. The Free plan includes 10 active capacity-hours, 400 waiting capacity-hours, and 1 million invocations per month.
+AI Gateway
+is available on Launch and Scale. Pricing matches the model provider's list prices, with no markup, and draws down prepaid credits.
+Learn how prepaid credits work
+, or see
+per-model rates
+.
 What does "no monthly minimum" mean on paid plans?
 Neon's paid plans don't require a minimum monthly spend or base fee. You're billed purely based on usage. If one month you barely use Neon, your bill might be just a few dollars.
 For example, if your databases are mostly idle that month, or you only run them briefly for development or testing, you'll only pay for the compute and storage actually consumed during that time. Remember that Neon databases scale to zero by default.

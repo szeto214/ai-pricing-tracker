@@ -116,8 +116,8 @@ $10
 Drag to adjust
 1 GB
 RAM /
-2-core ARM
-CPU / Connections: Direct
+Shared compute
+/ Connections: Direct
 60
 , Pooler
 200
@@ -126,101 +126,78 @@ Starts from
 $10
 /month
 Scale compute up to
-64 cores and 256 GB RAM
+64 vCPUs and 256 GB RAM
 Learn about Compute add-ons
 Compute Size
 Price USD
-CPU
-Dedicated
+Compute
 Memory
 Connections: Direct
 Connections: Pooler
 First instance is free on paid plans
 Micro
 $10
-2-core ARM
-Not included in
-Free Plan
+Shared compute
 1 GB
 60
 200
 Small
 $15
-2-core ARM
-Not included in
-Free Plan
+Shared compute
 2 GB
 90
 400
 Medium
 $60
-2-core ARM
-Not included in
-Free Plan
+Shared compute
 4 GB
 120
 600
 Large
 $110
-2-core ARM
-Included in
-Pro Plan
+Dedicated · 2 vCPUs
 8 GB
 160
 800
 XL
 $210
-4-core ARM
-Included in
-Pro Plan
+Dedicated · 4 vCPUs
 16 GB
 240
 1,000
 2XL
 $410
-8-core ARM
-Included in
-Pro Plan
+Dedicated · 8 vCPUs
 32 GB
 380
 1,500
 4XL
 $960
-16-core ARM
-Included in
-Pro Plan
+Dedicated · 16 vCPUs
 64 GB
 480
 3,000
 8XL
 $1,870
-32-core ARM
-Included in
-Pro Plan
+Dedicated · 32 vCPUs
 128 GB
 490
 6,000
 12XL
 $2,800
-48-core ARM
-Included in
-Pro Plan
+Dedicated · 48 vCPUs
 192 GB
 500
 9,000
 16XL
 $3,730
-64-core ARM
-Included in
-Pro Plan
+Dedicated · 64 vCPUs
 256 GB
 500
 12,000
 >16XL
 Contact Us
 Custom
-Included in
-Pro Plan
 Custom
 Custom
 Custom
@@ -228,11 +205,8 @@ Compute Size
 Micro
 Price USD
 $10
-CPU
-2-core ARM
-Dedicated
-Not included in
-Free Plan
+Compute
+Shared compute
 Memory
 1 GB
 Connections: Direct
@@ -243,11 +217,8 @@ Plan
 Small
 Price USD
 $15
-CPU
-2-core ARM
-Dedicated
-Not included in
-Free Plan
+Compute
+Shared compute
 Memory
 2 GB
 Connections: Direct (recommended)
@@ -258,11 +229,8 @@ Plan
 Medium
 Price USD
 $60
-CPU
-2-core ARM
-Dedicated
-Not included in
-Free Plan
+Compute
+Shared compute
 Memory
 4 GB
 Connections: Direct (recommended)
@@ -273,11 +241,8 @@ Plan
 Large
 Price USD
 $110
-CPU
-2-core ARM
-Dedicated
-Included in
-Pro Plan
+Compute
+Dedicated · 2 vCPUs
 Memory
 8 GB
 Connections: Direct (recommended)
@@ -288,11 +253,8 @@ Plan
 XL
 Price USD
 $210
-CPU
-4-core ARM
-Dedicated
-Included in
-Pro Plan
+Compute
+Dedicated · 4 vCPUs
 Memory
 16 GB
 Connections: Direct (recommended)
@@ -303,11 +265,8 @@ Plan
 2XL
 Price USD
 $410
-CPU
-8-core ARM
-Dedicated
-Included in
-Pro Plan
+Compute
+Dedicated · 8 vCPUs
 Memory
 32 GB
 Connections: Direct (recommended)
@@ -318,11 +277,8 @@ Plan
 4XL
 Price USD
 $960
-CPU
-16-core ARM
-Dedicated
-Included in
-Pro Plan
+Compute
+Dedicated · 16 vCPUs
 Memory
 64 GB
 Connections: Direct (recommended)
@@ -333,11 +289,8 @@ Plan
 8XL
 Price USD
 $1,870
-CPU
-32-core ARM
-Dedicated
-Included in
-Pro Plan
+Compute
+Dedicated · 32 vCPUs
 Memory
 128 GB
 Connections: Direct (recommended)
@@ -348,11 +301,8 @@ Plan
 12XL
 Price USD
 $2,800
-CPU
-48-core ARM
-Dedicated
-Included in
-Pro Plan
+Compute
+Dedicated · 48 vCPUs
 Memory
 192 GB
 Connections: Direct (recommended)
@@ -363,11 +313,8 @@ Plan
 16XL
 Price USD
 $3,730
-CPU
-64-core ARM
-Dedicated
-Included in
-Pro Plan
+Compute
+Dedicated · 64 vCPUs
 Memory
 256 GB
 Connections: Direct (recommended)
@@ -378,11 +325,8 @@ Plan
 >16XL
 Price USD
 Contact Us
-CPU
+Compute
 Custom
-Dedicated
-Included in
-Pro Plan
 Memory
 Custom
 Connections: Direct (recommended)
@@ -518,6 +462,9 @@ Anonymous Sign-ins
 Included in
 free
 Social OAuth providers
+Included in
+free
+OAuth 2.1 Server
 Included in
 free
 Custom SMTP server
@@ -773,6 +720,12 @@ Included in
 Included in
 Included in
 Social OAuth providers
+Included in
+Included in
+Included in
+Included in
+OAuth 2.1 Server
+About OAuth 2.1 Server
 Included in
 Included in
 Included in

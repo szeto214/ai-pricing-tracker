@@ -6,9 +6,9 @@
   "url": "https://vercel.com/pricing",
   "final_url": "https://vercel.com/pricing",
   "parser_version": 4,
-  "content_hash": "aa9ae1a7ae3dbe81ab9aa5aa88cff862fafc5aa208b838a373f6d470f27565d2",
-  "raw_hash": "21b41007f86477eb086e1d5fab8ce7f961a2efbabca74d64bb2f4510a0505b83",
-  "text_bytes": 13134,
+  "content_hash": "ed71c6a85747cf0ac40ac1db7fc673a3fdc71e7a451d182e453775a0e39bae07",
+  "raw_hash": "3eaab096b371e420ac4f960465c081e2841dbe4e3a8ca1e30624ca9df89112c9",
+  "text_bytes": 13168,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

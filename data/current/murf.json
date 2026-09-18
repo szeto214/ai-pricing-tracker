@@ -6,50 +6,58 @@
   "url": "https://murf.ai/pricing",
   "final_url": "https://murf.ai/pricing",
   "parser_version": 4,
-  "content_hash": "9512b5af40b310a909a39d390fcbb31c89790b4db8cb5379e3334d47d139833b",
-  "raw_hash": "7f9a688d953efc3450409981b7f735495c1a0d10dbf3191640dacb3bbd07f29a",
-  "text_bytes": 10687,
+  "content_hash": "9beecfa04bfe43f734d3ef047830b1018d9acf55266d4c8864d401724c43c85e",
+  "raw_hash": "691203dcb722f8a3d2afc6e3f1b3d6f074bb07894cc1c10b70b2bb06afbf1b5d",
+  "text_bytes": 3912,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
     {
-      "name": "Free",
+      "name": "No credit card required",
+      "price_raw": "$10",
+      "amount": 10.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Text to Speech",
+      "price_raw": "$0.01",
+      "amount": 0.01,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Text to Speech",
+      "price_raw": "$0.03",
+      "amount": 0.03,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Voice Changer",
+      "price_raw": "$0.10",
+      "amount": 0.1,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Translation",
+      "price_raw": "$0.02",
+      "amount": 0.02,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "API Endpoints Usage Cost",
       "price_raw": "$0",
       "amount": 0.0,
       "currency": "USD",
-      "period": "month",
-      "features": []
-    },
-    {
-      "name": "Buy Plan",
-      "price_raw": "$19",
-      "amount": 19.0,
-      "currency": "USD",
-      "period": "month",
-      "features": []
-    },
-    {
-      "name": "Buy Plan",
-      "price_raw": "$66",
-      "amount": 66.0,
-      "currency": "USD",
-      "period": "month",
-      "features": []
-    },
-    {
-      "name": "Creator",
-      "price_raw": "$19",
-      "amount": 19.0,
-      "currency": "USD",
-      "period": "month",
-      "features": []
-    },
-    {
-      "name": "Business",
-      "price_raw": "$66",
-      "amount": 66.0,
-      "currency": "USD",
-      "period": "month",
+      "period": null,
       "features": []
     }
   ],

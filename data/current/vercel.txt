@@ -354,6 +354,7 @@ Automatic CI/CD
 Environment Variables
 Build Logs
 Remote Cache
+Backends
 Monorepo Support
 Webhook Triggers
 —
@@ -429,6 +430,7 @@ Flag Requests
 10K requests / month included
 $0.03 per 1K requests
 Custom
+Marketplace Integrations
 Observability
 Frontend observability on Vercel helps you monitor, analyze, and manage your applications.
 Usage Dashboard

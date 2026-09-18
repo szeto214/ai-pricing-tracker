@@ -1,16 +1,39 @@
 Models
-Union Alpha
-Union Alpha
-205B tokens
-Union Alpha is a multimodal model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks. Union Alpha is a stealth model. It is developed and operated by a third-party provider who has chosen to remain anonymous during this preview. OpenRouter routes requests to it and is not its developer, owner, or provider. Prompts and completions may be retained by the provider but are not used for training; all other use is governed by the
-Stealth Model Terms
+TypeSafe: Jev Latest
+Jev Latest
+This model always redirects to the latest model in the Jev family.
 by
-stealth
-Sep 16, 2026
-262K context
-$0/M input
+typesafe
+Sep 18, 2026
+32K context
+$0.042/M input
 tokens
 $0/M output
+tokens
+TypeSafe: Jev 1.13
+Jev 1.13
+425M tokens
+Jev is a structured decision model from TypeSafe, and the first of its System One models. System One models make fast, structured decisions for software, returning a typed choice rather than free-form text. It is suited for routing, classification, and other decision points inside an application where a fast, predictable answer matters more than generated prose. Learn more in TypeSafe's docs:
+https://docs.typesafe.ai/concepts/system-one
+by
+typesafe
+Sep 18, 2026
+32K context
+$0.042/M input
+tokens
+$0/M output
+tokens
+Pareto
+Pareto
+555M tokens
+Pareto is a multimodal composite model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks.
+by
+unbiased
+Sep 17, 2026
+262K context
+$2.50/M input
+tokens
+$7.50/M output
 tokens
 DeepSeek: DeepSeek Pro Latest
 DeepSeek Pro Latest
@@ -36,7 +59,7 @@ $0.60/M output
 tokens
 Inference.net: Schematron V2 Turbo
 Schematron V2 Turbo
-161M tokens
+180M tokens
 Schematron V2 Turbo is a 3B-parameter HTML-to-JSON extraction model from Inference.net. It prioritizes throughput for high-volume extraction workloads. Extraction instructions must be supplied through a JSON schema in response_format rather than through system or user prompts.
 by
 inference-net
@@ -48,7 +71,7 @@ $0.15/M output
 tokens
 Inference.net: Schematron V2 Small
 Schematron V2 Small
-51.6M tokens
+63.8M tokens
 Schematron V2 Small is a 3B-parameter HTML-to-JSON extraction model from Inference.net. It prioritizes extraction quality for complex schemas and long pages. Extraction instructions must be supplied through a JSON schema in response_format rather than through system or user prompts.
 by
 inference-net
@@ -61,7 +84,7 @@ tokens
 Meta: Muse Voice Transcribe 1.0
 Muse Voice Transcribe 1.0
 18+
-3.08M characters
+6.46M characters
 Muse Voice Transcribe 1.0 is a synchronous speech-to-text model from Meta. It is suited for push-to-talk, endpointing, and speaker-aware transcription, with keyword biasing for domain terms and language biasing through language-name hints. It accepts mono 16-bit PCM WAV audio at 16 kHz or 24 kHz for recordings up to 10 minutes. It does not provide word-level timestamps or confidence scores, and other audio formats must be converted to WAV before upload.
 by
 meta
@@ -114,7 +137,7 @@ $1.20/M output
 tokens
 Sakana: Fugu Ultra v2
 Fugu Ultra v2
-2.09B tokens
+2.48B tokens
 Fugu Ultra v2 is the higher-performance model in Sakana AI's Fugu family. Rather than a single monolithic model, Fugu is a learned multi-agent orchestration system: a language model trained to route tasks across a fixed pool of open and specialized models and to recursively call instances of itself. Fugu Ultra v2 prioritizes answer quality on complex multi-step reasoning, autonomous research, and full-stack software development, and does not rely on individual proprietary frontier models in its pool. It supports configurable reasoning effort (high, xhigh, max), function calling, structured outputs, image and PDF input, and built-in web search. Prompts above 272K tokens are billed at a higher rate. Orchestration tokens consumed by the system are billed as standard input/output tokens.
 by
 sakana
@@ -126,7 +149,7 @@ $30/M output
 tokens
 Sakana: Fugu Max
 Fugu Max
-3.97B tokens
+4.1B tokens
 Fugu Max is the cost-performance model in Sakana AI's Fugu family. Rather than a single monolithic model, Fugu is a learned multi-agent orchestration system: a language model trained to route tasks across a fixed pool of open-weights and specialized models, including NVIDIA's Nemotron family, and to recursively call instances of itself. Fugu Max dynamically selects efficient combinations of expert agents to improve quality and cost together, and is priced flat regardless of context length. It supports configurable reasoning effort (high, xhigh, max), function calling, structured outputs, image and PDF input, and built-in web search and web fetch. Orchestration tokens consumed by the system are billed as standard input/output tokens.
 by
 sakana
@@ -146,7 +169,8 @@ Sep 10, 2026
 $0.03/second
 inclusionAI: Ling 3.0 Flash VL (free)
 Ling 3.0 Flash VL (free)
-458B tokens
+547B tokens
+Programming (#49)
 Ling 3.0 Flash VL builds on Ling 3.0 Flash (124B total / 5.5B active MoE from InclusionAI), further strengthening its language capabilities while adding native visual perception and advanced visual agent capabilities. Hybrid instant/reasoning model with tool calling.
 by
 inclusionai
@@ -158,7 +182,7 @@ $0/M output
 tokens
 inclusionAI: Ling 3.0 Flash VL
 Ling 3.0 Flash VL
-1.37B tokens
+1.74B tokens
 Ling 3.0 Flash VL builds on Ling 3.0 Flash (124B total / 5.5B active MoE from InclusionAI), further strengthening its language capabilities while adding native visual perception and advanced visual agent capabilities. Hybrid instant/reasoning model with tool calling.
 by
 inclusionai
@@ -167,40 +191,6 @@ Sep 10, 2026
 $0.06/M input
 tokens
 $0.18/M output
-tokens
-DeepSeek: DeepSeek V4.1 Flash
-DeepSeek V4.1 Flash
-10.5T tokens
-Academia (#5)
-Finance (#2)
-Health (#2)
-Legal (#6)
-Marketing (#7)
-+7 categories
-DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture. It activates 8B parameters on input and 16B on output from a 552B-parameter backbone, an asymmetric split that keeps per-token compute low relative to the model's total size. Image understanding is native to the architecture, with visual and text embeddings trained jointly from the start of pre-training rather than added afterward as in the earlier experimental
-V4 Flash Vision Exp
-. It is suited for coding, terminal, and computer-use agents, along with long-horizon tasks that must run to completion across many steps and long-context analysis. Compressed KV caching cuts cache memory to roughly a quarter of the previous Flash generation, significantly reducing costs on agentic workloads. DeepSeek positions it as the cost-efficient tier of the V4.1 family and reports that it exceeds
-V4 Pro
-on performance, speed, and task completion time.
-by
-deepseek
-Sep 10, 2026
-1.05M context
-$0.15/M input
-tokens
-$0.60/M output
-tokens
-OpenAI: GPT Image 2.5 Sunburst
-GPT Image 2.5 Sunburst
-1.52B tokens
-GPT Image 2.5 Sunburst is an image generation and editing model from OpenAI, positioned as the precision-oriented tier of the GPT Image 2.5 series. It is suited to detailed creative work where editing accuracy matters more than generation speed, via the dedicated Images API.
-by
-openai
-Sep 9, 2026
-400K context
-$8/M input
-tokens
-$30/M output
 tokens
 Compare
 Discover Models

@@ -526,7 +526,7 @@ For more information, please visit our
 usage billing documentation
 .
 Which Free namespaces can purchase a monthly commitment of GitLab Credits?
-GitLab.com Free top-level group namespaces can purchase and share a pool of credits. Self-managed instances and personal namespaces cannot purchase monthly commitments.
+GitLab.com Free top-level group namespaces and Self-Managed Free EE instances can purchase and share a pool of credits. Personal namespaces cannot purchase monthly commitments.
 Can I share credits across my organization?
 Credit sharing depends on how the credits were acquired:
 Included credits are allocated on a per-user basis and cannot be shared between users.
@@ -541,26 +541,36 @@ Can I purchase GitLab Flex with a credit card?
 No. GitLab Flex is available only through sales-assisted channels.
 Can I switch from traditional licensing to GitLab Flex mid-term?
 Contact your GitLab account team to discuss conversion options. In most cases, you can convert at your next renewal date.
-What happens if I run out of GitLab Flex balance mid-year?
-If your GitLab Flex balance reaches zero, additional usage is billed as on-demand overage:
-Cloud-connected: Auto-billed monthly
-Air-gapped: Invoiced quarterly via true-up
-You can also contact your GitLab account team to increase your commitment mid-term.
-Can I allocate my GitLab Flex commitment across multiple organizations or instances?
-Yes. GitLab Flex supports multi-organization and multi-instance allocation. Contact your account team to configure namespace-level allocation. That said, GitLab Flex only applies to a single subscription.
-Do volume discounts apply to overage?
-No. Overage is always billed at list rate ($1/credit). Volume discounts apply only to your reserved allocation.
 Can I change my deployment model after signing a Flex contract?
-Deployment model (SaaS, Self-Managed, Dedicated, Air-Gapped) is set at contract signing and cannot be changed mid-term. Contact your account team to discuss options at renewal.
+Deployment model (GitLab.com, Self-Managed, GitLab Dedicated) is set at contract signing and cannot be changed mid-term. Contact your account team to discuss options at renewal.
+What's the difference between "reserved" and "on-demand" usage?
+Reserved: seats and GitLab Credits you commit to in advance for a given month. The full reserved amount is locked at the start of each month and is use-it-or-lose-it. Your Flex discount applies.
+On-demand: any usage above your reserved amounts. GitLab Credits are billed at list rate ($1/credit); seats are billed at the same discounted rate as your reserved seats.
+When your GitLab Flex commitment balance hits zero, further usage is invoiced directly.
+How do I see my GitLab Flex balance, reservations and usage?
+Your GitLab Flex balance, current reservations, and usage to date are available in the
+Customers Portal
+.
+Can I limit how much on-demand usage I accrue?
+Yes. You can set
+usage caps
+that limit on-demand usage for each capability, and adjust them month to month alongside your reservation. Usage notifications alert you as you approach your limits.
 How do I enable new capabilities under my Flex contract?
-New capabilities that are generally available can be enabled through the Manage Flex Budget portal. Simply adjust your per-use credit budget or reserved credit allocation to include the new capability. No contract amendment required.
-Do unused reserved credits carry over to the next month?
-No. Reserved credits are use-it-or-lose-it and expire at the end of each month.
-Can I convert my Flex balance back to cash if I don't use it all?
-No. Your Flex commitment is a use-it-or-lose-it annual spend agreement. Unused balance at the end of the term is forfeited.
-What's the difference between "reserved" and "per-use" credit allocation?
-Reserved credits: A fixed monthly pool (use-it-or-lose-it) debited at month start. Pre-set Flex discount applies.
-Per-use credits: You pay for what you use outside of reserved spend (up to your budget). Unused budget does not debit your Flex balance.
+New capabilities that are generally available can be enabled within GitLab by your group Owner or instance administrator. No contract change or amendment is required.
+If you enable a capability without reserving credits for it, its consumption draws from your GitLab Flex commitment as on-demand usage at list rate ($1/credit).
+To get the discounted reserved rate,
+add a reservation for that capability in the Customers Portal
+.
+Can I allocate my GitLab Flex commitment across multiple Self-Managed instances?
+Yes. GitLab Flex supports multi-instance allocation and aggregated billing against your GitLab Flex commitment. Contact your GitLab account team for more details.
+What happens if I run out of GitLab Flex commitment mid-term?
+If
+your commitment is exhausted
+before the end of your term, GitLab invoices you directly each remaining month for both your contracted minimum monthly reservation and any on-demand on top of it. You can use spend caps and usage notifications to control consumption, or contact your GitLab account team to increase your commitment mid-term.
+Do unused reserved GitLab Credits or seats carry over to the next month?
+No. Reserved GitLab Credits and seats are use-it-or-lose-it and expire at the end of each month.
+Can I convert my GitLab Flex commitment back to cash if I don't use it all?
+No. Your GitLab Flex commitment is a use-it-or-lose-it annual spend agreement. Unused balance at the end of the term is forfeited.
 Start building faster today
 See what your team can do with the intelligent orchestration platform for DevSecOps.
 Get your free trial

@@ -196,6 +196,7 @@ Treasury for platforms
 Embedded financial services
 Issuing
 Physical and virtual cards
+See all products
 More
 Product roadmap
 See what’s ahead
@@ -280,7 +281,7 @@ Pricing built for businesses of all sizes
 Standard
 Access a complete payments platform with simple, pay-as-you-go pricing. No setup fees, monthly fees, or hidden fees.
 Get started
-2.9% + $0.30
+2.9% + 30¢
 per successful transaction for domestic cards
 Custom
 Design a custom package— available for businesses with large payments volume or unique business models.
@@ -1084,7 +1085,7 @@ Read more
 Are there additional fees for refunds?
 For businesses on standard pricing: There may be
 fees for refunds when bank transfers are used
-.For all other payment methods, there are no fees for issuing refunds. The payment processing, Connect and currency conversion fees from the original transaction are not returned.
+. For all other payment methods, there are no fees for issuing refunds. The payment processing, Connect and currency conversion fees from the original transaction are not returned.
 For businesses on custom pricing: There may be fees for issuing refunds depending on your fee schedule with Stripe.
 Do you have setup fees or monthly fees?
 Stripe does not charge setup fees, monthly fees, or any other hidden fees like closure fees. All fees for businesses on standard pricing are listed on our website.

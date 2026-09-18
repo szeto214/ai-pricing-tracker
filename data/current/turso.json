@@ -6,9 +6,9 @@
   "url": "https://turso.tech/pricing",
   "final_url": "https://turso.tech/pricing",
   "parser_version": 4,
-  "content_hash": "5453317edf82378d1420bc2b653207aef6ab702601ad59ca90ba4942b86c8ac2",
-  "raw_hash": "1033161e74c5cf29ac2d4051c45512606f4c78105e3a8cd690809e983ac5c064",
-  "text_bytes": 4178,
+  "content_hash": "801dde28fa0bdb5774d6a8b069a16f037a50428e81f29facaac8998dfc4b3d30",
+  "raw_hash": "dafb3803effc84f95b670b96a3290d89b238b73ebd10c9268c900ab317fad497",
+  "text_bytes": 4448,
   "extractor": "jsonld",
   "confidence": "medium",
   "plans": [

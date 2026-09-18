@@ -5,11 +5,11 @@ Best for individual developers
 Free
 Get started for free
 What's included
-Unlimited repositories
-50 credits per month:
-1 credit = 1 standard review
-3 credits = 1 trex review
+50
+credits
+per month
 1 active developer
+Unlimited repositories
 Recommended
 Pro
 Best for teams
@@ -17,24 +17,24 @@ $30
 /seat/month
 Start 14 day free trial
 What's included
-Unlimited Repositories
-50 credits included per seat:
-1 credit = 1 standard review
-3 credits = 1 trex review
-$1 per additional credit
-Unlimited Users
-Create custom rules
-Connect unlimited external apps
+50
+credits
+per seat per month
+Extra credits at $1 each
+Custom review rules
+Unlimited seats
+Unlimited repositories
+Unlimited integrations
 Enterprise
 Best for organizations at scale
 Custom pricing
-Talk to Sales
-What's included
-Option to self-host in your own infrastructure
-Security and compliance
-SSO/SAML
+Talk to sales
+Everything in Pro, plus
+Self-host in your own infrastructure
+SSO and SAML
 GitHub Enterprise support
-Dedicated Slack channel for support
+Security and compliance reviews
+Dedicated Slack support channel
 Custom invoicing and payment terms
 Custom DPA and terms of service
 Starter
@@ -50,30 +50,41 @@ Best for organizations at scale
 Custom pricing
 Get started for free
 Start 14 day free trial
-Talk to Sales
+Talk to sales
 What's included
-Unlimited repositories
-50 credits per month:
-1 credit = 1 standard review
-3 credits = 1 trex review
+50
+credits
+per month
 1 active developer
+Unlimited repositories
 What's included
-Unlimited Repositories
-50 credits included per seat:
-1 credit = 1 standard review
-3 credits = 1 trex review
-$1 per additional credit
-Unlimited Users
-Create custom rules
-Connect unlimited external apps
-What's included
-Option to self-host in your own infrastructure
-Security and compliance
-SSO/SAML
+50
+credits
+per seat per month
+Extra credits at $1 each
+Custom review rules
+Unlimited seats
+Unlimited repositories
+Unlimited integrations
+Everything in Pro, plus
+Self-host in your own infrastructure
+SSO and SAML
 GitHub Enterprise support
-Dedicated Slack channel for support
+Security and compliance reviews
+Dedicated Slack support channel
 Custom invoicing and payment terms
 Custom DPA and terms of service
+How credits work
+Review
+Credits
+What it does
+Standard review
+1
+Reviews your PR for bugs, style, and codebase context.
+TREX review
+3
+Writes and runs targeted tests in a sandbox to catch missed edge cases.
+Credits reset monthly and don't roll over.
 [ OPEN SOURCE ]
 Free for OSS projects
 Greptile is free for qualified non-commercial projects with MIT or Apache licenses.

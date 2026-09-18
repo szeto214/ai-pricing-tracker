@@ -6,9 +6,9 @@
   "url": "https://fireworks.ai/pricing",
   "final_url": "https://fireworks.ai/pricing",
   "parser_version": 4,
-  "content_hash": "2df78a75737cc43567fb6439a6c71372a905652561677c483eaa28ef13e69925",
-  "raw_hash": "ba35d2d41fbdd2b95cd030ec34057a8746a1ce0a4f36abe797da3370ab174e6e",
-  "text_bytes": 3598,
+  "content_hash": "3ca622bb48e08f6ce3d887aef927b0ed27a25213952cd8168e62fe9b582a96d3",
+  "raw_hash": "f9cd1cca4d15894911e9184dccaf9d6e1fa664c662ddf50395d93a18248663fd",
+  "text_bytes": 3575,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -51,8 +51,8 @@
     },
     {
       "name": "On demand deployments",
-      "price_raw": "$7.00",
-      "amount": 7.0,
+      "price_raw": "$0.134",
+      "amount": 0.134,
       "currency": "USD",
       "period": "hour",
       "features": [
@@ -317,81 +317,81 @@
       "key": "h100 80 gb gpu",
       "model": "H100 80 GB GPU",
       "prices": {
-        "price ($) per hour - upto aug 31": {
-          "raw": "$7.00",
-          "amount": 7.0
+        "price ($) per minute": {
+          "raw": "$0.134",
+          "amount": 0.134
         },
-        "price ($) per hour - from sep 1": {
+        "price ($) per hour": {
           "raw": "$8.00",
           "amount": 8.0
         }
       },
       "currency": "USD",
-      "unit": ""
+      "unit": "per minute"
     },
     {
       "key": "h200 141 gb gpu",
       "model": "H200 141 GB GPU",
       "prices": {
-        "price ($) per hour - upto aug 31": {
-          "raw": "$7.00",
-          "amount": 7.0
+        "price ($) per minute": {
+          "raw": "$0.134",
+          "amount": 0.134
         },
-        "price ($) per hour - from sep 1": {
+        "price ($) per hour": {
           "raw": "$8.00",
           "amount": 8.0
         }
       },
       "currency": "USD",
-      "unit": ""
+      "unit": "per minute"
     },
     {
       "key": "b200 180 gb gpu",
       "model": "B200 180 GB GPU",
       "prices": {
-        "price ($) per hour - upto aug 31": {
-          "raw": "$10.00",
-          "amount": 10.0
+        "price ($) per minute": {
+          "raw": "$0.217",
+          "amount": 0.217
         },
-        "price ($) per hour - from sep 1": {
+        "price ($) per hour": {
           "raw": "$13.00",
           "amount": 13.0
         }
       },
       "currency": "USD",
-      "unit": ""
+      "unit": "per minute"
     },
     {
       "key": "b300 288 gb gpu",
       "model": "B300 288 GB GPU",
       "prices": {
-        "price ($) per hour - upto aug 31": {
-          "raw": "$12.00",
-          "amount": 12.0
+        "price ($) per minute": {
+          "raw": "$0.250",
+          "amount": 0.25
         },
-        "price ($) per hour - from sep 1": {
+        "price ($) per hour": {
           "raw": "$15.00",
           "amount": 15.0
         }
       },
       "currency": "USD",
-      "unit": ""
+      "unit": "per minute"
     },
     {
       "key": "gb300 288 gb gpu",
       "model": "GB300 288 GB GPU",
       "prices": {
-        "price ($) per hour - upto aug 31": {
-          "raw": "$18.00",
-          "amount": 18.0
+        "price ($) per minute": {
+          "raw": "$0.334",
+          "amount": 0.334
         },
-        "price ($) per hour - from sep 1": {
+        "price ($) per hour": {
           "raw": "$20.00",
           "amount": 20.0
         }
       },
       "currency": "USD",
-      "unit": ""
+      "unit": "per minute"
     }
   ],
   "tables": [
@@ -514,32 +514,32 @@
       "rows": [
         [
           "GPU Type",
-          "Price ($) per hour - upto Aug 31",
-          "Price ($) per hour - from Sep 1"
+          "Price ($) per minute",
+          "Price ($) per hour"
         ],
         [
           "H100 80 GB GPU",
-          "$7.00",
+          "$0.134",
           "$8.00"
         ],
         [
           "H200 141 GB GPU",
-          "$7.00",
+          "$0.134",
           "$8.00"
         ],
         [
           "B200 180 GB GPU",
-          "$10.00",
+          "$0.217",
           "$13.00"
         ],
         [
           "B300 288 GB GPU",
-          "$12.00",
+          "$0.250",
           "$15.00"
         ],
         [
           "GB300 288 GB GPU",
-          "$18.00",
+          "$0.334",
           "$20.00"
         ]
       ]

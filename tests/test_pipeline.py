@@ -1630,6 +1630,145 @@ def test_halaman_per_tool_17_09() -> None:
     check("target nonaktif tidak ikut ditautkan", "t/mati.html" not in daftar)
 
 
+def test_feed_dan_penyaring_18_09() -> None:
+    """Alasan untuk kembali — RSS, penyaring tool, gerbang tiga lapis (18/09).
+
+    Sampai hari ini tidak ada satu pun cara bagi pembaca untuk tahu ada
+    perubahan harga tanpa membuka situsnya sendiri setiap hari. RSS dipilih
+    karena cocok dengan syarat pemilik sejak hari pertama: tanpa akun, tanpa
+    alamat email, tanpa "pelanggan yang harus dilayani".
+
+    Yang dikunci di sini: feed tidak boleh berubah kalau arsipnya tidak
+    berubah (kalau memakai jam dinding, tiap hari muncul diff palsu), feed
+    software tidak boleh tenggelam oleh GPU, dan peristiwa yang sudah
+    dikoreksi maupun `parser_upgrade` tidak boleh ikut tersiar.
+    """
+    print("\n17. feed RSS, penyaring tool, gerbang tiga lapis")
+    sys.path.insert(0, str(ROOT / "scripts"))
+    import build_site
+
+    ubah = [
+        {"date": "2026-09-16", "slug": "airbyte", "name": "Airbyte",
+         "kind": "price_change", "plan_events": [
+             {"type": "price_changed", "plan": "Standard",
+              "from": {"raw": "10.00", "currency": "USD"},
+              "to": {"raw": "20.00", "currency": "USD"}, "pct_change": 100}]},
+        {"date": "2026-09-16", "slug": "vast-ai", "name": "Vast.ai",
+         "kind": "price_change", "plan_events": [
+             {"type": "price_changed", "plan": "H100",
+              "from": {"raw": "$1"}, "to": {"raw": "$2"}, "pct_change": 100}]},
+        {"date": "2026-09-15", "slug": "acme", "name": "Acme",
+         "kind": "parser_upgrade", "plan_events": [
+             {"type": "price_changed", "plan": "Pro",
+              "from": {"raw": "$1"}, "to": {"raw": "$9"}}]},
+        {"date": "2026-09-14", "slug": "acme", "name": "Acme",
+         "kind": "price_change", "plan_events": [
+             {"type": "price_changed", "plan": "Pro",
+              "from": {"raw": "$1"}, "to": {"raw": "$3"}}]},
+    ]
+    koreksi = {("2026-09-14", "acme", "price_change")}
+    sw = build_site.isi_feed(ubah, koreksi, {"vast-ai"}, gpu=False)
+    gpu = build_site.isi_feed(ubah, koreksi, {"vast-ai"}, gpu=True)
+    check("feed software tidak memuat sewa GPU",
+          [b["slug"] for b in sw] == ["airbyte"], f"-> {[b['slug'] for b in sw]}")
+    check("feed GPU memuat GPU saja",
+          [b["slug"] for b in gpu] == ["vast-ai"], f"-> {gpu}")
+    check("hari kenaikan versi pembaca tidak ikut tersiar",
+          all(b["date"] != "2026-09-15" for b in sw + gpu))
+    check("peristiwa yang sudah dikoreksi tidak ikut tersiar",
+          all(b["slug"] != "acme" for b in sw), f"-> {sw}")
+
+    xml = build_site.feed(sw, judul="Uji", keterangan="Uji", jalur_diri="feed.xml")
+    check("feed berupa XML yang sah", _xml_sah(xml), f"-> {xml[:200]}")
+    check("butir feed menautkan ke halaman tool",
+          "t/airbyte.html" in xml)
+    check("angka lama dan baru ikut di isi feed",
+          "$10.00" in xml and "$20.00" in xml, f"-> {xml[:400]}")
+    check("tanggal RSS dibentuk dari tanggal arsip, bukan jam dinding",
+          build_site.waktu_rfc822("2026-09-16")
+          == "Wed, 16 Sep 2026 00:00:00 +0000",
+          f"-> {build_site.waktu_rfc822('2026-09-16')}")
+    check("membangun feed dua kali menghasilkan berkas identik",
+          xml == build_site.feed(sw, judul="Uji", keterangan="Uji",
+                                 jalur_diri="feed.xml"))
+
+    # --- penyaring daftar tool -------------------------------------------
+    from collector.config import Target
+    targets = {"cursor": Target(slug="cursor", name="Cursor",
+                                url="https://c.test/pricing",
+                                category="ai-coding")}
+    daftar = build_site.daftar_tool(targets, {})
+    check("daftar tool bisa disaring (tiap tool membawa namanya)",
+          'data-nama="cursor"' in daftar, f"-> {daftar[:200]}")
+    check("kotak pencarian disembunyikan sampai JavaScript menyalakannya",
+          'id="cari"' in daftar and "hidden" in daftar)
+    check("tanpa JavaScript daftarnya tetap utuh (tidak disembunyikan CSS)",
+          ".tool[hidden]" in build_site.CSS and ".tool{display:inline-block"
+          in build_site.CSS)
+
+
+def test_gerbang_tiga_lapis() -> None:
+    """Gerbang dilaporkan tiga lapis, tidak dijumlahkan (keputusan 15/09).
+
+    Paket software, harga per-baris API, dan sewa GPU bergerak dengan laju
+    yang sama sekali berbeda. Menjumlahkannya membuat GPU — yang bergerak
+    nyaris tiap hari — menutupi dua lapis lain, dan gerbangnya kehilangan
+    arti persis seperti sebelum 03/09.
+    """
+    print("\n17b. gerbang tiga lapis")
+    import io
+    from contextlib import redirect_stdout
+
+    sys.path.insert(0, str(ROOT / "scripts"))
+    import gate_status
+
+    simpan = (config.CHANGES_LOG.read_text(encoding="utf-8")
+              if config.CHANGES_LOG.exists() else None)
+    baris = [
+        {"date": "2026-09-16", "slug": "acme", "name": "Acme",
+         "kind": "price_change", "plan_events": [
+             {"type": "price_changed", "plan": "Pro", "from": {"raw": "$1"},
+              "to": {"raw": "$2"}}], "model_events": []},
+        {"date": "2026-09-16", "slug": "nimbus", "name": "Nimbus",
+         "kind": "price_change", "plan_events": [], "model_events": [
+             {"type": "model_price_changed", "model": "m1", "changes": [
+                 {"field": "input", "from": {"raw": "$1"}, "to": {"raw": "$2"}},
+                 {"field": "output", "from": {"raw": "$3"}, "to": {"raw": "$4"}}]}]},
+    ]
+    config.CHANGES_DIR.mkdir(parents=True, exist_ok=True)
+    config.CHANGES_LOG.write_text(
+        "\n".join(json.dumps(b) for b in baris) + "\n", encoding="utf-8")
+    buf, old = io.StringIO(), sys.argv
+    try:
+        sys.argv = ["gate_status.py"]
+        with redirect_stdout(buf):
+            gate_status.main()
+    finally:
+        sys.argv = old
+        if simpan is None:
+            config.CHANGES_LOG.unlink()
+        else:
+            config.CHANGES_LOG.write_text(simpan, encoding="utf-8")
+    keluaran = buf.getvalue()
+    check("paket software dilaporkan sendiri",
+          "**Paket software**: **1 / 100**" in keluaran, f"-> {keluaran[:400]}")
+    check("harga per-baris API dilaporkan sendiri (2 angka)",
+          "**Harga per-baris API**" in keluaran and "(2 angka)" in keluaran,
+          f"-> {keluaran[:400]}")
+    check("sewa GPU tetap lapis terpisah", "**Sewa GPU**" in keluaran)
+    check("ketiganya tidak dijumlahkan jadi satu angka",
+          "TIDAK dijumlahkan" in keluaran)
+
+
+def _xml_sah(teks: str) -> bool:
+    import xml.dom.minidom
+    try:
+        xml.dom.minidom.parseString(teks)
+        return True
+    except Exception:  # noqa: BLE001
+        return False
+
+
 def main() -> int:
     print(f"data uji: {config.DATA_DIR}")
     test_hash_stability()
@@ -1659,6 +1798,8 @@ def main() -> int:
     test_empat_digit_tanpa_koma()
     test_halaman_publik_16_09()
     test_halaman_per_tool_17_09()
+    test_feed_dan_penyaring_18_09()
+    test_gerbang_tiga_lapis()
 
     print("\n" + "=" * 60)
     if FAILURES:

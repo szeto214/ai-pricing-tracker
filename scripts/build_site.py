@@ -384,6 +384,11 @@ a{color:var(--link)}
 .naik{color:var(--naik);font-weight:600}
 .turun{color:var(--turun);font-weight:600}
 .dim{color:var(--dim)}
+.tool{display:inline-block;margin:0 14px 6px 0}
+.tool[hidden],.grup[hidden]{display:none}
+#cari{width:100%;max-width:340px;padding:9px 12px;font:inherit;
+      border:1px solid var(--line);border-radius:8px;background:var(--card);
+      color:var(--fg);margin-top:10px}
 footer{margin-top:56px;padding-top:20px;border-top:1px solid var(--line);
        color:var(--dim);font-size:13px}
 footer li{margin-bottom:4px}
@@ -508,6 +513,8 @@ def build_html(*, tanggal: str, hari: int, halaman: int, angka: int,
 <meta name="description" content="A daily archive of price changes across AI tools, model APIs and GPU rentals. Collected once a day; every number links back to the vendor's official pricing page.">
 <link rel="stylesheet" href="style.css">
 <link rel="canonical" href="{esc(base_url())}">
+<link rel="alternate" type="application/rss+xml" title="AI &amp; software price changes" href="feed.xml">
+<link rel="alternate" type="application/rss+xml" title="GPU rental price changes" href="feed-gpu.xml">
 {meta_verifikasi()}
 </head>
 <body>
@@ -517,6 +524,10 @@ def build_html(*, tanggal: str, hari: int, halaman: int, angka: int,
   <p class="sub">We check {halaman} official pricing pages once a day and
      record what changed. Every number links back to the vendor’s own page —
      always check there before you decide.</p>
+  <p class="sub"><b>Follow the changes:</b>
+     <a href="feed.xml">RSS — software &amp; API</a> ·
+     <a href="feed-gpu.xml">RSS — GPU rentals</a>.
+     No account, no email, nothing to sign up for.</p>
   <ul class="stats">
     <li><b>{halaman}</b><span>pages tracked</span></li>
     <li><b>{hari}</b><span>days archived</span></li>
@@ -586,6 +597,12 @@ def build_html(*, tanggal: str, hari: int, halaman: int, angka: int,
      This site is not affiliated with, sponsored by, or representing any
      vendor. What is archived here are pricing facts the vendors publish
      themselves on public pages.</p>
+  <p><b>Reusing this data?</b> The structured records under <code>data/</code>
+     are published under
+     <a href="{esc(repo)}/blob/main/DATA-LICENSE" rel="noopener">CC BY 4.0</a> —
+     free to use, including commercially, with attribution. The code is MIT.
+     Archived vendor pages themselves are not covered: they belong to their
+     owners.</p>
   <p>This page is rebuilt automatically whenever the archive grows.
      No ads, no affiliate links, no tracking — your visit is not logged
      anywhere. Dates in UTC · parser version: {parser_version}.</p>
@@ -749,7 +766,9 @@ def tool_page(t, rec: dict, riwayat: list[dict], awal: str, repo: str,
 <body>
 <div class="wrap">
 <header>
-  <p class="sub"><a href="../">← All tracked tools</a></p>
+  <p class="sub"><a href="../">← All tracked tools</a> ·
+     <a href="../feed.xml">RSS: software &amp; API</a> ·
+     <a href="../feed-gpu.xml">RSS: GPU</a></p>
   <h1>{esc(t.name)} pricing history</h1>
   <p class="sub">{ringkas}</p>
   <p class="sub">Official source:
@@ -776,13 +795,110 @@ def tool_page(t, rec: dict, riwayat: list[dict], awal: str, repo: str,
      <a href="{esc(repo)}" rel="noopener">archive repository</a>.</p>
   <p>Product names and trademarks belong to their respective owners. This
      site is not affiliated with, sponsored by, or representing any vendor.
-     No ads, no affiliate links, no tracking. Dates in UTC · parser version:
-     {parser_version}.</p>
+     Recorded data is <a href="{esc(repo)}/blob/main/DATA-LICENSE"
+     rel="noopener">CC BY 4.0</a>. No ads, no affiliate links, no tracking.
+     Dates in UTC · parser version: {parser_version}.</p>
 </footer>
 </div>
 </body>
 </html>
 """
+
+
+_BULAN_RFC = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
+              "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+_HARI_RFC = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+
+
+def waktu_rfc822(tanggal: str) -> str:
+    """Tanggal arsip -> format tanggal RSS, TANPA menyentuh jam dinding.
+
+    Kalau dipakai `datetime.now()`, berkas feed berubah tiap kali dibangun
+    walau isinya sama, dan tiap hari muncul diff palsu di riwayat git.
+    """
+    d = dt.date.fromisoformat(tanggal)
+    return (f"{_HARI_RFC[d.weekday()]}, {d.day:02d} {_BULAN_RFC[d.month - 1]} "
+            f"{d.year} 00:00:00 +0000")
+
+
+def isi_feed(changes: list[dict], corrections: set, gpu_slugs: set, *,
+             gpu: bool, batas: int = 50) -> list[dict]:
+    """Satu butir feed = satu tool pada satu hari, memuat semua pergerakannya.
+
+    Dipisah software vs GPU karena Vast.ai sendirian menghasilkan 7-16
+    pergerakan SETIAP hari; kalau dicampur, satu-satunya perubahan software
+    dalam sepekan akan tenggelam dan orang berhenti berlangganan.
+    """
+    per_hari: dict[tuple, dict] = {}
+    for c in changes:
+        if not counted(c, corrections):
+            continue
+        slug = c.get("slug")
+        if (slug in gpu_slugs) != gpu:
+            continue
+        gerak = []
+        for e in c.get("plan_events") or []:
+            if e["type"] == "price_changed":
+                gerak.append((e.get("plan"),
+                              uang(e["from"].get("raw"), e["from"].get("currency")),
+                              uang(e["to"].get("raw"), e["to"].get("currency")),
+                              e.get("pct_change")))
+        for e in c.get("model_events") or []:
+            if e["type"] != "model_price_changed":
+                continue
+            for ch in e["changes"]:
+                gerak.append((f"{e.get('model')} · {ch['field']}",
+                              uang(ch["from"].get("raw"), ch["from"].get("currency")),
+                              uang(ch["to"].get("raw"), ch["to"].get("currency")),
+                              ch.get("pct_change")))
+        if not gerak:
+            continue
+        kunci = (c.get("date"), slug)
+        butir = per_hari.setdefault(kunci, {
+            "date": c.get("date"), "slug": slug, "nama": c.get("name") or slug,
+            "gerak": [],
+        })
+        butir["gerak"].extend(gerak)
+    urut = sorted(per_hari.values(), key=lambda b: (b["date"], b["slug"]),
+                  reverse=True)
+    return urut[:batas]
+
+
+def feed(butir: list[dict], *, judul: str, keterangan: str,
+         jalur_diri: str) -> str:
+    """RSS 2.0. Sengaja RSS, bukan email: pembaca bisa berlangganan tanpa
+    membuat akun, tanpa memberi alamat email, dan pemilik tidak punya
+    "pelanggan yang harus dilayani" — syarat pemilik sejak hari pertama."""
+    situs = base_url()
+    baris = []
+    for b in butir:
+        rincian = "".join(
+            f"<li>{esc(nama)}: {esc(dari)} → {esc(ke)}"
+            + (f" ({pct:+g}%)" if isinstance(pct, (int, float)) else "")
+            + "</li>"
+            for nama, dari, ke, pct in b["gerak"])
+        n = len(b["gerak"])
+        judul_butir = (f'{b["nama"]}: {n} price '
+                       f'{"move" if n == 1 else "moves"} on {b["date"]}')
+        tautan = f'{situs}t/{b["slug"]}.html'
+        baris.append(
+            "<item>"
+            f"<title>{esc(judul_butir)}</title>"
+            f"<link>{esc(tautan)}</link>"
+            f'<guid isPermaLink="false">{esc(b["slug"])}-{esc(b["date"])}</guid>'
+            f'<pubDate>{esc(waktu_rfc822(b["date"]))}</pubDate>'
+            f"<description>{esc('<ul>' + rincian + '</ul>')}</description>"
+            "</item>")
+    return ('<?xml version="1.0" encoding="UTF-8"?>\n'
+            '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">\n'
+            "<channel>\n"
+            f"<title>{esc(judul)}</title>\n"
+            f"<link>{esc(situs)}</link>\n"
+            f"<description>{esc(keterangan)}</description>\n"
+            "<language>en</language>\n"
+            f'<atom:link href="{esc(situs + jalur_diri)}" rel="self" '
+            'type="application/rss+xml"/>\n'
+            + "\n".join(baris) + "\n</channel>\n</rss>\n")
 
 
 def sitemap(halaman: list) -> str:
@@ -840,6 +956,32 @@ _LABEL_KATEGORI = {
 }
 
 
+# Penyaring daftar tool. Murni di sisi pembaca: tidak mengirim apa pun ke
+# mana pun, tidak menyimpan apa pun, tidak ada pelacakan. Tanpa JavaScript,
+# daftarnya tetap utuh.
+PENYARING_JS = """
+<script>
+(function () {
+  var kotak = document.getElementById('cari');
+  if (!kotak) return;
+  kotak.hidden = false;
+  kotak.addEventListener('input', function () {
+    var q = kotak.value.trim().toLowerCase();
+    document.querySelectorAll('.grup').forEach(function (grup) {
+      var terlihat = 0;
+      grup.querySelectorAll('.tool').forEach(function (el) {
+        var cocok = !q || el.dataset.nama.indexOf(q) !== -1;
+        el.hidden = !cocok;
+        if (cocok) terlihat++;
+      });
+      grup.hidden = terlihat === 0;
+    });
+  });
+})();
+</script>
+"""
+
+
 def label_kategori(kategori: str) -> str:
     return _LABEL_KATEGORI.get(kategori, kategori)
 
@@ -856,14 +998,24 @@ def daftar_tool(targets: dict, riwayat: dict) -> str:
         per_kategori.setdefault(t.category, []).append(t)
     bagian = []
     for kategori in sorted(per_kategori):
-        tautan = " · ".join(
+        tautan = "".join(
+            f'<span class="tool" data-nama="{esc(t.name.lower())}">'
             f'<a href="t/{esc(t.slug)}.html">{esc(t.name)}</a>'
             + (f' <span class="dim">({len(riwayat[t.slug])})</span>'
                if riwayat.get(t.slug) else "")
+            + "</span>"
             for t in sorted(per_kategori[kategori], key=lambda x: x.name.lower()))
-        bagian.append(f'<p class="sub"><b>{esc(label_kategori(kategori))}</b>'
-                      f'<br>{tautan}</p>')
-    return "\n".join(bagian)
+        bagian.append(
+            f'<div class="grup"><p class="sub"><b>'
+            f'{esc(label_kategori(kategori))}</b></p>'
+            f'<p class="tools">{tautan}</p></div>')
+    # Kotak pencarian sengaja disembunyikan sampai JavaScript menyalakannya:
+    # kalau JS mati, daftar 135 tool tetap tampil utuh dan bisa dipakai —
+    # yang hilang cuma kenyamanannya, bukan isinya.
+    cari = ('<p><input id="cari" type="search" hidden '
+            'placeholder="Filter tools — type a name" '
+            'aria-label="Filter tools"></p>')
+    return cari + "\n".join(bagian) + PENYARING_JS
 
 
 
@@ -908,7 +1060,21 @@ def build() -> dict:
         daftar=daftar_tool(targets, riwayat),
     )
 
-    berkas = {"index.html": index, "style.css": CSS.strip() + "\n"}
+    berkas = {
+        "index.html": index,
+        "style.css": CSS.strip() + "\n",
+        "feed.xml": feed(
+            isi_feed(changes, corrections, gpu_slugs, gpu=False),
+            judul="AI & software price changes",
+            keterangan="Price changes on AI tools, model APIs and SaaS, "
+                       "recorded once a day. GPU rentals have their own feed.",
+            jalur_diri="feed.xml"),
+        "feed-gpu.xml": feed(
+            isi_feed(changes, corrections, gpu_slugs, gpu=True),
+            judul="GPU rental price changes",
+            keterangan="Hourly GPU rental prices, recorded once a day.",
+            jalur_diri="feed-gpu.xml"),
+    }
     berkas.update(build_pages(targets, changes, corrections, awal, akhir))
     return berkas
 

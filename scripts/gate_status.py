@@ -19,7 +19,9 @@ diperiksa siapa pun:
     yang bergerak. Kalau label lama ikut dihitung, angka gerbang menggelembung
     hampir dua kali lipat. Label lamanya tidak diubah — arsip tidak ditulis
     ulang — tapi penghitungnya memakai satu definisi untuk seluruh rentang.
-  * Sewa GPU dihitung TERPISAH. Harganya bergerak tiap hari mengikuti pasar
+  * Dilaporkan TIGA LAPIS terpisah: paket software, harga per-baris API, dan
+    sewa GPU. Ambang barunya ditetapkan PEMILIK setelah melihat sebulan penuh
+    angka jujur — bukan ditetapkan sesi Cowork. Sewa GPU dihitung TERPISAH. Harganya bergerak tiap hari mengikuti pasar
     spot; mencampurnya akan menutupi pertanyaan sesungguhnya, yaitu apakah
     harga SOFTWARE cukup sering berubah untuk membuat arsip ini berguna.
   * Peristiwa yang tercatat di corrections.jsonl dikeluarkan. Log aslinya
@@ -94,7 +96,25 @@ def main() -> int:
             if (c.get("date"), c.get("slug"), "price_change") not in corrections]
     dropped = len(price) - len(kept)
 
-    software = [c for c in kept if c.get("slug") not in gpu_slugs]
+    # TIGA LAPIS, tidak digabung (keputusan pemilik 15/09/2026). Alasannya:
+    # ketiganya bergerak dengan laju yang sama sekali berbeda, dan
+    # menjumlahkannya membuat satu lapis menutupi dua lapis lain.
+    #   1. paket software  — perubahan harga paket berlangganan
+    #   2. harga per-baris API — baris tabel model/tingkat pemakaian
+    #   3. sewa GPU        — mengikuti harga pasar, bergerak nyaris tiap hari
+    # Satu halaman-hari bisa masuk dua lapis sekaligus kalau memang keduanya
+    # bergerak; karena itu ketiganya TIDAK boleh dijumlahkan jadi satu angka.
+    def gerak_paket(c):
+        return len([e for e in c.get("plan_events") or []
+                    if e["type"] == "price_changed"])
+
+    def gerak_baris(c):
+        return sum(len(e["changes"]) for e in c.get("model_events") or []
+                   if e["type"] == "model_price_changed")
+
+    bukan_gpu = [c for c in kept if c.get("slug") not in gpu_slugs]
+    software = [c for c in bukan_gpu if gerak_paket(c) > 0]
+    per_baris = [c for c in bukan_gpu if gerak_baris(c) > 0]
     gpu = [c for c in kept if c.get("slug") in gpu_slugs]
 
     dates = sorted({c["date"] for c in rows if c.get("date")})
@@ -111,10 +131,16 @@ def main() -> int:
         "",
         f"Rentang data: **{first} s/d {last}** ({days} hari)",
         "",
-        f"- Perubahan harga SOFTWARE: **{len(software)} / {GATE_TARGET}** "
-        f"halaman-hari  ({numbers(software)} angka)",
-        f"- Perubahan harga sewa GPU (dihitung terpisah): **{len(gpu)}** "
-        f"halaman-hari  ({numbers(gpu)} angka)",
+        "Tiga lapis, sengaja TIDAK dijumlahkan — lajunya berbeda jauh:",
+        "",
+        f"1. **Paket software**: **{len(software)} / {GATE_TARGET}** "
+        f"halaman-hari  ({sum(gerak_paket(c) for c in software)} angka)",
+        f"2. **Harga per-baris API** (model, tingkat pemakaian): "
+        f"**{len(per_baris)}** halaman-hari  "
+        f"({sum(gerak_baris(c) for c in per_baris)} angka)",
+        f"3. **Sewa GPU**: **{len(gpu)}** halaman-hari  "
+        f"({numbers(gpu)} angka)",
+        "",
         f"- Dikeluarkan oleh koreksi: **{dropped}** halaman-hari",
         f"- Berlabel `price_change` di arsip: {berlabel} — selisihnya adalah "
         f"catatan sebelum 03/09 yang isinya hanya paket muncul/hilang",
@@ -132,11 +158,14 @@ def main() -> int:
             f"berubah sudah ada di daftar, hanya belum terbaca.",
         ]
 
-    top = Counter(c["name"] for c in software).most_common(8)
-    if top:
-        lines += ["", "### Penyumbang terbanyak (software)", "",
-                  "| tool | halaman-hari |", "| --- | --- |"]
-        lines += [f"| {name} | {n} |" for name, n in top]
+    for judul, kumpulan in (("paket software", software),
+                            ("harga per-baris API", per_baris),
+                            ("sewa GPU", gpu)):
+        top = Counter(c["name"] for c in kumpulan).most_common(6)
+        if top:
+            lines += ["", f"### Penyumbang terbanyak — {judul}", "",
+                      "| tool | halaman-hari |", "| --- | --- |"]
+            lines += [f"| {name} | {n} |" for name, n in top]
 
     print("\n".join(lines))
     return 0

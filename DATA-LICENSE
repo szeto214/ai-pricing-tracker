@@ -1,0 +1,33 @@
+# Data license — CC BY 4.0
+
+Everything under `data/` in this repository — the structured price records,
+the change log, the correction log and the daily run logs — is published under
+the **Creative Commons Attribution 4.0 International licence (CC BY 4.0)**.
+
+Full legal text: https://creativecommons.org/licenses/by/4.0/legalcode
+Plain-language summary: https://creativecommons.org/licenses/by/4.0/
+
+You may copy, redistribute, remix and build upon this data, including
+commercially, as long as you give appropriate credit, link to this licence,
+and say whether you changed anything.
+
+Suggested attribution:
+
+> Price data from the AI & Software Pricing Change Archive
+> (https://szeto214.github.io/ai-pricing-tracker/), CC BY 4.0.
+
+The **code** in this repository is licensed separately under the MIT licence —
+see `LICENSE`.
+
+## Two honest notes about what this data is
+
+1. **The numbers are read automatically** from public pricing pages and can be
+   misread. Records later proven wrong are never deleted; they are annotated in
+   `data/changes/corrections.jsonl`, and the counters exclude them. If you
+   build on this data, read that file too.
+
+2. **Raw HTML snapshots** under `data/raw/` are archived copies of vendor
+   pages, kept so every recorded number can be checked against its source.
+   Those pages remain the property of their respective owners and are **not**
+   covered by this licence. Product names and trademarks belong to their
+   respective owners; this project is not affiliated with any vendor.

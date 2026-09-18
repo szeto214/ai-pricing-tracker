@@ -189,7 +189,10 @@ lebih longgar, dan peristiwa yang terbukti cacat pembaca tercatat di
 
 ## Lisensi
 
-Kode: MIT. Data di `data/`: CC BY 4.0 — silakan dipakai dengan atribusi.
+Kode: MIT (`LICENSE`). Data di `data/`: CC BY 4.0 (`DATA-LICENSE`) — silakan
+dipakai, termasuk untuk keperluan komersial, dengan atribusi. Arsip HTML
+mentah vendor di `data/raw/` TIDAK ikut dilisensikan: itu milik pemiliknya
+masing-masing, disimpan hanya supaya tiap angka bisa diperiksa ulang.
 Menjaga datanya terbuka justru yang membuatnya jadi rujukan; monetisasinya
 lewat tautan afiliasi dan penjualan akses terstruktur, bukan lewat mengunci
 angkanya.

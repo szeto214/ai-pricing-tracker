@@ -6,9 +6,9 @@
   "url": "https://mistral.ai/pricing",
   "final_url": "https://mistral.ai/pricing/",
   "parser_version": 4,
-  "content_hash": "e6a193de6e6d28a52c874153d48c37ee600a19ef62678b09491bb69302691842",
-  "raw_hash": "47e975f3c0f2dc74274a2581747d4239d7052f0914888bbaa0ebe1a362c3e781",
-  "text_bytes": 9714,
+  "content_hash": "e8dccd0fdb3e25a963c592d60ab5391fadcb70c54f78491b8ed328541ffeda8c",
+  "raw_hash": "a0739ac02be4816875e7ab21f17b931e810acbb4c4ddce0586885200f32f1ece",
+  "text_bytes": 9711,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

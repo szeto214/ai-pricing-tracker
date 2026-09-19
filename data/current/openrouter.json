@@ -6,18 +6,18 @@
   "url": "https://openrouter.ai/models",
   "final_url": "https://openrouter.ai/models",
   "parser_version": 4,
-  "content_hash": "30c36a06c223cc6e79d60887ff81c20def19cc06180bec35088dd6043f448149",
-  "raw_hash": "e946dbb7ceafdd7f309229c759368865ded65fd915f5789b5c679291e2f5331c",
-  "text_bytes": 6865,
+  "content_hash": "94211355933c6cf6cd29c0814ad81020f0f2f4b56b9187fab9276a6434e296e7",
+  "raw_hash": "9599037be67180f3ee1fef4f07b8d6feefefbe676b6fe9f352a4024d0108cfe5",
+  "text_bytes": 7169,
   "extractor": "dom",
   "confidence": "low",
   "plans": [
     {
       "name": "Meta: Muse Voice Transcribe 1.0",
-      "price_raw": "$0.18",
-      "amount": 0.18,
+      "price_raw": "$0.00005",
+      "amount": 5e-05,
       "currency": "USD",
-      "period": "hour",
+      "period": null,
       "features": []
     }
   ],

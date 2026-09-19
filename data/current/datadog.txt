@@ -1970,14 +1970,17 @@ Run trusted, statistically rigorous experiments to validate the impact of every 
 Starting At
 $
 450
-per experiment,
-per month*
+per launched experiment,
+per month* **
 Start Free Trial
+Unlimited seats, users metrics and dimensional analyses
+1M monthly flag configuration requests (
+MFCRs
+) included per experiment purchased
 Run statistically rigorous experiments with governed methodologies
-Validate experiment health with automated guardrails
-Monitor user behavior and system performance in a unified workflow
-Analyze impact using warehouse-native source-of-truth metrics
-*Billed annually or $
+Validate experiment health with automated guardrails and analyze impact using warehouse-native metrics
+*An experiment becomes billable once it has launched and reached at least 500 subjects and 3 days of data. Experiments that never reach that threshold are never billed.
+**Billed annually or $
 575
 on-demand
 Start Free Trial
@@ -1998,9 +2001,9 @@ Common Questions
 How is Datadog Experiments priced?
 Datadog Experiments is priced based on the number of successfully launched experiments. An experiment is considered successfully launched—and billable—once it reaches at least 500 total subjects and runs for a minimum of 3 days.
 Do I need Datadog Feature Flags to use Experiments?
-Yes, Experiments leverages
+You can use
 Datadog Feature Flags
-to run and manage experiment variations. Each experiment includes an allotment of feature flag credits to help you get started.
+to run Experiments end-to-end or connect your own flagging system via warehouse native experimentation.
 Do I need Product Analytics to use Experiments?
 No, you do not need Product Analytics to run experiments. You can run experiments and measure results directly in your data warehouse using warehouse-native mode. Customers who use
 RUM

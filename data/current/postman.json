@@ -6,9 +6,9 @@
   "url": "https://www.postman.com/pricing/",
   "final_url": "https://www.postman.com/pricing/",
   "parser_version": 4,
-  "content_hash": "997fc41b2fa9d96a0387922ddb50defd7c7376557b7d2c8d663cad48077908c6",
-  "raw_hash": "13903fe0be3f0f8db8f19b91e1ae8ce451b89d2a3de602d9d868805545d82fdd",
-  "text_bytes": 23283,
+  "content_hash": "922e99e831ab3377bffc539004cfb9d5ddfbbd5dc8d756cc305ec96da2c05762",
+  "raw_hash": "7e49cb8e1825a678a5a8e49bc2e4c32e94baf7a2f7ac557715ee4b1a32051f29",
+  "text_bytes": 23177,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -50,27 +50,6 @@
         "Basic role-based access control (RBAC)",
         "SDK generation & distribution",
         "Simple Security (add-on)"
-      ]
-    },
-    {
-      "name": "Enterprise",
-      "price_raw": "$49",
-      "amount": 49.0,
-      "currency": "USD",
-      "period": "user",
-      "features": [
-        "Everything in Team, and:",
-        "800 AI credits / user / month (pooled)",
-        "API Catalog",
-        "Unlimited private and Partner workspaces",
-        "Private API Network",
-        "SDK auto-distribution",
-        "Advanced RBAC & organization controls",
-        "Governance, audit logs & reporting",
-        "Monitor reports with enterprise approval workflows",
-        "Private test & Flows runners",
-        "Insights",
-        "Advanced Security Administration (add-on)"
       ]
     },
     {
@@ -134,24 +113,6 @@
       ]
     },
     {
-      "name": "Advanced Security Administration",
-      "price_raw": "$29",
-      "amount": 29.0,
-      "currency": "USD",
-      "period": "user",
-      "features": [
-        "Advanced Account Management",
-        "Enable domain capture to automatically route corporate email logins into your managed Enterprise organization.",
-        "Detect Postman usage across your company network regardless of the email address used to authenticate (Account Discovery).",
-        "Apply policies to report or block unmanaged users and enforce company-managed Postman experiences (Account Control).",
-        "Advanced Security Controls",
-        "Detect exposed secrets across internal, private, and partner workspaces with Cloud Secret Detection, including an analytics dashboard and alerts.",
-        "Securely reuse sensitive data with Azure Key Vault, HashiCorp Vault, AWS Secrets Manager, and 1Password.",
-        "Configure and apply custom patterns across all secret scanning capabilities, including local secret protection, cloud secret detection, and Agent Mode guardrails.",
-        "Bring Your Own Key (BYOK) encryption to protect sensitive data in compliance with industry standards."
-      ]
-    },
-    {
       "name": "Monitoring",
       "price_raw": "$20",
       "amount": 20.0,
@@ -187,7 +148,7 @@
           "Free $0 Get Started",
           "Solo $9 per month (billed annually) Get Started",
           "Team $19 per user/month (billed annually) Get Started Buy with AWS",
-          "Enterprise $49 per user/month (billed annually) Get Started Buy with AWS Contact Sales →"
+          "Enterprise Contact sales for pricing Contact Sales"
         ],
         [
           "Postman AI",

@@ -6,9 +6,9 @@
   "url": "https://runwayml.com/pricing",
   "final_url": "https://runway.com/pricing",
   "parser_version": 4,
-  "content_hash": "4dcb0d57de24cc2c24651c0ca162029fe6d5dd7b0bd40e7d1ed5273b892b8041",
-  "raw_hash": "9587d3b3250357f79c33255109c9190142ecd8c29a3947910e55965469e60977",
-  "text_bytes": 4986,
+  "content_hash": "f5481137d297a49bfd4820df8ea6ac4d512c61e9023af1725303aebd48b05c4a",
+  "raw_hash": "37fd72a69808cf9f11193d7e5adce4887ea82368ae8faa81b98185f239445ade",
+  "text_bytes": 4965,
   "extractor": "jsonld",
   "confidence": "medium",
   "plans": [

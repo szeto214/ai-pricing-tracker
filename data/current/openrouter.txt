@@ -1,7 +1,7 @@
 Models
 PrismML: Ternary Bonsai 2 27B
 Ternary Bonsai 2 27B
-12.4M tokens
+71.7M tokens
 Bonsai 2 27B is a 27B-parameter reasoning model from PrismML derived from Qwen3.8-27B. It supports coding, mathematics, tool calling, and image understanding with a 262K-token context window. Ternary compression shrinks the language-model weights to roughly 8.5 GB while retaining 98.2% of the base model's average score across PrismML's 14 thinking-mode benchmarks, enabling efficient inference on consumer hardware. The model thinks by default and defaults to xhigh reasoning effort.
 by
 prism-ml
@@ -10,6 +10,18 @@ Sep 18, 2026
 $0.075/M input
 tokens
 $0.50/M output
+tokens
+Z.ai: GLM 5.3 FlashX
+GLM 5.3 FlashX
+17.7B tokens
+GLM-5.3-FlashX is the high-speed variant of Z.ai's GLM-5.3-Flash, a native multimodal model delivering inference speeds of up to 200 tokens/s. Built on the same hybrid sparse and linear attention architecture (320B total parameters, 18B active), it is suited for efficient coding, visual understanding, and long-horizon agent tasks with a 1M-token context window.
+by
+z-ai
+Sep 18, 2026
+1.05M context
+$0.37/M input
+tokens
+$1.25/M output
 tokens
 TypeSafe: Jev Latest
 Jev Latest
@@ -24,7 +36,7 @@ $0/M output
 tokens
 TypeSafe: Jev 1.13
 Jev 1.13
-100B tokens
+265B tokens
 Jev is a structured decision model from TypeSafe, and the first of its System One models. System One models make fast, structured decisions for software, returning a typed choice rather than free-form text. It is suited for routing, classification, and other decision points inside an application where a fast, predictable answer matters more than generated prose. Learn more in TypeSafe's docs:
 https://docs.typesafe.ai/concepts/system-one
 by
@@ -37,7 +49,7 @@ $0/M output
 tokens
 Pareto
 Pareto
-4.45B tokens
+6.18B tokens
 Pareto is a multimodal composite model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks.
 by
 unbiased
@@ -50,32 +62,31 @@ tokens
 DeepSeek: DeepSeek Pro Latest
 DeepSeek Pro Latest
 56% off
-54.6B tokens
+63.3B tokens
 This model always redirects to the latest model in the DeepSeek Pro family.
 by
 deepseek
 Sep 14, 2026
 1.05M context
-$0.5782/M input
+$0.5768/M input
 tokens
-$1.734/M output
+$1.731/M output
 tokens
 DeepSeek: DeepSeek Flash Latest
 DeepSeek Flash Latest
-55% off
-265B tokens
+345B tokens
 This model always redirects to the latest model in the DeepSeek Flash family.
 by
 deepseek
 Sep 14, 2026
 1.05M context
-$0.135/M input
+$0.13/M input
 tokens
-$0.54/M output
+$0.52/M output
 tokens
 Inference.net: Schematron V2 Turbo
 Schematron V2 Turbo
-207M tokens
+198M tokens
 Schematron V2 Turbo is a 3B-parameter HTML-to-JSON extraction model from Inference.net. It prioritizes throughput for high-volume extraction workloads. Extraction instructions must be supplied through a JSON schema in response_format rather than through system or user prompts.
 by
 inference-net
@@ -87,7 +98,7 @@ $0.15/M output
 tokens
 Inference.net: Schematron V2 Small
 Schematron V2 Small
-77.1M tokens
+77.4M tokens
 Schematron V2 Small is a 3B-parameter HTML-to-JSON extraction model from Inference.net. It prioritizes extraction quality for complex schemas and long pages. Extraction instructions must be supplied through a JSON schema in response_format rather than through system or user prompts.
 by
 inference-net
@@ -100,7 +111,7 @@ tokens
 Meta: Muse Voice Transcribe 1.0
 Muse Voice Transcribe 1.0
 18+
-8.49M characters
+8.56M characters
 Muse Voice Transcribe 1.0 is a synchronous speech-to-text model from Meta. It is suited for push-to-talk, endpointing, and speaker-aware transcription, with keyword biasing for domain terms and language biasing through language-name hints. It accepts mono 16-bit PCM WAV audio at 16 kHz or 24 kHz for recordings up to 10 minutes. It does not provide word-level timestamps or confidence scores, and other audio formats must be converted to WAV before upload.
 by
 meta
@@ -108,7 +119,7 @@ Sep 11, 2026
 $0.00005/second
 OpenAI: GPT Astra Latest
 GPT Astra Latest
-22.8B tokens
+28.2B tokens
 This model always redirects to the latest model in the GPT Astra family.
 by
 openai
@@ -121,7 +132,7 @@ tokens
 OpenAI: GPT Sol Latest
 GPT Sol Latest
 50% off
-49.2B tokens
+56.1B tokens
 This model always redirects to the latest model in the GPT Sol family.
 by
 openai
@@ -133,7 +144,7 @@ $10/M output
 tokens
 OpenAI: GPT Terra Latest
 GPT Terra Latest
-4.12B tokens
+4.24B tokens
 This model always redirects to the latest model in the GPT Terra family.
 by
 openai
@@ -145,7 +156,7 @@ $12/M output
 tokens
 OpenAI: GPT Luna Latest
 GPT Luna Latest
-47.8B tokens
+61.2B tokens
 This model always redirects to the latest model in the GPT Luna family.
 by
 openai
@@ -157,7 +168,7 @@ $1.20/M output
 tokens
 Sakana: Fugu Ultra v2
 Fugu Ultra v2
-4.12B tokens
+3.87B tokens
 Fugu Ultra v2 is the higher-performance model in Sakana AI's Fugu family. Rather than a single monolithic model, Fugu is a learned multi-agent orchestration system: a language model trained to route tasks across a fixed pool of open and specialized models and to recursively call instances of itself. Fugu Ultra v2 prioritizes answer quality on complex multi-step reasoning, autonomous research, and full-stack software development, and does not rely on individual proprietary frontier models in its pool. It supports configurable reasoning effort (high, xhigh, max), function calling, structured outputs, image and PDF input, and built-in web search. Prompts above 272K tokens are billed at a higher rate. Orchestration tokens consumed by the system are billed as standard input/output tokens.
 by
 sakana
@@ -169,7 +180,7 @@ $30/M output
 tokens
 Sakana: Fugu Max
 Fugu Max
-7.22B tokens
+8.53B tokens
 Fugu Max is the cost-performance model in Sakana AI's Fugu family. Rather than a single monolithic model, Fugu is a learned multi-agent orchestration system: a language model trained to route tasks across a fixed pool of open-weights and specialized models, including NVIDIA's Nemotron family, and to recursively call instances of itself. Fugu Max dynamically selects efficient combinations of expert agents to improve quality and cost together, and is priced flat regardless of context length. It supports configurable reasoning effort (high, xhigh, max), function calling, structured outputs, image and PDF input, and built-in web search and web fetch. Orchestration tokens consumed by the system are billed as standard input/output tokens.
 by
 sakana
@@ -187,17 +198,5 @@ by
 black-forest-labs
 Sep 10, 2026
 $0.03/second
-inclusionAI: Ling 3.0 Flash VL (free)
-Ling 3.0 Flash VL (free)
-596B tokens
-Ling 3.0 Flash VL builds on Ling 3.0 Flash (124B total / 5.5B active MoE from InclusionAI), further strengthening its language capabilities while adding native visual perception and advanced visual agent capabilities. Hybrid instant/reasoning model with tool calling.
-by
-inclusionai
-Sep 10, 2026
-262K context
-$0/M input
-tokens
-$0/M output
-tokens
 Compare
 Discover Models

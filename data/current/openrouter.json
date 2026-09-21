@@ -6,9 +6,9 @@
   "url": "https://openrouter.ai/models",
   "final_url": "https://openrouter.ai/models",
   "parser_version": 4,
-  "content_hash": "d268a6283bf681f0b2e6b9415e2dbec25a3241ca4c2922c4636cee5f961b3b58",
-  "raw_hash": "b235ad7e6e825ad70d054319f1c7430ac14e065a5cec8bd9755026429f818361",
-  "text_bytes": 7230,
+  "content_hash": "4d7d49f2e7ce240a0f60a0b367b0cb4cf8ffb17eece22e6686cfe440c01140e4",
+  "raw_hash": "42543afd247a2fa0288b03a25d554b0d91f6fc8073c32ecb745fbddaf8249763",
+  "text_bytes": 7232,
   "extractor": "dom",
   "confidence": "low",
   "plans": [

@@ -6,9 +6,9 @@
   "url": "https://www.coderabbit.ai/pricing",
   "final_url": "https://www.coderabbit.ai/pricing",
   "parser_version": 4,
-  "content_hash": "47656d417a3af69b5933c0baaf82dae703111858a2bc99fe9f4cce6067526a2c",
-  "raw_hash": "7b1fca8c2582d8b68a0c2f656de42162b423915ceccb49bf45aa4185078109ea",
-  "text_bytes": 5226,
+  "content_hash": "00f678a6484d7ccbb643f77ec43c43b169062d8fe9b93643228e29161d24bbaa",
+  "raw_hash": "85d11e60450f0ebd635e237294fc14e88fb152e3983065d993fbb253fa8ceefd",
+  "text_bytes": 5325,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -166,6 +166,13 @@
           "8*",
           "10*",
           "12*"
+        ],
+        [
+          "Reviews beyond included limits : Opens in a new tab",
+          "Pay as you go†",
+          "Pay as you go†",
+          "Pay as you go†",
+          "Contact sales"
         ],
         [
           "Blast radius : Opens in a new tab",

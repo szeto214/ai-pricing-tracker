@@ -7,7 +7,7 @@
   "final_url": "https://www.firecrawl.dev/pricing",
   "parser_version": 4,
   "content_hash": "51d88ac7da16fbfc3e726242e10c5d3854baa39e17e13693c7daeeaefeb68d6e",
-  "raw_hash": "7d27591b84feaf465ef8d18dcf838023352eabd5582c0a864fbee232120fcd70",
+  "raw_hash": "38e10ae4b73597ca93cd25ae8979aca1b9a02da7d43394a0e8fe635fecd89c2a",
   "text_bytes": 14232,
   "extractor": "dom",
   "confidence": "medium",

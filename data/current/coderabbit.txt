@@ -79,18 +79,12 @@ Vendor security review and agreement redlines
 Custom setup including ALB, etc.
 EU SaaS deployment
 Contact us
-Add-ons
+On demand products
 CodeRabbit Security Scan
 AI-native security scanning that traces data flow across your codebase to find exploitable vulnerabilities and help you fix them.
 Scan your full codebase
 Variable, usage-based pricing
 Get a free trial
-Usage-based reviews
-Pay-as-you-go CLI and PR reviews
-Unlimited code reviews across every agentic coding loop
-Full control over usage and scaling through the dashboard
-Pay as you go after included limits, with a configurable monthly spending cap
-Manage usage
 CodeRabbit Agent
 Run coding tasks in the cloud, use CodeRabbit in Slack, and build automations. Billed based on how many minutes your agents run.
 $0.40 per agent minute
@@ -134,6 +128,10 @@ Post-merge actions
 Not included
 Rate limits: PR reviews per developer per hour
 5*
+Reviews beyond included limits
+:
+Opens in a new tab
+Pay as you go†
 Blast radius
 :
 Opens in a new tab
@@ -227,6 +225,13 @@ Rate limits: PR reviews per developer per hour
 8*
 10*
 12*
+Reviews beyond included limits
+:
+Opens in a new tab
+Pay as you go†
+Pay as you go†
+Pay as you go†
+Contact sales
 Blast radius
 :
 Opens in a new tab
@@ -253,13 +258,14 @@ Included
 Fair Usage Policy
 :
 Opens in a new tab
+† Optional usage-based billing with a configurable monthly spending cap. Eligibility applies. Enterprise usage is arranged with your account team.
 Frequently Asked Questions
 Are Essentials and Team new plans?
 Will the plan renaming change my price?
 What’s the difference between Essentials and Team?
 If reviews are unlimited, why are there hourly review limits?
 How do usage-based reviews work?
-How are add-ons priced?
+How are on demand products priced?
 Which plans include CodeRabbit Security?
 Will I be charged for all the developers in my organization?
 Is it possible to reassign seats to other developers?

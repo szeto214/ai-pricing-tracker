@@ -1856,10 +1856,21 @@ def test_skrip_cadangan() -> None:
     if not skrip.exists():
         return
     isi = skrip.read_text(encoding="utf-8")
-    hasil = subprocess.run(["bash", "-n", str(skrip)], capture_output=True,
-                           text=True)
-    check("skrip lolos pemeriksaan sintaks bash", hasil.returncode == 0,
-          f"-> {hasil.stderr[:200]}")
+    # Pemeriksaan sintaks hanya di mesin POSIX yang punya bash. Di Windows
+    # `bash` bisa tidak ada (FileNotFoundError menjatuhkan SELURUH uji —
+    # terjadi 21/09/2026 di laptop pemilik) atau berupa peluncur WSL yang
+    # tidak mengerti jalur C:\... sehingga menghasilkan GAGAL palsu. Tidak
+    # dihitung lolos diam-diam: dicetak jelas sebagai DILEWATI. Workflow
+    # test.yml berjalan di ubuntu, jadi di sana pemeriksaan ini tetap wajib.
+    bash = shutil.which("bash") if os.name != "nt" else None
+    if bash is None:
+        print("  DILEWATI pemeriksaan sintaks bash (bash tidak tersedia di "
+              "mesin ini; tetap diperiksa di GitHub Actions)")
+    else:
+        hasil = subprocess.run([bash, "-n", str(skrip)], capture_output=True,
+                               text=True)
+        check("skrip lolos pemeriksaan sintaks bash", hasil.returncode == 0,
+              f"-> {hasil.stderr[:200]}")
     i_pull = isi.find("git pull --rebase")
     i_ambil = isi.find("collector.run")
     i_simpan = isi.find("push_snapshot.py")

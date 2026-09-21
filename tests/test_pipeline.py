@@ -1769,6 +1769,112 @@ def _xml_sah(teks: str) -> bool:
         return False
 
 
+def test_kartu_berisi_tabel_18_09() -> None:
+    """Judul bagian yang memuat tabel harga bukan paket (18/09/2026).
+
+    Kartu seperti itu mengambil angka dari BARIS PERTAMA tabelnya, jadi ia
+    bergerak setiap kali vendor menambah baris, menghapus baris, atau menukar
+    kolom — padahal tidak ada harga yang berubah. Fireworks AI melakukannya
+    tiga kali dengan kartu yang sama:
+
+      01/09  $0.66 -> $1.86   baris pertama tabel dihapus vendor
+      16/09  $1.86 -> $4.86   model baru disisipkan di baris teratas
+      18/09  $7.00 -> $0.134  kolom tabel berubah jadi per-menit
+
+    Ketiganya tercatat sebagai perubahan harga software, ketiganya palsu, dan
+    ketiganya harus dikoreksi belakangan. Pemeriksaannya STRUKTURAL: kalau
+    harga kartu hanya ada DI DALAM tabelnya, itu bagian halaman, bukan paket.
+    Angkanya tidak hilang — tabelnya tetap dibaca terpisah sebagai baris model.
+    """
+    print("\n18. kartu judul bagian yang memuat tabel")
+    from bs4 import BeautifulSoup
+
+    from collector.extract import extract_dom
+
+    html = """
+    <body>
+      <section>
+        <h2>On demand deployments</h2>
+        <table>
+          <tr><th>GPU Type</th><th>Price ($) per minute</th></tr>
+          <tr><td>H100 80 GB GPU</td><td>$0.134</td></tr>
+          <tr><td>B200 180 GB GPU</td><td>$0.217</td></tr>
+        </table>
+      </section>
+      <div>
+        <h3>Pro</h3>
+        <p>$20 / month</p>
+        <table>
+          <tr><th>Feature</th><th>Included</th></tr>
+          <tr><td>Seats</td><td>5</td></tr>
+        </table>
+      </div>
+    </body>"""
+    plans = extract_dom(BeautifulSoup(html, "lxml"))
+    nama = [p.name for p in plans]
+    check("judul bagian berisi tabel TIDAK jadi paket",
+          "On demand deployments" not in nama, f"-> {nama}")
+    check("paket sungguhan yang harganya di luar tabel tetap terbaca",
+          "Pro" in nama, f"-> {nama}")
+    harga = {p.name: p.amount for p in plans}
+    check("harga paket sungguhan tidak ikut berubah",
+          harga.get("Pro") == 20.0, f"-> {harga}")
+
+    # Kartu yang ditolak tetap menghabiskan kuota kartu. Tanpa ini, penolakan
+    # diam-diam membuka tempat bagi kartu sampah lain di bawahnya — terukur
+    # 18/09: 61 "paket" baru muncul di 17 situs sebelum dijaga.
+    banyak = "".join(
+        f"<section><h2>Bagian {i}</h2><table><tr><td>x</td>"
+        f"<td>${i}.00</td></tr></table></section>" for i in range(30))
+    sisa = extract_dom(BeautifulSoup(f"<body>{banyak}</body>", "lxml"))
+    check("penolakan tidak membuka kuota bagi kartu di bawahnya",
+          len(sisa) == 0, f"-> {[p.name for p in sisa]}")
+
+
+def test_skrip_cadangan() -> None:
+    """Rencana cadangan kalau GitHub Actions berhenti (18/09/2026).
+
+    Ketentuan GitHub melarang, khusus runner GitHub, "any other activity
+    unrelated to the production, testing, deployment, or publication of the
+    software project associated with the repository". Pengambil harga harian
+    ada di wilayah abu-abu. Kalau workflow dihentikan, arsipnya tidak boleh
+    ikut berhenti — satu hari yang hilang tidak bisa dibeli kembali.
+
+    Yang dikunci di sini bukan gaya penulisan skripnya, melainkan tiga syarat
+    yang kalau hilang membuat skrip itu berbahaya:
+      1. `git pull --rebase` DULU — tanpa itu mesin cadangan tidak tahu
+         GitHub Actions sudah mengambil hari ini, dan halaman yang sama
+         diambil dua kali sehari (melanggar §9);
+      2. arsip di-commit SEBELUM halaman publik dibangun;
+      3. tidak pernah memaksa: tidak ada `--force` di mana pun.
+    """
+    print("\n19. skrip cadangan di luar GitHub Actions")
+    import subprocess
+
+    skrip = ROOT / "scripts" / "run_anywhere.sh"
+    check("skrip cadangan ada", skrip.exists(), f"-> {skrip}")
+    if not skrip.exists():
+        return
+    isi = skrip.read_text(encoding="utf-8")
+    hasil = subprocess.run(["bash", "-n", str(skrip)], capture_output=True,
+                           text=True)
+    check("skrip lolos pemeriksaan sintaks bash", hasil.returncode == 0,
+          f"-> {hasil.stderr[:200]}")
+    i_pull = isi.find("git pull --rebase")
+    i_ambil = isi.find("collector.run")
+    i_simpan = isi.find("push_snapshot.py")
+    i_situs = isi.find("build_site.py")
+    check("menarik arsip terbaru SEBELUM mengambil (penjaga sekali-sehari)",
+          0 < i_pull < i_ambil, f"-> pull={i_pull} ambil={i_ambil}")
+    check("arsip disimpan SEBELUM halaman publik dibangun",
+          0 < i_simpan < i_situs, f"-> simpan={i_simpan} situs={i_situs}")
+    check("tidak pernah memaksa push", "--force" not in isi)
+    check("tidak pernah melewati penjaga sekali-sehari",
+          "--force" not in isi and "collector.run --force" not in isi)
+    check("bisa diuji tanpa menyentuh situs vendor",
+          "APT_TARGETS_FILE" in isi and "APT_SKIP_PUSH" in isi)
+
+
 def main() -> int:
     print(f"data uji: {config.DATA_DIR}")
     test_hash_stability()
@@ -1800,6 +1906,8 @@ def main() -> int:
     test_halaman_per_tool_17_09()
     test_feed_dan_penyaring_18_09()
     test_gerbang_tiga_lapis()
+    test_kartu_berisi_tabel_18_09()
+    test_skrip_cadangan()
 
     print("\n" + "=" * 60)
     if FAILURES:

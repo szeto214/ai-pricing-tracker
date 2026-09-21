@@ -342,6 +342,22 @@ def _features(card, limit: int = 25) -> list[str]:
     return out
 
 
+def _teks_tanpa_tabel(card) -> str:
+    """Teks kartu TANPA isi <table> di dalamnya.
+
+    Dipakai untuk menjawab satu pertanyaan struktural: angka harga kartu ini
+    datang dari kartunya sendiri, atau dari baris pertama sebuah tabel yang
+    kebetulan ada di dalamnya?
+    """
+    if card.find("table") is None:
+        return card.get_text(" ", strip=True)
+    # Salinan, supaya soup aslinya tidak dirusak — pelajaran 10.1.
+    salinan = BeautifulSoup(str(card), "lxml")
+    for t in salinan.find_all("table"):
+        t.decompose()
+    return salinan.get_text(" ", strip=True)
+
+
 def extract_dom(soup: BeautifulSoup) -> list[Plan]:
     body = soup.body or soup
     seen_cards: set[int] = set()
@@ -360,6 +376,12 @@ def extract_dom(soup: BeautifulSoup) -> list[Plan]:
             # "Start free trial" tidak lolos karena regex-nya di-anchor.
             candidates.append((parent, True))
 
+    # Kuota kartu. Kartu yang DITOLAK tetap menghabiskan kuotanya, supaya
+    # penolakan tidak diam-diam membuka tempat bagi kartu lain di bawahnya.
+    # Tanpa ini, perbaikan yang seharusnya hanya MENGURANGI justru memunculkan
+    # 61 "paket" baru di 17 situs (mis. gemini "Input price", "Charged for") —
+    # sumber derau baru, persis yang ingin dihindari. Diukur 18/09/2026.
+    terpakai = 0
     for node, is_free in candidates:
         card = _card_for(node)
         if card is None or id(card) in seen_cards:
@@ -376,6 +398,30 @@ def extract_dom(soup: BeautifulSoup) -> list[Plan]:
             if not is_free or not _free_in_price_slot(card_text):
                 continue
             amount, raw = 0.0, "Free"
+
+        # Judul bagian yang memuat TABEL harga bukan paket. Angkanya diambil
+        # dari baris pertama tabel, jadi ia bergerak setiap kali vendor
+        # menambah baris atau menukar kolom — padahal tidak ada harga yang
+        # berubah. Terjadi TIGA KALI pada fireworks-ai dengan kartu yang sama
+        # "Serverless Training API" / "On demand deployments":
+        #   01/09 $0.66 -> $1.86  (baris pertama tabel dihapus vendor)
+        #   16/09 $1.86 -> $4.86  (model baru disisipkan di baris teratas)
+        #   18/09 $7.00 -> $0.134 (kolom tabel berubah jadi per-menit)
+        # Ketiganya palsu dan ketiganya sudah dikoreksi.
+        #
+        # Pemeriksaan ini STRUKTURAL, bukan daftar kata: kalau kartu punya
+        # tabel dan harganya hanya ada DI DALAM tabel itu, yang kita pegang
+        # bukan kartu paket melainkan bagian halaman. Angkanya tidak hilang —
+        # tabelnya tetap dibaca terpisah sebagai baris model (modeltable.py),
+        # tempat yang memang benar untuknya.
+        if card.find("table") is not None:
+            luar = _teks_tanpa_tabel(card)
+            if parse_price(luar)[0] is None and not (
+                    is_free and _free_in_price_slot(luar)):
+                terpakai += 1
+                if terpakai >= 20:
+                    break
+                continue
 
         name = _plan_name(card)
         if not name or name == "?":
@@ -400,7 +446,8 @@ def extract_dom(soup: BeautifulSoup) -> list[Plan]:
             period=parse_period(card_text),
             features=_features(card),
         ))
-        if len(plans) >= 20:
+        terpakai += 1
+        if terpakai >= 20:
             break
 
     return _dedupe(plans)

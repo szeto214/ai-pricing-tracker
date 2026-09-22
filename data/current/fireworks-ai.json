@@ -7,10 +7,10 @@
   "final_url": "https://fireworks.ai/pricing",
   "parser_version": 4,
   "content_hash": "3ca622bb48e08f6ce3d887aef927b0ed27a25213952cd8168e62fe9b582a96d3",
-  "raw_hash": "7cc62a8d4107f6f61ffff3b6442d2205926652a7187ea9e65242a1e7eb2d0124",
+  "raw_hash": "7b049f930f465d727fc514ae09df15f19d657e96830fc1549fe8b19cd5269d67",
   "text_bytes": 3575,
   "extractor": "dom",
-  "confidence": "medium",
+  "confidence": "low",
   "plans": [
     {
       "name": "Serverless Inference",
@@ -19,45 +19,6 @@
       "currency": "USD",
       "period": null,
       "features": []
-    },
-    {
-      "name": "Embeddings",
-      "price_raw": "$0.008",
-      "amount": 0.008,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "Managed Training",
-      "price_raw": "$0.50",
-      "amount": 0.5,
-      "currency": "USD",
-      "period": null,
-      "features": [
-        "• Fine-tuning with images (VLM supervised fine-tuning) is also billed per 1M tokens. See this FAQ on calculating image tokens."
-      ]
-    },
-    {
-      "name": "Serverless Training API",
-      "price_raw": "$4.86",
-      "amount": 4.86,
-      "currency": "USD",
-      "period": null,
-      "features": [
-        "• Checkpoint storage for serverless models is included during private preview.",
-        "• Other frontier models are coming soon to the Serverless Training API catalog."
-      ]
-    },
-    {
-      "name": "On demand deployments",
-      "price_raw": "$0.134",
-      "amount": 0.134,
-      "currency": "USD",
-      "period": "hour",
-      "features": [
-        "• Region-restricted deployments are priced at a 1.5x premium. Contact Sales to get started."
-      ]
     }
   ],
   "models": [

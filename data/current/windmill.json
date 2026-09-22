@@ -6,9 +6,9 @@
   "url": "https://www.windmill.dev/pricing",
   "final_url": "https://www.windmill.dev/pricing",
   "parser_version": 4,
-  "content_hash": "890522ab2da06ee37ab6aafcefaaa29413a32d1638abd7a35a6c1a19fa6ba409",
-  "raw_hash": "1bbab8ea1914ab64fdf75f8eedc9f48fa71663eb7534349d2923bddfb1563cca",
-  "text_bytes": 17560,
+  "content_hash": "4ca13e521aa086a4600562215bec1e39cc24e22282761b03494f1c56cc7e32a9",
+  "raw_hash": "a72459ee7294a53efc41655c770a1c8143b51f1acb720fcd4e0521c9dcb179fd",
+  "text_bytes": 17682,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -357,6 +357,11 @@
         ],
         [
           "GitHub App",
+          "No",
+          "Yes"
+        ],
+        [
+          "GitLab managed project access token",
           "No",
           "Yes"
         ],

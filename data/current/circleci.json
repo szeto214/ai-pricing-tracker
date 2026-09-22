@@ -7,7 +7,7 @@
   "final_url": "https://circleci.com/pricing/",
   "parser_version": 4,
   "content_hash": "c6dd83727d364989a6fd25157063c8b161f4818c5d11b794c1275bd17abe479c",
-  "raw_hash": "f6737f3819a7a7bef72e675096b0cced73019a3245529e5151d30cc2d73b977b",
+  "raw_hash": "77011776b143e75aa7e0030cd707f0591ba4e1e6ce2b9335266031dfaf2b6824",
   "text_bytes": 14099,
   "extractor": "dom",
   "confidence": "medium",
@@ -30,14 +30,6 @@
     },
     {
       "name": "Performance",
-      "price_raw": "$15",
-      "amount": 15.0,
-      "currency": "USD",
-      "period": "month",
-      "features": []
-    },
-    {
-      "name": "Plan overview",
       "price_raw": "$15",
       "amount": 15.0,
       "currency": "USD",
@@ -70,30 +62,6 @@
     },
     {
       "name": "Small Nvidia Tesla P4 GPU",
-      "price_raw": "Free",
-      "amount": 0.0,
-      "currency": null,
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "Included support",
-      "price_raw": "Free",
-      "amount": 0.0,
-      "currency": null,
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "Support packages",
-      "price_raw": "Free",
-      "amount": 0.0,
-      "currency": null,
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "Technical services",
       "price_raw": "Free",
       "amount": 0.0,
       "currency": null,

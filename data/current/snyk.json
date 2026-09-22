@@ -6,62 +6,78 @@
   "url": "https://snyk.io/plans/",
   "final_url": "https://snyk.io/plans/",
   "parser_version": 4,
-  "content_hash": "d8567029f037da7e97c09afa938229573f151d8fa04ed379fb309d3bf8f7bd36",
-  "raw_hash": "20c32712020feefa97497887fbc6ea7c12d22aa9b657f8a72c78dcbba9f581bf",
-  "text_bytes": 3667,
+  "content_hash": "32a4c1c01f8e3edde721e71e17b4efd05f7e1695ab132546d7505e5a3f3f7aba",
+  "raw_hash": "7a1019b2ce2e8f3f0b6aae0e95446766123ea149f9a0f8139f19b3138384e768",
+  "text_bytes": 2346,
   "extractor": "dom",
-  "confidence": "medium",
+  "confidence": "low",
   "plans": [
     {
-      "name": "Free",
-      "price_raw": "$0",
-      "amount": 0.0,
+      "name": "Platform Rate Card",
+      "price_raw": "$1",
+      "amount": 1.0,
       "currency": "USD",
-      "period": "month",
-      "features": []
-    },
-    {
-      "name": "Team",
-      "price_raw": "$25",
-      "amount": 25.0,
-      "currency": "USD",
-      "period": "month",
-      "features": []
-    },
-    {
-      "name": "Ignite",
-      "price_raw": "$1,260",
-      "amount": 1260.0,
-      "currency": "USD",
-      "period": "year",
-      "features": []
-    },
-    {
-      "name": "per contributing developer",
-      "price_raw": "$0",
-      "amount": 0.0,
-      "currency": "USD",
-      "period": "month",
-      "features": []
-    },
-    {
-      "name": "per contributing developer",
-      "price_raw": "$25",
-      "amount": 25.0,
-      "currency": "USD",
-      "period": "month",
-      "features": []
-    },
-    {
-      "name": "per contributing developer",
-      "price_raw": "$1,260",
-      "amount": 1260.0,
-      "currency": "USD",
-      "period": "year",
+      "period": null,
       "features": []
     }
   ],
   "models": [],
-  "tables": [],
+  "tables": [
+    {
+      "caption": "Platform Rate Card",
+      "rows": [
+        [
+          "Snyk capability",
+          "What you're paying for",
+          "Credit rate"
+        ],
+        [
+          "Code ?",
+          "per Active Contributor / per Day",
+          "1.0 credits"
+        ],
+        [
+          "Open Source ?",
+          "per Active Contributor / per Day",
+          "1.0 credits"
+        ],
+        [
+          "IaC ?",
+          "per Active Contributor / per Day",
+          "0.33 credits"
+        ],
+        [
+          "Secrets ?",
+          "per Active Contributor / per Day",
+          "0.66 credits"
+        ],
+        [
+          "Evo AI-SPM ?",
+          "per Active Contributor / per Day",
+          "0.66 credits"
+        ],
+        [
+          "Container ?",
+          "per Monitored Image / per Day",
+          "0.33 credits"
+        ],
+        [
+          "API and Web ?",
+          "per Provisioned Target / per Day",
+          "3.0 credits"
+        ],
+        [
+          "Evo ADS - Coding Agent Security ?",
+          "per Active Machine / per Day",
+          "1.0 credits"
+        ],
+        [
+          "Evo COS - AI Pentesting ?",
+          "per Assessment",
+          "4,000 credits"
+        ]
+      ]
+    }
+  ],
   "extract_errors": []
 }

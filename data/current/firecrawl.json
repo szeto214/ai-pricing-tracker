@@ -7,7 +7,7 @@
   "final_url": "https://www.firecrawl.dev/pricing",
   "parser_version": 4,
   "content_hash": "51d88ac7da16fbfc3e726242e10c5d3854baa39e17e13693c7daeeaefeb68d6e",
-  "raw_hash": "38e10ae4b73597ca93cd25ae8979aca1b9a02da7d43394a0e8fe635fecd89c2a",
+  "raw_hash": "b905fd4039d0ed899a7546306badb88db5fda2a2e3e1e523eeffe92e17bddc94",
   "text_bytes": 14232,
   "extractor": "dom",
   "confidence": "medium",
@@ -50,38 +50,6 @@
       "amount": 19.0,
       "currency": "USD",
       "period": "month",
-      "features": []
-    },
-    {
-      "name": "Limits and Performance",
-      "price_raw": "Free",
-      "amount": 0.0,
-      "currency": null,
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "Team and Access",
-      "price_raw": "Free",
-      "amount": 0.0,
-      "currency": null,
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "Billing and Usage",
-      "price_raw": "Free",
-      "amount": 0.0,
-      "currency": null,
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "Security and Compliance",
-      "price_raw": "Free",
-      "amount": 0.0,
-      "currency": null,
-      "period": null,
       "features": []
     }
   ],

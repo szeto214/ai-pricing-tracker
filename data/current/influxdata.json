@@ -7,24 +7,11 @@
   "final_url": "https://www.influxdata.com/influxdb-cloud-pricing/",
   "parser_version": 4,
   "content_hash": "9b462bfd0f5c5f95d3c43153fe782ad89bf6d7bef98ace3169e47832fda3c4e7",
-  "raw_hash": "40f6e7fef8ae5d57f5918b04f59929f931059b4e88ea517b049962dda1b70d99",
+  "raw_hash": "b47c73c16fef6f3db42f5999dff67594dbb40b9f047d41df35a9a36c4823d4b6",
   "text_bytes": 3774,
   "extractor": "dom",
-  "confidence": "medium",
+  "confidence": "low",
   "plans": [
-    {
-      "name": "InfluxDB Cloud Offerings",
-      "price_raw": "$0.0025",
-      "amount": 0.0025,
-      "currency": "USD",
-      "period": null,
-      "features": [
-        "Volume of data in: $0.0025/MB",
-        "Query count: $0.012 per 100 query executions",
-        "Storage (total disk usage): $0.002/GB-hour",
-        "Volume of data out: $0.09/GB"
-      ]
-    },
     {
       "name": "Start building now",
       "price_raw": "$250",

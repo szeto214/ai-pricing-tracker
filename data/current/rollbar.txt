@@ -265,11 +265,11 @@ Overage budgets with on-demand occurrences and sessions
 Customizable rate limits
 Customizable rate limits
 Customizable rate limits
-Rollbar Analyze: RQL + Metrics API
+Rollbar Analyze: RQL + Metrics API for custom data analysis
 Add-on
-Rollbar Analyze: RQL + Metrics API
+Rollbar Analyze: RQL + Metrics API for custom data analysis
 Add-on
-Rollbar Analyze: RQL + Metrics API
+Rollbar Analyze: RQL + Metrics API for custom data analysis
 Add-on
 Monitoring & alerting
 Monitoring & alerting
@@ -338,12 +338,9 @@ Resolve errors via commit
 Team assignments
 Team assignments
 Team assignments
-Rollbar Analyze: RQL + Metrics API for custom data analysis
-Add-on
-Rollbar Analyze: RQL + Metrics API for custom data analysis
-Add-on
-Rollbar Analyze: RQL + Metrics API for custom data analysis
-Add-on
+"Improve" metrics on the account dashboard
+"Improve" metrics on the account dashboard
+"Improve" metrics on the account dashboard
 Data & context for debugging
 Data & context for debugging
 View replays of user actions that triggered an event
@@ -483,6 +480,16 @@ Do you offer a discount for educational institutions?
 Do you offer a discount for educational institutions?
 Do you offer a discount for nonprofit organizations?
 Do you offer a discount for nonprofit organizations?
+Is Rollbar really free?
+Is Rollbar really free?
+What does a real team actually pay for Rollbar?
+What does a real team actually pay for Rollbar?
+How does Rollbar handle overages?
+How does Rollbar handle overages?
+How does Rollbar pricing compare to Sentry?
+How does Rollbar pricing compare to Sentry?
+How does Rollbar pricing compare to Datadog?
+How does Rollbar pricing compare to Datadog?
 Need a
 custom plan?
 Let's talk.

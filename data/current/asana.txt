@@ -481,6 +481,8 @@ Data deletion
 You can permanently remove your Asana account data, including user profile information, project details, and task history.
 Google SSO
 Let employees use their existing Google work account to authenticate into Asana
+Microsoft SSO
+Let your team sign in with their existing Microsoft credentials. Admins on paid plans can require it as the login method across their organization.
 SAML
 Connect Asana to your company's single sign-on system for centralized access control.
 Read-only link management
@@ -649,7 +651,7 @@ Get started
 ON DEMAND
 Pay as you go
 Pay as you go for exact usage with on demand billing. No upfront commitment required, billed monthly.
-$5.99 per user, per month billed annually. Available on Starter, Advanced, Enterprise, and Enterprise+ plans
+Available on Starter, Advanced, Enterprise, and Enterprise+ plans
 $0.60 per AI request, billed monthly
 Set a monthly spend cap
 Manage on demand billing directly in-product
@@ -686,76 +688,33 @@ Enforce content-sharing policies with precision
 Contact sales
 Learn more
 Loved by 100,000+ organizations across the globe
+Deliver real productivity for every team
+Learn more about the pricing details of Asana's products
+Asana Client Management
+Build lasting client relationships on an AI-Native platform built for agency work
+Learn more
+Asana Service Management
+One AI-native enterprise service level management platform for IT, HR, facilities, and legal.
+Learn more
 Frequently asked questions
 What is an AI request?
-An AI request is one successful unit of work executed by AI Teammates or Asana Dash, which share a single pool of AI requests. Administrative tasks in Dash are included at no extra cost. You're only charged when work gets done; failed, timed-out, or canceled tasks don't count.
-For Dash, AI requests only count when Dash completes complex work (e.g., integrations, web search, long-form content generation) or hands off the work to an AI Teammate.
 What is the contract term for my paid AI requests?
-Paid usage packs are valid for your entire billing cycle. For monthly customers: packs expire at month's end. For annual customers: packs can be used anytime across your contract term with no monthly resets. On-demand, pay-as-you-go billing is also available, billed monthly for exactly what you used with no upfront commitment.
 How do I purchase additional AI requests?
-You have two options. Prepaid usage packs at $0.50 per request, valid for your full billing cycle. On-demand, pay-as-you-go billing at $0.60 per request, billed monthly in arrears.
 How do I monitor and control my costs?
-Your admin console shows a live dashboard of requests consumed, remaining balance, and usage by user and AI Teammate. Alerts fire at 65%, 85%, and 100% of your allotment. Admins can set a spending cap on on-demand billing and toggle AI request access per user at any time.
 Can I change or cancel my plan?
-You can cancel at any time, and if you cancel before your next renewal, you'll retain access to paid features through the end of your current subscription period. To cancel your paid plan, log in to your Asana account and access your admin console.
 How many users are included in my plan?
-Asana offers flexible subscription options based on the features you need and the size of your team. For smaller teams, we have plans designed for 2 members.
 How is AI Studio priced?
-AI Studio is available on Starter, Advanced, Enterprise, and Enterprise+ plans.
-AI Studio is available in three options:
-AI Studio Basic:
-Included access to AI Studio to explore how AI can help take on routine, manual work (includes rate limits).
-AI Studio Plus:
-Paid access to AI Studio to level up productivity for individuals and small teams (available on monthly & annual plans).
-AI Studio Pro:
-Paid access to AI Studio to scale complex workflows and business operations with advanced billing controls (available on an annual plan).
-To get started, ensure your admin has Asana AI enabled. From there, all members of your domain will be able to build smart workflows.
-Learn more here
-.
 How can I add people to my plan?
-You can grow your team by adding seats in increments as follows:
-Between 2 and 5 total users:
-add seats in increments of 1
-Up to 30 total users:
-add seats in increments of 5
-Up to 100 total users:
-add seats in increments of 10
-Up to 500 total users:
-add seats in increments of 25
-More than 500 users:
-add seats in increments of 50
 How secure is Asana?
-Asana is committed to protecting customer data. We build our platform using best practices for highly available, scalable, and secure cloud applications. We regularly monitor and assess our program to ensure that it meets or exceeds compliance and regulatory requirements. Please visit our
-Trust Center
-for more information.
 Do you offer academic pricing?
-We’re happy to work with student groups using Asana.
-Contact us
-.
 Should I upgrade my organization or my team?
-If you need administrators and premium package features for all teams, upgrade your entire organization. If you don't need administrators or premium features for all teams, but want to add more guests, set per-project permissions, or hide a team, you can upgrade an individual team.
-Learn more
-.
 Will I be charged sales tax?
-Yes. We will apply state and local sales tax based on your billing address to your total charge.
 Is there an on-premises version of Asana?
-We are passionate about the web and do not plan to offer an internally hosted version of Asana.
 How does Asana protect my data?
-Asana is committed to protecting and honoring your global privacy rights as well as securing the data you provide to us through the use of our products. For more information and details about our privacy and security programs, please visit our
-Trust Center
-.
 How does Asana store my data?
-The Asana subscription service is hosted on dedicated servers within secure, industry-leading data centers provided by Amazon Web Services. These data centers have achieved and maintain SOC 2 compliance and provide 24-hour physical security including biometric access controls and continuous surveillance.
 Will I be charged VAT/GST?
-Asana may be required to charge VAT, GST, and other taxes on your subscription in accordance with local laws and regulations. Some jurisdictions do not require VAT/GST to be charged if the purchaser is registered for VAT/GST. If you are registered for VAT or GST purposes, please add your VAT/GST registration number during the checkout process to have your exemption processed. For more information, please visit our Asana VAT Help
-page
-.
 Does Asana offer a discount for nonprofits?
-Asana is happy to offer eligible nonprofit organizations a discount on an Asana Starter or Asana Advanced annual plan. You can learn about the
-Asana nonprofit discount here
-.
 What is your refund policy?
-We do not offer refunds. If you cancel your plan before the next renewal cycle, you will retain access to paid features until the end of your subscription period. When your subscription expires, you will lose access to paid features and all data associated with those features.
 Get your team and your agents working together
 Get started
 Contact sales

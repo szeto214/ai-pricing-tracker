@@ -7,19 +7,11 @@
   "final_url": "https://lambda.ai/pricing",
   "parser_version": 4,
   "content_hash": "a6d731a5882512682f922887f68ec4bda922bf5744fa70d4ffed76cc6896b9b0",
-  "raw_hash": "e0194f2b14b720e1f333d78e6bf076dd4a1ba6bba5c54b81b1a054c220048198",
+  "raw_hash": "aa52120de4dfa53ff91ca80d544d1b4e3f385d446c9ea118bd4d7bf3ad538194",
   "text_bytes": 1235,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
-    {
-      "name": "NVIDIA HGX B200 systems",
-      "price_raw": "$9.86",
-      "amount": 9.86,
-      "currency": "USD",
-      "period": "hour",
-      "features": []
-    },
     {
       "name": "NVIDIA B200 SXM6",
       "price_raw": "$6.69",

@@ -1,7 +1,55 @@
 Models
+Xiaomi: MiMo-V2.6-Pro-UltraSpeed
+MiMo-V2.6-Pro-UltraSpeed
+1.13B tokens
+MiMo-V2.6-Pro-UltraSpeed is the fast speed edition of Xiaomi's flagship foundation model, MiMo-V2.6-Pro. Built from the same 1T MiMo-V2.6-Pro checkpoint, it matches the original model in quality while delivering roughly 10x the output speed. The model features a 1M-token context window and native multimodal capabilities. Optimized for agentic workflows, it delivers top-tier performance across coding, visual, general, and research scenarios, excelling at complex, long-horizon tasks with robust generalization across a diverse range of agent harnesses.
+by
+xiaomi
+Sep 21, 2026
+1.05M context
+$4.35/M input
+tokens
+$8.70/M output
+tokens
+Xiaomi: MiMo-V2.6-Flash
+MiMo-V2.6-Flash
+10.5B tokens
+MiMo-V2.6-Flash is an open-source foundation model developed by Xiaomi. Built on a Mixture-of-Experts architecture with 309B total parameters and 15B activated per token, it employs a hybrid attention mechanism for greater computational efficiency. The model features a 1M-token context window and native multimodal capabilities. Optimized for agentic workflows, it delivers strong performance across coding, visual, general, and research scenarios, excelling at complex, long-horizon tasks with robust generalization across a diverse range of agent harnesses.
+by
+xiaomi
+Sep 21, 2026
+1.05M context
+$0.14/M input
+tokens
+$0.28/M output
+tokens
+Xiaomi: MiMo-V2.6-Pro
+MiMo-V2.6-Pro
+27.4B tokens
+MiMo-V2.6-Pro is the flagship foundation model developed by Xiaomi. Built at a scale of over 1T parameters, it is designed to push the ceiling of capability for the most demanding workloads. The model features a 1M-token context window and native multimodal capabilities. Optimized for agentic workflows, it delivers top-tier performance across coding, visual, general, and research scenarios, excelling at complex, long-horizon tasks with robust generalization across a diverse range of agent harnesses.
+by
+xiaomi
+Sep 21, 2026
+1.05M context
+$0.435/M input
+tokens
+$0.87/M output
+tokens
+SpaceXAI: Grok 4.7
+Grok 4.7
+14.7B tokens
+Grok 4.7 is SpaceXAI's flagship model for coding, agentic tasks, and knowledge work, succeeding Grok 4.6. It is particularly strong at long-running software engineering tasks, verifying its own work, and managing long context, and it improves on its predecessor at professional knowledge work such as drafting documents and presentations. The model was trained with a longer reinforcement learning run weighted toward problems that take many hours to complete, and natively understands the Grok Bot harness for conversational tasks. It ships with a new safeguard stack that pairs strong jailbreak resistance with low refusal rates for legitimate cybersecurity and biology work. SpaceXAI's reported benchmark results use the xhigh reasoning effort.
+by
+x-ai
+Sep 21, 2026
+500K context
+$1.60/M input
+tokens
+$4.80/M output
+tokens
 PrismML: Ternary Bonsai 2 27B
 Ternary Bonsai 2 27B
-149M tokens
+197M tokens
 Bonsai 2 27B is a 27B-parameter reasoning model from PrismML derived from Qwen3.8-27B. It supports coding, mathematics, tool calling, and image understanding with a 262K-token context window. Ternary compression shrinks the language-model weights to roughly 8.5 GB while retaining 98.2% of the base model's average score across PrismML's 14 thinking-mode benchmarks, enabling efficient inference on consumer hardware. The model thinks by default and defaults to xhigh reasoning effort.
 by
 prism-ml
@@ -13,7 +61,8 @@ $0.50/M output
 tokens
 Z.ai: GLM 5.3 FlashX
 GLM 5.3 FlashX
-27B tokens
+53.9B tokens
+Programming (#43)
 GLM-5.3-FlashX is the high-speed variant of Z.ai's GLM-5.3-Flash, a native multimodal model delivering inference speeds of up to 200 tokens/s. Built on the same hybrid sparse and linear attention architecture (320B total parameters, 18B active), it is suited for efficient coding, visual understanding, and long-horizon agent tasks with a 1M-token context window.
 by
 z-ai
@@ -36,7 +85,7 @@ $0/M output
 tokens
 TypeSafe: Jev 1.13
 Jev 1.13
-492B tokens
+776B tokens
 Jev is a structured decision model from TypeSafe, and the first of its System One models. System One models make fast, structured decisions for software, returning a typed choice rather than free-form text. It is suited for routing, classification, and other decision points inside an application where a fast, predictable answer matters more than generated prose. Learn more in TypeSafe's docs:
 https://docs.typesafe.ai/concepts/system-one
 by
@@ -49,7 +98,7 @@ $0/M output
 tokens
 Pareto
 Pareto
-7.64B tokens
+8.39B tokens
 Pareto is a multimodal composite model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks.
 by
 unbiased
@@ -61,21 +110,21 @@ $7.50/M output
 tokens
 DeepSeek: DeepSeek Pro Latest
 DeepSeek Pro Latest
-20% off
-74.3B tokens
+58% off
+86.2B tokens
 This model always redirects to the latest model in the DeepSeek Pro family.
 by
 deepseek
 Sep 14, 2026
 1.05M context
-$0.70/M input
+$0.5586/M input
 tokens
-$2.88/M output
+$1.676/M output
 tokens
 DeepSeek: DeepSeek Flash Latest
 DeepSeek Flash Latest
 60% off
-428B tokens
+509B tokens
 This model always redirects to the latest model in the DeepSeek Flash family.
 by
 deepseek
@@ -87,7 +136,7 @@ $0.48/M output
 tokens
 Inference.net: Schematron V2 Turbo
 Schematron V2 Turbo
-228M tokens
+207M tokens
 Schematron V2 Turbo is a 3B-parameter HTML-to-JSON extraction model from Inference.net. It prioritizes throughput for high-volume extraction workloads. Extraction instructions must be supplied through a JSON schema in response_format rather than through system or user prompts.
 by
 inference-net
@@ -99,7 +148,7 @@ $0.15/M output
 tokens
 Inference.net: Schematron V2 Small
 Schematron V2 Small
-70.3M tokens
+63M tokens
 Schematron V2 Small is a 3B-parameter HTML-to-JSON extraction model from Inference.net. It prioritizes extraction quality for complex schemas and long pages. Extraction instructions must be supplied through a JSON schema in response_format rather than through system or user prompts.
 by
 inference-net
@@ -112,7 +161,7 @@ tokens
 Meta: Muse Voice Transcribe 1.0
 Muse Voice Transcribe 1.0
 18+
-8.95M characters
+9.21M characters
 Muse Voice Transcribe 1.0 is a synchronous speech-to-text model from Meta. It is suited for push-to-talk, endpointing, and speaker-aware transcription, with keyword biasing for domain terms and language biasing through language-name hints. It accepts mono 16-bit PCM WAV audio at 16 kHz or 24 kHz for recordings up to 10 minutes. It does not provide word-level timestamps or confidence scores, and other audio formats must be converted to WAV before upload.
 by
 meta
@@ -120,7 +169,7 @@ Sep 11, 2026
 $0.00005/second
 OpenAI: GPT Astra Latest
 GPT Astra Latest
-29.5B tokens
+30.1B tokens
 This model always redirects to the latest model in the GPT Astra family.
 by
 openai
@@ -133,7 +182,7 @@ tokens
 OpenAI: GPT Sol Latest
 GPT Sol Latest
 50% off
-61.1B tokens
+62.4B tokens
 This model always redirects to the latest model in the GPT Sol family.
 by
 openai
@@ -145,7 +194,7 @@ $10/M output
 tokens
 OpenAI: GPT Terra Latest
 GPT Terra Latest
-4.94B tokens
+5.86B tokens
 This model always redirects to the latest model in the GPT Terra family.
 by
 openai
@@ -155,49 +204,5 @@ $2/M input
 tokens
 $12/M output
 tokens
-OpenAI: GPT Luna Latest
-GPT Luna Latest
-74.8B tokens
-This model always redirects to the latest model in the GPT Luna family.
-by
-openai
-Sep 11, 2026
-1.05M context
-$0.20/M input
-tokens
-$1.20/M output
-tokens
-Sakana: Fugu Ultra v2
-Fugu Ultra v2
-3.87B tokens
-Fugu Ultra v2 is the higher-performance model in Sakana AI's Fugu family. Rather than a single monolithic model, Fugu is a learned multi-agent orchestration system: a language model trained to route tasks across a fixed pool of open and specialized models and to recursively call instances of itself. Fugu Ultra v2 prioritizes answer quality on complex multi-step reasoning, autonomous research, and full-stack software development, and does not rely on individual proprietary frontier models in its pool. It supports configurable reasoning effort (high, xhigh, max), function calling, structured outputs, image and PDF input, and built-in web search. Prompts above 272K tokens are billed at a higher rate. Orchestration tokens consumed by the system are billed as standard input/output tokens.
-by
-sakana
-Sep 11, 2026
-1M context
-$5/M input
-tokens
-$30/M output
-tokens
-Sakana: Fugu Max
-Fugu Max
-9.07B tokens
-Fugu Max is the cost-performance model in Sakana AI's Fugu family. Rather than a single monolithic model, Fugu is a learned multi-agent orchestration system: a language model trained to route tasks across a fixed pool of open-weights and specialized models, including NVIDIA's Nemotron family, and to recursively call instances of itself. Fugu Max dynamically selects efficient combinations of expert agents to improve quality and cost together, and is priced flat regardless of context length. It supports configurable reasoning effort (high, xhigh, max), function calling, structured outputs, image and PDF input, and built-in web search and web fetch. Orchestration tokens consumed by the system are billed as standard input/output tokens.
-by
-sakana
-Sep 11, 2026
-1M context
-$2/M input
-tokens
-$6/M output
-tokens
-Black Forest Labs: FLUX Video Edit
-FLUX Video Edit
-1 hour
-FLUX Video Edit [fast] takes a source video and an edit prompt and returns a precisely edited video. Add, remove, or replace objects and characters, rebuild the setting, edit on-screen text, change colors, materials and visual effects, change or translate dialogue with lip sync, or change the events of a clip. Output preserves the source duration, aspect ratio, and audio; inputs above 720p are downscaled to 720p. Source clips up to 15 seconds and 50 MiB.
-by
-black-forest-labs
-Sep 10, 2026
-$0.03/second
 Compare
 Discover Models

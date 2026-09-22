@@ -6,9 +6,9 @@
   "url": "https://www.notion.com/pricing",
   "final_url": "https://www.notion.com/pricing",
   "parser_version": 4,
-  "content_hash": "8495c906d9f32c23112d01c5e15428e052970985cf74eaa54dad8e2731f09fff",
-  "raw_hash": "b6f79abf1d2a9c9c16589f475e51f938bd4829c3a5f76d71e1b551283117c5e0",
-  "text_bytes": 21089,
+  "content_hash": "304aaf5e8be388887b7c715a6df466378da7adde7134324ff2dddeb1f9fcbb16",
+  "raw_hash": "e7dc0bbf204570a0bce8f56c0e37da72497402843dded5d83217857d022b5431",
+  "text_bytes": 21036,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

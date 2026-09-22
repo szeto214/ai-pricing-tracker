@@ -286,6 +286,8 @@ SSH execution (#ssh directive)
 No
 GitHub App
 No
+GitLab managed project access token
+No
 Deploy to staging/prod web UI
 No
 "Run on behalf of" selector when deploying across workspaces
@@ -492,6 +494,8 @@ Yes
 SSH execution (#ssh directive)
 Yes
 GitHub App
+Yes
+GitLab managed project access token
 Yes
 Deploy to staging/prod web UI
 Yes
@@ -777,6 +781,9 @@ SSH execution (#ssh directive)
 No
 Yes
 GitHub App
+No
+Yes
+GitLab managed project access token
 No
 Yes
 Deploy to staging/prod web UI

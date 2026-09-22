@@ -6,9 +6,9 @@
   "url": "https://zapier.com/pricing",
   "final_url": "https://zapier.com/pricing",
   "parser_version": 4,
-  "content_hash": "a1b59557d57f631899521ed6968bb1f592f2076b019881f5d71ffbec7efe6972",
-  "raw_hash": "7f12895f44156243968a0c3fb9f0604888f7537906f4c9b52104202ab8880310",
-  "text_bytes": 18755,
+  "content_hash": "5bcad4b4dded61eee575eadba86dfeeb3d1b49afb440145fc430f1c15ee1e99d",
+  "raw_hash": "8b0e21f28af68bd85410c205b2cbb7f66e9677859ecd5cf276d24ce3c6688b2c",
+  "text_bytes": 18701,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -20,8 +20,8 @@
       "period": "month",
       "features": [
         "Zapier automation platform",
-        "Unlimited Zap workflows, Tables, and Forms",
-        "Two-step Zap workflows",
+        "Unlimited Zaps, Tables, and Forms",
+        "Two-step Zaps",
         "Zapier Copilot*"
       ]
     },
@@ -32,7 +32,7 @@
       "currency": "USD",
       "period": "month",
       "features": [
-        "Multi-step Zap workflows",
+        "Multi-step Zaps",
         "Unlimited Premium apps",
         "Webhooks",
         "Email and live chat** support",
@@ -48,7 +48,7 @@
       "period": "month",
       "features": [
         "25 users",
-        "Shared Zap workflows and folders",
+        "Shared Zaps and folders",
         "Shared app connections",
         "SAML SSO",
         "Priority support"

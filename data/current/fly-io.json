@@ -6,9 +6,9 @@
   "url": "https://fly.io/pricing/",
   "final_url": "https://fly.io/pricing/",
   "parser_version": 4,
-  "content_hash": "7963f091da94b3579f585922326ccfa342a42be42e2762ee459ca6473d942208",
-  "raw_hash": "550ada74b3eba6eccff1d754f2527026206393028be0cdb0b3d6bf5dd44f965f",
-  "text_bytes": 2774,
+  "content_hash": "9960a27df1966a310c3379e4b9049aab3ea1bf7d68c0a13231cd084d94a902bf",
+  "raw_hash": "33b1c365fc283a80a9ac49fdb8dc0c9f27938b41de1d9fb32b345a59c71215a0",
+  "text_bytes": 2863,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -18,14 +18,6 @@
       "amount": 0.0027,
       "currency": "USD",
       "period": "hour",
-      "features": []
-    },
-    {
-      "name": "Machines Storage and network",
-      "price_raw": "$0.15",
-      "amount": 0.15,
-      "currency": "USD",
-      "period": "month",
       "features": []
     },
     {

@@ -53,15 +53,15 @@ NVIDIA RTX PRO 6000
 $0.95
 $1.80
 NVIDIA L40S with Intel CPU
-16-192
-96-1152
-from $0.90
-from $1.82
-NVIDIA L40S with AMD CPU
 8-40
 32-160
 from $0.74
 from $1.55
+NVIDIA L40S with AMD CPU
+16-192
+96-1152
+from $0.90
+from $1.82
 CPU-only instances
 Item
 vCPUs

@@ -7,7 +7,7 @@
   "final_url": "https://tailscale.com/pricing",
   "parser_version": 4,
   "content_hash": "ea6d10a812fd04a23cc7b476e125d891251fee0edca105e1e1d671305b9a0999",
-  "raw_hash": "b3fcc71f2aa32026985f2292da0bee834fcb4c66aa8dd540298758ae6e1fde21",
+  "raw_hash": "f7c83e7d06ee8849824a713926bc3ca061b92383b724011cbed0bbbd2a3680af",
   "text_bytes": 27670,
   "extractor": "dom",
   "confidence": "medium",
@@ -50,14 +50,6 @@
       "amount": 1.0,
       "currency": "USD",
       "period": "month",
-      "features": []
-    },
-    {
-      "name": "Users & Devices",
-      "price_raw": "$0",
-      "amount": 0.0,
-      "currency": "USD",
-      "period": "user",
       "features": []
     }
   ],

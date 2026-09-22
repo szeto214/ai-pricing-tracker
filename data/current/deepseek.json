@@ -9,18 +9,9 @@
   "content_hash": "732677e2c4ea907fd4fc262e2abaa7c33caa26f4683a44b6e092b763978826d7",
   "raw_hash": "2fecee48bf6ad791bce38d1d5504d8ad5c8b0fd4da93e6dc198ae88ff1a4506a",
   "text_bytes": 2196,
-  "extractor": "dom",
+  "extractor": "none",
   "confidence": "low",
-  "plans": [
-    {
-      "name": "Model Details ​",
-      "price_raw": "$0.003",
-      "amount": 0.003,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    }
-  ],
+  "plans": [],
   "models": [],
   "tables": [
     {

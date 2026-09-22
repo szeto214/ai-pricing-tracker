@@ -7,7 +7,7 @@
   "final_url": "https://v0.app/pricing",
   "parser_version": 4,
   "content_hash": "cda535884048169f0b57f8583a0fc7e7a7c95b3fae6bfd27ddf86f8b8bc9c4a9",
-  "raw_hash": "84bafb4089b92b6bcf5d34ee82694455c708cd88383c1233c83deeee26ab2841",
+  "raw_hash": "278879554f8ec17e3ed034d5ddcde8e3bccf44df75cc5d741a33aea588084c75",
   "text_bytes": 2825,
   "extractor": "dom",
   "confidence": "medium",
@@ -34,14 +34,6 @@
       "amount": 100.0,
       "currency": "USD",
       "period": "user",
-      "features": []
-    },
-    {
-      "name": "v 0 Mini",
-      "price_raw": "$0.20",
-      "amount": 0.2,
-      "currency": "USD",
-      "period": null,
       "features": []
     }
   ],

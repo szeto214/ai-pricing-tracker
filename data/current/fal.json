@@ -7,7 +7,7 @@
   "final_url": "https://fal.ai/pricing",
   "parser_version": 4,
   "content_hash": "39ad62dec05d759fc5058abdace78e1ee3df3c24191e08777b891cd6059cdd4e",
-  "raw_hash": "3cb43dc5762754e588bbd77eaaba8e71a7b1252aa21843db0fc5dd38e1eeb173",
+  "raw_hash": "c91dada68088652671675c2adff29f412259ea4d9a3f243e998a40c435347c83",
   "text_bytes": 2079,
   "extractor": "dom",
   "confidence": "medium",
@@ -22,14 +22,6 @@
     },
     {
       "name": "Video Models",
-      "price_raw": "$1",
-      "amount": 1.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "Image Models",
       "price_raw": "$1",
       "amount": 1.0,
       "currency": "USD",

@@ -6,9 +6,9 @@
   "url": "https://www.baseten.co/pricing/",
   "final_url": "https://www.baseten.co/pricing/",
   "parser_version": 4,
-  "content_hash": "83dec4d599c97440f04a19dd6e7be2315bacf6cd2caad5d564d10f19c9773f82",
-  "raw_hash": "a4f103d61232b4d8b8778247d849dea2d70a4e4436ef2372f87d867db92f86f8",
-  "text_bytes": 6155,
+  "content_hash": "b8ded80c98ce4856ecfa60a77df490f70f532f63993521fc6057611c0059028a",
+  "raw_hash": "84310a58d35ba7f3324c689ef8690b6c42fcd4d66afd1089b385d7e8cd5c0dcb",
+  "text_bytes": 5699,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -18,6 +18,14 @@
       "amount": 0.0,
       "currency": "USD",
       "period": "month",
+      "features": []
+    },
+    {
+      "name": "GLM-5.3 Fast",
+      "price_raw": "$2.10",
+      "amount": 2.1,
+      "currency": "USD",
+      "period": null,
       "features": []
     },
     {
@@ -53,9 +61,9 @@
       "features": []
     },
     {
-      "name": "GLM 4.7",
-      "price_raw": "$0.60",
-      "amount": 0.6,
+      "name": "DeepSeek V4.1 Flash",
+      "price_raw": "$0.30",
+      "amount": 0.3,
       "currency": "USD",
       "period": null,
       "features": []
@@ -64,22 +72,6 @@
       "name": "DeepSeek V4 Pro 0813",
       "price_raw": "$1.32",
       "amount": 1.32,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "DeepSeek V4 Pro",
-      "price_raw": "$1.74",
-      "amount": 1.74,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "DeepSeek V4.1 Flash",
-      "price_raw": "$0.30",
-      "amount": 0.3,
       "currency": "USD",
       "period": null,
       "features": []
@@ -96,38 +88,6 @@
       "name": "Kimi K3",
       "price_raw": "$3.00",
       "amount": 3.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "Kimi K2.6",
-      "price_raw": "$0.95",
-      "amount": 0.95,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "Kimi K2.7 Code",
-      "price_raw": "$0.95",
-      "amount": 0.95,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "Inkling-Small",
-      "price_raw": "$0.50",
-      "amount": 0.5,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "Inkling",
-      "price_raw": "$1.00",
-      "amount": 1.0,
       "currency": "USD",
       "period": null,
       "features": []
@@ -168,6 +128,46 @@
       "name": "B200",
       "price_raw": "$0.16633",
       "amount": 0.16633,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "1x2",
+      "price_raw": "$0.00058",
+      "amount": 0.00058,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "1x4",
+      "price_raw": "$0.00086",
+      "amount": 0.00086,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "2x8",
+      "price_raw": "$0.00173",
+      "amount": 0.00173,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "4x16",
+      "price_raw": "$0.00346",
+      "amount": 0.00346,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "8x32",
+      "price_raw": "$0.00691",
+      "amount": 0.00691,
       "currency": "USD",
       "period": null,
       "features": []

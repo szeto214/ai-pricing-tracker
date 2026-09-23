@@ -6,9 +6,9 @@
   "url": "https://deepinfra.com/pricing",
   "final_url": "https://deepinfra.com/pricing",
   "parser_version": 4,
-  "content_hash": "f6a1b8dcfb04649e0cb76dea2709723180a6843d9811ec481f9b59c486cb42fb",
-  "raw_hash": "c081feb2557d8d16fff9e32b42647f6e2ea4aadfc96cd6104c01dd3c35ebac32",
-  "text_bytes": 16264,
+  "content_hash": "f11835719e9af9b5e3eaa7185fa42316703200088d00f927632d5df397b9101e",
+  "raw_hash": "e73de8d9a961f2b4e9e17c0919c22dde2b683c3cfe253eb9386b4bce1015c06e",
+  "text_bytes": 16081,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -53,14 +53,6 @@
       "features": []
     },
     {
-      "name": "DeepSeek-V3-0324",
-      "price_raw": "$0.24",
-      "amount": 0.24,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
       "name": "DeepSeek-R1-0528",
       "price_raw": "$0.50",
       "amount": 0.5,
@@ -77,17 +69,25 @@
       "features": []
     },
     {
-      "name": "Kimi-K2.7-Code",
-      "price_raw": "$0.68",
-      "amount": 0.68,
+      "name": "Kimi-K2.6",
+      "price_raw": "$0.75",
+      "amount": 0.75,
       "currency": "USD",
       "period": null,
       "features": []
     },
     {
-      "name": "Kimi-K2.6",
-      "price_raw": "$0.75",
-      "amount": 0.75,
+      "name": "Qwen3.6-27B",
+      "price_raw": "$0.32",
+      "amount": 0.32,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Qwen3.6-35B-A3B",
+      "price_raw": "$0.10",
+      "amount": 0.1,
       "currency": "USD",
       "period": null,
       "features": []
@@ -175,22 +175,6 @@
       "unit": "per 1m input tokens"
     },
     {
-      "key": "deepseek-v3-0324",
-      "model": "DeepSeek-V3-0324",
-      "prices": {
-        "$ per 1m input tokens": {
-          "raw": "$0.24",
-          "amount": 0.24
-        },
-        "$ per 1m output tokens": {
-          "raw": "$0.90",
-          "amount": 0.9
-        }
-      },
-      "currency": "USD",
-      "unit": "per 1m input tokens"
-    },
-    {
       "key": "deepseek-v3",
       "model": "DeepSeek-V3",
       "prices": {
@@ -233,22 +217,6 @@
         "$ per 1m output tokens": {
           "raw": "$14.25",
           "amount": 14.25
-        }
-      },
-      "currency": "USD",
-      "unit": "per 1m input tokens"
-    },
-    {
-      "key": "kimi-k2.7-code",
-      "model": "Kimi-K2.7-Code",
-      "prices": {
-        "$ per 1m input tokens": {
-          "raw": "$0.68",
-          "amount": 0.68
-        },
-        "$ per 1m output tokens": {
-          "raw": "$3.40",
-          "amount": 3.4
         }
       },
       "currency": "USD",
@@ -686,13 +654,6 @@
           "View more"
         ],
         [
-          "DeepSeek-V3-0324",
-          "160k",
-          "$0.24 / $0.135 cached",
-          "$0.90",
-          "View more"
-        ],
-        [
           "DeepSeek-V3",
           "160k",
           "$0.32",
@@ -754,13 +715,6 @@
           "View more"
         ],
         [
-          "DeepSeek-V3-0324",
-          "160k",
-          "$0.24 / $0.135 cached",
-          "$0.90",
-          "View more"
-        ],
-        [
           "DeepSeek-V3",
           "160k",
           "$0.32",
@@ -794,13 +748,6 @@
           "View more"
         ],
         [
-          "Kimi-K2.7-Code",
-          "256k",
-          "$0.68 / $0.136 cached",
-          "$3.40",
-          "View more"
-        ],
-        [
           "Kimi-K2.6",
           "256k",
           "$0.75 / $0.15 cached",
@@ -824,13 +771,6 @@
           "1024k",
           "$2.85 / $0.285 cached",
           "$14.25",
-          "View more"
-        ],
-        [
-          "Kimi-K2.7-Code",
-          "256k",
-          "$0.68 / $0.136 cached",
-          "$3.40",
           "View more"
         ],
         [

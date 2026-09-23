@@ -6,12 +6,20 @@
   "url": "https://vast.ai/pricing",
   "final_url": "https://vast.ai/pricing",
   "parser_version": 4,
-  "content_hash": "ca880a259689d3c7b9b21f7056c6b3fb9a9e8a329f06c9dbc8d46d39b80b3925",
-  "raw_hash": "5973f91e8d8783680fe1e02592c0fde659b729a9c2d943f3cda389a6c0f97c0f",
-  "text_bytes": 7660,
+  "content_hash": "6ed818aa56d718bee000b59bdaf0befcbadfcf56cb4cb0a4f3e498ac795abe88",
+  "raw_hash": "db85e2dbd5f1786df89a6da9d68b22ad0bf786e975f2170df4765851eee76307",
+  "text_bytes": 7825,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
+    {
+      "name": "B300",
+      "price_raw": "$8.75",
+      "amount": 8.75,
+      "currency": "USD",
+      "period": "hour",
+      "features": []
+    },
     {
       "name": "H100 SXM",
       "price_raw": "$1.73",
@@ -29,9 +37,9 @@
       "features": []
     },
     {
-      "name": "B300",
-      "price_raw": "$8.75",
-      "amount": 8.75,
+      "name": "H100 PCIE",
+      "price_raw": "$2.48",
+      "amount": 2.48,
       "currency": "USD",
       "period": "hour",
       "features": []
@@ -54,24 +62,16 @@
     },
     {
       "name": "B200",
-      "price_raw": "$6.25",
-      "amount": 6.25,
-      "currency": "USD",
-      "period": "hour",
-      "features": []
-    },
-    {
-      "name": "H100 PCIE",
-      "price_raw": "$2.00",
-      "amount": 2.0,
+      "price_raw": "$9.38",
+      "amount": 9.38,
       "currency": "USD",
       "period": "hour",
       "features": []
     },
     {
       "name": "RTX 5090",
-      "price_raw": "$0.27",
-      "amount": 0.27,
+      "price_raw": "$0.33",
+      "amount": 0.33,
       "currency": "USD",
       "period": "hour",
       "features": []
@@ -86,8 +86,8 @@
     },
     {
       "name": "RTX 3090",
-      "price_raw": "$0.11",
-      "amount": 0.11,
+      "price_raw": "$0.10",
+      "amount": 0.1,
       "currency": "USD",
       "period": "hour",
       "features": []
@@ -110,8 +110,8 @@
     },
     {
       "name": "GB10",
-      "price_raw": "$0.33",
-      "amount": 0.33,
+      "price_raw": "$0.34",
+      "amount": 0.34,
       "currency": "USD",
       "period": "hour",
       "features": []
@@ -125,25 +125,33 @@
       "features": []
     },
     {
-      "name": "RTX PRO 6000 WS",
-      "price_raw": "$1.07",
-      "amount": 1.07,
+      "name": "RTX 5080",
+      "price_raw": "$0.20",
+      "amount": 0.2,
       "currency": "USD",
       "period": "hour",
       "features": []
     },
     {
-      "name": "RTX 5080",
-      "price_raw": "$0.19",
-      "amount": 0.19,
+      "name": "RTX PRO 6000 WS",
+      "price_raw": "$1.13",
+      "amount": 1.13,
       "currency": "USD",
       "period": "hour",
       "features": []
     },
     {
       "name": "RTX 5060 Ti",
-      "price_raw": "$0.10",
-      "amount": 0.1,
+      "price_raw": "$0.12",
+      "amount": 0.12,
+      "currency": "USD",
+      "period": "hour",
+      "features": []
+    },
+    {
+      "name": "RTX PRO 4000",
+      "price_raw": "$0.20",
+      "amount": 0.2,
       "currency": "USD",
       "period": "hour",
       "features": []
@@ -152,14 +160,6 @@
       "name": "RTX PRO 6000 Max-Q",
       "price_raw": "$0.52",
       "amount": 0.52,
-      "currency": "USD",
-      "period": "hour",
-      "features": []
-    },
-    {
-      "name": "RTX PRO 4000",
-      "price_raw": "$0.19",
-      "amount": 0.19,
       "currency": "USD",
       "period": "hour",
       "features": []

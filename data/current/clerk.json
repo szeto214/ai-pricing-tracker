@@ -6,9 +6,9 @@
   "url": "https://clerk.com/pricing",
   "final_url": "https://clerk.com/pricing",
   "parser_version": 4,
-  "content_hash": "8f74b4cef9bd71ed36c0f03814e1f82144e2476896d344def7822ad2ed4e1a8f",
-  "raw_hash": "f64e59b897f365b9d8f5566cac394d5140f17a9c3637dcbe15e8ae2da9719ecb",
-  "text_bytes": 12884,
+  "content_hash": "8c776b06c35592384e0cbc423c9d93e2e008a11e01cb1b4b0d1e1baea3399caa",
+  "raw_hash": "2cd0c2844ecfcb19dbb4ded3f1a1bbd81bdf88706c17242bf177fb2c0294bb09",
+  "text_bytes": 12915,
   "extractor": "jsonld",
   "confidence": "medium",
   "plans": [
@@ -66,7 +66,7 @@
         ],
         [
           "Included MRUs A user is counted as retained when they return 24+ hours after signing up.",
-          "50,000",
+          "50,000 per app",
           "50,000 MRUs included per app 50,001 - 100,000 $0.02/mo each 100,001 - 1,000,000 $0.018/mo each 1,000,001 - 10,000,000 $0.015/mo each 10,000,001+ $0.012/mo each",
           "50,000 MRUs included per app 50,001 - 100,000 $0.02/mo each 100,001 - 1,000,000 $0.018/mo each 1,000,001 - 10,000,000 $0.015/mo each 10,000,001+ $0.012/mo each"
         ],
@@ -116,7 +116,7 @@
           "Included"
         ],
         [
-          "SMS codes Authenticate with a code sent directly to the user's phone via SMS. US and Canada, $0.01 per SMS + International: market rate",
+          "SMS codes Authenticate with a code sent directly to the user's phone via SMS. US and Canada, $0.01 per SMS. International: market rate",
           "Not included",
           "Per SMS fees apply",
           "Per SMS fees apply"
@@ -357,7 +357,7 @@
           "Unlimited members"
         ],
         [
-          "Monthly retained organizations (MROs) An organization is retained when it has at least 2 members and at least one of those members is a retained user.",
+          "Monthly retained organizations (MROs) An organization is retained when it has at least 2 members and at least one of those members is a monthly retained user fo",
           "100 included per app",
           "100 MROs included per app 101 - 1,000 $1/mo each 1,001 - 10,000 $0.90/mo each 10,001 - 100,000 $0.75/mo each 100,001+ $0.60/mo each"
         ],

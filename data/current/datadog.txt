@@ -1495,66 +1495,99 @@ Support plans
 Services & enablement
 Common Questions
 What is a seat?
-A
-Seat
-is a license for a user to actively participate in the on-call or incident management process in Datadog.
-Any user can
-claim a seat
-for On-Call and Incident Management or Incident Response as they perform actions that require them.
-Billing admins can also
-assign seats ahead of time
-to simplify the process for their teams.
+A seat is a license to actively participate in on-call or incident management in Datadog. You claim a seat the first time you take an action that needs one, and billing admins can assign seats in advance so your team has access before they need it.
 For more information on how seats are
 assigned, claimed, and billed
 , see the
 Incident Response billing documentation
 .
-Do users get double charged if they are in more than one org?
-No, we charge based on unique seats across the organizations where users have accounts.
 What is an On-Call seat?
-A user needs an
+You need an
 On-Call seat
-if they:
-Are part of an on-call schedule.
-Are included in an escalation policy.
-Have set up notification preferences to receive pages.
-Note that for On-Call only:
-Anyone can view existing pages, escalation policies, teams, and schedules without a seat.
-What is an Incident Management Seat?
-A user needs an
+to:
+Participate in an on-call schedule
+Be included in an escalation policy
+Set up notification preferences to receive pages
+You do not need a seat to page another team or view existing pages, escalation policies, teams, or schedules.
+What is an Incident Management seat?
+You need an
 Incident Management seat
-if they:
-Modify an incident (for example, update severity).
-Add a comment, graph, or link to an incident timeline.
-Note that for Incident Management only:
-The actions above require a seat whether they are performed in the Datadog UI or through integrations such as Microsoft Teams or Slack.
-Anyone can create incidents, view incidents, and join incident channels without a seat.
-What is an Incident Response Seat?
-If your organization has committed to the Incident Response SKU, any user who meets the On-Call or Incident Management criteria can claim or be assigned an
+to:
+Modify an incident, including changes to its status, severity, or any custom field
+Delete an incident
+Add a comment, graph, or link to an incident timeline
+Assign a task to someone within an incident (the assignee does not need a seat)
+Assign a responder to a user-defined role within an incident (the assignee does need a seat)
+You do not need a seat to create incidents, view incidents, or join incident channels.
+Posting a message in a connected Slack, Microsoft Teams, or Google Chat channel does not require a seat either, including when that message syncs to the incident timeline. You need a seat only to act through the Datadog integration in Slack or Teams (for example, using action buttons) and to add comments, graphs, or links directly to a timeline in Datadog.
+What is an Incident Response seat?
+An
 Incident Response seat
+is one license covering both On-Call and Incident Management. If your organization commits to Incident Response, anyone who meets either the On-Call or the Incident Management criteria claims a single Incident Response seat instead of one seat in each product.
+Do people get double charged if they work in more than one org?
+No. Datadog charges on unique seats across the organizations where someone has an account, and deduplicates by the user’s email address.
+Should I buy On-Call and Incident Management separately, or the Incident Response bundle?
+Separately:
+On-Call at $
+20
+per seat, per month, and Incident Management at $
+30
+, each seated and billed independently. Choose this when the two groups barely overlap, such as a large on-call rotation plus a handful of incident commanders.
+The Incident Response bundle:
+at $
+40
+per seat, per month, gives you one seat pool covering both products. Choose this when the same people do both, since it avoids paying for two seats per person.
+What happens if someone without a seat tries to act on an incident?
+They are not blocked from creating, viewing, or joining incidents, since none of those need a seat. If they try an action that does need one, Datadog prompts them to claim a seat. If all your committed seats are in use, the claim still succeeds and the extra seat bills at your on-demand rate. To control which users can take those actions, see the incident management
+role permissions
 .
-In what countries do we support telephony features?
-Our list of available countries is extensive and spans across the globe. We continue to grow in availability zones daily. If your country is not supported, you can still be paged through the Datadog Mobile App.
-Are telephony costs included in pricing?
-Yes, telephony costs are included in the current pricing structure.
-Is there a limit on the number of
-pages, schedules, escalation policies, incidents, or postmortems
-that a user or org can create?
-No, seat holders have access to create unlimited
-pages, schedules, escalation policies, incidents, and postmortems
+If I rotate people through On-Call, what do I pay for?
+You pay for the highest number of seats assigned at one time, not for everyone who has ever held one. Bear in mind that unassigning someone does not free the seat immediately: it stays billable for the period you unassigned it in and drops off the next cycle. Swapping a seat between two people inside the same period therefore counts as two billable seats that period.
+If you rotate frequently, size your committed seats against everyone who will hold a seat during a billing period rather than the number on call at once.
+For more information on releasing seats when people or teams no longer need On-Call access, see
+Offboarding teams and users from Datadog On-Call
 .
+Can I remove seats?
+You can unassign a seat yourself at any time in Seat Management, which stops future charges for it. The seat stays billable for the period you unassigned it in and drops off the next cycle.
+Reducing your committed seat count is a contract change and takes effect at renewal. Unassigning people below your committed count does not reduce your committed spend.
+How can I see who is using a seat?
+Go to
+Plan & Usage
+→
+Seat Management
+. You will find a tab for each product you have enabled, your seats in use against your committed count, and a table of everyone holding a seat with their email and assignment date. You can search by name or email.
+If you see On-Call seats in use but no schedules, teams, or escalation policies configured, that is expected. Setting up notification preferences to receive pages occupies a seat on its own. On-Call admins can open the Notification Preferences settings page to see which schedules or escalation policies someone belongs to.
+Clearing someone’s notification preferences does not release their seat. To release a seat, unassign them in Seat Management.
+Does my seat price include telephony costs?
+Yes. Your seat price includes SMS and voice paging costs.
+Is there a limit on the number of schedules, escalation policies, incidents, or postmortems that a user or org can create?
+No, seat holders have access to create unlimited schedules, escalation policies, incidents, and postmortems.
 What external tools does Datadog Incident Response integrate with?
-Native integrations are available for Slack, MS Teams, Jira, ServiceNow, Zoom, and Status Page. Check out our
-Docs
-for more information.
+One connected system, built on the tools you already use, to power every stage of incident response, from initial alert through post-incident follow-up.
+Chat:
+Slack, MS Teams, Google Chat
+Ticketing:
+Jira,
+Linear,
+ServiceNow
+Video conferencing:
+Zoom,
+MS Teams, Google Meet
+Alerts:
+30+ native integrations to trigger On-Call pages
+Check out our
+Incident Management
+and
+On-Call
+docs for more information.
 Can I use Datadog Incident Management without using other Datadog products?
 Datadog Incident Management can be used as a standalone solution for your team, or as a central in-app hub to accelerate remediation and streamline existing workflows in Datadog.
-Can I use Datadog Incident Response without using other Datadog products?
-Datadog Incident Response can be used as a standalone solution for your team, or as a central in-app hub to accelerate remediation and streamline existing workflows in Datadog.
+Can I use Datadog Incident Response without other Datadog products?
+Yes. On-Call and Incident Management each work on their own, with no other Datadog product required. You can also run them as a hub inside Datadog, so responders move from an alert to the incident to the underlying traces, logs, and metrics without leaving the platform.
 What are Incident Automations?
-Incident Automations are Workflow Automation executions triggered by incidents in Datadog. These automations can be triggered manually, on a schedule, or automatically, in response to events in Incident Management — such as incident status changes or incident timeline updates. Read our
-Docs
-for more information.
+Incident Automations are Workflow Automation executions that incidents trigger in Datadog. You can run them manually, on a schedule, or automatically in response to events in Incident Management, such as an incident status change or a timeline update. See our
+documentation
+for more.
 Event Management
 Transform alert fatigue into actionable insights and accelerate remediation with automated event correlation
 Starting At
@@ -2715,16 +2748,16 @@ Yes. Sensitive Data Scanner is built into Agent Observability at no additional c
 How does the Experiments feature work, and is it available to all customers?
 Experiments are included in Agent Observability. You can build versioned datasets from real production traces, run experiments to compare prompts, models, tools, or agent logic side by side, and track results in the Datadog UI or via the SDK. Online evaluations run automatically in production to catch regressions as they happen. Offline, you run structured experiments against curated datasets before deploying. Together they give you confidence that your application performs reliably across both real-world and controlled conditions.
 How long is data retained and can it be extended?
-Trace data is retained for 15 days by default, and trace metrics are retained for 15 months. Experiment results are retained for 15 days by default, and datasets are versioned and stored for 3 years so you can always rerun experiments against the same baseline.
+Trace data is retained for 15 days by default, and trace metrics are retained for 15 months. Experiment results are retained for 15 days by default (3 months with an annual or month-to-month commitment), and datasets are versioned and stored for 3 years so you can always rerun experiments against the same baseline.
 For extended retention, we offer the following retention add-ons:
 30-day retention at $
-1.50
+6.50
 per 10K LLM spans per month (30-day trace retention, 6-month experiment retention)
 60-day retention at $
-3
+8
 per 10K LLM spans per month (60-day trace retention, 9-month experiment retention)
 90-day retention at $
-4
+9
 per 10K LLM spans per month (90-day trace retention, 12-month experiment retention)
 How is Datadog different from other solutions?
 Datadog connects development and production in one workflow, so teams can experiment with real production data, validate changes before rollout, and trace issues across the full application stack without switching tools. Agent Observability also unifies AI agent behavior with backend services, infrastructure, and real user sessions in the same platform SRE and DevOps teams already use to reduce context switching and speeding root cause analysis.

@@ -6,9 +6,9 @@
   "url": "https://weaviate.io/pricing",
   "final_url": "https://weaviate.io/pricing",
   "parser_version": 4,
-  "content_hash": "19b4427c14836a0de6a7a20c3ebeef5498963461da7c9e219c7e375e716bdf18",
-  "raw_hash": "70250eed2f75e1484d6b75c99d82fec31a1e12ccc98cd64e9edea29054c4062b",
-  "text_bytes": 6948,
+  "content_hash": "d548331ce5f7a773b4db77bb3dd00fc6b719ee13a597a3d6d72fcd183c4098d9",
+  "raw_hash": "07bc74e530a8b1b84fd04ea8e702aeddaf7b4f0bb004d6c8afe9308f49fc64c0",
+  "text_bytes": 7017,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -39,21 +39,6 @@
         "✓ Highly available clusters — 99.5% uptime.",
         "✓ Query Agent free tier + usage-based; Embeddings usage-based.",
         "✓ Standard support — next-business-day Sev 1"
-      ]
-    },
-    {
-      "name": "Premium",
-      "price_raw": "$400",
-      "amount": 400.0,
-      "currency": "USD",
-      "period": "month",
-      "features": [
-        "✓ Prepaid contract with predictable spend.",
-        "✓ Choice of shared or dedicated deployment.",
-        "✓ Trusted reliability — up to 99.95% uptime.",
-        "✓ Global coverage on AWS, GCP & Azure.",
-        "✓ Query Agent free tier + usage-based; Embeddings usage-based.",
-        "✓ Enterprise support — as fast as 1-hour Sev 1 + dedicated Technical Account Team"
       ]
     },
     {
@@ -356,8 +341,8 @@
           "Minimum",
           "Free",
           "$45 / month",
-          "from $400 / month",
-          "from $400 / month"
+          "Contact sales for more information",
+          "Contact sales for more information"
         ],
         [
           "Vector dimensions",
@@ -376,9 +361,9 @@
         [
           "Backup",
           "Free",
-          "from $0.0264 / GiB",
-          "from $0.0042 / GiB",
-          "from $0.0063 / GiB"
+          "from $0.0290 / GiB",
+          "from $0.0200 / GiB",
+          "from $0.0134 / GiB"
         ],
         [
           "Data transfer",

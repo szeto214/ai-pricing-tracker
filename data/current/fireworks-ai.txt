@@ -32,8 +32,6 @@ Serve fine-tuned models for the same price as base models.
 Managed Training
 Supervised and preference fine tuning
 is priced per 1M training tokens.
-Reinforcement fine tuning
-jobs are priced per GPU hour (billed per second), at the same price as Fireworks on-demand deployments (see on-demand pricing below).
 Base Model
 LoRA SFT
 LoRA DPO

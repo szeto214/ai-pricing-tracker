@@ -6,9 +6,9 @@
   "url": "https://platform.openai.com/docs/pricing",
   "final_url": "https://developers.openai.com/api/docs/pricing",
   "parser_version": 4,
-  "content_hash": "0b3d906fe24b485d1aef2e78c20035f6f15628e6f4964b3f4a234f0d647f3838",
-  "raw_hash": "e8d0495f51df80a4d17c4336b7c450eaf8f4eb8bccc282125127eff3b0cb92b7",
-  "text_bytes": 7688,
+  "content_hash": "28643eedb1abaa582582f5aef44c7e480f7922a7036eebb2aebda2c4c084e13b",
+  "raw_hash": "eebce3da87548e86d5e889f6d4c5d2b571c1647ed63cc60aedd7a8533e68d8aa",
+  "text_bytes": 7706,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -21,15 +21,7 @@
       "features": []
     },
     {
-      "name": "gpt-5.6-sol",
-      "price_raw": "$4.00",
-      "amount": 4.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "gpt-5.6-terra",
+      "name": "gpt-6-sol",
       "price_raw": "$2.00",
       "amount": 2.0,
       "currency": "USD",
@@ -37,9 +29,17 @@
       "features": []
     },
     {
-      "name": "gpt-5.6-luna",
-      "price_raw": "$0.20",
-      "amount": 0.2,
+      "name": "gpt-6-luna",
+      "price_raw": "$0.10",
+      "amount": 0.1,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "gpt-5.6-sol",
+      "price_raw": "$4.00",
+      "amount": 4.0,
       "currency": "USD",
       "period": null,
       "features": []
@@ -147,6 +147,14 @@
       "currency": "USD",
       "period": "day",
       "features": []
+    },
+    {
+      "name": "Web search",
+      "price_raw": "$10.00",
+      "amount": 10.0,
+      "currency": "USD",
+      "period": "day",
+      "features": []
     }
   ],
   "models": [
@@ -191,6 +199,86 @@
       "unit": ""
     },
     {
+      "key": "gpt-6-sol",
+      "model": "gpt-6-sol",
+      "prices": {
+        "input": {
+          "raw": "$2.00",
+          "amount": 2.0
+        },
+        "cached input": {
+          "raw": "$0.20",
+          "amount": 0.2
+        },
+        "cache writes": {
+          "raw": "$2.50",
+          "amount": 2.5
+        },
+        "output": {
+          "raw": "$10.00",
+          "amount": 10.0
+        },
+        "input (2)": {
+          "raw": "$4.00",
+          "amount": 4.0
+        },
+        "cached input (2)": {
+          "raw": "$0.40",
+          "amount": 0.4
+        },
+        "cache writes (2)": {
+          "raw": "$5.00",
+          "amount": 5.0
+        },
+        "output (2)": {
+          "raw": "$15.00",
+          "amount": 15.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "gpt-6-luna",
+      "model": "gpt-6-luna",
+      "prices": {
+        "input": {
+          "raw": "$0.10",
+          "amount": 0.1
+        },
+        "cached input": {
+          "raw": "$0.01",
+          "amount": 0.01
+        },
+        "cache writes": {
+          "raw": "$0.125",
+          "amount": 0.125
+        },
+        "output": {
+          "raw": "$0.50",
+          "amount": 0.5
+        },
+        "input (2)": {
+          "raw": "$0.20",
+          "amount": 0.2
+        },
+        "cached input (2)": {
+          "raw": "$0.02",
+          "amount": 0.02
+        },
+        "cache writes (2)": {
+          "raw": "$0.25",
+          "amount": 0.25
+        },
+        "output (2)": {
+          "raw": "$0.75",
+          "amount": 0.75
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
       "key": "gpt-5.6-sol",
       "model": "gpt-5.6-sol",
       "prices": {
@@ -225,86 +313,6 @@
         "output (2)": {
           "raw": "$30.00",
           "amount": 30.0
-        }
-      },
-      "currency": "USD",
-      "unit": ""
-    },
-    {
-      "key": "gpt-5.6-terra",
-      "model": "gpt-5.6-terra",
-      "prices": {
-        "input": {
-          "raw": "$2.00",
-          "amount": 2.0
-        },
-        "cached input": {
-          "raw": "$0.20",
-          "amount": 0.2
-        },
-        "cache writes": {
-          "raw": "$2.50",
-          "amount": 2.5
-        },
-        "output": {
-          "raw": "$12.00",
-          "amount": 12.0
-        },
-        "input (2)": {
-          "raw": "$4.00",
-          "amount": 4.0
-        },
-        "cached input (2)": {
-          "raw": "$0.40",
-          "amount": 0.4
-        },
-        "cache writes (2)": {
-          "raw": "$5.00",
-          "amount": 5.0
-        },
-        "output (2)": {
-          "raw": "$18.00",
-          "amount": 18.0
-        }
-      },
-      "currency": "USD",
-      "unit": ""
-    },
-    {
-      "key": "gpt-5.6-luna",
-      "model": "gpt-5.6-luna",
-      "prices": {
-        "input": {
-          "raw": "$0.20",
-          "amount": 0.2
-        },
-        "cached input": {
-          "raw": "$0.02",
-          "amount": 0.02
-        },
-        "cache writes": {
-          "raw": "$0.25",
-          "amount": 0.25
-        },
-        "output": {
-          "raw": "$1.20",
-          "amount": 1.2
-        },
-        "input (2)": {
-          "raw": "$0.40",
-          "amount": 0.4
-        },
-        "cached input (2)": {
-          "raw": "$0.04",
-          "amount": 0.04
-        },
-        "cache writes (2)": {
-          "raw": "$0.50",
-          "amount": 0.5
-        },
-        "output (2)": {
-          "raw": "$1.80",
-          "amount": 1.8
         }
       },
       "currency": "USD",
@@ -723,37 +731,26 @@
           "$75.00"
         ],
         [
-          "gpt-5.6-sol",
-          "$4.00",
-          "$0.40",
-          "$5.00",
-          "$20.00",
-          "$8.00",
-          "$0.80",
-          "$10.00",
-          "$30.00"
-        ],
-        [
-          "gpt-5.6-terra",
+          "gpt-6-sol",
           "$2.00",
           "$0.20",
           "$2.50",
-          "$12.00",
+          "$10.00",
           "$4.00",
           "$0.40",
           "$5.00",
-          "$18.00"
+          "$15.00"
         ],
         [
-          "gpt-5.6-luna",
+          "gpt-6-luna",
+          "$0.10",
+          "$0.01",
+          "$0.125",
+          "$0.50",
           "$0.20",
           "$0.02",
           "$0.25",
-          "$1.20",
-          "$0.40",
-          "$0.04",
-          "$0.50",
-          "$1.80"
+          "$0.75"
         ]
       ]
     },

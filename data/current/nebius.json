@@ -6,16 +6,24 @@
   "url": "https://nebius.com/prices",
   "final_url": "https://nebius.com/prices",
   "parser_version": 4,
-  "content_hash": "367eccebc176ddf40f993df66e05ee5f3c1e8500a39d5e12a3cb4b2c14e2882b",
-  "raw_hash": "f157cc7cdd0f366fee79af2a7773f5ea37f6f7c29be9f446732334290fd42a2b",
-  "text_bytes": 4792,
+  "content_hash": "9ebc80b8a7ddab1e18c6a7e5b4f9abf0b4052e21a6af4b62697c8a29abe34d24",
+  "raw_hash": "9a5f3542991c7a522c440415f0e49556b172e940064e0e05cccb4e12a73950ff",
+  "text_bytes": 5846,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
     {
       "name": "NVIDIA GPU Instances",
-      "price_raw": "$4.30",
-      "amount": 4.3,
+      "price_raw": "$7.85",
+      "amount": 7.85,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
+    {
+      "name": "Preemptible NVIDIA GPU Instances",
+      "price_raw": "$0.99",
+      "amount": 0.99,
       "currency": "USD",
       "period": null,
       "features": []

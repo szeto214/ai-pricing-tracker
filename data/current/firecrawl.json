@@ -6,12 +6,20 @@
   "url": "https://www.firecrawl.dev/pricing",
   "final_url": "https://www.firecrawl.dev/pricing",
   "parser_version": 4,
-  "content_hash": "51d88ac7da16fbfc3e726242e10c5d3854baa39e17e13693c7daeeaefeb68d6e",
-  "raw_hash": "b905fd4039d0ed899a7546306badb88db5fda2a2e3e1e523eeffe92e17bddc94",
-  "text_bytes": 14232,
+  "content_hash": "fd07f5ce649c764c36c3c5dc6c147f178df1f7b01d48765eaca209c1c3271cda",
+  "raw_hash": "a3e668a884654509beee1972e6466d5e6eac5d86b500464047f6ef45118e11d2",
+  "text_bytes": 14196,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
+    {
+      "name": "Introducing",
+      "price_raw": "$75M",
+      "amount": 75000000.0,
+      "currency": "USD",
+      "period": null,
+      "features": []
+    },
     {
       "name": "Hobby",
       "price_raw": "$ 16",

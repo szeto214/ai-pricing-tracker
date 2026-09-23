@@ -102,6 +102,16 @@ $0.05 / credit
 $0.04 / credit
 $0.035 / credit
 (volume pricing available)
+Context Graph ingestion & refresh
+Free, 24 hr refresh
+Free, 24 hr refresh
+Free, 24 hr refresh
+Free, 24 hr refresh
+Context Graph API queries
+1,000 / month, then $0.01 / query
+5,000 / month, then $0.01 / query
+5,000 / month, then $0.01 / query
+5,000 / month, then $0.01 / query
 Development
 Multi-protocol API client
 MCP Client (Model Context Protocol)
@@ -259,6 +269,10 @@ Postman AI
 Postman AI credits
 50 / month
 Postman AI overages (Pay-as-you-go)
+Context Graph ingestion & refresh
+Free, 24 hr refresh
+Context Graph API queries
+1,000 / month, then $0.01 / query
 Development
 Multi-protocol API client
 MCP Client (Model Context Protocol)
@@ -353,6 +367,10 @@ Postman AI credits
 400 / month
 Postman AI overages (Pay-as-you-go)
 $0.05 / credit
+Context Graph ingestion & refresh
+Free, 24 hr refresh
+Context Graph API queries
+5,000 / month, then $0.01 / query
 Development
 Multi-protocol API client
 MCP Client (Model Context Protocol)
@@ -448,6 +466,10 @@ Postman AI credits
 400 / user / month
 Postman AI overages (Pay-as-you-go)
 $0.04 / credit
+Context Graph ingestion & refresh
+Free, 24 hr refresh
+Context Graph API queries
+5,000 / month, then $0.01 / query
 Development
 Multi-protocol API client
 MCP Client (Model Context Protocol)
@@ -549,6 +571,10 @@ Postman AI credits
 Postman AI overages (Pay-as-you-go)
 $0.035 / credit
 (volume pricing available)
+Context Graph ingestion & refresh
+Free, 24 hr refresh
+Context Graph API queries
+5,000 / month, then $0.01 / query
 Development
 Multi-protocol API client
 MCP Client (Model Context Protocol)

@@ -6,9 +6,9 @@
   "url": "https://docs.perplexity.ai/getting-started/pricing",
   "final_url": "https://docs.perplexity.ai/docs/getting-started/pricing",
   "parser_version": 4,
-  "content_hash": "5570ef99708ec0372c07229ae8d4b24b2012c6cef07618cf004baa99cdc38bb2",
-  "raw_hash": "bec8d89adca6288f3db432f0482d320a23c3fa7043e8213abad76d85956c754a",
-  "text_bytes": 8475,
+  "content_hash": "0689d2025abdaadf01f0743f776352d8945a6738a704ac5ddb504d983fae5260",
+  "raw_hash": "fff05f91784b5049b3a114673dbb831b3f8218b7eb3bfc123a9c02ad91cc82c5",
+  "text_bytes": 8469,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

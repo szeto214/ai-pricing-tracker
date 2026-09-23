@@ -126,6 +126,7 @@ Integration with Airflow, Dagster, Prefect
 Data Governance
 In-Boundary Deployment
 Single Sign-On (SSO)
+Audit Logging
 Multitenancy (Multiple Users)
 Multiple Workspaces
 2

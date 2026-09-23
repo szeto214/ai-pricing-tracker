@@ -6,26 +6,26 @@
   "url": "https://www.inngest.com/pricing",
   "final_url": "https://www.inngest.com/pricing",
   "parser_version": 4,
-  "content_hash": "949fa1b537d3758aece49b98b6771111098353de61e6f44eb432c76b6c36781d",
-  "raw_hash": "bbdca90c7c6df9e6c7f26696c68fb9d786ee79313ddbf3ad5fac2ad2cf0fd3fe",
-  "text_bytes": 6071,
+  "content_hash": "173dc4eaa4adfdb830ea09c91d6d4082fc20786d7022f44bf6a8c8d960980ee6",
+  "raw_hash": "3e1d8b097be8106a92e4d5040ac541bc1eb66dadcea3df05472525ccde1d76ea",
+  "text_bytes": 10562,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
     {
-      "name": "Hobby",
-      "price_raw": "$0",
+      "name": "Free",
+      "price_raw": "$ 0",
       "amount": 0.0,
       "currency": "USD",
       "period": "month",
       "features": []
     },
     {
-      "name": "Pro",
-      "price_raw": "$99",
-      "amount": 99.0,
-      "currency": "USD",
-      "period": "month",
+      "name": "FREE",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
       "features": []
     },
     {
@@ -45,19 +45,11 @@
       "features": []
     },
     {
-      "name": "Users",
+      "name": "Seats",
       "price_raw": "$10",
       "amount": 10.0,
       "currency": "USD",
-      "period": "user",
-      "features": []
-    },
-    {
-      "name": "Workers",
-      "price_raw": "$10",
-      "amount": 10.0,
-      "currency": "USD",
-      "period": null,
+      "period": "seat",
       "features": []
     },
     {
@@ -66,14 +58,6 @@
       "amount": 0.5,
       "currency": "USD",
       "period": "month",
-      "features": []
-    },
-    {
-      "name": "Span data ingested",
-      "price_raw": "$3",
-      "amount": 3.0,
-      "currency": "USD",
-      "period": null,
       "features": []
     },
     {

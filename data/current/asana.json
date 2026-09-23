@@ -6,9 +6,9 @@
   "url": "https://asana.com/pricing",
   "final_url": "https://asana.com/pricing",
   "parser_version": 4,
-  "content_hash": "940a9d385b6257a8657ba1f8f6c2ce8515eef53029093dce63940d5d19b8eead",
-  "raw_hash": "3821b9529a02cae5b0f347c328a4d4f35b25cff172c52ccb1520aa2e31d5b501",
-  "text_bytes": 36570,
+  "content_hash": "6e58e2c09634da8b2f835cdfddb6659e01b45b6090e1167c7e66e8b6e5576e67",
+  "raw_hash": "76ca3b1c76922d2e716d7aa822c2809f4e9d28e72df7e66f5dc603bb03c57e92",
+  "text_bytes": 36613,
   "extractor": "jsonld",
   "confidence": "medium",
   "plans": [

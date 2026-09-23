@@ -1,7 +1,188 @@
 Models
+Cohere: Command A+
+Command A+
+7.71M tokens
+Command A+ is Cohere's flagship model for enterprise agentic workflows. It accepts text and image inputs with a 192K context window, supports native tool calling with strict tool schemas, structured outputs (JSON object and JSON schema), optional reasoning, and configurable safety modes.
+by
+cohere
+Sep 22, 2026
+192K context
+$0.30/M input
+tokens
+$1.50/M output
+tokens
+OpenAI: GPT-6 Luna Pro
+GPT-6 Luna Pro
+13.2B tokens
+GPT-6 Luna Pro is the same underlying model as
+GPT-6 Luna
+, served with
+reasoning.mode
+set to
+pro
+for higher-quality responses on complex tasks. Learn more in OpenAI's docs:
+https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode
+by
+openai
+Sep 22, 2026
+1.05M context
+$0.10/M input
+tokens
+$0.50/M output
+tokens
+OpenAI: GPT-6 Luna Pro (batch)
+GPT-6 Luna Pro (batch)
+104M tokens
+GPT-6 Luna Pro is the same underlying model as
+GPT-6 Luna
+, served with
+reasoning.mode
+set to
+pro
+for higher-quality responses on complex tasks. Learn more in OpenAI's docs:
+https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode
+by
+openai
+Sep 22, 2026
+1.05M context
+$0.05/M input
+tokens
+$0.25/M output
+tokens
+OpenAI: GPT-6 Luna
+GPT-6 Luna
+110B tokens
+GPT-6 Luna is the fast, cost-efficient model in OpenAI's GPT-6 series, positioned below GPT-6 Sol. It is suited for high-volume and latency-sensitive workloads such as chat, classification, and lightweight agentic tasks, and at higher reasoning effort it can take on complex software engineering and computer-use tasks that previously called for a Sol-tier model. It shares the GPT-6 family's gains in factual reliability and its clearer, more concise communication style.
+by
+openai
+Sep 22, 2026
+1.05M context
+$0.10/M input
+tokens
+$0.50/M output
+tokens
+OpenAI: GPT-6 Luna (batch)
+GPT-6 Luna (batch)
+778M tokens
+GPT-6 Luna is the fast, cost-efficient model in OpenAI's GPT-6 series, positioned below GPT-6 Sol. It is suited for high-volume and latency-sensitive workloads such as chat, classification, and lightweight agentic tasks, and at higher reasoning effort it can take on complex software engineering and computer-use tasks that previously called for a Sol-tier model. It shares the GPT-6 family's gains in factual reliability and its clearer, more concise communication style.
+by
+openai
+Sep 22, 2026
+1.05M context
+$0.05/M input
+tokens
+$0.25/M output
+tokens
+OpenAI: GPT-6 Sol Pro
+GPT-6 Sol Pro
+1.83B tokens
+GPT-6 Sol Pro is the same underlying model as
+GPT-6 Sol
+, served with
+reasoning.mode
+set to
+pro
+for higher-quality responses on complex tasks. Learn more in OpenAI's docs:
+https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode
+by
+openai
+Sep 22, 2026
+1.05M context
+$2/M input
+tokens
+$10/M output
+tokens
+OpenAI: GPT-6 Sol Pro (batch)
+GPT-6 Sol Pro (batch)
+1.8M tokens
+GPT-6 Sol Pro is the same underlying model as
+GPT-6 Sol
+, served with
+reasoning.mode
+set to
+pro
+for higher-quality responses on complex tasks. Learn more in OpenAI's docs:
+https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode
+by
+openai
+Sep 22, 2026
+1.05M context
+$1/M input
+tokens
+$5/M output
+tokens
+OpenAI: GPT-6 Sol
+GPT-6 Sol
+30.2B tokens
+SEO (#34)
+GPT-6 Sol is the cost-efficient high-end model in OpenAI's GPT-6 series, positioned below the flagship GPT-6 Astra and above the fast GPT-6 Luna tier. It is suited for demanding professional work, agentic coding, business workflow automation, and computer use, and is particularly strong at long-horizon software engineering tasks in real codebases. It approaches Astra-level factual reliability at a much lower cost and shares Astra's clearer, more concise communication style in technical and coding conversations.
+by
+openai
+Sep 22, 2026
+1.05M context
+$2/M input
+tokens
+$10/M output
+tokens
+OpenAI: GPT-6 Sol (batch)
+GPT-6 Sol (batch)
+3.83M tokens
+GPT-6 Sol is the cost-efficient high-end model in OpenAI's GPT-6 series, positioned below the flagship GPT-6 Astra and above the fast GPT-6 Luna tier. It is suited for demanding professional work, agentic coding, business workflow automation, and computer use, and is particularly strong at long-horizon software engineering tasks in real codebases. It approaches Astra-level factual reliability at a much lower cost and shares Astra's clearer, more concise communication style in technical and coding conversations.
+by
+openai
+Sep 22, 2026
+1.05M context
+$1/M input
+tokens
+$5/M output
+tokens
+inclusionAI: Ming Image 0.1 Design
+Ming Image 0.1 Design
+24.3M tokens
+Ming Image 0.1 Design is a text-to-image model from inclusionAI aimed at graphic-design output, with an emphasis on legible text rendering inside the generated image. It generates from a prompt only and does not accept reference images. Output format can be requested as PNG, JPEG, or WebP. Image dimensions are chosen by the model rather than by the request, so explicit sizes and aspect ratios are rejected instead of silently reshaped.
+by
+inclusionai
+Sep 22, 2026
+$0/M input
+tokens
+$0/M output
+tokens
+Anthropic: Claude Opus 5.5 (batch)
+Claude Opus 5.5 (batch)
+36.6M tokens
+Claude Opus 5.5 is Anthropic's flagship model for demanding reasoning, coding, and long-horizon agentic work, succeeding Claude Opus 5. It is particularly strong at multi-step changes in large codebases, code review and bug finding, financial and scientific analysis, and reading dense charts, diagrams, and screenshots, and it is more careful than its predecessor about only stating figures and citing sources it can back up. The model completes comparable tasks in fewer steps and with fewer tokens than Opus 5, and reports on its work in plainer language, with clear updates on what it did, what it found, and what it needs from the user. Thinking is always adaptive, so effort is the main lever for trading off depth, latency, and cost, and lower effort settings remain effective for latency-sensitive workloads.
+by
+anthropic
+Sep 22, 2026
+1M context
+$2/M input
+tokens
+$10/M output
+tokens
+Anthropic: Claude Opus 5.5
+Claude Opus 5.5
+41.9B tokens
+Claude Opus 5.5 is Anthropic's flagship model for demanding reasoning, coding, and long-horizon agentic work, succeeding Claude Opus 5. It is particularly strong at multi-step changes in large codebases, code review and bug finding, financial and scientific analysis, and reading dense charts, diagrams, and screenshots, and it is more careful than its predecessor about only stating figures and citing sources it can back up. The model completes comparable tasks in fewer steps and with fewer tokens than Opus 5, and reports on its work in plainer language, with clear updates on what it did, what it found, and what it needs from the user. Thinking is always adaptive, so effort is the main lever for trading off depth, latency, and cost, and lower effort settings remain effective for latency-sensitive workloads.
+by
+anthropic
+Sep 22, 2026
+1M context
+$4/M input
+tokens
+$20/M output
+tokens
+AssemblyAI: Universal-3.5 Pro
+Universal-3.5 Pro
+50% off
+385K characters
+Universal-3.5 Pro is AssemblyAI's speech-to-text model served through its Sync API, returning a complete transcript with word-level timestamps in a single synchronous response for audio clips up to 120 seconds. It accepts 16-bit WAV input and supports free-text prompting, keyterms, and conversation context to steer transcription toward domain vocabulary.
+by
+assemblyai
+Sep 22, 2026
+from $0.000063/second
 Xiaomi: MiMo-V2.6-Pro-UltraSpeed
 MiMo-V2.6-Pro-UltraSpeed
-1.13B tokens
+10.9B tokens
 MiMo-V2.6-Pro-UltraSpeed is the fast speed edition of Xiaomi's flagship foundation model, MiMo-V2.6-Pro. Built from the same 1T MiMo-V2.6-Pro checkpoint, it matches the original model in quality while delivering roughly 10x the output speed. The model features a 1M-token context window and native multimodal capabilities. Optimized for agentic workflows, it delivers top-tier performance across coding, visual, general, and research scenarios, excelling at complex, long-horizon tasks with robust generalization across a diverse range of agent harnesses.
 by
 xiaomi
@@ -13,7 +194,9 @@ $8.70/M output
 tokens
 Xiaomi: MiMo-V2.6-Flash
 MiMo-V2.6-Flash
-10.5B tokens
+174B tokens
+Programming (#31)
+Science (#42)
 MiMo-V2.6-Flash is an open-source foundation model developed by Xiaomi. Built on a Mixture-of-Experts architecture with 309B total parameters and 15B activated per token, it employs a hybrid attention mechanism for greater computational efficiency. The model features a 1M-token context window and native multimodal capabilities. Optimized for agentic workflows, it delivers strong performance across coding, visual, general, and research scenarios, excelling at complex, long-horizon tasks with robust generalization across a diverse range of agent harnesses.
 by
 xiaomi
@@ -25,7 +208,9 @@ $0.28/M output
 tokens
 Xiaomi: MiMo-V2.6-Pro
 MiMo-V2.6-Pro
-27.4B tokens
+221B tokens
+Programming (#35)
+Technology (#50)
 MiMo-V2.6-Pro is the flagship foundation model developed by Xiaomi. Built at a scale of over 1T parameters, it is designed to push the ceiling of capability for the most demanding workloads. The model features a 1M-token context window and native multimodal capabilities. Optimized for agentic workflows, it delivers top-tier performance across coding, visual, general, and research scenarios, excelling at complex, long-horizon tasks with robust generalization across a diverse range of agent harnesses.
 by
 xiaomi
@@ -37,7 +222,8 @@ $0.87/M output
 tokens
 SpaceXAI: Grok 4.7
 Grok 4.7
-14.7B tokens
+76.5B tokens
+Programming (#47)
 Grok 4.7 is SpaceXAI's flagship model for coding, agentic tasks, and knowledge work, succeeding Grok 4.6. It is particularly strong at long-running software engineering tasks, verifying its own work, and managing long context, and it improves on its predecessor at professional knowledge work such as drafting documents and presentations. The model was trained with a longer reinforcement learning run weighted toward problems that take many hours to complete, and natively understands the Grok Bot harness for conversational tasks. It ships with a new safeguard stack that pairs strong jailbreak resistance with low refusal rates for legitimate cybersecurity and biology work. SpaceXAI's reported benchmark results use the xhigh reasoning effort.
 by
 x-ai
@@ -46,163 +232,6 @@ Sep 21, 2026
 $1.60/M input
 tokens
 $4.80/M output
-tokens
-PrismML: Ternary Bonsai 2 27B
-Ternary Bonsai 2 27B
-197M tokens
-Bonsai 2 27B is a 27B-parameter reasoning model from PrismML derived from Qwen3.8-27B. It supports coding, mathematics, tool calling, and image understanding with a 262K-token context window. Ternary compression shrinks the language-model weights to roughly 8.5 GB while retaining 98.2% of the base model's average score across PrismML's 14 thinking-mode benchmarks, enabling efficient inference on consumer hardware. The model thinks by default and defaults to xhigh reasoning effort.
-by
-prism-ml
-Sep 18, 2026
-262K context
-$0.075/M input
-tokens
-$0.50/M output
-tokens
-Z.ai: GLM 5.3 FlashX
-GLM 5.3 FlashX
-53.9B tokens
-Programming (#43)
-GLM-5.3-FlashX is the high-speed variant of Z.ai's GLM-5.3-Flash, a native multimodal model delivering inference speeds of up to 200 tokens/s. Built on the same hybrid sparse and linear attention architecture (320B total parameters, 18B active), it is suited for efficient coding, visual understanding, and long-horizon agent tasks with a 1M-token context window.
-by
-z-ai
-Sep 18, 2026
-1.05M context
-$0.37/M input
-tokens
-$1.25/M output
-tokens
-TypeSafe: Jev Latest
-Jev Latest
-This model always redirects to the latest model in the Jev family.
-by
-typesafe
-Sep 18, 2026
-32K context
-$0.042/M input
-tokens
-$0/M output
-tokens
-TypeSafe: Jev 1.13
-Jev 1.13
-776B tokens
-Jev is a structured decision model from TypeSafe, and the first of its System One models. System One models make fast, structured decisions for software, returning a typed choice rather than free-form text. It is suited for routing, classification, and other decision points inside an application where a fast, predictable answer matters more than generated prose. Learn more in TypeSafe's docs:
-https://docs.typesafe.ai/concepts/system-one
-by
-typesafe
-Sep 18, 2026
-32K context
-$0.042/M input
-tokens
-$0/M output
-tokens
-Pareto
-Pareto
-8.39B tokens
-Pareto is a multimodal composite model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks.
-by
-unbiased
-Sep 17, 2026
-262K context
-$2.50/M input
-tokens
-$7.50/M output
-tokens
-DeepSeek: DeepSeek Pro Latest
-DeepSeek Pro Latest
-58% off
-86.2B tokens
-This model always redirects to the latest model in the DeepSeek Pro family.
-by
-deepseek
-Sep 14, 2026
-1.05M context
-$0.5586/M input
-tokens
-$1.676/M output
-tokens
-DeepSeek: DeepSeek Flash Latest
-DeepSeek Flash Latest
-60% off
-509B tokens
-This model always redirects to the latest model in the DeepSeek Flash family.
-by
-deepseek
-Sep 14, 2026
-1.05M context
-$0.12/M input
-tokens
-$0.48/M output
-tokens
-Inference.net: Schematron V2 Turbo
-Schematron V2 Turbo
-207M tokens
-Schematron V2 Turbo is a 3B-parameter HTML-to-JSON extraction model from Inference.net. It prioritizes throughput for high-volume extraction workloads. Extraction instructions must be supplied through a JSON schema in response_format rather than through system or user prompts.
-by
-inference-net
-Sep 12, 2026
-128K context
-$0.03/M input
-tokens
-$0.15/M output
-tokens
-Inference.net: Schematron V2 Small
-Schematron V2 Small
-63M tokens
-Schematron V2 Small is a 3B-parameter HTML-to-JSON extraction model from Inference.net. It prioritizes extraction quality for complex schemas and long pages. Extraction instructions must be supplied through a JSON schema in response_format rather than through system or user prompts.
-by
-inference-net
-Sep 12, 2026
-128K context
-$0.05/M input
-tokens
-$0.23/M output
-tokens
-Meta: Muse Voice Transcribe 1.0
-Muse Voice Transcribe 1.0
-18+
-9.21M characters
-Muse Voice Transcribe 1.0 is a synchronous speech-to-text model from Meta. It is suited for push-to-talk, endpointing, and speaker-aware transcription, with keyword biasing for domain terms and language biasing through language-name hints. It accepts mono 16-bit PCM WAV audio at 16 kHz or 24 kHz for recordings up to 10 minutes. It does not provide word-level timestamps or confidence scores, and other audio formats must be converted to WAV before upload.
-by
-meta
-Sep 11, 2026
-$0.00005/second
-OpenAI: GPT Astra Latest
-GPT Astra Latest
-30.1B tokens
-This model always redirects to the latest model in the GPT Astra family.
-by
-openai
-Sep 11, 2026
-1.05M context
-$10/M input
-tokens
-$50/M output
-tokens
-OpenAI: GPT Sol Latest
-GPT Sol Latest
-50% off
-62.4B tokens
-This model always redirects to the latest model in the GPT Sol family.
-by
-openai
-Sep 11, 2026
-1.05M context
-$2/M input
-tokens
-$10/M output
-tokens
-OpenAI: GPT Terra Latest
-GPT Terra Latest
-5.86B tokens
-This model always redirects to the latest model in the GPT Terra family.
-by
-openai
-Sep 11, 2026
-1.05M context
-$2/M input
-tokens
-$12/M output
 tokens
 Compare
 Discover Models

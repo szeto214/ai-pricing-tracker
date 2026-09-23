@@ -6,9 +6,9 @@
   "url": "https://www.postman.com/pricing/",
   "final_url": "https://www.postman.com/pricing/",
   "parser_version": 4,
-  "content_hash": "922e99e831ab3377bffc539004cfb9d5ddfbbd5dc8d756cc305ec96da2c05762",
-  "raw_hash": "3258787168446035419f340c6bccdd859f799abd07cb5c13394a01dc2d864a3a",
-  "text_bytes": 23177,
+  "content_hash": "50160666a566e04fe1f5c1c048edd4721d2144a34e314f13387cce396c4edfc5",
+  "raw_hash": "1460441aa785e4d360a1aef5983fcdd465ea5f4039d927c499e98397f8c19bdb",
+  "text_bytes": 23909,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -58,6 +58,14 @@
       "amount": 0.05,
       "currency": "USD",
       "period": "credit",
+      "features": []
+    },
+    {
+      "name": "Context Graph API queries",
+      "price_raw": "$0.01",
+      "amount": 0.01,
+      "currency": "USD",
+      "period": "month",
       "features": []
     },
     {
@@ -111,31 +119,6 @@
         "Enforced SSO login or optional multiple sign-in methods",
         "Just-in-Time (JIT) provisioning (always enabled)"
       ]
-    },
-    {
-      "name": "Monitoring",
-      "price_raw": "$20",
-      "amount": 20.0,
-      "currency": "USD",
-      "period": "month",
-      "features": [
-        "Monitor individual endpoints or entire APIs",
-        "Track HTTP response codes and failures",
-        "Measure latency over time",
-        "Get alerted when tests fail"
-      ]
-    },
-    {
-      "name": "Flows Credits",
-      "price_raw": "$1",
-      "amount": 1.0,
-      "currency": "USD",
-      "period": null,
-      "features": [
-        "Track request volume and trends over time",
-        "Flows credits power API orchestration and automation steps within Postman Flows.",
-        "Use Flows to design and run API-driven workflows across systems using a visual builder. Credits are consumed as flows execute and perform usage-based operations."
-      ]
     }
   ],
   "models": [],
@@ -168,7 +151,8 @@
           "",
           "$0.05 / credit",
           "$0.04 / credit",
-          "$0.035 / credit (volume pricing available)"
+          "$0.035 / credit (volume pricing available)",
+          "Context Graph ingestion & refresh"
         ],
         [
           "Postman AI credits",
@@ -183,6 +167,20 @@
           "$0.05 / credit",
           "$0.04 / credit",
           "$0.035 / credit (volume pricing available)"
+        ],
+        [
+          "Context Graph ingestion & refresh",
+          "Free, 24 hr refresh",
+          "Free, 24 hr refresh",
+          "Free, 24 hr refresh",
+          "Free, 24 hr refresh"
+        ],
+        [
+          "Context Graph API queries",
+          "1,000 / month, then $0.01 / query",
+          "5,000 / month, then $0.01 / query",
+          "5,000 / month, then $0.01 / query",
+          "5,000 / month, then $0.01 / query"
         ],
         [
           "Development",
@@ -722,20 +720,6 @@
           "",
           "",
           ""
-        ],
-        [
-          "Domain Capture",
-          "",
-          "",
-          "",
-          "Advanced Security add-on"
-        ],
-        [
-          "Postman Vault integrations",
-          "",
-          "",
-          "",
-          "Advanced Security add-on"
         ]
       ]
     },
@@ -755,6 +739,20 @@
           "$0.05 / credit",
           "$0.04 / credit",
           "$0.035 / credit (volume pricing available)"
+        ],
+        [
+          "Context Graph ingestion & refresh",
+          "Free, 24 hr refresh",
+          "Free, 24 hr refresh",
+          "Free, 24 hr refresh",
+          "Free, 24 hr refresh"
+        ],
+        [
+          "Context Graph API queries",
+          "1,000 / month, then $0.01 / query",
+          "5,000 / month, then $0.01 / query",
+          "5,000 / month, then $0.01 / query",
+          "5,000 / month, then $0.01 / query"
         ]
       ]
     },

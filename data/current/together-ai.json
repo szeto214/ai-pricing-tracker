@@ -6,8 +6,8 @@
   "url": "https://www.together.ai/pricing",
   "final_url": "https://www.together.ai/pricing",
   "parser_version": 4,
-  "content_hash": "645d570a1e3fe6f14b7a3692b659fe1fca1be37565f5fcf54a7f599feccfb40e",
-  "raw_hash": "5d3cbeab14ac8c0a2503924e4946dfc36a3d86ec71dad8a4e3762e2e4a42c4b2",
+  "content_hash": "a5f5e5d0cbe3d7535e51a3bee09505c68dba39dac7bf9240616c5795b3e65ece",
+  "raw_hash": "4859579db281b715b3cde772281c432c5ade06214cff0548094a6feffd630293",
   "text_bytes": 8767,
   "extractor": "jsonld",
   "confidence": "medium",
@@ -255,13 +255,13 @@
         ],
         [
           "Qwen3.8 Flash",
-          "$0.15",
-          "$0.47"
+          "$0.09",
+          "$0.28"
         ],
         [
           "Qwen3.7-Max",
-          "$2.50 $0.25 (cached)",
-          "$7.50"
+          "$1.50 $0.30 (cached)",
+          "$4.50"
         ],
         [
           "gpt-oss-120B",
@@ -375,8 +375,8 @@
         ],
         [
           "Qwen3.8 Flash",
-          "$0.15",
-          "$0.47"
+          "$0.09",
+          "$0.28"
         ],
         [
           "Qwen3.5 9B",

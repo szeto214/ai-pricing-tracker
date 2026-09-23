@@ -65,11 +65,6 @@ DeepSeek-V3.1
 $0.25 / $0.13 cached
 $0.95
 View more
-DeepSeek-V3-0324
-160k
-$0.24 / $0.135 cached
-$0.90
-View more
 DeepSeek-V3
 160k
 $0.32
@@ -110,11 +105,6 @@ DeepSeek-V3.1
 $0.25 / $0.13 cached
 $0.95
 View more
-DeepSeek-V3-0324
-160k
-$0.24 / $0.135 cached
-$0.90
-View more
 DeepSeek-V3
 160k
 $0.32
@@ -137,11 +127,6 @@ Kimi-K3
 $2.85 / $0.285 cached
 $14.25
 View more
-Kimi-K2.7-Code
-256k
-$0.68 / $0.136 cached
-$3.40
-View more
 Kimi-K2.6
 256k
 $0.75 / $0.15 cached
@@ -156,11 +141,6 @@ Kimi-K3
 1024k
 $2.85 / $0.285 cached
 $14.25
-View more
-Kimi-K2.7-Code
-256k
-$0.68 / $0.136 cached
-$3.40
 View more
 Kimi-K2.6
 256k
@@ -1108,37 +1088,37 @@ Trust Center
 Status
 DeepGPT
 Latest Models
+XiaomiMiMo
+/
+MiMo-V2.6-Pro
+XiaomiMiMo
+/
+MiMo-V2.6-Flash
+nvidia
+/
+Nemotron-3-Diarization-preview
 Qwen
 /
 Qwen3.8-Flash
 ByteDance
 /
 Seedream-5.0-Pro
-Bria
-/
-fibo_edit-1.5
-Bria
-/
-fibo-1.5
-deepseek-ai
-/
-DeepSeek-V4.1-Flash
 Featured Models
-zai-org
-/
-GLM-5.2
-zai-org
-/
-GLM-5.1
 Qwen
 /
 Qwen3.8-2.4T-A95B
-moonshotai
+Qwen
 /
-Kimi-K2.7-Code
-moonshotai
+Qwen3.5-397B-A17B
+black-forest-labs
 /
-Kimi-K2.6
+FLUX-2-klein-9b
+deepseek-ai
+/
+DeepSeek-V4-Pro
+google
+/
+gemma-4-31B-it
 © 2026 DeepInfra. All rights reserved.
 Privacy Policy
 Terms of Service

@@ -149,7 +149,9 @@ Billing-aware authorization for plan-based access control and feature gating.
 Prebuilt components for pricing pages and customer self-service subscription management.
 Pre-negotiated startup discounts are available through our partners
 Apply to Clerk for Startups
-Partners include Stripe Atlas, Y Combinator, OnDeck, South Park Commons, and many more.
+Partners include
+Stripe Atlas, Y Combinator, South Park Commons, OnDeck
+, and many more.
 Eligible up to 1 year after launch.
 Eligible up to $5 million in venture funding.
 Stripe Atlas
@@ -180,7 +182,7 @@ Unlimited
 Unlimited
 Included MRUs
 A user is counted as retained when they return 24+ hours after signing up.
-50,000
+50,000 per app
 50,000 MRUs
 included per app
 50,001 - 100,000
@@ -239,7 +241,7 @@ Included
 Included
 Included
 SMS codes
-Authenticate with a code sent directly to the user's phone via SMS. US and Canada, $0.01 per SMS + International: market rate
+Authenticate with a code sent directly to the user's phone via SMS. US and Canada, $0.01 per SMS. International: market rate
 Not included
 Per SMS fees apply
 Per SMS fees apply
@@ -490,7 +492,7 @@ Users who have access to a given organization.
 20 members
 Unlimited members
 Monthly retained organizations (MROs)
-An organization is retained when it has at least 2 members and at least one of those members is a retained user.
+An organization is retained when it has at least 2 members and at least one of those members is a monthly retained user for that month.
 100 included per app
 100 MROs
 included per app

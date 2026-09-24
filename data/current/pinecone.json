@@ -6,9 +6,9 @@
   "url": "https://www.pinecone.io/pricing/",
   "final_url": "https://www.pinecone.io/pricing/",
   "parser_version": 4,
-  "content_hash": "a7e2333ebd1282b15393e3152fc1a7b17e7f880209018ca093f69f98f6ebfc1c",
-  "raw_hash": "d5276b2e3af390d5eceef9561989444bf6897ae0ba53ff88259cf4b7712eea9f",
-  "text_bytes": 8899,
+  "content_hash": "92f563af0c4a81fe516877182ea8d5543440dae34e7f34811cab366ed84127e4",
+  "raw_hash": "8e5db6f929e2a0c5ca3ab07b6aae89daa7b2a9e84e8eb1b504910e87d2ae6514",
+  "text_bytes": 8891,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

@@ -6,9 +6,9 @@
   "url": "https://retool.com/pricing",
   "final_url": "https://retool.com/pricing",
   "parser_version": 4,
-  "content_hash": "d2727cc71e9f67302c6b56fa21cd4d438fc8c1d1fc1f65da782f29613c9b620e",
-  "raw_hash": "a22bfcb560c198ff1f35472c68eb5cf97583527d254b06366770bf9e041515e6",
-  "text_bytes": 19221,
+  "content_hash": "6230f4bd04193ee9d7b5317cb3af13861b76ba911fc69ab339ee249b60724a35",
+  "raw_hash": "6431792c19ecb0884da4ef6262c18503507a533d30f6964c7b4b9f157a0b2650",
+  "text_bytes": 19217,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -159,7 +159,7 @@
           "—",
           "—",
           "Included",
-          "✓ Full white-labeling"
+          "Full white-labeling"
         ],
         [
           "Mobile apps Build native mobile apps and deploy on iOS, Android, or as a PWA. Build native mobile apps and deploy on iOS, Android, or as a PWA.",

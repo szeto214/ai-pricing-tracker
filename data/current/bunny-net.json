@@ -6,9 +6,9 @@
   "url": "https://bunny.net/pricing/",
   "final_url": "https://bunny.net/pricing/",
   "parser_version": 4,
-  "content_hash": "001c953e93dc46e070a38d32b5a3018c28656e208a1d4c6ae90f3630da0efd5b",
-  "raw_hash": "ac7d8a7081e053cec74a4117ed17737592f783c7fdf1c0f185ef8e4c41ba44f7",
-  "text_bytes": 4359,
+  "content_hash": "8545ed4630f0a9d59e6571b4cb30212ead0c1b12d013b142b6fae0bc5b8c749f",
+  "raw_hash": "b2f2421374ff02908af507f172eed26a5bfea009713ffa8ecb41229fd7d0dfc0",
+  "text_bytes": 4370,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

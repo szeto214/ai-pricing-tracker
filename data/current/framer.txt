@@ -136,7 +136,7 @@ Site redirects
 Add redirects to maintain search engine rankings
 Static files
 Host .well-known or other static files on your site
-5
+50
 Custom
 Branching
 Explore changes and share previews
@@ -338,7 +338,7 @@ With add-ons you can have up to 40,000 CMS items, 40 CMS collections, 2 TB of ba
 How are events billed for the Convert add-on?
 You will be billed based on the number of analytics events your site generates each month. An event can be a page view, a click on a tracked link, or a submission through a tracked form. With the add-on, you can also run up to 5 A/B tests. The add-on is billed as part of the billing cycle for the associated plan.
 What’s included in the Advanced Hosting add-on?
-With the Advanced Hosting add-on, you can add up to 6 rewrites and set custom values for the Permissions-Policy, Referrer-Policy, and X-Frame-Options headers. You can also upload up to 50 static files.
+With the Advanced Hosting add-on, you can add up to 6 rewrites and set custom values for the Permissions-Policy, Referrer-Policy, and X-Frame-Options headers. You can also upload up to 500 static files.
 What if my open-source or side project receives a lot of traffic?
 We can be flexible with our limits for open-source or non-revenue-based side projects.
 Please contact us

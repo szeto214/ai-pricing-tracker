@@ -6,25 +6,12 @@
   "url": "https://github.com/features/copilot/plans",
   "final_url": "https://github.com/features/copilot/plans",
   "parser_version": 4,
-  "content_hash": "bde65ea1788dcfd4e1a3aa17391a36fe0c8cabea50aa7e31e738441ad5a71e1b",
-  "raw_hash": "2f7d844830022736975e5edbdbd373f338f40ea855fe98e3ad314472cdc47999",
-  "text_bytes": 47625,
+  "content_hash": "8f661f18a70ed9c7091fdac3408f535866cd0cb3ab79bef66485fbfab96c9479",
+  "raw_hash": "559695c335facaca3feec5dd6c8419417a9ffe060c72492f8ed27fc1ea5f6318",
+  "text_bytes": 46295,
   "extractor": "dom",
-  "confidence": "medium",
+  "confidence": "low",
   "plans": [
-    {
-      "name": "Free",
-      "price_raw": "$ 0",
-      "amount": 0.0,
-      "currency": "USD",
-      "period": "month",
-      "features": [
-        "2,000 completions per month",
-        "Access to Haiku 4.5, GPT-5 mini, and more",
-        "Copilot CLI",
-        "Community Support"
-      ]
-    },
     {
       "name": "Free plan",
       "price_raw": "Free",

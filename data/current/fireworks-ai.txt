@@ -21,6 +21,8 @@ documentation
 Embeddings
 Base model parameter count
 $ / 1M input tokens
+Base model parameter count
+$ / 1M input tokens
 up to 150M
 $0.008
 150M - 350M
@@ -32,6 +34,11 @@ Serve fine-tuned models for the same price as base models.
 Managed Training
 Supervised and preference fine tuning
 is priced per 1M training tokens.
+Base Model
+LoRA SFT
+LoRA DPO
+Full Param SFT
+Full Param DPO
 Base Model
 LoRA SFT
 LoRA DPO
@@ -69,6 +76,12 @@ FAQ
 on calculating image tokens.
 Serverless Training API
 Attach to a shared, always-on trainer pool for LoRA training on the launch models. There's no provisioning and no idle cost. You pay only for the tokens you prefill, sample, and train.
+Base Model
+Context
+Prefill / 1M
+Cached Prefill / 1M
+Sample / 1M
+Train / 1M
 Base Model
 Context
 Prefill / 1M
@@ -114,6 +127,9 @@ Dedicated Training API jobs are priced per GPU hour. Please see the On-Demand Pr
 On-Demand Pricing
 Pay per GPU second, with no extra charges for start-up times
 On demand deployments
+GPU Type
+Price ($) per minute
+Price ($) per hour
 GPU Type
 Price ($) per minute
 Price ($) per hour

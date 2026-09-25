@@ -6,9 +6,9 @@
   "url": "https://www.together.ai/pricing",
   "final_url": "https://www.together.ai/pricing",
   "parser_version": 4,
-  "content_hash": "a5f5e5d0cbe3d7535e51a3bee09505c68dba39dac7bf9240616c5795b3e65ece",
-  "raw_hash": "4859579db281b715b3cde772281c432c5ade06214cff0548094a6feffd630293",
-  "text_bytes": 8767,
+  "content_hash": "9c35ad0a7ce645643508df82b637ada0d84728430f956e4c0de0c7f11d029aa1",
+  "raw_hash": "cd3dec267dabd8b0f0baa3da3ecdf0b564830bc167cf637e10285dc21d0f5618",
+  "text_bytes": 8773,
   "extractor": "jsonld",
   "confidence": "medium",
   "plans": [
@@ -756,7 +756,7 @@
         ],
         [
           "NVIDIA HGX B300",
-          "—"
+          "$9.99"
         ],
         [
           "NVIDIA HGX H100",

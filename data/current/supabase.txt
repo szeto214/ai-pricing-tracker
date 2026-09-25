@@ -544,6 +544,10 @@ Feature
 Included
 Log retention (API & Database)
 1 day
+Log Ingestion
+1 GB included
+Log Query
+100 GB included
 Log Drain
 Not included in
 free
@@ -890,6 +894,20 @@ Log retention (API & Database)
 7 days
 28 days
 90 days
+Log Ingestion
+About Log Ingestion
+1 GB included
+20 GB included
+then $0.50 per GB
+20 GB included
+then $0.50 per GB
+Custom
+Log Query
+About Log Query
+100 GB included
+Log Ingestion Usage x 100
+Log Ingestion Usage x 100
+Custom
 Log Drain
 About Log Drain
 Not included in

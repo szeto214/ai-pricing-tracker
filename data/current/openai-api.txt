@@ -53,13 +53,12 @@ Frontend prompting
 Reasoning
 Reasoning models
 Reasoning best practices
-Images and video
+Images
 Images and vision
 Image input cost calculator
 Image generation
 Overview
 Image prompting
-Video generation
 Realtime and audio
 Audio and speech
 Getting started
@@ -256,34 +255,6 @@ $5.00
 $1.25
 -
 All models
-Video generation models
-Prices per second.
-Standard
-Batch
-Standard
-Model
-Size
-Portrait
-Landscape
-Price per second
-sora-2
-720p
-720x1280
-1280x720
-$0.10
-sora-2-pro
-720p
-720x1280
-1280x720
-$0.30
-1024p
-1024x1792
-1792x1024
-$0.50
-1080p
-1080x1920
-1920x1080
-$0.70
 Transcription models
 Prices per 1M tokens unless noted.
 Model

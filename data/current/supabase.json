@@ -6,9 +6,9 @@
   "url": "https://supabase.com/pricing",
   "final_url": "https://supabase.com/pricing",
   "parser_version": 4,
-  "content_hash": "0ea8fdf7f8cce3538caab30e950a22c3a87bf804c5d9d2b64f66f761fcb39c06",
-  "raw_hash": "08136ca7c2e49d52d2e821ea94a1a76619203e82de23636a0820b75f1192ba38",
-  "text_bytes": 16365,
+  "content_hash": "43e380c83c23f1bce90c3032264107c424127476eaee1dc61c163c52076caaa2",
+  "raw_hash": "a9abaebcb8a65fbc2cd4dd018100d92ea158c03a006f247c6882e969a0392a35",
+  "text_bytes": 16641,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

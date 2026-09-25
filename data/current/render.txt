@@ -427,9 +427,9 @@ Expand
 compute table
 Workflows
 Scale up to
-4
+8
 CPU and
-16
+32
 GB of RAM
 Fully managed durable execution
 Sub-second task spin-up
@@ -455,6 +455,10 @@ $1.00/hour
 $1.50/hour
 16 GB RAM
 4c-16g
+8 CPU
+$2.50/hour
+32 GB RAM
+8c-32g
 Expand
 compute table
 Static Sites

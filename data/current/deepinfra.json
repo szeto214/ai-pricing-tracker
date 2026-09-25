@@ -6,9 +6,9 @@
   "url": "https://deepinfra.com/pricing",
   "final_url": "https://deepinfra.com/pricing",
   "parser_version": 4,
-  "content_hash": "716c76426968cd99db347281346fea7497cf930562946129a5ed1e3e49139efc",
-  "raw_hash": "87cb6bc2ad903a31bb3944ba2f2c5cb6b996832472ac3ac0acb021ded253929f",
-  "text_bytes": 16108,
+  "content_hash": "f9d4ca7bb71cb86d5bcd82ab655a36161971e6acf05a6cbecd2e6bd5ea02e4ef",
+  "raw_hash": "c9e92f6e2c312814c858dddbd1aacfbfa4c5be0b0c08186c7cd90425339fced2",
+  "text_bytes": 15805,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -287,22 +287,6 @@
       "unit": "per 1m input tokens"
     },
     {
-      "key": "qwen3.5-122b-a10b",
-      "model": "Qwen3.5-122B-A10B",
-      "prices": {
-        "$ per 1m input tokens": {
-          "raw": "$0.29",
-          "amount": 0.29
-        },
-        "$ per 1m output tokens": {
-          "raw": "$2.40",
-          "amount": 2.4
-        }
-      },
-      "currency": "USD",
-      "unit": "per 1m input tokens"
-    },
-    {
       "key": "qwen3.5-35b-a3b",
       "model": "Qwen3.5-35B-A3B",
       "prices": {
@@ -575,22 +559,6 @@
       "unit": "per 1m input tokens"
     },
     {
-      "key": "llama-4-maverick-17b-128e",
-      "model": "Llama-4-Maverick-17B-128E",
-      "prices": {
-        "$ per 1m input tokens": {
-          "raw": "$0.20",
-          "amount": 0.2
-        },
-        "$ per 1m output tokens": {
-          "raw": "$0.80",
-          "amount": 0.8
-        }
-      },
-      "currency": "USD",
-      "unit": "per 1m input tokens"
-    },
-    {
       "key": "llama-guard-4-12b",
       "model": "Llama-Guard-4-12B",
       "prices": {
@@ -814,13 +782,6 @@
           "View more"
         ],
         [
-          "Qwen3.5-122B-A10B",
-          "256k",
-          "$0.29",
-          "$2.40",
-          "View more"
-        ],
-        [
           "Qwen3.5-35B-A3B",
           "256k",
           "$0.14 / $0.05 cached",
@@ -966,13 +927,6 @@
           "View more"
         ],
         [
-          "Qwen3.5-122B-A10B",
-          "256k",
-          "$0.29",
-          "$2.40",
-          "View more"
-        ],
-        [
           "Qwen3.5-35B-A3B",
           "256k",
           "$0.14 / $0.05 cached",
@@ -1104,13 +1058,6 @@
           "View more"
         ],
         [
-          "Llama-4-Maverick-17B-128E",
-          "1024k",
-          "$0.20",
-          "$0.80",
-          "View more"
-        ],
-        [
           "Llama-Guard-4-12B",
           "160k",
           "$0.18",
@@ -1134,13 +1081,6 @@
           "320k",
           "$0.10",
           "$0.30",
-          "View more"
-        ],
-        [
-          "Llama-4-Maverick-17B-128E",
-          "1024k",
-          "$0.20",
-          "$0.80",
           "View more"
         ],
         [

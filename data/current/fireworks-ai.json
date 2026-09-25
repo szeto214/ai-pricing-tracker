@@ -6,9 +6,9 @@
   "url": "https://fireworks.ai/pricing",
   "final_url": "https://fireworks.ai/pricing",
   "parser_version": 4,
-  "content_hash": "551d7b35025334460c6558b386b31bc11801d630adf32dbb63f7c3b39cdcf3b1",
-  "raw_hash": "4a5442285dbdcde2a231c76028e3b2cb1cd041bd7724326f5ad7bf9c02c7db97",
-  "text_bytes": 3645,
+  "content_hash": "532fa7ffcaeecae849bbe7ef1cd1f84e81cc3d82e1dc8ee12644b9807aeab80c",
+  "raw_hash": "6dffdc7c9afae4312fc6eec5877aaa577798108802d895e392d61310c549aedf",
+  "text_bytes": 3692,
   "extractor": "dom",
   "confidence": "low",
   "plans": [
@@ -153,6 +153,30 @@
       },
       "currency": "USD",
       "unit": ""
+    },
+    {
+      "key": "glm 5.3 flash",
+      "model": "GLM 5.3 Flash",
+      "prices": {
+        "prefill / 1m": {
+          "raw": "$2.96",
+          "amount": 2.96
+        },
+        "cached prefill / 1m": {
+          "raw": "$0.593",
+          "amount": 0.593
+        },
+        "sample / 1m": {
+          "raw": "$7.41",
+          "amount": 7.41
+        },
+        "train / 1m": {
+          "raw": "$8.89",
+          "amount": 8.89
+        }
+      },
+      "currency": "USD",
+      "unit": "/ 1m"
     },
     {
       "key": "glm 5.3",
@@ -446,6 +470,14 @@
           "Cached Prefill / 1M",
           "Sample / 1M",
           "Train / 1M"
+        ],
+        [
+          "GLM 5.3 Flash",
+          "200K",
+          "$2.96",
+          "$0.593",
+          "$7.41",
+          "$8.89"
         ],
         [
           "GLM 5.3",

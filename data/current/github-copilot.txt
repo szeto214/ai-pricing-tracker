@@ -685,11 +685,12 @@ To generate a code suggestion, the GitHub Copilot extension begins by examining 
 To generate a suggestion for chat in the code editor, the GitHub Copilot extension creates a contextual prompt by combining your prompt with additional context including the code file open in your active document, your code selection, and general workspace information, such as frameworks, languages, and dependencies. That information is sent to GitHub Copilot’s model, to make a probabilistic determination of what is likely to come next and generate suggestions.
 To generate a suggestion for chat on GitHub.com, such as providing an answer to a question from your chat prompt, GitHub Copilot creates a contextual prompt by combining your prompt with additional context including previous prompts, the open pages on GitHub.com as well as retrieved context from your codebase or Bing search. That information is sent to GitHub Copilot’s model, to make a probabilistic determination of what is likely to come next and generate suggestions.
 What are the differences between the GitHub Copilot Business, GitHub Copilot Enterprise, and GitHub Copilot Individual plans?
-GitHub Copilot has multiple offerings for organizations and an offering for individual developers. All the offerings include both
-inline suggestion
-and chat assistance. The primary differences between the organization offerings and the individual offering are license management, policy management, and IP indemnity.
-Organizations can choose between GitHub Copilot Business and GitHub Copilot Enterprise. GitHub Copilot Business primarily features GitHub Copilot in the coding environment - that is the IDE, CLI and GitHub Mobile. GitHub Copilot Enterprise includes everything in GitHub Copilot Business. It also adds an additional layer of customization for organizations and integrates into GitHub.com as a chat interface to allow developers to converse with GitHub Copilot throughout the platform. GitHub Copilot Enterprise can index an organization’s codebase for a deeper understanding of the customer’s knowledge for more tailored suggestions and will offer customers access to fine-tuned custom, private models for
-inline suggestions
+GitHub Copilot has multiple offerings for organizations and an offering for individual developers. All the offerings include both inline suggestion and chat assistance. The primary differences between the organization offerings and the individual offering are license management, policy management, and IP indemnity.
+Organizations can choose between GitHub Copilot Business and GitHub Copilot Enterprise. GitHub Copilot Business primarily features GitHub Copilot in the coding environment - that is the IDE, CLI and GitHub Mobile. GitHub Copilot Enterprise includes everything in GitHub Copilot Business. It also adds an additional layer of customization for organizations and integrates into GitHub.com as a chat interface to allow developers to converse with GitHub Copilot throughout the platform.
+GitHub Copilot Enterprise can index an organization's codebase for a deeper understanding of the customer's knowledge
+for more tailored suggestions
+. For more details, refer to the
+documentation
 .
 GitHub Copilot Individual is designed for individual developers, freelancers, students, educators, and open source maintainers. The plan includes all the features of GitHub Copilot Business except organizational license management, policy management, and IP indemnity.
 What data has GitHub Copilot been trained on?
@@ -885,11 +886,12 @@ To generate a code suggestion, the GitHub Copilot extension begins by examining 
 To generate a suggestion for chat in the code editor, the GitHub Copilot extension creates a contextual prompt by combining your prompt with additional context including the code file open in your active document, your code selection, and general workspace information, such as frameworks, languages, and dependencies. That information is sent to GitHub Copilot’s model, to make a probabilistic determination of what is likely to come next and generate suggestions.
 To generate a suggestion for chat on GitHub.com, such as providing an answer to a question from your chat prompt, GitHub Copilot creates a contextual prompt by combining your prompt with additional context including previous prompts, the open pages on GitHub.com as well as retrieved context from your codebase or Bing search. That information is sent to GitHub Copilot’s model, to make a probabilistic determination of what is likely to come next and generate suggestions.
 What are the differences between the GitHub Copilot Business, GitHub Copilot Enterprise, and GitHub Copilot Individual plans?
-GitHub Copilot has multiple offerings for organizations and an offering for individual developers. All the offerings include both
-inline suggestion
-and chat assistance. The primary differences between the organization offerings and the individual offering are license management, policy management, and IP indemnity.
-Organizations can choose between GitHub Copilot Business and GitHub Copilot Enterprise. GitHub Copilot Business primarily features GitHub Copilot in the coding environment - that is the IDE, CLI and GitHub Mobile. GitHub Copilot Enterprise includes everything in GitHub Copilot Business. It also adds an additional layer of customization for organizations and integrates into GitHub.com as a chat interface to allow developers to converse with GitHub Copilot throughout the platform. GitHub Copilot Enterprise can index an organization’s codebase for a deeper understanding of the customer’s knowledge for more tailored suggestions and will offer customers access to fine-tuned custom, private models for
-inline suggestions
+GitHub Copilot has multiple offerings for organizations and an offering for individual developers. All the offerings include both inline suggestion and chat assistance. The primary differences between the organization offerings and the individual offering are license management, policy management, and IP indemnity.
+Organizations can choose between GitHub Copilot Business and GitHub Copilot Enterprise. GitHub Copilot Business primarily features GitHub Copilot in the coding environment - that is the IDE, CLI and GitHub Mobile. GitHub Copilot Enterprise includes everything in GitHub Copilot Business. It also adds an additional layer of customization for organizations and integrates into GitHub.com as a chat interface to allow developers to converse with GitHub Copilot throughout the platform.
+GitHub Copilot Enterprise can index an organization's codebase for a deeper understanding of the customer's knowledge
+for more tailored suggestions
+. For more details, refer to the
+documentation
 .
 GitHub Copilot Individual is designed for individual developers, freelancers, students, educators, and open source maintainers. The plan includes all the features of GitHub Copilot Business except organizational license management, policy management, and IP indemnity.
 What data has GitHub Copilot been trained on?

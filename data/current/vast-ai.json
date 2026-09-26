@@ -6,24 +6,32 @@
   "url": "https://vast.ai/pricing",
   "final_url": "https://vast.ai/pricing",
   "parser_version": 4,
-  "content_hash": "a39832243608e03295ffc0fd4bb2df213a6ea6fe2ac1346b0a022fae44c47225",
-  "raw_hash": "20c6bbe4a6787c56145ff62a2d28a872d529ad4716655a38de042d11ac05f086",
-  "text_bytes": 7680,
+  "content_hash": "c6f7d0f3c329b6c9ff35d91bfad84c6392dc3df0e92b1076663e0cf839ada90b",
+  "raw_hash": "58acb3b00dda02853f795efa5197db06a1e74c0352afb3f93f13757fb49d0ab3",
+  "text_bytes": 7660,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
     {
-      "name": "B300",
-      "price_raw": "$8.75",
-      "amount": 8.75,
+      "name": "H100 SXM",
+      "price_raw": "$1.73",
+      "amount": 1.73,
       "currency": "USD",
       "period": "hour",
       "features": []
     },
     {
-      "name": "H100 SXM",
-      "price_raw": "$1.47",
-      "amount": 1.47,
+      "name": "B300",
+      "price_raw": "$8.13",
+      "amount": 8.13,
+      "currency": "USD",
+      "period": "hour",
+      "features": []
+    },
+    {
+      "name": "H200 NVL",
+      "price_raw": "$2.33",
+      "amount": 2.33,
       "currency": "USD",
       "period": "hour",
       "features": []
@@ -37,25 +45,17 @@
       "features": []
     },
     {
-      "name": "H200 NVL",
-      "price_raw": "$2.59",
-      "amount": 2.59,
+      "name": "H100 PCIE",
+      "price_raw": "$1.87",
+      "amount": 1.87,
       "currency": "USD",
       "period": "hour",
       "features": []
     },
     {
       "name": "B200",
-      "price_raw": "$9.38",
-      "amount": 9.38,
-      "currency": "USD",
-      "period": "hour",
-      "features": []
-    },
-    {
-      "name": "H100 PCIE",
-      "price_raw": "$2.29",
-      "amount": 2.29,
+      "price_raw": "$6.25",
+      "amount": 6.25,
       "currency": "USD",
       "period": "hour",
       "features": []
@@ -70,8 +70,8 @@
     },
     {
       "name": "RTX 5090",
-      "price_raw": "$0.40",
-      "amount": 0.4,
+      "price_raw": "$0.39",
+      "amount": 0.39,
       "currency": "USD",
       "period": "hour",
       "features": []
@@ -93,14 +93,6 @@
       "features": []
     },
     {
-      "name": "RTX 3090 Ti",
-      "price_raw": "$0.16",
-      "amount": 0.16,
-      "currency": "USD",
-      "period": "hour",
-      "features": []
-    },
-    {
       "name": "RTX 4090D",
       "price_raw": "$0.67",
       "amount": 0.67,
@@ -109,33 +101,33 @@
       "features": []
     },
     {
-      "name": "GB10",
-      "price_raw": "$0.34",
-      "amount": 0.34,
+      "name": "RTX 3090 Ti",
+      "price_raw": "$0.19",
+      "amount": 0.19,
       "currency": "USD",
       "period": "hour",
       "features": []
     },
     {
-      "name": "RTX PRO 6000 WS",
-      "price_raw": "$1.13",
-      "amount": 1.13,
+      "name": "GB10",
+      "price_raw": "$0.32",
+      "amount": 0.32,
       "currency": "USD",
       "period": "hour",
       "features": []
     },
     {
       "name": "RTX PRO 6000 S",
-      "price_raw": "$0.96",
-      "amount": 0.96,
+      "price_raw": "$1.20",
+      "amount": 1.2,
       "currency": "USD",
       "period": "hour",
       "features": []
     },
     {
-      "name": "RTX 5080",
-      "price_raw": "$0.20",
-      "amount": 0.2,
+      "name": "RTX PRO 6000 WS",
+      "price_raw": "$1.12",
+      "amount": 1.12,
       "currency": "USD",
       "period": "hour",
       "features": []
@@ -149,17 +141,25 @@
       "features": []
     },
     {
+      "name": "RTX 5080",
+      "price_raw": "$0.20",
+      "amount": 0.2,
+      "currency": "USD",
+      "period": "hour",
+      "features": []
+    },
+    {
       "name": "RTX 5060 Ti",
-      "price_raw": "$0.12",
-      "amount": 0.12,
+      "price_raw": "$0.11",
+      "amount": 0.11,
       "currency": "USD",
       "period": "hour",
       "features": []
     },
     {
       "name": "RTX PRO 4000",
-      "price_raw": "$0.20",
-      "amount": 0.2,
+      "price_raw": "$0.19",
+      "amount": 0.19,
       "currency": "USD",
       "period": "hour",
       "features": []

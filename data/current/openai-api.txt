@@ -72,6 +72,8 @@ Try ChatGPT
 Copy Page
 Pricing
 Copy Page
+FedRAMP endpoints are charged a 10% uplift over the corresponding standard model
+rates.
 Flagship models
 Our latest models
 Prices per 1M tokens.
@@ -225,6 +227,11 @@ $0.08
 All models
 Image generation models
 Prices per 1M tokens.
+Cached input rates for GPT Image 2 and GPT Image 2.5 only apply to images
+generated with the Responses API -
+learn
+more
+.
 Standard
 Batch
 Standard

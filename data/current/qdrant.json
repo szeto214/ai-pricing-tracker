@@ -6,9 +6,9 @@
   "url": "https://qdrant.tech/pricing/",
   "final_url": "https://qdrant.tech/pricing/",
   "parser_version": 4,
-  "content_hash": "2fba49434d9cefae2f4dc33cf104ee0b07bf1aeb6f0d99cb747c5c4c6f60a439",
-  "raw_hash": "5939a0daf13557485a01244c35c00b29f0458dcadedfc164186827c067db101c",
-  "text_bytes": 6156,
+  "content_hash": "7936de4e2bddf1c4fe3f10ea02a4023f18aa816601827dd3b05fe2d7283449ff",
+  "raw_hash": "a035ddb4030687cca9438b823ddeb28701c6effe42d2df1bedb871578abf7193",
+  "text_bytes": 6176,
   "extractor": "dom",
   "confidence": "low",
   "plans": [

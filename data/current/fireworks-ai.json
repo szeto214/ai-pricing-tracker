@@ -6,9 +6,9 @@
   "url": "https://fireworks.ai/pricing",
   "final_url": "https://fireworks.ai/pricing",
   "parser_version": 4,
-  "content_hash": "532fa7ffcaeecae849bbe7ef1cd1f84e81cc3d82e1dc8ee12644b9807aeab80c",
-  "raw_hash": "6dffdc7c9afae4312fc6eec5877aaa577798108802d895e392d61310c549aedf",
-  "text_bytes": 3692,
+  "content_hash": "25dd4651d6dfd64f65782967f6ac98406d30f8e724ff80c2f8f99a833e69ac00",
+  "raw_hash": "8c29f6bec97d4a4ab5b45561c896b360a052d548300da10f7274c7bceeeb9f74",
+  "text_bytes": 3462,
   "extractor": "dom",
   "confidence": "low",
   "plans": [
@@ -388,10 +388,6 @@
           "$ / 1M input tokens"
         ],
         [
-          "Base model parameter count",
-          "$ / 1M input tokens"
-        ],
-        [
           "up to 150M",
           "$0.008"
         ],
@@ -408,13 +404,6 @@
     {
       "caption": "",
       "rows": [
-        [
-          "Base Model",
-          "LoRA SFT",
-          "LoRA DPO",
-          "Full Param SFT",
-          "Full Param DPO"
-        ],
         [
           "Base Model",
           "LoRA SFT",
@@ -455,14 +444,6 @@
     {
       "caption": "",
       "rows": [
-        [
-          "Base Model",
-          "Context",
-          "Prefill / 1M",
-          "Cached Prefill / 1M",
-          "Sample / 1M",
-          "Train / 1M"
-        ],
         [
           "Base Model",
           "Context",
@@ -524,11 +505,6 @@
     {
       "caption": "",
       "rows": [
-        [
-          "GPU Type",
-          "Price ($) per minute",
-          "Price ($) per hour"
-        ],
         [
           "GPU Type",
           "Price ($) per minute",

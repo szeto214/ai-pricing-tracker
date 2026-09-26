@@ -6,9 +6,9 @@
   "url": "https://weaviate.io/pricing",
   "final_url": "https://weaviate.io/pricing",
   "parser_version": 4,
-  "content_hash": "d548331ce5f7a773b4db77bb3dd00fc6b719ee13a597a3d6d72fcd183c4098d9",
-  "raw_hash": "ef489b14466c1d6606771b0eb1279e702deba39628ba904e7168ea7da786f0b0",
-  "text_bytes": 7017,
+  "content_hash": "4aed5ca924e04c26f13343ed685e19e4456dd48dd1468a8d2aef501f87940b13",
+  "raw_hash": "b5671cad625df9cc0b56d9683cb27069ef4dbc63702d40acc4622285b81970c4",
+  "text_bytes": 8437,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -65,14 +65,6 @@
         "4,000 requests included",
         "Unlimited additional requests, usage-based"
       ]
-    },
-    {
-      "name": "Database pricing FAQ",
-      "price_raw": "$45",
-      "amount": 45.0,
-      "currency": "USD",
-      "period": "month",
-      "features": []
     }
   ],
   "models": [],

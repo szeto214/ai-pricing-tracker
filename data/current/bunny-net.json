@@ -13,32 +13,6 @@
   "confidence": "medium",
   "plans": [
     {
-      "name": "Standard network 119 PoPs",
-      "price_raw": "$0.01",
-      "amount": 0.01,
-      "currency": "USD",
-      "period": null,
-      "features": [
-        "Europe & North America $0.01/GB",
-        "South America $0.045/GB",
-        "Asia & Oceania $0.03/GB",
-        "Middle East & Africa $0.06/GB"
-      ]
-    },
-    {
-      "name": "Volume network 10 PoPs",
-      "price_raw": "$0.005",
-      "amount": 0.005,
-      "currency": "USD",
-      "period": null,
-      "features": [
-        "First 500 TB $0.005/GB",
-        "500 TB - 1 PB $0.004/GB",
-        "1 PB - 2 PB $0.002/GB",
-        "From 2 PB+ Contact us"
-      ]
-    },
-    {
       "name": "bunny.net",
       "price_raw": "$50",
       "amount": 50.0,

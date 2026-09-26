@@ -6,9 +6,9 @@
   "url": "https://docs.perplexity.ai/getting-started/pricing",
   "final_url": "https://docs.perplexity.ai/docs/getting-started/pricing",
   "parser_version": 4,
-  "content_hash": "cda4804900a450f743c3c7c8fd07cce68ae7be57e02714459b0261240c06909e",
-  "raw_hash": "78421fbd6f1a1d57e4df4c97feb8255080f9923e7c2fe1c09010fe1d8a77424e",
-  "text_bytes": 8725,
+  "content_hash": "bb195cf7116751fa31f238298e5ffbf67118b8b42030e3df278caf0c677a673b",
+  "raw_hash": "0eabc0fb6bfa017a2c67b54d9cd652228fecda80ac3c963ee1efacc438703ef3",
+  "text_bytes": 8726,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -93,22 +93,6 @@
       "features": []
     },
     {
-      "name": "Sonar",
-      "price_raw": "$1",
-      "amount": 1.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "Sonar",
-      "price_raw": "$5",
-      "amount": 5.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
       "name": "fast",
       "price_raw": "$6",
       "amount": 6.0,
@@ -150,8 +134,8 @@
     },
     {
       "name": "Input tokens",
-      "price_raw": "$0.000875",
-      "amount": 0.000875,
+      "price_raw": "$0.001",
+      "amount": 0.001,
       "currency": "USD",
       "period": null,
       "features": []
@@ -672,11 +656,11 @@
         ],
         [
           "Input tokens",
-          "$0.000875"
+          "$0.001"
         ],
         [
           "Output tokens",
-          "$0.0028"
+          "$0.0024"
         ],
         [
           "web_search",
@@ -684,7 +668,7 @@
         ],
         [
           "Total",
-          "$0.006175"
+          "$0.0059"
         ]
       ]
     }

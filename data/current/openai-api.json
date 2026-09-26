@@ -6,9 +6,9 @@
   "url": "https://platform.openai.com/docs/pricing",
   "final_url": "https://developers.openai.com/api/docs/pricing",
   "parser_version": 4,
-  "content_hash": "d3449a98fb1a4e7328af28a33d651497b4fcf0532194361291da9b3e216bb8c7",
-  "raw_hash": "d6eed9a1912555200e5057ea09b20ce09327a52efe73f87b4fc1511444fe9e31",
-  "text_bytes": 7425,
+  "content_hash": "f9ed10921aa057872209509f9d3fee38899dc332bb911094c057bdb4932a7238",
+  "raw_hash": "4411d769fd4e4ff920cfb0ad4d531ee4317d4abfb1798b0bc2f9a71521ea391b",
+  "text_bytes": 7635,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -146,14 +146,6 @@
       "amount": 10.0,
       "currency": "USD",
       "period": "day",
-      "features": []
-    },
-    {
-      "name": "ChatGPT",
-      "price_raw": "$5.00",
-      "amount": 5.0,
-      "currency": "USD",
-      "period": null,
       "features": []
     }
   ],

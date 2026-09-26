@@ -7,41 +7,17 @@
   "final_url": "https://nebius.com/prices",
   "parser_version": 4,
   "content_hash": "9ebc80b8a7ddab1e18c6a7e5b4f9abf0b4052e21a6af4b62697c8a29abe34d24",
-  "raw_hash": "43d3e27612f7d100fa274a74613869a66606cf6df109669a2c9ed3087ff8ba87",
+  "raw_hash": "5fbaf723db4fdd2dd6af02ed920cf22e7d4122be5135890a19032feecc9a24d3",
   "text_bytes": 5846,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
-    {
-      "name": "NVIDIA GPU Instances",
-      "price_raw": "$7.85",
-      "amount": 7.85,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "Preemptible NVIDIA GPU Instances",
-      "price_raw": "$0.99",
-      "amount": 0.99,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
     {
       "name": "CPU-only instances",
       "price_raw": "$0.10",
       "amount": 0.1,
       "currency": "USD",
       "period": "hour",
-      "features": []
-    },
-    {
-      "name": "Storage",
-      "price_raw": "$0.0800",
-      "amount": 0.08,
-      "currency": "USD",
-      "period": "month",
       "features": []
     },
     {

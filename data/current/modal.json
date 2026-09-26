@@ -6,9 +6,9 @@
   "url": "https://modal.com/pricing",
   "final_url": "https://modal.com/pricing",
   "parser_version": 4,
-  "content_hash": "13ab7dd0f01cd0e62b6bcc8ac430f27e085f22494cc33963586e409a745e1951",
-  "raw_hash": "baf6eb4ddd910453eb53f2c51c0e88b37f79f9df8a264cc967c7b20ebcfb684d",
-  "text_bytes": 4744,
+  "content_hash": "60130068a240127c0353143a6202ae8ff87516056077d8054a281a3d72389035",
+  "raw_hash": "d23eb50b54b48a5b85730ac99a2b3ffcb0aa411561e77eac0f4cb9502e930679",
+  "text_bytes": 4654,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

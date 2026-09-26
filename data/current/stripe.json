@@ -6,9 +6,9 @@
   "url": "https://stripe.com/pricing",
   "final_url": "https://stripe.com/pricing",
   "parser_version": 4,
-  "content_hash": "febbc295fa4b4b9124dee6e3288b54f05574faa8642cf116555d7de8acc9575f",
-  "raw_hash": "63020ba7cc89b9452b1cce9d6a8f88dec712623b5e92653af4c531a95e408b14",
-  "text_bytes": 31484,
+  "content_hash": "761a2e6fc090e272f900981028387db81057354bb60fdeb039a79a0e4e65acc0",
+  "raw_hash": "bb67e2fdac40bfc3f719262cf8a548c29c402cd5be9c5de4e20ac068b45a2537",
+  "text_bytes": 31590,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -22,14 +22,6 @@
     },
     {
       "name": "Disputes",
-      "price_raw": "$15.00",
-      "amount": 15.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "Dispute prevention",
       "price_raw": "$15.00",
       "amount": 15.0,
       "currency": "USD",

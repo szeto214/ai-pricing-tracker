@@ -7,26 +7,11 @@
   "final_url": "https://lumalabs.ai/api",
   "parser_version": 4,
   "content_hash": "f2525475fd58a6f448743190c46257619f42964e3fb03752e4aec6f121f97d42",
-  "raw_hash": "5092670b5aa8958dc7d2f802b8d794f30c6d9ad2100d7c44302b1bc8fef9c285",
+  "raw_hash": "c8879c1936d5ea14e0eed2d2dc62fadb220a0aefd02d129a2a543393a2b419c4",
   "text_bytes": 4035,
-  "extractor": "dom",
-  "confidence": "low",
-  "plans": [
-    {
-      "name": "Cost Breakdown",
-      "price_raw": "$0.15",
-      "amount": 0.15,
-      "currency": "USD",
-      "period": null,
-      "features": [
-        "Prices shown are SDR output",
-        "HDR output is 2× SDR pricing",
-        "HDR + EXR output is 3× SDR pricing",
-        "No minimum commitment",
-        "Rate limits apply, no latency SLA"
-      ]
-    }
-  ],
+  "extractor": "none",
+  "confidence": "none",
+  "plans": [],
   "models": [],
   "tables": [],
   "extract_errors": []

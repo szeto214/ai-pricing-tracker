@@ -7,7 +7,7 @@
   "final_url": "https://deno.com/deploy/pricing",
   "parser_version": 4,
   "content_hash": "8baef8238fc9676ce55f84210f208e258e7f337cb63fe7a52c20d6d018c132be",
-  "raw_hash": "2b7042feaf1b9ebbc604abd1b86f4fb13f816c9afd82218875a0c7a5557cfbd4",
+  "raw_hash": "28d9a69fc4d930e0f1f339ded474091345551211714af04b624f6dceff84ead3",
   "text_bytes": 16056,
   "extractor": "dom",
   "confidence": "medium",
@@ -107,23 +107,6 @@
       "currency": "USD",
       "period": "month",
       "features": []
-    },
-    {
-      "name": "Applications",
-      "price_raw": "$2",
-      "amount": 2.0,
-      "currency": "USD",
-      "period": "month",
-      "features": [
-        "Requests/month: Allowed inbound HTTP requests to your deployments per month 5M (then $2/M)",
-        "Egress Bandwidth: Monthly limit on data egress across all your deployments. Inbound request data does not count against this number. 200GiB (then $0.20/GiB)",
-        "Custom domains: Total number of domains that can be assigned to active deployments 100",
-        "Wildcard subdomains: Assign all requests to subdomains to a particular deployment Yes",
-        "Active CPU: You're only billed for CPU while your app is actively running code. CPU isn't consumed while your app is waiting for incoming requests or blocked on network I/O. 50 hr (then $0.10/hr)",
-        "Apps: Total number of deployments that can be active at any given time in your organization 50",
-        "Concurrent builds: Number of builds that can run at the same time within your organization 3",
-        "Builds per hour: 60"
-      ]
     },
     {
       "name": "Sandboxes",

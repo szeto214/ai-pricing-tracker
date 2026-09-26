@@ -6,9 +6,9 @@
   "url": "https://clickhouse.com/pricing",
   "final_url": "https://clickhouse.com/pricing?service=clickhouse&pg.plan=scale&pg.provider=aws&pg.profile=memory&pg.architecture=arm&pg.standby=0&pg.region=us-east-1&useCase=real-time-analytics&hours=24&plan=scale&provider=aws&region=us-east-1&storageCompressed=false",
   "parser_version": 4,
-  "content_hash": "4b2fbbd2217ff361b0583ea85363e147cb7b0fad428af5757c508171ab14c60a",
-  "raw_hash": "4950b566b26c56edd76967cb4845bd7d47b9b1b642543173960dae9ac42c67fe",
-  "text_bytes": 4843,
+  "content_hash": "1775fcd84834f90ab9c69bedd585e56097d9f9d35e56d24e115ea7d49eef3a46",
+  "raw_hash": "b47119403ad16d85ea83f425d3deeb57cddd3711c1a566203721a36cc5166ff2",
+  "text_bytes": 4865,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

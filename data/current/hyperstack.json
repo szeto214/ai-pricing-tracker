@@ -13,38 +13,6 @@
   "confidence": "medium",
   "plans": [
     {
-      "name": "On-Demand GPU",
-      "price_raw": "$3.99",
-      "amount": 3.99,
-      "currency": "USD",
-      "period": "hour",
-      "features": []
-    },
-    {
-      "name": "Reservation",
-      "price_raw": "$2.79",
-      "amount": 2.79,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "Spot VM",
-      "price_raw": "$2.00",
-      "amount": 2.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "On-Demand CPU",
-      "price_raw": "$0.35",
-      "amount": 0.35,
-      "currency": "USD",
-      "period": "hour",
-      "features": []
-    },
-    {
       "name": "Storage",
       "price_raw": "$0.000096",
       "amount": 9.6e-05,
@@ -62,14 +30,6 @@
       "amount": 0.0,
       "currency": null,
       "period": "hour",
-      "features": []
-    },
-    {
-      "name": "Token-based",
-      "price_raw": "$0.80",
-      "amount": 0.8,
-      "currency": "USD",
-      "period": null,
       "features": []
     },
     {

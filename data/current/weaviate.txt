@@ -346,6 +346,25 @@ Is Weaviate Cloud SOC 2 / HIPAA compliant?
 Yes. Weaviate Cloud is SOC 2 audited, and Enterprise Cloud on AWS is HIPAA compliant. See the
 Trust Portal
 for details.
+Weaviate Cloud pricing update: September 2026
+What changed?
+We updated the Weaviate Cloud price book. Two things changed:
+RQ-4 compression is now available on HNSW collections and has its own price, which sits between RQ-1 and RQ-8.
+Backups are billed at a corrected rate per GiB. The rate now starts from the same base on AWS, GCP and Azure, and then varies by region.
+When do the new rates apply?
+To usage from 1 September 2026. The running costs in your Weaviate Cloud console already reflect them.
+How does this affect my bill?
+Backups are on by default for every cluster, so the change shows up on your backup line. Whether that line went up or down depends on which cloud and region your clusters run in. For some customers it went up, for others it came down. If you use RQ-4 compression, those collections are now billed at the RQ-4 rate. Everything else on your bill is unchanged.
+Why did backup pricing change?
+Backup rates used to be set separately for each cloud, and some of them were out of line with what hyperscalers charge us to host your backups. The new rates use one common base with regional adjustments, so pricing is consistent and fair wherever you run.
+Where can I see the new rates?
+List prices are on
+weaviate.io/pricing
+. The console shows your cluster's current running cost.
+What if my costs aren't what I expected?
+Contact
+support@weaviate.io
+, and we'll go through your account with you.
 Start building on Weaviate Cloud today
 Get started
 Ready to get started?

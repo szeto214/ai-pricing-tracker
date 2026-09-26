@@ -7,45 +7,11 @@
   "final_url": "https://www.datadoghq.com/pricing/",
   "parser_version": 4,
   "content_hash": "be73969d4292582b5047b65d5631d8cc4c6f7be0dc630c5cf498ab5582de3ca0",
-  "raw_hash": "7937c466c1f9057c640a8119a8e07b218c1ba03d768c22c0294c6e7f96263d3d",
+  "raw_hash": "31912afc553726542a95ea5d2cb6a9452487547a4ec8cc29d829657e168ce918",
   "text_bytes": 228562,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
-    {
-      "name": "Monthly Flag Configuration Requests (MFCRs)",
-      "price_raw": "$ 55",
-      "amount": 55.0,
-      "currency": "USD",
-      "period": null,
-      "features": []
-    },
-    {
-      "name": "Infrastructure",
-      "price_raw": "$ 0",
-      "amount": 0.0,
-      "currency": "USD",
-      "period": "month",
-      "features": [
-        "1-day metric retention",
-        "Up to 5 hosts",
-        "1,000+ integrations",
-        "Out-of-the-box dashboards",
-        "15-month metric retention",
-        "Machine learning-based alerts",
-        "Live Processes",
-        "Governance Console",
-        "Cloud Security Posture Management (CSPM)",
-        "Kubernetes Security Posture Management (KSPM)",
-        "Built-in mapping of your resources to compliance frameworks to help with audits",
-        "Vulnerability Management (VM) for Containers & Hosts",
-        "Cloud Infrastructure Entitlement Management (CIEM)",
-        "Comprehensive inventory of cloud resources & linked risks",
-        "File integrity monitoring",
-        "Workload Protection for Linux, Windows Kubernetes, and Docker",
-        "Increased container allotment (10 containers allotted per host license**)"
-      ]
-    },
     {
       "name": "Free",
       "price_raw": "Free",

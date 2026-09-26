@@ -1886,6 +1886,77 @@ def test_skrip_cadangan() -> None:
           "APT_TARGETS_FILE" in isi and "APT_SKIP_PUSH" in isi)
 
 
+def test_kartu_grid_div_26_09() -> None:
+    """Tabel harga yang dibuat dari <div> juga bukan paket (26/09/2026).
+
+    Nebius 23/09 mencatat "NVIDIA GPU Instances $4.30 -> $7.85 (+82%)".
+    Tidak ada harga yang bergerak: vendor MENGHAPUS kolom "Preemptible",
+    sehingga angka pertama baris teratas berpindah ke kolom on-demand — yang
+    nilainya sudah $7.85 sejak kemarin. Kartu itu judul blok tabel, persis
+    keluarga fireworks 01/09, 16/09, 18/09, dan ini kejadian KEEMPAT.
+
+    Pemeriksaan 18/09 tidak menangkapnya karena halaman Nebius memakai
+    grid <div> — NOL elemen <table> di seluruh halaman. Jadi penanda
+    strukturnya diperluas: wadah dengan >= 4 anak langsung yang seragam
+    (ragam tag+kelas <= 2) dan mayoritasnya memuat harga adalah tabel, apa
+    pun nama tagnya. Kartu yang harganya HANYA ada di dalam wadah seperti itu
+    bukan paket.
+
+    A/B pada 791 arsip mentah yang sama persis: 0 nilai berubah, 0 paket baru,
+    112 kejadian hilang di 13 situs — semuanya judul bagian ("Dispute
+    prevention", "Card readers", "Infrastructure", "Cost Breakdown") atau
+    baris tabel model (v0 Mini/Pro/Max). Murni mengurangi, jadi
+    PARSER_VERSION tidak perlu naik.
+    """
+    print("\n20. kartu judul blok tabel berbasis <div>")
+    from bs4 import BeautifulSoup
+
+    from collector.extract import extract_dom
+
+    # Bentuk halaman Nebius: judul + grid <div> seragam berisi harga.
+    baris = "".join(
+        f'<div class="row"><div>NVIDIA X{i}</div><div>$%.2f</div>'
+        f'<div>$%.2f</div></div>' % (4.30 + i, 7.85 + i) for i in range(5))
+    html = f"""
+    <body>
+      <div class="block">
+        <h2>NVIDIA GPU Instances</h2>
+        <div class="body">{baris}</div>
+      </div>
+      <div class="card">
+        <h3>Pro</h3>
+        <p>$20 / month</p>
+        <div class="body">
+          <div class="row"><div>Seat</div><div>$5</div><div>$6</div></div>
+          <div class="row"><div>Seat</div><div>$5</div><div>$6</div></div>
+          <div class="row"><div>Seat</div><div>$5</div><div>$6</div></div>
+          <div class="row"><div>Seat</div><div>$5</div><div>$6</div></div>
+        </div>
+      </div>
+    </body>"""
+    plans = extract_dom(BeautifulSoup(html, "lxml"))
+    nama = [p.name for p in plans]
+    check("judul blok grid <div> TIDAK jadi paket",
+          "NVIDIA GPU Instances" not in nama, f"-> {nama}")
+    check("paket yang harganya di LUAR grid tetap terbaca",
+          "Pro" in nama, f"-> {nama}")
+    harga = {p.name: p.amount for p in plans}
+    check("harga paket sungguhan tidak ikut berubah",
+          harga.get("Pro") == 20.0, f"-> {harga}")
+
+    # Kuota: kartu yang ditolak tetap menghabiskan jatahnya (pelajaran 18/09).
+    banyak = "".join(
+        f'<section><h2>Bagian {i}</h2><div class="b">'
+        f'<div class="r"><div>a</div><div>${i}.00</div></div>'
+        f'<div class="r"><div>b</div><div>${i}.10</div></div>'
+        f'<div class="r"><div>c</div><div>${i}.20</div></div>'
+        f'<div class="r"><div>d</div><div>${i}.30</div></div>'
+        f'</div></section>' for i in range(30))
+    sisa = extract_dom(BeautifulSoup(f"<body>{banyak}</body>", "lxml"))
+    check("penolakan grid tidak membuka kuota bagi kartu di bawahnya",
+          len(sisa) == 0, f"-> {[p.name for p in sisa]}")
+
+
 def main() -> int:
     print(f"data uji: {config.DATA_DIR}")
     test_hash_stability()
@@ -1918,6 +1989,7 @@ def main() -> int:
     test_feed_dan_penyaring_18_09()
     test_gerbang_tiga_lapis()
     test_kartu_berisi_tabel_18_09()
+    test_kartu_grid_div_26_09()
     test_skrip_cadangan()
 
     print("\n" + "=" * 60)

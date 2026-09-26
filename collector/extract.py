@@ -342,6 +342,51 @@ def _features(card, limit: int = 25) -> list[str]:
     return out
 
 
+def _grid_harga(card, batas: int = 400) -> list:
+    """Wadah 'tabel yang dibuat dari <div>': anak-anaknya seragam dan berharga.
+
+    Nebius 23/09/2026 memakai grid <div> untuk tabel harga GPU-nya — nol
+    elemen <table> di seluruh halaman — sehingga pemeriksaan 18/09 (kartu yang
+    harganya hanya ada di dalam <table>) tidak menangkapnya. Kartu
+    "NVIDIA GPU Instances" mengambil angka sel pertama, dan ketika vendor
+    menghapus kolom "Preemptible" angka itu berpindah sendiri: tercatat
+    +82% padahal tidak ada harga yang bergerak.
+
+    Yang dicari STRUKTURAL, bukan nama kelas: sebuah wadah dengan >= 4 anak
+    langsung yang ragam tanda strukturnya (tag + kelas) paling banyak 2, dan
+    mayoritas anak itu (minimal 3) memuat harga. Baris tabel memang seperti
+    itu; kartu paket yang berjajar tidak, karena tiap kartu membawa judul,
+    daftar fitur, dan tombolnya sendiri sehingga ragamnya lebih besar —
+    dan kalaupun ikut terdeteksi, kartu yang punya harga DI LUAR grid tetap
+    diterima oleh pemanggil di bawah.
+    """
+    out = []
+    for el in card.find_all(True, limit=batas):
+        anak = [c for c in el.find_all(recursive=False) if c.name]
+        if len(anak) < 4:
+            continue
+        tanda = {(c.name, " ".join(sorted(c.get("class") or []))) for c in anak}
+        if len(tanda) > 2:
+            continue
+        berharga = sum(1 for c in anak
+                       if PRICE_RE.search(c.get_text(" ", strip=True)))
+        if berharga >= 3 and berharga * 2 >= len(anak):
+            out.append(el)
+    return out
+
+
+def _teks_di_luar_tabel(card) -> str:
+    """Teks kartu tanpa isi <table> DAN tanpa grid harga berbasis <div>."""
+    if card.find("table") is None and not _grid_harga(card):
+        return card.get_text(" ", strip=True)
+    salinan = BeautifulSoup(str(card), "lxml")
+    for t in salinan.find_all("table"):
+        t.decompose()
+    for g in _grid_harga(salinan):
+        g.decompose()
+    return salinan.get_text(" ", strip=True)
+
+
 def _teks_tanpa_tabel(card) -> str:
     """Teks kartu TANPA isi <table> di dalamnya.
 
@@ -414,8 +459,8 @@ def extract_dom(soup: BeautifulSoup) -> list[Plan]:
         # bukan kartu paket melainkan bagian halaman. Angkanya tidak hilang —
         # tabelnya tetap dibaca terpisah sebagai baris model (modeltable.py),
         # tempat yang memang benar untuknya.
-        if card.find("table") is not None:
-            luar = _teks_tanpa_tabel(card)
+        if card.find("table") is not None or _grid_harga(card):
+            luar = _teks_di_luar_tabel(card)
             if parse_price(luar)[0] is None and not (
                     is_free and _free_in_price_slot(luar)):
                 terpakai += 1

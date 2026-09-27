@@ -6,9 +6,9 @@
   "url": "https://stripe.com/pricing",
   "final_url": "https://stripe.com/pricing",
   "parser_version": 4,
-  "content_hash": "761a2e6fc090e272f900981028387db81057354bb60fdeb039a79a0e4e65acc0",
-  "raw_hash": "bb67e2fdac40bfc3f719262cf8a548c29c402cd5be9c5de4e20ac068b45a2537",
-  "text_bytes": 31590,
+  "content_hash": "febbc295fa4b4b9124dee6e3288b54f05574faa8642cf116555d7de8acc9575f",
+  "raw_hash": "bbaf6b5bc6679dd749589e627b39d53cf60644b3ec5b6ab47b2f7fb1fa512b30",
+  "text_bytes": 31484,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

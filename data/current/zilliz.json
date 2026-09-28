@@ -23,6 +23,9 @@
         "2.5M vCUs per month included",
         "Up to 5 collections",
         "Community support: Slack invite link"
+      ],
+      "slot_prices": [
+        0.0
       ]
     },
     {
@@ -36,6 +39,9 @@
         "Backup, restore, and basic monitoring",
         "Built-in encryption for data in transit and at rest",
         "Community support: Slack invite link"
+      ],
+      "slot_prices": [
+        0.0
       ]
     },
     {
@@ -51,6 +57,9 @@
         "Private endpoint and VPC peering",
         "On-demand",
         "Enterprise support included"
+      ],
+      "slot_prices": [
+        197.0
       ]
     },
     {
@@ -59,7 +68,10 @@
       "amount": 63.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        63.0
+      ]
     },
     {
       "name": "Capacity-optimized",
@@ -67,7 +79,10 @@
       "amount": 16.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        16.0
+      ]
     },
     {
       "name": "Tiered-storage",
@@ -75,7 +90,10 @@
       "amount": 5.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        5.0
+      ]
     },
     {
       "name": "Free",
@@ -83,7 +101,8 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Number of Entities",
@@ -94,6 +113,9 @@
       "features": [
         "Query CU $",
         "GB Storage $"
+      ],
+      "slot_prices": [
+        200.0
       ]
     }
   ],

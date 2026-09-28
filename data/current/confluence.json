@@ -7,7 +7,7 @@
   "final_url": "https://www.atlassian.com/software/confluence/pricing",
   "parser_version": 4,
   "content_hash": "33b243b40c73519f4ad63d5090e4e7941d6723c529ae763a7efba946b12b5c1b",
-  "raw_hash": "05cb5ee778d685b59daf1beed77788a46b606a662e36b5c56ce902a23b928a9a",
+  "raw_hash": "8e55e8acdf40106b291b62c60069b562c3ba2c9fa14e2c6d62beb9fba68cb591",
   "text_bytes": 23494,
   "extractor": "dom",
   "confidence": "medium",
@@ -18,7 +18,8 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Standard",
@@ -26,7 +27,10 @@
       "amount": 5.42,
       "currency": "USD",
       "period": "user",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        5.42
+      ]
     },
     {
       "name": "Premium",
@@ -34,7 +38,10 @@
       "amount": 10.44,
       "currency": "USD",
       "period": "user",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        10.44
+      ]
     },
     {
       "name": "Free",
@@ -42,7 +49,8 @@
       "amount": 0.0,
       "currency": null,
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Apps and integrations",
@@ -50,7 +58,8 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Page insights",
@@ -58,7 +67,8 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Product requests",
@@ -66,7 +76,8 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "IP allowlisting",
@@ -74,7 +85,8 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Guaranteed uptime SLA",
@@ -82,7 +94,8 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     }
   ],
   "models": [],

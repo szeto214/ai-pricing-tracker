@@ -7,7 +7,7 @@
   "final_url": "https://ghost.org/pricing/",
   "parser_version": 4,
   "content_hash": "230e31b2b074fc362f6fc248464d4c78cb085b4eb08c2bd1da057c5d415dca75",
-  "raw_hash": "5d5b8d4fb7c990e8e197c011b587b6036037b7a14fe5d14c6a020c1264b3e547",
+  "raw_hash": "183941a78fdd91dbe8e46ddbc875f0a1f3a17a9ecfba1045c8f8e89897e83ac8",
   "text_bytes": 15117,
   "extractor": "dom",
   "confidence": "medium",
@@ -18,7 +18,10 @@
       "amount": 50.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        50.0
+      ]
     },
     {
       "name": "Enterprise-grade security",
@@ -26,7 +29,10 @@
       "amount": 50.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        50.0
+      ]
     }
   ],
   "models": [],

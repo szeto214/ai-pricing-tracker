@@ -7,7 +7,7 @@
   "final_url": "https://elevenlabs.io/pricing",
   "parser_version": 4,
   "content_hash": "530ec29d1b6e5488e656f2baeb8f094233674e4e266d78ed8e60350acbc1f41f",
-  "raw_hash": "37db1c008c66b90f09f89310b28180ee14c77eaca0ba1f1dafb2c906311801ea",
+  "raw_hash": "9d4b456d1a810c734f0dfccda8b5953f3c536288bba624050ca38912934f649f",
   "text_bytes": 3199,
   "extractor": "dom",
   "confidence": "medium",
@@ -18,7 +18,10 @@
       "amount": 0.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.0
+      ]
     },
     {
       "name": "Starter",
@@ -26,7 +29,10 @@
       "amount": 6.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        6.0
+      ]
     },
     {
       "name": "Creator",
@@ -34,7 +40,10 @@
       "amount": 22.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        22.0
+      ]
     },
     {
       "name": "Pro",
@@ -42,7 +51,10 @@
       "amount": 99.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        99.0
+      ]
     },
     {
       "name": "Scale",
@@ -50,7 +62,10 @@
       "amount": 299.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        299.0
+      ]
     },
     {
       "name": "Business",
@@ -58,7 +73,10 @@
       "amount": 990.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        990.0
+      ]
     },
     {
       "name": "Free",
@@ -66,7 +84,8 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Minutes included",
@@ -74,7 +93,10 @@
       "amount": 0.36,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.36
+      ]
     }
   ],
   "models": [],

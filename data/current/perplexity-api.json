@@ -7,7 +7,7 @@
   "final_url": "https://docs.perplexity.ai/docs/getting-started/pricing",
   "parser_version": 4,
   "content_hash": "bb195cf7116751fa31f238298e5ffbf67118b8b42030e3df278caf0c677a673b",
-  "raw_hash": "3aad232685887a3b2f59da0a9f60f990b3248fe7e3fc6a73d0927f4057583540",
+  "raw_hash": "dfa2abb24daf8d82624975f27a647de43a86e36564b7479bef56dd9b7fb0a48a",
   "text_bytes": 8726,
   "extractor": "dom",
   "confidence": "medium",
@@ -18,7 +18,10 @@
       "amount": 0.0025,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.0025
+      ]
     },
     {
       "name": "Standard web search with",
@@ -26,7 +29,10 @@
       "amount": 2.5,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        2.5
+      ]
     },
     {
       "name": "web_search",
@@ -34,7 +40,10 @@
       "amount": 0.001,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.001
+      ]
     },
     {
       "name": "The same tool with",
@@ -42,7 +51,10 @@
       "amount": 1.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        1.0
+      ]
     },
     {
       "name": "fetch_url",
@@ -50,7 +62,10 @@
       "amount": 0.0005,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.0005
+      ]
     },
     {
       "name": "people_search",
@@ -58,7 +73,10 @@
       "amount": 0.005,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.005
+      ]
     },
     {
       "name": "finance_search",
@@ -66,7 +84,10 @@
       "amount": 0.005,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.005
+      ]
     },
     {
       "name": "sandbox",
@@ -74,7 +95,10 @@
       "amount": 0.03,
       "currency": "USD",
       "period": "request",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.03
+      ]
     },
     {
       "name": "Search API",
@@ -82,7 +106,10 @@
       "amount": 5.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        5.0
+      ]
     },
     {
       "name": "Search API with",
@@ -90,7 +117,10 @@
       "amount": 1.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        1.0
+      ]
     },
     {
       "name": "fast",
@@ -98,7 +128,12 @@
       "amount": 6.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        6.0,
+        10.0,
+        14.0
+      ]
     },
     {
       "name": "pro",
@@ -106,7 +141,12 @@
       "amount": 14.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        14.0,
+        18.0,
+        22.0
+      ]
     },
     {
       "name": "​ Search Type Options",
@@ -114,7 +154,12 @@
       "amount": 6.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        6.0,
+        10.0,
+        14.0
+      ]
     },
     {
       "name": "pplx-embed-v1-0.6b",
@@ -122,7 +167,10 @@
       "amount": 0.004,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.004
+      ]
     },
     {
       "name": "pplx-embed-context-v1-0.6b",
@@ -130,7 +178,10 @@
       "amount": 0.008,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.008
+      ]
     },
     {
       "name": "Input tokens",
@@ -138,7 +189,10 @@
       "amount": 0.001,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.001
+      ]
     },
     {
       "name": "Model input tokens",
@@ -146,7 +200,10 @@
       "amount": 0.001,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.001
+      ]
     }
   ],
   "models": [

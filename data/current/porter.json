@@ -7,7 +7,7 @@
   "final_url": "https://www.porter.run/pricing",
   "parser_version": 4,
   "content_hash": "8a652ae21579c6d8a1d9ae0caa5f2524633c5476aae92d32e39e20a5d9a70ce5",
-  "raw_hash": "17985c3216fe704c88233a0e1834914987fc42f71ab095bc27b5d7c677530374",
+  "raw_hash": "f3fe8b7a483c243cf6e91a5269412472ec5b3c9d74b14fc5ae9fb29ad29751b5",
   "text_bytes": 4912,
   "extractor": "dom",
   "confidence": "low",
@@ -18,7 +18,10 @@
       "amount": 6.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        6.0
+      ]
     }
   ],
   "models": [],

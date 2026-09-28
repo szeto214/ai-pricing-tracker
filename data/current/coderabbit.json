@@ -18,7 +18,10 @@
       "amount": 24.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        24.0
+      ]
     },
     {
       "name": "Team",
@@ -26,7 +29,10 @@
       "amount": 48.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        48.0
+      ]
     },
     {
       "name": "Advanced",
@@ -34,7 +40,10 @@
       "amount": 72.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        72.0
+      ]
     },
     {
       "name": "CodeRabbit Agent",
@@ -47,6 +56,9 @@
         "Trial and free minutes are used before paid usage",
         "Paid access for everyone in your organization when enabled",
         "Set a monthly spending cap"
+      ],
+      "slot_prices": [
+        0.4
       ]
     }
   ],

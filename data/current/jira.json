@@ -7,7 +7,7 @@
   "final_url": "https://www.atlassian.com/software/jira/pricing",
   "parser_version": 4,
   "content_hash": "2948896e74b9cbc23710f4423ea49493497d5113441dd594cf19ae7cd2a3aa03",
-  "raw_hash": "ff5c412a486c788dc68c5913448d094b83e9c3b65e3eb58f85307f1bdef979d0",
+  "raw_hash": "c390b1ab5a6f7b8ce753083d575d53e7e5dc465dfbb4a5d331709360091ce8fd",
   "text_bytes": 27591,
   "extractor": "dom",
   "confidence": "medium",
@@ -18,7 +18,8 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Standard",
@@ -26,7 +27,10 @@
       "amount": 7.91,
       "currency": "USD",
       "period": "user",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        7.91
+      ]
     },
     {
       "name": "Premium",
@@ -34,7 +38,10 @@
       "amount": 14.54,
       "currency": "USD",
       "period": "user",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        14.54
+      ]
     },
     {
       "name": "Unlimited goals",
@@ -42,7 +49,8 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Free",
@@ -50,7 +58,8 @@
       "amount": 0.0,
       "currency": null,
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "iOS and Android apps",
@@ -58,7 +67,8 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Email notifications",
@@ -66,7 +76,8 @@
       "amount": 0.0,
       "currency": null,
       "period": "day",
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Free guest access",
@@ -74,7 +85,8 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Product requests",
@@ -82,7 +94,8 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "IP allowlisting",
@@ -90,7 +103,8 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Guaranteed uptime SLA",
@@ -98,7 +112,8 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     }
   ],
   "models": [],

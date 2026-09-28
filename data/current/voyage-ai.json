@@ -7,7 +7,7 @@
   "final_url": "https://docs.voyageai.com/docs/pricing",
   "parser_version": 4,
   "content_hash": "ca15f1daf409f6e29882c83ee175d23d4c9c4c676d969f132509bac1afdacbea",
-  "raw_hash": "aace286bbfd9e1408fde37e03c3f6c4f51a70eac2b1381c96e839a19bf1f87fd",
+  "raw_hash": "9c56d6441f064024b271626b74d0c980fcefce864a660f560c626d2f9153211d",
   "text_bytes": 4926,
   "extractor": "dom",
   "confidence": "medium",
@@ -18,7 +18,11 @@
       "amount": 0.00012,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.00012,
+        0.12
+      ]
     },
     {
       "name": "voyage-4-lite",
@@ -26,7 +30,11 @@
       "amount": 2e-05,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        2e-05,
+        0.02
+      ]
     },
     {
       "name": "voyage-context-4",
@@ -34,7 +42,11 @@
       "amount": 0.00012,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.00012,
+        0.12
+      ]
     },
     {
       "name": "voyage-code-4",
@@ -42,7 +54,11 @@
       "amount": 0.00012,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.00012,
+        0.12
+      ]
     },
     {
       "name": "voyage-finance-2",
@@ -50,7 +66,11 @@
       "amount": 0.00012,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.00012,
+        0.12
+      ]
     },
     {
       "name": "voyage-multimodal-3.5",
@@ -58,7 +78,11 @@
       "amount": 0.12,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.12,
+        0.6
+      ]
     },
     {
       "name": "200px x 200px",
@@ -66,7 +90,11 @@
       "amount": 3e-05,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        3e-05,
+        0.03
+      ]
     },
     {
       "name": "4000px x 4000px",
@@ -74,7 +102,11 @@
       "amount": 0.0012,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.0012,
+        1.2
+      ]
     },
     {
       "name": "rerank-3",
@@ -82,7 +114,12 @@
       "amount": 5e-05,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        5e-05,
+        0.05,
+        0.0025
+      ]
     },
     {
       "name": "rerank-3-lite",
@@ -90,7 +127,12 @@
       "amount": 2e-05,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        2e-05,
+        0.02,
+        0.001
+      ]
     },
     {
       "name": "Our",
@@ -98,7 +140,10 @@
       "amount": 0.05,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.05
+      ]
     },
     {
       "name": "voyage-context-3",
@@ -106,7 +151,11 @@
       "amount": 0.00018,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.00018,
+        0.18
+      ]
     },
     {
       "name": "voyage-multilingual-2",
@@ -114,7 +163,11 @@
       "amount": 0.00012,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.00012,
+        0.12
+      ]
     },
     {
       "name": "voyage-01",
@@ -122,7 +175,11 @@
       "amount": 0.0001,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.0001,
+        0.1
+      ]
     },
     {
       "name": "voyage-3-lite",
@@ -130,7 +187,11 @@
       "amount": 2e-05,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        2e-05,
+        0.02
+      ]
     }
   ],
   "models": [

@@ -18,7 +18,10 @@
       "amount": 6.69,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        6.69
+      ]
     },
     {
       "name": "NVIDIA H100 SXM",
@@ -26,7 +29,10 @@
       "amount": 3.99,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        3.99
+      ]
     },
     {
       "name": "NVIDIA A100 SXM",
@@ -34,7 +40,10 @@
       "amount": 2.79,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        2.79
+      ]
     },
     {
       "name": "NVIDIA A100 SXM",
@@ -42,7 +51,10 @@
       "amount": 1.99,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        1.99
+      ]
     },
     {
       "name": "NVIDIA Tesla V100",
@@ -50,7 +62,10 @@
       "amount": 0.79,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.79
+      ]
     }
   ],
   "models": [],

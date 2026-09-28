@@ -7,7 +7,7 @@
   "final_url": "https://www.descript.com/pricing",
   "parser_version": 4,
   "content_hash": "3d5c5c7d3f51314718cbe4a89991ddea0b8e3c28dbc94aa6f8c07fd937ce1991",
-  "raw_hash": "5b110662f681a2e5a5ce483ca3aa1cec4c176a1c4ab57b1ad1819d05509e7496",
+  "raw_hash": "6ddddbe32c4a65e86b508fb998f5b701ccba5495127ff945bdc8f431987bdd7a",
   "text_bytes": 14573,
   "extractor": "dom",
   "confidence": "medium",
@@ -44,6 +44,9 @@
         "Brand Studio: shared templates and company-wide guardrails",
         "AI and data controls: opt-out of training, custom retention",
         "SOC 2 Type II: SSO, SCIM, and audit logs"
+      ],
+      "slot_prices": [
+        16.0
       ]
     },
     {
@@ -52,7 +55,8 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     }
   ],
   "models": [],

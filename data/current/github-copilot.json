@@ -7,7 +7,7 @@
   "final_url": "https://github.com/features/copilot/plans",
   "parser_version": 4,
   "content_hash": "03819af3650eef1d6db39d9cca9d1cf85e8eb1d75d24e1f78677781fe4f457a2",
-  "raw_hash": "11e05159020d505e77f846cd48215d23bfce96319d739acd4e50258ac51b87b3",
+  "raw_hash": "f5f13faa8cdece931a6b4f47a247da77bf69d375e37e28eb5c1d7969794aa38e",
   "text_bytes": 46197,
   "extractor": "dom",
   "confidence": "low",
@@ -18,7 +18,8 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     }
   ],
   "models": [],

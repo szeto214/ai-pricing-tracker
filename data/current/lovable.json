@@ -7,7 +7,7 @@
   "final_url": "https://lovable.dev/pricing",
   "parser_version": 4,
   "content_hash": "ba019fd58e100b8575b5f08c2f9bccdc1ea06435f2a1caabb2f048930aaaed2f",
-  "raw_hash": "0d685a8e9205ed54ae4baf6bc788868ab46bc8a1402db5d674d574d5080d6941",
+  "raw_hash": "4083ba906309f99f9fafd54c4114e088e4b67a30f4fe1b5afdb1c0be08e1f982",
   "text_bytes": 2858,
   "extractor": "dom",
   "confidence": "medium",
@@ -18,7 +18,8 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Free",
@@ -26,7 +27,10 @@
       "amount": 0.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.0
+      ]
     },
     {
       "name": "Pro",
@@ -34,7 +38,10 @@
       "amount": 25.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        25.0
+      ]
     },
     {
       "name": "Business",
@@ -42,7 +49,10 @@
       "amount": 50.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        50.0
+      ]
     }
   ],
   "models": [],

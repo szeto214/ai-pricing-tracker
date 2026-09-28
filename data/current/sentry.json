@@ -7,7 +7,7 @@
   "final_url": "https://sentry.io/pricing/",
   "parser_version": 4,
   "content_hash": "ab1ced85804b828b9e9fd4601b802ac760429b3d2d39f26eb9939f55e24d41ac",
-  "raw_hash": "fe2cda00a88a333f56276d37b44789f79094f2e23aea8d33a87f3489106250a6",
+  "raw_hash": "8cd76a9aaadc9c9c22fd005b1c96fbfb040a9f9cd92dd119fce8a47b1871f53e",
   "text_bytes": 5754,
   "extractor": "dom",
   "confidence": "medium",
@@ -24,6 +24,9 @@
         "Alerts and notifications via email",
         "10 custom dashboards",
         "MCP access"
+      ],
+      "slot_prices": [
+        0.0
       ]
     },
     {
@@ -38,6 +41,9 @@
         "20 custom dashboards",
         "Seer: AI debugging agent (subscription required)",
         "Additional events ( See pricing )"
+      ],
+      "slot_prices": [
+        26.0
       ]
     },
     {
@@ -50,6 +56,9 @@
         "Unlimited custom dashboards",
         "Advanced quota management",
         "SAML + SCIM support ( See pricing )"
+      ],
+      "slot_prices": [
+        80.0
       ]
     },
     {
@@ -61,6 +70,9 @@
       "features": [
         "Technical account manager",
         "Dedicated customer support"
+      ],
+      "slot_prices": [
+        0.0
       ]
     },
     {
@@ -69,7 +81,10 @@
       "amount": 0.5,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.5
+      ]
     },
     {
       "name": "Application Metrics",
@@ -77,7 +92,10 @@
       "amount": 0.5,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.5
+      ]
     },
     {
       "name": "Uptime Monitoring",
@@ -85,7 +103,10 @@
       "amount": 1.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        1.0
+      ]
     },
     {
       "name": "Cron Monitoring",
@@ -93,7 +114,10 @@
       "amount": 0.78,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.78
+      ]
     },
     {
       "name": "UI Profiling",
@@ -101,7 +125,10 @@
       "amount": 0.25,
       "currency": "USD",
       "period": "hour",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.25
+      ]
     },
     {
       "name": "Continuous Profiling",
@@ -109,7 +136,10 @@
       "amount": 0.0315,
       "currency": "USD",
       "period": "hour",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.0315
+      ]
     },
     {
       "name": "Errors",
@@ -117,7 +147,10 @@
       "amount": 0.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.0
+      ]
     }
   ],
   "models": [

@@ -7,7 +7,7 @@
   "final_url": "https://www.datadoghq.com/pricing/",
   "parser_version": 4,
   "content_hash": "be73969d4292582b5047b65d5631d8cc4c6f7be0dc630c5cf498ab5582de3ca0",
-  "raw_hash": "31912afc553726542a95ea5d2cb6a9452487547a4ec8cc29d829657e168ce918",
+  "raw_hash": "82c963fb34becef170e2049504f867df6265a5373b8f591ed75b4821a1ac3dcc",
   "text_bytes": 228562,
   "extractor": "dom",
   "confidence": "medium",
@@ -18,7 +18,8 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Agent Observability",
@@ -35,6 +36,9 @@
         "15-day trace retention",
         "Unlimited context & evals",
         "Full feature access"
+      ],
+      "slot_prices": [
+        0.0
       ]
     },
     {
@@ -56,6 +60,9 @@
         "Allocate shared costs precisely with Datadog metrics",
         "Gain real-time cost visibility from observability data",
         "Manage complex budgets across teams with hierarchical controls"
+      ],
+      "slot_prices": [
+        0.0
       ]
     },
     {
@@ -64,7 +71,8 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     }
   ],
   "models": [

@@ -29,6 +29,9 @@
         "Includes:",
         "Code ($0/month/contributor)",
         "Supply Chain ($0/month/contributor)"
+      ],
+      "slot_prices": [
+        0.0
       ]
     },
     {
@@ -48,6 +51,9 @@
         "Code ($30/month/contributor)",
         "Supply Chain ($30/month/contributor)",
         "Secrets ($15/month/contributor)"
+      ],
+      "slot_prices": [
+        30.0
       ]
     },
     {
@@ -67,6 +73,9 @@
         "Code ($30/month/contributor)",
         "Supply Chain ($30/month/contributor)",
         "Secrets ($15/month/contributor)"
+      ],
+      "slot_prices": [
+        30.0
       ]
     },
     {
@@ -75,7 +84,10 @@
       "amount": 30.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        30.0
+      ]
     }
   ],
   "models": [],

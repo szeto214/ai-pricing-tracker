@@ -7,7 +7,7 @@
   "final_url": "https://clerk.com/pricing",
   "parser_version": 4,
   "content_hash": "8c776b06c35592384e0cbc423c9d93e2e008a11e01cb1b4b0d1e1baea3399caa",
-  "raw_hash": "b3011e463ea8f92bbebecbc9b15d02b3cb75738f837d76986f673e5f976ee779",
+  "raw_hash": "ce679907a973924f33bfa569678b41d6c0279d82abcdd35836ab7c0e83e4b1bd",
   "text_bytes": 12915,
   "extractor": "jsonld",
   "confidence": "medium",
@@ -18,7 +18,8 @@
       "amount": 0.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Pro",
@@ -26,7 +27,8 @@
       "amount": 25.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Business",
@@ -34,7 +36,8 @@
       "amount": 300.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     }
   ],
   "models": [],

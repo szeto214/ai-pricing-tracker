@@ -7,7 +7,7 @@
   "final_url": "https://replit.com/pricing",
   "parser_version": 4,
   "content_hash": "3b8ea0701fe692e57ee4f9bf23c2073f07fe578a39cd06162996abe1eb25f629",
-  "raw_hash": "011b1bb6520c49f7e7d84da181129d0c0c20c830ac37c6a994186666af97ea87",
+  "raw_hash": "e6270db61f4f1eab469383ece1a5ed7a8c78ad6cc6a067572b662fe6e889a964",
   "text_bytes": 1601,
   "extractor": "dom",
   "confidence": "medium",
@@ -18,7 +18,11 @@
       "amount": 20.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        20.0,
+        18.0
+      ]
     },
     {
       "name": "Pro",
@@ -26,7 +30,11 @@
       "amount": 100.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        100.0,
+        90.0
+      ]
     }
   ],
   "models": [],

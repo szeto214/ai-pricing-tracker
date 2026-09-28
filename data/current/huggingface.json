@@ -7,7 +7,7 @@
   "final_url": "https://huggingface.co/pricing",
   "parser_version": 4,
   "content_hash": "ef0e0f6802a68a32c390e691eaeff8d82d6febe49b14bf36bffe35c12e6e13b1",
-  "raw_hash": "9eea11860bf69387b38176d9635e2fb865af3885cda203e95e8cd6b599c988d3",
+  "raw_hash": "5413dc99d799b6c8205085074e6fdc679c7ff8b3711d3b4f1f5f06eb8e7df5fa",
   "text_bytes": 21861,
   "extractor": "dom",
   "confidence": "medium",
@@ -18,7 +18,10 @@
       "amount": 9.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        9.0
+      ]
     },
     {
       "name": "Team",
@@ -26,7 +29,10 @@
       "amount": 20.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        20.0
+      ]
     },
     {
       "name": "Enterprise",
@@ -34,7 +40,10 @@
       "amount": 50.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        50.0
+      ]
     },
     {
       "name": "Storage",
@@ -42,7 +51,10 @@
       "amount": 23.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        23.0
+      ]
     },
     {
       "name": "Storage",
@@ -50,7 +62,10 @@
       "amount": 23.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        23.0
+      ]
     },
     {
       "name": "Spaces Hardware",
@@ -58,7 +73,10 @@
       "amount": 0.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.0
+      ]
     },
     {
       "name": "Inference Endpoints",
@@ -66,7 +84,10 @@
       "amount": 0.033,
       "currency": "USD",
       "period": "hour",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.033
+      ]
     },
     {
       "name": "Intel Sapphire Rapids",
@@ -74,7 +95,10 @@
       "amount": 0.03,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.03
+      ]
     },
     {
       "name": "Inf2 Neuron",
@@ -82,7 +106,10 @@
       "amount": 0.75,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.75
+      ]
     },
     {
       "name": "NVIDIA T4",
@@ -90,7 +117,10 @@
       "amount": 0.5,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.5
+      ]
     },
     {
       "name": "PRO",
@@ -98,7 +128,10 @@
       "amount": 9.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        9.0
+      ]
     }
   ],
   "models": [

@@ -7,7 +7,7 @@
   "final_url": "https://www.firecrawl.dev/pricing",
   "parser_version": 4,
   "content_hash": "fd07f5ce649c764c36c3c5dc6c147f178df1f7b01d48765eaca209c1c3271cda",
-  "raw_hash": "f5cc4c1b593f1d933f3f2a9b1fdb3cfb18dce1c1b8507cfc81a7bfdf6f89fc42",
+  "raw_hash": "4147f1266b94abc1cbfb375b63447d4f0999a86295ee4f112b804f911a82f5a6",
   "text_bytes": 14196,
   "extractor": "dom",
   "confidence": "medium",
@@ -18,7 +18,10 @@
       "amount": 75000000.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        75.0
+      ]
     },
     {
       "name": "Hobby",
@@ -26,7 +29,10 @@
       "amount": 16.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        16.0
+      ]
     },
     {
       "name": "Standard Recommended",
@@ -34,7 +40,10 @@
       "amount": 83.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        83.0
+      ]
     },
     {
       "name": "Growth",
@@ -42,7 +51,10 @@
       "amount": 333.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        333.0
+      ]
     },
     {
       "name": "Scale",
@@ -50,7 +62,10 @@
       "amount": 599.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        599.0
+      ]
     },
     {
       "name": "Pricing at a glance",
@@ -58,7 +73,10 @@
       "amount": 19.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        19.0
+      ]
     }
   ],
   "models": [],

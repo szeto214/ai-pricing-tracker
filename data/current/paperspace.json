@@ -18,7 +18,8 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "T0",
@@ -33,6 +34,9 @@
         "Auto-shutdown (12 hour limit)",
         "Total Notebooks: 10",
         "Running Notebook limit: 1"
+      ],
+      "slot_prices": [
+        0.0
       ]
     },
     {
@@ -48,6 +52,9 @@
         "Auto-shutdown (configurable)",
         "Total Notebooks: 100",
         "Running Notebook limit: 10"
+      ],
+      "slot_prices": [
+        12.0
       ]
     },
     {
@@ -63,6 +70,9 @@
         "60 GB GPU",
         "48 GB RAM",
         "16 vCPU"
+      ],
+      "slot_prices": [
+        2.24
       ]
     },
     {
@@ -75,6 +85,9 @@
         "8 vCPU",
         "30 GB RAM",
         "8 GB GPU DEDICATED Starts at 50GB SSD + Windows License Included"
+      ],
+      "slot_prices": [
+        298.0
       ]
     },
     {
@@ -87,6 +100,9 @@
         "8 vCPU",
         "30 GB RAM",
         "16 GB GPU DEDICATED Starts at 50GB SSD + Windows License Included"
+      ],
+      "slot_prices": [
+        456.0
       ]
     },
     {
@@ -99,6 +115,9 @@
         "8 vCPU",
         "30 GB RAM",
         "24 GB GPU DEDICATED Starts at 50GB SSD + Windows License Included"
+      ],
+      "slot_prices": [
+        642.0
       ]
     },
     {
@@ -111,6 +130,9 @@
         "8 vCPU",
         "30 GB RAM",
         "16 GB GPU DEDICATED Starts at 50GB SSD"
+      ],
+      "slot_prices": [
+        1343.0
       ]
     },
     {
@@ -123,6 +145,9 @@
         "2 vCPU",
         "4 GB RAM",
         "512 MB GPU Starts at 50GB SSD + Windows License Included"
+      ],
+      "slot_prices": [
+        22.0
       ]
     },
     {
@@ -135,6 +160,9 @@
         "4 vCPU",
         "8 GB RAM",
         "512 MB GPU Starts at 50GB SSD + Windows License Included"
+      ],
+      "slot_prices": [
+        35.0
       ]
     },
     {
@@ -147,6 +175,9 @@
         "6 vCPU",
         "16 GB RAM",
         "2 GB GPU Starts at 50GB SSD + Windows License Included"
+      ],
+      "slot_prices": [
+        65.0
       ]
     },
     {
@@ -159,6 +190,9 @@
         "8 vCPU",
         "32 GB RAM",
         "4 GB GPU Starts at 50GB SSD + Windows License Included"
+      ],
+      "slot_prices": [
+        120.0
       ]
     }
   ],

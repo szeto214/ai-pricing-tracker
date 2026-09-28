@@ -7,7 +7,7 @@
   "final_url": "https://replicate.com/pricing",
   "parser_version": 4,
   "content_hash": "e2128294821f8407907292ad0d1c6aadcc73b4580848aa8b79f6eac3e39ce283",
-  "raw_hash": "987e0e5e183fde943a3480992d06549317c689ea41fb3ce9e6ec21190cdf35e4",
+  "raw_hash": "89062f3e49561b55437a4dc5f51fea1a9e53a1f775e5fad3fe4040cfe73c762b",
   "text_bytes": 8157,
   "extractor": "dom",
   "confidence": "medium",
@@ -18,7 +18,10 @@
       "amount": 0.04,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.04
+      ]
     },
     {
       "name": "black-forest-labs / flux-dev",
@@ -26,7 +29,10 @@
       "amount": 0.025,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.025
+      ]
     },
     {
       "name": "black-forest-labs / flux-schnell",
@@ -34,7 +40,10 @@
       "amount": 3.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        3.0
+      ]
     },
     {
       "name": "deepseek-ai / deepseek-r1",
@@ -42,7 +51,10 @@
       "amount": 0.01,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.01
+      ]
     },
     {
       "name": "ideogram-ai / ideogram-v3-quality",
@@ -50,7 +62,10 @@
       "amount": 0.09,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.09
+      ]
     },
     {
       "name": "recraft-ai / recraft-v3",
@@ -58,7 +73,10 @@
       "amount": 0.04,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.04
+      ]
     },
     {
       "name": "wavespeedai / wan-2.1-i2v-480p",
@@ -66,7 +84,10 @@
       "amount": 0.09,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.09
+      ]
     },
     {
       "name": "wavespeedai / wan-2.1-i2v-720p",
@@ -74,7 +95,10 @@
       "amount": 0.25,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.25
+      ]
     }
   ],
   "models": [

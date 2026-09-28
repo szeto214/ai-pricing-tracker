@@ -18,7 +18,10 @@
       "amount": 0.21,
       "currency": "USD",
       "period": "hour",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.21
+      ]
     },
     {
       "name": "Universal-2",
@@ -26,7 +29,10 @@
       "amount": 0.15,
       "currency": "USD",
       "period": "hour",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.15
+      ]
     }
   ],
   "models": [],

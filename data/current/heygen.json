@@ -7,7 +7,7 @@
   "final_url": "https://www.heygen.com/pricing",
   "parser_version": 4,
   "content_hash": "c9eca3cd65c8fc2587dd6d567f8061d750288c46ef67744fbbbd126284254bc1",
-  "raw_hash": "e024f9ec61f547dc5fd186202bea506e9d2428502e35c06bde5805ad94a297cb",
+  "raw_hash": "ed0c8e8467db69c937461056aeae49a947b4581860c8b6576e2134260f4c3bd8",
   "text_bytes": 12789,
   "extractor": "dom",
   "confidence": "medium",
@@ -44,6 +44,9 @@
         "Customizable monthly usage",
         "Edit & proofread translation script",
         "Access to all Advanced AI models"
+      ],
+      "slot_prices": [
+        0.0
       ]
     },
     {
@@ -62,6 +65,9 @@
         "Voice Cloning",
         "175+ languages and dialects",
         "Credit rollovers"
+      ],
+      "slot_prices": [
+        29.0
       ]
     },
     {
@@ -80,6 +86,9 @@
         "Customizable monthly usage",
         "Edit & proofread translation script",
         "Access to all Advanced AI models"
+      ],
+      "slot_prices": [
+        49.0
       ]
     },
     {
@@ -106,6 +115,9 @@
         "SCORM Export",
         "LMS Integrations",
         "Integrations with n8n, Make, Hubspot & Zapier"
+      ],
+      "slot_prices": [
+        149.0
       ]
     },
     {
@@ -114,7 +126,8 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     }
   ],
   "models": [],

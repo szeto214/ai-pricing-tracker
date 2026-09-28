@@ -7,7 +7,7 @@
   "final_url": "https://www.pinecone.io/pricing/",
   "parser_version": 4,
   "content_hash": "92f563af0c4a81fe516877182ea8d5543440dae34e7f34811cab366ed84127e4",
-  "raw_hash": "0ef654244a86ad0803420e8995ad4b9ae1607b86e64cc8af2615bbfca3b38bbc",
+  "raw_hash": "1c8f378b831ce291517bcd96f4d2951e6b78c3e6cdb6759d920787aaaa2c1c4e",
   "text_bytes": 8891,
   "extractor": "dom",
   "confidence": "medium",
@@ -18,7 +18,8 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Builder",
@@ -26,7 +27,10 @@
       "amount": 20.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        20.0
+      ]
     },
     {
       "name": "Standard",
@@ -34,7 +38,10 @@
       "amount": 50.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        50.0
+      ]
     },
     {
       "name": "Enterprise",
@@ -42,7 +49,10 @@
       "amount": 500.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        500.0
+      ]
     },
     {
       "name": "Storage",
@@ -50,7 +60,10 @@
       "amount": 0.33,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.33
+      ]
     },
     {
       "name": "Egress",
@@ -58,7 +71,10 @@
       "amount": 0.1,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.1
+      ]
     },
     {
       "name": "Import from object storage",
@@ -66,7 +82,10 @@
       "amount": 0.25,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.25
+      ]
     },
     {
       "name": "Restore from backup",
@@ -74,7 +93,10 @@
       "amount": 0.15,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.15
+      ]
     },
     {
       "name": "Storage",
@@ -82,7 +104,10 @@
       "amount": 3.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        3.0
+      ]
     },
     {
       "name": "Input Tokens",
@@ -90,7 +115,10 @@
       "amount": 8.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        8.0
+      ]
     },
     {
       "name": "Output Tokens",
@@ -98,7 +126,10 @@
       "amount": 15.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        15.0
+      ]
     },
     {
       "name": "Context Processed Tokens",
@@ -106,7 +137,10 @@
       "amount": 5.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        5.0
+      ]
     },
     {
       "name": "Evaluation Processed Tokens",
@@ -114,7 +148,10 @@
       "amount": 8.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        8.0
+      ]
     },
     {
       "name": "Evaluation Output Tokens",
@@ -122,7 +159,10 @@
       "amount": 15.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        15.0
+      ]
     },
     {
       "name": "llama-text-embed-v2",
@@ -130,7 +170,10 @@
       "amount": 0.16,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.16
+      ]
     },
     {
       "name": "multilingual-e5-large",
@@ -138,7 +181,10 @@
       "amount": 0.08,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.08
+      ]
     }
   ],
   "models": [],

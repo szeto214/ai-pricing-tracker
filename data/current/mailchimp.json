@@ -6,9 +6,9 @@
   "url": "https://mailchimp.com/pricing/",
   "final_url": "https://mailchimp.com/pricing/marketing/",
   "parser_version": 4,
-  "content_hash": "5eeadfc0ffb3986ae4eba146f1f01ac52b1decad1550fe7577cb92f3dd9598d0",
-  "raw_hash": "a7a96cf7ca0587f3d1b8ba7d566e00a2c95c12fe2fb521a40dd0a6b8b4d0de7f",
-  "text_bytes": 22536,
+  "content_hash": "c9738d05f4533a5de4a5a4f2c8dcae4e3f3ff78243db65571a9d6fd641ad081d",
+  "raw_hash": "f6b8e4d28215dfbd0467aa54de1e2f2db792edae9d0aa8e551429ce0cf8bed60",
+  "text_bytes": 22505,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -23,7 +23,8 @@
         "Standard",
         "Essentials",
         "Free"
-      ]
+      ],
+      "slot_prices": []
     },
     {
       "name": "Free for 14 days",
@@ -31,7 +32,8 @@
       "amount": 0.0,
       "currency": null,
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Free",
@@ -39,7 +41,10 @@
       "amount": 0.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.0
+      ]
     },
     {
       "name": "Free",
@@ -47,7 +52,8 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Customer Success Management",
@@ -55,7 +61,10 @@
       "amount": 299.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        299.0
+      ]
     }
   ],
   "models": [],

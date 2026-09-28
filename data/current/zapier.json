@@ -7,7 +7,7 @@
   "final_url": "https://zapier.com/pricing",
   "parser_version": 4,
   "content_hash": "5bcad4b4dded61eee575eadba86dfeeb3d1b49afb440145fc430f1c15ee1e99d",
-  "raw_hash": "cb08938dc5de572ee9225eda2435cda417054a9164c9ce87c6cc114b973f5433",
+  "raw_hash": "d0064e2743522c85ac6597c5f2a4e34ee01fec8ec450463a441c459eacec6601",
   "text_bytes": 18701,
   "extractor": "dom",
   "confidence": "medium",
@@ -23,6 +23,9 @@
         "Unlimited Zaps, Tables, and Forms",
         "Two-step Zaps",
         "Zapier Copilot*"
+      ],
+      "slot_prices": [
+        0.0
       ]
     },
     {
@@ -38,6 +41,9 @@
         "Email and live chat** support",
         "AI fields",
         "Conditional form logic"
+      ],
+      "slot_prices": [
+        19.99
       ]
     },
     {
@@ -52,6 +58,9 @@
         "Shared app connections",
         "SAML SSO",
         "Priority support"
+      ],
+      "slot_prices": [
+        69.0
       ]
     },
     {
@@ -65,7 +74,8 @@
         "Live data sources",
         "Web browsing",
         "Interact with your agents in the Chrome Extension"
-      ]
+      ],
+      "slot_prices": []
     },
     {
       "name": "Agents Pro",
@@ -78,6 +88,9 @@
         "Live data sources",
         "Web browsing",
         "Interact with your agents in the Chrome extension"
+      ],
+      "slot_prices": [
+        400.0
       ]
     },
     {
@@ -91,7 +104,8 @@
         "Create custom directives",
         "Leverage OpenAI's GPT-3.5 model",
         "Share a public link to your chatbot"
-      ]
+      ],
+      "slot_prices": []
     },
     {
       "name": "Chatbots Pro",
@@ -104,6 +118,9 @@
         "Connect your API key to access more AI models",
         "Upload 1 knowledge source (1MB text file)",
         "Embed your chatbot on your website"
+      ],
+      "slot_prices": [
+        160.0
       ]
     },
     {
@@ -118,6 +135,9 @@
         "3 knowledge sources",
         "View past 30 days of conversations",
         "Contact us to discuss additional functionality"
+      ],
+      "slot_prices": [
+        800.0
       ]
     }
   ],

@@ -6,9 +6,9 @@
   "url": "https://redis.io/pricing/",
   "final_url": "https://redis.io/pricing/",
   "parser_version": 4,
-  "content_hash": "aebaff65ff3ea4b6e4b6522eef932edeb11f1168b604b9023abb0231c6026d2a",
-  "raw_hash": "b6ac2b383bca7171a4c9ce94275670eb44dbd30f2fcc93ac5120c4c5880db12c",
-  "text_bytes": 4379,
+  "content_hash": "940ba25b68915fe3e2ea535309e1303b3b6e9f714022452b1d4d2d37fbc0d911",
+  "raw_hash": "04963c10aeb5b3f99435603cd969d60666fb8931a1fef10d0681a5f6dc9cd74f",
+  "text_bytes": 4263,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -18,7 +18,10 @@
       "amount": 0.0,
       "currency": "USD",
       "period": "hour",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.0
+      ]
     },
     {
       "name": "General",
@@ -26,7 +29,10 @@
       "amount": 0.007,
       "currency": "USD",
       "period": "hour",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.007
+      ]
     },
     {
       "name": "Essentials",
@@ -34,7 +40,10 @@
       "amount": 0.007,
       "currency": "USD",
       "period": "hour",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.007
+      ]
     }
   ],
   "models": [],

@@ -7,7 +7,7 @@
   "final_url": "https://miro.com/pricing/",
   "parser_version": 4,
   "content_hash": "2f6a2595c03c325884c899f5b7d4b9e3add5f0abcd141cfc03a27e3218009ad0",
-  "raw_hash": "b35d8eb7eeba9bed50ac734ed15e38b450af86f1bc571b742ce19b48b1b74ef6",
+  "raw_hash": "485446fe82a9a064d445fbcf9f6b1b24891ea3a170e39fc6308895aa5b36bcde",
   "text_bytes": 24141,
   "extractor": "dom",
   "confidence": "medium",
@@ -18,7 +18,10 @@
       "amount": 0.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.0
+      ]
     },
     {
       "name": "Free Starter Business Enterprise",
@@ -26,7 +29,8 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     }
   ],
   "models": [],

@@ -7,7 +7,7 @@
   "final_url": "https://www.framer.com/pricing",
   "parser_version": 4,
   "content_hash": "7bff4eb03e82d8c67d0a1f01bcc0f9ccf6217a79d62f578dbecbdf051e5b9ea6",
-  "raw_hash": "1e92c62afefa16a22804c9a40bd5b9b546d4e046fd237e0fba1ded1f11c240dd",
+  "raw_hash": "b409e0b3519c249be106b7d6e35daaf2598b48af44ae1136867fddec0adcf1e2",
   "text_bytes": 9818,
   "extractor": "dom",
   "confidence": "medium",
@@ -18,7 +18,8 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Basic",
@@ -26,7 +27,10 @@
       "amount": 10.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        10.0
+      ]
     },
     {
       "name": "Pro",
@@ -34,7 +38,10 @@
       "amount": 30.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        30.0
+      ]
     },
     {
       "name": "Free",
@@ -42,7 +49,10 @@
       "amount": 0.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.0
+      ]
     },
     {
       "name": "Site pages",
@@ -50,7 +60,10 @@
       "amount": 20.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        20.0
+      ]
     },
     {
       "name": "CMS collections",
@@ -58,7 +71,10 @@
       "amount": 40.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        40.0
+      ]
     },
     {
       "name": "CMS items",
@@ -66,7 +82,10 @@
       "amount": 20.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        20.0
+      ]
     },
     {
       "name": "Bandwidth usage",
@@ -74,7 +93,10 @@
       "amount": 40.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        40.0
+      ]
     },
     {
       "name": "External agents",
@@ -82,7 +104,8 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Workspace owner",
@@ -90,7 +113,8 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Viewers",
@@ -98,7 +122,8 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Additional editors",
@@ -106,7 +131,10 @@
       "amount": 20.0,
       "currency": "USD",
       "period": "user",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        20.0
+      ]
     },
     {
       "name": "Content editors",
@@ -114,7 +142,10 @@
       "amount": 10.0,
       "currency": "USD",
       "period": "user",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        10.0
+      ]
     },
     {
       "name": "Translation locales",
@@ -122,7 +153,10 @@
       "amount": 20.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        20.0
+      ]
     },
     {
       "name": "Convert",
@@ -130,7 +164,10 @@
       "amount": 50.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        50.0
+      ]
     },
     {
       "name": "Advanced hosting",
@@ -138,7 +175,10 @@
       "amount": 200.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        200.0
+      ]
     },
     {
       "name": "Agents",
@@ -146,7 +186,10 @@
       "amount": 10.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        10.0
+      ]
     }
   ],
   "models": [],

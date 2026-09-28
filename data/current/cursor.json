@@ -7,7 +7,7 @@
   "final_url": "https://cursor.com/pricing",
   "parser_version": 4,
   "content_hash": "38aa27f4b8e482bb36b8af0eace54f844a86ab2b806cf9fa1eaeb38c3ce13eaf",
-  "raw_hash": "33df1b2cd7ae8ee9742c4baf4514d1b91649dd69ba82ed16a25a43273dfe8fd1",
+  "raw_hash": "50dfac9f992dc558c919eab560cdf94d874bb8983bc8ea97ab7983ce2bf21137",
   "text_bytes": 3265,
   "extractor": "jsonld",
   "confidence": "medium",
@@ -18,7 +18,8 @@
       "amount": 40.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Ultra",
@@ -26,7 +27,8 @@
       "amount": 200.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Pro+",
@@ -34,7 +36,8 @@
       "amount": 60.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Pro",
@@ -42,7 +45,8 @@
       "amount": 20.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Hobby",
@@ -50,7 +54,8 @@
       "amount": 0.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     }
   ],
   "models": [],

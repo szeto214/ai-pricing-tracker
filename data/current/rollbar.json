@@ -18,7 +18,10 @@
       "amount": 0.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.0
+      ]
     },
     {
       "name": "tablet",
@@ -26,7 +29,10 @@
       "amount": 0.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.0
+      ]
     },
     {
       "name": "phone",
@@ -34,7 +40,10 @@
       "amount": 0.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.0
+      ]
     },
     {
       "name": "Start catching errors today.",
@@ -46,6 +55,9 @@
         "5K occurrences + 1K replays free per month",
         "14-day full access trial",
         "Easy and quick installation"
+      ],
+      "slot_prices": [
+        0.0
       ]
     }
   ],

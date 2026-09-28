@@ -18,7 +18,8 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Solo",
@@ -34,6 +35,9 @@
         "Custom-branded documentation",
         "Unlimited custom domains",
         "Expanded API monitoring"
+      ],
+      "slot_prices": [
+        9.0
       ]
     },
     {
@@ -50,6 +54,9 @@
         "Basic role-based access control (RBAC)",
         "SDK generation & distribution",
         "Simple Security (add-on)"
+      ],
+      "slot_prices": [
+        19.0
       ]
     },
     {
@@ -58,7 +65,10 @@
       "amount": 0.05,
       "currency": "USD",
       "period": "credit",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.05
+      ]
     },
     {
       "name": "Context Graph API queries",
@@ -66,7 +76,10 @@
       "amount": 0.01,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.01
+      ]
     },
     {
       "name": "Cloud performance testing",
@@ -74,7 +87,10 @@
       "amount": 0.04,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.04
+      ]
     },
     {
       "name": "Postman AI",
@@ -82,7 +98,10 @@
       "amount": 0.05,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.05
+      ]
     },
     {
       "name": "Postman AI overages (Pay-as-you-go)",
@@ -90,7 +109,10 @@
       "amount": 0.04,
       "currency": "USD",
       "period": "credit",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.04
+      ]
     },
     {
       "name": "Postman AI",
@@ -98,7 +120,10 @@
       "amount": 0.04,
       "currency": "USD",
       "period": "user",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.04
+      ]
     },
     {
       "name": "Postman AI",
@@ -106,7 +131,10 @@
       "amount": 0.035,
       "currency": "USD",
       "period": "user",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.035
+      ]
     },
     {
       "name": "Simple Security",
@@ -118,6 +146,9 @@
         "SSO with Google Workspace, Microsoft Entra ID (Azure AD), Okta, OneLogin, Ping, Duo, AD FS, or custom SAML",
         "Enforced SSO login or optional multiple sign-in methods",
         "Just-in-Time (JIT) provisioning (always enabled)"
+      ],
+      "slot_prices": [
+        6.0
       ]
     }
   ],

@@ -18,7 +18,8 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Full seat",
@@ -26,7 +27,10 @@
       "amount": 16.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        16.0
+      ]
     },
     {
       "name": "Dev seat",
@@ -34,7 +38,10 @@
       "amount": 12.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        12.0
+      ]
     },
     {
       "name": "Collab seat",
@@ -42,7 +49,10 @@
       "amount": 3.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        3.0
+      ]
     },
     {
       "name": "Full seat",
@@ -50,7 +60,10 @@
       "amount": 55.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        55.0
+      ]
     },
     {
       "name": "Dev seat",
@@ -58,7 +71,10 @@
       "amount": 25.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        25.0
+      ]
     },
     {
       "name": "Collab seat",
@@ -66,7 +82,10 @@
       "amount": 5.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        5.0
+      ]
     },
     {
       "name": "Full seat",
@@ -74,7 +93,10 @@
       "amount": 90.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        90.0
+      ]
     },
     {
       "name": "Dev seat",
@@ -82,7 +104,10 @@
       "amount": 35.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        35.0
+      ]
     }
   ],
   "models": [],

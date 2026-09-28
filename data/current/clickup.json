@@ -7,7 +7,7 @@
   "final_url": "https://clickup.com/pricing",
   "parser_version": 4,
   "content_hash": "533bed5c2a6209a9e9b7f4f57b962fe1426a7ca56e58939941d1a289cb379b2d",
-  "raw_hash": "41e70d0f0ef378be2e34f7fd88407c91b4d444a9f125f7356e87a2087ceab40f",
+  "raw_hash": "d771a895cee721213a6ac13cff864c64fe45ea20a18b9ed9ce555a41b3cd3e3b",
   "text_bytes": 9195,
   "extractor": "dom",
   "confidence": "medium",
@@ -18,7 +18,8 @@
       "amount": 0.0,
       "currency": null,
       "period": "user",
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "unlimited",
@@ -26,7 +27,10 @@
       "amount": 7.0,
       "currency": "USD",
       "period": "user",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        7.0
+      ]
     },
     {
       "name": "business",
@@ -34,7 +38,10 @@
       "amount": 12.0,
       "currency": "USD",
       "period": "user",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        12.0
+      ]
     },
     {
       "name": "enterprise",
@@ -42,7 +49,10 @@
       "amount": 750.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        750.0
+      ]
     },
     {
       "name": "Free Forever",
@@ -50,7 +60,8 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Unlimited",
@@ -58,7 +69,10 @@
       "amount": 7.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        7.0
+      ]
     },
     {
       "name": "Business",
@@ -66,7 +80,10 @@
       "amount": 12.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        12.0
+      ]
     },
     {
       "name": "Brain AI",
@@ -74,7 +91,10 @@
       "amount": 9.0,
       "currency": "USD",
       "period": "user",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        9.0
+      ]
     },
     {
       "name": "Everything AI",
@@ -82,7 +102,10 @@
       "amount": 28.0,
       "currency": "USD",
       "period": "user",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        28.0
+      ]
     },
     {
       "name": "AI Super Credits",
@@ -90,7 +113,11 @@
       "amount": 0.001,
       "currency": "USD",
       "period": "credit",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.001,
+        10.0
+      ]
     }
   ],
   "models": [],

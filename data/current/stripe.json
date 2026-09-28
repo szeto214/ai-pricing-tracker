@@ -7,7 +7,7 @@
   "final_url": "https://stripe.com/pricing",
   "parser_version": 4,
   "content_hash": "febbc295fa4b4b9124dee6e3288b54f05574faa8642cf116555d7de8acc9575f",
-  "raw_hash": "bbaf6b5bc6679dd749589e627b39d53cf60644b3ec5b6ab47b2f7fb1fa512b30",
+  "raw_hash": "7fc1dcb5907bf08c565b8b379c55511aa5ee1f3414dbe85112de73b28b95eb6a",
   "text_bytes": 31484,
   "extractor": "dom",
   "confidence": "medium",
@@ -18,7 +18,10 @@
       "amount": 5.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        5.0
+      ]
     },
     {
       "name": "Disputes",
@@ -26,7 +29,10 @@
       "amount": 15.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        15.0
+      ]
     },
     {
       "name": "3D Secure authentication",
@@ -34,7 +40,10 @@
       "amount": 0.03,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.03
+      ]
     },
     {
       "name": "Shared Payment Tokens",
@@ -42,7 +51,10 @@
       "amount": 0.15,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.15
+      ]
     },
     {
       "name": "Custom domain",
@@ -50,7 +62,10 @@
       "amount": 10.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        10.0
+      ]
     },
     {
       "name": "Post-payment invoices",
@@ -58,7 +73,10 @@
       "amount": 2.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        2.0
+      ]
     },
     {
       "name": "Cards and wallets",
@@ -66,7 +84,10 @@
       "amount": 0.1,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.1
+      ]
     },
     {
       "name": "Card readers",
@@ -74,7 +95,10 @@
       "amount": 59.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        59.0
+      ]
     },
     {
       "name": "Cellular",
@@ -82,7 +106,10 @@
       "amount": 10.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        10.0
+      ]
     },
     {
       "name": "Instant bank account verifications",
@@ -90,7 +117,10 @@
       "amount": 1.5,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        1.5
+      ]
     },
     {
       "name": "Balances",
@@ -98,7 +128,10 @@
       "amount": 0.1,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.1
+      ]
     },
     {
       "name": "Account owners",
@@ -106,7 +139,10 @@
       "amount": 1.5,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        1.5
+      ]
     },
     {
       "name": "Transactions",
@@ -114,7 +150,10 @@
       "amount": 0.3,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.3
+      ]
     },
     {
       "name": "Treasury",
@@ -122,7 +161,10 @@
       "amount": 2.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        2.0
+      ]
     },
     {
       "name": "Global Payouts (Domestic)",
@@ -130,7 +172,10 @@
       "amount": 1.5,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        1.5
+      ]
     },
     {
       "name": "Global Payouts (International)",
@@ -138,7 +183,10 @@
       "amount": 1.5,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        1.5
+      ]
     },
     {
       "name": "Domestic payouts",
@@ -146,7 +194,10 @@
       "amount": 1.5,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        1.5
+      ]
     }
   ],
   "models": [],

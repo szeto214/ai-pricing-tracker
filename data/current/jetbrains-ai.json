@@ -18,7 +18,8 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "AI Pro",
@@ -26,7 +27,10 @@
       "amount": 100.0,
       "currency": "USD",
       "period": "user",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        100.0
+      ]
     },
     {
       "name": "AI Ultimate",
@@ -34,7 +38,10 @@
       "amount": 300.0,
       "currency": "USD",
       "period": "user",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        300.0
+      ]
     },
     {
       "name": "AI Enterprise",
@@ -42,7 +49,10 @@
       "amount": 720.0,
       "currency": "USD",
       "period": "user",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        720.0
+      ]
     },
     {
       "name": "All Products Pack",
@@ -50,7 +60,10 @@
       "amount": 299.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        299.0
+      ]
     },
     {
       "name": "dotUltimate",
@@ -58,7 +71,10 @@
       "amount": 219.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        219.0
+      ]
     }
   ],
   "models": [],

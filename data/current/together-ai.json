@@ -18,7 +18,8 @@
       "amount": 0.48,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Specialized pricing",
@@ -26,7 +27,8 @@
       "amount": 3.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Managed Storage",
@@ -34,7 +36,8 @@
       "amount": 0.16,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Code Sandbox — RAM",
@@ -42,7 +45,8 @@
       "amount": 0.0149,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Code Sandbox — vCPU",
@@ -50,7 +54,8 @@
       "amount": 0.0446,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Code Interpreter — per session (60 min)",
@@ -58,7 +63,8 @@
       "amount": 0.03,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "On-demand (hourly)",
@@ -66,7 +72,8 @@
       "amount": 5.49,
       "currency": "USD",
       "period": "gpu-hour",
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Reserved (7–180+ days)",
@@ -74,7 +81,8 @@
       "amount": 3.99,
       "currency": "USD",
       "period": "gpu-hour",
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Dedicated Inference",
@@ -82,7 +90,8 @@
       "amount": 6.49,
       "currency": "USD",
       "period": "gpu-hour",
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Chat, vision, embeddings, rerank (per token)",
@@ -90,7 +99,8 @@
       "amount": 0.0015,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Image generation (per image)",
@@ -98,7 +108,8 @@
       "amount": 0.0006,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Video generation (per video)",
@@ -106,7 +117,8 @@
       "amount": 0.14,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Audio transcription (per minute)",
@@ -114,7 +126,8 @@
       "amount": 0.0015,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     }
   ],
   "models": [

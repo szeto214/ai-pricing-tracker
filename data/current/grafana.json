@@ -7,7 +7,7 @@
   "final_url": "https://grafana.com/pricing/",
   "parser_version": 4,
   "content_hash": "43e3b7eb5ab6a1364c54d0662ac246092156436fbc7e2acb0018623c188b4cd1",
-  "raw_hash": "ca855d6618b9c323cf16368b6fe0c2f30266c2e6205522605e5a377dae742117",
+  "raw_hash": "7e165fcd755dacaf2cce8d1bf807be8c362d7eca9ee274f920047a97d0c732e9",
   "text_bytes": 38272,
   "extractor": "dom",
   "confidence": "medium",
@@ -22,6 +22,9 @@
         "All Grafana Cloud services, with limited usage",
         "Community support",
         "14 days retention for metrics, logs, traces, profiles, & k6 performance tests"
+      ],
+      "slot_prices": [
+        0.0
       ]
     },
     {
@@ -34,6 +37,9 @@
         "Pay as you go above the Free tier",
         "8X5 email support",
         "13 months retention for metrics; 30 days retention for logs, traces, profiles, & k6 performance tests"
+      ],
+      "slot_prices": [
+        19.0
       ]
     },
     {
@@ -46,6 +52,9 @@
         "Premium support",
         "Custom retention",
         "Deployment flexibility (Public Cloud, Federal Cloud , or Bring Your Own Cloud )"
+      ],
+      "slot_prices": [
+        25000.0
       ]
     },
     {
@@ -64,6 +73,9 @@
         "Custom retention",
         "Premium support",
         "Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)"
+      ],
+      "slot_prices": [
+        0.0
       ]
     },
     {
@@ -72,7 +84,10 @@
       "amount": 6.5,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        6.5
+      ]
     },
     {
       "name": "Enterprise",
@@ -80,7 +95,10 @@
       "amount": 3.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        3.0
+      ]
     },
     {
       "name": "Logs",
@@ -98,6 +116,9 @@
         "Custom retention",
         "Premium support",
         "Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)"
+      ],
+      "slot_prices": [
+        0.0
       ]
     },
     {
@@ -106,7 +127,10 @@
       "amount": 0.05,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.05
+      ]
     },
     {
       "name": "Traces",
@@ -124,6 +148,9 @@
         "Custom retention",
         "Premium support",
         "Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)"
+      ],
+      "slot_prices": [
+        0.0
       ]
     },
     {
@@ -142,6 +169,9 @@
         "Custom retention",
         "Premium support",
         "Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)"
+      ],
+      "slot_prices": [
+        0.0
       ]
     },
     {
@@ -157,6 +187,9 @@
         "8 x 5 email support",
         "Premium support",
         "Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)"
+      ],
+      "slot_prices": [
+        0.0
       ]
     },
     {
@@ -165,7 +198,10 @@
       "amount": 0.01,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.01
+      ]
     },
     {
       "name": "Application Observability",
@@ -180,6 +216,9 @@
         "8 x 5 email support",
         "Premium support",
         "Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)"
+      ],
+      "slot_prices": [
+        0.0
       ]
     }
   ],

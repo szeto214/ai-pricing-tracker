@@ -7,7 +7,7 @@
   "final_url": "https://supabase.com/pricing",
   "parser_version": 4,
   "content_hash": "43e380c83c23f1bce90c3032264107c424127476eaee1dc61c163c52076caaa2",
-  "raw_hash": "dd14db5f9fb716186541d9fe3e114e6b42dc1083a80ccf612c6fd318fff5d0a6",
+  "raw_hash": "37c3d2ad9d1fd6070dcaf2d61821f5c6c37ff942b397e5b4b23d7db8b66b0c88",
   "text_bytes": 16641,
   "extractor": "dom",
   "confidence": "medium",
@@ -18,7 +18,10 @@
       "amount": 0.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.0
+      ]
     },
     {
       "name": "Pro",
@@ -26,7 +29,10 @@
       "amount": 25.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        25.0
+      ]
     },
     {
       "name": "Team",
@@ -34,7 +40,10 @@
       "amount": 599.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        599.0
+      ]
     },
     {
       "name": "Starts from",
@@ -42,7 +51,10 @@
       "amount": 10.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        10.0
+      ]
     },
     {
       "name": "Large",
@@ -50,7 +62,10 @@
       "amount": 110.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        110.0
+      ]
     },
     {
       "name": "XL",
@@ -58,7 +73,10 @@
       "amount": 210.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        210.0
+      ]
     },
     {
       "name": "2XL",
@@ -66,7 +84,10 @@
       "amount": 410.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        410.0
+      ]
     },
     {
       "name": "4XL",
@@ -74,7 +95,10 @@
       "amount": 960.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        960.0
+      ]
     },
     {
       "name": "8XL",
@@ -82,7 +106,10 @@
       "amount": 1870.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        1870.0
+      ]
     },
     {
       "name": "12XL",
@@ -90,7 +117,10 @@
       "amount": 2800.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        2800.0
+      ]
     },
     {
       "name": "16XL",
@@ -98,7 +128,10 @@
       "amount": 3730.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        3730.0
+      ]
     },
     {
       "name": "Compute Size",
@@ -106,7 +139,10 @@
       "amount": 10.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        10.0
+      ]
     },
     {
       "name": "Custom Domain",
@@ -114,7 +150,10 @@
       "amount": 10.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        10.0
+      ]
     },
     {
       "name": "Point in Time Recovery",
@@ -122,7 +161,10 @@
       "amount": 100.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        100.0
+      ]
     },
     {
       "name": "Dedicated Postgres Database",
@@ -130,7 +172,8 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     }
   ],
   "models": [],

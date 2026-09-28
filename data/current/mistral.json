@@ -27,6 +27,9 @@
         "Test Mistral models in Studio.",
         "$10 /mo in API credits.",
         "100+ connectors."
+      ],
+      "slot_prices": [
+        10.0
       ]
     },
     {
@@ -43,6 +46,9 @@
         "More image generations.",
         "$30 /mo in API credits.",
         "Chat and email support."
+      ],
+      "slot_prices": [
+        30.0
       ]
     },
     {
@@ -59,6 +65,9 @@
         "More image generations.",
         "$15 /mo in API credits.",
         "Chat and email support."
+      ],
+      "slot_prices": [
+        15.0
       ]
     },
     {
@@ -67,7 +76,8 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     }
   ],
   "models": [],

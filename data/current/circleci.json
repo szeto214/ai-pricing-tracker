@@ -7,7 +7,7 @@
   "final_url": "https://circleci.com/pricing/",
   "parser_version": 4,
   "content_hash": "c6dd83727d364989a6fd25157063c8b161f4818c5d11b794c1275bd17abe479c",
-  "raw_hash": "23d87a1912de2006d1ab3a901547fcd33eec4d4b39b9f80f6586bae764e6f1c7",
+  "raw_hash": "626d27237655dce2b939ed1041b87b84ec5f7f6ff6956e22feaa22400817eece",
   "text_bytes": 14099,
   "extractor": "dom",
   "confidence": "medium",
@@ -18,7 +18,8 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Free",
@@ -26,7 +27,10 @@
       "amount": 0.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.0
+      ]
     },
     {
       "name": "Performance",
@@ -34,7 +38,10 @@
       "amount": 15.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        15.0
+      ]
     },
     {
       "name": "Small",
@@ -42,7 +49,8 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Medium",
@@ -50,7 +58,8 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "M4 Pro Medium",
@@ -58,7 +67,8 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Small Nvidia Tesla P4 GPU",
@@ -66,7 +76,8 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     }
   ],
   "models": [],

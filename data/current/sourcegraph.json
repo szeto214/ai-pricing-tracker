@@ -7,7 +7,7 @@
   "final_url": "https://sourcegraph.com/pricing",
   "parser_version": 4,
   "content_hash": "88db7ffc44b5a8511b98944a8b28d915c6e3303cb7c4d435dbea31fb30087d85",
-  "raw_hash": "3eb3e8171784ee675100000626ae774e9e3823c4cca22b6166f8a12fec9fbb04",
+  "raw_hash": "10cbb5a88a642b2b9302da9a486426e8bc1ece1272c736eee6df9b56e321b445",
   "text_bytes": 1643,
   "extractor": "dom",
   "confidence": "low",
@@ -28,6 +28,9 @@
         "Enterprise-grade security and admin controls",
         "24×5 support with upgrade options",
         "Volume pricing"
+      ],
+      "slot_prices": [
+        16.0
       ]
     }
   ],

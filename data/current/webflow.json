@@ -7,7 +7,7 @@
   "final_url": "https://webflow.com/pricing",
   "parser_version": 4,
   "content_hash": "0b1713a59c46c83b9d408b54a2a1f4531ad79983bcf74bca7ace883bf6802462",
-  "raw_hash": "ce84cce78ab18474aa50569503ad47424cb5cf8f82b499a6db89be7a728029e6",
+  "raw_hash": "95b1113042633699c6d7085e1c1c451acd12ea67270fe32e4eebb4cc29c08409",
   "text_bytes": 56188,
   "extractor": "dom",
   "confidence": "medium",
@@ -18,7 +18,8 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Site plans",
@@ -26,7 +27,10 @@
       "amount": 2.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        2.0
+      ]
     },
     {
       "name": "200 MB",
@@ -34,7 +38,10 @@
       "amount": 2.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        2.0
+      ]
     },
     {
       "name": "2 GB",
@@ -42,7 +49,10 @@
       "amount": 2.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        2.0
+      ]
     },
     {
       "name": "500 MB",
@@ -50,7 +60,10 @@
       "amount": 2.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        2.0
+      ]
     },
     {
       "name": "Free",
@@ -58,7 +71,8 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Webflow Cloud",
@@ -66,7 +80,10 @@
       "amount": 2.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        2.0
+      ]
     },
     {
       "name": "Web app CPU usage",
@@ -74,7 +91,10 @@
       "amount": 2.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        2.0
+      ]
     }
   ],
   "models": [],

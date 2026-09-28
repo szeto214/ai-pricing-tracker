@@ -7,7 +7,7 @@
   "final_url": "https://clickhouse.com/pricing?service=clickhouse&pg.plan=scale&pg.provider=aws&pg.profile=memory&pg.architecture=arm&pg.standby=0&pg.region=us-east-1&useCase=real-time-analytics&hours=24&plan=scale&provider=aws&region=us-east-1&storageCompressed=false",
   "parser_version": 4,
   "content_hash": "1775fcd84834f90ab9c69bedd585e56097d9f9d35e56d24e115ea7d49eef3a46",
-  "raw_hash": "d8115ad4278888ae705226d21423a428a24b9d8e8c5cceff4561cb6eae06a4d0",
+  "raw_hash": "11f8d4c71a53aa2ef45504af9604d7a41f1425a07fb13846e1294cf9cf75dc0e",
   "text_bytes": 4865,
   "extractor": "dom",
   "confidence": "medium",
@@ -27,6 +27,9 @@
         "Expert support with 1 business day response time",
         "Single sign-on authentication (SSO) using Google or Microsoft Social login",
         "Multi-factor authentication (MFA)"
+      ],
+      "slot_prices": [
+        25.3
       ]
     },
     {
@@ -48,6 +51,9 @@
         "Private networking",
         "Automatic vertical scaling",
         "Manual horizontal scaling"
+      ],
+      "slot_prices": [
+        25.3
       ]
     },
     {
@@ -67,6 +73,9 @@
         "Scheduled upgrades",
         "Consultative migrations guides",
         "HIPAA and PCI compliance"
+      ],
+      "slot_prices": [
+        25.3
       ]
     },
     {
@@ -75,7 +84,10 @@
       "amount": 0.125,
       "currency": "USD",
       "period": "hour",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.125
+      ]
     }
   ],
   "models": [],

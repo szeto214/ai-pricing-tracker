@@ -7,7 +7,7 @@
   "final_url": "https://posthog.com/pricing",
   "parser_version": 4,
   "content_hash": "09792a43ec801570a528e171036b1798b905324dff8151730faf73dded4a1e61",
-  "raw_hash": "de77d1d6cb7a7c570129d7b6dad8be79eb991ad5c1a77a181e430c48f03a40bf",
+  "raw_hash": "200486e267edb3e8c9a80b23ab8b8b8b34f313e904ad12a463e4fcd8b21c41b0",
   "text_bytes": 12460,
   "extractor": "dom",
   "confidence": "medium",
@@ -23,7 +23,8 @@
         "Unlimited team members",
         "1 project, 1-year data retention",
         "Community support"
-      ]
+      ],
+      "slot_prices": []
     },
     {
       "name": "Pay-as-you-go",
@@ -36,6 +37,9 @@
         "6 projects – up from 1",
         "7-year data retention – up from 1 year",
         "Email support – or Slack over $2k/mo"
+      ],
+      "slot_prices": [
+        2.0
       ]
     },
     {
@@ -44,7 +48,10 @@
       "amount": 80.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        80.0
+      ]
     },
     {
       "name": "Analytics",
@@ -60,6 +67,9 @@
         "Feature Flags $0",
         "Error Tracking $0",
         "PostHog AI $0"
+      ],
+      "slot_prices": [
+        0.0
       ]
     },
     {
@@ -68,7 +78,8 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Eco-friendly",
@@ -81,6 +92,9 @@
         "US (Virginia)",
         "EU (Frankfurt)",
         "Starts at: $0 Free > 1 left at this price!!"
+      ],
+      "slot_prices": [
+        0.0
       ]
     }
   ],

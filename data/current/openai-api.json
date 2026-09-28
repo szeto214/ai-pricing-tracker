@@ -7,7 +7,7 @@
   "final_url": "https://developers.openai.com/api/docs/pricing",
   "parser_version": 4,
   "content_hash": "f9ed10921aa057872209509f9d3fee38899dc332bb911094c057bdb4932a7238",
-  "raw_hash": "2113060aaa33a41f19e9c02ff835d0a53f764784bfbd0c5a5da3294aecfecd5b",
+  "raw_hash": "ec4a7fd545d1fb71e03de5278d417bb8eae77859df046b0c6d6d36590fe50f1a",
   "text_bytes": 7635,
   "extractor": "dom",
   "confidence": "medium",
@@ -18,7 +18,15 @@
       "amount": 10.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        10.0,
+        1.0,
+        12.5,
+        50.0,
+        20.0,
+        2.0
+      ]
     },
     {
       "name": "gpt-6-sol",
@@ -26,7 +34,15 @@
       "amount": 2.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        2.0,
+        0.2,
+        2.5,
+        10.0,
+        4.0,
+        0.4
+      ]
     },
     {
       "name": "gpt-6-luna",
@@ -34,7 +50,15 @@
       "amount": 0.1,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.1,
+        0.01,
+        0.125,
+        0.5,
+        0.2,
+        0.02
+      ]
     },
     {
       "name": "gpt-5.6-sol",
@@ -42,7 +66,15 @@
       "amount": 4.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        4.0,
+        0.4,
+        5.0,
+        20.0,
+        8.0,
+        0.8
+      ]
     },
     {
       "name": "gpt-5.6-cyber",
@@ -50,7 +82,13 @@
       "amount": 12.5,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        12.5,
+        1.25,
+        15.625,
+        75.0
+      ]
     },
     {
       "name": "gpt-realtime-2.1",
@@ -58,7 +96,12 @@
       "amount": 32.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        32.0,
+        0.4,
+        64.0
+      ]
     },
     {
       "name": "gpt-realtime-2.1-mini",
@@ -66,7 +109,12 @@
       "amount": 10.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        10.0,
+        0.3,
+        20.0
+      ]
     },
     {
       "name": "gpt-image-2.5-sunburst",
@@ -74,7 +122,12 @@
       "amount": 8.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        8.0,
+        2.0,
+        30.0
+      ]
     },
     {
       "name": "gpt-image-2.5-flare",
@@ -82,7 +135,12 @@
       "amount": 8.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        8.0,
+        2.0,
+        30.0
+      ]
     },
     {
       "name": "gpt-realtime-translate",
@@ -90,7 +148,10 @@
       "amount": 0.034,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.034
+      ]
     },
     {
       "name": "gpt-live-transcribe",
@@ -98,7 +159,10 @@
       "amount": 0.017,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.017
+      ]
     },
     {
       "name": "gpt-realtime-whisper",
@@ -106,7 +170,10 @@
       "amount": 0.017,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.017
+      ]
     },
     {
       "name": "gpt-transcribe",
@@ -114,7 +181,10 @@
       "amount": 0.0045,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.0045
+      ]
     },
     {
       "name": "gpt-4o-transcribe",
@@ -122,7 +192,12 @@
       "amount": 2.5,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        2.5,
+        10.0,
+        0.006
+      ]
     },
     {
       "name": "gpt-4o-mini-transcribe",
@@ -130,7 +205,12 @@
       "amount": 1.25,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        1.25,
+        5.0,
+        0.003
+      ]
     },
     {
       "name": "File search",
@@ -138,7 +218,10 @@
       "amount": 0.1,
       "currency": "USD",
       "period": "day",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.1
+      ]
     },
     {
       "name": "Web search",
@@ -146,7 +229,10 @@
       "amount": 10.0,
       "currency": "USD",
       "period": "day",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        10.0
+      ]
     }
   ],
   "models": [

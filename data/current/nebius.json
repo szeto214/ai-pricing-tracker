@@ -18,7 +18,10 @@
       "amount": 0.1,
       "currency": "USD",
       "period": "hour",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.1
+      ]
     },
     {
       "name": "Other services",
@@ -26,7 +29,8 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Questions and answers about payments",
@@ -34,7 +38,10 @@
       "amount": 25.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        25.0
+      ]
     }
   ],
   "models": [],

@@ -6,9 +6,9 @@
   "url": "https://www.anthropic.com/pricing",
   "final_url": "https://claude.com/pricing",
   "parser_version": 4,
-  "content_hash": "7acd09582360a41336f9e485af64097c4a8005b4b1c53c1390a8699fc04e0118",
-  "raw_hash": "f072fceb49620fc7bc87be12cc9d5f50b8143b147c45b088b71fa8654d556202",
-  "text_bytes": 6348,
+  "content_hash": "4c99461e5a599d8bf0a63db76f676b23d0ccff23bd8d5ce7964c0101df294e05",
+  "raw_hash": "df70761d956ba26e191738a3a963d7e64549c3888d89200b9b4c55c26b0c24f2",
+  "text_bytes": 6318,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -18,7 +18,8 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Pro",
@@ -30,10 +31,14 @@
         "More usage*",
         "Hand off and schedule tasks",
         "Claude Design, Slides, Docs",
+        "Claude Code",
         "Claude Science",
         "Projects",
         "More Claude models",
         "Claude in Chrome and Microsoft 365"
+      ],
+      "slot_prices": [
+        17.0
       ]
     },
     {
@@ -47,6 +52,9 @@
         "Higher output limits for all tasks",
         "Early access to advanced Claude features",
         "Priority access at high traffic times"
+      ],
+      "slot_prices": [
+        100.0
       ]
     },
     {
@@ -55,7 +63,8 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "@Claude",
@@ -63,7 +72,8 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Central billing and administration",
@@ -71,7 +81,8 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Credit card",
@@ -79,7 +90,8 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Fable More information",
@@ -87,7 +99,8 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     }
   ],
   "models": [],

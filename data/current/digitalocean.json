@@ -7,7 +7,7 @@
   "final_url": "https://www.digitalocean.com/pricing",
   "parser_version": 4,
   "content_hash": "f6781684badb92ce5d2b201175871d27565c6b1f1154a2e0412f43a5aa050909",
-  "raw_hash": "68f647144f7835dc642d8c1e133fc0bf1e8867ca3df041580ab8b5eb8fa6b645",
+  "raw_hash": "c481459bded78c2ba839bcf51a2410de7b4a3fdbde327de915d5dc3505289e8f",
   "text_bytes": 11471,
   "extractor": "dom",
   "confidence": "medium",
@@ -24,6 +24,9 @@
         "Deploy with a single API",
         "No infrastructure management",
         "Pay only for what you use"
+      ],
+      "slot_prices": [
+        0.05
       ]
     },
     {
@@ -36,6 +39,9 @@
         "Run training and inference on AI/ML models",
         "Process large data sets and complex neural networks",
         "Serve additional use cases like high-performance computing (HPC)"
+      ],
+      "slot_prices": [
+        1.91
       ]
     },
     {
@@ -48,6 +54,9 @@
         "Build, deploy and scale apps quickly",
         "Fully managed solution, zero infrastructure management",
         "Highly scalable"
+      ],
+      "slot_prices": [
+        0.0
       ]
     },
     {
@@ -61,6 +70,9 @@
         "Deploy in seconds",
         "Scale up on demand",
         "Run any workload - from mission critical apps to low-traffic sites"
+      ],
+      "slot_prices": [
+        4.0
       ]
     },
     {
@@ -73,6 +85,9 @@
         "Simple, managed Kubernetes built for scale",
         "Free control plane, free bandwidth allowance, and more",
         "Automate and optimize to peak performance"
+      ],
+      "slot_prices": [
+        12.0
       ]
     },
     {
@@ -85,6 +100,9 @@
         "Focus on building great apps",
         "Pay for what you use",
         "Scale automatically"
+      ],
+      "slot_prices": [
+        0.0
       ]
     },
     {
@@ -97,6 +115,9 @@
         "Optimized for Wordpress & PHP based apps",
         "SSD stack with PHP 8 & Redis",
         "Unlimited apps, Git & staging"
+      ],
+      "slot_prices": [
+        11.0
       ]
     },
     {
@@ -109,6 +130,9 @@
         "Managed MongoDB, Kafka, PostgreSQL, MySQL, Caching, Valkey, and OpenSearch",
         "Worry-free setup, maintenance, and easy migration",
         "Free daily backups, automated failover, and more!"
+      ],
+      "slot_prices": [
+        15.0
       ]
     },
     {
@@ -121,6 +145,9 @@
         "S3-compatible object storage",
         "Highly scalable",
         "Built in CDN"
+      ],
+      "slot_prices": [
+        5.0
       ]
     },
     {
@@ -134,6 +161,9 @@
         "High performance tier: $0.30 per GiB-month",
         "Starting from 50 GiB",
         "Flat pricing across all supported regions"
+      ],
+      "slot_prices": [
+        0.15
       ]
     },
     {
@@ -146,6 +176,9 @@
         "Block storage",
         "Highly available",
         "Easily scale block storage, resize when needed, and move them between droplets"
+      ],
+      "slot_prices": [
+        10.0
       ]
     },
     {
@@ -157,6 +190,9 @@
       "features": [
         "Easily store and manage private container images",
         "Transfer container images over high-speed HTTPs connections to servers across four continents"
+      ],
+      "slot_prices": [
+        0.0
       ]
     },
     {
@@ -170,6 +206,9 @@
         "Let’s Encrypt and HTTP/3 support",
         "Compatible with Droplets and DigitalOcean Kubernetes",
         "Global Load Balancers now available"
+      ],
+      "slot_prices": [
+        12.0
       ]
     },
     {
@@ -181,6 +220,9 @@
       "features": [
         "Find answers to common questions, development guidelines written by experts and get free email support",
         "Ideal for those testing ideas and hosting small applications"
+      ],
+      "slot_prices": [
+        0.0
       ]
     },
     {
@@ -194,6 +236,9 @@
         "Ingress data transfer to VPCs is free. Egress data transfer from VPCs to the internet counts against bandwidth quotas.",
         "Intra-datacenter VPC peering is free. Inter-datacenter VPC peering is $0.01/GiB.",
         "VPC NAT Gateway: $40.00 per node, includes 100 GiB bandwidth (overage $0.01/GiB), supports up to 500,000 connections."
+      ],
+      "slot_prices": [
+        0.0
       ]
     },
     {
@@ -206,6 +251,9 @@
         "Uptime and latency checks",
         "Alerts by email and Slack",
         "One Uptime Check/month included with every account"
+      ],
+      "slot_prices": [
+        0.0
       ]
     },
     {
@@ -219,6 +267,9 @@
         "Prioritized findings",
         "Guided remediation",
         "Unified visibility"
+      ],
+      "slot_prices": [
+        0.0
       ]
     },
     {
@@ -239,6 +290,9 @@
         "Free cloud firewalls",
         "Collect metrics on visibility, monitor Droplet performance, and get free alerts when problems arise in your infrastructure",
         "Use 90,000 GiB-seconds per month for free with DigitalOcean Functions. There are no additional charges for function invocations"
+      ],
+      "slot_prices": [
+        0.01
       ]
     }
   ],

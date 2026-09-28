@@ -7,7 +7,7 @@
   "final_url": "https://fly.io/pricing/",
   "parser_version": 4,
   "content_hash": "9960a27df1966a310c3379e4b9049aab3ea1bf7d68c0a13231cd084d94a902bf",
-  "raw_hash": "3b1a04f543b01ebeb0d2b27ae96582c6cc77368e9e546c37830b1c60bba38905",
+  "raw_hash": "f37fbf931219bebc5ade9c4fde8e520987f69ddaf6a79393bae02285ff7bf249",
   "text_bytes": 2863,
   "extractor": "dom",
   "confidence": "medium",
@@ -18,7 +18,11 @@
       "amount": 0.0027,
       "currency": "USD",
       "period": "hour",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.0027,
+        1.94
+      ]
     },
     {
       "name": "Standard",
@@ -29,6 +33,9 @@
       "features": [
         "36-hour first response time",
         "Technical architecture support"
+      ],
+      "slot_prices": [
+        29.0
       ]
     },
     {
@@ -42,6 +49,9 @@
         "1-hour first response for urgent issues",
         "Dedicated Slack support channel",
         "Quarterly Solutions Architecture sessions"
+      ],
+      "slot_prices": [
+        199.0
       ]
     },
     {
@@ -56,6 +66,9 @@
         "Dedicated Slack support channel",
         "Quarterly Solutions Architecture sessions",
         "99.9% uptime SLA"
+      ],
+      "slot_prices": [
+        2500.0
       ]
     },
     {
@@ -64,7 +77,10 @@
       "amount": 99.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        99.0
+      ]
     },
     {
       "name": "Startup program",
@@ -72,7 +88,10 @@
       "amount": 15000.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        15000.0
+      ]
     }
   ],
   "models": [

@@ -7,7 +7,7 @@
   "final_url": "https://vercel.com/pricing",
   "parser_version": 4,
   "content_hash": "2ad7b4cb7835aeaa20a0775bde88afb72df6c55d1617002ca68fb6eb8b64b33a",
-  "raw_hash": "0cc8eae2cdb2ab191fb39430a89607cebae2e6f9e9a76ce9cb33a244297456bd",
+  "raw_hash": "64a2b8f095ffec8ba6de09dcc6501c7837c0b882d9b23c54c575a024e5306026",
   "text_bytes": 13370,
   "extractor": "dom",
   "confidence": "medium",
@@ -18,7 +18,10 @@
       "amount": 0.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.0
+      ]
     },
     {
       "name": "Pro",
@@ -26,7 +29,10 @@
       "amount": 20.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        20.0
+      ]
     },
     {
       "name": "All Hobby features, plus",
@@ -34,7 +40,10 @@
       "amount": 20.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        20.0
+      ]
     },
     {
       "name": "Bot Management",
@@ -42,7 +51,10 @@
       "amount": 1.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        1.0
+      ]
     },
     {
       "name": "Incremental Static Regeneration (ISR)",
@@ -50,7 +62,10 @@
       "amount": 0.4,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.4
+      ]
     },
     {
       "name": "1K included per project",
@@ -58,7 +73,10 @@
       "amount": 50.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        50.0
+      ]
     },
     {
       "name": "Blob",
@@ -66,7 +84,10 @@
       "amount": 0.023,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.023
+      ]
     },
     {
       "name": "Image Optimization",
@@ -74,7 +95,10 @@
       "amount": 0.05,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.05
+      ]
     },
     {
       "name": "Global Config",
@@ -82,7 +106,10 @@
       "amount": 3.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        3.0
+      ]
     },
     {
       "name": "2 included projects",
@@ -90,7 +117,10 @@
       "amount": 250.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        250.0
+      ]
     },
     {
       "name": "Microfrontends Support",
@@ -98,7 +128,10 @@
       "amount": 250.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        250.0
+      ]
     },
     {
       "name": "Vercel Functions",
@@ -106,7 +139,10 @@
       "amount": 0.128,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.128
+      ]
     },
     {
       "name": "Service Requests",
@@ -114,7 +150,10 @@
       "amount": 0.5,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.5
+      ]
     },
     {
       "name": "Vercel Sandbox",
@@ -122,7 +161,10 @@
       "amount": 0.128,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.128
+      ]
     },
     {
       "name": "Vercel Container Registry Image Storage",
@@ -130,7 +172,10 @@
       "amount": 0.1,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.1
+      ]
     },
     {
       "name": "Fast Origin Transfer",
@@ -138,7 +183,10 @@
       "amount": 0.06,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.06
+      ]
     },
     {
       "name": "Vercel Workflows",
@@ -146,7 +194,10 @@
       "amount": 20.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        20.0
+      ]
     },
     {
       "name": "Vercel Queues",
@@ -154,7 +205,10 @@
       "amount": 0.6,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.6
+      ]
     },
     {
       "name": "Token Requests",
@@ -162,7 +216,10 @@
       "amount": 3.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        3.0
+      ]
     },
     {
       "name": "Build minutes",
@@ -170,7 +227,10 @@
       "amount": 0.007,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.007
+      ]
     }
   ],
   "models": [],

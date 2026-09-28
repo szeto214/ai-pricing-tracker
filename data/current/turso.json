@@ -18,7 +18,8 @@
       "amount": 0.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Developer",
@@ -26,7 +27,8 @@
       "amount": 5.99,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Scaler",
@@ -34,7 +36,8 @@
       "amount": 29.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Pro",
@@ -42,7 +45,8 @@
       "amount": 499.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": []
     }
   ],
   "models": [],

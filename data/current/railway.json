@@ -7,7 +7,7 @@
   "final_url": "https://railway.com/pricing",
   "parser_version": 4,
   "content_hash": "3a1e6a82faa8ae9f18aa13c96c88c1bd34aedb97217a062794469a34e9683b1c",
-  "raw_hash": "f9b3ffaa2728598caaea785c7035dba1b3a1abc038a54d5ca36315985497228b",
+  "raw_hash": "5c2c40364f2ef5c0a19a6f69871ce798e3edc80b2e9cdbd49a796168a1432f54",
   "text_bytes": 8582,
   "extractor": "jsonld",
   "confidence": "medium",
@@ -18,7 +18,8 @@
       "amount": 0.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Free Trial",
@@ -26,7 +27,8 @@
       "amount": 0.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Hobby",
@@ -34,7 +36,8 @@
       "amount": 5.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Pro",
@@ -42,7 +45,8 @@
       "amount": 20.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Enterprise",
@@ -50,7 +54,8 @@
       "amount": 0.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     }
   ],
   "models": [],

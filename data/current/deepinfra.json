@@ -6,9 +6,9 @@
   "url": "https://deepinfra.com/pricing",
   "final_url": "https://deepinfra.com/pricing",
   "parser_version": 4,
-  "content_hash": "12047192cc644e447fb81f896c614427873d06e7e2b6e41d65515a5d5ff0fa52",
-  "raw_hash": "4260f76e3e0162d60de805e0883457e8b9381a751a437283e68c612835d15e4c",
-  "text_bytes": 15805,
+  "content_hash": "5d096ec899b462be9826ffc1d28e4d94711a2da7328053479d7da861cf05cb68",
+  "raw_hash": "fa28da2eddb60482262159f94b80aa632ef1692aa7575ddfd22fc4f6d6c2b7ce",
+  "text_bytes": 15765,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -18,7 +18,11 @@
       "amount": 0.06,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.06,
+        0.015
+      ]
     },
     {
       "name": "DeepSeek-V4-Pro",
@@ -26,7 +30,11 @@
       "amount": 1.3,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        1.3,
+        0.1
+      ]
     },
     {
       "name": "DeepSeek-V4-Flash",
@@ -34,7 +42,11 @@
       "amount": 0.09,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.09,
+        0.018
+      ]
     },
     {
       "name": "DeepSeek-V3.2",
@@ -42,7 +54,11 @@
       "amount": 0.26,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.26,
+        0.13
+      ]
     },
     {
       "name": "DeepSeek-V3.1",
@@ -50,7 +66,11 @@
       "amount": 0.25,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.25,
+        0.13
+      ]
     },
     {
       "name": "DeepSeek-R1-0528",
@@ -58,7 +78,11 @@
       "amount": 0.5,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.5,
+        0.35
+      ]
     },
     {
       "name": "Kimi-K3",
@@ -66,7 +90,11 @@
       "amount": 2.85,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        2.85,
+        0.285
+      ]
     },
     {
       "name": "Kimi-K2.6",
@@ -74,7 +102,11 @@
       "amount": 0.75,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.75,
+        0.15
+      ]
     },
     {
       "name": "Qwen3.6-27B",
@@ -82,7 +114,11 @@
       "amount": 0.32,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.32,
+        3.2
+      ]
     },
     {
       "name": "Qwen3.6-35B-A3B",
@@ -90,7 +126,11 @@
       "amount": 0.1,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.1,
+        0.95
+      ]
     }
   ],
   "models": [

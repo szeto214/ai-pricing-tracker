@@ -7,7 +7,7 @@
   "final_url": "https://monday.com/pricing",
   "parser_version": 4,
   "content_hash": "797de32432de966a694b4ab0eabd9de16928e3359e61bbe1e575e4aaa0f9a85d",
-  "raw_hash": "b9108e75e788bb7a847492934e33c2c7a9b7c7da7c808f61794672d80609fa07",
+  "raw_hash": "eb199dc4618909622070e1dd4aebe91d0c8f8c77b1395068ba7b5910148b5b01",
   "text_bytes": 50871,
   "extractor": "dom",
   "confidence": "medium",
@@ -18,7 +18,10 @@
       "amount": 0.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.0
+      ]
     },
     {
       "name": "Basic",
@@ -30,6 +33,9 @@
         "Agents take on specialized tasks and support multiple functions for automated execution at scale AI agent workforce Limited",
         "Sidekick is an intelligent context-aware AI assistant that understands, connects, and runs your work Sidekick AI assistant",
         "Turn any business need into a custom business app in minutes Vibe app builder"
+      ],
+      "slot_prices": [
+        9.0
       ]
     },
     {
@@ -44,6 +50,9 @@
         "Sidekick is an intelligent context-aware AI assistant that understands, connects, and runs your work Sidekick AI assistant",
         "Turn any business need into a custom business app in minutes Vibe app builder",
         "AI columns run your repetitive work directly within your boards, so you can focus on your main priorities AI columns"
+      ],
+      "slot_prices": [
+        12.0
       ]
     },
     {
@@ -59,6 +68,9 @@
         "Turn any business need into a custom business app in minutes Vibe app builder",
         "AI columns run your repetitive work directly within your boards, so you can focus on your main priorities AI columns",
         "Orchestrate workflows that connect agents and AI and watch work get done across every team AI workflow builder"
+      ],
+      "slot_prices": [
+        19.0
       ]
     },
     {
@@ -67,7 +79,10 @@
       "amount": 250000.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        250.0
+      ]
     }
   ],
   "models": [],

@@ -18,7 +18,10 @@
       "amount": 50.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        50.0
+      ]
     },
     {
       "name": "BytePlus",
@@ -26,7 +29,10 @@
       "amount": 220.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        220.0
+      ]
     },
     {
       "name": "CacheFly",
@@ -34,7 +40,10 @@
       "amount": 125.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        125.0
+      ]
     },
     {
       "name": "CloudFront",
@@ -42,7 +51,10 @@
       "amount": 425.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        425.0
+      ]
     },
     {
       "name": "Fastly",
@@ -50,7 +62,10 @@
       "amount": 600.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        600.0
+      ]
     }
   ],
   "models": [],

@@ -7,7 +7,7 @@
   "final_url": "https://www.windmill.dev/pricing",
   "parser_version": 4,
   "content_hash": "4ca13e521aa086a4600562215bec1e39cc24e22282761b03494f1c56cc7e32a9",
-  "raw_hash": "d3a4c90292a89e5ed4b523c78c2b4f81dca2a4415b8446a705503d5e523dfd27",
+  "raw_hash": "5cfe4fc7c9a79217ab768915c6cb3bcec0447ed48b73ef5ce11c3c79dd23ca3f",
   "text_bytes": 17682,
   "extractor": "dom",
   "confidence": "medium",
@@ -18,7 +18,10 @@
       "amount": 170.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        170.0
+      ]
     },
     {
       "name": "Worker group 1",
@@ -29,6 +32,9 @@
       "features": [
         "1 developer $ 20 /mo/dev",
         "Worker group 1 2 standard workers 2 CU · $ 100 / mo 2 GB memory limit per worker $ 50 /worker/ mo"
+      ],
+      "slot_prices": [
+        20.0
       ]
     },
     {
@@ -37,7 +43,10 @@
       "amount": 170.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        170.0
+      ]
     }
   ],
   "models": [],

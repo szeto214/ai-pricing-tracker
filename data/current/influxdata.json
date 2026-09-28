@@ -7,7 +7,7 @@
   "final_url": "https://www.influxdata.com/influxdb-cloud-pricing/",
   "parser_version": 4,
   "content_hash": "9b462bfd0f5c5f95d3c43153fe782ad89bf6d7bef98ace3169e47832fda3c4e7",
-  "raw_hash": "dcd91cd63bae62a0aa3244ff3535b426433e73adfa36dfbe0671309506e87baa",
+  "raw_hash": "f303e4653a8c2359acfa9654502012e7b19ea9ba5df9bf8c6a596ee93a6be89d",
   "text_bytes": 3774,
   "extractor": "dom",
   "confidence": "low",
@@ -18,7 +18,10 @@
       "amount": 250.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        250.0
+      ]
     }
   ],
   "models": [],

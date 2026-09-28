@@ -7,7 +7,7 @@
   "final_url": "https://www.activepieces.com/pricing",
   "parser_version": 4,
   "content_hash": "b3aa6df445e47a5fb333935767361fc9681d3c759e2c6e15a2ed5e4c7419dc6f",
-  "raw_hash": "51bac1f21b39152b1c60c1efc62588c6cd931512c923ce8b7f2da0a0d3b8493d",
+  "raw_hash": "63cd027309de57a2a29fe2df508c659efd649ee6c7c3d0dc380a80aa4f834ae4",
   "text_bytes": 5832,
   "extractor": "dom",
   "confidence": "medium",
@@ -24,6 +24,9 @@
         "Unlimited flows",
         "Flows, Agents, Tables",
         "MCPs and API access"
+      ],
+      "slot_prices": [
+        0.0
       ]
     },
     {
@@ -37,6 +40,9 @@
         "Then pay as you go",
         "Up to 5 users",
         "Bring your own AI keys"
+      ],
+      "slot_prices": [
+        20.0
       ]
     },
     {
@@ -52,6 +58,9 @@
         "SSO and standard roles",
         "Global connections",
         "Email support"
+      ],
+      "slot_prices": [
+        200.0
       ]
     },
     {
@@ -60,7 +69,10 @@
       "amount": 36000.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        36.0
+      ]
     },
     {
       "name": "Price",
@@ -72,6 +84,9 @@
         "Price $20/mo",
         "Hosting Cloud or on-prem",
         "How to buy Self-serve"
+      ],
+      "slot_prices": [
+        20.0
       ]
     },
     {
@@ -84,6 +99,9 @@
         "Credits included 10,000 a month",
         "Credit reset Monthly",
         "Going over $0.007/credit"
+      ],
+      "slot_prices": [
+        0.007
       ]
     }
   ],

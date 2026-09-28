@@ -7,7 +7,7 @@
   "final_url": "https://airbyte.com/pricing",
   "parser_version": 4,
   "content_hash": "2d6afa233305a280bf309ecd0312c44e6866d95122e0ce31aac0112f27417aab",
-  "raw_hash": "b60f42db90713c29c6fe915a71c1be37443f27b18a715b5e4d61eef2cc1e86c4",
+  "raw_hash": "e003390fa0b5a6d74d7e97a74cf663c47cea13cf2a6c52d2291e40de64003b6d",
   "text_bytes": 7125,
   "extractor": "jsonld",
   "confidence": "medium",
@@ -18,7 +18,8 @@
       "amount": 189.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Airbyte Standard",
@@ -26,7 +27,8 @@
       "amount": 20.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     }
   ],
   "models": [],

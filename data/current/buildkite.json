@@ -18,7 +18,10 @@
       "amount": 3.5,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        3.5
+      ]
     },
     {
       "name": "Tests",
@@ -26,7 +29,10 @@
       "amount": 15.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        15.0
+      ]
     },
     {
       "name": "Small",
@@ -36,6 +42,9 @@
       "period": null,
       "features": [
         "Linux AMD64, Linux ARM64, and Mac are billed as separate platforms, each with its own per-vCPU minute rate."
+      ],
+      "slot_prices": [
+        0.004
       ]
     }
   ],

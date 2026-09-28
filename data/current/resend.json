@@ -18,7 +18,10 @@
       "amount": 20.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        20.0
+      ]
     },
     {
       "name": "Dedicated IPs",
@@ -26,7 +29,10 @@
       "amount": 30.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        30.0
+      ]
     },
     {
       "name": "Single Sign-On",
@@ -34,7 +40,10 @@
       "amount": 150.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        150.0
+      ]
     }
   ],
   "models": [],

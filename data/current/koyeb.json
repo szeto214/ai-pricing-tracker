@@ -7,7 +7,7 @@
   "final_url": "https://www.koyeb.com/pricing",
   "parser_version": 4,
   "content_hash": "ebd40c2b94764791b17e86764817ef010a489f31e8b59e3827439bc1982d2666",
-  "raw_hash": "c01373e1c9685011c8441d8d6305d0fd5bf57f23612653ae0050b25ea13c13af",
+  "raw_hash": "ca33cbcb508857d32b3851dfc6ac4097d85002b5855d357727d951272a6cf5b3",
   "text_bytes": 9042,
   "extractor": "dom",
   "confidence": "medium",
@@ -38,6 +38,9 @@
         "ISO27001 and SOC2 Certifications",
         "99.99% uptime SLA",
         "24×7×365 premium support"
+      ],
+      "slot_prices": [
+        29.0
       ]
     },
     {
@@ -46,7 +49,10 @@
       "amount": 0.5,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.5
+      ]
     },
     {
       "name": "Custom",
@@ -54,7 +60,10 @@
       "amount": 29.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        29.0
+      ]
     }
   ],
   "models": [],

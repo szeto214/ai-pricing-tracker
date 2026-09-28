@@ -7,7 +7,7 @@
   "final_url": "https://slack.com/pricing",
   "parser_version": 4,
   "content_hash": "52b2f0a15d5faa8bfc26333f218008dde32a9888e5505d65ac2fcd6093ce1b09",
-  "raw_hash": "776451b3a94c9e9a0c551c3fa72dcdb31a31c24c179d89d978202d0d1855af16",
+  "raw_hash": "f26f28850f35f6b56913226fd145d15a0c8c6f53d5a33fb9cc9fa71243ef077d",
   "text_bytes": 27103,
   "extractor": "dom",
   "confidence": "medium",
@@ -18,7 +18,8 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "USD",
@@ -26,7 +27,10 @@
       "amount": 0.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.0
+      ]
     },
     {
       "name": "USD",
@@ -34,7 +38,11 @@
       "amount": 8.75,
       "currency": "USD",
       "period": "user",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        8.75,
+        4.38
+      ]
     },
     {
       "name": "USD",
@@ -42,7 +50,11 @@
       "amount": 18.0,
       "currency": "USD",
       "period": "user",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        18.0,
+        9.0
+      ]
     },
     {
       "name": "Free Get Started",
@@ -50,7 +62,8 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     }
   ],
   "models": [],

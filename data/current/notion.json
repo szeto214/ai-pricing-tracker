@@ -7,7 +7,7 @@
   "final_url": "https://www.notion.com/pricing",
   "parser_version": 4,
   "content_hash": "304aaf5e8be388887b7c715a6df466378da7adde7134324ff2dddeb1f9fcbb16",
-  "raw_hash": "e6e008874aa225611a68dcf8f36d5600c7c6549894f3f088bb891787fc237111",
+  "raw_hash": "34a8de460501d77f1a1c760196ff2ee50cf7d9dd59ebea5dd13b9d9473c0fbd8",
   "text_bytes": 21036,
   "extractor": "dom",
   "confidence": "medium",
@@ -18,7 +18,10 @@
       "amount": 0.0,
       "currency": "USD",
       "period": "user",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.0
+      ]
     },
     {
       "name": "Plus",
@@ -26,7 +29,10 @@
       "amount": 10.0,
       "currency": "USD",
       "period": "user",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        10.0
+      ]
     },
     {
       "name": "Business Recommended",
@@ -34,7 +40,10 @@
       "amount": 20.0,
       "currency": "USD",
       "period": "user",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        20.0
+      ]
     },
     {
       "name": "Custom Agents",
@@ -42,7 +51,10 @@
       "amount": 10.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        10.0
+      ]
     },
     {
       "name": "Enterprise Contact us",
@@ -50,7 +62,10 @@
       "amount": 0.0,
       "currency": "USD",
       "period": "seat",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.0
+      ]
     }
   ],
   "models": [],

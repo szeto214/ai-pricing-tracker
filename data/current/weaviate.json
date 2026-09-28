@@ -24,6 +24,9 @@
         "✓ 1 collection, up to 3 tenants.",
         "✓ Embeddings (2,000 req/day) + Query Agent (1,000 req/mo).",
         "✓ Basic Support"
+      ],
+      "slot_prices": [
+        0.0
       ]
     },
     {
@@ -39,6 +42,9 @@
         "✓ Highly available clusters — 99.5% uptime.",
         "✓ Query Agent free tier + usage-based; Embeddings usage-based.",
         "✓ Standard support — next-business-day Sev 1"
+      ],
+      "slot_prices": [
+        45.0
       ]
     },
     {
@@ -51,6 +57,9 @@
         "SNOWFLAKE ARCTIC-EMBED-M-V1.5 $0.025 / 1M tokens",
         "SNOWFLAKE ARCTIC-EMBED-M-V2.0 $0.040 / 1M tokens",
         "MODERNVBERT COLMODERNVBERT $0.065 / 1M tokens"
+      ],
+      "slot_prices": [
+        0.025
       ]
     },
     {
@@ -64,6 +73,9 @@
         "$30 / organization · monthly plan",
         "4,000 requests included",
         "Unlimited additional requests, usage-based"
+      ],
+      "slot_prices": [
+        30.0
       ]
     }
   ],

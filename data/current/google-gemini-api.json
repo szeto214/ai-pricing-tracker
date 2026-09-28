@@ -7,7 +7,7 @@
   "final_url": "https://ai.google.dev/gemini-api/docs/pricing",
   "parser_version": 4,
   "content_hash": "ac2ed8f0382132cfb9046a8eb12dfcf7882c5f39aadfcf28a33641c1e42adada",
-  "raw_hash": "141a2b092dcf5020a8f494ccca8f7d17fa568fa1a32e80ef65e59c7c5c01846c",
+  "raw_hash": "f941a88d85ed54de464b1287640fcd3c397de364c89ada9ec4f20aeb9ea5766f",
   "text_bytes": 61526,
   "extractor": "dom",
   "confidence": "low",
@@ -23,7 +23,8 @@
         "check_circle Free input & output tokens",
         "check_circle Google AI Studio access",
         "check_circle Content used to improve our products *"
-      ]
+      ],
+      "slot_prices": []
     }
   ],
   "models": [],

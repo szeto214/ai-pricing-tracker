@@ -18,7 +18,8 @@
       "amount": 0.0065,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Deepgram Voice AI Platform Pricing - Streaming - Flux English - Growth",
@@ -26,7 +27,8 @@
       "amount": 0.0057,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Deepgram Voice AI Platform Pricing - Streaming - Flux Multilingual - Pay As You ",
@@ -34,7 +36,8 @@
       "amount": 0.0078,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Deepgram Voice AI Platform Pricing - Streaming - Flux Multilingual - Growth",
@@ -42,7 +45,8 @@
       "amount": 0.0068,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Deepgram Voice AI Platform Pricing - Streaming - Nova-3 Monolingual - Pay As You",
@@ -50,7 +54,8 @@
       "amount": 0.0048,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Deepgram Voice AI Platform Pricing - Streaming - Nova-3 Monolingual - Growth",
@@ -58,7 +63,8 @@
       "amount": 0.0042,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Deepgram Voice AI Platform Pricing - Streaming - Nova-3 Multilingual - Pay As Yo",
@@ -66,7 +72,8 @@
       "amount": 0.0058,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Deepgram Voice AI Platform Pricing - Streaming - Nova-3 Multilingual - Growth",
@@ -74,7 +81,8 @@
       "amount": 0.005,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Deepgram Voice AI Platform Pricing - Pre-Recorded - Nova-3 Monolingual - Pay As ",
@@ -82,7 +90,8 @@
       "amount": 0.0043,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Deepgram Voice AI Platform Pricing - Pre-Recorded - Nova-3 Monolingual - Growth",
@@ -90,7 +99,8 @@
       "amount": 0.0036,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Deepgram Voice AI Platform Pricing - Pre-Recorded - Nova-3 Multilingual - Pay As",
@@ -98,7 +108,8 @@
       "amount": 0.0052,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Deepgram Voice AI Platform Pricing - Pre-Recorded - Nova-3 Multilingual - Growth",
@@ -106,7 +117,8 @@
       "amount": 0.0043,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Deepgram Voice AI Platform Pricing - Pre-Recorded - Whisper Large - Pay As You G",
@@ -114,7 +126,8 @@
       "amount": 0.0048,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Deepgram Voice AI Platform Pricing - Pre-Recorded - Whisper Large - Growth",
@@ -122,7 +135,8 @@
       "amount": 0.0048,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Deepgram Voice AI Platform Pricing - Streaming - Redaction - Pay As You Go",
@@ -130,7 +144,8 @@
       "amount": 0.002,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Deepgram Voice AI Platform Pricing - Streaming - Redaction - Growth",
@@ -138,7 +153,8 @@
       "amount": 0.0017,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Deepgram Voice AI Platform Pricing - Streaming - Keyterm Prompting - Pay As You ",
@@ -146,7 +162,8 @@
       "amount": 0.0013,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Deepgram Voice AI Platform Pricing - Streaming - Keyterm Prompting - Growth",
@@ -154,7 +171,8 @@
       "amount": 0.0012,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Deepgram Voice AI Platform Pricing - Streaming - Entity Detection - Pay As You G",
@@ -162,7 +180,8 @@
       "amount": 0.0017,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Deepgram Voice AI Platform Pricing - Streaming - Entity Detection - Growth",
@@ -170,7 +189,8 @@
       "amount": 0.0017,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Deepgram Voice AI Platform Pricing - Streaming - Speaker Diarization - Pay As Yo",
@@ -178,7 +198,8 @@
       "amount": 0.002,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Deepgram Voice AI Platform Pricing - Streaming - Speaker Diarization - Growth",
@@ -186,7 +207,8 @@
       "amount": 0.0017,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Deepgram Voice AI Platform Pricing - Pre-Recorded - Redaction - Pay As You Go",
@@ -194,7 +216,8 @@
       "amount": 0.002,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Deepgram Voice AI Platform Pricing - Pre-Recorded - Redaction - Growth",
@@ -202,7 +225,8 @@
       "amount": 0.0017,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Deepgram Voice AI Platform Pricing - Pre-Recorded - Keyterm Prompting - Pay As Y",
@@ -210,7 +234,8 @@
       "amount": 0.0013,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Deepgram Voice AI Platform Pricing - Pre-Recorded - Keyterm Prompting - Growth",
@@ -218,7 +243,8 @@
       "amount": 0.0012,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Deepgram Voice AI Platform Pricing - Pre-Recorded - Entity Detection - Pay As Yo",
@@ -226,7 +252,8 @@
       "amount": 0.0017,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Deepgram Voice AI Platform Pricing - Pre-Recorded - Entity Detection - Growth",
@@ -234,7 +261,8 @@
       "amount": 0.0017,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Deepgram Voice AI Platform Pricing - Flux TTS - Pay As You Go",
@@ -242,7 +270,8 @@
       "amount": 0.045,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Deepgram Voice AI Platform Pricing - Flux TTS - Growth",
@@ -250,7 +279,8 @@
       "amount": 0.0405,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Deepgram Voice AI Platform Pricing - Aura-2 - Pay As You Go",
@@ -258,7 +288,8 @@
       "amount": 0.03,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Deepgram Voice AI Platform Pricing - Aura-2 - Growth",
@@ -266,7 +297,8 @@
       "amount": 0.027,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Deepgram Voice AI Platform Pricing - Aura-1 - Pay As You Go",
@@ -274,7 +306,8 @@
       "amount": 0.015,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Deepgram Voice AI Platform Pricing - Aura-1 - Growth",
@@ -282,7 +315,8 @@
       "amount": 0.0135,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Deepgram Voice AI Platform Pricing - Standard - Pay As You Go",
@@ -290,7 +324,8 @@
       "amount": 0.075,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Deepgram Voice AI Platform Pricing - Standard - Growth",
@@ -298,7 +333,8 @@
       "amount": 0.068,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Deepgram Voice AI Platform Pricing - Standard - BYO TTS - Pay As You Go",
@@ -306,7 +342,8 @@
       "amount": 0.065,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Deepgram Voice AI Platform Pricing - Standard - BYO TTS - Growth",
@@ -314,7 +351,8 @@
       "amount": 0.051,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Deepgram Voice AI Platform Pricing - Custom - BYO LLM - Pay As You Go",
@@ -322,7 +360,8 @@
       "amount": 0.065,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Deepgram Voice AI Platform Pricing - Custom - BYO LLM - Growth",
@@ -330,7 +369,8 @@
       "amount": 0.059,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Deepgram Voice AI Platform Pricing - Custom - BYO LLM + TTS - Pay As You Go",
@@ -338,7 +378,8 @@
       "amount": 0.05,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Deepgram Voice AI Platform Pricing - Custom - BYO LLM + TTS - Growth",
@@ -346,7 +387,8 @@
       "amount": 0.041,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Deepgram Voice AI Platform Pricing - Advanced - Pay As You Go",
@@ -354,7 +396,8 @@
       "amount": 0.163,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Deepgram Voice AI Platform Pricing - Advanced - Growth",
@@ -362,7 +405,8 @@
       "amount": 0.146,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Deepgram Voice AI Platform Pricing - Advanced - BYO TTS - Pay As You Go",
@@ -370,7 +414,8 @@
       "amount": 0.122,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Deepgram Voice AI Platform Pricing - Advanced - BYO TTS - Growth",
@@ -378,7 +423,8 @@
       "amount": 0.11,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Deepgram Voice AI Platform Pricing - Summarization - Pay As You Go",
@@ -386,7 +432,8 @@
       "amount": 0.0003,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Deepgram Voice AI Platform Pricing - Summarization - Growth",
@@ -394,7 +441,8 @@
       "amount": 0.00024,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Deepgram Voice AI Platform Pricing - Topic Detection - Pay As You Go",
@@ -402,7 +450,8 @@
       "amount": 0.0003,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Deepgram Voice AI Platform Pricing - Topic Detection - Growth",
@@ -410,7 +459,8 @@
       "amount": 0.00024,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Deepgram Voice AI Platform Pricing - Sentiment Analysis - Pay As You Go",
@@ -418,7 +468,8 @@
       "amount": 0.0003,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Deepgram Voice AI Platform Pricing - Sentiment Analysis - Growth",
@@ -426,7 +477,8 @@
       "amount": 0.00024,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Deepgram Voice AI Platform Pricing - Intent Recognition - Pay As You Go",
@@ -434,7 +486,8 @@
       "amount": 0.0003,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Deepgram Voice AI Platform Pricing - Intent Recognition - Growth",
@@ -442,7 +495,8 @@
       "amount": 0.00024,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     }
   ],
   "models": [],

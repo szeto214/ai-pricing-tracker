@@ -7,7 +7,7 @@
   "final_url": "https://tailscale.com/pricing",
   "parser_version": 4,
   "content_hash": "ea6d10a812fd04a23cc7b476e125d891251fee0edca105e1e1d671305b9a0999",
-  "raw_hash": "ce996b9a91a0abd6df0cda382edfa8d6255a57b997af3e3fcfde6f3b60d7b025",
+  "raw_hash": "b5ab10001c35ac4b854d6b3e220c243cffc5522d356276ba78b6b7c2d2d48242",
   "text_bytes": 27670,
   "extractor": "dom",
   "confidence": "medium",
@@ -18,7 +18,10 @@
       "amount": 0.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.0
+      ]
     },
     {
       "name": "Standard",
@@ -26,7 +29,10 @@
       "amount": 8.0,
       "currency": "USD",
       "period": "user",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        8.0
+      ]
     },
     {
       "name": "Premium",
@@ -34,7 +40,10 @@
       "amount": 18.0,
       "currency": "USD",
       "period": "user",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        18.0
+      ]
     },
     {
       "name": "Mullvad",
@@ -42,7 +51,10 @@
       "amount": 5.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        5.0
+      ]
     },
     {
       "name": "Add more tagged resources",
@@ -50,7 +62,10 @@
       "amount": 1.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        1.0
+      ]
     }
   ],
   "models": [],

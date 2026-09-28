@@ -18,7 +18,10 @@
       "amount": 1000.0,
       "currency": "USD",
       "period": "year",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        1000.0
+      ]
     }
   ],
   "models": [],

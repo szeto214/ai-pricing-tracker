@@ -7,7 +7,7 @@
   "final_url": "https://northflank.com/pricing",
   "parser_version": 4,
   "content_hash": "2c149787edf4a5c941f44abb969e45806b9f4ac951e0e75f66884399feab1e1e",
-  "raw_hash": "4dd351c873745327a401aed7b8579b5fa350644c40e0428dcb937560be8af3ba",
+  "raw_hash": "ba6b3950eeafbff05fbc7de4f985485bd6ed0ee2f026d3955cb8d25cea4d97a1",
   "text_bytes": 13998,
   "extractor": "dom",
   "confidence": "medium",
@@ -18,7 +18,10 @@
       "amount": 0.06,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.06
+      ]
     },
     {
       "name": "Disk",
@@ -26,7 +29,10 @@
       "amount": 0.15,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.15
+      ]
     },
     {
       "name": "You’re in good company",
@@ -34,7 +40,10 @@
       "amount": 24000000.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        24.0
+      ]
     }
   ],
   "models": [],

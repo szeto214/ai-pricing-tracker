@@ -7,7 +7,7 @@
   "final_url": "https://v0.app/pricing",
   "parser_version": 4,
   "content_hash": "cda535884048169f0b57f8583a0fc7e7a7c95b3fae6bfd27ddf86f8b8bc9c4a9",
-  "raw_hash": "fb0563432f5549e0518082ef9a8c5c53d6c6d55c5c8ea6cddba79aa908652ba3",
+  "raw_hash": "1d885806868dd90a8cb3a96f57057f66c4e3f9b32c2374a259103a5acfcdce03",
   "text_bytes": 2825,
   "extractor": "dom",
   "confidence": "medium",
@@ -18,7 +18,10 @@
       "amount": 0.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.0
+      ]
     },
     {
       "name": "Plus",
@@ -26,7 +29,11 @@
       "amount": 30.0,
       "currency": "USD",
       "period": "user",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        30.0,
+        90.0
+      ]
     },
     {
       "name": "Business",
@@ -34,7 +41,10 @@
       "amount": 100.0,
       "currency": "USD",
       "period": "user",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        100.0
+      ]
     }
   ],
   "models": [

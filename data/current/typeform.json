@@ -18,7 +18,8 @@
       "amount": 28.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Basic Plan",
@@ -26,7 +27,8 @@
       "amount": 28.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Plus Plan",
@@ -34,7 +36,8 @@
       "amount": 56.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Business Plan",
@@ -42,7 +45,8 @@
       "amount": 91.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Talent Plan",
@@ -50,7 +54,8 @@
       "amount": 119.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Growth Pro",
@@ -58,7 +63,8 @@
       "amount": 266.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     }
   ],
   "models": [],

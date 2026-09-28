@@ -1,7 +1,7 @@
 Models
 Respan: Span-01
 Span-01
-1.28B tokens
+3.16B tokens
 Span-01 is a behavior scoring model from Respan. It reads a conversation span and returns, for each plain-language behavior you define, the probability that the behavior is present. It is suited for evaluation, guardrails, and monitoring of LLM and agent outputs at scale. It is the higher-accuracy tier of the family. Span-01 Lite is the free, lighter tier.
 by
 respan
@@ -12,7 +12,7 @@ $0/M output
 tokens
 Respan: Span-01 Lite
 Span-01 Lite
-839M tokens
+2.15B tokens
 Span-01 Lite is the free, lighter tier of Span-01, a behavior scoring model from Respan. It returns, for each plain-language behavior you define, the probability that the behavior is present in a conversation span, and is suited for high-volume evaluation and monitoring where cost matters more than peak accuracy.
 by
 respan
@@ -23,7 +23,7 @@ $0/M output
 tokens
 Respan: Span-01 Lite (free)
 Span-01 Lite (free)
-39.2M tokens
+121M tokens
 Span-01 Lite is the free, lighter tier of Span-01, a behavior scoring model from Respan. It returns, for each plain-language behavior you define, the probability that the behavior is present in a conversation span, and is suited for high-volume evaluation and monitoring where cost matters more than peak accuracy.
 by
 respan
@@ -34,7 +34,7 @@ $0/M output
 tokens
 ByteDance Seed: Seed Audio 1.0
 Seed Audio 1.0
-185K tokens
+421K tokens
 Seed Audio 1.0 is ByteDance Seed's non-streaming audio generation model. It produces speech and other audio from a natural-language text prompt that can describe the desired voice, tone, and sound effects, optionally guided by a Seed speaker ID or a reference audio clip for voice cloning. Output is limited to 120 seconds per request and is billed per second of generated audio. Suited to audiobooks, voiceovers, games, and similar workloads.
 by
 bytedance-seed
@@ -51,7 +51,7 @@ Sep 25, 2026
 1M context
 Jared Palmer: Kev 4B
 Kev 4B
-63.7M tokens
+177M tokens
 Kev 4B is a small open-weight decision model from Jared Palmer, built as a LoRA adapter and pointer head on Qwen3.5-4B-Base and served over the same /v1/systemone contract as TypeSafe's Jev. Send a state and typed questions (yes/no, multiple choice, or score) and it returns a calibrated probability per question in one forward pass, with no generated text. It is the recommended checkpoint in the Kev family (0.8B, 4B, 9B) and is suited for routing, classification, and policy checks that want a compact, Apache-2.0 alternative to Jev. Code, model cards, and eval suites:
 https://github.com/jaredpalmer/kev
 by
@@ -64,7 +64,7 @@ $0/M output
 tokens
 Perceptron: Perceptron Mk1.5
 Perceptron Mk1.5
-172M tokens
+702M tokens
 Perceptron Mk1.5 is Perceptron's embodied reasoning model for physical agents. It accepts text, image, video, and audio input, and answers with text plus optional structured annotations: points, boxes, polygons, tracks, and clips. It supports graded reasoning through the standard reasoning controls, function tool calling, and structured outputs via JSON Schema. Structured annotations are emitted inline with text only when requested via the
 annotation_format
 parameter (
@@ -86,7 +86,7 @@ $1.50/M output
 tokens
 Google: Gemini 3.5 Transcribe
 Gemini 3.5 Transcribe
-19.8M characters
+29.2M characters
 Gemini 3.5 Transcribe is a speech-to-text model from Google. It is suited for synchronous transcription that needs word-level timestamps or speaker diarization, with support for up to eight speakers. Audio can be up to one hour, or 30 minutes when timestamps or diarization are enabled.
 by
 google
@@ -98,7 +98,7 @@ $12/M output
 tokens
 Fish Audio: Transcribe 1 Pro
 Transcribe 1 Pro
-5.13M characters
+8.65M characters
 Transcribe 1 Pro is a speech-to-text model from Fish Audio tuned for interviews, meetings, and podcasts. It labels speakers with inline
 speaker
 markers, preserves emotion and vocal-event cues such as
@@ -110,7 +110,7 @@ Sep 24, 2026
 $0.0001/second
 Fireworks: Ember-1
 Ember-1
-2.88B tokens
+3.44B tokens
 Ember-1 is a specialized reasoning model from Fireworks Research, built on
 Kimi K3
 . It is designed to make every token go further: it produces shorter reasoning traces, using roughly 40% fewer tokens than the base model while maintaining comparable quality across Fireworks' evaluations. It is suited for coding, knowledge work, and agentic workflows where reasoning cost and latency matter.
@@ -124,7 +124,7 @@ $15/M output
 tokens
 inclusionAI: Ming Image 0.1 Design Layer
 Ming Image 0.1 Design Layer
-89.6M tokens
+968M tokens
 Ming Image 0.1 Design Layer is an image-to-image model from inclusionAI that decomposes a flattened design image into separate RGBA layers, such as a background layer and foreground elements, and returns one image per layer. It requires exactly one reference image and a prompt describing the layer plan. Output format can be requested as PNG or WebP. Output dimensions follow the input image, so explicit sizes and aspect ratios are rejected instead of silently reshaped.
 by
 inclusionai
@@ -135,7 +135,7 @@ $0/M output
 tokens
 Google: Gemini 3.8 Flash Lite TTS
 Gemini 3.8 Flash Lite TTS
-47.6M tokens
+66.5M tokens
 Gemini 3.8 Flash Lite TTS is a text-to-speech model from Google and the fast, high-throughput member of the 3.8 TTS family alongside
 Gemini 3.8 Flash TTS
 . It is suited for conversational voice-agent pipelines, high-volume read-aloud, and voice replication workloads where latency and cost matter more than maximum expressiveness. It accepts the same speech configuration as
@@ -153,7 +153,7 @@ $6/M output
 tokens
 Google: Gemini 3.8 Flash TTS
 Gemini 3.8 Flash TTS
-135M tokens
+221M tokens
 Gemini 3.8 Flash TTS is a text-to-speech model from Google and the successor to
 Gemini 3.1 Flash TTS Preview
 . It is the creative tier of the 3.8 TTS family, suited for narration, character work, and multi-speaker dialogue where voice fidelity, acting nuance, and regional dialect coverage matter more than latency. It accepts the same speech configuration as its predecessor, including the 30 prebuilt studio voices, and supports Google's Voice Design (custom voices from a text description) and Voice Replication (voices cloned from a short sample) through
@@ -169,7 +169,7 @@ $9/M output
 tokens
 Z.ai: GLM 5.3 Prime
 GLM 5.3 Prime
-15.2B tokens
+21.7B tokens
 GLM-5.3-Prime is the high-speed variant of Z.ai's GLM-5.3, inheriting its full capabilities while delivering 1.5–2× the output throughput through inference acceleration. It supports text input and output with a 1M-token context window and up to 128K output tokens, and targets coding and agentic workloads, including long-horizon multi-turn agent orchestration, real-time conversation, and streaming code generation. Reasoning is always on and cannot be disabled. Reasoning efforts
 low
 ,
@@ -189,7 +189,7 @@ $8.80/M output
 tokens
 Qwen: Qwen3.8 Max Prime
 Qwen3.8 Max Prime
-9.21B tokens
+12.4B tokens
 Qwen3.8 Max Prime is a higher-throughput variant of Qwen3.8 Max from Alibaba's Qwen team, served as a separate SKU at a higher price point. It accepts text, image, and video input and returns text, with a 1M-token context window and reasoning enabled by default. Tool calling, structured outputs, and configurable reasoning effort are supported, matching Qwen3.8 Max.
 by
 qwen
@@ -201,7 +201,7 @@ $12/M output
 tokens
 Recraft: Recraft V4.1 Flash
 Recraft V4.1 Flash
-115M tokens
+150M tokens
 Recraft V4.1 Flash is a text-to-image model from Recraft, the speed and cost tier of the V4.1 family. It generates ~1K raster images in about 1.5 seconds end to end, at roughly a fifth of the cost of
 Recraft V4.1
 , and is suited for rapid iteration, prototyping, and high-volume generation where turnaround matters more than peak fidelity. It is generation only: image inputs, styles, and style references are not supported. Supports the same aspect ratios as V4.1 and the
@@ -219,12 +219,13 @@ Sep 23, 2026
 $0.007/image
 Space Bunny Alpha
 Space Bunny Alpha
-10.2T tokens
-Finance (#34)
-Legal (#45)
-Programming (#14)
-Science (#11)
-Technology (#35)
+15.3T tokens
+Finance (#23)
+Legal (#35)
+SEO (#19)
+Programming (#11)
+Roleplay (#42)
++3 categories
 Space Bunny Alpha is an anonymous large model with blazing-fast inference, strong coding capabilities and native multimodal input support. It delivers adjustable reasoning effort, and a 1M-token context window. Space Bunny Alpha is a stealth model. It is developed and operated by a third-party provider who has chosen to remain anonymous during this preview. OpenRouter routes requests to it and is not its developer, owner, or provider. Prompts and completions may be retained by the provider but are not used for training; all other use is governed by the
 Stealth Model Terms
 .

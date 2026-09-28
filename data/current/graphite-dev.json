@@ -26,7 +26,8 @@
         "VSCode extension",
         "Limited access to Graphite Chat",
         "Limited AI Reviews"
-      ]
+      ],
+      "slot_prices": []
     }
   ],
   "models": [],

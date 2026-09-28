@@ -7,7 +7,7 @@
   "final_url": "https://www.heroku.com/pricing/",
   "parser_version": 4,
   "content_hash": "d26b7f01395043a11ea57b5ee52c16b768e296104163dbe32eb0dcc6a54ea87b",
-  "raw_hash": "1fb9084186c6b232463eac370c26a42dc6ad60ee756f068216abac8bdd99cf0a",
+  "raw_hash": "6a1778de3b0adcc03d5fab5a7e5f5571c5611a9d5d0507973d647a232aa68363",
   "text_bytes": 51852,
   "extractor": "dom",
   "confidence": "medium",
@@ -28,6 +28,9 @@
         "Automated certificate management",
         "Personal accounts only",
         "Sleeps after 30 minutes of inactivity"
+      ],
+      "slot_prices": [
+        5.0
       ]
     },
     {
@@ -42,6 +45,9 @@
         "10 process types",
         "Always on",
         "0.28 Dyno Units / Month"
+      ],
+      "slot_prices": [
+        7.0
       ]
     },
     {
@@ -59,6 +65,9 @@
         "Unlimited background workers",
         "Can combine with Performance dynos",
         "1 Dyno Units / Month"
+      ],
+      "slot_prices": [
+        25.0
       ]
     },
     {
@@ -76,6 +85,9 @@
         "Unlimited background workers",
         "Can combine with Performance dynos",
         "2 Dyno Units / Month"
+      ],
+      "slot_prices": [
+        50.0
       ]
     },
     {
@@ -91,6 +103,9 @@
         "Autoscaling",
         "Can mix with Standard dynos",
         "8 Dyno Units / Month"
+      ],
+      "slot_prices": [
+        250.0
       ]
     },
     {
@@ -106,6 +121,9 @@
         "Autoscaling",
         "Can mix with Standard dynos",
         "16 Dyno Units / Month"
+      ],
+      "slot_prices": [
+        500.0
       ]
     },
     {
@@ -121,6 +139,9 @@
         "Autoscaling",
         "Can mix with Standard dynos",
         "16 Dyno Units / Month"
+      ],
+      "slot_prices": [
+        500.0
       ]
     },
     {
@@ -136,6 +157,9 @@
         "Autoscaling",
         "Can mix with Standard dynos",
         "30 Dyno Units / Month"
+      ],
+      "slot_prices": [
+        750.0
       ]
     },
     {
@@ -151,6 +175,9 @@
         "Autoscaling",
         "Can mix with Standard dynos",
         "60 Dyno Units / Month"
+      ],
+      "slot_prices": [
+        1500.0
       ]
     },
     {
@@ -167,6 +194,9 @@
         "Private network and data services",
         "Private Space required",
         "5 Dyno Units / Month"
+      ],
+      "slot_prices": [
+        125.0
       ]
     },
     {
@@ -183,6 +213,9 @@
         "Private network and data services",
         "Private Space required",
         "10 Dyno Units / Month"
+      ],
+      "slot_prices": [
+        250.0
       ]
     },
     {
@@ -199,6 +232,9 @@
         "Private network and data services",
         "Private Space required",
         "20 Dyno Units / Month"
+      ],
+      "slot_prices": [
+        500.0
       ]
     },
     {
@@ -215,6 +251,9 @@
         "Private network and data services",
         "Private Space required",
         "20 Dyno Units / Month"
+      ],
+      "slot_prices": [
+        500.0
       ]
     },
     {
@@ -231,6 +270,9 @@
         "Private network and data services",
         "Private Space required",
         "30 Dyno Units / Month"
+      ],
+      "slot_prices": [
+        750.0
       ]
     },
     {
@@ -247,6 +289,9 @@
         "Private network and data services",
         "Private Space required",
         "60 Dyno Units / Month"
+      ],
+      "slot_prices": [
+        1500.0
       ]
     },
     {
@@ -265,6 +310,9 @@
         "Strict TLS enforcement",
         "6 Dyno Units / Month",
         "Private Space required"
+      ],
+      "slot_prices": [
+        150.0
       ]
     },
     {
@@ -283,6 +331,9 @@
         "Strict TLS enforcement",
         "12 Dyno Units / Month",
         "Private Space required"
+      ],
+      "slot_prices": [
+        300.0
       ]
     },
     {
@@ -301,6 +352,9 @@
         "Strict TLS enforcement",
         "24 Dyno Units / Month",
         "Private Space required"
+      ],
+      "slot_prices": [
+        600.0
       ]
     },
     {
@@ -319,6 +373,9 @@
         "Strict TLS enforcement",
         "24 Dyno Units / Month",
         "Private Space required"
+      ],
+      "slot_prices": [
+        600.0
       ]
     },
     {
@@ -337,6 +394,9 @@
         "Strict TLS enforcement",
         "36 Dyno Units / Month",
         "Private Space required"
+      ],
+      "slot_prices": [
+        900.0
       ]
     }
   ],

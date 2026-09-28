@@ -7,7 +7,7 @@
   "final_url": "https://fireworks.ai/pricing",
   "parser_version": 4,
   "content_hash": "25dd4651d6dfd64f65782967f6ac98406d30f8e724ff80c2f8f99a833e69ac00",
-  "raw_hash": "a3535b2da377f7d4238c5c45c8a3c02c462db40f85f9bce52b294189944b6b31",
+  "raw_hash": "e710f7d22f46cfdc6bf7c1359ba5fb68443441528cf917c739eddc41bcaa7067",
   "text_bytes": 3462,
   "extractor": "dom",
   "confidence": "low",
@@ -18,7 +18,10 @@
       "amount": 1.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        1.0
+      ]
     }
   ],
   "models": [

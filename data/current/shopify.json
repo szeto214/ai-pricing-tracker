@@ -7,7 +7,7 @@
   "final_url": "https://www.shopify.com/pricing",
   "parser_version": 4,
   "content_hash": "d9244f245e5a1eb94e637fb7daa3ab0f83169957455a2b9587607109e8cff25b",
-  "raw_hash": "e5af5da49a6f53b16e1bd1ecd149e54bf8d15797c56b495861fa58cefba14aa6",
+  "raw_hash": "1272be3f5928eede5da8e73845755cc913ac97e2b393cb343095b60f4a836a50",
   "text_bytes": 15082,
   "extractor": "dom",
   "confidence": "medium",
@@ -18,7 +18,10 @@
       "amount": 1.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        1.0
+      ]
     },
     {
       "name": "Basic",
@@ -26,7 +29,10 @@
       "amount": 29.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        29.0
+      ]
     },
     {
       "name": "Grow",
@@ -34,7 +40,10 @@
       "amount": 79.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        79.0
+      ]
     },
     {
       "name": "Advanced",
@@ -42,7 +51,10 @@
       "amount": 299.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        299.0
+      ]
     },
     {
       "name": "Plus",
@@ -50,7 +62,10 @@
       "amount": 2300.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        2300.0
+      ]
     },
     {
       "name": "Level up your stores with",
@@ -62,6 +77,9 @@
         "Unlimited staff roles & permissions",
         "In-store inventory management",
         "In-store pickup & flexible delivery"
+      ],
+      "slot_prices": [
+        89.0
       ]
     },
     {
@@ -70,7 +88,10 @@
       "amount": 1.1,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        1.1
+      ]
     },
     {
       "name": "Over 50 synced marketplace orders",
@@ -78,7 +99,10 @@
       "amount": 99.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        99.0
+      ]
     },
     {
       "name": "Pay monthly",
@@ -86,7 +110,10 @@
       "amount": 39.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        39.0
+      ]
     },
     {
       "name": "Pay yearly",
@@ -94,7 +121,10 @@
       "amount": 29.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        29.0
+      ]
     },
     {
       "name": "Turn plans into progress",
@@ -102,7 +132,10 @@
       "amount": 1.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        1.0
+      ]
     }
   ],
   "models": [],

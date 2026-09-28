@@ -7,7 +7,7 @@
   "final_url": "https://www.baseten.co/pricing/",
   "parser_version": 4,
   "content_hash": "b8ded80c98ce4856ecfa60a77df490f70f532f63993521fc6057611c0059028a",
-  "raw_hash": "1c522c50a8a2e69ff5dcf8e7d80fa9600c6513e6969142f90b80f5be7c854772",
+  "raw_hash": "b64f9a0ae61d8a09b1b269e7aac10e3850f9da760eff244f873daac65f056ae1",
   "text_bytes": 5699,
   "extractor": "dom",
   "confidence": "medium",
@@ -18,7 +18,10 @@
       "amount": 0.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.0
+      ]
     },
     {
       "name": "GLM-5.3 Fast",
@@ -26,7 +29,12 @@
       "amount": 2.1,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        2.1,
+        0.21,
+        6.6
+      ]
     },
     {
       "name": "GLM-5.3",
@@ -34,7 +42,12 @@
       "amount": 1.4,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        1.4,
+        0.14,
+        4.4
+      ]
     },
     {
       "name": "GLM-5.3-Flash",
@@ -42,7 +55,12 @@
       "amount": 0.15,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.15,
+        0.03,
+        0.5
+      ]
     },
     {
       "name": "GLM-5.2",
@@ -50,7 +68,12 @@
       "amount": 1.4,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        1.4,
+        0.14,
+        4.4
+      ]
     },
     {
       "name": "GLM-5.2 Fast",
@@ -58,7 +81,12 @@
       "amount": 2.1,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        2.1,
+        0.21,
+        6.6
+      ]
     },
     {
       "name": "DeepSeek V4.1 Flash",
@@ -66,7 +94,12 @@
       "amount": 0.3,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.3,
+        0.007,
+        1.2
+      ]
     },
     {
       "name": "DeepSeek V4 Pro 0813",
@@ -74,7 +107,12 @@
       "amount": 1.32,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        1.32,
+        0.132,
+        3.96
+      ]
     },
     {
       "name": "DeepSeek-V4-Flash-0731",
@@ -82,7 +120,12 @@
       "amount": 0.13,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.13,
+        0.028,
+        0.26
+      ]
     },
     {
       "name": "Kimi K3",
@@ -90,7 +133,12 @@
       "amount": 3.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        3.0,
+        0.3,
+        15.0
+      ]
     },
     {
       "name": "NVIDIA Nemotron 3 Ultra",
@@ -98,7 +146,12 @@
       "amount": 0.6,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.6,
+        0.12,
+        2.4
+      ]
     },
     {
       "name": "GPT OSS 120B",
@@ -106,7 +159,11 @@
       "amount": 0.1,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.1,
+        0.5
+      ]
     },
     {
       "name": "GPU Instances",
@@ -114,7 +171,10 @@
       "amount": 0.01052,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.01052
+      ]
     },
     {
       "name": "H100 MIG",
@@ -122,7 +182,10 @@
       "amount": 0.0625,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.0625
+      ]
     },
     {
       "name": "B200",
@@ -130,7 +193,10 @@
       "amount": 0.16633,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.16633
+      ]
     },
     {
       "name": "1x2",
@@ -138,7 +204,10 @@
       "amount": 0.00058,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.00058
+      ]
     },
     {
       "name": "1x4",
@@ -146,7 +215,10 @@
       "amount": 0.00086,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.00086
+      ]
     },
     {
       "name": "2x8",
@@ -154,7 +226,10 @@
       "amount": 0.00173,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.00173
+      ]
     },
     {
       "name": "4x16",
@@ -162,7 +237,10 @@
       "amount": 0.00346,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.00346
+      ]
     },
     {
       "name": "8x32",
@@ -170,7 +248,10 @@
       "amount": 0.00691,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.00691
+      ]
     }
   ],
   "models": [],

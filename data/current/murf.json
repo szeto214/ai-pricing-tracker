@@ -7,7 +7,7 @@
   "final_url": "https://murf.ai/pricing",
   "parser_version": 4,
   "content_hash": "9beecfa04bfe43f734d3ef047830b1018d9acf55266d4c8864d401724c43c85e",
-  "raw_hash": "3ad119ca082a63f9d5650d84ba6038de69226b60e5e0cb7187e169a0c7de54bd",
+  "raw_hash": "2b8107e50d37bac62e137809dbf9fc0b519bd69976f7aafe20aa21270416d73b",
   "text_bytes": 3912,
   "extractor": "dom",
   "confidence": "medium",
@@ -18,7 +18,10 @@
       "amount": 10.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        10.0
+      ]
     },
     {
       "name": "Text to Speech",
@@ -26,7 +29,10 @@
       "amount": 0.01,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.01
+      ]
     },
     {
       "name": "Text to Speech",
@@ -34,7 +40,10 @@
       "amount": 0.03,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.03
+      ]
     },
     {
       "name": "Voice Changer",
@@ -42,7 +51,10 @@
       "amount": 0.1,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.1
+      ]
     },
     {
       "name": "Translation",
@@ -50,7 +62,10 @@
       "amount": 0.02,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.02
+      ]
     },
     {
       "name": "API Endpoints Usage Cost",
@@ -58,7 +73,10 @@
       "amount": 0.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.0
+      ]
     }
   ],
   "models": [],

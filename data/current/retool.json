@@ -7,7 +7,7 @@
   "final_url": "https://retool.com/pricing",
   "parser_version": 4,
   "content_hash": "a42c9326787c27137a223d2611c1266fee82b06edb697af3941edc6d524dd8f3",
-  "raw_hash": "a6ffb234ee410702894952056c756ac83096fc1b3aa29633493fa5f337934285",
+  "raw_hash": "8a8a15ed1bfc1eeabfdc7c32845a7737dcbbe5d8baf68f8358e311ed015c9986",
   "text_bytes": 19256,
   "extractor": "dom",
   "confidence": "medium",
@@ -18,7 +18,8 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Enterprise",
@@ -44,6 +45,9 @@
         "Full white-labeling",
         "Enterprise support",
         "1,000 credits/builder + 4,000 pooled AI credits/month; additional packs available §"
+      ],
+      "slot_prices": [
+        10.0
       ]
     },
     {
@@ -52,7 +56,10 @@
       "amount": 10.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        10.0
+      ]
     },
     {
       "name": "Internal user",
@@ -60,7 +67,10 @@
       "amount": 5.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        5.0
+      ]
     }
   ],
   "models": [],

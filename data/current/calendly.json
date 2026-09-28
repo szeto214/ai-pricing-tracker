@@ -18,7 +18,8 @@
       "amount": 0.0,
       "currency": "USD",
       "period": "p1y",
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Teams Plan (USD)",
@@ -26,7 +27,8 @@
       "amount": 16.0,
       "currency": "USD",
       "period": "p1y",
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Teams Plan (GBP)",
@@ -34,7 +36,8 @@
       "amount": 13.0,
       "currency": "GBP",
       "period": "p1y",
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Teams Plan (EUR)",
@@ -42,7 +45,8 @@
       "amount": 16.0,
       "currency": "EUR",
       "period": "p1y",
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Standard Plan (USD)",
@@ -50,7 +54,8 @@
       "amount": 10.0,
       "currency": "USD",
       "period": "p1y",
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Standard Plan (GBP)",
@@ -58,7 +63,8 @@
       "amount": 8.0,
       "currency": "GBP",
       "period": "p1y",
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Standard Plan (EUR)",
@@ -66,7 +72,8 @@
       "amount": 10.0,
       "currency": "EUR",
       "period": "p1y",
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Free Plan (USD)",
@@ -74,7 +81,8 @@
       "amount": 0.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     }
   ],
   "models": [],

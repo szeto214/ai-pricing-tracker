@@ -7,7 +7,7 @@
   "final_url": "https://www.zendesk.com/pricing/",
   "parser_version": 4,
   "content_hash": "9f95e9fed577a9fe4b23408b4ae65594b8e56a366fe93f68db49bfb60256601d",
-  "raw_hash": "5819efce0e0c3e5277cc11043f5f0a9049b46eb23cd6b323ec3058a687db3c62",
+  "raw_hash": "e2060e7673d183181137de85f7833d27f3c1de959f8d9dbc44c7e4bd494d0e97",
   "text_bytes": 22883,
   "extractor": "dom",
   "confidence": "medium",
@@ -25,6 +25,9 @@
         "Pre-written responses",
         "Customer context",
         "Automations and triggers"
+      ],
+      "slot_prices": [
+        19.0
       ]
     },
     {
@@ -40,6 +43,9 @@
         "Omnichannel routing",
         "Messaging and live chat",
         "Telephony"
+      ],
+      "slot_prices": [
+        55.0
       ]
     },
     {
@@ -55,6 +61,9 @@
         "AI Quick Reports",
         "Skills-based routing",
         "IVR phone tree"
+      ],
+      "slot_prices": [
+        115.0
       ]
     },
     {
@@ -63,7 +72,10 @@
       "amount": 50.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        50.0
+      ]
     },
     {
       "name": "Workforce Engagement Bundle",
@@ -71,7 +83,10 @@
       "amount": 50.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        50.0
+      ]
     },
     {
       "name": "Contact Center",
@@ -79,7 +94,10 @@
       "amount": 83.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        83.0
+      ]
     }
   ],
   "models": [],

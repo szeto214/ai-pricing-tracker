@@ -7,7 +7,7 @@
   "final_url": "https://cline.bot/pricing",
   "parser_version": 4,
   "content_hash": "cb0f671c9b69a10e7c2b23002f6a1d440328bbc4113b1d4a3863089f25832787",
-  "raw_hash": "53bfed37217328e5b8a07da89e96b151e61f0c7c96f064c908914405c65d5b69",
+  "raw_hash": "3998c84a38194e222acca32a52a244178fe68043ec12ddbb74d81997d00798d5",
   "text_bytes": 2355,
   "extractor": "dom",
   "confidence": "low",
@@ -18,7 +18,8 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     }
   ],
   "models": [],

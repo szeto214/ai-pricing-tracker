@@ -7,7 +7,7 @@
   "final_url": "https://www.sonarsource.com/plans-and-pricing/",
   "parser_version": 4,
   "content_hash": "7a2284759f8569526189b724a3617255c947f50a62e140eb691d67874d515fa0",
-  "raw_hash": "1321c0d01ef1cb305e487449a01d96b16cda9952402aaa0aad4f5bd4bcefb0ef",
+  "raw_hash": "2d8df4b9a6f7df8ad9d563df700978dead9d1e8132a7ed6a28f721fe6df58f10",
   "text_bytes": 8853,
   "extractor": "dom",
   "confidence": "medium",
@@ -18,7 +18,11 @@
       "amount": 68.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        68.0,
+        34.0
+      ]
     },
     {
       "name": "Gitar AI Code Review",
@@ -26,7 +30,11 @@
       "amount": 30.0,
       "currency": "USD",
       "period": "user",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        30.0,
+        20.0
+      ]
     }
   ],
   "models": [],

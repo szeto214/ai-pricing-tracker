@@ -7,7 +7,7 @@
   "final_url": "https://planetscale.com/pricing",
   "parser_version": 4,
   "content_hash": "fd184667c2ae76581a111854fd4561534f76b5105c11ea99dad6949247a1a8bd",
-  "raw_hash": "7d3b6d17f10616705aa260b35dff6bcbad23f2e63a5ae7045fb056c3cac97b75",
+  "raw_hash": "424b9007c0e859c00f890373ef0cb60f908e94de24418dc107ee7e76860e8981",
   "text_bytes": 5690,
   "extractor": "dom",
   "confidence": "medium",
@@ -21,6 +21,9 @@
       "features": [
         "Base ↓",
         "Enterprise ↓"
+      ],
+      "slot_prices": [
+        5.0
       ]
     },
     {
@@ -38,6 +41,9 @@
         "Storage — Storage capacity and, where configurable, provisioned IOPS and throughput. Storage is included for Metal databases.",
         "Usage — Backup storage and network egress",
         "Add-ons — Additional development branch hours, SSO, upgraded support"
+      ],
+      "slot_prices": [
+        5.0
       ]
     }
   ],

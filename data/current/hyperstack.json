@@ -22,6 +22,9 @@
         "The size of your virtual machine",
         "Any attached volumes",
         "Current Cloud-SSD storage rates"
+      ],
+      "slot_prices": [
+        9.6e-05
       ]
     },
     {
@@ -30,7 +33,8 @@
       "amount": 0.0,
       "currency": null,
       "period": "hour",
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Fine-Tuning",
@@ -38,7 +42,10 @@
       "amount": 0.063,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.063
+      ]
     }
   ],
   "models": [],

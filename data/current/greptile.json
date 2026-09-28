@@ -18,7 +18,8 @@
       "amount": 0.0,
       "currency": "USD",
       "period": "p1m",
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Pro",
@@ -26,7 +27,8 @@
       "amount": 30.0,
       "currency": "USD",
       "period": "p1m",
-      "features": []
+      "features": [],
+      "slot_prices": []
     }
   ],
   "models": [],

@@ -7,7 +7,7 @@
   "final_url": "https://airtable.com/pricing",
   "parser_version": 4,
   "content_hash": "ae18ddc1b3f08fa91045b152ef655848247541b12794a4e8132fa7aee8171ed3",
-  "raw_hash": "2d5c81235f38464d22621aac4154246f6e13d8e3eff64e80c6a1cd4fb842d27a",
+  "raw_hash": "71de07caeb35ac4510ce54a48611e52175566b821747994323dbd167fb482e1e",
   "text_bytes": 11676,
   "extractor": "dom",
   "confidence": "medium",
@@ -18,7 +18,8 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Free",
@@ -26,7 +27,8 @@
       "amount": 0.0,
       "currency": null,
       "period": "user",
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Team",
@@ -34,7 +36,10 @@
       "amount": 20.0,
       "currency": "USD",
       "period": "seat",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        20.0
+      ]
     },
     {
       "name": "Business",
@@ -42,7 +47,10 @@
       "amount": 45.0,
       "currency": "USD",
       "period": "seat",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        45.0
+      ]
     }
   ],
   "models": [],

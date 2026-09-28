@@ -7,7 +7,7 @@
   "final_url": "https://trigger.dev/pricing",
   "parser_version": 4,
   "content_hash": "4cdcb2bd27b6f65dff6fa7e65f78283a860e92eabe8be906ff95bb22a1201255",
-  "raw_hash": "c3fa867b480de5cacd51e3f470f6717d85972bbac68cd904863a8264aaa94465",
+  "raw_hash": "2d3393fe2c6c85ae8c8c8512d6821a0aa03c7a47b3594a9717ef9ff5172ec803",
   "text_bytes": 7297,
   "extractor": "jsonld",
   "confidence": "medium",
@@ -18,7 +18,8 @@
       "amount": 50.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Hobby",
@@ -26,7 +27,8 @@
       "amount": 10.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Free",
@@ -34,7 +36,8 @@
       "amount": 0.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     }
   ],
   "models": [

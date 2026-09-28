@@ -7,7 +7,7 @@
   "final_url": "https://www.honeycomb.io/pricing",
   "parser_version": 4,
   "content_hash": "499904e74b26142fb58f680f9e0d8235b9fd2f994c6bb7ecf164fe16792614c9",
-  "raw_hash": "e39c7d10540933cd6a63b38b76538d842435523a352402bb296ceaf1fef23220",
+  "raw_hash": "1f9b57b73b6092a3a9ae25279d7292d8bc3f494beabf5677a1b27217589bb8db",
   "text_bytes": 4333,
   "extractor": "dom",
   "confidence": "medium",
@@ -18,7 +18,8 @@
       "amount": 0.0,
       "currency": null,
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Pro",
@@ -26,7 +27,10 @@
       "amount": 150.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        150.0
+      ]
     },
     {
       "name": "Collect all your telemetry",
@@ -38,6 +42,9 @@
         "Starting at $0.10 / GB",
         "OpenTelemetry processing and fleet management",
         "Query access with Honeycomb"
+      ],
+      "slot_prices": [
+        0.1
       ]
     },
     {
@@ -50,6 +57,9 @@
         "Free: Up to 20M events and 100M time series data points",
         "Pro: Starting at $150 / 50M events (up to 750M) and 250M time series data points (up to 3.75B)",
         "Enterprise: Volume discounts available"
+      ],
+      "slot_prices": [
+        150.0
       ]
     },
     {
@@ -58,7 +68,8 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     }
   ],
   "models": [],

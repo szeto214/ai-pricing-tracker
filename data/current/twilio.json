@@ -18,7 +18,10 @@
       "amount": 0.0002,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.0002
+      ]
     },
     {
       "name": "Communications",
@@ -26,7 +29,10 @@
       "amount": 0.0083,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.0083
+      ]
     },
     {
       "name": "Authentication",
@@ -34,7 +40,10 @@
       "amount": 0.05,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.05
+      ]
     },
     {
       "name": "Customer Data",
@@ -42,7 +51,10 @@
       "amount": 120.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        120.0
+      ]
     },
     {
       "name": "Builder tools",
@@ -50,7 +62,10 @@
       "amount": 0.0025,
       "currency": "USD",
       "period": "request",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.0025
+      ]
     }
   ],
   "models": [],

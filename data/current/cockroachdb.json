@@ -7,7 +7,7 @@
   "final_url": "https://www.cockroachlabs.com/pricing/",
   "parser_version": 4,
   "content_hash": "c7e7dff48e15a9044485778eaac8c46a02152a42db59349f4747f7f8ef17aa19",
-  "raw_hash": "01176864c7796d65a70848b30b778d7bc78d6c9e998cd37ee7b6a9555f6e8d72",
+  "raw_hash": "1eff3c9188ff9b17fda7c81f1f25f64a84e6958044095d4e9b70e4714fb066f7",
   "text_bytes": 9058,
   "extractor": "dom",
   "confidence": "medium",
@@ -18,7 +18,10 @@
       "amount": 400.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        400.0
+      ]
     },
     {
       "name": "Standard",
@@ -26,7 +29,10 @@
       "amount": 400.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        400.0
+      ]
     },
     {
       "name": "per vCPU-hour*",
@@ -34,7 +40,10 @@
       "amount": 203.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        203.0
+      ]
     },
     {
       "name": "Mission Critical",
@@ -42,7 +51,10 @@
       "amount": 400.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        400.0
+      ]
     },
     {
       "name": "per vCPU-hour*",
@@ -50,7 +62,10 @@
       "amount": 1528.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        1528.0
+      ]
     },
     {
       "name": "Data Synchronization (CDC)",
@@ -58,7 +73,10 @@
       "amount": 0.023,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.023
+      ]
     },
     {
       "name": "Data Replication (PCR)",
@@ -66,7 +84,10 @@
       "amount": 0.023,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.023
+      ]
     },
     {
       "name": "Cluster Virtualization",
@@ -74,7 +95,10 @@
       "amount": 0.023,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.023
+      ]
     },
     {
       "name": "Estimate your cost",
@@ -82,7 +106,10 @@
       "amount": 0.023,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.023
+      ]
     },
     {
       "name": "Standard",
@@ -90,7 +117,10 @@
       "amount": 0.057,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.057
+      ]
     },
     {
       "name": "Mission Critical",
@@ -98,7 +128,10 @@
       "amount": 0.162,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.162
+      ]
     },
     {
       "name": "Change data capture",
@@ -106,7 +139,10 @@
       "amount": 0.006,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.006
+      ]
     },
     {
       "name": "Physical cluster replication",
@@ -114,7 +150,10 @@
       "amount": 0.023,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.023
+      ]
     }
   ],
   "models": [],

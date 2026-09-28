@@ -7,7 +7,7 @@
   "final_url": "https://neon.com/pricing",
   "parser_version": 4,
   "content_hash": "83636c8bd4335b460926d54451007b93d2f1829b0026f3886dadca9db9dce3ab",
-  "raw_hash": "4f9fc271dffe770189d4c287c1d85b5442fdc3a5571045b2f90d90aad6e573cd",
+  "raw_hash": "33e838e86ea407cabaf5f26a2c1fc41de42c9327c39846d9d6a40a59a479c38e",
   "text_bytes": 17876,
   "extractor": "dom",
   "confidence": "medium",
@@ -18,7 +18,10 @@
       "amount": 0.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.0
+      ]
     },
     {
       "name": "Launch",
@@ -36,6 +39,9 @@
         "Object Storage",
         "Functions",
         "AI Gateway"
+      ],
+      "slot_prices": [
+        15.0
       ]
     },
     {
@@ -54,6 +60,9 @@
         "Object Storage",
         "Functions",
         "AI Gateway"
+      ],
+      "slot_prices": [
+        701.0
       ]
     },
     {
@@ -62,7 +71,10 @@
       "amount": 100000.0,
       "currency": "USD",
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": [
+        100.0
+      ]
     },
     {
       "name": "Free",
@@ -70,7 +82,10 @@
       "amount": 0.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.0
+      ]
     },
     {
       "name": "Launch",
@@ -97,6 +112,9 @@
         "3 days",
         "Unlimited",
         "Billing Support"
+      ],
+      "slot_prices": [
+        0.002
       ]
     },
     {
@@ -128,6 +146,9 @@
         "Available",
         "Unlimited",
         "Multiple options"
+      ],
+      "slot_prices": [
+        0.002
       ]
     }
   ],

@@ -7,7 +7,7 @@
   "final_url": "https://auth0.com/pricing",
   "parser_version": 4,
   "content_hash": "939910a40e0f727e83e112bd4380c07305f28753190d3f9de626b5112be97a8a",
-  "raw_hash": "f9caaac2063dd02d06ad17fd03f321991304c951e44b01a8e1c41d6c4dc2385e",
+  "raw_hash": "105bc0f585413bc86669036b0ff3286be39cac24ac57ce96580dc2279ea05fc2",
   "text_bytes": 13118,
   "extractor": "dom",
   "confidence": "medium",
@@ -30,6 +30,9 @@
         "1 Enterprise Connection New",
         "Self-Service SSO New",
         "SCIM New"
+      ],
+      "slot_prices": [
+        0.0
       ]
     },
     {
@@ -38,7 +41,8 @@
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": []
+      "features": [],
+      "slot_prices": []
     }
   ],
   "models": [],

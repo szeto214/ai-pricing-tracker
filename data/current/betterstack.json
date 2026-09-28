@@ -7,7 +7,7 @@
   "final_url": "https://betterstack.com/pricing",
   "parser_version": 4,
   "content_hash": "583afda4c60521be8716f100bc34b6755c75151f3fbcb47ed65ea031f68ff9b4",
-  "raw_hash": "7e3dc0d1b26442610be8e203f11cdc8c0e2820b48cd658cdf1727412e09b40f0",
+  "raw_hash": "8e4151938a5001e504cad8eb98b373c5b59602f4523e7276ebba716db2a553cd",
   "text_bytes": 17091,
   "extractor": "dom",
   "confidence": "medium",
@@ -27,6 +27,9 @@
         "3 GB traces retained for 3 days",
         "30 GB metrics",
         "3 GB web events retained for 3 days"
+      ],
+      "slot_prices": [
+        0.0
       ]
     },
     {
@@ -35,7 +38,10 @@
       "amount": 0.0,
       "currency": "USD",
       "period": "user",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.0
+      ]
     },
     {
       "name": "Responder",
@@ -43,7 +49,11 @@
       "amount": 34.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        34.0,
+        29.0
+      ]
     },
     {
       "name": "Channel-based & Thread-based workflows",
@@ -51,7 +61,10 @@
       "amount": 9.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        9.0
+      ]
     },
     {
       "name": "Additional public status page",
@@ -59,7 +72,10 @@
       "amount": 15.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        15.0
+      ]
     },
     {
       "name": "Additional 1,000 subscribers",
@@ -67,7 +83,10 @@
       "amount": 40.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        40.0
+      ]
     },
     {
       "name": "Per phone number",
@@ -75,7 +94,10 @@
       "amount": 250.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        250.0
+      ]
     },
     {
       "name": "Nano",
@@ -83,7 +105,10 @@
       "amount": 25.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        25.0
+      ]
     },
     {
       "name": "Micro",
@@ -91,7 +116,10 @@
       "amount": 100.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        100.0
+      ]
     },
     {
       "name": "Mega",
@@ -99,7 +127,10 @@
       "amount": 210.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        210.0
+      ]
     },
     {
       "name": "Tera",
@@ -107,7 +138,10 @@
       "amount": 420.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        420.0
+      ]
     },
     {
       "name": "Nano",
@@ -115,7 +149,10 @@
       "amount": 38.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        38.0
+      ]
     },
     {
       "name": "Micro",
@@ -123,7 +160,10 @@
       "amount": 150.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        150.0
+      ]
     },
     {
       "name": "Mega",
@@ -131,7 +171,10 @@
       "amount": 315.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        315.0
+      ]
     },
     {
       "name": "Tera",
@@ -139,7 +182,10 @@
       "amount": 630.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        630.0
+      ]
     },
     {
       "name": "Nano",
@@ -147,7 +193,10 @@
       "amount": 88.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        88.0
+      ]
     },
     {
       "name": "Micro",
@@ -155,7 +204,10 @@
       "amount": 350.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        350.0
+      ]
     },
     {
       "name": "Mega",
@@ -163,7 +215,10 @@
       "amount": 735.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        735.0
+      ]
     },
     {
       "name": "Tera",
@@ -171,7 +226,10 @@
       "amount": 1470.0,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        1470.0
+      ]
     },
     {
       "name": "Included",
@@ -179,7 +237,10 @@
       "amount": 0.15,
       "currency": "USD",
       "period": "month",
-      "features": []
+      "features": [],
+      "slot_prices": [
+        0.15
+      ]
     }
   ],
   "models": [],

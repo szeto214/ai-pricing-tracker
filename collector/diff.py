@@ -84,6 +84,24 @@ def _structured_key(record: dict) -> tuple:
     return plans, models
 
 
+def _slot_bertukar(o: dict, n: dict) -> bool:
+    """Angka lama masih terlihat hari ini, atau angka baru sudah terlihat kemarin.
+
+    Rekaman lama tidak punya `slot_prices` sama sekali; tanpa kedua sisi
+    membawa daftarnya, jawabannya SELALU False — jadi perilaku pada arsip
+    lama tidak berubah sedikit pun, dan tidak ada hari lama yang
+    diklasifikasi ulang.
+    """
+    slot_lama = o.get("slot_prices") or []
+    slot_baru = n.get("slot_prices") or []
+    if len(slot_lama) < 2 and len(slot_baru) < 2:
+        return False
+    a, b = o.get("amount"), n.get("amount")
+    if a is None or b is None:
+        return False
+    return (b in slot_lama) or (a in slot_baru)
+
+
 def diff_plans(old_plans: list[dict], new_plans: list[dict]) -> list[dict]:
     old, new = _plan_index(old_plans), _plan_index(new_plans)
     events: list[dict] = []
@@ -121,7 +139,28 @@ def diff_plans(old_plans: list[dict], new_plans: list[dict]) -> list[dict]:
         # celah pembacaan, bukan peristiwa harga. Perpindahan mata uang yang
         # sungguhan (USD -> EUR) tetap dicatat, terpisah, dan tidak dihitung
         # sebagai perubahan harga.
-        if o.get("amount") != n.get("amount"):
+        if o.get("amount") != n.get("amount") and _slot_bertukar(o, n):
+            # Angkanya beda, tapi angka hari ini SUDAH berdiri di slot harga
+            # kemarin (atau angka kemarin MASIH berdiri di slot hari ini).
+            # Artinya vendor tidak memindahkan harga; ia menambah atau
+            # melepas angka pembanding — harga coret, atau dasar tagihan
+            # kedua. SonarSource melakukannya tiga kali dalam empat hari
+            # (24/09 pasang, 26/09 lepas, 27/09 pasang lagi) dan melahirkan
+            # enam peristiwa palsu berturut-turut.
+            #
+            # Dicatat sebagai perubahan TAMPILAN harga, bukan perubahan
+            # harga, jadi tidak pernah masuk hitungan gerbang maupun halaman
+            # publik. Lebih baik kehilangan satu sinyal daripada mengarang
+            # satu (§11.7).
+            events.append({
+                "type": "price_display_changed",
+                "plan": n.get("name"),
+                "from": {"raw": o.get("price_raw"), "amount": o.get("amount")},
+                "to": {"raw": n.get("price_raw"), "amount": n.get("amount")},
+                "slot_before": o.get("slot_prices") or [],
+                "slot_after": n.get("slot_prices") or [],
+            })
+        elif o.get("amount") != n.get("amount"):
             ev = {
                 "type": "price_changed",
                 "plan": n.get("name"),

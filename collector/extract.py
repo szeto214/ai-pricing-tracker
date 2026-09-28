@@ -184,6 +184,67 @@ class Plan:
     currency: str | None = None
     period: str | None = None
     features: list[str] = field(default_factory=list)
+    # Harga LAIN yang berdiri di slot harga yang sama (mis. harga coret di
+    # atas harga berlaku). Bukan untuk ditampilkan — hanya bahan bagi
+    # pembanding supaya tidak menyebut "harga berubah" ketika yang berpindah
+    # hanyalah angka mana yang kebetulan berdiri paling depan. Lihat
+    # diff.diff_plans dan §30 SERAH-TERIMA.
+    slot_prices: list[float] = field(default_factory=list)
+
+
+SLOT_JANGKAUAN = 40
+
+
+def harga_satu_slot(text: str) -> list[float]:
+    """Semua angka harga yang berdempetan dengan harga pertama kartu.
+
+    SonarSource 24/09-27/09/2026 memasang harga coret DI ATAS harga berlaku:
+    "Starts at | $68 | $34 | monthly". Pembaca mengambil angka pertama, jadi
+    setiap kali vendor memasang atau melepas harga coret itu tercatat sebagai
+    perubahan harga — 6 peristiwa palsu dalam 4 hari, padahal harga
+    sesungguhnya tidak pernah bergerak.
+
+    Yang dikumpulkan di sini hanya angka yang jaraknya <= SLOT_JANGKAUAN
+    karakter dari harga pertama, jadi harga fitur yang jauh di bawah kartu
+    ("$0.10 per extra seat") tidak ikut. Angkanya TIDAK dipakai untuk
+    menggantikan harga yang ditampilkan — menebak angka mana yang benar
+    terbukti berbahaya (diukur pada 791 arsip: 220 kejadian, sebagian besar
+    sel tabel dan pasangan bulanan/tahunan, lihat §27). Ini hanya penanda
+    bahwa slotnya memuat lebih dari satu angka.
+    """
+    teks = text or ""
+    m = PRICE_RE.search(teks)
+    if not m:
+        return []
+    out: list[float] = []
+    ujung = m.start()
+    for lain in PRICE_RE.finditer(teks):
+        if lain.start() > ujung:
+            # Dua harga dianggap berdiri di SATU slot hanya kalau di antara
+            # keduanya tidak ada satu pun huruf atau angka lain — hanya spasi
+            # dan tanda baca. Ini yang memisahkan harga coret dari dua METRIK
+            # berbeda yang kebetulan berdekatan.
+            #
+            # Diukur 28/09/2026: versi pertama aturan ini memakai jarak 40
+            # karakter dan ikut menelan 13 pergerakan GPU Vast.ai yang NYATA,
+            # karena barisnya berbunyi "from $0.40 /hr median $0.67/hr" —
+            # "from" dan "median" adalah dua ukuran berbeda, bukan harga coret.
+            # Dengan syarat "tanpa huruf di antaranya", baris Vast.ai tidak
+            # tersentuh sama sekali dan SonarSource tetap tertangkap
+            # ("Starts at | $68 | $34 | monthly").
+            antara = teks[ujung:lain.start()]
+            if any(c.isalnum() for c in antara):
+                break
+            if lain.start() - ujung > SLOT_JANGKAUAN:
+                break
+        try:
+            nilai = float(lain.group("amt").replace(",", ""))
+        except (TypeError, ValueError):
+            continue
+        if nilai not in out:
+            out.append(nilai)
+        ujung = lain.end()
+    return out[:6]
 
 
 def parse_price(text: str) -> tuple[float | None, str | None, str]:
@@ -490,6 +551,7 @@ def extract_dom(soup: BeautifulSoup) -> list[Plan]:
             currency=currency,
             period=parse_period(card_text),
             features=_features(card),
+            slot_prices=harga_satu_slot(card_text),
         ))
         terpakai += 1
         if terpakai >= 20:

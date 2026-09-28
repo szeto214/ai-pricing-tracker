@@ -1957,6 +1957,74 @@ def test_kartu_grid_div_26_09() -> None:
           len(sisa) == 0, f"-> {[p.name for p in sisa]}")
 
 
+def test_harga_coret_28_09() -> None:
+    """Angka pembanding di slot harga bukan perubahan harga (28/09/2026).
+
+    SonarSource memasang harga coret DI ATAS harga berlaku, lalu melepasnya,
+    lalu memasangnya lagi:
+
+      24/09  "$34"  -> "$68 $34"   tercatat +100% dan +50%
+      26/09  "$68 $34" -> "$34"    tercatat -50% dan -33%
+      27/09  "$34"  -> "$68 $34"   tercatat +100% dan +50%
+
+    Enam peristiwa palsu dalam empat hari dari satu sebab, dan harga
+    sesungguhnya tidak pernah bergerak: tetap $34 dan $20 sejak 19/09.
+    Menebak angka mana yang benar sudah diukur dan DITOLAK (§27: 220 kejadian
+    di 12 situs, sebagian besar sel tabel dan pasangan bulanan/tahunan).
+
+    Yang dilakukan di sini lebih kecil dan lebih aman: rekaman menyimpan
+    angka lain yang berdiri di SLOT yang sama, dan pembanding menolak
+    menyebut "harga berubah" kalau angka hari ini sudah berdiri di slot
+    kemarin, atau angka kemarin masih berdiri di slot hari ini. Angka yang
+    ditampilkan tidak diubah sedikit pun.
+
+    Syarat "satu slot" sengaja ketat: di antara dua angka tidak boleh ada
+    huruf. Tanpa syarat itu, baris Vast.ai "from $0.40 /hr median $0.67/hr"
+    ikut tertelan dan 13 pergerakan GPU yang NYATA hilang (terukur 28/09).
+    """
+    print("\n21. harga coret di slot yang sama")
+    from collector.diff import diff_plans
+    from collector.extract import harga_satu_slot
+
+    check("harga coret masuk satu slot",
+          harga_satu_slot("Starts at $68 $34 monthly") == [68.0, 34.0],
+          f"-> {harga_satu_slot('Starts at $68 $34 monthly')}")
+    # Dua METRIK berbeda dipisahkan kata -> bukan satu slot.
+    vast = harga_satu_slot("from $0.40 /hr median $0.67/hr")
+    check("dua metrik yang dipisah kata TIDAK jadi satu slot",
+          vast == [0.40], f"-> {vast}")
+
+    kemarin = [{"name": "SonarQube", "price_raw": "$34", "amount": 34.0,
+                "slot_prices": [34.0]}]
+    hari_ini = [{"name": "SonarQube", "price_raw": "$68", "amount": 68.0,
+                 "slot_prices": [68.0, 34.0]}]
+    jenis = [e["type"] for e in diff_plans(kemarin, hari_ini)]
+    check("harga coret dipasang -> BUKAN perubahan harga",
+          "price_changed" not in jenis and "price_display_changed" in jenis,
+          f"-> {jenis}")
+    jenis = [e["type"] for e in diff_plans(hari_ini, kemarin)]
+    check("harga coret dilepas -> BUKAN perubahan harga",
+          "price_changed" not in jenis and "price_display_changed" in jenis,
+          f"-> {jenis}")
+
+    # Pergerakan sungguhan tetap tercatat, termasuk kalau slotnya memang
+    # berisi satu angka saja (bentuk paling umum).
+    naik = diff_plans(
+        [{"name": "Pro", "price_raw": "$20", "amount": 20.0, "slot_prices": [20.0]}],
+        [{"name": "Pro", "price_raw": "$25", "amount": 25.0, "slot_prices": [25.0]}])
+    check("kenaikan harga sungguhan TETAP tercatat",
+          [e["type"] for e in naik] == ["price_changed"], f"-> {naik}")
+
+    # Rekaman lama tidak punya slot_prices sama sekali: perilakunya harus
+    # persis seperti sebelum perubahan ini — tidak ada hari lama yang
+    # diklasifikasi ulang.
+    lama = diff_plans(
+        [{"name": "Pro", "price_raw": "$34", "amount": 34.0}],
+        [{"name": "Pro", "price_raw": "$68", "amount": 68.0}])
+    check("rekaman tanpa slot_prices tidak berubah perilakunya",
+          [e["type"] for e in lama] == ["price_changed"], f"-> {lama}")
+
+
 def main() -> int:
     print(f"data uji: {config.DATA_DIR}")
     test_hash_stability()
@@ -1990,6 +2058,7 @@ def main() -> int:
     test_gerbang_tiga_lapis()
     test_kartu_berisi_tabel_18_09()
     test_kartu_grid_div_26_09()
+    test_harga_coret_28_09()
     test_skrip_cadangan()
 
     print("\n" + "=" * 60)

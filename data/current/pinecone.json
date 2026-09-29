@@ -6,9 +6,9 @@
   "url": "https://www.pinecone.io/pricing/",
   "final_url": "https://www.pinecone.io/pricing/",
   "parser_version": 4,
-  "content_hash": "92f563af0c4a81fe516877182ea8d5543440dae34e7f34811cab366ed84127e4",
-  "raw_hash": "1c8f378b831ce291517bcd96f4d2951e6b78c3e6cdb6759d920787aaaa2c1c4e",
-  "text_bytes": 8891,
+  "content_hash": "e32a00298157528376e1c7dcbdd138fdb1cd649c6d94b1ea1a04e5d31da82c7d",
+  "raw_hash": "a9a63cbd721cdc0379c072a4b7ae4af0a7d231b19279d3b1ad9898c681bb4fcc",
+  "text_bytes": 8893,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -268,7 +268,7 @@
           "100",
           "1,000",
           "100,000",
-          "100,000"
+          "1,000,000"
         ],
         [
           "Embedding Models",

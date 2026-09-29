@@ -99,99 +99,6 @@ Billing unit:
 Search API charges for each successful
 POST /search
 request, not for each query in the request. A successful request containing an array of up to five queries is one billing unit. Invalid requests, rate-limited requests, and upstream failures are not billed. A successful response is billed even when it returns no results. There are no additional token-based charges.
-Sonar API Pricing
-Total cost per query
-= Token costs + Request fee (varies by search context size, applies to Sonar, Sonar Pro, and Sonar Reasoning Pro models only)
-Token Pricing
-Request Pricing
-Pro Search Pricing
-Token Pricing
-Token pricing
-is based on the number of tokens in your request and response.
-Model
-Input Tokens ($/1M)
-Output Tokens ($/1M)
-Citation Tokens ($/1M)
-Search Queries ($/1K)
-Reasoning Tokens ($/1M)
-Sonar
-$1
-$1
--
--
--
-Sonar Pro
-$3
-$15
--
--
--
-Sonar Reasoning Pro
-$2
-$8
--
--
--
-Sonar Deep Research
-$2
-$8
-$2
-$5
-$3
-Request Pricing by Search Context Size
-Search context
-determines how much web information is retrieved. Higher context = more comprehensive results. The following table shows the request fee for each model for every
-1000 requests
-.
-Model
-Low Context Size
-Medium Context Size
-High Context Size
-Sonar
-$5
-$8
-$12
-Sonar Pro
-$6
-$10
-$14
-Sonar Reasoning Pro
-$6
-$10
-$14
-Low
-: (default) fastest, cheapest
-Medium
-: Balanced cost/quality
-High
-: Maximum search depth, best for research
-Learn more about search context →
-Pro Search Pricing (Pro Search for Sonar Pro)
-Pro Search
-enhances Sonar Pro with automated tool usage and multi-step reasoning. When enabled, the model can perform multiple web searches and fetch URL content to answer complex queries.
-Learn more about Pro Search here
-.
-Pro Search requires
-stream: true
-and is enabled via the
-search_type
-parameter in
-web_search_options
-.
-Search Type Options
-Search Type
-Description
-Request Fee (per 1K)
-fast
-(default) Standard Sonar Pro behavior
-$6 / $10 / $14
-pro
-Multi-step tool usage for complex queries
-$14 / $18 / $22
-auto
-Automatic classification based on query complexity
-Varies by classification
-Request fees vary by search context size (Low / Medium / High). Token pricing remains the same as standard Sonar Pro ($3 per 1M input, $15 per 1M output).
 Embeddings API Pricing
 Generate high-quality text embeddings for semantic search, retrieval-augmented generation (RAG), and other machine learning applications.
 Standard Embeddings
@@ -231,12 +138,6 @@ Any explanations or additional context
 Search results and references
 Example:
 “The weather in New York is currently sunny with a temperature of 72°F.” = ~15 output tokens
-Citation Tokens
-Tokens used specifically for generating search results and references in responses. Only applies to
-Sonar Deep Research
-model.
-Example:
-Including source links, reference numbers, and bibliographic information
 Search Context Size vs Context Window
 Search context size
 is
@@ -245,27 +146,9 @@ the same as the
 context window
 .
 Search context size
-: How much web information is retrieved during search (affects request pricing)
+: How much web information is retrieved during search
 Context window
 : Maximum tokens the model can process in one request (affects token limits)
-Search Queries
-The number of individual searches conducted by
-Sonar Deep Research
-during query processing. This is separate from your initial user query.
-The model automatically determines how many searches are needed
-You cannot control the exact number of search queries
-The
-reasoning_effort
-parameter influences the number of searches performed
-Only applies to
-Sonar Deep Research
-model
-Reasoning Tokens
-Tokens used for step-by-step logical reasoning and problem-solving. Only applies to
-Sonar Deep Research
-model.
-Example:
-Breaking down a complex math problem into sequential steps with explanations
 Token Calculation:
 1 token ≈ 4 characters in English text. The exact count may vary based on language and content complexity.
 Cost Examples

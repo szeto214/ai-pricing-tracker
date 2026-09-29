@@ -15,11 +15,9 @@ Access to 125+
 Terminal
 In-person payments
 Authorization Boost
-Acceptance optimizations
+Acceptance optimisations
 Link
 Accelerated checkout
-Financial Connections
-Linked financial account data
 Revenue
 Billing
 Recurring revenue
@@ -38,32 +36,20 @@ Custom reports
 Data Pipeline
 Data sync
 Money management
-Treasury
-Business finances
 Global Payouts
 Payouts to third parties
-Capital
-Business financing
 Crypto
-Wallet, stablecoin issuing, and card infrastructure
-Crypto Onramp
-Embeddable crypto purchases
+Wallet, stablecoin issuing and card infrastructure
 Platforms and marketplaces
 Connect
 Payments for platforms
-Capital for platforms
-Customer financing
-Treasury for platforms
-Embedded financial services
-Issuing
-Physical and virtual cards
 More
 Product roadmap
-See what’s ahead
+See what's ahead
 Radar
 Fraud prevention
 Atlas
-Startup incorporation
+Start-up incorporation
 Climate
 Carbon removal
 Identity
@@ -77,7 +63,7 @@ Startups
 By use case
 Agentic commerce
 Crypto
-Ecommerce
+E-commerce
 Embedded finance
 Finance automation
 Global businesses
@@ -91,10 +77,10 @@ AI companies
 Creator economy
 Fintech
 Gaming
-Hospitality, travel, and leisure
+Hospitality, travel and leisure
 Insurance
 Media and entertainment
-Nonprofits
+Non-profits
 Professional services
 Retail
 Ecosystem
@@ -154,11 +140,9 @@ Access to 125+
 Terminal
 In-person payments
 Authorization Boost
-Acceptance optimizations
+Acceptance optimisations
 Link
 Accelerated checkout
-Financial Connections
-Linked financial account data
 Revenue
 Billing
 Recurring revenue
@@ -177,33 +161,21 @@ Custom reports
 Data Pipeline
 Data sync
 Money management
-Treasury
-Business finances
 Global Payouts
 Payouts to third parties
-Capital
-Business financing
 Crypto
-Wallet, stablecoin issuing, and card infrastructure
-Crypto Onramp
-Embeddable crypto purchases
+Wallet, stablecoin issuing and card infrastructure
 Platforms and marketplaces
 Connect
 Payments for platforms
-Capital for platforms
-Customer financing
-Treasury for platforms
-Embedded financial services
-Issuing
-Physical and virtual cards
 See all products
 More
 Product roadmap
-See what’s ahead
+See what's ahead
 Radar
 Fraud prevention
 Atlas
-Startup incorporation
+Start-up incorporation
 Climate
 Carbon removal
 Identity
@@ -217,7 +189,7 @@ Startups
 By use case
 Agentic commerce
 Crypto
-Ecommerce
+E-commerce
 Embedded finance
 Finance automation
 Global businesses
@@ -231,10 +203,10 @@ AI companies
 Creator economy
 Fintech
 Gaming
-Hospitality, travel, and leisure
+Hospitality, travel and leisure
 Insurance
 Media and entertainment
-Nonprofits
+Non-profits
 Professional services
 Public sector
 Retail
@@ -281,10 +253,10 @@ Pricing built for businesses of all sizes
 Standard
 Access a complete payments platform with simple, pay-as-you-go pricing. No setup fees, monthly fees, or hidden fees.
 Get started
-2.9% + 30¢
+2.9% + CA$0.30
 per successful transaction for domestic cards
 Custom
-Design a custom package— available for businesses with large payments volume or unique business models.
+Design a custom package – available for businesses with large payments volume or unique business models.
 Contact sales
 IC+ pricing
 Volume discounts
@@ -293,8 +265,8 @@ Country-specific rates
 Features available out of the box:
 Global access
 Built-in fraud prevention
-Tools to optimize your checkout
-Payments optimizations to boost revenue
+Tools to optimise your checkout
+Payments optimisations to boost revenue
 Embedded payments for platforms & marketplaces
 Fast, predictable payouts to your bank accounts
 Phone, chat, and email support
@@ -304,56 +276,57 @@ Explore pricing for the full Stripe platform
 Online and in-person payments, recurring billing, embedded payments, and much more.
 Custom pricing
 Global payments
-Optimize checkout conversion, accept local payment methods, and increase acceptance rates.
+Optimise checkout conversion, accept local payment methods, and increase acceptance rates.
 Payments
 An online payments platform engineered for growth.
 Start now
 Increase customer acquisition with 100+ payment methods.
-Improve conversion with Link, Stripe’s accelerated checkout.
+Improve conversion with Link, Stripe's accelerated checkout.
 Get AI-powered fraud protection for card payments with Radar Lite.
 Save engineering time with pre-built UIs.
 Cards and wallets
 Accept widely used credit and debit cards, prepaid cards, and digital wallets for online payments.
-2.9% + 30¢
+2.9% + CA$0.30
 per successful transaction for domestic cards
 +
 0.5%
 for
 manually entered cards
 +
-1.5%
-for international cards
+0.8%
+for international cards*
 +
-1%
+2%
 if
 currency conversion
 is required
 Buy Now Pay Later
-Let your customers buy something and pay for it in installments over time.
-5.99% + 30¢
+Let your customers buy something and pay for it in instalments over time.
+Starting at
+5.99% + CA$0.30
 per successful transaction for Klarna
 See more payment methods
 Bank-based and other payment methods
 Offer bank debits, bank transfers, and other locally relevant payment methods.
-0.8%
-ACH Direct Debit
-$5.00 cap
+1% + CA$0.40
+Pre-authorised debits
+CA$5.00 cap
++
+CA$1.00
+per instant verification.
++
+CA$5.00
+for failures and disputes.
 See more payment methods
-Stablecoins
-Enable customers globally to pay with stablecoins.
-1.5%
-of the transaction amount in USD
-Included: conversion to fiat, wallet and AML screening, fraud prevention, gas sponsorship
-Learn more
 Disputes
 Respond to card payment disputes, also known as chargebacks.
 Learn more
 Dispute received fee
-$15.00
+CA$15.00
 for each dispute you receive.
 In rare cases, network fees also apply.
 Dispute countered fee
-$15.00
+CA$15.00
 for each dispute you respond to manually.
 You get this fee back for won disputes. You don't get this fee back for lost disputes.
 Learn more
@@ -368,37 +341,35 @@ Dispute prevention
 Help reduce dispute rates with dispute prevention tools powered by Verifi from Visa and Ethoca from Mastercard.
 Included
 Dispute deflection lookups
-$15.00
+CA$15.00
 per
 Visa resolution
-$15.00
+CA$15.00
 per
 Visa Compelling Evidence 3.0 block
-$29.00
+CA$29.00
 per
 Mastercard resolution
-Payment optimizations
+Payment optimisations
 Included with Payments
 Included at no additional charge for businesses on standard payments pricing
 3D Secure authentication
 Verify a customer's identity using 3D Secure, an authentication method, before an online card purchase.
-Custom pricing available for standalone 3DS.
-Contact sales to learn more.
 Included
 with Payments
 Included at no additional charge for businesses on standard payments pricing
-$0.03
+CA$0.04
 per 3D Secure attempt for accounts with custom pricing.
 Learn more
 Standalone 3DS
-$0.12
+CA$0.15
 per
 standalone 3DS attempt
 Use the standalone 3DS API to run EMV 3D Secure (3DS) authentication and authorize the payment with any payment service provider (PSP).
-Authorization Boost
-Increase acceptance rates and reduce card processing costs with AI-powered payment optimizations, inclusive of Adaptive Acceptance, card account updater and network tokens.
+Authorisation Boost
+Increase acceptance rates and reduce card processing costs with AI-powered payment optimisations, inclusive of Adaptive Acceptance, card account updater and network tokens.
 Individual pricing
-available for Adaptive Acceptance, card account updater, and network tokens.
+available for Adaptive Acceptance, card account updater and network tokens.
 Included
 with Payments
 Included at no additional charge for businesses on standard payments pricing
@@ -418,12 +389,9 @@ Instant payouts
 Access funds within minutes through an eligible debit card or bank account. Alternatively, pay out your funds on our
 standard schedule
 for free.
-1.5%
+1%
 of Instant Payouts volume
-Minimum fee of 50¢
-(
-Pricing differs for Connect users
-)
+Minimum fee of CA$0.60
 Learn more
 Instant currency conversion
 Convert currencies instantly from your multi-currency settlement funds within your payments balance.
@@ -432,7 +400,7 @@ Starting at
 of the converted amount
 Learn more
 Vault and Forward API
-Route payment requests to other processors while tokenizing and storing card details in Stripe's PCI-compliant vault.
+Route payment requests to other processors while tokenising and storing card details in Stripe's PCI-compliant vault.
 Contact sales
 Contact your Stripe representative or
 Stripe support
@@ -440,7 +408,7 @@ Stripe support
 Learn more
 Foreign Exchange Quotes API
 Set and manage prices in multiple currencies with rate locking for up to 24 hours.
-1%
+2%
 per successful transaction
 Rate locking starting at
 +
@@ -448,57 +416,9 @@ Rate locking starting at
 Learn more
 Shared Payment Tokens
 Use a secure payment primitive that helps agents facilitate purchases on behalf of customers.
-$0.15
+CA$0.20
 per SPT issued
 Learn more
-Link
-Increase global conversion and reduce costs with built-in payment methods and faster checkout.
-Start now
-Reach over 300M consumers worldwide.
-Enable your customers to check out in seconds with the optimized Link experience, 3x faster than non-Link customers.
-Increase conversion, businesses with a large repeat customer base have seen an average returning user conversion increase of 14%.
-Cards
-Accept widely used credit and debit cards.
-2.9% + 30¢
-per successful transaction
-+
-1.5%
-for international transactions
-+
-1%
-if currency conversion is required
-Stablecoins
-Reach more global customers, reduce costs, and minimize cross-border exchange fees by offering stablecoins.
-0.8%
-per successful transaction
-Promotional rate through January 1, 2027;
-+
-0.2%
-thereafter
-Pix and UPI
-Convert buyers globally by offering the payment methods they prefer in their market.
-1.8% + 30¢
-per successful transaction
-+
-1.5%
-for international transactions
-+
-1%
-if currency conversion is required
-Instant bank payments
-Reduce processing costs with frictionless bank payments with the confirmation speed of cards.
-2.6% + 30¢
-per successful transaction
-Klarna
-Offer flexible buy now, pay later options to reach new buyers.
-5.99% + 30¢
-per successful transaction
-+
-1.5%
-for international transactions
-+
-1%
-if currency conversion is required
 Payment Links
 No-code links to sell online without a website.
 Start now
@@ -512,22 +432,22 @@ with Payments
 Included at no additional charge for businesses on standard payments pricing
 Custom domain
 Use your own domain while hosting your payments page or customer portal on Stripe.
-$10.00
+US$10.00
 per month
 Learn more
 Post-payment invoices
-Automatically generate an invoice after a one-time purchase.
+Automatically generate an invoice after a one-off purchase.
 0.4%
 on transaction total
-$2.00
+US$2.00
 cap per invoice
 Learn more
 Checkout
-Prebuilt payment form optimized for conversion.
+Pre-built payment form optimised for conversion.
 Start now
 Save engineering time and get started quickly.
 Reduce friction with features designed to improve conversion.
-Customize with your branding.
+Customise with your branding.
 Accept payments
 Accept payments made on Stripe Checkout.
 Included
@@ -535,18 +455,18 @@ with Payments
 Included at no additional charge for businesses on standard payments pricing
 Custom domain
 Use your own domain while hosting your payments page or customer portal on Stripe.
-$10.00
+US$10.00
 per month
 Learn more
 Post-payment invoices
-Automatically generate an invoice after a one-time purchase.
+Automatically generate an invoice after a one-off purchase.
 0.4%
 on transaction total
-$2.00
+US$2.00
 cap per invoice
 Learn more
 Managed Payments
-Stripe’s merchant of record solution that simplifies global selling.
+Stripe's merchant of record solution that simplifies global selling.
 Start now
 Quickly launch or expand your businesses worldwide with no additional setup.
 Offload tax compliance, fraud, disputes, and customer support responsibilities.
@@ -565,66 +485,43 @@ Unify online and in-person payments to create a cohesive customer experience.
 Scale globally with one integration.
 Cards and wallets
 Accept widely used credit cards, debit cards, and digital wallets for in-person payments.
-2.7% + 5¢
-per successful transaction for domestic cards
+2.7% + CA$0.05
+per successful charge for most cards
+CA$0.15
+per transaction for Interac debit cards
+3.5% + CA$0.05
+per successful charge for international cards
 +
-1.5%
-for international cards
-+
-$0.10
-per authorization for
+CA$0.15
+per authorisation for
 Tap to Pay
 Accept contactless payments without additional hardware using compatible iPhone or Android devices.
 +
-$0.05
-per authorization for optional
+CA$0.06
+per authorisation for optional
 point-to-point-encryption
 Access PCI-certified point-to-point-encryption (P2PE) required in certain industries. All Terminal transactions are end-to-end encrypted by default.
 Card readers
 Use pre-certified card readers with cloud-based fleet management that streamlines device logistics and management at scale.
-$59.00
-Stripe Reader M2
-$299.00
+CA$79.00
+BBPOS WisePad 3
+CA$419.00
 Stripe Reader S710
-$299.00
+CA$419.00
 Stripe Reader S700
-Cellular
+Mobile
 Unlimited cellular data usage on enabled readers. Apps on Device data usage limited to 10 GB per reader per month.
-$10.00
+CA$14.00
 per reader per month
 See pricing details
-Financial Connections
-Secure access to users’ financial accounts.
-Start now
-Maximize conversion with an embedded authentication flow.
-Instantly verify bank accounts from 5,000 financial institutions.
-Reduce development time with a single integration.
-Instant bank account verifications
-Retrieve tokenized account numbers to instantly verify bank accounts for ACH Direct Debit, payouts, and other types of money movement.
-$1.50
-per successful instant verification
-Micro-deposit verifications are free
-Balances
-Retrieve account balances for underwriting, financial management, or preventing payment failures due to insufficient funds.
-$0.10
-per successful API call
-Account owners
-Verify bank account ownership to minimize fraud when making payouts or accepting payments.
-$1.50
-per successful API call
-Transactions
-Subscribe to an automatically updated feed of account transactions.
-$0.30
-per institution per account holder per month
-See pricing details
 Money management
-Enhance your platform by embedding financial services—set-up financial accounts, issue cards, and offer financing.
+Enhance your platform by embedding financial services – set up financial accounts, issue cards, and offer financing.
 Connect
 Embedded payments for platforms and marketplaces.
 Start now
-Launch faster with Stripe-hosted or prebuilt embedded components.
+Launch faster with Stripe-hosted or pre-built embedded components.
 Save time by using tooling from Stripe for onboarding, risk, tax forms and more.
-Grow revenue by monetizing payments.
+Grow revenue by monetising payments.
 Stripe handles pricing for your users
 Stripe sets and collects processing fees from your users, so you don’t have to. Learn more about how to qualify for a
 revenue share
@@ -635,116 +532,6 @@ Included at no additional charge for businesses on standard payments pricing
 0.25%
 starting fee for platforms that deploy their own payments pricing to earn revenue on each transaction.
 See pricing details
-Treasury
-Manage business finances in one place
-Start now
-Open an account in minutes and access funds instantly
-Reduce FX costs with multicurrency accounts and stablecoin access
-Mitigate risk by insuring your funds
-Treasury
-Unify your finances with one business account.
-Included
-No storage fees or minimum balance required.
-Included
-funding through ACH
-$2.00
-per wire
-funding through wire
-Learn More
-Instant currency conversion
-Convert currencies instantly within your financial account.
-Starting at
-0.5%
-of the converted amount
-Learn more
-Global Payouts (Domestic)
-Send money domestically to a recipient with your choice of payment rail and speed.
-Local bank payout
-$1.50
-per payout
-Debit card payout
-$1.50
-per payout
-+
-0.75%
-of amount
-Minimum fee of 50¢
-See pricing details
-Global Payouts (International)
-Send money directly to recipients in 50+ countries with your choice of payment rail and speed.
-$1.50
-per payout
-cross-border fees starting at
-+
-0.25%
-FX fees starting at
-+
-0.5%
-See pricing details
-Cards
-Manage expenses with virtual and physical cards for your business.
-Included
-with Treasury
-No cross-border or FX fees
-Learn More
-Global Payouts
-Securely send money to third parties in minutes
-Start now
-Save time with no-code and hosted solutions.
-Provide Dashboard access to developers and support teams.
-Get reporting and analytics to track payouts success globally.
-Domestic payouts
-Send money domestically to a recipient with your choice of payment rail and speed.
-Local bank payout
-$1.50
-per payout
-Debit card payout
-$1.50
-per payout
-+
-0.75%
-of amount
-Minimum fee of 50¢
-International payouts
-Send money directly to recipients in 50+ countries with your choice of payment rail and speed.
-$1.50
-per payout
-cross-border fees starting at
-+
-0.25%
-Cross-border fees depend on recipient country.
-FX fees starting at
-+
-0.5%
-FX fees vary by merchant country.
-See pricing details
-Issuing
-Infrastructure to create and manage virtual and physical cards.
-Get in touch
-Instantly issue cards using Stripe’s bank partners and compliance team.
-Control expenses and help prevent fraud with spending limits and custom rules.
-Earn a share of interchange revenue.
-Card creation
-Create and issue cards instantly and get branded physical cards shipped in just two days.
-$0.10
-per virtual card
-$3.50
-per standard, physical card
-Custom cards subject to additional pricing. Shipping rates not included.
-Learn more
-Disputes
-Understand and effectively respond to disputes on card transactions (also known as chargebacks) through a guided process.
-$15.00
-per dispute*
-*Exclusions apply, subject to applicable Law. Connect users may not pass dispute fees to Connected Accounts.
-International payments
-Support international card payments for your business or your customers.
-1% + 30¢
-for cross-border transactions.
-+
-1%
-if currency conversion is required
-Contact sales
 Revenue and finance automation
 Streamline critical business processes with modular billing, tax, revenue reporting, and data analysis tools that work seamlessly together.
 Billing
@@ -757,7 +544,7 @@ Choose a plan
 Pay monthly
 Annual subscription. Paid monthly. Based on a volume tier that works for your business.
 Starting at
-$620.00
+CA$770.00
 per month, 1-year contract
 Subscription and cancellation
 terms apply
@@ -769,7 +556,7 @@ of Billing volume
 Includes Billing transactions processed on and off Stripe. Excludes one-off invoices.
 Compare plans
 Metronome
-Real-time metering, pricing, and analytics for usage-based billing.
+Real-time metering, pricing and analytics for usage-based billing.
 Sign up with Metronome
 Launch quickly with any usage-based or hybrid pricing models.
 Iterate on pricing without engineering overhead.
@@ -777,7 +564,7 @@ Gain real-time visibility into usage and revenue.
 Choose a plan
 Startup
 For teams launching usage-based products. Pay as your business grows.
-$0.04
+US$0.04
 per 1K ingest events
 0.8%
 of billing volume
@@ -787,15 +574,15 @@ For companies scaling revenue or transforming pricing. Tailored pricing for your
 Custom pricing
 Data export
 available only on custom plans:
-$0.03
+US$0.03
 per 1K standard data export
-$0.05
+US$0.05
 per 1K premium data export
 Contact Metronome
 Invoicing
 Global invoicing software.
 Start now
-Create, customize, and send an invoice in minutes—no code required.
+Create, customise, and send an invoice in minutes – no code required.
 Save time with automated accounts receivable and invoicing workflows.
 Configure invoices for any use case.
 Starter
@@ -807,14 +594,14 @@ Tax
 Grow faster with global, all-in-one tax compliance.
 Start now
 Get compliant quickly with no-code and low-code setups.
-Receive alerts when you reach a sales tax, VAT, or GST threshold and need to collect taxes.
+Receive alerts when you reach a VAT, sales tax, or GST threshold and need to collect taxes.
 Scale with confidence by automating tax calculations and collections in 100+ countries.
 Increase your finance team’s efficiency by easily registering and filing taxes in 90+ countries.
 Choose a plan
 Tax Complete
-All-in-one tax compliance —including automated threshold monitoring, registrations, calculations, and filings.
+All-in-one tax compliance – including automated threshold monitoring, registrations, calculations, and filings.
 Starting at
-$90.00
+CA$120.00
 per month, 1-year contract
 Subscription and cancellation
 terms apply
@@ -824,26 +611,26 @@ This plan includes only automated tax calculations for businesses that operate i
 No-code integration
 0.5%
 per transaction, where you’re registered to collect taxes
-Taxes calculated and collected on Billing, Checkout, Invoicing, and Payment Links integrations.
+Taxes calculated and collected on Billing, Checkout, Invoicing and Payment Links integrations.
 Learn more
 .
 API integration
-$0.50
+CA$0.50
 per transaction, where you’re registered to collect taxes
-Taxes on transactions created through Stripe’s payment APIs or any payment processor. Each transaction includes 10 calculation API calls. 5¢ per calculation API call above 10.
+Taxes on transactions created through Stripe's payment APIs or any payment processor. Each transaction includes 10 calculation API calls. C$0.05 per calculation API call above 10.
 Learn more
 .
 Compare plans
 Stripe Sigma
-An interactive SQL environment for analyzing your Stripe data and creating custom reports.
+An interactive SQL environment for analysing your Stripe data and creating custom reports.
 Start now
 Get faster, more comprehensive insights using SQL or AI-powered natural language prompts.
-Make confident, data-driven decisions with fully customizable reporting.
+Make confident, data-driven decisions with fully customisable reporting.
 Keep teams in sync and save time with scheduled reports.
 Monthly subscription
-Flexible monthly plan—cancel anytime.
+Flexible monthly plan – cancel anytime.
 Try for free for 30 days
-$15.00
+CA$21.00
 per month
 Subscription and cancellation
 terms apply
@@ -852,7 +639,7 @@ Annual subscription
 Save more with an annual plan, paid monthly.
 Try for free for 30 days
 Starting at
-$10.00
+CA$14.00
 per month, 1-year contract
 Subscription and cancellation
 terms apply
@@ -862,13 +649,13 @@ Data Pipeline
 Send Stripe data and reports directly to your data warehouse or cloud storage.
 Includes access to Stripe Sigma.
 Start now
-Set up your pipeline in minutes, and automate data delivery—no code required.
-Speed up your financial close, and access more complete business insights.
-Get insights faster and fully customizable reporting with Stripe Sigma.
+Set up your pipeline in minutes and automate data delivery – no code required.
+Speed up your financial close and access more complete business insights.
+Get insights faster and fully customisable reporting with Stripe Sigma.
 Monthly subscription
-Flexible monthly plan—cancel anytime.
+Flexible monthly plan – cancel anytime.
 Try for free for 30 days
-$65.00
+CA$90.00
 per month
 Subscription and cancellation
 terms apply
@@ -877,7 +664,7 @@ Annual subscription
 Save more with an annual plan, paid monthly.
 Try for free for 30 days
 Starting at
-$50.00
+CA$69.00
 per month, 1-year contract
 Subscription and cancellation
 terms apply
@@ -891,18 +678,18 @@ Easily review finances and audit in real time.
 Stay compliant with ASC 606 and IFRS 15.
 Choose a plan
 Monthly subscription
-Flexible monthly subscription–cancel anytime. Best for businesses with low or unpredictable payment volume.
+Flexible monthly subscription – cancel anytime. Best for businesses with low or unpredictable payment volume.
 Try for free for 30 days
-$25.00
+CA$35.00
 per month
 Subscription and cancellation
 terms apply
 .
 Annual subscription
-Annual subscription, paid monthly. Best for businesses with higher payment volume looking to maximize savings.
+Annual subscription, paid monthly. Best for businesses with higher payment volume looking to maximise savings.
 Try for free for 30 days
 Starting at
-$190.00
+CA$270.00
 per month, 1-year contract
 Subscription and cancellation
 terms apply
@@ -918,33 +705,16 @@ Stay ahead of emerging fraud and stop abuse across the entire customer lifecycle
 Get started with zero integration, or access Radar’s intelligence via API.
 Choose a plan
 Pay monthly
-Monthly subscription for more predictable pricing. Best for businesses with higher payment volumes looking to maximize savings.
+Monthly subscription for more predictable pricing. Best for businesses with higher payment volumes looking to maximise savings.
 Starting at
-$10.00
+CA$14.00
 per month, cancel any time
 Pay as you go
 Pay for what you use. No recurring fees. Best for low or unpredictable volumes.
 Starting at
-$0.05
+CA$0.07
 per screened transaction
 Compare plans
-Identity
-Verification tools that confirm the identity of global users.
-Start now
-Reduce fraud losses by identifying high-risk users.
-Streamline a crucial part of your KYC compliance requirements.
-Save engineering and ops time with centralized ID verification.
-ID document and selfie verification
-Capture and verify the authenticity of global ID documents. Use biometric verification to match ID photos with selfies of the document holder.
-$1.50
-per verification
-Charged when a user completes verification.
-Learn more
-ID number lookup
-Allow users to key-in name, date of birth, and local government ID number. Validate against government and third-party databases (only available for US SSNs).
-$0.50
-per lookup
-See pricing details
 Atlas
 Software to quickly incorporate your startup.
 Start now
@@ -953,21 +723,26 @@ Use documents trusted by law firms, tax attorneys, and venture capital investors
 Get over $50K in discounts and perks.
 Incorporate your company
 Incorporate your company, get your EIN, issue equity, and file your 83(b) tax election.
-$500.00
-one-time setup fee (includes government fees and your first year of registered agent services)
+US$500.00
+one-off setup fee (includes government fees and your first year of registered agent services)
 See pricing details
-Climate
-Tools to remove carbon as you grow your business.
+Identity
+Verification tools that confirm the identity of global users.
 Start now
-Support promising permanent carbon removal technologies.
-Get started in just a few clicks with the Dashboard.
-Orders
-Buy carbon removal tons from
-Frontier’s portfolio
-through the Dashboard or API.
-3%
-of order value
-See inventory details
+Reduce fraud losses by identifying high-risk users.
+Streamline a crucial part of your KYC compliance requirements.
+Save engineering and ops time with centralised ID verification.
+ID document and selfie verification
+Capture and verify the authenticity of global ID documents. Use biometric verification to match ID photos with selfies of the document holder.
+CA$2.00
+per verification
+Charged when a user completes verification.
+Learn more
+ID number lookup
+Allow users to key in name, date of birth, and local government ID number. Validate against government and third-party databases (only available for US SSNs).
+CA$0.60
+per lookup
+See pricing details
 Workflows
 Automate tasks and create custom flows, without writing code.
 Start now
@@ -979,7 +754,7 @@ Pay as you go
 No commitment, no recurring fees. Start building workflows today.
 Included
 10,000 steps per month
-$0.018
+CA$0.025
 per additional step
 Learn more
 Navigate to:
@@ -989,17 +764,12 @@ Revenue and finance automation
 More
 Global payments
 Payments
-Link
 Payment Links
 Checkout
 Managed Payments
 Terminal
-Financial Connections
 Money management
 Connect
-Treasury
-Global Payouts
-Issuing
 Revenue and finance automation
 Billing
 Metronome
@@ -1010,13 +780,12 @@ Data Pipeline
 Revenue Recognition
 More
 Radar
-Identity
 Atlas
-Climate
+Identity
 Workflows
 Custom pricing
 Join leading enterprises on Stripe
-Create tailored solutions to help you expand into new markets, optimize payments performance, automate revenue and finance workflows, monetize financial services, and
+Create tailored solutions to help you expand into new markets, optimise payments performance, automate revenue and finance workflows, monetise financial services, and
 more
 .
 Build your custom package
@@ -1040,7 +809,7 @@ Optional aggregated pricing for all markets, allowing you to go global with ease
 Cost transparency
 Dashboards, tools, and APIs that give you transparency into your costs.
 Integrating Stripe provides a 326% return on investment
-Forrester’s Total Economic impact study suggests a more than 3x return on investment among businesses that deployed Stripe.
+Forrester’s Total Economic Impact study suggests a more than 3x return on investment among businesses that deployed Stripe.
 Report
 The Total Economic ImpactTM Of Stripe
 100+ category leaders each process more than $1 billion per year on Stripe.
@@ -1065,13 +834,13 @@ Uplift from Stripe's Global Payments Infrastructure
 Uplift from Adaptive Acceptance
 Products used
 Read story
-Learn why BMW chose Stripe to power ecommerce and payments
+Learn why BMW chose Stripe to power e-commerce and payments
 Read story
 See how Amazon simplified cross-border payments with Stripe
 Read story
 See how Maersk tapped into new technology to make it easier to ship around the world
 Read story
-See how Twilio increased authorization rates by 10% with Stripe
+See how Twilio increased authorisation rates by 10% with Stripe
 FAQs
 How are payment fees calculated?
 Stripe charges a per-transaction fee depending on the payment method used by the end customer.

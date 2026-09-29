@@ -6,9 +6,9 @@
   "url": "https://clickhouse.com/pricing",
   "final_url": "https://clickhouse.com/pricing?service=clickhouse&pg.plan=scale&pg.provider=aws&pg.profile=memory&pg.architecture=arm&pg.standby=0&pg.region=us-east-1&useCase=real-time-analytics&hours=24&plan=scale&provider=aws&region=us-east-1&storageCompressed=false",
   "parser_version": 4,
-  "content_hash": "1775fcd84834f90ab9c69bedd585e56097d9f9d35e56d24e115ea7d49eef3a46",
-  "raw_hash": "11f8d4c71a53aa2ef45504af9604d7a41f1425a07fb13846e1294cf9cf75dc0e",
-  "text_bytes": 4865,
+  "content_hash": "eb95017f3832c7490e6f84c86c11217bdab1e10f6b0089c0c095d0e1abf3cf72",
+  "raw_hash": "6e0373034c434f43f03a8a37dacfa63fe9b8aace9bedb6df08c61d9752b14831",
+  "text_bytes": 4889,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -19,6 +19,7 @@
       "currency": "USD",
       "period": "month",
       "features": [
+        "Includes:",
         "Up to 1 TB storage",
         "8-12 GiB total memory",
         "Backups every 24h, retained for 1 day",

@@ -6,27 +6,16 @@
   "url": "https://monday.com/pricing",
   "final_url": "https://monday.com/pricing",
   "parser_version": 4,
-  "content_hash": "797de32432de966a694b4ab0eabd9de16928e3359e61bbe1e575e4aaa0f9a85d",
-  "raw_hash": "eb199dc4618909622070e1dd4aebe91d0c8f8c77b1395068ba7b5910148b5b01",
-  "text_bytes": 50871,
+  "content_hash": "3d0532c8e9f0aedaf88f78bda3faaea522aed16935164a57da8d41c8b6c7fd65",
+  "raw_hash": "aae7a685c817ee35dafb14656833e65715e5394892ebc00ff2ca6d1f1fbfc816",
+  "text_bytes": 51261,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
     {
-      "name": "Free",
-      "price_raw": "$ 0",
-      "amount": 0.0,
-      "currency": "USD",
-      "period": "month",
-      "features": [],
-      "slot_prices": [
-        0.0
-      ]
-    },
-    {
       "name": "Basic",
-      "price_raw": "$ 9",
-      "amount": 9.0,
+      "price_raw": "$130",
+      "amount": 130.0,
       "currency": "USD",
       "period": "month",
       "features": [
@@ -35,13 +24,13 @@
         "Turn any business need into a custom business app in minutes Vibe app builder"
       ],
       "slot_prices": [
-        9.0
+        130.0
       ]
     },
     {
       "name": "Standard",
-      "price_raw": "$ 12",
-      "amount": 12.0,
+      "price_raw": "$170",
+      "amount": 170.0,
       "currency": "USD",
       "period": "month",
       "features": [
@@ -52,13 +41,13 @@
         "AI columns run your repetitive work directly within your boards, so you can focus on your main priorities AI columns"
       ],
       "slot_prices": [
-        12.0
+        170.0
       ]
     },
     {
       "name": "Pro",
-      "price_raw": "$ 19",
-      "amount": 19.0,
+      "price_raw": "$260",
+      "amount": 260.0,
       "currency": "USD",
       "period": "month",
       "features": [
@@ -70,7 +59,7 @@
         "Orchestrate workflows that connect agents and AI and watch work get done across every team AI workflow builder"
       ],
       "slot_prices": [
-        19.0
+        260.0
       ]
     },
     {

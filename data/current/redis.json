@@ -7,7 +7,7 @@
   "final_url": "https://redis.io/pricing/",
   "parser_version": 4,
   "content_hash": "940ba25b68915fe3e2ea535309e1303b3b6e9f714022452b1d4d2d37fbc0d911",
-  "raw_hash": "04963c10aeb5b3f99435603cd969d60666fb8931a1fef10d0681a5f6dc9cd74f",
+  "raw_hash": "86b5ff1b32a2a5ce960d648dad3bd5081b328784a35ffbec6704298ac8a29954",
   "text_bytes": 4263,
   "extractor": "dom",
   "confidence": "medium",

@@ -6,9 +6,9 @@
   "url": "https://suno.com/pricing",
   "final_url": "https://suno.com/pricing",
   "parser_version": 4,
-  "content_hash": "005c449b005f8de46e736706ce2c6cc861a7adfa7cf5acd7fc87ac1328f856ec",
-  "raw_hash": "372936586c3b952a5dc04390f361dd19c1c9503ba20c10b146c431674a476924",
-  "text_bytes": 2962,
+  "content_hash": "006abd190468ebed5a5ecc14a37ef25cede04d02fa3ed0884c0153543c0596d0",
+  "raw_hash": "7407271625da69489362d70188dc09b928eecebd623615f40b9daaea41868c64",
+  "text_bytes": 2963,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -34,24 +34,24 @@
     },
     {
       "name": "Pro",
-      "price_raw": "$8",
-      "amount": 8.0,
+      "price_raw": "$11",
+      "amount": 11.0,
       "currency": "USD",
       "period": "month",
       "features": [],
       "slot_prices": [
-        8.0
+        11.0
       ]
     },
     {
       "name": "Premier",
-      "price_raw": "$24",
-      "amount": 24.0,
+      "price_raw": "$35",
+      "amount": 35.0,
       "currency": "USD",
       "period": "month",
       "features": [],
       "slot_prices": [
-        24.0
+        35.0
       ]
     }
   ],

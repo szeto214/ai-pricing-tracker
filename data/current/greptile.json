@@ -6,9 +6,9 @@
   "url": "https://www.greptile.com/pricing",
   "final_url": "https://www.greptile.com/pricing",
   "parser_version": 4,
-  "content_hash": "cd62acda05bc73e0311a37d7aafae5a9de29c6a47b456319477cb220b14cb75f",
-  "raw_hash": "54b97af3e339500409c4dc5e5027f012d75d9afdbed5b5c1cdca96a9658773b1",
-  "text_bytes": 2594,
+  "content_hash": "a5ed182e0fba88c07abe677884efef45a4d5c4efae2255def3b5b17523da5e9d",
+  "raw_hash": "2f907a314232d73d489c2907922b1bcb678e9df96e99fe3aea4688037e9e8058",
+  "text_bytes": 2659,
   "extractor": "jsonld",
   "confidence": "medium",
   "plans": [

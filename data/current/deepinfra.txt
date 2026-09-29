@@ -579,8 +579,8 @@ $ per 1M output tokens
 Actions
 NVIDIA-Nemotron-3.5-Lightning
 256k
-$0.08 / $0.04 cached
-$0.20
+$0.06 / $0.03 cached
+$0.16
 View more
 Nemotron-Content-Safety-3.5
 128k
@@ -609,8 +609,8 @@ $ per 1M output tokens
 Actions
 NVIDIA-Nemotron-3.5-Lightning
 256k
-$0.08 / $0.04 cached
-$0.20
+$0.06 / $0.03 cached
+$0.16
 View more
 Nemotron-Content-Safety-3.5
 128k
@@ -1074,21 +1074,21 @@ XiaomiMiMo
 /
 MiMo-V2.6-Flash
 Featured Models
-Qwen
+deepseek-ai
 /
-Qwen3-Max-Thinking
-Qwen
+DeepSeek-V4-Pro
+black-forest-labs
 /
-Qwen3.5-397B-A17B
+FLUX-2-klein-4b
+nvidia
+/
+NVIDIA-Nemotron-3-Ultra-550B-A55B
+black-forest-labs
+/
+FLUX-2-klein-9b
 zai-org
 /
-GLM-5.2
-moonshotai
-/
-Kimi-K3
-google
-/
-gemma-4-31B-it
+GLM-5.3-Flash
 © 2026 DeepInfra. All rights reserved.
 Privacy Policy
 Terms of Service

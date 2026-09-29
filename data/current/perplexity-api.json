@@ -6,9 +6,9 @@
   "url": "https://docs.perplexity.ai/getting-started/pricing",
   "final_url": "https://docs.perplexity.ai/docs/getting-started/pricing",
   "parser_version": 4,
-  "content_hash": "bb195cf7116751fa31f238298e5ffbf67118b8b42030e3df278caf0c677a673b",
-  "raw_hash": "dfa2abb24daf8d82624975f27a647de43a86e36564b7479bef56dd9b7fb0a48a",
-  "text_bytes": 8726,
+  "content_hash": "920cd5d835d7ecc4fb6c6a208eb9cc66d4165aa962eadd3aed1768b228b2ffb1",
+  "raw_hash": "ddecaa70d5a4f06e62d18d715159c2fc7b49f497cf5a8268b658912253387ac3",
+  "text_bytes": 6041,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -120,45 +120,6 @@
       "features": [],
       "slot_prices": [
         1.0
-      ]
-    },
-    {
-      "name": "fast",
-      "price_raw": "$6",
-      "amount": 6.0,
-      "currency": "USD",
-      "period": null,
-      "features": [],
-      "slot_prices": [
-        6.0,
-        10.0,
-        14.0
-      ]
-    },
-    {
-      "name": "pro",
-      "price_raw": "$14",
-      "amount": 14.0,
-      "currency": "USD",
-      "period": null,
-      "features": [],
-      "slot_prices": [
-        14.0,
-        18.0,
-        22.0
-      ]
-    },
-    {
-      "name": "​ Search Type Options",
-      "price_raw": "$6",
-      "amount": 6.0,
-      "currency": "USD",
-      "period": null,
-      "features": [],
-      "slot_prices": [
-        6.0,
-        10.0,
-        14.0
       ]
     },
     {
@@ -320,142 +281,6 @@
       "unit": "per 1k requests"
     },
     {
-      "key": "sonar",
-      "model": "Sonar",
-      "prices": {
-        "input tokens ($/1m)": {
-          "raw": "$1",
-          "amount": 1.0
-        },
-        "output tokens ($/1m)": {
-          "raw": "$1",
-          "amount": 1.0
-        }
-      },
-      "currency": "USD",
-      "unit": "/1m"
-    },
-    {
-      "key": "sonar pro",
-      "model": "Sonar Pro",
-      "prices": {
-        "input tokens ($/1m)": {
-          "raw": "$3",
-          "amount": 3.0
-        },
-        "output tokens ($/1m)": {
-          "raw": "$15",
-          "amount": 15.0
-        }
-      },
-      "currency": "USD",
-      "unit": "/1m"
-    },
-    {
-      "key": "sonar reasoning pro",
-      "model": "Sonar Reasoning Pro",
-      "prices": {
-        "input tokens ($/1m)": {
-          "raw": "$2",
-          "amount": 2.0
-        },
-        "output tokens ($/1m)": {
-          "raw": "$8",
-          "amount": 8.0
-        }
-      },
-      "currency": "USD",
-      "unit": "/1m"
-    },
-    {
-      "key": "sonar deep research",
-      "model": "Sonar Deep Research",
-      "prices": {
-        "input tokens ($/1m)": {
-          "raw": "$2",
-          "amount": 2.0
-        },
-        "output tokens ($/1m)": {
-          "raw": "$8",
-          "amount": 8.0
-        },
-        "citation tokens ($/1m)": {
-          "raw": "$2",
-          "amount": 2.0
-        },
-        "search queries ($/1k)": {
-          "raw": "$5",
-          "amount": 5.0
-        },
-        "reasoning tokens ($/1m)": {
-          "raw": "$3",
-          "amount": 3.0
-        }
-      },
-      "currency": "USD",
-      "unit": "/1m"
-    },
-    {
-      "key": "sonar#2",
-      "model": "Sonar",
-      "prices": {
-        "low context size": {
-          "raw": "$5",
-          "amount": 5.0
-        },
-        "medium context size": {
-          "raw": "$8",
-          "amount": 8.0
-        },
-        "high context size": {
-          "raw": "$12",
-          "amount": 12.0
-        }
-      },
-      "currency": "USD",
-      "unit": ""
-    },
-    {
-      "key": "sonar pro#2",
-      "model": "Sonar Pro",
-      "prices": {
-        "low context size": {
-          "raw": "$6",
-          "amount": 6.0
-        },
-        "medium context size": {
-          "raw": "$10",
-          "amount": 10.0
-        },
-        "high context size": {
-          "raw": "$14",
-          "amount": 14.0
-        }
-      },
-      "currency": "USD",
-      "unit": ""
-    },
-    {
-      "key": "sonar reasoning pro#2",
-      "model": "Sonar Reasoning Pro",
-      "prices": {
-        "low context size": {
-          "raw": "$6",
-          "amount": 6.0
-        },
-        "medium context size": {
-          "raw": "$10",
-          "amount": 10.0
-        },
-        "high context size": {
-          "raw": "$14",
-          "amount": 14.0
-        }
-      },
-      "currency": "USD",
-      "unit": ""
-    },
-    {
       "key": "pplx-embed-v1-0.6b",
       "model": "pplx-embed-v1-0.6b",
       "prices": {
@@ -502,6 +327,42 @@
       },
       "currency": "USD",
       "unit": "/1m"
+    },
+    {
+      "key": "model output tokens",
+      "model": "Model output tokens",
+      "prices": {
+        "$0.001": {
+          "raw": "$0.003",
+          "amount": 0.003
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "web_search",
+      "model": "web_search",
+      "prices": {
+        "$0.001": {
+          "raw": "$0.0025",
+          "amount": 0.0025
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "fetch_url",
+      "model": "fetch_url",
+      "prices": {
+        "$0.001": {
+          "raw": "$0.0005",
+          "amount": 0.0005
+        }
+      },
+      "currency": "USD",
+      "unit": ""
     }
   ],
   "tables": [
@@ -570,105 +431,6 @@
       "rows": [
         [
           "Model",
-          "Input Tokens ($/1M)",
-          "Output Tokens ($/1M)",
-          "Citation Tokens ($/1M)",
-          "Search Queries ($/1K)",
-          "Reasoning Tokens ($/1M)"
-        ],
-        [
-          "Sonar",
-          "$1",
-          "$1",
-          "-",
-          "-",
-          "-"
-        ],
-        [
-          "Sonar Pro",
-          "$3",
-          "$15",
-          "-",
-          "-",
-          "-"
-        ],
-        [
-          "Sonar Reasoning Pro",
-          "$2",
-          "$8",
-          "-",
-          "-",
-          "-"
-        ],
-        [
-          "Sonar Deep Research",
-          "$2",
-          "$8",
-          "$2",
-          "$5",
-          "$3"
-        ]
-      ]
-    },
-    {
-      "caption": "",
-      "rows": [
-        [
-          "Model",
-          "Low Context Size",
-          "Medium Context Size",
-          "High Context Size"
-        ],
-        [
-          "Sonar",
-          "$5",
-          "$8",
-          "$12"
-        ],
-        [
-          "Sonar Pro",
-          "$6",
-          "$10",
-          "$14"
-        ],
-        [
-          "Sonar Reasoning Pro",
-          "$6",
-          "$10",
-          "$14"
-        ]
-      ]
-    },
-    {
-      "caption": "",
-      "rows": [
-        [
-          "Search Type",
-          "Description",
-          "Request Fee (per 1K)"
-        ],
-        [
-          "fast",
-          "(default) Standard Sonar Pro behavior",
-          "$6 / $10 / $14"
-        ],
-        [
-          "pro",
-          "Multi-step tool usage for complex queries",
-          "$14 / $18 / $22"
-        ],
-        [
-          "auto",
-          "Automatic classification based on query complexity",
-          "Varies by classification"
-        ]
-      ]
-    },
-    {
-      "caption": "",
-      "rows": [
-        [
-          "Model",
           "Dimensions",
           "Price ($/1M tokens)"
         ],
@@ -726,6 +488,35 @@
         [
           "Total",
           "$0.0059"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Component",
+          "Cost"
+        ],
+        [
+          "Model input tokens",
+          "$0.001"
+        ],
+        [
+          "Model output tokens",
+          "$0.003"
+        ],
+        [
+          "web_search",
+          "$0.0025"
+        ],
+        [
+          "fetch_url",
+          "$0.0005"
+        ],
+        [
+          "Total",
+          "$0.007"
         ]
       ]
     }

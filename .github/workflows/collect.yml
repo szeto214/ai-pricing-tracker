@@ -15,6 +15,18 @@ on:
     # supaya harinya tidak hilang. Kalau yang pagi sudah berhasil, penjaga
     # sekali-per-hari membuat run ini berhenti dalam hitungan detik.
     - cron: "17 7 * * *"   # 14:17 WIB
+    # Jaring ketiga dan keempat, ditambahkan 29/09/2026 setelah slot pagi
+    # DILEWATKAN GitHub dua hari berturut-turut (28/09 dan 29/09). Pada 28/09
+    # harinya diselamatkan slot 07:17 yang sendirinya baru jalan pukul 08:57
+    # UTC. Dengan dua slot saja, satu kali GitHub sibuk di dua slot itu =
+    # satu hari arsip hilang permanen.
+    #
+    # Biayanya hampir nol: kalau hari itu sudah berhasil, penjaga
+    # sekali-per-hari membuat run berhenti dalam ~40 detik, dan repo publik
+    # tidak dikenai kuota menit GitHub Actions. Tidak ada permintaan tambahan
+    # ke situs vendor — penjaga yang sama mencegahnya.
+    - cron: "29 11 * * *"  # 18:29 WIB
+    - cron: "53 15 * * *"  # 22:53 WIB
   workflow_dispatch:
     inputs:
       only:

@@ -139,7 +139,26 @@ def diff_plans(old_plans: list[dict], new_plans: list[dict]) -> list[dict]:
         # celah pembacaan, bukan peristiwa harga. Perpindahan mata uang yang
         # sungguhan (USD -> EUR) tetap dicatat, terpisah, dan tidak dihitung
         # sebagai perubahan harga.
-        if o.get("amount") != n.get("amount") and _slot_bertukar(o, n):
+        # Dua harga dalam MATA UANG BERBEDA tidak bisa dibandingkan. Titik.
+        #
+        # 29/09/2026 kolektor berjalan dari wilayah lain (run pukul 07:12 UTC,
+        # bukan 02:55 seperti biasa) dan vendor menyajikan harga lokal: Stripe
+        # "$59.00" -> "A$79.00", Shopify "$29" -> "CA$37". Tercatat 10
+        # "perubahan harga" sekaligus — padahal tidak ada vendor yang mengubah
+        # tarif; yang berpindah adalah negara pembacanya.
+        #
+        # Diukur di SELURUH arsip sebelum diterapkan: dari 383 peristiwa
+        # price_changed, hanya 10 yang mata uangnya berbeda — sepuluh-duanya
+        # dari hari itu dan semuanya palsu. Nol peristiwa nyata yang hilang.
+        if (o.get("currency") and n.get("currency")
+                and o.get("currency") != n.get("currency")):
+            events.append({
+                "type": "currency_changed", "plan": n.get("name"),
+                "from": o.get("currency"), "to": n.get("currency"),
+                "from_amount": o.get("amount"), "to_amount": n.get("amount"),
+                "from_raw": o.get("price_raw"), "to_raw": n.get("price_raw"),
+            })
+        elif o.get("amount") != n.get("amount") and _slot_bertukar(o, n):
             # Angkanya beda, tapi angka hari ini SUDAH berdiri di slot harga
             # kemarin (atau angka kemarin MASIH berdiri di slot hari ini).
             # Artinya vendor tidak memindahkan harga; ia menambah atau
@@ -177,13 +196,6 @@ def diff_plans(old_plans: list[dict], new_plans: list[dict]) -> list[dict]:
             except (TypeError, ValueError):
                 pass
             events.append(ev)
-        elif (o.get("currency") and n.get("currency")
-              and o.get("currency") != n.get("currency")):
-            events.append({
-                "type": "currency_changed", "plan": n.get("name"),
-                "from": o.get("currency"), "to": n.get("currency"),
-                "amount": n.get("amount"),
-            })
         elif o.get("period") != n.get("period"):
             events.append({
                 "type": "period_changed", "plan": n.get("name"),

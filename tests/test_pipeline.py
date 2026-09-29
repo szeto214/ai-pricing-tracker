@@ -2025,6 +2025,63 @@ def test_harga_coret_28_09() -> None:
           [e["type"] for e in lama] == ["price_changed"], f"-> {lama}")
 
 
+def test_mata_uang_beda_29_09() -> None:
+    """Harga dalam mata uang berbeda tidak bisa dibandingkan (29/09/2026).
+
+    Slot pagi dilewatkan GitHub dua hari, dan run 29/09 akhirnya jalan pukul
+    07:12 UTC — dari wilayah runner yang berbeda. Vendor pun menyajikan harga
+    lokal:
+
+      stripe   "$59.00" -> "A$79.00"   (5 baris)
+      shopify  "$29"    -> "CA$37"     (5 baris)
+
+    Sepuluh "kenaikan harga" dalam satu hari, padahal tidak ada vendor yang
+    mengubah tarif — yang berpindah adalah NEGARA pembacanya. Membandingkan
+    dolar Amerika dengan dolar Australia/Kanada tidak punya arti.
+
+    Diukur di seluruh arsip sebelum diterapkan: dari 383 peristiwa
+    `price_changed` yang pernah tercatat, hanya 10 yang mata uangnya berbeda —
+    seluruhnya dari hari itu, seluruhnya palsu. **Nol** peristiwa nyata hilang.
+
+    Aturan §10.7 yang lama tetap berlaku dan tidak boleh bertabrakan: mata uang
+    yang berubah dari diketahui menjadi TIDAK diketahui adalah celah pembacaan,
+    bukan peristiwa — itu sebabnya syaratnya "kedua sisi tahu mata uangnya".
+    """
+    print("\n22. mata uang berbeda bukan perubahan harga")
+    from collector.diff import diff_plans
+
+    kemarin = [{"name": "Basic", "price_raw": "$29", "amount": 29.0,
+                "currency": "USD"}]
+    hari_ini = [{"name": "Basic", "price_raw": "A$37", "amount": 37.0,
+                 "currency": "AUD"}]
+    jenis = [e["type"] for e in diff_plans(kemarin, hari_ini)]
+    check("mata uang berbeda -> BUKAN perubahan harga",
+          "price_changed" not in jenis and "currency_changed" in jenis,
+          f"-> {jenis}")
+    balik = [e["type"] for e in diff_plans(hari_ini, kemarin)]
+    check("arah sebaliknya juga bukan perubahan harga",
+          "price_changed" not in balik, f"-> {balik}")
+
+    ev = [e for e in diff_plans(kemarin, hari_ini)
+          if e["type"] == "currency_changed"][0]
+    check("catatan mata uang membawa kedua angkanya untuk diperiksa manusia",
+          ev.get("from_amount") == 29.0 and ev.get("to_amount") == 37.0,
+          f"-> {ev}")
+
+    naik = diff_plans(
+        [{"name": "Pro", "price_raw": "$20", "amount": 20.0, "currency": "USD"}],
+        [{"name": "Pro", "price_raw": "$25", "amount": 25.0, "currency": "USD"}])
+    check("kenaikan harga dalam mata uang yang sama TETAP tercatat",
+          [e["type"] for e in naik] == ["price_changed"], f"-> {naik}")
+
+    # §10.7: diketahui -> tidak diketahui bukan peristiwa mata uang.
+    kabur = diff_plans(
+        [{"name": "Free", "price_raw": "0", "amount": 0.0, "currency": "USD"}],
+        [{"name": "Free", "price_raw": "Free", "amount": 0.0, "currency": None}])
+    check("mata uang jadi tidak diketahui tidak melahirkan peristiwa",
+          not kabur, f"-> {kabur}")
+
+
 def main() -> int:
     print(f"data uji: {config.DATA_DIR}")
     test_hash_stability()
@@ -2059,6 +2116,7 @@ def main() -> int:
     test_kartu_berisi_tabel_18_09()
     test_kartu_grid_div_26_09()
     test_harga_coret_28_09()
+    test_mata_uang_beda_29_09()
     test_skrip_cadangan()
 
     print("\n" + "=" * 60)

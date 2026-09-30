@@ -271,10 +271,10 @@ A trace represents a single execution of your application—whether it’s an ag
 example
 of a single trace.
 What is the difference between a base trace and an extended trace?
-Base traces have a shorter retention period of 14 days. Extended traces have a longer retention period of 400 days. You can "upgrade" base traces to extended traces for an additional fee.
+Base traces have a shorter retention period of 14 days. Extended traces have a longer retention period of 180 days. You can "upgrade" base traces to extended traces for an additional fee.
 Why would I upgrade a base trace to an extended trace?
 Base traces are short-lived (14-day retention) and ideal for quick debugging or ad-hoc analysis. They’re priced for volume and short-term utility.
-Extended traces are retained for 400 days. This is useful when traces include valuable feedback associated with them, such as from users, evaluators, or human labelers. This feedback makes them valuable for ongoing improvement and model tuning.
+Extended traces are retained for 180 days. This is useful when traces include valuable feedback associated with them, such as from users, evaluators, or human labelers. This feedback makes them valuable for ongoing improvement and model tuning.
 LangSmith lets you choose the right retention for each trace, helping you balance cost and value.
 Are Tuned Evaluations charged for every agent run?
 Tuned Evaluators are only billed when a Tuned Evaluator runs successfully. Skipped and failed evaluations are not billed. You control when Tuned Evaluators run in your tracing projects. See
@@ -333,7 +333,7 @@ How often does Engine run?
 Engine is scheduled to run once every 6 hours.
 Is model usage included in the cost?
 Yes. Engine pricing includes the underlying model usage required for analysis and fix generation.
-Where can I see my LCU usage?
+Where can I see my LSU usage?
 You can view your organization’s LCU usage in your LangSmith billing console by visiting Settings > Billing.
 Learn more
 .

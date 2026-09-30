@@ -7,13 +7,16 @@ Retrieval accuracy is now a competitive advantage
 Read blog >
 >>
 MongoDB Pricing
-The data platform built by - and for - developers
+The intelligent data platform for the AI era
 MongoDB Atlas
 Fully-managed cloud
 Enterprise Advanced
-Self-managed & on-premises
-MongoDB Atlas
-The multi-cloud data platform available on AWS, Azure, and Google Cloud
+Self-managed
+Atlas Core
+Fully managed cloud deployment option built to scale from early prototype to mission-critical production.
+For unpredictable AI demand, try
+Atlas Infinite
+.
 Free
 $0/hour
 Explore Atlas
@@ -40,9 +43,18 @@ For production applications with sophisticated workload requirements.
 2GB to 768GB RAM
 2vCPUs to 96vCPUs
 View dedicated pricing
-Need help figuring out your monthly costs?
-Try our new Pricing Calculator.
+Questions about pricing?
+Estimate your monthly Atlas Core costs with our new Pricing Calculator.
 Calculate Costs
+Atlas Infinite
+High-performance Atlas deployment option built for extreme elasticity, AI-scale workloads, and independent scaling of compute and storage.
+PUBLIC PREVIEW
+Atlas Infinite
+$0.09/hour
+Deploy Atlas Infinite
+Enhanced performance for dedicated workloads: architected with decoupled compute and storage for modern agentic workloads. Rapidly scale storage up to 128TB per HA shard with sub-second scaling triggers. Available on M10+ dedicated clusters.
+Storage: 128TB per HA shard capacity
+Throughput: 1M + IOPS burst performance
 Customize your deployment with tools & services
 MongoDB Search on Atlas
 Build relevance-based search 4x faster and for 77% lower cost than alternative search solutions.
@@ -73,7 +85,7 @@ Questions about pricing?
 Talk to us for more information about features, sizing, support plans, and consulting.
 Contact Us
 MongoDB Enterprise Advanced
-The best way to run MongoDB on-premises or in your private cloud
+The best way to self-manage MongoDB
 Featured Highlights
 MongoDB Enterprise Server
 Ops Manager and Cloud Manager
@@ -240,8 +252,12 @@ $30.00
 For more information and pricing examples, see
 documentation
 .
-Atlas SQL Interface
-Atlas SQL Interface leverages Atlas Data Federation as its query engine, making it easy and fast to analyze your application and cloud data together using a single API. Pricing is based on data processed, transferred, and returned.
+Atlas SQL Interface (Dedicated Cluster)
+Atlas SQL Interface (Dedicated Cluster) is billed as a simple daily uplift based on your cluster tier size and on your cluster spend, not a per query bill.
+Atlas Enterprise and Platinum Support customers receive this feature included (and will not see the uplift)
+Other Dedicated and Infinite cluster customers will see a fixed uplift % on the cluster spend
+Atlas SQL Interface (Data Federation)
+Atlas SQL Interface (Data Federation) leverages Atlas Data Federation as its query engine, making it easy and fast to analyze your application and cloud data together using a single API. Pricing is based on data processed, transferred, and returned.
 Data Processed
 Data Transferred and returned
 $5 per TB with a 10MB minimum per query
@@ -357,6 +373,7 @@ monitoring performance
 before adjusting. For all Dedicated tiers, use auto-scaling to adjust cluster tier and storage as workloads evolve.
 How to select your cluster tier →
 Atlas cluster sizing and tier selection →
+Learn more about dedicated clusters →
 What factors influence my MongoDB Atlas costs?
 MongoDB Atlas costs are based on a pay-as-you-go model, influenced by several key factors:
 Cluster tier and type:

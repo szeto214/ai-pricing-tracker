@@ -6,9 +6,9 @@
   "url": "https://platform.openai.com/docs/pricing",
   "final_url": "https://developers.openai.com/api/docs/pricing",
   "parser_version": 4,
-  "content_hash": "f9ed10921aa057872209509f9d3fee38899dc332bb911094c057bdb4932a7238",
-  "raw_hash": "e4a9e273042d144501558701273c32bb7c241d05c45e105fff16785dcf52e229",
-  "text_bytes": 7635,
+  "content_hash": "407b0fd8cca0b566446e50071f4d613c24ae7a39024a7c37268177b03ddfaa90",
+  "raw_hash": "bcf651fc50be4ea06841aa8d31444b406db9f5bbe95f5a777c739df2d8483339",
+  "text_bytes": 6793,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -29,7 +29,7 @@
       ]
     },
     {
-      "name": "gpt-6-sol",
+      "name": "gpt-6.1-sol",
       "price_raw": "$2.00",
       "amount": 2.0,
       "currency": "USD",
@@ -37,11 +37,11 @@
       "features": [],
       "slot_prices": [
         2.0,
-        0.2,
+        0.1,
         2.5,
         10.0,
         4.0,
-        0.4
+        0.2
       ]
     },
     {
@@ -277,16 +277,16 @@
       "unit": ""
     },
     {
-      "key": "gpt-6-sol",
-      "model": "gpt-6-sol",
+      "key": "gpt-6.1-sol",
+      "model": "gpt-6.1-sol",
       "prices": {
         "input": {
           "raw": "$2.00",
           "amount": 2.0
         },
         "cached input": {
-          "raw": "$0.20",
-          "amount": 0.2
+          "raw": "$0.10",
+          "amount": 0.1
         },
         "cache writes": {
           "raw": "$2.50",
@@ -301,8 +301,8 @@
           "amount": 4.0
         },
         "cached input (2)": {
-          "raw": "$0.40",
-          "amount": 0.4
+          "raw": "$0.20",
+          "amount": 0.2
         },
         "cache writes (2)": {
           "raw": "$5.00",
@@ -821,13 +821,13 @@
           "$75.00"
         ],
         [
-          "gpt-6-sol",
+          "gpt-6.1-sol",
           "$2.00",
-          "$0.20",
+          "$0.10",
           "$2.50",
           "$10.00",
           "$4.00",
-          "$0.40",
+          "$0.20",
           "$5.00",
           "$15.00"
         ],

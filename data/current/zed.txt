@@ -56,14 +56,14 @@ dashboard.zed.dev
 Since Zed is open source, these controls govern Zed's hosted services specifically.
 SSO, SAML, and SCIM are planned but not currently available.
 How does the free trial work?
-We offer a 14-day free trial of Pro with $5 of GPT-5.6 Luna usage and unlimited accepted edit predictions.
+We offer a 14-day free trial of Pro with $5 of GPT-6 Luna usage and unlimited accepted edit predictions.
 No credit card is required.
 The trial ends when you use the $5 balance or 14 days pass, whichever comes first.
 Your $5 trial balance is shared across Zed and Delta.
 Start your trial on your
 Account page
 .
-GPT-5.6 Luna is the only hosted model available during the free trial.
+GPT-6 Luna is the only hosted model available during the free trial.
 What is a token?
 A token is a unit of text processed by an LLM (roughly 3–4 characters of English text).
 With token-based billing, you’re only charged for the text your prompts and responses actually consume.

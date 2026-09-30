@@ -6,9 +6,9 @@
   "url": "https://elevenlabs.io/pricing",
   "final_url": "https://elevenlabs.io/pricing",
   "parser_version": 4,
-  "content_hash": "e27a5e92b6673fd31753497cc587e2df252908db95090f3af2056394c80b0cd3",
-  "raw_hash": "ff5149d8409387281f7387857e674ee61cdd40ab1fd5eebd23fc30e2da301937",
-  "text_bytes": 3499,
+  "content_hash": "11553db9b07b821a9ee67201a4838b8a83201ee4719cc029eadb65cf7ed550a2",
+  "raw_hash": "738f0bed85e9c51c1a881dc01faa6197b5394ca29396e921060d0a9172cf1ec4",
+  "text_bytes": 3533,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

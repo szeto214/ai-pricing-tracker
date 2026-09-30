@@ -6,9 +6,9 @@
   "url": "https://zed.dev/pricing",
   "final_url": "https://zed.dev/pricing",
   "parser_version": 4,
-  "content_hash": "b07ee8f173f8c0e51990b1d7ed95e24e935dc735facefc4f5b58290be522f968",
-  "raw_hash": "24eb8da30ab7c631674fe54556128becb6a3f591f4c3d9b0d415dba316ac1fa1",
-  "text_bytes": 5083,
+  "content_hash": "d36170c78719b5b43d35cdb399a9953e257db2734688b669ed02fbec07aac60a",
+  "raw_hash": "756e84ff75eed41741c7facf75bc04c54e082833f71c086d5a4716d4bd3ef73f",
+  "text_bytes": 5079,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

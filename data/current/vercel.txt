@@ -596,7 +596,7 @@ Potentially. Transfer fees are dependent on the TLD and the domain renewal fee. 
 Do cached responses affect usage?
 Caching responses can reduce the usage of Vercel Functions. If the function response is
 cached
-, it will not run and incur a Function invocation or any GB/hrs of duration. Any request made to Vercel will incur an Edge Request. Requests to static assets incur the same Fast Data Transfer usage if the response is cached or uncached. Further, Vercel automatically adds etags to all responses to prevent end users from downloading the same asset many times. Vercel CDN automatically
+, it will not run and incur a Function invocation or any GB/hrs of duration. Any request made to Vercel will incur a CDN Request. Requests to static assets incur the same Fast Data Transfer usage if the response is cached or uncached. Further, Vercel automatically adds etags to all responses to prevent end users from downloading the same asset many times. Vercel CDN automatically
 compresses
 responses to reduce your Fast Data Transfer.
 How can I manage my spend?

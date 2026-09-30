@@ -6,9 +6,9 @@
   "url": "https://mailchimp.com/pricing/",
   "final_url": "https://mailchimp.com/pricing/marketing/",
   "parser_version": 4,
-  "content_hash": "2dfa962124d556b619e6ea9dcd72faa84e70670b86f8867c73835ed4ad64a0d4",
-  "raw_hash": "56d0f0b224506c4e225fb3e6c5398c23e1f3664993610513c406054497efcc10",
-  "text_bytes": 22481,
+  "content_hash": "c9738d05f4533a5de4a5a4f2c8dcae4e3f3ff78243db65571a9d6fd641ad081d",
+  "raw_hash": "c1df70997c210303d2cd106079a7dd1176039bdad5ce3da53d70eaccf8afe94a",
+  "text_bytes": 22505,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -74,7 +74,7 @@
       "rows": [
         [
           "",
-          "Free Trial of Premium for 1 Month and plans for large contact lists available. Talk to our Sales team at 1800 433 7197 or contact us ."
+          "Free Trial of Premium for 1 Month and plans for large contact lists available. Talk to our Sales team at +1 (800) 330-4838 or contact us ."
         ],
         [
           "Not sure how to choose? Here are your results We’ve got your back. Answer a few quick questions and we can make a personalized recommendation for you. We’ve got",

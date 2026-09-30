@@ -4,41 +4,30 @@
   "vendor": "Stripe",
   "category": "dev-infra",
   "url": "https://stripe.com/pricing",
-  "final_url": "https://stripe.com/en-ca/pricing",
+  "final_url": "https://stripe.com/pricing",
   "parser_version": 4,
-  "content_hash": "0c529c16dbe7d1ea9fd981d4609b3372ce576bb15dc2e47af8a6aa0c1f37af2b",
-  "raw_hash": "cc9ef4b47827a4c871799f9d371353cb2375409782a4a8d96c6e6b9eb2742fb5",
-  "text_bytes": 25364,
+  "content_hash": "febbc295fa4b4b9124dee6e3288b54f05574faa8642cf116555d7de8acc9575f",
+  "raw_hash": "311466fab7efb63fa540eef5184cb0df39ab863aa90eb83acccfe91d4cf720cc",
+  "text_bytes": 31484,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
     {
-      "name": "Cards and wallets",
-      "price_raw": "A$0.30",
-      "amount": 0.3,
-      "currency": "AUD",
-      "period": null,
-      "features": [],
-      "slot_prices": [
-        0.3
-      ]
-    },
-    {
       "name": "Bank-based and other payment methods",
-      "price_raw": "A$0.40",
-      "amount": 0.4,
-      "currency": "AUD",
+      "price_raw": "$5.00",
+      "amount": 5.0,
+      "currency": "USD",
       "period": null,
       "features": [],
       "slot_prices": [
-        0.4
+        5.0
       ]
     },
     {
       "name": "Disputes",
-      "price_raw": "A$15.00",
+      "price_raw": "$15.00",
       "amount": 15.0,
-      "currency": "AUD",
+      "currency": "USD",
       "period": null,
       "features": [],
       "slot_prices": [
@@ -47,40 +36,29 @@
     },
     {
       "name": "3D Secure authentication",
-      "price_raw": "A$0.04",
-      "amount": 0.04,
-      "currency": "AUD",
+      "price_raw": "$0.03",
+      "amount": 0.03,
+      "currency": "USD",
       "period": null,
       "features": [],
       "slot_prices": [
-        0.04
-      ]
-    },
-    {
-      "name": "Instant payouts",
-      "price_raw": "A$0.60",
-      "amount": 0.6,
-      "currency": "AUD",
-      "period": null,
-      "features": [],
-      "slot_prices": [
-        0.6
+        0.03
       ]
     },
     {
       "name": "Shared Payment Tokens",
-      "price_raw": "A$0.20",
-      "amount": 0.2,
-      "currency": "AUD",
+      "price_raw": "$0.15",
+      "amount": 0.15,
+      "currency": "USD",
       "period": null,
       "features": [],
       "slot_prices": [
-        0.2
+        0.15
       ]
     },
     {
       "name": "Custom domain",
-      "price_raw": "US$10.00",
+      "price_raw": "$10.00",
       "amount": 10.0,
       "currency": "USD",
       "period": "month",
@@ -91,7 +69,7 @@
     },
     {
       "name": "Post-payment invoices",
-      "price_raw": "US$2.00",
+      "price_raw": "$2.00",
       "amount": 2.0,
       "currency": "USD",
       "period": null,
@@ -102,101 +80,123 @@
     },
     {
       "name": "Cards and wallets",
-      "price_raw": "A$0.05",
-      "amount": 0.05,
-      "currency": "AUD",
+      "price_raw": "$0.10",
+      "amount": 0.1,
+      "currency": "USD",
       "period": null,
       "features": [],
       "slot_prices": [
-        0.05
+        0.1
       ]
     },
     {
       "name": "Card readers",
-      "price_raw": "A$79.00",
-      "amount": 79.0,
-      "currency": "AUD",
-      "period": null,
-      "features": [],
-      "slot_prices": [
-        79.0
-      ]
-    },
-    {
-      "name": "Mobile",
-      "price_raw": "A$14.00",
-      "amount": 14.0,
-      "currency": "AUD",
-      "period": "month",
-      "features": [],
-      "slot_prices": [
-        14.0
-      ]
-    },
-    {
-      "name": "Pay monthly",
-      "price_raw": "A$770.00",
-      "amount": 770.0,
-      "currency": "AUD",
-      "period": "month",
-      "features": [],
-      "slot_prices": [
-        770.0
-      ]
-    },
-    {
-      "name": "Startup",
-      "price_raw": "US$0.04",
-      "amount": 0.04,
+      "price_raw": "$59.00",
+      "amount": 59.0,
       "currency": "USD",
       "period": null,
       "features": [],
       "slot_prices": [
-        0.04
+        59.0
       ]
     },
     {
-      "name": "Custom",
-      "price_raw": "US$0.03",
-      "amount": 0.03,
+      "name": "Cellular",
+      "price_raw": "$10.00",
+      "amount": 10.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [],
+      "slot_prices": [
+        10.0
+      ]
+    },
+    {
+      "name": "Instant bank account verifications",
+      "price_raw": "$1.50",
+      "amount": 1.5,
       "currency": "USD",
       "period": null,
       "features": [],
       "slot_prices": [
-        0.03
+        1.5
       ]
     },
     {
-      "name": "Tax Complete",
-      "price_raw": "A$120.00",
-      "amount": 120.0,
-      "currency": "AUD",
-      "period": "month",
-      "features": [],
-      "slot_prices": [
-        120.0
-      ]
-    },
-    {
-      "name": "Tax Basic",
-      "price_raw": "A$0.50",
-      "amount": 0.5,
-      "currency": "AUD",
+      "name": "Balances",
+      "price_raw": "$0.10",
+      "amount": 0.1,
+      "currency": "USD",
       "period": null,
       "features": [],
       "slot_prices": [
-        0.5
+        0.1
       ]
     },
     {
-      "name": "Monthly subscription",
-      "price_raw": "A$21.00",
-      "amount": 21.0,
-      "currency": "AUD",
+      "name": "Account owners",
+      "price_raw": "$1.50",
+      "amount": 1.5,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        1.5
+      ]
+    },
+    {
+      "name": "Transactions",
+      "price_raw": "$0.30",
+      "amount": 0.3,
+      "currency": "USD",
       "period": "month",
       "features": [],
       "slot_prices": [
-        21.0
+        0.3
+      ]
+    },
+    {
+      "name": "Treasury",
+      "price_raw": "$2.00",
+      "amount": 2.0,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        2.0
+      ]
+    },
+    {
+      "name": "Global Payouts (Domestic)",
+      "price_raw": "$1.50",
+      "amount": 1.5,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        1.5
+      ]
+    },
+    {
+      "name": "Global Payouts (International)",
+      "price_raw": "$1.50",
+      "amount": 1.5,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        1.5
+      ]
+    },
+    {
+      "name": "Domestic payouts",
+      "price_raw": "$1.50",
+      "amount": 1.5,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        1.5
       ]
     }
   ],

@@ -1,7 +1,74 @@
 Models
+OpenAI: GPT-6.1 Sol Pro (batch)
+GPT-6.1 Sol Pro (batch)
+GPT-6.1 Sol Pro is the same underlying model as
+GPT-6.1 Sol
+, served with
+reasoning.mode
+set to
+pro
+for higher-quality responses on complex tasks.
+Cost note:
+pro mode spends far more reasoning tokens per request, so a typical request costs several times more than the same request on GPT-6.1 Sol and takes much longer to complete. It is intended for hard, high-stakes problems where the extra accuracy justifies the cost. For everyday coding, agentic, and chat workloads, use
+GPT-6.1 Sol
+instead. Learn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode
+by
+openai
+Sep 29, 2026
+1.05M context
+$1/M input
+tokens
+$5/M output
+tokens
+OpenAI: GPT-6.1 Sol Pro
+GPT-6.1 Sol Pro
+2.27B tokens
+GPT-6.1 Sol Pro is the same underlying model as
+GPT-6.1 Sol
+, served with
+reasoning.mode
+set to
+pro
+for higher-quality responses on complex tasks.
+Cost note:
+pro mode spends far more reasoning tokens per request, so a typical request costs several times more than the same request on GPT-6.1 Sol and takes much longer to complete. It is intended for hard, high-stakes problems where the extra accuracy justifies the cost. For everyday coding, agentic, and chat workloads, use
+GPT-6.1 Sol
+instead. Learn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode
+by
+openai
+Sep 29, 2026
+1.05M context
+$2/M input
+tokens
+$10/M output
+tokens
+OpenAI: GPT-6.1 Sol (batch)
+GPT-6.1 Sol (batch)
+GPT-6.1 Sol is an upgrade to GPT-6 Sol from OpenAI, positioned below the flagship GPT-6 Astra in the GPT-6 series. It is suited for agentic coding, computer use, document-heavy professional work, and multi-step business workflow automation, and approaches Astra-level results on these tasks at a much lower cost. Compared with GPT-6 Sol, it makes fewer factual errors and is more reliable at respecting explicit restrictions and user intent during agentic tasks.
+by
+openai
+Sep 29, 2026
+1.05M context
+$1/M input
+tokens
+$5/M output
+tokens
+OpenAI: GPT-6.1 Sol
+GPT-6.1 Sol
+51.1B tokens
+SEO (#40)
+GPT-6.1 Sol is an upgrade to GPT-6 Sol from OpenAI, positioned below the flagship GPT-6 Astra in the GPT-6 series. It is suited for agentic coding, computer use, document-heavy professional work, and multi-step business workflow automation, and approaches Astra-level results on these tasks at a much lower cost. Compared with GPT-6 Sol, it makes fewer factual errors and is more reliable at respecting explicit restrictions and user intent during agentic tasks.
+by
+openai
+Sep 29, 2026
+1.05M context
+$2/M input
+tokens
+$10/M output
+tokens
 Anthropic: Claude Sonnet 5.5 (batch)
 Claude Sonnet 5.5 (batch)
-11.5M tokens
+70.8M tokens
 Claude Sonnet 5.5 is Anthropic's Sonnet-class model for well-scoped everyday work, succeeding Claude Sonnet 5 as a direct upgrade. It is especially strong at building features, fixing bugs, and producing polished documents, slides, and spreadsheets, and it writes and communicates more clearly than its predecessor. Thinking is always on, so effort is the main lever for trading off depth, latency, and cost, and lower effort settings keep it responsive for everyday agentic loops.
 by
 anthropic
@@ -13,7 +80,8 @@ $5/M output
 tokens
 Anthropic: Claude Sonnet 5.5
 Claude Sonnet 5.5
-36.4B tokens
+147B tokens
+Finance (#45)
 Claude Sonnet 5.5 is Anthropic's Sonnet-class model for well-scoped everyday work, succeeding Claude Sonnet 5 as a direct upgrade. It is especially strong at building features, fixing bugs, and producing polished documents, slides, and spreadsheets, and it writes and communicates more clearly than its predecessor. Thinking is always on, so effort is the main lever for trading off depth, latency, and cost, and lower effort settings keep it responsive for everyday agentic loops.
 by
 anthropic
@@ -26,7 +94,7 @@ tokens
 Upstage: Solar Decide
 Solar Decide
 50% off
-507M tokens
+1.76B tokens
 Solar Decide is Upstage's structured decision model, served as a System One endpoint on Solar Mini 4. Send a state along with typed questions, and it returns a choice, a score, or a yes/no answer, each with a calibrated probability taken directly from the model rather than written out as text. Because it generates no prose, each decision takes a single forward pass and output tokens are free. With a 512K context window, an entire document can serve as the state. Solar Decide uses the same /v1/systemone schema as Jev, bringing Solar Mini 4's strong Korean understanding to routing, classification, and policy checks.
 by
 upstage
@@ -38,7 +106,7 @@ $0/M output
 tokens
 Respan: Span-01
 Span-01
-4.52B tokens
+4.8B tokens
 Span-01 is a behavior scoring model from Respan. It reads a conversation span and returns, for each plain-language behavior you define, the probability that the behavior is present. It is suited for evaluation, guardrails, and monitoring of LLM and agent outputs at scale. It is the higher-accuracy tier of the family. Span-01 Lite is the free, lighter tier.
 by
 respan
@@ -49,7 +117,7 @@ $0/M output
 tokens
 Respan: Span-01 Lite
 Span-01 Lite
-3.74B tokens
+8.81B tokens
 Span-01 Lite is the free, lighter tier of Span-01, a behavior scoring model from Respan. It returns, for each plain-language behavior you define, the probability that the behavior is present in a conversation span, and is suited for high-volume evaluation and monitoring where cost matters more than peak accuracy.
 by
 respan
@@ -60,7 +128,7 @@ $0/M output
 tokens
 Respan: Span-01 Lite (free)
 Span-01 Lite (free)
-143M tokens
+160M tokens
 Span-01 Lite is the free, lighter tier of Span-01, a behavior scoring model from Respan. It returns, for each plain-language behavior you define, the probability that the behavior is present in a conversation span, and is suited for high-volume evaluation and monitoring where cost matters more than peak accuracy.
 by
 respan
@@ -71,7 +139,7 @@ $0/M output
 tokens
 ByteDance Seed: Seed Audio 1.0
 Seed Audio 1.0
-610K tokens
+852K tokens
 Seed Audio 1.0 is ByteDance Seed's non-streaming audio generation model. It produces speech and other audio from a natural-language text prompt that can describe the desired voice, tone, and sound effects, optionally guided by a Seed speaker ID or a reference audio clip for voice cloning. Output is limited to 120 seconds per request and is billed per second of generated audio. Suited to audiobooks, voiceovers, games, and similar workloads.
 by
 bytedance-seed
@@ -88,7 +156,7 @@ Sep 25, 2026
 1M context
 Jared Palmer: Kev 4B
 Kev 4B
-351M tokens
+667M tokens
 Kev 4B is a small open-weight decision model from Jared Palmer, built as a LoRA adapter and pointer head on Qwen3.5-4B-Base and served over the same /v1/systemone contract as TypeSafe's Jev. Send a state and typed questions (yes/no, multiple choice, or score) and it returns a calibrated probability per question in one forward pass, with no generated text. It is the recommended checkpoint in the Kev family (0.8B, 4B, 9B) and is suited for routing, classification, and policy checks that want a compact, Apache-2.0 alternative to Jev. Code, model cards, and eval suites: https://github.com/jaredpalmer/kev
 by
 jaredpalmer
@@ -100,7 +168,7 @@ $0/M output
 tokens
 Perceptron: Perceptron Mk1.5
 Perceptron Mk1.5
-803M tokens
+847M tokens
 Perceptron Mk1.5 is Perceptron's embodied reasoning model for physical agents. It accepts text, image, video, and audio input, and answers with text plus optional structured annotations: points, boxes, polygons, tracks, and clips. It supports graded reasoning through the standard reasoning controls, function tool calling, and structured outputs via JSON Schema. Structured annotations are emitted inline with text only when requested via the
 annotation_format
 parameter (
@@ -122,7 +190,7 @@ $1.50/M output
 tokens
 Google: Gemini 3.5 Transcribe
 Gemini 3.5 Transcribe
-36.3M characters
+51.2M characters
 Gemini 3.5 Transcribe is a speech-to-text model from Google. It is suited for synchronous transcription that needs word-level timestamps or speaker diarization, with support for up to eight speakers. Audio can be up to one hour, or 30 minutes when timestamps or diarization are enabled.
 by
 google
@@ -134,7 +202,7 @@ $12/M output
 tokens
 Fish Audio: Transcribe 1 Pro
 Transcribe 1 Pro
-11.6M characters
+15.7M characters
 Transcribe 1 Pro is a speech-to-text model from Fish Audio tuned for interviews, meetings, and podcasts. It labels speakers with inline
 speaker
 markers, preserves emotion and vocal-event cues such as
@@ -144,84 +212,5 @@ by
 fish-audio
 Sep 24, 2026
 $0.0001/second
-Fireworks: Ember-1
-Ember-1
-5.55B tokens
-Ember-1 is a specialized reasoning model from Fireworks Research, built on
-Kimi K3
-. It is designed to make every token go further: it produces shorter reasoning traces, using roughly 40% fewer tokens than the base model while maintaining comparable quality across Fireworks' evaluations. It is suited for coding, knowledge work, and agentic workflows where reasoning cost and latency matter.
-by
-fireworks
-Sep 24, 2026
-1.05M context
-$3/M input
-tokens
-$15/M output
-tokens
-inclusionAI: Ming Image 0.1 Design Layer
-Ming Image 0.1 Design Layer
-1.01B tokens
-Ming Image 0.1 Design Layer is an image-to-image model from inclusionAI that decomposes a flattened design image into separate RGBA layers, such as a background layer and foreground elements, and returns one image per layer. It requires exactly one reference image and a prompt describing the layer plan. Output format can be requested as PNG or WebP. Output dimensions follow the input image, so explicit sizes and aspect ratios are rejected instead of silently reshaped.
-by
-inclusionai
-Sep 23, 2026
-$0/M input
-tokens
-$0/M output
-tokens
-Google: Gemini 3.8 Flash Lite TTS
-Gemini 3.8 Flash Lite TTS
-84.1M tokens
-Gemini 3.8 Flash Lite TTS is a text-to-speech model from Google and the fast, high-throughput member of the 3.8 TTS family alongside
-Gemini 3.8 Flash TTS
-. It is suited for conversational voice-agent pipelines, high-volume read-aloud, and voice replication workloads where latency and cost matter more than maximum expressiveness. It accepts the same speech configuration as
-Gemini 3.1 Flash TTS Preview
-, including the 30 prebuilt studio voices, and supports Google's Voice Design and Voice Replication through
-voice_...
-identifiers.
-by
-google
-Sep 23, 2026
-8K context
-$0.50/M input
-tokens
-$6/M output
-tokens
-Google: Gemini 3.8 Flash TTS
-Gemini 3.8 Flash TTS
-298M tokens
-Gemini 3.8 Flash TTS is a text-to-speech model from Google and the successor to
-Gemini 3.1 Flash TTS Preview
-. It is the creative tier of the 3.8 TTS family, suited for narration, character work, and multi-speaker dialogue where voice fidelity, acting nuance, and regional dialect coverage matter more than latency. It accepts the same speech configuration as its predecessor, including the 30 prebuilt studio voices, and supports Google's Voice Design (custom voices from a text description) and Voice Replication (voices cloned from a short sample) through
-voice_...
-identifiers.
-by
-google
-Sep 23, 2026
-8K context
-$0.50/M input
-tokens
-$9/M output
-tokens
-Z.ai: GLM 5.3 Prime
-GLM 5.3 Prime
-26B tokens
-GLM-5.3-Prime is the high-speed variant of Z.ai's GLM-5.3, inheriting its full capabilities while delivering 1.5–2× the output throughput through inference acceleration. It supports text input and output with a 1M-token context window and up to 128K output tokens, and targets coding and agentic workloads, including long-horizon multi-turn agent orchestration, real-time conversation, and streaming code generation. Reasoning is always on and cannot be disabled. Reasoning efforts
-low
-,
-high
-, and
-max
-are supported;
-max
-is the default.
-by
-z-ai
-Sep 23, 2026
-1M context
-$2.80/M input
-tokens
-$8.80/M output
-tokens
 Compare
 Discover Models

@@ -72,15 +72,14 @@ Try ChatGPT
 Copy Page
 Pricing
 Copy Page
-FedRAMP endpoints are charged a 10% uplift over the corresponding standard model
-rates.
 Flagship models
 Our latest models
 Prices per 1M tokens.
 Standard
 Batch
 Flex
-Fast mode
+Fast
+Ultrafast
 Standard
 Short context
 Long context
@@ -102,13 +101,13 @@ $20.00
 $2.00
 $25.00
 $75.00
-gpt-6-sol
+gpt-6.1-sol
 $2.00
-$0.20
+$0.10
 $2.50
 $10.00
 $4.00
-$0.40
+$0.20
 $5.00
 $15.00
 gpt-6-luna
@@ -120,20 +119,12 @@ $0.20
 $0.02
 $0.25
 $0.75
-Regional processing (data residency) endpoints are charged a 10% uplift for models released on or after March 5, 2026, that are eligible for data residency. For GPT-6 Sol and Luna, EU data residency is available only with Standard processing. See our
-Your data
-guide for supported regions and processing details.
-OpenAI models in Amazon Bedrock
-are billed through AWS. Bedrock pricing in commercial regions matches OpenAI direct pricing for equivalent services.
-Priority processing was renamed Fast mode on July 30, 2026. You can use either
-service_tier: "priority"
-or
-service_tier: "fast"
-in your API requests.
-Learn more about Fast mode
-.
-GPT-5.6 Sol’s promotional pricing is available at least through November 21, 2026.
 All models
+Regional processing (data residency) endpoints are charged a 10% uplift for
+models released on or after March 5, 2026. FedRAMP endpoints are also
+charged a 10% uplift. Priority processing was renamed Fast mode on July 30,
+2026. GPT-5.6 Sol’s promotional pricing is available at least through
+November 21, 2026.
 Cyber models
 Our latest Daybreak models.
 Prices per 1M tokens.
@@ -167,21 +158,7 @@ $75.00
 -
 -
 All models
-gpt-daybreak-blue-latest
-and
-gpt-daybreak-red-latest
-are aliases that currently point to
-gpt-5.6-sol
-and
-gpt-5.6-cyber
-, respectively. As new models are released through
-the Daybreak program, these aliases will be updated to point to the latest
-models, with pricing adjusted to match each underlying model.
 Multimodal models
-To estimate vision model input costs, use the
-image input cost
-calculator
-.
 GPT-Live sessions
 GPT-Live 1
 voice sessions are billed per second,
@@ -227,11 +204,6 @@ $0.08
 All models
 Image generation models
 Prices per 1M tokens.
-Cached input rates for GPT Image 2 and GPT Image 2.5 only apply to images
-generated with the Responses API -
-learn
-more
-.
 Standard
 Batch
 Standard
@@ -344,7 +316,7 @@ Code Interpreter
 Specialized models
 Prices per 1M tokens.
 Standard
-Fast mode
+Fast
 Standard
 Category
 Model
@@ -366,6 +338,7 @@ gpt-rosalind-research
 $5.00
 $0.50
 $25.00
+All models
 Billing for
 gpt-rosalind-research
 begins on October 5, 2026. Cache-write pricing does not apply to this model. Access is limited to approved internal research through the
@@ -374,7 +347,6 @@ trusted-access program
 Regional processing (data residency) endpoints are charged a 10% uplift for models released on or after March 5, 2026, that are eligible for data residency. See our
 Your data
 guide for supported regions and processing details.
-All models
 Finetuning
 Prices per 1M tokens.
 OpenAI is winding down the fine-tuning platform. The platform is no longer
@@ -406,6 +378,15 @@ $8.00
 All models
 Tokens used for model grading in reinforcement fine-tuning are billed at that model's per-token rate. Inference discounts are available if you enable data sharing when creating the fine-tune job.
 Learn more
+.
+Cloud platforms
+OpenAI models on Amazon Bedrock and Microsoft Azure are billed through those
+services.
+See
+Amazon Bedrock pricing
+.
+See
+Microsoft Azure pricing
 .
 Ask AI
 Docs agent

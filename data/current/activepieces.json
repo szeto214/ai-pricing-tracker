@@ -6,9 +6,9 @@
   "url": "https://www.activepieces.com/pricing",
   "final_url": "https://www.activepieces.com/pricing",
   "parser_version": 4,
-  "content_hash": "b3aa6df445e47a5fb333935767361fc9681d3c759e2c6e15a2ed5e4c7419dc6f",
-  "raw_hash": "d658f65083e5a62a5234b8f9bd4b31dbd40e33399174b9310eb1a8a45965a035",
-  "text_bytes": 5832,
+  "content_hash": "23aca554661d75aea02f9b7fd1d6b109a2fe9978323039906541dbb9b49f5446",
+  "raw_hash": "1dd39ea0083a9319d9076ddbdf8d30b0ff2178a633db38397cc219bc797de74b",
+  "text_bytes": 5826,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -19,7 +19,7 @@
       "currency": "USD",
       "period": null,
       "features": [
-        "100 credits a day",
+        "1,000 credits a month",
         "Chat to automation",
         "Unlimited flows",
         "Flows, Agents, Tables",
@@ -36,7 +36,7 @@
       "currency": "USD",
       "period": "month",
       "features": [
-        "3× the Free plan, no daily cap",
+        "10× the Free plan",
         "Then pay as you go",
         "Up to 5 users",
         "Bring your own AI keys"
@@ -154,7 +154,7 @@
         ],
         [
           "Credits included",
-          "100 a day",
+          "1,000 a month",
           "10,000 a month",
           "50,000 a month",
           "Sized with you"

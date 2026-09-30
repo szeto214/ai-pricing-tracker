@@ -6,9 +6,9 @@
   "url": "https://www.jetbrains.com/ai-ides/buy/",
   "final_url": "https://www.jetbrains.com/ai-ides/buy/?section=personal&billing=yearly",
   "parser_version": 4,
-  "content_hash": "83aadca63afc40416b56afa2941357ac2b9522496b8bb7ac91394e404a5c69e0",
-  "raw_hash": "259df8aa5fcfbc9b0de0153299ccaf2bacf07d65debdb0767d37befb9f1fbbbb",
-  "text_bytes": 4536,
+  "content_hash": "9945ce6c33e680780eaaced2a2726c9de85675b2e4cbd6898ea3dbe78c8eb9a4",
+  "raw_hash": "97e0256f7de1795930cbac9455143dfbd9a1424e99d8c26856ad6bfb805ed831",
+  "text_bytes": 4509,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

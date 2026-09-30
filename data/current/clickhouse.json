@@ -4,18 +4,18 @@
   "vendor": "ClickHouse",
   "category": "database",
   "url": "https://clickhouse.com/pricing",
-  "final_url": "https://clickhouse.com/pricing?service=clickhouse&pg.plan=scale&pg.provider=aws&pg.profile=memory&pg.architecture=arm&pg.standby=0&pg.region=us-east-1&useCase=real-time-analytics&hours=24&plan=scale&provider=aws&region=us-east-1&storageCompressed=false",
+  "final_url": "https://clickhouse.com/pricing?service=clickhouse&pg.plan=scale&pg.provider=aws&pg.profile=memory&pg.architecture=arm&pg.standby=0&pg.region=us-east-1&plan=scale&provider=aws&region=us-east-1&useCase=real-time-analytics&hours=24&storage=1TB&computeMinSize=8&computeMaxSize=8&replicas=3&storageCompressed=false&fullBackup=1TB",
   "parser_version": 4,
-  "content_hash": "eb95017f3832c7490e6f84c86c11217bdab1e10f6b0089c0c095d0e1abf3cf72",
-  "raw_hash": "6e0373034c434f43f03a8a37dacfa63fe9b8aace9bedb6df08c61d9752b14831",
-  "text_bytes": 4889,
+  "content_hash": "eb0a344ce8e6f2e159ac262231bd828f8542d9f1016cb4d038109f447481d23b",
+  "raw_hash": "dae2c13d58c4f0919f09dde3ccf3c2fb6ed70fd438d55cb409769ca29c14d8cc",
+  "text_bytes": 8269,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
     {
       "name": "Basic",
-      "price_raw": "$25.30",
-      "amount": 25.3,
+      "price_raw": "$53",
+      "amount": 53.0,
       "currency": "USD",
       "period": "month",
       "features": [
@@ -30,13 +30,13 @@
         "Multi-factor authentication (MFA)"
       ],
       "slot_prices": [
-        25.3
+        53.0
       ]
     },
     {
       "name": "Scale",
-      "price_raw": "$25.30",
-      "amount": 25.3,
+      "price_raw": "$437",
+      "amount": 437.0,
       "currency": "USD",
       "period": "month",
       "features": [
@@ -54,13 +54,13 @@
         "Manual horizontal scaling"
       ],
       "slot_prices": [
-        25.3
+        437.0
       ]
     },
     {
       "name": "Enterprise",
-      "price_raw": "$25.30",
-      "amount": 25.3,
+      "price_raw": "$571",
+      "amount": 571.0,
       "currency": "USD",
       "period": "month",
       "features": [
@@ -76,7 +76,7 @@
         "HIPAA and PCI compliance"
       ],
       "slot_prices": [
-        25.3
+        571.0
       ]
     },
     {
@@ -89,9 +89,46 @@
       "slot_prices": [
         0.125
       ]
+    },
+    {
+      "name": "Estimate your monthly cost",
+      "price_raw": "$658",
+      "amount": 658.0,
+      "currency": "USD",
+      "period": "day",
+      "features": [
+        "$2.53 for storage",
+        "$655.42 compute cost",
+        "Includes 3 availability zones"
+      ],
+      "slot_prices": [
+        658.0
+      ]
     }
   ],
   "models": [],
-  "tables": [],
+  "tables": [
+    {
+      "caption": "",
+      "rows": [
+        [
+          "8GiB",
+          "Memory per replica"
+        ],
+        [
+          "2 vCPU",
+          "vCPUs per replica"
+        ],
+        [
+          "3",
+          "Replicas"
+        ],
+        [
+          "24",
+          "Active hours per day"
+        ]
+      ]
+    }
+  ],
   "extract_errors": []
 }

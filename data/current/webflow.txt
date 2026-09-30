@@ -912,6 +912,8 @@ Add Localize
 2
 3
 locales added
+10,000
+words per month
 AI-powered translation
 CMS localization
 Static page localization
@@ -935,6 +937,8 @@ Add Localize
 9
 10
 locales added
+50,000
+words per month
 AI-powered translation
 CMS localization
 Static page localization
@@ -975,7 +979,7 @@ Localize your site for audiences around the world
 Contact us
 Talk to sales
 Custom number of locales
-Machine-powered translation
+AI-powered translation
 CMS localization
 Static page localization
 Localized SEO
@@ -1097,27 +1101,37 @@ Element visibility per-locale
 Show or hide individual elements across locales
 —
 —
-Translate & connect
+AI translation
 Features
 Essential
 Advanced
 Enterprise
-Native AI-powered translation
-Automatically translate any text in your supported locales
-10K words per locale per month
-50K words per locale per month
+Translated Words
+Number of words translated through AI translation.
+10K per locale per month
+50K per locale per month
 Custom
+Agentic translation
+Translate content as it is created.
+Translation memory
+Automatically apply previous translated words reducing words counted against limits.
+Exclusion rules
+Exclude page, CMS and Component content from the translation process.
 Formality and tone
 Set formality and tone per language
-—
-Partner translation apps
-Leverage direct integrations with translation management systems via Webflow Apps
-API access
-Leverage flexible APIs to connect your Webflow site to a translation management system (TMS) of your choice
 Custom translation glossary
 Upload a custom glossary to ensure accurate and consistent translations for common terms across locales
 —
 —
+Connect
+Features
+Essential
+Advanced
+Enterprise
+Partner translation apps
+Leverage direct integrations with translation management systems via Webflow Apps
+API access
+Leverage flexible APIs to connect your Webflow site to a translation management system (TMS) of your choice
 Publish & deliver
 Features
 Essential

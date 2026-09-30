@@ -6,9 +6,9 @@
   "url": "https://docs.voyageai.com/docs/pricing",
   "final_url": "https://docs.voyageai.com/docs/pricing",
   "parser_version": 4,
-  "content_hash": "ca15f1daf409f6e29882c83ee175d23d4c9c4c676d969f132509bac1afdacbea",
-  "raw_hash": "87dfe617e1218f268e1772c0b1db5b5d55084239f2388ead2bd8f39e472509c6",
-  "text_bytes": 4926,
+  "content_hash": "8948a106a3181cc30999b513f11005abc03c3c9b55fab9a603e9982a09793f38",
+  "raw_hash": "a10b7cf903a7b26bb2054c000a78d7c609cca82507cb22d3473634a3418772ce",
+  "text_bytes": 4877,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -179,6 +179,18 @@
       "slot_prices": [
         0.0001,
         0.1
+      ]
+    },
+    {
+      "name": "rerank-1",
+      "price_raw": "$0.00005",
+      "amount": 5e-05,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        5e-05,
+        0.05
       ]
     },
     {
@@ -396,46 +408,6 @@
       "unit": "per thousand tokens"
     },
     {
-      "key": "rerank-2.5",
-      "model": "rerank-2.5",
-      "prices": {
-        "price per thousand tokens": {
-          "raw": "$0.00005",
-          "amount": 5e-05
-        },
-        "price per million tokens": {
-          "raw": "$0.05",
-          "amount": 0.05
-        },
-        "estimated price per request*": {
-          "raw": "$0.0025",
-          "amount": 0.0025
-        }
-      },
-      "currency": "USD",
-      "unit": "per thousand tokens"
-    },
-    {
-      "key": "rerank-2.5-lite",
-      "model": "rerank-2.5-lite",
-      "prices": {
-        "price per thousand tokens": {
-          "raw": "$0.00002",
-          "amount": 2e-05
-        },
-        "price per million tokens": {
-          "raw": "$0.02",
-          "amount": 0.02
-        },
-        "estimated price per request*": {
-          "raw": "$0.001",
-          "amount": 0.001
-        }
-      },
-      "currency": "USD",
-      "unit": "per thousand tokens"
-    },
-    {
       "key": "voyage-context-3",
       "model": "voyage-context-3",
       "prices": {
@@ -548,8 +520,8 @@
       "unit": "per thousand tokens"
     },
     {
-      "key": "rerank-1 rerank-2",
-      "model": "rerank-1 rerank-2",
+      "key": "rerank-1 rerank-2 rerank-2.5",
+      "model": "rerank-1 rerank-2 rerank-2.5",
       "prices": {
         "price per thousand tokens": {
           "raw": "$0.00005",
@@ -564,8 +536,8 @@
       "unit": "per thousand tokens"
     },
     {
-      "key": "voyage-3-lite rerank-lite-1 rerank-2-lite",
-      "model": "voyage-3-lite rerank-lite-1 rerank-2-lite",
+      "key": "voyage-3-lite rerank-lite-1 rerank-2-lite rerank-2.5-lite",
+      "model": "voyage-3-lite rerank-lite-1 rerank-2-lite rerank-2.5-lite",
       "prices": {
         "price per thousand tokens": {
           "raw": "$0.00002",
@@ -703,20 +675,6 @@
           "$0.02",
           "$0.001",
           "200 million"
-        ],
-        [
-          "rerank-2.5",
-          "$0.00005",
-          "$0.05",
-          "$0.0025",
-          "0"
-        ],
-        [
-          "rerank-2.5-lite",
-          "$0.00002",
-          "$0.02",
-          "$0.001",
-          "0"
         ]
       ]
     },
@@ -769,12 +727,12 @@
           "$0.06"
         ],
         [
-          "rerank-1 rerank-2",
+          "rerank-1 rerank-2 rerank-2.5",
           "$0.00005",
           "$0.05"
         ],
         [
-          "voyage-3-lite rerank-lite-1 rerank-2-lite",
+          "voyage-3-lite rerank-lite-1 rerank-2-lite rerank-2.5-lite",
           "$0.00002",
           "$0.02"
         ]

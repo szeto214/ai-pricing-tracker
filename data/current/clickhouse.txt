@@ -2,7 +2,7 @@ Cookie Policy
 Allow cookies
 Dismiss
 Skip to content
-Native PromQL support is finally here!
+ClickHouse speed is now inside Microsoft Fabric
 ->
 ->
 Copy logo as SVG
@@ -34,13 +34,14 @@ Arabic
 Sign in
 Get Started
 Pricing
-Options for every user, organization, and use case.
+Pay only for the compute and storage you use, metered separately and scaled to zero when idle. Start free with $300 in credits for 30 days.
 N. Virginia (us-east-1)
-Or
-request a private/other region
 Basic
 Great for testing out new ideas or starter projects. Limited storage and memory.
-Estimate your monthly cost ↓
+From
+$53
+/ month
+Start free trial
 Includes:
 Up to 1 TB storage
 8-12 GiB total memory
@@ -50,16 +51,22 @@ Export backups to your own cloud account
 Expert support with 1 business day response time
 Single sign-on authentication (SSO) using Google or Microsoft Social login
 Multi-factor authentication (MFA)
+See all features
 Storage
 $25.30
 Per 1TB / mo
 Compute
 $0.2181
 Per unit / hr
-Start your 30-day free trial
+Estimate your monthly cost
+↓
+Most popular
 Scale
 For working with production environments, data at scale, or professional use cases.
-Estimate your monthly cost ↓
+From
+$437
+/ month
+Start free trial
 Everything in
 Basic
 , plus:
@@ -74,16 +81,21 @@ S3 role-based access
 Private networking
 Automatic vertical scaling
 Manual horizontal scaling
+See all features
 Storage
 $25.30
 Per 1TB / mo
 Compute
 $0.2985
 Per unit / hr
-Start your 30-day free trial
+Estimate your monthly cost
+↓
 Enterprise
 For working with production environments, very large data at scale, or enterprise use cases.
-Estimate your monthly cost ↓
+From
+$571
+/ month
+Start free trial
 Everything in
 Scale
 , plus:
@@ -96,19 +108,24 @@ Transparent data encryption / CMEK
 Scheduled upgrades
 Consultative migrations guides
 HIPAA and PCI compliance
+See all features
 Storage
 $25.30
 Per 1TB / mo
 Compute
 $0.3903
 Per unit / hr
-Start your 30-day free trial
+Estimate your monthly cost
+↓
 Data transfer
 for public internet egress starting at
-$0.1152 / GB
+$0.1152
+/ GB
 , inter region egress starting at
-$0.0312 / GB
+$0.0312
+/ GB
 .
+Trusted by teams at
 ClickPipes pricing depends on the connector type. See the
 ClickPipes pricing dimensions
 for current rates.
@@ -131,9 +148,9 @@ Start your 30-day free trial
 Bring Your Own Cloud
 Do you have strict data residency and compliance requirements that make typical SaaS offerings a nonstarter? Our Bring Your Own Cloud deployment model allows you to experience the advantages of ClickHouse Cloud within your own Virtual Private Cloud (VPC).
 Learn more
-Contact us
-Need help with your proof of concept?
-Contact us
+Get a custom quote
+Running a proof of concept? Our engineers can help you size and tune it.
+Talk to an expert
 Estimate your monthly cost
 Basic
 Scale
@@ -142,7 +159,8 @@ ClickHouse
 For analytics, observability, and BI
 Postgres
 BETA
-50% discount
+50
+% discount
 For transactional workloads
 Cloud provider
 Region
@@ -151,27 +169,44 @@ What's your use case?
 Real-time analytics
 Storage and compute
 Data volume
-GB
+TB
 Is your data compressed?
 No
 Yes
+100GB
+after compression
+Suggested configuration based on your use case
+Reset
+For real-time analytics use cases, we estimate a memory-to-storage ratio of approximately 1:25.
+Edit
+8GiB
+Memory per replica
+2 vCPU
+vCPUs per replica
+3
+Replicas
+24
+Active hours per day
 Backups
-Enable Backups
+Enable
+Backups
 Backup frequency
 Retention period
 Do you know the size of your full and incremental backup?
 No
 Yes
 Full backup
-MB
+TB
 Incremental backup
 MB
 Data ingestion (ClickPipes)
-Enable Data ingestion (ClickPipes)
+Enable
+Data ingestion (ClickPipes)
 +
 Add data source
 Data transfer
-Enable Data transfer
+Enable
+Data transfer
 Public internet egress / month
 GB
 Inter-region egress / month
@@ -179,16 +214,14 @@ GB
 For details on data transfer and billing, visit our
 data transfer docs
 Average price per month
---
+$658
 Start free trial
 Share
 Contact us
-You’re eligible for custom terms
-🎉
-Contact us for more details
-Get a custom quote
-Start free trial
-Share
+ClickHouse
+$2.53 for storage
+$655.42 compute cost
+Includes 3 availability zones
 Pricing philosophy
 Pay only for what you use
 We automatically scale up and down compute resources based on your workload
@@ -198,9 +231,34 @@ Control and transparency
 Identify key usage drivers using our metered pricing dimensions
 Reserve compute resources to meet the needs of the most demanding workloads
 Set compute autoscaling limits to prevent runaway queries from unexpected bills
-Need help with your ClickHouse Cloud PoC?
-Contact our team of experts
-Loading form...
-Still have questions?
-Have a complex setup or additional questions around pricing? Contact our sales team for help and to get more information on ClickHouse pricing.
+Frequently asked questions
+01
+How does the free trial work?
+Every new ClickHouse Cloud organization starts with $300 in credits to use over 30 days. The trial ends when the credits are used up or the 30 days pass, whichever comes first, and the organization then moves to pay-as-you-go. If you add a payment method during the trial, your credits are still used first; the card is only charged once they are depleted or expire. See the
+billing overview
+for details.
+02
+What is a compute unit?
+One compute unit is 8 GiB of RAM and 2 vCPUs. Compute is metered per minute and billed per compute-unit-hour at the rate for your plan, cloud provider and region shown above. The calculator on this page applies the right rate and rounds to the sizes you can actually provision.
+03
+What happens when my service is idle?
+Compute scales down to zero after a period of inactivity, so you stop paying for compute until the next query or insert wakes the service. Storage is billed continuously for the data you keep. You can control when a service idles and set a maximum autoscaling limit from the Cloud console.
+04
+How is storage measured?
+Storage is metered on the compressed size of your data in object storage, plus backups. Analytical data typically compresses around 10×, so 1 TB of raw data is often billed as roughly 100 GB. Storage rates are the same across plans and vary only by cloud provider and region.
+05
+What else can appear on my bill?
+Beyond compute and storage: backups, billed at the same per-TB rate as storage (every service includes one backup every 24 hours retained for a day, and Scale and Enterprise can configure more); ClickPipes data ingestion; and data transfer for public internet and cross-region egress. Ingress is free. Use the calculator above to add these to your estimate.
+06
+How do I keep costs under control?
+Set a maximum autoscaling limit on compute, control when a service idles, and watch the per-service usage breakdown in the console. Trial and committed-spend customers are emailed automatically at 50%, 75% and 90% of their credits. With compute-compute separation, several services can share one copy of your data, so storage is billed once.
+07
+Can I pay through the AWS, GCP or Azure Marketplace?
+Yes. You can pay as you go or commit to a contract through the AWS, GCP and Azure marketplaces. Pricing is identical whether you buy through a marketplace or directly from ClickHouse, and self-service customers pay monthly by credit card in USD.
+08
+Which plan should I start with?
+Basic suits development, testing and small departmental workloads on a single replica with up to 1 TB of storage. Scale is built for production: two or more availability zones, unlimited storage, autoscaling, private networking and compute-compute separation. Enterprise adds the controls regulated teams need, such as SAML SSO, customer-managed encryption keys, private regions and HIPAA and PCI compliance. You can upgrade from Basic to Scale, or from Scale to Enterprise, at any time.
+Ready to try ClickHouse Cloud?
+Start free with $300 in credits for 30 days. Working through a complex setup or committed-spend pricing? Our sales team can help.
+Start free trial
 Contact sales

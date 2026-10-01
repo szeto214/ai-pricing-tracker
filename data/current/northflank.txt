@@ -372,6 +372,36 @@ $
 ($
 0.6667
 /hr)
+Name
+nf-compute-32-128
+vCPU
+32
+dedicated
+Memory
+131072
+MB
+Price
+$
+1152.00
+/month
+($
+1.6000
+/hr)
+Name
+nf-compute-32-488
+vCPU
+32
+dedicated
+Memory
+499712
+MB
+Price
+$
+3312.00
+/month
+($
+4.6000
+/hr)
 Show more
 Enterprise pricing may apply for high-scale or custom deployments.
 All plans include

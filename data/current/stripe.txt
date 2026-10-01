@@ -588,6 +588,8 @@ $299.00
 Stripe Reader S710
 $299.00
 Stripe Reader S700
+$329.00
+Stripe Reader T600
 Cellular
 Unlimited cellular data usage on enabled readers. Apps on Device data usage limited to 10 GB per reader per month.
 $10.00
@@ -636,13 +638,15 @@ Included at no additional charge for businesses on standard payments pricing
 starting fee for platforms that deploy their own payments pricing to earn revenue on each transaction.
 See pricing details
 Treasury
-Manage business finances in one place
+Manage business banking
+3
+and finances in one place. No minimums or monthly fees.
 Start now
-Open an account in minutes and access funds instantly
-Reduce FX costs with multicurrency accounts and stablecoin access
-Mitigate risk by insuring your funds
-Treasury
-Unify your finances with one business account.
+Open an account in minutes
+Get cashback on card purchases
+Pay other Stripe businesses instantly and for free
+Receive funds
+Add funds and access your settled payments balance instantly.
 Included
 No storage fees or minimum balance required.
 Included
@@ -1099,3 +1103,7 @@ Start building your integration and accept your first payment in minutes. Stripe
 2
 Basic usage-based billing
 features will continue to be available via Stripe's Meters API as part of Billing pricing, with up to 100M events per month included.
+3 Stripe Treasury includes various distinct Stripe products. See applicable
+product terms
+. Stripe is not a bank. Checking accounts are provided exclusively by Fifth Third Bank, National Association, Member FDIC. Deposits are insured through Fifth Third Bank.
+Prepaid debit cards are issued by Cross River Bank and Lead Bank. Cash-like, high-risk resale, gambling, and government payments transactions are not eligible for cashback.

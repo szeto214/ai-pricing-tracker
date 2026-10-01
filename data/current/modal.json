@@ -6,23 +6,12 @@
   "url": "https://modal.com/pricing",
   "final_url": "https://modal.com/pricing",
   "parser_version": 4,
-  "content_hash": "7bdea29e237fcf1a85e564b48d2967593a67d488b98ac78ec6fff07bb38380ae",
-  "raw_hash": "b5af046b1007952ed6ad49fdc3f02e3daad0614ec42bd9639bd8ff0365f46f26",
-  "text_bytes": 4765,
+  "content_hash": "4f63779ce22d8dccff0ef7849f05245e69f0f757bffe34b2d8689ee7cd7964e8",
+  "raw_hash": "5f1fc07fe5b4230b87992f956a349dbe263c11a6a7003f3c30a845187851951f",
+  "text_bytes": 6244,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
-    {
-      "name": "Resource costs",
-      "price_raw": "$0.001972",
-      "amount": 0.001972,
-      "currency": "USD",
-      "period": "hour",
-      "features": [],
-      "slot_prices": [
-        0.001972
-      ]
-    },
     {
       "name": "Starter",
       "price_raw": "$0",
@@ -30,12 +19,13 @@
       "currency": "USD",
       "period": "month",
       "features": [
-        "$30 / month free compute",
+        "$30 / month free credits",
         "3 workspace seats included",
         "100 containers + 10 GPU concurrency",
         "Scheduled and Web Functions (limited)",
         "Real-time metrics and logs",
-        "Region selection"
+        "Region selection",
+        "1 TiB / month free network egress"
       ],
       "slot_prices": [
         0.0
@@ -48,14 +38,15 @@
       "currency": "USD",
       "period": "month",
       "features": [
-        "$100 / month free compute",
+        "$100 / month free credits",
         "Unlimited seats",
         "5000 containers + 50 GPU concurrency",
         "Unlimited Scheduled Functions",
         "Custom domains",
         "Static IP proxy",
         "Deployment rollbacks",
-        "Environment-level budgets"
+        "Environment-level budgets",
+        "10 TiB / month free network egress"
       ],
       "slot_prices": [
         250.0
@@ -73,18 +64,254 @@
       ]
     },
     {
-      "name": "Compute costs",
-      "price_raw": "$0.000039",
-      "amount": 3.9e-05,
+      "name": "Traditional cloud",
+      "price_raw": "$5,400",
+      "amount": 5400.0,
       "currency": "USD",
-      "period": "hour",
+      "period": null,
       "features": [],
       "slot_prices": [
-        3.9e-05
+        5400.0
+      ]
+    },
+    {
+      "name": "Modal serverless cloud",
+      "price_raw": "$4,740",
+      "amount": 4740.0,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        4740.0
+      ]
+    },
+    {
+      "name": "Workspace",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [],
+      "slot_prices": [
+        0.0
+      ]
+    },
+    {
+      "name": "Credits and variable costs",
+      "price_raw": "$30",
+      "amount": 30.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [],
+      "slot_prices": [
+        30.0
+      ]
+    },
+    {
+      "name": "Ship",
+      "price_raw": "$30",
+      "amount": 30.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [],
+      "slot_prices": [
+        30.0
       ]
     }
   ],
   "models": [],
-  "tables": [],
+  "tables": [
+    {
+      "caption": "Compare Starter, Team, and Enterprise plans",
+      "rows": [
+        [
+          "Plans",
+          "Starter: $0 + compute / month",
+          "Team: $250 + compute / month",
+          "Enterprise: Custom compute"
+        ],
+        [
+          "Workspace"
+        ],
+        [
+          "Number of seats",
+          "Up to 3",
+          "Unlimited",
+          "Unlimited"
+        ],
+        [
+          "Credits and variable costs"
+        ],
+        [
+          "Included compute",
+          "$30 / month",
+          "$100 / month",
+          "Custom"
+        ],
+        [
+          "Included network egress",
+          "1 TiB / month",
+          "10 TiB / month",
+          "100 TiB / month"
+        ],
+        [
+          "Features"
+        ],
+        [
+          "Containers",
+          "100",
+          "5000",
+          "Custom"
+        ],
+        [
+          "GPU concurrency",
+          "10",
+          "50",
+          "Custom"
+        ],
+        [
+          "Deployed apps",
+          "200",
+          "1000",
+          "1000"
+        ],
+        [
+          "Log retention",
+          "1 day",
+          "30 days",
+          "Custom"
+        ],
+        [
+          "Custom domains",
+          "Not included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Real-time metrics",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Sharing and collaboration",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Secrets",
+          "Unlimited",
+          "Unlimited",
+          "Unlimited"
+        ],
+        [
+          "Custom images",
+          "Unlimited",
+          "Unlimited",
+          "Unlimited"
+        ],
+        [
+          "Instant deploys",
+          "Unlimited",
+          "Unlimited",
+          "Unlimited"
+        ],
+        [
+          "Cron jobs",
+          "5 deployed crons",
+          "Unlimited",
+          "Unlimited"
+        ],
+        [
+          "Deployment rollbacks",
+          "Not included",
+          "3 versions",
+          "Custom"
+        ],
+        [
+          "Environment-level budgets",
+          "Not included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Distributed queue",
+          "Unlimited",
+          "Unlimited",
+          "Unlimited"
+        ],
+        [
+          "Distributed dict",
+          "Unlimited",
+          "Unlimited",
+          "Unlimited"
+        ],
+        [
+          "Region selection",
+          "1.15 - 1.75x base prices",
+          "1.15 - 1.75x base prices",
+          "1.15 - 1.75x base prices"
+        ],
+        [
+          "Non-preemptible execution",
+          "3x base prices",
+          "3x base prices",
+          "3x base prices"
+        ],
+        [
+          "Cloud Marketplaces",
+          "Not included",
+          "Not included",
+          "Use committed spend on AWS and GCP"
+        ],
+        [
+          "Support",
+          "Access to Modal Community Slack",
+          "Access to Modal Community Slack",
+          "+ Support via private Slack\n+ Embedded ML engineering services"
+        ],
+        [
+          "Security"
+        ],
+        [
+          "SOC 2 compliance",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "HIPAA compatibility",
+          "Not included",
+          "Not included",
+          "Included"
+        ],
+        [
+          "Audit logs",
+          "Not included",
+          "Not included",
+          "Included"
+        ],
+        [
+          "Static IP proxy",
+          "Not included",
+          "Included",
+          "Included"
+        ],
+        [
+          "RBAC",
+          "Not included",
+          "Included",
+          "Included"
+        ],
+        [
+          "SSO",
+          "Not included",
+          "Not included",
+          "Included"
+        ]
+      ]
+    }
+  ],
   "extract_errors": []
 }

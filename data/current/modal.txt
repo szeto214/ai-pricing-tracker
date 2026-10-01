@@ -1,88 +1,134 @@
-Runtime is almost here: join TypeSafe AI, Cognition, DoorDash and more in SF. Limited seats left.
-Register now
+Skip to content
+Runtime is here: Join TypeSafe AI, Cognition, DoorDash and more in SF.
+Last chance to register
+Products
+Inference
+Serve LLMs, image, video, and audio models, from real-time to batch
+Sandboxes
+Isolated environments for coding agents, RL rollouts, and untrusted code
+Training
+Fine-tune, run RL, and evaluate models on GPUs that spin up in seconds
+Platform
+Modal Infrastructure
+Infrastructure rebuilt for AI, from the container runtime and storage to a multi-cloud capacity pool
+Tools
+Playground
+Explore Modal in the browser
+GPU Glossary
+A fast guide to GPU concepts
+LLM Engine Advisor
+Pick the right model
+Resources
+Blog
+Changelog
+Startup Credits
+Partners
+Slack Community
+Company
+About
+Careers
+Events
+Featured
+Scaling to 1 million concurrent sandboxes in seconds
+Engineering
+Log in
+Sign up
 Pricing as
 magical
 as our product
-With Modal, you always pay for what you use and nothing more. You never
-pay for idle resources — just actual compute time, by the CPU cycle.
-Get Started
-Contact Us
+With Modal, you always pay for what you use and nothing more. You
+never pay for idle resources — just actual compute time, by the
+CPU cycle.
+Get started
+Contact us
 Resource costs
-Per hour
-Per second
 Per hour
 Per second
 GPU Tasks
 Nvidia B300
-$0.001972
+$
+0.001972
 / sec
 Nvidia B200
-$0.001736
+$
+0.001736
 / sec
 Nvidia H200 SXM
-$0.001261
+$
+0.001261
 / sec
 Nvidia H100 SXM5
-$0.001097
+$
+0.001097
 / sec
 Nvidia RTX PRO 6000
-$0.000842
+$
+0.000842
 / sec
 Nvidia A100, 80 GB
-$0.000694
+$
+0.000694
 / sec
 Nvidia A100, 40 GB
-$0.000583
+$
+0.000583
 / sec
 Nvidia L40S
-$0.000542
+$
+0.000542
 / sec
 Nvidia A10
-$0.000306
+$
+0.000306
 / sec
 Nvidia L4
-$0.000222
+$
+0.000222
 / sec
 Nvidia T4
-$0.000164
+$
+0.000164
 / sec
 CPU
-Physical core
-(2 vCPU
-equivalent
-)
-$0.0000131
+$
+0.0000131
 / core / sec
+Physical core (2 vCPU equivalent)
 *minimum of 0.125 cores per container
 Memory
-$0.00000222
+$
+0.00000222
 / GiB / sec
 Volumes
-$0.09
+$
+0.09
 / GiB / mo
 *includes 1 TiB / mo free
-PRICING PLANS
+Network Egress
+$
+0.04
+/ GiB
+*See plan for included usage / mo
+Pricing plans
 Starter
-$0
-+
-compute / month
+Popular
 Built for small teams and independent developers looking to level up.
-Get started with $30 / month free compute
-Get Started
-$30 / month free compute
+$0
++ compute / month
+$30 / month free credits
 3 workspace seats included
 100 containers + 10 GPU concurrency
 Scheduled and Web Functions (limited)
 Real-time metrics and logs
 Region selection
+1 TiB / month free network egress
+Get started with $30 / month free credit
+Get started
 Team
-$250
-+
-compute / month
 Built for startups and larger organizations looking to scale quickly.
-Sign in to upgrade
-Sign in to upgrade
-$100 / month free compute
+$250
++ compute / month
+$100 / month free credits
 Unlimited seats
 5000 containers + 50 GPU concurrency
 Unlimited Scheduled Functions
@@ -90,77 +136,83 @@ Custom domains
 Static IP proxy
 Deployment rollbacks
 Environment-level budgets
+10 TiB / month free network egress
+Sign in to upgrade
 Enterprise
-Custom
 For organizations prioritizing security, support, and everlasting confidence.
-Get in touch
-Get in touch
+Custom
 Volume-based discounts
 Unlimited seats
 Higher GPU concurrency
 Embedded ML engineering services
 Environment-level budgets
 Support via private Slack
-Audit logs, SAML SSO, and HIPAA
+Audit logs, Okta SSO, and HIPAA
+100 TiB / month free network egress
+Get in touch
+Programs and purchasing options
 Credit grants for
 startups
 Early-stage startups can get free compute credits on Modal.
-Apply Now
+Apply now
 Credit grants for
 academics
-Graduate students, labs, and researchers can get up to $10k free
-compute credits on Modal
+Graduate students, labs, and researchers can get up to $10k free compute credits on Modal
 Apply now
 Use
 committed spend
 on Modal
-Transact through the AWS and GCP marketplace to use committed spend on
-Modal.
-Get In Touch
-Modal Sandbox + Notebooks Pricing
+Transact through the AWS and GCP marketplace to use committed spend on Modal.
+Apply now
+Modal Sandbox + Notebooks pricing
 Only pay for what you use.
 Burst up
-to what
-you need without over-allocating CPU or memory in advance.
+to what you need without over-allocating CPU or memory in advance.
 Compute costs
 Per hour
 Per second
-Per hour
-Per second
 CPU
-Physical core
-(2 vCPU
-equivalent
-)
-$0.00003942
+Physical core (2 vCPU equivalent)
+$
+0.00003942
 / core / sec
 *minimum of 0.125 cores per container
 Memory
-$0.00000667
+$
+0.00000667
 / GiB / sec
 GPU
-See
-standard pricing
+See standard pricing
 Why serverless?
-Serverless pricing vs. traditional cloud pricing
-Modal is serverless, which means that we instantly autoscale up and down for
-you based on request volume. For spiky or unpredictable workloads, we are
-more cost-effective than fixed on-demand/reserved compute.
-Traditional cloud: $5,400
+Modal is serverless, which means that we instantly autoscale up and
+down for you based on request volume. For spiky or unpredictable
+workloads, we are more cost-effective than fixed on-demand/reserved
+compute.
+Traditional cloud
+You’re billed for reserved GPUs, even when usage drops.
+$5,400
 75 GPUs * 24 hrs * $3 / GPU-hr
-Modal serverless cloud: $4,740
+Degraded service at peak demand
+Modal serverless cloud
+Only pay for what you use, when you use it.
+$4,740
 Avg 50 GPUs * 24 hrs * $3.95 / GPU-hr
+12% lower cost
 Compare features
+Plans
 Starter
 $0
-+
-compute / month
++ compute / month
 Team
 $250
-+
-compute / month
++ compute / month
 Enterprise
 Custom compute
+Compare Starter, Team, and Enterprise plans
+Plans
+Starter: $0 + compute / month
+Team: $250 + compute / month
+Enterprise: Custom compute
 Workspace
 Number of seats
 Up to 3
@@ -171,10 +223,10 @@ Included compute
 $30 / month
 $100 / month
 Custom
-Included token usage
-0
-0
-0
+Included network egress
+1 TiB / month
+10 TiB / month
+100 TiB / month
 Features
 Containers
 100
@@ -193,8 +245,17 @@ Log retention
 30 days
 Custom
 Custom domains
+Not included
+Included
+Included
 Real-time metrics
+Included
+Included
+Included
 Sharing and collaboration
+Included
+Included
+Included
 Secrets
 Unlimited
 Unlimited
@@ -212,9 +273,13 @@ Cron jobs
 Unlimited
 Unlimited
 Deployment rollbacks
+Not included
 3 versions
 Custom
 Environment-level budgets
+Not included
+Included
+Included
 Distributed queue
 Unlimited
 Unlimited
@@ -232,6 +297,8 @@ Non-preemptible execution
 3x base prices
 3x base prices
 Cloud Marketplaces
+Not included
+Not included
 Use committed spend on AWS and GCP
 Support
 Access to Modal Community Slack
@@ -240,15 +307,33 @@ Access to Modal Community Slack
 + Embedded ML engineering services
 Security
 SOC 2 compliance
+Included
+Included
+Included
 HIPAA compatibility
+Not included
+Not included
+Included
 Audit logs
+Not included
+Not included
+Included
 Static IP proxy
+Not included
+Included
+Included
 RBAC
+Not included
+Included
+Included
 SSO
+Not included
+Not included
+Included
 Frequently asked questions
-How does serverless pricing differ from traditional on-demand pricing?
 What counts as billable time?
 How are CPU and memory usage metered?
+How does serverless pricing differ from traditional on-demand pricing?
 What's an example of real-world CPU billing?
 What's an example of real-world GPU billing?
 Do I need to purchase credits?
@@ -257,6 +342,9 @@ What kinds of applications can I deploy using Modal?
 Can I use my AWS, GCP, or Azure credits on Modal?
 What does my included usage cover?
 I'm on the Starter plan. Why am I being charged?
-Ship your first app in minutes.
-Get Started
+Ship
+your first app
+in minutes
+Get started
+Contact us
 $30 / month free compute

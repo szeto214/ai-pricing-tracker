@@ -1,28 +1,70 @@
 Models
-OpenAI: GPT-6.1 Sol Pro (batch)
-GPT-6.1 Sol Pro (batch)
-GPT-6.1 Sol Pro is the same underlying model as
-GPT-6.1 Sol
-, served with
-reasoning.mode
-set to
-pro
-for higher-quality responses on complex tasks.
-Cost note:
-pro mode spends far more reasoning tokens per request, so a typical request costs several times more than the same request on GPT-6.1 Sol and takes much longer to complete. It is intended for hard, high-stakes problems where the extra accuracy justifies the cost. For everyday coding, agentic, and chat workloads, use
-GPT-6.1 Sol
-instead. Learn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode
+HeyGen: Video 1
+Video 1
+50% off
+8 hours
+HeyGen Video 1 is a general-purpose video generation model from HeyGen. It renders short clips with synthesized audio (dialogue, ambience, and sound effects) in a single call, working from a text prompt, from a first-frame image, or from a set of image, video, and audio references that the prompt can address directly. It is aimed at short-form business video with a lot of motion in frame: brand moments, product and equipment demos, and training or onboarding content. It is not an avatar product. Unlike HeyGen's Avatar IV and Video Agent, there is no talking-head, script, or lip-sync step; the prompt and references drive the whole scene.
 by
-openai
-Sep 29, 2026
-1.05M context
-$1/M input
+heygen
+Sep 30, 2026
+from $0.01/second
+Together: Tev1 4B Experimental
+Tev1 4B Experimental
+79.6M tokens
+Tev1 4B Experimental is an experimental decision model from Together AI, a supervised fine-tune of Qwen3.5-4B trained to choose one option from a structured state, question, and list of 2-24 labeled options. It keeps Qwen's standard next-token head, so it is served through the regular chat completions API rather than a dedicated decisions runtime. Send a system instruction followed by a JSON decision containing
+state
+,
+question
+, and
+options
+. The model returns a single option letter, which application code maps back to the option key. Recommended settings are
+temperature: 0
+,
+max_tokens: 8
+, and thinking disabled. It is intended for routing, classification, and policy checks, not generic chat. Together publishes the full data recipe and training code so teams can fine-tune their own variant.
+by
+togethercomputer
+Sep 30, 2026
+33K context
+$0.042/M input
 tokens
-$5/M output
+$0/M output
 tokens
+Inception: Mercury Decide (free)
+Mercury Decide (free)
+271M tokens
+Mercury Decide is Inception's structured decision model, served as a System One endpoint. Send a state along with typed questions, and it returns a choice, a score, or a yes/no answer, each with a calibrated probability taken directly from the model rather than written out as text, so output tokens are free. It makes up to 14 decisions per second and reports how certain it is, so a decision system can run it on every case and escalate the unsure ones to a human. Mercury Decide uses the same /v1/systemone schema as Jev.
+by
+inception
+Sep 30, 2026
+33K context
+$0/M input
+tokens
+$0/M output
+tokens
+VoyageAI by MongoDB: rerank-3-lite
+rerank-3-lite
+560M tokens
+rerank-3-lite is a reranker optimized for both latency and quality and a drop-in upgrade to rerank-2.5-lite, improving on it by 0.94% NDCG@10 on average across domain evaluations and by 1.86% on long-document evaluations, with code retrieval gains of 2.77% atop voyage-3-large and 2.59% atop voyage-4-large. It matches the retrieval quality of rerank-2.5, and across 93 retrieval datasets it outperforms Cohere Rerank v4.0 Pro by 1.44% and Qwen3-Reranker-8B by 2.61%. The model supports a combined context length of 32K tokens per query-document pair, including up to 8K tokens for the query, enabling more accurate retrieval over longer documents. Additionally, rerank-3-lite supports instruction following, allowing users to guide relevance scoring through natural language prompts. Learn more about rerank-3-lite here:
+blog.voyageai.com/2026/09/30/rerank-3
+by
+voyageai
+Sep 30, 2026
+32K context
+$0.02/M tokens
+VoyageAI by MongoDB: rerank-3
+rerank-3
+481M tokens
+rerank-3 is a reranker optimized for quality and a drop-in upgrade to rerank-2.5, improving on it by 0.80% NDCG@10 on average across domain evaluations and by 3.35% on long-document evaluations, with code retrieval gains of 2.01% atop voyage-3-large and 1.96% atop voyage-4-large. Across 93 retrieval datasets it outperforms Cohere Rerank v4.0 Pro by 2.14% and Qwen3-Reranker-8B by 3.31%. The model supports a combined context length of 32K tokens per query-document pair, including up to 8K tokens for the query, enabling more accurate retrieval over longer documents. Additionally, rerank-3 supports instruction following, allowing users to guide relevance scoring through natural language prompts. Learn more about rerank-3 here:
+blog.voyageai.com/2026/09/30/rerank-3
+by
+voyageai
+Sep 30, 2026
+32K context
+$0.05/M tokens
 OpenAI: GPT-6.1 Sol Pro
 GPT-6.1 Sol Pro
-2.27B tokens
+6.81B tokens
 GPT-6.1 Sol Pro is the same underlying model as
 GPT-6.1 Sol
 , served with
@@ -42,21 +84,13 @@ $2/M input
 tokens
 $10/M output
 tokens
-OpenAI: GPT-6.1 Sol (batch)
-GPT-6.1 Sol (batch)
-GPT-6.1 Sol is an upgrade to GPT-6 Sol from OpenAI, positioned below the flagship GPT-6 Astra in the GPT-6 series. It is suited for agentic coding, computer use, document-heavy professional work, and multi-step business workflow automation, and approaches Astra-level results on these tasks at a much lower cost. Compared with GPT-6 Sol, it makes fewer factual errors and is more reliable at respecting explicit restrictions and user intent during agentic tasks.
-by
-openai
-Sep 29, 2026
-1.05M context
-$1/M input
-tokens
-$5/M output
-tokens
 OpenAI: GPT-6.1 Sol
 GPT-6.1 Sol
-51.1B tokens
-SEO (#40)
+171B tokens
+Health (#21)
+Marketing (#38)
+SEO (#18)
+Programming (#39)
 GPT-6.1 Sol is an upgrade to GPT-6 Sol from OpenAI, positioned below the flagship GPT-6 Astra in the GPT-6 series. It is suited for agentic coding, computer use, document-heavy professional work, and multi-step business workflow automation, and approaches Astra-level results on these tasks at a much lower cost. Compared with GPT-6 Sol, it makes fewer factual errors and is more reliable at respecting explicit restrictions and user intent during agentic tasks.
 by
 openai
@@ -68,7 +102,7 @@ $10/M output
 tokens
 Anthropic: Claude Sonnet 5.5 (batch)
 Claude Sonnet 5.5 (batch)
-70.8M tokens
+168M tokens
 Claude Sonnet 5.5 is Anthropic's Sonnet-class model for well-scoped everyday work, succeeding Claude Sonnet 5 as a direct upgrade. It is especially strong at building features, fixing bugs, and producing polished documents, slides, and spreadsheets, and it writes and communicates more clearly than its predecessor. Thinking is always on, so effort is the main lever for trading off depth, latency, and cost, and lower effort settings keep it responsive for everyday agentic loops.
 by
 anthropic
@@ -80,8 +114,11 @@ $5/M output
 tokens
 Anthropic: Claude Sonnet 5.5
 Claude Sonnet 5.5
-147B tokens
-Finance (#45)
+299B tokens
+Finance (#32)
+Legal (#48)
+Programming (#45)
+Technology (#47)
 Claude Sonnet 5.5 is Anthropic's Sonnet-class model for well-scoped everyday work, succeeding Claude Sonnet 5 as a direct upgrade. It is especially strong at building features, fixing bugs, and producing polished documents, slides, and spreadsheets, and it writes and communicates more clearly than its predecessor. Thinking is always on, so effort is the main lever for trading off depth, latency, and cost, and lower effort settings keep it responsive for everyday agentic loops.
 by
 anthropic
@@ -94,7 +131,7 @@ tokens
 Upstage: Solar Decide
 Solar Decide
 50% off
-1.76B tokens
+3.39B tokens
 Solar Decide is Upstage's structured decision model, served as a System One endpoint on Solar Mini 4. Send a state along with typed questions, and it returns a choice, a score, or a yes/no answer, each with a calibrated probability taken directly from the model rather than written out as text. Because it generates no prose, each decision takes a single forward pass and output tokens are free. With a 512K context window, an entire document can serve as the state. Solar Decide uses the same /v1/systemone schema as Jev, bringing Solar Mini 4's strong Korean understanding to routing, classification, and policy checks.
 by
 upstage
@@ -106,7 +143,7 @@ $0/M output
 tokens
 Respan: Span-01
 Span-01
-4.8B tokens
+4.96B tokens
 Span-01 is a behavior scoring model from Respan. It reads a conversation span and returns, for each plain-language behavior you define, the probability that the behavior is present. It is suited for evaluation, guardrails, and monitoring of LLM and agent outputs at scale. It is the higher-accuracy tier of the family. Span-01 Lite is the free, lighter tier.
 by
 respan
@@ -117,7 +154,7 @@ $0/M output
 tokens
 Respan: Span-01 Lite
 Span-01 Lite
-8.81B tokens
+16.6B tokens
 Span-01 Lite is the free, lighter tier of Span-01, a behavior scoring model from Respan. It returns, for each plain-language behavior you define, the probability that the behavior is present in a conversation span, and is suited for high-volume evaluation and monitoring where cost matters more than peak accuracy.
 by
 respan
@@ -128,7 +165,7 @@ $0/M output
 tokens
 Respan: Span-01 Lite (free)
 Span-01 Lite (free)
-160M tokens
+170M tokens
 Span-01 Lite is the free, lighter tier of Span-01, a behavior scoring model from Respan. It returns, for each plain-language behavior you define, the probability that the behavior is present in a conversation span, and is suited for high-volume evaluation and monitoring where cost matters more than peak accuracy.
 by
 respan
@@ -139,7 +176,7 @@ $0/M output
 tokens
 ByteDance Seed: Seed Audio 1.0
 Seed Audio 1.0
-852K tokens
+1.06M tokens
 Seed Audio 1.0 is ByteDance Seed's non-streaming audio generation model. It produces speech and other audio from a natural-language text prompt that can describe the desired voice, tone, and sound effects, optionally guided by a Seed speaker ID or a reference audio clip for voice cloning. Output is limited to 120 seconds per request and is billed per second of generated audio. Suited to audiobooks, voiceovers, games, and similar workloads.
 by
 bytedance-seed
@@ -156,7 +193,7 @@ Sep 25, 2026
 1M context
 Jared Palmer: Kev 4B
 Kev 4B
-667M tokens
+808M tokens
 Kev 4B is a small open-weight decision model from Jared Palmer, built as a LoRA adapter and pointer head on Qwen3.5-4B-Base and served over the same /v1/systemone contract as TypeSafe's Jev. Send a state and typed questions (yes/no, multiple choice, or score) and it returns a calibrated probability per question in one forward pass, with no generated text. It is the recommended checkpoint in the Kev family (0.8B, 4B, 9B) and is suited for routing, classification, and policy checks that want a compact, Apache-2.0 alternative to Jev. Code, model cards, and eval suites: https://github.com/jaredpalmer/kev
 by
 jaredpalmer
@@ -168,7 +205,7 @@ $0/M output
 tokens
 Perceptron: Perceptron Mk1.5
 Perceptron Mk1.5
-847M tokens
+928M tokens
 Perceptron Mk1.5 is Perceptron's embodied reasoning model for physical agents. It accepts text, image, video, and audio input, and answers with text plus optional structured annotations: points, boxes, polygons, tracks, and clips. It supports graded reasoning through the standard reasoning controls, function tool calling, and structured outputs via JSON Schema. Structured annotations are emitted inline with text only when requested via the
 annotation_format
 parameter (
@@ -188,29 +225,5 @@ $0.15/M input
 tokens
 $1.50/M output
 tokens
-Google: Gemini 3.5 Transcribe
-Gemini 3.5 Transcribe
-51.2M characters
-Gemini 3.5 Transcribe is a speech-to-text model from Google. It is suited for synchronous transcription that needs word-level timestamps or speaker diarization, with support for up to eight speakers. Audio can be up to one hour, or 30 minutes when timestamps or diarization are enabled.
-by
-google
-Sep 25, 2026
-98K context
-$2/M input
-tokens
-$12/M output
-tokens
-Fish Audio: Transcribe 1 Pro
-Transcribe 1 Pro
-15.7M characters
-Transcribe 1 Pro is a speech-to-text model from Fish Audio tuned for interviews, meetings, and podcasts. It labels speakers with inline
-speaker
-markers, preserves emotion and vocal-event cues such as
-[laughter]
-, detects language automatically, and can return timestamped word-level segments.
-by
-fish-audio
-Sep 24, 2026
-$0.0001/second
 Compare
 Discover Models

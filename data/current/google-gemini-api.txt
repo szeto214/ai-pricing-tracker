@@ -2230,23 +2230,6 @@ Not available
 Used to improve our products
 Yes
 No
-Gemini 2.5 Computer Use Preview
-gemini-2.5-computer-use-preview-10-2025
-Our Computer Use model optimized for building browser control agents that
-automate tasks.
-Free Tier
-Paid Tier, per 1M tokens in USD
-Input price
-Not available
-$1.25, prompts <= 200k tokens
-$2.50, prompts > 200k token
-Output price
-Not available
-$10.00, prompts <= 200k tokens
-$15.00, prompts > 200k
-Used to improve our products
-Yes
-No
 Gemma 4
 Our lightweight, state-of the art, open model built from the same technology
 that powers our Gemini models.
@@ -2311,10 +2294,8 @@ Charged as input tokens per model pricing.
 Computer use
 Not available
 Charged as regular tokens per model pricing (e.g., standard
-Gemini 3.5 Flash
-pricing). See the
-Gemini 2.5 Computer Use Preview
-pricing table for legacy model rates.
+Gemini 3.8 Flash
+pricing).
 File search
 Free of charge
 Charged for
@@ -2392,4 +2373,4 @@ Apache 2.0 License
 . For details, see the
 Google Developers Site Policies
 . Java is a registered trademark of Oracle and/or its affiliates.
-Last updated 2026-09-24 UTC.
+Last updated 2026-10-01 UTC.

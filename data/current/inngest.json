@@ -6,9 +6,9 @@
   "url": "https://www.inngest.com/pricing",
   "final_url": "https://www.inngest.com/pricing",
   "parser_version": 4,
-  "content_hash": "173dc4eaa4adfdb830ea09c91d6d4082fc20786d7022f44bf6a8c8d960980ee6",
-  "raw_hash": "80ef62cfde926ea81d33c0e677ce794130d0e0a3894e4d97c0900c80ee194753",
-  "text_bytes": 10562,
+  "content_hash": "1e28489a29a41b76e6135c608e36c22113c9a89cf67553ad3a602371cec7dbba",
+  "raw_hash": "7906e4c5c9d2633d7fc84d0eca054e76e387e7922ba9c8c0504b57b370354743",
+  "text_bytes": 10674,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

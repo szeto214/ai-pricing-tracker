@@ -6,9 +6,9 @@
   "url": "https://v0.app/pricing",
   "final_url": "https://v0.app/pricing",
   "parser_version": 4,
-  "content_hash": "cda535884048169f0b57f8583a0fc7e7a7c95b3fae6bfd27ddf86f8b8bc9c4a9",
-  "raw_hash": "728fc8f3807b5c96cf790af5f34f878abc75074f4590aa64d4be27ca3981f3c5",
-  "text_bytes": 2825,
+  "content_hash": "b2e36f56e50490b853f9251e6996aa5996a73530e7795469b94ed2486c96a75a",
+  "raw_hash": "832321509421913123d224b20fe088cf580b49f520919b7ec90e38f541018593",
+  "text_bytes": 2812,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

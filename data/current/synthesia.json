@@ -6,12 +6,45 @@
   "url": "https://www.synthesia.io/pricing",
   "final_url": "https://www.synthesia.io/pricing",
   "parser_version": 4,
-  "content_hash": "855539c2468e4a91b7daa505ee5f0e5ab4a75175927c166e6d6bed87c0dd9727",
-  "raw_hash": "b2b23e6647d76cfa12e46ec71583a5d97368da3c9347adb06c5320eb36f6c92d",
-  "text_bytes": 24293,
+  "content_hash": "95ff0736cb887b610c1ef6e0406bfffef4e28abbf99b822dca3b78531d005c89",
+  "raw_hash": "8915a5b7bdbf5dc394db1e4339d88ace4c303c1f161f9e4ed9a4eddbb86f19ac",
+  "text_bytes": 29681,
   "extractor": "dom",
-  "confidence": "low",
+  "confidence": "medium",
   "plans": [
+    {
+      "name": "Basic",
+      "price_raw": "$ 0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [],
+      "slot_prices": [
+        0.0
+      ]
+    },
+    {
+      "name": "Starter",
+      "price_raw": "$ 29",
+      "amount": 29.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [],
+      "slot_prices": [
+        29.0
+      ]
+    },
+    {
+      "name": "Pro",
+      "price_raw": "$ 89",
+      "amount": 89.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [],
+      "slot_prices": [
+        89.0
+      ]
+    },
     {
       "name": "Studio Avatars",
       "price_raw": "$1000",
@@ -21,6 +54,28 @@
       "features": [],
       "slot_prices": [
         1000.0
+      ]
+    },
+    {
+      "name": "Starter",
+      "price_raw": "$ 29",
+      "amount": 29.0,
+      "currency": "USD",
+      "period": "year",
+      "features": [],
+      "slot_prices": [
+        29.0
+      ]
+    },
+    {
+      "name": "Pro",
+      "price_raw": "$ 64",
+      "amount": 64.0,
+      "currency": "USD",
+      "period": "year",
+      "features": [],
+      "slot_prices": [
+        64.0
       ]
     }
   ],

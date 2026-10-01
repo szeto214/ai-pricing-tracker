@@ -6,24 +6,12 @@
   "url": "https://grafana.com/pricing/",
   "final_url": "https://grafana.com/pricing/",
   "parser_version": 4,
-  "content_hash": "431558d2b9a416b5f6eebe3cd00c29c83e8a2c6a39c63e0446462349dabf069b",
-  "raw_hash": "45bac1947459921e5bee2714c94854e1659bfe5298a5521e0b45febbc2df4ed7",
-  "text_bytes": 146919,
-  "extractor": "dom",
-  "confidence": "low",
-  "plans": [
-    {
-      "name": "b�v���N���=��/���\u0003m]�NJB��#��(vv8\u0011\u0015\u0002?l��\u0015\u0014�(]e�",
-      "price_raw": "$0",
-      "amount": 0.0,
-      "currency": "USD",
-      "period": null,
-      "features": [],
-      "slot_prices": [
-        0.0
-      ]
-    }
-  ],
+  "content_hash": "0d361ba3bb868e368a2f6322bacefce965893bb32558594776af254313136349",
+  "raw_hash": "b095c1bb87469d2c4bf78eb6ea094126e1b9aeae5d1376f36105768cfe3c932f",
+  "text_bytes": 149592,
+  "extractor": "none",
+  "confidence": "none",
+  "plans": [],
   "models": [],
   "tables": [],
   "extract_errors": []

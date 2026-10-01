@@ -6,9 +6,9 @@
   "url": "https://clerk.com/pricing",
   "final_url": "https://clerk.com/pricing",
   "parser_version": 4,
-  "content_hash": "5eb882d89e1a1499fe40da1049a4f0a700b40a57e9ec94a6972dc18080262c0a",
-  "raw_hash": "6c920b546bea3256d2ce5f0dc2156c8161a38de99ddf48160a43e4e4f1d7d543",
-  "text_bytes": 12915,
+  "content_hash": "a0c9e25dfe694c72806ecf8e8cb79233f7d24820511e062ff64cb935a9720302",
+  "raw_hash": "1075a6e9929915a22db7fc53322b718404c2f385490a0b7d9903dd9c19f159a7",
+  "text_bytes": 13270,
   "extractor": "jsonld",
   "confidence": "medium",
   "plans": [
@@ -187,8 +187,14 @@
         [
           "Enterprise connections Leverage authentication with EASIE, SAML, or OIDC supported services.",
           "Not included",
-          "1 connection included per app 2 - 15 $75/mo each 16 - 100 $60/mo each 101 - 500 $30/mo each 501+ $15/mo each",
-          "1 connection included per app 2 - 15 $75/mo each 16 - 100 $60/mo each 101 - 500 $30/mo each 501+ $15/mo each"
+          "1 connection included per app 2 - 15 $75/mo each 16 - 100 $60/mo each 101+ Contact us",
+          "1 connection included per app 2 - 15 $75/mo each 16 - 100 $60/mo each 101+ Contact us"
+        ],
+        [
+          "Directory Sync (SCIM) Provision and deprovision users from your customers' identity providers. Counted separately from SSO connections.",
+          "Not included",
+          "1 directory included per app 2 - 15 $75/mo each 16 - 100 $60/mo each 101+ Contact us",
+          "1 directory included per app 2 - 15 $75/mo each 16 - 100 $60/mo each 101+ Contact us"
         ],
         [
           "Machine Authentication"

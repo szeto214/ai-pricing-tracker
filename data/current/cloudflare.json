@@ -6,9 +6,9 @@
   "url": "https://www.cloudflare.com/plans/",
   "final_url": "https://www.cloudflare.com/plans/",
   "parser_version": 4,
-  "content_hash": "a569d5724342bad633c2db2edb80cb6639705e2f24155ad37e543eba01533645",
-  "raw_hash": "2876862fa05da0a9139d2f882206e078f44127425edd17e4a7dc53d756844fb6",
-  "text_bytes": 15658,
+  "content_hash": "6baf739b17052c50d36ba5e6d15f97c10a8730c9ca0a757756ad565ee05eda17",
+  "raw_hash": "f5a00f4674bbd48bb8e15beb6583db5597b36eca3beb99743a59a0e96a272f01",
+  "text_bytes": 15665,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

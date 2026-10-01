@@ -6,9 +6,9 @@
   "url": "https://docs.voyageai.com/docs/pricing",
   "final_url": "https://docs.voyageai.com/docs/pricing",
   "parser_version": 4,
-  "content_hash": "8948a106a3181cc30999b513f11005abc03c3c9b55fab9a603e9982a09793f38",
-  "raw_hash": "a10b7cf903a7b26bb2054c000a78d7c609cca82507cb22d3473634a3418772ce",
-  "text_bytes": 4877,
+  "content_hash": "a0b23a962dd7ba1915ceecf497fcb0d0f0696f00c73f6e6affc1a66304673043",
+  "raw_hash": "bec52dd343d882ed0f3e0fe17b4b4b089c5ef4d53c81fdc60998523939dd24b1",
+  "text_bytes": 4871,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

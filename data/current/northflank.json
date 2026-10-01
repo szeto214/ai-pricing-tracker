@@ -6,9 +6,9 @@
   "url": "https://northflank.com/pricing",
   "final_url": "https://northflank.com/pricing",
   "parser_version": 4,
-  "content_hash": "2c149787edf4a5c941f44abb969e45806b9f4ac951e0e75f66884399feab1e1e",
-  "raw_hash": "45684ab18a05ff3fec7fd456f566224c2a611d94187cabf6ffd22b128a5f4f06",
-  "text_bytes": 13998,
+  "content_hash": "5b8bb928eae1f32e88886562dcbbd0e15d741cc8eeeb0e2d1813754db5348c92",
+  "raw_hash": "56515713a38a8f6500f0f1010b038ca1fbee5935bf6d142ef7764b8a04872549",
+  "text_bytes": 14190,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

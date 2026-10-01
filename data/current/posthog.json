@@ -6,9 +6,9 @@
   "url": "https://posthog.com/pricing",
   "final_url": "https://posthog.com/pricing",
   "parser_version": 4,
-  "content_hash": "09792a43ec801570a528e171036b1798b905324dff8151730faf73dded4a1e61",
-  "raw_hash": "c51ccc9493055ba308bcd14a84da97880158e81cd13c30e67aedfa413a6e3d56",
-  "text_bytes": 12460,
+  "content_hash": "e1ac5eed121d72334ac7e31d288c407b81c86c40b317ac9e21e6336c387dee43",
+  "raw_hash": "68510e7da34c55c0d19abec212f971a9358a92e09d882dac835f8f7558226adf",
+  "text_bytes": 12558,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

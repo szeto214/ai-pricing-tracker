@@ -389,7 +389,7 @@ $ per 1M input tokens
 $ per 1M output tokens
 Actions
 Llama-3.3-70B-Instruct-Turbo
-128k
+64k
 $0.10
 $0.32
 View more
@@ -409,7 +409,7 @@ $ per 1M input tokens
 $ per 1M output tokens
 Actions
 Llama-3.3-70B-Instruct-Turbo
-128k
+64k
 $0.10
 $0.32
 View more
@@ -1058,6 +1058,9 @@ Trust Center
 Status
 DeepGPT
 Latest Models
+anthropic
+/
+claude-sonnet-5-5
 tencent
 /
 Hy4-preview
@@ -1070,25 +1073,22 @@ claude-opus-5-5
 XiaomiMiMo
 /
 MiMo-V2.6-Pro
+Featured Models
+nvidia
+/
+NVIDIA-Nemotron-3-Ultra-550B-A55B
+Qwen
+/
+Qwen3-Max-Thinking
 XiaomiMiMo
 /
 MiMo-V2.6-Flash
-Featured Models
-moonshotai
+zai-org
 /
-Kimi-K3
-deepseek-ai
-/
-DeepSeek-V4-Flash
-nvidia
-/
-NVIDIA-Nemotron-3-Super-120B-A12B
+GLM-5.2
 Qwen
 /
-Qwen3.6-35B-A3B
-deepseek-ai
-/
-DeepSeek-V4-Pro
+Qwen3-TTS-VoiceDesign
 © 2026 DeepInfra. All rights reserved.
 Privacy Policy
 Terms of Service

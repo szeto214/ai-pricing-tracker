@@ -6,8 +6,8 @@
   "url": "https://www.together.ai/pricing",
   "final_url": "https://www.together.ai/pricing",
   "parser_version": 4,
-  "content_hash": "9c35ad0a7ce645643508df82b637ada0d84728430f956e4c0de0c7f11d029aa1",
-  "raw_hash": "a4a5df6f16e72708a3dbab9dba8028c676e541ce72e5c97bbd440d6adc0c60cd",
+  "content_hash": "6fed3cbc0c520875dd0a54165ff58240f793c7829a8a0b964064ea008244983b",
+  "raw_hash": "c6b9aff248167e1bdeb60efc9637ea2759ca8d8ef5055c3564ff73808ff2e9c7",
   "text_bytes": 8773,
   "extractor": "jsonld",
   "confidence": "medium",
@@ -722,7 +722,7 @@
       "rows": [
         [
           "NVIDIA HGX H100 Promo Promotion valid until 09/30/26",
-          "$5.49 $3.99",
+          "$5.49 $5.49",
           "Contact sales"
         ],
         [

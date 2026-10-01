@@ -240,6 +240,12 @@ Process steps in parallel while smoothing load
 then $25 per 25
 500 included
 500 included
+Maximum run length
+Total lifetime of a function run, including sleeps and waits
+30 days
+90 days
+366 days
+Custom
 Seats
 Develop with your entire team
 5

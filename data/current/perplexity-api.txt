@@ -123,6 +123,24 @@ pplx-embed-context-v1-4b
 $0.05
 View Embeddings API Documentation
 Learn how to use the Embeddings API for semantic search, RAG, and more.
+Decisions API Pricing
+The Decisions API answers yes/no, multiple-choice, and scored questions about text and images with calibrated probabilities.
+Model
+Price ($/1M input tokens)
+Output tokens
+Per-request fee
+decider-27b
+$0.04
+Free
+None
+Billing unit:
+you pay for input tokens only. The
+state
+, every question, and any images count as input; the response reports the exact number as
+usage.input_tokens
+, so you can compute the cost of a request from the response you already receive. A request with 600 input tokens costs $0.000024.
+View Decisions API Documentation
+Learn how to ask structured questions and read the probabilities the Decisions API returns.
 Token and Cost Glossary
 Input Tokens
 The number of tokens in your prompt or message to the API. This includes:

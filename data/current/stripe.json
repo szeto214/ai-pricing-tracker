@@ -6,9 +6,9 @@
   "url": "https://stripe.com/pricing",
   "final_url": "https://stripe.com/pricing",
   "parser_version": 4,
-  "content_hash": "febbc295fa4b4b9124dee6e3288b54f05574faa8642cf116555d7de8acc9575f",
-  "raw_hash": "311466fab7efb63fa540eef5184cb0df39ab863aa90eb83acccfe91d4cf720cc",
-  "text_bytes": 31484,
+  "content_hash": "5736c60ce5e322631bfd5b40ed126688e9b43d310eb715a1055ef58ff698c6bf",
+  "raw_hash": "32bf580bcb6b9673a21df11d63011f856ddea7ae8da574da036a0e9f052bfd8f",
+  "text_bytes": 31960,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -90,17 +90,6 @@
       ]
     },
     {
-      "name": "Card readers",
-      "price_raw": "$59.00",
-      "amount": 59.0,
-      "currency": "USD",
-      "period": null,
-      "features": [],
-      "slot_prices": [
-        59.0
-      ]
-    },
-    {
       "name": "Cellular",
       "price_raw": "$10.00",
       "amount": 10.0,
@@ -156,7 +145,7 @@
       ]
     },
     {
-      "name": "Treasury",
+      "name": "Receive funds",
       "price_raw": "$2.00",
       "amount": 2.0,
       "currency": "USD",

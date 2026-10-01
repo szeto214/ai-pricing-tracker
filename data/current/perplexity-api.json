@@ -6,9 +6,9 @@
   "url": "https://docs.perplexity.ai/getting-started/pricing",
   "final_url": "https://docs.perplexity.ai/docs/getting-started/pricing",
   "parser_version": 4,
-  "content_hash": "920cd5d835d7ecc4fb6c6a208eb9cc66d4165aa962eadd3aed1768b228b2ffb1",
-  "raw_hash": "25c9031dfe5d04f1c13b266336860a16217a4539780a7091833375fce26c5b6d",
-  "text_bytes": 6041,
+  "content_hash": "8945d2df2cc1f27c9237b008e51e2f09ebd176a3fff8e0ee11f9509f2658d1e7",
+  "raw_hash": "bd0ae6d6b918b6b851209ba614b4ba23fff864459f2e9298ccb4fb7e34096d94",
+  "text_bytes": 6698,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -142,6 +142,28 @@
       "features": [],
       "slot_prices": [
         0.008
+      ]
+    },
+    {
+      "name": "Model",
+      "price_raw": "$0.04",
+      "amount": 0.04,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        0.04
+      ]
+    },
+    {
+      "name": "Billing unit",
+      "price_raw": "$0.000024",
+      "amount": 2.4e-05,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        2.4e-05
       ]
     },
     {
@@ -463,6 +485,23 @@
           "pplx-embed-context-v1-4b",
           "2560",
           "$0.05"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Model",
+          "Price ($/1M input tokens)",
+          "Output tokens",
+          "Per-request fee"
+        ],
+        [
+          "decider-27b",
+          "$0.04",
+          "Free",
+          "None"
         ]
       ]
     },

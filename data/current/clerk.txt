@@ -45,6 +45,11 @@ Enterprise connection
 included
 Additional $75/mo each
 Show volume discounts
+1
+Directory Sync connection
+included
+Additional $75/mo each
+Show volume discounts
 Remove Clerk branding
 Multi-factor authentication (MFA)
 Satellite domains
@@ -304,20 +309,35 @@ included per app
 $75/mo each
 16 - 100
 $60/mo each
-101 - 500
-$30/mo each
-501+
-$15/mo each
+101+
+Contact us
 1 connection
 included per app
 2 - 15
 $75/mo each
 16 - 100
 $60/mo each
-101 - 500
-$30/mo each
-501+
-$15/mo each
+101+
+Contact us
+Directory Sync (SCIM)
+Provision and deprovision users from your customers' identity providers. Counted separately from SSO connections.
+Not included
+1 directory
+included per app
+2 - 15
+$75/mo each
+16 - 100
+$60/mo each
+101+
+Contact us
+1 directory
+included per app
+2 - 15
+$75/mo each
+16 - 100
+$60/mo each
+101+
+Contact us
 Machine Authentication
 API Keys
 Allow users to create API keys that can delegate access to your application's API on their behalf.

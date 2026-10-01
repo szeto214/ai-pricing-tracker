@@ -216,7 +216,7 @@ No, for all of our products you only pay for what you capture, ingest, or sync i
 How long does PostHog retain data (events, recordings, logs)?
 Events and metadata are guaranteed to be retained for 7 years on any paid plan and 1 year on a free plan. After 1 year, data may be moved into cold storage so queries may run more slowly.
 Recordings on the free plan are retained for 1 month. On the pay-as-you-go plan, recordings are retained for 90 days. The Boost and Scale add-ons can increase this to up to one year. The Enterprise add-on can increase retention to 5 years.
-Logs are retained for 14 days.
+Logs are retained for 14 days by default. You can set custom retention per service or per source at $0.05/GB per month retained.
 What happens after the data retention period elapses?
 Any data stored for more than the retention period may be permanently deleted from our systems.
 Is there a free trial on paid plans?

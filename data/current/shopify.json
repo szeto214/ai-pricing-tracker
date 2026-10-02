@@ -6,9 +6,9 @@
   "url": "https://www.shopify.com/pricing",
   "final_url": "https://www.shopify.com/pricing",
   "parser_version": 4,
-  "content_hash": "6da31f3d53183ae77dfc15640e75bc2e7a227f883108626306a071ceaf52a9a4",
-  "raw_hash": "d01c96643ac2f604caf69d5aaf9b21b09abb5702327bafe4280b5ed1b36ab190",
-  "text_bytes": 15082,
+  "content_hash": "e65df7dcc5f3405b7b1fd50dc70ab7b03a43b9595e9953de74d8e017ab00b39f",
+  "raw_hash": "255131104b619dc6c76d2762b7e31e3eb5989360b887a310fdb0d6a505fafabc",
+  "text_bytes": 15064,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -175,7 +175,7 @@
           "Up to $5,000 USD",
           "Up to $7,500 USD",
           "Up to $10,000 USD",
-          "Up to $15,000 USD"
+          ""
         ],
         [
           "Online store",

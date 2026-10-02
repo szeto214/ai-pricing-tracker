@@ -129,7 +129,7 @@ Model
 Price ($/1M input tokens)
 Output tokens
 Per-request fee
-decider-27b
+pplx-decider-v1-27b
 $0.04
 Free
 None

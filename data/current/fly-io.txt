@@ -36,17 +36,17 @@ Preset
 Per hour
 Per month
 shared-cpu-1x · 256MB
-$0.0027
-$1.94
+$0.0030
+$2.19
 performance-1x · 2GB
-$0.0431
-$31.00
+$0.0458
+$33.00
 Stopped Machine, per GB rootfs
 —
 $0.15
 Show all 14 presets
 Presets run from shared-cpu-1x to performance-16x, and every one takes more RAM at
-$5.00
+$6.00
 per GB per month, up to 128GB.
 Machines
 Storage and network

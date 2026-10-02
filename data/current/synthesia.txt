@@ -240,7 +240,7 @@ The maximum number of seats your workspace includes.
 1 editor, 5 guests
 Custom # of editors & guests
 Usage limits
-Number of minutes of video you can generate per month (calculated in seconds). For example, if you're on Starter plan and create a video that's 59 seconds long, you'll still have 9:01 minutes left.
+The free allowance includes 10 minutes of video a month. Paid plans add credits on top, and the number shown is the most extra video those credits can make. Dubbing and surveys use the same credits.
 10 minutes of video / month
 Up to ~12 minutes of video / month, on top of the free allowance
 Up to ~60 minutes of video / month, on top of the free allowance
@@ -259,7 +259,7 @@ Live Collaboration
 Collaborate on videos with your team and edit them together in real time.
 AI Avatars & Languages
 AI Avatars
-The Free, Starter, and Creator plans include a limited number of AI avatars. The Enterprise plan includes our full selection of avatars.
+The Basic, Starter, and Pro plans include a limited number of AI avatars. The Enterprise plan includes our full selection of avatars.
 9 AI avatars
 125+ AI avatars
 180+ AI avatars
@@ -275,7 +275,7 @@ Paid add-on ($1,000/year)
 Dialogue
 Add two or more avatars in a scene.
 Customizable Avatars
-Customize avatars to talk in any environment and outfit. Then prompt them to act (each b-roll asset with action costs 96 credits).
+Customize avatars to talk in any environment and outfit. Then prompt them to act (each b-roll asset with action costs 230 credits).
 Languages & Voices
 Get access to over 160 languages and voices, including various narration styles and local accents.
 160+ languages & voices
@@ -299,7 +299,7 @@ Usage Limits
 10 minutes of dubbing / month
 Up to 16 minutes of dubbing / month, on top of the free allowance
 Up to 78 minutes of dubbing / month, on top of the free allowance
-Unlimited minutes of dubbing
+Custom
 Languages
 Output languages and locales available for translation, including regional variants like Spanish (Mexico) and Portuguese (Brazil).
 70+ languages
@@ -309,7 +309,7 @@ Output languages and locales available for translation, including regional varia
 File Upload or YouTube Link
 Voice and accent preservation
 Preserve the original speaker's voice, accent, and tone in the dubbed version.
-Lip Sync
+Lip-Sync
 Match mouth movements to the translated audio. Uses 2× credits when enabled.
 Dubbing API
 Automate dubbing workflows and translate video at scale through the API.
@@ -650,7 +650,7 @@ The maximum number of seats your workspace includes.
 1 editor, 5 guests
 Custom # of editors & guests
 Usage limits
-Number of minutes of video you can generate per month (calculated in seconds). For example, if you're on Starter plan and create a video that's 59 seconds long, you'll still have 9:01 minutes left.
+The free allowance includes 10 minutes of video a month. Paid plans add credits on top, and the number shown is the most extra video those credits can make. Dubbing and surveys use the same credits.
 10 minutes of video / month
 Up to ~150 minutes of video / year, on top of the free allowance
 Up to ~720 minutes of video / year, on top of the free allowance
@@ -669,7 +669,7 @@ Live Collaboration
 Collaborate on videos with your team and edit them together in real time.
 AI Avatars & Languages
 AI Avatars
-The Free, Starter, and Creator plans include a limited number of AI avatars. The Enterprise plan includes our full selection of avatars.
+The Basic, Starter, and Pro plans include a limited number of AI avatars. The Enterprise plan includes our full selection of avatars.
 9 AI avatars
 125+ AI avatars
 180+ AI avatars
@@ -687,7 +687,7 @@ Paid add-on ($1,000/year)
 Dialogue
 Add two or more avatars in a scene.
 Customizable Avatars
-Customize avatars to talk in any environment and outfit. Then prompt them to act (each b-roll asset with action costs 96 credits).
+Customize avatars to talk in any environment and outfit. Then prompt them to act (each b-roll asset with action costs 230 credits).
 Languages & Voices
 Get access to over 160 languages and voices, including various narration styles and local accents.
 160+ languages & voices
@@ -711,7 +711,7 @@ Usage Limits
 120 minutes of dubbing / year
 Up to 197 minutes of dubbing / year, on top of the free allowance
 Up to 947 minutes of dubbing / year, on top of the free allowance
-Unlimited minutes of dubbing
+Custom
 Languages
 Output languages and locales available for translation, including regional variants like Spanish (Mexico) and Portuguese (Brazil).
 70+ languages
@@ -721,7 +721,7 @@ Output languages and locales available for translation, including regional varia
 File Upload or YouTube Link
 Voice and accent preservation
 Preserve the original speaker's voice, accent, and tone in the dubbed version.
-Lip Sync
+Lip-Sync
 Match mouth movements to the translated audio. Uses 2× credits when enabled.
 Dubbing API
 Automate dubbing workflows and translate video at scale through the API.
@@ -846,6 +846,7 @@ Just the real-time avatar layer; bring your own voice & LLM.
 $
 0.20
 per minute
+COMING SOON
 Full Stack
 Avatar + voice + LLM + LiveKit; add it with a code snippet.
 Get started
@@ -864,15 +865,11 @@ Rate card
 Product
 Price
 Unit
-Video Creation API
-$
-1.60
-per minute
 Interactive Avatars: Avatar tech only
 $
 0.10
 per minute
-Interactive Avatars: Full Stack
+Interactive Avatars: full stack
 $
 0.20
 per minute
@@ -880,7 +877,7 @@ Dubbing: voice only
 $
 0.40
 per minute
-Dubbing: with lip sync
+Dubbing: with lip-sync
 $
 0.80
 per minute
@@ -922,17 +919,13 @@ Digital Learning Designer
 This is some textWBS Training inside of a div block.
 Frequently asked questions about AI video.
 Can I use Synthesia for free?
-Yes. The Basic plan is free and includes 10 minutes of video, 3 survey responses and 500 credits every month, renewing each month. You can also generate a one-off AI video without an account on our
-free AI video page
+Yes. The Basic plan is free and includes 10 minutes of video, 3 survey responses and 500 credits every month, renewing each month. You can easily create a video for free via the
+AI video generator page
 .
 How can I test Synthesia?
 Free AI video:
 You can
 generate an AI video for free here
-.
-Free product tour:
-You can watch a free 5 minute
-product tour here
 .
 Free sales demo:
 If you're interested in testing Synthesia for a larger Enterprise, you can
@@ -955,7 +948,7 @@ Dubbing
 Surveys
 - 350 credits per response, after the 3 responses included every month. Building and publishing a survey is free.
 B-roll
-- clips and images you generate in the playground or Media Library are charged per asset; the cost depends on the model and is shown before you generate.
+- clips and images you generate in the AI Playground or Media Library are charged per asset; the cost depends on the model and is shown before you generate.
 Interactive Avatars (API)
 - per minute of conversation: 10 credits for the avatar only, 20 with the full widget.
 Can I upgrade my account at any time?
@@ -976,6 +969,6 @@ We work hard every day to improve and make Synthesia even more awesome in the fu
 product updates here
 .
 Ready to try Synthesia?
-Join 1M+ users today and start making AI videos with 240+ avatars in 140+ languages.
+Join 2M+ users today and start creating videos with AI avatars in 160+ languages.
 Get started for free
 Book demo

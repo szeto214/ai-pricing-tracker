@@ -6,9 +6,9 @@
   "url": "https://docs.perplexity.ai/getting-started/pricing",
   "final_url": "https://docs.perplexity.ai/docs/getting-started/pricing",
   "parser_version": 4,
-  "content_hash": "8945d2df2cc1f27c9237b008e51e2f09ebd176a3fff8e0ee11f9509f2658d1e7",
-  "raw_hash": "bd0ae6d6b918b6b851209ba614b4ba23fff864459f2e9298ccb4fb7e34096d94",
-  "text_bytes": 6698,
+  "content_hash": "c9bd12cc970b96f5f66a9780ee6c70651e053b691dfd31d599191ad37818aa9b",
+  "raw_hash": "af1f11b3f43ef3f930c68e10194ee4f76a6623b523f08010338d488499007500",
+  "text_bytes": 6706,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -498,7 +498,7 @@
           "Per-request fee"
         ],
         [
-          "decider-27b",
+          "pplx-decider-v1-27b",
           "$0.04",
           "Free",
           "None"

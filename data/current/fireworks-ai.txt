@@ -15,8 +15,9 @@ On Demand Deployments
 Pay per GPU second for faster speeds, higher rate limits, and lower costs at scale
 See Pricing
 Serverless Inference
-Pay per token, with high rate limits and postpaid billing. Get started with $1 in free credits. To view the current pricing for our most popular models across Standard, Priority, and Fast serverless tiers, visit our
-documentation
+Pay per token with pre-paid, usage-based billing. Simply add a payment method to buy credits, and usage is then deducted from your balance. Usage is billed on output, input, and cached tokens. Turn on Auto Reload to top up automatically when your balance runs low, or set a monthly spend limit to cap usage.
+To view the current pricing for our most popular serverless models across Standard, Priority, and Fast serving paths, visit our full
+pricing documentation
 .
 Embeddings
 Base model parameter count

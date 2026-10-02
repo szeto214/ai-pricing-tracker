@@ -34,25 +34,16 @@ LangSmith for Startups
 LangSmith Usage Calculator
 Estimate your monthly usage
 Tell us about your agent. Pay-as-you-go.
-LCU
-LangChain Compute Units. For work done
-&
-compute.
-$1.50 / LCU
 LSU
-LangChain Storage Units. For traces
-&
-storage.
+LangChain Standard Units.
 $1.00 / LSU
 Your agent stack
 Monthly total
-LCU
-0
 LSU
 0
 $49
 / mo
-Estimate only. Actual LCU/LSU consumption varies with the work your agents perform.
+Estimate only. Actual LSU consumption varies with the work your agents perform.
 Ready to start with LangSmith?
 Start building with LangSmith, talk with our team, or share this estimate with the people you work with.
 Copy Estimate Link
@@ -93,28 +84,28 @@ N/A
 Additional Serverless and Dedicated deployments available by size (Small, Medium, Large) and charged based on resources consumed. Specs by size can be found
 here
 . Metering rates as follows:
-Runtime Compute · 0.045 LCU / vCPU-hr
-Runtime Memory · 0.006 LCU / GiB-hr
+Runtime Compute · 0.0675 LSU / vCPU-hr
+Runtime Memory · 0.0090 LSU / GiB-hr
 Database Compute · 0.177 LSU / vCPU-hr
 Database Memory · 0.025 LSU / GiB-hr
 Custom
 Fleet
-Fleet usage metered in LCUs. Includes 5 LCU of Fleet usage / mo for free.
-Fleet usage metered in LCUs. Includes 25 LCU of Fleet usage / mo.
+Metered in LSUs. Includes 7 LSU
+Metered in LSUs. Includes 37 LSU
 Custom
 Engine
 N/A
-Engine usage is metered in LCUs
+Metered in LSUs
 i
 Custom
 Sandboxes
-Includes 5 LCU & 1 LSU of Sandbox usage / mo for free.
+Includes 8 LSU
 Limited to 10 Sandboxes.
-Compute · 0.0384 LCU / vCPU-hr
-Memory · 0.0123 LCU / GiB-hr
+Compute · 0.0576 LSU / vCPU-hr
+Memory · 0.01845 LSU / GiB-hr
 Storage · 0.000123 LSU / GiB-hr
 All rates billed per second.
-Includes 5 LCU & 1 LSU of Sandbox usage / mo for free.
+Includes 8 LSU of Sandbox usage / mo for free.
 Custom
 LLM Gateway
 Pay-as-you-go model usage via Gateway Credits.
@@ -130,8 +121,7 @@ here
 Tuned Evaluators
 N/A
 Pay-as-you-go usage.
-Perceived Error · 0.01 LCU/Evaluation Run
-i
+Perceived Error · 0.015 LSU / Evaluation Run
 Custom
 i
 LangSmith Observability & Evaluation
@@ -260,11 +250,9 @@ Plans and Billing
 page. For the Enterprise plan, please
 contact our sales team
 to discuss your needs.
-What is an LCU? What is an LSU?
-LangChain Compute Unit (LCU):
-A LCU is a normalized unit of work done on the LangSmith Platform and is used for pricing purposes. Different services in LangSmith that do work and consume compute, tokens, or processing power all meter at different rates and are measured in LCUs. Examples of LangSmith products that consume LCUs include Engine, Fleet, deployments, and sandboxes. 1 LCU = $1.50.
-LangChain Storage Unit (LSU):
-A LSU is a normalized unit of data stored or managed by the LangSmith Platform and is used for pricing purposes. Different services in LangSmith that store data in a database or in memory all meter at different rates and are measured in LSUs. Examples of LangSmith products that consume LSUs include traces, deployments, and sandboxes. 1 LSU = $1.00
+What is an LSU?
+LangChain Standard Units ("LSUs")
+are the standard unit of measure for usage consumption across all LangSmith products and features. The number of LSUs consumed depends on each product's metering rate and usage. 1 LSU = $1.
 LangSmith Observability & Evaluation Questions
 What is a trace? Can it contain multiple events?
 A trace represents a single execution of your application—whether it’s an agent, evaluator, or playground session. It can include many individual steps, such as LLM calls and other tracked events. Here's an
@@ -306,11 +294,11 @@ Yes.
 Contact our sales team
 to learn more.
 How is Fleet metered?
-Fleet usage is measured in LangChain Compute Units (LCUs). LCU usage depends on the amount of work your Fleet agent performs, your selected model tier (Fast, Pro, Max) and the amount of content it processes & generates. Developer & Plus plans include a free usage allowance, shared across your organization and resets monthly:
+Fleet usage is measured in LangChain Standard Units (LSUs). LSU usage depends on the amount of work your Fleet agent performs, your selected model tier (Fast, Pro, Max) and the amount of content it processes & generates. Developer & Plus plans include a free usage allowance, shared across your organization and resets monthly:
 Developer
-: 5 LCUs included per organization each month. After the allowance is used, Fleet pauses new runs until the allowance resets or the organization upgrades to Plus.
+: 7 LSUs included per organization each month. After the allowance is used, Fleet pauses new runs until the allowance resets or the organization upgrades to Plus.
 Plus
-: 25 LCUs included per organization each month. Additional usage is billed.
+: 37 LSUs included per organization each month. Additional usage is billed.
 What are Fast, Pro, and Max?
 Fast, Pro, and Max are performance tiers, not fixed model names. Fleet selects and LangChain maintains the underlying models for each tier, based on specific task performance and cost optimization. Users select the tier based on the performance requirements for each workload.
 Fast
@@ -320,30 +308,30 @@ provides stronger reasoning for more complex work.
 Max
 provides the highest capability for the most demanding work and typically costs more and takes longer.
 Do I need my own model-provider API key?
-No. LangChain manages model-provider access for Fast, Pro, and Max. Your organization is charged for Fleet usage in LCUs.
+No. LangChain manages model-provider access for Fast, Pro, and Max. Your organization is charged for Fleet usage in LSUs.
 LangSmith Engine Questions
 How is LangSmith Engine priced?
-Engine is metered in LCUs (LangChain Compute Units), which are consumed during each Engine run. 1 LCU costs $1.50.
-What does a LangChain Compute Unit (LCU) represent?
-An LCU represents a unit of work done by Engine. This includes the compute, infrastructure, and underlying model usage needed to analyze traces, identify issues, and propose fixes to your agent.
-How are LCUs calculated?
-An Engine run can consume ~5-30 LCUs based on the volume of traces analyzed, agent complexity, the number and types of issues surfaced, and the suggested fixes.
+Engine is metered in LSUs (LangChain Standard Units), which are consumed during each Engine run. 1 LSU costs $1.
+What does a LangChain Standard Unit (LSU) represent?
+An LSU represents a unit of work done by Engine. This includes the compute, infrastructure, and underlying model usage needed to analyze traces, identify issues, and propose fixes to your agent.
+How are LSUs calculated?
+An Engine run can consume ~7-45 LSUs based on the volume of traces analyzed, agent complexity, the number and types of issues surfaced, and the suggested fixes.
 These ranges are estimates. Actual usage depends on the amount of work Engine performs, including the volume of traces analyzed, the number of issues surfaced, the number of proposed fixes generated, and the complexity of your application.
 How often does Engine run?
 Engine is scheduled to run once every 6 hours.
 Is model usage included in the cost?
 Yes. Engine pricing includes the underlying model usage required for analysis and fix generation.
 Where can I see my LSU usage?
-You can view your organization’s LCU usage in your LangSmith billing console by visiting Settings > Billing.
+You can view your organization’s LSU usage in your LangSmith billing console by visiting Settings > Billing.
 Learn more
 .
-Are LCUs included in my plan?
-Plus plans: LCUs are an additional charge on top of your monthly license fee and any other product usage.
-Enterprise plans: LCUs are charged against your committed LangChain credits.
+Are LSUs included in my plan?
+Plus plans: LSUs are an additional charge on top of your monthly license fee and any other product usage.
+Enterprise plans: LSUs are charged against your committed LangChain credits.
 How do I disable Engine?
 Ask your Organization Admin to turn off Engine in the Settings page by following instructions
 here
-. Once Engine is disabled, it will stop running on its regular schedule and will no longer consume LCUs.
+. Once Engine is disabled, it will stop running on its regular schedule and will no longer consume LSUs.
 LangSmith Sandboxes Questions
 How is Sandbox uptime calculated?
 Sandboxes are designed as ephemeral compute environments and are billed per second. LangSmith Sandboxes have configurable TTLs so inactive sandboxes shut down automatically.

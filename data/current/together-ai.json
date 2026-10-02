@@ -6,9 +6,9 @@
   "url": "https://www.together.ai/pricing",
   "final_url": "https://www.together.ai/pricing",
   "parser_version": 4,
-  "content_hash": "6fed3cbc0c520875dd0a54165ff58240f793c7829a8a0b964064ea008244983b",
-  "raw_hash": "c6b9aff248167e1bdeb60efc9637ea2759ca8d8ef5055c3564ff73808ff2e9c7",
-  "text_bytes": 8773,
+  "content_hash": "cf532aee933e5af1b885026b97442f20e0b8523a4dd9a7a64c5f305979830ef3",
+  "raw_hash": "e322e0ffbe2c8afb31a2593445047d0cc43abd406cf817f0b1d268cb8981e78c",
+  "text_bytes": 8762,
   "extractor": "jsonld",
   "confidence": "medium",
   "plans": [
@@ -235,6 +235,11 @@
           "DeepSeek V4.1 Flash",
           "$0.30 $0.006 (cached)",
           "$1.20"
+        ],
+        [
+          "Tev1 4B Experimental",
+          "$0.04",
+          "Free"
         ],
         [
           "Gemma 4 31B",
@@ -721,8 +726,8 @@
       "caption": "",
       "rows": [
         [
-          "NVIDIA HGX H100 Promo Promotion valid until 09/30/26",
-          "$5.49 $5.49",
+          "NVIDIA HGX H100",
+          "$5.49",
           "Contact sales"
         ],
         [

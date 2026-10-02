@@ -6,9 +6,9 @@
   "url": "https://www.firecrawl.dev/pricing",
   "final_url": "https://www.firecrawl.dev/pricing",
   "parser_version": 4,
-  "content_hash": "fd07f5ce649c764c36c3c5dc6c147f178df1f7b01d48765eaca209c1c3271cda",
-  "raw_hash": "0854617b34702cb589ae3d85e0ba99f05a404ef1a1653428f7af251abccb5393",
-  "text_bytes": 14196,
+  "content_hash": "599361b58f84b2536f83f48e71d48667945d3e3f08ca145a8c5d93ca7089cb6b",
+  "raw_hash": "648d29debed9ea925b873bc7037442cee1cb03f03f95817c0981b2032e4094f6",
+  "text_bytes": 14186,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

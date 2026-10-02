@@ -6,12 +6,58 @@
   "url": "https://railway.com/pricing",
   "final_url": "https://railway.com/pricing",
   "parser_version": 4,
-  "content_hash": "2ec65e5abbffc9378abfb98537aa4336c16f43f077ad0e7f2b906fe26735ca1a",
-  "raw_hash": "56b3826bfa20bcb09e2f3f24d10cef51ffd7dea195b8c1d00aad58d9f29f33df",
-  "text_bytes": 108,
-  "extractor": "none",
-  "confidence": "none",
-  "plans": [],
+  "content_hash": "3a1e6a82faa8ae9f18aa13c96c88c1bd34aedb97217a062794469a34e9683b1c",
+  "raw_hash": "53d8cf6040c2750dda0dcef5bb001b25bbf38874b7e8fa97d7c5e383c3e95b50",
+  "text_bytes": 8582,
+  "extractor": "jsonld",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "Railway",
+      "price_raw": "0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": []
+    },
+    {
+      "name": "Free Trial",
+      "price_raw": "0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": []
+    },
+    {
+      "name": "Hobby",
+      "price_raw": "5",
+      "amount": 5.0,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": []
+    },
+    {
+      "name": "Pro",
+      "price_raw": "20",
+      "amount": 20.0,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": []
+    },
+    {
+      "name": "Enterprise",
+      "price_raw": "0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": []
+    }
+  ],
   "models": [],
   "tables": [],
   "extract_errors": []

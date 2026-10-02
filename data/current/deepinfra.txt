@@ -389,7 +389,7 @@ $ per 1M input tokens
 $ per 1M output tokens
 Actions
 Llama-3.3-70B-Instruct-Turbo
-64k
+128k
 $0.10
 $0.32
 View more
@@ -409,7 +409,7 @@ $ per 1M input tokens
 $ per 1M output tokens
 Actions
 Llama-3.3-70B-Instruct-Turbo
-64k
+128k
 $0.10
 $0.32
 View more
@@ -504,8 +504,8 @@ $0.34
 View more
 gemma-4-31B-it
 256k
-$0.13
-$0.38
+$0.15
+$0.40
 View more
 gemma-4-26B-A4B-it
 256k
@@ -544,8 +544,8 @@ $0.34
 View more
 gemma-4-31B-it
 256k
-$0.13
-$0.38
+$0.15
+$0.40
 View more
 gemma-4-26B-A4B-it
 256k
@@ -597,11 +597,6 @@ NVIDIA-Nemotron-3-Super-120B-A12B
 $0.085
 $0.40
 View more
-Nemotron-3-Nano-30B-A3B
-256k
-$0.05 / $0.025 cached
-$0.20
-View more
 Model
 Context
 $ per 1M input tokens
@@ -626,11 +621,6 @@ NVIDIA-Nemotron-3-Super-120B-A12B
 256k
 $0.085
 $0.40
-View more
-Nemotron-3-Nano-30B-A3B
-256k
-$0.05 / $0.025 cached
-$0.20
 View more
 Claude
 Developed by Anthropic, Claude is a family of highly performant, trustworthy AI models built for complex reasoning, advanced coding, and nuanced language understanding
@@ -870,9 +860,6 @@ Actions
 FLUX-2-dev
 $0.01 x (w / 1024) x (h / 1024) x (iters / 28)
 View more
-FLUX.1-Kontext-dev
-$0.01 x (w / 1024) x (h / 1024) x (iters / 25)
-View more
 FLUX-2-klein-9b
 $0.015 x (w / 1024) x (h / 1024)
 View more
@@ -902,9 +889,6 @@ $ per image
 Actions
 FLUX-2-dev
 $0.01 x (w / 1024) x (h / 1024) x (iters / 28)
-View more
-FLUX.1-Kontext-dev
-$0.01 x (w / 1024) x (h / 1024) x (iters / 25)
 View more
 FLUX-2-klein-9b
 $0.015 x (w / 1024) x (h / 1024)
@@ -1074,21 +1058,21 @@ XiaomiMiMo
 /
 MiMo-V2.6-Pro
 Featured Models
+XiaomiMiMo
+/
+MiMo-V2.6-Pro
+google
+/
+gemma-4-31B-it
+deepseek-ai
+/
+DeepSeek-V4.1-Flash
+deepseek-ai
+/
+DeepSeek-V3.2
 nvidia
 /
 NVIDIA-Nemotron-3-Ultra-550B-A55B
-Qwen
-/
-Qwen3-Max-Thinking
-XiaomiMiMo
-/
-MiMo-V2.6-Flash
-zai-org
-/
-GLM-5.2
-Qwen
-/
-Qwen3-TTS-VoiceDesign
 © 2026 DeepInfra. All rights reserved.
 Privacy Policy
 Terms of Service

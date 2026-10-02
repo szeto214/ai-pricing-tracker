@@ -187,12 +187,15 @@ per credit on-demand.
 Start Free Trial
 Features
 Features
+Bits Database Optimization — Automatically detect, generate, and validate query optimizations for your database
 Bits Chat — Search and analyze telemetry, create dashboards and notebooks, and inspect monitors with natural language.
-Bits Investigation — Automatically investigate alerts, correlate telemetry, identify root causes, summarize impact, and apply remediations.
-Bits Code — Turn Datadog context into faster fixes with AI-assisted code generation, review, and debugging.
 Bits Agent Builder — Build custom AI agents that automate high-value workflows like incident response and custom reporting
+Bits Code — Turn Datadog context into faster fixes with AI-assisted code generation, review, and debugging.
+Bits Investigation — Automatically investigate alerts, correlate telemetry, identify root causes, summarize impact, and apply remediations.
 How Credits are Consumed by Feature
 Estimated Credits Per Use
+Bits Database Optimization — Autonomous Database Optimization
+~0.3 credits
 Bits Chat — Message
 ~0.5 credits
 Bits Agent Builder — Manual or Autonomous Run
@@ -704,8 +707,8 @@ Workload Protection
 Anomalous workload profile detection
 Resource Catalog
 Workflows
-5 allotted workflow executions per host per month
-20 allotted workflow executions per host per month
+Free when triggered from security findings and signals
+Free when triggered from security findings and signals
 Containers
 5 containers allotted per host per month
 10 containers allotted per host per month
@@ -1145,6 +1148,9 @@ on-demand
 / hr per container
 Start Free Trial
 Features
+Features
+Workflows
+Free when triggered from security findings and signals
 Add-ons
 Workload Protection for AWS Fargate
 $
@@ -1883,14 +1889,14 @@ Inspect, block, and govern AI behavior in real time
 Get in touch
 Custom Quote
 Contact Us for Pricing
-request a quote
+Request access
 Detect prompt injection and jailbreak attempts in real time
 Block unsafe tool calls and sensitive data before they reach the model
 Enforce per-service policies with adjustable confidence thresholds
 *Billed per 1,000,000 input tokens evaluated, including the full conversation context.
 Contact us
 for current rates and billing options.
-request a quote
+Request access
 Features
 Inline evaluation of LLM conversations: user prompts, assistant responses, tool arguments and results
 Prompt injection and jailbreak detection
@@ -2762,6 +2768,55 @@ per 10K LLM spans per month (60-day trace retention, 9-month experiment retentio
 per 10K LLM spans per month (90-day trace retention, 12-month experiment retention)
 How is Datadog different from other solutions?
 Datadog connects development and production in one workflow, so teams can experiment with real production data, validate changes before rollout, and trace issues across the full application stack without switching tools. Agent Observability also unifies AI agent behavior with backend services, infrastructure, and real user sessions in the same platform SRE and DevOps teams already use to reduce context switching and speeding root cause analysis.
+GPU Monitoring
+Understand and optimize the performance, health and cost of your GPU fleet and the AI workloads running on them in one place.
+Starting At
+$
+20
+Per active GPU device, per month*
+Start Free Trial
+Unified fleet-wide GPU visibility across cloud, on-prem, and neocloud providers
+Identify key drivers of GPU inefficiencies and wasted spend by team, service, cluster and more
+Improve throughput and performance of your AI training / inference workloads running on GPUs
+Pinpoint optimization opportunities like idle devices and zombie processes to reclaim wasted spend
+*Billed annually. On-demand and M2M options available.
+Start Free Trial
+Features
+Capacity plan with confidence
+Understand your entire fleet's size and spend across hyperscalers, on-prem, and neocloud providers in one unified view
+Attribute GPU usage and quotas by team, service, or any tag to allocate capacity more fairly across teams and distinguish real capacity shortages from inefficiencies
+Identify resource contention and forecast GPU type demand to shorten procurement cycles and get more predictable spend
+Diagnose why workloads are delayed or evicted
+Maximize AI workload throughput
+Troubleshoot stalled workloads with shared context for both platform and ML teams instead of switching between siloed tools
+Pinpoint why workloads are slowing down, whether the issue resides in unhealthy hardware, communication, memory bandwidth, or scheduling
+Detect bottlenecks in your training and inference workloads with lightweight, continuous tracing
+Discover recommendations on optimizations that produce the largest throughput improvements
+Safeguard device reliability
+Monitor thermal throttling early with out-of-the-box alerts before failures spread across the cluster
+Detect and remediate ECC and XID errors proactively with prescriptive next steps that help teams act quickly
+Isolate unhealthy GPUs before failures cascade
+Reduce wasted spend
+Break down total and idle GPU spend by any tag over any timeframe to see where spend is concentrated
+Identify key drivers of wasted GPU spend and inefficiencies (i.e. most wasteful teams) to support internal chargebacks and data-driven quota management decisions
+Make cost optimization part of daily operations by giving teams clear reporting on GPU usage and spend
+Support Plans & Post Sales Services
+From basic plans to bespoke offerings, Datadog offers the right level of support & services for any organization.
+Support plans
+Services & enablement
+Common Questions
+What is an active GPU device?
+An active GPU device represents any GPU chip that is actively busy providing value to your business with nonzero graphics engine activity in a given 5-minute window. Billing is based on your monthly average active GPU device count, not the total number of GPUs in your fleet.
+Do I pay for GPUs that are installed but idle?
+No. You get full observability across your fleet, but you’re only billed for GPU devices that are busy working and providing value to your business.
+How is GPU Monitoring billed?
+$
+20
+/device per month (billed annually), $
+24
+/device month-to-month, or $
+29
+/device on-demand. Volume discounts available for annual commitments — contact your Datadog rep.
 Real User Monitoring & Session Replay
 Measure the end-to-end experience of web and mobile applications from your users’ perspective
 RUM Measure
@@ -3489,7 +3544,7 @@ Cloud SIEM is billed annually or $
 7.50
 on-demand
 **Includes allotment of 100 free monthly Bits Security Analyst investigations per 1 TB analyzed (minimum of 50 free monthly investigations)
-***Workflows are billed separately
+***Workflows triggered from security findings and signals are free; workflows triggered by other events are billed separately
 Start Free Trial
 Multi-Year/Volume discounts available (1.2B+ events/mo)
 Contact Us
@@ -3514,6 +3569,7 @@ Investigate cloud entities using graph-based visualizations
 Pivot seamlessly to related metrics, traces, and logs during investigations
 Collaborate quickly and easily between developers, operations, and security teams using built-in case management and incident management tools
 Enhanced Security Case Management with tighter signal-to-case integration
+Workflows: Free when triggered from security findings and signals
 Content & Data Platform
 Growing library of out-of-the-box integrations for essential security tools
 Activate bundled security content with out-of-the-box content packs to get started quickly
@@ -3703,10 +3759,10 @@ File integrity monitoring
 Workload Protection
 Comprehensive inventory of cloud resources & linked risks
 Case management
+Workflows
+Free when triggered from security findings and signals
+Free when triggered from security findings and signals
 Allotments
-Workflow Automation
-5 workflow executions per host per month
-20 workflow executions per host per month
 CSM Containers
 5 containers per host per month
 20 containers per host per month
@@ -3729,7 +3785,7 @@ CSM Pro can be purchased without needing any other Datadog plan. It does not req
 What counts as a billable host?
 A host is any physical or virtual OS instance that you protect with Datadog using agent or agentless technology. It could be a server, VM, node (in the case of Kubernetes) or an App Service Plan instance (in the case of Azure App Services).
 What capabilities are included?
-Continuous scanning for misconfigurations, vulnerability management for containers and hosts, a full inventory of your cloud resources, case management, and 5 workflow executions per host per license.
+Continuous scanning for misconfigurations, vulnerability management for containers and hosts, a full inventory of your cloud resources, and case management.
 What does setup involve?
 Getting started requires cloud provider integrations and optionally the unified Datadog agent.
 Who is this for?
@@ -3739,7 +3795,7 @@ No, you may either purchase CSM Pro or CSM Enterprise for your organization, but
 What kind of billing plan do I need to run CSM Enterprise?
 Every billable CSM Enterprise host requires the purchase of Enterprise Infrastructure Monitoring.
 What capabilities are included?
-Continuous scanning for misconfigurations, vulnerability management for container images and hosts, real-time threat detection, cloud infrastructure entitlement management, anomalous workload profile detection, a full inventory of your cloud resources, case management, 20 workflow executions per host, and 20 containers included per host license.
+Continuous scanning for misconfigurations, vulnerability management for container images and hosts, real-time threat detection, cloud infrastructure entitlement management, anomalous workload profile detection, a full inventory of your cloud resources, case management, and 20 containers included per host license.
 Is Infrastructure Monitoring Pro or Enterprise required on every CSM Enterprise Host
 Yes, for example, if you subscribe for 10 CSM Enterprise Hosts, those hosts must also be subscribed for 10 Infrastructure Pro or Enterprise hosts. This applies to both committed and non-committed host usage.
 What does setup involve?
@@ -3769,13 +3825,17 @@ on-demand
 Start Free Trial
 Kafka Console
 Self-hosted, Confluent Cloud, Amazon MSK provisioned
-Per broker host, per month
-Contact Us for Pricing
+Starting At
+$
+100
+Per broker host, per month*
 Identify issues across brokers, partitions, and schemas
 Troubleshoot at the message level
 Optimize Kafka performance
+*Billed annually or $
+120
+on-demand
 Start Free Trial
-Let's Talk
 Features
 Data Streams Monitoring
 Out-of-the-box pipeline topology mapping
@@ -4131,6 +4191,9 @@ One interface to correlate application threats with host & workload level threat
 Service and Support
 Technical Support (Chat and Email)
 Community Forum and Online Docs
+Features
+Workflows
+Free when triggered from security findings and signals
 Add-ons
 Threat Management for AWS Fargate
 $
@@ -4480,6 +4543,10 @@ for automated and continuous security ensuring early vulnerability detection in 
 Scan open source libraries
 imported into repositories for known vulnerabilities
 Suggested Remediation with workflows to appropriate owners
+Workflows
+Free when triggered from security findings and signals
+Free when triggered from security findings and signals
+Free when triggered from security findings and signals
 Runtime Code Analysis (IAST)
 Runtime SCA
 Code Security
@@ -4494,6 +4561,10 @@ third party code (open source libraries)
 while your services are
 running in production
 Suggested Remediation with workflows to appropriate owners
+Workflows
+Free when triggered from security findings and signals
+Free when triggered from security findings and signals
+Free when triggered from security findings and signals
 Support Plans & Post Sales Services
 From basic plans to bespoke offerings, Datadog offers the right level of support & services for any organization.
 Support plans

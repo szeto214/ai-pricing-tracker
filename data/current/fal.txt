@@ -9,7 +9,7 @@ fal adapts to your usage, ensuring you only pay for the computing power you cons
 Serverless & Compute Pricing
 Competitive pricing for custom deployments.
 Deploy your own app on our competitively priced GPU fleet, as low as
-$1.89/hr for H100
+$2.49/hr for H100
 .
 Start Building
 Contact Sales
@@ -19,24 +19,28 @@ List Price
 As low as
 B300
 288GB
-$8.50/h
-$4.49/h
+$12.99/h
+$5.99/h
+GB200
+192GB
+$9.99/h
+$5.89/h
 B200
-180GB
-$6.25/h
-$3.49/h
+192GB
+$7.99/h
+$5.49/h
 H200
 141GB
-$4.50/h
-$2.10/h
+$6.00/h
+$2.99/h
 H100
 80GB
 $4.50/h
-$1.89/h
+$2.49/h
 RTX PRO 6000
 96GB
-$2.99/h
-$1.10/h
+$4.00/h
+$1.99/h
 Competitive pricing for custom deployments — Contact
 support@fal.ai
 to get started.
@@ -56,23 +60,23 @@ $0.05
 H3 Max Image to Video
 minimax/h3-max/image-to-video
 seconds
-$0.025
-40 seconds
+$0.05
+20 seconds
 MiniMax H3 Max Text to Video
 minimax/h3-max/text-to-video
 seconds
-$0.025
-40 seconds
+$0.05
+20 seconds
 H3 Max Turbo Image to Video
 minimax/h3-max-turbo/image-to-video
 seconds
-$0.0125
-80 seconds
+$0.025
+40 seconds
 H3 Max Turbo Text to Video
 minimax/h3-max-turbo/text-to-video
 seconds
-$0.0125
-80 seconds
+$0.025
+40 seconds
 Kling Video
 fal-ai/kling-video/v2.5-turbo/pro/image-to-video
 seconds

@@ -6,9 +6,9 @@
   "url": "https://render.com/pricing",
   "final_url": "https://render.com/pricing",
   "parser_version": 4,
-  "content_hash": "4cab3bb5c4d3a0bc7d738cc3aff7311d37de8ba5086f0308b4d55ab47f2205b1",
-  "raw_hash": "ff5f8f3a06ec7413929afdf5635bbb6485a2ca05546d331eb5eca0b35f60ae20",
-  "text_bytes": 14761,
+  "content_hash": "6ee0d7c69f8753ca7d95c10734fac87c3eccdbb419c5ef369b6ab41ccc4d1527",
+  "raw_hash": "951e3daead76bb06dcb0fe3596258338627a5428cda208b09a085d01316013c0",
+  "text_bytes": 14948,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -500,52 +500,75 @@
       "rows": [
         [
           "Free ( limitations apply )",
-          "Free",
+          "$0/month",
           "25 MB RAM",
+          "--",
           "50 connections",
           "free"
         ],
         [
-          "Standard CPU",
+          "Less than 1 CPU",
           "$10/month",
           "256 MB RAM",
-          "250 connections",
+          "256 MB storage",
+          "200 connections",
           "256mb"
         ],
         [
-          "Standard CPU",
-          "$32/month",
+          "Less than 1 CPU",
+          "$20/month",
           "1 GB RAM",
-          "1,000 connections",
+          "2.5 GB storage",
+          "250 connections",
           "1g"
         ],
         [
-          "Standard CPU",
-          "$135/month",
+          "Less than 1 CPU",
+          "$60/month",
+          "3 GB RAM",
+          "3 GB storage",
+          "3000 connections",
+          "3g"
+        ],
+        [
+          "Less than 1 CPU",
+          "$100/month",
           "5 GB RAM",
+          "5 GB storage",
           "5,000 connections",
           "5g"
         ],
         [
-          "High CPU",
-          "$250/month",
+          "2 CPU",
+          "$200/month",
           "10 GB RAM",
+          "10 GB storage",
           "10,000 connections",
           "10g"
         ],
         [
-          "High CPU",
-          "$550/month",
+          "2 CPU",
+          "$350/month",
           "20 GB RAM",
+          "20 GB storage",
           "20,000 connections",
           "20g"
         ],
         [
-          "High CPU",
-          "$1100/month",
+          "4 CPU",
+          "$600/month",
           "40 GB RAM",
+          "40 GB storage",
           "40,000 connections",
           "40g"
+        ],
+        [
+          "4 CPU",
+          "$750/month",
+          "50 GB RAM",
+          "50 GB storage",
+          "50,000 connections",
+          "50g"
         ]
       ]
     },
@@ -652,12 +675,6 @@
           "$1.50/hour",
           "16 GB RAM",
           "4c-16g"
-        ],
-        [
-          "8 CPU",
-          "$2.50/hour",
-          "32 GB RAM",
-          "8c-32g"
         ]
       ]
     }

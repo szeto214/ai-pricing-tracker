@@ -944,9 +944,11 @@ Git-native versioned storage
 D1
 Serverless SQL
 Basin
-Ingest, Catalog & Query Analytics Data
+Ingest, catalog & query data
 Hyperdrive
 Global databases
+K2
+Publish and subscribe to durable, ordered event streams
 Queues
 Message processing
 R2

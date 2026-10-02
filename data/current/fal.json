@@ -6,16 +6,16 @@
   "url": "https://fal.ai/pricing",
   "final_url": "https://fal.ai/pricing",
   "parser_version": 4,
-  "content_hash": "485caf9964a23af5965d796854afef6bfe20e512d9e917e0d9b71f8ee06111de",
-  "raw_hash": "266d85df9d3ef2ccaab806cd65db5cfc42671a7cad923c502a9764cea2567376",
-  "text_bytes": 5343,
+  "content_hash": "0a6cf71a8d4809dd49e523dc724e8ea4b3a83f0d98d64cd6220ccd9e07e0f255",
+  "raw_hash": "61cdc1a9da5492ffca47c86611f615e484441c0a8dcc5c24fd3dd7353ac40046",
+  "text_bytes": 5368,
   "extractor": "jsonld",
   "confidence": "medium",
   "plans": [
     {
       "name": "fal Serverless GPUs",
-      "price_raw": "2.99",
-      "amount": 2.99,
+      "price_raw": "4",
+      "amount": 4.0,
       "currency": "USD",
       "period": null,
       "features": [],
@@ -23,17 +23,26 @@
     },
     {
       "name": "B300 (288GB)",
-      "price_raw": "8.5",
-      "amount": 8.5,
+      "price_raw": "12.99",
+      "amount": 12.99,
       "currency": "USD",
       "period": "hour",
       "features": [],
       "slot_prices": []
     },
     {
-      "name": "B200 (180GB)",
-      "price_raw": "6.25",
-      "amount": 6.25,
+      "name": "GB200 (192GB)",
+      "price_raw": "9.99",
+      "amount": 9.99,
+      "currency": "USD",
+      "period": "hour",
+      "features": [],
+      "slot_prices": []
+    },
+    {
+      "name": "B200 (192GB)",
+      "price_raw": "7.99",
+      "amount": 7.99,
       "currency": "USD",
       "period": "hour",
       "features": [],
@@ -41,8 +50,8 @@
     },
     {
       "name": "H200 (141GB)",
-      "price_raw": "4.5",
-      "amount": 4.5,
+      "price_raw": "6",
+      "amount": 6.0,
       "currency": "USD",
       "period": "hour",
       "features": [],
@@ -59,8 +68,8 @@
     },
     {
       "name": "RTX PRO 6000 (96GB)",
-      "price_raw": "2.99",
-      "amount": 2.99,
+      "price_raw": "4",
+      "amount": 4.0,
       "currency": "USD",
       "period": "hour",
       "features": [],
@@ -73,12 +82,28 @@
       "model": "B300",
       "prices": {
         "list price": {
-          "raw": "$8.50",
-          "amount": 8.5
+          "raw": "$12.99",
+          "amount": 12.99
         },
         "as low as": {
-          "raw": "$4.49",
-          "amount": 4.49
+          "raw": "$5.99",
+          "amount": 5.99
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "gb200",
+      "model": "GB200",
+      "prices": {
+        "list price": {
+          "raw": "$9.99",
+          "amount": 9.99
+        },
+        "as low as": {
+          "raw": "$5.89",
+          "amount": 5.89
         }
       },
       "currency": "USD",
@@ -89,12 +114,12 @@
       "model": "B200",
       "prices": {
         "list price": {
-          "raw": "$6.25",
-          "amount": 6.25
+          "raw": "$7.99",
+          "amount": 7.99
         },
         "as low as": {
-          "raw": "$3.49",
-          "amount": 3.49
+          "raw": "$5.49",
+          "amount": 5.49
         }
       },
       "currency": "USD",
@@ -105,12 +130,12 @@
       "model": "H200",
       "prices": {
         "list price": {
-          "raw": "$4.50",
-          "amount": 4.5
+          "raw": "$6.00",
+          "amount": 6.0
         },
         "as low as": {
-          "raw": "$2.10",
-          "amount": 2.1
+          "raw": "$2.99",
+          "amount": 2.99
         }
       },
       "currency": "USD",
@@ -125,8 +150,8 @@
           "amount": 4.5
         },
         "as low as": {
-          "raw": "$1.89",
-          "amount": 1.89
+          "raw": "$2.49",
+          "amount": 2.49
         }
       },
       "currency": "USD",
@@ -137,12 +162,12 @@
       "model": "RTX PRO 6000",
       "prices": {
         "list price": {
-          "raw": "$2.99",
-          "amount": 2.99
+          "raw": "$4.00",
+          "amount": 4.0
         },
         "as low as": {
-          "raw": "$1.10",
-          "amount": 1.1
+          "raw": "$1.99",
+          "amount": 1.99
         }
       },
       "currency": "USD",
@@ -165,8 +190,8 @@
       "model": "H3 Max Image to Video minimax/h3-max/image-to-video",
       "prices": {
         "price": {
-          "raw": "$0.025",
-          "amount": 0.025
+          "raw": "$0.05",
+          "amount": 0.05
         }
       },
       "currency": "USD",
@@ -177,8 +202,8 @@
       "model": "MiniMax H3 Max Text to Video minimax/h3-max/text-to-video",
       "prices": {
         "price": {
-          "raw": "$0.025",
-          "amount": 0.025
+          "raw": "$0.05",
+          "amount": 0.05
         }
       },
       "currency": "USD",
@@ -189,8 +214,8 @@
       "model": "H3 Max Turbo Image to Video minimax/h3-max-turbo/image-to-video",
       "prices": {
         "price": {
-          "raw": "$0.0125",
-          "amount": 0.0125
+          "raw": "$0.025",
+          "amount": 0.025
         }
       },
       "currency": "USD",
@@ -201,8 +226,8 @@
       "model": "H3 Max Turbo Text to Video minimax/h3-max-turbo/text-to-video",
       "prices": {
         "price": {
-          "raw": "$0.0125",
-          "amount": 0.0125
+          "raw": "$0.025",
+          "amount": 0.025
         }
       },
       "currency": "USD",
@@ -642,32 +667,38 @@
         [
           "B300",
           "288GB",
-          "$8.50/h",
-          "$4.49/h"
+          "$12.99/h",
+          "$5.99/h"
+        ],
+        [
+          "GB200",
+          "192GB",
+          "$9.99/h",
+          "$5.89/h"
         ],
         [
           "B200",
-          "180GB",
-          "$6.25/h",
-          "$3.49/h"
+          "192GB",
+          "$7.99/h",
+          "$5.49/h"
         ],
         [
           "H200",
           "141GB",
-          "$4.50/h",
-          "$2.10/h"
+          "$6.00/h",
+          "$2.99/h"
         ],
         [
           "H100",
           "80GB",
           "$4.50/h",
-          "$1.89/h"
+          "$2.49/h"
         ],
         [
           "RTX PRO 6000",
           "96GB",
-          "$2.99/h",
-          "$1.10/h"
+          "$4.00/h",
+          "$1.99/h"
         ]
       ]
     },
@@ -689,26 +720,26 @@
         [
           "H3 Max Image to Video minimax/h3-max/image-to-video",
           "seconds",
-          "$0.025",
-          "40 seconds"
+          "$0.05",
+          "20 seconds"
         ],
         [
           "MiniMax H3 Max Text to Video minimax/h3-max/text-to-video",
           "seconds",
-          "$0.025",
-          "40 seconds"
+          "$0.05",
+          "20 seconds"
         ],
         [
           "H3 Max Turbo Image to Video minimax/h3-max-turbo/image-to-video",
           "seconds",
-          "$0.0125",
-          "80 seconds"
+          "$0.025",
+          "40 seconds"
         ],
         [
           "H3 Max Turbo Text to Video minimax/h3-max-turbo/text-to-video",
           "seconds",
-          "$0.0125",
-          "80 seconds"
+          "$0.025",
+          "40 seconds"
         ],
         [
           "Kling Video fal-ai/kling-video/v2.5-turbo/pro/image-to-video",

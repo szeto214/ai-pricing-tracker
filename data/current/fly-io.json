@@ -6,22 +6,22 @@
   "url": "https://fly.io/pricing/",
   "final_url": "https://fly.io/pricing/",
   "parser_version": 4,
-  "content_hash": "9960a27df1966a310c3379e4b9049aab3ea1bf7d68c0a13231cd084d94a902bf",
-  "raw_hash": "d9047f24ac891ab9009d8da8d79185a8ca61550573739292915981f4edc408db",
+  "content_hash": "f36002c812f4f09c24e9596d88d5fcc5232680b4c829d5607f6e529902497206",
+  "raw_hash": "2502b49cb0a087db484e6eaa3be9fe4bc4cf4c160c873972e88ab552cc64e975",
   "text_bytes": 2863,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
     {
       "name": "Machines Compute",
-      "price_raw": "$0.0027",
-      "amount": 0.0027,
+      "price_raw": "$0.0030",
+      "amount": 0.003,
       "currency": "USD",
       "period": "hour",
       "features": [],
       "slot_prices": [
-        0.0027,
-        1.94
+        0.003,
+        2.19
       ]
     },
     {
@@ -100,12 +100,12 @@
       "model": "shared-cpu-1x · 256MB",
       "prices": {
         "kolom 2": {
-          "raw": "$0.0027",
-          "amount": 0.0027
+          "raw": "$0.0030",
+          "amount": 0.003
         },
         "kolom 3": {
-          "raw": "$1.94",
-          "amount": 1.94
+          "raw": "$2.19",
+          "amount": 2.19
         }
       },
       "currency": "USD",
@@ -116,12 +116,12 @@
       "model": "performance-1x · 2GB",
       "prices": {
         "kolom 2": {
-          "raw": "$0.0431",
-          "amount": 0.0431
+          "raw": "$0.0458",
+          "amount": 0.0458
         },
         "kolom 3": {
-          "raw": "$31.00",
-          "amount": 31.0
+          "raw": "$33.00",
+          "amount": 33.0
         }
       },
       "currency": "USD",
@@ -223,13 +223,13 @@
         ],
         [
           "shared-cpu-1x · 256MB",
-          "$0.0027",
-          "$1.94"
+          "$0.0030",
+          "$2.19"
         ],
         [
           "performance-1x · 2GB",
-          "$0.0431",
-          "$31.00"
+          "$0.0458",
+          "$33.00"
         ],
         [
           "Stopped Machine, per GB rootfs",

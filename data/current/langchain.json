@@ -6,9 +6,9 @@
   "url": "https://www.langchain.com/pricing",
   "final_url": "https://www.langchain.com/pricing",
   "parser_version": 4,
-  "content_hash": "fefd8fc7701d5e03e29415081db14f407d1fd21830d8da95e4b1cce7d3da5f6a",
-  "raw_hash": "adbc32e4c4a52ce81f7759f4cad11e25faf09c1ba520284d81bbc6f42fdd8149",
-  "text_bytes": 15820,
+  "content_hash": "f39fdd917207612396efa86697202c6aa64be2601eef0888e932443b40553ad4",
+  "raw_hash": "0716ebbcc7633ad69a76fd86b61f04e5ac5d46846c1cfc29c761ee79b0d23e72",
+  "text_bytes": 15022,
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -44,13 +44,13 @@
     },
     {
       "name": "Estimate your monthly usage",
-      "price_raw": "$1.50",
-      "amount": 1.5,
+      "price_raw": "$1.00",
+      "amount": 1.0,
       "currency": "USD",
       "period": "month",
       "features": [],
       "slot_prices": [
-        1.5
+        1.0
       ]
     },
     {
@@ -65,19 +65,8 @@
       ]
     },
     {
-      "name": "LangChain Compute Unit (LCU)",
-      "price_raw": "$1.50",
-      "amount": 1.5,
-      "currency": "USD",
-      "period": null,
-      "features": [],
-      "slot_prices": [
-        1.5
-      ]
-    },
-    {
-      "name": "LangChain Storage Unit (LSU)",
-      "price_raw": "$1.00",
+      "name": "LangChain Standard Units (\"LSUs\")",
+      "price_raw": "$1",
       "amount": 1.0,
       "currency": "USD",
       "period": null,

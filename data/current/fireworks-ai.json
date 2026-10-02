@@ -6,24 +6,12 @@
   "url": "https://fireworks.ai/pricing",
   "final_url": "https://fireworks.ai/pricing",
   "parser_version": 4,
-  "content_hash": "25dd4651d6dfd64f65782967f6ac98406d30f8e724ff80c2f8f99a833e69ac00",
-  "raw_hash": "5168e43868657b788ecad68d118b545105d3748b449ae92104232cc664f9b570",
-  "text_bytes": 3462,
-  "extractor": "dom",
+  "content_hash": "40cff2049882a4c47f2fc59ae36d5c65d7dbb5d156cb813b6cf73b1b971d94c3",
+  "raw_hash": "14577ae94d5cbf212edbd4889b6dd3598d9f77accacef225fd9763906233e4e1",
+  "text_bytes": 3695,
+  "extractor": "none",
   "confidence": "low",
-  "plans": [
-    {
-      "name": "Serverless Inference",
-      "price_raw": "$1",
-      "amount": 1.0,
-      "currency": "USD",
-      "period": null,
-      "features": [],
-      "slot_prices": [
-        1.0
-      ]
-    }
-  ],
+  "plans": [],
   "models": [
     {
       "key": "up to 150m",

@@ -6,12 +6,387 @@
   "url": "https://grafana.com/pricing/",
   "final_url": "https://grafana.com/pricing/",
   "parser_version": 4,
-  "content_hash": "0d361ba3bb868e368a2f6322bacefce965893bb32558594776af254313136349",
-  "raw_hash": "b095c1bb87469d2c4bf78eb6ea094126e1b9aeae5d1376f36105768cfe3c932f",
-  "text_bytes": 149592,
-  "extractor": "none",
-  "confidence": "none",
-  "plans": [],
+  "content_hash": "4c4f4e03adfbaece490d8cf51146b4354e33893bc33aa58f3dbf8028d0bac2a8",
+  "raw_hash": "d3f76e6209386634458e6b24e0210bfe63e8627f9717733b144580cb0ae3de14",
+  "text_bytes": 20580,
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "free Always free",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": [
+        "All Grafana Cloud services, with usage limits",
+        "Adaptive Telemetry, AI Assistant, and much more",
+        "Community support",
+        "14 days retention for metrics, logs, traces, profiles, & k6 performance tests"
+      ],
+      "slot_prices": [
+        0.0
+      ]
+    },
+    {
+      "name": "pro Self-serve",
+      "price_raw": "$19",
+      "amount": 19.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Unlimited access to all Grafana Cloud services; simply pay as you go above the free tier",
+        "Adaptive Telemetry, AI Assistant, and much more",
+        "8X5 email support",
+        "13 months retention for metrics; 30 days retention for logs, traces, profiles, & k6 performance tests"
+      ],
+      "slot_prices": [
+        19.0
+      ]
+    },
+    {
+      "name": "enterprise Full service",
+      "price_raw": "$25,000",
+      "amount": 25000.0,
+      "currency": "USD",
+      "period": "year",
+      "features": [
+        "Premium support",
+        "Custom retention",
+        "Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)"
+      ],
+      "slot_prices": [
+        25000.0
+      ]
+    },
+    {
+      "name": "Metrics",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Limited to 10k active series per month",
+        "14 days retention",
+        "Community support",
+        "10k active series per month then pay as you go",
+        "13 months retention",
+        "8x5 email support",
+        "Custom retention",
+        "Premium support",
+        "Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)"
+      ],
+      "slot_prices": [
+        0.0
+      ]
+    },
+    {
+      "name": "Logs",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Limited to 50 GB ingested per month",
+        "14 day retention",
+        "Community support",
+        "50 GB ingested per month then pay as you go",
+        "30 days retention",
+        "8×5 email support",
+        "Custom retention",
+        "Premium support",
+        "Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)"
+      ],
+      "slot_prices": [
+        0.0
+      ]
+    },
+    {
+      "name": "Traces",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Limited to 50 GB ingested per month",
+        "14 day retention",
+        "Community support",
+        "50 GB ingested per month then pay as you go",
+        "30 days retention",
+        "8×5 email support",
+        "Custom retention",
+        "Premium support",
+        "Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)"
+      ],
+      "slot_prices": [
+        0.0
+      ]
+    },
+    {
+      "name": "Profiles",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Limited to 50 GB ingested per month",
+        "14 day retention",
+        "Community support",
+        "50 GB ingested per month then pay as you go",
+        "30 days retention",
+        "8×5 email support",
+        "Custom retention",
+        "Premium support",
+        "Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)"
+      ],
+      "slot_prices": [
+        0.0
+      ]
+    },
+    {
+      "name": "Kubernetes Monitoring",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Limited to 2,232 host hours & 37,944 container hours per month",
+        "Community support",
+        "2,232 host hours & 37,944 container hours per month then pay as you go (including telemetry generated)",
+        "8×5 email support",
+        "Premium support",
+        "Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)"
+      ],
+      "slot_prices": [
+        0.0
+      ]
+    },
+    {
+      "name": "Application Observability",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Limited to 2,232 host hours per month",
+        "Community support",
+        "50 GB ingested per month then pay as you go",
+        "30 days retention",
+        "8×5 email support",
+        "Premium support",
+        "Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)"
+      ],
+      "slot_prices": [
+        0.0
+      ]
+    },
+    {
+      "name": "Frontend Observability",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Limited to 50k sessions per month",
+        "Community support",
+        "50k sessions per month then pay as you go",
+        "8×5 email support",
+        "Premium support",
+        "Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)"
+      ],
+      "slot_prices": [
+        0.0
+      ]
+    },
+    {
+      "name": "Database Observability",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Limited to 2,232 host hours (3 database hosts)",
+        "Telemetry usage counts toward Grafana Cloud free tier allowances",
+        "Community support",
+        "2,232 database host hours, then pay as you go",
+        "Telemetry billed separately",
+        "8×5 email support",
+        "Premium support",
+        "Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)"
+      ],
+      "slot_prices": [
+        0.0
+      ]
+    },
+    {
+      "name": "Grafana Assistant",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Limited to 3 active AI users per month (40M tokens / user / mo) & 25M tokens per month for service account usage",
+        "Community support",
+        "3 active AI users per month (40M tokens / user / mo) & 25M tokens per month for service account usage, then pay as you go",
+        "8×5 email support",
+        "Premium support",
+        "Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)"
+      ],
+      "slot_prices": [
+        0.0
+      ]
+    },
+    {
+      "name": "Investigations",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Automatically triggered investigations (alerts, incidents) draw from the system-initiated token pool (25M tokens per month)",
+        "Investigations you run yourself count toward per-user Assistant allowances (40M tokens / user / mo)",
+        "Community support",
+        "25M tokens per month for system-initiated usage & 40M tokens per active AI user per month, then pay as you go",
+        "Investigation reports, history, and IRM webhook triggers included — no per-seat or per-investigation fee",
+        "8×5 email support",
+        "Premium support",
+        "Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)"
+      ],
+      "slot_prices": [
+        0.0
+      ]
+    },
+    {
+      "name": "Agent Observability",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Limited to 30k generations per month & 25M tokens per month for system-initiated usage (Evals & Guards)",
+        "Telemetry usage counts toward Grafana Cloud free tier allowances",
+        "Community support",
+        "30k generations per month & 25M tokens per month for system-initiated usage (Evals & Guards), then pay as you go",
+        "Telemetry billed separately",
+        "8×5 email support",
+        "Premium support",
+        "Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)"
+      ],
+      "slot_prices": [
+        0.0
+      ]
+    },
+    {
+      "name": "Synthetics API Testing",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Limited to 100k API test executions & 10k browser test executions per month",
+        "Community support",
+        "100k API test executions & 10k browser test executions per month then pay as you go",
+        "8×5 email support",
+        "Premium support",
+        "Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)"
+      ],
+      "slot_prices": [
+        0.0
+      ]
+    },
+    {
+      "name": "Synthetics Browser Testing",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Limited to 100k API test executions & 10k browser test executions per month",
+        "Community support",
+        "100k API test executions & 10k browser test executions per month then pay as you go",
+        "8×5 email support",
+        "Premium support",
+        "Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)"
+      ],
+      "slot_prices": [
+        0.0
+      ]
+    },
+    {
+      "name": "Performance Testing (k6)",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Limited to 500 virtual user hours per month",
+        "Community support",
+        "500 virtual user hours per month then pay as you go",
+        "8×5 email support",
+        "Virtual user hour pricing goes down with volume. See how much with our calculator .",
+        "Premium support",
+        "Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)",
+        "Scale up to 1 million concurrent virtual users"
+      ],
+      "slot_prices": [
+        0.0
+      ]
+    },
+    {
+      "name": "Grafana Visualization",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Limited to 3 active users per month",
+        "Community support",
+        "3 active users per month then pay as you go",
+        "8×5 email support",
+        "Cloud or self-hosted",
+        "Premium support"
+      ],
+      "slot_prices": [
+        0.0
+      ]
+    },
+    {
+      "name": "Grafana Visualization with Enterprise Plugins",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Limited to 3 active users per month",
+        "Community support",
+        "3 active users per month then pay as you go",
+        "8×5 email support",
+        "Premium support",
+        "Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)"
+      ],
+      "slot_prices": [
+        0.0
+      ]
+    },
+    {
+      "name": "Incident Response & Management (IRM)",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Limited to 3 active IRM users per month",
+        "Community support",
+        "3 active IRM users per month then pay as you go",
+        "8×5 email support",
+        "Premium support",
+        "Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)"
+      ],
+      "slot_prices": [
+        0.0
+      ]
+    }
+  ],
   "models": [],
   "tables": [],
   "extract_errors": []

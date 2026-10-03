@@ -67,6 +67,10 @@ async def process_target(target, *, client, robots, gate, sem, date, args) -> di
         "content_hash": proc["content_hash"],
         "raw_hash": proc["raw_hash"],
         "text_bytes": proc["text_bytes"],
+        # Mata uang yang DISEBUT halaman (kode ISO + awalan simbol). Dipakai
+        # pembanding untuk menolak membandingkan harga ketika halamannya
+        # berpindah mata uang — lihat diff._pindah_mata_uang_halaman.
+        "currency_hints": proc.get("currency_hints") or [],
         "extractor": structured["extractor"],
         "confidence": structured["confidence"],
         "plans": structured["plans"],

@@ -227,10 +227,34 @@ def gzip_bytes(text: str) -> bytes:
     return gzip.compress(text.encode("utf-8"), compresslevel=9, mtime=0)
 
 
+ISO_MATA_UANG = re.compile(
+    r"\b(USD|EUR|GBP|CAD|AUD|SGD|INR|JPY|BRL|MXN|IDR|CHF|SEK|NZD|HKD)\b")
+AWALAN_MATA_UANG = re.compile(
+    r"(?<![A-Za-z])(CA\$|A\$|NZ\$|S\$|HK\$|R\$|US\$|\u20ac|\u00a3|\u00a5|\u20b9)")
+
+
+def petunjuk_mata_uang(text: str) -> list[str]:
+    """Mata uang apa saja yang DISEBUT halaman ini, apa pun harganya.
+
+    Bukan daftar kata bermakna kabur, melainkan daftar KODE BAKU ISO 4217 dan
+    awalan simbol yang sudah terstandar. Dipakai hanya untuk satu pertanyaan:
+    apakah halaman hari ini berbicara dalam mata uang yang sama dengan kemarin?
+
+    29-30/09/2026: kolektor berjalan dari wilayah berbeda, dan monday, suno
+    serta sebagian baris Shopify menampilkan harga Kanada dengan simbol "$"
+    polos. Mata uang per-paket tetap terbaca USD di kedua sisi, jadi penjaga
+    mata uang per-paket (29/09) tidak bisa melihatnya — tetapi halamannya
+    sendiri menyebut "CAD".
+    """
+    return sorted(set(ISO_MATA_UANG.findall(text))
+                  | set(AWALAN_MATA_UANG.findall(text)))
+
+
 def process(raw_html: str) -> dict:
     soup, archive_html = clean_html(raw_html)
     text = to_text(soup)
     return {
+        "currency_hints": petunjuk_mata_uang(text),
         "soup": soup,
         "archive_html": archive_html,
         "text": text,

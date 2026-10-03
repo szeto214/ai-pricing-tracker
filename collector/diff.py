@@ -41,7 +41,42 @@ def _plan_index(plans: list[dict]) -> dict[str, dict]:
 # diam adalah yang paling mahal, jadi sekarang ada tes yang meneriakkannya.
 RECORD_FIELDS_USED = (
     "content_hash", "parser_version", "text_bytes", "plans", "models",
+    "currency_hints",
 )
+
+# Mata uang asing = selain dolar Amerika. Perpindahan yang kita kejar adalah
+# "halaman berpindah ke/dari mata uang negara lain", bukan sekadar munculnya
+# kata "USD" di halaman yang kemarin tidak menyebutnya.
+_ASING = ("CAD", "AUD", "SGD", "INR", "JPY", "BRL", "MXN", "IDR", "CHF",
+          "SEK", "NZD", "HKD", "EUR", "GBP",
+          "CA$", "A$", "NZ$", "S$", "HK$", "R$", "\u20ac", "\u00a3",
+          "\u00a5", "\u20b9")
+
+
+def _pindah_mata_uang_halaman(old: dict, new: dict) -> bool:
+    """Halaman ini berpindah ke atau dari mata uang asing sejak kemarin.
+
+    29-30/09/2026: run berjalan dari wilayah berbeda dan vendor menyajikan
+    harga lokal. Stripe & sebagian Shopify tertangkap penjaga mata uang
+    per-paket (simbolnya berubah jadi A$/CA$), tetapi monday dan beberapa
+    baris Shopify menuliskan harga Kanada dengan "$" polos — mata uang
+    per-paket tetap USD di kedua sisi, jadi tidak terlihat. Yang tetap
+    terlihat: halamannya menyebut "CAD".
+
+    Diukur pada SELURUH arsip sebelum diterapkan (57 pasangan hari yang
+    memuat price_changed): aturan ini menurunkan 10 peristiwa di 4 pasangan —
+    monday 29/09 & 30/09, shopify 29/09 & 30/09 — SEMUANYA sudah terbukti
+    palsu dan sudah dikoreksi tangan. Peristiwa nyata yang tetap dihitung:
+    Airbyte, Postman, CodeRabbit, DeepInfra, Fly.io, fal.ai. Nol yang hilang.
+
+    Rekaman lama tidak punya `currency_hints`; tanpa kedua sisi membawanya,
+    jawabannya selalu False — tidak ada hari lama yang diklasifikasi ulang.
+    """
+    a, b = old.get("currency_hints"), new.get("currency_hints")
+    if not a and not b:
+        return False
+    beda = set(a or []) ^ set(b or [])
+    return any(m in beda for m in _ASING)
 
 
 def _sort_safe(value):
@@ -263,6 +298,15 @@ def compare(old: dict | None, new: dict, new_text: str) -> dict | None:
             return None
 
     plan_events = diff_plans(old.get("plans") or [], new.get("plans") or [])
+    if _pindah_mata_uang_halaman(old, new):
+        # Harga di halaman ini sedang dibaca dalam mata uang yang berbeda dari
+        # kemarin. Angkanya tetap dicatat apa adanya — yang berubah hanya
+        # namanya: ini bukan peristiwa harga, dan tidak pernah masuk hitungan
+        # gerbang maupun halaman publik.
+        plan_events = [
+            dict(e, type="locale_changed") if e["type"] == "price_changed" else e
+            for e in plan_events
+        ]
     # `old.get("models")` sengaja TANPA `or []`: None berarti rekaman kemarin
     # dibuat sebelum tabel model dibaca, jadi belum ada dasar pembanding.
     model_events = diff_models(old.get("models"), new.get("models") or [])

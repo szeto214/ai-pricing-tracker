@@ -2082,6 +2082,78 @@ def test_mata_uang_beda_29_09() -> None:
           not kabur, f"-> {kabur}")
 
 
+def test_pindah_mata_uang_halaman_03_10() -> None:
+    """Halaman yang berpindah mata uang tidak melahirkan perubahan harga (03/10/2026).
+
+    Lanjutan kasus 29/09. Penjaga mata uang per-paket menangkap Stripe dan
+    sebagian Shopify karena simbolnya ikut berubah ($ -> A$/CA$). Tapi monday
+    dan dua baris Shopify menuliskan harga Kanada dengan "$" POLOS:
+
+      29/09  monday Basic   $9   -> $130   (halaman menyebut "8.75 CAD")
+      30/09  monday Basic   $130 -> $9     (kembali ke wilayah Amerika)
+
+    Mata uang per-paket terbaca USD di kedua sisi, jadi tidak ada yang bisa
+    dilihat pembanding — kecuali satu hal: halamannya sendiri menyebut "CAD"
+    pada hari itu dan tidak menyebutnya pada hari lainnya.
+
+    Rekaman karena itu menyimpan `currency_hints`: kode ISO 4217 dan awalan
+    simbol yang DISEBUT halaman. Kalau mata uang ASING muncul atau hilang
+    antara dua hari, peristiwa harga hari itu dicatat `locale_changed` —
+    bukan `price_changed`.
+
+    Diukur di SELURUH arsip sebelum diterapkan: dari 57 pasangan hari yang
+    memuat price_changed, aturan ini menurunkan 10 peristiwa di 4 pasangan
+    (monday 29/09 & 30/09, shopify 29/09 & 30/09) — semuanya sudah terbukti
+    palsu. Airbyte, Postman, CodeRabbit, DeepInfra, Fly.io dan fal.ai tetap
+    dihitung. Nol peristiwa nyata hilang.
+    """
+    print("\n23. halaman berpindah mata uang")
+    from collector.diff import compare
+    from collector.normalize import petunjuk_mata_uang
+
+    check("kode ISO terbaca sebagai petunjuk",
+          petunjuk_mata_uang("Basic $9 /seat 8.75 CAD per month") == ["CAD"],
+          f"-> {petunjuk_mata_uang('Basic $9 /seat 8.75 CAD per month')}")
+    check("awalan simbol terbaca sebagai petunjuk",
+          "CA$" in petunjuk_mata_uang("Basic CA$37 /mo"),
+          f"-> {petunjuk_mata_uang('Basic CA$37 /mo')}")
+    # "CA$" tidak boleh membuat "A$" ikut terhitung dua kali, dan kata biasa
+    # yang kebetulan memuat huruf besar tidak boleh jadi mata uang.
+    check("kata biasa tidak dianggap mata uang",
+          petunjuk_mata_uang("USED CARS AND MORE") == [],
+          f"-> {petunjuk_mata_uang('USED CARS AND MORE')}")
+
+    kemarin = {"content_hash": "a", "text_bytes": 9999,
+               "currency_hints": ["CAD"],
+               "plans": [{"name": "Basic", "amount": 130.0,
+                          "currency": "USD", "price_raw": "$130"}]}
+    hari_ini = {"content_hash": "b", "text_bytes": 9999,
+                "currency_hints": [],
+                "plans": [{"name": "Basic", "amount": 9.0,
+                           "currency": "USD", "price_raw": "$9"}]}
+    jenis = [e["type"] for e in compare(kemarin, hari_ini, "teks")["plan_events"]]
+    check("mata uang asing hilang -> BUKAN perubahan harga",
+          "price_changed" not in jenis and "locale_changed" in jenis,
+          f"-> {jenis}")
+    balik = [e["type"] for e in compare(hari_ini, kemarin, "teks")["plan_events"]]
+    check("arah sebaliknya juga bukan perubahan harga",
+          "price_changed" not in balik, f"-> {balik}")
+
+    # Halaman yang mata uangnya TETAP: perubahan harga sungguhan tetap tercatat.
+    a = dict(kemarin, currency_hints=["USD"])
+    b = dict(hari_ini, currency_hints=["USD"])
+    tetap = [e["type"] for e in compare(a, b, "teks")["plan_events"]]
+    check("halaman yang mata uangnya tetap: perubahan harga TETAP tercatat",
+          "price_changed" in tetap, f"-> {tetap}")
+
+    # Rekaman lama tanpa currency_hints berperilaku persis seperti sebelumnya.
+    lama_a = {k: v for k, v in kemarin.items() if k != "currency_hints"}
+    lama_b = {k: v for k, v in hari_ini.items() if k != "currency_hints"}
+    lama = [e["type"] for e in compare(lama_a, lama_b, "teks")["plan_events"]]
+    check("rekaman tanpa currency_hints tidak berubah perilakunya",
+          "price_changed" in lama, f"-> {lama}")
+
+
 def main() -> int:
     print(f"data uji: {config.DATA_DIR}")
     test_hash_stability()
@@ -2117,6 +2189,7 @@ def main() -> int:
     test_kartu_grid_div_26_09()
     test_harga_coret_28_09()
     test_mata_uang_beda_29_09()
+    test_pindah_mata_uang_halaman_03_10()
     test_skrip_cadangan()
 
     print("\n" + "=" * 60)

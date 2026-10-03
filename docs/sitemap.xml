@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://szeto214.github.io/ai-pricing-tracker/</loc><lastmod>2026-10-02</lastmod></url>
+  <url><loc>https://szeto214.github.io/ai-pricing-tracker/</loc><lastmod>2026-10-03</lastmod></url>
   <url><loc>https://szeto214.github.io/ai-pricing-tracker/t/activepieces.html</loc><lastmod>2026-08-27</lastmod></url>
   <url><loc>https://szeto214.github.io/ai-pricing-tracker/t/airbyte.html</loc><lastmod>2026-09-16</lastmod></url>
   <url><loc>https://szeto214.github.io/ai-pricing-tracker/t/airtable.html</loc><lastmod>2026-08-27</lastmod></url>
@@ -18,7 +18,7 @@
   <url><loc>https://szeto214.github.io/ai-pricing-tracker/t/cerebras.html</loc><lastmod>2026-08-27</lastmod></url>
   <url><loc>https://szeto214.github.io/ai-pricing-tracker/t/circleci.html</loc><lastmod>2026-08-27</lastmod></url>
   <url><loc>https://szeto214.github.io/ai-pricing-tracker/t/clerk.html</loc><lastmod>2026-08-27</lastmod></url>
-  <url><loc>https://szeto214.github.io/ai-pricing-tracker/t/clickhouse.html</loc><lastmod>2026-09-30</lastmod></url>
+  <url><loc>https://szeto214.github.io/ai-pricing-tracker/t/clickhouse.html</loc><lastmod>2026-08-27</lastmod></url>
   <url><loc>https://szeto214.github.io/ai-pricing-tracker/t/clickup.html</loc><lastmod>2026-08-27</lastmod></url>
   <url><loc>https://szeto214.github.io/ai-pricing-tracker/t/cline.html</loc><lastmod>2026-08-27</lastmod></url>
   <url><loc>https://szeto214.github.io/ai-pricing-tracker/t/cloudflare.html</loc><lastmod>2026-08-27</lastmod></url>
@@ -61,7 +61,7 @@
   <url><loc>https://szeto214.github.io/ai-pricing-tracker/t/jira.html</loc><lastmod>2026-08-27</lastmod></url>
   <url><loc>https://szeto214.github.io/ai-pricing-tracker/t/koyeb.html</loc><lastmod>2026-08-27</lastmod></url>
   <url><loc>https://szeto214.github.io/ai-pricing-tracker/t/lambda-labs.html</loc><lastmod>2026-08-27</lastmod></url>
-  <url><loc>https://szeto214.github.io/ai-pricing-tracker/t/langchain.html</loc><lastmod>2026-10-02</lastmod></url>
+  <url><loc>https://szeto214.github.io/ai-pricing-tracker/t/langchain.html</loc><lastmod>2026-08-27</lastmod></url>
   <url><loc>https://szeto214.github.io/ai-pricing-tracker/t/linear.html</loc><lastmod>2026-08-27</lastmod></url>
   <url><loc>https://szeto214.github.io/ai-pricing-tracker/t/lovable.html</loc><lastmod>2026-08-27</lastmod></url>
   <url><loc>https://szeto214.github.io/ai-pricing-tracker/t/luma-ai.html</loc><lastmod>2026-08-27</lastmod></url>
@@ -69,7 +69,7 @@
   <url><loc>https://szeto214.github.io/ai-pricing-tracker/t/miro.html</loc><lastmod>2026-08-27</lastmod></url>
   <url><loc>https://szeto214.github.io/ai-pricing-tracker/t/mistral.html</loc><lastmod>2026-08-27</lastmod></url>
   <url><loc>https://szeto214.github.io/ai-pricing-tracker/t/modal.html</loc><lastmod>2026-08-27</lastmod></url>
-  <url><loc>https://szeto214.github.io/ai-pricing-tracker/t/monday.html</loc><lastmod>2026-09-30</lastmod></url>
+  <url><loc>https://szeto214.github.io/ai-pricing-tracker/t/monday.html</loc><lastmod>2026-08-27</lastmod></url>
   <url><loc>https://szeto214.github.io/ai-pricing-tracker/t/mongodb-atlas.html</loc><lastmod>2026-08-27</lastmod></url>
   <url><loc>https://szeto214.github.io/ai-pricing-tracker/t/murf.html</loc><lastmod>2026-08-27</lastmod></url>
   <url><loc>https://szeto214.github.io/ai-pricing-tracker/t/nebius.html</loc><lastmod>2026-08-27</lastmod></url>
@@ -103,13 +103,13 @@
   <url><loc>https://szeto214.github.io/ai-pricing-tracker/t/scaleway.html</loc><lastmod>2026-08-27</lastmod></url>
   <url><loc>https://szeto214.github.io/ai-pricing-tracker/t/semgrep.html</loc><lastmod>2026-08-27</lastmod></url>
   <url><loc>https://szeto214.github.io/ai-pricing-tracker/t/sentry.html</loc><lastmod>2026-08-27</lastmod></url>
-  <url><loc>https://szeto214.github.io/ai-pricing-tracker/t/shopify.html</loc><lastmod>2026-09-30</lastmod></url>
+  <url><loc>https://szeto214.github.io/ai-pricing-tracker/t/shopify.html</loc><lastmod>2026-08-27</lastmod></url>
   <url><loc>https://szeto214.github.io/ai-pricing-tracker/t/slack.html</loc><lastmod>2026-08-27</lastmod></url>
   <url><loc>https://szeto214.github.io/ai-pricing-tracker/t/snyk.html</loc><lastmod>2026-08-27</lastmod></url>
   <url><loc>https://szeto214.github.io/ai-pricing-tracker/t/sonarsource.html</loc><lastmod>2026-08-27</lastmod></url>
   <url><loc>https://szeto214.github.io/ai-pricing-tracker/t/sourcegraph.html</loc><lastmod>2026-08-27</lastmod></url>
   <url><loc>https://szeto214.github.io/ai-pricing-tracker/t/stripe.html</loc><lastmod>2026-08-27</lastmod></url>
-  <url><loc>https://szeto214.github.io/ai-pricing-tracker/t/suno.html</loc><lastmod>2026-09-30</lastmod></url>
+  <url><loc>https://szeto214.github.io/ai-pricing-tracker/t/suno.html</loc><lastmod>2026-08-27</lastmod></url>
   <url><loc>https://szeto214.github.io/ai-pricing-tracker/t/supabase.html</loc><lastmod>2026-08-27</lastmod></url>
   <url><loc>https://szeto214.github.io/ai-pricing-tracker/t/synthesia.html</loc><lastmod>2026-08-27</lastmod></url>
   <url><loc>https://szeto214.github.io/ai-pricing-tracker/t/tailscale.html</loc><lastmod>2026-08-27</lastmod></url>
@@ -122,7 +122,7 @@
   <url><loc>https://szeto214.github.io/ai-pricing-tracker/t/typeform.html</loc><lastmod>2026-08-27</lastmod></url>
   <url><loc>https://szeto214.github.io/ai-pricing-tracker/t/upstash.html</loc><lastmod>2026-08-27</lastmod></url>
   <url><loc>https://szeto214.github.io/ai-pricing-tracker/t/v0.html</loc><lastmod>2026-08-27</lastmod></url>
-  <url><loc>https://szeto214.github.io/ai-pricing-tracker/t/vast-ai.html</loc><lastmod>2026-10-02</lastmod></url>
+  <url><loc>https://szeto214.github.io/ai-pricing-tracker/t/vast-ai.html</loc><lastmod>2026-10-03</lastmod></url>
   <url><loc>https://szeto214.github.io/ai-pricing-tracker/t/vercel.html</loc><lastmod>2026-08-27</lastmod></url>
   <url><loc>https://szeto214.github.io/ai-pricing-tracker/t/voyage-ai.html</loc><lastmod>2026-08-27</lastmod></url>
   <url><loc>https://szeto214.github.io/ai-pricing-tracker/t/warp.html</loc><lastmod>2026-08-27</lastmod></url>

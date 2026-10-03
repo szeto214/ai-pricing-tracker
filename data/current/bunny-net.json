@@ -9,6 +9,7 @@
   "content_hash": "8545ed4630f0a9d59e6571b4cb30212ead0c1b12d013b142b6fae0bc5b8c749f",
   "raw_hash": "d9192d04c56ab944f25c9f694d3383281f12211581728269f6f67ba4e6929138",
   "text_bytes": 4370,
+  "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

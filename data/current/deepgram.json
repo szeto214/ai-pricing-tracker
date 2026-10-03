@@ -7,8 +7,9 @@
   "final_url": "https://deepgram.com/pricing",
   "parser_version": 4,
   "content_hash": "97dbb69a91d1a0902226e9a5f1062f233097d2e428a6bd4931a8cf7783ae372c",
-  "raw_hash": "3e1ae292175db92a9b645915923469255ebcd9834f0fe271997b876e55a23435",
+  "raw_hash": "13b2c395c536763f73783856747b7ef7e4fbabeb8e222f98d35810b6ca3816c0",
   "text_bytes": 12913,
+  "currency_hints": [],
   "extractor": "jsonld",
   "confidence": "medium",
   "plans": [

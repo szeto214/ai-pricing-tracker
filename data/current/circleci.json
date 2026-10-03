@@ -7,8 +7,9 @@
   "final_url": "https://circleci.com/pricing/",
   "parser_version": 4,
   "content_hash": "c6dd83727d364989a6fd25157063c8b161f4818c5d11b794c1275bd17abe479c",
-  "raw_hash": "64fca82e3e1ae9d743d2e161c6cc6877c4db4c49f2c57f17ea7b5c9751820906",
+  "raw_hash": "e5320cec6e578a6b8ef6910734108370a4d0c0cf6881c6df2347395731921eca",
   "text_bytes": 14099,
+  "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

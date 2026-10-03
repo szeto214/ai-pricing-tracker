@@ -7,8 +7,9 @@
   "final_url": "https://sentry.io/pricing/",
   "parser_version": 4,
   "content_hash": "ab1ced85804b828b9e9fd4601b802ac760429b3d2d39f26eb9939f55e24d41ac",
-  "raw_hash": "db5c778f7666cc17e29fccf5d2eb68a69cd529e7c082270d8233baeccd1b86c8",
+  "raw_hash": "4e3d1b5b530128b9f263e2bb790ad03a63b21bef066e7b8e17ab3efd4173b4f5",
   "text_bytes": 5754,
+  "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

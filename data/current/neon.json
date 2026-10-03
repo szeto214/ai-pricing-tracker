@@ -6,9 +6,10 @@
   "url": "https://neon.com/pricing",
   "final_url": "https://neon.com/pricing",
   "parser_version": 4,
-  "content_hash": "df72c06c63be72ea602ad6cdb31122023517af7a5179c41beaae8488106e3285",
-  "raw_hash": "4afec99efefab8e3e94823373a2d3b38a285e861b5bdb5aa447430a454876bde",
-  "text_bytes": 17890,
+  "content_hash": "380a61b4fbf5f11e513855c8b8a350867fc290dd3ef6ba19d4f21e5ce166ee1d",
+  "raw_hash": "8642f64971c6ec4c6e7fc48be7884a5e959a4b90bff5e3aad4ee43842164e30b",
+  "text_bytes": 17899,
+  "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

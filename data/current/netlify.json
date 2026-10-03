@@ -7,8 +7,9 @@
   "final_url": "https://www.netlify.com/pricing/",
   "parser_version": 4,
   "content_hash": "6c8fe525ec09c22f06096976f1214b47afbc56bbd2410560c97c4caebe9b9aea",
-  "raw_hash": "ba0e9e3168be4ba1af494f395490cf59e3021fb2c2d9db7ee3def3cf3ffb4e52",
+  "raw_hash": "19782adc26f966b3f6f6571188e8d430924553d2a70c13dcf7362a28b2d8d83e",
   "text_bytes": 15921,
+  "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

@@ -7,8 +7,9 @@
   "final_url": "https://www.cloudflare.com/plans/",
   "parser_version": 4,
   "content_hash": "e7ab68c20032a8386c39a63cc66f4ff8bd9b97dfe2fb4f22019cf92ca799e6a1",
-  "raw_hash": "c0e4398c8d47d562bfa569d70349f347f010b8cbfe7e3309465693be575af5bf",
+  "raw_hash": "2b9c0e7830d4c2ca80073c72224145da1835c7423aa9344b0d0dd4ec4f002e45",
   "text_bytes": 15714,
+  "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

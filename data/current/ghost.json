@@ -7,8 +7,11 @@
   "final_url": "https://ghost.org/pricing/",
   "parser_version": 4,
   "content_hash": "230e31b2b074fc362f6fc248464d4c78cb085b4eb08c2bd1da057c5d415dca75",
-  "raw_hash": "0a8635ea1f74a009bcdd03441debadbdddc27bd97de5c703eabc12c7d064d2f2",
+  "raw_hash": "ef7488a20f8f27b8e4bb81cbc1c89e370285e26cc6134d4a8f2fdc1d47c7b269",
   "text_bytes": 15117,
+  "currency_hints": [
+    "USD"
+  ],
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

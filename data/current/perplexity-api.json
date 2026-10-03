@@ -6,9 +6,10 @@
   "url": "https://docs.perplexity.ai/getting-started/pricing",
   "final_url": "https://docs.perplexity.ai/docs/getting-started/pricing",
   "parser_version": 4,
-  "content_hash": "c9bd12cc970b96f5f66a9780ee6c70651e053b691dfd31d599191ad37818aa9b",
-  "raw_hash": "af1f11b3f43ef3f930c68e10194ee4f76a6623b523f08010338d488499007500",
-  "text_bytes": 6706,
+  "content_hash": "7e0d107a76c00873dbc3716571f91479a839b3703608df727cd22920a94dbf01",
+  "raw_hash": "5614cfddfa2f6389ba40f24f58ac1e07c0da24eff570eb3abf0beafb8081f1ea",
+  "text_bytes": 6869,
+  "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -54,6 +55,17 @@
       "features": [],
       "slot_prices": [
         1.0
+      ]
+    },
+    {
+      "name": "image_search",
+      "price_raw": "$0.0025",
+      "amount": 0.0025,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        0.0025
       ]
     },
     {
@@ -217,6 +229,22 @@
         "kolom 3": {
           "raw": "$1.00",
           "amount": 1.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "image_search|k3",
+      "model": "image_search",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.0025",
+          "amount": 0.0025
+        },
+        "kolom 3": {
+          "raw": "$2.50",
+          "amount": 2.5
         }
       },
       "currency": "USD",
@@ -405,6 +433,11 @@
           "web_search (Fast Search)",
           "$0.001 per invocation",
           "The same tool with search_type: \"fast\" . $1.00 per 1,000 invocations. See Fast Search"
+        ],
+        [
+          "image_search",
+          "$0.0025 per successful invocation",
+          "Finds structured image results with domain, format, and safe-search filters. $2.50 per 1,000 successful invocations"
         ],
         [
           "fetch_url",

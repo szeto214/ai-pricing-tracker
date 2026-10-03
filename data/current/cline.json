@@ -7,8 +7,9 @@
   "final_url": "https://cline.bot/pricing",
   "parser_version": 4,
   "content_hash": "cb0f671c9b69a10e7c2b23002f6a1d440328bbc4113b1d4a3863089f25832787",
-  "raw_hash": "a726c006cc409a286f1d7da42f05bf44776e30e631fe6512747c202be24740bb",
+  "raw_hash": "c3d49e8325ad61308262e07b530cceebbe6de785afb763f2d0fb7bdd73ebc2f6",
   "text_bytes": 2355,
+  "currency_hints": [],
   "extractor": "dom",
   "confidence": "low",
   "plans": [

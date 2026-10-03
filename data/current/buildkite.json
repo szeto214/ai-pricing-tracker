@@ -7,8 +7,11 @@
   "final_url": "https://buildkite.com/pricing/",
   "parser_version": 4,
   "content_hash": "ace2e148066fd4698a3b102799feb35d703d67d1d555ce8669168e0e9d4ca2fe",
-  "raw_hash": "67150f3ca4c51b70ca41b6114c07c5206bae2568516cbbb7da5d3015fbe1ba75",
+  "raw_hash": "3e7ebd44986f313a96aaa1108c0887346278eb4e6385878b8bdbab800906d7c9",
   "text_bytes": 18787,
+  "currency_hints": [
+    "USD"
+  ],
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

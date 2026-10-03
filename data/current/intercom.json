@@ -7,8 +7,9 @@
   "final_url": "https://www.intercom.com/pricing",
   "parser_version": 4,
   "content_hash": "2f6c395b2c02714c2f353eb8a888ea37fb2261f201f8e5229c84131d8f1b3415",
-  "raw_hash": "022671bc59a84bcec20d5eeced9d76f703de33310ab81a6186a6706c8868540a",
+  "raw_hash": "e6f8af83f16f8301055c19ac710630f837e2ebc6dea435b4f072c23d25c3f3e1",
   "text_bytes": 5084,
+  "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

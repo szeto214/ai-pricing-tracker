@@ -7,8 +7,9 @@
   "final_url": "https://www.koyeb.com/pricing",
   "parser_version": 4,
   "content_hash": "ebd40c2b94764791b17e86764817ef010a489f31e8b59e3827439bc1982d2666",
-  "raw_hash": "c01373e1c9685011c8441d8d6305d0fd5bf57f23612653ae0050b25ea13c13af",
+  "raw_hash": "ba9a3a379e0b6f00feb9176909ad324e442d9c7cdab2b74344495de7d1c6aa01",
   "text_bytes": 9042,
+  "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

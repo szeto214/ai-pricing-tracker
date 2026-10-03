@@ -7,8 +7,9 @@
   "final_url": "https://snyk.io/plans/",
   "parser_version": 4,
   "content_hash": "32a4c1c01f8e3edde721e71e17b4efd05f7e1695ab132546d7505e5a3f3f7aba",
-  "raw_hash": "74cdd499e959bb526722e3afdb036f29f517f1e9c23745618c1fb3608c3a946f",
+  "raw_hash": "1cdc1a7042d5daa8e640d5791d1b3998a32c3caee3b14d4668875e045f345fbb",
   "text_bytes": 2346,
+  "currency_hints": [],
   "extractor": "dom",
   "confidence": "low",
   "plans": [

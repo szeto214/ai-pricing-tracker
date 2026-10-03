@@ -7,8 +7,9 @@
   "final_url": "https://airbyte.com/pricing",
   "parser_version": 4,
   "content_hash": "3a3baeea2d82765305dc59c11ebaea6bff462623f4e59f002be6ad4583a993f3",
-  "raw_hash": "ace8f1d38d11abb20d42363586977ca162d2299f634c7228f24a046f4715499e",
+  "raw_hash": "c22b38708e2d0acad24584ad1a4ab39a0f854021840ef3ed71f47693663c6718",
   "text_bytes": 7133,
+  "currency_hints": [],
   "extractor": "jsonld",
   "confidence": "medium",
   "plans": [

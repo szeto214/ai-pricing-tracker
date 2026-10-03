@@ -6,9 +6,10 @@
   "url": "https://www.pinecone.io/pricing/",
   "final_url": "https://www.pinecone.io/pricing/",
   "parser_version": 4,
-  "content_hash": "e32a00298157528376e1c7dcbdd138fdb1cd649c6d94b1ea1a04e5d31da82c7d",
-  "raw_hash": "74d6a1b110592ac3d84dd133ff28541af3f922de9de6f522129875074d26ca21",
-  "text_bytes": 8893,
+  "content_hash": "eeebc36350df97d31e630c2a297b0b923eb4522223a7b10112a950c5fcab67ef",
+  "raw_hash": "47dbf530b79cdc12a6829e41e50f3b991b3f56fa1c8444d61d68b2089dcac650",
+  "text_bytes": 8951,
+  "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -361,6 +362,13 @@
           "$0.15 per GB"
         ],
         [
+          "Cross-region restore",
+          "",
+          "",
+          "Cross-region transfer pricing applies",
+          "Cross-region transfer pricing applies"
+        ],
+        [
           "Assistant"
         ],
         [
@@ -379,7 +387,7 @@
         ],
         [
           "Input Tokens",
-          "500k/mo included Promo: 1M/mo, try Pinecone Marketplace",
+          "500k/mo included",
           "2M/mo included",
           "Unlimited $8 per million",
           "Unlimited $8 per million"

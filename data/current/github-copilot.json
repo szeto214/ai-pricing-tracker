@@ -7,8 +7,11 @@
   "final_url": "https://github.com/features/copilot/plans",
   "parser_version": 4,
   "content_hash": "e8aef9ca1b6bc8a26a6e03a6a9c047698217dfbcb269f4335fe6a3703b06ee25",
-  "raw_hash": "940327f1ef24599cc07fd26a074d452ff7f12af7ec55068b8c057ffd32abe5e9",
+  "raw_hash": "fa35058cd8649fd8cb9d11aa5b863c5f9426c7c3b64bb130b3d05164ac5f805f",
   "text_bytes": 46385,
+  "currency_hints": [
+    "USD"
+  ],
   "extractor": "dom",
   "confidence": "low",
   "plans": [

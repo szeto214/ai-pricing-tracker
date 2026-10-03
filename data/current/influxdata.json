@@ -7,8 +7,9 @@
   "final_url": "https://www.influxdata.com/influxdb-cloud-pricing/",
   "parser_version": 4,
   "content_hash": "9b462bfd0f5c5f95d3c43153fe782ad89bf6d7bef98ace3169e47832fda3c4e7",
-  "raw_hash": "527fd5e846fdda9062c51f92e605107cc7573d7cf47ba059b8c158c47181a387",
+  "raw_hash": "8585263cb19857b8f1fe877ecdccd16e46ce287402e01cc1602ca5fd1aa0af06",
   "text_bytes": 3774,
+  "currency_hints": [],
   "extractor": "dom",
   "confidence": "low",
   "plans": [

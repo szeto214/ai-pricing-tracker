@@ -161,7 +161,7 @@ $3.20
 View more
 Qwen3.6-35B-A3B
 256k
-$0.10
+$0.10 / $0.10 cached
 $0.95
 View more
 Qwen3.5-397B-A17B
@@ -261,7 +261,7 @@ $3.20
 View more
 Qwen3.6-35B-A3B
 256k
-$0.10
+$0.10 / $0.10 cached
 $0.95
 View more
 Qwen3.5-397B-A17B
@@ -1061,18 +1061,18 @@ Featured Models
 XiaomiMiMo
 /
 MiMo-V2.6-Pro
-google
-/
-gemma-4-31B-it
 deepseek-ai
 /
-DeepSeek-V4.1-Flash
-deepseek-ai
+DeepSeek-V4-Flash
+Qwen
 /
-DeepSeek-V3.2
-nvidia
+Qwen3-Max-Thinking
+Qwen
 /
-NVIDIA-Nemotron-3-Ultra-550B-A55B
+Qwen3-Max
+zai-org
+/
+GLM-5.3
 © 2026 DeepInfra. All rights reserved.
 Privacy Policy
 Terms of Service

@@ -1885,50 +1885,57 @@ Storage Management is generally available for Amazon S3 and in preview for Azure
 Can I use Storage Management without Cloud Cost Management (CCM)?
 Storage Management complements CCM by offering prefix-level visibility, anomaly detection, and cost-saving recommendations specific to object storage, helping you pinpoint and act on the root causes of storage cost growth. You don’t need CCM to use Storage Management.
 AI Guard
-Inspect, block, and govern AI behavior in real time
-Get in touch
-Custom Quote
-Contact Us for Pricing
+Runtime guardrails for your custom AI agents
+Starting At
+$
+0.80
+per 1M tokens scanned, per month
 Request access
-Detect prompt injection and jailbreak attempts in real time
-Block unsafe tool calls and sensitive data before they reach the model
-Enforce per-service policies with adjustable confidence thresholds
-*Billed per 1,000,000 input tokens evaluated, including the full conversation context.
-Contact us
-for current rates and billing options.
+Discover your agents and map their upstream and downstream dependencies
+Detect sensitive data, catch behavioral anomalies, and deliver prioritized security signals
+Block prompt injection, tool misuse, data exfiltration, and other runtime attacks
+Customize policies and guardrails to your use case and risk tolerance
+*Billed per 1,000,000 input tokens processed (sum across all AI Guard evaluations in the billing period). Tokens include the full conversation context sent for evaluation: user prompts, assistant responses, and tool call arguments/results. Failed evaluations (service unavailable) are not billed.
+**Billed annually or $
+1.20
+on-demand
 Request access
 Features
-Inline evaluation of LLM conversations: user prompts, assistant responses, tool arguments and results
-Prompt injection and jailbreak detection
-Tool protection with tool-specific blocklists
-Sensitive data detection (PII and secrets) in both inputs and outputs
-Threat detection with confidence scores and ALLOW / DENY / ABORT actions
-Monitor-only mode by default, or active blocking via service policies
-Playground for real-time evaluation with no code setup
-Discover view mapping your AI agents and their protection status
+Discovery
+Discover protected and unprotected agents
+Identify the model endpoints each agent calls
+Map upstream and downstream data, services, and dependencies
+Deliver prioritized security signals aligned to OWASP Top 10 and Mitre ATLAS
+Protection
+Block prompt injection, tool misuse, data exfiltration, and other OWASP Top 10 threats
+Detect sensitive data (PII + secrets) in both inputs and outputs
+Flag behavioral anomalies that deviate from per-agent baselines
+Enforce enterprise policies and guardrails at runtime
 Support Plans & Post Sales Services
 From basic plans to bespoke offerings, Datadog offers the right level of support & services for any organization.
 Support plans
 Services & enablement
 Common Questions
-Is AI Guard a standalone offering? Can AI Guard be sold separately?
-Yes. AI Guard is a standalone product. It is billed separately from LLM Observability and does not require any other Datadog product. It includes an APM allotment, so customers without APM aren’t billed for the ingestion of traces AI Guard emits.
 How does AI Guard work?
-AI Guard sits inline with your AI applications and evaluates the full conversation context in real time: user prompts, assistant responses, tool arguments, and tool results. Every evaluation returns ALLOW, DENY, or ABORT, based on configurable service policies, confidence thresholds, and per-tool blocklists. Please refer to the
+AI Guard sits inline with your AI applications and evaluates the full conversation context in real time. It inspects every prompt, response, tool call, MCP call, and API interaction against each agent’s behavioral baseline, session history, and the data and tools it can reach, blocking malicious activity in milliseconds before sensitive data leaves your environment. Please refer to the
 documentation
 to learn more.
-What counts as a billable AI Guard token?
-An input token submitted to AI Guard for evaluation. Tokens include the full conversation context sent to AI Guard evaluators: user prompts, LLM responses, and tool call arguments and results. Failed evaluations (service unavailable) are not counted.
 What languages and frameworks does AI Guard support?
-Automatic integrations with no code changes: Python (LangChain, OpenAI, Anthropic), Node.js (AI SDK, OpenAI, Anthropic), and Ruby (RubyLLM). Manual integrations: Python (Amazon Strands, LiteLLM Proxy). Any provider or language is supported via the HTTP API. Supported models include OpenAI, Anthropic, Amazon Bedrock, Google VertexAI, and Azure.
+Automatic integrations (no code changes): Python (LangChain, OpenAI, Anthropic), Node.js (AI SDK, OpenAI, Anthropic), and Ruby (RubyLLM). Manual integrations: Python (Amazon Strands, LiteLLM Proxy). Any provider or language is supported via the HTTP API. Supported models include OpenAI, Anthropic, Amazon Bedrock, Google VertexAI, and Azure.
+Is AI Guard a standalone offering? Can AI Guard be purchased separately?
+Yes. AI Guard is a standalone product. It is billed separately and does not require any other Datadog product. AI Guard includes an APM allotment, so customers without APM aren’t billed for the ingestion of traces AI Guard emits.
+What counts as a billable AI Guard token?
+A billable token is an input token submitted to AI Guard for evaluation. Tokens include the full conversation context sent to AI Guard evaluators, including user prompts, LLM responses, and tool call arguments and results. Failed evaluations (service unavailable) are not counted.
 Do I have to deploy AI Guard across all my services and agents?
 No. AI Guard can be enabled per service, environment, or agent, and policies can be configured independently for each.
-Are there other billing options?
-Annual, monthly and hourly plans are available, and prepaid drawdown is supported. We can customize billing plans to meet your needs. For a detailed explanation of billing, please see our
+What billing options are available?
+Annual, monthly, and hourly (on-demand) plans are available. Prepaid drawdown is also supported. We can customize billing plans to meet your needs. For a detailed explanation of billing, please see our
 Billing FAQ
 .
-Is this available in all regions?
-AI Guard is available in all regions except US1-FED.
+Are multi-year or volume discounts available?
+Annual commitment unlocks the lowest rate. Volume tiering is available via Deal Desk for high-volume customers. Prepaid drawdown is supported.
+Is AI Guard available in all regions?
+Yes. AI Guard is available in all regions except US1-FED.
 Do you have special offerings for partners?
 We’re always looking to partner with technology and service providers and resellers. See our
 Partners page

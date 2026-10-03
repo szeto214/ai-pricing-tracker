@@ -6,9 +6,10 @@
   "url": "https://www.cockroachlabs.com/pricing/",
   "final_url": "https://www.cockroachlabs.com/pricing/",
   "parser_version": 4,
-  "content_hash": "c7e7dff48e15a9044485778eaac8c46a02152a42db59349f4747f7f8ef17aa19",
-  "raw_hash": "f44056598595925abdd8f55cd7f56a337f966c24ca262a030e320017f2b50b55",
-  "text_bytes": 9058,
+  "content_hash": "aece04889f87958a37b47124427fd0bf467ee7109cdce386644f1eb747509c2d",
+  "raw_hash": "5dd780f4b1c7dda51792220f061e06e3ebc4180026a4e76a608083cfc7c2f07f",
+  "text_bytes": 9104,
+  "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

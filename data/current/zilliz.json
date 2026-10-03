@@ -6,9 +6,10 @@
   "url": "https://zilliz.com/pricing",
   "final_url": "https://zilliz.com/pricing",
   "parser_version": 4,
-  "content_hash": "e9f476297cddf67822d551036bb1267d863de91f72f6b3101a0fa92f3774cfe7",
-  "raw_hash": "09fac240b53334505a93f994578421d9f1c4760e311e4a9795ee80df5652ca0d",
+  "content_hash": "4c3ce7c8a3f63dc9b756b5d6f2bb6f2d6fc2fad21e71bb4615b5700b6a26ee87",
+  "raw_hash": "3284c1341e5d5129dfddf863e07959c0f2172ebced22b816f1da5789ff8e4cbd",
   "text_bytes": 11072,
+  "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

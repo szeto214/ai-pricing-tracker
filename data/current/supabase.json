@@ -7,8 +7,11 @@
   "final_url": "https://supabase.com/pricing",
   "parser_version": 4,
   "content_hash": "43e380c83c23f1bce90c3032264107c424127476eaee1dc61c163c52076caaa2",
-  "raw_hash": "80924d0a5381b677451b08fddcefebf8ff4dfd59e4edad76c977c23004dce9ea",
+  "raw_hash": "53503aac41783328c4387906cc2c9ea6373e9c15992f95505024f187e7389d03",
   "text_bytes": 16641,
+  "currency_hints": [
+    "USD"
+  ],
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

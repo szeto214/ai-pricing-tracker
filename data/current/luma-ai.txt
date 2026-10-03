@@ -27,7 +27,9 @@ Two endpoints. Full intent.
 One reasoning endpoint. One generation endpoint. The model thinks before it ships, so the first pass is usually the right one.
 Multi-Model Workflows
 Better Together
-Use Uni-1 for image generation and Ray3.2 for video generation to create richer multimodal creative workflows with greater consistency and control.
+Use Uni-1 for image generation and Ray3.2 for
+ai video generation
+to create richer multimodal creative workflows with greater consistency and control.
 Contact Sales
 Plans
 Build it. Scale it.

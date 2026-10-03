@@ -1,7 +1,19 @@
 Models
+inclusionAI: Ling 3.1 Flash
+Ling 3.1 Flash
+35.7B tokens
+Ling 3.1 Flash is a hybrid reasoning mixture-of-experts model from inclusionAI, with 25B active parameters out of 560B total.
+by
+inclusionai
+Oct 2, 2026
+262K context
+$0/M input
+tokens
+$0/M output
+tokens
 ByteDance Seed: Seedream 5.0 Flash
 Seedream 5.0 Flash
-31.7M tokens
+135M tokens
 Seedream 5.0 Flash is an image generation and editing model from ByteDance Seed. It is the fast, cost-efficient tier of the Seedream 5.0 family, suited for high-volume production and interactive editing workflows that need precise edits at low latency.
 by
 bytedance-seed
@@ -10,7 +22,7 @@ from $0.018/image
 Black Forest Labs: FLUX.3 Image
 FLUX.3 Image
 50% off
-11.6M tokens
+34.1M tokens
 FLUX.3 Image is Black Forest Labs' flagship image generation and editing model. It handles text-to-image and multi-reference editing with up to 10 input images, and renders at fixed resolution tiers from 768 up to 4K with a selectable aspect ratio. Pricing is a flat per-image rate that scales with the chosen resolution tier.
 by
 black-forest-labs
@@ -19,7 +31,7 @@ Oct 1, 2026
 from $0.0205/image
 LiquidAI: D1
 D1
-531M tokens
+1.79B tokens
 D1 is Liquid AI's structured decision model, served as a System One endpoint. Send a state along with typed questions, and it returns a choice, a score, or a yes/no answer, each with a probability taken directly from the model rather than written out as text. It uses the same /v1/systemone schema as other OpenRouter Decisions models, so it suits routing, classification, and policy checks that need a fast, scored answer instead of prose.
 by
 liquid
@@ -31,7 +43,7 @@ $0/M output
 tokens
 Apodex: Apodex 1.1 Mini (free)
 Apodex 1.1 Mini (free)
-11.4B tokens
+36.2B tokens
 Apodex 1.1 Mini is a reasoning-first model from Apodex, built for complex, long-horizon research and forecasting tasks. It works directly with files, data, code, and tools to produce verifiable results, and is designed for agentic research workflows where answers need to be grounded in evidence.
 by
 apodex
@@ -43,7 +55,7 @@ $0/M output
 tokens
 Microsoft AI: MAI-Voice-2.1-Flash
 MAI-Voice-2.1-Flash
-133K tokens
+617K tokens
 MAI-Voice-2.1-Flash is a low-latency text-to-speech model from Microsoft AI, optimized for real-time responsiveness. It produces natural, expressive speech across 23 languages, with human-like intonation, rhythm, and emotional nuance. It is suited for voice agents, assistants, call centers, and other interactive applications where latency and cost matter most. On OpenRouter, set
 voice
 to a full voice ID with the model suffix, such as
@@ -83,7 +95,7 @@ Oct 1, 2026
 $15/M characters
 Microsoft AI: MAI-Voice-2.1
 MAI-Voice-2.1
-139K tokens
+411K tokens
 MAI-Voice-2.1 is Microsoft AI's highest-fidelity, most expressive text-to-speech model. It produces natural, studio-grade speech across 23 languages, with detailed prosody, nuanced expressiveness, and speaker consistency over long-form content. It is suited for audiobooks, podcasts, lectures, narration, and brand audio where maximum voice quality matters. The model prioritizes naturalness and expressivity over latency-critical generation. On OpenRouter, set
 voice
 to a full voice ID with the model suffix, such as
@@ -123,7 +135,7 @@ Oct 1, 2026
 $22/M characters
 Pareto 26.10 Preview
 Pareto 26.10 Preview
-1.52B tokens
+2.85B tokens
 Pareto is a multimodal composite model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks. This is a preview of the next Pareto version and may change without notice; use pareto-26.9 for stable behaviour.
 by
 unbiased
@@ -133,18 +145,18 @@ $0.80/M input
 tokens
 $3.20/M output
 tokens
-HeyGen: Video 1
-Video 1
+HeyGen: HeyGen Video
+HeyGen Video
 50% off
-27 hours
-HeyGen Video 1 is a general-purpose video generation model from HeyGen. It renders short clips with synthesized audio (dialogue, ambience, and sound effects) in a single call, working from a text prompt, from a first-frame image, or from a set of image, video, and audio references that the prompt can address directly. It is aimed at short-form business video with a lot of motion in frame: brand moments, product and equipment demos, and training or onboarding content. It is not an avatar product. Unlike HeyGen's Avatar IV and Video Agent, there is no talking-head, script, or lip-sync step; the prompt and references drive the whole scene.
+48 hours
+HeyGen Video is a general-purpose video generation model from HeyGen. It renders short clips with synthesized audio (dialogue, ambience, and sound effects) in a single call, working from a text prompt, from a first-frame image, or from a set of image, video, and audio references that the prompt can address directly. It is aimed at short-form business video with a lot of motion in frame: brand moments, product and equipment demos, and training or onboarding content. It is not an avatar product. Unlike HeyGen's Avatar IV and Video Agent, there is no talking-head, script, or lip-sync step; the prompt and references drive the whole scene.
 by
 heygen
 Sep 30, 2026
 from $0.01/second
 Together: Tev1 4B Experimental
 Tev1 4B Experimental
-454M tokens
+852M tokens
 Tev1 4B Experimental is an experimental decision model from Together AI, a supervised fine-tune of Qwen3.5-4B trained to choose one option from a structured state, question, and list of 2-24 labeled options. It keeps Qwen's standard next-token head, so it is served through the regular chat completions API rather than a dedicated decisions runtime. Send a system instruction followed by a JSON decision containing
 state
 ,
@@ -166,7 +178,7 @@ $0/M output
 tokens
 Inception: Mercury Decide (free)
 Mercury Decide (free)
-1.19B tokens
+2.14B tokens
 Mercury Decide is Inception's structured decision model, served as a System One endpoint. Send a state along with typed questions, and it returns a choice, a score, or a yes/no answer, each with a calibrated probability taken directly from the model rather than written out as text, so output tokens are free. It makes up to 14 decisions per second and reports how certain it is, so a decision system can run it on every case and escalate the unsure ones to a human. Mercury Decide uses the same /v1/systemone schema as Jev.
 by
 inception
@@ -178,7 +190,7 @@ $0/M output
 tokens
 VoyageAI by MongoDB: rerank-3-lite
 rerank-3-lite
-774M tokens
+1.23B tokens
 rerank-3-lite is a reranker optimized for both latency and quality and a drop-in upgrade to rerank-2.5-lite, improving on it by 0.94% NDCG@10 on average across domain evaluations and by 1.86% on long-document evaluations, with code retrieval gains of 2.77% atop voyage-3-large and 2.59% atop voyage-4-large. It matches the retrieval quality of rerank-2.5, and across 93 retrieval datasets it outperforms Cohere Rerank v4.0 Pro by 1.44% and Qwen3-Reranker-8B by 2.61%. The model supports a combined context length of 32K tokens per query-document pair, including up to 8K tokens for the query, enabling more accurate retrieval over longer documents. Additionally, rerank-3-lite supports instruction following, allowing users to guide relevance scoring through natural language prompts. Learn more about rerank-3-lite here:
 blog.voyageai.com/2026/09/30/rerank-3
 by
@@ -188,7 +200,7 @@ Sep 30, 2026
 $0.02/M tokens
 VoyageAI by MongoDB: rerank-3
 rerank-3
-819M tokens
+1.16B tokens
 rerank-3 is a reranker optimized for quality and a drop-in upgrade to rerank-2.5, improving on it by 0.80% NDCG@10 on average across domain evaluations and by 3.35% on long-document evaluations, with code retrieval gains of 2.01% atop voyage-3-large and 1.96% atop voyage-4-large. Across 93 retrieval datasets it outperforms Cohere Rerank v4.0 Pro by 2.14% and Qwen3-Reranker-8B by 3.31%. The model supports a combined context length of 32K tokens per query-document pair, including up to 8K tokens for the query, enabling more accurate retrieval over longer documents. Additionally, rerank-3 supports instruction following, allowing users to guide relevance scoring through natural language prompts. Learn more about rerank-3 here:
 blog.voyageai.com/2026/09/30/rerank-3
 by
@@ -198,7 +210,7 @@ Sep 30, 2026
 $0.05/M tokens
 OpenAI: GPT-6.1 Sol Pro
 GPT-6.1 Sol Pro
-16.3B tokens
+22.7B tokens
 GPT-6.1 Sol Pro is the same underlying model as
 GPT-6.1 Sol
 , served with
@@ -220,12 +232,12 @@ $10/M output
 tokens
 OpenAI: GPT-6.1 Sol
 GPT-6.1 Sol
-327B tokens
-Academia (#46)
-Health (#16)
-Legal (#22)
-Marketing (#23)
-SEO (#11)
+498B tokens
+Academia (#37)
+Health (#13)
+Legal (#20)
+Marketing (#19)
+SEO (#9)
 +4 categories
 GPT-6.1 Sol is an upgrade to GPT-6 Sol from OpenAI, positioned below the flagship GPT-6 Astra in the GPT-6 series. It is suited for agentic coding, computer use, document-heavy professional work, and multi-step business workflow automation, and approaches Astra-level results on these tasks at a much lower cost. Compared with GPT-6 Sol, it makes fewer factual errors and is more reliable at respecting explicit restrictions and user intent during agentic tasks.
 by
@@ -238,7 +250,7 @@ $10/M output
 tokens
 Anthropic: Claude Sonnet 5.5 (batch)
 Claude Sonnet 5.5 (batch)
-527M tokens
+677M tokens
 Claude Sonnet 5.5 is Anthropic's Sonnet-class model for well-scoped everyday work, succeeding Claude Sonnet 5 as a direct upgrade. It is especially strong at building features, fixing bugs, and producing polished documents, slides, and spreadsheets, and it writes and communicates more clearly than its predecessor. Thinking is always on, so effort is the main lever for trading off depth, latency, and cost, and lower effort settings keep it responsive for everyday agentic loops.
 by
 anthropic
@@ -250,13 +262,13 @@ $5/M output
 tokens
 Anthropic: Claude Sonnet 5.5
 Claude Sonnet 5.5
-444B tokens
-Academia (#49)
-Finance (#25)
-Legal (#46)
+587B tokens
+Academia (#39)
+Finance (#21)
+Health (#43)
+Legal (#45)
 Marketing (#45)
-SEO (#43)
-+3 categories
++4 categories
 Claude Sonnet 5.5 is Anthropic's Sonnet-class model for well-scoped everyday work, succeeding Claude Sonnet 5 as a direct upgrade. It is especially strong at building features, fixing bugs, and producing polished documents, slides, and spreadsheets, and it writes and communicates more clearly than its predecessor. Thinking is always on, so effort is the main lever for trading off depth, latency, and cost, and lower effort settings keep it responsive for everyday agentic loops.
 by
 anthropic
@@ -265,19 +277,6 @@ Sep 28, 2026
 $2/M input
 tokens
 $10/M output
-tokens
-Upstage: Solar Decide
-Solar Decide
-50% off
-3.79B tokens
-Solar Decide is Upstage's structured decision model, served as a System One endpoint on Solar Mini 4. Send a state along with typed questions, and it returns a choice, a score, or a yes/no answer, each with a calibrated probability taken directly from the model rather than written out as text. Because it generates no prose, each decision takes a single forward pass and output tokens are free. With a 512K context window, an entire document can serve as the state. Solar Decide uses the same /v1/systemone schema as Jev, bringing Solar Mini 4's strong Korean understanding to routing, classification, and policy checks.
-by
-upstage
-Sep 28, 2026
-524K context
-$0.05/M input
-tokens
-$0/M output
 tokens
 Compare
 Discover Models

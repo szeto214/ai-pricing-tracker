@@ -7,8 +7,11 @@
   "final_url": "https://v0.app/pricing",
   "parser_version": 4,
   "content_hash": "b2e36f56e50490b853f9251e6996aa5996a73530e7795469b94ed2486c96a75a",
-  "raw_hash": "ec68cc17f0226c07fdb6af3b5ebac0cdffc4a7852fe32aa5e26ec752dc9a0602",
+  "raw_hash": "08355bac5236d785e5d8ad3859ca194579498b200955cead045d9a227c2bc99d",
   "text_bytes": 2812,
+  "currency_hints": [
+    "USD"
+  ],
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

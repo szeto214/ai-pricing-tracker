@@ -7,8 +7,9 @@
   "final_url": "https://clickup.com/pricing",
   "parser_version": 4,
   "content_hash": "533bed5c2a6209a9e9b7f4f57b962fe1426a7ca56e58939941d1a289cb379b2d",
-  "raw_hash": "3431800a43ad9a2e512120e00caf4310dd88c17eb7af5c07f1dda3176490cbf9",
+  "raw_hash": "317328aeefdca4072f41f2e83cd7c9d76ccb258e6003a5633818de8cdbd05654",
   "text_bytes": 9195,
+  "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

@@ -7,8 +7,9 @@
   "final_url": "https://fal.ai/pricing",
   "parser_version": 4,
   "content_hash": "0a6cf71a8d4809dd49e523dc724e8ea4b3a83f0d98d64cd6220ccd9e07e0f255",
-  "raw_hash": "61cdc1a9da5492ffca47c86611f615e484441c0a8dcc5c24fd3dd7353ac40046",
+  "raw_hash": "371da426cccce392ec6c251bdd367b77d566e7d8c390a066fa3b70650e284de7",
   "text_bytes": 5368,
+  "currency_hints": [],
   "extractor": "jsonld",
   "confidence": "medium",
   "plans": [

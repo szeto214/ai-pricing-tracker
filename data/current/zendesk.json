@@ -7,8 +7,14 @@
   "final_url": "https://www.zendesk.com/pricing/",
   "parser_version": 4,
   "content_hash": "5588bdf4613e912c2c631fc27194bb145dc2e4cae36b5adc56fa215cdbd9ad88",
-  "raw_hash": "b70e4fef592ba0e6abf801ff96621dc98c9963bf18466b9a8beeb0159f7fcae8",
+  "raw_hash": "56c4195920438ddac7fd020b411dba1643acaa6e0f8a2aee8141982dd21f0c66",
   "text_bytes": 64754,
+  "currency_hints": [
+    "BRL",
+    "EUR",
+    "GBP",
+    "USD"
+  ],
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

@@ -7,8 +7,11 @@
   "final_url": "https://stripe.com/pricing",
   "parser_version": 4,
   "content_hash": "5736c60ce5e322631bfd5b40ed126688e9b43d310eb715a1055ef58ff698c6bf",
-  "raw_hash": "eb0c8a0f41c8aa09b9ede17a962869f8fb82bb4ab69cd6aa5415fbf068c0e05f",
+  "raw_hash": "4610272cf65e82e2cb5acff1ed4dae80c2b5874f35fc0a3dbd551f8c94bbbc0a",
   "text_bytes": 31960,
+  "currency_hints": [
+    "USD"
+  ],
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

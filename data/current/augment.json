@@ -9,6 +9,7 @@
   "content_hash": "d86a78da210b173b0759a6d154fa0e0b9c537aa30394047913420d1683988bc8",
   "raw_hash": "15c2ce12915dcfdd7cd9ea1169e07287ec17e3ee39ed791fc1dc27f1b7da4585",
   "text_bytes": 7432,
+  "currency_hints": [],
   "extractor": "jsonld",
   "confidence": "medium",
   "plans": [

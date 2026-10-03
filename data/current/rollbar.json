@@ -7,8 +7,9 @@
   "final_url": "https://rollbar.com/pricing",
   "parser_version": 4,
   "content_hash": "d44af447d92e8a9c9558a3153051eee31565eb02ebd531aef544350598f33b25",
-  "raw_hash": "7f48f8ea2326027a51d236358db40f399c5b358359f3900973d2c54f5a10590e",
+  "raw_hash": "e35f2d6e463c168cb8b0a74ca909a8bd4e4e62bda62033465d90b11e8d86c710",
   "text_bytes": 12960,
+  "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

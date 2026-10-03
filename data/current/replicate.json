@@ -7,8 +7,9 @@
   "final_url": "https://replicate.com/pricing",
   "parser_version": 4,
   "content_hash": "e2128294821f8407907292ad0d1c6aadcc73b4580848aa8b79f6eac3e39ce283",
-  "raw_hash": "947e98effdd710bf81cd232a9fe43548c31817b9be97e9c4252f9535d6669529",
+  "raw_hash": "b9e4b03687051e93a14cc954182fd6ca4f2692293f7d7487d55dc538ab27c2f5",
   "text_bytes": 8157,
+  "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

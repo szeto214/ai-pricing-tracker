@@ -7,8 +7,9 @@
   "final_url": "https://www.twilio.com/en-us/pricing",
   "parser_version": 4,
   "content_hash": "9b79c42d67f4909fe84ae785e4f5f148212649ca50de46adea260a70e2f4e457",
-  "raw_hash": "edcd273ee776ce5b8e795b06973229843ce680b289332d36d1b6d2aaa94eaf24",
+  "raw_hash": "18b6c44094b6683a61e97689129ce7a0f592aa31240c8a3c36a052a0649f5006",
   "text_bytes": 8280,
+  "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

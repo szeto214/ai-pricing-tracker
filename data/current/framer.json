@@ -7,8 +7,9 @@
   "final_url": "https://www.framer.com/pricing",
   "parser_version": 4,
   "content_hash": "f93d32e94eec2bc009e43f68e1d3059b26746eb823e6fd8c5a18f1644e4e3bb7",
-  "raw_hash": "3eec38bc97a3d237cb05b4b9051f0f5c580f143974f92ebf297458cc38a8e342",
+  "raw_hash": "0eeb825bcee7b149b2622a76b5c9334d1159106440dd302e0856c0340026df71",
   "text_bytes": 9887,
+  "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

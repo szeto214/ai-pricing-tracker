@@ -7,8 +7,9 @@
   "final_url": "https://fly.io/pricing/",
   "parser_version": 4,
   "content_hash": "f36002c812f4f09c24e9596d88d5fcc5232680b4c829d5607f6e529902497206",
-  "raw_hash": "2502b49cb0a087db484e6eaa3be9fe4bc4cf4c160c873972e88ab552cc64e975",
+  "raw_hash": "e0df09b045f8eb73353d6705aa7c4b4585fed17551e02ce65bae4a7fba40881d",
   "text_bytes": 2863,
+  "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

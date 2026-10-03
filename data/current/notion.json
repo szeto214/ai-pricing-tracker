@@ -7,8 +7,11 @@
   "final_url": "https://www.notion.com/pricing",
   "parser_version": 4,
   "content_hash": "304aaf5e8be388887b7c715a6df466378da7adde7134324ff2dddeb1f9fcbb16",
-  "raw_hash": "bbcc7b53b94049ddc6812a62453efc5a7e9ab705ea142a767b46089276feb702",
+  "raw_hash": "3a9203545fcab6d149bdc1af215abf9e56c9fdccc23ad64838f8e0a51670a018",
   "text_bytes": 21036,
+  "currency_hints": [
+    "USD"
+  ],
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

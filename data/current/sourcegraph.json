@@ -7,8 +7,9 @@
   "final_url": "https://sourcegraph.com/pricing",
   "parser_version": 4,
   "content_hash": "88db7ffc44b5a8511b98944a8b28d915c6e3303cb7c4d435dbea31fb30087d85",
-  "raw_hash": "0fba0ae73033d8e6e37291e5f8dcc4b840ad31283ed651fca40f91b58685d1bd",
+  "raw_hash": "29b4dfc12c70661727d2f88064a7fed4092816f1acf256c6686cd181e2b2ad6d",
   "text_bytes": 1643,
+  "currency_hints": [],
   "extractor": "dom",
   "confidence": "low",
   "plans": [

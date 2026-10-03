@@ -41,14 +41,14 @@ included per app
 Additional $0.02/mo each
 Show volume discounts
 1
-Enterprise connection
+SSO connection
 included
 Additional $75/mo each
 Show volume discounts
 1
 Directory Sync connection
 included
-Additional $75/mo each
+Additional $75/mo each from January 1, 2027
 Show volume discounts
 Remove Clerk branding
 Multi-factor authentication (MFA)
@@ -300,8 +300,8 @@ Allow users to enable multifactor authentication with authenticator applications
 Not included
 Included
 Included
-Enterprise connections
-Leverage authentication with EASIE, SAML, or OIDC supported services.
+SSO connections
+Enterprise single sign-on with SAML, OIDC, or EASIE.
 Not included
 1 connection
 included per app
@@ -319,10 +319,10 @@ $75/mo each
 $60/mo each
 101+
 Contact us
-Directory Sync (SCIM)
-Provision and deprovision users from your customers' identity providers. Counted separately from SSO connections.
+Directory Sync connections
+Provision and deprovision users with SCIM or Google Workspace. Counted separately from SSO connections. Billing for Directory Sync connections starts January 1, 2027.
 Not included
-1 directory
+1 connection
 included per app
 2 - 15
 $75/mo each
@@ -330,7 +330,7 @@ $75/mo each
 $60/mo each
 101+
 Contact us
-1 directory
+1 connection
 included per app
 2 - 15
 $75/mo each

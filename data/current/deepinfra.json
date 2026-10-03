@@ -6,9 +6,10 @@
   "url": "https://deepinfra.com/pricing",
   "final_url": "https://deepinfra.com/pricing",
   "parser_version": 4,
-  "content_hash": "58333e49e43eba09fcbee39f1ef5428be80767b7a0c9cf0bfba36b7ff9e6462f",
-  "raw_hash": "621fade6384b26b03c265aee35ec5dc48645e5331c75f49cadd317947c2e2f33",
-  "text_bytes": 15522,
+  "content_hash": "73bcc7341f1d5a0bd678651c68889e291015c595e7a193cf61687d5fdfaa57b5",
+  "raw_hash": "d3b7ddf860ba2ac5f1a26022e6c7e85e1c4fca40bad828380b76a37cfa72d062",
+  "text_bytes": 15516,
+  "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
@@ -128,8 +129,7 @@
       "period": null,
       "features": [],
       "slot_prices": [
-        0.1,
-        0.95
+        0.1
       ]
     }
   ],
@@ -810,7 +810,7 @@
         [
           "Qwen3.6-35B-A3B",
           "256k",
-          "$0.10",
+          "$0.10 / $0.10 cached",
           "$0.95",
           "View more"
         ],
@@ -955,7 +955,7 @@
         [
           "Qwen3.6-35B-A3B",
           "256k",
-          "$0.10",
+          "$0.10 / $0.10 cached",
           "$0.95",
           "View more"
         ],

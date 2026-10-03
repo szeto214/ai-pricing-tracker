@@ -7,8 +7,9 @@
   "final_url": "https://www.langchain.com/pricing",
   "parser_version": 4,
   "content_hash": "f39fdd917207612396efa86697202c6aa64be2601eef0888e932443b40553ad4",
-  "raw_hash": "0716ebbcc7633ad69a76fd86b61f04e5ac5d46846c1cfc29c761ee79b0d23e72",
+  "raw_hash": "e29fcfe155f9634a3cc0609f3b47c775a3d5519d7394b833a66df4c8ddac7c46",
   "text_bytes": 15022,
+  "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

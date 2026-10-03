@@ -7,8 +7,9 @@
   "final_url": "https://www.atlassian.com/software/confluence/pricing",
   "parser_version": 4,
   "content_hash": "33b243b40c73519f4ad63d5090e4e7941d6723c529ae763a7efba946b12b5c1b",
-  "raw_hash": "61c675c0446380e5146feb9179b98c24fdfad756da88b0575efc1cfec0e91f66",
+  "raw_hash": "74a39d6469e60a233546a9787f0e66770c47a483edd54dd43af82f442ce3acf0",
   "text_bytes": 23494,
+  "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

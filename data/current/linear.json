@@ -7,7 +7,7 @@
   "final_url": "https://linear.app/pricing",
   "parser_version": 4,
   "content_hash": "f8344b5c01d325017b953c4ce838830f1f5234d8604f2f9941de8c93d793cbfe",
-  "raw_hash": "20d70097ed991fd37755bf8f7c09f5d6c254aa3607056cc6b138b8810cce66fc",
+  "raw_hash": "5a5df79f44565c7161bd089486a10133e46d56927893a5bc8bd06cb584fceb56",
   "text_bytes": 2339,
   "currency_hints": [],
   "extractor": "dom",

@@ -7,7 +7,7 @@
   "final_url": "https://modal.com/pricing",
   "parser_version": 4,
   "content_hash": "4d974aa12ac10b7401a935844ca076476584682ec5748d0994dcd0c09bc9efa4",
-  "raw_hash": "c2ae74260a1bd72a7d037f083af15f2f8b1e693841b4b147187a507931a2861b",
+  "raw_hash": "753e908ae3625a26499f8369891817bc12c087f2cca48b2b8da2eb3c26b8796e",
   "text_bytes": 6149,
   "currency_hints": [],
   "extractor": "dom",
@@ -69,7 +69,7 @@
       "price_raw": "$5,400",
       "amount": 5400.0,
       "currency": "USD",
-      "period": null,
+      "period": "gpu-hour",
       "features": [],
       "slot_prices": [
         5400.0
@@ -80,7 +80,7 @@
       "price_raw": "$4,740",
       "amount": 4740.0,
       "currency": "USD",
-      "period": null,
+      "period": "gpu-hour",
       "features": [],
       "slot_prices": [
         4740.0

@@ -7,7 +7,7 @@
   "final_url": "https://www.atlassian.com/software/jira/pricing",
   "parser_version": 4,
   "content_hash": "2948896e74b9cbc23710f4423ea49493497d5113441dd594cf19ae7cd2a3aa03",
-  "raw_hash": "e98713930e529003a66be637ae7b8bed1f5fae25e2abcfbf2905bf92f751a537",
+  "raw_hash": "69d2b1923eb96632883772a2dc538d5442444a1ccc5041237097975eac7d9895",
   "text_bytes": 27591,
   "currency_hints": [],
   "extractor": "dom",

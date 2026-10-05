@@ -7,7 +7,7 @@
   "final_url": "https://northflank.com/pricing",
   "parser_version": 4,
   "content_hash": "5b8bb928eae1f32e88886562dcbbd0e15d741cc8eeeb0e2d1813754db5348c92",
-  "raw_hash": "939ffd109b3a46213a6623aa1f07e1fb212a2ba659de270f445673d2acceddec",
+  "raw_hash": "55e79e2aaec71e37c24335fd6b090dab51b4ec7f7391b574f1206a40f7db1c5c",
   "text_bytes": 14190,
   "currency_hints": [],
   "extractor": "dom",
@@ -18,7 +18,7 @@
       "price_raw": "$ 0.06",
       "amount": 0.06,
       "currency": "USD",
-      "period": null,
+      "period": "GB",
       "features": [],
       "slot_prices": [
         0.06

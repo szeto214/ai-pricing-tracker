@@ -7,7 +7,7 @@
   "final_url": "https://murf.ai/pricing",
   "parser_version": 4,
   "content_hash": "9beecfa04bfe43f734d3ef047830b1018d9acf55266d4c8864d401724c43c85e",
-  "raw_hash": "57d1866e908bd6214d520498ee23ab7b075aacebeccb21234c7cc3ecbbe1e5f2",
+  "raw_hash": "72696299e120122ecf396fe60561f7272fb6d026b68eccd8fa823203f63706fd",
   "text_bytes": 3912,
   "currency_hints": [],
   "extractor": "dom",
@@ -51,7 +51,7 @@
       "price_raw": "$0.10",
       "amount": 0.1,
       "currency": "USD",
-      "period": null,
+      "period": "minute",
       "features": [],
       "slot_prices": [
         0.1

@@ -7,7 +7,7 @@
   "final_url": "https://buildkite.com/pricing/",
   "parser_version": 4,
   "content_hash": "ace2e148066fd4698a3b102799feb35d703d67d1d555ce8669168e0e9d4ca2fe",
-  "raw_hash": "3e7ebd44986f313a96aaa1108c0887346278eb4e6385878b8bdbab800906d7c9",
+  "raw_hash": "630e9a625d43418d51ccfd109b5c7428e3aef4c3df8570104f69c9c259969c0b",
   "text_bytes": 18787,
   "currency_hints": [
     "USD"
@@ -42,7 +42,7 @@
       "price_raw": "$0.004",
       "amount": 0.004,
       "currency": "USD",
-      "period": null,
+      "period": "minute",
       "features": [
         "Linux AMD64, Linux ARM64, and Mac are billed as separate platforms, each with its own per-vCPU minute rate."
       ],

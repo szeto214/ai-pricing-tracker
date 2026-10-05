@@ -6,9 +6,9 @@
   "url": "https://stripe.com/pricing",
   "final_url": "https://stripe.com/pricing",
   "parser_version": 4,
-  "content_hash": "480879ef3df9807b1ce7db261daa782656094a140b17f5b55e5aeca921d70b96",
-  "raw_hash": "7bfb8d1cde22b7b639e8d9a53b0fedcacf97bfc797980faac50dda81e7349eb0",
-  "text_bytes": 32066,
+  "content_hash": "5736c60ce5e322631bfd5b40ed126688e9b43d310eb715a1055ef58ff698c6bf",
+  "raw_hash": "6bd40eed730de0be9017c56b1edc9a9232d14940022fdd7dab3bece421f32abb",
+  "text_bytes": 31960,
   "currency_hints": [
     "USD"
   ],
@@ -75,7 +75,7 @@
       "price_raw": "$2.00",
       "amount": 2.0,
       "currency": "USD",
-      "period": null,
+      "period": "invoice",
       "features": [],
       "slot_prices": [
         2.0
@@ -86,7 +86,7 @@
       "price_raw": "$0.10",
       "amount": 0.1,
       "currency": "USD",
-      "period": null,
+      "period": "authorization",
       "features": [],
       "slot_prices": [
         0.1

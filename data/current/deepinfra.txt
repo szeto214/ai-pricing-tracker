@@ -504,7 +504,7 @@ $0.34
 View more
 gemma-4-31B-it
 256k
-$0.15
+$0.20
 $0.40
 View more
 gemma-4-26B-A4B-it
@@ -544,7 +544,7 @@ $0.34
 View more
 gemma-4-31B-it
 256k
-$0.15
+$0.20
 $0.40
 View more
 gemma-4-26B-A4B-it
@@ -1058,21 +1058,21 @@ XiaomiMiMo
 /
 MiMo-V2.6-Pro
 Featured Models
-nvidia
-/
-NVIDIA-Nemotron-3-Ultra-550B-A55B
-black-forest-labs
-/
-FLUX-2-klein-4b
 zai-org
 /
-GLM-5.3-Flash
-deepseek-ai
+GLM-5.2
+black-forest-labs
 /
-DeepSeek-V4-Flash-0731
-deepseek-ai
+FLUX-2-klein-9b
+Qwen
 /
-DeepSeek-V4-Pro
+Qwen3-Max
+Qwen
+/
+Qwen3.8-2.4T-A95B
+Qwen
+/
+Qwen3-TTS-VoiceDesign
 © 2026 DeepInfra. All rights reserved.
 Privacy Policy
 Terms of Service

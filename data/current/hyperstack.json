@@ -42,7 +42,7 @@
       "price_raw": "$0.063",
       "amount": 0.063,
       "currency": "USD",
-      "period": null,
+      "period": "minute",
       "features": [],
       "slot_prices": [
         0.063

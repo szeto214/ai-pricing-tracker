@@ -7,7 +7,7 @@
   "final_url": "https://deno.com/deploy/pricing",
   "parser_version": 4,
   "content_hash": "8baef8238fc9676ce55f84210f208e258e7f337cb63fe7a52c20d6d018c132be",
-  "raw_hash": "d8bc1245d861e72cc05b0316cd709665914a7d10ff0993f3beb8fb29eaa3bbd2",
+  "raw_hash": "31496c9b2ec2b4e8bc80ac392f88ba11b20f2fba4950806761249b2232904288",
   "text_bytes": 16056,
   "currency_hints": [],
   "extractor": "dom",
@@ -62,7 +62,7 @@
       "price_raw": "$0.20",
       "amount": 0.2,
       "currency": "USD",
-      "period": null,
+      "period": "GB",
       "features": [],
       "slot_prices": [
         0.2
@@ -84,7 +84,7 @@
       "price_raw": "$0.025",
       "amount": 0.025,
       "currency": "USD",
-      "period": null,
+      "period": "GB",
       "features": [],
       "slot_prices": [
         0.025
@@ -95,7 +95,7 @@
       "price_raw": "$0.08",
       "amount": 0.08,
       "currency": "USD",
-      "period": null,
+      "period": "GB",
       "features": [],
       "slot_prices": [
         0.08
@@ -106,7 +106,7 @@
       "price_raw": "$0.20",
       "amount": 0.2,
       "currency": "USD",
-      "period": null,
+      "period": "GB",
       "features": [],
       "slot_prices": [
         0.2
@@ -117,7 +117,7 @@
       "price_raw": "$0.75",
       "amount": 0.75,
       "currency": "USD",
-      "period": null,
+      "period": "GB",
       "features": [],
       "slot_prices": [
         0.75
@@ -150,7 +150,7 @@
       "price_raw": "$0.20",
       "amount": 0.2,
       "currency": "USD",
-      "period": null,
+      "period": "GB",
       "features": [
         "Concurrent sandboxes: Number of sandboxes that can run at the same time within your organization, per region. 3",
         "Volume storage: Persistent block-storage volumes attachable to sandboxes. 5 GiB (then $0.20/GiB-mo)"

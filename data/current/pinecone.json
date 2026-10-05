@@ -7,7 +7,7 @@
   "final_url": "https://www.pinecone.io/pricing/",
   "parser_version": 4,
   "content_hash": "eeebc36350df97d31e630c2a297b0b923eb4522223a7b10112a950c5fcab67ef",
-  "raw_hash": "47dbf530b79cdc12a6829e41e50f3b991b3f56fa1c8444d61d68b2089dcac650",
+  "raw_hash": "7ea0493f7397a3497378e48d24cce3079bf92e15989ff79e78d616936382ded3",
   "text_bytes": 8951,
   "currency_hints": [],
   "extractor": "dom",
@@ -82,7 +82,7 @@
       "price_raw": "$0.25",
       "amount": 0.25,
       "currency": "USD",
-      "period": null,
+      "period": "GB",
       "features": [],
       "slot_prices": [
         0.25
@@ -93,7 +93,7 @@
       "price_raw": "$0.15",
       "amount": 0.15,
       "currency": "USD",
-      "period": null,
+      "period": "GB",
       "features": [],
       "slot_prices": [
         0.15

@@ -7,7 +7,7 @@
   "final_url": "https://docs.perplexity.ai/docs/getting-started/pricing",
   "parser_version": 4,
   "content_hash": "7e0d107a76c00873dbc3716571f91479a839b3703608df727cd22920a94dbf01",
-  "raw_hash": "dd8cc7644f2a56d0aed16c26cd6ac0caf9b61c4d1899e40c5b08388f3eb9bacf",
+  "raw_hash": "c3f0b09cd3de57039d801c749a496ee000b4ff330fc8c2dd83867222059226b4",
   "text_bytes": 6869,
   "currency_hints": [],
   "extractor": "dom",
@@ -18,7 +18,7 @@
       "price_raw": "$0.0025",
       "amount": 0.0025,
       "currency": "USD",
-      "period": null,
+      "period": "invocation",
       "features": [],
       "slot_prices": [
         0.0025
@@ -40,7 +40,7 @@
       "price_raw": "$0.001",
       "amount": 0.001,
       "currency": "USD",
-      "period": null,
+      "period": "invocation",
       "features": [],
       "slot_prices": [
         0.001
@@ -73,7 +73,7 @@
       "price_raw": "$0.0005",
       "amount": 0.0005,
       "currency": "USD",
-      "period": null,
+      "period": "invocation",
       "features": [],
       "slot_prices": [
         0.0005
@@ -84,7 +84,7 @@
       "price_raw": "$0.005",
       "amount": 0.005,
       "currency": "USD",
-      "period": null,
+      "period": "invocation",
       "features": [],
       "slot_prices": [
         0.005
@@ -95,7 +95,7 @@
       "price_raw": "$0.005",
       "amount": 0.005,
       "currency": "USD",
-      "period": null,
+      "period": "invocation",
       "features": [],
       "slot_prices": [
         0.005

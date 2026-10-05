@@ -7,7 +7,7 @@
   "final_url": "https://www.cockroachlabs.com/pricing/",
   "parser_version": 4,
   "content_hash": "aece04889f87958a37b47124427fd0bf467ee7109cdce386644f1eb747509c2d",
-  "raw_hash": "51ba295e1a1cc174a06a6d7088b3935f633615f67aedb425119ec96e608dcd46",
+  "raw_hash": "5dd780f4b1c7dda51792220f061e06e3ebc4180026a4e76a608083cfc7c2f07f",
   "text_bytes": 9104,
   "currency_hints": [],
   "extractor": "dom",
@@ -29,7 +29,7 @@
       "price_raw": "$400",
       "amount": 400.0,
       "currency": "USD",
-      "period": "month",
+      "period": "vcpu-hour",
       "features": [],
       "slot_prices": [
         400.0
@@ -40,7 +40,7 @@
       "price_raw": "$203",
       "amount": 203.0,
       "currency": "USD",
-      "period": "month",
+      "period": "vcpu-hour",
       "features": [],
       "slot_prices": [
         203.0
@@ -51,7 +51,7 @@
       "price_raw": "$400",
       "amount": 400.0,
       "currency": "USD",
-      "period": "month",
+      "period": "vcpu-hour",
       "features": [],
       "slot_prices": [
         400.0
@@ -62,7 +62,7 @@
       "price_raw": "$1,528",
       "amount": 1528.0,
       "currency": "USD",
-      "period": "month",
+      "period": "vcpu-hour",
       "features": [],
       "slot_prices": [
         1528.0
@@ -73,7 +73,7 @@
       "price_raw": "$0.023",
       "amount": 0.023,
       "currency": "USD",
-      "period": null,
+      "period": "vcpu-hour",
       "features": [],
       "slot_prices": [
         0.023
@@ -84,7 +84,7 @@
       "price_raw": "$0.023",
       "amount": 0.023,
       "currency": "USD",
-      "period": null,
+      "period": "vcpu-hour",
       "features": [],
       "slot_prices": [
         0.023
@@ -95,7 +95,7 @@
       "price_raw": "$0.023",
       "amount": 0.023,
       "currency": "USD",
-      "period": null,
+      "period": "vcpu-hour",
       "features": [],
       "slot_prices": [
         0.023
@@ -106,7 +106,7 @@
       "price_raw": "$0.023",
       "amount": 0.023,
       "currency": "USD",
-      "period": "month",
+      "period": "vcpu-hour",
       "features": [],
       "slot_prices": [
         0.023
@@ -117,7 +117,7 @@
       "price_raw": "$0.057",
       "amount": 0.057,
       "currency": "USD",
-      "period": null,
+      "period": "vcpu-hour",
       "features": [],
       "slot_prices": [
         0.057
@@ -128,7 +128,7 @@
       "price_raw": "$0.162",
       "amount": 0.162,
       "currency": "USD",
-      "period": null,
+      "period": "vcpu-hour",
       "features": [],
       "slot_prices": [
         0.162
@@ -139,7 +139,7 @@
       "price_raw": "$0.006",
       "amount": 0.006,
       "currency": "USD",
-      "period": null,
+      "period": "vcpu-hour",
       "features": [],
       "slot_prices": [
         0.006
@@ -150,7 +150,7 @@
       "price_raw": "$0.023",
       "amount": 0.023,
       "currency": "USD",
-      "period": null,
+      "period": "vcpu-hour",
       "features": [],
       "slot_prices": [
         0.023

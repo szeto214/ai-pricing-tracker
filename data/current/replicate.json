@@ -7,7 +7,7 @@
   "final_url": "https://replicate.com/pricing",
   "parser_version": 4,
   "content_hash": "e2128294821f8407907292ad0d1c6aadcc73b4580848aa8b79f6eac3e39ce283",
-  "raw_hash": "af0ead9d2392363f0580395dd39baccaff0a14e64ac9c94261fcf3793cc912d6",
+  "raw_hash": "707e65f1c5ccf05082dd34c9c5e3939fd5e241e72b33137ffaba9f285bb194df",
   "text_bytes": 8157,
   "currency_hints": [],
   "extractor": "dom",
@@ -84,7 +84,7 @@
       "price_raw": "$0.09",
       "amount": 0.09,
       "currency": "USD",
-      "period": null,
+      "period": "second",
       "features": [],
       "slot_prices": [
         0.09
@@ -95,7 +95,7 @@
       "price_raw": "$0.25",
       "amount": 0.25,
       "currency": "USD",
-      "period": null,
+      "period": "second",
       "features": [],
       "slot_prices": [
         0.25

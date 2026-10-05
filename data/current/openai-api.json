@@ -7,7 +7,7 @@
   "final_url": "https://developers.openai.com/api/docs/pricing",
   "parser_version": 4,
   "content_hash": "407b0fd8cca0b566446e50071f4d613c24ae7a39024a7c37268177b03ddfaa90",
-  "raw_hash": "cbbb43d0f7efb63b4ab9010d3b9040eb21ba5e83fedb91618e4336815693d66c",
+  "raw_hash": "0d50ef0ef5ca10972e203a6db3bb59079c8322249e617d1947351416ce77ddca",
   "text_bytes": 6793,
   "currency_hints": [],
   "extractor": "dom",
@@ -148,7 +148,7 @@
       "price_raw": "$0.034",
       "amount": 0.034,
       "currency": "USD",
-      "period": null,
+      "period": "minute",
       "features": [],
       "slot_prices": [
         0.034
@@ -159,7 +159,7 @@
       "price_raw": "$0.017",
       "amount": 0.017,
       "currency": "USD",
-      "period": null,
+      "period": "minute",
       "features": [],
       "slot_prices": [
         0.017
@@ -170,7 +170,7 @@
       "price_raw": "$0.017",
       "amount": 0.017,
       "currency": "USD",
-      "period": null,
+      "period": "minute",
       "features": [],
       "slot_prices": [
         0.017
@@ -181,7 +181,7 @@
       "price_raw": "$0.0045",
       "amount": 0.0045,
       "currency": "USD",
-      "period": null,
+      "period": "minute",
       "features": [],
       "slot_prices": [
         0.0045
@@ -192,7 +192,7 @@
       "price_raw": "$2.50",
       "amount": 2.5,
       "currency": "USD",
-      "period": null,
+      "period": "minute",
       "features": [],
       "slot_prices": [
         2.5,
@@ -205,7 +205,7 @@
       "price_raw": "$1.25",
       "amount": 1.25,
       "currency": "USD",
-      "period": null,
+      "period": "minute",
       "features": [],
       "slot_prices": [
         1.25,

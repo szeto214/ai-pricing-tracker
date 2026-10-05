@@ -7,7 +7,7 @@
   "final_url": "https://vercel.com/pricing",
   "parser_version": 4,
   "content_hash": "fc3df4bb534ebadd08f1a5ed8f7a2381ae99799388e03691d8fcf26e09d9acee",
-  "raw_hash": "45a2deec35cc2a77671c6c548e5120a814c521bc4b7c097c75bda2be34f05b0f",
+  "raw_hash": "52cabe0acd92d64f1e8a24a9a0be1bb381fe6133da5c67e093eb375b15aff32b",
   "text_bytes": 13392,
   "currency_hints": [
     "USD"
@@ -229,7 +229,7 @@
       "price_raw": "$0.007",
       "amount": 0.007,
       "currency": "USD",
-      "period": null,
+      "period": "minute",
       "features": [],
       "slot_prices": [
         0.007

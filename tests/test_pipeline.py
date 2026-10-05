@@ -2154,6 +2154,73 @@ def test_pindah_mata_uang_halaman_03_10() -> None:
           "price_changed" in lama, f"-> {lama}")
 
 
+def test_satuan_lebih_lengkap_05_10() -> None:
+    """Satuan yang tertulis di halaman akhirnya terbaca (05/10/2026).
+
+    471 dari 934 baris paket tampil "not stated" di halaman publik — separuh
+    tabel tidak memberi tahu pembaca harga itu per apa. Padahal halamannya
+    menulis satuannya dengan jelas; kosakata pembaca yang belum memuatnya.
+
+    Dua label lama bahkan SALAH, dan itu lebih buruk daripada kosong:
+
+      replicate   "$0.001525/sec | $5.49/hr"   -> dulu dilabeli "per hour"
+      cockroachdb "$0.092 per vCPU-hour*"      -> dulu dilabeli "per month"
+                  (terambil dari "≈ $203/mo" di kalimat berikutnya)
+
+    Satuan WAKTU dicari lebih dulu dan terpisah dari satuan non-waktu, supaya
+    kartu yang memuat keduanya ("$20 /month ... $0.10 /GB") tetap memakai
+    satuan waktunya.
+
+    A/B pada 985 arsip mentah: **0 harga berubah, 0 paket muncul, 0 paket
+    hilang**, 345 satuan yang tadinya kosong terisi, dan 29 label yang salah
+    diperbaiki (24 replicate, 5 cockroachdb) — ketiganya diperiksa ke teks
+    arsip dan yang baru terbukti benar. Angka tidak berubah sama sekali, jadi
+    PARSER_VERSION tetap 4.
+    """
+    print("\n24. satuan harga lebih lengkap")
+    from collector.extract import parse_period
+
+    kasus = [
+        ("Pro $20 / month", "month"),
+        ("Nova-3 $0.0077 /min", "minute"),
+        ("gpt-realtime $0.06 /minute", "minute"),
+        ("$0.00005 / second", "second"),
+        ("gpu-h100 $0.001525/sec $5.49/hr", "second"),
+        ("Lambda $2.99 per GPU-hour", "gpu-hour"),
+        ("Standard $0.092 per vCPU-hour*", "vcpu-hour"),
+        ("storage $0.023 /GB", "GB"),
+        ("Stripe $0.05 per invoice", "invoice"),
+        ("Enterprise contact us", None),
+    ]
+    for teks, harap in kasus:
+        check(f"satuan terbaca: {teks[:34]!r}", parse_period(teks) == harap,
+              f"-> {parse_period(teks)}")
+
+    # Satuan waktu menang atas satuan non-waktu di kartu yang memuat keduanya.
+    check("satuan waktu diutamakan atas satuan non-waktu",
+          parse_period("Team $20 /month and $0.10 /GB extra") == "month",
+          f"-> {parse_period('Team $20 /month and $0.10 /GB extra')}")
+
+    # Yang tidak tertulis TETAP kosong — tidak pernah ditebak (§11.7).
+    check("satuan yang tidak tertulis tidak ditebak",
+          parse_period("Business $99 contact sales") is None,
+          f"-> {parse_period('Business $99 contact sales')}")
+
+    # Halaman publik menampilkannya sebagai kalimat, bukan kata mentah.
+    import importlib.util
+    spec = importlib.util.spec_from_file_location(
+        "bs_label", ROOT / "scripts" / "build_site.py")
+    bs = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(bs)
+    check("label publik untuk satuan baru terbaca manusia",
+          bs.periode_label("vcpu-hour") == "per vCPU-hour"
+          and bs.periode_label("minute") == "per minute"
+          and bs.periode_label("GB") == "per GB",
+          f"-> {bs.periode_label('vcpu-hour')}, {bs.periode_label('minute')}")
+    check("satuan yang kosong tetap ditandai jujur",
+          bs.periode_label(None) == "not stated", f"-> {bs.periode_label(None)}")
+
+
 def main() -> int:
     print(f"data uji: {config.DATA_DIR}")
     test_hash_stability()
@@ -2190,6 +2257,7 @@ def main() -> int:
     test_harga_coret_28_09()
     test_mata_uang_beda_29_09()
     test_pindah_mata_uang_halaman_03_10()
+    test_satuan_lebih_lengkap_05_10()
     test_skrip_cadangan()
 
     print("\n" + "=" * 60)

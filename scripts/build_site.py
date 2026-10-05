@@ -191,6 +191,16 @@ _PERIODE_LABEL = {
     "hour": "per hour", "month": "per month", "year": "per year",
     "day": "per day", "seat": "per seat", "user": "per user",
     "credit": "per credit", "request": "per request",
+    # Ditambah 05/10/2026 bersama perluasan kosakata satuan di extract.py.
+    # Tanpa label ini pembaca melihat kata mentah ("vcpu-hour") alih-alih
+    # kalimat yang terbaca ("per vCPU-hour").
+    "minute": "per minute", "second": "per second",
+    "gpu-hour": "per GPU-hour", "vcpu-hour": "per vCPU-hour",
+    "node-hour": "per node-hour",
+    "GB": "per GB", "TB": "per TB",
+    "image": "per image", "token": "per token", "message": "per message",
+    "invocation": "per invocation", "invoice": "per invoice",
+    "authorization": "per authorization",
 }
 
 

@@ -51,9 +51,26 @@ PRICE_RE = re.compile(
     re.I,
 )
 
+# Satuan WAKTU dicari lebih dulu dan terpisah dari satuan non-waktu. Kalau
+# satu kartu memuat keduanya ("$20 /month ... $0.10 /GB"), yang dipakai tetap
+# satuan waktunya — tanpa pemisahan ini, satuan yang sudah benar hari ini bisa
+# berubah hanya karena kosakatanya diperluas. (Diukur 05/10/2026.)
 PERIOD_RE = re.compile(
     r"(?:/|per\s+)\s*(month|mo\b|year|yr\b|annually|seat|user|member|editor|"
-    r"credit|request|hour|hr\b|day)",
+    r"credit|request|hour|hr\b|day|"
+    r"gpu-?\s?hour|gpu-?\s?hr\b|vcpu-?\s?hour|vcpu-?\s?hr\b|node-?\s?hour|"
+    r"minute|min\b|second|sec\b)",
+    re.I,
+)
+
+# Satuan NON-waktu, dipakai hanya kalau kartu tidak menyebut satuan waktu sama
+# sekali. Halaman harga API dan penyimpanan memakai satuan ini, dan selama ini
+# barisnya tampil "not stated" di halaman publik — 471 dari 934 baris paket
+# (diukur 05/10/2026). Daftarnya disusun dari frasa yang BENAR-BENAR muncul di
+# arsip, bukan dikarang.
+PERIOD_UNIT_RE = re.compile(
+    r"(?:/|per\s+)\s*(gib\b|gb\b|tb\b|image|invocation|authorization|"
+    r"invoice|message|token)",
     re.I,
 )
 
@@ -169,6 +186,16 @@ def _plausible_plan_name(name: str) -> bool:
 
 PERIOD_CANON = {
     "mo": "month", "month": "month",
+    "minute": "minute", "min": "minute", "second": "second", "sec": "second",
+    "gpu-hour": "gpu-hour", "gpuhour": "gpu-hour", "gpu hour": "gpu-hour",
+    "gpu-hr": "gpu-hour", "gpu hr": "gpu-hour", "gpuhr": "gpu-hour",
+    "vcpu-hour": "vcpu-hour", "vcpu hour": "vcpu-hour",
+    "vcpu-hr": "vcpu-hour", "vcpu hr": "vcpu-hour", "vcpuhr": "vcpu-hour",
+    "node-hour": "node-hour", "node hour": "node-hour", "nodehour": "node-hour",
+    "gib": "GB", "gb": "GB", "tb": "TB",
+    "image": "image", "invocation": "invocation",
+    "authorization": "authorization", "invoice": "invoice",
+    "message": "message", "token": "token",
     "yr": "year", "year": "year", "annually": "year",
     "seat": "seat", "user": "user", "member": "user", "editor": "user",
     "credit": "credit", "request": "request",
@@ -266,11 +293,24 @@ def parse_price(text: str) -> tuple[float | None, str | None, str]:
     return amt, cur, m.group(0).strip()
 
 
+def _canon_period(kata: str) -> str:
+    bersih = re.sub(r"[\s-]+", "-", kata.lower().strip().rstrip("."))
+    return (PERIOD_CANON.get(kata.lower().rstrip("."))
+            or PERIOD_CANON.get(bersih)
+            or PERIOD_CANON.get(bersih.replace("-", ""))
+            or bersih)
+
+
 def parse_period(text: str) -> str | None:
+    """Satuan apa adanya dari halaman. Waktu diutamakan; yang tidak tertulis
+    tetap dibiarkan kosong — tidak pernah ditebak."""
     m = PERIOD_RE.search(text or "")
-    if not m:
-        return None
-    return PERIOD_CANON.get(m.group(1).lower().rstrip("."), m.group(1).lower())
+    if m:
+        return _canon_period(m.group(1))
+    m = PERIOD_UNIT_RE.search(text or "")
+    if m:
+        return _canon_period(m.group(1))
+    return None
 
 
 # --------------------------------------------------------------------------- #

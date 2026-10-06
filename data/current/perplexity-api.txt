@@ -197,11 +197,12 @@ $0.001
 Model output tokens
 $0.003
 web_search
-$0.0025
+(Fast Search)
+$0.001
 fetch_url
 $0.0005
 Total
-$0.007
+$0.0055
 Actual preset costs vary with the selected model, token usage, and tool invocations. When present on a completed response,
 usage.cost.total_cost
 reports the calculated request cost.

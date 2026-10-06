@@ -47,21 +47,29 @@ D
 D
 Flagship Enterprise
 7 GPUs
+H100 SXM
+Hopper
+80GB VRAM
+from
+$1.68
+/hr
+median $2.05/hr
+Rent
 B200
 Blackwell
 192GB VRAM
 from
 $6.25
 /hr
-median $7.81/hr
+median $7.50/hr
 Rent
-H100 SXM
+H200
 Hopper
-80GB VRAM
+141GB VRAM
 from
-$1.73
+$2.63
 /hr
-median $2.90/hr
+median $5.00/hr
 Rent
 H200 NVL
 Hopper
@@ -71,21 +79,13 @@ $3.67
 /hr
 median $4.33/hr
 Rent
-H200
-Hopper
-141GB VRAM
-from
-$2.63
-/hr
-median $4.94/hr
-Rent
 H100 NVL
 Hopper
 80GB VRAM
 from
-$2.17
+$2.48
 /hr
-median $3.02/hr
+median $2.60/hr
 Rent
 B300
 Blackwell Ultra
@@ -93,15 +93,14 @@ Blackwell Ultra
 from
 $8.13
 /hr
-median $9.94/hr
+median $8.38/hr
 Rent
 H100 PCIE
 Hopper
 80GB VRAM
 from
-$2.13
+$1.25
 /hr
-median $2.36/hr
 Rent
 Flagship Consumer
 5 GPUs
@@ -109,7 +108,7 @@ RTX 5090
 Blackwell
 32GB VRAM
 from
-$0.21
+$0.37
 /hr
 median $0.60/hr
 Rent
@@ -117,17 +116,17 @@ RTX 4090
 Ada Lovelace
 24GB VRAM
 from
-$0.20
+$0.16
 /hr
-median $0.45/hr
+median $0.47/hr
 Rent
 RTX 3090
 Ampere
 24GB VRAM
 from
-$0.11
+$0.09
 /hr
-median $0.19/hr
+median $0.17/hr
 Rent
 RTX 3090 Ti
 Ampere
@@ -135,7 +134,7 @@ Ampere
 from
 $0.15
 /hr
-median $0.22/hr
+median $0.27/hr
 Rent
 RTX 4090D
 Ada Lovelace
@@ -150,7 +149,7 @@ Grace Blackwell
 GB10
 Grace Blackwell
 128GB VRAM
-~$0.28
+~$0.25
 /hr recent market
 No current offers — indicative price, not a live offer
 Rent
@@ -160,17 +159,17 @@ RTX PRO 6000 S
 Blackwell
 96GB VRAM
 from
-$1.06
+$1.05
 /hr
-median $1.45/hr
+median $1.34/hr
 Rent
 RTX PRO 6000 WS
 Blackwell
 96GB VRAM
 from
-$1.07
+$1.00
 /hr
-median $1.44/hr
+median $1.39/hr
 Rent
 RTX PRO 6000 Max-Q
 Blackwell
@@ -178,7 +177,7 @@ Blackwell
 from
 $0.79
 /hr
-median $1.60/hr
+median $1.47/hr
 Rent
 RTX 5060 Ti
 Blackwell
@@ -192,17 +191,9 @@ RTX 5080
 Blackwell
 16GB VRAM
 from
-$0.24
-/hr
-median $0.33/hr
-Rent
-RTX PRO 4000
-Blackwell
-20GB VRAM
-from
 $0.20
 /hr
-median $0.27/hr
+median $0.28/hr
 Rent
 RTX 5070 Ti
 Blackwell
@@ -210,21 +201,29 @@ Blackwell
 from
 $0.12
 /hr
-median $0.28/hr
+median $0.24/hr
+Rent
+RTX PRO 4000
+Blackwell
+20GB VRAM
+from
+$0.21
+/hr
+median $0.27/hr
 Rent
 RTX 5070
 Blackwell
 12GB VRAM
 from
-$0.16
+$0.15
 /hr
-median $0.21/hr
+median $0.20/hr
 Rent
 RTX PRO 4500
 Blackwell
 24GB VRAM
 from
-$0.30
+$0.28
 /hr
 median $0.35/hr
 Rent
@@ -244,23 +243,23 @@ Ada Lovelace
 from
 $0.47
 /hr
-median $0.80/hr
+median $0.61/hr
 Rent
 RTX 4070S
 Ada Lovelace
 12GB VRAM
 from
-$0.08
+$0.09
 /hr
-median $0.17/hr
+median $0.16/hr
 Rent
 RTX 4070S Ti
 Ada Lovelace
 16GB VRAM
 from
-$0.07
+$0.13
 /hr
-median $0.20/hr
+median $0.19/hr
 Rent
 RTX 4060 Ti
 Ada Lovelace
@@ -270,29 +269,29 @@ $0.09
 /hr
 median $0.13/hr
 Rent
+RTX 4080S
+Ada Lovelace
+16GB VRAM
+from
+$0.21
+/hr
+median $0.28/hr
+Rent
+RTX 4080
+Ada Lovelace
+16GB VRAM
+from
+$0.21
+/hr
+median $0.27/hr
+Rent
 L4
 Ada Lovelace
 24GB VRAM
 from
 $0.25
 /hr
-median $0.32/hr
-Rent
-RTX 4080S
-Ada Lovelace
-16GB VRAM
-from
-$0.16
-/hr
-median $0.23/hr
-Rent
-RTX 4080
-Ada Lovelace
-16GB VRAM
-from
-$0.23
-/hr
-median $0.27/hr
+median $0.33/hr
 Rent
 L40
 Ada Lovelace
@@ -302,29 +301,29 @@ $0.34
 /hr
 median $0.46/hr
 Rent
-RTX 4070
+RTX 4070 Ti
 Ada Lovelace
 12GB VRAM
 from
-$0.12
+$0.13
 /hr
-median $0.23/hr
+median $0.16/hr
 Rent
 RTX 4060
 Ada Lovelace
 8GB VRAM
 from
-$0.06
+$0.07
 /hr
-median $0.07/hr
+median $0.08/hr
 Rent
-RTX 4070 Ti
+RTX 4070
 Ada Lovelace
 12GB VRAM
 from
-$0.14
+$0.11
 /hr
-median $0.18/hr
+median $0.14/hr
 Rent
 Ampere
 16 GPUs
@@ -334,7 +333,7 @@ Ampere
 from
 $0.31
 /hr
-median $0.79/hr
+median $0.92/hr
 Rent
 RTX A4000
 Ampere
@@ -342,15 +341,7 @@ Ampere
 from
 $0.07
 /hr
-median $0.12/hr
-Rent
-RTX 3060
-Ampere
-12GB VRAM
-from
-$0.05
-/hr
-median $0.07/hr
+median $0.11/hr
 Rent
 RTX 3080
 Ampere
@@ -360,13 +351,13 @@ $0.08
 /hr
 median $0.13/hr
 Rent
-RTX 3070
+RTX 3060
 Ampere
-8GB VRAM
+12GB VRAM
 from
-$0.07
+$0.03
 /hr
-median $0.09/hr
+median $0.07/hr
 Rent
 RTX A5000
 Ampere
@@ -376,21 +367,13 @@ $0.19
 /hr
 median $0.23/hr
 Rent
-RTX A6000
-Ampere
-48GB VRAM
-from
-$0.28
-/hr
-median $0.40/hr
-Rent
 A100 PCIE
 Ampere
 80GB VRAM
 from
 $0.40
 /hr
-median $0.80/hr
+median $0.64/hr
 Rent
 RTX 3080 Ti
 Ampere
@@ -400,11 +383,27 @@ $0.11
 /hr
 median $0.20/hr
 Rent
+RTX 3070
+Ampere
+8GB VRAM
+from
+$0.07
+/hr
+median $0.09/hr
+Rent
+RTX A6000
+Ampere
+48GB VRAM
+from
+$0.40
+/hr
+median $0.40/hr
+Rent
 RTX 3060 Ti
 Ampere
 8GB VRAM
 from
-$0.06
+$0.07
 /hr
 median $0.09/hr
 Rent
@@ -412,9 +411,9 @@ RTX 3060 laptop
 Ampere
 6GB VRAM
 from
-$0.04
+$0.07
 /hr
-median $0.08/hr
+median $0.07/hr
 Rent
 A800 PCIE
 Ampere
@@ -432,20 +431,20 @@ $0.03
 /hr
 median $0.05/hr
 Rent
-RTX 3070 Ti
-Ampere
-8GB VRAM
-from
-$0.08
-/hr
-median $0.14/hr
-Rent
 A10
 Ampere
 24GB VRAM
 from
-$0.23
+$0.24
 /hr
+Rent
+RTX 3070 Ti
+Ampere
+8GB VRAM
+from
+$0.11
+/hr
+median $0.16/hr
 Rent
 A40
 Ampere
@@ -453,7 +452,7 @@ Ampere
 from
 $0.40
 /hr
-median $0.67/hr
+median $0.53/hr
 Rent
 Turing
 11 GPUs
@@ -461,17 +460,17 @@ RTX 2080 Ti
 Turing
 11GB VRAM
 from
-$0.08
+$0.10
 /hr
-median $0.10/hr
+median $0.15/hr
 Rent
-Q RTX 6000
+Titan RTX
 Turing
 24GB VRAM
 from
-$0.13
+$0.15
 /hr
-median $0.13/hr
+median $0.20/hr
 Rent
 RTX 2070S
 Turing
@@ -481,29 +480,13 @@ $0.07
 /hr
 median $0.07/hr
 Rent
-Titan RTX
-Turing
-24GB VRAM
-from
-$0.16
-/hr
-median $0.24/hr
-Rent
 Tesla T4
 Turing
 16GB VRAM
 from
-$0.15
+$0.13
 /hr
 median $0.15/hr
-Rent
-Q RTX 8000
-Turing
-48GB VRAM
-from
-$0.25
-/hr
-median $0.25/hr
 Rent
 RTX 2060
 Turing
@@ -513,13 +496,34 @@ $0.06
 /hr
 median $0.11/hr
 Rent
+GTX 1660 Ti
+Turing
+6GB VRAM
+from
+$0.05
+/hr
+median $0.07/hr
+Rent
+Q RTX 6000
+Turing
+24GB VRAM
+from
+$0.13
+/hr
+Rent
 RTX 2070
 Turing
 8GB VRAM
 from
 $0.07
 /hr
-median $0.07/hr
+Rent
+Q RTX 8000
+Turing
+48GB VRAM
+from
+$0.27
+/hr
 Rent
 RTX 2060S
 Turing
@@ -527,15 +531,6 @@ Turing
 from
 $0.06
 /hr
-median $0.07/hr
-Rent
-GTX 1660 Ti
-Turing
-6GB VRAM
-from
-$0.05
-/hr
-median $0.08/hr
 Rent
 Q RTX 5000
 Turing
@@ -543,6 +538,7 @@ Turing
 from
 $0.05
 /hr
+median $0.09/hr
 Rent
 Volta
 1 GPU
@@ -552,7 +548,7 @@ Volta
 from
 $0.06
 /hr
-median $0.13/hr
+median $0.12/hr
 Rent
 Pascal
 10 GPUs
@@ -584,7 +580,7 @@ GTX 1080 Ti
 Pascal
 11GB VRAM
 from
-$0.04
+$0.06
 /hr
 median $0.06/hr
 Rent
@@ -602,7 +598,15 @@ Pascal
 from
 $0.08
 /hr
-median $0.09/hr
+median $0.10/hr
+Rent
+GTX 1060
+Pascal
+6GB VRAM
+from
+$0.03
+/hr
+median $0.03/hr
 Rent
 Quadro P4000
 Pascal
@@ -611,14 +615,6 @@ from
 $0.05
 /hr
 median $0.06/hr
-Rent
-GTX 1060
-Pascal
-6GB VRAM
-from
-$0.03
-/hr
-median $0.07/hr
 Rent
 GTX 1070
 Pascal
@@ -653,35 +649,35 @@ RTX PRO 5000
 from
 $0.54
 /hr
-median $0.73/hr
+median $0.70/hr
 Rent
 RTX 6000Ada
 48GB VRAM
 from
-$0.47
+$0.52
 /hr
-median $0.64/hr
+median $0.67/hr
 Rent
 RTX 5880Ada
 48GB VRAM
 from
 $0.49
 /hr
-median $0.58/hr
-Rent
-RTX 5000Ada
-32GB VRAM
-from
-$0.33
-/hr
-median $0.41/hr
+median $0.49/hr
 Rent
 RTX 4000Ada
 20GB VRAM
 from
-$0.20
+$0.19
 /hr
 median $0.20/hr
+Rent
+RTX 5000Ada
+32GB VRAM
+from
+$0.40
+/hr
+median $0.43/hr
 Rent
 GTX 1660 S
 6GB VRAM
@@ -693,14 +689,15 @@ Rent
 RTX 6000D
 96GB VRAM
 from
-$1.47
+$1.26
 /hr
 Rent
 RTX 4500Ada
 24GB VRAM
 from
-$0.39
+$0.44
 /hr
+median $0.47/hr
 Rent
 Prices reflect currently available offers and update hourly.
 Choose Your Instance Type

@@ -6,8 +6,8 @@
   "url": "https://www.together.ai/pricing",
   "final_url": "https://www.together.ai/pricing",
   "parser_version": 4,
-  "content_hash": "cf532aee933e5af1b885026b97442f20e0b8523a4dd9a7a64c5f305979830ef3",
-  "raw_hash": "e322e0ffbe2c8afb31a2593445047d0cc43abd406cf817f0b1d268cb8981e78c",
+  "content_hash": "520ef9b0340b544a71fa191b56cb9e54525f0ffefc18ab7d20b1f104b0d09434",
+  "raw_hash": "c27ff13b44ce50bd8b6b3878e2c04e4401a4a160b5ef9d600876065136395ed8",
   "text_bytes": 8762,
   "currency_hints": [],
   "extractor": "jsonld",
@@ -204,8 +204,8 @@
         ],
         [
           "Kimi K3",
-          "$3.00 $0.30 (cached)",
-          "$15.00"
+          "$2.70 $0.27 (cached)",
+          "$13.50"
         ],
         [
           "Qwen3.8-2.4T-A95B",
@@ -274,8 +274,8 @@
         ],
         [
           "Qwen3.8 Flash",
-          "$0.09",
-          "$0.28"
+          "$0.15",
+          "$0.47"
         ],
         [
           "Qwen3.7-Max",
@@ -349,8 +349,8 @@
         ],
         [
           "Kimi K3",
-          "$3.00",
-          "$15.00"
+          "$2.70",
+          "$13.50"
         ],
         [
           "Qwen3.8-2.4T-A95B",
@@ -394,8 +394,8 @@
         ],
         [
           "Qwen3.8 Flash",
-          "$0.09",
-          "$0.28"
+          "$0.15",
+          "$0.47"
         ],
         [
           "Qwen3.5 9B",

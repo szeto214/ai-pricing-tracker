@@ -6,9 +6,9 @@
   "url": "https://docs.perplexity.ai/getting-started/pricing",
   "final_url": "https://docs.perplexity.ai/docs/getting-started/pricing",
   "parser_version": 4,
-  "content_hash": "7e0d107a76c00873dbc3716571f91479a839b3703608df727cd22920a94dbf01",
-  "raw_hash": "c3f0b09cd3de57039d801c749a496ee000b4ff330fc8c2dd83867222059226b4",
-  "text_bytes": 6869,
+  "content_hash": "d8796a451a53a83c8aaed934559693602ad11ca819877c97a6bc2d405ac783ef",
+  "raw_hash": "f54b6773639fb32365b2ed612bfa954b0e18775e5f30fd4af12fc1f0e8a62c08",
+  "text_bytes": 6883,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -391,12 +391,12 @@
       "unit": ""
     },
     {
-      "key": "web_search",
-      "model": "web_search",
+      "key": "web_search (fast search)",
+      "model": "web_search (Fast Search)",
       "prices": {
         "$0.001": {
-          "raw": "$0.0025",
-          "amount": 0.0025
+          "raw": "$0.001",
+          "amount": 0.001
         }
       },
       "currency": "USD",
@@ -579,8 +579,8 @@
           "$0.003"
         ],
         [
-          "web_search",
-          "$0.0025"
+          "web_search (Fast Search)",
+          "$0.001"
         ],
         [
           "fetch_url",
@@ -588,7 +588,7 @@
         ],
         [
           "Total",
-          "$0.007"
+          "$0.0055"
         ]
       ]
     }

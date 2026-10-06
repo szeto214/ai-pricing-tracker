@@ -6,8 +6,8 @@
   "url": "https://supabase.com/pricing",
   "final_url": "https://supabase.com/pricing",
   "parser_version": 4,
-  "content_hash": "e430a5b14f858a22b6f1fc931843ceb63a347cfc3e667c7937686c6920971914",
-  "raw_hash": "074c6dbe3d1fe26c61651a2f5591fb373ca9e32c1ea0310b60b1a94910d9a1b4",
+  "content_hash": "953efb98b5f70b318a2a2e867ed9f40eef9cbc520d89ee61c34c3dcfe393d2ff",
+  "raw_hash": "78080c58b2c2ddc891aa01bc3657ef7f4806ab9c6f23873e0fa01769d5dd7a8d",
   "text_bytes": 16665,
   "currency_hints": [
     "USD"
@@ -567,7 +567,7 @@
         ],
         [
           "General Purpose Balance between price and performance",
-          "16 TB",
+          "64 TB",
           "8 GB included\nthen $0.125 per GB",
           "3,000 IOPS included\nthen $0.024 per IOPS",
           "125 MB/s included\nthen $0.095 per MB/s",
@@ -592,7 +592,7 @@
         ],
         [
           "Max Size",
-          "16 TB"
+          "64 TB"
         ],
         [
           "Size",

@@ -6,9 +6,9 @@
   "url": "https://www.together.ai/pricing",
   "final_url": "https://www.together.ai/pricing",
   "parser_version": 4,
-  "content_hash": "520ef9b0340b544a71fa191b56cb9e54525f0ffefc18ab7d20b1f104b0d09434",
-  "raw_hash": "c27ff13b44ce50bd8b6b3878e2c04e4401a4a160b5ef9d600876065136395ed8",
-  "text_bytes": 8762,
+  "content_hash": "4f9dd88b1fafa069ce59866d7e945232ac460e5fd621a5e0dbc4a53fdb1db135",
+  "raw_hash": "596130adb15bf3ba9414fe7f5484f1d3467eef0397086ed9fe981a3b1bb640de",
+  "text_bytes": 8768,
   "currency_hints": [],
   "extractor": "jsonld",
   "confidence": "medium",
@@ -348,7 +348,7 @@
           "$1.20"
         ],
         [
-          "Kimi K3",
+          "Kimi K3 PROMO",
           "$2.70",
           "$13.50"
         ],

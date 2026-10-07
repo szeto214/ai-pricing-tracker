@@ -6,9 +6,9 @@
   "url": "https://www.warp.dev/pricing",
   "final_url": "https://www.warp.dev/pricing",
   "parser_version": 4,
-  "content_hash": "bceac3ebb044bfe98cadac8c278365754f1385c6c9c8aabe3b614bcb0d43210d",
-  "raw_hash": "54c5fb677323db3d0c350708c56d7cb43548c3d623ade049071e830c8327d31c",
-  "text_bytes": 8609,
+  "content_hash": "9b794b6ff977ffe7581f4d064dcbbca225676978857deccd071da19ba867d98a",
+  "raw_hash": "e76f8cb41dba81bdcc46cd2aa8599f49a24934b906f71393dae6c1ba12e848c7",
+  "text_bytes": 4326,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -19,42 +19,19 @@
       "amount": 0.0,
       "currency": "USD",
       "period": "month",
-      "features": [],
+      "features": [
+        "State-of-the-art modern terminal",
+        "Warp Agent CLI access",
+        "Additional agent usage at pay-as-you-go rates",
+        "Bring your own AI inference*",
+        "Limited cloud agents access",
+        "Use any harness in the cloud (beta)",
+        "Individually configured data controls",
+        "Limited Warp Drive and collaboration feature access",
+        "Limited cloud conversation storage"
+      ],
       "slot_prices": [
         0.0
-      ]
-    },
-    {
-      "name": "Build",
-      "price_raw": "$20",
-      "amount": 20.0,
-      "currency": "USD",
-      "period": "month",
-      "features": [],
-      "slot_prices": [
-        20.0
-      ]
-    },
-    {
-      "name": "Max",
-      "price_raw": "$200",
-      "amount": 200.0,
-      "currency": "USD",
-      "period": "month",
-      "features": [],
-      "slot_prices": [
-        200.0
-      ]
-    },
-    {
-      "name": "Business",
-      "price_raw": "$50",
-      "amount": 50.0,
-      "currency": "USD",
-      "period": "user",
-      "features": [],
-      "slot_prices": [
-        50.0
       ]
     },
     {
@@ -63,7 +40,16 @@
       "amount": 18.0,
       "currency": "USD",
       "period": "month",
-      "features": [],
+      "features": [
+        "$20 of agent usage included each month at API rates",
+        "Full Warp Agent access (frontier and open-source models from OpenAI, Anthropic, z.ai, and more)",
+        "Add-on agent usage, auto-reload, and team-wide spend cap",
+        "Extended cloud agents access",
+        "Highest codebase indexing limits",
+        "Unlimited Warp Drive objects and collaboration",
+        "Unlimited cloud conversation storage",
+        "Private email support"
+      ],
       "slot_prices": [
         18.0
       ]
@@ -74,7 +60,10 @@
       "amount": 180.0,
       "currency": "USD",
       "period": "month",
-      "features": [],
+      "features": [
+        "$200 of agent usage included each month (10× Build)",
+        "Add-on agent usage, auto-reload, and team-wide spend cap"
+      ],
       "slot_prices": [
         180.0
       ]
@@ -85,44 +74,15 @@
       "amount": 45.0,
       "currency": "USD",
       "period": "user",
-      "features": [],
-      "slot_prices": [
-        45.0
-      ]
-    },
-    {
-      "name": "Pay as you go",
-      "price_raw": "$10,000",
-      "amount": 10000.0,
-      "currency": "USD",
-      "period": null,
       "features": [
-        "Create and run factories with the Warp Agent",
-        "Automate from GitHub, Slack, webhooks, and schedules",
-        "Insights like cost per PR and automation rate",
-        "Factory config as code in a Warp-managed repo",
-        "Pay-as-you-go usage, 20% markup, no subscription",
-        "Up to 10 seats",
-        "Factory usage covered by your plan's included credits",
-        "20% savings over pay-as-you-go, at API rates",
-        "Additional usage priced at API rates",
-        "Private email support",
-        "Up to 10 seats",
-        "12x Build's included factory usage",
-        "More compute per cloud agent run",
-        "Additional usage priced at API rates",
-        "Up to 25 seats, with per-seat included credits",
-        "Advanced factory insights and team usage metrics",
-        "SAML-based SSO",
-        "Admin-configurable data controls with ZDR",
-        "Unlimited seats with custom shared usage pools",
-        "Self-hosted workers on your own infrastructure",
-        "Your own code forge for factory config",
-        "BYOLLM inference at no credit cost",
-        "Dedicated implementation engineer"
+        "$20 of agent usage included per seat each month at API rates",
+        "Team usage metrics",
+        "Admin-configurable data controls",
+        "Bring your own API keys and custom inference endpoints",
+        "SAML-based SSO"
       ],
       "slot_prices": [
-        10000.0
+        45.0
       ]
     }
   ],

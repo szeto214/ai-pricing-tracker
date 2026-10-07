@@ -290,7 +290,7 @@ Free-form editing and design elements
 Brand template publishing
 Focused editing
 Image editing (AI)
-Figma agent (Beta)
+Figma agent
 On canvas chat
 Create shader effects and fills
 Connectors
@@ -414,10 +414,6 @@ All other seats (Collab, Dev, and View) and users on the Starter plan receive 50
 If you need more credits, you can purchase additional AI credits on your plan. For more details, check out
 our Help Center article
 on how AI credits work.
-Does the AI agent consume credits in beta?
-The agent is free to use during the beta. AI credits are not consumed for any prompts or actions. This allows you to explore and experiment without worrying about credit usage. Once the AI agent becomes generally available,
-standard AI credit usage will apply
-.
 Is Figma available for government or public sector teams?
 Yes! You can learn more on
 figma.com/government

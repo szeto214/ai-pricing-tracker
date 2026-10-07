@@ -6,9 +6,9 @@
   "url": "https://docs.perplexity.ai/getting-started/pricing",
   "final_url": "https://docs.perplexity.ai/docs/getting-started/pricing",
   "parser_version": 4,
-  "content_hash": "d8796a451a53a83c8aaed934559693602ad11ca819877c97a6bc2d405ac783ef",
-  "raw_hash": "f54b6773639fb32365b2ed612bfa954b0e18775e5f30fd4af12fc1f0e8a62c08",
-  "text_bytes": 6883,
+  "content_hash": "5630db2fc59262c3a6ae0807bf4772c4d31e086fbe7edb60a807ba47c6ba4d2e",
+  "raw_hash": "5c9a4bce30e75a623cbbdb349a9c7f33be4fb57280243b8a86cb266685180ed0",
+  "text_bytes": 6982,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -157,25 +157,25 @@
       ]
     },
     {
-      "name": "Model",
-      "price_raw": "$0.04",
-      "amount": 0.04,
+      "name": "pplx-decider-v1.1-27b",
+      "price_raw": "$0.02",
+      "amount": 0.02,
       "currency": "USD",
       "period": null,
       "features": [],
       "slot_prices": [
-        0.04
+        0.02
       ]
     },
     {
       "name": "Billing unit",
-      "price_raw": "$0.000024",
-      "amount": 2.4e-05,
+      "price_raw": "$0.000012",
+      "amount": 1.2e-05,
       "currency": "USD",
       "period": null,
       "features": [],
       "slot_prices": [
-        2.4e-05
+        1.2e-05
       ]
     },
     {
@@ -379,6 +379,30 @@
       "unit": "/1m"
     },
     {
+      "key": "pplx-decider-v1.1-27b",
+      "model": "pplx-decider-v1.1-27b",
+      "prices": {
+        "price ($/1m input tokens)": {
+          "raw": "$0.02",
+          "amount": 0.02
+        }
+      },
+      "currency": "USD",
+      "unit": "/1m"
+    },
+    {
+      "key": "pplx-decider-v1-27b",
+      "model": "pplx-decider-v1-27b",
+      "prices": {
+        "price ($/1m input tokens)": {
+          "raw": "$0.02",
+          "amount": 0.02
+        }
+      },
+      "currency": "USD",
+      "unit": "/1m"
+    },
+    {
       "key": "model output tokens",
       "model": "Model output tokens",
       "prices": {
@@ -531,8 +555,14 @@
           "Per-request fee"
         ],
         [
+          "pplx-decider-v1.1-27b",
+          "$0.02",
+          "Free",
+          "None"
+        ],
+        [
           "pplx-decider-v1-27b",
-          "$0.04",
+          "$0.02",
           "Free",
           "None"
         ]

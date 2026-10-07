@@ -4,107 +4,115 @@ Start building for free
 Bubble now comes with everything you need to build web, iOS, and Android apps. Build any app for free, and upgrade to Starter when you’re ready to launch.
 Looking to build professionally?
 Explore an Agency account
-Web & Mobile
 Web
 Mobile
+Web & Mobile
 Save up to 20% annually
-WEB & MOBILE
+WEB
 Free
-Projects that are under construction
+Best for projects under construction
 $
 0
 / month
-Get started for free
-Free plan features:
-Development version
-API connector
-1 app editor
+Get started
+500 AI credits/mo
+Free features:
 50K workload units/mo
-6 hours of server logs
+API connector
 Web app
-Component library
+Development version
 Web debugger
 Mobile app
-Native mobile editor
-Mobile debugger
 On-device testing
-WEB & MOBILE
+Unlimited OTAs
+WEB
 Starter
-Projects that are ready to launch
+Best for projects ready to launch
 $
-59
+29
 / month
 Billed annually
 Start a free trial
-Everything in Free, plus:
-Recurring workflows
-Basic version control
+1,000 AI credits/mo
+Starter features:
+All Free features
 175K workload units/mo
 2 days of server logs
-Branding
+Basic version control
+Basic security checks
 Web app
 Live website
 Custom domain
 Mobile app
-5 build submissions/mo
-3 live app versions
+build submissions/mo
+live app versions
 Unlimited OTAs
 RECOMMENDED
-WEB & MOBILE
+WEB
 Growth
-Best for team
-collaboration
+Best for projects gaining traction
 $
-209
+119
 / month
 Billed annually
 Get started
-Everything in Starter, plus:
-Premium version control
-Two-factor authentication
-2 app editors
-10 custom branches
+2,000 AI credits/mo
+Growth features:
+All Starter features
 250K workload units/mo
 14 days of server logs
+2 app editors
+Premium version control
+Two-factor authentication
+Advanced security checks
 Web app
 Live website
 Custom domain
 Mobile app
-10 build submissions/mo
-5 live app versions
+build submissions/mo
+live app versions
 Unlimited OTAs
-WEB & MOBILE
+WEB
 Team
-Best for scaling your team and business
+Best for teams shipping together
 $
-549
+349
 / month
 Billed annually
 Get started
-Everything in Growth, plus:
-Sub apps
-5 app editors
-25 custom branches
+4,000 AI credits/mo
+Team features:
+All Growth features
 500K workload units/mo
 20 days of server logs
+5 app editors
+25 custom branches
+Sub apps
+Scheduled deployments
+Custom alerts
 Web app
 Live website
 Custom domain
 Mobile app
-20 build submissions/mo
-8 live app versions
+build submissions/mo
+live app versions
 Unlimited OTAs
-WEB & MOBILE
+WEB
 Enterprise
 Best for maximum security and scale
 Contact us
-Talk to sales
-Everything in Team, plus:
-Custom workload units
+Get pricing
+Unlimited AI credits
+Enterprise features:
+All Team features
 Choice of hosting location
 Customizable server
 Dedicated support team
+Custom workload units
 Pay by invoice or ACH
+SOC2 Report
+SSO
+Custom status page
 Web app
 Live website
 Custom domain
@@ -113,11 +121,38 @@ Custom builds/mo
 Custom live app versions
 Unlimited OTAs
 Show full comparison
-Growing quickly? Scale with workload add-ons.
-All our app plans come with workload bundled in, so you can focus on building your app and acquiring users. When you start to scale your user base, you can purchase any additional workload you need to take your app and your business to the next level.
+Add-ons to help you scale
+Every app plan comes with AI credits and workload units, but you can add more whenever you need. Ideal for a month where you’re building a lot of new features or expecting increased app usage. No need to change plans.
 Explore workload tiers
+Explore AI credits
 FAQs
 Frequently asked questions
+AI CREDITS
+What are AI credits?
+Many of Bubble’s AI features use AI credits, including the AI Agent, page generation, and image generation. Every plan includes a monthly allowance that refreshes on the first of the month, and you can top up any time by purchasing additional AI credits if you are on a paid plan. Currently, app generation does not require credits.
+How will I know if I need more AI credits?
+You can reference the table in this
+Help Center article
+to get a sense of how your usage compares. Based on your usage of AI-powered features, you may want to purchase additional AI credits to continue building with AI-powered features.
+What uses AI credits, and how much?
+The exact number of credits used varies based on the size and complexity of the request, but
+here are some ranges for reference in our Help Center
+.
+How are AI credits different from workload units?
+AI credits measure AI-powered feature usage specifically, and
+workload units (WU)
+measure general server processing needed to host, run, and scale apps.
+You use AI credits when you build AI-powered features, such as chatting with the AI agent. WU captures a variety of activities that Bubble apps perform, including database operations, workflows, and web interactions. You can find the full list of workload inputs in the
+Bubble Manual
+.
+What are my options if I need more AI credits?
+Once you use up all your AI credits, your access to AI-powered features will be limited. You can purchase additional AI credits if you are on a paid plan. Every plan also includes a monthly allowance that refreshes on the first of the month.
+Can I buy more AI credits?
+Yes — you can buy additional credits if you are on a paid plan. See
+here
+for more details.
+Do AI credits roll over?
+Credits included in each plan’s monthly allowance do not roll over and refresh on the first of each month. Paid credits expire six months from purchase, and do roll over until their expiration date.
 WORKLOAD
 What is workload?
 Bubble has a usage-based pricing model, so users will only pay for the resources their app needs. Our mission is to make software development more accessible — Instead of requiring users to monitor various resources in a traditional tech stack built with code, we introduced a single metric:

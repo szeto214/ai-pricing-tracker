@@ -6,9 +6,9 @@
   "url": "https://mailchimp.com/pricing/",
   "final_url": "https://mailchimp.com/pricing/marketing/",
   "parser_version": 4,
-  "content_hash": "c9738d05f4533a5de4a5a4f2c8dcae4e3f3ff78243db65571a9d6fd641ad081d",
-  "raw_hash": "10e4e24f1cb13fec10ffe92015009c28a7c94b0fefb29ade8e00af3da100c0fb",
-  "text_bytes": 22505,
+  "content_hash": "b07ca221a9b318d696523efe8305143de744a1b1e5e8c35ca43830a0eb64fe8d",
+  "raw_hash": "4ed4beb9f3a57b2d17a09640ea747ab5f82389dc988e6eb791290d65ce360af8",
+  "text_bytes": 22573,
   "currency_hints": [
     "AUD",
     "BRL",
@@ -163,6 +163,13 @@
           "5 Seats",
           "3 Seats",
           "1 Seat"
+        ],
+        [
+          "Enterprise SSO New!",
+          "Included",
+          "Not included",
+          "Not included",
+          "Not included"
         ],
         [
           "Audiences",

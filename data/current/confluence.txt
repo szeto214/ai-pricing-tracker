@@ -49,6 +49,10 @@ Invite external partners to collaborate as guests in your Confluence site. Guest
 You can also share view-only Confluence pages via public links. This can be useful for sharing information to the public, like customer FAQs and release notes.
 Advanced permissions
 Control who can view, edit and comment on your pages, so important information can stay restricted until you’re ready to share.
+Cross-source data analysis
+Explore Atlassian work context alongside third-party data and go deep with Rovo Insights.
+Shared data foundation
+Build shared understanding across teams with a governed data catalog, metrics, and business glossary definitions
 100 automation steps per user per month
 Increase efficiency by replacing manual, time-consuming work with automated processes and workflows.
 Learn more.
@@ -91,14 +95,16 @@ Billed annually.
 Switch to Annual billing above to view Enterprise pricing.
 Contact sales
 Everything from Premium, plus:
-Cross-product insights with Atlassian Analytics and Data Lake
-Aggregate data from across your Atlassian toolchain for holistic insights that drive better decision making.
+Advanced data analysis
+Rovo Insights across your full Atlassian context, Data Lake, and connected data estate.
 Advanced admin controls and security
 Manage users and security at scale with advanced governance controls like advanced encryption and Shadow IT controls.
 Enterprise-grade identity and access management
 Get support for multiple identity providers (IdPs) within your central admin console, plus SCIM, enforce SSO, and more with
 Atlassian Guard Standard
 included.
+Enhanced data management and governance
+Ensure data reliability with native governance, catalog and lineage, plus integrations to your existing data stack (e.g., dbt, Airflow).
 500 automation steps per user per month
 Increase efficiency by replacing manual, time-consuming work with automated processes and workflows.
 Learn more.
@@ -285,14 +291,15 @@ Standard
 Premium
 Enterprise
 Data & insights
-Atlassian Analytics
-Build interactive, customizable charts, and dashboards across products and instances with a low- to no-code editor.
-Learn more
-about Atlassian Analytics.
+Insights
+Platform app, delivering AI-powered data exploration, data management, and autonomous insights, grounded in your work and third-party data context.
+Explore
+Insights
 Free
 Standard
 Premium
 Enterprise
+Enhanced data management & governance
 Atlassian Data Lake
 Access fully modeled data across your Atlassian tools in one place.
 Learn more
@@ -302,9 +309,9 @@ Standard
 Premium
 Enterprise
 Data connectors
-Query your preferred non-Atlassian data sources and visualize alongside Atlassian data for holistic insights.
-Learn more
-about data connectors.
+Use Insights to connect warehouse and databases, so work and data context come together and unlock broader answers.
+Explore
+data connectors.
 Free
 Standard
 Premium

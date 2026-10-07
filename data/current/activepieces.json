@@ -6,9 +6,9 @@
   "url": "https://www.activepieces.com/pricing",
   "final_url": "https://www.activepieces.com/pricing",
   "parser_version": 4,
-  "content_hash": "23aca554661d75aea02f9b7fd1d6b109a2fe9978323039906541dbb9b49f5446",
-  "raw_hash": "1dd39ea0083a9319d9076ddbdf8d30b0ff2178a633db38397cc219bc797de74b",
-  "text_bytes": 5826,
+  "content_hash": "370beb57231e5d92008e307ecf9f66bdb8f44c877e7a451adddf79b962cba4fb",
+  "raw_hash": "1950212f647dee5d251e50e994ab5080f6687cf790a0f7b33d5051b1a2cc1a9c",
+  "text_bytes": 5839,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -21,8 +21,9 @@
       "period": null,
       "features": [
         "1,000 credits a month",
-        "Chat to automation",
         "Unlimited flows",
+        "Up to 5 users",
+        "Chat to automation",
         "Flows, Agents, Tables",
         "MCPs and API access"
       ],
@@ -183,7 +184,7 @@
         ],
         [
           "Users",
-          "Just you",
+          "Up to 5",
           "Up to 5",
           "25 users",
           "Unlimited"

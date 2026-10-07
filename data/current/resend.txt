@@ -149,6 +149,10 @@ What is the difference between transactional and marketing emails?
 What does "unlimited broadcast sending" mean?
 Do broadcast emails count against the transactional email limits?
 How are inbound emails counted?
+Does upgrading my plan raise the API rate limit?
+Can I send my newsletter through the /emails API instead of Broadcasts?
+Is open and click tracking included on the Free plan?
+Is there a plan between Free and Pro?
 "
 Our team loves Resend. It makes email sending so easy and reliable. After we switched to Dedicated IPs, our deliverability improved tremendously and we don't hear complaints about emails landing on spam anymore.
 "

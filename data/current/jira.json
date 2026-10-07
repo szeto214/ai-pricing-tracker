@@ -6,9 +6,9 @@
   "url": "https://www.atlassian.com/software/jira/pricing",
   "final_url": "https://www.atlassian.com/software/jira/pricing",
   "parser_version": 4,
-  "content_hash": "2948896e74b9cbc23710f4423ea49493497d5113441dd594cf19ae7cd2a3aa03",
-  "raw_hash": "9576d4dbdca241e61bbb40e6c1b1e01d6e16d668c31922ab0f348e7e328c45ea",
-  "text_bytes": 27591,
+  "content_hash": "a4c724f57c0a5fe2ad2f310248448b41cca8987822d4031816809bd61aa4c929",
+  "raw_hash": "9536e117104ec376bfe035efd0452aa39ae4375a4bd78120ff17d6e82aa4f033",
+  "text_bytes": 28058,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -452,7 +452,21 @@
           "Enterprise 1,000 automation steps per user per month"
         ],
         [
-          "Atlassian Analytics Build interactive, customizable charts, and dashboards across products and instances with a low- to no-code editor. Learn more about Atlassi",
+          "Insights Platform app, delivering AI-powered data exploration, data management, and autonomous insights, grounded in your work and third-party data context. Exp",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise Enhanced data management & governance"
+        ],
+        [
+          "Atlassian Data Lake Access fully modeled data across your Atlassian tools in one place. Learn more about Atlassian Data Lake.",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Data connectors Use Insights to connect warehouse and databases, so work and data context come together and unlock broader answers. Explore data connectors.",
           "Free",
           "Standard",
           "Premium",
@@ -464,20 +478,6 @@
           "Standard 1,000 objects per month*",
           "Premium 1,000 objects per month*",
           "Enterprise 1,000 objects per month*"
-        ],
-        [
-          "Atlassian Data Lake Access fully modeled data across your Atlassian tools in one place. Learn more about Atlassian Data Lake.",
-          "Free",
-          "Standard",
-          "Premium",
-          "Enterprise"
-        ],
-        [
-          "Data connectors Data connectors let you query your preferred non-Atlassian data source alongside Atlassian data for holistic insights. Learn more about data con",
-          "Free",
-          "Standard",
-          "Premium",
-          "Enterprise"
         ],
         [
           "Manage users & products"

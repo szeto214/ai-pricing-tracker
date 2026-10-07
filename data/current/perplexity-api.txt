@@ -132,8 +132,12 @@ Model
 Price ($/1M input tokens)
 Output tokens
 Per-request fee
+pplx-decider-v1.1-27b
+$0.02
+Free
+None
 pplx-decider-v1-27b
-$0.04
+$0.02
 Free
 None
 Billing unit:
@@ -141,7 +145,7 @@ you pay for input tokens only. The
 state
 , every question, and any images count as input; the response reports the exact number as
 usage.input_tokens
-, so you can compute the cost of a request from the response you already receive. A request with 600 input tokens costs $0.000024.
+, so you can compute the cost of a request from the response you already receive. A request with 600 input tokens costs $0.000012.
 View Decisions API Documentation
 Learn how to ask structured questions and read the probabilities the Decisions API returns.
 Token and Cost Glossary
@@ -167,7 +171,8 @@ the same as the
 context window
 .
 Search context size
-: How much web information is retrieved during search
+(Sonar only): How much web information is retrieved during search, set with
+web_search_options.search_context_size
 Context window
 : Maximum tokens the model can process in one request (affects token limits)
 Token Calculation:

@@ -14,8 +14,8 @@ Unlimited goals, projects, tasks, and forms
 Align projects and tasks to goals. Collect data with forms.
 Backlog, list, board, timeline, calendar, and summary views
 Choose from different views to support your way of working.
-Reports and dashboards
-Get insights on teamwork tracked in any Jira space.
+AI-driven reports and dashboards
+Create interactive charts with Rovo, and explore key metrics and summaries about your teamwork tracked in Jira.
 150 automation steps per subscription per month
 Increase efficiency by replacing manual, time-consuming work with automated processes and workflows.
 2 GB of storage
@@ -36,6 +36,10 @@ External collaboration
 Give people outside your org anonymous access to Jira spaces.
 Multi-region data residency
 Specify where your content and data are hosted.
+Cross-source data analysis
+Explore Atlassian work context alongside third-party data and go deep with Rovo Insights.
+Shared data foundation
+Build shared understanding across teams with a governed data catalog, metrics, and business glossary definitions
 400 automation steps per user per month
 Increase efficiency by replacing manual, time-consuming work with automated processes and workflows.
 250 GB of storage
@@ -67,14 +71,16 @@ Billed annually.
 Switch to Annual billing above to view Enterprise pricing.
 Contact sales
 Everything from Premium, plus:
-Cross-product insights with Atlassian Analytics and Data Lake
-Aggregate data from across your Atlassian toolchain for holistic insights that drive better decision making.
+Advanced data analysis
+Rovo Insights across your full Atlassian context, Data Lake, and connected data estate.
 Advanced admin controls and security
 Manage users and security at scale with advanced governance controls like advanced encryption and Shadow IT controls.
 Enterprise-grade identity and access management
 Get support for multiple identity providers (IdPs) within your central admin console, plus SCIM, enforce SSO, and more with
 Atlassian Guard Standard
 included.
+Enhanced data management and governance
+Ensure data reliability with native governance, catalog and lineage, plus integrations to your existing data stack (e.g., dbt, Airflow).
 1,000 automation steps per user per month
 Increase efficiency by replacing manual, time-consuming work with automated processes and workflows.
 Multiple sites (up to 150)
@@ -461,10 +467,27 @@ Premium
 750 automation steps per user per month
 Enterprise
 1,000 automation steps per user per month
-Atlassian Analytics
-Build interactive, customizable charts, and dashboards across products and instances with a low- to no-code editor.
+Insights
+Platform app, delivering AI-powered data exploration, data management, and autonomous insights, grounded in your work and third-party data context.
+Explore
+Insights.
+Free
+Standard
+Premium
+Enterprise
+Enhanced data management & governance
+Atlassian Data Lake
+Access fully modeled data across your Atlassian tools in one place.
 Learn more
-about Atlassian Analytics.
+about Atlassian Data Lake.
+Free
+Standard
+Premium
+Enterprise
+Data connectors
+Use Insights to connect warehouse and databases, so work and data context come together and unlock broader answers.
+Explore
+data connectors.
 Free
 Standard
 Premium
@@ -478,22 +501,6 @@ Premium
 1,000 objects per month*
 Enterprise
 1,000 objects per month*
-Atlassian Data Lake
-Access fully modeled data across your Atlassian tools in one place.
-Learn more
-about Atlassian Data Lake.
-Free
-Standard
-Premium
-Enterprise
-Data connectors
-Data connectors let you query your preferred non-Atlassian data source alongside Atlassian data for holistic insights.
-Learn more
-about data connectors.
-Free
-Standard
-Premium
-Enterprise
 Manage users & products
 Domain verification and account capture
 Domain verification lets an organization admin centrally manage all of the Atlassian accounts that use the company's domain.

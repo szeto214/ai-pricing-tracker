@@ -6,9 +6,9 @@
   "url": "https://www.atlassian.com/software/confluence/pricing",
   "final_url": "https://www.atlassian.com/software/confluence/pricing",
   "parser_version": 4,
-  "content_hash": "33b243b40c73519f4ad63d5090e4e7941d6723c529ae763a7efba946b12b5c1b",
-  "raw_hash": "0c0abe74503b44772d8b0e540ed1c3d1d6b737cec32ca80cc34ac5474d67736d",
-  "text_bytes": 23494,
+  "content_hash": "02d479b32d43d203c234174e18ff0f43362e39264cf3144317d564712ac1df2e",
+  "raw_hash": "8f8cf0de20f50501ef431d8176b7d86e48db2d616b674800c1f57a92735fb3c2",
+  "text_bytes": 23899,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -257,11 +257,11 @@
           "Data & insights"
         ],
         [
-          "Atlassian Analytics Build interactive, customizable charts, and dashboards across products and instances with a low- to no-code editor. Learn more about Atlassi",
+          "Insights Platform app, delivering AI-powered data exploration, data management, and autonomous insights, grounded in your work and third-party data context. Exp",
           "Free",
           "Standard",
           "Premium",
-          "Enterprise"
+          "Enterprise Enhanced data management & governance"
         ],
         [
           "Atlassian Data Lake Access fully modeled data across your Atlassian tools in one place. Learn more about Atlassian Data Lake.",
@@ -271,7 +271,7 @@
           "Enterprise"
         ],
         [
-          "Data connectors Query your preferred non-Atlassian data sources and visualize alongside Atlassian data for holistic insights. Learn more about data connectors.",
+          "Data connectors Use Insights to connect warehouse and databases, so work and data context come together and unlock broader answers. Explore data connectors.",
           "Free",
           "Standard",
           "Premium",

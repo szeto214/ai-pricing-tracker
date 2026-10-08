@@ -603,8 +603,21 @@ def extract_dom(soup: BeautifulSoup) -> list[Plan]:
 # --------------------------------------------------------------------------- #
 # Tabel harga (penting untuk halaman harga API per-token)
 # --------------------------------------------------------------------------- #
-def extract_tables(soup: BeautifulSoup, max_tables: int = 8,
+def extract_tables(soup: BeautifulSoup, max_tables: int = 20,
                    max_rows: int = 80, max_cols: int = 12) -> list[dict]:
+    """Tabel harga yang disimpan ke rekaman, bahan untuk modeltable.py.
+
+    Batasnya 8 sampai 08/10/2026, padahal `modeltable.MAX_TABLES` sudah 20 —
+    jadi 12 tabel teratas percuma: pembacanya siap, pengumpannya yang menahan.
+    Akibatnya DeepInfra hanya terbaca 28 dari 56 model, dan seluruh tabel
+    fine-tuning Together AI tidak pernah terlihat.
+
+    A/B pada seluruh arsip mentah: **0 paket berubah, 0 paket muncul/hilang,
+    0 baris model lama hilang atau berubah nilainya** — murni menambah 83
+    baris model di 5 situs (together-ai 44, deepinfra 28, openai-api 5,
+    deepgram 3, perplexity-api 3). Karena tidak satu angka lama pun berubah,
+    PARSER_VERSION tidak naik.
+    """
     tables = []
     for table in (soup.body or soup).find_all("table", limit=max_tables * 3):
         rows = []

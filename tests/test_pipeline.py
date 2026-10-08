@@ -2292,6 +2292,44 @@ def test_satuan_beda_08_10() -> None:
           "price_changed" in kosong, f"-> {kosong}")
 
 
+def test_batas_tabel_08_10() -> None:
+    """Pengumpan tabel tidak boleh lebih sempit daripada pembacanya (08/10/2026).
+
+    `modeltable.MAX_TABLES` = 20, tetapi `extract_tables` hanya menyimpan 8
+    tabel pertama. Dua belas tabel teratas tidak pernah sampai ke pembacanya:
+    DeepInfra terbaca 28 dari 56 model, dan seluruh tabel fine-tuning
+    Together AI tidak pernah terlihat sama sekali.
+
+    A/B pada seluruh arsip mentah: 0 paket berubah, 0 paket muncul/hilang,
+    0 baris model lama hilang atau berubah — murni menambah 83 baris model di
+    5 situs. Nama yang tampil ke pembaca tetap bersih ("Mixtral 8x7B Instruct
+    v0.1"), karena halaman publik memakai `model`, bukan kunci internalnya.
+    """
+    print("\n26. batas tabel sama lebar dengan pembacanya")
+    from bs4 import BeautifulSoup
+
+    from collector.extract import extract_tables
+    from collector.modeltable import MAX_TABLES
+
+    tabel = "".join(
+        f"<table><tr><th>Model</th><th>Price</th></tr>"
+        f"<tr><td>m{i}</td><td>${i}.00</td></tr></table>" for i in range(20))
+    hasil = extract_tables(BeautifulSoup(f"<body>{tabel}</body>", "lxml"))
+    check("tabel yang tersimpan tidak lebih sedikit daripada MAX_TABLES",
+          len(hasil) >= MAX_TABLES, f"-> {len(hasil)} dari {MAX_TABLES}")
+    check("tabel ke-20 benar-benar ikut tersimpan",
+          any(r == ["m19", "$19.00"] for t in hasil for r in t["rows"]),
+          f"-> {len(hasil)} tabel")
+    # Batas tetap ada: halaman dengan ratusan tabel tidak boleh membengkakkan
+    # rekaman harian tanpa batas.
+    banyak = "".join(
+        f"<table><tr><th>a</th></tr><tr><td>${i}</td></tr></table>"
+        for i in range(60))
+    check("batas atas tetap dijaga",
+          len(extract_tables(BeautifulSoup(f"<body>{banyak}</body>", "lxml"))) <= 20,
+          "-> lebih dari 20 tabel tersimpan")
+
+
 def main() -> int:
     print(f"data uji: {config.DATA_DIR}")
     test_hash_stability()
@@ -2330,6 +2368,7 @@ def main() -> int:
     test_pindah_mata_uang_halaman_03_10()
     test_satuan_lebih_lengkap_05_10()
     test_satuan_beda_08_10()
+    test_batas_tabel_08_10()
     test_skrip_cadangan()
 
     print("\n" + "=" * 60)

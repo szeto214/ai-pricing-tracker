@@ -2221,6 +2221,77 @@ def test_satuan_lebih_lengkap_05_10() -> None:
           bs.periode_label(None) == "not stated", f"-> {bs.periode_label(None)}")
 
 
+def test_satuan_beda_08_10() -> None:
+    """Harga dengan SATUAN berbeda tidak bisa dibandingkan (08/10/2026).
+
+    Pelengkap penjaga mata uang (29/09) dan penjaga halaman berpindah wilayah
+    (03/10). Tiga kasus nyata yang pernah tercatat sebagai perubahan harga:
+
+      1Password 06/10  "$24.95 — includes 10 members / month"
+                       -> "$2.49 / user per month"      tercatat -90%
+      OpenRouter 19/09 "$0.18 / hour" -> "$0.00005 / second"  tercatat -99,97%
+                       (0.00005 x 3600 = 0.18 — angka yang sama persis)
+      CockroachDB 16/09 "$0.18 per vCPU-hour" -> "$400 kredit promosi"
+
+    Ketiganya harus dikoreksi tangan. Penjaga ini baru mungkin SETELAH
+    kosakata satuan diperluas 05/10 — sebelumnya kedua sisi sama-sama kosong
+    dan tidak ada yang bisa dilihat pembanding.
+
+    Diukur pada SELURUH arsip sebelum diterapkan: dari **442** peristiwa
+    `price_changed` di semua pasangan hari, hanya **3** yang satuannya berbeda
+    — tepat ketiga kasus di atas, semuanya sudah terbukti palsu. Peristiwa
+    nyata tetap utuh: Airbyte, Postman, CodeRabbit, DeepInfra, Fly.io, fal.ai.
+    **Nol peristiwa nyata hilang.**
+
+    Satu sisi yang satuannya TIDAK diketahui bukan alasan menolak
+    perbandingan — itu celah pembacaan, bukan perpindahan dasar tagihan.
+    Aturannya sengaja mensyaratkan KEDUA sisi tahu satuannya, sejalan dengan
+    §10.7 untuk mata uang.
+    """
+    print("\n25. satuan berbeda bukan perubahan harga")
+    from collector.diff import diff_plans
+
+    def jenis(a, b):
+        return [e["type"] for e in diff_plans(a, b)]
+
+    def paket(nama, raw, amount, period, currency="USD"):
+        return [{"name": nama, "price_raw": raw, "amount": amount,
+                 "currency": currency, "period": period}]
+
+    kasus = jenis(paket("Teams Starter Pack", "$24.95", 24.95, "month"),
+                  paket("Teams Starter Pack", "$2.49", 2.49, "user"))
+    check("per-paket -> per-pengguna BUKAN perubahan harga",
+          "price_changed" not in kasus and "period_changed" in kasus,
+          f"-> {kasus}")
+
+    jam = jenis(paket("Muse Voice Transcribe", "$0.18", 0.18, "hour"),
+                paket("Muse Voice Transcribe", "$0.00005", 0.00005, "second"))
+    check("per-jam -> per-detik BUKAN perubahan harga",
+          "price_changed" not in jam, f"-> {jam}")
+
+    balik = jenis(paket("Teams Starter Pack", "$2.49", 2.49, "user"),
+                  paket("Teams Starter Pack", "$24.95", 24.95, "month"))
+    check("arah sebaliknya juga bukan perubahan harga",
+          "price_changed" not in balik, f"-> {balik}")
+
+    ev = [e for e in diff_plans(paket("Teams Starter Pack", "$24.95", 24.95, "month"),
+                                paket("Teams Starter Pack", "$2.49", 2.49, "user"))
+          if e["type"] == "period_changed"][0]
+    check("catatan satuan membawa kedua angkanya untuk diperiksa manusia",
+          ev.get("from_amount") == 24.95 and ev.get("to_amount") == 2.49,
+          f"-> {ev}")
+
+    naik = jenis(paket("Business", "$20", 20.0, "month"),
+                 paket("Business", "$25", 25.0, "month"))
+    check("kenaikan harga pada satuan yang SAMA tetap tercatat",
+          naik == ["price_changed"], f"-> {naik}")
+
+    kosong = jenis(paket("Business", "$5", 5.0, None),
+                   paket("Business", "$7", 7.0, "month"))
+    check("satuan yang belum terbaca di satu sisi tidak membungkam sinyal",
+          "price_changed" in kosong, f"-> {kosong}")
+
+
 def main() -> int:
     print(f"data uji: {config.DATA_DIR}")
     test_hash_stability()
@@ -2258,6 +2329,7 @@ def main() -> int:
     test_mata_uang_beda_29_09()
     test_pindah_mata_uang_halaman_03_10()
     test_satuan_lebih_lengkap_05_10()
+    test_satuan_beda_08_10()
     test_skrip_cadangan()
 
     print("\n" + "=" * 60)

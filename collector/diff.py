@@ -193,6 +193,35 @@ def diff_plans(old_plans: list[dict], new_plans: list[dict]) -> list[dict]:
                 "from_amount": o.get("amount"), "to_amount": n.get("amount"),
                 "from_raw": o.get("price_raw"), "to_raw": n.get("price_raw"),
             })
+        elif (o.get("period") and n.get("period")
+                and o.get("period") != n.get("period")):
+            # Dua harga dengan SATUAN berbeda tidak bisa dibandingkan, sama
+            # seperti dua mata uang berbeda.
+            #
+            # 1Password 06/10/2026: "Teams Starter Pack $24.95 — includes 10
+            # members per month" berubah tampilannya menjadi "$2.49 / user —
+            # per month". Tarifnya praktis sama ($24.95 : 10 = $2.495), yang
+            # berpindah dasar tagihannya; tercatat sebagai penurunan 90%.
+            # OpenRouter 19/09: "$0.18/hour" menjadi "$0.00005/second" — satu
+            # angka yang sama persis (0.00005 x 3600 = 0.18), tercatat -99,97%.
+            #
+            # Penjaga ini baru mungkin setelah kosakata satuan diperluas
+            # 05/10; sebelumnya periode kedua sisi sama-sama kosong dan tidak
+            # ada yang bisa dilihat.
+            #
+            # Diukur pada SELURUH arsip sebelum diterapkan (442 peristiwa
+            # price_changed dari semua pasangan hari): hanya 3 yang satuannya
+            # berbeda — cockroachdb 16/09 ($0.18/jam -> $400 kredit promosi),
+            # 1Password 06/10, dan OpenRouter 19/09. KETIGANYA sudah terbukti
+            # palsu dan sudah dikoreksi tangan. Peristiwa nyata yang tetap
+            # dihitung: Airbyte, Postman, CodeRabbit, DeepInfra, Fly.io,
+            # fal.ai. Nol yang hilang.
+            events.append({
+                "type": "period_changed", "plan": n.get("name"),
+                "from": o.get("period"), "to": n.get("period"),
+                "from_amount": o.get("amount"), "to_amount": n.get("amount"),
+                "from_raw": o.get("price_raw"), "to_raw": n.get("price_raw"),
+            })
         elif o.get("amount") != n.get("amount") and _slot_bertukar(o, n):
             # Angkanya beda, tapi angka hari ini SUDAH berdiri di slot harga
             # kemarin (atau angka kemarin MASIH berdiri di slot hari ini).
@@ -232,6 +261,8 @@ def diff_plans(old_plans: list[dict], new_plans: list[dict]) -> list[dict]:
                 pass
             events.append(ev)
         elif o.get("period") != n.get("period"):
+            # Sisa kasus: salah satu sisi satuannya TIDAK diketahui. Itu celah
+            # pembacaan, bukan peristiwa dasar tagihan (§10.7 untuk mata uang).
             events.append({
                 "type": "period_changed", "plan": n.get("name"),
                 "from": o.get("period"), "to": n.get("period"),

@@ -6,8 +6,8 @@
   "url": "https://www.together.ai/pricing",
   "final_url": "https://www.together.ai/pricing",
   "parser_version": 4,
-  "content_hash": "4f9dd88b1fafa069ce59866d7e945232ac460e5fd621a5e0dbc4a53fdb1db135",
-  "raw_hash": "596130adb15bf3ba9414fe7f5484f1d3467eef0397086ed9fe981a3b1bb640de",
+  "content_hash": "f6704dfbfab9e18072512cad48b4432dd8e565f10713539925923e4bded092a7",
+  "raw_hash": "f535a19de9b1d55c4914b1a9ef3eedac5441fa35394f265c211679c40c84d483",
   "text_bytes": 8768,
   "currency_hints": [],
   "extractor": "jsonld",
@@ -187,6 +187,882 @@
         "kolom 2": {
           "raw": "$0.0035",
           "amount": 0.0035
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "nvidia hgx h100",
+      "model": "NVIDIA HGX H100",
+      "prices": {
+        "preemptible compute": {
+          "raw": "$1.99",
+          "amount": 1.99
+        },
+        "on-demand": {
+          "raw": "$3.99",
+          "amount": 3.99
+        },
+        "reserved": {
+          "raw": "$3.69",
+          "amount": 3.69
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "nvidia hgx h200",
+      "model": "NVIDIA HGX H200",
+      "prices": {
+        "preemptible compute": {
+          "raw": "$2.99",
+          "amount": 2.99
+        },
+        "on-demand": {
+          "raw": "$5.99",
+          "amount": 5.99
+        },
+        "reserved": {
+          "raw": "$4.99",
+          "amount": 4.99
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "nvidia hgx b200",
+      "model": "NVIDIA HGX B200",
+      "prices": {
+        "preemptible compute": {
+          "raw": "$4.09",
+          "amount": 4.09
+        },
+        "on-demand": {
+          "raw": "$8.19",
+          "amount": 8.19
+        },
+        "reserved": {
+          "raw": "$7.99",
+          "amount": 7.99
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "nvidia hgx b300",
+      "model": "NVIDIA HGX B300",
+      "prices": {
+        "preemptible compute": {
+          "raw": "$4.99",
+          "amount": 4.99
+        },
+        "on-demand": {
+          "raw": "$9.99",
+          "amount": 9.99
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "qwen3.5 0.8b",
+      "model": "Qwen3.5 0.8B",
+      "prices": {
+        "supervised fine-tuning": {
+          "raw": "$0.34",
+          "amount": 0.34
+        },
+        "direct preference optimization": {
+          "raw": "$0.84",
+          "amount": 0.84
+        },
+        "minimum charge": {
+          "raw": "$4.00",
+          "amount": 4.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "qwen3.5 122b a10b",
+      "model": "Qwen3.5 122B A10B",
+      "prices": {
+        "supervised fine-tuning": {
+          "raw": "$4.20",
+          "amount": 4.2
+        },
+        "direct preference optimization": {
+          "raw": "$10.50",
+          "amount": 10.5
+        },
+        "minimum charge": {
+          "raw": "$10.00",
+          "amount": 10.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "qwen3.5 27b",
+      "model": "Qwen3.5 27B",
+      "prices": {
+        "supervised fine-tuning": {
+          "raw": "$1.05",
+          "amount": 1.05
+        },
+        "direct preference optimization": {
+          "raw": "$2.62",
+          "amount": 2.62
+        },
+        "minimum charge": {
+          "raw": "$4.00",
+          "amount": 4.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "qwen3.5 2b",
+      "model": "Qwen3.5 2B",
+      "prices": {
+        "supervised fine-tuning": {
+          "raw": "$0.34",
+          "amount": 0.34
+        },
+        "direct preference optimization": {
+          "raw": "$0.84",
+          "amount": 0.84
+        },
+        "minimum charge": {
+          "raw": "$4.00",
+          "amount": 4.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "qwen3.5 35b a3b",
+      "model": "Qwen3.5 35B A3B",
+      "prices": {
+        "supervised fine-tuning": {
+          "raw": "$1.05",
+          "amount": 1.05
+        },
+        "direct preference optimization": {
+          "raw": "$2.62",
+          "amount": 2.62
+        },
+        "minimum charge": {
+          "raw": "$4.00",
+          "amount": 4.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "qwen3.5 397b a17b",
+      "model": "Qwen3.5 397B A17B",
+      "prices": {
+        "supervised fine-tuning": {
+          "raw": "$5.60",
+          "amount": 5.6
+        },
+        "direct preference optimization": {
+          "raw": "$14.00",
+          "amount": 14.0
+        },
+        "minimum charge": {
+          "raw": "$22.00",
+          "amount": 22.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "qwen3.5 4b",
+      "model": "Qwen3.5 4B",
+      "prices": {
+        "supervised fine-tuning": {
+          "raw": "$0.34",
+          "amount": 0.34
+        },
+        "direct preference optimization": {
+          "raw": "$0.84",
+          "amount": 0.84
+        },
+        "minimum charge": {
+          "raw": "$4.00",
+          "amount": 4.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "qwen3.5 9b",
+      "model": "Qwen3.5 9B",
+      "prices": {
+        "supervised fine-tuning": {
+          "raw": "$0.34",
+          "amount": 0.34
+        },
+        "direct preference optimization": {
+          "raw": "$0.84",
+          "amount": 0.84
+        },
+        "minimum charge": {
+          "raw": "$4.00",
+          "amount": 4.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "qwen3.6 27b",
+      "model": "Qwen3.6 27B",
+      "prices": {
+        "supervised fine-tuning": {
+          "raw": "$1.05",
+          "amount": 1.05
+        },
+        "direct preference optimization": {
+          "raw": "$2.62",
+          "amount": 2.62
+        },
+        "minimum charge": {
+          "raw": "$4.00",
+          "amount": 4.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "qwen3.6 35b a3b",
+      "model": "Qwen3.6 35B A3B",
+      "prices": {
+        "supervised fine-tuning": {
+          "raw": "$1.05",
+          "amount": 1.05
+        },
+        "direct preference optimization": {
+          "raw": "$2.62",
+          "amount": 2.62
+        },
+        "minimum charge": {
+          "raw": "$4.00",
+          "amount": 4.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "qwen3.8 27b",
+      "model": "Qwen3.8 27B",
+      "prices": {
+        "supervised fine-tuning": {
+          "raw": "$1.05",
+          "amount": 1.05
+        },
+        "direct preference optimization": {
+          "raw": "$2.62",
+          "amount": 2.62
+        },
+        "minimum charge": {
+          "raw": "$4.00",
+          "amount": 4.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "deepseek-v3.1",
+      "model": "DeepSeek-V3.1",
+      "prices": {
+        "supervised fine-tuning": {
+          "raw": "$7.00",
+          "amount": 7.0
+        },
+        "direct preference optimization": {
+          "raw": "$17.50",
+          "amount": 17.5
+        },
+        "minimum charge": {
+          "raw": "$20.00",
+          "amount": 20.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "deepseek v4 flash 0731",
+      "model": "DeepSeek V4 Flash 0731",
+      "prices": {
+        "supervised fine-tuning": {
+          "raw": "$6.00",
+          "amount": 6.0
+        },
+        "direct preference optimization": {
+          "raw": "$15.00",
+          "amount": 15.0
+        },
+        "minimum charge": {
+          "raw": "$12.00",
+          "amount": 12.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "gemma 4 26b a4b",
+      "model": "Gemma 4 26B A4B",
+      "prices": {
+        "supervised fine-tuning": {
+          "raw": "$1.05",
+          "amount": 1.05
+        },
+        "direct preference optimization": {
+          "raw": "$2.62",
+          "amount": 2.62
+        },
+        "minimum charge": {
+          "raw": "$4.00",
+          "amount": 4.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "gemma 4 31b",
+      "model": "Gemma 4 31B",
+      "prices": {
+        "supervised fine-tuning": {
+          "raw": "$1.05",
+          "amount": 1.05
+        },
+        "direct preference optimization": {
+          "raw": "$2.62",
+          "amount": 2.62
+        },
+        "minimum charge": {
+          "raw": "$4.00",
+          "amount": 4.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "gemma 4 31b vlm",
+      "model": "Gemma 4 31B VLM",
+      "prices": {
+        "supervised fine-tuning": {
+          "raw": "$1.05",
+          "amount": 1.05
+        },
+        "direct preference optimization": {
+          "raw": "$2.62",
+          "amount": 2.62
+        },
+        "minimum charge": {
+          "raw": "$4.00",
+          "amount": 4.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "llama 3.3 70b",
+      "model": "Llama 3.3 70B",
+      "prices": {
+        "supervised fine-tuning": {
+          "raw": "$2.03",
+          "amount": 2.03
+        },
+        "direct preference optimization": {
+          "raw": "$5.08",
+          "amount": 5.08
+        },
+        "minimum charge": {
+          "raw": "$4.00",
+          "amount": 4.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "llama 4 maverick",
+      "model": "Llama 4 Maverick",
+      "prices": {
+        "supervised fine-tuning": {
+          "raw": "$5.60",
+          "amount": 5.6
+        },
+        "direct preference optimization": {
+          "raw": "$14.00",
+          "amount": 14.0
+        },
+        "minimum charge": {
+          "raw": "$16.00",
+          "amount": 16.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "llama 4 maverick vlm",
+      "model": "Llama 4 Maverick VLM",
+      "prices": {
+        "supervised fine-tuning": {
+          "raw": "$5.60",
+          "amount": 5.6
+        },
+        "direct preference optimization": {
+          "raw": "$14.00",
+          "amount": 14.0
+        },
+        "minimum charge": {
+          "raw": "$16.00",
+          "amount": 16.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "llama 4 scout",
+      "model": "Llama 4 Scout",
+      "prices": {
+        "supervised fine-tuning": {
+          "raw": "$2.10",
+          "amount": 2.1
+        },
+        "direct preference optimization": {
+          "raw": "$5.25",
+          "amount": 5.25
+        },
+        "minimum charge": {
+          "raw": "$6.00",
+          "amount": 6.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "llama 4 scout vlm",
+      "model": "Llama 4 Scout VLM",
+      "prices": {
+        "supervised fine-tuning": {
+          "raw": "$2.10",
+          "amount": 2.1
+        },
+        "direct preference optimization": {
+          "raw": "$5.25",
+          "amount": 5.25
+        },
+        "minimum charge": {
+          "raw": "$6.00",
+          "amount": 6.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "llama 3.1 8b",
+      "model": "Llama 3.1 8B",
+      "prices": {
+        "supervised fine-tuning": {
+          "raw": "$0.34",
+          "amount": 0.34
+        },
+        "direct preference optimization": {
+          "raw": "$0.84",
+          "amount": 0.84
+        },
+        "minimum charge": {
+          "raw": "$4.00",
+          "amount": 4.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "mixtral 8x7b instruct v0.1",
+      "model": "Mixtral 8x7B Instruct v0.1",
+      "prices": {
+        "supervised fine-tuning": {
+          "raw": "$1.05",
+          "amount": 1.05
+        },
+        "direct preference optimization": {
+          "raw": "$2.62",
+          "amount": 2.62
+        },
+        "minimum charge": {
+          "raw": "$4.00",
+          "amount": 4.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "kimi k2.6",
+      "model": "Kimi K2.6",
+      "prices": {
+        "supervised fine-tuning": {
+          "raw": "$15.00",
+          "amount": 15.0
+        },
+        "direct preference optimization": {
+          "raw": "$37.50",
+          "amount": 37.5
+        },
+        "minimum charge": {
+          "raw": "$60.00",
+          "amount": 60.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "kimi k2.7 code",
+      "model": "Kimi K2.7 Code",
+      "prices": {
+        "supervised fine-tuning": {
+          "raw": "$15.00",
+          "amount": 15.0
+        },
+        "direct preference optimization": {
+          "raw": "$37.50",
+          "amount": 37.5
+        },
+        "minimum charge": {
+          "raw": "$60.00",
+          "amount": 60.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "gpt-oss-120b",
+      "model": "gpt-oss-120B",
+      "prices": {
+        "supervised fine-tuning": {
+          "raw": "$2.50",
+          "amount": 2.5
+        },
+        "direct preference optimization": {
+          "raw": "$6.25",
+          "amount": 6.25
+        },
+        "minimum charge": {
+          "raw": "$6.00",
+          "amount": 6.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "gpt-oss-20b",
+      "model": "gpt-oss-20B",
+      "prices": {
+        "supervised fine-tuning": {
+          "raw": "$0.40",
+          "amount": 0.4
+        },
+        "direct preference optimization": {
+          "raw": "$1.00",
+          "amount": 1.0
+        },
+        "minimum charge": {
+          "raw": "$4.00",
+          "amount": 4.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "glm-5.1",
+      "model": "GLM-5.1",
+      "prices": {
+        "supervised fine-tuning": {
+          "raw": "$40.00",
+          "amount": 40.0
+        },
+        "direct preference optimization": {
+          "raw": "$100.00",
+          "amount": 100.0
+        },
+        "minimum charge": {
+          "raw": "$60.00",
+          "amount": 60.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "glm-5.2",
+      "model": "GLM-5.2",
+      "prices": {
+        "supervised fine-tuning": {
+          "raw": "$40.00",
+          "amount": 40.0
+        },
+        "direct preference optimization": {
+          "raw": "$100.00",
+          "amount": 100.0
+        },
+        "minimum charge": {
+          "raw": "$60.00",
+          "amount": 60.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "qwen3.5 0.8b#2",
+      "model": "Qwen3.5 0.8B",
+      "prices": {
+        "supervised fine-tuning": {
+          "raw": "$0.38",
+          "amount": 0.38
+        },
+        "direct preference optimization": {
+          "raw": "$0.94",
+          "amount": 0.94
+        },
+        "minimum charge": {
+          "raw": "$4.00",
+          "amount": 4.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "qwen3.5 27b#2",
+      "model": "Qwen3.5 27B",
+      "prices": {
+        "supervised fine-tuning": {
+          "raw": "$1.16",
+          "amount": 1.16
+        },
+        "direct preference optimization": {
+          "raw": "$2.88",
+          "amount": 2.88
+        },
+        "minimum charge": {
+          "raw": "$4.00",
+          "amount": 4.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "qwen3.5 2b#2",
+      "model": "Qwen3.5 2B",
+      "prices": {
+        "supervised fine-tuning": {
+          "raw": "$0.38",
+          "amount": 0.38
+        },
+        "direct preference optimization": {
+          "raw": "$0.94",
+          "amount": 0.94
+        },
+        "minimum charge": {
+          "raw": "$4.00",
+          "amount": 4.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "qwen3.5 4b#2",
+      "model": "Qwen3.5 4B",
+      "prices": {
+        "supervised fine-tuning": {
+          "raw": "$0.38",
+          "amount": 0.38
+        },
+        "direct preference optimization": {
+          "raw": "$0.94",
+          "amount": 0.94
+        },
+        "minimum charge": {
+          "raw": "$4.00",
+          "amount": 4.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "qwen3.5 9b#2",
+      "model": "Qwen3.5 9B",
+      "prices": {
+        "supervised fine-tuning": {
+          "raw": "$0.38",
+          "amount": 0.38
+        },
+        "direct preference optimization": {
+          "raw": "$0.94",
+          "amount": 0.94
+        },
+        "minimum charge": {
+          "raw": "$4.00",
+          "amount": 4.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "qwen3.6 27b#2",
+      "model": "Qwen3.6 27B",
+      "prices": {
+        "supervised fine-tuning": {
+          "raw": "$1.16",
+          "amount": 1.16
+        },
+        "direct preference optimization": {
+          "raw": "$2.88",
+          "amount": 2.88
+        },
+        "minimum charge": {
+          "raw": "$4.00",
+          "amount": 4.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "gemma 4 31b#2",
+      "model": "Gemma 4 31B",
+      "prices": {
+        "supervised fine-tuning": {
+          "raw": "$1.16",
+          "amount": 1.16
+        },
+        "direct preference optimization": {
+          "raw": "$2.88",
+          "amount": 2.88
+        },
+        "minimum charge": {
+          "raw": "$4.00",
+          "amount": 4.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "gemma 4 31b vlm#2",
+      "model": "Gemma 4 31B VLM",
+      "prices": {
+        "supervised fine-tuning": {
+          "raw": "$1.16",
+          "amount": 1.16
+        },
+        "direct preference optimization": {
+          "raw": "$2.88",
+          "amount": 2.88
+        },
+        "minimum charge": {
+          "raw": "$4.00",
+          "amount": 4.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "llama 3.3 70b#2",
+      "model": "Llama 3.3 70B",
+      "prices": {
+        "supervised fine-tuning": {
+          "raw": "$2.24",
+          "amount": 2.24
+        },
+        "direct preference optimization": {
+          "raw": "$5.60",
+          "amount": 5.6
+        },
+        "minimum charge": {
+          "raw": "$4.00",
+          "amount": 4.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "llama 3.1 8b#2",
+      "model": "Llama 3.1 8B",
+      "prices": {
+        "supervised fine-tuning": {
+          "raw": "$0.38",
+          "amount": 0.38
+        },
+        "direct preference optimization": {
+          "raw": "$0.94",
+          "amount": 0.94
+        },
+        "minimum charge": {
+          "raw": "$4.00",
+          "amount": 4.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "mixtral 8x7b instruct v0.1#2",
+      "model": "Mixtral 8x7B Instruct v0.1",
+      "prices": {
+        "supervised fine-tuning": {
+          "raw": "$1.16",
+          "amount": 1.16
+        },
+        "direct preference optimization": {
+          "raw": "$2.88",
+          "amount": 2.88
+        },
+        "minimum charge": {
+          "raw": "$4.00",
+          "amount": 4.0
         }
       },
       "currency": "USD",
@@ -784,6 +1660,345 @@
         [
           "NVIDIA HGX H200",
           "$5.99"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Hardware",
+          "Preemptible Compute",
+          "ON-Demand",
+          "Reserved"
+        ],
+        [
+          "Pay as you go",
+          "Pay as you go",
+          "3-30 days",
+          "31-90 days",
+          "91-180 days",
+          "181+ days"
+        ],
+        [
+          "NVIDIA HGX H100",
+          "$1.99",
+          "$3.99",
+          "$3.69",
+          "$3.45",
+          "$3.19",
+          "Contact us"
+        ],
+        [
+          "NVIDIA HGX H200",
+          "$2.99",
+          "$5.99",
+          "$4.99",
+          "$4.15",
+          "$3.99",
+          "Contact us"
+        ],
+        [
+          "NVIDIA HGX B200",
+          "$4.09",
+          "$8.19",
+          "$7.99",
+          "$7.79",
+          "$6.79",
+          "Contact us"
+        ],
+        [
+          "NVIDIA GB200 NVL72",
+          "—",
+          "—",
+          "Contact us"
+        ],
+        [
+          "NVIDIA GB300 NVL72",
+          "—",
+          "—",
+          "Contact us"
+        ],
+        [
+          "NVIDIA HGX B300",
+          "$4.99",
+          "$9.99",
+          "Contact us"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Per vCPU",
+          "$0.0446"
+        ],
+        [
+          "Per GiB RAM",
+          "$0.0149"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Model",
+          "Supervised Fine-Tuning",
+          "Direct Preference Optimization",
+          "Minimum charge"
+        ],
+        [
+          "Qwen3.5 0.8B",
+          "$0.34",
+          "$0.84",
+          "$4.00"
+        ],
+        [
+          "Qwen3.5 122B A10B",
+          "$4.20",
+          "$10.50",
+          "$10.00"
+        ],
+        [
+          "Qwen3.5 27B",
+          "$1.05",
+          "$2.62",
+          "$4.00"
+        ],
+        [
+          "Qwen3.5 2B",
+          "$0.34",
+          "$0.84",
+          "$4.00"
+        ],
+        [
+          "Qwen3.5 35B A3B",
+          "$1.05",
+          "$2.62",
+          "$4.00"
+        ],
+        [
+          "Qwen3.5 397B A17B",
+          "$5.60",
+          "$14.00",
+          "$22.00"
+        ],
+        [
+          "Qwen3.5 4B",
+          "$0.34",
+          "$0.84",
+          "$4.00"
+        ],
+        [
+          "Qwen3.5 9B",
+          "$0.34",
+          "$0.84",
+          "$4.00"
+        ],
+        [
+          "Qwen3.6 27B",
+          "$1.05",
+          "$2.62",
+          "$4.00"
+        ],
+        [
+          "Qwen3.6 35B A3B",
+          "$1.05",
+          "$2.62",
+          "$4.00"
+        ],
+        [
+          "Qwen3.8 27B",
+          "$1.05",
+          "$2.62",
+          "$4.00"
+        ],
+        [
+          "DeepSeek-V3.1",
+          "$7.00",
+          "$17.50",
+          "$20.00"
+        ],
+        [
+          "DeepSeek V4 Flash 0731",
+          "$6.00",
+          "$15.00",
+          "$12.00"
+        ],
+        [
+          "Gemma 4 26B A4B",
+          "$1.05",
+          "$2.62",
+          "$4.00"
+        ],
+        [
+          "Gemma 4 31B",
+          "$1.05",
+          "$2.62",
+          "$4.00"
+        ],
+        [
+          "Gemma 4 31B VLM",
+          "$1.05",
+          "$2.62",
+          "$4.00"
+        ],
+        [
+          "Llama 3.3 70B",
+          "$2.03",
+          "$5.08",
+          "$4.00"
+        ],
+        [
+          "Llama 4 Maverick",
+          "$5.60",
+          "$14.00",
+          "$16.00"
+        ],
+        [
+          "Llama 4 Maverick VLM",
+          "$5.60",
+          "$14.00",
+          "$16.00"
+        ],
+        [
+          "Llama 4 Scout",
+          "$2.10",
+          "$5.25",
+          "$6.00"
+        ],
+        [
+          "Llama 4 Scout VLM",
+          "$2.10",
+          "$5.25",
+          "$6.00"
+        ],
+        [
+          "Llama 3.1 8B",
+          "$0.34",
+          "$0.84",
+          "$4.00"
+        ],
+        [
+          "Mixtral 8x7B Instruct v0.1",
+          "$1.05",
+          "$2.62",
+          "$4.00"
+        ],
+        [
+          "Kimi K2.6",
+          "$15.00",
+          "$37.50",
+          "$60.00"
+        ],
+        [
+          "Kimi K2.7 Code",
+          "$15.00",
+          "$37.50",
+          "$60.00"
+        ],
+        [
+          "gpt-oss-120B",
+          "$2.50",
+          "$6.25",
+          "$6.00"
+        ],
+        [
+          "gpt-oss-20B",
+          "$0.40",
+          "$1.00",
+          "$4.00"
+        ],
+        [
+          "GLM-5.1",
+          "$40.00",
+          "$100.00",
+          "$60.00"
+        ],
+        [
+          "GLM-5.2",
+          "$40.00",
+          "$100.00",
+          "$60.00"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Model",
+          "Supervised Fine-Tuning",
+          "Direct Preference Optimization",
+          "Minimum charge"
+        ],
+        [
+          "Qwen3.5 0.8B",
+          "$0.38",
+          "$0.94",
+          "$4.00"
+        ],
+        [
+          "Qwen3.5 27B",
+          "$1.16",
+          "$2.88",
+          "$4.00"
+        ],
+        [
+          "Qwen3.5 2B",
+          "$0.38",
+          "$0.94",
+          "$4.00"
+        ],
+        [
+          "Qwen3.5 4B",
+          "$0.38",
+          "$0.94",
+          "$4.00"
+        ],
+        [
+          "Qwen3.5 9B",
+          "$0.38",
+          "$0.94",
+          "$4.00"
+        ],
+        [
+          "Qwen3.6 27B",
+          "$1.16",
+          "$2.88",
+          "$4.00"
+        ],
+        [
+          "Gemma 4 31B",
+          "$1.16",
+          "$2.88",
+          "$4.00"
+        ],
+        [
+          "Gemma 4 31B VLM",
+          "$1.16",
+          "$2.88",
+          "$4.00"
+        ],
+        [
+          "Llama 3.3 70B",
+          "$2.24",
+          "$5.60",
+          "$4.00"
+        ],
+        [
+          "Llama 3.1 8B",
+          "$0.38",
+          "$0.94",
+          "$4.00"
+        ],
+        [
+          "Mixtral 8x7B Instruct v0.1",
+          "$1.16",
+          "$2.88",
+          "$4.00"
         ]
       ]
     }

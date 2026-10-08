@@ -91,7 +91,7 @@ Please note - in the future, we plan to introduce compute analysis measurements 
 When will I be invoiced?
 With SonarQube Team plan you will be invoiced once a month, the day of the month after your trial ends. For example if you start your free trial on January 1st, it will last until January 14th and you will be first billed on January 15th for your upcoming month, e.g. January 15th to February 15th.
 Which programming languages does SonarQube Cloud support?
-SonarQube currently supports the following languages and frameworks in the Team plan: Ansible, Azure Resource Manager, C, C++, CloudFormation, C#, CSS, Docker, Flex, Go, HTML, Java, JavaScript, Kotlin, Kubernetes, Objective-C, PHP, PL/SQL, Python, RPG, Ruby, Rust, Scala, Swift, Terraform, TypeScript, T-SQL, VB.NET, VB6, XML, JSON, YAML and Groovy. Additionally, the Enterprise Plan offers ABAP, COBOL, JCL, RPG, PL/I, and Apex.
+SonarQube currently supports the following languages and frameworks in the Team plan: Ansible, Azure Resource Manager, Azure Pipelines, C, C#, C++, CloudFormation, CSS, Dart, Docker, Flex, GitHub Actions, Go, Groovy, HTML, Jupyter Notebooks, Java, JavaScript, JSON, Kotlin, Kubernetes/Helm, Objective-C, PHP, PL/SQL, PostgreSQL, PowerShell, Python, R, Ruby, Rust, Scala, Shell, Swift, TSQL, Terraform, TypeScript, VB6, VB.NET, XML, and YAML. Additionally, the Enterprise Plan offers ABAP, Apex, COBOL, Gosu, JCL, MuleSoft DataWeave, PL/I, and RPG.
 Is support available for SonarQube?
 Yes.
 The SonarQube

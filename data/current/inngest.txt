@@ -85,6 +85,11 @@ metrics granularity
 Datadog / advanced observability add-on
 Security
 HIPAA add-on
+Sandboxes
+100
+concurrent sandboxes
+24 hour
+max duration
 Business
 For growing teams that need higher limits, and greater cost efficiency as they scale.
 Starting at
@@ -125,6 +130,11 @@ metrics granularity
 Datadog / advanced observability add-on
 Security
 HIPAA add-on
+Sandboxes
+1,000
+concurrent sandboxes
+24 hour
+max duration
 Enterprise
 For established teams that need additional security, support, and observability.
 Custom
@@ -167,10 +177,145 @@ HIPAA included
 Support
 Dedicated Slack channel
 Dedicated account management
+Sandboxes
+Custom
+concurrent sandboxes
+Custom
+max duration
 “Inngest completely transformed how Otto (by Cohere) handles AI orchestration.
 What would have taken us a month on other providers we evaluated took us only a couple hours.”
 Sully Omar
 Co-founder, Otto (acquired by Cohere)
+Sandboxes & compute
+Billed per second for vCPU and memory.
+Resource
+Per second
+Per hour
+1 vCPU
+Compute
+$0.000011
+$0.0396
+1 GB
+Memory
+$0.000003
+$0.0108
+Show machine sizes
+1–16 vCPU · 1–128 GB RAM
+Hourly cost by vCPU count and memory per vCPU
+RAM per
+vCPU
+vCPU
+1
+×
+RAM (
+1
+GB per vCPU)
+2
+×
+RAM (
+2
+GB per vCPU)
+4
+×
+RAM (
+4
+GB per vCPU)
+8
+×
+RAM (
+8
+GB per vCPU)
+1
+vCPU
+1
+GB
+$0.0504
+/hr
+2
+GB
+$0.0612
+/hr
+4
+GB
+$0.0828
+/hr
+8
+GB
+$0.1260
+/hr
+2
+vCPU
+2
+GB
+$0.1008
+/hr
+4
+GB
+$0.1224
+/hr
+8
+GB
+$0.1656
+/hr
+16
+GB
+$0.2520
+/hr
+4
+vCPU
+4
+GB
+$0.2016
+/hr
+8
+GB
+$0.2448
+/hr
+16
+GB
+$0.3312
+/hr
+32
+GB
+$0.5040
+/hr
+8
+vCPU
+8
+GB
+$0.4032
+/hr
+16
+GB
+$0.4896
+/hr
+32
+GB
+$0.6624
+/hr
+64
+GB
+$1.0080
+/hr
+16
+vCPU
+16
+GB
+$0.8064
+/hr
+32
+GB
+$0.9792
+/hr
+64
+GB
+$1.3248
+/hr
+128
+GB
+$2.0160
+/hr
+vCPUs are available in powers of two: 1, 2, 4, 8, or 16. Each vCPU can be paired with 1, 2, 4, or 8 GB of RAM (e.g. 2 vCPU with 2, 4, 8, or 16 GB). Usage is billed per second; hourly rates are shown for reference.
 Which plan is right for me?
 Use the pricing calculator to see which plan is the best option for you.
 Pricing calculator
@@ -347,6 +492,17 @@ Advanced observability
 Integration with Datadog, etc
 $300
 $300
+Sandboxes
+Max sandbox duration
+Longest a single sandbox can run
+24 hours
+24 hours
+Custom
+Concurrent sandboxes
+Sandboxes running at the same time
+100
+1,000
+Custom
 Real customer savings
 Saved a month of work in
 4 hours

@@ -7,7 +7,7 @@
   "final_url": "https://zilliz.com/pricing",
   "parser_version": 4,
   "content_hash": "4c3ce7c8a3f63dc9b756b5d6f2bb6f2d6fc2fad21e71bb4615b5700b6a26ee87",
-  "raw_hash": "c828b177fee7e5d88c7b3931a0fb1b2af6aa6335673f129fee0d7051bc4b8273",
+  "raw_hash": "36a32d73f0dad321856ab34cf1dbae1afb0dc7f59113808038126bc9f2cc830c",
   "text_bytes": 11072,
   "currency_hints": [],
   "extractor": "dom",
@@ -605,6 +605,143 @@
         ],
         [
           "VectorDBBench",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Support"
+        ],
+        [
+          "On-call availability",
+          "",
+          "Business hours",
+          "Business hours",
+          "24/7/365",
+          "24/7/365"
+        ],
+        [
+          "First response SLAs"
+        ],
+        [
+          "Emergency",
+          "",
+          "",
+          "",
+          "",
+          "30 min on-call"
+        ],
+        [
+          "Urgent",
+          "",
+          "4 hours",
+          "4 hours",
+          "1 hour",
+          "1 hour"
+        ],
+        [
+          "High priority",
+          "",
+          "1 business day",
+          "1 business day",
+          "4 hours",
+          "4 hours"
+        ],
+        [
+          "Medium/Normal",
+          "",
+          "2 business days",
+          "2 business days",
+          "1 business day",
+          "1 business day"
+        ],
+        [
+          "Support Options"
+        ],
+        [
+          "Community",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Support bot",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Email/Ticket portal",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Slack private channel",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Zoom/Google Meet/Teams",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Assigned support engineers",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Architectural Guidance"
+        ],
+        [
+          "General",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Use-case specific",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Code reviews",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Live consultations",
           "",
           "",
           "",

@@ -7,7 +7,7 @@
   "final_url": "https://www.cloudflare.com/plans/",
   "parser_version": 4,
   "content_hash": "e7ab68c20032a8386c39a63cc66f4ff8bd9b97dfe2fb4f22019cf92ca799e6a1",
-  "raw_hash": "11901d07227c5ea23358b4c30cef8b32c229c18109b49c434072a50334fa0ec9",
+  "raw_hash": "69b72901b696c2eba94db41f1f0689644184cd5a29a61e7f71a34d2a23ebf795",
   "text_bytes": 15714,
   "currency_hints": [],
   "extractor": "dom",
@@ -389,6 +389,261 @@
           "Infrequent Access Data Retrieval",
           "Not available",
           "$0.01 / GB"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Component",
+          "Free",
+          "Paid"
+        ],
+        [
+          "Stored Data",
+          "1 GB",
+          "$0.50 / GB-month"
+        ],
+        [
+          "Read Requests",
+          "100,000 / day",
+          "$0.50 / million requests"
+        ],
+        [
+          "Write, Delete, List requests",
+          "1,000 / day",
+          "$5.00 / million requests"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Component",
+          "Free",
+          "Paid"
+        ],
+        [
+          "Storage",
+          "5 GB (total)",
+          "$0.75 / GB-month"
+        ],
+        [
+          "Rows Read",
+          "5 million / day",
+          "$0.001 / million rows"
+        ],
+        [
+          "Rows Written",
+          "100,000 / day",
+          "$1.00 / million rows"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Component",
+          "Free",
+          "Paid"
+        ],
+        [
+          "Standard Operations",
+          "10,000 operations/day included",
+          "$0.40 / million operations"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Component",
+          "Free",
+          "Paid"
+        ],
+        [
+          "Queries",
+          "100,000 / day",
+          "Free"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Component",
+          "Free",
+          "Paid"
+        ],
+        [
+          "Data Points Written",
+          "100,000 / day",
+          "$0.25 / million data points"
+        ],
+        [
+          "Read Queries",
+          "10,000 / day",
+          "$1.00 / million read queries"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Component",
+          "Free",
+          "Paid"
+        ],
+        [
+          "Ingestion",
+          "Not available",
+          "TBD (free during beta)"
+        ],
+        [
+          "Delivery to R2",
+          "Not available",
+          "TBD (free during beta)"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Component",
+          "Free",
+          "Paid"
+        ],
+        [
+          "Data Egress",
+          "1,000 GB / month",
+          "$0.05 / GB"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Component",
+          "Free",
+          "Paid"
+        ],
+        [
+          "Audio/Video Participant",
+          "Not available",
+          "$0.002 / minute"
+        ],
+        [
+          "Audio-Only Participant",
+          "Not available",
+          "$0.0005 / minute"
+        ],
+        [
+          "Export (recording, RTMP or HLS streaming)",
+          "Not available",
+          "$0.010 / minute"
+        ],
+        [
+          "Export (recording, RTMP or HLS streaming, audio only)",
+          "Not available",
+          "$0.003 / minute"
+        ],
+        [
+          "Export (Raw RTP) into R2",
+          "Not available",
+          "$0.0005 / minute"
+        ],
+        [
+          "Transcription (Real-time)",
+          "Not available",
+          "Standard model pricing via Workers AI"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Component",
+          "Free",
+          "Paid"
+        ],
+        [
+          "Unique Transformations",
+          "5,000 / month",
+          "$0.50 / thousand"
+        ],
+        [
+          "Images Stored",
+          "Not available",
+          "$5.00 / hundred thousand"
+        ],
+        [
+          "Images Delivered",
+          "Not available",
+          "$1.00 / hundred thousand"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Component",
+          "Free",
+          "Paid"
+        ],
+        [
+          "Minutes Stored",
+          "Not available",
+          "$5.00 / thousand minutes"
+        ],
+        [
+          "Minutes Delivered",
+          "Not available",
+          "$1.00 / thousand minutes"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Component",
+          "Free",
+          "Paid"
+        ],
+        [
+          "Vector Dimensions Queried",
+          "30M queried dimensions / month",
+          "$0.01 / million"
+        ],
+        [
+          "Vector Dimensions Stored",
+          "5M stored dimensionsNot available",
+          "$0.05 / hundred million"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Component",
+          "Free",
+          "Paid"
+        ],
+        [
+          "Neurons",
+          "10,000 neurons / dayNot available",
+          "$0.011 / thousand neurons"
         ]
       ]
     }

@@ -6,9 +6,9 @@
   "url": "https://mistral.ai/pricing",
   "final_url": "https://mistral.ai/pricing/",
   "parser_version": 4,
-  "content_hash": "a666c959c4150cc4f7aabf51050f33577ad1a2c99dbc09524933b85000159584",
-  "raw_hash": "4f6d0d76091ad69b2ec11f81cd06c301c4039ae3745a810f301318fe3d37896a",
-  "text_bytes": 8077,
+  "content_hash": "322eb328f9d8517d7566d111d6931c2a02a435b60baf12d71caaa91aede069f0",
+  "raw_hash": "d32ec3f4f7a07517eba4b7f71a72a85fe91d92be652d11bc5870d5b1ac084636",
+  "text_bytes": 8230,
   "currency_hints": [
     "EUR",
     "USD",
@@ -18,42 +18,39 @@
   "confidence": "medium",
   "plans": [
     {
-      "name": "Test out Vibe’s capabilities.",
-      "price_raw": "$10",
-      "amount": 10.0,
-      "currency": "USD",
-      "period": "month",
+      "name": "Free",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
       "features": [
         "Test out Vibe’s capabilities.",
         "Access on web and mobile.",
         "Limited messages and web searches.",
         "Limited coding sessions.",
-        "State-of-the-art image generation.",
-        "Test Mistral models in Studio.",
-        "$10 /mo in API credits.",
+        "Basic image generation and editing.",
         "100+ connectors."
       ],
-      "slot_prices": [
-        10.0
-      ]
+      "slot_prices": []
     },
     {
       "name": "More access and usage.",
-      "price_raw": "$30",
-      "amount": 30.0,
+      "price_raw": "$25.5",
+      "amount": 25.5,
       "currency": "USD",
       "period": "month",
       "features": [
         "More access and usage.",
         "More messages and web searches.",
-        "Get more complex tasks done.",
+        "Faster responses.",
         "All-day coding in the CLI, IDE, or on web.",
-        "More image generations.",
-        "$30 /mo in API credits.",
+        "Generate spreadsheets and slides.",
+        "Better image generation and editing.",
+        "$25.5 /mo in API credits.",
         "Chat and email support."
       ],
       "slot_prices": [
-        30.0
+        25.5
       ]
     },
     {
@@ -74,15 +71,6 @@
       "slot_prices": [
         15.0
       ]
-    },
-    {
-      "name": "Free",
-      "price_raw": "Free",
-      "amount": 0.0,
-      "currency": null,
-      "period": null,
-      "features": [],
-      "slot_prices": []
     }
   ],
   "models": [],
@@ -171,6 +159,20 @@
           "Up to 5",
           "Unlimited Subject to fair usage limits and Mistral's Terms of Service.",
           "Unlimited Subject to fair usage limits and Mistral's Terms of Service.",
+          ""
+        ],
+        [
+          "Spreadsheets Create, edit, and share or download your spreadsheets.",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Slides Create, edit, and share or download your presentations.",
+          "",
+          "",
+          "",
           ""
         ],
         [

@@ -7,7 +7,7 @@
   "final_url": "https://circleci.com/pricing/",
   "parser_version": 4,
   "content_hash": "c6dd83727d364989a6fd25157063c8b161f4818c5d11b794c1275bd17abe479c",
-  "raw_hash": "2ff78b3668bc977474e4c31e6752aa59601ed25bb85dc73fc931e910c48c3999",
+  "raw_hash": "d0c5732bc7aba1ec19347d1e880f85c42c0e6c029501a56a60bc1af93d15dfb1",
   "text_bytes": 14099,
   "currency_hints": [],
   "extractor": "dom",
@@ -408,6 +408,244 @@
           "—",
           "—",
           "Yes"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "macOS VM",
+          "Free",
+          "Performance",
+          "Scale"
+        ],
+        [
+          "M4 Pro Medium",
+          "—",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "M4 Pro Large",
+          "—",
+          "Yes",
+          "Yes"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "GPU",
+          "Free",
+          "Performance",
+          "Scale"
+        ],
+        [
+          "Small Nvidia Tesla P4 GPU",
+          "—",
+          "—",
+          "Yes"
+        ],
+        [
+          "Small Multi 2 Nvidia Tesla T4 GPUs",
+          "—",
+          "—",
+          "Yes"
+        ],
+        [
+          "Small Gen2 Nvidia Tesla A10G GPU",
+          "—",
+          "—",
+          "Yes"
+        ],
+        [
+          "Medium Nvidia Tesla T4 GPU",
+          "—",
+          "—",
+          "Yes"
+        ],
+        [
+          "Medium Multi 4 Nvidia Tesla T4 GPUs",
+          "—",
+          "—",
+          "Yes"
+        ],
+        [
+          "Windows Medium Nvidia Tesla T4 GPU",
+          "—",
+          "—",
+          "Yes"
+        ],
+        [
+          "Large Nvidia Tesla V100 GPU",
+          "—",
+          "—",
+          "Yes"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Concurrent job runs"
+        ],
+        [
+          "Docker",
+          "30",
+          "80",
+          "Unlimited"
+        ],
+        [
+          "Linux VM",
+          "30",
+          "80",
+          "Unlimited"
+        ],
+        [
+          "Arm VM (Linux)",
+          "30",
+          "80",
+          "Unlimited"
+        ],
+        [
+          "Windows VM",
+          "30",
+          "80",
+          "Unlimited"
+        ],
+        [
+          "macOS VM",
+          "1",
+          "15",
+          "Custom"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Insights"
+        ],
+        [
+          "Flaky test detection",
+          "5 tests",
+          "Unlimited",
+          "Unlimited"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "",
+          "Free",
+          "Performance",
+          "Scale"
+        ],
+        [
+          "Self-hosted runner ? The amount of concurrent tasks per self-hosted runner is restricted by plan.",
+          "5",
+          "20",
+          "Unlimited"
+        ],
+        [
+          "Docker layer caching ? Cache the individual layers of any Docker images built during your jobs.",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "IP ranges ? Usage for IP ranges is billed at 450 credits/GB per job.",
+          "—",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Private orbs ? Create reusable packages of YAML config, called orbs, to be used exclusively by your organization.",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Deploys",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Single sign-on (SSO)",
+          "—",
+          "—",
+          "Yes"
+        ],
+        [
+          "Config policies",
+          "—",
+          "—",
+          "Yes"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "",
+          "Free",
+          "Performance",
+          "Scale"
+        ],
+        [
+          "Community support ? Access to our 24/7 community support forum.",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Ticket-based global support ? Our team of expert support engineers, based around the world.",
+          "—",
+          "Yes",
+          "Yes"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "",
+          "Free",
+          "Performance",
+          "Scale"
+        ],
+        [
+          "Support SLA",
+          "—",
+          "8x5 SLAs available",
+          "8x5 and 24x7 SLAs available"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "",
+          "Free",
+          "Performance",
+          "Scale"
+        ],
+        [
+          "Technical services",
+          "—",
+          "—",
+          "Add-on services available"
         ]
       ]
     }

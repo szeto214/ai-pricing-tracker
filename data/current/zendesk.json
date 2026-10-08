@@ -7,7 +7,7 @@
   "final_url": "https://www.zendesk.com/pricing/",
   "parser_version": 4,
   "content_hash": "5588bdf4613e912c2c631fc27194bb145dc2e4cae36b5adc56fa215cdbd9ad88",
-  "raw_hash": "4e4523a7a358ad2d0b11958700cac2f1d7c579586a14f1e7722042df68b2e29b",
+  "raw_hash": "ef78cd1bd173a602d0198b0db033960ec9af59eab483c2e10ec7817437ebe19a",
   "text_bytes": 64754,
   "currency_hints": [
     "BRL",
@@ -1246,6 +1246,732 @@
         ],
         [
           "Service Catalog Create a centralized catalog of services directly in the help center, so customers can easily make and manage support requests.",
+          "—",
+          "—",
+          ""
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Rich text WYSIWYG editor Create articles with our WYSIWYG editor and include media such as images and video.",
+          "—",
+          "",
+          ""
+        ],
+        [
+          "SEO ready Knowledge is optimized so search engines can understand your content and customers can find answers no matter where they look for them. You can also c",
+          "—",
+          "",
+          ""
+        ],
+        [
+          "Bulk actions Update various article properties, such as labels and permissions, for multiple articles all at once.",
+          "—",
+          "Basic",
+          "Intermediate"
+        ],
+        [
+          "Flag & create knowledge Agents can create and share new articles using predefined templates.",
+          "—",
+          "—",
+          ""
+        ],
+        [
+          "Knowledge connectors Bring knowledge from external sources directly into your Zendesk knowledge base, with out-of-the-box connectors. Learn more.",
+          "—",
+          "",
+          ""
+        ],
+        [
+          "Content & revision history See a list of edits and changes, and restore deleted articles, so you can always be up to date with the latest versions.",
+          "—",
+          "—",
+          ""
+        ],
+        [
+          "Article lists & labels Manage knowledge with customized article lists, search, filters, and article labels.",
+          "—",
+          "—",
+          ""
+        ],
+        [
+          "Approval and publishing workflows Designate content editing and publishing permissions across your team, and solicit team input by assigning article updates.",
+          "—",
+          "—",
+          "—"
+        ],
+        [
+          "Scheduled publishing and verification Keep your content up to date through its lifecycle with scheduled publishing, unpublishing and verification intervals.",
+          "—",
+          "—",
+          "—"
+        ],
+        [
+          "Content blocks Create, manage and update content that is reusable and can live across multiple articles or help centers.",
+          "—",
+          "—",
+          "—"
+        ],
+        [
+          "Generative AI: Expand Add additional language to the selected content",
+          "—",
+          "",
+          ""
+        ],
+        [
+          "Generative AI: Simplify Simplify the selected content to be clear and more concise",
+          "—",
+          "",
+          ""
+        ],
+        [
+          "Generative AI: Make more friendly Change the tone of the selected content so that it sounds more conversational",
+          "—",
+          "",
+          ""
+        ],
+        [
+          "Generative AI: Make more formal Change the tone of selected content so that it sounds more professional",
+          "—",
+          "",
+          ""
+        ],
+        [
+          "Generative AI: Translations Translate an article into another supported help center language",
+          "—",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "User profiles and aliases Let community members view their community activity and stats in one place. Enable members to engage via a user alias.",
+          "—",
+          "—",
+          "Registered users"
+        ],
+        [
+          "Integrated search Easily search and filter across help center and community content.",
+          "—",
+          "—",
+          ""
+        ],
+        [
+          "Similar posts Surface similar posts to avoid duplicate threads and answer questions with existing content.",
+          "—",
+          "—",
+          ""
+        ],
+        [
+          "Escalate posts to tickets Empower community managers to escalate posts to support agents when one-on-one help is needed.",
+          "—",
+          "—",
+          ""
+        ],
+        [
+          "Community moderators and moderator groups Empower members to become moderators by assigning varying levels of permissions—like the ability to flag, hide, edit, ",
+          "—",
+          "—",
+          ""
+        ],
+        [
+          "Content moderation queue Use keyword filters to immediately flag posts for review and approval prior to publishing.",
+          "—",
+          "—",
+          ""
+        ],
+        [
+          "AI-powered spam protection Automatically flag suspicious content for review and approval before publishing.",
+          "—",
+          "—",
+          ""
+        ],
+        [
+          "User badges Reward community members for achieving milestones or sharing valuable knowledge. Designate roles to encourage more credible and transparent communit",
+          "—",
+          "—",
+          ""
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Unified agent workspace A unified, conversation-focused agent workspace helps your team manage conversations and their status across all web, mobile and social ",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Approvals Easily make and manage approval requests directly from the ticket interface, automatically tracking all decisions for compliance.",
+          "—",
+          "—",
+          ""
+        ],
+        [
+          "Tasks Empower service teams to deliver accurate, high-quality service with easy-to-follow task list templates that guide them through the right steps for common",
+          "—",
+          "—",
+          ""
+        ],
+        [
+          "Translated interface Agents can work in their preferred language, with a localized admin interface, across 28 languages including: German, French, Japanese, Por",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Essentials card With Cards, agents can view configured previews of any record stored in Zendesk, delivering customized views of your customer's data and custom ",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Interaction history Interaction history surfaces a list of recent tickets submitted by the requester (or other related events). You can use this to better under",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Group contacts by organization Add a user to one or many organizations to apply rules based on the group they belong to. Adding to multiple organizations is hel",
+          "Single",
+          "Single",
+          "Multiple"
+        ],
+        [
+          "Custom user and organization fields Capture customer information in user and organization fields. Set customer-centric workflows around these fields.",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Custom & group views Views are a collection of tickets based on ticket status, assignee, group, or any other ticket conditions. Zendesk comes with pre-configure",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Custom Layouts Arrange and resize components to create workspaces that dynamically update based on the context of a ticket so agents can focus on the task at ha",
+          "—",
+          "—",
+          "—"
+        ],
+        [
+          "Dynamic content Use dynamic content to create your own translations with a default version of the text (set in the same language as your default) and variants f",
+          "—",
+          "—",
+          ""
+        ],
+        [
+          "Customer satisfaction ratings (CSAT) & follow-up survey Capture feedback with customer satisfaction (CSAT) ratings surveys.",
+          "—",
+          "—",
+          ""
+        ],
+        [
+          "Custom agent statuses If your workflow requires more statuses than the default four (online, away, transfer only, and offline), you can create a limited amount ",
+          "—",
+          "—",
+          "Up to 5"
+        ],
+        [
+          "Support mobile app Easily manage all conversations on-the-go with the Zendesk Support mobile app for agents. Available for iOS and Android devices. Learn more a",
+          "—",
+          "",
+          ""
+        ],
+        [
+          "Dynamic, Contextual workspaces Contextual workspaces enable admins to present ticket tools and features based on specific workflows. Combine with Layouts, you c",
+          "—",
+          "—",
+          "—"
+        ],
+        [
+          "App Builder AI-powered App Builder turns ideas into apps using conversational prompts—no technical expertise required. Boost agent productivity with custom apps",
+          "—",
+          "—",
+          "Up to 5 app conversations"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Light agents Give team members limited access to tickets without paying for more seats. They can read tickets and provide input by adding private comments.",
+          "—",
+          "—",
+          "Up to 100"
+        ],
+        [
+          "Light agents add-on Unlock enhanced collaboration for your team by adding more light agent seats with our add-on. This valuable extension goes beyond Suite Grow",
+          "—",
+          "Add-on",
+          "Add-on"
+        ],
+        [
+          "Side conversations Loop in teammates to help resolve issues without leaving the ticket. They can respond via email or Slack and the whole conversation is linked",
+          "—",
+          "—",
+          ""
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Custom workflows (Action builder) Design, integrate, and automate multi-step action flows across Zendesk and third-party systems. Action builder comes with a li",
+          "Up to 40K actions/month Up to 480K actions/year",
+          "Up to 40K actions/month Up to 480K actions/year",
+          "Up to 100K actions/month Up to 1.2M actions/year"
+        ],
+        [
+          "Action credits $200 per 100K actions/subscription term Accelerate resolution automation and scale multi-system workflows with additional Action Builder credits.",
+          "Add on",
+          "Add on",
+          "Add on"
+        ],
+        [
+          "Triggers Triggers are business rules you define to run immediately after tickets are created or updated.",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Ticket sharing between multiple Zendesk accounts Create workflows that share tickets between multiple Zendesk accounts.",
+          "Manual",
+          "",
+          ""
+        ],
+        [
+          "Conversation routing Get conversations to the right agent based on their availability, capacity, and skill, as well as conversation priority, to ensure no conve",
+          "Based on agent status and capacity",
+          "Based on agent status and capacity",
+          "Based on agent status, capacity, skill, and ticket priority"
+        ],
+        [
+          "Multiple ticket forms Reduce the back and forth with customized support forms. Collect specific information based on how your customers answer questions for the",
+          "—",
+          "—",
+          ""
+        ],
+        [
+          "Conditional ticket fields Show only the fields that you want agents and end users to see in ticket forms for a better user experience.",
+          "—",
+          "—",
+          ""
+        ],
+        [
+          "Service level agreements (SLA) Ensure customer contracts and business goals are met through defined response and resolution times via service level agreements (",
+          "—",
+          "—",
+          ""
+        ],
+        [
+          "Skills-based routing Skills-based routing automatically sends tickets to specific team members based on their expertise for faster ticket resolution.",
+          "—",
+          "—",
+          ""
+        ],
+        [
+          "Guided mode Line up tickets for agents to work through and guide them from one ticket to the next. This prevents cherry-picking & helps speed up response times ",
+          "—",
+          "—",
+          "—"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Pre-defined responses (macros) Macros allow agents to quickly respond to common requests with a standard reply.",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Custom business rules (triggers & automations) Initiate, add, or modify workflows that are triggered by ticket changes or time-based conditions. Zendesk Suite c",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Article recommendations Enable agents to solve tickets faster with AI-powered contextual article recommendations that can be linked within tickets with just one",
+          "Help center",
+          "",
+          ""
+        ],
+        [
+          "Business rules analysis In-depth analysis of how a given ticket property is used across your triggers, automations, macros, and ticket views.",
+          "—",
+          "—",
+          "—"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Unified staff management A single source of truth & set of tools for managing staff member settings and information.",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Business hours Define business hours to let customers know your phone support availability.",
+          "—",
+          "—",
+          "Single"
+        ],
+        [
+          "Custom agent roles Specify permissions for agents and control what they have access to in Zendesk.",
+          "—",
+          "—",
+          "—"
+        ],
+        [
+          "Audit logs View a detailed list of critical changes that have been made.",
+          "—",
+          "—",
+          "—"
+        ],
+        [
+          "Version management Easily track and manage configuration changes with Inspect, Snapshot, and Compare tools. Gain clear visibility into your setups, save key con",
+          "—",
+          "—",
+          ""
+        ],
+        [
+          "Sandbox Easily replicate your ticketing system’s configurations, customizations, and metadata into a non-production space for testing, development, and training",
+          "—",
+          "—",
+          "Add-on"
+        ],
+        [
+          "Additional Sandboxes Option to buy additional Sandboxes for testing, development, and/or training purposes.",
+          "—",
+          "—",
+          ""
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Prebuilt analytics dashboards Get data on what's going well and what needs improvement with pre-built reporting dashboards and customer satisfaction ratings.",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Data exports Export insights in CSV, Excel, image, or PDF format.",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Zendesk Benchmark Compare yourself against your peers on key benchmark metrics like customer satisfaction, first response time, and ticket volume.",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Google Analytics for help center In addition to Zendesk reporting, you also have the option of using Google Analytics to track your help center traffic.",
+          "—",
+          "",
+          ""
+        ],
+        [
+          "Voice usage reporting See a breakdown of your usage charges including calls, voicemail transcriptions, recordings, text messages and phone numbers.",
+          "—",
+          "",
+          ""
+        ],
+        [
+          "Custom data exploration Create custom metrics, charts, filters, and dashboards using a point-and-click experience.",
+          "—",
+          "—",
+          ""
+        ],
+        [
+          "Scheduled dashboard delivery Schedule and automate the delivery of reporting dashboards.",
+          "—",
+          "—",
+          "Zendesk users only"
+        ],
+        [
+          "Dashboard sharing Share relevant dashboards to keep teammates and stakeholders in the loop about key insights and trends.",
+          "—",
+          "—",
+          "Zendesk users only"
+        ],
+        [
+          "Live agent activity dashboard Optimize your team’s performance in real-time by viewing live agent activity, such as agent statuses across all channels, how many",
+          "—",
+          "—",
+          "Default view"
+        ],
+        [
+          "Pre-built live dashboard Monitor and act on trends in the moment with pre-built live charts and dashboards across your Zendesk channels.",
+          "—",
+          "—",
+          ""
+        ],
+        [
+          "Customizable live dashboards Create custom live dashboards for real-time insights.",
+          "—",
+          "—",
+          "—"
+        ],
+        [
+          "Visual data alerts Set threshold alerts to visually understand when teams are under a heavy load.",
+          "—",
+          "—",
+          "—"
+        ],
+        [
+          "Refresh rate The frequency of data refresh available in your Zendesk plan. Note: for plans with 1 hour refresh rates, completion of refresh may take up to two h",
+          "24 hours",
+          "24 hours",
+          "1 hour for pre-built and custom dashboards"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Data storage Storage consumed by pre-configured and custom objects in Zendesk. Every Zendesk account includes 10GB of data storage in addition to a per-agent am",
+          "10 GB + 50 MB/agent",
+          "10 GB + 50 MB/agent",
+          "10 GB + 100 MB/agent"
+        ],
+        [
+          "File storage Storage of files attached to Zendesk objects, like email attachments in a ticket. Every Zendesk account includes 10GB of file storage in addition t",
+          "10 GB + 2 GB/agent",
+          "10 GB + 2 GB/agent",
+          "10 GB + 5 GB/agent"
+        ],
+        [
+          "Custom objects Store and connect new data sources, like products and order history, for greater context about your customer. Learn more .",
+          "—",
+          "Up to 3 objects (5 lookup fields/object)",
+          "Up to 30 objects (10 lookup fields/object)"
+        ],
+        [
+          "External knowledge storage Storage of knowledge content from external sources via Knowledge Connectors.",
+          "100 MB",
+          "500 MB",
+          "500 MB"
+        ],
+        [
+          "Zendesk events Surface events from Zendesk (such as ticket events or help center articles viewed) within the Interactions History in the agent workspace or your",
+          "—",
+          "In beta",
+          "In beta"
+        ],
+        [
+          "External events Capture every customer interaction—like shopping cart, web or mobile activity— from 3rd-party applications to get a dynamic view of the customer",
+          "—",
+          "Up to 150K/month",
+          "Up to 350K/month"
+        ],
+        [
+          "Event retention period Period of time that Zendesk will store your external events.",
+          "—",
+          "90 days",
+          "1 year"
+        ],
+        [
+          "External profiles Build customer profiles with attributes from 3rd-party applications to get a more complete picture of your customers.",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Devices data log Embeddables (SDK & Web Widget) automatically generate information about what device or version of the app was being used when a user asks for h",
+          "—",
+          "",
+          ""
+        ],
+        [
+          "AWS Events Connector With the Events Connector , stream Zendesk events in real time into key AWS services, and unlock the potential of your customer data.",
+          "—",
+          "—",
+          "Add-on"
+        ],
+        [
+          "Additional data storage If you reach your data storage limit or expect that you will, you may want to purchase more storage to increase your limit. For more inf",
+          "Add-on",
+          "Add-on",
+          "Add-on"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "API access The API is a powerful resource that many Zendesk customers use to bulk-import resources, create apps, pull data from external sources, and more.",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Additional API volume (10+ agents required) Organizations requiring additional API volumes can increase overall API rate limit to 2500 requests per minute. This",
+          "—",
+          "—",
+          "Add-on"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "User authentication options: Native, SSO, and 2FA Provide multiple user authentication options for agents and admins to easily and securely sign in, including: ",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Secure access options: IP restrictions, password complexity, session length Customize how agents and admins access Zendesk applications . IP restrictions: only ",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Agent device management Track the devices used to access your Zendesk account. Admins will receive an email notification when a new device is added.",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Data encryption at rest and in motion Automatically keep your Zendesk data secure . Data encryption at rest: service data is encrypted at rest in AWS using AES-",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Host mapping Change the URL of your help center by mapping a subdomain of your own domain (such as support.mycompany.com) toyour default Zendesk address with an",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Disaster recovery Our disaster recovery program ensures that our services remain available or are easily recoverable in the case of a disaster.",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Credit card redaction Redact credit card numbers in a custom field to prevent the credit card number from being stored in Zendesk so that you can protect confid",
+          "—",
+          "—",
+          ""
+        ],
+        [
+          "Data center location Specify where your account data is stored , whether in the US, APAC, European Economic Area, or United Kingdom. Some restrictions apply.",
+          "—",
+          "—",
+          ""
+        ],
+        [
+          "HIPAA enabled The Zendesk Business Associate Agreement (BAA) is available for execution by Subscribers here . For more details, including a list of which Servic",
+          "—",
+          "—",
+          "HIPAA Enabled"
+        ],
+        [
+          "Department spaces Easily and securely manage multiple departments in one place. Limit access to tickets based on department membership.",
+          "—",
+          "—",
+          "—"
+        ],
+        [
+          "Access log View a detailed data access record, including information on who accessed what data, when, and from where. This feature enhances your visibility and ",
+          "—",
+          "—",
+          "—"
+        ],
+        [
+          "Advanced encryption Encrypt personal information within Zendesk using customer-controlled encryption keys.",
+          "—",
+          "—",
+          "—"
+        ],
+        [
+          "Advanced data retention policies Set parameters and define what data should be stored or archived and for exactly how long.",
+          "—",
+          "—",
+          "—"
+        ],
+        [
+          "Advanced redaction Automatically remove customers’ personal information, such as email, phone, credit card information etc., in conversations with agents.",
+          "—",
+          "—",
+          "—"
+        ],
+        [
+          "Data masking Control which agents can see personal information. Ensure the right people can see the data that is necessary for their work without compromising p",
+          "—",
+          "—",
+          "—"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Messaging platform (Sunshine Conversations) 3rd party chatbots Integrate chatbots built by you or with a 3rd party into Zendesk.",
+          "—",
+          "—",
+          ""
+        ],
+        [
+          "Access to conversation tools and APIs Our messaging platform (Sunshine Conversations) APIs allow for conversation management, rich messaging, user metadata coll",
+          "—",
+          "—",
+          ""
+        ],
+        [
+          "Basic Platform Support",
+          "—",
+          "—",
+          ""
+        ],
+        [
+          "Monthly Active Users per month Monthly Active Users or ‘MAU’ is the total number of End-Users engaged in any number of sent or received messages or events withi",
+          "—",
+          "—",
+          "1,000 included ($50/pack of additional 2,500 MAUs)"
+        ],
+        [
+          "Notifications per month A Notification is an attempted or sent text, multimedia, and structured messages to any supported Third Party Messaging Platform via the",
+          "—",
+          "—",
+          "1,000 included ($50/pack of additional 25,000 Notifications)"
+        ],
+        [
+          "Channels Supported channels include WhatsApp, Apple Messages for Business, Google Business Messages, and more. For all supported channels see here .",
+          "—",
+          "—",
+          ""
+        ],
+        [
+          "Orchestration APIs (Switchboard) With the Switchboard API, you can achieve bot-to-human handover across messaging channels and business systems. The switchboard",
           "—",
           "—",
           ""

@@ -7,7 +7,7 @@
   "final_url": "https://developers.openai.com/api/docs/pricing",
   "parser_version": 4,
   "content_hash": "407b0fd8cca0b566446e50071f4d613c24ae7a39024a7c37268177b03ddfaa90",
-  "raw_hash": "ed14eda8451f5af391b004f5a93040cfc13807580c933fbedfd524fc84385d41",
+  "raw_hash": "acd9144619b1fdee9a4185c38fd318ba23df0fd0a54d59f91501a2b164a2119e",
   "text_bytes": 6793,
   "currency_hints": [],
   "extractor": "dom",
@@ -788,6 +788,54 @@
       },
       "currency": "USD",
       "unit": ""
+    },
+    {
+      "key": "o4-mini-2025-04-16",
+      "model": "o4-mini-2025-04-16",
+      "prices": {
+        "training": {
+          "raw": "$100.00",
+          "amount": 100.0
+        },
+        "input": {
+          "raw": "$4.00",
+          "amount": 4.0
+        },
+        "cached input": {
+          "raw": "$1.00",
+          "amount": 1.0
+        },
+        "output": {
+          "raw": "$16.00",
+          "amount": 16.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "o4-mini-2025-04-16 with data sharing",
+      "model": "o4-mini-2025-04-16 with data sharing",
+      "prices": {
+        "training": {
+          "raw": "$100.00",
+          "amount": 100.0
+        },
+        "input": {
+          "raw": "$2.00",
+          "amount": 2.0
+        },
+        "cached input": {
+          "raw": "$0.50",
+          "amount": 0.5
+        },
+        "output": {
+          "raw": "$8.00",
+          "amount": 8.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
     }
   ],
   "tables": [
@@ -1119,6 +1167,32 @@
           "$5.00",
           "$0.50",
           "$25.00"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Model",
+          "Training",
+          "Input",
+          "Cached input",
+          "Output"
+        ],
+        [
+          "o4-mini-2025-04-16",
+          "$100.00 / hour",
+          "$4.00",
+          "$1.00",
+          "$16.00"
+        ],
+        [
+          "o4-mini-2025-04-16 with data sharing",
+          "$100.00 / hour",
+          "$2.00",
+          "$0.50",
+          "$8.00"
         ]
       ]
     }

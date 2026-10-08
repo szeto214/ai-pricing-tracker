@@ -7,7 +7,7 @@
   "final_url": "https://zed.dev/pricing",
   "parser_version": 4,
   "content_hash": "d36170c78719b5b43d35cdb399a9953e257db2734688b669ed02fbec07aac60a",
-  "raw_hash": "6dbb0a9a1ff0a7ccfc86223bb14089d93649cf29483c9d1b52070efbbe127941",
+  "raw_hash": "f9cee79b9a1efbcfe925ab0fa503142936f97780e21ee1657b4d41abbbed9b11",
   "text_bytes": 5079,
   "currency_hints": [],
   "extractor": "dom",

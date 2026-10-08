@@ -7,7 +7,7 @@
   "final_url": "https://www.postman.com/pricing/",
   "parser_version": 4,
   "content_hash": "50160666a566e04fe1f5c1c048edd4721d2144a34e314f13387cce396c4edfc5",
-  "raw_hash": "cc5f60e0b24abc807dc1d6bf4a85ef127ea201fbc5064df6eae63adb20967e2e",
+  "raw_hash": "f13a634dc741c6886269205475f8688ccc6f7cbbff6e08301950395e05a2c860",
   "text_bytes": 23909,
   "currency_hints": [],
   "extractor": "dom",
@@ -1487,6 +1487,1451 @@
           "",
           "",
           ""
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Admin, billing, developer",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Community Manager",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Partner (External)",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Partner Manager",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "API Governance Manager",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "API Network Manager",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Super Admin Role",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Workspace Admin",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Workspace Editor / Viewer",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Partner Viewer",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Guest Access (collection viewer)",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Collection Editor",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "API Admin, Editor, Viewer",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Environment Editor",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Environment Viewer",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Mock Server Editor",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Mock Server Viewer",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Monitor Editor",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Monitor Viewer",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "API Network Folder Manager",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Support",
+          "Community & Email",
+          "Community & Email",
+          "Community & Email",
+          "24x5 support (24h SLA)"
+        ],
+        [
+          "Premium Support",
+          "",
+          "",
+          "",
+          "Premium Support add-on"
+        ],
+        [
+          "Custom terms of service",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Postman AI"
+        ],
+        [
+          "Postman AI credits",
+          "50 / month"
+        ],
+        [
+          "Postman AI overages (Pay-as-you-go)",
+          ""
+        ],
+        [
+          "Context Graph ingestion & refresh",
+          "Free, 24 hr refresh"
+        ],
+        [
+          "Context Graph API queries",
+          "1,000 / month, then $0.01 / query"
+        ],
+        [
+          "Development"
+        ],
+        [
+          "Multi-protocol API client",
+          ""
+        ],
+        [
+          "MCP Client (Model Context Protocol)",
+          ""
+        ],
+        [
+          "Collections and environments",
+          ""
+        ],
+        [
+          "Reusable requests",
+          ""
+        ],
+        [
+          "Collection generation & sync",
+          ""
+        ],
+        [
+          "Specs",
+          ""
+        ],
+        [
+          "API versioning",
+          ""
+        ],
+        [
+          "Native Git",
+          ""
+        ],
+        [
+          "Test data storage",
+          ""
+        ],
+        [
+          "IDE extension (VS Code)",
+          ""
+        ],
+        [
+          "Mock Servers",
+          ""
+        ],
+        [
+          "Unlimited manual Flows",
+          ""
+        ],
+        [
+          "Postman CLI",
+          ""
+        ],
+        [
+          "Webhooks",
+          ""
+        ],
+        [
+          "Commenting & annotations",
+          ""
+        ],
+        [
+          "Public NPM packages",
+          ""
+        ],
+        [
+          "Private NPM packages",
+          ""
+        ],
+        [
+          "Testing"
+        ],
+        [
+          "Automated API testing (Unlimited, Collection Runner)",
+          ""
+        ],
+        [
+          "Multi-protocol Runner",
+          ""
+        ],
+        [
+          "Data file support in Collection Runner",
+          ""
+        ],
+        [
+          "Datasets",
+          ""
+        ],
+        [
+          "Unlimited local performance testing",
+          ""
+        ],
+        [
+          "Cloud performance testing",
+          ""
+        ],
+        [
+          "Playwright integration",
+          ""
+        ],
+        [
+          "Test result exports",
+          ""
+        ],
+        [
+          "Automation Flows",
+          "25 credits / month"
+        ],
+        [
+          "Production"
+        ],
+        [
+          "API monitoring (per team, per month)",
+          "1,000 requests"
+        ],
+        [
+          "Monitor reports",
+          ""
+        ],
+        [
+          "Insights (production visibility)",
+          ""
+        ],
+        [
+          "API Catalog (system of record)",
+          ""
+        ],
+        [
+          "Private runners (tests & Flows)",
+          ""
+        ],
+        [
+          "Distribution"
+        ],
+        [
+          "Public workspaces",
+          ""
+        ],
+        [
+          "Public API Network",
+          ""
+        ],
+        [
+          "API documentation (public & private)",
+          "Postman branded"
+        ],
+        [
+          "Custom domains (unlimited)",
+          ""
+        ],
+        [
+          "Postman Shared Vault",
+          ""
+        ],
+        [
+          "Shared package library",
+          ""
+        ],
+        [
+          "SDK generation & distribution",
+          ""
+        ],
+        [
+          "Workspace & collection viewers",
+          ""
+        ],
+        [
+          "Private API Network",
+          ""
+        ],
+        [
+          "API Management"
+        ],
+        [
+          "Total users included",
+          "1 user"
+        ],
+        [
+          "Integrations",
+          "Up to 5"
+        ],
+        [
+          "Calls to Postman API (monthly)",
+          "10,000"
+        ],
+        [
+          "Collection recovery",
+          "1 day"
+        ],
+        [
+          "Postman Local Vault",
+          ""
+        ],
+        [
+          "Secret Scanner - Local Secret Protection",
+          ""
+        ],
+        [
+          "Secret Scanner - Cloud Secret Detection",
+          ""
+        ],
+        [
+          "Role-based access control (RBAC)",
+          ""
+        ],
+        [
+          "Simple Security - SSO / SAML",
+          ""
+        ],
+        [
+          "User provisioning (SCIM)",
+          ""
+        ],
+        [
+          "User groups",
+          ""
+        ],
+        [
+          "Organizations",
+          ""
+        ],
+        [
+          "Internal workspaces",
+          ""
+        ],
+        [
+          "Private workspaces (invite only)",
+          ""
+        ],
+        [
+          "External workspaces (Partner & multi-Partner)",
+          ""
+        ],
+        [
+          "Workspace archival",
+          ""
+        ],
+        [
+          "Audit logs & compliance reporting",
+          ""
+        ],
+        [
+          "Deployment control",
+          ""
+        ],
+        [
+          "API & package library governance",
+          ""
+        ],
+        [
+          "AI input guardrails",
+          ""
+        ],
+        [
+          "Data residency (EU-only)",
+          ""
+        ],
+        [
+          "Domain Verification",
+          ""
+        ],
+        [
+          "Domain Capture",
+          ""
+        ],
+        [
+          "Postman Vault integrations",
+          ""
+        ],
+        [
+          "Advanced secret security controls",
+          ""
+        ],
+        [
+          "Account Discovery",
+          ""
+        ],
+        [
+          "Account Control",
+          ""
+        ],
+        [
+          "Manage roles"
+        ],
+        [
+          "Team-level roles"
+        ],
+        [
+          "Workspace-level roles"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Postman AI"
+        ],
+        [
+          "Postman AI credits",
+          "400 / month"
+        ],
+        [
+          "Postman AI overages (Pay-as-you-go)",
+          "$0.05 / credit"
+        ],
+        [
+          "Context Graph ingestion & refresh",
+          "Free, 24 hr refresh"
+        ],
+        [
+          "Context Graph API queries",
+          "5,000 / month, then $0.01 / query"
+        ],
+        [
+          "Development"
+        ],
+        [
+          "Multi-protocol API client",
+          ""
+        ],
+        [
+          "MCP Client (Model Context Protocol)",
+          ""
+        ],
+        [
+          "Collections and environments",
+          ""
+        ],
+        [
+          "Reusable requests",
+          ""
+        ],
+        [
+          "Collection generation & sync",
+          ""
+        ],
+        [
+          "Specs",
+          ""
+        ],
+        [
+          "API versioning",
+          ""
+        ],
+        [
+          "Native Git",
+          ""
+        ],
+        [
+          "Test data storage",
+          ""
+        ],
+        [
+          "IDE extension (VS Code)",
+          ""
+        ],
+        [
+          "Mock Servers",
+          ""
+        ],
+        [
+          "Unlimited manual Flows",
+          ""
+        ],
+        [
+          "Postman CLI",
+          ""
+        ],
+        [
+          "Webhooks",
+          ""
+        ],
+        [
+          "Commenting & annotations",
+          ""
+        ],
+        [
+          "Public NPM packages",
+          ""
+        ],
+        [
+          "Private NPM packages",
+          ""
+        ],
+        [
+          "Testing"
+        ],
+        [
+          "Automated API testing (Unlimited, Collection Runner)",
+          ""
+        ],
+        [
+          "Multi-protocol Runner",
+          ""
+        ],
+        [
+          "Data file support in Collection Runner",
+          ""
+        ],
+        [
+          "Datasets",
+          ""
+        ],
+        [
+          "Unlimited local performance testing",
+          ""
+        ],
+        [
+          "Cloud performance testing",
+          "$0.04 / VuH"
+        ],
+        [
+          "Playwright integration",
+          ""
+        ],
+        [
+          "Test result exports",
+          ""
+        ],
+        [
+          "Automation Flows",
+          "50 credits / month"
+        ],
+        [
+          "Production"
+        ],
+        [
+          "API monitoring (per team, per month)",
+          "10,000 requests"
+        ],
+        [
+          "Monitor reports",
+          ""
+        ],
+        [
+          "Insights (production visibility)",
+          ""
+        ],
+        [
+          "API Catalog (system of record)",
+          ""
+        ],
+        [
+          "Private runners (tests & Flows)",
+          ""
+        ],
+        [
+          "Distribution"
+        ],
+        [
+          "Public workspaces",
+          ""
+        ],
+        [
+          "Public API Network",
+          ""
+        ],
+        [
+          "API documentation (public & private)",
+          "Custom branded"
+        ],
+        [
+          "Custom domains (unlimited)",
+          ""
+        ],
+        [
+          "Postman Shared Vault",
+          ""
+        ],
+        [
+          "Shared package library",
+          ""
+        ],
+        [
+          "SDK generation & distribution",
+          ""
+        ],
+        [
+          "Workspace & collection viewers",
+          ""
+        ],
+        [
+          "Private API Network",
+          ""
+        ],
+        [
+          "API Management"
+        ],
+        [
+          "Total users included",
+          "1 user"
+        ],
+        [
+          "Integrations",
+          "Up to 10"
+        ],
+        [
+          "Calls to Postman API (monthly)",
+          "100,000"
+        ],
+        [
+          "Collection recovery",
+          "30 days"
+        ],
+        [
+          "Postman Local Vault",
+          ""
+        ],
+        [
+          "Secret Scanner - Local Secret Protection",
+          ""
+        ],
+        [
+          "Secret Scanner - Cloud Secret Detection",
+          ""
+        ],
+        [
+          "Role-based access control (RBAC)",
+          ""
+        ],
+        [
+          "Simple Security - SSO / SAML",
+          ""
+        ],
+        [
+          "User provisioning (SCIM)",
+          ""
+        ],
+        [
+          "User groups",
+          ""
+        ],
+        [
+          "Organizations",
+          ""
+        ],
+        [
+          "Internal workspaces",
+          ""
+        ],
+        [
+          "Private workspaces (invite only)",
+          ""
+        ],
+        [
+          "External workspaces (Partner & multi-Partner)",
+          ""
+        ],
+        [
+          "Workspace archival",
+          ""
+        ],
+        [
+          "Audit logs & compliance reporting",
+          ""
+        ],
+        [
+          "Deployment control",
+          ""
+        ],
+        [
+          "API & package library governance",
+          ""
+        ],
+        [
+          "AI input guardrails",
+          ""
+        ],
+        [
+          "Data residency (EU-only)",
+          ""
+        ],
+        [
+          "Domain Verification",
+          ""
+        ],
+        [
+          "Domain Capture",
+          ""
+        ],
+        [
+          "Postman Vault integrations",
+          ""
+        ],
+        [
+          "Advanced secret security controls",
+          ""
+        ],
+        [
+          "Account Discovery",
+          ""
+        ],
+        [
+          "Account Control",
+          ""
+        ],
+        [
+          "Manage roles"
+        ],
+        [
+          "Team-level roles"
+        ],
+        [
+          "Workspace-level roles"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Postman AI"
+        ],
+        [
+          "Postman AI credits",
+          "400 / user / month"
+        ],
+        [
+          "Postman AI overages (Pay-as-you-go)",
+          "$0.04 / credit"
+        ],
+        [
+          "Context Graph ingestion & refresh",
+          "Free, 24 hr refresh"
+        ],
+        [
+          "Context Graph API queries",
+          "5,000 / month, then $0.01 / query"
+        ],
+        [
+          "Development"
+        ],
+        [
+          "Multi-protocol API client",
+          ""
+        ],
+        [
+          "MCP Client (Model Context Protocol)",
+          ""
+        ],
+        [
+          "Collections and environments",
+          ""
+        ],
+        [
+          "Reusable requests",
+          ""
+        ],
+        [
+          "Collection generation & sync",
+          ""
+        ],
+        [
+          "Specs",
+          ""
+        ],
+        [
+          "API versioning",
+          ""
+        ],
+        [
+          "Native Git",
+          ""
+        ],
+        [
+          "Test data storage",
+          ""
+        ],
+        [
+          "IDE extension (VS Code)",
+          ""
+        ],
+        [
+          "Mock Servers",
+          ""
+        ],
+        [
+          "Unlimited manual Flows",
+          ""
+        ],
+        [
+          "Postman CLI",
+          ""
+        ],
+        [
+          "Webhooks",
+          ""
+        ],
+        [
+          "Commenting & annotations",
+          ""
+        ],
+        [
+          "Public NPM packages",
+          ""
+        ],
+        [
+          "Private NPM packages",
+          ""
+        ],
+        [
+          "Testing"
+        ],
+        [
+          "Automated API testing (Unlimited, Collection Runner)",
+          ""
+        ],
+        [
+          "Multi-protocol Runner",
+          ""
+        ],
+        [
+          "Data file support in Collection Runner",
+          ""
+        ],
+        [
+          "Datasets",
+          ""
+        ],
+        [
+          "Unlimited local performance testing",
+          ""
+        ],
+        [
+          "Cloud performance testing",
+          "$0.04 / VuH"
+        ],
+        [
+          "Playwright integration",
+          ""
+        ],
+        [
+          "Test result exports",
+          ""
+        ],
+        [
+          "Automation Flows",
+          "100 credits / team / month"
+        ],
+        [
+          "Production"
+        ],
+        [
+          "API monitoring (per team, per month)",
+          "10,000 requests"
+        ],
+        [
+          "Monitor reports",
+          ""
+        ],
+        [
+          "Insights (production visibility)",
+          ""
+        ],
+        [
+          "API Catalog (system of record)",
+          ""
+        ],
+        [
+          "Private runners (tests & Flows)",
+          ""
+        ],
+        [
+          "Distribution"
+        ],
+        [
+          "Public workspaces",
+          ""
+        ],
+        [
+          "Public API Network",
+          ""
+        ],
+        [
+          "API documentation (public & private)",
+          "Custom branded"
+        ],
+        [
+          "Custom domains (unlimited)",
+          ""
+        ],
+        [
+          "Postman Shared Vault",
+          ""
+        ],
+        [
+          "Shared package library",
+          ""
+        ],
+        [
+          "SDK generation & distribution",
+          ""
+        ],
+        [
+          "Workspace & collection viewers",
+          "Unlimited"
+        ],
+        [
+          "Private API Network",
+          ""
+        ],
+        [
+          "API Management"
+        ],
+        [
+          "Total users included",
+          "Unlimited"
+        ],
+        [
+          "Integrations",
+          "Up to 50"
+        ],
+        [
+          "Calls to Postman API (monthly)",
+          "1 million"
+        ],
+        [
+          "Collection recovery",
+          "90 days"
+        ],
+        [
+          "Postman Local Vault",
+          ""
+        ],
+        [
+          "Secret Scanner - Local Secret Protection",
+          ""
+        ],
+        [
+          "Secret Scanner - Cloud Secret Detection",
+          ""
+        ],
+        [
+          "Role-based access control (RBAC)",
+          "Basic"
+        ],
+        [
+          "Simple Security - SSO / SAML",
+          "Simple Security add-on"
+        ],
+        [
+          "User provisioning (SCIM)",
+          ""
+        ],
+        [
+          "User groups",
+          ""
+        ],
+        [
+          "Organizations",
+          ""
+        ],
+        [
+          "Internal workspaces",
+          ""
+        ],
+        [
+          "Private workspaces (invite only)",
+          ""
+        ],
+        [
+          "External workspaces (Partner & multi-Partner)",
+          ""
+        ],
+        [
+          "Workspace archival",
+          ""
+        ],
+        [
+          "Audit logs & compliance reporting",
+          ""
+        ],
+        [
+          "Deployment control",
+          ""
+        ],
+        [
+          "API & package library governance",
+          ""
+        ],
+        [
+          "AI input guardrails",
+          ""
+        ],
+        [
+          "Data residency (EU-only)",
+          ""
+        ],
+        [
+          "Domain Verification",
+          ""
+        ],
+        [
+          "Domain Capture",
+          ""
+        ],
+        [
+          "Postman Vault integrations",
+          ""
+        ],
+        [
+          "Advanced secret security controls",
+          ""
+        ],
+        [
+          "Account Discovery",
+          ""
+        ],
+        [
+          "Account Control",
+          ""
+        ],
+        [
+          "Manage roles"
+        ],
+        [
+          "Team-level roles"
+        ],
+        [
+          "Workspace-level roles"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Postman AI"
+        ],
+        [
+          "Postman AI credits",
+          "800 / user / month (pooled)"
+        ],
+        [
+          "Postman AI overages (Pay-as-you-go)",
+          "$0.035 / credit (volume pricing available)"
+        ],
+        [
+          "Context Graph ingestion & refresh",
+          "Free, 24 hr refresh"
+        ],
+        [
+          "Context Graph API queries",
+          "5,000 / month, then $0.01 / query"
+        ],
+        [
+          "Development"
+        ],
+        [
+          "Multi-protocol API client",
+          ""
+        ],
+        [
+          "MCP Client (Model Context Protocol)",
+          ""
+        ],
+        [
+          "Collections and environments",
+          ""
+        ],
+        [
+          "Reusable requests",
+          ""
+        ],
+        [
+          "Collection generation & sync",
+          ""
+        ],
+        [
+          "Specs",
+          ""
+        ],
+        [
+          "API versioning",
+          ""
+        ],
+        [
+          "Native Git",
+          ""
+        ],
+        [
+          "Test data storage",
+          ""
+        ],
+        [
+          "IDE extension (VS Code)",
+          ""
+        ],
+        [
+          "Mock Servers",
+          ""
+        ],
+        [
+          "Unlimited manual Flows",
+          ""
+        ],
+        [
+          "Postman CLI",
+          ""
+        ],
+        [
+          "Webhooks",
+          ""
+        ],
+        [
+          "Commenting & annotations",
+          ""
+        ],
+        [
+          "Public NPM packages",
+          ""
+        ],
+        [
+          "Private NPM packages",
+          ""
+        ],
+        [
+          "Testing"
+        ],
+        [
+          "Automated API testing (Unlimited, Collection Runner)",
+          ""
+        ],
+        [
+          "Multi-protocol Runner",
+          ""
+        ],
+        [
+          "Data file support in Collection Runner",
+          ""
+        ],
+        [
+          "Datasets",
+          ""
+        ],
+        [
+          "Unlimited local performance testing",
+          ""
+        ],
+        [
+          "Cloud performance testing",
+          "$0.04 / VuH"
+        ],
+        [
+          "Playwright integration",
+          ""
+        ],
+        [
+          "Test result exports",
+          ""
+        ],
+        [
+          "Automation Flows",
+          "500 credits / team / month"
+        ],
+        [
+          "Production"
+        ],
+        [
+          "API monitoring (per team, per month)",
+          "10,000 requests"
+        ],
+        [
+          "Monitor reports",
+          "Enterprise support & approval workflows"
+        ],
+        [
+          "Insights (production visibility)",
+          ""
+        ],
+        [
+          "API Catalog (system of record)",
+          ""
+        ],
+        [
+          "Private runners (tests & Flows)",
+          ""
+        ],
+        [
+          "Distribution"
+        ],
+        [
+          "Public workspaces",
+          ""
+        ],
+        [
+          "Public API Network",
+          ""
+        ],
+        [
+          "API documentation (public & private)",
+          "Custom branded"
+        ],
+        [
+          "Custom domains (unlimited)",
+          ""
+        ],
+        [
+          "Postman Shared Vault",
+          ""
+        ],
+        [
+          "Shared package library",
+          ""
+        ],
+        [
+          "SDK generation & distribution",
+          "+ Auto PR feature"
+        ],
+        [
+          "Workspace & collection viewers",
+          "Unlimited"
+        ],
+        [
+          "Private API Network",
+          ""
+        ],
+        [
+          "API Management"
+        ],
+        [
+          "Total users included",
+          "Unlimited"
+        ],
+        [
+          "Integrations",
+          "Up to 100"
+        ],
+        [
+          "Calls to Postman API (monthly)",
+          "10 million"
+        ],
+        [
+          "Collection recovery",
+          "90 days"
+        ],
+        [
+          "Postman Local Vault",
+          ""
+        ],
+        [
+          "Secret Scanner - Local Secret Protection",
+          ""
+        ],
+        [
+          "Secret Scanner - Cloud Secret Detection",
+          ""
+        ],
+        [
+          "Role-based access control (RBAC)",
+          "Advanced"
+        ],
+        [
+          "Simple Security - SSO / SAML",
+          ""
+        ],
+        [
+          "User provisioning (SCIM)",
+          ""
+        ],
+        [
+          "User groups",
+          ""
+        ],
+        [
+          "Organizations",
+          ""
+        ],
+        [
+          "Internal workspaces",
+          ""
+        ],
+        [
+          "Private workspaces (invite only)",
+          ""
+        ],
+        [
+          "External workspaces (Partner & multi-Partner)",
+          ""
+        ],
+        [
+          "Workspace archival",
+          ""
+        ],
+        [
+          "Audit logs & compliance reporting",
+          ""
+        ],
+        [
+          "Deployment control",
+          ""
+        ],
+        [
+          "API & package library governance",
+          ""
+        ],
+        [
+          "AI input guardrails",
+          ""
+        ],
+        [
+          "Data residency (EU-only)",
+          ""
+        ],
+        [
+          "Domain Verification",
+          ""
+        ],
+        [
+          "Domain Capture",
+          "Advanced Security add-on"
+        ],
+        [
+          "Postman Vault integrations",
+          "Advanced Security add-on"
+        ],
+        [
+          "Advanced secret security controls",
+          "Advanced Security add-on"
+        ],
+        [
+          "Account Discovery",
+          "Advanced Security add-on"
+        ],
+        [
+          "Account Control",
+          "Advanced Security add-on"
+        ],
+        [
+          "Manage roles"
+        ],
+        [
+          "Team-level roles"
+        ],
+        [
+          "Workspace-level roles"
         ]
       ]
     }

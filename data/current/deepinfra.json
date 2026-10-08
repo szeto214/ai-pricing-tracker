@@ -6,9 +6,9 @@
   "url": "https://deepinfra.com/pricing",
   "final_url": "https://deepinfra.com/pricing",
   "parser_version": 4,
-  "content_hash": "92f0e5037655ae50d5760d07a2d884f3f5eb9caf98401f9e6ee4fd91e8cdbf10",
-  "raw_hash": "26c69effe2421f4e8bccd0a9dd6d5e631a451e88ad55e99ece5222f5caaf9eac",
-  "text_bytes": 15551,
+  "content_hash": "ec0a3fb8fcbb2f6089c86c689e55e16bff578382b80705ed648a2986e1254b87",
+  "raw_hash": "8c9d9716c0ce0ccf6fe070265c108380ccd39060ddebb8254b0b6ec669bdd273",
+  "text_bytes": 15505,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -613,6 +613,422 @@
       },
       "currency": "USD",
       "unit": "per 1m input tokens"
+    },
+    {
+      "key": "llama-3.3-70b-instruct-turbo",
+      "model": "Llama-3.3-70B-Instruct-Turbo",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$0.10",
+          "amount": 0.1
+        },
+        "$ per 1m output tokens": {
+          "raw": "$0.32",
+          "amount": 0.32
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "meta-llama-3.1-70b-instruct-turbo",
+      "model": "Meta-Llama-3.1-70B-Instruct-Turbo",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$0.40",
+          "amount": 0.4
+        },
+        "$ per 1m output tokens": {
+          "raw": "$0.40",
+          "amount": 0.4
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "meta-llama-3.1-8b-instruct-turbo",
+      "model": "Meta-Llama-3.1-8B-Instruct-Turbo",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$0.02",
+          "amount": 0.02
+        },
+        "$ per 1m output tokens": {
+          "raw": "$0.04",
+          "amount": 0.04
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "gemini-3.5-flash",
+      "model": "gemini-3.5-flash",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$1.50",
+          "amount": 1.5
+        },
+        "$ per 1m output tokens": {
+          "raw": "$9.00",
+          "amount": 9.0
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "gemini-3.1-flash-lite",
+      "model": "gemini-3.1-flash-lite",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$0.25",
+          "amount": 0.25
+        },
+        "$ per 1m output tokens": {
+          "raw": "$1.50",
+          "amount": 1.5
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "gemini-3.1-pro",
+      "model": "gemini-3.1-pro",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$2.00",
+          "amount": 2.0
+        },
+        "$ per 1m output tokens": {
+          "raw": "$12.00",
+          "amount": 12.0
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "gemini-2.5-pro",
+      "model": "gemini-2.5-pro",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$1.25",
+          "amount": 1.25
+        },
+        "$ per 1m output tokens": {
+          "raw": "$10.00",
+          "amount": 10.0
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "gemini-2.5-flash",
+      "model": "gemini-2.5-flash",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$0.30",
+          "amount": 0.3
+        },
+        "$ per 1m output tokens": {
+          "raw": "$2.50",
+          "amount": 2.5
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "gemma-4-31b-it-ultra",
+      "model": "gemma-4-31B-it-Ultra",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$0.27",
+          "amount": 0.27
+        },
+        "$ per 1m output tokens": {
+          "raw": "$0.76",
+          "amount": 0.76
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "gemma-4-31b-it-turbo",
+      "model": "gemma-4-31B-it-turbo",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$0.09",
+          "amount": 0.09
+        },
+        "$ per 1m output tokens": {
+          "raw": "$0.34",
+          "amount": 0.34
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "gemma-4-31b-it",
+      "model": "gemma-4-31B-it",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$0.20",
+          "amount": 0.2
+        },
+        "$ per 1m output tokens": {
+          "raw": "$0.40",
+          "amount": 0.4
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "gemma-4-26b-a4b-it",
+      "model": "gemma-4-26B-A4B-it",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$0.07",
+          "amount": 0.07
+        },
+        "$ per 1m output tokens": {
+          "raw": "$0.34",
+          "amount": 0.34
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "gemma-3-27b-it",
+      "model": "gemma-3-27b-it",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$0.08",
+          "amount": 0.08
+        },
+        "$ per 1m output tokens": {
+          "raw": "$0.16",
+          "amount": 0.16
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "gemma-3-12b-it",
+      "model": "gemma-3-12b-it",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$0.05",
+          "amount": 0.05
+        },
+        "$ per 1m output tokens": {
+          "raw": "$0.15",
+          "amount": 0.15
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "gemma-3-4b-it",
+      "model": "gemma-3-4b-it",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$0.05",
+          "amount": 0.05
+        },
+        "$ per 1m output tokens": {
+          "raw": "$0.10",
+          "amount": 0.1
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "nvidia-nemotron-3.5-lightning",
+      "model": "NVIDIA-Nemotron-3.5-Lightning",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$0.06",
+          "amount": 0.06
+        },
+        "$ per 1m output tokens": {
+          "raw": "$0.16",
+          "amount": 0.16
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "nemotron-content-safety-3.5",
+      "model": "Nemotron-Content-Safety-3.5",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$0.20",
+          "amount": 0.2
+        },
+        "$ per 1m output tokens": {
+          "raw": "$0.20",
+          "amount": 0.2
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "nvidia-nemotron-3-ultra-550b-a55b",
+      "model": "NVIDIA-Nemotron-3-Ultra-550B-A55B",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$0.50",
+          "amount": 0.5
+        },
+        "$ per 1m output tokens": {
+          "raw": "$2.20",
+          "amount": 2.2
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "nvidia-nemotron-3-super-120b-a12b",
+      "model": "NVIDIA-Nemotron-3-Super-120B-A12B",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$0.085",
+          "amount": 0.085
+        },
+        "$ per 1m output tokens": {
+          "raw": "$0.40",
+          "amount": 0.4
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "claude-opus-5",
+      "model": "claude-opus-5",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$5.00",
+          "amount": 5.0
+        },
+        "$ per 1m output tokens": {
+          "raw": "$25.00",
+          "amount": 25.0
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "claude-fable-5",
+      "model": "claude-fable-5",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$10.00",
+          "amount": 10.0
+        },
+        "$ per 1m output tokens": {
+          "raw": "$50.00",
+          "amount": 50.0
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "claude-sonnet-5",
+      "model": "claude-sonnet-5",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$3.00",
+          "amount": 3.0
+        },
+        "$ per 1m output tokens": {
+          "raw": "$15.00",
+          "amount": 15.0
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "claude-haiku-4-5",
+      "model": "claude-haiku-4-5",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$1.00",
+          "amount": 1.0
+        },
+        "$ per 1m output tokens": {
+          "raw": "$5.00",
+          "amount": 5.0
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "claude-sonnet-4-6",
+      "model": "claude-sonnet-4-6",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$3.00",
+          "amount": 3.0
+        },
+        "$ per 1m output tokens": {
+          "raw": "$15.00",
+          "amount": 15.0
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "claude-opus-4-7",
+      "model": "claude-opus-4-7",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$5.00",
+          "amount": 5.0
+        },
+        "$ per 1m output tokens": {
+          "raw": "$25.00",
+          "amount": 25.0
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "claude-opus-4-8",
+      "model": "claude-opus-4-8",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$5.00",
+          "amount": 5.0
+        },
+        "$ per 1m output tokens": {
+          "raw": "$25.00",
+          "amount": 25.0
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
     }
   ],
   "tables": [
@@ -1128,6 +1544,528 @@
           "160k",
           "$0.18",
           "$0.18",
+          "View more"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Model",
+          "Context",
+          "$ per 1M input tokens",
+          "$ per 1M output tokens",
+          "Actions"
+        ],
+        [
+          "Llama-3.3-70B-Instruct-Turbo",
+          "128k",
+          "$0.10",
+          "$0.32",
+          "View more"
+        ],
+        [
+          "Meta-Llama-3.1-70B-Instruct-Turbo",
+          "128k",
+          "$0.40",
+          "$0.40",
+          "View more"
+        ],
+        [
+          "Meta-Llama-3.1-8B-Instruct-Turbo",
+          "128k",
+          "$0.02",
+          "$0.04",
+          "View more"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Model",
+          "Context",
+          "$ per 1M input tokens",
+          "$ per 1M output tokens",
+          "Actions"
+        ],
+        [
+          "Llama-3.3-70B-Instruct-Turbo",
+          "128k",
+          "$0.10",
+          "$0.32",
+          "View more"
+        ],
+        [
+          "Meta-Llama-3.1-70B-Instruct-Turbo",
+          "128k",
+          "$0.40",
+          "$0.40",
+          "View more"
+        ],
+        [
+          "Meta-Llama-3.1-8B-Instruct-Turbo",
+          "128k",
+          "$0.02",
+          "$0.04",
+          "View more"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Model",
+          "Context",
+          "$ per 1M input tokens",
+          "$ per 1M output tokens",
+          "Actions"
+        ],
+        [
+          "gemini-3.5-flash",
+          "976k",
+          "$1.50",
+          "$9.00",
+          "View more"
+        ],
+        [
+          "gemini-3.1-flash-lite",
+          "976k",
+          "$0.25",
+          "$1.50",
+          "View more"
+        ],
+        [
+          "gemini-3.1-pro",
+          "976k",
+          "$2.00",
+          "$12.00",
+          "View more"
+        ],
+        [
+          "gemini-2.5-pro",
+          "976k",
+          "$1.25",
+          "$10.00",
+          "View more"
+        ],
+        [
+          "gemini-2.5-flash",
+          "976k",
+          "$0.30",
+          "$2.50",
+          "View more"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Model",
+          "Context",
+          "$ per 1M input tokens",
+          "$ per 1M output tokens",
+          "Actions"
+        ],
+        [
+          "gemini-3.5-flash",
+          "976k",
+          "$1.50",
+          "$9.00",
+          "View more"
+        ],
+        [
+          "gemini-3.1-flash-lite",
+          "976k",
+          "$0.25",
+          "$1.50",
+          "View more"
+        ],
+        [
+          "gemini-3.1-pro",
+          "976k",
+          "$2.00",
+          "$12.00",
+          "View more"
+        ],
+        [
+          "gemini-2.5-pro",
+          "976k",
+          "$1.25",
+          "$10.00",
+          "View more"
+        ],
+        [
+          "gemini-2.5-flash",
+          "976k",
+          "$0.30",
+          "$2.50",
+          "View more"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Model",
+          "Context",
+          "$ per 1M input tokens",
+          "$ per 1M output tokens",
+          "Actions"
+        ],
+        [
+          "gemma-4-31B-it-Ultra",
+          "128k",
+          "$0.27",
+          "$0.76",
+          "View more"
+        ],
+        [
+          "gemma-4-31B-it-turbo",
+          "256k",
+          "$0.09 / $0.05 cached",
+          "$0.34",
+          "View more"
+        ],
+        [
+          "gemma-4-31B-it",
+          "256k",
+          "$0.20",
+          "$0.40",
+          "View more"
+        ],
+        [
+          "gemma-4-26B-A4B-it",
+          "256k",
+          "$0.07",
+          "$0.34",
+          "View more"
+        ],
+        [
+          "gemma-3-27b-it",
+          "128k",
+          "$0.08",
+          "$0.16",
+          "View more"
+        ],
+        [
+          "gemma-3-12b-it",
+          "128k",
+          "$0.05",
+          "$0.15",
+          "View more"
+        ],
+        [
+          "gemma-3-4b-it",
+          "128k",
+          "$0.05",
+          "$0.10",
+          "View more"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Model",
+          "Context",
+          "$ per 1M input tokens",
+          "$ per 1M output tokens",
+          "Actions"
+        ],
+        [
+          "gemma-4-31B-it-Ultra",
+          "128k",
+          "$0.27",
+          "$0.76",
+          "View more"
+        ],
+        [
+          "gemma-4-31B-it-turbo",
+          "256k",
+          "$0.09 / $0.05 cached",
+          "$0.34",
+          "View more"
+        ],
+        [
+          "gemma-4-31B-it",
+          "256k",
+          "$0.20",
+          "$0.40",
+          "View more"
+        ],
+        [
+          "gemma-4-26B-A4B-it",
+          "256k",
+          "$0.07",
+          "$0.34",
+          "View more"
+        ],
+        [
+          "gemma-3-27b-it",
+          "128k",
+          "$0.08",
+          "$0.16",
+          "View more"
+        ],
+        [
+          "gemma-3-12b-it",
+          "128k",
+          "$0.05",
+          "$0.15",
+          "View more"
+        ],
+        [
+          "gemma-3-4b-it",
+          "128k",
+          "$0.05",
+          "$0.10",
+          "View more"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Model",
+          "Context",
+          "$ per 1M input tokens",
+          "$ per 1M output tokens",
+          "Actions"
+        ],
+        [
+          "NVIDIA-Nemotron-3.5-Lightning",
+          "256k",
+          "$0.06 / $0.03 cached",
+          "$0.16",
+          "View more"
+        ],
+        [
+          "Nemotron-Content-Safety-3.5",
+          "128k",
+          "$0.20",
+          "$0.20",
+          "View more"
+        ],
+        [
+          "NVIDIA-Nemotron-3-Ultra-550B-A55B",
+          "256k",
+          "$0.50 / $0.10 cached",
+          "$2.20",
+          "View more"
+        ],
+        [
+          "NVIDIA-Nemotron-3-Super-120B-A12B",
+          "256k",
+          "$0.085",
+          "$0.40",
+          "View more"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Model",
+          "Context",
+          "$ per 1M input tokens",
+          "$ per 1M output tokens",
+          "Actions"
+        ],
+        [
+          "NVIDIA-Nemotron-3.5-Lightning",
+          "256k",
+          "$0.06 / $0.03 cached",
+          "$0.16",
+          "View more"
+        ],
+        [
+          "Nemotron-Content-Safety-3.5",
+          "128k",
+          "$0.20",
+          "$0.20",
+          "View more"
+        ],
+        [
+          "NVIDIA-Nemotron-3-Ultra-550B-A55B",
+          "256k",
+          "$0.50 / $0.10 cached",
+          "$2.20",
+          "View more"
+        ],
+        [
+          "NVIDIA-Nemotron-3-Super-120B-A12B",
+          "256k",
+          "$0.085",
+          "$0.40",
+          "View more"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Model",
+          "Context",
+          "$ per 1M input tokens",
+          "$ per 1M output tokens",
+          "Actions"
+        ],
+        [
+          "claude-opus-5",
+          "976k",
+          "$5.00",
+          "$25.00",
+          "View more"
+        ],
+        [
+          "claude-fable-5",
+          "976k",
+          "$10.00",
+          "$50.00",
+          "View more"
+        ],
+        [
+          "claude-sonnet-5",
+          "976k",
+          "$3.00",
+          "$15.00",
+          "View more"
+        ],
+        [
+          "claude-haiku-4-5",
+          "195k",
+          "$1.00",
+          "$5.00",
+          "View more"
+        ],
+        [
+          "claude-sonnet-4-6",
+          "976k",
+          "$3.00",
+          "$15.00",
+          "View more"
+        ],
+        [
+          "claude-opus-4-7",
+          "976k",
+          "$5.00",
+          "$25.00",
+          "View more"
+        ],
+        [
+          "claude-opus-4-8",
+          "976k",
+          "$5.00",
+          "$25.00",
+          "View more"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Model",
+          "Context",
+          "$ per 1M input tokens",
+          "$ per 1M output tokens",
+          "Actions"
+        ],
+        [
+          "claude-opus-5",
+          "976k",
+          "$5.00",
+          "$25.00",
+          "View more"
+        ],
+        [
+          "claude-fable-5",
+          "976k",
+          "$10.00",
+          "$50.00",
+          "View more"
+        ],
+        [
+          "claude-sonnet-5",
+          "976k",
+          "$3.00",
+          "$15.00",
+          "View more"
+        ],
+        [
+          "claude-haiku-4-5",
+          "195k",
+          "$1.00",
+          "$5.00",
+          "View more"
+        ],
+        [
+          "claude-sonnet-4-6",
+          "976k",
+          "$3.00",
+          "$15.00",
+          "View more"
+        ],
+        [
+          "claude-opus-4-7",
+          "976k",
+          "$5.00",
+          "$25.00",
+          "View more"
+        ],
+        [
+          "claude-opus-4-8",
+          "976k",
+          "$5.00",
+          "$25.00",
+          "View more"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Model",
+          "Context",
+          "$ per 1M input tokens",
+          "$ per 1M output tokens",
+          "Actions"
+        ],
+        [
+          "phi-4",
+          "16k",
+          "$0.07",
+          "$0.14",
+          "View more"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Model",
+          "Context",
+          "$ per 1M input tokens",
+          "$ per 1M output tokens",
+          "Actions"
+        ],
+        [
+          "phi-4",
+          "16k",
+          "$0.07",
+          "$0.14",
           "View more"
         ]
       ]

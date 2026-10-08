@@ -1,7 +1,173 @@
 Models
+Upstage: Solar Decide Flash
+Solar Decide Flash
+50% off
+66M tokens
+Solar Decide Flash is Upstage's low-latency structured decision model, a faster variant of
+Solar Decide
+built on Solar Mini 4 and served through the System One (
+/v1/systemone
+) API. Instead of generating text, it reads a
+state
+and answers typed questions, returning a choice, a score, or a yes/no answer, each with a probability taken directly from the model. Each decision is a single forward pass, and output tokens are free. It is tuned for consistently fast response times in routing, classification, and policy checks. It keeps the 512K context window, so a full document can serve as the state, and carries Solar Mini 4's Korean-language strength.
+by
+upstage
+Oct 8, 2026
+524K context
+$0.05/M input
+tokens
+$0/M output
+tokens
+Anthropic: Claude Haiku 5.5 (batch)
+Claude Haiku 5.5 (batch)
+406M tokens
+Claude Haiku 5.5 is Anthropic's small, fast model for high-volume, cost-sensitive work such as summarization, subagents, and browser use. It succeeds Claude Haiku 4.5 with stronger coding, computer use, and knowledge work, and accepts text and image input with a 1M-token context window. It is the first Haiku model with adjustable effort. Thinking is adaptive and on by default, with effort as the main lever for trading off depth, latency, and cost; it can be turned off at low, medium, and high effort.
+by
+anthropic
+Oct 7, 2026
+1M context
+$0.05/M input
+tokens
+$0.25/M output
+tokens
+Anthropic: Claude Haiku 5.5
+Claude Haiku 5.5
+101B tokens
+Claude Haiku 5.5 is Anthropic's small, fast model for high-volume, cost-sensitive work such as summarization, subagents, and browser use. It succeeds Claude Haiku 4.5 with stronger coding, computer use, and knowledge work, and accepts text and image input with a 1M-token context window. It is the first Haiku model with adjustable effort. Thinking is adaptive and on by default, with effort as the main lever for trading off depth, latency, and cost; it can be turned off at low, medium, and high effort.
+by
+anthropic
+Oct 7, 2026
+1M context
+$0.10/M input
+tokens
+$0.50/M output
+tokens
+Perplexity: Decider V1.1 27B
+Decider V1.1 27B
+3.05B tokens
+Decider V1.1 27B is a new checkpoint of Perplexity's decision model, succeeding
+Decider V1 27B
+with the same API contract. Instead of generating text, it reads content passed as
+state
+(text, JSON, or images) and returns typed, probabilistic answers to one or more named questions in a single request: the probability of yes for a yes/no question (
+noul
+), a probability for every option plus the most likely one (
+choice
+), or a probability for every level of an ordered rubric plus the expected score (
+score
+). It is built for classification, routing, moderation, and rubric grading where application code thresholds the returned numbers rather than parsing a chat reply. A request can carry up to 128 questions about the same content.
+by
+perplexity
+Oct 7, 2026
+262K context
+$0.02/M input
+tokens
+$0/M output
+tokens
+ElevenLabs: Eleven v4
+Eleven v4
+50% off
+850K tokens
+Eleven v4 is a text-to-speech model from ElevenLabs. It is ElevenLabs' most expressive model, with inline audio tags for emotional and delivery control, support for 90+ languages, and a 10,000-character request limit.
+by
+elevenlabs
+Oct 7, 2026
+$40/M characters
+ElevenLabs: Eleven v4 Turbo
+Eleven v4 Turbo
+50% off
+275K tokens
+Eleven v4 Turbo is a low-latency text-to-speech model from ElevenLabs. It keeps Eleven v4's expressive delivery and audio tags while being tuned for faster generation, with support for 90+ languages and a 10,000-character request limit.
+by
+elevenlabs
+Oct 7, 2026
+$20/M characters
+ElevenLabs: Eleven v3
+Eleven v3
+50% off
+97K tokens
+Eleven v3 is a text-to-speech model from ElevenLabs. It produces emotionally rich, highly expressive speech with inline audio tags, supports 70+ languages, and has a 5,000-character request limit.
+by
+elevenlabs
+Oct 7, 2026
+$40/M characters
+ElevenLabs: Eleven v3 Conversational
+Eleven v3 Conversational
+50% off
+17K tokens
+Eleven v3 Conversational is a text-to-speech model from ElevenLabs, a variant of Eleven v3 optimized for natural dialogue in conversational agents. It supports 70+ languages and has a 5,000-character request limit.
+by
+elevenlabs
+Oct 7, 2026
+$20/M characters
+ElevenLabs: Eleven Flash v2.5
+Eleven Flash v2.5
+50% off
+59K tokens
+Eleven Flash v2.5 is an ultra-low-latency text-to-speech model from ElevenLabs. It is suited for conversational and real-time use cases, supports 32 languages, and has a 40,000-character request limit.
+by
+elevenlabs
+Oct 7, 2026
+$20/M characters
+ElevenLabs: Eleven Turbo v2
+Eleven Turbo v2
+50% off
+6K tokens
+Eleven Turbo v2 is an English-only, low-latency text-to-speech model from ElevenLabs. It is suited for developer use cases where speed matters and only English is needed, and has a 30,000-character request limit.
+by
+elevenlabs
+Oct 7, 2026
+$20/M characters
+ElevenLabs: Eleven Multilingual v2
+Eleven Multilingual v2
+50% off
+121K tokens
+Eleven Multilingual v2 is a text-to-speech model from ElevenLabs. It is suited for lifelike, consistent long-form narration such as voice-overs and audiobooks, supports 29 languages, and has a 10,000-character request limit.
+by
+elevenlabs
+Oct 7, 2026
+$40/M characters
+ElevenLabs: Eleven Turbo v2.5
+Eleven Turbo v2.5
+50% off
+69K tokens
+Eleven Turbo v2.5 is a low-latency text-to-speech model from ElevenLabs. It balances quality and speed for developer use cases that need non-English languages, supports 32 languages, and has a 40,000-character request limit.
+by
+elevenlabs
+Oct 7, 2026
+$20/M characters
+ElevenLabs: Eleven Flash v2
+Eleven Flash v2
+50% off
+7K tokens
+Eleven Flash v2 is an English-only, ultra-low-latency text-to-speech model from ElevenLabs. It is suited for conversational and real-time English use cases, and has a 30,000-character request limit.
+by
+elevenlabs
+Oct 7, 2026
+$20/M characters
+ElevenLabs: Scribe v2
+Scribe v2
+50% off
+17.2M characters
+ElevenLabs Scribe v2 is a speech-to-text model that transcribes audio in 90+ languages with word-level timestamps, optional speaker diarization, and audio-event tagging.
+by
+elevenlabs
+Oct 7, 2026
+$0.000031/second
+ElevenLabs: Scribe v2 Medical
+Scribe v2 Medical
+50% off
+301K characters
+ElevenLabs Scribe v2 Medical is a speech-to-text model tuned for clinical and medical terminology, with word-level timestamps, optional speaker diarization, and audio-event tagging.
+by
+elevenlabs
+Oct 7, 2026
+$0.000031/second
 OpenAI: GPT-6 Luna Decisions
 GPT-6 Luna Decisions
-3.56B tokens
+14.4B tokens
+Translation (#50)
+Trivia (#13)
 GPT-6 Luna Decisions is
 GPT-6 Luna
 served through OpenAI's Decisions API. Instead of generating text, it reads the content passed as
@@ -23,7 +189,7 @@ $0/M output
 tokens
 SpaceXAI: Grok Imagine Video 1.5 Lite
 Grok Imagine Video 1.5 Lite
-3 hours
+7 hours
 Grok Imagine Video 1.5 Lite is a faster, lower-cost video generation model from SpaceXAI, distilled from
 Grok Imagine Video 1.5
 . It supports text-to-video and image-to-video, trading some quality for speed and price. 1080p output is rendered at 720p and upscaled.
@@ -31,247 +197,5 @@ by
 x-ai
 Oct 6, 2026
 from $0.02/second
-Google: Nano Banana 2.1
-Nano Banana 2.1
-158M tokens
-Nano Banana 2.1 (Gemini Nano Banana 2.1) is Google's image generation and editing model on the Flash tier, succeeding Nano Banana 2 and Nano Banana Pro. It improves product recontextualization, mask- and ink-based editing, and factual accuracy, and renders photorealistic skin tones, detailed materials, lighting, and coherent backgrounds. It accepts text and image inputs, returns images with optional text, and supports 1K, 2K, and 4K output plus extended aspect ratios via the
-image_config API Parameter
-.
-by
-google
-Oct 6, 2026
-66K context
-$1.50/M input
-tokens
-$30/M output
-tokens
-Mistral: Mistral Large 4
-Mistral Large 4
-50% off
-22B tokens
-Mistral Large 4 is a frontier multimodal (text and image input) model from Mistral AI built for reasoning, coding, and agentic workloads. It offers a 512K-token context window with up to 256K output tokens, and supports tool calling and structured outputs.
-by
-mistralai
-Oct 6, 2026
-524K context
-$0.68/M input
-tokens
-$2.09/M output
-tokens
-Tencent: Hy Image 3.5 Preview
-Hy Image 3.5 Preview
-102M tokens
-Hy Image 3.5 Preview is a unified image generation and editing model from Tencent. It handles text-to-image, image-to-image, and multi-turn editing through one endpoint, taking up to 20 reference images per request and producing output up to 4K. Built on the 80B mixture-of-experts Hy Image 3.0 base, it is particularly strong at subject consistency across edits, prompt-faithful composition, and rendering Chinese and English text inside images.
-by
-tencent
-Oct 5, 2026
-100K context
-$1.60/M tokens
-inclusionAI: Ling 3.1 Flash
-Ling 3.1 Flash
-344B tokens
-Ling 3.1 Flash is a hybrid reasoning mixture-of-experts model from inclusionAI, with 25B active parameters out of 560B total.
-by
-inclusionai
-Oct 2, 2026
-262K context
-$0/M input
-tokens
-$0/M output
-tokens
-ByteDance Seed: Seedream 5.0 Flash
-Seedream 5.0 Flash
-954M tokens
-Seedream 5.0 Flash is an image generation and editing model from ByteDance Seed. It is the fast, cost-efficient tier of the Seedream 5.0 family, suited for high-volume production and interactive editing workflows that need precise edits at low latency.
-by
-bytedance-seed
-Oct 1, 2026
-from $0.018/image
-Perplexity: Decider V1 27B
-Decider V1 27B
-7.07B tokens
-Legal (#40)
-SEO (#42)
-Trivia (#33)
-Decider V1 27B is a decision model from Perplexity. Instead of generating text, it reads content passed as
-state
-and returns typed, probabilistic answers to one or more named questions in a single request: the probability of yes for a yes/no question (
-noul
-), a probability for every option plus the most likely one (
-choice
-), or a probability for every level of an ordered rubric plus the expected score (
-score
-). It is built for classification, routing, moderation, and rubric grading where application code thresholds the returned numbers rather than parsing a chat reply. A request can carry up to 128 questions about the same content. On OpenRouter it currently accepts text and JSON
-state
-; image inputs are not yet supported.
-by
-perplexity
-Oct 1, 2026
-262K context
-$0.04/M input
-tokens
-$0/M output
-tokens
-Black Forest Labs: FLUX.3 Image
-FLUX.3 Image
-50% off
-226M tokens
-FLUX.3 Image is Black Forest Labs' flagship image generation and editing model. It handles text-to-image and multi-reference editing with up to 10 input images, and renders at fixed resolution tiers from 768 up to 4K with a selectable aspect ratio. Pricing is a flat per-image rate that scales with the chosen resolution tier.
-by
-black-forest-labs
-Oct 1, 2026
-47K context
-from $0.0205/image
-LiquidAI: d1
-d1
-6B tokens
-d1 is Liquid AI's structured decision model, served as a System One endpoint. Send a state along with typed questions, and it returns a choice, a score, or a yes/no answer, each with a probability taken directly from the model rather than written out as text. It uses the same /v1/systemone schema as other OpenRouter Decisions models, so it suits routing, classification, and policy checks that need a fast, scored answer instead of prose.
-by
-liquid
-Oct 1, 2026
-66K context
-$0.04/M input
-tokens
-$0/M output
-tokens
-Apodex: Apodex 1.1 Mini (free)
-Apodex 1.1 Mini (free)
-182B tokens
-Apodex 1.1 Mini is a reasoning-first model from Apodex, built for complex, long-horizon research and forecasting tasks. It works directly with files, data, code, and tools to produce verifiable results, and is designed for agentic research workflows where answers need to be grounded in evidence.
-by
-apodex
-Oct 1, 2026
-262K context
-$0/M input
-tokens
-$0/M output
-tokens
-Cloudflare: Clef Flash
-Clef Flash
-4.18B tokens
-Trivia (#6)
-Clef-flash is the fast 9B member of Cloudflare's open-source Clef decision model family, a fine-tune of Qwen3.5-9B served on Workers AI. It turns a state (text or structured JSON) plus a schema of typed questions into decisions, returning a calibrated probability for every allowed option of every question in a single forward pass instead of generating tokens. Use it for low-latency classification, routing, scoring, and guardrails through the Decisions API. Note: Workers AI currently truncates long text state to roughly the first 2K tokens, so content beyond that is not read; images are counted separately.
-by
-cloudflare
-Oct 1, 2026
-66K context
-$0.09/M input
-tokens
-$0/M output
-tokens
-Cloudflare: Clef
-Clef
-3.2B tokens
-Trivia (#9)
-Clef is Cloudflare's open-source 27B multimodal decision model, a fine-tune of Qwen3.8-27B served on Workers AI. It turns a state (text or structured JSON) plus a schema of typed questions into decisions, returning a calibrated probability for every allowed option of every question in a single forward pass instead of generating tokens. Use it for classification, routing, scoring, guardrails, and agentic control flow through the Decisions API. Note: Workers AI currently truncates long text state to roughly the first 2K tokens, so content beyond that is not read; images are counted separately.
-by
-cloudflare
-Oct 1, 2026
-66K context
-$0.24/M input
-tokens
-$0/M output
-tokens
-Microsoft AI: MAI-Voice-2.1-Flash
-MAI-Voice-2.1-Flash
-2.33M tokens
-MAI-Voice-2.1-Flash is a low-latency text-to-speech model from Microsoft AI, optimized for real-time responsiveness. It produces natural, expressive speech across 23 languages, with human-like intonation, rhythm, and emotional nuance. It is suited for voice agents, assistants, call centers, and other interactive applications where latency and cost matter most. On OpenRouter, set
-voice
-to a full voice ID with the model suffix, such as
-"en-US-Harper:MAI-Voice-2.1-Flash"
-. A voice's locale sets the synthesis language. Set
-response_format
-to
-"mp3"
-or
-"pcm"
-(24 kHz mono). Harper and Grant support the
-agent
-,
-customer-call-center
-,
-educational
-, and
-narrator
-speaking styles, and many locale voices add emotion styles such as
-excited
-,
-happy
-,
-sad
-, and
-whispering
-. The full list of voices is in the
-supported_voices
-field of the
-models API
-. See the
-text-to-speech guide
-.
-by
-microsoft
-Oct 1, 2026
-$15/M characters
-Microsoft AI: MAI-Voice-2.1
-MAI-Voice-2.1
-1.64M tokens
-MAI-Voice-2.1 is Microsoft AI's highest-fidelity, most expressive text-to-speech model. It produces natural, studio-grade speech across 23 languages, with detailed prosody, nuanced expressiveness, and speaker consistency over long-form content. It is suited for audiobooks, podcasts, lectures, narration, and brand audio where maximum voice quality matters. The model prioritizes naturalness and expressivity over latency-critical generation. On OpenRouter, set
-voice
-to a full voice ID with the model suffix, such as
-"en-US-Harper:MAI-Voice-2.1"
-. A voice's locale sets the synthesis language. Set
-response_format
-to
-"mp3"
-or
-"pcm"
-(24 kHz mono). Harper and Grant support the
-agent
-,
-customer-call-center
-,
-educational
-, and
-narrator
-speaking styles, and many locale voices add emotion styles such as
-excited
-,
-happy
-,
-sad
-, and
-whispering
-. The full list of voices is in the
-supported_voices
-field of the
-models API
-. See the
-text-to-speech guide
-.
-by
-microsoft
-Oct 1, 2026
-$22/M characters
-Pareto 26.10 Preview
-Pareto 26.10 Preview
-6.04B tokens
-Pareto is a multimodal composite model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks. This is a preview of the next Pareto version and may change without notice; use pareto-26.9 for stable behaviour.
-by
-unbiased
-Oct 1, 2026
-1.05M context
-$0.80/M input
-tokens
-$3.20/M output
-tokens
-HeyGen: HeyGen Video
-HeyGen Video
-50% off
-131 hours
-HeyGen Video is a general-purpose video generation model from HeyGen. It renders short clips with synthesized audio (dialogue, ambience, and sound effects) in a single call, working from a text prompt, from a first-frame image, or from a set of image, video, and audio references that the prompt can address directly. It is aimed at short-form business video with a lot of motion in frame: brand moments, product and equipment demos, and training or onboarding content. It is not an avatar product. Unlike HeyGen's Avatar IV and Video Agent, there is no talking-head, script, or lip-sync step; the prompt and references drive the whole scene.
-by
-heygen
-Sep 30, 2026
-from $0.01/second
 Compare
 Discover Models

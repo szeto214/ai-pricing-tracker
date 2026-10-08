@@ -6,9 +6,9 @@
   "url": "https://www.inngest.com/pricing",
   "final_url": "https://www.inngest.com/pricing",
   "parser_version": 4,
-  "content_hash": "1e28489a29a41b76e6135c608e36c22113c9a89cf67553ad3a602371cec7dbba",
-  "raw_hash": "c5ecae46583e3e107e5da60f11cc0e67518043c137c6322657621968e8bd1304",
-  "text_bytes": 10674,
+  "content_hash": "753cd45f04b39f8967da53a8b3daa4700c87bb7de07769a31ce12bcc6cd4e6b8",
+  "raw_hash": "9b61e3e0617a41518f13d3ff2e48271877d61ced1b62e9c589cc0de00b0b0d0f",
+  "text_bytes": 11977,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -22,6 +22,18 @@
       "features": [],
       "slot_prices": [
         0.0
+      ]
+    },
+    {
+      "name": "Sandboxes & compute",
+      "price_raw": "$0.000011",
+      "amount": 1.1e-05,
+      "currency": "USD",
+      "period": "second",
+      "features": [],
+      "slot_prices": [
+        1.1e-05,
+        0.0396
       ]
     },
     {
@@ -102,6 +114,57 @@
     }
   ],
   "models": [],
-  "tables": [],
+  "tables": [
+    {
+      "caption": "Hourly cost by vCPU count and memory per vCPU",
+      "rows": [
+        [
+          "RAM per vCPU"
+        ],
+        [
+          "vCPU",
+          "1 × RAM ( 1 GB per vCPU)",
+          "2 × RAM ( 2 GB per vCPU)",
+          "4 × RAM ( 4 GB per vCPU)",
+          "8 × RAM ( 8 GB per vCPU)"
+        ],
+        [
+          "1 vCPU",
+          "1 GB $0.0504 /hr",
+          "2 GB $0.0612 /hr",
+          "4 GB $0.0828 /hr",
+          "8 GB $0.1260 /hr"
+        ],
+        [
+          "2 vCPU",
+          "2 GB $0.1008 /hr",
+          "4 GB $0.1224 /hr",
+          "8 GB $0.1656 /hr",
+          "16 GB $0.2520 /hr"
+        ],
+        [
+          "4 vCPU",
+          "4 GB $0.2016 /hr",
+          "8 GB $0.2448 /hr",
+          "16 GB $0.3312 /hr",
+          "32 GB $0.5040 /hr"
+        ],
+        [
+          "8 vCPU",
+          "8 GB $0.4032 /hr",
+          "16 GB $0.4896 /hr",
+          "32 GB $0.6624 /hr",
+          "64 GB $1.0080 /hr"
+        ],
+        [
+          "16 vCPU",
+          "16 GB $0.8064 /hr",
+          "32 GB $0.9792 /hr",
+          "64 GB $1.3248 /hr",
+          "128 GB $2.0160 /hr"
+        ]
+      ]
+    }
+  ],
   "extract_errors": []
 }

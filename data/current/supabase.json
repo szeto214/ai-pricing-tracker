@@ -7,7 +7,7 @@
   "final_url": "https://supabase.com/pricing",
   "parser_version": 4,
   "content_hash": "953efb98b5f70b318a2a2e867ed9f40eef9cbc520d89ee61c34c3dcfe393d2ff",
-  "raw_hash": "7cc28e0a3affe4b9ac60073a7dab1b912e5b578000a4a6062ff6a788c4ddcc30",
+  "raw_hash": "d11e19aa1aa9bde26b445693c09d0db9a89d6cdd988f0d8579b9151e53bfbcc8",
   "text_bytes": 16665,
   "currency_hints": [
     "USD"
@@ -821,6 +821,640 @@
         [
           "Max Message Size",
           "256 KB"
+        ]
+      ]
+    },
+    {
+      "caption": "Edge Functions",
+      "rows": [
+        [
+          "Feature",
+          "Included"
+        ],
+        [
+          "Invocations",
+          "500,000 included"
+        ]
+      ]
+    },
+    {
+      "caption": "Dashboard",
+      "rows": [
+        [
+          "Feature",
+          "Included"
+        ],
+        [
+          "Team members",
+          "Unlimited"
+        ]
+      ]
+    },
+    {
+      "caption": "Platform Security and Compliance",
+      "rows": [
+        [
+          "Feature",
+          "Included"
+        ],
+        [
+          "Log retention (API & Database)",
+          "1 day"
+        ],
+        [
+          "Log Ingestion",
+          "1 GB included"
+        ],
+        [
+          "Log Query",
+          "100 GB included"
+        ],
+        [
+          "Log Drain",
+          "Not included in free"
+        ],
+        [
+          "Platform Audit Logs",
+          "Not included in free"
+        ],
+        [
+          "Metrics endpoint",
+          "Not included in free"
+        ],
+        [
+          "SOC2",
+          "Not included in free"
+        ],
+        [
+          "ISO 27001",
+          "Not included in free"
+        ],
+        [
+          "HIPAA",
+          "Not included in free"
+        ],
+        [
+          "AWS PrivateLink",
+          "Not included in free"
+        ],
+        [
+          "SSO",
+          "Not included in free"
+        ],
+        [
+          "Uptime SLAs",
+          "Not included in free"
+        ],
+        [
+          "Access Roles",
+          "Owner, Admin, Developer"
+        ],
+        [
+          "Vanity URLs",
+          "Not included in free"
+        ],
+        [
+          "Custom Domains",
+          "Not included in free"
+        ]
+      ]
+    },
+    {
+      "caption": "Support",
+      "rows": [
+        [
+          "Feature",
+          "Included"
+        ],
+        [
+          "Community Support",
+          "Included in free"
+        ],
+        [
+          "Email Support",
+          "Not included in free"
+        ],
+        [
+          "Email Support SLA",
+          "Not included in free"
+        ],
+        [
+          "Designated support",
+          "Not included in free"
+        ],
+        [
+          "On Boarding Support",
+          "Not included in free"
+        ],
+        [
+          "Designated Customer Success Team",
+          "Not included in free"
+        ],
+        [
+          "Security Questionnaire Help",
+          "Not included in free"
+        ]
+      ]
+    },
+    {
+      "caption": "Pricing plan comparison",
+      "rows": [
+        [
+          "Feature by",
+          "Free $ 0 / month Start for Free",
+          "Pro $ 25 / month Get Started",
+          "Team $ 599 / month Get Started",
+          "Enterprise Custom Contact Us"
+        ],
+        [
+          "Database",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Dedicated Postgres Database About Dedicated Postgres Database",
+          "Included in",
+          "Included in",
+          "Included in",
+          "Included in"
+        ],
+        [
+          "Unlimited API requests",
+          "Included in",
+          "Included in",
+          "Included in",
+          "Included in"
+        ],
+        [
+          "Database size About Database size",
+          "500 MB database size per project included",
+          "8 GB disk size per project included then $0.125 per GB",
+          "8 GB disk size per project included then $0.125 per GB",
+          "Custom"
+        ],
+        [
+          "Advanced disk config About Advanced disk config",
+          "Not included in",
+          "Included in",
+          "Included in",
+          "Included in"
+        ],
+        [
+          "Automatic backups About Automatic backups",
+          "Not included in",
+          "About Automatic backups on the pro plan 7 days",
+          "About Automatic backups on the team plan 14 days",
+          "Custom"
+        ],
+        [
+          "Point in time recovery About Point in time recovery",
+          "Not included in",
+          "$100 per month per 7 days retention",
+          "$100 per month per 7 days retention",
+          "$100 per month per 7 days retention, >28 days retention available"
+        ],
+        [
+          "Pausing About Pausing",
+          "After 1 week of inactivity",
+          "Never",
+          "Never",
+          "Never"
+        ],
+        [
+          "Branching",
+          "Not included in",
+          "$0.01344 per branch, per hour",
+          "$0.01344 per branch, per hour",
+          "Custom"
+        ],
+        [
+          "Egress About Egress",
+          "5 GB included",
+          "250 GB included then $0.09 per GB",
+          "250 GB included then $0.09 per GB",
+          "Custom"
+        ],
+        [
+          "Pipelines About Pipelines",
+          "Not included in",
+          "$0.053 per pipeline per hour $3.00 per GB processed during ongoing replication $0.60 per GB processed during initial sync",
+          "$0.053 per pipeline per hour $3.00 per GB processed during ongoing replication $0.60 per GB processed during initial sync",
+          "Custom"
+        ],
+        [
+          "Auth",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Total Users About Total Users",
+          "Unlimited",
+          "Unlimited",
+          "Unlimited",
+          "Unlimited"
+        ],
+        [
+          "MAUs About MAUs",
+          "50,000 included",
+          "100,000 included then $0.00325 per MAU",
+          "100,000 included then $0.00325 per MAU",
+          "Custom"
+        ],
+        [
+          "User data ownership About User data ownership",
+          "Included in",
+          "Included in",
+          "Included in",
+          "Included in"
+        ],
+        [
+          "Anonymous Sign-ins About Anonymous Sign-ins",
+          "Included in",
+          "Included in",
+          "Included in",
+          "Included in"
+        ],
+        [
+          "Social OAuth providers",
+          "Included in",
+          "Included in",
+          "Included in",
+          "Included in"
+        ],
+        [
+          "OAuth 2.1 Server About OAuth 2.1 Server",
+          "Included in",
+          "Included in",
+          "Included in",
+          "Included in"
+        ],
+        [
+          "Custom SMTP server",
+          "Included in",
+          "Included in",
+          "Included in",
+          "Included in"
+        ],
+        [
+          "Remove Supabase branding from emails",
+          "Not included in",
+          "Included in",
+          "Included in",
+          "Included in"
+        ],
+        [
+          "Auth Audit Logs About Auth Audit Logs",
+          "1 hour",
+          "7 days",
+          "28 days",
+          "Included in"
+        ],
+        [
+          "Basic Multi-Factor Auth About Basic Multi-Factor Auth",
+          "Included in",
+          "Included in",
+          "Included in",
+          "Included in"
+        ],
+        [
+          "Advanced Multi-Factor Auth - Phone About Advanced Multi-Factor Auth - Phone",
+          "Not included in",
+          "$75 per month for first project then $10 per month per additional projects",
+          "$75 per month for first project then $10 per month per additional projects",
+          "Custom"
+        ],
+        [
+          "Third-Party MAUs About Third-Party MAUs",
+          "50,000 included",
+          "100,000 included then $0.00325 per MAU",
+          "100,000 included then $0.00325 per MAU",
+          "Custom"
+        ],
+        [
+          "Single Sign-On (SAML 2.0)",
+          "Not included in",
+          "50 included then $0.015 per MAU",
+          "50 included then $0.015 per MAU",
+          "Contact Us"
+        ],
+        [
+          "Leaked password protection",
+          "Not included in",
+          "Included in",
+          "Included in",
+          "Included in"
+        ],
+        [
+          "Single session per user",
+          "Not included in",
+          "Included in",
+          "Included in",
+          "Included in"
+        ],
+        [
+          "Session timeouts",
+          "Not included in",
+          "Included in",
+          "Included in",
+          "Included in"
+        ],
+        [
+          "Auth Hooks",
+          "Custom Access Token (JWT), Send custom email/SMS",
+          "Custom Access Token (JWT), Send custom email/SMS",
+          "All",
+          "All"
+        ],
+        [
+          "Advanced security features",
+          "Not included in",
+          "Not included in",
+          "Not included in",
+          "Contact Us"
+        ],
+        [
+          "Storage",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Storage About Storage",
+          "1 GB included",
+          "100 GB included then $0.0213 per GB",
+          "100 GB included then $0.0213 per GB",
+          "Custom"
+        ],
+        [
+          "Cached Egress About Cached Egress",
+          "5 GB included",
+          "250 GB included then $0.03 per GB",
+          "250 GB included then $0.03 per GB",
+          "Custom"
+        ],
+        [
+          "Custom access controls",
+          "Included in",
+          "Included in",
+          "Included in",
+          "Included in"
+        ],
+        [
+          "Max file upload size About Max file upload size",
+          "50 MB",
+          "500 GB",
+          "500 GB",
+          "Custom"
+        ],
+        [
+          "Content Delivery Network About Content Delivery Network",
+          "Basic CDN",
+          "Smart CDN",
+          "Smart CDN",
+          "Smart CDN"
+        ],
+        [
+          "Image Transformations About Image Transformations",
+          "Not included in",
+          "100 origin images included then $5 per 1000 origin images",
+          "100 origin images included then $5 per 1000 origin images",
+          "Custom"
+        ],
+        [
+          "Realtime",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Postgres Changes",
+          "Included in",
+          "Included in",
+          "Included in",
+          "Included in"
+        ],
+        [
+          "Concurrent Peak Connections About Concurrent Peak Connections",
+          "200 included",
+          "500 included then $10 per 1000",
+          "500 included then $10 per 1000",
+          "Custom concurrent connections and volume discount"
+        ],
+        [
+          "Messages Per Month About Messages Per Month",
+          "2 Million included",
+          "5 Million included then $2.50 per Million",
+          "5 Million included then $2.50 per Million",
+          "Volume discounts on messages"
+        ],
+        [
+          "Max Message Size",
+          "256 KB",
+          "3 MB",
+          "3 MB",
+          "Custom"
+        ],
+        [
+          "Edge Functions",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Invocations About Invocations",
+          "500,000 included",
+          "2 Million included then $2 per 1 Million",
+          "2 Million included then $2 per 1 Million",
+          "Custom"
+        ],
+        [
+          "Dashboard",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Team members",
+          "Unlimited",
+          "Unlimited",
+          "Unlimited",
+          "Unlimited"
+        ],
+        [
+          "Platform Security and Compliance",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Log retention (API & Database)",
+          "1 day",
+          "7 days",
+          "28 days",
+          "90 days"
+        ],
+        [
+          "Log Ingestion About Log Ingestion",
+          "1 GB included",
+          "20 GB included then $0.50 per GB",
+          "20 GB included then $0.50 per GB",
+          "Custom"
+        ],
+        [
+          "Log Query About Log Query",
+          "100 GB included",
+          "Log Ingestion Usage x 100",
+          "Log Ingestion Usage x 100",
+          "Custom"
+        ],
+        [
+          "Log Drain About Log Drain",
+          "Not included in",
+          "$60 per drain per month + $0.20 per million events + $0.09 per GB egress",
+          "$60 per drain per month + $0.20 per million events + $0.09 per GB egress",
+          "Custom"
+        ],
+        [
+          "Platform Audit Logs About Platform Audit Logs",
+          "Not included in",
+          "Not included in",
+          "Included in",
+          "Included in"
+        ],
+        [
+          "Metrics endpoint",
+          "Not included in",
+          "Included in",
+          "Included in",
+          "Included in"
+        ],
+        [
+          "SOC2",
+          "Not included in",
+          "Not included in",
+          "Included in",
+          "Included in"
+        ],
+        [
+          "ISO 27001",
+          "Not included in",
+          "Not included in",
+          "Included in",
+          "Included in"
+        ],
+        [
+          "HIPAA About HIPAA",
+          "Not included in",
+          "Not included in",
+          "Available as paid add-on",
+          "Available as paid add-on"
+        ],
+        [
+          "AWS PrivateLink About AWS PrivateLink",
+          "Not included in",
+          "Not included in",
+          "Included in",
+          "Included in"
+        ],
+        [
+          "SSO",
+          "Not included in",
+          "Not included in",
+          "Contact Us",
+          "Contact Us"
+        ],
+        [
+          "Uptime SLAs",
+          "Not included in",
+          "Not included in",
+          "Not included in",
+          "Included in"
+        ],
+        [
+          "Access Roles About Access Roles",
+          "Owner, Admin, Developer",
+          "Owner, Admin, Developer",
+          "Owner, Admin, Developer, Read-only, Predefined project scoped roles",
+          "Custom project scoped roles"
+        ],
+        [
+          "Vanity URLs",
+          "Not included in",
+          "Included in",
+          "Included in",
+          "Included in"
+        ],
+        [
+          "Custom Domains",
+          "Not included in",
+          "$10 per domain per month per project add on",
+          "$10 per domain per month per project add on",
+          "About Custom Domains on the enterprise plan 1, additional $10/domain/month"
+        ],
+        [
+          "Support",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Community Support",
+          "Included in",
+          "Included in",
+          "Included in",
+          "Included in"
+        ],
+        [
+          "Email Support",
+          "Not included in",
+          "Included in",
+          "Included in",
+          "Included in"
+        ],
+        [
+          "Email Support SLA",
+          "Not included in",
+          "Not included in",
+          "Included in",
+          "Included in"
+        ],
+        [
+          "Designated support",
+          "Not included in",
+          "Not included in",
+          "Not included in",
+          "Included in"
+        ],
+        [
+          "On Boarding Support",
+          "Not included in",
+          "Not included in",
+          "Not included in",
+          "Included in"
+        ],
+        [
+          "Designated Customer Success Team",
+          "Not included in",
+          "Not included in",
+          "Not included in",
+          "Included in"
+        ],
+        [
+          "Security Questionnaire Help",
+          "Not included in",
+          "Not included in",
+          "Included in",
+          "Included in"
         ]
       ]
     }

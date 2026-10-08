@@ -6,9 +6,9 @@
   "url": "https://huggingface.co/pricing",
   "final_url": "https://huggingface.co/pricing",
   "parser_version": 4,
-  "content_hash": "ef0e0f6802a68a32c390e691eaeff8d82d6febe49b14bf36bffe35c12e6e13b1",
-  "raw_hash": "23dca516e0416f4861c6ebec9cb97fd2b457b99216575f232837663009bf2035",
-  "text_bytes": 21861,
+  "content_hash": "896ca5da35077934fd06975a9b296748416918711e2172a78dc2b2add211bc35",
+  "raw_hash": "4a4b2120ca950084b3cc31a9d39490d64b1171ef74892ade7ad21c602f712388",
+  "text_bytes": 22163,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -19,7 +19,17 @@
       "amount": 9.0,
       "currency": "USD",
       "period": "month",
-      "features": [],
+      "features": [
+        "10× private storage capacity",
+        "2× public storage capacity",
+        "$2 of included inference credits monthly",
+        "8× ZeroGPU quota and highest queue priority",
+        "Host ZeroGPU, Gradio & Docker Spaces",
+        "Spaces Dev Mode",
+        "Personal blog publishing",
+        "Dataset Viewer for private datasets",
+        "Show your support with a PRO badge"
+      ],
       "slot_prices": [
         9.0
       ]

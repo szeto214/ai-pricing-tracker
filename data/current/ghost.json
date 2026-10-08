@@ -6,8 +6,8 @@
   "url": "https://ghost.org/pricing/",
   "final_url": "https://ghost.org/pricing/",
   "parser_version": 4,
-  "content_hash": "230e31b2b074fc362f6fc248464d4c78cb085b4eb08c2bd1da057c5d415dca75",
-  "raw_hash": "92736f1807417e3b2c51a7d7d68ede66786ed4e14fc0f146fbb11da7c35f05b0",
+  "content_hash": "2f9cb303b0170d82a6e79051b6477b6dec732814b16f4d759f36d1592656be35",
+  "raw_hash": "f53b6716c6f54b8afc0a7d5e695d8644a4f82b0b8dc67ed32b3a303ae7f8dcb3",
   "text_bytes": 15117,
   "currency_hints": [
     "USD"
@@ -533,6 +533,38 @@
         ],
         [
           "SSO\n(Single Sign-On) Single Sign-On Enable enterprise-grade authentication with SSO support for\nSAML, OAuth, and other identity providers. Streamline access\nman",
+          "– No",
+          "– No",
+          "– No",
+          "Yes"
+        ]
+      ]
+    },
+    {
+      "caption": "Support comparison",
+      "rows": [
+        [
+          "Feature",
+          "Starter plan",
+          "Publisher plan",
+          "Business plan"
+        ],
+        [
+          "Product help",
+          "Email support",
+          "Email support",
+          "Priority support",
+          "Account manager"
+        ],
+        [
+          "Uptime SLA",
+          "– No",
+          "– No",
+          "– No",
+          "99.9%"
+        ],
+        [
+          "Invoice billing",
           "– No",
           "– No",
           "– No",

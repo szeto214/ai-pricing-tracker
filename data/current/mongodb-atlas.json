@@ -7,7 +7,7 @@
   "final_url": "https://www.mongodb.com/pricing",
   "parser_version": 4,
   "content_hash": "b924c9cd58c546eabcfdbfd6e14449f6670183ee4c4b77c1b3b33cf5b4d61621",
-  "raw_hash": "0ccd0b7c3bf2d24d9b8bc29cdcb3e20be021798617929f80531e4b9774fcd210",
+  "raw_hash": "8b24085e6fe70f56a5a5d16bb13e79805e9e935acf028224e0c82fa4d1b15658",
   "text_bytes": 23190,
   "currency_hints": [],
   "extractor": "jsonld",
@@ -439,6 +439,326 @@
         ],
         [
           "ap-southeast-2"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Price per GB per Month"
+        ],
+        [
+          "0.048"
+        ],
+        [
+          "0.048"
+        ],
+        [
+          "0.0845"
+        ],
+        [
+          "0.048"
+        ],
+        [
+          "0.0501"
+        ],
+        [
+          "0.0511"
+        ],
+        [
+          "0.0522"
+        ],
+        [
+          "0.0522"
+        ],
+        [
+          "0.0522"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Per 1,000 Partition Accesses"
+        ],
+        [
+          "0.0010"
+        ],
+        [
+          "0.0010"
+        ],
+        [
+          "0.0015"
+        ],
+        [
+          "0.0010"
+        ],
+        [
+          "0.0011"
+        ],
+        [
+          "0.0011"
+        ],
+        [
+          "0.0010"
+        ],
+        [
+          "0.0010"
+        ],
+        [
+          "0.0011"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Region",
+          "Data Storage",
+          "Time Series Data Storage",
+          "Archival Access",
+          "Data Process"
+        ],
+        [
+          "US East (N. Virginia)",
+          "0.001578",
+          "0.0032",
+          "0.0010000",
+          "$5 per TB Processed"
+        ],
+        [
+          "US West (Oregon)",
+          "0.001578",
+          "0.0032",
+          "0.0010000",
+          "\""
+        ],
+        [
+          "Canada (Central)",
+          "0.001715",
+          "0.00348",
+          "0.0011000",
+          "\""
+        ],
+        [
+          "South America (Sao Paulo)",
+          "0.002779",
+          "0.005634",
+          "0.0014000",
+          "\""
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Region",
+          "Data Storage",
+          "Time Series Data Storage",
+          "Archival Access",
+          "Data Process"
+        ],
+        [
+          "US East (Ohio)",
+          "0.001578",
+          "0.0032",
+          "0.0010000",
+          "\""
+        ],
+        [
+          "US West (N. California)",
+          "0.001784",
+          "0.00362",
+          "0.0011000",
+          "\""
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Region",
+          "Data Storage",
+          "Time Series Data Storage",
+          "Archival Access",
+          "Data Process"
+        ],
+        [
+          "US East (N. Virginia)",
+          "0.001578",
+          "0.0032",
+          "0.0009",
+          "$5 per TB Processed"
+        ],
+        [
+          "South America (Sao Paulo)",
+          "0.002798",
+          "0.005599",
+          "0.0014",
+          "\""
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Region",
+          "Data Storage",
+          "Time Series Data Storage",
+          "Archival Access",
+          "Data Process"
+        ],
+        [
+          "US Central (Iowa)",
+          "0.001348",
+          "0.002695",
+          "0.0008",
+          "$5 per TB Processed"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Feature",
+          "M0 Clusters",
+          "Dedicated Clusters"
+        ],
+        [
+          "Dashboard & chart refreshes",
+          "1 auto-refresh every 4 hours*",
+          "Unlimited"
+        ],
+        [
+          "Email reports",
+          "Users can only run weekly reports**",
+          "Unlimited"
+        ],
+        [
+          "Natural language charts",
+          "",
+          ""
+        ],
+        [
+          "iFrame embedding",
+          "Dashboard and chart refresh limit applies",
+          "No refresh limits"
+        ],
+        [
+          "Password-protected public dashboard",
+          "",
+          ""
+        ],
+        [
+          "Manual refresh",
+          "—",
+          ""
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "M0 Clusters"
+        ],
+        [
+          "Dashboard & chart refreshes",
+          "1 auto-refresh every 4 hours*"
+        ],
+        [
+          "Email reports",
+          "Users can only run weekly reports**"
+        ],
+        [
+          "Natural language charts",
+          ""
+        ],
+        [
+          "iFrame embedding",
+          "Dashboard and chart refresh limit applies"
+        ],
+        [
+          "Password-protected public dashboard",
+          ""
+        ],
+        [
+          "Manual refresh",
+          "—"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Dedicated Clusters"
+        ],
+        [
+          "Dashboard & chart refreshes",
+          "Unlimited"
+        ],
+        [
+          "Email reports",
+          "Unlimited"
+        ],
+        [
+          "Natural language charts",
+          ""
+        ],
+        [
+          "iFrame embedding",
+          "No refresh limits"
+        ],
+        [
+          "Password-protected public dashboard",
+          ""
+        ],
+        [
+          "Manual refresh",
+          ""
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Data Processed",
+          "Data transferred and returned"
+        ],
+        [
+          "$5 per TB with a 10MB minimum per query",
+          "Data transfer costs are based on the rates set by your cloud service provider"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Data Processed"
+        ],
+        [
+          "$5 per TB with a 10MB minimum per query"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Data transferred and returned"
+        ],
+        [
+          "Data transfer costs are based on the rates set by your cloud service provider"
         ]
       ]
     }

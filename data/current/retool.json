@@ -7,7 +7,7 @@
   "final_url": "https://retool.com/pricing",
   "parser_version": 4,
   "content_hash": "ccd32859eb69921adc95790253879ab4387a8e437d8a1f6f2ef4e45eef2c7479",
-  "raw_hash": "5aef254cf11b161e924353e05c04aa67bde3f75683a9221c6a242ed8dcdaa2d4",
+  "raw_hash": "ab8f40171ae431f8a53905864e2c68abbb167584d3c0a7bc92a443f6be19906d",
   "text_bytes": 22821,
   "currency_hints": [],
   "extractor": "dom",
@@ -961,6 +961,168 @@
           "Staging & Production",
           "Unlimited environments",
           "Unlimited environments"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Feature",
+          "Free",
+          "Team",
+          "Business",
+          "Enterprise"
+        ],
+        [
+          "Connect to all databases and APIs",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Query library Build, share, and reuse queries for any database or API with Retool's IDE. Build, share, and reuse queries for any database or API with Retool's I",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Staging & production resources Test your app against a staging resource (database or API). Switch seamlessly to production resources when in user mode. Test you",
+          "—",
+          "Staging & Production",
+          "Unlimited",
+          "Unlimited"
+        ],
+        [
+          "Resource environment permissions Restrict and manage user access to dev/staging/prod environments. Restrict and manage user access to dev/staging/prod environme",
+          "—",
+          "—",
+          "Included",
+          "Included"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Feature",
+          "Free",
+          "Team",
+          "Business",
+          "Enterprise"
+        ],
+        [
+          "Version release & history Create and manage releases for your app. Revert to any previous state in its history. Create and manage releases for your app. Revert ",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Rich permission controls Grant data-level and role-based permissions for granular control over app and data access. Grant data-level and role-based permissions ",
+          "—",
+          "—",
+          "Included",
+          "Included"
+        ],
+        [
+          "Audit logs Track every query run against your databases and APIs, as well as user actions taken in Retool. Track every query run against your databases and APIs",
+          "—",
+          "—",
+          "Included",
+          "Included"
+        ],
+        [
+          "Usage analytics Monitor usage across all apps and users. Monitor usage across all apps and users.",
+          "—",
+          "—",
+          "—",
+          "Included"
+        ],
+        [
+          "Source control Use branch-based editing processes that are compatible with Git. Use branch-based editing processes that are compatible with Git.",
+          "—",
+          "—",
+          "—",
+          "Included"
+        ],
+        [
+          "Custom SSO Integrate with Okta, Active Directory, or any other SAML or OpenID SSO provider. Integrate with Okta, Active Directory, or any other SAML or OpenID S",
+          "—",
+          "—",
+          "—",
+          "Included"
+        ],
+        [
+          "Connect to analytics vendors Send analytics data to Segment, Google Analytics, and other analytics trackers. Send analytics data to Segment, Google Analytics, a",
+          "—",
+          "—",
+          "—",
+          "Included"
+        ],
+        [
+          "Environmental configuration variables Easily define and reference environment-specific values and secrets across Retool. Easily define and reference environment",
+          "—",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Flexible spaces Set up independent Workspaces for teams to manage their own apps, permissions, resources, connections, and Git repos. Set up independent Workspa",
+          "—",
+          "—",
+          "—",
+          "Included"
+        ],
+        [
+          "Versatile platform APIs Programmatically manage your Retool projects. Programmatically manage your Retool projects.",
+          "—",
+          "—",
+          "Limited access",
+          "Full access to all API scopes"
+        ],
+        [
+          "Orchestrated governance Trigger custom logic in response to events in Retool, like org invitations or password reset requests. Trigger custom logic in response ",
+          "—",
+          "—",
+          "—",
+          "Included"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Feature",
+          "Free",
+          "Team",
+          "Business",
+          "Enterprise"
+        ],
+        [
+          "Access to a technical advisor Get help onboarding and training new teams, and guidance on how to get the most out of Retool. Get help onboarding and training ne",
+          "—",
+          "—",
+          "—",
+          "Included"
+        ],
+        [
+          "Technical support Retool's Support Engineering team is here to help. Retool's Support Engineering team is here to help.",
+          "—",
+          "—",
+          "—",
+          "Included"
+        ],
+        [
+          "Access to professional services Hire a pro to build Retool apps, integrate systems, or do other development work on your behalf. Hire a pro to build Retool apps",
+          "—",
+          "Included",
+          "Included",
+          "Included"
         ]
       ]
     }

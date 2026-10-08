@@ -1,744 +1,700 @@
-Grafana Labs is a Leader in the 2026 Gartner® Magic QuadrantTM for Observability Platforms.
-Learn more
-Downloads
-Contact Us
-Site Search
-Ask AI
-Send more, charge more is broken. We are changing it.
-free
-Always free
-Always
-$0
-Perfect for personal projects, exploring new ideas, and early-stage startups. No charges ever.
-Start free
-Benefits:
-All Grafana Cloud services, with usage limits
-Adaptive Telemetry, AI Assistant, and much more
-Community support
-14 days retention for metrics, logs, traces, profiles, & k6 performance tests
-pro
-Self-serve
-From
-$19
-/ month + usage
-Ready for scaling with more retention, basic support, and usage-based pricing.
-Sign up
-Everything in Free plus:
-Unlimited access to all Grafana Cloud services; simply pay as you go above the free tier
-Adaptive Telemetry, AI Assistant, and much more
-8X5 email support
-13 months retention for metrics; 30 days retention for logs, traces, profiles, & k6 performance tests
-enterprise
-Full service
-Starts at
-$25,000
-/ year spend commit
-A full-service offering for companies with security, compliance, and deployment requirements.
-Contact us
-Let’s talk if you’re thinking about:
-Premium support
-Custom retention
-Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)
-Pricing philosophy
-Adaptive
-In-product tools to eliminate spending on unused data.
-Scalable pricing
-Automatically unlock volume discounts based on consumption.
-Composable
-Opinionated solutions only when they add value.
-Estimate your Grafana Cloud cost
-Use the interactive calculator to see what you'll pay at your scale. Pricing is volume-based and tiered, so your effective rate drops automatically as you grow.
-Product pricing
-All the details you need to know about pricing and plans.
-Select a product
-Metrics
-Fully-managed, highly-scalable metrics service in Grafana Cloud with built-in features to optimize cost.
-free
-Always free
-Always
-$0
-No credit card required
-Start free
-Actually useful free tier with access to everything that Grafana Cloud has to offer.
-Limited to 10k active series per month
-14 days retention
-Community support
-pro
-Self-serve
-Starts at
-$6.50
-/ 1k series
-i
-Automatic volume discounts. Pricing at scale.
-View calculator
-Sign up
-Platform fee of $19 per month includes:
-10k active series per month then pay as you go
-13 months retention
-8x5 email support
-enterprise
-Full service
-Prices are
-As low as $3
-/ 1k series
-Scalable unit price based on annual commit and volume discounts
-Contact us
-Minimum commit of $25,000 per year.
-Custom retention
-Premium support
-Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)
-Optimize metrics by up to 80%
-Pay only for what you use
-Adaptive Metrics eliminates unused time series data through aggregation and cardinality optimization.
-Watch Adaptive Metrics at work
-FAQ
-What is metrics billable series?
-Do you provide discounts for higher usage volumes?
-Logs
-Fully-managed log aggregation system powered by Grafana Loki. Only pay for data you use with the Adaptive Logs feature.
-free
-Always free
-Always
-$0
-No credit card required
-Start free
-Actually useful free tier with access to everything that Grafana Cloud has to offer.
-Limited to 50 GB ingested per month
-14 day retention
-Community support
-pro
-Self-serve
-Starts at
-$0.050/GB
-Process
-i
-Starts at
-$0.400/GB
-Write
-i
-Starts at
-$0.100/GB
-Retain
-i
-Automatic volume discounts. Pricing at scale.
-View calculator
-Sign up
-Platform fee of $19 per month includes:
-50 GB ingested per month then pay as you go
-30 days retention
-8×5 email support
-enterprise
-Full service
-Prices are
-Custom
-Scalable unit price based on annual commit
-Contact us
-Minimum commit of $25,000 per year.
-Custom retention
-Premium support
-Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)
-Optimize log ingest by up to 50%
-Pay only for what you use
-Adaptive Logs identifies commonly ingested log patterns and creates a set of customized recommendations for dropping unused telemetry.
-Watch Adaptive Logs at work
-FAQ
-How do you define process, write, retain, and query?
-Do you offer retention greater than 30 days?
-Do you offer discounts for higher usage?
-Traces
-Fully-managed, easy-to-use, highly-scalable, and cost-effective distributed tracing backend.
-free
-Always free
-Always
-$0
-No credit card required
-Start free
-FEATURES
-Limited to 50 GB ingested per month
-14 day retention
-Community support
-pro
-Self-serve
-Starts at
-$0.05/GB
-Process
-i
-Starts at
-$0.40/GB
-Write
-i
-Starts at
-$0.10/GB
-Retain
-i
-Automatic volume discounts. Pricing at scale.
-View calculator
-Sign up
-Platform fee of $19 per month includes:
-50 GB ingested per month then pay as you go
-30 days retention
-8×5 email support
-enterprise
-Full service
-Prices are
-Custom
-Scalable unit price based on annual commit
-Contact us
-Minimum commit of $25,000 per year.
-Custom retention
-Premium support
-Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)
-FAQ
-How do you define process, write, retain?
-Do you offer retention greater than 30 days?
-Do you offer discounts for higher usage?
-Profiles
-Fully-managed continuous profiling tool that gives you a cost-efficient way to better understand the resource usage of code.
-free
-Always free
-Always
-$0
-No credit card required
-Start free
-Actually useful free tier with access to everything that Grafana Cloud has to offer.
-Limited to 50 GB ingested per month
-14 day retention
-Community support
-pro
-Self-serve
-Starts at
-$0.05/GB
-Process
-i
-Starts at
-$0.40/GB
-Write
-i
-Starts at
-$0.10/GB
-Retain
-i
-Automatic volume discounts. Pricing at scale.
-View calculator
-Sign up
-Platform fee of $19 per month includes:
-50 GB ingested per month then pay as you go
-30 days retention
-8×5 email support
-enterprise
-Full service
-Prices are
-Custom
-Scalable unit price based on annual commit
-Contact us
-Minimum commit of $25,000 per year.
-Custom retention
-Premium support
-Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)
-FAQ
-How do you define process, write, retain?
-Do you offer retention greater than 30 days?
-Do you offer discounts for higher usage?
-Kubernetes Monitoring
-End-to-end Kubernetes observability for performance, health, and cost monitoring.
-free
-Always free
-Always
-$0
-No credit card required
-Start free
-Actually useful free tier with access to everything that Grafana Cloud has to offer.
-Limited to 2,232 host hours & 37,944 container hours per month
-Community support
-pro
-Self-serve
-Starts at
-$0.01
-/ host hour ($7.20/host)
-i
-Starts at
-$0.0007
-/ container hour ($0.50/container)
-i
-Automatic volume discounts. Pricing at scale.
-View calculator
-Sign up
-Platform fee of $19 per month includes:
-2,232 host hours & 37,944 container hours per month then pay as you go (including telemetry generated)
-8×5 email support
-enterprise
-Full service
-Prices are
-Custom
-Scalable unit price based on annual commit
-Contact us
-Minimum commit of $25,000 per year.
-Premium support
-Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)
-FAQ
-What exactly is a "Host Hour"?
-When does host hour pricing apply?
-How is this different from included telemetry pricing model?
-Application Observability
-Gain application performance insights and reduce MTTR out of the box, with native OpenTelemetry and Prometheus support.
-free
-Always free
-Always
-$0
-No credit card required
-Start free
-Actually useful free tier with access to everything that Grafana Cloud has to offer.
-Limited to 2,232 host hours per month
-Community support
-pro
-Self-serve
-Starts at
-$0.025
-/ host hour ($18/host)
-i
-Automatic volume discounts. Pricing at scale.
-View calculator
-Sign up
-Platform fee of $19 per month includes:
-50 GB ingested per month then pay as you go
-30 days retention
-8×5 email support
-enterprise
-Full service
-Prices are
-Custom
-Scalable unit price based on annual commit
-Contact us
-Minimum commit of $25,000 per year.
-Premium support
-Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)
-FAQ
-What exactly is a "Host Hour"?
-When does host hour pricing apply?
-How is this different from included telemetry pricing model?
-Frontend Observability
-Fully-managed real user monitoring (RUM) that provides immediate, clear, actionable insights into the end user experience of web applications.
-free
-Always free
-Always
-$0
-No credit card required
-Start free
-Actually useful free tier with access to everything that Grafana Cloud has to offer.
-Limited to 50k sessions per month
-Community support
-pro
-Self-serve
-Starts at
-$0.75
-/ 1k sessions
-i
-Automatic volume discounts. Pricing at scale.
-View calculator
-Sign up
-Platform fee of $19 per month includes:
-50k sessions per month then pay as you go
-8×5 email support
-enterprise
-Full service
-Prices are
-Custom
-Scalable unit price based on annual commit
-Contact us
-Minimum commit of $25,000 per year.
-Premium support
-Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)
-FAQ
-How is this different from included telemetry pricing model?
-What is a session?
-Do you provide discounts for higher usage volumes?
-Database Observability
-Gain deep visibility into database performance and query behavior out of the box, with correlation across your stack.
-free
-Always free
-Always
-$0
-No credit card required
-Start free
-Actually useful free tier with access to everything that Grafana Cloud has to offer.
-Limited to 2,232 host hours (3 database hosts)
-Telemetry usage counts toward Grafana Cloud free tier allowances
-Community support
-pro
-Self-serve
-Starts at
-$0.07
-/ host hour (~$51 / host)
-i
-Automatic volume discounts. Pricing at scale.
-View calculator
-Sign up
-Platform fee of $19 per month includes:
-2,232 database host hours, then pay as you go
-Telemetry billed separately
-8×5 email support
-enterprise
-Full service
-Prices are
-Custom
-Scalable unit price based on annual commit
-Contact us
-Minimum commit of $25,000 per year.
-Premium support
-Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)
-FAQ
-What exactly is a "Host Hour" for Database Observability?
-What counts as a database host?
-Do you provide discounts for higher usage volumes?
-What telemetry costs should I expect?
-Grafana Assistant
-Your AI teammate for Grafana Cloud — ask questions, build dashboards, run investigations, and automate routine work, from Grafana, Slack, your terminal, or your pocket.
-free
-Always free
-Always
-$0
-No credit card required
-Start free
-Actually useful free tier with access to everything that Grafana Cloud has to offer.
-Limited to 3 active AI users per month (40M tokens / user / mo) & 25M tokens per month for service account usage
-Community support
-pro
-Self-serve
-Starts at
-$20
-/ active AI user (includes 40M tokens per user)
-i
-Starts at
-$2
-/ 1M tokens (for additional tokens)
-Automatic volume discounts. Pricing at scale.
-View calculator
-Sign up
-Platform fee of $19 per month includes:
-3 active AI users per month (40M tokens / user / mo) & 25M tokens per month for service account usage, then pay as you go
-8×5 email support
-enterprise
-Full service
-Prices are
-Custom
-Scalable unit price based on annual commit
-Contact us
-Minimum commit of $25,000 per year.
-Premium support
-Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)
-FAQ
-What is an active AI user?
-What consumes my tokens?
-What is the system-initiated usage?
-Does using gcx or the Grafana MCP server consume my tokens?
-Does Assistant Search consume my tokens?
-What is an AI token?
-Do you provide discounts for higher usage volumes?
-Investigations
-Agent-powered root-cause investigations for Grafana Cloud — Investigations forms hypotheses, chases down leads across your metrics, logs, traces, and profiles, and hands back a structured report. Run one yourself, or let alerts and incidents trigger them automatically.
-free
-Always free
-Always
-$0
-No credit card required
-Start free
-Actually useful free tier with access to everything that Grafana Cloud has to offer.
-Automatically triggered investigations (alerts, incidents) draw from the system-initiated token pool (25M tokens per month)
-Investigations you run yourself count toward per-user Assistant allowances (40M tokens / user / mo)
-Community support
-pro
-Self-serve
-Starts at
-$2
-/ 1M tokens (beyond included allowances)
-No separate subscription — pay only for the tokens investigations consume
-Automatic volume discounts. Pricing at scale.
-View calculator
-Start free
-Platform fee of $19 per month includes:
-25M tokens per month for system-initiated usage & 40M tokens per active AI user per month, then pay as you go
-Investigation reports, history, and IRM webhook triggers included — no per-seat or per-investigation fee
-8×5 email support
-enterprise
-Full service
-Prices are
-Custom
-Scalable unit price based on annual commit
-Contact us
-Minimum commit of $25,000 per year.
-Premium support
-Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)
-FAQ
-What is an investigation?
-How are investigations billed?
-What is the system-initiated usage?
-How many tokens does an investigation use?
-What is a token?
-Do you provide discounts for higher usage volumes?
-Agent Observability
-Out-of-the-box observability for AI agents and LLM applications — trace every generation, evaluate output quality, and enforce guardrails in production.
-free
-Always free
-Always
-$0
-No credit card required
-Start free
-Actually useful free tier with access to everything that Grafana Cloud has to offer.
-Limited to 30k generations per month & 25M tokens per month for system-initiated usage (Evals & Guards)
-Telemetry usage counts toward Grafana Cloud free tier allowances
-Community support
-pro
-Self-serve
-Starts at
-$1.50
-/ 1k generations
-Starts at
-$2
-/ 1M tokens (for Evals & Guards)
-Start free
-Platform fee of $19 per month includes:
-30k generations per month & 25M tokens per month for system-initiated usage (Evals & Guards), then pay as you go
-Telemetry billed separately
-8×5 email support
-enterprise
-Full service
-Prices are
-Custom
-Scalable unit price based on annual commit
-Contact us
-Minimum commit of $25,000 per year.
-Premium support
-Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)
-FAQ
-What is a generation?
-When am I charged for tokens?
-What is the system-initiated usage?
-What is a token?
-Is my AI application telemetry included?
-Do you provide discounts for higher usage volumes?
-Synthetics API Testing
-Proactively monitor your APIs and web applications globally and throughout the application lifecycle, with out-of-the-box debugging insights.
-free
-Always free
-Always
-$0
-No credit card required
-Start free
-Actually useful free tier with access to everything that Grafana Cloud has to offer.
-Limited to 100k API test executions & 10k browser test executions per month
-Community support
-pro
-Self-serve
-Starts at
-$5
-/ 10k API test executions
-i
-Automatic volume discounts. Pricing at scale.
-View calculator
-Start free
-Platform fee of $19 per month includes:
-100k API test executions & 10k browser test executions per month then pay as you go
-8×5 email support
-enterprise
-Full service
-Prices are
-Custom
-Scalable unit price based on annual commit
-Contact us
-Minimum commit of $25,000 per year.
-Premium support
-Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)
-FAQ
-What is a test execution?
-How do I estimate the number of test executions?
-Do you provide discounts for higher usage volumes?
-Synthetics Browser Testing
-Simulate real user interactions in the browser to validate end-to-end user journeys and frontend performance.
-free
-Always free
-Always
-$0
-No credit card required
-Start free
-Actually useful free tier with access to everything that Grafana Cloud has to offer.
-Limited to 100k API test executions & 10k browser test executions per month
-Community support
-pro
-Self-serve
-Starts at
-$50
-/ 10k browser test executions
-i
-Automatic volume discounts. Pricing at scale.
-View calculator
-Start free
-Platform fee of $19 per month includes:
-100k API test executions & 10k browser test executions per month then pay as you go
-8×5 email support
-enterprise
-Full service
-Prices are
-Custom
-Scalable unit price based on annual commit
-Contact us
-Minimum commit of $25,000 per year.
-Premium support
-Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)
-FAQ
-What is a test execution?
-What are MultiHTTP checks and k6 scripted checks?
-How do I estimate the number of test executions?
-Do you provide discounts for higher usage volumes?
-Performance Testing (k6)
-Fully-managed performance testing platform to prevent system failures and consistently deliver fast and reliable applications.
-free
-Always free
-Always
-$0
-No credit card required
-Start free
-Actually useful free tier with access to everything that Grafana Cloud has to offer.
-Limited to 500 virtual user hours per month
-Community support
-pro
-Self-serve
-Starts at
-$0.15
-/ virtual user hour
-i
-Automatic volume discounts. Pricing at scale.
-View calculator
-Sign up
-Platform fee of $19 per month includes:
-500 virtual user hours per month then pay as you go
-8×5 email support
-Virtual user hour pricing goes down with volume. See how much with our
-calculator
-.
-enterprise
-Full service
-Prices are
-Custom
-Scalable unit price based on annual commit
-Contact us
-Minimum commit of $25,000 per year.
-Premium support
-Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)
-Scale up to 1 million concurrent virtual users
-FAQ
-What is a virtual user hour (VUh)?
-What limitations are there in the free tier?
-How can I calculate how many VUH my tests will consume?
-Do you provide discounts for higher usage volumes?
-Grafana Visualization
-The most popular single-pane of glass for developers. Query, visualize, alert on, and understand your data no matter where it’s stored.
-free
-Always free
-Always
-$0
-No credit card required
-Start free
-Actually useful free tier with access to everything that Grafana Cloud has to offer.
-Limited to 3 active users per month
-Community support
-pro
-Self-serve
-Starts at
-$8
-/ active user
-i
-Automatic volume discounts. Pricing at scale.
-View calculator
-Start free
-Platform fee of $19 per month includes:
-3 active users per month then pay as you go
-8×5 email support
-enterprise
-Full service
-Prices are
-Custom
-Scalable unit price based on annual commit
-Contact us
-Minimum commit of $25,000 per year.
-Cloud or self-hosted
-Premium support
-FAQ
-What is a Grafana active user?
-Does the Cloud Pro Pay As You Go plan include Enterprise plugins?
-Do you provide discounts for higher usage volumes?
-Grafana Visualization with Enterprise Plugins
-The most popular single-pane of glass for developers. Query, visualize, alert on, and understand your data no matter where it’s stored and unlock all Enterprise Plugins built & maintained by Grafana Labs.
-free
-Always free
-Always
-$0
-No credit card required
-Start free
-Actually useful free tier with access to everything that Grafana Cloud has to offer.
-Limited to 3 active users per month
-Community support
-pro
-Self-serve
-Starts at
-$55
-/ user with Enterprise Plugins
-i
-Automatic volume discounts. Pricing at scale.
-View calculator
-Start free
-Platform fee of $19 per month includes:
-3 active users per month then pay as you go
-8×5 email support
-enterprise
-Full service
-Prices are
-Custom
-Scalable unit price based on annual commit
-Contact us
-Minimum commit of $25,000 per year.
-Premium support
-Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)
-FAQ
-What is a Grafana active user?
-Does the Cloud Pro Pay As You Go plan include Enterprise plugins?
-Do you provide discounts for higher usage volumes?
-Incident Response & Management (IRM)
-Fully-managed incident and response management including on-call scheduling, notifications, and incident management.
-free
-Always free
-Always
-$0
-No credit card required
-Start free
-Actually useful free tier with access to everything that Grafana Cloud has to offer.
-Limited to 3 active IRM users per month
-Community support
-pro
-Self-serve
-Starts at
-$20
-/ active IRM user
-i
-Automatic volume discounts. Pricing at scale.
-View calculator
-Sign up
-Platform fee of $19 per month includes:
-3 active IRM users per month then pay as you go
-8×5 email support
-enterprise
-Full service
-Prices are
-Custom
-Scalable unit price based on annual commit
-Contact us
-Minimum commit of $25,000 per year.
-Premium support
-Deployment flexibility (Public Cloud, Federal Cloud, or Bring Your Own Cloud)
-FAQ
-What is an IRM active user?
-Do you provide discounts for higher usage volumes?
-Sign-up time
-Get hands-on with Grafana Cloud or connect with us to figure out the right path. Either way, the next step’s yours.
-Start free
-Contact us
-Grafana Pricing | Free, Pro, Enterprise | Grafana Labs
+e��������t}��ԝ�I2�_���>v -��R��{4���H�3/�L֠�:�a�<
+�\��vO����)�^0T؀���4U�+��"H}��������L13�����n1��bfv�ݥ�{���?v�]����(,EI�$GY��@�I���JjHٕ��AR�L���Ö��N�E @���;C�&��Y��Je#M�T��.)� �M�U�}��9�BY��7�8>dY��#���o^�{����o����Z�T&8e�>3�=�l�j�槻߷�mW7��6�T�T�%���C��3�h�)����F����պ�L ��'����z�^i
+���A��=��r��!��Ω�1K��ZBs��Ht��d��R�M6;�%���>;YG�@���k��:YM���wm�[��T��h_d�Õ����>�����>�6�A��g�HH��U��I8����Ts7�g��z��,��v�(��Y���|���/L��fV�WM�=*�'"w��
+}����d�Cv^{1?���f��i�-6�,+7�%4�ㆧ9�L��Qj�$�eκa���,�$(V�tJ��]�7˅�,��|�S���G`؟�!�&C^�>�t���DX���<_�����z�~��W�uQ,p�.��~��h�W8_�)��z�ŗ�� &m�j��G��y���+G��c�
+T�G5�s2�vYTe9�
+h���*����i}�Tm�5m7��ͦ��T���E�50�^��p5K5���m��B�6s4˕�nר�
+��K��o�uo{5_����,��bYo׫z����|]j�Xo����^n�r��'�Y,
+�]�Hu���T.q �{��b�P�mn�Q�M��mK�_c����K�}�|=s8r/j3ϫ���Ŷ�o�gf�E���8�\��r�!��y��-�|e�^�MKT�+-u�4;��}�ʡ>�^_����d?�B�[�d�D���^��X[�Z��uI���yQ��x�c�;��?� ��،�+cO�Zc�W���R�����J����}�r�g���q������ӕ�:��{�{��'+��.����p��/>+�
+�wE����Nw��<�dܐ"��*�Y��Hb}�z�"���W�DM��ݠ��9��Mh�ު���
+�3�=�l�������Ta��r$k�#*�R<�Zɡ��\�����|�X;X9Z�j�%��^5jh��q��'�b�DZP���b��Ya/��������Sg���Q�WrͮU��y8?
+���E$�f=p�>+�d�V>�1��X��3����\��}V�����2k� ��wѧ���d�n'(�ND$t"��@��㟰/��Ӯû�E%�).�^����� ��~�\��#R�DG��α#c��O�iǐ��6G����5:�Ii�]PEb��>� ���6�-�l=HKP��
+~B�K���w�X
+��y���������p��;�I0��w5<\!e�!ɱ쳪a����i̖h}�T
+�Iy"Ғ�{o�(�sWp|oL!�|#�&��]`녢�yIrg$\�O;����M;�r�H���y��o�����A�O�O-�_faVj��G|��s�
+��QY�x֟�Y���7�P��k�'���>��\ؤ����E
+�Y�I�l����'��Y=U���8赜��怃A�y����Į�㿆�ZT1+=E��ѡ�:�������i�
+瀕�Q9d�Ԋ%;�[>Q̩�R*r��AK�#��
+1n�s@i�vI"�Xϧ�����&�8
+��
+����cC����t):NB�d���r�6i2lgX��� ޯoP���(��{U.�����S)��%��5T1m��(�����I-�cQ^��:D��
+Xg\���M�4G�ۆ�����:�z�,p�yG��P��D���[���HW����s>1��s7�
+�0�S�ͬ��|�N�\���w�\dp�4���>�!�r�"��:��<{����3��H^^i[t&��5�;�Ic�gT�>5�[��������7Ba�<�h�����5�ك��|�o)Z��
+���҂�gwK(ʁXd��Y@i�^_W���5���Aj�tj�Xz�՜<\q�D��y�(A���*
+����U��1��r�@��d�:i-�t��\�s&Y�21��L��Mˉ�" P��HME�D��UC5�l�";��3�b�p[R�82i}���z_�0K����S�˾��tBQ?�Y��sq�����?��\��s��
+/�դ\L�d�/yZ�~6�4{�q�2�4a��pV�O�"@�]:��b�&��L�Vf�"��ם̳DV*��r�At6Sx���)������~��5�1�D�s�@asy/M�W���1���� �}X�Fs6��ѡ���-�2�g�A���y���z\,��L�3�#,÷P�+�'e�u:����;�<�l�b�w44q����7k���g��.c�>s3&���V��������*/��Y�k)ρ��Ju�1�,�1JLG�w�͝��U���ƞv�(�Zg�v���Աq�r���氼;�;W �XV�J��{"~9���|�-7l)Ϙ�����>F��\��y�U`�@
+&�J�L���ms��Ï1n�� �����G1<��ٻe}�6�g��O86��",�������"Dڔ�(�GB05����:�#�m>e��Hk�c�u��Hӏ�2��x�}���!׫|Ÿ���z�^�y�$B��f�x+�v�>���'�+ǽ�^J�t���JtGn2!��c����sX�T�K!K�������V�:�R��T���,Q�̽Y�w+��
+V�R+�! �?2����4��������b٧ocZsF�+8돐�K��9��PP5u2*�Lo�n�b�tH҉I���/N{G
+xhlz��ĞZ�2l$ae[��Z$�~8�u�HG�O�����'��
+�j�Yv��Do;�w�UQ��#�w�<
+��D�K��}�D(�[G�?=��*�1�� )4�Z_���a�-X͞�����1g�9�<�LJ��\��>�J?�wbu.V3S�mU�6�*Z�JZW�xo/S�M�f)��J��r:J�.
+�t$R}�H�>�1⁄2�@�@���h��Y�{��2��b�~&U4�Hf�T:��~@���j�u�e��(�ҦwX��EI�<�����[�j����e�p0�c"!���u�����d���U)g�A�9�B��(�Y�2F�y�����E�M�1�gUQ�Y���}����/����:�����RoUg?��`�u��C,�3��x+�o���CV>�
+��Db�F��Y�L�Ԩ�bgj�LEs��@=0�=�q��"9�9��dgv�z�\s�G�s&:6躖c�!������J�g��]�dq�ΐ�5��3Ww�k�Й1싲Õ��*�%Ř���7�O-
+��{�����C�������*�%}�f7D�H�[԰Raj���L?�j�U�.TD�V�2Ĕ@��M�8!G��w�|�̷�� ]O� ,-��L�� �Ľ
+��,��{��"�_q �3��l�̋�Ṷ�L*N�S�,YM@��tY�ZbPB��Iv����8�*M��vffJ$��3e�����<4�|���%*�v�-L(�%�m��Sz,�H�pȮ���o�@�=�of<,"L���i���lO&�c�_�Q꣄�R�h�FY�P*�tʭ���V�j�'������Lbt�@����ea�I=����b�ݧ������(x�f��u�-Q�fw��А�N,��bV��Ty�5�1,���
+�H���;U���-�ύ�ETY�E�ⷞ�t���젛�k����m�5��� ��فk�o<��o�k�h:�'�l��@W�2��:����y3��7YK��Ё��`T������#�n�7�7`ez5k��E��l�<�2���>��<s"�'KnݒA�
+�����U�7B|���p���&�wFͦ�/�#tb�YS���!S�DL�q�tIPF����
+�r�,�4�_���@�Q�]R��*��#���o�
+�!�L�iXD o��D^��0T#���0!)|}�5�EK)� �1�،�i�n��Ov���:ߞ�`E��4�S�I˔�W(&�� D���� �98V+������ �7@��
+�X��Z�`l묷ZUu"�
+9����)��4W��"�a"hUQHً�K�*��z��J9]�=��5\�p�KΗ�OЉ*�^�a�q����gI@ �>
+���i�}��Ã0F��0"ͩ{�
+�4Rc;�!,� ����`��wA��Z�������T�߈��<�VҎ%�\d
+��VX�G�b)0��
+ob��-�j"��H���+�5�D��Cp*��j��=���FUL�Y5@�O�W�aE�>(��-�xT��ש�e>�㝾+sX���SK��m��m���������i_$�'�)M`��B��!p����+cEF_�]7���u$q���
+\�d��!�����-�����{�]�{+#�>�R���D�ϫ�9BG�Npܤ�κ� �ȵu�& �Y��
+Śc�^%����s��j`��Z����צEv���l�"���N1�5��J���A��VjSG��W���Q���]�����$8�ow_��O}Wlce��W3�Πc/-�E�6��p�ڞnE���xOhF�֚4:�=ݘ��͞@��jq�dT���%���-�O"]Y2zӁ9�1D���͉�(��H�Ï��{�q����
+����jM)�0��q��l�G�4b^À�hnX�'�R�Ff֍��k;��m���к�?�@��:����!�>�7U��2;(���h�o��{��*�i6��JM���bB�{�7U�AdcppJ���^y�\N��I1V�c
+�{93 #�@ހ殳�l۳���c����5Խs�eMq]S$Ca=�i�R�e�O��he��lq�&����Pp
+ߗ/����q,�p���@2J���z���>y:��w����*����&tG�5�����H ��G���{q���w��:�w&�M^�I���Ud��<];:�=;�^�������� �H�"�CU��rt҂�s���Of_bA2~p�g��%�^�l�
+����v�hQ��1�z�2����3]�6�x�k�Yf� ����i�@b����.;\�e���2���_K:����v1�N��2��R��z;��Й5C0��T[Sc�4�v�y���d.����
+.���z2�������>��N�|���$�ރ1�流����������q\�∾�Q��C��&�+g���s����A��(��̈��nw'���u/ܡX�΍�{�����ؤ����j�_��4��wA,{���&v'�ӫ_���� ͅ� ����oEG�P%M�^�^,6@Ff���݉D�}���Q����j�'`�FZ� -���L�ޱ0m}ֹ�NTQ�A��Ux�ٲ�����#@�"'Tn���4:�;���W�$�C!5r�n�勤��(�I�)������!�N�72��tT�d��$K�T���|AP[-��p����`��R�� Z�w�*:7:�i�>�v��l���<�u7@,E2H|Y����QL䐼��^ c�W��X��&7m�_N"�ilh��>�Wp�W���r��Ev�ja|����?\�p���K�Eښ8��s���Ų�9���������,�.SX~�n��)�&�d�"c�l��x��=6�M����ʘ��=P���Җ�L2�e��x�l����uv�oC�h)��M2Ԛ����i����䣥I��e�E46��*2:����4&�~�U˫M(Bg}/���.��r�QN��r��D�ת&�"(ژ�i��C�
+MR�'צH��D"�4*m��c��~���)<��+��:��/�}��� `"��n�/!��m�5Ghm�R�
+��IB���dgyJ�m8Psrz����������b6��&C�֥i�����S�Pm}6�ESJ��@$A�}�_��{�c���(�����`�xþ��ɞh�*Ri� ���G\�R��G� ��F*�5Jc��>E+7��ؾHZ�>Q�_���gP��DSx_��V�/��YH���p��C�z�@lGS���8F�E\�T��ޔsK��
+��F�'��DX�"%|��tM^���Ң(�`� :�k�D�����ѥ�I�)���%DC�41��dwjT i�iI�!�{7D����Jg�����y���-'������p
+� l�#�vLV��p�Qzt���O2t9��������/d�9�7�׍ZP���M"���5�H�l
+V�E`l���v�I�XJ��4�mm��s`S�hK}\���-�1������^u��収�[�Ќ&�_��S���Ӈ�^�e�F
+��5���l�DG�8��mp]�@xL���k&�)%�����������V�9��+���~:XOFB�G���9P��5A�['�5 gA�d�
+0ڭ�p턢G�'r�V��fZ�
+"��Ѝ�#��zr�g�z �pĆ
+���P��lc����PG�YU���bdž\�'�
+���-��L{���e��ݞ�f/�]��Z}pb
+�.��F���k��:�h�`�9s��~@/ElEo����C;7R-�'\'K�ӌa�w�E���̨��'C��H�D)YV⧯���}u��/�6�������vD�.�}�6�p6[u��6`f.�e���n���6���F�2��ȹ��& +-E���H���H0����MVT�J��,��
+�Z#o�����ó������5�aAD+�1h�z>1ne���5C�aZ�����:�[BY/�.egZX0./���Yo-M�R3\�F�>z`
+Ft
+�^m�0�y/�F���2H;xm1u�\J���S��w� ��3ձ���W`�p��*�1$*lpt�����g�y���|�[�fn���g��$U��
+�6�/S��ZǞ�bS=��/�
+�7Ng삣 ��Ƈ_n�#�s�&��/�1s�����c����/� bT%����4��G�> �)���n����wb� ̨D�%z���oA���>��|@+����(�F�/$B�[p���Z9�Pj�AP.
+y�(ԑI���ɊvD멁�����r�@�$�
+FއtR��&����IF�0r���4��d,2���K��^���"lI�4��6�3Va^�k�x�PO!R��V� Fe^G���=��2�7���1�2
+8�F�H�(Z6�������
+M@;��$y߂=8{$xs-,�,��6U31������{�J��֤@�9�'�ǹ��&`=
+vi���MW֑y���p�![�~?i }�W�7�+��k�
+C�V�{uO��t� 'W�כ�+���Q�7�~�CߣscF�O��
+�0,�;>��ߌ��S�����)c��
+ߕ��ۧ������"U� l��M+m�,�Z����)�b�p��>�%�Ƅ�~�$ńN�6�ѹd�40T�>�����S6�����TZ�%he�&�&����R�h,����bLEf�B����
+����V�ѵ����rb��6�O�dc��EW꼇��"�ØÆ��*�4�w�W�7� �ձW�p]�O�����
+�`["cR�E����Z��N`e
+�%�;�)l�Cv��Fb�t��P�8�J
+�!�<
+�.��]��g_���}��?�iFU"j���C�*�K�I{�D�o��`YBf~]'���ZR��W����������uq���w0P�2�no��jtB�%[��I\�9���[�s�gc,+�����o`���n)6$�q����Zg��Ü}B���a
+�?N϶�5fҍ�
+�J<�P�C2�t=�q�5���@�u���D>+�����@=d�;�,�Q�D*<��4���#��A���.�&��5�clX4�;�"C�R5�4���D�ψ���D�5]:ݳ"�
+a�
+�ð�ʤ��';�?�w��B}���lL0�V7/Rp#X��Ҡ}�_���^�|���������N��1*�8ّJ4��@�Y�Y����B:�6�k �>`"���
+;b�b�#�"�|$#�P�# �t��� �)���]���u�=&5 ���]54z��#v�I�
+�L���J�=��T!�00u����*�w�~[�U;(2���_� ��4PEJ>��o�M�hD9i��_� �e���Y(�Q$G
+x���8GH��L��:��]��9\x�e�h��@+� �x�`\b)�j�>&��k�O��q��0D�"�c}x�-��wCj`�H�"�]���q��H�]�v��Ԝ&`l
+�}[��WJi*����h��KIK`��'�qcI%q�&n�OQX��G,
+��è� ��l}t��vL:ß��4wyC<��P���-b��sq3HW3n��z� n�:+\�9�����������i�e�G�Br���˯�l��8n�P��v8�B�`"ȾL=�F��_���~z���C\m����&)\]ʈ��xH�/;E`݉�����eJ��]+�N@ZN�2�卄�py
+/�; ��R��sL惽u��~�t��$h:������F�Pp���|2i���r�a`ݯ�9
+8:�#>�n� v+bծ�A�x�C)F�7����<�| ,�">w��X��]-�����p����[�R�f�_����H!n����T�ţV��ߟ��N c��,g*�U �h���H9�m�&�����:���4�֣�?)ר���'�u
+�v�����3uE5�`[��1I$�
+����O����.�
+��w��C�Q�/$�,$�j>�&���K���ɥ���¤~�MC�zQ��1]N}�@Q�[JAщ?v"��_�{����b0J��_��{��n�]'�F�{��6*�s�@���h��6�Ւ,���<�� ���\��4»�D���$�x7^!k�o��v�ҙ�pX�W%� ��mL��7�8�'��I\��"��M�jN�4N��Z��Mܒ�oζ>I�D� r�1��@>�_ƅ���I��#�u���%�:D]�0D`Q�\8n�0�J�k�1���#�|j;��c~��
+P�t ��nP�謃DHeo#����%��$�{=^�1y�2�.�c�Ԥ��k��\
+���4>��oj!�1f�6��w�w�b>)��i瀰�C�&����E���&�'���.b�A]����.E�F8$$�� �z'����L+z���U"s*A�FD\���l���ziv��Q�+�߶
+���V9V�Xe�RI((��U;�4�*}gκ'���}��k=��C#o��N��d��.�Ȩ[�`F�7����u�,]�w�����G$�7B-)�BS�[�<��X,�"�;�p�a���?��b�x�����,'��c;y_0�:$�)�;��c�׏�[��b��f`��H��׏mg�������� �_?Ri(�j�P��MrL�{߾����XMW��..~K����r��a�q9���A5P�׏�%�͂RG��Z�s���|Q˓�`� DR�0�{_@�O�C�o�4�Ϻ� `�g��i^��rWN}��J��R��ʆT[JU�ՉlŹ�_�(1h|��D�g���U�G�񚣜�U������p�}z�hC �.��Tr������di�LG�G�<�Ui�(UaX"V���0u��oy���?sm/]��Ƿ�W@�҃ؓ`y�����N����:��<�_��>��j�xt��+,Ɗ��n��7n��2'2���,��&�ë�D��ڏWM�G?�O��G[b���fV����r؂In�}�#�=�p��H�O�a1��7ƕ�)�7�/&"�
+���<j��su�} ���h�7Ha�w4����dy�)HQ�h�E�Ü��p�2oLD�ţԑ�1n���ӳ��yW?
+�D[���|�����cx��YC�`G�C�ο��A�p��h�3�
+ݢ�'xÆ�4�ڡ�k@5��մ>윈�0����փE%Ɓc�v�B����F�5β��#�}?��+����4&@ƾ/qt�D�O�a�V=��ɾ��<�����Jfغ�9t�*JX-�&��
+���m0[�V,$O�;2�ۿ�� ��D�fd����fc,e�
+��^��b:�#��%0�9 {ɽ·���Nm1�%I� �dg����
+)�lx���^��ZFC��P� c���Ny�|�bT3�f7�eX�qKǷ�$�ގL�p�@]�A3M�ܭr�)y���l�����,��J���m��w�B�M�{�@��ʜچ�z���v�C�0��iG�T�q�_Єv�@�
+��3nD�n�1m��pk��z�MV�XL�T,���5�=m�1G��7rNߘ�j�;x�H�N�&�k��M;ׄA;�琉��٭�P�3�Ȥ�5~�k1}�g�~"�{�i���(w��Ȃ����7�n�_�o�w�뼋X��
+i�T��هv3�5;՝U����ip�.�g$ɲ��*p�F�ժ�MnN���!����ᖳ�Ά�ze�p�S9��k�
+�}�;�ff/w]$��5ǙX�r, +���*��>Z���%�}5&��mU:Qr����f�����\�:�g��7����{W�%�8���0��"�� �K���Rww]�-��0o U$<�
+�U�Z�A�RyI�Vf��V�1D�U�hk�Nf�A�E���f����;v�2\��7);�rOI������� �̯��?)l��Ѹ������0�e�D���x]��W= %�M<��z������Kw<��u���e=v��̶��~
+I�Vj��}�~�h�/�ev�y�$�H�/�l˩�~*���٭������.��H�QhE[J�7��e\*rp��(<,�6;ǐ�
+�).�ewRk`�Z�[�P�XܥD�l6���j�=�zdE�=CV�b�7�3�ߚ��3AP�(�mgX�]bJa���ߥ�|���n^��<8!���o�E�!
+9J���1������Z���� ;��a�`��Y��&ƽ:T�B��?��)g��W�#2�
+k.�R,�2�gy�v���"?a.$ڸ�
+��a;||dg��]��;w˥MAc�s�8��n��0�Mi�?�eڬ1�.�����X;�$�s���-��+5iv�Ь%VlGۏ�"C���TK�����&��y�@�"x�TS�3���GJ��r=)�1�+XY��-v�x��t�H�Tv�L��7��>D٪��1���y��dJ`�\Q=��O�e�C��?�[��|�5��2����(
+��?K��I`]���Lː�nT��y=�B�bW�Uq��B8���
+���o�u��y�ǼB��ܻ�U��K?�h����o��§�찗�l ��՗U��6���J��蹪���.I�~^s��a�x�Ɇ�T��VC'W��'��[��Պ��W�L: �L5\�#����QՏ��x�
+����Pwl�Zs4����
+��Z�(n�+��vݦ�c\��8R�V�ʕ�C��O�(�ð&5���%���bw���9Q�����#~���0=�T���XN���̿z���G2B;L^�,-Q��=G*�2TI��ݍ������f��_a1?�(�_�--�V|$�D��bnn/�g��-���yy`�汊��A{D� Tj�\�^�'Z�*�;޳%ͼ�~���;��6���v���W�\�vX�J�!JUO����rY
+�� �*��!�ȇxW�wM�$�]2��A'��/�b��o��&��'Zs��(;��ӦI�������R�z��Lm'�W�i��9�a�s�j��l���=�;a�ؤ�9j���1^������@�\f��d���CE���v�)����/�C~�H�����
+YsPc!I��h�wP�n9n���m�5k]l�m��Av��E���&ߧ��C���8
+��-��W�fn�h��λnRD��hl[����r��1~'q�`��p܌�����~z �7��&���Qޠ���{��A�4_泟^V~��/%��r�1��]>;���Ժ1�|���}��p�ْ�n�k��|���߾�$D��U+��I��۳ZQ�2ƾ{��]�7�}��e ~�3`���!�����"~>�RC :���]��C��
+���O�oϺ���iEKh)�Y3M���~f���
+�^��oĽjB�}I�����%*��������i�Oʆ�-�5��"�&ύ�P��]�ҸX܆�G�.��z����í��8s#�`}���a�-�P�a��B����v����*`7o�}P���[~,fL��D{1�T��%�#��!#�lxO�s�
+/�p�B��u�k2�������鴊pر��m(��ZnȒ^e�)��\K����e�0L�m}N��$��ͼ7�~����A�T�R��͛w{����Vԑ�*�mj B�|C�����v�!�A"��;�t�;�����]�&V�8ς�7�(�陦�1w��'Z��W�M�ij2��X��sW��k�zr�[9Să=X[%��k����С�ZY):�F�[&�_6�e��o
+:ު�U��9;��T����Ǵ�A5l�MC���8�0h3A�
+Yۉ��&5At���������A�
+I�A�t����D�@�.�l��
+*y�q߭�i�w+����&9��(�|J
+��>?�+��6�#Ŏ�KZ�:��ڿ孿˹�z/-�54��}��%�V�,��!Lc/O9H�>�ɛvF��9�ې�a����A(ދ��q,|��@J�k�����7c���-�K�'W�
+��x�v�
++GP�t$x���J���Zv��v-9U�����`���$�M�rO��,�Muf�;�,�ߜs��7]8��X�0��k�K��Z`�t
+r��K�u-:!��A���^�
+���*��芏iH�W"G�
+e~�|�]>D�6fEd��GO��sB6=�_�mؼJ23���a|H����9�n��n��&c��5��P��u��
+&5�h��ѭC�������gd����e�z5��*DNλH�=6��P5'�Y�v��{3�W��Jk�$�J�Vi���_I֪�R"�\�@����)�S3�6���P2�`�
+�)�_��?��n�� �H�;H���ǂ� >��H����:AI�z+SV�T�r0�O}�ΰ ��4}9?�����{�8����a���bp>�t��v��;�~�5������+���^e��hr3�nS����$�G���?҄֘������A+:�V1+D��e�;����urr��!z�A�V���w��ƙPMV��a�9H��T� BUX�L �Y���GK��<��dD�u��`ֹ�(1�F4�kA;nLk(�߾�]T���2�r��IJ6�f���m7�kp�$=��a�Q_=naQNn�|��!������8���4��h,Lsuw����GA���ļ7��h]�jΎh��i8�9H�๒B�$4����+��1p����m����l�W]�֞���Jnb��x�ۨژ%c�O+.'q�Bʏc��?�ͷ��
+��3�Y�v����F'�ڠ@a���W̜'+rwp.���&z������"|�T(\�u�&hKg��{,AR�D+�!�f"�s�G���dI�)I"�=�p2�^ӑ=V )q:���N��èD�&y-�X�y�um��7b�����}�Zн�#wD����h��W|H����2�^��p�C:�]���It�x��/����r��-ӣd��(�a���| ���T�j
+�Y��K>@/�wl�z�Lc��O����f�`�ƚ#�-R��]>�9 <9� |*ӉB�:�_�.R��ɔ�׋!+\��Ա0��ݥ�jײj���M3�h����
+,�[p�"O�Ha�����mK��Y_v�r����P��'������p2�@�~OI�L��aD��{�k5������{���{J�Y�v���;Q�Ųq�9q�h��Ţ����؝��#r�5�$�B ®�`Z��$�L�rO���*�nM�4d�9������#7aoV0�2k��0I��#�a�05�uNj�
+R�P�B�#�E��^��}�3�>J�HQ��)���H�I������L�]�l��w]|��^�`�=��7�ݙ{m�,+!�6 B
+�H,Aa������F(PRTT��}3F���ĬE:*�Th����7Q����i�bI��A
+�5�fə"��'����� �YL����E�)6e�=��E�����1:A�*M�׊>3�'��q
+�,m\�\��������MBvZ�k�iH3��7�:����tٮa������PcXr��Ԭ�3����M[
+��q�Í����K_������-|h��{��;yC=r`�],yOo��w�?�D�)b�q��7~�!�ڿ�7�
+��L�A�{�z��K� n��'U���x"3�8�F��x;����TWȰ� |M/�Z���}�E"B�jZh6���k��}�N���gz��<�bz����(��*2������S�z�����!�!�¬��^kY�`}�k���p�fdi�3_�h�����VD����/�������\��!��%"u�\{��-B(E|&��_�Z6$�%�K\�KL�Xy4������N7��4R�׀��N�d����%ri�|��)E��PЍa�d�S�&�6�1��6�:�,���$�·6I`6s�)��3�u���a���vyy
+!i[<��[9�߉)�����U�^���F����e�"�{�-d�oij㥹_�-I?I�R�vڵup>�<�1�mM2Z��N��
+R�L��Y�יf,��^�Hg�E�3547�h.T8�:���X���Vp��&���y6��;Dj1�F�/��u�Y��-���\�G�5V�y��
+���*�#�Sţ)�Z�g��d��s�r�[��Z.1�ȧ��h!$3�@�y���̅N2�w�#M_>$�*�6h$A�ڄgʥA����QڵmT����[9STU���c���_>�V�|ќ��r�@�#e�]y�������Gu�V�k���L�װ��W̤���,���o^ �����_���Ѳ��(�J��q*�y��
+煫���N���kE���biJ��pK.����ا��h!$/�$�����]Vr٪I�&f���2o��a�����E9����?qVCPD�G����!�^A^(�7|*E";j �)��p��a�E�#ڏ��rO�=nFZZ���X�ȷ5E�J]�r�A�����m���e�
+����i��gy��U�X$���|AzԨ��
+@I˪�B_�M��v�W��*�^�:ho��SD���A���Q{o'������¤ڨ���e�
+�Ueo%)�tU����D�G��
+��fFm5�m2�D�y�����\���X�O���ȑ�U�*��`����~f�Uj{�;vm5Bd0e�9i'��Y�G7���C��m�H��/�I5�ğ�V����k�SW5׭N��O�/�f,�BB��k�j��\a6�q�fІ���EMl��E�l&�-E�>'�I�ͨ*�:J�XH�WUU��UW�A�4M�׊>3�E����L!;�%�K��%6j�
+��� ؕ1|Q�piJ�F,��l"�h�_Ce!Ҭ�ѫ}1B�]w��B�Z��V�*eR B;�\;_�E�����~O���Q�I��F0A�,������s��
+�����@��g��M,�������/��=я��Xw��p��w���Ot�ǻ�bJ7P�gBļ��xKE.��5�h��U���\H
+"w�KB��(!���|2���
+�e�|u���' TQ=�e��t5D@� �/{�$��_���P{؀E$�L�q�u�~~-ѓ�J�I0��!�F���U�~�Sjz��K���8\od��1�vN!O*�+���rC�s��?�ZXE�T��h*�zQ�\+I��>��e��Zc�i��Tmy���q������?��潩��Yr[?�^��a}�cz����E��g·-n&k��o���W�|)9)�**���k��ݢOQc�{��c lV�K��r� ���>4D2/(����~
+���"�.�-S�n���CG"@6�3��n'�Sl��+�b��L�d����/NmP�L�K�PO�Q������7��MէF��%붐�)~&��Q02�qr����Ԋh���Q��f�gU������E
+�n�Pi�r���ST����X�O�x�����"�1��p����*�1�Y�ZpTŇ;Z�uRd��UW��Řκ�sZ���i,�%O�S�Z� J&#�X���]X*���|e���n
+���E>���"�2ZB��\ô)o9I�%�"���������*�_+�"�lzִǍ����eE���־@q'&�P&aZ{¥D)Yu�
+� H�b��_ρ�����e���;ۮ�CN�gٮh r�����w�EpX��!�1��V_��:�P�T1յ�����Y��pG%�;�W��H��0х��"���/���q!�m��ש�m�P���PC���$��]-9a�D��>X
+%����x���pxt���)Ž�$�s���!��V��M�J���py"h+v���3����H��
+@9�؝/�1�P�r��O��G��E���CMXt@ګZ�A����/+�\�h�CХ$�,H�fA,֤�<���m��0S "����7IV�ܿi��tpm�~n�ɻ#ئ�59ܧ�wK2W "��N;��̠��MB.��)w�y����}N%9��3�x�Rp���R߲
+=i�=��Ǽ�p�z�?�H���N� 0�`��1}�a+.X1�8�=Uc�y��J,�et�L�?zW�b�LSـe�����F�p�} Q/[��+�|OJ����lO����>Fٞl ���%���y�R*�'����K�CK�^& 7�z���F�0<� ���f�W�m�e�P/6ȇ��7�U�{=T'~
+b�ϪRo>�eo��1�N��0.#� ���~�X����
+$Rpͫ�0�;X���d�9�i�b�崵U
+���إ��K��^���55�њߠ���W�E�m7Y�v�;�5�歠7�:�)�A�!���Y�-
+0��\����
+��_��9 o��a�t(|�e������'n7Mi�2���?����&Mv������1�3��7? ̄0�Ӧ�3P����X�����|���l�'���ԁ�{eCn��}����&�����g��K�=uv�HV�
+;HBJ����`�����Ӥ�S����"IK�۶��уp���V�jP|����o��Vn$B���>�|7n����n]������^A�𱕓��vОd�WXQ���@����^*��ik5�3=���D���;�yڢ��'�ZOo�}9s�d���@�����)ږd���t���В��^�@4�h�(
+�*�>O|��M��� ���p"Y}|�l9:���H]=F9R�gT�jBZ0��&�����L���{�'q�ž�c-��`����M�=x�xY����ȗܕdڟf�v�aw
+�ݼawz���l��l�{�\l؝�iYV|'Ć�%��< �ٲ{�k�bU��6��^�
+D�Oh���Wb�-��k�ݝ<���&�Q�-'��)kL`�&(��bii�Q��P���i�� s7~H������~��q�����/R�9(�n+�c�U�+�K\���y�kZ�L tҎ���N�(z%o��J]��֑zLS8Z����z�KY���@��u�4��(P[�S���{��Bܓ��``^�3q?�
+q����
+��i�b�C]����qB�廤)��.���3���4��(��b�?1�c�)�
+v*w$yy�K6�Gi<2���l)���N��F����#*rN؏+�;�j�
+B'Z�7a�$KH
+q�b��/�L����1H�'w��l��� �+S_��fYwy�mC�aP��~\��<`������u�R�r(D��<b�$��;�B��)�Q���.�4���L��� ��y��z��m�V-7K�P�ݛ2�3ҰOM ��qƔ5/���g$�ET��+�H�5{�j�����#�lc��u���u�V��J�,7O-����?�����3����\
+XT�+U` ���)
+4Z�ѱʁ�ȁC'�������� ���hJ��#p�&��Q���)�x��H�;v�ޛ3�)�LR��s�y��w��xd�1Ǒ��xwD3�Px��]*LE��@�U�t�4��
+i((�Α(�.���
+����5�����4��bcB�����X�����ב���+�/��͹��������0��_�������߬H����6�8�'rp�b�؉�.�ǧH����c^5m3���b�X���7����x�'�0��ʁ�|�8���r���ߍN��9��w���
+#>Y/֏E]��|[ I�����W����s^�eU�-o�kD�g�l��z��ϛA�B������\� ���`$H�t��@sf�wq��+����m۶X�y�K,P��Ͱ�}�(Q�T���1F��Jc�;�]�6�e_6{,A%�ɥ$�Bk��(金)����mUK�"N����^�CUtXSzjk�"crekM:Ji~X�TT���n�(�y�O�.��/> ��d�&kSH$$�ǐ�c����@�B�O����dq0Õ)$�����H�lrK��hKx�� ��2I��^�ێ��Z��^��}���ܶƗ�j�6қj�^
+���{�Y|��<=ٺ!$J>�e�0�����>���S<:(�GâB����[޸/��S
+��Hv��q�����*r�!���+e��1z1�������_��{Hҏs
+ɧ�]L8 ���OJɻ���@�|Q���'�B��_`�bvv�C�ο�Hh-�?E
+��;�*[�N!A�����w�V��[A~/�.D�� 
+��@A����v����f}��1���s�W���m�p��:2��.~�Z����`܂�gz`�ˎ���(���5�s?�򔧳����y�6�u�@��f&/S]w�����F���ǹ�3yU���cV|>�!9c�GI���
+݃Y� l����"�J!|HX�g9�g�O<�"�t?�xm�]ܚ��"/�A��\�8OA�@����m�8�F�k����>W^�2.Zz�
+/�oM�։�e��50��H��ABo�秧�餏OO�F���ymN.���I�6f�,��\l�C�?�����~�c �̵�k4(��0�sצc���P���d��͎�NZ�^�����*R,)�v�S��GPBeAz�|�T[Q̾w�;�7Q1<ɧM�S����:d*��]^`�����*H�7� ���.��ӏ��r7Y�4w�|BH�N0i���-*�|���{5�\�OI"y��z׈a��Xq�El�
+�[���6�%<�7o��̨��auV�F����&2_qbZC���nk#2�ڌ�^r����>������b�rm��j����tK��X���������[[EB��C?U]���^��^H-��>~�uѐ�_�i�}l��M�f����6/ۖ�5k��>nO��m�B���gW��� ��>U����xc}�H�FD�VԐ[��h���> �Ĩ�%�d�z=�_��/�;��U�BN��Ƹ8|�����t��k?��r.t;�����#����28khF�u��|ގb��:nksa�B�q���u����ǿ$[MH���,ԃ��e�b��i��:�EKk���Y�l,�.g�SH�D��OH!-�睡��Rx�RͲ$+k�������7�x�$�h��k�Gw���2E�$�Dt�j�v %xr�q6�~Tl�3
+pG�N�q�hLYP�y��F�M#����� M��j���sLvfҟL�X��k6�g}�H�&B�剞�Z�kHmK�1�S<��b�ʽա�&�x
+��> ��Շ���?y��1�%�RHz�� ̈́ ���C��c�]�'��u`@p^t�停B�#� ~�D�pzi�݌+�FH] ؒ��>P���t�������*y�Ӭ��2aX�
+g[{��Q��F
+�#�[���a^�9������n������5o��(�/�͠J3�SH@�&1߻xr���B��Ҡ�1�F�\A��e��qNqbED��p2���m�C���������!�����#�U�
+5s?o�eW!��gۇٴ#�ǿ��A���� �k��0#,�������Lo�/f��>�V%����-� �#t���?�g��*�F:r�d�*�E۬'�"�=2��5i��JĞ�z���ngN`[4'
+��ݙ1q����F�����d��D�����<�BrL�~:��0g�8��\F�������@�d�N�-�����O��ݺ��zv<���\ j�
+&{ۣ='�va�i���1��������{Xt�g���NP{n�!����=��}7��թ�v*H���Y�H�{�PNJ|����H��]�{3F�aiftp�
+�<:��-��8s/��jH��i Ò�ͮ,a8��Ym�F��?��}����$�^;1�#v8�W������ؚ9�@[PSy�d|>�u~x�3�}D�R�9��nH���b�P@�H�&$�gUJȅ����*��̯�ؓ=�_�"������b:
+�}[�4 4�IG. af����N$�)+��.��.��O�b���^�s�2��&Y��F�Iq�rBOĢ�m�t�L,�ߠ;L�(3ĺ��͞�Dl�u�\�N�����ɣ��rP�,���ѡ7�6�8:6��a�uxXe~K/2ʌ��)$���#%[q�ސ�bu���d@ch���Y.߶�~����0�� E���_7:�q���rn��<�����[��`B}(����������n�Bk}�@
+�P,�dABr՜�RNT&�����'H��.+j@-70�Ӌ�ץ�4����+� �dhm^�tE��� f ���jӎ^���1�'�b�O��V
+b������EFz��&a�`Z�n:���)�
+�'/�+����4�:l�?$�m4�nhE
+��K��-�`|تї��re�j�&���I�6M j*f�6��|�����-�_�����J�>��{)�0]LH�8���F_�`E��֝g�J.����YIɑ��L-�<���z� �{` (�yf�W
+�M���=R�z!�!�v�g�%u��#�-c�bh^e��p.t_�@:�xdѳ�+�w��8 ��Y�y�\��gH���?�p�^����
+#Z����#��V������#)��~�I��D�Ҍa
+��\�$��W߯�MNdvb���o���ɝ)�
+)�<᥀͖��U���|ΰS=�57X�
+mZ_.���|��Jp�jb��e���fW߷[6�d,�N��N����/��w
+#�#;3�F��&�e�t:ax��R���Ea�����_����X��T]��(�'�p� ����
+I X�Α���H2m�f�-u��8%?��� �Y�]����e�����{�l���5����'��>o�y1jB���9Ո���w�F��9d:���t��� I.�T��ve1���ӕO���Qr���Wl���G+5o��1=��{�8Krd�O ���KQ-֏oʁ��[�����+h�����Ǻik���X�r���ۮ۲52n���x����7ؑ䵒������]�2�g�~�~,����
+�l"���R�f��ybV,�3���?���_0�-��&�U�枫ۦ�����={�����X�Ό'�cUdc�g���U}w�W�`�uru�ջ{5c�O:�IF�1��n��(8a����,Q��'��D��t��D���D��a붜��fD����?�k�a\�i~%g���u�(�Y��0�ߚ�ڨ���{)�'�(���cv\���@��"Ƌ��ug���?w?�o��w?|�c��*��#�=f�X>�����'��h�xQ}���r3���!���V��N��8�q{��6N���m�.� �v'\tuY�"���YS
+��}��2�}� �j�&e�;0<�U��-oۦ�j��u�V
+��Dޔ��ڤ5k��lی�C
+�t���r�����K�s�ߢ��۬/5���J�J�pR�w�/�����D��x��>���Yn��)$?�N�$���P�������@��GM逫?m����i���).�W�
+��7�Q�Ւ��l�n0��o��+YRQ���5bx��Kf�>��1�0�+YF.���ߌ���D�l�ף?����/�����?&T]����� ����s#��I4�j��H�cc:��c̪��q~����#��113�
+�>1O:���pP;�$���E�|��Ő�r(�q�[����'�0���C�Dg�{{ѐ�C�x�p��P�<�o�dK���n2e�H�D*��&#��M�������bD������P�k��ֽ���®���?�1H�|IY���-jNM'�3'MC�
+�����[ļ�Žs
+��5���_T�Xt��F�Q�r��$��B���H�t�͇�}�����`�1��a凵����EmfF�U��'kߙ>p�Z��՘z�V^�˴lrFk.F�0��VČ��!fF��D�����Â���>䇅 ܯ�-�󊿉�Σ�����9U��!�p42�M��ρ*9�}�T�����SB������.Ā��_�
+�����!\y6�B�F�t��,F���(��)t�-�@��
+F/]3�ԊC2;![Ad#M@{Q�����B��4�"��H��_������n����I�y�n�l���6AW��ː���^�*���M�E_2i>%)3��D�gƩߓ���1}�`Ix/ʬ��$e��Q�Z4��:&��>��p�d$ˁ�%�*����^�����U�R)�\0t��t%YD��@_T!I
+�I��7]�8E�SC�>mgYuY�l$�L��B��p���s�����X��ꃉ�f_~n����\��C�U�yS���+E��L�jˑ�V�H'��"��"�Uq��}f� hGhT�RXL �>�Nά�
+-�5v�L�V��r��J����,���@K*��J���h-�h��~G(I]Qu9��&u��SA�r}6|�m��s���߮~g����b�Y��We�Vv_DVJQ�k�Đ#Te�J��iM)ސV�?f�����tS�{q���Xv�2S��
+I�Bf�B��"D�n寻;3⁄4�#[��T�e��jL�U��|'��MU[ne����WK�@Y��c>B�bاٴ$��v]E���3G�E�ɶ#�΁�]�ι�r�`�����ڊ�H��)�]q@=��e��Qy^�ͫB�n vWN�q�㫷�D� ��#�D�yy���k�:o*M
+6�M�'#i��L-qV^;|�/\*Z)����Ъ�Ty����ϻ��[1�-r���r:��6�6W7W�������z��l����1�
+B��n�T%�B�<��y?��X�NǾ���ʛFVXM,�gE�I�m�&!ǀP.yY�]�����ŧ�8
+���]_=�˫����7W�;vw�[�ݖ��{_���V"��W���ֿ{�G��\�.�=%:�"X���@i�&�4dz\�$M�c:��m�UW���[�.h�B�O�������������*�H[�X���9Ǻ� Х�パーセントA�-�e�*E&61⁄2�d�z�*�a��h@�< -��$�&��UV�������۪����
+1���j�$'�ʻ�-V�7
+<h���/|�g9�n6L�l�x��Z��)�ݗNS][��v.˪C�>�`��&��E/��s �ʐ�����e��a�<�MYqlk0���7����(��J\��9��ˊH0�d����1��� �pI�'�����M�+.�^\����.~;R��1�о��C�%~�ɽ���~܆�@�t zK�
+�[���\�;}N��WRn�=g��.p��/G���u�ߏN���
+V�u1�v�aL_I����$ī�(2{��B�b��`@���A�(�t�˶��`���@s}Rk�y�5�����fjY���o7��S�S���xhi�SD���lr!xJ[I��I���H�i����������U�|�F2]��g�)vM��e��D��c�A���6��B ��1��]��mʄ�%|�D&��x_X� o�V*�B�c�D��>B�{�=��d�ݮ�AҘ7�9Q�ND�m7w����<Ӗ�[CxQ�+gAQ�x�:�����:�A6��A(LLe�SG��A�z������~�ad4Xb�y����Wّ`��+�5�$�Jv� �n��RK��k�O�%�:K��͐���R){!�|�M1�RO���k{4:fґ���N,j�Ȣ�ot8B;g���Su9uQ䏊���ZUC'�t��I�����6��>����/���q��xk!f�+���s�dʉb��x\�Q�N���v�vd�uS��N��G9q�Q�ʕu�?��Luj�:uSC���y(�$W�3�}�sw�m�|`��������뺦��1n:��RPԪ�_sn���2��gR�#(AU!I*�`�]f�D�RN���е��������Q.;Q�$t�{�����i*F�7��Q����쥥(+�p��G���o�Tu��K��F�u���D�ω����)j�:G����hI�Co�k���0�HH���5o4����^;@��0��F�]�j�+�G�\�9�S��r_)�q�VK,��T>)�V&i��:���^��^���Ĥ�(����7�c��f�2U���yp�bQ�\cIJ���T���W9 �\��n��Y��'���L4����8@f�!������\=��r��˓����Xb����s4����X���.�s]��n��5v�G�=CC�p����*��t� �N��r�e3t*#���ѡ���,
+�*v���"К�b���0i��j�Q&n��J�(;QV��.��*����>zE�F9�r)DQE����u� :loK��\�� �=�F6uEJ����i۹nuE���ݤQFM��$���#Kk1�M#�uAxB�� �����+-4������
+!~CnfG�v)���2/?�>M��wD޷-iY���vEE����B���)a�8b^\��⫦�T�۾���=6��uBE �]_뫷*1$��ќ�P)��>�m�r�`�^w�'�L-��ʎ����C����Y�#X0��'�Q-z}��
+�e,��^�ǘ��i�㛺�)v���s�k��6kVr:�%�U♦�F<�� ���Еۻy%�
+,�,o�l��ز�����M�!�q��0����8v_�ou�Y���\7��j>��Kc�~.tSN����[HN�ycN&�����8?�� �(�%ɶ�EY���!O}�rJ�� ~��?��@Y�l~�/E�X��l�����}o&Mɡ�*)A���� ���iO�p�XE:
+���w��l�,,���ks8�T%���6�����G��ռ����)�(�)D^��B;���1N*�����̀`�E�O��\KY�y��{9]�s�{t���9`�^D�`���"�h4����u�Z���d'̪^�p�w
+�E�~_�l���W�0=3�6e��f��x�8��v�uS��NŔ���Q�ʕu�?��Luj�B;�i?x����n[~ԇ:ș���T^ �������&f�(��Δ)���@.Zp*���nb��G��,]�k����?N�@��V�@�����m�luws��v���i�ؖ4���>�4Ss��S��r�$KRԶ+I���bv���.��Ϭ����]6��[��d8��u��0��OC� �\��ɹ4�Tye�6�й�r�'a�����Kz��Vv��kVs�2�z�/>L�1e7Dq�/K80�������"�秧��N���&V腽>Q c�ghwȬ�^�����]�{"v189WFæR)��u^1�J���ς/���[醫{1��X��ᚙRnY7�o��3 �O��±�F�9]!{�|�ł<�qk :����������m��`����=��C]EH�U̷8�(T��N�="�o��CS �;���_zuw���cdu��ر�F�F�+�vv0��=h��X�e#۞l(vV;����<�2FLig޽u[��Qa�X�D)i�kWT$^��;頲K�SH9�T!/�� �����g��Q��1n��u�2\�[�*�N��*N���w!��޵�!�p������J�ZV�Ze1.�ZA��Q��7��T�������Ȗ����9�b�7=�c�r���R�u]�]���-�1{mҎ�R�C��:����Z��^���r�T�]_���
+�_E��oG�'F���%��W+���E�+�e
+[�����;N������G��/�xɑ@�Շ���t�)/s��e[�u����av��Y���|�2Eң�sPo�dA�.#�z/#v{HQ悫:����3�+B�^�n�>���2Lj}��T�mU�ieE|��T����e�%s�ꮪd��/��U$عt7��NP��g?͌;dǩD9Σlx���.���ҝ��)H&bD�!&�
+У\7u]�]����k���H�t��u#��x�~\]�o�����_v�ޢgw cy���p�?������Y�mz���C �;�N��FT�+z��?�g�v���^t�1�E�8�?��{
+��Py�Q��[��y���U_�U%��Ig�"�X�.���!��g4���-��Ɨ~����Cʒ%`��*�:^޵��`�(�Ksc2K�8��j�� ����A��lz�5t�g-��O���!��yN*D���r^+YU-�Bz��Q��2�WlL=�+���?�R��T>݂[8�@k�f���.���.g++�se#�F�R%O�~��r"���B�k���C�)G� ��R�"�Њ����-���k����ny%�.O�#�g}%@(i<8��z����
+݂Q�,D�7�+��Dc��HUW�+�i!����:�]�策��y���+Iu> ���?~@��؝hђ*U�u�Y��κ��SXֲ-5u �����x5^;�y5�gN6W��5�9��!y�i�j ���E�Q�<��[>z��}�[
+���H}����ϯ&�\l��}�˼=tA�������k9�L螲R���-����k�m;�����.�EZ^Z+Bp�1k ��K!�������A���=bh � [���J��uC��uctİ,�κP؍���bܡ��l�^�v�2���&0*�\T�5D����Vd�ҫ�cg����D��$x��^h�����9!Qd�EWvu��e+�!:3�6%����<�E�q#!���3�Xچ}vG�8�PT�[�ͩh���Q���ː�E����M̂uZ\��8�(�^�r�{/����J������G�%��bИ|�0+�EiSG#fAd�
+�3��m���H�J`p� �j�|��@��%��;T�I�-�l]bd(�T2�/x�
+��?����@�f����ɶct-�=^�(D�Rv�k� 9?���e1�F�oM=o�R������˂➌�5�W�{�g��3{�k�DB 5�~�4���i_G$m�G; ʪ��d�~i;�tf����Tf��a6[�M�}���}�� %2D�F�K��ao%���͸o6��
+u� ̧��=�y�]U����(����ڠu�$u�bKM��]_d%֘u-WY-�^����|�������Xe��Ţj%������#��.�;j@�qH c�C
+R���>��tMp� �(�'�׆�G���RcY�,.��̌d�Y]YSU��,�{޹<���"�}�?�>0ܥhR�JQ:}!�H�"]$�@�*������n����Ͱ��x�dfȂ���>�~�}�ᐢIAh)Vb� ��� p!�IHa���� M+Z
+`J�2 e5�{�r��<ґLQ��@ܩM%��*u����46i���n{���|!������T
+B,��n����hD!���n�
+�!Or�2��Dy��������o.+F��JZ���A�%]���H�
+N �N��_��
+�84���$7����H�Qi�f|�8����vh$J$�0��YU3�r4 �I��t�`�u���'���7P���$>';�Xf�0���$VӨ/W���B3`���I�Z]3���/=097��2v��O��,�0��"tX\�mS�=6��i�`'}��ahq �xa;F���P��>�ڟ}�V���V�/�C�HK���C
+�:��Hh�)�6�g�k�N��<��R�|��h��KMP�&e�狉D��������-5#�>�I
+B�ҍc'3?'7�A��7�XOx)R�G������G��Ds��>V�F�=�->��c��#Q6�M��]¦6g�;ۛ�/�(��~�����2m����L��vVZ����TaY_�܁�E`��iG��
++�DӦp,�*�������Ū��q,��P��V��ǧ��ZD��i�+�=��\q[u��ݹ���O��tKa���������aQ��}B�����U?K���M�9K�r���2p
+�-��I��W��1��n�.U{�(T���A��I�a�tw�T[�"�Ӄ-,�S��ejK�2Ho��J�Q�f/@d�u�T���VF]���,?t��5S���6�an�>�Eb�BQ�6'\��pF�\���u'W!��e�mB� ��7vm��^�����x�v/Nw�֩
+w�C=�Dlrn#�<�ީ���x�no
+��#�u(Lu͸h�:X7���3O�ډ��rn���[������ϯ�4'c>B.�!���fZ���<`*����r@v#�Tu�����`�<�3���a����Ḡ���}���h��Ƃ�Џ�)C��J��N��<�],���?q¿�L�8MΊ�~��
+����<)_w�\�u��EXg2��
+��!��I���4w��ᇲ�S>p&�d&Ml�F��J���B�c�1���;j(Oq�v���2��i��n�1�2��9f><�[�&C3�՟��&�|�IF�y�Nb���*
+��N"Il�K���Yf�G�'�˨s�Y�!����2?�u{�nE=6��z���Y��;�X<Ԑ�buQ����
+������R�ZaU��B_UdF}7��Ҏ���\E����{��/?���b��^5�H��%Ę������*��/�a=�.f~�Ǧ:��3��f�`�6��@3�܉D����d���vx��1�����]��Wn�a���V˳�9�[��y��!?�MOf���0�2L��&wɉw���o��x����'���x�GxS��r�^�[� ��<��XZ��n�#�ܨ#!��a�4��D�PE'��?n����Z�Տ���̜bԖc����,�B�8!U��U�z�1fr=+���
+���|V�2.�U�B�"��l�8z�L���$O{��jqf�Q�vb�LD�)����q�FG d��Ԡ���'���ִ/�f�W�o�I�o��4B:�6��-r'�K���m�E.2n��4RM!�.�f"�b���������c�9a%���25i^�I��h���ʜ�������t��ܿ2��Fo�%���!�&����ʠQZ@�-$N�bI�luQ&�3p��*A~l;5��&�Y�Jia)%�r����QR�x�}����f�og$Q2elP��e
+[qu?�z�bFLH�[W�q~�g.����_4rÂ���:��3}5 �Yp����[�'��4h�L�lԘ�.�ى���Ǟ�j(�&}�d�������6���
+g�0��?��9=�{���ŗ��.�ѫ�8�-8��F!��7X��]U@�/��\Q{�թi}���/��Y$�k�dUP�!`OI��]��M[^)�]��ţV.(9��P
+� �
+���"4WJ�91��XhТF��c�.�=B������U$:���H�Y�c�����K��N ��`܇業�;4}a�B���� ]�D8D��Q�����w��MJ� ?
+����m.�H�b�c�
+�"��,v��l/\vbm����qd{Ҳ�yw�(�3��ڥ=vm
+�r2��Nv����z����������-��,�.�nLz������l��-7c<�V@��/�OF�-k��O���/jo��<��ڂ&������=]�{푆�i�u��ƿ��~�k�ǟ7���/�.h�|aʙ��Ŵ>��B ;�W��x��1��t�=�t����u�����K�`-j�F+.��N��Hv�����^w�o����∟}����w5�k�Q$��om�4}j?��h�r�{�hm��$����4(H��.7|�(-������#��g���������6�;�Єy�X�wxɦN��Q���s75�ε���I�p".2ܰvsq/?^�{q=&�ν(m
+��2�k�݃q��@/)3y�u��h\���&�s��޷�NL͍Oo<^��n���Mo��v����%kv�w� �4�
+�rɥ�sNm3�!���6y���� ���w�#�0��:ETnLOM��6�p�(��8����#
+�F�Y�k���o��D}&���T]��WV�9W�M���K�U��w���R��^<W��gw �?����0�ƅЪ1�U��͇�u�4�������QӺ�V_��Qql�">*����˯;qiȚܦu(������PŰmS�I1�ff�g�H�&�-�4�n��w�a�����QH�=��Ƙ?��䍮M���˿�L�0�eе6�����"ؤ�����:��{��Lk,������E�ACݫ�
+3ӽ�٠x)o�#���'-9
+�6%�O�es�FJ�v;�ȧ��X��.��V����B��ԟ։�1$4��bv`��m��m/ا}D5cŧ�"�6��\B�F=�֭-t��vdA�A����H���e��Dw2���e�N%�Xv���J�(�����4��=�w�P�p@9�g�cT��-߈��H����41�G�n,GT'S����1q�����)@_m ������r-��yx������k��/�+��<�.�6��N)
+��k�(�Y�$�_)gV�6nXT��;s���:L�z������N\h�Rk�*xݽ�r�H<�/���\�$�͡�a6Z��i������u]ᩬ���Gz��\��Py��+�
+DE[mSְ4l�V=S�����>����l^w�"���tc�y�4휔�E���Sƾ��Đ��O����2�\�;�~DŽ�|铓I�K�����Ϙ�����8jJf��ÿ�j�{��l��3En,Z�9{�ns�;Q���7�0���P�;�z�=��g+��Q��X�~�sY|��?1��':�#�S>�w��m�ۺ�-��+���
+��(��7p��/W�����ZS+Í�����؉*=��&1��� "Tm��t7�8R>�%��h�)'7Q�lB�J%."WG�\*ne�y80 A2���?9� C躋nD��r�Ґ�5y%Yp�~���R�� s
+�WzkV�������T�A�h�8�[7���)���<�\N�[�`oj�{O+�NX�s+ôeN�Z��_PWz����������
+k_sS��%��x;�E3�^�v�~24�93�ى<,���LJ�N|�g*�A���K�Dm�,���_�˦�j���a[��q�ދ[mR�o�)�Ns�z�h˄q�t\w�ge4��(������͂��Z���v��\���elM���9��Oދ�Vh\[z�� :�
+/���{�c�F`Y�&q�i���"���}�mq��w&!#F�:T��_��r���N\T.QjG�7ܺ:��s�;+�=dc'��=O�^<�,n����-Zx�(18�z�� l)�Lsʭ�����G| k����+��͊�|�M�S��mݣ����>v�+���i���Z�DZ�dz�Ekĸ����mz�eM2�+��m��IdR9�b�`��wڇ�ݽ4���Nb�� ���㼕���nӱM���FY�jd卨Ý��N\�E:N���r�@��'��wŰUl������u�
+L����f����{ޫ�
+�2j�{�WG�-x���4��e��0��$ڋ�ۂi������`E�
+����������6
+�67칅��N\�kKRZ@a�K��2�~ ��JXg�ћ���k�����}�N�m|̳�fnm��p>4`'��GJ�#��U\��r�čƋ➁%��>k�y6�(��*�7�!@�����Y���~7��=���a�Y2���NT��%skc'^]�{K,|e0�N�ŝy�aF�kB�Z"1����Tnq�.��/��:F���[������{aln4�D���L+���ҒP��k��{�'��PKi[U��l��~���Oh&#�2�[Xw�kS[�J�OP㗙ֆ`:�
+���h�Xk��ds]���q$�~�<
+��yZ�|8����a�O��[L [��V��iq�ǿ�Ñ�y]ӽ��D��3j���S�vOY�q�{��X�ș���h-��-|g�,973�<�@�B� �y���/��F�I&�j��N���-4V�L�H$�hL[eݍ<
+K�b��x�r��%d�E����X�d���F;l<��i/�;_���
+�ס��R�:���n�÷���d����/᭙���W�1�Py�B�*�|��E}��5%�l0ީG�|b�jj�)��ҒP��[���_��"dLjIz���\P���(��t���^<����:��ѡ�D$Ḽ�[���aqE��w���>G�Ur�g�-�a�gV���[�"\5���W�����
+���R@��@��_����F!(�:��ם�C%k��N��0e���}\�n�?2
+����'�n%��R'�e�w������ɉlJ��h��Vt�"�"��q��O/_o�d��4$RD��KlW}I7�����h_��K�@kb��C���=�R����̲<$��v@[�S��I#mJ���ى��V~׺�V�����ڝ�[�D
+cKq�,�/���P�R\�Y<?��{u��<{��&
+�l/<<�O�����G�c`M�mل����y~�����֋W9�j���� H�xlə&LY���U��*:�l�l#8�>�̟��4v��`���˿�1i�O�̾��L3Rz��\�Q�^8���yί�l#�Y���C���A�+0�hG_���|lm&����) d�aTV^z�A�����}����&�+t!�+�P�����$�������m)H4�,\J���L���=|����A缺z��rǕQ�9�֖�uǮA��ahya��ߊ61���:Ӛ'�Yo��W��$?2o6>���C$.��?9�N,|�O;q��2�
+�\�X��@�;�O��9����7lm(�Ȳf�
+Y��6*��'����;N�4>?�I�fC��Kd����Hʃ��T�>A�8%[���B.�
+S�����
+�Uձ��6~���7[\�(A�d�#�;�=�3/-�[;���Q�U��zh���.���ŅXuL�^���o�{^���Y4��1�W���{�4��0N���`JF�?w
+�ͻ�o=���fH"H��DoO̥ugj���Oۺ�,��ϧ}�~i���D��O��xu�붾�5��;�n�UO��>�L5oԊ��Z��6AKS~>
+7��]X�^�O,�184R��fm�@:c:�"�Sz��V�y|�9�뎧�īw��hvZJ>�{���8�V�?��{�m��ɼ�x�jɪx�tZz#��ɉ�^�5VE�+ �2����sb��1��0��B#�jkY�c�~����U�2��
+�ފ�Lk8��3u��c{\;w�U�u�lA\h
+L�F?5{9'S����U��*�y2��O��'܋��V��ܫ��]��m>?�~K�M�cM��?���?򆠬��4����t�V׌$~�!b���n�A�G���At�?���c�i�ջ&�(���%�x)�G���p2�7��į����}=��qnP�Pc�F��毟Ry�!�mJ?�\,�M�4e=ǞV�u�5��շ�ӹO�����C7������d���'O����:u�0w`VD�{�o$L�,����/��G�r�ja^9B��n�>���� �7�k�����{ۀCf<��j��b63�ĸ���O-�1�0GgZy'��Z;'�o������e�P��O�N�8L�v�[b]!��e�;�f}�h���\��
+�Hz\=�rg���"js!tNvũ!�w{K.�~�Yq3⧵EdBD��1L�
+k���O�>���|�B���
+g���t�e���|R_+��a�dTP��:^��Wao|'�W���Y��2�Q���hmD�.��)�K��D��:������%%���wwUI��+V�,$J��D��uc�в
+9f:�o��μ0��ƀ�km�����D��
+3.J{�C��.����8C����|=/r!t����jw[�\Ek�_��K��;`�>���)�jz8�����*�$�qK����F
+ ��Q㕯@�k�������Ᶎ����[�Gۡ�e�k-���1v�hu�Ơ����֣��,k��NA����!���G�u..:e?v"+S����d�JEp�p-J�dl�F�G(�e�q��ww;
+IҨ��s�H����4K�M����G\f����M��q�N���&�6�J_����K�TT��t��՛+�d���B*,l����M(�X2Z�Z[��gc�/�7|����!�nnǯ{�o�^Ve��G"�#��Y�!�Ƒ���<�6��`�F=C8K��3?0F�[Zl����ve���8��0���Q�}!y���o�Юn;��(��V�[١����a�����1�g���V�)�*%@�IYI&��`zS��1�|?�{j���@�W'}Njs�3.@r�Z�����%��]�|�2��)����Y�^~?$. !�)I�5Frd
+c%���_PE�RwR�A�lXF`J�AҜ!D_�>e��Q���E7H�re�*��Da�9�
+6�����t��7V:��Ԧ.�
+EV����Tu�/�ůyV(�S$1�@�j$�hoݸ^}����4]�MdM3H����|�{����z�
+_�YCd4�P3`�!.d։B�1���R�*���}[N�8��O�����èI�8���8˽ꉥ��_0�&+�� p+�a��uZO����t3)�����A��C#�R?���UPJ�4YWIF�)y��6e���g����$��F��g��g�������a0we[N��Y$,�+yqIa���2���\��(|���%��W8�qe�p<�d_F��ck.��DC?55��20��TNID�
+��[��q�m
+]�Fg�2��j�ЧTS��:?���L�C�H(@���f�B�/��m�& �t��zj(�We���p��P�1x����h��_���\s��XP�#�
+H����c�bAG�$�j���0
+mjk'������{�J_`�yێs�x���{he\�w����hb?Υc�:R���Tb{��u#�B�W&�R�Zh�{)&{(���c�@�D@�����F��p���L���Ӳd�p��l����yb@�l/$o��`�x�D� � "hC$d7�n�/�P|� �MAb����n]���e��q�����gǶR��H�j��lci�e���%�gN2D�s�Ur�b:�K��u+0d.[����<3-sKΒ��5:YN�Rl��m����y�kHM��{�XbUb1�BL����A�t5Ř1U��Av�Υ��;<{�f��Ok]��\w�c&�Bq�XĴ�4�C[na�GSL��o%�dц�N�[�ۉ��*6$P5K@$���C��c⠫c\��V��0��ı@%�SF ]=���4x��*"*���$����bRPҪ*3�$���ԍ�u1�1cJ�Mrw�������6�#��J��@2�0L$ž�2�/a���k{����T8d"�@�T���Ѩ`%:oT�h���&�J7�����:�l�E�_t�lG�c�v��ZB(P�ʺ�1ڐ�4E;0{)��hU�Ӈv�V��/Fy�:huP;�R��3!`�1T���>3'�ȹ��a����UA�Jދ���ڳ}�k6i0��u���w��kt���PK�ᤳ!gǴ3v7��}��fy3��A�M�rà�/�`ؽ���w�v��g3>���w�*<1�՛u��as�e��cq��L�z�9��T��h�,�o�$�V{|P������O<�-X�m����ծ?[��W�r��.cH�q�q?���ۅSL�q@s
+8�.�^���2�v�-Y-��U��d�I���Q��oN�hRa�z�������XGm%%�$�7�1��C�]T�c�Ԫ&#�D-��7=th���Jg���ޞ���vz����o$�IA��v�!}Q���U}[�����1����Az����%/��Yi�,c�7h�>�SK�nPw-N�.�[j�f]4��t��v٭Р�
+5u�}޷[����w���=
+Z�y{
+٨K������t�������u�1
+�5?�i�֢u��v��!.yA�B�t}�\�#�3k�M���R6ں6��k��5�`�!�%�"Ѣ
+#H��ц=����1HM������E%kH݈��S�Y�q�\�ij�o��8bd0Q�Ϡm�߉��&�*W����R�
+^˄T�c�u��hh�f���ɹ����x�.���i����z�|q����|��w�0:�������؞蘃�%h��{������AɘĦX{��*{�Ng
+Smٌ(���ί��弊o&�.���2�w6~�n{��A+��b�������sB�r��#2�@ *Q���c����I��`r���ο���p��f��o��kU8�ɸ�6:�وٴ��Uf\.�rf4N�w�BYuh)�t�3R����h�V'���Ed����ܔ�@m���8���O{�H(�u�2�#1�?�§�˭w���Mb/IY�͐
+�Ǭ�p�K��AH��AH5�\��(����aъ22������T�3���DZ[x"YP1��20%�kؚ�\__�U�
+\p��ƣhP
+��s(�0����V�T��؟I����@��21�j5��l��*2�ɉ޻�Z�=��`Wk;��i_����G���;��B ̋>^�~v5�����Ի��Tvs����w�g�o����^��6������NZ�����sV����\�ض�k�n�>��@��S�w���R�N����sf��R��A�I��R��w��n"5lU)5�1��7L��R ��,�
+�q�I��Q���1f"�,�OBvl%S��>)DXAW�Pb��8c��zӈRUJ,$6|�M3C�ATo&wJ*aY�?���b��r�E������K1�I�����ɺBP��}�+N����ΌJULB��`�*��fK�c+R航'ף���ve�������_?I����pط���Z3[�]��&y��Bk��z)��m��۞���k�P�ud��-`D���Y�br�S3���{D����*�WE���.�)j�JHk��:�%�ű��nC��m�=�$#*��
+��X���R�� �x��F������$�VZFho\
+�>'%e�e֦���{H�T��(8t����=� �"6�/(��j��"�i�M:Cx�} �f!۝�i�x�
+�щց�3�(���䁁�o&�~ei�
+��h�/F���]��V�cJ�KS�1��mY�+F6��x�+�O�φz^�#?��e263�~���#��X�5WH�&@���E�Ey2.����g��n��m�^�y��H�sp�+�3��c��N��{��h&I����W�F2�d0��{H�R-�d��l�rNUD؛׋�1%p�4�.�ȕ�ud���l�m��$D�S"�v�%��X]��brP�U�3{��J�p)��+Yg��Ā2��+��2���^Jym?:t*��� ������B�,}}����-�*�,��y*9���<-U�q���HuU?H� �| ��
+�b1(t
+|J@%�G����k�9gC��s$?X�Js���b���������p��h
+�Jt��-�Y9H��q�F��U?i0��������ۇrt�ф�!)��
+� <Ɋ9�d��O`dL6*�)����!z��+��M�5o�=�qY��p�%A��U$��F�ZU6�+�Ue�:�������e��V�*��T�+}�IcH�Uf�h��}��矗c+S�łN���@��w���EU\�*3$����|�1�u���
+[��,>�Y)?�
+�^R�
+ɒ�Đ��@�-X�X{���U�WT~�C��R�$�L-�$0F�SB� �
+:��Q�@R����J*T\|d��%�>a"*Z�v�v'4���n��h�#�u��xp�����\|�A ̊<����
+�'��}>�*���\�N�/b$�%X"��8�Ii����I~ʾd�9H
+�c����}�I.E:Ҩ�!������+E�G.I��!f(>!�AIUE�>�dBR�6����ޏ��`nlʆͭ��w�`/+w���P�7/p�O�x�gAބxk�bQ�E�Vg�$
+����H��/m�|�������Q�Q]��c
+H��ďZY͜����@�=(G�r)mV��Χ"�K�����J��$$�4��^2q�(���^Nƥ6U���{'?"�<�4%�D�+6����3`$6h5�%?�Ɖ��UK�@�o���q{1gqZ-�=0A�hg���g&�'z�7NmDܖL���2�����@,!y,�L�T� ����+v:@�l��Q�t��+;o��.0�{;�$%O��t Ur�h���/X�%,&*����w��Q�ؚ"�������R�@Y�}�Q�^d��,��j��'�
+�:Ք�p�ĥ�����K;��0���ҽ�Eg����O�� �N �R��R���R{���C�?_�EG��p1�)��vZ��>��OЩ� >���́P�+�:�{��R�PR$d�� ���#3AE�}rm�U�q�咵���D<_�g�>7��͌"�獰�ԝ��`2���}��C[7� ̇U�oջy�U���G���n�����%�����i�D�c�pSߜ��j�����M��e*�J�s3(���m+mQU���d&��
+�sgꄧ���������.g��f2Θ�m
+�b�7���.��;�ξS7�Җ�~Τ:����7�sW��^D�Z�ڭ0�]��i,z��V+���=�LFeѦ6P�t
+li�U���(����AVI�.T��TIL6� �Q�Q5�����9�q
+���h�AKր�U e2r�F���TSs�"�6���Ǟ���>���H�=��A�P>/weP$`��b���߃��@dr���yy�@�)D��씲�:`;�P]��-�N��ޢ���zh�/�q_"J�ҡ*�z[f��p &؄PHF�d B�&&�]qF�g$&�c�VQ�Z�S�7���bMN@�/�����kPq&��7�3�Ej�H9���a�:�~f��6xB^ɍO�_�!9F6�Tf�4 �ƥ��&m�@JXBJ�/��v��8��PV@4���#�.���e����N��3��0�T�BRAi42{z�ȕS��t"��tZ���]�\$�;3�l6rrQL����=g�O�?�X|��"��5�3�e4�S��9%�&���_I@�Z����
+�v������k� �#��W�ۈ���Eh�ʛ�i����#LG��\o��5e� ��&����o�Qh�L�p��P2*u���@�7b�꿫b�v�N=�dƸ%�MY����(�������ܪ�(�
+.K�
+B�NBJ��KVi��� �k)�R���j�RcN@%!����@�����LR,��)��كR$����P���_C���-II��8�vb����W�9�?���:dp��R�h�̩KR�@�)�T�;��>�V*�
+�����2=�
+�9���CR�Y�+�J0��mJ�χ�:�AS�[���Iv��U�*3�PVi�b!@N�p"v�����rJ���QA
+�!���*�љJ_�!SN��x��}
+��8��HsJq�nX{"��я����[�����i�^&���cdx�l�.��8
+ی?(E�f@�ke�J�uX���d��������mTZc���idQ^KDH&T��"^�|5���������Av���
+�B��%����:�t�������2�t-�20:���̈�,hi@��!-��#�����jUUs8�������d������_W�����}E����Zk����g�S<�L�S8���^{��=�>���J>Q�����S؞&Ch�n���Q<#M��c���wͽ��7"2�dM5͌����Ռ��4
+E�����(/ɵ��I�5���!a� �D��@���Q���5��lV�.T .��1
+GbO5��c��&��R[����Y�k��)r�}�������M�fqD�p����c�҇��{0T�Ʊ�݆Mto��6�� OK�[��Aef*��K�汯�&����vm�6�Z���vWH��q+���2��h�@���-��AJ��2VE]�р�c0�>B�
+���F�?�1�4�&Ka��Nՠq:R�����%Iy/?���Jͽ6�9���]z�*�l�ք�>W6�A����hH�JnV�fk�� A '���\�B E)T�-_�k�u��f?-܋1ǩX��L��b��l`��0�4ѧ:��/��ݤrR
+��۵�]�m�h�R�A[O�V��yM���KS�4���+���h
+� �Ay"6��1V�F������_љ�[��剔ߍ�VR{��3�Jt���Z�Ik
+����m@7��K�,�&5C�����-��'*0L�v}E"=lc1�������O�^�3����y5��*hޣA�}Ԣ�5m��H�w���.W0\]�ɌB1`�a����-г#Dʜk(�@e����
+Wf��N�j6�0/��&Od�6!4 ~���c�g�0""
+��
+��Kqs���^;oHj7=�p�*�����G�.ۊ�C�7း]�Ψ�<���$ոP4+�<�l�}�+Qr)ܼ#uM�YM)T\@�J���bm-�j
+����\.
+&*� �y�|��04:�O����T)��n���Ao������/:�`��
+�.P��h�zw=�|N�
+�k�����p>1�;_hf�R[�>!��ö�� h{�]6���uy����gs!��@�LT8c��B���Y7����VҴ�^�����p�9Bb�Zj�q�-+r�@��bJ�X:g�R����숶��`*/�A�_%��V�دK�>r�����5��g����5ղ�*4���|���R��{���A��x����L)hE�&���^�� p�V ���M�;X<[��������3ѐa�P���u�>�܎'GU
+�l�B�x|�ɉ!^����]j��}?�5ɐ���vt�y��=p%�k��A�8(� }
+�JurƊC��� ����;�^y�Z�����"�$���R���t�G6~12Z�
+�5I�w���
+a�h\�9�r��2m
+���R9'D�=�6��,'��M(K>5��hR��^l%uMՅZ�3
+��@Wi�3f�6y���C�r�e&�yuS��X�7�hj+�t��ӥ�U'@��#�?�)rqe�r ~�HXZ��*�� �+Y�~ŴL����N�'���:5'+�/u��켸[�(V���5���٥Lrs�ŋ�.�?�ARɏ)�4J���S��]��|�
+��M�n=�e��*�~����8�zM$�25i�u� ��Z��={/<`�kC
+��ӡ��x�Z���
+���=|t�ׁTE��V"�ԤW��U�4o4��U@�;t��+%���}o|=Z�6W�*����1S�(�][�q���2|X��2�W
+���z��&��L�)9��q}�0�� p̈j2�ǮB"c4�z�P�*�
+�@��b�������k�X,R����;���� p6�,D�K�o�VHt"���ފrj�ew3ڐ̸�8k��:Bo��x���-�P�(��hR�I/�C"�A]�4[�@�C�_v����OUM��������&>�*lm�K�����
+����;� %S�w�G4�c)Ϸ�6iV��`��p�'0״B����6�A�u�Y�v0�ݐ�rzW�\F�}$g�� ��������XbA��S�����*\u2�X�D�#z�p�1�l%u ���A|h� F��Yj���)��0H���UH%���μ�j��uX�
+���'
+�1|�DD_j���I��@�׾�*� ���K�>!)�6Zr,���Ei�&R!�!6�����R�*��X2;`%�NЉ�ČV��T囿ȩ��� �
+H�T��;�g��S�B��v�
+B�3Hɶ���o�fnT�Ah��EB��`a�����&�����4��It�K���jQiN�*FC�(b�:�LQ>&rQӒ���uA�B�����GOa�2�<�d��T_���Fj��UZҖχ� �"�EJ0�*�I�M�X/[Ps��噹r,0��%�н1("��iYD�[A�d"���o��g@fT���E!,�g�
+��o27k�$et6l���6+�>���C�u��`S��(Y��Q^[ ɸ���Ɨ���L�=/��9�G�J�G��+�Ϩ�A�:�W�nuB�ޚ������[ ݿ2�ۆ��+��4q�QAE:��Qq([KTQ��vw�Q%iU(�ZyA(#��(mՔ��h�}�����)ftp��7A�cz�w�[Z�:<�+5вX�ZK�Z'k�u{�#�E��79j�R"��c�r�����f݈�OD���kBoD&>@�wб*����`�k����8G�B�ʠ5��Kd��5��ӛ����T������P�l�r�2k�>9��<��R[i�A]�ey�/˭��_wE�#xd���2�;���ٱ<�[R����.�����6��b<8��V@�����m��N�m{F9���+�9����]|TU{q�R+S�>�ݑuk�R4�,����
+H+k���K*�
+!���8gkt���f�t�F y�����W���_�'5
+�ڹIT�=r��t� �U�2���TE>S]5�f���<�H��1lp��L�y��������N�HS��
+gV �ێ�7�YDp��`<(�����W���v����%�=����
+#gcEop���_����|&�儙������R������?v�{s��B��"+��V��+���_ ��hC'�y]�C� 裫bQ�h�6��6�H{bR��>�0-J��E*��f����x_�Eչz Df�.%�0eDgԬCI�.Hxn�a�E�2���ʘ������(����aǧ�_��*��`P��V���s����<܇Ӳgkcv!s]'�0l����B3������T�t��̿�l�Q����!d����X�3qW����?ts�̝MB
+a�}�����B>m�gZ����͆�8���F�%W �:И1&AZ
+�
+��nV>do%8}�&�I@��9#
+ޛ�T�F�UY����7��CH8�����jq\Me�� ��� ��}y(r��?�p��XmF������|^��6��4�_Hu�dgE7*�/{��I��؞�}x}5RB*1�����'��UJ��n��Y��[14��LsG֑ij!��@{��N>�xR����M�{�b��q�ȩ��}jWa�ةVgQ;�=.ڧ'��7�c�@�C�d&*���K�뱭�&����8�fo
+U��C��Us�#�!�҂˰Y�E���e�X�����P}v�"2��W�0^��ЏW(H%lH+�F��`�����b�P���D?�PM�g��aJЦ�Ӂ��U���%J,,���;"(]R�
+(7������BR��ꋒ�t����`8�Z���I���.\���c�gs�&0:%h����"u-�Ϛ.�[H�/uR��xsoc��*6�`��:]�,�R��w0%M�Jiͧ��ɠs2XS�.�5 ̃5�h����˞\�}H�$�)ܦy����1��a�� �sV
+�ҵ��hR�)���r�"ƲjNuU�\c�Aв�Uol�1��*M8U�/c�H���G�!"gMF�..Y�N�4w�j��I���s�
+N^�oo�`Wn=�MA��W�{�kc���S��������A+8Lu�����r�H����T �N:b{�Ы����)u|��ŋz�X"w�r
+u4��t����X6��pQ�Y��r�s"����D��F��{J��q�IP��^0Uаex|#��fC�;ב�W���Փƚ�c�O�{$Ѐ�5��^�IRO�E��2A+�̖�����'�Fn�n}�B�/R��G<���}�#��3#��c���fb�w��-㿝_�eA�˖�NI;�ɸ-.�4��{4Ρ}\i�b�mJ��
+7��j�z�+hO�w�e0�=I3�YĬ~D=���Y��b6�g=�1���M�Kإ��������y�~��A�0m-�::5-��v����Gk�my�$Ƙȸ��d��sYLQ�:;3)��h���ѭ[S��6�f�s�gY�H��L�
+l�x�2�Ƭy�N{%C��U|�gU���}miU¡��~ k
+�BK���yov���wg����M��~��?�m��~!���/7Tň�ٟk��ʂ��hq�d��Ig�{��"F��&�c#ڨ�,H�Ν�֡�l��8������d�qű�Q=������g�\�p���u"On�F!kF�9�h���#��-��37P�բ��B$c���ڤ�a[ϫ���y��v��J���+ǡ W�X�O�qI�P)�D�$����ۨ�r+���&��$R�Yv���3�H
+���q ��Ԗc5�Z�$�]����{��vt�ljI��+nc�/.#xP�G����`jwi'����=U�5=P�l�`�g�D��z��E���Y'�WdR(s0�4�ި���ZZ#��8l���)8w�o��|�o�.W�h��|���(-0}1��gb)���4�>[�4\���m
+��8�%�?Ž���܍y!,����E#�D�Xz�fI��(�"j�A�g=4v��1q;�e�X�%�:8����S2���Տ������:����T̙��^�0��� u]��HKT�
+�C�(�,ZR�[��6���EQ�-����!�7�V
+$�7�*����<��њ�d��:�-�k��]Rԝl��\�I�k�$1eA��Y+Dҙ�a���M]Z�������`e�:���٥E��v]�i38���/�U�W!�ʣ��F������
+�S7��BC��G�eb�(RO��w�Yށ���q�|�u�ηGoG�-p ~�ɾa�gB�NA��flw�H�S�����ˍ��{%�'�����8�Ïݠ�
+�=t���{�C���jS�����@�5R��ڨ� D{G֕��\z��`f��4"o��ہ~\C����Q�W1�
+��#�T~SK��+KM�q72w����G�J3��a�}�q`כֿt��S�{-�8��s',-�n��-�]9Z�o��
+�I�Zo�
+*^6k����kqr�j�NjS9���ߘ]�*���h�N���^W!Pu���ñ���ސ^�ir ���{�E܆��.�
+����"Ӆ��F����J��HE��
+tRB�U�VL�I%���r�&�@5֦6��ݤ�VJW�?<,����+ t���{{��;�R��|H��
+KK�Y�ݪ肑��$�?��Ma,3І:�
+�T�IU��+sp������I��o�i2�^%Ӆ�0RBj�V�0Fj2ѳ��Ԟ�C��hY$��2;�����ꡁ�y,��+���� x/A:��aL�Pٮ���2j��l���x ��!�x��[���t���w�/[�7��@���X�ߡ�`oK����d�W�w��b�V
+)�p*�^��e�Ts�(�ׄXG^��2��]�܈{2ɁMB�)����%t���Zk9�j`��C$k�q����B
+���r�=�/of�����xZg���Ɯ��eg�HY����pB6�I[��e9� �� �bH�A%Jd��B��b�R�"hR�û����n��Y����u�I,[ã�� Jm���j�xo��u���A�
+廲{���[�A�z6����ƶ AZ��N�i����sذ�Xo�ThF�9>���TC0����D@{��;3Ԛ>q�𥔩�)w`{Oz�v��oR�d'�p9�O)�� �ܹTjv8��e8�]*��;��!d
+��4oEO(_�7���!���E����7�ܗA�� ��9�w���BgB��vϸϿl�$��Uӱ����������{\�%�ң^�`D��Gr�˅��}�N����߻��t?▟�K�v�N��z���a��O�z
+9ޤ?��q�^Vcq���:�ж�Ν.��h�����ѹ�e���a�����`!!��?����|��r���@f���Z�
+���|��~9�/@����L.��|����v��*z�~�u�O����������h��ޖh�6��q��u�u"�b������Pځu_��_����y̲��R�D�:���e{��DX�DBy�
+>kaI�)B$7�nd��5A��2��G���j@GQYZ��T�VM����J�X4�WW����n�����2 �Ո���#���kF���Ώ!(��*�%�tF����:�
+�6x�νE��XL;MHT���s�&���u���P��,EB+�r0���%��*�ɡ�\�
+�^�&7�����Y�b�G���IU�J4�.��V�4� �a~}*w%`�
+��L���&ʢ3yoζ�·��xyMȃƚ�^�c�Tm����j �.���KT2)�xvF�9�V��B���~q{��7�`x���6��"��3c�&�dΪ~�s�/���77�p�&A�ִŗ5îa��`�~��w�N��������{���X}9!���B�,�}�qť���bX��OT�
+���|r��fG��՝�
+��^��g�m>;>�o��۫�_.��|�/m�9��!�{�
+rEr�� ��Z�)�
+�O%50�Q�ۯ$���,�ʠ8�]@\dq��u*x9���Z%[u�V����Pཤ��z`
+$f���݈_N"�.���}�Ğ
+mzS^>�/4�ڻT����U�7�>����!�F9^w��~�/��>|9�[P~𗇧�S8�YZ�~$}O����n�@[ם\�}��҈�w���:w�~<~��̧s#�;�wC����[��ӿє��g��Iq9����d �n�����p�#��z{�p�����,�I�=ά�����vcO
+{�$_y��]��Kjt4�ם�V��
+���o%�\U�NG?��g��I��3��p�<4��U%�������9�<��8��������S��c5�����A�@�{>L�K�i�J��)�LGkmB��:5�We1 ���Ad/�����zpD?�}�{v��=+��.��{��|P�s���9Kۛ�@����J�եz���'���zw��(��`'�Z�l#V]:[�o�5mz#z��]����_-@\q��6���ٻ����g�7"��z����RR/;���<�
+�x����z>h�� ��y��L�+QVM�i8��%sK�jv�_v�(����C>>3z��V����mw����_w��S�F�)}��d������h�����\�͖ ��aZ�
+���<���3|?���5g$��͔�ƛ�o��>�,���J-�I����j�[ �5\6�a��o�z�kƜKc\"�g����#��9׳��l_B�$���ƞ M�
+�|��1=�D�k�����Ϯ\�W�������]��v�sm�~=����q�7�5� ��%�NZ{��#���}�;��ys��Kll��1*�`�� �E�Qzm�`��@�Ґ|6OTI �I����2_��s�p��K~��.>�/�܌!�C�|Z�t�����;�>]�z=�w���.n��kg����_���Q����{�|�ӌ]M��rI,\�u�|�Û]����|��yͧ�<=�w3���3��o������.�v/O!%!Α�o��4��{��5Ex�q~��/q��_�tq�â?��|�|ޥ�z�����������-��)�%T��J��ڋ��,V�5��y�Y�(+z��2�'��7�7�I�K�-��g�Z��\a:OP%)ܽ�Fi6�7m�P�:�A|�S��+{�>������>��M����^������!)�6�c9��$L�� ̃!4f����檬o�0�u�
+#��S�|]�Z\r�A�>������j(bjLHm#c�P6mA���@)s�N&��C,W�c����4@�1D��Z�m�P�C�'\�{�E���r�N����ʁ�۾�g_pOs�CھG���WBVj-�����A����Y'`
+�l`8*p�����4����y�߀C���o���xP����|����ty��^��<�.1�{:�+
+�u��.���� -���� F���Ns�'׺��s^ܚ�J��#�r5��跠W!�|0�z]dĜ��kj�X�X��z�2���J�Pځl_��� To��=�At�`���ѣ�a�*��u�_jaV��i{8�T��,����SWLg�ɥ��2�
+P��a�}��Uf��8-�L��}����O���C���w9�c˄���v<{Iq�3�x�uO�J���ݙ�/�� cD�<'��V=A�{K�L�;-Ŭ�U�p�K,_���ּpN�(۸O}
+�
+�b�Cg������NH^g��Y�=��ę+�:�&�(4p �v������m-�~i�B<���QlE��
+\:2���mD���G�zȖ ٗ��j�k�Y��%�"P!�
+e���c��x3��g���������_�_?�����~�cě�qsN^��s��m�Ց,k��v1��s,�?����ݳ�st ?6
+�\�g'�Y\�Q��>ӑW)�yC����j-{kÐ��p쥜�o��D���K�,�j�=b������p�Z�7������L�MO���'���#�+��v@>���qgK��yG�ׯ�b@z�m����(�<=]� ����a�Z���6����ȑ�Uw!G�y���Gi�!�Ns����a���
+���_�Iv � ��{[��p�%$�?O�`��C�
+rDi �ҰQy`2���&2�I�w θ��<�^�x�T�KM��!�Ld@��j��E�����s��㐮�}�Q3��H|�q�<
+�i;������2R�%��۲�;��nذ��ϗ��Qn`�ם�Z����
+l��
+�%�ε���rZ1�\�����12��O�R ���Q����tf�\���_��|�yQ�
+b#�r#p���1�o�WWjX��{h�Q�2N�k��$�0���-^uvK}D�u�җ��
+�����/��{m��]�.H{�wo���~�V��k��ke���5[s<-̢��_?n����^6��`����V-�oU9�F�^��v*�2C�{Տ۩�=p0�_����������v����������y�E�Q��o�&�tpyyf����s�x��.�[\��4��(J�B+�2������@r;+�Z��n�-�D��V�7���
+��A��DEn`��'�~X�G>?����G������������^���G���g8��;�\ߗ�K��Q�`4+��/T��qx���F��M�(L=x��IJu����؋�Ke����h���c����� ���dh�.N2�M�����?>���ILEv��m�h:t�����u�v��w��*���F5-��O��nCZ������� ���4M�8��"����`[�a(c@��w�\��#�r��`��) ۟@人��g�/�u�Un�F==�VEv��w�:
+7������}u� 4�Y�{l�Ƨ���+�Tcڬ\��5�fv��Ua�"�~V���Dz������F)���:
+������rQ�u����U��,<� ѱ�Á)Ȣ����=�v~s/m�Ύ�Ll���{���9֬
+?
+�i�ۇ�̂�q"�$I�� �}C��iz~rȘ0t��_7�'��4�����<�'�!-X|�Dw�հ���!r�C|��-(����I yrD��_rƕ���({��!������ow�w������.��!���@��D X�9�,6��ox��m����c��&݌1B���K�8
+n�C�����&�@u u� )]�]:�)�G�PEg<�����L�J}�X��/x
+)`��tP�&_�PU6�w���#�s:.�+�L�o�g�j�t�m�^��n����ZA���D-$�اٴ^��s�nҕ�_� z��'������Y{ee��K�հ0�����Q^̆��*�����wE�6��Gƣ<������z�k�2�@�"��{��)u��_�o[�f�e�v��'�s>?��������~9P��Gr���鵜u�y���e�0Eg�p&�I3[�osN�K�]wa'?��'�UV���P-��O��#M��m�pO����U����(J|�HcP3��T�����n��)vD2�S��˾9X���ӭ���g`�B��w���X��j̃/Mr緿��'8�=U�([��#�a����+qn�`�lG}%�#-�H@,�Me�;Ջr�s`�!E�ҡ����j����qQ�K`��
+� =�u���%,/T�5G��&��OU/Z~T�Tu�?t���C�K`��"n�L>�r��C��$G���9�ǵ{a����V�Gj,���!�a�>�yh�/�)`yd���e�D��X��R����-��wY}��*I}gM ���?���Y�H�'Q[����:z�L�ԾmH-h`Ұ��L��>鋾�5Wj�FhQ��yX������`��̎��w5��Q�mTX���~�I����5��&s{TH*7<�zy(˅S�$5c����X�`�NCz��M�Ue���t��"+EK�%&�e �Q�����,�K��K5�r����5\&Iڋ]O�\�t���������0�*b��C��Pj���p��;bBsԤ� �н���n�1"N$l��#~w��Lg��|[��&�^-�����ԇ�rp��٪б����!��ѝ:e�����|�.�+��_�e�b�m߶Ҝ���q9O��Cجg�5���S�_r��������[򨣥Ozo�$8$x��i�5������ ��w�\!�g�kJ�|#Hi�:��������m��n����O���E�����ww�kԴi�T��~�W�>�� }?��e��Ҳ"J������"�e7u7!p�*P�j�w�DRrR�
+ti���r\�W-\��|}S,}F�t"X����/�V�;H� M��k�A����������[c�ʹ��a�p�W�̠'|�y��j��h��P�%���ORz�CĆJ'fh���a|��#�>�DŽ� 9{
+_Ų���{��/�;�浔�zɕpɱ�q�_�<5b|WR>��]�P|�`N-�u�������^���唯��&d�E�f 7�>
+c���n<+�obh��uF��h���rXE<C�G>=iN�a�5����S,
+��r;%�ڝ����5=�ܒ�{�j0%'q���K�Gi�B�+tx�(Y�*��0���xXQ<���Ԉ�s��eQ��y�.3�����@��p��o��7c�o\m���t7# ?�+H�)a.��O&�F�dB�0M��;�@ �X:RHWY��/m�����F����<ۈ
+�N�q2t���OS�cB�3���PޮA��
+�飉��*�s��8�B�����tТR�T�3t���Y賧v����8��3���Uze&�P��#��#F��y
+s��r�!u,�T/�0�����^�������
+�9!��(:6�_�9Sʥ�^akaN�� X�F@%�����q�*wZ�d�HjfGٔ-��jlS@Q�J��Ӷp�8XK���K��[}�X��J1��m�M��
+2�A`"�k���N��bp�~���t��N+$�S��f��M�q��ӄ����9�@��\D��#v�9
+��l �M9�3S�6�,�2"�"1���I������Ԗ7N��o�)�(�\�V5XM�����^����aBk�3��ȆD7�q z�8e<�ݮD�j�Ҋ���y����^�u-�Cy;Ջ+�y���{�B�↑��6\H��M"�[���9�U�+
+ɹH���4N)��e]�C2��~��J�R�\5�Gv�GNh�W
+�uy��2�О�%8�v�|��N~��*�/�!����k�˵+^�:o6qoH�/������ t[�&��Y�@80c���e`� [�s��p�4N���Ɔ��` ��Ӳ��IU���Km�l(��e�*\'v�����;Ҍ�ɦ�"�D
+p�d`��+�B������@��F
+^���PP�ݔn�MM��.�AO�=ښ���n�h�)
+���m<��%��H�_���\��z�`gZ׌�q�P�+��օ�$�pCb�T����m ��RLM�Nt�?��YFy�n�����-A$
+���
+#�:�냾��IS�����Ԗ7V�P�����%tt�8����ӕ"żBo-���y�f!tloj扬f_� ��l�o��f���|���.��WCn� eC��4$���ZH ;0�Dz��*���fK��MClky�`���M��g����4�����1�E����B����&)z
+]_9�M��t�x�u����It�C��w�����MZ���
+��.��yMx������v®�H�FJh� �!�����h��x��i�Ŵ%`!�k�6�,�JR��g?IS���g�_j�B�]�x��*y�=��:ʉ�d�` g)N��
+=�ng~��at�g �^�3�ܝ��Y*/�\V'�{�S����A�}ӷ
+-r3�`��np���u
+���m���F�z���A�
+����#�q�!�
+��°�g?JU�@���u�)�*ZV+4l\k6
+)Z2^��:�?3�+Ղ-&8ll�+���S��F�U�M�B�}�s�a&���x`�����7&U`��k���s%ԷtRCұx^�\�i�eR�KdHi���>=�����h�� G��Ya)�)�-z�rV�<����n�#��!�]~IF�����B��3G�/�K�r�d1��~�}����5W��Ǡ���޷i�c�
+�����K���7���nBk���CJ���<��Z���L$
+���o�D�h3���g�8�j P.5�1\i.U�I��t��/ڎ���w���&���xB)��H!�����H�ڈW&���s���ƻ_��F#����;0�:
+��p����j�
+&�i��5�����c'y�|�>}�)�+�M�����Gk!A_���P��^�{�[ɦ�׊�������P�HLv3?�rK�$���&6�R
+����T��B������1q:T�������sG��W�{�����M��]��O��[��|�E��p��ڑኼ����_��6曜����c��;���#�0l���V��yx!h��i
+��k+a1�\}Un��ӽ�����S4�������ߩ^� .{�7bX������)QfB�����
+����������cp �pf��L7�F���d�mo|���O���gMYn��������z��;_�>��]y.m���A<�*T��[��,4�h���闪䧥��6��[S��瀄:=2�M���1M�F�)�:ʜ�����0��>b7�9Դ���9�4���r��I��p8�Ӱ�Z���KN���K�
+��}lsi�|t�z�"@�(�]�
+�h:�D�Fv�n��lVI�;���(9j%I#�Yڟ8�b�UA�M��?�c�Jpz�}4n�l��.��}B��z��4U�''�d��K��ֹ=ѵ�Qѷ��Tpy���]{�mt���9�}v)"���"#��t�-��<:#�E�� d��w&.��0b�g:�ˆɄG�����*>X����+÷2(
+=��R����s����a�����ë�zt�$�n��)J�J2���Q�d����[�l:X`M(#jL��nٙ1��0ڣN��n�} jZ��cq�^�97��Ŕ�*�l��t�2Wޱ{���ƱY
+4�+���O���~�ض('��͘��ڏ��΀�]��`|��t�O��a���>"ۓ��O�6̗��Fd���eJ������|��T�#V���Ӳ������Gf�CZԴ�&�t�O�f{f_�B9��m���R��݀M�� )O$���ӫ��/e�L�KC^AۣN�9�r/:��9?�߅��w{J�&x*c�B������`./ ^���U�.��gxͅ�v�C���R~%Ho`�i��(�n��yY�,L^�ڡ����I�Q����/=:H�ۯ�OQM4��G�U�֨�uS��h7/������1:���P�r=w%��dpӹ��F�kܹ�L�;��Cüi�p�m����ޭ���H�
+|T}���C!�N6���y��r�b܁:MΣ]U�@�Q+Ib��
+�T�X+pY[������]��l�@5�f�=L=���t0����7����'U"������A���3�t)�*�[� k��F�k[��F���Y�Z��-p�a64����h��A��{�?�"����Iځ"����oe�Ln���s������V�*W��-��D[�v����L����S`���k��E��
+qT�*9q�|FsP�W����[�;�o6K۲l!�m*���W��c����Z����񙸳I%����c#�f3���X{~8�P��|�~j�[����e.<��Sn#w�a��ou:��n��4Z�3�n����X��E�$ծ�����_��z��)Is?��*��|������tl�щaa�9'*7�:���|ރZ
+}�λu5柦�L��]z�GQ�eB.p=�hR��˦��=,U�2�ju�Z����P}k����+cB�_�L�ۣi��
+��__����i���'3��~JU'�ok��|�к�(�� ̋P܏T���Ro�f��}JK6 \NvEH5-�9��cff["�}���x�^.
+V��8a������
+6����m���-#�$Js�}c�o:y�e��u�`�u�6��ЕFs�Lܺ���1���t��)��^�R�nB��ۻ
+�f��(,}�*�U���$�u��xo��|�^g�zc�:�;JM��7�13��u_�Q��p�0TH����Y�ɲ����u凝��qt�&�ɸ|+{dNn��]nK�5��_jv(X���Tщ��ԏ�ӉK]���yC�����
+���
+�=[Ev���H)پ�f�!�E�h�zh�w����@��W��_�^}M�7{���@��!D��'q�,Ί��~�) �%!����cEaA,a�����]P��c�U
+�J��y���]��V��b]%�ce�AU�BI��2+��ϟ�g7��Z�) ��p��oC�^I���&;7�6�n%�1`x������6:�ҐG�M�nL]'?vO;K��9����]'��)�l�d�����C�پ�ss�)XM�8�y�����)O��g��-�蜽�����.5u��y�*���H�Cnw�Ӛ�2F�a���B�C�P�\��yg�ͫ����;-l��H�G�g�an�s�c�w��>yR��[���OoA$��ĤMG4��:/�@׼�'�龎���x����\�0����f��]�5xr�\�#�X�^/�0�*�DN[��mi�3��
+�87E�T�=�װ�Hz���{�$��L�����V-@7�;e�N�nұ?��6 c��k\Ky���u���:M$��/٭��*��sn������C領N�Nt+A�6chSe}ڔ�E��d�KT�9�������,�c��0�nY������2�y&K��n&���,����YB��a@�g>n���r�,>��
+B#l��^�~2�ɼ]���*��]��t0x�u�����Ȯ��30@��
+��j��)�op���� ����� ��ά�B�C�&Ix���K�3fwم�PGY/w�-��@��<���?\U̎���i�وٴ';`��F���nXq�E�(�}ð��>д*і��3���+�"��˸�ԹԱ�������eeS-�}�WA���'U���ħ�kU/HUA;ʖ�vڂ�X(��AR/�/�;a��0뢜�$:q��T��#Y�0�����k��|[1}�!᡾������O�7�� ���-�����_"ّ�����҉c�ם��
+���peh�h��y_?�;6{�Uh�m�����Z�XxˀNR�DNݫ5f�3��a�Uz���U�#��;����^��p{$�E�g�1V��-�?��0eñK�&��
+��Fن�K�X&E�e6{MY���1�� <x�P�;K��"X��?Wq�"���]�lU$$\hҠ�R,�g$��MʧK�e&�1���f�c�8�5���~�ɢS�`�+O��b���b��Y2r�AԓDž���쟻��#���Aī�l�������-js)_�ǵ�_
+?����&s����Vr��ܬ�2OY�FF��n�$� �xA�}i�!��j��5�7V�����{(���k�oݨ��"��I?T�b�-&ޥ��r�:_��m>6�Ǵ�v�����j�{�n$�;4�A�Qz��q/)3�-8r�������1a'n Y�����8\��w���\�q��G�Z�!��Y+Y^D����`�Z�z3�r�^��F(��ߏT)΢��_q��/b$��ZroX;��]�4Kr��s�?^�������d�
+�en���.�
+��j�/�w�+����.lH�$�� ;��{ʠ2�{~p�_G��s�]u�uÊ�.�OqGQ#�6N��L��B��2I{��g��� �*ٙ[6�XUo�p�P@X����c��bĜ��'�K� ħg�1�2��U/;u��2�T��l����H��W����#Rv/�b���8�V��-�����ٰ�����O��c����Ht�9�'S�4�Cfž��FIu� �NcV����=��y�+9S�[asX� �\��g��*8�!^U $�V�p5a�����Y/�gD.��d-�bA˱�"��Q���VD�-jlKO�4�I�}Ͽ�#q��Z�i������O�ޑ��:�#fz��s�2�Q|C���x�[m�C��⥁� j.�����h+�����^l�87T��ƉZ������:N�<�u?fؿ�q�*:/s�n� �E�ȮX������17��D���8�H�ސM5����{q� ���L���-O���Cg)
+}���j���7�ꯄ�; �q�w����fKE'ij�}��w��H��ܱ�xf��;��bZ�J��|A}���ޙr�K����r����I)�=��<�%5�lL�n�7ν����R�c2~R�K1C~��g�F�������+Y֛�c��OD��EսzAة{�+Y^��2T�z��;اf���B�e>.�L(W;�C��5=�A�Զu���W`�S�E��u�d�A����<[���Oj�h��X9c����Hd��]�����j��-���"=5��UQa��9��6�UXZ�0�x��W�K�xA�uO�����Y-���'o�R����
+��d)���*��{�6���:n|����A��3��KϘ�����I܀���
+=�h/��0Q�@�9p.���4��t���#���Ђ��-R�3���Ss��;����p�)V� �T���(���4f-qr�/�x:��y����-�ޯ�ZH�J|�xFfz�ݿ���b2�J��p�B��d��R����
+6,G�'Z�i#]��7��"{�h������]"������CKs�� �:�^�>:Z�`
+��o'W�E�B��V#���"�2��epc��PΣ�Xb�f�|#��V\u�V#���b4���`T)8R+埘�Iu,�#���%���c���lz=���r�-�C�!���;qm����"&���rN�q�U��t0Ce�b7~BS>:�?�vU�_��,=��]K�a��l�Rc�6D�#M����W<�I��Wd�SG&e�F��(��#VA��4P������P��Y�}�'5Y6DD�1�@���`��� ���o�� *��\(]�mi�~�@#Zn($�O�$l�:p�Ս�k�~w9m�Sk����r�F%�,ۓ�R�j
+ԭV:��'�;�me��x���%�~����m����x�h�s�R�8� �(�G0�������->y��6���:���hƚ~�x�_=`�,.�b�e�V��������>J &����d��7�#���I��c��������������sġ�{��ft ���e�o9������u�G��.��XT��7���\W��צR�W�J�L����3�<��Wx�q�f�0�7o��_s�!��B�g�J��β��m���[�1�&�f58(1;W�a
+��S�%���i�Ų������q�[r�dr�~$�~��J��l�k�b!*`�@�åWZ��^FV�B�Z��ʔR؞f�f����R�&�:֩a��1������dB5��L�II�'q��m�]���v��dj�����ޚ(t��(SqJ�g�,) ��� �SB�u�Z�&8#
+\�'�M�~j.D�vVE��V���Į�x��UIzPŃ/�+)�ߟ��#?�5!n
+R�Q琊Lp�����W
+�=��ǷS�j��y�sБ������={������8�diB�4o�WsU�G+�JK�4�\ux(h�'=���x�
+y�P�$\
+p�G�j5�������
+6��%��:��p��y��N�>Ё'9�"{��D�U7#�uř���0�$�ā7��
+/���7�Tu9���2���e���#�|3��3��_��yCY����.��|9Z-�'�.��
+&D�&x�����ੈ{36O���J�ڋ9��֭��%����E�QJ���;o�ep�Ս���eL����=�41�Q��J�B�ȀoU�|�L��Q;��϶�~������RX�&��M��k&8#����J7�75^�
+����j[��;����4����,�'�L���/������!\��1�̞6qBe��#���Ъ*LO�>D�eb�_�~�W��� ��L ��u�W��P�ux�뎣��7��"{Eh[|f�1���d ̧�u��[7����R|k�6�E��C��9�?����N֘e�O�1`���e�JB�l奛%)�̺a�U�\��Į/@��e�͒7�̀�����}ه��J�o������\�����JEԕ�Z;�<�7RX�;�7�@W����v�ƛ���F܆3⁄4ĭ��b��q�3G�NŌ˔���,\"v`g�d٫�ק��vv�ۄ{
+�>�����(���`�zq����]����S$�Z�oX#�Q^M�;������0J�+Ju2�Ҁ;%~�����>�%;��3%�U����{���~V��
+�h
+n��~�����x;DN[��4n�3��A�5�A��{ƥ�Ƀ��/ ?e�I~�J.EHP@?����$�W&�ߟ��#?����)7F?U������M�.�1(��,��v�D n���+�e� q�������4x\< ��?�d%B�v`�Q����g^��"rZ�U�"��d@z�E���_�Xh������##&<���猕�&� �Yo���U�
+V�ye����媂�X���v�Zk����=�'�lܜ��@[�!Ȥ�
+�L#eW���zB�Af� /V��ǜ��5�'���e�9;q�����n��2��44�[�uu�a��A�����t�\�[�~#�v�}�+- ɥ����p�E��(G1��:��Z[���������U�&��q�еs9o�=�5�.�*`&�bh�n��p�I���βQ�S�l�&k�P�:��J�����6����o#��f��
+Ck��i��p�Ս���6a)����� �c�3��
+��e�|����[�U�#�t��3���V3��4�JZ�Q�EѠ��8?"�[AЯfl��l��y�̟~���p��v������v�9��� ّv�z:/����.��Q"�_���g���m D�6a\��`6A=ͳ�1I���������6!IKY���;g<�m�=�Y���U�2�B.��<0lS�Ա�&;�g�a3��)�ΖR��R�B 望�V\u�r��B�N��+$���yU9�Y+�D����N��P�;��L:��!�"M�Î�ķaS�`��f��{��aԸ3;l� ��=М2�Q�ۙq��yN��"�sUI� J}Uz}�C9����L��6\]��ޱ|�F�n���,��HwD�o�%��5�(�����_�{h����Pj=�ɺQ" �a�?a�5\��8Υ�rN��g�|+lkB��7c���7�4޿��M������E3a�����W��gD�0P����GMZʮG�Ei?,t3[��h�t>Y�%�Q^Ǣ�يه�,�L�*������O^��̒�~�!떁���p�"��ɶ��j���*I��e'L��_�`��y[$E��Բv2�����3�H����>�Z )�`�\>�(���T�2�%Xk���L}^�C��HW4�V�o)4��t��h��p����࿘+
+t��ђ�&��KS���К�a���6���v�T�<�ҫx`������p�P���d��ܬ��Ж}ږ�"��Ԗ����K�A �H�-��0�l �l���4D.>3�^�P�x����%��M�zU*qu
+2�:��^6"zjXc��3S�AoY-��u��]��¿�Xf3�
+r+�J�IaU!�Q+1��e�%Rw�����+����`z�HSH��0]0�w���^q+��O\r>�����IqyU9ؙ@!����xAgu�܀�'ᓳ����,{�0>k7�B  #�c ۮ������'5Y��@��1��g l���P�eو�ճ�@9���Fޅo�kٲ��
+�i�&C/
+D�+
+���3Dvh!˓!�Q��H��TD�칧>��s�ʏU��N���J��(��K�G�K��z�����zQ6gp�L��;M�:���I�Y��ĭ2]���4�A�S#�Ԓ|Ú(��Ō~�&�A1��;�ɺ b���\.^g�i
+<�l�܏cV_)�����lĩ�X��$�}��q����3���2~���޼H�Zu��N�D���ᾲC(a)Ȉ��W�gD�����a�fP�+�R�[Ɔ�Q�
+�B&8C��&`����}�~���>e���vHE����E��g<ၾ�ɺq)��V�����gp�������w��EFh+T�;`+�BF2���"{�h�5�(��0�_
+�z�F�yKe��y�4NQ�}ak���1�"�2��e����q�P�J���˴��E4y��e�o��g�x�p��`�F�0R}L ̰�V0����V��41��������\���o�vGU��>�H7M4-��߉��F;t��w�M���\b=��L��0@��]��k��@E]Z8���_�^�7�E��M����
+]�!@k��[�X��&�d���=A{LpF0���8-Q 5�#�(�Xz�RJ�:\s�%ʦ���Ҥ�s��a�x�
+�T-1��Pa?�5^A.��
+�r��K}7�G�jFC_�ց�z&cl0H���� ���uIXf���2#��jE��5c��$��!���!a���Ū���E�MpF�Az�֟^����������|�`�T�A�����m®
++X"�=�0@c��ݯu�:Ȁ0
+50G���~���٩��w����ƥ�~(�w���T��l�����D1�i������'g�P���5����Σ�����R�b؎���>�iB��R'�p�?S�����@��d����`4���t%��P�~qY�e�'�L��l���J|�H��V����9}��/��>��Aܥ-,�da �)ޛ�bywŝ��(� �$ゔRP�������GZ�
+�Z;6��`qA����H�Ω��k۽]΂���d"�I�K���").]���Q{��޿%�&1�, � %>��䭥^k��o
+bZ�Z[�$�am�(\�7_[������C�x��x��d���Q�F�~��?�vc��'��Vvm�6� �.�S)JME�������
+��X�����ƛ��J�c��'pӆ/s�eHwҭ�伯 ��&ti�p��W��1�5�0�RhdT��pƟ~
+%�a�US��'?�x��a8���������>�<{�xc�oݎ��s峦���?�;���_�
+Gs�"�h�R����~���Fm���dͿ9g�6��V�.+4}|�~P�̢{o�m��h���$}���CX!�>lN��4}z��2��v1�S� ��ɪ1��vD�A[�",�;��&v�#zfߎ"�}����kR�)�Ssn�ѤȎ�����}�rk�M��dr�^�:���J)O8ud�`ȯ����k玀*_]��ե$DĐG�׬PQ�wW���ٮ��ec|�2$��:{,��vCg�6�-=��ޣ��!%�vP��5���>\.n�0y��+��������a̭�{)wh^j+ w��h�KX2ïMK�b[�?P� ��۠���mi'x}�ă���V���85���q��EDڑ
+[��2���O$�$����uLB�D�IF�����H#���#��O�\���
+̖� ���^�<��~+�����HF"Ƚ��uɨmзߒ,&��jH��+�bI}0�)QbBcy�P��ic���]���M ��W�'�M&�KbU}bx�k}�;~���E�P���HƸ�.���~���F��*L)�v�
+Gf�.?��ꡐ�pɞ��}��>Ͳ*��g��3!��Y�G�5�Bm"{Vq6����@
+�&|Gr�-�4�e�<�@::�>+Lp=s�x�����l�dhx�����;�ki~�=$RD��$+|���H������J���|�R������� ���H�IR\f�+
+��h���o�H�U܇��I�����5�j��(Y�*�B��3X��p\����bݣ/��]�L���v��*�I�KI8pX��~hw�^/o��ˎ���J�
+A�܁��@m}ח��� C�k��[�r�}�@�ֵ�&PfHY�2ݏ�V�0]���Cٕ���zK��[(��Y���ĕer��7�G�3��_���Ԛ�Z��}=/�t�vCv b�]Ish{;������ �y�cA�?Æ.�N�YC{����0�H���sZ���fRBU�������8��R�RBN!_�e�&��Q�j�?2H�Y41�h��'6}�|M�,���S��?ކG�;��o��%�8-�th�;�|���cK�qE<��Z&t�����F̽�G����8��e��A/�j^^L��
+����H��v<6�Ɇ�R�m�g7>�3N����b\f�~����u����{��$B��般���Oݘ;��)�7��٦�����J'����>a��R��-�����.2��ze�
+��;� ��������@k�=~����Hѫ�hZ��4����L��H-;�$�:8�,
+.Sli�!ݬ�WCL��WݪJ��m8@�qt�j��OTx���v���+���*~ɨk��WfS������F��1�N��=���[��BE!���=�[i&0�_�כ "�t^�\G�C:�K8�װ�>�����N�-i��Bw��.���p
+`c��5�g���d�O)tǑ�֊�u5���hCMg���ۓ~��D��`�il���ً|��_��P�����l��",a�G�Ű:b��,a�܎:��=ٽ&!�qq�m>��G���|��`�E��?�����#�{f�������n�}���A�9��(4q��fg0a1�g������Z!�r�K��\�=��O���$u[��{x���SZ��»� ���?V�eP��o�cA�DqA�v\��h���盼��v_��TΥfVx'�A��:�ᤛW�4�d��N�(F��P8��F�)�g6x�aЁ�6.�X�;��$�dW|���"�ay��,lD4�,��u�/�!>��p�k̠)t�#� C��r�8lj�Pθ�hwF�{�Y&`��vΰ���� C.�츳��L�NB;��g�p�5.��.�{.�:�}^v�l��������^{���.�v���
+��yV��&�U���j��.�CJ�-;1J_��9��/��Uv�
+��,GVF�R�KYt����_�pjx��B�H��x��"��ί6��g��
+jN�8�z���� �cA�DVnض}^9��#9�A�����!9HZډ�v�ɻ�eH7��18�f���x�p�ے�Bqn��1;}AT����~v�8Xf�0������{�'k�@H�H�3x���#xOv7��w��C�𥯓���So�fZ�I"�y��1�k�����J9�t�D������t��ݧp��ql|$w�9D_���A�,2�w�;�Q�I'��U�h���)�������L�A�+;�&��A�[��.�kϸՌ�2w�����ã�f�<�q�ݡ��T���<�;4��t���(���?�7���ۯd������/~��=V�$�x��6[|��4�m����#vĮ1ױ |�cԻ�Ǐ�a��]��獞u�[���ɟ�v%��X[ž�+��m_�L�<�mUW&�t��4��nb}"�kBae/�`�U��k�d_00���
+���Ԥ�����nϧ���{yvΩ��ʤ�����M=�8���2�Y�.���f�]2ݥ����z3k^��#�1�v_�Zz�&)Ɣ-�A�B�]c�,��ޞ^��r&������x�pj~���*�+�W��~��>�G���d&�<�fd������|؁�`��)�����j��������W����`�λ�ޗ++6pHB퍏�?�ih����Fbլ��#ůS������T��j���ۤ�����
+�-�+�c54��i�Ƣ���{r���$DC�ys�v.XN[Y-���K�$�~�^\]�:���0:�_:9`�
+��
+~��I���rѽ����|C���;{'�d�vNC�Q��M�;��q�4vQ��{��e��j�Tކ���q���y�MOI؝#I�_\<~�����������K)|V)
+�'(�)�{�v���|Ё��4r|]�xf
+&P
+lsі�k;�)�
+���(l��������?���78ק^���������A.�\[_���|e��e?|�#�%��������Y,3������q��i�͗W0tGa��)�'�_�oaQ�Խ�fm��)֯�O9�@�����z���"����NC�:��
+�I�/�C�WYw.Sxiݯo9D�G9�$��I0C��诡���Ж����$ߌ��o���HݡL�o��]Q^ .�0��0�8G��ֱNR�;!�p(+uࢸTl⚦��eA�ۅ���b!��Ae�u������S�2؆��TauOX�?,P�8�V�B�����,�6b���DN�T�r�ct=U݀��L7�
+���:���޻��R$����
+��(o��"H5��[�DjYR�yX�(3E�s�
+:`�ɥF�M6���EF�M5�w��u@ʛ6�������?�6��N|xK�5/U�>�~���1�D�=.⥭���ȕpX.m������j�����A��4@�,�#���7��Q#i��eG�0��h�oA��t��P����3�Vd]U?V�8�C�ˑph}�Q�U! N��%9��T��b- ������'^����/���:`]�ɔ�m�2�����]Z{����W&�K��V��9��U��0$���*�CV��^�{�NB��+QQ�i:� %D(.
+��%0gn=��LC���V�+�q�-�z})�!/��
+�_����r.�3�.J"#����ƍMc���R�b|˟/Q�$tYN�ߋ����w%^�x
+{��]��
+C�-ӥ�3,L�*g���&�6p���c���t��R���`G_� )"q�gkw�C�o�������*LE�Y��^1�%���#!���0ɬD��@h;J�����!lP���(�
+�~�b9������&��~�w�62 �X�?p���/����
+��*0��H�ԁ���b�!�VpQ�"E��U
+�nayǒ��n��P|D�IӦ�>D1-+ʯ���T� B�W-�
+/u�XU�
+�l���kT��3g1�^'����5��h)���i}����
+����7���2TR�M�~�Cr����o~��UP��<��M�b)~�y�&9r���hπ"}�hD����?��3D�e�=�⿟�`HQ`����"F���\*�%)�A7��p�"(J+�p}�Q���L~��'v��-��Nͨ��-��6���������D�lȑ�{�6�kE�H���
+��Wbf��X� ��U_#C8�.)��3-�����=
+��Erz���������'<��}U�<
+�,����L��!�g3�Ұ[{��٤������1~�`� ؃��OW��͑���A7V�����:4N�xY����B��y������T���uȢ�*����ʬ�l�μ�oSm�<��&�1���Y���|6�
+F"��Jjo^�f8��l�,����d1b�/�?=�%,z ��1�1��/��.tb�Qg(U#6h����u�Lؤt�r��&Q%����n��l�A6x�� c,��I^S�+3.����0?ue�D�� �]Q��S�6�s��#���V��$��47ZA}����l��V���k�?m�1W�ԅ��?�K����F�AH�������2W���FN;2��{A/f�w@�:�iz��7UP��NǕ���B�3�A�u������M#�{k��?�����^�n��g���W#\|����
+]�+y5'x�1!�q����W�/�!�\K}*����X8�h��Z֠�,�_]t��(���?~C��WPކ��J`�OuH���y=d?~�}���g�O��S-���pGP|z,���V#*`����[���uR0'�U��7.SEi�o���t�cr��Z�g��V���S:���k,������6r�0����0^��HS���[����<ޔ[u���
+gwnK�jX�wZ^4����
+4�V=W�����m6��r�������:��m�d0��著b>B�[l�J�I�R�4�֏�p�(�
+�b���
+�f��%Fт�4@�:��(Ƭ3��;�4�F:,�^���[ZA�+;u�(��I�:���;�O���d�L�dO�7now��M�ͿsU���T��@Ŗq*�D[�,���?��Rh�ǀ~
+bU�j
+,R��J��)�o�T����?�G�qϸ���bB����z�����V�%��JW�x�h�4@$Q4:�>�M�j�gZ)�y�n@ɩ2�a��X7]|���BI�&�i�r]��_�Ra��"��q�!��s�ܒt�C-������*��O�h�A^�=F���d��?�ǽ����R�o�A�[Էߒ&�%�2�����Π���7LJ�s�z��E�iQ�b�<�����<�����4;���x��8F>V�=����η�_d]�GA���$�Y
+R�85c��
+'��G󪺉/�����@ >�jW�a% #��gKg |�(����ǿ�8$6���JE�g�+вI�+5եւ��7Y�<á�Y�@Ь�Z.}V���
+�{e��!W�Hh�hX�6[��W����f�$�Y�*�s,;f!N2�y�YGƝtDtJ�lP�(:\��Τt�؞S�*���rR뼬]��(_�:K���&˼g�"ws,7�؋�I�dG�����uBe��L::\$P�]�.�0�$�n4�І3l�61��\�鑺�\�痆4M�Y�4Wm^����r3f�3jx�v!����w?�.�!�Ѣ6��c�K+��2��y�.����W��6��e�vhe-��H����LGT���uI�)L8��J� �pY���eI2����� :���U�Z;f�1Ѱ��(�${�P'���w�!�Ak�B����pY��?��~?Jږ!�%�X�C��x=���~y�ob~���mQ�fP).�:W��`�E��;���iz�\���ĸ�C,[���p�d�u�b�q�X&1bs3��y;�ͮ2�vr\�J��%�;@b�'z�Q�3����a98�~��X� ��"`yBJq��u�R}�X
+%m���n��wՖ����+�%{3��ePm.�u�\�� x#i@ѷ^�2�����V�~��M�k��\��J�n��R?��,U�/p��� Q�����1�l���AN�?�K���!,�HW-[~�g��h���zQ�����
+ʁ������X��8
+p�REEDɿ��Wb�[)
+��� �L^ё0oL�ԉNK�:�8��c�A�%�#��@>��*p��7;X� 2��.����F��P�>�*Ǥ%���H�QC��%�t�*�i-�RxH �pY���a�y|��)��a�������,#a
+R�Q�S�t���i�a�(�L��eA���%���PK�׼�p��������e��4A���]媨{?]��K;�^�ɵ��`%gqj��W�zm-��
+J��Q_�j� �W����ؔ]�.H�\/������^;�أ��r��[�ߵdm�3�7$�������8I:k��0��J��aFx�*�~
+.S�(i.1�{��H�>]h�?�P�Ɵ/��-u�B|GYX�a�����Q>���ى�C��BJn������ʾ
+�{��,��5�h������G�7c��P��䠬F��0���g������k/��ź ?$�t~��9�O�9� J�|�5���������,�ƷL�8ɘ��.x�;��3$@��g���pY ����h ��ԙ�U,I�#���<����}6��b���wJF�%�˽��
+�"`
+�4�a�K-�Gy�������z-��{T�Vg3����_�o�n�sm?�_!�X^�����d)#(�
+k��W�����ʈ�0�x����)��Y�yYB\���m�iT;wb���r�+��%�Ͼ�DsGlC��g���C>����7�[��\�I"!��l�bG�e�^���"��#�Xs唸ߩo�ɓ�}ʺ�_V�����|�(w�M�3{�4)�_�T�����GBX����[��3Mh}rF_���pT�b���. +@X��0Qx���Y�|k��M�H�d����4ŚX�=(g��F�>��o5)��h�+C�A�2�r���c�-�$�,��Hچs<څ���3��W��91i���#!\�b��Ӻ��2��������o�7�Kԓ>�@�b�v{LMgxCJ_[j�*��#a�8� ��
+w
+�)�`g��"H˴"��eA���U�Y��|�ݩ��HZ��\���;�#������d��QO��A\�������|*q_"H9N!˗D�U�a]����%ہ�//g�⭅���Z� X��3W�BЅ��2NYW�\5���t}�/��.�u�).�������\Y"���E���`N9� �mBߥ!���e�cLs����eQ{5��^ձ���Ⱑ�j�|������HϸU��To﷜Lf�*~-U7e���ry��M}�A�.�nXb�l�^ff÷jnm��"v�d��'M���k��"�6�X�.�#���#����{o���#�󼇞�Y����_�}��}����Ϝ.�+�'��s�!`�h����\��K��~S�\�*�O$v�p� o��јV�P���'�#L��㠘�,�-�ug~�V�>S�F��`���\��)ǨM1><�]�5z�)40g���ظuY��+��@*X*m)�=�4
+@�|��v�6�Mtk�sNJ�_�ߩ�%^ַh�m�eNX#:o�����ts�I�Np���I���ZZA���%�j�8A�2�KKʠ$u�7��O�����5��'�|$���%�� ��p5ɤ�N՚��zjE<<@���c��7���uf�e�<���e���H���;�Ga���]��6�@�Ō�1��8�%EX.s��XO����󵃔A��A�h��,5�1��(꾞��eF ̈H"�;�,�(���
+�����z(@��JZA�K�v>-�q�c����K� 6�����]b�)���坜�D1S_��Z�ix�G`�D�KfX�w��8�6,�ѧh���P�5��Vw>Cu�ؑ+�k���Tu��XS�ʇ����H�h9�����Q�������݈������z�� ������������P��n�z���-��ny�*�#�@bD4�Ǯ��!�R�Sn��r��ѿ����* ��Čv$�uh6F��+$�sν�{������v���v��v2�.��w߽�����c"�4��8�R�!NJx.P;t M�VdX:
+?TZ@Be��v��>�W*$�vK���c�1��cG�QY�s�l���.�B|B��3w�ۯ����ԝ7�i���]�Ņ����W���c�����h��_s�R�/v�r����jx��pf��y�흦)�%���a��3"�n�b�Xb���{?Ж���c�JƚrS��rt��8��q~b�8���*&���& 5��.>&ʩ�FP$(��'�]����1^�d��R?� ��#�x�<�����3�t40Ni��ZC��
+��nÆB2��-!57��PA������Z/�1F�OΨjH8�s�g���>�;�~>6���]�q�����Vէh~ Z�g>�gYv��?��
+t��n%��M�v�i�U��ܜ�(E�P�e
+%`un1����w8��`M�bj�?�î�I�JZ_�2���˰Ӱ f:F]ڔ�ỴL��Ӷ��G^��7M��a�h���A���#�B\�#}�m�����Ż���|r���X�.6�8����-�b�%]8-�y� sg�
+:�o�%��E$]��}\�Wd���2���)��P��yx��>i���glt~���s��������N� "U�󵘡�d��|}��D�ꦟ�1���fP���3j1Ѝhې��0Fa��lP�[���)>kG���'�'�l�<U��������&�3x,�^λ;w��\��LK2^h��9O^�dG#�'�TY���_dE'e(��x���: �������s��
+�� �,g�yI��]�pJnV�?&��ŵȯey%Ԅk7���⌯��u&�x�Tn��$q?�V�y�T,W�*�$�r�_�xYp#i�0���9�E!��Df�BbV���@(K���y��E�( WL�E�+�v
+��M7���`��C�A����?B�&�؊Qc���ԋ!t�>!͵��.�>۷�یZ��X傋�Wy��M�)B�N^q&�;B)�&��o("�i6T�f�;-&�;�,aC�?��䁱?���0_$�y��aB���?�\��|eI&�cH�c�7��ʛۧ����եւ���D�r&ɿE-+���YE�ÚBa2Z�&�B���7�6��;ћ�Y/�����2���|�r���ZP�z|x�(���S�u U9D���qm��i��ҧf{�GI�@G��+�x�:����%�l0�D���&o����tC�������D�z+Q�5>�5i~Ao�W1c���f�F�5�R����r����j2����0���O`�c�&�+���L� ���w�pM�m� 6SX���
+(0�����Ĺ��"3Q�Ę���E���.a�,�����^���"m���d����(X��mc�V0�G�7����o[����m��[8b�ޢNa�i���h۩Ft���\���У�
+Z%�%�#�.o"�e���,%�?�A��[�4�B���I�;Ls��Di[�%�[ ZM�ɟ�㵐�}=lۣ�0�� �TĠ�fu���ږ3#^�8��_�|���7��bNq�#R����`U^�LVE.����.�(T�QYׂV�p4����L�ܺ�$��A�`�s�mp7�b��l�gO�;�3v����۬�c�볺\�|��B��u������/֋lL������^�vާV[�)����YmA�W_��۱����������/���V��eUMw����K�P��z�ԋI�;;%
+N�0��J��U�r��_Wٝ�(2NYT���s��,+�o��R��e��TV����ҁ��v~UJX�xW�?t�@��oWLNA_�N�O��V@��)k����u�CHo|��Mnz>�zx�aJQ��]�A`8�RqE���n��@���o�\d����#��+���> ���c���j�nZ/�ӻ)y ���d}߇��n��y�����;0؆�b�R.c����`#&�{Q&*����1�|>���L�3��K57��p��yU��,+�`���my�ʕ�;�d]n_ʕ`8��%y��4u�w��>ꨦdm�~�d�Q>xA�#�`�G6�,�w`�*qVb�י-9�Jlkx��r�1�#���:o�6 �j�l�����:�fQ(Bs� �̳�Ӛ�qZk� ����ȵ0O�i#�Σ��VZ8D��Һ�O;�yì@_��ύ��_׋'ߧE��{o%&�&Xߧ�1�0�|�{�����_����@ ��4Y�h��8�,*���t���?��7��q���<�D$��b�!�.�m7��f�������ѥ^����ɨ�wG�G��R%�(�F�VKMaF��D)�\���ĉ�}��*\���wS�v��u%."�����ò�}���װ<
+�v��c����f{ ZOρF�'�lO;ʃm�IS���Y��!�֐24k����-t{����9?�i����z!N1�ߑ#)%���q=>�H�� ��e����N�VpCޱ�6bo��-���^��4��
+W�����F��u��L�Q�^����Y`���x&14��>�Yi}߹`K���ǻC�s�����)���ZH�k�?J�imǑ&!^�+�}�64�+S��I���M����u�����]w<��{��]�o�ǹ��>�y'7� ��J+7w��w�$��`2yh������OE-�O�ѽ�z+�'����[��ٌ�L3Z��+�g��1��
+��V�Cs~$=�g�D}?>����^���hw�c��G� ��B��7aJ�Y9��w���4�D{�����C�g��g�<�C:g[<ح�ߗmh����]h<���o� i5�E�@�>����������X}�_�6i
+4�8��o{�� ���C�I�S���]G������v�Gk�]�<�(D"-����{m�yJ�o�)�Lv�.����3���9 �[�*�,�_�bC3���/Pp��kK�Z���DնL`�ע�Ah^�p��Z�Yļ&��x"��3�G�9��� t��v��H�b��&9���Ci��i���!��O�\��)tlOI\�
+��WxNC���Un0�F&
+\ 9`?v��� e{�uFX��!�9;��ۑZ���m0Tq��k��!�ᛰZ0%h�f�[UF7G�)�����z��T���/��3�zg�V\�%,�5�|�o]��<�'���ScĂ�k�h�&%{�M�G��i�dM���9�PC�g�!�����Ӽ��w��+�=nUx;� ����Q��q�[��x��C��:������b޲�>���^8�V%����ED{.�~T�0ߪE>a��
+�^���W�)7 [Б���-^=�q:����Ox!��PAQ��O���m���69��P����8]���
+��(+�Bx\tS�m��W��e���F�ܾ��?�Z�N�q�%���a���j�[� ��s��x��`�s��*ߏ�<��#�ζ�]y�_%�#��kh���d���\ȕd\�RR��x�@�i";_�IxȤ�����-�9�y��H�Є�;s\��#m�Y
+Z�a����& s�n�t���9Ā��R���!���Ja-�S���L���r��U)����sI
+.W;��nI�h�MY�ٽ�X��?���ׯ���aG��s�r`�މ-6ХN��������ڕ7�g�MiW���0����,9��˕�R՟�!�����r:đ��+�p�x薆��b%�?��:�A���9~:���Q����#3��ò'ݚ,ς\Qr�!����.Aq�ٖA"�����w�7m��t�)a�Jo��X��Y`�b$���.o�w�>�.�w�t:]uG����yb�Ď.97�>��T�ݎDv���Ԧ97�b[�b��h�GB�?�h�����A��ݴ0ح^n~�95?��j:���bs�a{s>�}�\U��R(� ��3Z�q�� ���D��G���Y.�oOQa1�_��M/^���Uh�_����&����ۀ����yj��3_.�l��(���[���z1%o�=\�&氥^�z_w�3�Ub��Q�.4�c���B�\TNŲW�"E��k��c}x��� (�Y2��g��ٙ�Un$
+ikU�� C.ks�#U���
+��s;�(ɷ��� ��:r"� !��%ɼ��?y����6~���
+y2iu�6�p*!�����RiH�9S���Y���eJ4&��VMj�"�C�
+�Eq&�}����TM�3)����E����\�*J}��/X���Lj-j�Z"������y�����x�@�rCؘw�fpn�����Կ�4���~�z��+T�c�d��\�s&W�P���5��M��H�b�V᤯
+5v�1�6�
+b��r�f��}p̧ fҧuE�^���+gY��I�D�G�A�Bx/��%Y��1��zAwۇ Do_<�]�>4sH2���d��#ڰ�����h"F@����@��
+}�؍D;@�g�쉶,�?�j��Z�e('��.κ(]��`�#UU�26M���˦��5�y�]�w�����
+��`��'�k@
+�����1廴4���S��Ә?�]x]��F[����ѐ��R�n>z�
+���@%^oq ��=�z��h�YwU�Y!�*Tni��:9�gУfsB��+A�h6/���Q����yX"��+�&76�34�T='��E�)��@��ȫ�mF����׈���tH��?���(N�i���O�f���p��?�o���)>l���
+,꯱��̥�]. �G�xƯ� =�Oq��@fg<4NX��Д� ���� 1�v ��9�Dn`���g��#�t�f.vmCH��
++�^G�Ѥ���:���6�������)�k�������
+M�Wd�FǨ���,+s����ǥ��>�����4�Z<����YQ���yKN�2��Fz
+����6L
+Y�ҥ�z9!e��l��
+"3̳�Ъ�E�L�D֛��q�.a���bw��y&���������ǘ\��K�-.�K�.��9�p
+�?`��c��EfX�Յ�"����k�L���С�Џ�Uщ�<�������(�MW��E�O������y�����NЖ���̊v)ꌁ�3t�U9'�;��F�%hH�πp��l��,`���#A��!-��$���t6
+�^
+/�
+�Y��"�g\������`��+Y
+9�Y+��j2sR��]�rr��a{���,5�w��H7����4aJ]��3�}��$�5�NސְK��B��8� �`1Ϻ?���Z��oJ�Yw��*�L������N!�
+����C��5_ۅ&��ɩ�
+6SM�.���*O��h&G� %:.�FDKR�h��)��`��t���X����GK�O���Tێa��̄����Vcwv���.s�8NK�~�����HL��a�M�l�w�]�v�F�*�r�6eaX�\+fn�v߿�@++�ӑ�f����H�_�$�T}��C��.5?�+B����<���z2K��������5DɿD�q�g���C��C-b�X�7X�"t��C;/l�W9{|���@�V��K"\
+�]�{�=p���R�
+o?d�y��2V�B�PˍU���Ƽޘ|�K�#&���;:��u�x��D���"h�D��04�<�
+-VFY�f�_�<"�H�8D��V��S�!��Q�1
+�a��|;�I�fmØ�Y&����q�!���3���q���z��]�-���Cse#�*�I��[�.qmsɴ��Y�4�D�=�0��� ����9hɻ"��F�>��{�KQ}���d��קs�B��KX5v�__�5]��\��k�ۏ��EŷBe[��֐zQK�'�B��,�2x�
+H���BUv
+����k��R2���p�vO/��39ln>=��D����)�-���:?�g:�3��ø���c.��on�H�cɵhZ��lSq���, �1��
+_E�z��gr����_爿�*�Bo�WٙW�
+�\�B(1�6�X��!͡!�>�4)EF���P"WZ�7I�2����
+2%
+[V��d~���T ��pA_��r<����3 k�6۔zr�\e�z���<��������e>'����K�ʅ(Ylo��@��ҨMU�̒�w@���eIv���r�jT%�K|r|�*�GK�Q@�!s�?�6�:�����(>9������S��x:����N�Ѝfg�6W���^�O�`��Ka��n� }����ijN�0X�gx��K^1#w�@��h�������U\*��SQ���R6�����,օ��8���;�r:���lùPB�E ����� =���=��HG��I�N���"��,�*J΁�+����فI�_TV��
+M�æӐ����S�=ĥݰ�U�C�u]#Ry��$Z������W�x���~�%��
+��Dgr��t�d;y�pDO�������eA: A&�
+���[�L��
+Xs�N9q��~B�RkD�G�T�=�C�΋:se�t�����p���R&[��;{�8�B�#�(h ����H*���[&�S�4��^z���.LalsD�U�����(��D��މ�$��T/>�*h��圐�@�����g$5v�r�Av�)�t�G65F�oF3�ѿ����#y����n\������F�bg �Χ�a9`��5OH\k�V�I��*-���oZT�B����5�JH`iȇ?=�0Mt��B��4;��D��i�
+�a"����\�x�݃��w�C�A6 �~��߁�;�������l����y���D6���n��!&h(��iV�C�:���2W8��|���{�3�˒$�"�Sl������;����>���
+Ӵ�}�#8��DSVL�?(f�NZv���C)�Dc����|�S]x����I^d2�:��~�4{M8��"6�"�4+���~/�F��;`?�*a?�-�U��e-\3F�oڊf��}=?����`86tlh>]b�]4J���^�ch%��T�9��y
+��9̓hTO@�7����iBN���e��*���ޕ���H��S3qh��Q�'BO`,�v�ذ
+t]�0{�h�G+��e5
+�UЄ�β����+������~~�^���>ृG�/P�G�I;���P�:AE3`5���G��$ڛ��8tޏ��G�A��
+�0�W�c�:�O)0Qm�'��!p�o������w�x���t
+�@aPHA�u4�Jy�_�x�^���0b$O!&�<8���x�M��0�T�'J��g(b��97ɇ4x�a`�����x�;>~+9Q�C�m�$�K�@>�!��7�6���jI�_
+d�xK6?n����u�=�9��@��-�h��d;U��`b(Q=3���c:��v��o|]�H����ر���NV�@���L����%�Z��s5s�b�4�\���)�d44�Hc��]@�c����.r=�
+�p�8و�cLT� ����>$�N킄+�#��v%��1\�Ygs��9Ea��#���{o�8��x��w/�7��F�>��.��Y�ꪺO�.4NtZ�����@���{$hH��_�N���2��(�DV�
+[AQ��\/
+cq�{�)apA��l`>׍2���ځ��:G ��>�����
+u{�^ɮ�!�B�t݂��@~*i79Zw�3�l���(�XH-h�8U��_:����)�������ը����m�ݾ��4��ixu��"���=�^{��i9�|F4�N}��'t˥"ᇡ���x�擶��9TM�1��բ��/���.��f���������y;Y��vQ.�-��[�W�=�u^��O���k�|��w]hVnX?��L��d�u�@���?I�^��.��P~����S˹���S�� @��Ԫ���G�U��0�� "�i_Nz�1{�C��w��NP4z9�SZ�D�8JBL��wA�E`�4����5<2�.#��
+D(��4�2#�m^�;UmF���b�����ˁ7r��&���M��s���^
+�a�Ļ:L�Y|
+���e�/�h6י�DE�Mq0���2vq�y=r��9u�xݖ�X>���m���
+y�"�&R������LD�Pq�����`��{y�M�ҙd���#K�X��&�|NY���_,���{�,�f6/���%��/8��Z~�7���h:{��3 V��p���J#pTŶ���ϭ�W�)1�
+�e���-�[`�MY��a��+��l�.���Dݔ�9�I��0I3�0#{���KL�-��Mm�������p�BlHp$M�.�F�
+��Hp�qi�hpH�������L����7�ݩ�sB�A
+���i�����;ƌ-���W[6�����
+��X������p��C�\0~��V������j�@��@o���JV��He�K�����B���˼��rkFS�?d��Y0�
+_ic��x*K�1������D��2�j���)4c@a���F� �A��k���q�;N����,X�+xhlOK.�$-�8���y\����|��U))}�z0�� �

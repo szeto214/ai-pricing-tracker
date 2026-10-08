@@ -7,7 +7,7 @@
   "final_url": "https://deepgram.com/pricing",
   "parser_version": 4,
   "content_hash": "97dbb69a91d1a0902226e9a5f1062f233097d2e428a6bd4931a8cf7783ae372c",
-  "raw_hash": "3b3f49364b64c42acd38326272c600c53ac5ce691acf788c141cc777da86e8a9",
+  "raw_hash": "6e6b87c29f0f3fb56aa8846f212e8f5e27a40391ecc83468c3225d63b0cfb277",
   "text_bytes": 12913,
   "currency_hints": [],
   "extractor": "jsonld",
@@ -500,7 +500,56 @@
       "slot_prices": []
     }
   ],
-  "models": [],
+  "models": [
+    {
+      "key": "flux tts",
+      "model": "Flux TTS",
+      "prices": {
+        "pay as you go": {
+          "raw": "$0.0450",
+          "amount": 0.045
+        },
+        "growth": {
+          "raw": "$0.0405",
+          "amount": 0.0405
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "aura-2",
+      "model": "Aura-2",
+      "prices": {
+        "pay as you go": {
+          "raw": "$0.030",
+          "amount": 0.03
+        },
+        "growth": {
+          "raw": "$0.027",
+          "amount": 0.027
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "aura-1",
+      "model": "Aura-1",
+      "prices": {
+        "pay as you go": {
+          "raw": "$0.0150",
+          "amount": 0.015
+        },
+        "growth": {
+          "raw": "$0.0135",
+          "amount": 0.0135
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    }
+  ],
   "tables": [
     {
       "caption": "Streaming pricing",
@@ -757,6 +806,169 @@
         [
           "Speaker Diarization",
           "Detect multiple speakers and label who spoke when in the transcript."
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Model",
+          "Pay As You Go",
+          "Growth"
+        ],
+        [
+          "Flux TTS",
+          "$0.0450/1k characters",
+          "$0.0405/1k characters"
+        ],
+        [
+          "Aura-2",
+          "$0.030/1k characters",
+          "$0.027/1k characters"
+        ],
+        [
+          "Aura-1",
+          "$0.0150/1k characters",
+          "$0.0135/1k characters"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Model",
+          "Pay As You Go"
+        ],
+        [
+          "Flux TTS",
+          "$0.0450/1k characters"
+        ],
+        [
+          "Aura-2",
+          "$0.030/1k characters"
+        ],
+        [
+          "Aura-1",
+          "$0.0150/1k characters"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Tier",
+          "Pay As You Go",
+          "Growth"
+        ],
+        [
+          "Standard",
+          "$0.075/min i calculated based on websocket connection time.",
+          "$0.068/min i calculated based on websocket connection time."
+        ],
+        [
+          "Standard - BYO TTS",
+          "$0.065/min i calculated based on websocket connection time.",
+          "$0.051/min i calculated based on websocket connection time."
+        ],
+        [
+          "Custom - BYO LLM",
+          "$0.059/min i calculated based on websocket connection time."
+        ],
+        [
+          "Custom - BYO LLM + TTS",
+          "$0.050/min i calculated based on websocket connection time.",
+          "$0.041/min i calculated based on websocket connection time."
+        ],
+        [
+          "Advanced",
+          "$0.163/min i calculated based on websocket connection time.",
+          "$0.146/min i calculated based on websocket connection time."
+        ],
+        [
+          "Advanced - BYO TTS",
+          "$0.122/min i calculated based on websocket connection time.",
+          "$0.110/min i calculated based on websocket connection time."
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Tier",
+          "Pay As You Go"
+        ],
+        [
+          "Standard",
+          "$0.075/min i calculated based on websocket connection time."
+        ],
+        [
+          "Standard - BYO TTS",
+          "$0.065/min i calculated based on websocket connection time."
+        ],
+        [
+          "Custom - BYO LLM"
+        ],
+        [
+          "Custom - BYO LLM + TTS",
+          "$0.050/min i calculated based on websocket connection time."
+        ],
+        [
+          "Advanced",
+          "$0.163/min i calculated based on websocket connection time."
+        ],
+        [
+          "Advanced - BYO TTS",
+          "$0.122/min i calculated based on websocket connection time."
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Model",
+          "Pay As You Go",
+          "Growth"
+        ],
+        [
+          "Summarization",
+          "$0.0003/1k input tokens - $0.0006/1k output tokens",
+          "$0.00024/1k input tokens - $0.00048/1k output tokens"
+        ],
+        [
+          "Topic Detection"
+        ],
+        [
+          "Sentiment Analysis"
+        ],
+        [
+          "Intent Recognition"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Model",
+          "Pay As You Go"
+        ],
+        [
+          "Summarization",
+          "$0.0003/1k input tokens - $0.0006/1k output tokens"
+        ],
+        [
+          "Topic Detection"
+        ],
+        [
+          "Sentiment Analysis"
+        ],
+        [
+          "Intent Recognition"
         ]
       ]
     }

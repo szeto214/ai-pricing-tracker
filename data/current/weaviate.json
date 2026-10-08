@@ -7,7 +7,7 @@
   "final_url": "https://weaviate.io/pricing",
   "parser_version": 4,
   "content_hash": "2446f6384ce10e874803917232535a2bc586c8f4561c6965436560d131168cf9",
-  "raw_hash": "14585db36e9e6b25db8244d97fec1eb8bf96ab9dbfd2e74132c641cd93b63cb2",
+  "raw_hash": "2bf1aa8ee689b66bac7317f8787fcac8787b3eb099a793201ec18436c55f4bc6",
   "text_bytes": 8433,
   "currency_hints": [],
   "extractor": "dom",

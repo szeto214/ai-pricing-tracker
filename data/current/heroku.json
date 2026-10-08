@@ -2251,6 +2251,108 @@
           "Model Source: Qwen A specialized model designed for code generation and debugging."
         ]
       ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Get Started with Managed Inference and Agents",
+          "",
+          ""
+        ],
+        [
+          "Plan",
+          "Price / 1,000 Queries",
+          "Model Type",
+          "Region Provisioned",
+          "Supporting Links",
+          "More Details"
+        ],
+        [
+          "Amazon Rerank 1.0",
+          "$1.00",
+          "Text → Score",
+          "US | EU",
+          "Amazon Rerank 1.0 docs →",
+          "Model Source: Amazon A reranking model that scores documents based on their semantic relevance to a query. It is ideal for enhancing retrieval-augmented generat"
+        ],
+        [
+          "Cohere Rerank 3.5",
+          "$2.00",
+          "Text → Score",
+          "US | EU",
+          "Cohere Rerank 3.5 docs →",
+          "Model Source: Cohere A reranking model that scores documents based on their semantic relevance to a query. It offers enhanced reasoning, broad data compatibilit"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Get Started with Managed Inference and Agents",
+          "",
+          ""
+        ],
+        [
+          "Plan",
+          "Price / 1M Input Token",
+          "Model Type",
+          "Region Provisioned",
+          "Supporting Links",
+          "More Details"
+        ],
+        [
+          "cohere-embed-v4",
+          "$0.12",
+          "Text → Embedding",
+          "US | EU",
+          "Cohere Embed V4 docs →",
+          "Model Source: Cohere Cohere Embed v4 delivers industry-leading accuracy with support for over 100 languages. Ideal for retrieval-augmented generation (RAG) task"
+        ],
+        [
+          "cohere-embed-multilingual",
+          "$0.10",
+          "Text → Embedding",
+          "US | EU",
+          "Cohere Embed Multilingual docs →",
+          "Model Source: Cohere A state-of-the-art embedding model that supports multiple languages. This model is helpful for developing Retrieval Augmented Generation (R"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Get Started with Managed Inference and Agents",
+          "",
+          ""
+        ],
+        [
+          "Plan",
+          "Price / image",
+          "Model Type",
+          "Region Provisioned",
+          "Supporting Links",
+          "More Details"
+        ],
+        [
+          "Stable-image-core",
+          "$0.04",
+          "Text → Image",
+          "US",
+          "Stable Image Core docs →",
+          "Model Source: Stability AI A state-of-the-art image generation model designed to create high-quality, detailed images from text prompts. It offers improved reso"
+        ],
+        [
+          "Stable-image-ultra",
+          "$0.14",
+          "Text → Image",
+          "US",
+          "Stable Image Ultra docs →",
+          "Model Source: Stability AI A state-of-the-art diffusion (image generation) model."
+        ]
+      ]
     }
   ],
   "extract_errors": []

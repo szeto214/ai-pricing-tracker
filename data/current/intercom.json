@@ -6,9 +6,9 @@
   "url": "https://www.intercom.com/pricing",
   "final_url": "https://www.intercom.com/pricing",
   "parser_version": 4,
-  "content_hash": "2f6c395b2c02714c2f353eb8a888ea37fb2261f201f8e5229c84131d8f1b3415",
-  "raw_hash": "4c20e2c7a65a8cb2f681e8642bf8d88a5d1388811353cbf47e882b3d8937d936",
-  "text_bytes": 5084,
+  "content_hash": "1f279d29e77a2f6b040571b993962cb29b98b7f97eb884e098bc4d488d8d87e7",
+  "raw_hash": "e7d563d1d0df6ff6d5723233ad10b3332ffe66a020f53367fe213d503be4f3ba",
+  "text_bytes": 5085,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -59,13 +59,13 @@
     },
     {
       "name": "Pro",
-      "price_raw": "$99",
-      "amount": 99.0,
+      "price_raw": "$100",
+      "amount": 100.0,
       "currency": "USD",
       "period": "month",
       "features": [],
       "slot_prices": [
-        99.0
+        100.0
       ]
     },
     {

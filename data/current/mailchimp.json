@@ -6,9 +6,9 @@
   "url": "https://mailchimp.com/pricing/",
   "final_url": "https://mailchimp.com/pricing/marketing/",
   "parser_version": 4,
-  "content_hash": "a42cd6bf28eaf8efae7ff9e5135389d83d6e1e9d210d7a6d9e439f8e56053397",
-  "raw_hash": "15c29ef14e0155aa186fdabfde3be6c37d6bfafa37ea41a02013cc34495fb90d",
-  "text_bytes": 23570,
+  "content_hash": "58eabc86255c12ede5355300a8ce97b60d44e3fbee11b737f32e83f4b9dd9ab7",
+  "raw_hash": "dfe648e3d2204f109e951055aff02b7452307f3896b42283bc23957814df4f63",
+  "text_bytes": 23521,
   "currency_hints": [
     "AUD",
     "BRL",
@@ -33,17 +33,6 @@
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
-    {
-      "name": "Standard",
-      "price_raw": "$20",
-      "amount": 20.0,
-      "currency": "USD",
-      "period": "month",
-      "features": [],
-      "slot_prices": [
-        20.0
-      ]
-    },
     {
       "name": "Premium",
       "price_raw": "Free",
@@ -125,8 +114,8 @@
         ],
         [
           "SMS Marketing",
-          "SMS and MMS add-on",
-          "SMS and MMS add-on",
+          "SMS add-on",
+          "SMS add-on",
           "SMS add-on",
           "Not included"
         ],

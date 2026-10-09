@@ -6,9 +6,9 @@
   "url": "https://clickup.com/pricing",
   "final_url": "https://clickup.com/pricing",
   "parser_version": 4,
-  "content_hash": "533bed5c2a6209a9e9b7f4f57b962fe1426a7ca56e58939941d1a289cb379b2d",
-  "raw_hash": "819b4638f526cb67f15b830e9a21e5139006059bf8f1f5bf81f4e9d8cf676e48",
-  "text_bytes": 9195,
+  "content_hash": "eb071314d183b35305e55dd8af5cf922c717098767eba56d757c18de768f1568",
+  "raw_hash": "f406238fc02fdd014202f0e7ef71e8c90eff5a3aeb32bf92a1de1fd8e6157793",
+  "text_bytes": 25688,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -119,6 +119,72 @@
         0.001,
         10.0
       ]
+    },
+    {
+      "name": "Core",
+      "price_raw": "$ 8",
+      "amount": 8.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [],
+      "slot_prices": [
+        8.0
+      ]
+    },
+    {
+      "name": "Business",
+      "price_raw": "$ 17",
+      "amount": 17.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [],
+      "slot_prices": [
+        17.0
+      ]
+    },
+    {
+      "name": "Enterprise",
+      "price_raw": "$1,000",
+      "amount": 1000.0,
+      "currency": "USD",
+      "period": "user",
+      "features": [],
+      "slot_prices": [
+        1000.0
+      ]
+    },
+    {
+      "name": "White Labeling",
+      "price_raw": "$1,000",
+      "amount": 1000.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [],
+      "slot_prices": [
+        1000.0
+      ]
+    },
+    {
+      "name": "Free",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [],
+      "slot_prices": [
+        0.0
+      ]
+    },
+    {
+      "name": "AI Super Credits",
+      "price_raw": "$10",
+      "amount": 10.0,
+      "currency": "USD",
+      "period": "credit",
+      "features": [],
+      "slot_prices": [
+        10.0
+      ]
     }
   ],
   "models": [],
@@ -159,7 +225,7 @@
           "40",
           "200",
           "400",
-          "1000"
+          "1,500"
         ],
         [
           "Folders/Space",
@@ -415,7 +481,7 @@
         ],
         [
           "Message History",
-          "30 days",
+          "90 days",
           "Unlimited",
           "",
           ""
@@ -666,7 +732,7 @@
           ""
         ],
         [
-          "Guest Visiblity",
+          "Guest Visibility",
           "",
           "",
           "",
@@ -685,6 +751,651 @@
           "",
           "",
           ""
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Features",
+          "Free",
+          "Core",
+          "Business",
+          "Enterprise",
+          "Max"
+        ],
+        [
+          "Essentials",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Tasks",
+          "Included",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Docs",
+          "Included",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "List, Table, and Calendar views",
+          "Included",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Video Recording",
+          "Trial",
+          "Trial",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Custom Fields",
+          "Trial",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Spaces",
+          "5 Spaces",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "File Storage",
+          "60MB",
+          "Unlimited",
+          "Unlimited",
+          "Unlimited",
+          "Unlimited"
+        ],
+        [
+          "Gantt Charts",
+          "Trial",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Gantt Chart PDFs",
+          "Not included",
+          "Not included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Activity view",
+          "1 day",
+          "7 days",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Workload view",
+          "Trial",
+          "Trial",
+          "Included",
+          "Custom capacity & additional groups",
+          "Custom capacity & additional groups"
+        ],
+        [
+          "Timeline view",
+          "Trial",
+          "Trial",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Protect Docs",
+          "Not included",
+          "Not included",
+          "Not included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Conditional Forms",
+          "Not included",
+          "Not included",
+          "Not included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Priority Support",
+          "Not included",
+          "Not included",
+          "Not included",
+          "Included",
+          "Included"
+        ],
+        [
+          "White Labeling",
+          "Not included",
+          "Not included",
+          "Not included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Audit Trails",
+          "Not included",
+          "Not included",
+          "Not included",
+          "Included",
+          "Included"
+        ],
+        [
+          "SCIM Provisioning",
+          "Not included",
+          "Not included",
+          "Not included",
+          "Included",
+          "Included"
+        ],
+        [
+          "AI",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Brain² Premium Models",
+          "Trial",
+          "Trial",
+          "Included",
+          "Scaled",
+          "Maximum"
+        ],
+        [
+          "Brain² Standard Models",
+          "Trial",
+          "Trial",
+          "Unlimited*",
+          "Unlimited*",
+          "Unlimited*"
+        ],
+        [
+          "Talk-to-Text",
+          "Trial",
+          "Included",
+          "Expanded",
+          "Scaled",
+          "Unlimited"
+        ],
+        [
+          "AI Credits",
+          "500 / workspace",
+          "1,000 / user / mo · pooled",
+          "1,500 / user / mo · pooled",
+          "3,000 / user / mo · pooled",
+          "10,000 / user / mo · pooled"
+        ],
+        [
+          "AI Automations",
+          "AI Credits",
+          "AI Credits",
+          "AI Credits",
+          "AI Credits",
+          "Unlimited"
+        ],
+        [
+          "Artifacts",
+          "AI Credits",
+          "AI Credits",
+          "AI Credits",
+          "AI Credits",
+          "AI Credits"
+        ],
+        [
+          "Video & Audio Generation",
+          "AI Credits",
+          "AI Credits",
+          "AI Credits",
+          "AI Credits",
+          "AI Credits"
+        ],
+        [
+          "MCP calls / day",
+          "100",
+          "300",
+          "1,000",
+          "25,000",
+          "No daily cap"
+        ],
+        [
+          "Certified Agents",
+          "Not included",
+          "Not included",
+          "Not included",
+          "Add-on eligible",
+          "Add-on eligible"
+        ],
+        [
+          "AI governance Coming soon",
+          "Feature trial",
+          "Feature trial",
+          "Feature trial",
+          "Included",
+          "Included"
+        ],
+        [
+          "SuperAgents",
+          "AI Credits",
+          "AI Credits",
+          "AI Credits",
+          "AI Credits",
+          "AI Credits"
+        ],
+        [
+          "AI Fields",
+          "AI Credits",
+          "AI Credits",
+          "AI Credits",
+          "AI Credits",
+          "Unlimited"
+        ],
+        [
+          "AI Image Generation",
+          "AI Credits",
+          "AI Credits",
+          "AI Credits",
+          "AI Credits",
+          "Unlimited"
+        ],
+        [
+          "AI Dashboard Cards",
+          "AI Credits",
+          "AI Credits",
+          "AI Credits",
+          "AI Credits",
+          "Unlimited"
+        ],
+        [
+          "AI Assign & Prioritize",
+          "AI Credits",
+          "AI Credits",
+          "AI Credits",
+          "AI Credits",
+          "Unlimited"
+        ],
+        [
+          "AI Notetaker",
+          "AI Credits",
+          "AI Credits",
+          "AI Credits",
+          "Unlimited*",
+          "Unlimited"
+        ],
+        [
+          "SyncUp AI notes",
+          "AI Credits",
+          "AI Credits",
+          "AI Credits",
+          "Unlimited",
+          "Unlimited"
+        ],
+        [
+          "Enterprise Search: Workspace connections",
+          "Not included",
+          "Not included",
+          "Not included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Enterprise Search: Private connections",
+          "30 day history",
+          "60 day history",
+          "90 day history",
+          "Included",
+          "Included"
+        ],
+        [
+          "Tasks",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Custom Statuses",
+          "Included",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Priorities",
+          "Included",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Relationships & Dependencies",
+          "Included",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Tags",
+          "Included",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Time Estimates",
+          "Included",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Custom Fields",
+          "Trial",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Custom Task Types",
+          "Trial",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Time Tracking",
+          "Trial",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Advanced Time Tracking",
+          "Trial",
+          "Trial",
+          "Trial",
+          "Included",
+          "Included"
+        ],
+        [
+          "Granular Time Estimates",
+          "Not included",
+          "Not included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Add Tasks to Multiple Lists",
+          "Not included",
+          "Trial",
+          "Unlimited",
+          "Included",
+          "Included"
+        ],
+        [
+          "Annotate Attachments",
+          "Trial",
+          "Trial",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Pinned Custom Fields",
+          "Not included",
+          "Not included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Required Custom Fields",
+          "Not included",
+          "Not included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Custom Task IDs",
+          "Not included",
+          "Not included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Scheduled Send Comments",
+          "Not included",
+          "Not included",
+          "Not included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Advanced Custom Field Manager",
+          "Not included",
+          "Not included",
+          "Not included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Views & Docs",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "List view",
+          "Included",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Board view",
+          "Included",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Calendar",
+          "Included",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Table view",
+          "Included",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Gantt Charts",
+          "Trial",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Embedded Content",
+          "Trial",
+          "Trial",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Column Calculations",
+          "Not included",
+          "Not included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "View Recurring Tasks",
+          "Not included",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Timeline view",
+          "Trial",
+          "Trial",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Workload view",
+          "Trial",
+          "Trial",
+          "Included",
+          "Custom capacity & additional groups",
+          "Custom capacity & additional groups"
+        ],
+        [
+          "Mind Maps",
+          "Not included",
+          "Trial",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Whiteboards",
+          "3 max",
+          "10 max",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Private Whiteboards",
+          "Not included",
+          "Not included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Activity view",
+          "1 day",
+          "7 days",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Team view",
+          "Not included",
+          "Trial",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Map view",
+          "Not included",
+          "Trial",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Gantt Chart PDFs",
+          "Not included",
+          "Not included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "List View Exports",
+          "Not included",
+          "Trial",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Table View Exports",
+          "Not included",
+          "Not included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Form View Exports",
+          "Not included",
+          "Not included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Private Views",
+          "Not included",
+          "Not included",
+          "Included",
+          "Included",
+          "Included"
         ]
       ]
     }

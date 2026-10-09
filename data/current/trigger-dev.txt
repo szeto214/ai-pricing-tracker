@@ -260,9 +260,10 @@ Does Trigger.dev support Python?
 Yes. Trigger.dev supports running Python scripts from inside your TypeScript tasks using our
 Python build extension
 . It handles installing Python and your dependencies during the build, then you call into Python from a task at runtime.
-Ready to start building?
-Build and deploy your first task in 3 mins with no timeouts and no infrastructure to manage.
+Built for teams shipping at scale
+SOC 2 Type II, SSO, RBAC, HIPAA BAAs, and dedicated support. Start building for free, or talk to our team.
 Get started for free
+Contact sales
 Enterprise
 Custom plans and support for your enterprise needs.
 Contact us

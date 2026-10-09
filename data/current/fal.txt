@@ -116,11 +116,11 @@ fal-ai/nano-banana-2/edit
 images
 $0.08
 12.5 images
-Nano Banana 2
-fal-ai/nano-banana-2
-images
-$0.08
-12.5 images
+Flux 3 Image
+blackforestlabs/flux-3/edit-image
+megapixels
+$0.024
+41.67 megapixels
 GPT Image 2 API
 openai/gpt-image-2/edit
 units
@@ -131,6 +131,11 @@ openai/gpt-image-2
 units
 $1
 1 units
+Nano Banana 2
+fal-ai/nano-banana-2
+images
+$0.08
+12.5 images
 Nano Banana Pro
 fal-ai/nano-banana-pro/edit
 images
@@ -156,11 +161,6 @@ fal-ai/z-image/turbo
 megapixels
 $0.005
 200 megapixels
-FLUX.1 [schnell]
-fal-ai/flux/schnell
-megapixels
-$0.003
-333.33 megapixels
 10
 endpoints. Scroll to see all models. Prices are per listed billing unit; units per $1 are approximate. Settings such as resolution, duration, and quality may affect the final cost. See each model for full pricing details.
 Audio models

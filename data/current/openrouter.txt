@@ -1,8 +1,25 @@
+ElevenLabs launch offer:
+every ElevenLabs model is 50% off through October 19, 2026.
+See ElevenLabs models
+Dismiss
 Models
+StepFun: Step 5 Preview
+Step 5 Preview
+1.65T tokens
+Programming (#31)
+Step 5 Preview is StepFun's flagship model for agentic work, built on a sparse Mixture-of-Experts architecture (27B active / 600B total parameters). It performs strongly in software engineering and professional knowledge work, with particular strength in finance. It is designed for extended tasks that span large codebases and documents, using tools and refining results over multiple steps.
+by
+stepfun
+Oct 8, 2026
+1M context
+$1/M input
+tokens
+$2.70/M output
+tokens
 Upstage: Solar Decide Flash
 Solar Decide Flash
 50% off
-66M tokens
+1.11B tokens
 Solar Decide Flash is Upstage's low-latency structured decision model, a faster variant of
 Solar Decide
 built on Solar Mini 4 and served through the System One (
@@ -20,7 +37,7 @@ $0/M output
 tokens
 Anthropic: Claude Haiku 5.5 (batch)
 Claude Haiku 5.5 (batch)
-406M tokens
+613M tokens
 Claude Haiku 5.5 is Anthropic's small, fast model for high-volume, cost-sensitive work such as summarization, subagents, and browser use. It succeeds Claude Haiku 4.5 with stronger coding, computer use, and knowledge work, and accepts text and image input with a 1M-token context window. It is the first Haiku model with adjustable effort. Thinking is adaptive and on by default, with effort as the main lever for trading off depth, latency, and cost; it can be turned off at low, medium, and high effort.
 by
 anthropic
@@ -32,7 +49,11 @@ $0.25/M output
 tokens
 Anthropic: Claude Haiku 5.5
 Claude Haiku 5.5
-101B tokens
+487B tokens
+Marketing (#41)
+SEO (#23)
+Programming (#44)
+Translation (#45)
 Claude Haiku 5.5 is Anthropic's small, fast model for high-volume, cost-sensitive work such as summarization, subagents, and browser use. It succeeds Claude Haiku 4.5 with stronger coding, computer use, and knowledge work, and accepts text and image input with a 1M-token context window. It is the first Haiku model with adjustable effort. Thinking is adaptive and on by default, with effort as the main lever for trading off depth, latency, and cost; it can be turned off at low, medium, and high effort.
 by
 anthropic
@@ -44,7 +65,7 @@ $0.50/M output
 tokens
 Perplexity: Decider V1.1 27B
 Decider V1.1 27B
-3.05B tokens
+11.6B tokens
 Decider V1.1 27B is a new checkpoint of Perplexity's decision model, succeeding
 Decider V1 27B
 with the same API contract. Instead of generating text, it reads content passed as
@@ -67,7 +88,7 @@ tokens
 ElevenLabs: Eleven v4
 Eleven v4
 50% off
-850K tokens
+1.88M tokens
 Eleven v4 is a text-to-speech model from ElevenLabs. It is ElevenLabs' most expressive model, with inline audio tags for emotional and delivery control, support for 90+ languages, and a 10,000-character request limit.
 by
 elevenlabs
@@ -76,7 +97,7 @@ $40/M characters
 ElevenLabs: Eleven v4 Turbo
 Eleven v4 Turbo
 50% off
-275K tokens
+753K tokens
 Eleven v4 Turbo is a low-latency text-to-speech model from ElevenLabs. It keeps Eleven v4's expressive delivery and audio tags while being tuned for faster generation, with support for 90+ languages and a 10,000-character request limit.
 by
 elevenlabs
@@ -85,7 +106,7 @@ $20/M characters
 ElevenLabs: Eleven v3
 Eleven v3
 50% off
-97K tokens
+204K tokens
 Eleven v3 is a text-to-speech model from ElevenLabs. It produces emotionally rich, highly expressive speech with inline audio tags, supports 70+ languages, and has a 5,000-character request limit.
 by
 elevenlabs
@@ -94,7 +115,7 @@ $40/M characters
 ElevenLabs: Eleven v3 Conversational
 Eleven v3 Conversational
 50% off
-17K tokens
+59K tokens
 Eleven v3 Conversational is a text-to-speech model from ElevenLabs, a variant of Eleven v3 optimized for natural dialogue in conversational agents. It supports 70+ languages and has a 5,000-character request limit.
 by
 elevenlabs
@@ -103,7 +124,7 @@ $20/M characters
 ElevenLabs: Eleven Flash v2.5
 Eleven Flash v2.5
 50% off
-59K tokens
+242K tokens
 Eleven Flash v2.5 is an ultra-low-latency text-to-speech model from ElevenLabs. It is suited for conversational and real-time use cases, supports 32 languages, and has a 40,000-character request limit.
 by
 elevenlabs
@@ -112,7 +133,7 @@ $20/M characters
 ElevenLabs: Eleven Turbo v2
 Eleven Turbo v2
 50% off
-6K tokens
+9K tokens
 Eleven Turbo v2 is an English-only, low-latency text-to-speech model from ElevenLabs. It is suited for developer use cases where speed matters and only English is needed, and has a 30,000-character request limit.
 by
 elevenlabs
@@ -121,7 +142,7 @@ $20/M characters
 ElevenLabs: Eleven Multilingual v2
 Eleven Multilingual v2
 50% off
-121K tokens
+189K tokens
 Eleven Multilingual v2 is a text-to-speech model from ElevenLabs. It is suited for lifelike, consistent long-form narration such as voice-overs and audiobooks, supports 29 languages, and has a 10,000-character request limit.
 by
 elevenlabs
@@ -130,7 +151,7 @@ $40/M characters
 ElevenLabs: Eleven Turbo v2.5
 Eleven Turbo v2.5
 50% off
-69K tokens
+813K tokens
 Eleven Turbo v2.5 is a low-latency text-to-speech model from ElevenLabs. It balances quality and speed for developer use cases that need non-English languages, supports 32 languages, and has a 40,000-character request limit.
 by
 elevenlabs
@@ -139,7 +160,7 @@ $20/M characters
 ElevenLabs: Eleven Flash v2
 Eleven Flash v2
 50% off
-7K tokens
+10K tokens
 Eleven Flash v2 is an English-only, ultra-low-latency text-to-speech model from ElevenLabs. It is suited for conversational and real-time English use cases, and has a 30,000-character request limit.
 by
 elevenlabs
@@ -148,7 +169,7 @@ $20/M characters
 ElevenLabs: Scribe v2
 Scribe v2
 50% off
-17.2M characters
+62.5M characters
 ElevenLabs Scribe v2 is a speech-to-text model that transcribes audio in 90+ languages with word-level timestamps, optional speaker diarization, and audio-event tagging.
 by
 elevenlabs
@@ -157,45 +178,11 @@ $0.000031/second
 ElevenLabs: Scribe v2 Medical
 Scribe v2 Medical
 50% off
-301K characters
+557K characters
 ElevenLabs Scribe v2 Medical is a speech-to-text model tuned for clinical and medical terminology, with word-level timestamps, optional speaker diarization, and audio-event tagging.
 by
 elevenlabs
 Oct 7, 2026
 $0.000031/second
-OpenAI: GPT-6 Luna Decisions
-GPT-6 Luna Decisions
-14.4B tokens
-Translation (#50)
-Trivia (#13)
-GPT-6 Luna Decisions is
-GPT-6 Luna
-served through OpenAI's Decisions API. Instead of generating text, it reads the content passed as
-state
-(text, JSON, or images) and returns typed, probabilistic answers to named questions in a single request: the probability of yes for a yes/no question (
-noul
-), a probability for every option plus the most likely one (
-choice
-), or a probability for every level of an ordered rubric plus the expected score (
-score
-). It is built for classification, routing, moderation, and rubric grading where application code thresholds the returned numbers rather than parsing a chat reply. A request can carry up to 200 questions about the same content.
-by
-openai
-Oct 6, 2026
-1.05M context
-$0.10/M input
-tokens
-$0/M output
-tokens
-SpaceXAI: Grok Imagine Video 1.5 Lite
-Grok Imagine Video 1.5 Lite
-7 hours
-Grok Imagine Video 1.5 Lite is a faster, lower-cost video generation model from SpaceXAI, distilled from
-Grok Imagine Video 1.5
-. It supports text-to-video and image-to-video, trading some quality for speed and price. 1080p output is rendered at 720p and upscaled.
-by
-x-ai
-Oct 6, 2026
-from $0.02/second
 Compare
 Discover Models

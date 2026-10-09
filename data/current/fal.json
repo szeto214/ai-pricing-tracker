@@ -6,9 +6,9 @@
   "url": "https://fal.ai/pricing",
   "final_url": "https://fal.ai/pricing",
   "parser_version": 4,
-  "content_hash": "0a6cf71a8d4809dd49e523dc724e8ea4b3a83f0d98d64cd6220ccd9e07e0f255",
-  "raw_hash": "5069d78d7ef674c99abc00bb758293da390a23b352904705db5a96f24a5c1c6b",
-  "text_bytes": 5368,
+  "content_hash": "85f7ab859ae199177c5614bfea027032b703c9de825d51faea4b444b7e1be0f4",
+  "raw_hash": "baf1becdef66785ac22544e113c3eef1919c0adbd5347e14e2b1057f97084f42",
+  "text_bytes": 5377,
   "currency_hints": [],
   "extractor": "jsonld",
   "confidence": "medium",
@@ -307,12 +307,12 @@
       "unit": ""
     },
     {
-      "key": "nano banana 2 fal-ai/nano-banana-2",
-      "model": "Nano Banana 2 fal-ai/nano-banana-2",
+      "key": "flux 3 image blackforestlabs/flux-3/edit-image",
+      "model": "Flux 3 Image blackforestlabs/flux-3/edit-image",
       "prices": {
         "price": {
-          "raw": "$0.08",
-          "amount": 0.08
+          "raw": "$0.024",
+          "amount": 0.024
         }
       },
       "currency": "USD",
@@ -337,6 +337,18 @@
         "price": {
           "raw": "$1",
           "amount": 1.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "nano banana 2 fal-ai/nano-banana-2",
+      "model": "Nano Banana 2 fal-ai/nano-banana-2",
+      "prices": {
+        "price": {
+          "raw": "$0.08",
+          "amount": 0.08
         }
       },
       "currency": "USD",
@@ -397,18 +409,6 @@
         "price": {
           "raw": "$0.005",
           "amount": 0.005
-        }
-      },
-      "currency": "USD",
-      "unit": ""
-    },
-    {
-      "key": "flux.1 [schnell] fal-ai/flux/schnell",
-      "model": "FLUX.1 [schnell] fal-ai/flux/schnell",
-      "prices": {
-        "price": {
-          "raw": "$0.003",
-          "amount": 0.003
         }
       },
       "currency": "USD",
@@ -790,10 +790,10 @@
           "12.5 images"
         ],
         [
-          "Nano Banana 2 fal-ai/nano-banana-2",
-          "images",
-          "$0.08",
-          "12.5 images"
+          "Flux 3 Image blackforestlabs/flux-3/edit-image",
+          "megapixels",
+          "$0.024",
+          "41.67 megapixels"
         ],
         [
           "GPT Image 2 API openai/gpt-image-2/edit",
@@ -806,6 +806,12 @@
           "units",
           "$1",
           "1 units"
+        ],
+        [
+          "Nano Banana 2 fal-ai/nano-banana-2",
+          "images",
+          "$0.08",
+          "12.5 images"
         ],
         [
           "Nano Banana Pro fal-ai/nano-banana-pro/edit",
@@ -836,12 +842,6 @@
           "megapixels",
           "$0.005",
           "200 megapixels"
-        ],
-        [
-          "FLUX.1 [schnell] fal-ai/flux/schnell",
-          "megapixels",
-          "$0.003",
-          "333.33 megapixels"
         ]
       ]
     },

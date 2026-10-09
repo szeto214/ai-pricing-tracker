@@ -916,6 +916,10 @@ Stripe
 and never touches our servers.
 Why was I charged $1 after adding a credit card?
 A $1 USD transaction is performed as a credit security check to ensure your card details are correct and authorized. The charge is refunded after the transaction completes.
+We are migrating infrastructure from another provider. Can Render provide professional services to handle the migration?
+Render does not offer full migration professional services. However, you can find a certified solution partner through our
+expert network
+.
 I have an infrequently asked question.
 Great! We're always around to help. You can email us any time at
 support@render.com

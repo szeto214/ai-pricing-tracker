@@ -7,7 +7,7 @@
   "final_url": "https://zilliz.com/pricing",
   "parser_version": 4,
   "content_hash": "4c3ce7c8a3f63dc9b756b5d6f2bb6f2d6fc2fad21e71bb4615b5700b6a26ee87",
-  "raw_hash": "36a32d73f0dad321856ab34cf1dbae1afb0dc7f59113808038126bc9f2cc830c",
+  "raw_hash": "2886bdc73dda48e5151d72753ee0a21cb667561c9b239e1b7bd12812cb144268",
   "text_bytes": 11072,
   "currency_hints": [],
   "extractor": "dom",

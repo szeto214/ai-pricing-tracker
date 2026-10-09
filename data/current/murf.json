@@ -6,9 +6,9 @@
   "url": "https://murf.ai/pricing",
   "final_url": "https://murf.ai/pricing",
   "parser_version": 4,
-  "content_hash": "9beecfa04bfe43f734d3ef047830b1018d9acf55266d4c8864d401724c43c85e",
-  "raw_hash": "cddc57cb9917aaee1fd935a656ac7d0b4f36dfce26cfe6cf92ba9590229d9011",
-  "text_bytes": 3912,
+  "content_hash": "0ebc77d1e01bdbd76e4138253f4584ec39619955729f67a336f28964401eeaff",
+  "raw_hash": "a2e9d0af00877e4697869abb0388dab3df618b3cca999e05f1faca0fdd9d75c5",
+  "text_bytes": 3925,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -69,7 +69,7 @@
       ]
     },
     {
-      "name": "API Endpoints Usage Cost",
+      "name": "Calculate your Requirement",
       "price_raw": "$0",
       "amount": 0.0,
       "currency": "USD",

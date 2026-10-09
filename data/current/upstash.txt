@@ -12,7 +12,6 @@ Redis
 Vector
 QStash
 Workflow
-Search
 Box
 Blob
 Free
@@ -66,6 +65,7 @@ Encryption at Rest
 SOC-2
 Prometheus
 Datadog
+Insights
 +$200/month per database
 Enterprise
 For businesses with advanced needs.
@@ -232,6 +232,7 @@ Private Link
 SAML Single Sign-On (SSO)
 HIPAA Compliance
 Observability
+Insights
 Grafana Integration
 Datadog Integration
 New Relic Integration
@@ -329,7 +330,7 @@ Bandwidth pricing depends on the cloud provider's traffic fees, so it may change
 Can I purchase Prod Pack for any plan?
 Yes. You can purchase Prod Pack for any plan except the Free tier. You can enable it from your Upstash dashboard database details page.
 What is included in Prod Pack?
-Prod Pack includes uptime SLA, SOC 2 Type 2 report, advanced monitoring with Prometheus, Grafana, and Datadog, multi-zone high availability, and encryption at rest.
+Prod Pack includes uptime SLA, SOC 2 Type 2 report, advanced monitoring with Prometheus, Grafana, and Datadog, Insights in the console, multi-zone high availability, and encryption at rest.
 Does enabling multi-zone high availability change my bill?
 Multi-zone high availability (part of Prod Pack) replicates write commands to the additional zones. Reads still hit a single replica, and command counts per write do not change, so it is only the extra write replication that adds bandwidth.
 On Fixed plans, commands are never metered, so multi-zone HA adds no command cost. The added write-replication traffic counts toward your plan's included bandwidth.

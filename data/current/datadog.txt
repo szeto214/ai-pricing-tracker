@@ -4167,6 +4167,9 @@ for additional details.
 What happens if I send an unexpectedly high volume of data?
 Committing to vCPU pricing model allows you to absorb spikes in volume.
 Even if you’re paying based on ingested volume, by committing to a monthly volume of data, you are not rate-limited based on a single day’s volume. Send as much data as you need on any given day without losing visibility. Assuming your average is lower on other days, your bill is unaffected. In those cases where you have a big month, not to worry! You maintain complete visibility and may be subject to overages only on the volumes that exceed your commitment.
+Is Sensitive Data Scanner included?
+Sensitive Data Scanner is available in the Datadog SaaS platform or via an on-premise integration with Observability Pipelines. When used with Observability Pipelines, the detection and redaction capability operates in your environment itself before routing telemetry to the desired destination such as Datadog, Splunk, or any other vendor. This on-premise integration is included in the regular price of Observability Pipelines with no limits on the volume of data scanned.
+Sensitive Data Scanner in the Datadog SaaS platform is a separate product and is billed separately.
 Are there other billing options?
 Annual and monthly plans are available. We can customize billing plans to meet your needs. For a detailed explanation of billing, please see our Billing FAQ.
 Do you have special offerings for partners?

@@ -6,9 +6,9 @@
   "url": "https://upstash.com/pricing",
   "final_url": "https://upstash.com/pricing/redis",
   "parser_version": 4,
-  "content_hash": "0a5a4ce98011ad43b71e782cbfc9aeb249676154c43b25b5b8c02c07c1b443ad",
-  "raw_hash": "6abed4f8bca58b72b4b2f5376a508d3b82abac847e3febaa68173ce8d5d0ac0a",
-  "text_bytes": 12074,
+  "content_hash": "d48891e49f75e992fcd545daa664e4acbc45ea560e8e3f73ac33d0d1ee478aaa",
+  "raw_hash": "550de927121d05059f17ab30d0cdff18e267f5ab6b711b8ce85105eb4f06d681",
+  "text_bytes": 12110,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -265,6 +265,13 @@
         ],
         [
           "Observability"
+        ],
+        [
+          "Insights",
+          "",
+          "",
+          "",
+          ""
         ],
         [
           "Grafana Integration",

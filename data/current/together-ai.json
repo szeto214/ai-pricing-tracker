@@ -6,9 +6,9 @@
   "url": "https://www.together.ai/pricing",
   "final_url": "https://www.together.ai/pricing",
   "parser_version": 4,
-  "content_hash": "f6704dfbfab9e18072512cad48b4432dd8e565f10713539925923e4bded092a7",
-  "raw_hash": "f535a19de9b1d55c4914b1a9ef3eedac5441fa35394f265c211679c40c84d483",
-  "text_bytes": 8768,
+  "content_hash": "1cd84aaaa293bc5f1edb9d1212ac164ef27b14f86a3dd708a98cdfbd43d4b368",
+  "raw_hash": "522337d32f8a95b4adec0da899f4fcdf30b2ac30266687f87d2f04379ff77f08",
+  "text_bytes": 8872,
   "currency_hints": [],
   "extractor": "jsonld",
   "confidence": "medium",
@@ -1079,9 +1079,9 @@
           "$1.20"
         ],
         [
-          "Kimi K3",
-          "$2.70 $0.27 (cached)",
-          "$13.50"
+          "Kimi K3 PROMO Promotion valid until 10/11/2026",
+          "$3.00 $2.70 $0.27 (cached)",
+          "$15.00 $13.50"
         ],
         [
           "Qwen3.8-2.4T-A95B",
@@ -1224,9 +1224,9 @@
           "$1.20"
         ],
         [
-          "Kimi K3 PROMO",
-          "$2.70",
-          "$13.50"
+          "Kimi K3 PROMO Promotion valid until October 11, 2026",
+          "$3.00 $2.70",
+          "$15.00 $13.50"
         ],
         [
           "Qwen3.8-2.4T-A95B",

@@ -6,9 +6,9 @@
   "url": "https://circleci.com/pricing/",
   "final_url": "https://circleci.com/pricing/",
   "parser_version": 4,
-  "content_hash": "c6dd83727d364989a6fd25157063c8b161f4818c5d11b794c1275bd17abe479c",
-  "raw_hash": "d0c5732bc7aba1ec19347d1e880f85c42c0e6c029501a56a60bc1af93d15dfb1",
-  "text_bytes": 14099,
+  "content_hash": "97d6aebc1bfc8cb0b5607757763440f2ca1bd8925f7a484d66742ed2f60d0f9d",
+  "raw_hash": "abcb2312fd162aa307d836903f91944d8dfba2ebcfb19011bdf8dceaca237a4a",
+  "text_bytes": 14447,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -228,7 +228,42 @@
       "caption": "",
       "rows": [
         [
-          "(Arm) Docker / Remote Docker",
+          "(Arm) Docker",
+          "Free",
+          "Performance",
+          "Scale"
+        ],
+        [
+          "Medium",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Large",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "X-large",
+          "—",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "2 X-large",
+          "—",
+          "—",
+          "Yes"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "(Arm) Docker (Gen 2) (Beta)",
           "Free",
           "Performance",
           "Scale"
@@ -345,7 +380,42 @@
       "caption": "",
       "rows": [
         [
-          "Arm VM (Linux)",
+          "Linux VM / (Arm) Remote Docker",
+          "Free",
+          "Performance",
+          "Scale"
+        ],
+        [
+          "Medium",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Large",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "X-large",
+          "—",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "2 X-large",
+          "—",
+          "—",
+          "Yes"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Linux VM / (Arm) Remote Docker (Gen 2) (Beta)",
           "Free",
           "Performance",
           "Scale"
@@ -422,7 +492,7 @@
         ],
         [
           "M4 Pro Medium",
-          "—",
+          "Yes",
           "Yes",
           "Yes"
         ],

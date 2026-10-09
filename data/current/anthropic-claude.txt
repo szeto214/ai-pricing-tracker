@@ -7,10 +7,8 @@ Rolling out to Pro and Max, with more plans to follow.
 Read what changed
 (opens in new tab)
 Individual
-Developer
 Team & Enterprise
 API
-Individual
 Free
 Try Claude
 $0
@@ -21,8 +19,8 @@ Search the web, create files, and run code
 Memory across conversations
 Connect your apps and tools
 Create Artifacts
+Claude Design, Slides, Docs
 Pro
-Claude Code included
 For everyday work
 $17
 Per month with annual subscription discount (
@@ -34,13 +32,13 @@ Try Claude
 Everything in Free, plus:
 More usage*
 Hand off and schedule tasks
-Claude Design, Slides, Docs
+Claude Dashboards (beta)
+Claude Code
 Claude Science
 Projects
 More Claude models
 Claude in Chrome and Microsoft 365
 Max
-Claude Code included
 For people who work with Claude all day
 From $100
 Per month
@@ -104,11 +102,31 @@ Yes
 Yes
 Yes
 Yes
-Claude Design, Slides, Docs
+Claude Design
+Yes
+Yes
+Yes
+Yes
+Claude Slides
+Yes
+Yes
+Yes
+Yes
+Claude Docs
+Yes
+Yes
+Yes
+Yes
+Claude Dashboards (beta)
 No
 Yes
 Yes
 Yes
+Claude Motion (beta)
+No
+No
+No
+No
 Ability to search the web
 Yes
 Yes
@@ -353,7 +371,7 @@ Plans and usage
 What do I get with Claude Pro?
 The
 Pro plan
-gives you everything in a Free plan with more usage and more of Claude's capabilities. That includes Claude Code, Claude Design, Slides, and Docs, along with projects to organize your chats and documents, access to more Claude models, and Claude for Microsoft 365. You can choose a monthly or annual subscription.
+gives you everything in a Free plan with more usage and more of Claude's capabilities. That includes Claude Code, along with projects to organize your chats and documents, access to more Claude models, and Claude for Microsoft 365. You can choose a monthly or annual subscription.
 How is Claude Max different from Pro?
 The
 Max plan

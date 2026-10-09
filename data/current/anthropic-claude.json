@@ -6,9 +6,9 @@
   "url": "https://www.anthropic.com/pricing",
   "final_url": "https://claude.com/pricing",
   "parser_version": 4,
-  "content_hash": "8e44137d937109566f86f9fccfb59a83c94f5c361dac7d4142114c6e1c60cd71",
-  "raw_hash": "2dfbb89468eb01c234be48b9e2fb6382beab43105bee4f805882744fd10254a0",
-  "text_bytes": 6348,
+  "content_hash": "41c65133a3fc0ec469bb64926d0f85cf5bf9325e970cefd8941b886e22e903b5",
+  "raw_hash": "afe73cd041da9807f599e6757179a4daac07c501e0228dc6fd8ae0f5cdb88d8d",
+  "text_bytes": 6407,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -31,7 +31,8 @@
       "features": [
         "More usage*",
         "Hand off and schedule tasks",
-        "Claude Design, Slides, Docs",
+        "Claude Dashboards (beta)",
+        "Claude Code",
         "Claude Science",
         "Projects",
         "More Claude models",
@@ -165,11 +166,39 @@
           "Yes"
         ],
         [
-          "Claude Design, Slides, Docs",
+          "Claude Design",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Claude Slides",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Claude Docs",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Claude Dashboards (beta)",
           "No",
           "Yes",
           "Yes",
           "Yes"
+        ],
+        [
+          "Claude Motion (beta)",
+          "No",
+          "No",
+          "No",
+          "No"
         ],
         [
           "Ability to search the web",

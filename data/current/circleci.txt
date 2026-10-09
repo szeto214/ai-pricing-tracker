@@ -397,8 +397,29 @@ Yes
 —
 —
 Yes
-(Arm) Docker / Remote Docker
-(Arm) Docker / Remote Docker
+(Arm) Docker
+(Arm) Docker
+Free
+Performance
+Scale
+Medium
+Yes
+Yes
+Yes
+Large
+Yes
+Yes
+Yes
+X-large
+—
+Yes
+Yes
+2 X-large
+—
+—
+Yes
+(Arm) Docker (Gen 2) (Beta)
+(Arm) Docker (Gen 2) (Beta)
 Free
 Performance
 Scale
@@ -468,8 +489,29 @@ Yes
 —
 —
 Yes
-Arm VM (Linux)
-Arm VM (Linux)
+Linux VM / (Arm) Remote Docker
+Linux VM / (Arm) Remote Docker
+Free
+Performance
+Scale
+Medium
+Yes
+Yes
+Yes
+Large
+Yes
+Yes
+Yes
+X-large
+—
+Yes
+Yes
+2 X-large
+—
+—
+Yes
+Linux VM / (Arm) Remote Docker (Gen 2) (Beta)
+Linux VM / (Arm) Remote Docker (Gen 2) (Beta)
 Free
 Performance
 Scale
@@ -511,13 +553,12 @@ Yes
 —
 Yes
 macOS VM
-—
 macOS VM
 Free
 Performance
 Scale
 M4 Pro Medium
-—
+Yes
 Yes
 Yes
 M4 Pro Large

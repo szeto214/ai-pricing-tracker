@@ -102,10 +102,10 @@ $1.00 / 1,000,000 tokens per hour (storage price) starting January 1, 2027.
 Grounding with Google Search
 *
 Not available
-5,000 free search requests per month (shared across all Gemini 3.x models), then $14 per 1,000 requests.
+5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests.
 Grounding with Google Maps
 Not available
-5,000 prompts per month (free, shared across Gemini 3), then $14 / 1,000 search queries
+5,000 requests per month (free, shared across all Gemini 3 and newer models), then $14 / 1,000 search queries.
 Used to improve our products
 Yes
 No
@@ -170,111 +170,11 @@ Grounding with Google Search
 *
 Not available
 **
-5,000 free search requests per month (shared across all Gemini 3.x models), then $14 per 1,000 requests.
+5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests.
 Grounding with Google Maps
 Not available
 **
-5,000 prompts per month (free, shared across Gemini 3), then $14 / 1,000 search queries
-Used to improve our products
-Yes
-No
-Gemini 3.7 Flash
-gemini-3.7-flash
-Try it in Google AI Studio
-Our high-speed, efficient Flash model built for everyday coding, agentic tool use, and reliable multi-step execution.
-Standard
-Free Tier
-Paid Tier, per 1M tokens in USD
-Input price
-Free of charge
-$0.75 through December 31, 2026.
-$1.50 starting January 1, 2027.
-Output price (including thinking tokens)
-Free of charge
-$3.75 through December 31, 2026.
-$7.50 starting January 1, 2027.
-Context caching price
-Free of charge
-$0.075 through December 31, 2026.
-$0.15 starting January 1, 2027.
-$0.50 / 1,000,000 tokens per hour (storage price) through December 31, 2026.
-$1.00 / 1,000,000 tokens per hour (storage price) starting January 1, 2027.
-Grounding with Google Search
-*
-Not available
-5,000 free search requests per month (shared across all Gemini 3.x models), then $14 per 1,000 requests.
-Grounding with Google Maps
-Not available
-5,000 prompts per month (free, shared across Gemini 3), then $14 / 1,000 search queries
-Used to improve our products
-Yes
-No
-Batch
-Free Tier
-Paid Tier, per 1M tokens in USD
-Input price
-Not available
-$0.375 through December 31, 2026.
-$0.75 starting January 1, 2027.
-Output price (including thinking tokens)
-Not available
-$1.875 through December 31, 2026.
-$3.75 starting January 1, 2027.
-Context caching price
-Not available
-$0.0375 through December 31, 2026.
-$0.075 starting January 1, 2027.
-$0.50 / 1,000,000 tokens per hour (storage price) through December 31, 2026.
-$1.00 / 1,000,000 tokens per hour (storage price) starting January 1, 2027.
-Used to improve our products
-Yes
-No
-Flex
-Free Tier
-Paid Tier, per 1M tokens in USD
-Input price
-Not available
-$0.375 through December 31, 2026.
-$0.75 starting January 1, 2027.
-Output price (including thinking tokens)
-Not available
-$1.875 through December 31, 2026.
-$3.75 starting January 1, 2027.
-Context caching price
-Not available
-$0.0375 through December 31, 2026.
-$0.075 starting January 1, 2027.
-$0.50 / 1,000,000 tokens per hour (storage price) through December 31, 2026.
-$1.00 / 1,000,000 tokens per hour (storage price) starting January 1, 2027.
-Used to improve our products
-Yes
-No
-Priority
-Free Tier
-Paid Tier, per 1M tokens in USD
-Input price
-Free of charge
-$1.35 through December 31, 2026.
-$2.70 starting January 1, 2027.
-Output price (including thinking tokens)
-Free of charge
-$6.75 through December 31, 2026.
-$13.50 starting January 1, 2027.
-Context caching price
-Free of charge
-$0.135 through December 31, 2026.
-$0.27 starting January 1, 2027.
-$0.50 / 1,000,000 tokens per hour (storage price) through December 31, 2026.
-$1.00 / 1,000,000 tokens per hour (storage price) starting January 1, 2027.
-Grounding with Google Search
-*
-Not available
-**
-5,000 free search requests per month (shared across all Gemini 3.x models), then $14 per 1,000 requests.
-Grounding with Google Maps
-Not available
-**
-5,000 prompts per month (free, shared across Gemini 3), then $14 / 1,000 search queries
+5,000 requests per month (free, shared across all Gemini 3 and newer models), then $14 / 1,000 search queries.
 Used to improve our products
 Yes
 No
@@ -303,11 +203,11 @@ Grounding with Google Search
 *
 Not available
 **
-5,000 free search requests per month (shared across all Gemini 3.x models), then $14 per 1,000 requests.
+5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests.
 Grounding with Google Maps
 Not available
 **
-5,000 prompts per month (free, shared across Gemini 3), then $14 / 1,000 search queries
+5,000 requests per month (free, shared across all Gemini 3 and newer models), then $14 / 1,000 search queries.
 Used to improve our products
 Yes
 No
@@ -332,11 +232,11 @@ Grounding with Google Search
 *
 Not available
 **
-5,000 free search requests per month (shared across all Gemini 3.x models), then $14 per 1,000 requests.
+5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests.
 Grounding with Google Maps
 Not available
 **
-5,000 requests per month (free, shared across Gemini 3), then $14 / 1,000 search queries
+5,000 requests per month (free, shared across all Gemini 3 and newer models), then $14 / 1,000 search queries.
 Used to improve our products
 Yes
 No
@@ -361,11 +261,11 @@ Grounding with Google Search
 *
 Not available
 **
-5,000 free search requests per month (shared across all Gemini 3.x models), then $14 per 1,000 requests.
+5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests.
 Grounding with Google Maps
 Not available
 **
-5,000 requests per month (free, shared across Gemini 3), then $14 / 1,000 search queries
+5,000 requests per month (free, shared across all Gemini 3 and newer models), then $14 / 1,000 search queries.
 Used to improve our products
 Yes
 No
@@ -390,122 +290,11 @@ Grounding with Google Search
 *
 Not available
 **
-5,000 free search requests per month (shared across all Gemini 3.x models), then $14 per 1,000 requests.
+5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests.
 Grounding with Google Maps
 Not available
 **
-5,000 prompts per month (free, shared across Gemini 3), then $14 / 1,000 search queries
-Used to improve our products
-Yes
-No
-*
-A customer-submitted request to Gemini may result in one or more
-queries to Google Search. You will be charged for each individual search query
-performed.
-**
-Can be tested in Google AI Studio.
-Gemini 3.5 Flash
-gemini-3.5-flash
-Try it in Google AI Studio
-Our earlier Flash model, built for speed and foundational performance across
-routine, high-throughput workloads.
-Standard
-Free Tier
-Paid Tier, per 1M tokens in USD
-Input price
-Free of charge
-$1.50
-Output price (including thinking tokens)
-Free of charge
-$9.00
-Context caching price
-Free of charge
-$0.15
-$1.00 / 1,000,000 tokens per hour (storage price)
-Grounding with Google Search
-*
-Not available
-**
-5,000 free search requests per month (shared across all Gemini 3.x models), then $14 per 1,000 requests.
-Grounding with Google Maps
-Not available
-**
-5,000 prompts per month (free, shared across Gemini 3), then $14 / 1,000 search queries
-Used to improve our products
-Yes
-No
-Batch
-Free Tier
-Paid Tier, per 1M tokens in USD
-Input price
-Not available
-$0.75
-Output price (including thinking tokens)
-Not available
-$4.50
-Context caching price
-Not available
-$0.075
-$1.00 / 1,000,000 tokens per hour (storage price)
-Grounding with Google Search
-*
-Not available
-**
-5,000 free search requests per month (shared across all Gemini 3.x models), then $14 per 1,000 requests.
-Grounding with Google Maps
-Not available
-**
-5,000 requests per month (free, shared across Gemini 3), then $14 / 1,000 search queries
-Used to improve our products
-Yes
-No
-Flex
-Free Tier
-Paid Tier, per 1M tokens in USD
-Input price
-Not available
-$0.75
-Output price (including thinking tokens)
-Not available
-$4.50
-Context caching price
-Not available
-$0.08
-$1.00 / 1,000,000 tokens per hour (storage price)
-Grounding with Google Search
-*
-Not available
-**
-5,000 free search requests per month (shared across all Gemini 3.x models), then $14 per 1,000 requests.
-Grounding with Google Maps
-Not available
-**
-5,000 requests per month (free, shared across Gemini 3), then $14 / 1,000 search queries
-Used to improve our products
-Yes
-No
-Priority
-Free Tier
-Paid Tier, per 1M tokens in USD
-Input price
-Free of charge
-$2.70
-Output price (including thinking tokens)
-Free of charge
-$16.20
-Context caching price
-Free of charge
-$0.27
-$1.00 / 1,000,000 tokens per hour (storage price)
-Grounding with Google Search
-*
-Not available
-**
-5,000 free search requests per month (shared across all Gemini 3.x models), then $14 per 1,000 requests.
-Grounding with Google Maps
-Not available
-**
-5,000 prompts per month (free, shared across Gemini 3), then $14 / 1,000 search queries
+5,000 requests per month (free, shared across all Gemini 3 and newer models), then $14 / 1,000 search queries.
 Used to improve our products
 Yes
 No
@@ -539,7 +328,7 @@ $12.00 or $0.018/min (audio)
 Grounding with Google Search
 *
 Supported
-5,000 free search requests per month (shared across all Gemini 3.x models), then $14 per 1,000 requests.
+5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests.
 Used to improve our products
 Yes
 No
@@ -643,11 +432,11 @@ Grounding with Google Search
 *
 Not available
 **
-5,000 free search requests per month (shared across all Gemini 3.x models), then $14 per 1,000 requests.
+5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests.
 Grounding with Google Maps
 Not available
 **
-5,000 requests per month (free, shared across Gemini 3), then $14 / 1,000 search queries
+5,000 requests per month (free, shared across all Gemini 3 and newer models), then $14 / 1,000 search queries.
 Used to improve our products
 Yes
 No
@@ -668,11 +457,11 @@ Grounding with Google Search
 *
 Not available
 **
-5,000 free search requests per month (shared across all Gemini 3.x models), then $14 per 1,000 requests.
+5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests.
 Grounding with Google Maps
 Not available
 **
-5,000 prompts per month (free, shared across Gemini 3), then $14 / 1,000 search queries
+5,000 requests per month (free, shared across all Gemini 3 and newer models), then $14 / 1,000 search queries.
 Used to improve our products
 Yes
 No
@@ -693,11 +482,11 @@ Grounding with Google Search
 *
 Not available
 **
-5,000 free search requests per month (shared across all Gemini 3.x models), then $14 per 1,000 requests.
+5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests.
 Grounding with Google Maps
 Not available
 **
-5,000 prompts per month (free, shared across Gemini 3), then $14 / 1,000 search queries
+5,000 requests per month (free, shared across all Gemini 3 and newer models), then $14 / 1,000 search queries.
 Used to improve our products
 Yes
 No
@@ -718,11 +507,11 @@ Grounding with Google Search
 *
 Not available
 **
-5,000 free search requests per month (shared across all Gemini 3.x models), then $14 per 1,000 requests.
+5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests.
 Grounding with Google Maps
 Not available
 **
-5,000 prompts per month (free, shared across Gemini 3), then $14 / 1,000 search queries
+5,000 requests per month (free, shared across all Gemini 3 and newer models), then $14 / 1,000 search queries.
 Used to improve our products
 Yes
 No
@@ -758,11 +547,11 @@ Grounding with Google Search
 *
 Not available
 **
-5,000 free search requests per month (shared across all Gemini 3.x models), then $14 per 1,000 requests.
+5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests.
 Grounding with Google Maps
 Not available
 **
-5,000 prompts per month (free, shared across Gemini 3), then $14 / 1,000 search queries
+5,000 requests per month (free, shared across all Gemini 3 and newer models), then $14 / 1,000 search queries.
 Used to improve our products
 Yes
 No
@@ -785,11 +574,11 @@ Grounding with Google Search
 *
 Not available
 **
-5,000 free search requests per month (shared across all Gemini 3.x models), then $14 per 1,000 requests.
+5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests.
 Grounding with Google Maps
 Not available
 **
-5,000 prompts per month (free, shared across Gemini 3), then $14 / 1,000 search queries
+5,000 requests per month (free, shared across all Gemini 3 and newer models), then $14 / 1,000 search queries.
 Used to improve our products
 Yes
 No
@@ -812,11 +601,11 @@ Grounding with Google Search
 *
 Not available
 **
-5,000 free search requests per month (shared across all Gemini 3.x models), then $14 per 1,000 requests.
+5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests.
 Grounding with Google Maps
 Not available
 **
-5,000 prompts per month (free, shared across Gemini 3), then $14 / 1,000 search queries
+5,000 requests per month (free, shared across all Gemini 3 and newer models), then $14 / 1,000 search queries.
 Used to improve our products
 Yes
 No
@@ -839,11 +628,11 @@ Grounding with Google Search
 *
 Not available
 **
-5,000 free search requests per month (shared across all Gemini 3.x models), then $14 per 1,000 requests.
+5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests.
 Grounding with Google Maps
 Not available
 **
-5,000 prompts per month (free, shared across Gemini 3), then $14 / 1,000 search queries
+5,000 requests per month (free, shared across all Gemini 3 and newer models), then $14 / 1,000 search queries.
 Used to improve our products
 Yes
 No
@@ -923,11 +712,11 @@ Grounding with Google Search
 *
 Not available
 **
-5,000 free search requests per month (shared across all Gemini 3.x models), then $14 per 1,000 requests.
+5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests.
 Grounding with Google Maps
 Not available
 **
-5,000 prompts per month (free, shared across Gemini 3), then $14 / 1,000 search queries
+5,000 requests per month (free, shared across all Gemini 3 and newer models), then $14 / 1,000 search queries.
 Used to improve our products
 Yes
 No
@@ -952,11 +741,11 @@ Grounding with Google Search
 *
 Not available
 **
-5,000 free search requests per month (shared across all Gemini 3.x models), then $14 per 1,000 requests.
+5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests.
 Grounding with Google Maps
 Not available
 **
-5,000 requests per month (free, shared across Gemini 3), then $14 / 1,000 search queries
+5,000 requests per month (free, shared across all Gemini 3 and newer models), then $14 / 1,000 search queries.
 Used to improve our products
 Yes
 No
@@ -981,11 +770,11 @@ Grounding with Google Search
 *
 Not available
 **
-5,000 free search requests per month (shared across all Gemini 3.x models), then $14 per 1,000 requests.
+5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests.
 Grounding with Google Maps
 Not available
 **
-5,000 requests per month (free, shared across Gemini 3), then $14 / 1,000 search queries
+5,000 requests per month (free, shared across all Gemini 3 and newer models), then $14 / 1,000 search queries.
 Used to improve our products
 Yes
 No
@@ -1009,11 +798,11 @@ Grounding with Google Search
 *
 Not available
 **
-5,000 free search requests per month (shared across all Gemini 3.x models), then $14 per 1,000 requests.
+5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests.
 Grounding with Google Maps
 Not available
 **
-5,000 prompts per month (free, shared across Gemini 3), then $14 / 1,000 search queries
+5,000 requests per month (free, shared across all Gemini 3 and newer models), then $14 / 1,000 search queries.
 Used to improve our products
 Yes
 No
@@ -1052,7 +841,7 @@ and $0.113 per 4K image
 Grounding with Google Web and Image Search
 **
 Not available
-5,000 free search requests per month (shared across all Gemini 3.x models), then $14 per 1,000 requests for text and image-based grounding.
+5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests for text and image-based grounding.
 Used to improve our products
 Yes
 No
@@ -1120,7 +909,7 @@ Grounding with Google Web and Image Search
 **
 Not available
 ***
-5,000 free search requests per month (shared across all Gemini 3.x models), then $14 per 1,000 requests for text and image-based grounding.
+5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests for text and image-based grounding.
 Used to improve our products
 Yes
 No
@@ -1221,12 +1010,6 @@ through December 31, 2026.
 Equivalent to $0.0045 per 10s audio
 *
 starting January 1, 2027.
-Context caching price
-Free of charge
-$0.125 (input caching) through December 31, 2026.
-$0.25 (input caching) starting January 1, 2027.
-$0.50 / 1,000,000 tokens per hour (storage price) through December 31, 2026.
-$1.00 / 1,000,000 tokens per hour (storage price) starting January 1, 2027.
 Used to improve our products
 Yes
 No
@@ -1247,12 +1030,6 @@ through December 31, 2026.
 Equivalent to $0.00225 per 10s audio
 *
 starting January 1, 2027.
-Context caching price
-Not available
-$0.0625 (input caching) through December 31, 2026.
-$0.125 (input caching) starting January 1, 2027.
-$0.50 / 1,000,000 tokens per hour (storage price) through December 31, 2026.
-$1.00 / 1,000,000 tokens per hour (storage price) starting January 1, 2027.
 Used to improve our products
 Yes
 No
@@ -1273,12 +1050,6 @@ through December 31, 2026.
 Equivalent to $0.00225 per 10s audio
 *
 starting January 1, 2027.
-Context caching price
-Not available
-$0.025 (input caching) through December 31, 2026.
-$0.05 (input caching) starting January 1, 2027.
-$0.50 / 1,000,000 tokens per hour (storage price) through December 31, 2026.
-$1.00 / 1,000,000 tokens per hour (storage price) starting January 1, 2027.
 Used to improve our products
 Yes
 No
@@ -1299,12 +1070,6 @@ through December 31, 2026.
 Equivalent to $0.0081 per 10s audio
 *
 starting January 1, 2027.
-Context caching price
-Free of charge
-$0.225 (input caching) through December 31, 2026.
-$0.45 (input caching) starting January 1, 2027.
-$0.50 / 1,000,000 tokens per hour (storage price) through December 31, 2026.
-$1.00 / 1,000,000 tokens per hour (storage price) starting January 1, 2027.
 Used to improve our products
 Yes
 No
@@ -1331,12 +1096,6 @@ through December 31, 2026.
 Equivalent to $0.003 per 10s audio
 *
 starting January 1, 2027.
-Context caching price
-Free of charge
-$0.125 (input caching) through December 31, 2026.
-$0.25 (input caching) starting January 1, 2027.
-$0.50 / 1,000,000 tokens per hour (storage price) through December 31, 2026.
-$1.00 / 1,000,000 tokens per hour (storage price) starting January 1, 2027.
 Used to improve our products
 Yes
 No
@@ -1357,12 +1116,6 @@ through December 31, 2026.
 Equivalent to $0.0015 per 10s audio
 *
 starting January 1, 2027.
-Context caching price
-Not available
-$0.0625 (input caching) through December 31, 2026.
-$0.125 (input caching) starting January 1, 2027.
-$0.50 / 1,000,000 tokens per hour (storage price) through December 31, 2026.
-$1.00 / 1,000,000 tokens per hour (storage price) starting January 1, 2027.
 Used to improve our products
 Yes
 No
@@ -1383,12 +1136,6 @@ through December 31, 2026.
 Equivalent to $0.0015 per 10s audio
 *
 starting January 1, 2027.
-Context caching price
-Not available
-$0.025 (input caching) through December 31, 2026.
-$0.05 (input caching) starting January 1, 2027.
-$0.50 / 1,000,000 tokens per hour (storage price) through December 31, 2026.
-$1.00 / 1,000,000 tokens per hour (storage price) starting January 1, 2027.
 Used to improve our products
 Yes
 No
@@ -1409,12 +1156,6 @@ through December 31, 2026.
 Equivalent to $0.0054 per 10s audio
 *
 starting January 1, 2027.
-Context caching price
-Free of charge
-$0.225 (input caching) through December 31, 2026.
-$0.45 (input caching) starting January 1, 2027.
-$0.50 / 1,000,000 tokens per hour (storage price) through December 31, 2026.
-$1.00 / 1,000,000 tokens per hour (storage price) starting January 1, 2027.
 Used to improve our products
 Yes
 No
@@ -1474,11 +1215,11 @@ Grounding with Google Search
 *
 Not available
 **
-5,000 free search requests per month (shared across all Gemini 3.x models), then $14 per 1,000 requests.
+5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests.
 Grounding with Google Maps
 Not available
 **
-5,000 prompts per month (free, shared across Gemini 3), then $14 / 1,000 search queries
+5,000 requests per month (free, shared across all Gemini 3 and newer models), then $14 / 1,000 search queries.
 Used to improve our products
 Yes
 No
@@ -1502,11 +1243,11 @@ Grounding with Google Search
 *
 Not available
 **
-5,000 free search requests per month (shared across all Gemini 3.x models), then $14 per 1,000 requests.
+5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests.
 Grounding with Google Maps
 Not available
 **
-5,000 requests per month (free, shared across Gemini 3), then $14 / 1,000 search queries
+5,000 requests per month (free, shared across all Gemini 3 and newer models), then $14 / 1,000 search queries.
 Used to improve our products
 Yes
 No
@@ -1530,11 +1271,11 @@ Grounding with Google Search
 *
 Not available
 **
-5,000 free search requests per month (shared across all Gemini 3.x models), then $14 per 1,000 requests.
+5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests.
 Grounding with Google Maps
 Not available
 **
-5,000 requests per month (free, shared across Gemini 3), then $14 / 1,000 search queries
+5,000 requests per month (free, shared across all Gemini 3 and newer models), then $14 / 1,000 search queries.
 Used to improve our products
 Yes
 No
@@ -1557,11 +1298,11 @@ Grounding with Google Search
 *
 Not available
 **
-5,000 free search requests per month (shared across all Gemini 3.x models), then $14 per 1,000 requests.
+5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests.
 Grounding with Google Maps
 Not available
 **
-5,000 prompts per month (free, shared across Gemini 3), then $14 / 1,000 search queries
+5,000 requests per month (free, shared across all Gemini 3 and newer models), then $14 / 1,000 search queries.
 Used to improve our products
 Yes
 No
@@ -1600,7 +1341,7 @@ Grounding with Google Search
 ***
 Not available
 ****
-5,000 free search requests per month (shared across all Gemini 3.x models), then $14 per 1,000 requests.
+5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests.
 Used to improve our products
 Yes
 No
@@ -1654,7 +1395,7 @@ Grounding with Google Search
 ***
 Not available
 ****
-5,000 free search requests per month (shared across all Gemini 3.x models), then $14 per 1,000 requests.
+5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests.
 Used to improve our products
 Yes
 No
@@ -2246,7 +1987,7 @@ $0.50 / 1,000,000 tokens per hour (storage price) through December 31, 2026.
 $1.00 / 1,000,000 tokens per hour (storage price) starting January 1, 2027.
 Grounding with Google Search
 Not available
-5,000 free search requests per month (shared across all Gemini 3.x models), then $14 per 1,000 requests.
+5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests.
 Used to improve our products
 Yes
 No
@@ -2269,7 +2010,7 @@ $0.50 / 1,000,000 tokens per hour (storage price) through December 31, 2026.
 $1.00 / 1,000,000 tokens per hour (storage price) starting January 1, 2027.
 Grounding with Google Search
 Not available
-5,000 free search requests per month (shared across all Gemini 3.x models), then $14 per 1,000 requests.
+5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests.
 Used to improve our products
 Yes
 No
@@ -2293,7 +2034,7 @@ $5.00 through December 31, 2026.
 $10.00 starting January 1, 2027.
 Grounding with Google Search
 Not available
-5,000 free search requests per month (shared across all Gemini 3.x models), then $14 per 1,000 requests.
+5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests.
 Used to improve our products
 Yes
 No
@@ -2337,14 +2078,17 @@ Not available for Pro.
 Gemini 2.5 models:
 1,500 RPD free (limit shared for Flash and Flash-Lite).
 Then $35 / 1,000 grounded prompts
-Gemini 3 models:
-5,000 free search requests per month (shared across all Gemini models), then $14 per 1,000 requests.
+Gemini 3 and newer models:
+5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests.
 Google Maps
 500 RPD
 Not available for Pro.
+Gemini 2.5 models:
 1,500 RPD free (limit shared for Flash and Flash-Lite)
 10,000 RPD free for Pro.
 Then $25 / 1,000 grounded prompts
+Gemini 3 and newer models:
+5,000 requests per month (free, shared across all Gemini 3 and newer models), then $14 / 1,000 search queries.
 Code execution
 Free of charge
 Code execution is billed at the standard token rates for the selected model.
@@ -2440,4 +2184,4 @@ Apache 2.0 License
 . For details, see the
 Google Developers Site Policies
 . Java is a registered trademark of Oracle and/or its affiliates.
-Last updated 2026-10-07 UTC.
+Last updated 2026-10-09 UTC.

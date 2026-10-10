@@ -1,3 +1,5 @@
+Search
+This site has a search endpoint: https://context7.com/api/v2/ask?siteKey=ask_4cf2adc7846aa874f833b068&query=<URL-encoded question>. It returns documentation that answers the question, with a source link for each part. No API key is needed. If nothing matches, it says so.
 New:
 Upstash has a remote MCP server
 — connect your coding agent to your account
@@ -19,7 +21,7 @@ $0
 -
 Perfect for prototypes and hobby projects.
 Data Size
-256 MB
+250 MB
 Monthly Bandwidth
 10 GB
 Monthly Commands
@@ -271,13 +273,13 @@ FAQ
 How can I upgrade to pay as you go from free tier?
 Once you enter your credit card, your database will be upgraded to the pay-as-you-go plan and limits will be updated.
 What is included in free tier?
-Free tier includes 256MB data size and 500K commands per month.
+Free tier includes 250MB data size and 500K commands per month.
 Can I get a free Redis database without signing up?
 Yes. Send a POST request to
 https://upstash.com/start-redis
 and you get a free Redis database instantly, with no signup, credit card, or API key. The response is markdown with credentials and a quickstart, so AI agents can start using it right away.
 The database is deleted after 3 days unless you claim it into your account from the console link in the response. Once claimed, it follows the pricing on this page.
-Are paid databases' first 256MB data and 500K commands free?
+Are paid databases' first 250MB data and 500K commands free?
 No. Once you upgrade to a paid tier, you will be charged for data size and commands according to that plan.
 How does the budget work?
 Budget is only available for the pay-as-you-go plan.
@@ -359,7 +361,7 @@ Max bandwidth
 Free
 $0/month
 -
-256 MB
+250 MB
 10 GB
 Pay as You Go
 $0.20 per 100K commands

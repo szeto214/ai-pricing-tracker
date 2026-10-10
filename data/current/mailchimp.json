@@ -6,9 +6,9 @@
   "url": "https://mailchimp.com/pricing/",
   "final_url": "https://mailchimp.com/pricing/marketing/",
   "parser_version": 4,
-  "content_hash": "58eabc86255c12ede5355300a8ce97b60d44e3fbee11b737f32e83f4b9dd9ab7",
-  "raw_hash": "dfe648e3d2204f109e951055aff02b7452307f3896b42283bc23957814df4f63",
-  "text_bytes": 23521,
+  "content_hash": "d410616e24458ed575c67e72f84aba1d1fd3ee50cff939fd8076b6c80e30b0e6",
+  "raw_hash": "b9228858c392d1034bb85a5dac203654c767fd648a6cadd19978f41cb73aba2e",
+  "text_bytes": 23537,
   "currency_hints": [
     "AUD",
     "BRL",
@@ -114,8 +114,8 @@
         ],
         [
           "SMS Marketing",
-          "SMS add-on",
-          "SMS add-on",
+          "SMS and MMS add-on",
+          "SMS and MMS add-on",
           "SMS add-on",
           "Not included"
         ],

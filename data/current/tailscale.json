@@ -6,9 +6,9 @@
   "url": "https://tailscale.com/pricing",
   "final_url": "https://tailscale.com/pricing",
   "parser_version": 4,
-  "content_hash": "ea6d10a812fd04a23cc7b476e125d891251fee0edca105e1e1d671305b9a0999",
-  "raw_hash": "e528b279a76b318448015d3bc391f9adf92e07f5f0e45e8558f60090e45287c4",
-  "text_bytes": 27670,
+  "content_hash": "df25623befc16f1b6bc8740a48c60b8f2306cde911d6b525ba9bf978194b1c8f",
+  "raw_hash": "cc6dbddc489284c1eaf518125ffcc1a5c48589ac154cd2d4a9df0b048f704403",
+  "text_bytes": 27722,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -143,6 +143,13 @@
         ],
         [
           "Peer relays",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Custom tailnet subdomains",
           "",
           "",
           "",

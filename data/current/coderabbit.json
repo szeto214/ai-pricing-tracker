@@ -6,9 +6,9 @@
   "url": "https://www.coderabbit.ai/pricing",
   "final_url": "https://www.coderabbit.ai/pricing",
   "parser_version": 4,
-  "content_hash": "99c8e447f5893d7ab4099072b7403c5c43eca2851944b406b3b972cac9f7163d",
-  "raw_hash": "94767fd185ff3c53f3b7b303dc6c5081465c2266b6c2a57f4cb06f0b10490df2",
-  "text_bytes": 5194,
+  "content_hash": "6a8612d0d1f640aa37233eb847a5e854b149112cbd771087341319d27908c367",
+  "raw_hash": "9ccf2f51bfdb11cf90275ab9fd9b00d5dfc3308efe85d3a64b0fffdb77a9f8ff",
+  "text_bytes": 15459,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -18,8 +18,16 @@
       "price_raw": "$24",
       "amount": 24.0,
       "currency": "USD",
-      "period": "month",
-      "features": [],
+      "period": "user",
+      "features": [
+        "Agentic code reviews in PR, CLI, IDE, and in agent loops",
+        "Agent learns from your feedback",
+        "Chat with CodeRabbit agent",
+        "Pre-merge checks",
+        "Slop detection",
+        "1-click fixes",
+        "CodeRabbit explains and documents every change in detail"
+      ],
       "slot_prices": [
         24.0
       ]
@@ -29,8 +37,21 @@
       "price_raw": "$48",
       "amount": 48.0,
       "currency": "USD",
-      "period": "month",
-      "features": [],
+      "period": "user",
+      "features": [
+        "Agentic code reviews in PR, CLI, IDE, and in agent loops",
+        "Agent learns from your feedback",
+        "Chat with CodeRabbit agent",
+        "Pre-merge checks",
+        "Slop detection",
+        "1-click fixes",
+        "Automated test generation",
+        "Finishing touches",
+        "Post-merge actions",
+        "Prioritized PR queue",
+        "Review guidance: risk, effort, stale PR",
+        "CodeRabbit explains and documents every change in detail"
+      ],
       "slot_prices": [
         48.0
       ]
@@ -40,26 +61,28 @@
       "price_raw": "$72",
       "amount": 72.0,
       "currency": "USD",
-      "period": "month",
-      "features": [],
-      "slot_prices": [
-        72.0
-      ]
-    },
-    {
-      "name": "CodeRabbit Agent",
-      "price_raw": "$0.40",
-      "amount": 0.4,
-      "currency": "USD",
-      "period": null,
+      "period": "user",
       "features": [
-        "$0.40 per agent minute",
-        "Trial and free minutes are used before paid usage",
-        "Paid access for everyone in your organization when enabled",
-        "Set a monthly spending cap"
+        "Agentic code reviews in PR, CLI, IDE, and in agent loops",
+        "Agent learns from your feedback",
+        "Chat with CodeRabbit agent",
+        "Pre-merge checks",
+        "Slop detection",
+        "1-click fixes",
+        "Automated test generation",
+        "Finishing touches",
+        "Post-merge actions",
+        "Prioritized PR queue",
+        "Review guidance: risk, effort, stale PR",
+        "Security-informed prioritization",
+        "CodeRabbit explains and documents every change in detail",
+        "Blast Radius Audit with affected components and dependencies",
+        "Architecture impact review shows systemic consequences of PRs",
+        "Continuous security monitoring of every repo and PR with severity, exploitability, and reachability",
+        "Attack-surface visibility"
       ],
       "slot_prices": [
-        0.4
+        72.0
       ]
     }
   ],
@@ -69,151 +92,331 @@
       "caption": "",
       "rows": [
         [
-          "",
+          "CodeRabbit Review Challenges every change before the merge, ensuring only the best code lands in your codebase.",
           "Essentials",
           "Team",
           "Advanced",
           "Enterprise"
         ],
         [
-          "Agentic AI reviews on PRs & CLI",
+          "AI Code Review before the PR in CLI, IDE, and coding-agent loops",
           "Included",
           "Included",
           "Included",
           "Included"
         ],
         [
-          "1-click fixes",
+          "AI Code Review at the PR Plain language summary & walkthrough with described changes, diagrams, and related/linked issues",
           "Included",
           "Included",
           "Included",
           "Included"
         ],
         [
-          "Learnings",
+          "CodeRabbit Chat ask questions, understand recommendations, and provide feedback to improve future performance",
           "Included",
           "Included",
           "Included",
           "Included"
         ],
         [
-          "Loops with coding agents",
+          "Learnings Context captured from prior PRs, issues, and guidelines. Viewable/editable by you, applied by CodeRabbit in all activities",
           "Included",
           "Included",
           "Included",
           "Included"
         ],
         [
-          "MCP connections",
-          "5",
-          "10",
-          "15",
-          "20"
+          "Autofix One-click code changes for unresolved findings",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
         ],
         [
-          "Multi-repo analysis",
+          "Slop Detection Flag low-quality AI-generated PRs",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Pre-Merge Checks Enforce quality gates and your custom requirements before pull requests are merged",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Unit Tests Generate comprehensive tests automatically for PRs, including edge cases and error conditions",
+          "Not included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Finishing Touches Resolve conflicts, simplify code, and generate docstrings with a single click",
+          "Not included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Post-Merge Actions Run automated follow-up work, including changelog updates, tickets, and notifications",
+          "Not included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Linked Repositories How many repos CodeRabbit works across",
           "1",
           "5",
           "10",
           "20"
         ],
         [
-          "Built-in pre-merge checks",
-          "Included",
-          "Included",
-          "Included",
-          "Included"
+          "Review Velocity Included PR reviews per developer each hour (additional reviews available on consumption with the ability to cap budgets)",
+          "5",
+          "8",
+          "10",
+          "12"
         ],
         [
-          "Agentic chat",
-          "Included",
-          "Included",
-          "Included",
-          "Included"
+          "CodeRabbit AI Engineer Trigger the CodeRabbit cloud-based coding agent to execute changes, refactoring, or custom final touches without leaving the PR",
+          "On-demand",
+          "On-demand",
+          "On-demand",
+          "On-demand"
         ],
         [
-          "Linters and SAST tools support",
-          "Included",
-          "Included",
-          "Included",
-          "Included"
+          "CodeRabbit Triage Ranks your PR queue by value, impact, and risk, so you spend your time on the right work and ship fast."
         ],
         [
-          "Jira and Linear integrations",
-          "Included",
-          "Included",
-          "Included",
-          "Included"
-        ],
-        [
-          "Triage : Opens in a new tab",
+          "Prioritized PR Queue Cross-repository queue of open PRs, organized by value, urgency, and next required action with custom filters and saved views",
           "Not included",
           "Included",
           "Included",
           "Included"
         ],
         [
-          "Custom pre-merge checks : Opens in a new tab",
+          "Review Guidance identifies risk, effort, impact, and candidates to be closed",
+          "Not included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Actions Review, repair, reassign, merge, close, and follow a pull request from the Triage queue",
+          "Not included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Triage in Slack Get your queue as a scheduled digest, send reviewer requests to others, and approve or close a PR in Slack",
+          "Not included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Security Risk Security-informed prioritization of PRs",
+          "Not included",
+          "Not included",
+          "Included",
+          "Included"
+        ],
+        [
+          "CodeRabbit Explain Makes every change understood in extensive detail so you can accurately judge code before it ships."
+        ],
+        [
+          "Change Stack Review workspace that turns a PR into a structured, navigable artifact you can read, question, and act on",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Semantic Diff Explains the actual structure of code changes, highlighting exact edits, code movement, and functional changes",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Findings Read what CodeRabbit found in a change, judge how ready it is to merge, and decide what to fix first",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "CodeRabbit Chat Ask questions about changes, files, or code",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Blast Radius : Opens in a new tab Identifies and maps the downstream reach and impact of a pull request beyond its directly modified lines of code",
+          "Not included",
+          "Not included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Architecture Impact Describes which system-level responsibilities and relationships have changed and how",
+          "Not included",
+          "Not included",
+          "Included",
+          "Included"
+        ],
+        [
+          "CodeRabbit AI Engineer Trigger the CodeRabbit cloud-based coding agent for further analysis or to execute changes for you.",
+          "On-demand",
+          "On-demand",
+          "On-demand",
+          "On-demand"
+        ],
+        [
+          "CodeRabbit Secure Analyzes every line of code and monitors every change, so you understand your risks for total code security."
+        ],
+        [
+          "Security Code Review Static analysis, secrets, dependency, and infrastructure checks",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Continuous Security Review with attack-surface visibility",
+          "Not included",
+          "Not included",
+          "Included",
+          "Included"
+        ],
+        [
+          "PR Security Review with status, severity, exploitability, and reachability context",
+          "Not included",
+          "Not included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Security Architecture Review Assesses the systemic and structural consequences of PRs, tracing changes across trust boundaries, sensitive operations, and downst",
+          "Not included",
+          "Not included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Security Blast Radius Map how a PR changes dependencies, downstream consumers, tests, and security-relevant paths",
+          "Not included",
+          "Not included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Deep Scan Find exploitable vulnerabilities and exposed secrets across committed source code and infrastructure configuration",
+          "On-demand",
+          "On-demand",
+          "On-demand",
+          "On-demand"
+        ],
+        [
+          "Enterprise Controls Tailor CodeRabbit to fit your organization's specific standards, expectations, and needs so that it performs like your best engineer."
+        ],
+        [
+          "Jira and Linear Integration",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Review usage and analytics",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Scheduled, customizable activity reports",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Usage controls and monthly spending caps",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "MCP connections to external tools and context",
+          "5",
+          "10",
+          "15",
+          "20"
+        ],
+        [
+          "Custom pre-merge checks per organization",
           "Not included",
           "10",
           "20",
           "20"
         ],
         [
-          "Finishing touches: unit tests, merge conflict resolution, simplify",
+          "Custom finishing recipes per repository",
           "Not included",
-          "Included",
-          "Included",
+          "10",
+          "20",
+          "20"
+        ],
+        [
+          "Multi-org administration and enforced workspace policies",
+          "Not included",
+          "Not included",
+          "Not included",
           "Included"
         ],
         [
-          "Post-merge actions",
+          "Custom roles and permissions, SSO, and audit logs",
           "Not included",
-          "Included",
-          "Included",
+          "Not included",
+          "Not included",
           "Included"
         ],
         [
-          "Rate limits: PR reviews per developer per hour",
-          "5*",
-          "8*",
-          "10*",
-          "12*"
-        ],
-        [
-          "Reviews beyond included limits : Opens in a new tab",
-          "Pay as you go†",
-          "Pay as you go†",
-          "Pay as you go†",
-          "Contact sales"
-        ],
-        [
-          "Blast radius : Opens in a new tab",
+          "API access, including review and MCP usage metrics",
           "Not included",
           "Not included",
-          "Included",
+          "Not included",
           "Included"
         ],
         [
-          "Architectural impact",
+          "Support SLA, dedicated customer success, & technical enablement",
           "Not included",
           "Not included",
-          "Included",
+          "Not included",
           "Included"
         ],
         [
-          "Continuous security monitoring",
+          "Custom deployment options, including self-hosting and company-selected SaaS regions",
           "Not included",
           "Not included",
-          "Included",
-          "Included"
+          "Not included",
+          "Available"
         ],
         [
-          "Security review of each PR",
+          "Custom purchasing options; including marketplaces, vendor security reviews, and negotiated contracts",
           "Not included",
           "Not included",
-          "Included",
-          "Included"
+          "Not included",
+          "Available"
         ]
       ]
     }

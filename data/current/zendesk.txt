@@ -701,7 +701,6 @@ Agent Productivity Dashboard
 Gives visibility into how agents are using AI tools to track adoption and optimize performance. It highlights engagement across features, surfaces what’s working, and helps identify opportunities to improve workflows and drive more consistent usage.
 —
 —
-Add-on
 Suggested first replies
 Suggested first replies use generative AI to suggest a first response for agents in tickets based on existing macros and help center articles. Using AI-generated suggestions to respond to tickets helps agents save time and increase productivity.
 —
@@ -712,19 +711,11 @@ Macros that apply to the ticket you are currently working on based off of histor
 —
 —
 Add-on
-Merging suggestions
-Merging suggestions is a feature available in the Intelligence section of a ticket’s context panel. Based on the ticket an agent is viewing, the panel displays tickets submitted by the same requester two weeks before and after the current ticket was created.
-—
-—
-Add-on
-Similar tickets
-See a list of similar tickets in the Agent Workspace from either Related tickets in the context panel or the search bar.
-—
-—
-Add-on
-Copilot writing tools and ticket summaries
+Copilot writing tools, ticket summaries, merge suggestions, and similar tickets
 Writing tools let your agents expand or shorten replies or match the right tone every time with one click.
-Ticket summaries recap the public comments that have been added to a ticket so far, helping agents get up to speed and respond to customers faster.
+Ticket summaries provide a quick recap of public comments helping agents get up to speed and respond to customers faster.
+Merging suggestions displays tickets submitted by the same requester two weeks before and after the current ticket was created.
+Similar tickets display related tickets giving agents guidance on how they have been addressed in the past.
 Note: Copilot usage is pooled. Each agent receives 5 uses per month, shared across the team. For example, 10 agents = 50 total uses. Allowance is capped at 500 uses per instance per month, even if you have more than 100 agents.
 —
 —

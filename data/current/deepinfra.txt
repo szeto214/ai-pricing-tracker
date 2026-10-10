@@ -204,16 +204,6 @@ Qwen3-VL-235B-A22B-Instruct
 $0.20 / $0.11 cached
 $0.88
 View more
-Qwen3-Max-Thinking
-250k
-$1.20 / $0.24 cached
-$6.00
-View more
-Qwen3-Max
-250k
-$1.20 / $0.24 cached
-$6.00
-View more
 Qwen3-Next-80B-A3B-Instruct
 256k
 $0.09
@@ -303,16 +293,6 @@ Qwen3-VL-235B-A22B-Instruct
 256k
 $0.20 / $0.11 cached
 $0.88
-View more
-Qwen3-Max-Thinking
-250k
-$1.20 / $0.24 cached
-$6.00
-View more
-Qwen3-Max
-250k
-$1.20 / $0.24 cached
-$6.00
 View more
 Qwen3-Next-80B-A3B-Instruct
 256k
@@ -1058,21 +1038,21 @@ XiaomiMiMo
 /
 MiMo-V2.6-Pro
 Featured Models
-Qwen
-/
-Qwen3-Max
-Qwen
-/
-Qwen3-Max-Thinking
-nvidia
-/
-NVIDIA-Nemotron-3-Super-120B-A12B
-Qwen
-/
-Qwen3.5-397B-A17B
 black-forest-labs
 /
-FLUX-2-klein-4b
+FLUX-2-klein-9b
+nvidia
+/
+NVIDIA-Nemotron-3-Ultra-550B-A55B
+deepseek-ai
+/
+DeepSeek-V4-Flash
+moonshotai
+/
+Kimi-K3
+XiaomiMiMo
+/
+MiMo-V2.6-Pro
 © 2026 DeepInfra. All rights reserved.
 Privacy Policy
 Terms of Service

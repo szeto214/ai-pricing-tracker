@@ -6,9 +6,9 @@
   "url": "https://www.anthropic.com/pricing",
   "final_url": "https://claude.com/pricing",
   "parser_version": 4,
-  "content_hash": "41c65133a3fc0ec469bb64926d0f85cf5bf9325e970cefd8941b886e22e903b5",
-  "raw_hash": "afe73cd041da9807f599e6757179a4daac07c501e0228dc6fd8ae0f5cdb88d8d",
-  "text_bytes": 6407,
+  "content_hash": "b6bbf2a8cc8832a0a7b5015b42fd5774c319b2bf8e371cfe217b42701abf6d36",
+  "raw_hash": "65df72dbbf4f7bc4149e44f9fe4c93945e809e0844c47fd222af55b24fdd50b0",
+  "text_bytes": 6533,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -52,20 +52,12 @@
         "Choose 5x or 20x more usage than Pro*",
         "Higher output limits for all tasks",
         "Early access to advanced Claude features",
-        "Priority access at high traffic times"
+        "Priority access at high traffic times",
+        "$100 to $200/month in API credits to build on the Claude Platform †"
       ],
       "slot_prices": [
         100.0
       ]
-    },
-    {
-      "name": "Features and capabilities",
-      "price_raw": "Free",
-      "amount": 0.0,
-      "currency": null,
-      "period": null,
-      "features": [],
-      "slot_prices": []
     },
     {
       "name": "@Claude",
@@ -96,12 +88,25 @@
     },
     {
       "name": "Fable More information",
-      "price_raw": "Free",
-      "amount": 0.0,
-      "currency": null,
-      "period": null,
+      "price_raw": "$100",
+      "amount": 100.0,
+      "currency": "USD",
+      "period": "month",
       "features": [],
-      "slot_prices": []
+      "slot_prices": [
+        100.0
+      ]
+    },
+    {
+      "name": "New Monthly API credits †",
+      "price_raw": "$100",
+      "amount": 100.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [],
+      "slot_prices": [
+        100.0
+      ]
     }
   ],
   "models": [],
@@ -501,6 +506,13 @@
           "Yes",
           "Yes",
           "Yes"
+        ],
+        [
+          "New Monthly API credits †",
+          "No",
+          "No",
+          "$100/month",
+          "$200/month"
         ],
         [
           "Priority access at high traffic times",

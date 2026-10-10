@@ -7,7 +7,7 @@
   "final_url": "https://www.mongodb.com/pricing",
   "parser_version": 4,
   "content_hash": "b924c9cd58c546eabcfdbfd6e14449f6670183ee4c4b77c1b3b33cf5b4d61621",
-  "raw_hash": "8f024eba58126e45d766a674948a4fe2082a43e15f87c0f18c752f7dad10a89f",
+  "raw_hash": "4ef9c8fb44c194024a0751ed7068c5a9e1278ce38e9b604399a52907e8677fdb",
   "text_bytes": 23190,
   "currency_hints": [],
   "extractor": "jsonld",

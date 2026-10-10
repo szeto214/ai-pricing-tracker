@@ -7,7 +7,7 @@
   "final_url": "https://www.inngest.com/pricing",
   "parser_version": 4,
   "content_hash": "753cd45f04b39f8967da53a8b3daa4700c87bb7de07769a31ce12bcc6cd4e6b8",
-  "raw_hash": "445987e6ac7ecdb711bedd58cb83aedba0e3646d9d7318f1818096ccac3a322b",
+  "raw_hash": "2ebbee73888c8d83c5d4999182c2b7218514e1f4113afaf5ca099b0808a94433",
   "text_bytes": 11977,
   "currency_hints": [],
   "extractor": "dom",

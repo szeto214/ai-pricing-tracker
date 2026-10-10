@@ -6,9 +6,9 @@
   "url": "https://upstash.com/pricing",
   "final_url": "https://upstash.com/pricing/redis",
   "parser_version": 4,
-  "content_hash": "d48891e49f75e992fcd545daa664e4acbc45ea560e8e3f73ac33d0d1ee478aaa",
-  "raw_hash": "550de927121d05059f17ab30d0cdff18e267f5ab6b711b8ce85105eb4f06d681",
-  "text_bytes": 12110,
+  "content_hash": "44fbb13870a49b925fd073c454607bd832ecc746d7de6c46702b17e088432e2f",
+  "raw_hash": "329e11e77573169171c3781ea0887b861cc7577c966aa3c309742d5132c60fa1",
+  "text_bytes": 12389,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -379,7 +379,7 @@
           "Free",
           "$0/month",
           "-",
-          "256 MB",
+          "250 MB",
           "10 GB"
         ],
         [

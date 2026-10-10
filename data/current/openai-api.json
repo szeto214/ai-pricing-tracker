@@ -6,9 +6,9 @@
   "url": "https://platform.openai.com/docs/pricing",
   "final_url": "https://developers.openai.com/api/docs/pricing",
   "parser_version": 4,
-  "content_hash": "407b0fd8cca0b566446e50071f4d613c24ae7a39024a7c37268177b03ddfaa90",
-  "raw_hash": "3e2a04cd2bc1eee9ff8731e4018cb585fa77e0ca523423ddc257af60d815c11e",
-  "text_bytes": 6793,
+  "content_hash": "f5f12dd0f897107f6db5f7094dfc540f0421d26097318cfec0b5a0d1eff44ba2",
+  "raw_hash": "a012df47b5aa60ec5097bbba52e76aa1be8bd50464ce6c69419c7fe5f0d02849",
+  "text_bytes": 7095,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -89,6 +89,32 @@
         1.25,
         15.625,
         75.0
+      ]
+    },
+    {
+      "name": "gpt-rosalind-research",
+      "price_raw": "$5.00",
+      "amount": 5.0,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        5.0,
+        0.5,
+        25.0
+      ]
+    },
+    {
+      "name": "gpt-rosalind-discovery",
+      "price_raw": "$5.00",
+      "amount": 5.0,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        5.0,
+        0.5,
+        25.0
       ]
     },
     {
@@ -222,17 +248,6 @@
       "features": [],
       "slot_prices": [
         0.1
-      ]
-    },
-    {
-      "name": "Web search",
-      "price_raw": "$10.00",
-      "amount": 10.0,
-      "currency": "USD",
-      "period": "day",
-      "features": [],
-      "slot_prices": [
-        10.0
       ]
     }
   ],
@@ -416,6 +431,46 @@
         "output": {
           "raw": "$75.00",
           "amount": 75.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "gpt-rosalind-research",
+      "model": "gpt-rosalind-research",
+      "prices": {
+        "input": {
+          "raw": "$5.00",
+          "amount": 5.0
+        },
+        "cached input": {
+          "raw": "$0.50",
+          "amount": 0.5
+        },
+        "output": {
+          "raw": "$25.00",
+          "amount": 25.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "gpt-rosalind-discovery",
+      "model": "gpt-rosalind-discovery",
+      "prices": {
+        "input": {
+          "raw": "$5.00",
+          "amount": 5.0
+        },
+        "cached input": {
+          "raw": "$0.50",
+          "amount": 0.5
+        },
+        "output": {
+          "raw": "$25.00",
+          "amount": 25.0
         }
       },
       "currency": "USD",
@@ -730,66 +785,6 @@
       "unit": "/ 1k"
     },
     {
-      "key": "chatgpt|k5",
-      "model": "ChatGPT",
-      "prices": {
-        "kolom 3": {
-          "raw": "$5.00",
-          "amount": 5.0
-        },
-        "kolom 4": {
-          "raw": "$0.50",
-          "amount": 0.5
-        },
-        "kolom 5": {
-          "raw": "$30.00",
-          "amount": 30.0
-        }
-      },
-      "currency": "USD",
-      "unit": ""
-    },
-    {
-      "key": "codex|k5",
-      "model": "Codex",
-      "prices": {
-        "kolom 3": {
-          "raw": "$1.75",
-          "amount": 1.75
-        },
-        "kolom 4": {
-          "raw": "$0.175",
-          "amount": 0.175
-        },
-        "kolom 5": {
-          "raw": "$14.00",
-          "amount": 14.0
-        }
-      },
-      "currency": "USD",
-      "unit": ""
-    },
-    {
-      "key": "life sciences|k5",
-      "model": "Life Sciences",
-      "prices": {
-        "kolom 3": {
-          "raw": "$5.00",
-          "amount": 5.0
-        },
-        "kolom 4": {
-          "raw": "$0.50",
-          "amount": 0.5
-        },
-        "kolom 5": {
-          "raw": "$25.00",
-          "amount": 25.0
-        }
-      },
-      "currency": "USD",
-      "unit": ""
-    },
-    {
       "key": "o4-mini-2025-04-16",
       "model": "o4-mini-2025-04-16",
       "prices": {
@@ -933,6 +928,29 @@
           "-",
           "-",
           "-"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Model",
+          "Input",
+          "Cached input",
+          "Output"
+        ],
+        [
+          "gpt-rosalind-research",
+          "$5.00",
+          "$0.50",
+          "$25.00"
+        ],
+        [
+          "gpt-rosalind-discovery",
+          "$5.00",
+          "$0.50",
+          "$25.00"
         ]
       ]
     },
@@ -1160,13 +1178,6 @@
           "$1.75",
           "$0.175",
           "$14.00"
-        ],
-        [
-          "Life Sciences",
-          "gpt-rosalind-research",
-          "$5.00",
-          "$0.50",
-          "$25.00"
         ]
       ]
     },

@@ -6,9 +6,9 @@
   "url": "https://deepinfra.com/pricing",
   "final_url": "https://deepinfra.com/pricing",
   "parser_version": 4,
-  "content_hash": "62869422fb35281eb564cb2cc9445180b47990ef060337b1266b3ea6b3f9030e",
-  "raw_hash": "ae579f889eed4bcf1fb27e263441b7381a9d9f0e8894ae4353f034392daf5c42",
-  "text_bytes": 15543,
+  "content_hash": "638ea034f2741befb1a795e6256bfdc90b0ea6c51a7fa28a8af964966bb31998",
+  "raw_hash": "cc6e230a3f4d663fb7d48cbfa48ae7565d6b663b8856fa8b843a7915373bad11",
+  "text_bytes": 15329,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -433,38 +433,6 @@
         "$ per 1m output tokens": {
           "raw": "$0.88",
           "amount": 0.88
-        }
-      },
-      "currency": "USD",
-      "unit": "per 1m input tokens"
-    },
-    {
-      "key": "qwen3-max-thinking",
-      "model": "Qwen3-Max-Thinking",
-      "prices": {
-        "$ per 1m input tokens": {
-          "raw": "$1.20",
-          "amount": 1.2
-        },
-        "$ per 1m output tokens": {
-          "raw": "$6.00",
-          "amount": 6.0
-        }
-      },
-      "currency": "USD",
-      "unit": "per 1m input tokens"
-    },
-    {
-      "key": "qwen3-max",
-      "model": "Qwen3-Max",
-      "prices": {
-        "$ per 1m input tokens": {
-          "raw": "$1.20",
-          "amount": 1.2
-        },
-        "$ per 1m output tokens": {
-          "raw": "$6.00",
-          "amount": 6.0
         }
       },
       "currency": "USD",
@@ -1287,20 +1255,6 @@
           "View more"
         ],
         [
-          "Qwen3-Max-Thinking",
-          "250k",
-          "$1.20 / $0.24 cached",
-          "$6.00",
-          "View more"
-        ],
-        [
-          "Qwen3-Max",
-          "250k",
-          "$1.20 / $0.24 cached",
-          "$6.00",
-          "View more"
-        ],
-        [
           "Qwen3-Next-80B-A3B-Instruct",
           "256k",
           "$0.09",
@@ -1429,20 +1383,6 @@
           "256k",
           "$0.20 / $0.11 cached",
           "$0.88",
-          "View more"
-        ],
-        [
-          "Qwen3-Max-Thinking",
-          "250k",
-          "$1.20 / $0.24 cached",
-          "$6.00",
-          "View more"
-        ],
-        [
-          "Qwen3-Max",
-          "250k",
-          "$1.20 / $0.24 cached",
-          "$6.00",
           "View more"
         ],
         [

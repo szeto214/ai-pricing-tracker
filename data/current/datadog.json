@@ -7,7 +7,7 @@
   "final_url": "https://www.datadoghq.com/pricing/",
   "parser_version": 4,
   "content_hash": "21da1e2eaaf4124703222e18d819d0b27b53efa46dcf9383acda4b7f8b7c0d28",
-  "raw_hash": "ae96cad8ba0e20eaea87ef9f56b5f1d3501a4b4ca8001579be0c0a362fadf82e",
+  "raw_hash": "59802b4e7afae3693994bb4c5eae6c217333e47087f2f76c563c9cb91436160b",
   "text_bytes": 233842,
   "currency_hints": [],
   "extractor": "dom",

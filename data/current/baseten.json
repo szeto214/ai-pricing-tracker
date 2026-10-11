@@ -6,9 +6,9 @@
   "url": "https://www.baseten.co/pricing/",
   "final_url": "https://www.baseten.co/pricing/",
   "parser_version": 4,
-  "content_hash": "9ca581f5ecf9d69ad44895af4dcccd12c2567057da9de13968321309da136504",
-  "raw_hash": "99343c57d5271035461e3af5b7781f4aed569bf4596a4d98455194d375fefd50",
-  "text_bytes": 5725,
+  "content_hash": "721d0e7f3ff75a0ea79859deeb6a5f0f82dcccdf59cd296da038791fca4bd9eb",
+  "raw_hash": "529adbc60becc7c9559b3d029c069565a1901ad4b9da0fd25528339147b3ff5d",
+  "text_bytes": 5845,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -87,6 +87,19 @@
         2.1,
         0.21,
         6.6
+      ]
+    },
+    {
+      "name": "DeepSeek V4.1 Flash Fast",
+      "price_raw": "$0.60",
+      "amount": 0.6,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        0.6,
+        0.014,
+        2.4
       ]
     },
     {
@@ -241,17 +254,6 @@
       "features": [],
       "slot_prices": [
         0.00346
-      ]
-    },
-    {
-      "name": "8x32",
-      "price_raw": "$0.00691",
-      "amount": 0.00691,
-      "currency": "USD",
-      "period": null,
-      "features": [],
-      "slot_prices": [
-        0.00691
       ]
     }
   ],

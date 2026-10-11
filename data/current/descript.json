@@ -7,7 +7,7 @@
   "final_url": "https://www.descript.com/pricing",
   "parser_version": 4,
   "content_hash": "3d5c5c7d3f51314718cbe4a89991ddea0b8e3c28dbc94aa6f8c07fd937ce1991",
-  "raw_hash": "6636585f46782a23e467050ce815fc7a9133b000ddc6281a8c04ac3733dc31c1",
+  "raw_hash": "ca9843e32d2cf54376160f1ca318c746a08a42d9828868fdeb5433e7bf2e1039",
   "text_bytes": 14573,
   "currency_hints": [],
   "extractor": "dom",

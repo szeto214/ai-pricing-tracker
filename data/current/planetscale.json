@@ -7,7 +7,7 @@
   "final_url": "https://planetscale.com/pricing",
   "parser_version": 4,
   "content_hash": "fd184667c2ae76581a111854fd4561534f76b5105c11ea99dad6949247a1a8bd",
-  "raw_hash": "3507610ae675267e2da9f28eeddf3115aac18b9927ebf7b43e72c5789f926898",
+  "raw_hash": "e4b8ac7acc965b3c2c4e32d551784d255198dee5efc8285f6a24e33bc1ea4708",
   "text_bytes": 5690,
   "currency_hints": [],
   "extractor": "dom",

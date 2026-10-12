@@ -10,7 +10,9 @@ Serverless & Compute Pricing
 Competitive pricing for custom deployments.
 Deploy your own app on our competitively priced GPU fleet, as low as
 $2.49/hr for H100
-.
+. It runs on the same
+inference platform
+as every Model API.
 Start Building
 Contact Sales
 GPU

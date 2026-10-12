@@ -7,7 +7,7 @@
   "final_url": "https://www.warp.dev/pricing",
   "parser_version": 4,
   "content_hash": "13ba9335c329a788d06e18eb217663d16752934cdfb751a5ee1c5936304748f2",
-  "raw_hash": "d42bec2bf3aa155d36a1cc05c195f8b26820b0bb3063de5db91048834387acfa",
+  "raw_hash": "8f8ed642d618661d4ce144396fb1174aec4b2ce31ea54108b5909576fab3d772",
   "text_bytes": 4229,
   "currency_hints": [],
   "extractor": "dom",

@@ -6,9 +6,9 @@
   "url": "https://retool.com/pricing",
   "final_url": "https://retool.com/pricing",
   "parser_version": 4,
-  "content_hash": "ccd32859eb69921adc95790253879ab4387a8e437d8a1f6f2ef4e45eef2c7479",
-  "raw_hash": "f054ef5ba7cee81aa5164587517e718bea725aabba5fce0e4c69e39bb09f7d46",
-  "text_bytes": 22821,
+  "content_hash": "970aad03657380a3c3de94e8dc867a1bf0a93c282abed44be68162e3265173f5",
+  "raw_hash": "4a89c15ea746b76c71051c4baec9842e89cfb884a1e935bc33d17a2cb87f798a",
+  "text_bytes": 22421,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -86,7 +86,7 @@
           "10,000 AI credits/month 10,000 credits shared across your account for app building and AI Actions. Renews monthly, doesn't roll over. Bring your own API key to "
         ],
         [
-          "Internal user Employees in your organization who use apps for daily work. Includes full SSO and permission (RBAC) controls. Employees in your organization who u",
+          "Internal user Employees in your organization who use apps for daily work. Employees in your organization who use apps for daily work.",
           "Free",
           "$5/month",
           "$15/month",
@@ -649,7 +649,7 @@
           "10,000 AI credits/month 10,000 credits shared across your account for app building and AI Actions. Renews monthly, doesn't roll over. Bring your own API key to "
         ],
         [
-          "Internal user Employees in your organization who use apps for daily work. Includes full SSO and permission (RBAC) controls. Employees in your organization who u",
+          "Internal user Employees in your organization who use apps for daily work. Employees in your organization who use apps for daily work.",
           "Free",
           "$5/month",
           "$15/month",

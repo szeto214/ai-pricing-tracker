@@ -6,17 +6,17 @@
   "url": "https://cursor.com/pricing",
   "final_url": "https://cursor.com/pricing",
   "parser_version": 4,
-  "content_hash": "38aa27f4b8e482bb36b8af0eace54f844a86ab2b806cf9fa1eaeb38c3ce13eaf",
-  "raw_hash": "756aadfe4d3e9ab9a3f5ecbb4c00177d93ab479a3225d5b478165892c3484cfc",
-  "text_bytes": 3265,
+  "content_hash": "471c6df92571d1b5b575681ff3b0b4f7fec773661d0a645c07fc51a63e7366f5",
+  "raw_hash": "46382ca1922e27fe7818c9c86b1a2569e55bd0107089cec5c178e3723a0ae952",
+  "text_bytes": 6974,
   "currency_hints": [],
   "extractor": "jsonld",
   "confidence": "medium",
   "plans": [
     {
       "name": "Teams",
-      "price_raw": "40",
-      "amount": 40.0,
+      "price_raw": "30",
+      "amount": 30.0,
       "currency": "USD",
       "period": null,
       "features": [],
@@ -32,27 +32,27 @@
       "slot_prices": []
     },
     {
-      "name": "Pro+",
-      "price_raw": "60",
-      "amount": 60.0,
+      "name": "Super",
+      "price_raw": "100",
+      "amount": 100.0,
       "currency": "USD",
       "period": null,
       "features": [],
       "slot_prices": []
     },
     {
-      "name": "Pro",
-      "price_raw": "20",
-      "amount": 20.0,
+      "name": "Premium",
+      "price_raw": "30",
+      "amount": 30.0,
       "currency": "USD",
       "period": null,
       "features": [],
       "slot_prices": []
     },
     {
-      "name": "Hobby",
-      "price_raw": "0",
-      "amount": 0.0,
+      "name": "Plus",
+      "price_raw": "8",
+      "amount": 8.0,
       "currency": "USD",
       "period": null,
       "features": [],
@@ -60,6 +60,527 @@
     }
   ],
   "models": [],
-  "tables": [],
+  "tables": [
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Feature",
+          "Free $0 /month Get started",
+          "Plus $8 /month Get Plus",
+          "Premium $30 /month Get Premium",
+          "Super $100 /month Get Super",
+          "Ultra $200 /month Get Ultra",
+          "Teams $30 +/user/month Get Teams",
+          "Enterprise Custom Contact Sales"
+        ],
+        [
+          "Usage",
+          "Limited",
+          "Basic",
+          "4x Plus",
+          "15x Plus",
+          "50x Plus",
+          "4-50x Plus",
+          "Pooled"
+        ],
+        [
+          "Cursor"
+        ],
+        [
+          "Agent",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "✓"
+        ],
+        [
+          "Cloud agents & automations",
+          "—",
+          "—",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "✓"
+        ],
+        [
+          "Code hosting via Origin",
+          "—",
+          "—",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "✓"
+        ],
+        [
+          "AI code reviews via Bugbot",
+          "—",
+          "—",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "✓"
+        ],
+        [
+          "Third-party models at API list price",
+          "—",
+          "—",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "✓"
+        ],
+        [
+          "Team marketplace for internal rules, skills, and plugins",
+          "—",
+          "—",
+          "—",
+          "—",
+          "—",
+          "✓",
+          "✓"
+        ],
+        [
+          "Grok"
+        ],
+        [
+          "Chat",
+          "Limited",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "✓"
+        ],
+        [
+          "Image generation (Imagine)",
+          "Limited",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "✓"
+        ],
+        [
+          "Video generation",
+          "—",
+          "—",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "✓"
+        ],
+        [
+          "Grok API",
+          "—",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "✓"
+        ],
+        [
+          "Grok Build",
+          "Limited",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "✓"
+        ],
+        [
+          "Grok Bot",
+          "—",
+          "—",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "✓"
+        ],
+        [
+          "Team management"
+        ],
+        [
+          "Centralized billing and administration",
+          "—",
+          "—",
+          "—",
+          "—",
+          "—",
+          "✓",
+          "✓"
+        ],
+        [
+          "Usage analytics",
+          "—",
+          "—",
+          "—",
+          "—",
+          "—",
+          "✓",
+          "✓"
+        ],
+        [
+          "Team-wide privacy settings",
+          "—",
+          "—",
+          "—",
+          "—",
+          "—",
+          "✓",
+          "✓"
+        ],
+        [
+          "Custom Chat data retention",
+          "—",
+          "—",
+          "—",
+          "—",
+          "—",
+          "✓",
+          "✓"
+        ],
+        [
+          "SAML/OIDC SSO",
+          "—",
+          "—",
+          "—",
+          "—",
+          "—",
+          "✓",
+          "✓"
+        ],
+        [
+          "Mix and match seat types",
+          "—",
+          "—",
+          "—",
+          "—",
+          "—",
+          "✓",
+          "✓"
+        ],
+        [
+          "Invoice/PO billing",
+          "—",
+          "—",
+          "—",
+          "—",
+          "—",
+          "—",
+          "✓"
+        ],
+        [
+          "SCIM seat management",
+          "—",
+          "—",
+          "—",
+          "—",
+          "—",
+          "—",
+          "✓"
+        ],
+        [
+          "Granular spend controls",
+          "—",
+          "—",
+          "—",
+          "—",
+          "—",
+          "—",
+          "✓"
+        ],
+        [
+          "Group-level settings and spend limits",
+          "—",
+          "—",
+          "—",
+          "—",
+          "—",
+          "—",
+          "✓"
+        ],
+        [
+          "Auto-run, browser, and network controls",
+          "—",
+          "—",
+          "—",
+          "—",
+          "—",
+          "—",
+          "✓"
+        ],
+        [
+          "Repository, model, and MCP access controls",
+          "—",
+          "—",
+          "—",
+          "—",
+          "—",
+          "—",
+          "✓"
+        ],
+        [
+          "Audit logs and service accounts",
+          "—",
+          "—",
+          "—",
+          "—",
+          "—",
+          "—",
+          "✓"
+        ],
+        [
+          "Access, network, and audit controls for Grok Bot",
+          "—",
+          "—",
+          "—",
+          "—",
+          "—",
+          "—",
+          "✓"
+        ],
+        [
+          "Additional benefits"
+        ],
+        [
+          "Priority model access at peak times",
+          "—",
+          "—",
+          "—",
+          "✓",
+          "✓",
+          "✓",
+          "✓"
+        ],
+        [
+          "Earliest access to all products & models",
+          "—",
+          "—",
+          "—",
+          "—",
+          "✓",
+          "By seat tier",
+          "✓"
+        ],
+        [
+          "Priority support",
+          "—",
+          "—",
+          "—",
+          "—",
+          "—",
+          "—",
+          "✓"
+        ],
+        [
+          "X"
+        ],
+        [
+          "Post, reply, and follow",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "✓"
+        ],
+        [
+          "Premium checkmark",
+          "—",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "✓"
+        ],
+        [
+          "Ad-free scrolling",
+          "—",
+          "Some surfaces",
+          "Most surfaces",
+          "Most surfaces",
+          "Most surfaces",
+          "Most surfaces",
+          "Most surfaces"
+        ],
+        [
+          "Get paid to post",
+          "—",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "✓"
+        ],
+        [
+          "Edit posts",
+          "—",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "✓"
+        ],
+        [
+          "Customize your experience",
+          "—",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "✓"
+        ],
+        [
+          "Create longer posts",
+          "—",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "✓"
+        ],
+        [
+          "Write Articles",
+          "—",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "✓"
+        ],
+        [
+          "Media Studio",
+          "—",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "✓"
+        ],
+        [
+          "Advanced Analytics",
+          "—",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "✓"
+        ],
+        [
+          "Bookmark folders",
+          "—",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "✓"
+        ],
+        [
+          "Offline videos",
+          "—",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "✓"
+        ],
+        [
+          "Background video playback",
+          "—",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "✓"
+        ],
+        [
+          "Create communities",
+          "—",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "✓"
+        ],
+        [
+          "Download videos",
+          "—",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "✓"
+        ],
+        [
+          "Highlights tab",
+          "—",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "✓"
+        ],
+        [
+          "Creator Subscriptions",
+          "—",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "✓"
+        ],
+        [
+          "Reply boost",
+          "—",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "✓"
+        ],
+        [
+          "Radar Search",
+          "—",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "✓",
+          "✓"
+        ]
+      ]
+    }
+  ],
   "extract_errors": []
 }

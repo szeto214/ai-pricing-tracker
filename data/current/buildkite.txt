@@ -112,10 +112,12 @@ Custom
 Artifact storage
 50GB/month
 250GB/month
+Then $0.05/GB-month overage
 Custom
 Artifact downloads
 250GB/month
 2.5TB/month
+Then $0.10/GB overage
 Custom
 GitHub Enterprise support
 Connect to an on-premise GitHub Enterprise instance.
@@ -431,8 +433,10 @@ Artifact retention
 30 days
 Artifact storage
 250GB/month
+Then $0.05/GB-month overage
 Artifact downloads
 2.5TB/month
+Then $0.10/GB overage
 +
 −
 Tests

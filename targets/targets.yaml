@@ -579,7 +579,7 @@ targets:
 
   # ----- observability & keamanan -----
   - {slug: grafana,      name: Grafana Cloud,     vendor: Grafana Labs, category: observability, url: "https://grafana.com/pricing/"}
-  - {slug: newrelic,     name: New Relic,         vendor: New Relic,    category: observability, url: "https://newrelic.com/pricing", render: js, notes: "08/09: halaman berubah jadi cangkang yang dirender JavaScript — teks tersisa 49 byte (judul saja), dari sebelumnya 9 paket. Perubahan di sisi situsnya, bukan di sisi kita. Jalur yang sama sudah berhasil untuk jira, confluence, dan render."}
+  - {slug: newrelic,     name: New Relic,         vendor: New Relic,    category: observability, url: "https://newrelic.com/pricing", render: js, enabled: false, notes: "08/09: halaman berubah jadi cangkang yang dirender JavaScript — teks tersisa 49 byte (judul saja), dari sebelumnya 9 paket. render: js + jeda sudah dicoba sejak 10/09 dan TIDAK menolong: 14/10 diperiksa, 14 dari 14 hari terakhir tetap 49 byte, 0 paket, 0 model. Dinonaktifkan 14/10 supaya tidak mengambil halaman vendor setiap hari tanpa hasil (§9 etika no. 2). Slug DIPERTAHANKAN — aktifkan lagi kalau situsnya menyajikan harga tanpa JavaScript, atau kalau ditemukan halaman harga alternatif yang statis."}
   - {slug: honeycomb,    name: Honeycomb,         vendor: Honeycomb,    category: observability, url: "https://www.honeycomb.io/pricing"}
   - {slug: rollbar,      name: Rollbar,           vendor: Rollbar,      category: observability, url: "https://rollbar.com/pricing/"}
   - {slug: snyk,         name: Snyk,              vendor: Snyk,         category: observability, url: "https://snyk.io/plans/"}

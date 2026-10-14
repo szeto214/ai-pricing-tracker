@@ -6,13 +6,25 @@
   "url": "https://openrouter.ai/models",
   "final_url": "https://openrouter.ai/models",
   "parser_version": 4,
-  "content_hash": "2b3dc6f0e6cfa93d64c9e123726d0f12a68afdbff497f503b8ce59eabab48ca8",
-  "raw_hash": "1c2df74f1cf507b0dabd1857c4ce6ec9996919d33f99928fe21621e78d1901f4",
-  "text_bytes": 9337,
+  "content_hash": "cfc4d8a382276dbefd23310974bc0914a9933bdf5d077a146f3e62869a3652ff",
+  "raw_hash": "9d6c895e8bef0b607eeda7ebb20104fa7d9eb0d4ccc20024583a2d4a88ca135c",
+  "text_bytes": 9615,
   "currency_hints": [],
-  "extractor": "none",
-  "confidence": "none",
-  "plans": [],
+  "extractor": "dom",
+  "confidence": "low",
+  "plans": [
+    {
+      "name": "HeyGen: HeyGen Voice",
+      "price_raw": "$15",
+      "amount": 15.0,
+      "currency": "USD",
+      "period": "request",
+      "features": [],
+      "slot_prices": [
+        15.0
+      ]
+    }
+  ],
   "models": [],
   "tables": [],
   "extract_errors": []

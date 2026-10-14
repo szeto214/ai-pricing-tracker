@@ -6,9 +6,9 @@
   "url": "https://www.together.ai/pricing",
   "final_url": "https://www.together.ai/pricing",
   "parser_version": 4,
-  "content_hash": "f3b7495850d14687b85fe8e60029e5c2d2af0fb38a861aa17d727b2c166be1c6",
-  "raw_hash": "035068744527ae04fbd6ce55ab9af59c4be6c215818352104bbe20e91c4e9b7e",
-  "text_bytes": 8820,
+  "content_hash": "6399e0001d2a02f2a4b426e5bf0be9762b238a434e0d1aecca80a52d27e94461",
+  "raw_hash": "175335e51cb9d7339ab0e97ba2f2f284b68465f51f15ced1cf8a767a0f4bf2c5",
+  "text_bytes": 8868,
   "currency_hints": [],
   "extractor": "jsonld",
   "confidence": "medium",
@@ -1080,7 +1080,7 @@
         ],
         [
           "Kimi K3",
-          "$3.00 $0.27 (cached)",
+          "$3.00 $0.30 (cached)",
           "$15.00"
         ],
         [
@@ -1220,32 +1220,32 @@
       "rows": [
         [
           "MiniMax M3",
-          "$0.30",
+          "$0.30 $0.06 (cached)",
           "$1.20"
         ],
         [
-          "Kimi K3 PROMO Promotion valid until October 11, 2026",
-          "$3.00 $2.70",
-          "$15.00 $13.50"
+          "Kimi K3",
+          "$3.00 $0.30 (cached)",
+          "$15.00"
         ],
         [
           "Qwen3.8-2.4T-A95B",
-          "$2.00",
+          "$2.00 $0.25 (cached)",
           "$6.00"
         ],
         [
           "Muse Glimmer 30B",
-          "$0.35",
+          "$0.35 $0.04 (cached)",
           "$1.50"
         ],
         [
           "GLM-5.3-Flash",
-          "$0.15",
+          "$0.15 $0.03 (cached)",
           "$0.50"
         ],
         [
           "DeepSeek V4.1 Flash",
-          "$0.30",
+          "$0.30 $0.006 (cached)",
           "$1.20"
         ],
         [
@@ -1265,7 +1265,7 @@
         ],
         [
           "Inkling",
-          "$1.00",
+          "$1.00 $0.17 (cached)",
           "$4.05"
         ],
         [

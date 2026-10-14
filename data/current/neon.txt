@@ -153,10 +153,10 @@ or 1 GB of data changes
 Up to 60k MAUs
 5 GB included
 Compute
-10 active capacity-hours
-400 waiting capacity-hours
+10 active capacity-hours per project
+400 waiting capacity-hours per project
 Invocations
-1M invocations
+1M invocations per project
 5 GB per project included
 1 day
 Unlimited
@@ -354,7 +354,7 @@ Each is billed separately from Postgres compute (CU-hours).
 Object Storage
 is $0.023 per GB-month of stored volume. There's no per-operation charge. Egress counts toward your public network transfer allowance. The Free plan includes 5 GB of Object Storage per project.
 Functions
-are billed for active compute, waiting compute, and invocations at the rates in the plan table. The Free plan includes 10 active capacity-hours, 400 waiting capacity-hours, and 1 million invocations per month.
+are billed for active compute, waiting compute, and invocations at the rates in the plan table. The Free plan includes 10 active capacity-hours, 400 waiting capacity-hours, and 1 million invocations per project per month.
 AI Gateway
 is available on Launch and Scale. Pricing matches the model provider's list prices, with no markup, and draws down prepaid credits.
 Learn how prepaid credits work

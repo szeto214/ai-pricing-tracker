@@ -7,7 +7,7 @@
   "final_url": "https://www.heygen.com/pricing",
   "parser_version": 4,
   "content_hash": "ff55c4a27e6f3bb1cd528a0d79e8242ab852383eb607482a59870aeb6dd6c5d6",
-  "raw_hash": "fcba710fdf3224761f93de631957b674c623edbd5a672ed18a6fa66d67d8c77a",
+  "raw_hash": "c9f7147d784b40e8811d64b6d2f0d5e64115364be18b016c2e43744403590521",
   "text_bytes": 12883,
   "currency_hints": [],
   "extractor": "dom",

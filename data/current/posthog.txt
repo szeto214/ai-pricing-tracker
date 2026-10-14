@@ -26,7 +26,7 @@ Error tracking
 100K exceptions
 Surveys
 1500 responses
-Data warehouse
+Sources
 1M rows + FREE historical
 Data pipelines
 10K events + 1M rows
@@ -61,7 +61,7 @@ Error tracking
 100K exceptions
 Surveys
 1500 responses
-Data warehouse
+Sources
 1M rows + FREE historical
 Data pipelines
 10K events + 1M rows
@@ -249,7 +249,7 @@ for more information.
 What happens if I hit my billing limit?
 If you've set a billing limit and your usage hits it, any additional events are permanently dropped and feature flags will return a default quota limited response. PostHog will never charge you more than what you've set as your billing limit.
 How is usage calculated?
-Usage is calculated on a per-product level. Events for product and web analytics, recordings for session replay, requests for feature flags and experiments, exceptions for error tracking, responses for surveys, synced rows for data warehouse, messages for workflows, and GB ingested for logs.
+Usage is calculated on a per-product level. Events for product and web analytics, recordings for session replay, requests for feature flags and experiments, exceptions for error tracking, responses for surveys, synced rows for sources, messages for workflows, and GB ingested for logs.
 How can I manage my spend?
 You monitor your usage and set billing limits on the billing page in-app. This shows how much you've spent, projected spend, and a billable usage dashboard. Many products, like
 product analytics

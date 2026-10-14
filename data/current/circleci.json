@@ -6,9 +6,9 @@
   "url": "https://circleci.com/pricing/",
   "final_url": "https://circleci.com/pricing/",
   "parser_version": 4,
-  "content_hash": "97d6aebc1bfc8cb0b5607757763440f2ca1bd8925f7a484d66742ed2f60d0f9d",
-  "raw_hash": "9bd054bc5e6be3d4bc7a65fd6137b8c3a3f760797c17f391f3da9e1569492e61",
-  "text_bytes": 14447,
+  "content_hash": "10ccf17e51d44955df620d53413587e0e2d7066c1a32e262399a527b5c5f615e",
+  "raw_hash": "d1f2a4e1b50bf5f00313c459978825d993d8103df3d7317b3c8e00a181f594d4",
+  "text_bytes": 15393,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -606,6 +606,38 @@
           "5 tests",
           "Unlimited",
           "Unlimited"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Smarter Testing"
+        ],
+        [
+          "Intelligent test selection",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Dynamic test splitting",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Auto-rerun failed tests",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Test analytics",
+          "Yes",
+          "Yes",
+          "Yes"
         ]
       ]
     },

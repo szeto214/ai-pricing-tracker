@@ -6,8 +6,8 @@
   "url": "https://www.atlassian.com/software/jira/pricing",
   "final_url": "https://www.atlassian.com/software/jira/pricing",
   "parser_version": 4,
-  "content_hash": "a4c724f57c0a5fe2ad2f310248448b41cca8987822d4031816809bd61aa4c929",
-  "raw_hash": "8c126442b453054014b40129d1635275f7488003c95f0aa7517af267184156b5",
+  "content_hash": "477121114ddd6508d1d4998570e5afe47f777217d2b5cf41888a2e0d6248333e",
+  "raw_hash": "829903ca475c39d00122965672ba551d19eea9b91395ccb300ba2d63c98a5bf5",
   "text_bytes": 28058,
   "currency_hints": [],
   "extractor": "dom",
@@ -24,24 +24,24 @@
     },
     {
       "name": "Standard",
-      "price_raw": "$7.91",
-      "amount": 7.91,
+      "price_raw": "$8.48",
+      "amount": 8.48,
       "currency": "USD",
       "period": "user",
       "features": [],
       "slot_prices": [
-        7.91
+        8.48
       ]
     },
     {
       "name": "Premium",
-      "price_raw": "$14.54",
-      "amount": 14.54,
+      "price_raw": "$15.56",
+      "amount": 15.56,
       "currency": "USD",
       "period": "user",
       "features": [],
       "slot_prices": [
-        14.54
+        15.56
       ]
     },
     {

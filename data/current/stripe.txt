@@ -48,7 +48,7 @@ Crypto
 Wallet, stablecoin issuing, and card infrastructure
 Crypto Onramp
 Embeddable crypto purchases
-Platforms and marketplaces
+Embedded Finance
 Connect
 Payments for platforms
 Capital for platforms
@@ -187,7 +187,7 @@ Crypto
 Wallet, stablecoin issuing, and card infrastructure
 Crypto Onramp
 Embeddable crypto purchases
-Platforms and marketplaces
+Embedded Finance
 Connect
 Payments for platforms
 Capital for platforms
@@ -196,7 +196,11 @@ Treasury for platforms
 Embedded financial services
 Issuing
 Physical and virtual cards
+Not sure where to start?
+Get recommendations
+Tell us about your business
 See all products
+Explore our full product catalog
 More
 Product roadmap
 See what’s ahead
@@ -849,7 +853,7 @@ Flexible monthly plan—cancel anytime.
 Try for free for 30 days
 $15.00
 per month
-Subscription and cancellation
+Includes successful charges on Stripe and through third-party processors connected to any Stripe service. Subscription and cancellation
 terms apply
 .
 Annual subscription
@@ -858,35 +862,49 @@ Try for free for 30 days
 Starting at
 $10.00
 per month, 1-year contract
-Subscription and cancellation
+Includes successful charges on Stripe and through third-party processors connected to any Stripe service. Subscription and cancellation
 terms apply
 .
 Compare plans
 Data Pipeline
-Send Stripe data and reports directly to your data warehouse or cloud storage.
-Includes access to Stripe Sigma.
+Stream real-time Stripe data to Postgres, or sync Stripe data to your data warehouse or cloud storage.
 Start now
-Set up your pipeline in minutes, and automate data delivery—no code required.
-Speed up your financial close, and access more complete business insights.
-Get insights faster and fully customizable reporting with Stripe Sigma.
+Set up a pipeline with no code and automate data delivery.
+Sync real-time Stripe data without managing APIs or webhooks.
+Close the books faster and get richer insights on revenue and churn.
+Choose a plan
+Postgres database sync
+Power applications with real-time data. Stream Stripe API data, including payments, charges, subscriptions, and more.
+Pay as you go
+$0.0025
+per row synced
+A row synced is counted each time Stripe creates, updates, or deletes a row in your destination. Updating multiple fields in one row at once counts as one row synced.
+5,000 rows synced free per month
 Monthly subscription
-Flexible monthly plan—cancel anytime.
+Starting at
+$100.00
+per month, includes up to 50,000 rows synced
+A row synced is counted each time Stripe creates, updates, or deletes a row in your destination. Updating multiple fields in one row at once counts as one row synced. Subscription and cancellation
+terms apply
+.
+Data warehouse or cloud storage sync
+Get richer insights and faster reporting. Sync enriched datasets, prebuilt reports, and Stripe API data on a scheduled cadence to Snowflake, Google BigQuery, Databricks, and more. Includes Stripe Sigma.
 Try for free for 30 days
+Monthly subscription
+Starting at
 $65.00
-per month
-Subscription and cancellation
+per month, includes up to 1,000 charges
+Includes successful charges on Stripe and through third-party processors connected to any Stripe service. Subscription and cancellation
 terms apply
 .
 Annual subscription
-Save more with an annual plan, paid monthly.
-Try for free for 30 days
 Starting at
 $50.00
-per month, 1-year contract
-Subscription and cancellation
+per month, 1-year contract, includes up to 1,000 charges
+Includes successful charges on Stripe and through third-party processors connected to any Stripe service. Subscription and cancellation
 terms apply
 .
-Compare plans
+See pricing details
 Revenue Recognition
 Automated revenue reporting to streamline accrual accounting.
 Start now
@@ -899,7 +917,7 @@ Flexible monthly subscription–cancel anytime. Best for businesses with low or 
 Try for free for 30 days
 $25.00
 per month
-Subscription and cancellation
+Includes successful charges on Stripe and through third-party processors connected to any Stripe service. Subscription and cancellation
 terms apply
 .
 Annual subscription
@@ -908,7 +926,7 @@ Try for free for 30 days
 Starting at
 $190.00
 per month, 1-year contract
-Subscription and cancellation
+Includes successful charges on Stripe and through third-party processors connected to any Stripe service. Subscription and cancellation
 terms apply
 .
 Compare plans

@@ -6,8 +6,8 @@
   "url": "https://clickup.com/pricing",
   "final_url": "https://clickup.com/pricing",
   "parser_version": 4,
-  "content_hash": "c55bf2eb2f3b88a79be2ae3f36e6f3aef1a3c2317760d3311e0cefe6bebbfb65",
-  "raw_hash": "cedaebefadb64521dc6b4a33db77b5121c0df5c17bef582f9f4067a4e61ad36b",
+  "content_hash": "ad14a3b7cdb10b650edf1e386af371373e77ca687bcf24893661bf5d24899a8b",
+  "raw_hash": "5597656879ec619263175064d0ace5cc153cad15fec54b1a568ac2a17ef7d356",
   "text_bytes": 25487,
   "currency_hints": [],
   "extractor": "dom",
@@ -122,13 +122,13 @@
     },
     {
       "name": "Core",
-      "price_raw": "$ 8",
-      "amount": 8.0,
+      "price_raw": "$ 9",
+      "amount": 9.0,
       "currency": "USD",
       "period": "month",
       "features": [],
       "slot_prices": [
-        8.0
+        9.0
       ]
     },
     {

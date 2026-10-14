@@ -6,8 +6,8 @@
   "url": "https://www.atlassian.com/software/confluence/pricing",
   "final_url": "https://www.atlassian.com/software/confluence/pricing",
   "parser_version": 4,
-  "content_hash": "02d479b32d43d203c234174e18ff0f43362e39264cf3144317d564712ac1df2e",
-  "raw_hash": "168641233c75a45b02e221dadad50012438acabe0dab0a0df0716e2f1abd2f44",
+  "content_hash": "8b261aec29c1f56ee523a06565a757533a111ff215f322ea609f2e981045c691",
+  "raw_hash": "19b774b318b8a6bb4947f9934ab9cb98519aae1056905f4a16aace51088e4dd6",
   "text_bytes": 23899,
   "currency_hints": [],
   "extractor": "dom",
@@ -24,24 +24,24 @@
     },
     {
       "name": "Standard",
-      "price_raw": "$5.42",
-      "amount": 5.42,
+      "price_raw": "$5.78",
+      "amount": 5.78,
       "currency": "USD",
       "period": "user",
       "features": [],
       "slot_prices": [
-        5.42
+        5.78
       ]
     },
     {
       "name": "Premium",
-      "price_raw": "$10.44",
-      "amount": 10.44,
+      "price_raw": "$11.16",
+      "amount": 11.16,
       "currency": "USD",
       "period": "user",
       "features": [],
       "slot_prices": [
-        10.44
+        11.16
       ]
     },
     {

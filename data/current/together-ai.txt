@@ -38,7 +38,7 @@ $0.06
 $1.20
 Kimi K3
 $3.00
-$0.27
+$0.30
 (cached)
 $15.00
 Qwen3.8-2.4T-A95B
@@ -150,26 +150,33 @@ Input
 output
 MiniMax M3
 $0.30
+$0.06
+(cached)
 $1.20
 Kimi K3
-PROMO
-Promotion valid until
-October 11, 2026
 $3.00
-$2.70
+$0.30
+(cached)
 $15.00
-$13.50
 Qwen3.8-2.4T-A95B
 $2.00
+$0.25
+(cached)
 $6.00
 Muse Glimmer 30B
 $0.35
+$0.04
+(cached)
 $1.50
 GLM-5.3-Flash
 $0.15
+$0.03
+(cached)
 $0.50
 DeepSeek V4.1 Flash
 $0.30
+$0.006
+(cached)
 $1.20
 Gemma 4 31B
 $0.39
@@ -182,6 +189,8 @@ $0.00
 $0.00
 Inkling
 $1.00
+$0.17
+(cached)
 $4.05
 Qwen3.8 Flash
 $0.15

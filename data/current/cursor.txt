@@ -25,11 +25,11 @@ $8
 Get Plus
 Our introductory plan:
 Shared
-AI usage pool across all products
+AI usage pool
 AI Features
 Cursor
 Grok Chat, Voice, Imagine, and Build
-Grok API
+Grok API access
 Features
 Premium checkmark
 Less timeline ads
@@ -193,7 +193,7 @@ Video generation
 ✓
 ✓
 ✓
-Grok API
+Grok API access
 —
 ✓
 ✓
@@ -372,6 +372,22 @@ Premium checkmark
 ✓
 ✓
 ✓
+X Money APY
+6.00% with Direct Deposit
+6.00% with Direct Deposit
+6.00%
+6.00%
+6.00%
+By seat tier
+By seat tier
+X Money cashback
+3% with Direct Deposit
+3%
+3%
+3%
+3%
+By seat tier
+By seat tier
 Ad-free scrolling
 —
 Some surfaces
@@ -515,10 +531,14 @@ Self-serve plans support all major credit and debit cards. For invoice-based bil
 contact us
 to discuss the Enterprise plan.
 How do usage limits work?
-Every tier includes a pool of AI usage shared across Cursor and Grok. Within Grok, the pool covers Chat, Imagine, Voice, Bot, and API access. Higher tiers include larger pools, and usage costs vary by product. Your allowance refreshes weekly, so one heavy day never wipes out your whole month.
+Every tier includes a pool of AI usage shared across Cursor and Grok. Within Grok, the pool covers Chat, Imagine, Voice, and Bot. Higher tiers include larger pools, and usage costs vary by product. Your allowance refreshes weekly, so one heavy day never wipes out your whole month.
 If you reach your included usage, you can keep going with top-offs, or wait for your allowance to refresh. You'll always see your remaining usage in settings. See
 our docs
 for more details.
+Is the Grok API included in my plan?
+Paid plans include Grok API access. API usage is billed separately at standard model rates and doesn't draw from your plan's usage pool. See
+model pricing
+.
 What models are supported?
 Plus includes Grok models only. Premium and above include generous usage of Grok models but do not include an allowance for third-party models. Third-party models remain available in Cursor at API list price. You pay for exactly what you use, and you can set spending caps to manage costs.
 Are prices inclusive of taxes?

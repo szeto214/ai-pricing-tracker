@@ -6,9 +6,9 @@
   "url": "https://cursor.com/pricing",
   "final_url": "https://cursor.com/pricing",
   "parser_version": 4,
-  "content_hash": "471c6df92571d1b5b575681ff3b0b4f7fec773661d0a645c07fc51a63e7366f5",
-  "raw_hash": "46382ca1922e27fe7818c9c86b1a2569e55bd0107089cec5c178e3723a0ae952",
-  "text_bytes": 6974,
+  "content_hash": "f79b6c0969ad810336f36787199f04aafb3b191b071fc9509c6983cf2182506d",
+  "raw_hash": "5238b50dbfb88d96cd76fe1fe9875f61d0c0aab822db4f575c0f89410dd3f5c1",
+  "text_bytes": 7336,
   "currency_hints": [],
   "extractor": "jsonld",
   "confidence": "medium",
@@ -181,7 +181,7 @@
           "✓"
         ],
         [
-          "Grok API",
+          "Grok API access",
           "—",
           "✓",
           "✓",
@@ -408,6 +408,26 @@
           "✓",
           "✓",
           "✓"
+        ],
+        [
+          "𝕏 Money APY",
+          "6.00% with Direct Deposit",
+          "6.00% with Direct Deposit",
+          "6.00%",
+          "6.00%",
+          "6.00%",
+          "By seat tier",
+          "By seat tier"
+        ],
+        [
+          "𝕏 Money cashback",
+          "3% with Direct Deposit",
+          "3%",
+          "3%",
+          "3%",
+          "3%",
+          "By seat tier",
+          "By seat tier"
         ],
         [
           "Ad-free scrolling",

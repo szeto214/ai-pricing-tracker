@@ -1,0 +1,76 @@
+name: mirror
+
+# Arsip ini hidup dari satu hal: riwayat git yang menumpuk. Kalau GitHub
+# menghentikan workflow, menutup akun, atau repo hilang karena sebab apa pun,
+# 49 hari arsip (dan terus bertambah) ikut hilang — dan hari yang hilang tidak
+# bisa dibeli kembali.
+#
+# Workflow ini menyalin repo ke Codeberg setiap kali ada push ke main, dan
+# sekali sehari sebagai jaring kalau ada push yang terlewat. Ia TIDAK pernah
+# menyentuh repo GitHub, tidak pernah mengambil halaman vendor, dan tidak
+# pernah memaksa (`--force`) — kalau cermin menolak, yang benar adalah
+# memeriksanya, bukan menimpanya.
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    # 19:07 WIB. Menitnya ganjil dan jauh dari awal jam, alasan yang sama
+    # dengan collect.yml: jadwal GitHub sering tertunda saat beban tinggi.
+    - cron: "7 12 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: mirror
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Ambil seluruh riwayat
+        uses: actions/checkout@v5
+        with:
+          # fetch-depth: 0 WAJIB. Tanpa ini checkout hanya mengambil satu
+          # commit terakhir, dan cerminnya jadi repo tanpa riwayat — persis
+          # hal yang ingin kita selamatkan.
+          fetch-depth: 0
+
+      - name: Dorong ke Codeberg
+        env:
+          CODEBERG_USER: ${{ secrets.CODEBERG_USER }}
+          CODEBERG_TOKEN: ${{ secrets.CODEBERG_TOKEN }}
+          CODEBERG_REPO: ${{ secrets.CODEBERG_REPO }}
+        run: |
+          set -euo pipefail
+
+          # Rahasia belum dipasang bukan alasan menandai workflow ini MERAH
+          # setiap hari. Ia berhenti dengan pesan jelas dan status hijau,
+          # supaya tab Actions tetap jujur: merah berarti ada yang rusak.
+          if [ -z "${CODEBERG_TOKEN:-}" ] || [ -z "${CODEBERG_USER:-}" ]; then
+            echo "CODEBERG_USER / CODEBERG_TOKEN belum dipasang di Settings ->"
+            echo "Secrets and variables -> Actions. Pencerminan dilewati."
+            exit 0
+          fi
+
+          REPO="${CODEBERG_REPO:-ai-pricing-tracker}"
+
+          # Token TIDAK pernah ditulis ke log: dipasang lewat remote sementara
+          # yang dibuat dan dibuang di dalam langkah ini.
+          git remote remove codeberg 2>/dev/null || true
+          git remote add codeberg \
+            "https://${CODEBERG_USER}:${CODEBERG_TOKEN}@codeberg.org/${CODEBERG_USER}/${REPO}.git"
+
+          echo "Mendorong main ke Codeberg (tanpa --force)..."
+          git push codeberg "HEAD:refs/heads/main"
+
+          echo "Mendorong tag (kalau ada)..."
+          git push codeberg --tags || true
+
+          git remote remove codeberg
+
+          echo "Selesai. Cermin: https://codeberg.org/${CODEBERG_USER}/${REPO}"

@@ -57,13 +57,71 @@ jobs:
             exit 0
           fi
 
-          REPO="${CODEBERG_REPO:-ai-pricing-tracker}"
+          # Pelajaran run #1 (14/10): push gagal dengan
+          #   "URL rejected: Malformed input to a URL function"
+          # Penyebabnya karakter yang ikut tersalin saat menempel rahasia
+          # (spasi, baris baru, CR dari Windows). Nilai dibersihkan dulu,
+          # lalu bentuknya diperiksa — bukan isinya, supaya tidak ada rahasia
+          # yang pernah tercetak di log (log repo publik bisa dibaca siapa pun).
+          PENGGUNA="$(printf '%s' "$CODEBERG_USER" | tr -d '[:space:]')"
+          RAHASIA="$(printf '%s' "$CODEBERG_TOKEN" | tr -d '[:space:]')"
+          REPO="$(printf '%s' "${CODEBERG_REPO:-ai-pricing-tracker}" | tr -d '[:space:]')"
 
-          # Token TIDAK pernah ditulis ke log: dipasang lewat remote sementara
-          # yang dibuat dan dibuang di dalam langkah ini.
+          echo "Pemeriksaan bentuk (nilai rahasia tidak pernah dicetak):"
+          echo "  CODEBERG_USER : ${#PENGGUNA} karakter"
+          echo "  CODEBERG_REPO : ${#REPO} karakter"
+          if [ "$RAHASIA" = "$CODEBERG_TOKEN" ]; then
+            echo "  CODEBERG_TOKEN: terisi"
+          else
+            echo "  CODEBERG_TOKEN: terisi (spasi/baris baru dibuang)"
+          fi
+
+          salah=0
+          case "$PENGGUNA" in
+            "" ) echo "  -> CODEBERG_USER kosong setelah dibersihkan."; salah=1 ;;
+            *[!A-Za-z0-9._-]* )
+              echo "  -> CODEBERG_USER memuat karakter di luar A-Z a-z 0-9 . _ -"
+              salah=1 ;;
+          esac
+          case "$REPO" in
+            "" ) echo "  -> CODEBERG_REPO kosong setelah dibersihkan."; salah=1 ;;
+            *[!A-Za-z0-9._-]* )
+              echo "  -> CODEBERG_REPO memuat karakter di luar A-Z a-z 0-9 . _ -"
+              salah=1 ;;
+          esac
+          if [ -z "$RAHASIA" ]; then
+            echo "  -> CODEBERG_TOKEN kosong setelah dibersihkan."
+            salah=1
+          fi
+          if [ "$salah" -ne 0 ]; then
+            echo ""
+            echo "CODEBERG_USER harus HANYA nama pengguna Codeberg (contoh: szeto214)"
+            echo "dan CODEBERG_REPO HANYA nama repo (contoh: ai-pricing-tracker) —"
+            echo "bukan alamat email, bukan URL lengkap, tanpa spasi."
+            exit 1
+          fi
+
+          # Token TIDAK pernah masuk ke URL. Ia diberikan lewat GIT_ASKPASS,
+          # sehingga karakter apa pun di dalam token (@ : / # %) tidak bisa
+          # merusak URL dan tidak pernah ikut tercetak kalau git gagal.
+          BANTU="$RUNNER_TEMP/codeberg-askpass.sh"
+          {
+            echo '#!/usr/bin/env bash'
+            echo 'case "$1" in'
+            echo '  *[Uu]sername*) printf "%s" "$GIT_NAMA" ;;'
+            echo '  *) printf "%s" "$GIT_SANDI" ;;'
+            echo 'esac'
+          } > "$BANTU"
+          chmod +x "$BANTU"
+          trap 'rm -f "$BANTU"' EXIT
+
+          export GIT_ASKPASS="$BANTU"
+          export GIT_NAMA="$PENGGUNA"
+          export GIT_SANDI="$RAHASIA"
+          export GIT_TERMINAL_PROMPT=0
+
           git remote remove codeberg 2>/dev/null || true
-          git remote add codeberg \
-            "https://${CODEBERG_USER}:${CODEBERG_TOKEN}@codeberg.org/${CODEBERG_USER}/${REPO}.git"
+          git remote add codeberg "https://codeberg.org/${PENGGUNA}/${REPO}.git"
 
           echo "Mendorong main ke Codeberg (tanpa --force)..."
           git push codeberg "HEAD:refs/heads/main"
@@ -73,4 +131,4 @@ jobs:
 
           git remote remove codeberg
 
-          echo "Selesai. Cermin: https://codeberg.org/${CODEBERG_USER}/${REPO}"
+          echo "Selesai. Cermin: https://codeberg.org/${PENGGUNA}/${REPO}"

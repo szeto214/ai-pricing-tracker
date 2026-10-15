@@ -4303,13 +4303,13 @@ Recommendations to optimize code and queries
 Start Free Trial
 Let's Talk
 Orchestrators
-Airflow, dbt, custom jobs
+Airflow, dbt, AWS Glue, custom jobs
 Starting At
 $
 0.10
 Per job, per hour*
 Observe and troubleshoot pipeline orchestrators jobs
-Monitor Airflow DAGs and tasks; DBT jobs and models; Custom jobs
+Monitor Airflow DAGs and tasks; DBT jobs and models; AWS Glue jobs; Custom jobs
 Detect failing and long-running jobs
 Quickly pinpoint and resolve the root cause of failed and long-running jobs
 *Billed annually or $
@@ -4322,7 +4322,7 @@ Databricks and Apache Spark
 Serverless
 Databricks
 Orchestrators
-Airflow, dbt, custom jobs
+Airflow, dbt, AWS Glue, custom jobs
 Features
 Alerts for failed and long-running jobs
 Job run status and duration history

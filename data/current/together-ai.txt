@@ -46,11 +46,6 @@ $2.00
 $0.25
 (cached)
 $6.00
-Muse Glimmer 30B
-$0.35
-$0.04
-(cached)
-$1.50
 DeepSeek V4 Pro 0813
 $1.32
 $0.13
@@ -106,6 +101,11 @@ $1.50
 $0.30
 (cached)
 $4.50
+Muse Glimmer 30B
+$0.35
+$0.04
+(cached)
+$1.50
 gpt-oss-120B
 $0.15
 $0.60
@@ -163,11 +163,6 @@ $2.00
 $0.25
 (cached)
 $6.00
-Muse Glimmer 30B
-$0.35
-$0.04
-(cached)
-$1.50
 GLM-5.3-Flash
 $0.15
 $0.03
@@ -195,6 +190,11 @@ $4.05
 Qwen3.8 Flash
 $0.15
 $0.47
+Muse Glimmer 30B
+$0.35
+$0.04
+(cached)
+$1.50
 Qwen3.5 9B
 $0.17
 $0.25
@@ -325,12 +325,8 @@ NVIDIA Parakeet TDT 0.6B V3 Realtime
 $0.0035
 Cartesia Sonic-3
 $65.00
-Orpheus TTS
-$15
 Kokoro-82M TTS
 $4.00
-Cartesia Sonic-2
-$65.00
 Price per video
 Model
 Price

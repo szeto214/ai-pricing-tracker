@@ -49,7 +49,6 @@ Advanced Tailscale SSH
 Network flow logs
 Log streaming
 Regional routing and traffic steering
-Priority support
 Our best self-serve plan to try all of Tailscale’s products
 Enterprise
 For enterprises running the full Tailscale platform, extending into multiple products like PAM, AI security, CI/CD, Edge & IoT, and Kubernetes connectivity at scale, and more.
@@ -58,9 +57,8 @@ Contact sales
 Everything in Premium, plus
 Custom device quantities and limits
 Solutions Engineer consultation and implementation assistance
-Custom MSA & SLAs
+Custom MSA
 Custom tailnet subdomains
-Premium support with dedicated professional services
 Custom pricing and bundling to meet your organization’s needs and budget
 Pay by invoice
 Bring AI usage into focus with Aperture
@@ -96,8 +94,8 @@ Contact sales
 Multiple tailnets
 Great option for OEM. Create multiple tailnets under a single organization and IdP. Get separation for testing, development, or automation.
 Contact sales
-Premium support, dedicated services
-Connect across clouds and environments securely, privately, and without complex networking.
+Support packages & Support Add-ons
+Get contractual response SLAs with Silver, Gold, or Platinum support, and planned technical expertise through separately scoped Support Add-ons.
 Contact sales
 Compare plans
 Users & Devices
@@ -198,13 +196,8 @@ Network flow logs
 Log streaming
 Support & Billing
 Customer support
-Basic
-Basic
-Priority
-Premium
-Priority customer support
-Custom MSAs & Support SLAs
-Dedicated professional services
+Access to Support SLAs
+Custom MSAs
 Pay by invoice
 Cloud Marketplaces
 Get started with Tailscale through your preferred cloud marketplace — consolidate billing, and speed up deployment.
@@ -356,7 +349,13 @@ Tailscale provides device posture information like OS and Tailscale version to a
 Paid plans extend this further with MDM, EDR, and XDR integrations, such as with CrowdStrike, SentinelOne, XAM, and more. Geolocation adds even more information with identity collection.
 How is MDM functionality different in paid plans?
 Deployment with MDM is available on all plans! This enables streamlined deployment at scale. Going deeper with configuration through MDM is available for paid plans.
-What is included in Priority and Premium support?
-With priority and premium support, requests from Premium and Enterprise customers are prioritized and moved to the front of the queue, where our team will get back to you as soon as possible. If you're in need of a guaranteed response time SLA, contact sales to discuss our additional support and onboarding packages.
+What Support packages and Support Add-ons are available?
+All plans include Standard support: best-effort help during business hours.
+Customers on Standard, Premium, and Enterprise plans can purchase SLA-backed support packages:
+- Silver: Contracted first-response SLAs during business hours, available self-serve.
+- Gold: Faster first-response SLAs and 24/7 coverage for Severity 1 issues.
+- Platinum: Our fastest first-response SLAs and 24/7 coverage for Severity 1 and Severity 2 issues.
+Support Add-ons provide separately scoped technical expertise for planned work, including deployment guidance, technical advisory, and engineering engagements.
+Contact sales to discuss support and Support Add-ons for your organization.
 Have more questions about our pricing?
 Contact our sales team for more details.

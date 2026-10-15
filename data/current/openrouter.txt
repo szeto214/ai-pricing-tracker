@@ -3,34 +3,71 @@ every ElevenLabs model is 50% off through October 19, 2026.
 See ElevenLabs models
 Dismiss
 Models
+TypeSafe: Jev 1.14
+Jev 1.14
+26.1B tokens
+Jev 1.14 is the latest version of Jev, TypeSafe's structured decision model and the first of its System One models. System One models make fast, structured decisions for software, returning a typed answer rather than free-form text. It is suited for routing, classification, and other decision points inside an application where a fast, predictable answer matters more than generated prose. Learn more in TypeSafe's docs: https://docs.typesafe.ai/models
+by
+typesafe
+Oct 14, 2026
+$0.042
+/M input
+tokens
+$0
+/M output
+tokens
+AssemblyAI: Universal-3.6 Pro
+Universal-3.6 Pro
+606K characters
+Universal-3.6 Pro is AssemblyAI's speech-to-text model and the successor to Universal-3.5 Pro, served here through AssemblyAI's Sync API. Compared with Universal-3.5 Pro, AssemblyAI reports 30% fewer errors on short conversational utterances, 12% fewer errors on average across supported languages, 14 newly supported languages, and better recognition and formatting of entities such as phone numbers, addresses, emails, and codes. It returns a complete transcript with word-level timestamps in a single synchronous response for audio clips up to 120 seconds, accepts 16-bit WAV input, and supports free-text prompting, keyterms, and conversation context to steer transcription toward domain vocabulary.
+by
+assemblyai
+Oct 14, 2026
+from $0.000083/second
+Perplexity: Decider Latest
+Decider Latest
+This model always redirects to the latest model in the Decider family.
+by
+perplexity
+Oct 14, 2026
+$0.02
+/M input
+tokens
+$0
+/M output
+tokens
 Pareto Latest
 Pareto Latest
-8.71M tokens
+111M tokens
 This model always redirects to the latest model in the Pareto family.
 by
 unbiased
 Oct 13, 2026
 262K context
-$2.50/M input
+$2.50
+/M input
 tokens
-$7.50/M output
+$7.50
+/M output
 tokens
 Pareto 26.9
 Pareto 26.9
-54.4M tokens
+562M tokens
 Pareto is a multimodal composite model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks.
 by
 unbiased
 Oct 13, 2026
 262K context
-$2.50/M input
+$2.50
+/M input
 tokens
-$7.50/M output
+$7.50
+/M output
 tokens
 HeyGen: HeyGen Voice
 HeyGen Voice
 50% off
-11K tokens
+70K tokens
 HeyGen Voice is a text-to-speech model from HeyGen. It comes with 10 default voices, or bring your own HeyGen key to use voice clones from your own account. It streams 44.1 kHz mono PCM audio, with support for 39 languages and up to 5,000 characters per request.
 by
 heygen
@@ -39,7 +76,7 @@ $15/M characters
 HeyGen: HeyGen Voice Turbo
 HeyGen Voice Turbo
 50% off
-8K tokens
+32K tokens
 HeyGen Voice Turbo is a lower-latency version of HeyGen Voice, HeyGen's text-to-speech model. It has the same 10 default voices, or bring your own HeyGen key to use voice clones from your own account. It streams 44.1 kHz mono PCM audio, with support for 39 languages and up to 5,000 characters per request.
 by
 heygen
@@ -47,20 +84,22 @@ Oct 13, 2026
 $7.50/M characters
 LiquidAI: LFM2.5-24B-A2B
 LFM2.5-24B-A2B
-263M tokens
+867M tokens
 LFM2.5-24B-A2B is a mixture-of-experts reasoning model from Liquid AI with 24B total and 2.45B active parameters. It always reasons before answering and is built for agents that call tools. Liquid recommends pairing it with retrieval or web search for knowledge-heavy tasks.
 by
 liquid
 Oct 13, 2026
 128K context
-$0.05/M input
+$0.05
+/M input
 tokens
-$0.70/M output
+$0.70
+/M output
 tokens
 Fish Audio: Drama 3
 Drama 3
 80% off
-1.18M tokens
+7.63M tokens
 Drama 3 is a text-to-speech model from Fish Audio built for directed voice performances. You write the direction in plain language in square brackets before a line, such as
 [nervous, barely holding it together]
 , and can add sounds and pauses inline or change the delivery of specific words with paired tags like
@@ -73,46 +112,53 @@ $2/M UTF-8 bytes
 Google: Gemini 4 Argon (batch)
 Gemini 4 Argon (batch)
 50% off
-50.5M tokens
+168M tokens
 Gemini 4 Argon is Google's flagship reasoning model, built for complex software engineering, deep mathematical and scientific problem solving, and autonomous multi-step agents. Google trained it to keep context across long, multi-step tasks and to turn long documents mixing text, tables, charts and images into a single grounded output. It leads the Vals Index across finance, legal, coding and tax work, and supports long decode of up to 1M output tokens in a single response.
 by
 google
 Oct 13, 2026
 1.05M context
-$1/M input
+$1
+/M input
 tokens
-$5/M output
+$5
+/M output
 tokens
 Google: Gemini 4 Argon
 Gemini 4 Argon
 50% off
-83.8B tokens
+232B tokens
+Programming (#43)
 Gemini 4 Argon is Google's flagship reasoning model, built for complex software engineering, deep mathematical and scientific problem solving, and autonomous multi-step agents. Google trained it to keep context across long, multi-step tasks and to turn long documents mixing text, tables, charts and images into a single grounded output. It leads the Vals Index across finance, legal, coding and tax work, and supports long decode of up to 1M output tokens in a single response.
 by
 google
 Oct 13, 2026
 1.05M context
-$2/M input
+$2
+/M input
 tokens
-$10/M output
+$10
+/M output
 tokens
 ScaleDown: Summarize
 Summarize
 20% off
-62.1M tokens
+137M tokens
 Summarize is an abstractive summarization model from ScaleDown. It condenses long text and documents into a fluent, faithful rewrite rather than lifting sentences from the source, and is suited for document review, transcript digests, and RAG pre-processing where retrieved content must be shortened before reaching another model. Format, focus, language, and length are steered through the system prompt, while sampling is fixed to a configuration tuned for faithful output. Learn more in ScaleDown's docs: https://docs.scaledown.ai/api-reference/summarize-overview
 by
 scaledown
 Oct 13, 2026
 1M context
-$0.04/M input
+$0.04
+/M input
 tokens
-$0/M output
+$0
+/M output
 tokens
 ScaleDown: Extract
 Extract
 20% off
-149M tokens
+269M tokens
 Extract is a description-driven entity extraction model from ScaleDown. Instead of a fixed set of entity types, callers describe the fields they want in plain English through
 provider.options.scaledown.entities
 , and the model returns each matching span with a confidence score, character offsets, and surrounding context. It is suited for pulling structured values out of contracts, invoices, emails, and transcripts, and includes built-in OCR so scanned images and PDFs work without a separate step. Learn more in ScaleDown's docs: https://docs.scaledown.ai/api-reference/extract-overview
@@ -120,92 +166,69 @@ by
 scaledown
 Oct 13, 2026
 1M context
-$0.04/M input
+$0.04
+/M input
 tokens
-$0/M output
+$0
+/M output
 tokens
 ScaleDown: Classify-1
 Classify-1
 20% off
-2.21B tokens
+3.51B tokens
 Classify-1 is a structured decision model from ScaleDown, served through OpenRouter's Decisions API. It scores text or a document against caller-defined choice, yes/no, and ordered-scale questions and returns calibrated probabilities rather than generated prose, making it suited for routing, moderation, intent detection, and domain tagging inside an application. It is request-compatible with TypeSafe's Jev Decisions API. Learn more in ScaleDown's docs: https://docs.scaledown.ai/api-reference/decisions-overview
 by
 scaledown
 Oct 13, 2026
-$0.04/M input
+$0.04
+/M input
 tokens
-$0/M output
-tokens
-Perplexity: Decider 27B Latest
-Decider 27B Latest
-This model always redirects to the latest model in the Decider 27B family.
-by
-perplexity
-Oct 12, 2026
-$0.02/M input
-tokens
-$0/M output
+$0
+/M output
 tokens
 Nace.AI: Drex v2.0
 Drex v2.0
-2.74B tokens
+5.07B tokens
 Drex v2.0 is a 35B mixture-of-experts decision model (3B active) from Nace.AI, the larger successor to
 Drex v1.5
 . Given a state (text or JSON) and typed questions (yes/no, multiple choice, or ordinal score), it returns a calibrated probability for every option in a single forward pass, with no text generation. It is TypeSafe System One compatible and suits routing, classification, and policy checks that need a scored answer instead of prose.
 by
 nace-ai
 Oct 12, 2026
-$0.06/M input
+$0.06
+/M input
 tokens
-$0/M output
+$0
+/M output
 tokens
 Meta: Muse Wonder
 Muse Wonder
-95.3B tokens
+134B tokens
+Programming (#48)
 Muse Wonder is a frontier reasoning model from Meta, designed for complex personal and professional agentic tasks. It accepts text, images, video, audio, and PDF documents and returns text, with a 1M-token context window. The model handles long-horizon work: it plans, delegates to sub-agents, calls tools in parallel, and recovers from errors, so multi-step tasks run to completion without step-by-step direction. It can also operate browsers and desktop and mobile applications, and works across many files in existing repositories to make and verify changes. Muse Wonder carries important context across conversations and retrieves the details relevant to the task at hand. And it's trained for Active Focus, so it works toward your goal even when a task gets challenging. In Meta's testing, it performs well on complex engineering tasks, extended agentic sessions, and multi-file refactors to tackle developers' most demanding work.
 by
 meta
 Oct 12, 2026
 1.05M context
-$4/M input
+$4
+/M input
 tokens
-$20/M output
+$20
+/M output
 tokens
 Microsoft: Microsoft-Decision-1
 Microsoft-Decision-1
-18B tokens
-Health (#40)
+20.7B tokens
+Health (#41)
 Microsoft-Decision-1 is a small model built for fast decision-making. Instead of generating text, it reads the provided content and returns a calibrated probability for each fixed answer option, so the response carries its own confidence and can determine when an application acts, defers, or asks for review. It is post-trained from Qwen3.5-9B for single-pass scoring and suited to classification, routing, prioritization, verification, workflow control, agent guardrails, and AI judging. It is not intended for open-ended generation, conversation, translation, or summarization. Weights are updated continually while the API shape stays the same. Learn more in Microsoft's announcement: https://commandline.microsoft.com/microsoft-decision-1-model-foundry/
 by
 microsoft
 Oct 9, 2026
-$0.042/M input
+$0.042
+/M input
 tokens
-$0/M output
-tokens
-Nace.AI: Drex v1.5
-Drex v1.5
-22.2B tokens
-Finance (#42)
-Drex v1.5 is a 9B decision model from Nace.AI. Given a state (text or JSON) and typed questions (yes/no, multiple choice, or ordinal score), it returns a calibrated probability for every option in a single forward pass, with no text generation. It is TypeSafe System One compatible and suits routing, classification, and policy checks that need a scored answer instead of prose. Open weights and runtime: https://github.com/nace-ai/drex-decision-models
-by
-nace-ai
-Oct 9, 2026
-$0.04/M input
-tokens
-$0/M output
-tokens
-Cloudflare: Clef Omni
-Clef Omni
-1.77B tokens
-Trivia (#17)
-Clef Omni is the mixture-of-experts member of Cloudflare's open-source Clef decision model family, a fine-tune of Qwen3-Omni-30B-A3B (30B total, 3B active parameters) served on Workers AI. It turns a state plus a schema of typed questions into decisions, returning a calibrated probability for every allowed option of every question in a single forward pass instead of generating tokens. Use it for classification, routing, scoring, and guardrails over text, JSON, images, audio, and video through the Decisions API.
-by
-cloudflare
-Oct 9, 2026
-$0.15/M input
-tokens
-$0/M output
+$0
+/M output
 tokens
 Compare
 Discover Models

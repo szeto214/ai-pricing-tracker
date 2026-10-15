@@ -6,9 +6,9 @@
   "url": "https://www.together.ai/pricing",
   "final_url": "https://www.together.ai/pricing",
   "parser_version": 4,
-  "content_hash": "6399e0001d2a02f2a4b426e5bf0be9762b238a434e0d1aecca80a52d27e94461",
-  "raw_hash": "175335e51cb9d7339ab0e97ba2f2f284b68465f51f15ced1cf8a767a0f4bf2c5",
-  "text_bytes": 8868,
+  "content_hash": "57efa2f237355eff3981751e7dfc7777ea541ced845b7abf268638e4e3248df9",
+  "raw_hash": "a192d65628403eaa83e32c94171574b472a811060ea7b80ce7920bfd1cfa3707",
+  "text_bytes": 8828,
   "currency_hints": [],
   "extractor": "jsonld",
   "confidence": "medium",
@@ -1089,11 +1089,6 @@
           "$6.00"
         ],
         [
-          "Muse Glimmer 30B",
-          "$0.35 $0.04 (cached)",
-          "$1.50"
-        ],
-        [
           "DeepSeek V4 Pro 0813",
           "$1.32 $0.13 (cached)",
           "$3.96"
@@ -1157,6 +1152,11 @@
           "Qwen3.7-Max",
           "$1.50 $0.30 (cached)",
           "$4.50"
+        ],
+        [
+          "Muse Glimmer 30B",
+          "$0.35 $0.04 (cached)",
+          "$1.50"
         ],
         [
           "gpt-oss-120B",
@@ -1234,11 +1234,6 @@
           "$6.00"
         ],
         [
-          "Muse Glimmer 30B",
-          "$0.35 $0.04 (cached)",
-          "$1.50"
-        ],
-        [
           "GLM-5.3-Flash",
           "$0.15 $0.03 (cached)",
           "$0.50"
@@ -1272,6 +1267,11 @@
           "Qwen3.8 Flash",
           "$0.15",
           "$0.47"
+        ],
+        [
+          "Muse Glimmer 30B",
+          "$0.35 $0.04 (cached)",
+          "$1.50"
         ],
         [
           "Qwen3.5 9B",
@@ -1468,16 +1468,8 @@
           "$65.00"
         ],
         [
-          "Orpheus TTS",
-          "$15"
-        ],
-        [
           "Kokoro-82M TTS",
           "$4.00"
-        ],
-        [
-          "Cartesia Sonic-2",
-          "$65.00"
         ]
       ]
     },

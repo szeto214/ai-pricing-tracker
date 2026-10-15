@@ -7,7 +7,7 @@
   "final_url": "https://xata.io/pricing",
   "parser_version": 4,
   "content_hash": "44416cdcae6cfeda04532e333bf141f3e507b582a552659cf36d9a59cc8fceb7",
-  "raw_hash": "b5bc230c16d48c908a88b7095df92c329f5d397a622d0712cb483c7ae1b2b114",
+  "raw_hash": "802c403c3056fb725fe35a4bdd3abecf5143da354f22a374a32065abd5198963",
   "text_bytes": 4770,
   "currency_hints": [],
   "extractor": "dom",

@@ -6,9 +6,9 @@
   "url": "https://resend.com/pricing",
   "final_url": "https://resend.com/pricing",
   "parser_version": 4,
-  "content_hash": "8eee76ad88b675f188ca632ed5ad2a673207919964442dabd178ab8813fed76f",
-  "raw_hash": "21e2330cae2ea38694b1459d8a2347753187bf6459fcfb43a85798b2cdcedded",
-  "text_bytes": 9547,
+  "content_hash": "8b34fd0f7b2a66cb0bc121feb549806ef5755e2491574f823e6d4382efaed3e0",
+  "raw_hash": "1e102d225e2320f94de8801b5786831568be2da52fd1fb2775929bdee46306bb",
+  "text_bytes": 9796,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -124,6 +124,53 @@
         ],
         [
           "React Email",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "",
+          "Free",
+          "Pro",
+          "Scale",
+          "Enterprise"
+        ],
+        [
+          "Inboxes",
+          "3",
+          "3",
+          "3",
+          "Flexible"
+        ],
+        [
+          "Additional inboxes",
+          "–",
+          "$1 / inbox",
+          "$1 / inbox",
+          "Flexible"
+        ],
+        [
+          "Inbox emails",
+          "Transactional quota",
+          "Transactional quota",
+          "Transactional quota",
+          "Transactional quota"
+        ],
+        [
+          "Threads",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Agent access",
           "",
           "",
           "",

@@ -6,9 +6,9 @@
   "url": "https://tailscale.com/pricing",
   "final_url": "https://tailscale.com/pricing",
   "parser_version": 4,
-  "content_hash": "df25623befc16f1b6bc8740a48c60b8f2306cde911d6b525ba9bf978194b1c8f",
-  "raw_hash": "0daf8178176d58182cff3ee6f69555290f98a6fcc626956e8dc85f79f678ffd1",
-  "text_bytes": 27722,
+  "content_hash": "188deb0db85e160fb9dcf6e125a58814398369796626e7135a1ee1794da6fec7",
+  "raw_hash": "421d7848d7e9dab526c058f20cc75c5481e53e563bc07a7aad9bbe45e48b41af",
+  "text_bytes": 27976,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -370,27 +370,20 @@
         ],
         [
           "Customer support",
-          "Basic",
-          "Basic",
-          "Priority",
-          "Premium"
-        ],
-        [
-          "Priority customer support",
           "",
           "",
           "",
           ""
         ],
         [
-          "Custom MSAs & Support SLAs",
+          "Access to Support SLAs",
           "",
           "",
           "",
           ""
         ],
         [
-          "Dedicated professional services",
+          "Custom MSAs",
           "",
           "",
           "",

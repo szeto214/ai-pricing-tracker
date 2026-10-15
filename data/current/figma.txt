@@ -17,6 +17,7 @@ Dev Mode
 FigJam
 Figma Slides
 Figma Motion
+Figma Specs
 Figma Sites
 Figma Buzz
 Prices in USD
@@ -138,6 +139,8 @@ Figma Motion
 beta is available on Full seats.
 Figma Sites
 beta is available on Full seats.
+Figma Specs
+beta is available on paid seats.
 Figma Buzz
 beta is available on all seats.
 Add-ons
@@ -198,6 +201,7 @@ Organization-wide design systems
 Approved libraries
 Default libraries by workspace
 Multi-brand design systems
+Code layers
 Figma Make
 Prompt the model
 Bring your designs
@@ -214,6 +218,8 @@ Make templates
 Password protection
 Make kits
 Publish custom connectors
+Environment variables
+Add Payload support
 Figma Motion (Beta)
 Animation timeline
 Motion systems authoring
@@ -241,7 +247,6 @@ Publishing
 Dev Mode
 View annotations and measurements
 Code Connect
-Available for UI kits
 Advanced inspection
 Improved handoff experience
 Ready for dev on canvas only
@@ -290,6 +295,11 @@ Free-form editing and design elements
 Brand template publishing
 Focused editing
 Image editing (AI)
+Figma Specs (Beta)
+Formatting tools
+Canvas-native specs
+Standalone specs
+Third-party integrations
 Figma agent
 On canvas chat
 Create shader effects and fills
@@ -372,13 +382,13 @@ What is a seat?
 Seats give users access to Figma’s products. The different seats are designed to support different user workflows.
 The
 Full seat
-includes full access to all Figma products, including Figma Design, Figma Make, Figma Draw, Figma Sites, Dev Mode, FigJam, Figma Slides and Figma Buzz.
+includes full access to all Figma products, including Figma Design, Figma Make, Figma Draw, Figma Motion, Figma Sites, Dev Mode, FigJam, Figma Slides, Figma Buzz, and Figma Specs.
 The
 Dev seat
-full access to Dev Mode, FigJam, Figma Slides, and Figma Buzz. It also gives users view and comment access in Figma Design files.
+includes full access to Dev Mode, FigJam, Figma Slides, Figma Buzz, and Figma Specs. It also gives users view and comment access in Figma Design files.
 The
 Collab seat
-includes full access to FigJam, Figma Slides, and Figma Buzz. It also gives users view and comment access in Figma Design files. It only includes
+includes full access to FigJam, Figma Slides, Figma Buzz, and Figma Specs. It also gives users view and comment access in Figma Design files. It only includes
 basic inspection
 on Dev Mode.
 If you’re on a paid plan, you can also let others view and comment on your files without purchasing extra seats. This view and comment access only includes

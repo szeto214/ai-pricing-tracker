@@ -6,9 +6,9 @@
   "url": "https://www.cloudflare.com/plans/",
   "final_url": "https://www.cloudflare.com/plans/",
   "parser_version": 4,
-  "content_hash": "e7ab68c20032a8386c39a63cc66f4ff8bd9b97dfe2fb4f22019cf92ca799e6a1",
-  "raw_hash": "c7237c667735548205610a449c14774a6f81e42e09e0d7436edeeb3dfac1c8c5",
-  "text_bytes": 15714,
+  "content_hash": "e94542458ddb91aa6aeb01f2d7eb3a30a5114f1a9f73c0225cd311ea6d7baea3",
+  "raw_hash": "61679685608352772710edf85a1c348d907610189d97f5cb0d439c2ad0db5a6e",
+  "text_bytes": 16979,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -501,14 +501,64 @@
           "Paid"
         ],
         [
-          "Ingestion",
-          "Not available",
-          "TBD (free during beta)"
+          "Stream ingress",
+          "Unlimited",
+          "Free"
         ],
         [
-          "Delivery to R2",
-          "Not available",
-          "TBD (free during beta)"
+          "SQL transforms",
+          "50 GB / month",
+          "$0.04 / GB"
+        ],
+        [
+          "Sink delivery, JSON",
+          "50 GB / month shared across sinks",
+          "$0.03 / GB"
+        ],
+        [
+          "Sink delivery, Parquet or Iceberg",
+          "50 GB / month shared across sinks",
+          "$0.06 / GB"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Component",
+          "Free",
+          "Paid"
+        ],
+        [
+          "Catalog operations",
+          "1 million / month",
+          "$9 / million operations"
+        ],
+        [
+          "Compaction data processed",
+          "10 GB / month",
+          "$0.005 / GB"
+        ],
+        [
+          "Compaction objects processed",
+          "1 million / month",
+          "$2 / million objects"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Component",
+          "Free",
+          "Paid"
+        ],
+        [
+          "Compressed data scanned",
+          "10 GB / month",
+          "$0.0025 / GB"
         ]
       ]
     },
@@ -609,41 +659,6 @@
           "Minutes Delivered",
           "Not available",
           "$1.00 / thousand minutes"
-        ]
-      ]
-    },
-    {
-      "caption": "",
-      "rows": [
-        [
-          "Component",
-          "Free",
-          "Paid"
-        ],
-        [
-          "Vector Dimensions Queried",
-          "30M queried dimensions / month",
-          "$0.01 / million"
-        ],
-        [
-          "Vector Dimensions Stored",
-          "5M stored dimensionsNot available",
-          "$0.05 / hundred million"
-        ]
-      ]
-    },
-    {
-      "caption": "",
-      "rows": [
-        [
-          "Component",
-          "Free",
-          "Paid"
-        ],
-        [
-          "Neurons",
-          "10,000 neurons / dayNot available",
-          "$0.011 / thousand neurons"
         ]
       ]
     }

@@ -6,9 +6,9 @@
   "url": "https://vercel.com/pricing",
   "final_url": "https://vercel.com/pricing",
   "parser_version": 4,
-  "content_hash": "a498bb1a9a46bf2ca56a52145f1f1b0f740d354a680af5f71491760bec111121",
-  "raw_hash": "10b75b24ecca62897292a6be1e037ca68771a518acffc80e590140383871642b",
-  "text_bytes": 13403,
+  "content_hash": "5e751dd1f4057c8d9ca6c13469142579015f3af0bfd1452b1680dcf06babf855",
+  "raw_hash": "8f7337b5e86cbdcc205981de9c175e0df95eeafcb4ced41551f3c1667f75c5ad",
+  "text_bytes": 13620,
   "currency_hints": [
     "USD"
   ],
@@ -170,6 +170,17 @@
       ]
     },
     {
+      "name": "Vercel Daemons",
+      "price_raw": "$0.128",
+      "amount": 0.128,
+      "currency": "USD",
+      "period": "month",
+      "features": [],
+      "slot_prices": [
+        0.128
+      ]
+    },
+    {
       "name": "Vercel Container Registry Image Storage",
       "price_raw": "$0.10",
       "amount": 0.1,
@@ -222,17 +233,6 @@
       "features": [],
       "slot_prices": [
         3.0
-      ]
-    },
-    {
-      "name": "Build minutes",
-      "price_raw": "$0.007",
-      "amount": 0.007,
-      "currency": "USD",
-      "period": "minute",
-      "features": [],
-      "slot_prices": [
-        0.007
       ]
     }
   ],

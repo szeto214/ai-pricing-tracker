@@ -268,7 +268,7 @@ Starting at $0.0212 per GB-hr
 Custom
 Sandbox Creations
 5K / month included
-Starting at $0.60 per 1M
+Starting at $0.60 per 1,000,000 creations
 Custom
 Sandbox Data Transfer
 20 GB / month included
@@ -282,6 +282,15 @@ Snapshot Storage
 15 GB
 Starting at $0.08 per GB-month
 Custom
+Vercel Daemons
+Daemons Active CPU
+5 hours / month included
+Starting at $0.128 per hour
+Custom
+Daemons Provisioned Memory
+420 GB-hrs / month included
+Starting at $0.0212 per GB-hr
+Custom
 Vercel Container Registry Image Storage
 Beta
 10 GB / month included
@@ -294,7 +303,7 @@ Custom
 Vercel Workflows
 Workflow Events
 50K events / month included
-$20 per 1M
+$20 per 1,000,000 events
 Custom
 Workflow Storage Writes
 1 GB

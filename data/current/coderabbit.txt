@@ -165,7 +165,7 @@ How many repos CodeRabbit works across
 1
 Review Velocity
 Included PR reviews per developer each hour (additional reviews available on consumption with the ability to cap budgets)
-5
+5*
 CodeRabbit AI Engineer
 Trigger the CodeRabbit cloud-based coding agent to execute changes, refactoring, or custom final touches without leaving the PR
 On-demand
@@ -337,10 +337,10 @@ How many repos CodeRabbit works across
 20
 Review Velocity
 Included PR reviews per developer each hour (additional reviews available on consumption with the ability to cap budgets)
-5
-8
-10
-12
+5*
+8*
+10*
+12*
 CodeRabbit AI Engineer
 Trigger the CodeRabbit cloud-based coding agent to execute changes, refactoring, or custom final touches without leaving the PR
 On-demand
@@ -533,6 +533,10 @@ Not included
 Not included
 Not included
 Available
+* Subject to
+Fair Usage Policy
+:
+Opens in a new tab
 Frequently Asked Questions
 Are Essentials and Team new plans?
 Will the plan renaming change my price?

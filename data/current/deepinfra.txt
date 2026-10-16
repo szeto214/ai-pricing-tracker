@@ -2,6 +2,8 @@ DeepInfra raises $107M Series B to scale the inference cloud —
 read the announcement
 Models
 Automatic Speech Recognition
+Other
+Decision
 Embeddings
 Reranker
 Text Generation
@@ -562,6 +564,11 @@ NVIDIA-Nemotron-3.5-Lightning
 $0.06 / $0.03 cached
 $0.16
 View more
+NVIDIA-Nemotron-3.5-Super-VL
+256k
+$0.20 / $0.10 cached
+$1.00
+View more
 Nemotron-Content-Safety-3.5
 128k
 $0.20
@@ -586,6 +593,11 @@ NVIDIA-Nemotron-3.5-Lightning
 256k
 $0.06 / $0.03 cached
 $0.16
+View more
+NVIDIA-Nemotron-3.5-Super-VL
+256k
+$0.20 / $0.10 cached
+$1.00
 View more
 Nemotron-Content-Safety-3.5
 128k
@@ -767,6 +779,26 @@ $0.00300
 View more
 Voxtral-Mini-3B-2507
 $0.00100
+View more
+Nemotron Speech
+NVIDIA Nemotron speech models for streaming multilingual transcription and speaker diarization.
+Model
+$ per minute of audio input
+Actions
+Nemotron-3-Diarization
+$0.00060
+View more
+Nemotron-3.5-ASR-Streaming-Multilingual-0.6b
+$0.00020
+View more
+Model
+$ per minute of audio input
+Actions
+Nemotron-3-Diarization
+$0.00060
+View more
+Nemotron-3.5-ASR-Streaming-Multilingual-0.6b
+$0.00020
 View more
 Less than 10 billion parameters
 Our fastest and best value models but they might not be so precise.
@@ -1022,37 +1054,37 @@ Trust Center
 Status
 DeepGPT
 Latest Models
+Cloudflare
+/
+clef-flash
 Bria
 /
 remove_background_guided
 inclusionAI
 /
 Ling-3.1-flash
-google
+Cloudflare
 /
-embeddinggemma-2
-stepfun-ai
+clef
+nace-ai
 /
-Step-5-Preview
-anthropic
-/
-claude-sonnet-5-5
+drex-v1.5
 Featured Models
-stepfun-ai
+XiaomiMiMo
 /
-Step-5-Preview
+MiMo-V2.6-Pro
 nvidia
 /
 NVIDIA-Nemotron-3-Super-120B-A12B
-tencent
+google
 /
-Hy4-preview
-Qwen
+gemma-4-31B-it
+black-forest-labs
 /
-Qwen3.6-35B-A3B
-zai-org
+FLUX-2-klein-9b
+moonshotai
 /
-GLM-5.2
+Kimi-K3
 © 2026 DeepInfra. All rights reserved.
 Privacy Policy
 Terms of Service

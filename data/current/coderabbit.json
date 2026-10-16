@@ -6,9 +6,9 @@
   "url": "https://www.coderabbit.ai/pricing",
   "final_url": "https://www.coderabbit.ai/pricing",
   "parser_version": 4,
-  "content_hash": "6a8612d0d1f640aa37233eb847a5e854b149112cbd771087341319d27908c367",
-  "raw_hash": "2c2504602efb88a048315e038939b5b8e51bbd60937984210cc44050afe130ab",
-  "text_bytes": 15459,
+  "content_hash": "f0ea06ebdc32d9eeaf5a151a9883e8b291aa56e33ce7dcfd9dd5f4bfa107d38f",
+  "raw_hash": "19ab8b568b837f479eb2b1e9d4077e75821190ef62d9ee2d653f70a473bccbd6",
+  "text_bytes": 15516,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -177,10 +177,10 @@
         ],
         [
           "Review Velocity Included PR reviews per developer each hour (additional reviews available on consumption with the ability to cap budgets)",
-          "5",
-          "8",
-          "10",
-          "12"
+          "5*",
+          "8*",
+          "10*",
+          "12*"
         ],
         [
           "CodeRabbit AI Engineer Trigger the CodeRabbit cloud-based coding agent to execute changes, refactoring, or custom final touches without leaving the PR",

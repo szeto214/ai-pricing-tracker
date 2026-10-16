@@ -6,8 +6,8 @@
   "url": "https://fal.ai/pricing",
   "final_url": "https://fal.ai/pricing",
   "parser_version": 4,
-  "content_hash": "09159920c59193273eae7b76f39e10ad64d1d782c453a84b8c9024773ba03699",
-  "raw_hash": "91e447fe79b21b077a1e5044714417c36d23ca444c6b6158c4f3406889e845a3",
+  "content_hash": "46ab816d76d1dcf9857594ca711106f15bba53f771eb0989738f284c4c563a3f",
+  "raw_hash": "d4b9b92ea4adc53e83be27ef8d9c50d5f1585a81d6bfb16ec81f3b643fe3d171",
   "text_bytes": 5436,
   "currency_hints": [],
   "extractor": "jsonld",
@@ -311,8 +311,8 @@
       "model": "Flux 3 Image blackforestlabs/flux-3/edit-image",
       "prices": {
         "price": {
-          "raw": "$0.024",
-          "amount": 0.024
+          "raw": "$0.048",
+          "amount": 0.048
         }
       },
       "currency": "USD",
@@ -792,8 +792,8 @@
         [
           "Flux 3 Image blackforestlabs/flux-3/edit-image",
           "megapixels",
-          "$0.024",
-          "41.67 megapixels"
+          "$0.048",
+          "20.83 megapixels"
         ],
         [
           "GPT Image 2 API openai/gpt-image-2/edit",

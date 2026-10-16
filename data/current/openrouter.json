@@ -6,13 +6,24 @@
   "url": "https://openrouter.ai/models",
   "final_url": "https://openrouter.ai/models",
   "parser_version": 4,
-  "content_hash": "ff87cc5fe69288dc881fcc649695e2169f751f3e635349e2cacb86d93769e4fb",
-  "raw_hash": "ace191adcdfdb52fdcff87e17e2d441de6356261e85a4d412511097064516189",
-  "text_bytes": 9827,
+  "content_hash": "ab5023d2190b33f4e735e550a3da27fc219d44ec3a356b51519cda5773732073",
+  "raw_hash": "1c6097e914708b3821eb8aeda25eb2f553c60661985947a5d2bc89db43165530",
+  "text_bytes": 8312,
   "currency_hints": [],
   "extractor": "dom",
-  "confidence": "low",
+  "confidence": "medium",
   "plans": [
+    {
+      "name": "Krea: K3 Edit",
+      "price_raw": "$0.03",
+      "amount": 0.03,
+      "currency": "USD",
+      "period": "image",
+      "features": [],
+      "slot_prices": [
+        0.03
+      ]
+    },
     {
       "name": "HeyGen: HeyGen Voice",
       "price_raw": "$15",

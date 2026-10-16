@@ -6,9 +6,9 @@
   "url": "https://fireworks.ai/pricing",
   "final_url": "https://fireworks.ai/pricing",
   "parser_version": 4,
-  "content_hash": "b1c8d2a733d46e79fb45af03bd588386aceab33b8b4c1f84ced01dbf3e431705",
-  "raw_hash": "2512f11d777efb9a66b238900cf38199e1fa593d334708817a5938136c255d9d",
-  "text_bytes": 3831,
+  "content_hash": "5f2dc0729424120a5c7d45a4cf159b24e42aeac3720a27925838f5ed65cf73ca",
+  "raw_hash": "549867b547eb4229ed5b6d4a01bcc1a5126b90272389e71388f4e7122dd3dac3",
+  "text_bytes": 3934,
   "currency_hints": [],
   "extractor": "none",
   "confidence": "low",
@@ -145,6 +145,54 @@
       },
       "currency": "USD",
       "unit": ""
+    },
+    {
+      "key": "muse spark open",
+      "model": "Muse Spark Open",
+      "prices": {
+        "prefill / 1m": {
+          "raw": "$6.19",
+          "amount": 6.19
+        },
+        "cached prefill / 1m": {
+          "raw": "$1.239",
+          "amount": 1.239
+        },
+        "sample / 1m": {
+          "raw": "$15.48",
+          "amount": 15.48
+        },
+        "train / 1m": {
+          "raw": "$18.58",
+          "amount": 18.58
+        }
+      },
+      "currency": "USD",
+      "unit": "/ 1m"
+    },
+    {
+      "key": "deepseek v4.1 flash",
+      "model": "DeepSeek V4.1 Flash",
+      "prices": {
+        "prefill / 1m": {
+          "raw": "$0.60",
+          "amount": 0.6
+        },
+        "cached prefill / 1m": {
+          "raw": "$0.12",
+          "amount": 0.12
+        },
+        "sample / 1m": {
+          "raw": "$3.60",
+          "amount": 3.6
+        },
+        "train / 1m": {
+          "raw": "$4.98",
+          "amount": 4.98
+        }
+      },
+      "currency": "USD",
+      "unit": "/ 1m"
     },
     {
       "key": "glm 5.3 flash",
@@ -443,6 +491,22 @@
           "Cached Prefill / 1M",
           "Sample / 1M",
           "Train / 1M"
+        ],
+        [
+          "Muse Spark Open",
+          "256K",
+          "$6.19",
+          "$1.239",
+          "$15.48",
+          "$18.58"
+        ],
+        [
+          "DeepSeek V4.1 Flash",
+          "256K",
+          "$0.60",
+          "$0.12",
+          "$3.60",
+          "$4.98"
         ],
         [
           "GLM 5.3 Flash",

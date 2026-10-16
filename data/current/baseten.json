@@ -6,9 +6,9 @@
   "url": "https://www.baseten.co/pricing/",
   "final_url": "https://www.baseten.co/pricing/",
   "parser_version": 4,
-  "content_hash": "721d0e7f3ff75a0ea79859deeb6a5f0f82dcccdf59cd296da038791fca4bd9eb",
-  "raw_hash": "6d54e7a410a64438fa6421a78d8462ae3b0ac6fa4d9005a67fc3857854e9b74a",
-  "text_bytes": 5845,
+  "content_hash": "250e12c88bca2b80036ab60c20c2c3d2877f679dd1c485f068fdd5806f6fc284",
+  "raw_hash": "806b18dacceaa38ee78080bb848cd94be31b1cdc41ec5754e7e825a9d71ff332",
+  "text_bytes": 5957,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -116,19 +116,6 @@
       ]
     },
     {
-      "name": "DeepSeek V4 Pro 0813",
-      "price_raw": "$1.32",
-      "amount": 1.32,
-      "currency": "USD",
-      "period": null,
-      "features": [],
-      "slot_prices": [
-        1.32,
-        0.132,
-        3.96
-      ]
-    },
-    {
       "name": "DeepSeek-V4-Flash-0731",
       "price_raw": "$0.13",
       "amount": 0.13,
@@ -142,6 +129,19 @@
       ]
     },
     {
+      "name": "DeepSeek V4 Pro 0813",
+      "price_raw": "$1.32",
+      "amount": 1.32,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        1.32,
+        0.132,
+        3.96
+      ]
+    },
+    {
       "name": "Kimi K3",
       "price_raw": "$3.00",
       "amount": 3.0,
@@ -152,6 +152,19 @@
         3.0,
         0.3,
         15.0
+      ]
+    },
+    {
+      "name": "Nemotron 3.5 Super VL",
+      "price_raw": "$0.20",
+      "amount": 0.2,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        0.2,
+        0.04,
+        0.5
       ]
     },
     {
@@ -243,17 +256,6 @@
       "features": [],
       "slot_prices": [
         0.00173
-      ]
-    },
-    {
-      "name": "4x16",
-      "price_raw": "$0.00346",
-      "amount": 0.00346,
-      "currency": "USD",
-      "period": null,
-      "features": [],
-      "slot_prices": [
-        0.00346
       ]
     }
   ],

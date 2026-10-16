@@ -7,7 +7,7 @@
   "final_url": "https://resend.com/pricing",
   "parser_version": 4,
   "content_hash": "8b34fd0f7b2a66cb0bc121feb549806ef5755e2491574f823e6d4382efaed3e0",
-  "raw_hash": "1e102d225e2320f94de8801b5786831568be2da52fd1fb2775929bdee46306bb",
+  "raw_hash": "fd6ac5befe32fccb6c12f4f3c7b139f9579cfef43ad4e234999e7fe8752c88bc",
   "text_bytes": 9796,
   "currency_hints": [],
   "extractor": "dom",

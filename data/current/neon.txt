@@ -1,4 +1,4 @@
-Major update to our Free Plan: now with 1 GB of Postgres storage per project, 100 projects included
+Neon now has realtime: Live SQL with full reactivity. Try it in Beta today
 Neon
 Discord
 23.2k
@@ -21,6 +21,7 @@ Backend
 Managed Better Auth
 5 GB of Object Storage
 Functions
+Realtime (Beta)
 Launch
 Usage-based
 Typical spend:
@@ -44,6 +45,7 @@ Managed Better Auth
 Object Storage
 Functions
 AI Gateway
+Realtime (Beta)
 Scale
 Usage-based
 Typical spend:
@@ -67,6 +69,7 @@ Managed Better Auth
 Object Storage
 Functions
 AI Gateway
+Realtime (Beta)
 Special programs
 Agent Plan
 App generation platforms
@@ -113,6 +116,8 @@ Stored volume
 Functions
 Compute and invocations
 AI Gateway
+Realtime
+Beta
 Network
 IP Allow Rules
 Private Networking
@@ -157,6 +162,7 @@ Compute
 400 waiting capacity-hours per project
 Invocations
 1M invocations per project
+Free during beta
 5 GB per project included
 1 day
 Unlimited
@@ -190,6 +196,8 @@ Invocations
 $0.60 per 1M invocations
 List prices here
 Prepaid credits
+Free during beta
+Compute and egress billed as usual
 500 GB per project included
 then $0.10/GB
 3 days
@@ -223,6 +231,8 @@ Invocations
 $0.60 per 1M invocations
 List prices here
 Prepaid credits
+Free during beta
+Compute and egress billed as usual
 500 GB per project included
 then $0.10/GB
 $0.01 per GB

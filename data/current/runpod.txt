@@ -331,7 +331,7 @@ GB
 B300
 Maximum throughput for big models.
 $
-9.98
+10.65
 /hr
 180
 GB
@@ -432,12 +432,12 @@ Per hour
 Per second
 H200 SXM
 $
-4.31
+6.35
 /hr
 H200 SXM
 A100 SXM
 $
-1.79
+2.15
 /hr
 A100 SXM
 L40S

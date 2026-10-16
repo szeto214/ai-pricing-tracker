@@ -187,7 +187,12 @@ Absolutely. We have a self hosting guide
 right here
 .
 How long can a task run for?
-Tasks can run for as long as you need, with no timeouts.
+Runs have no maximum duration. You set a default
+maxDuration
+for your project and can override it per task or per run, or set it to
+timeout.None
+to let a run execute indefinitely.
+Trigger is built for long running AI agents and workflows and we have seen Trigger.dev users with runs lasting more than six months.
 Where are my tasks run?
 On our managed infrastructure. Your task code lives in
 trigger

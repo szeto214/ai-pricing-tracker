@@ -6,9 +6,9 @@
   "url": "https://neon.com/pricing",
   "final_url": "https://neon.com/pricing",
   "parser_version": 4,
-  "content_hash": "dbb191be106ad22eb0964e99127015a179136dbbf549ebbe40e0acd90b55cd88",
-  "raw_hash": "3a2b7f878b4f89e5aca7392732ec2e5d74bab0f46cea1407319de930063d2e8c",
-  "text_bytes": 18093,
+  "content_hash": "cf325b1120e55cf84c48b6282b4531307fc7e19ae8184862f9cb17aab0eb7606",
+  "raw_hash": "758fcef70ca4d7e53061cf2c12665dea4e220490a6da2d21003896400f5e7ae0",
+  "text_bytes": 18251,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -39,7 +39,8 @@
         "Managed Better Auth",
         "Object Storage",
         "Functions",
-        "AI Gateway"
+        "AI Gateway",
+        "Realtime (Beta)"
       ],
       "slot_prices": [
         15.0
@@ -60,7 +61,8 @@
         "Managed Better Auth",
         "Object Storage",
         "Functions",
-        "AI Gateway"
+        "AI Gateway",
+        "Realtime (Beta)"
       ],
       "slot_prices": [
         701.0
@@ -109,6 +111,7 @@
         "$0.023 per GB-month",
         "Compute $0.10 per active capacity-hour $0.025 per waiting capacity-hour Invocations $0.60 per 1M invocations",
         "List prices here Prepaid credits",
+        "Free during beta Compute and egress billed as usual",
         "500 GB per project included then $0.10/GB",
         "3 days",
         "Unlimited",
@@ -139,6 +142,7 @@
         "$0.023 per GB-month",
         "Compute $0.12 per active capacity-hour $0.03 per waiting capacity-hour Invocations $0.60 per 1M invocations",
         "List prices here Prepaid credits",
+        "Free during beta Compute and egress billed as usual",
         "500 GB per project included then $0.10/GB",
         "$0.01 per GB",
         "14 days",

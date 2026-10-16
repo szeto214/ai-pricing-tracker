@@ -605,27 +605,88 @@ Free
 10,000 / day
 Paid
 $1.00 / million read queries
-Pipelines
-Transform and route data streams
+Basin
+Ingest, catalog, and query data with monthly included usage.
+Basin Pipelines
+Transform streams and deliver data to your destinations
 Component
 Free
 Paid
-Ingestion
-Not available
-TBD (free during beta)
-Delivery to R2
-Not available
-TBD (free during beta)
-Ingestion
+Stream ingress
+Unlimited
 Free
-—
-Paid
-TBD (free during beta)
-Delivery to R2
+SQL transforms
+50 GB / month
+$0.04 / GB
+Sink delivery, JSON
+50 GB / month shared across sinks
+$0.03 / GB
+Sink delivery, Parquet or Iceberg
+50 GB / month shared across sinks
+$0.06 / GB
+Stream ingress
 Free
-—
+Unlimited
 Paid
-TBD (free during beta)
+Free
+SQL transforms
+Free
+50 GB / month
+Paid
+$0.04 / GB
+Sink delivery, JSON
+Free
+50 GB / month shared across sinks
+Paid
+$0.03 / GB
+Sink delivery, Parquet or Iceberg
+Free
+50 GB / month shared across sinks
+Paid
+$0.06 / GB
+Basin Catalog
+Manage tables and optionally compact their data
+Component
+Free
+Paid
+Catalog operations
+1 million / month
+$9 / million operations
+Compaction data processed
+10 GB / month
+$0.005 / GB
+Compaction objects processed
+1 million / month
+$2 / million objects
+Catalog operations
+Free
+1 million / month
+Paid
+$9 / million operations
+Compaction data processed
+Free
+10 GB / month
+Paid
+$0.005 / GB
+Compaction objects processed
+Free
+1 million / month
+Paid
+$2 / million objects
+Basin SQL
+Query R2 data, billed by compressed data scanned
+Component
+Free
+Paid
+Compressed data scanned
+10 GB / month
+$0.0025 / GB
+Compressed data scanned
+Free
+10 GB / month
+Paid
+$0.0025 / GB
+R2 storage and operations are billed separately. Sink delivery is billed by uncompressed data sent to each destination. Basin SQL is $2.50 / TB with a 10 MB minimum billable scan per query. Compaction charges apply only when enabled.
 TURN / SFU
 WebRTC infrastructure for real-time communication
 Component

@@ -20,6 +20,7 @@ Up to 50 tagged resources to start
 Ephemeral resources enable short-lived workloads like CI/CD runners and Kubernetes pods. Premium plan is ideal for heavy usage.
 Access nearly all of Tailscale’s features
 Try SSH and Kubernetes features
+Most popular
 Standard
 For teams adopting the Tailscale platform as a secure connectivity solution and more.
 $8
@@ -34,7 +35,7 @@ Ephemeral resources enable short-lived workloads like CI/CD runners and Kubernet
 Configure Tailscale with MDM tools
 Device posture integrations with MDM, EDR, XDR
 Advanced user roles for billing, IT, auditors, and more
-Most popular
+Our best self-serve plan to try all of Tailscale’s products
 Premium
 For organizations wanting the most from the Tailscale platform with advanced compliance needs, heavy ephemeral resource use, and AI security.
 $18
@@ -49,7 +50,6 @@ Advanced Tailscale SSH
 Network flow logs
 Log streaming
 Regional routing and traffic steering
-Our best self-serve plan to try all of Tailscale’s products
 Enterprise
 For enterprises running the full Tailscale platform, extending into multiple products like PAM, AI security, CI/CD, Edge & IoT, and Kubernetes connectivity at scale, and more.
 Custom
@@ -212,24 +212,50 @@ Get started
 Frequently asked questions
 Free trial
 Does Tailscale offer a free trial?
-Yes! Business customers can enjoy a 14-day free trial of the product with no user limit. After the 14-day trial, you’ll just need to choose a plan to keep using Tailscale. If you need an extension, our sales team is happy to help, and we’ll talk through your options.
-Personal users have access to the free tier plan, which will be free forever.
+Yes! When you sign up for Tailscale with a custom domain, your tailnet starts with a 14-day Enterprise trial.
+During the trial, you can explore all Enterprise features with unlimited users, devices, and usage, so you can evaluate Tailscale across your team and network without needing to choose a plan right away.
+After the 14-day trial, you’ll need to choose a plan to continue unrestricted use of Tailscale. Before or after your trial ends, visit the Plans page to choose the plan that best fits how you're using Tailscale. Once you've selected a plan, your tailnet can continue growing, and you can make configuration changes normally.
+If you need an extension, our sales team is happy to help, and we’ll talk through your options.
+Personal users have access to the free tier plan for non-commercial use, which will be free forever.
+What do I have access to with a free trial?
+For 14 days, you have access to the full Enterprise experience, including all Enterprise features and no limits on users, devices, or usage.
+You can use this time to:
+Add users and devices.
+Configure your tailnet.
+Try advanced networking and security features.
+Evaluate Tailscale with your team before choosing the plan that fits your needs.
+You can choose a plan at any time during or after the trial from the
+Plans
+page.
+What happens when the trial ends?
+If you haven't selected a plan after 14 days, your existing tailnet keeps working. Existing users and devices remain connected, and you can continue using your network.
+Until you choose a plan, however, some changes are restricted. These changes include, but are not limited to:
+New users and devices cannot become active.
+Pending users and devices cannot be approved.
+New auth keys cannot be created.
+Some device configuration and tailnet settings cannot be changed.
+You can still view your configuration, remove users or devices, update Tailscale clients, and make security-related changes.
+Choosing a plan restores full access to tailnet changes. Any users or devices that joined while your trial was inactive will remain pending until an administrator approves them.
 Can I get a trial of a paid plan from the Personal plan?
 We highly recommend signing up with a separate work email. This way, you get access to our full suite of enterprise features, which ensures you get the most out of your trial period.
 If you don’t have access to a work email, our sales team is happy to help.
 How do I upgrade or downgrade to a new plan?
 First, make sure that you’re either the account Owner, Admin, or Billing admin for the tailnet. If you are on a monthly subscription plan or a Personal plan, you can change your plan from the Billing page of the admin console.
-If you are on an annual subscription plan and would like to make any changes, our sales team is happy to help. We’ll help sort it out.
+If you are on an annual subscription plan and would like to make any changes, our sales team is happy to help.
 What is the difference between business and personal use? What determines who gets access to trials and who stays on the Personal plan?
-Our Personal plan is for individuals who want to use Tailscale at home. This is a free plan and is only suitable for non-commercial use of Tailscale. It’s perfect for things like building a homelab or home VPN, playing games with friends, or securely connecting to anything from a DigitalOcean droplet to a Raspberry Pi, home security camera, or even a Steam Deck.
+Our Personal plan is for individuals who want to use Tailscale at home. This is a free plan and is only suitable for non-commercial use of Tailscale. It’s perfect for things like building a homelab or home VPN, playing games with friends, or securely connecting to anything from a DigitalOcean droplet to a Raspberry Pi, home security camera, Steam Deck, and more.
 If you create a tailnet with a public domain, such as Gmail, Apple, or a personal GitHub account, it’s treated as personal use. These tailnets are automatically enrolled in the free Personal plan.
-If you create a tailnet with a custom domain, it’s considered business use, and you’ll be automatically enrolled in a free trial. This setup is ideal for securely connecting critical infrastructure like production clusters, Kubernetes clusters, on-premise databases, and more.
-I am a user with a custom domain (e.g., @example.com ) who plans to use Tailscale for personal use. Can I opt out of the trial?
-Yes, you can opt out of the trial in the admin console. Once the trial ends, you will be on the Personal plan.
-Please note, however, that the Personal plan is not intended for commercial use. If you sign up for Tailscale with your work email or other custom domains (e.g., @acme.com), then the Tailscale account is owned by the company or organization that owns and controls that email domain, regardless of which plan you are on.
+If you create a tailnet with a custom domain, it’s considered business use, and you’ll be automatically enrolled in a free trial. This setup is ideal for securely connecting critical infrastructure like production clusters, Kubernetes clusters, on-premises databases, and more.
+I signed up with a custom domain. Can I still use Tailscale for personal use?
+If you signed up with a custom domain but you're using Tailscale for personal use, you don't need an Enterprise plan.
+You can choose Tailscale's generous
+Free
+plan from the
+Plans
+page and continue using Tailscale for your personal tailnet.
 Do you offer discounts for non-profits or educational institutions?
 Yes! Tailscale offers special pricing for eligible not-for-profit organizations and educational institutions.
-To receive the discount, you’ll need documentation of your registered entity. Choose your plan on the Billing page of the admin console and reach out to our Support team—we’ll take care of applying the appropriate discount
+To receive the discount, you’ll need documentation of your registered entity. Choose your plan on the Billing page of the admin console and reach out to our Support team—we’ll take care of applying the appropriate discount.
 Seat-based pricing, devices, and resources
 Why does Tailscale use a seat-based pricing model?
 Our pricing model is focused on giving you more value and ensuring your bill is as predictable as possible. Previously, we charged based on monthly active users, but we heard from customers that this led to unpredictable billing.

@@ -6,9 +6,9 @@
   "url": "https://huggingface.co/pricing",
   "final_url": "https://huggingface.co/pricing",
   "parser_version": 4,
-  "content_hash": "896ca5da35077934fd06975a9b296748416918711e2172a78dc2b2add211bc35",
-  "raw_hash": "160e7f4b8925b53a77844d44153e5c2283235cb456eb473022fe8285e3b7bbf3",
-  "text_bytes": 22163,
+  "content_hash": "f06359b2b5b84b899256021f94bf68b5d897e66447bc41c2d438912b471d49a0",
+  "raw_hash": "406a291af28edbce3569596ce4f1fa2689cdcb585ce563b3e57a7c06a7102da1",
+  "text_bytes": 22451,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -325,6 +325,54 @@
       },
       "currency": "USD",
       "unit": ""
+    },
+    {
+      "key": "1x nvidia rtx pro 6000",
+      "model": "1x Nvidia RTX PRO 6000",
+      "prices": {
+        "hourly price": {
+          "raw": "$2.75",
+          "amount": 2.75
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "2x nvidia rtx pro 6000",
+      "model": "2x Nvidia RTX PRO 6000",
+      "prices": {
+        "hourly price": {
+          "raw": "$5.50",
+          "amount": 5.5
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "4x nvidia rtx pro 6000",
+      "model": "4x Nvidia RTX PRO 6000",
+      "prices": {
+        "hourly price": {
+          "raw": "$11.00",
+          "amount": 11.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "8x nvidia rtx pro 6000",
+      "model": "8x Nvidia RTX PRO 6000",
+      "prices": {
+        "hourly price": {
+          "raw": "$22.00",
+          "amount": 22.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
     }
   ],
   "tables": [
@@ -474,6 +522,38 @@
           "Nvidia A100",
           "640 GB",
           "$20.00"
+        ],
+        [
+          "1x Nvidia RTX PRO 6000",
+          "23 vCPU",
+          "256 GB",
+          "Nvidia RTX PRO 6000",
+          "96 GB",
+          "$2.75"
+        ],
+        [
+          "2x Nvidia RTX PRO 6000",
+          "46 vCPU",
+          "512 GB",
+          "Nvidia RTX PRO 6000",
+          "192 GB",
+          "$5.50"
+        ],
+        [
+          "4x Nvidia RTX PRO 6000",
+          "92 vCPU",
+          "1024 GB",
+          "Nvidia RTX PRO 6000",
+          "384 GB",
+          "$11.00"
+        ],
+        [
+          "8x Nvidia RTX PRO 6000",
+          "184 vCPU",
+          "2048 GB",
+          "Nvidia RTX PRO 6000",
+          "768 GB",
+          "$22.00"
         ],
         [
           "Custom",

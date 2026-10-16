@@ -4435,7 +4435,7 @@ Is this available in all regions?
 Quality Monitoring is available in all our AP, EU, and US data centers. It is currently not available in GovCloud (US).
 Code Security
 Fix critical code and library vulnerabilities from development to production
-Static & Runtime Code Security
+Security Bundles
 Static Code Security
 Runtime Code Security
 Static Code Analysis (SAST)
@@ -4524,7 +4524,7 @@ Reduce mean-time-to-remediate with actionable remediation guidance
 15
 on-demand
 Start Free Trial
-Code Security
+Core Bundle
 Starting At
 $
 40
@@ -4538,12 +4538,48 @@ Manage and track remediation of findings in one place
 57.60
 on-demand
 Start Free Trial
+Flex Bundle (Secrets)
+Starting At
+$
+48
+Per committer,
+per month*
+Enhanced security with additional protection
+Everything in Core Bundle
+Secret Scanning
+*Billed annually or $
+70
+on-demand
+Start Free Trial
+Advanced Bundle
+Starting At
+$
+55
+Per committer,
+per month*
+Complete security coverage for enterprises
+Everything in Core Bundle
+Secret Scanning and Infrastructure as Code Security
+*Billed annually or $
+80
+on-demand
+Start Free Trial
 Multi-Year/Volume discounts available
 Contact Us
 Features
+Core Bundle
+Flex Bundle (Secrets)
+Advanced Bundle
+Security Bundles
+Static Code Analysis (SAST)
+Software Composition Analysis (Static SCA)
+Runtime Code Analysis (IAST)
+Software Composition Analysis (Runtime SCA)
+Secret Scanning
+Infrastructure as Code Security
 Static Code Analysis (SAST)
 Static SCA
-Code Security
+Core Bundle
 Static Features
 Integrate security directly into developers’ IDEs for real-time feedback
 Find vulnerabilities in your first-party code early by
@@ -4559,7 +4595,7 @@ Free when triggered from security findings and signals
 Free when triggered from security findings and signals
 Runtime Code Analysis (IAST)
 Runtime SCA
-Code Security
+Core Bundle
 Runtime Features
 Integrate security directly into developers’ IDEs for real-time feedback
 Find vulnerabilities in
@@ -4587,18 +4623,19 @@ here
 How do you define a committer?
 A committer means an active Git committer; they are identified through their Git author email address. A committer is counted towards billing if they commit at least 3 times in a given month.
 For Runtime SCA and Runtime Code Analysis (IAST) purchased as part of Code Security, how many hosts can I run on?
-You can use Runtime SCA and Runtime Code Analysis (IAST) on any host with APM installed.
+You can use Runtime SCA and Runtime Code Analysis (IAST) on any host with the Datadog agent installed.
 What counts as a billable Datadog Runtime Code Analysis (IAST) or Runtime SCA host?
 Similar to Datadog APM, a Datadog Runtime Code Analysis (IAST) host and a Runtime SCA host are hosts on which Datadog Runtime Code Analysis (IAST) and/or Runtime SCA are enabled and that are actively generating spans that are being submitted to the Datadog SaaS application.
 What kind of billing plan do I need to run Datadog Runtime Code Analysis (IAST) and Runtime SCA?
-Datadog Runtime Code Analysis (IAST) and Runtime SCA are currently only available to customers of Datadog Application Performance Monitoring (APM).
+The Datadog Agent and SDK are the only requirements for IAST and runtime SCA. APM tracing and Infrastructure Monitoring are not required; IAST and runtime SCA report findings independently of both.
+However even if APM is disabled, APM intake costs are still incurred for ingesting data, such as security traces and spans, to support IAST.
 Does Runtime SCA support AWS Fargate (serverless containers) and how is it charged?
 Yes, AWS Fargate is supported by Runtime SCA. If Runtime SCA is purchased standalone, the AWS Fargate add-on must be purchased at $
 1
 per task, or $
 1.40
 on demand.
-If Runtime SCA is purchased as part of Code Security, it can run on any AWS Fargate task that has APM installed.
+If Runtime SCA is purchased as part of Code Security, it can run on any AWS Fargate task with the Datadog Agent and SDK installed. APM is not required.
 What languages does Datadog Static Code Analysis (SAST) support?
 Java, .NET, Javascript, Typescript, Python, Go, PHP, Ruby, Kotlin, and more. Learn more about supported languages in our
 documentation

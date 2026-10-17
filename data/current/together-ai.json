@@ -6,9 +6,9 @@
   "url": "https://www.together.ai/pricing",
   "final_url": "https://www.together.ai/pricing",
   "parser_version": 4,
-  "content_hash": "d6d64fab2fbe0f81ceb66415ea0887b2fe3b67d21791a6e50f2fe48c863a9789",
-  "raw_hash": "572146d125f892eedc9b13455026419ad12dace172c6395e2c378e4b914ad1dd",
-  "text_bytes": 9380,
+  "content_hash": "0d50564a7a183b61e21412951474e6c948bda34498f1633e3e8af6b9a9c876cf",
+  "raw_hash": "e5ca79eed89df1ea6c0fc96866cdbf2e7a2ebbd2fe13e1ef61cda0178ade619e",
+  "text_bytes": 9423,
   "currency_hints": [],
   "extractor": "jsonld",
   "confidence": "medium",
@@ -1117,6 +1117,11 @@
           "Tev1 4B Experimental",
           "$0.04",
           "Free"
+        ],
+        [
+          "Reflection Beam",
+          "$0.40 $0.04 (cached)",
+          "$1.20"
         ],
         [
           "Muse Spark Open (Free for limited time) PROMO Promotion valid until 10/18/2026",

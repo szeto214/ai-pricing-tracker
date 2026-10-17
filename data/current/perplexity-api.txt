@@ -132,20 +132,43 @@ Model
 Price ($/1M input tokens)
 Output tokens
 Per-request fee
+pplx-decider-v1.2
+$0.02
+Free
+None
+pplx-decider-flash-v1.2
+$0.01
+Free
+None
+Aliases:
+pplx-decider-latest
+and
+perplexity/pplx-decider-latest
+select
+pplx-decider-v1.2
+.
+pplx-decider-flash-latest
+and
+perplexity/pplx-decider-flash-latest
+select
+pplx-decider-flash-v1.2
+. An alias bills at the rate of the model it selects. Requests that name
 pplx-decider-v1.1-27b
-$0.02
-Free
-None
+or
 pplx-decider-v1-27b
-$0.02
-Free
-None
+select
+pplx-decider-v1.2
+and bill at $0.02.
 Billing unit:
 you pay for input tokens only. The
 state
 , every question, and any images count as input; the response reports the exact number as
 usage.input_tokens
-, so you can compute the cost of a request from the response you already receive. A request with 600 input tokens costs $0.000012.
+, so you can compute the cost of a request from the response you already receive. A request with 600 input tokens costs $0.000012 on
+pplx-decider-v1.2
+and $0.000006 on
+pplx-decider-flash-v1.2
+.
 View Decisions API Documentation
 Learn how to ask structured questions and read the probabilities the Decisions API returns.
 Token and Cost Glossary

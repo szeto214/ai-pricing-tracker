@@ -566,8 +566,8 @@ $0.16
 View more
 NVIDIA-Nemotron-3.5-Super-VL
 256k
-$0.20 / $0.10 cached
-$1.00
+$0.10 / $0.08 cached
+$0.40
 View more
 Nemotron-Content-Safety-3.5
 128k
@@ -596,8 +596,8 @@ $0.16
 View more
 NVIDIA-Nemotron-3.5-Super-VL
 256k
-$0.20 / $0.10 cached
-$1.00
+$0.10 / $0.08 cached
+$0.40
 View more
 Nemotron-Content-Safety-3.5
 128k
@@ -1070,21 +1070,21 @@ nace-ai
 /
 drex-v1.5
 Featured Models
-XiaomiMiMo
-/
-MiMo-V2.6-Pro
 nvidia
 /
 NVIDIA-Nemotron-3-Super-120B-A12B
-google
-/
-gemma-4-31B-it
 black-forest-labs
 /
 FLUX-2-klein-9b
-moonshotai
+google
 /
-Kimi-K3
+gemma-4-31B-it
+google
+/
+gemma-4-26B-A4B-it
+zai-org
+/
+GLM-5.2
 © 2026 DeepInfra. All rights reserved.
 Privacy Policy
 Terms of Service

@@ -793,7 +793,7 @@ Automatic service discovery and dependency mapping (Universal Service Monitoring
 RED metrics based on 100% of traffic with 15-month retention
 Correlate traces with metrics, logs, processes, network data, and more
 *With Infrastructure Monitoring attached: billed annually or $
-48
+36
 on-demand
 Start Free Trial
 APM Pro
@@ -808,7 +808,7 @@ Automatic dependency mapping of all queues, consumers, and producers
 End-to-end pipeline latency and consumer lag metrics
 Faulty queue detection
 *With Infrastructure Monitoring attached: billed annually or $
-54
+42
 on-demand
 Start Free Trial
 APM Enterprise
@@ -826,7 +826,7 @@ CPU and memory code profiles for resource and cost optimization
 Code performance comparisons across versions
 Actionable insights with automatic code analysis
 *With Infrastructure Monitoring attached: billed annually or $
-60
+48
 on-demand
 Start Free Trial
 Features
@@ -2689,7 +2689,7 @@ $
 160
 per month
 100K LLM spans per month included. Additional spans: $
-3.5
+3.50
 per 10K LLM spans.
 For teams at scale
 100K LLM spans per month included
@@ -2740,13 +2740,13 @@ per month month-to-month and $
 per month on an annual commitment.
 For additional LLM spans, we offer the following options:
 $
-3.5
+3.50
 per 10K LLM spans (billed annually)
 $
 4.20
 per 10K LLM spans (billed month-to-month)
 $
-5.00
+5
 per 10K LLM spans (billed on-demand)
 Every tier includes the full agent engineering platform from day one, including tracing, evaluations, playground, datasets, experiments, annotations, dashboards, and CLI and MCP access. Extended data retention is available. See “How long is data retained and can it be extended?” for details. Multi-year and volume discounts are also available.
 Do I need to purchase other Datadog products to use Agent Observability?
@@ -4213,9 +4213,9 @@ per task ($
 on demand)
 Serverless Applications - AWS Lambda, GCP Cloud Run, Azure App Service, Azure Container Apps, Azure Function
 $
-2
+10
 per million traced invocations ($
-2.90
+15
 on demand)
 Support Plans & Post Sales Services
 From basic plans to bespoke offerings, Datadog offers the right level of support & services for any organization.

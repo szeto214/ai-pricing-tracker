@@ -6,9 +6,9 @@
   "url": "https://deepinfra.com/pricing",
   "final_url": "https://deepinfra.com/pricing",
   "parser_version": 4,
-  "content_hash": "b6e435dfa322afcd264fdfb3265a637e868d5878ea87b7ef1b1a6e716084b6df",
-  "raw_hash": "ed10e551f24314a6d09cca38cfe480217cbf98d2f6ed1ba4e5be43f5d345fc48",
-  "text_bytes": 15870,
+  "content_hash": "e54fb930fffeea224ba3497c424e3d9f0e6d6f1e521eca1abfe4304f2e334384",
+  "raw_hash": "88a3b0d0d2dd0f9669b434fd52651059d25658ce20ecde999e256626302a7b22",
+  "text_bytes": 15868,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -843,12 +843,12 @@
       "model": "NVIDIA-Nemotron-3.5-Super-VL",
       "prices": {
         "$ per 1m input tokens": {
-          "raw": "$0.20",
-          "amount": 0.2
+          "raw": "$0.10",
+          "amount": 0.1
         },
         "$ per 1m output tokens": {
-          "raw": "$1.00",
-          "amount": 1.0
+          "raw": "$0.40",
+          "amount": 0.4
         }
       },
       "currency": "USD",
@@ -1806,8 +1806,8 @@
         [
           "NVIDIA-Nemotron-3.5-Super-VL",
           "256k",
-          "$0.20 / $0.10 cached",
-          "$1.00",
+          "$0.10 / $0.08 cached",
+          "$0.40",
           "View more"
         ],
         [
@@ -1853,8 +1853,8 @@
         [
           "NVIDIA-Nemotron-3.5-Super-VL",
           "256k",
-          "$0.20 / $0.10 cached",
-          "$1.00",
+          "$0.10 / $0.08 cached",
+          "$0.40",
           "View more"
         ],
         [

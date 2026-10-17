@@ -131,6 +131,12 @@ Run more than one build at the same time so that new commits to a project are bu
 Custom
 Agent Runners
 Ask AI agents to fix, update, and ship code right in your dashboard.
+Concurrent agent runs
+How many agent runs your team can have active at the same time, across all of your projects.
+1
+3
+10
+50
 AI Gateway
 Connect to any AI model without managing API keys.
 Netlify Database

@@ -6,9 +6,9 @@
   "url": "https://docs.perplexity.ai/getting-started/pricing",
   "final_url": "https://docs.perplexity.ai/docs/getting-started/pricing",
   "parser_version": 4,
-  "content_hash": "ac2513a870710071dd8421d54fc82ae233e721fe8355f764937c2fcbf60eb715",
-  "raw_hash": "f1b6d57bd02dee3b53ad61617d50a7407c9d7c8e4908ba0fae85c6425b591ad0",
-  "text_bytes": 7000,
+  "content_hash": "81f61f73f4bfe82fd1aeef93692fd03decb175c3a2f013cf99cad59cb9f997d6",
+  "raw_hash": "1469a1927a05eb886d8546c67654631269db9f2dd100d3c1fbb17f5b9bce5873",
+  "text_bytes": 7414,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -157,7 +157,18 @@
       ]
     },
     {
-      "name": "pplx-decider-v1.1-27b",
+      "name": "pplx-decider-v1.2",
+      "price_raw": "$0.02",
+      "amount": 0.02,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        0.02
+      ]
+    },
+    {
+      "name": "Aliases",
       "price_raw": "$0.02",
       "amount": 0.02,
       "currency": "USD",
@@ -379,8 +390,8 @@
       "unit": "/1m"
     },
     {
-      "key": "pplx-decider-v1.1-27b",
-      "model": "pplx-decider-v1.1-27b",
+      "key": "pplx-decider-v1.2",
+      "model": "pplx-decider-v1.2",
       "prices": {
         "price ($/1m input tokens)": {
           "raw": "$0.02",
@@ -391,12 +402,12 @@
       "unit": "/1m"
     },
     {
-      "key": "pplx-decider-v1-27b",
-      "model": "pplx-decider-v1-27b",
+      "key": "pplx-decider-flash-v1.2",
+      "model": "pplx-decider-flash-v1.2",
       "prices": {
         "price ($/1m input tokens)": {
-          "raw": "$0.02",
-          "amount": 0.02
+          "raw": "$0.01",
+          "amount": 0.01
         }
       },
       "currency": "USD",
@@ -555,14 +566,14 @@
           "Per-request fee"
         ],
         [
-          "pplx-decider-v1.1-27b",
+          "pplx-decider-v1.2",
           "$0.02",
           "Free",
           "None"
         ],
         [
-          "pplx-decider-v1-27b",
-          "$0.02",
+          "pplx-decider-flash-v1.2",
+          "$0.01",
           "Free",
           "None"
         ]

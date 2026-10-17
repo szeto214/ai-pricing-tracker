@@ -66,6 +66,8 @@ alert destinations
 concurrent Realtime connections
 HIPAA BAA
 add-on
+$500/month
+·
 Request a BAA
 Pro
 $50
@@ -116,6 +118,8 @@ Then $10/month per 1,000
 AWS PrivateLink
 HIPAA BAA
 add-on
+$500/month
+·
 Request a BAA
 Enterprise
 Custom
@@ -259,7 +263,7 @@ Yes. Configure billing alerts in your dashboard's organization settings. Standar
 billing alerts docs
 .
 Do you sign a BAA for HIPAA?
-Yes. A signed Business Associate Agreement is available as a paid add-on, so you can run tasks that process Protected Health Information on Trigger.dev Cloud.
+Yes. A signed Business Associate Agreement is available as a $500/month add-on, so you can run tasks that process Protected Health Information on Trigger.dev Cloud.
 Request a BAA
 .
 Does Trigger.dev support Python?

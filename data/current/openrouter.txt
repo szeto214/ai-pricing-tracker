@@ -3,9 +3,115 @@ every ElevenLabs model is 50% off through October 19, 2026.
 See ElevenLabs models
 Dismiss
 Models
+Elorian: Glimpse
+Glimpse
+129M tokens
+Glimpse is a multimodal visual reasoning model from Elorian, built for visual understanding and complex visual reasoning in the physical world. It reasons directly over images and video rather than converting them to text first, so it can find small details in dense scenes, track events across video frames, and ground its answers in what is actually on screen. It is suited for agentic visual workflows such as visual search, video captioning, and dense counting, and for physical-world use cases in robotics, construction, engineering, and manufacturing.
+by
+elorian
+Oct 17, 2026
+262K context
+$0.60/M input
+tokens
+$3/M output
+tokens
+Qwen: Qwen Image 2.1 Turbo
+Qwen Image 2.1 Turbo
+2.3M tokens
+Qwen Image 2.1 Turbo is the fast, lower-cost tier of the Qwen Image 2.1 series from Qwen, for image generation and editing where throughput and price matter more than peak fidelity. See Qwen Image 2.1 Pro for the higher-quality tier.
+by
+qwen
+Oct 16, 2026
+from $0.0184/image
+Qwen: Qwen Image 2.1 Pro
+Qwen Image 2.1 Pro
+3.1M tokens
+Qwen Image 2.1 Pro is an image generation and editing model from Qwen, the higher-quality tier of the Qwen Image 2.1 series. Choose it over Qwen Image 2.1 Turbo when output fidelity matters more than cost or speed.
+by
+qwen
+Oct 16, 2026
+from $0.046/image
+Perplexity: Decider Flash V1.2
+Decider Flash V1.2
+844M tokens
+Decider Flash V1.2 is a 4B-parameter decision model from Perplexity, a smaller, lower-cost sibling of
+Decider V1.2
+with the same API contract. Instead of generating text, it reads content passed as
+state
+(text, JSON, or images) and returns typed, probabilistic answers to one or more named questions in a single request: the probability of yes for a yes/no question (
+noul
+), a probability for every option plus the most likely one (
+choice
+, up to 255 options), or a probability for every level of an ordered rubric plus the expected score (
+score
+). It suits high-volume classification, routing, and moderation where application code thresholds the returned numbers rather than parsing a chat reply.
+by
+perplexity
+Oct 16, 2026
+$0.01/M input
+tokens
+$0/M output
+tokens
+Perplexity: Decider V1.2
+Decider V1.2
+1.01B tokens
+Decider V1.2 is a new 27B checkpoint of Perplexity's decision model, succeeding
+Decider V1.1 27B
+with the same API contract. Instead of generating text, it reads content passed as
+state
+(text, JSON, or images) and returns typed, probabilistic answers to one or more named questions in a single request: the probability of yes for a yes/no question (
+noul
+), a probability for every option plus the most likely one (
+choice
+, up to 255 options), or a probability for every level of an ordered rubric plus the expected score (
+score
+). It is built for classification, routing, moderation, and rubric grading where application code thresholds the returned numbers rather than parsing a chat reply. For a smaller, lower-cost option with the same contract, see
+Decider Flash V1.2
+.
+by
+perplexity
+Oct 16, 2026
+$0.02/M input
+tokens
+$0/M output
+tokens
+XingChen: Xing4.0 29B A4B (free)
+Xing4.0 29B A4B (free)
+2.06B tokens
+Xing4.0-29B-A4B is an open-weight mixture-of-experts language model from China Telecom's AI team (TeleAI) and the successor to the TeleChat series. It has 29B total parameters with 4B active per token and a native 256K-token context window. It was trained entirely on Ascend NPUs with the MindSpore framework and is tuned for complex engineering and agent work: tool calling, multi-step planning, and long-context execution. Reasoning is on by default and can be turned off.
+by
+xingchen-agi
+Oct 16, 2026
+262K context
+$0/M input
+tokens
+$0/M output
+tokens
+Perplexity: Decider Flash Latest
+Decider Flash Latest
+This model always redirects to the latest model in the Decider Flash family.
+by
+perplexity
+Oct 16, 2026
+$0.01/M input
+tokens
+$0/M output
+tokens
+Reflection: Beam 1.0 501B A23B
+Beam 1.0 501B A23B
+59.5B tokens
+Beam 1.0 is Reflection's open-weight reasoning model for coding and long-horizon agentic workflows. It uses a sparse mixture-of-experts architecture with 501B total and 23B active parameters per token, and a 1M-token context window. Beam targets software engineering, multi-step tool use, and mathematical and scientific reasoning, with an emphasis on token efficiency. It takes text input and produces text output, supports configurable reasoning effort, function calling and structured outputs, and is released under Apache 2.0.
+by
+reflection
+Oct 16, 2026
+1.05M context
+$0.25/M input
+tokens
+$1/M output
+tokens
 Respan: Span-02
 Span-02
-695M tokens
+2.86B tokens
 Span-02 is an open-weight decision model from Respan. It reads a state of text and images and answers the questions you define about it: picking one of several options, a yes/no/unknown call, or a score on a scale. It is suited for evaluation, guardrails, routing, and monitoring of LLM and agent outputs at scale. It is the successor to Span-01.
 by
 respan
@@ -16,7 +122,7 @@ $0/M output
 tokens
 LiquidAI: d1-ultra
 d1-ultra
-350M tokens
+7.64B tokens
 d1-ultra is Liquid AI's largest decision model, served as a System One endpoint. Send a state of text and images along with typed questions, and it returns a choice, a score, or a yes/no answer, each with a probability taken directly from the model rather than written out as text. It uses the same /v1/systemone schema as other OpenRouter Decisions models, so it suits routing, classification, moderation, and visual checks that need a fast, scored answer instead of prose.
 by
 liquid
@@ -27,15 +133,15 @@ $0/M output
 tokens
 Krea: K3 Edit
 K3 Edit
-3.63M tokens
-Krea K3 Edit is an image-to-image editing model from Krea. It takes one to four reference images plus a text prompt and returns a single edited image, following instructions that range from small local changes to complex multi-step edits while keeping the subjects and composition of the references intact. The output follows the shape of the input unless an aspect ratio is requested. The default fast mode completes most edits in under ten seconds, which suits interactive editing tools and workflows that generate many variations of the same source image.
+13.6M tokens
+Krea K3 Edit is an image-to-image editing model from Krea. It takes one to eight reference images plus a text prompt and returns a single edited image, following instructions that range from small local changes to complex multi-step edits while keeping the subjects and composition of the references intact. The output follows the shape of the input unless an aspect ratio is requested. The default fast mode completes most edits in under ten seconds, which suits interactive editing tools and workflows that generate many variations of the same source image.
 by
 krea
 Oct 15, 2026
 from $0.03/image
 Moondream: Moondream 3 Preview
 Moondream 3 Preview
-2.54M tokens
+9.34M tokens
 Moondream 3 Preview is a vision-language model from Moondream with 9B total parameters and 2B active (mixture-of-experts). It handles visual question answering, captioning, OCR, and visual reasoning over images, with a 32K-token context and an optional reasoning mode.
 by
 moondream
@@ -47,7 +153,7 @@ $2.50/M output
 tokens
 Moondream: Moondream 3.1
 Moondream 3.1
-20M tokens
+28.3M tokens
 Moondream 3.1 is a vision-language model from Moondream, the successor to Moondream 3 Preview, with 9B total parameters and 2B active (mixture-of-experts). It handles visual question answering, captioning, OCR, and visual reasoning over images, with a 32K-token context and an optional reasoning mode.
 by
 moondream
@@ -59,7 +165,7 @@ $2.50/M output
 tokens
 Meta: Muse Spark Open
 Muse Spark Open
-9.69B tokens
+36.5B tokens
 Muse Spark Open is a coding-optimized open-weight model. Trained specifically for agentic coding workflows, it delivers higher first-attempt accuracy, reliable tool calling, and deep codebase understanding across the repos developers actually work in.
 by
 meta
@@ -71,7 +177,7 @@ $4.25/M output
 tokens
 Black Forest Labs: FLUX 3 Image Klein
 FLUX 3 Image Klein
-19.8M tokens
+59M tokens
 FLUX 3 Image Klein is an open-weights image generation and editing model from Black Forest Labs. It is suited for text-to-image, multi-reference editing that keeps characters and subjects consistent across images, reference-based style transfer, and text rendering. At 5.6B parameters, it is the smaller, faster member of the FLUX 3 Image family.
 by
 black-forest-labs
@@ -79,7 +185,7 @@ Oct 15, 2026
 from $0.008/image
 NVIDIA: Nemotron 3.5 Super VL (free)
 Nemotron 3.5 Super VL (free)
-128B tokens
+405B tokens
 NVIDIA Nemotron 3.5 Super VL is an open multimodal mixture-of-experts model from NVIDIA, with 12B active parameters out of 120B total. It takes text, images, documents, GUI screenshots, and video as input and returns text, and is built for long-running agents that combine visual understanding with reasoning and tool use. It uses a hybrid Mamba-Transformer architecture with multi-token prediction and supports a 1M-token context. Typical uses include document intelligence, web research, coding validation, customer service, and video understanding. Reasoning is on by default and can be turned off or given a token budget.
 by
 nvidia
@@ -91,7 +197,7 @@ $0/M output
 tokens
 NVIDIA: Nemotron 3.5 Super VL
 Nemotron 3.5 Super VL
-5.24B tokens
+16.5B tokens
 NVIDIA Nemotron 3.5 Super VL is an open multimodal mixture-of-experts model from NVIDIA, with 12B active parameters out of 120B total. It takes text, images, documents, GUI screenshots, and video as input and returns text, and is built for long-running agents that combine visual understanding with reasoning and tool use. It uses a hybrid Mamba-Transformer architecture with multi-token prediction and supports a 1M-token context. Typical uses include document intelligence, web research, coding validation, customer service, and video understanding. Reasoning is on by default and can be turned off or given a token budget.
 by
 nvidia
@@ -100,92 +206,6 @@ Oct 15, 2026
 $0.10/M input
 tokens
 $0.40/M output
-tokens
-TypeSafe: Jev 1.14
-Jev 1.14
-170B tokens
-Academia (#41)
-Health (#47)
-Trivia (#7)
-Jev 1.14 is the latest version of Jev, TypeSafe's structured decision model and the first of its System One models. System One models make fast, structured decisions for software, returning a typed answer rather than free-form text. It is suited for routing, classification, and other decision points inside an application where a fast, predictable answer matters more than generated prose. Learn more in TypeSafe's docs: https://docs.typesafe.ai/models
-by
-typesafe
-Oct 14, 2026
-$0.042/M input
-tokens
-$0/M output
-tokens
-AssemblyAI: Universal-3.6 Pro
-Universal-3.6 Pro
-2.37M characters
-Universal-3.6 Pro is AssemblyAI's speech-to-text model and the successor to Universal-3.5 Pro, served here through AssemblyAI's Sync API. Compared with Universal-3.5 Pro, AssemblyAI reports 30% fewer errors on short conversational utterances, 12% fewer errors on average across supported languages, 14 newly supported languages, and better recognition and formatting of entities such as phone numbers, addresses, emails, and codes. It returns a complete transcript with word-level timestamps in a single synchronous response for audio clips up to 120 seconds, accepts 16-bit WAV input, and supports free-text prompting, keyterms, and conversation context to steer transcription toward domain vocabulary.
-by
-assemblyai
-Oct 14, 2026
-from $0.000083/second
-Perplexity: Decider Latest
-Decider Latest
-This model always redirects to the latest model in the Decider family.
-by
-perplexity
-Oct 14, 2026
-$0.02/M input
-tokens
-$0/M output
-tokens
-Pareto Latest
-Pareto Latest
-570M tokens
-This model always redirects to the latest model in the Pareto family.
-by
-unbiased
-Oct 13, 2026
-262K context
-$2.50/M input
-tokens
-$7.50/M output
-tokens
-Pareto 26.9
-Pareto 26.9
-1.18B tokens
-Pareto is a multimodal composite model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks.
-by
-unbiased
-Oct 13, 2026
-262K context
-$2.50/M input
-tokens
-$7.50/M output
-tokens
-HeyGen: HeyGen Voice
-HeyGen Voice
-50% off
-124K tokens
-HeyGen Voice is a text-to-speech model from HeyGen. It comes with 10 default voices, or bring your own HeyGen key to use voice clones from your own account. It streams 44.1 kHz mono PCM audio, with support for 39 languages and up to 5,000 characters per request.
-by
-heygen
-Oct 13, 2026
-$15/M characters
-HeyGen: HeyGen Voice Turbo
-HeyGen Voice Turbo
-50% off
-60K tokens
-HeyGen Voice Turbo is a lower-latency version of HeyGen Voice, HeyGen's text-to-speech model. It has the same 10 default voices, or bring your own HeyGen key to use voice clones from your own account. It streams 44.1 kHz mono PCM audio, with support for 39 languages and up to 5,000 characters per request.
-by
-heygen
-Oct 13, 2026
-$7.50/M characters
-LiquidAI: LFM2.5-24B-A2B
-LFM2.5-24B-A2B
-1.04B tokens
-LFM2.5-24B-A2B is a mixture-of-experts reasoning model from Liquid AI with 24B total and 2.45B active parameters. It always reasons before answering and is built for agents that call tools. Liquid recommends pairing it with retrieval or web search for knowledge-heavy tasks.
-by
-liquid
-Oct 13, 2026
-128K context
-$0.05/M input
-tokens
-$0.70/M output
 tokens
 Compare
 Discover Models

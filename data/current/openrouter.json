@@ -6,13 +6,35 @@
   "url": "https://openrouter.ai/models",
   "final_url": "https://openrouter.ai/models",
   "parser_version": 4,
-  "content_hash": "ab5023d2190b33f4e735e550a3da27fc219d44ec3a356b51519cda5773732073",
-  "raw_hash": "1c6097e914708b3821eb8aeda25eb2f553c60661985947a5d2bc89db43165530",
-  "text_bytes": 8312,
+  "content_hash": "25d28a95a3261a65890cfed3543aea062c2b1d1c627c653e5edbef603bab862b",
+  "raw_hash": "1817a1556dd0b2d047aa701c554fc223d4c18ed9e79cfa4cf4e4576b65e8cf48",
+  "text_bytes": 9587,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
+    {
+      "name": "Qwen: Qwen Image 2.1 Turbo",
+      "price_raw": "$0.0184",
+      "amount": 0.0184,
+      "currency": "USD",
+      "period": "image",
+      "features": [],
+      "slot_prices": [
+        0.0184
+      ]
+    },
+    {
+      "name": "Qwen: Qwen Image 2.1 Pro",
+      "price_raw": "$0.046",
+      "amount": 0.046,
+      "currency": "USD",
+      "period": "image",
+      "features": [],
+      "slot_prices": [
+        0.046
+      ]
+    },
     {
       "name": "Krea: K3 Edit",
       "price_raw": "$0.03",
@@ -22,17 +44,6 @@
       "features": [],
       "slot_prices": [
         0.03
-      ]
-    },
-    {
-      "name": "HeyGen: HeyGen Voice",
-      "price_raw": "$15",
-      "amount": 15.0,
-      "currency": "USD",
-      "period": "request",
-      "features": [],
-      "slot_prices": [
-        15.0
       ]
     }
   ],

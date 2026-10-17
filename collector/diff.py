@@ -11,6 +11,32 @@ def _plan_key(plan: dict) -> str:
     return (plan.get("name") or "").strip().lower()
 
 
+def _nama_ganda(plans: list[dict]) -> set[str]:
+    """Nama paket yang dipakai LEBIH DARI SATU paket dengan harga berbeda.
+
+    16/10/2026 RunPod tercatat naik 212% (Community Cloud $0.16 -> $0.50) dan
+    155% (Secure Cloud $0.27 -> $0.69). Tidak ada tarif yang berubah: halaman
+    RunPod memuat satu kartu per GPU, dan tiap kartu mengulang dua label yang
+    sama — "Community Cloud" dan "Secure Cloud". Ekstraktor menghasilkan 20
+    paket bernama "Community Cloud" dengan 20 harga berbeda. `_plan_index`
+    menyimpan yang PERTAMA, jadi begitu urutan kartu GPU di halaman bergeser,
+    "harga" paket itu ikut melompat.
+
+    Dua paket yang namanya sama tetapi harganya berbeda tidak bisa
+    dipasangkan — persis seperti dua mata uang berbeda atau dua satuan
+    berbeda. Nama yang berulang dengan harga IDENTIK tidak masalah: siapa pun
+    yang dipilih hasilnya sama, jadi nama seperti itu TIDAK ikut disaring.
+    """
+    from .extract import _plausible_plan_name
+
+    jumlah: dict[str, set] = {}
+    for p in plans or []:
+        key = _plan_key(p)
+        if key and _plausible_plan_name(p.get("name", "")):
+            jumlah.setdefault(key, set()).add(p.get("amount"))
+    return {k for k, nilai in jumlah.items() if len(nilai) > 1}
+
+
 def _plan_index(plans: list[dict]) -> dict[str, dict]:
     """Saring nama paket yang tidak masuk akal di KEDUA sisi perbandingan.
 
@@ -139,6 +165,7 @@ def _slot_bertukar(o: dict, n: dict) -> bool:
 
 def diff_plans(old_plans: list[dict], new_plans: list[dict]) -> list[dict]:
     old, new = _plan_index(old_plans), _plan_index(new_plans)
+    ambigu = _nama_ganda(old_plans) | _nama_ganda(new_plans)
     events: list[dict] = []
 
     for key, plan in new.items():
@@ -221,6 +248,19 @@ def diff_plans(old_plans: list[dict], new_plans: list[dict]) -> list[dict]:
                 "from": o.get("period"), "to": n.get("period"),
                 "from_amount": o.get("amount"), "to_amount": n.get("amount"),
                 "from_raw": o.get("price_raw"), "to_raw": n.get("price_raw"),
+            })
+        elif o.get("amount") != n.get("amount") and key in ambigu:
+            # Namanya dipakai beberapa paket dengan harga berbeda di hari yang
+            # sama, jadi "paket kemarin" dan "paket hari ini" belum tentu
+            # paket yang sama. Dicatat terpisah supaya jejaknya ada, dan TIDAK
+            # pernah masuk hitungan gerbang maupun halaman publik —
+            # lebih baik kehilangan satu sinyal daripada mengarang satu
+            # (§11.7).
+            events.append({
+                "type": "plan_name_ambiguous",
+                "plan": n.get("name"),
+                "from": {"raw": o.get("price_raw"), "amount": o.get("amount")},
+                "to": {"raw": n.get("price_raw"), "amount": n.get("amount")},
             })
         elif o.get("amount") != n.get("amount") and _slot_bertukar(o, n):
             # Angkanya beda, tapi angka hari ini SUDAH berdiri di slot harga

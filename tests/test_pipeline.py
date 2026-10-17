@@ -2292,6 +2292,93 @@ def test_satuan_beda_08_10() -> None:
           "price_changed" in kosong, f"-> {kosong}")
 
 
+def test_nama_paket_ganda_16_10() -> None:
+    """Satu nama dipakai banyak paket dengan harga berbeda (16/10/2026).
+
+    RunPod 16/10 tercatat naik 212% (Community Cloud $0.16 -> $0.50) dan 155%
+    (Secure Cloud $0.27 -> $0.69). Tidak ada tarif yang bergerak: halaman
+    RunPod memuat satu kartu per GPU dan tiap kartu mengulang dua label yang
+    sama. Ekstraktor menghasilkan 20 paket bernama "Community Cloud" dengan 20
+    harga berbeda; `_plan_index` memakai yang PERTAMA, jadi begitu urutan
+    kartu bergeser, "harganya" ikut melompat.
+
+    Keluarga yang sama, terbukti dari arsip:
+      Warp 07/10  halaman memuat kolom bulanan DAN tahunan: Build [20, 18],
+                  Business [50, 45], Max [200, 180] -> tercatat turun 10%
+                  serempak (sudah dikoreksi tangan 07/10)
+      Postman     "Postman AI" muncul TIGA kali tiap hari
+                  29/08 [0.04, 0.05, 0.04] -> 11/09 [0.05, 0.04, 0.035]
+      monday 29-30/09  Basic/Standard/Pro masing-masing dua angka
+
+    Diukur dengan memutar ulang SELURUH arsip mentah (1251 berkas, 140 situs)
+    sebelum dan sesudah penjaga dipasang: 1397 peristiwa paket di kedua sisi,
+    **14 berubah label dan NOL nilai harga baru muncul**. Dari 547 peristiwa
+    `price_changed`, 8 berpindah ke `plan_name_ambiguous` — runpod (2),
+    warp (3), postman (1), mistral (1), together-ai (1) — dan semuanya sudah
+    terbukti palsu satu per satu dari arsip mentah. Peristiwa nyata tetap
+    utuh: CodeRabbit, DeepInfra, Airbyte, Fly.io, fal.ai, Intercom, Nebius,
+    ClickUp, Jira, Confluence. **Nol peristiwa nyata hilang.**
+
+    Syaratnya sengaja sempit: nama berulang dengan harga IDENTIK TIDAK
+    disaring, karena siapa pun yang dipilih hasilnya sama.
+    """
+    print("\n27. nama paket ganda tidak bisa dipasangkan")
+    from collector.diff import diff_plans
+
+    def jenis(a, b):
+        return [e["type"] for e in diff_plans(a, b)]
+
+    def paket(nama, raw, amount):
+        return {"name": nama, "price_raw": raw, "amount": amount,
+                "currency": "USD"}
+
+    # RunPod: label yang sama di tiap kartu GPU, urutan kartunya bergeser.
+    kemarin = [paket("RTX A5000 GPU on Runpod", "0.16", 0.16),
+               paket("Community Cloud", "0.16", 0.16),
+               paket("RTX 4090 GPU on Runpod", "0.34", 0.34),
+               paket("Community Cloud", "0.34", 0.34)]
+    hari_ini = [paket("Pro 6000 MIG 24GB GPU on Runpod", "0.50", 0.50),
+                paket("Community Cloud", "0.50", 0.50),
+                paket("RTX A5000 GPU on Runpod", "0.16", 0.16),
+                paket("Community Cloud", "0.16", 0.16)]
+    hasil = jenis(kemarin, hari_ini)
+    check("nama ganda berharga beda -> BUKAN perubahan harga",
+          "price_changed" not in hasil and "plan_name_ambiguous" in hasil,
+          f"-> {hasil}")
+
+    # Warp: kolom bulanan dan tahunan sama-sama terbaca.
+    warp_lama = [paket("Build", "$20", 20.0), paket("Build", "$18", 18.0)]
+    warp_baru = [paket("Build", "$18", 18.0)]
+    hasil = jenis(warp_lama, warp_baru)
+    check("kolom tahunan hilang -> bukan penurunan harga",
+          "price_changed" not in hasil, f"-> {hasil}")
+    check("arah sebaliknya juga tertahan",
+          "price_changed" not in jenis(warp_baru, warp_lama),
+          f"-> {jenis(warp_baru, warp_lama)}")
+
+    # Penjaga TIDAK boleh membungkam halaman yang namanya tunggal.
+    naik = jenis([paket("Core", "$ 8", 8.0)], [paket("Core", "$ 9", 9.0)])
+    check("kenaikan nyata pada nama tunggal tetap tercatat",
+          naik == ["price_changed"], f"-> {naik}")
+
+    # Nama berulang dengan harga IDENTIK bukan ambiguitas.
+    kembar_lama = [paket("Pro", "$10", 10.0), paket("Pro", "$10", 10.0)]
+    kembar_baru = [paket("Pro", "$12", 12.0), paket("Pro", "$12", 12.0)]
+    hasil = jenis(kembar_lama, kembar_baru)
+    check("nama kembar berharga SAMA tidak membungkam sinyal",
+          hasil == ["price_changed"], f"-> {hasil}")
+
+    # Catatannya membawa kedua angka supaya manusia bisa memeriksanya.
+    # Sengaja tidak memakai [0] langsung: kalau penjaganya dilepas, tes ini
+    # harus MELAPOR gagal, bukan menjatuhkan seluruh rangkaian dengan galat.
+    amb = [e for e in diff_plans(kemarin, hari_ini)
+           if e["type"] == "plan_name_ambiguous"]
+    check("catatan nama ganda membawa kedua angkanya",
+          bool(amb) and amb[0]["from"]["amount"] == 0.16
+          and amb[0]["to"]["amount"] == 0.50,
+          f"-> {amb}")
+
+
 def test_batas_tabel_08_10() -> None:
     """Pengumpan tabel tidak boleh lebih sempit daripada pembacanya (08/10/2026).
 
@@ -2369,6 +2456,7 @@ def main() -> int:
     test_satuan_lebih_lengkap_05_10()
     test_satuan_beda_08_10()
     test_batas_tabel_08_10()
+    test_nama_paket_ganda_16_10()
     test_skrip_cadangan()
 
     print("\n" + "=" * 60)

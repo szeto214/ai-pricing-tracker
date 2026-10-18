@@ -1054,6 +1054,9 @@ Trust Center
 Status
 DeepGPT
 Latest Models
+deepseek-ai
+/
+DeepSeek-V4.1-Flash-1017
 Cloudflare
 /
 clef-flash
@@ -1066,25 +1069,22 @@ Ling-3.1-flash
 Cloudflare
 /
 clef
-nace-ai
-/
-drex-v1.5
 Featured Models
-nvidia
-/
-NVIDIA-Nemotron-3-Super-120B-A12B
-black-forest-labs
-/
-FLUX-2-klein-9b
-google
-/
-gemma-4-31B-it
-google
-/
-gemma-4-26B-A4B-it
 zai-org
 /
-GLM-5.2
+GLM-5.3-Flash
+zai-org
+/
+GLM-5.3
+Qwen
+/
+Qwen3.6-35B-A3B
+Qwen
+/
+Qwen3.5-397B-A17B
+deepseek-ai
+/
+DeepSeek-V4-Flash-0731
 © 2026 DeepInfra. All rights reserved.
 Privacy Policy
 Terms of Service

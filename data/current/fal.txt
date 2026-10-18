@@ -94,16 +94,16 @@ fal-ai/kling-video/v3/pro/text-to-video
 seconds
 $0.14
 7.14 seconds
-Seedance 2 Reference to Video
-bytedance/seedance-2.0/reference-to-video
-1000 tokens
-$0.014
-71.43 1000 tokens
-Seedance 2 Image to Video
-bytedance/seedance-2.0/image-to-video
-1000 tokens
-$0.014
-71.43 1000 tokens
+Kling Video v3 Image to Video [Standard]
+fal-ai/kling-video/v3/standard/image-to-video
+seconds
+$0.14
+7.14 seconds
+Kling Video v3 Text to Video [Standard]
+fal-ai/kling-video/v3/standard/text-to-video
+seconds
+$0.14
+7.14 seconds
 10
 endpoints. Scroll to see all models. Prices are per listed billing unit; units per $1 are approximate. Settings such as resolution, duration, and quality may affect the final cost. See each model for full pricing details.
 Image models

@@ -6,9 +6,9 @@
   "url": "https://api-docs.deepseek.com/quick_start/pricing",
   "final_url": "https://api-docs.deepseek.com/quick_start/pricing/",
   "parser_version": 4,
-  "content_hash": "ac7f048feb285f53251c5610b42c63c0c98af2a22e1a671584c830ee596ab1a8",
-  "raw_hash": "e057a7e58bb1613bc2335ada667ac260c73de359780750d84d855b079541a158",
-  "text_bytes": 2963,
+  "content_hash": "8c3cccec01fe36bbc4d69458afc3444116c0d48ea1a1283c62c1b67a46fbea3f",
+  "raw_hash": "38f583f627523f45a0cacd00d43ad49cd4f7e3aa5c20cc98bdbc3674f5c74c95",
+  "text_bytes": 2973,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -105,7 +105,7 @@
         ],
         [
           "MODEL VERSION",
-          "DeepSeek-V4.1-Flash",
+          "DeepSeek-V4.1-Flash-1017",
           "DeepSeek-V4-Pro-0813"
         ],
         [

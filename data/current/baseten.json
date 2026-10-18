@@ -6,9 +6,9 @@
   "url": "https://www.baseten.co/pricing/",
   "final_url": "https://www.baseten.co/pricing/",
   "parser_version": 4,
-  "content_hash": "06994f273f6f9a2ec185f392b026d57a141dbdca08a766532937c214bfc25744",
-  "raw_hash": "315a2e48092ebcce7633049fa3230a1d39d2723ad68ed90e87d9d5185996bc19",
-  "text_bytes": 6135,
+  "content_hash": "45c06d67834f1b19e445f2b581e2559d40d1cee0c2ead27f88c62eb999499549",
+  "raw_hash": "7f950cd6fda2d05fa0e784846c91742a66d9c1a0597e0592773e0ce7c1b9bdb7",
+  "text_bytes": 6255,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -113,6 +113,19 @@
         2.1,
         0.21,
         6.6
+      ]
+    },
+    {
+      "name": "DeepSeek V4.1 Flash 1017",
+      "price_raw": "$0.30",
+      "amount": 0.3,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        0.3,
+        0.007,
+        1.2
       ]
     },
     {
@@ -249,17 +262,6 @@
       "features": [],
       "slot_prices": [
         0.16633
-      ]
-    },
-    {
-      "name": "1x2",
-      "price_raw": "$0.00058",
-      "amount": 0.00058,
-      "currency": "USD",
-      "period": null,
-      "features": [],
-      "slot_prices": [
-        0.00058
       ]
     }
   ],

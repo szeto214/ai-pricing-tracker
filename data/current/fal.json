@@ -6,9 +6,9 @@
   "url": "https://fal.ai/pricing",
   "final_url": "https://fal.ai/pricing",
   "parser_version": 4,
-  "content_hash": "46ab816d76d1dcf9857594ca711106f15bba53f771eb0989738f284c4c563a3f",
-  "raw_hash": "2563b6fdff4da2574e37d43b156302aa94ef4a6d3c8c7499da5b85348a0777fa",
-  "text_bytes": 5436,
+  "content_hash": "c6d52958740d9a3e1704aae2c2af0d26a54799e146b1707d68a9ac2a578e42d6",
+  "raw_hash": "229234de7f946f75a683d89f49448b594140f51634d9daf4a24620a363b4f0f5",
+  "text_bytes": 5452,
   "currency_hints": [],
   "extractor": "jsonld",
   "confidence": "medium",
@@ -265,30 +265,6 @@
         "price": {
           "raw": "$0.14",
           "amount": 0.14
-        }
-      },
-      "currency": "USD",
-      "unit": ""
-    },
-    {
-      "key": "seedance 2 reference to video bytedance/seedance-2.0/reference-to-video",
-      "model": "Seedance 2 Reference to Video bytedance/seedance-2.0/reference-to-video",
-      "prices": {
-        "price": {
-          "raw": "$0.014",
-          "amount": 0.014
-        }
-      },
-      "currency": "USD",
-      "unit": ""
-    },
-    {
-      "key": "seedance 2 image to video bytedance/seedance-2.0/image-to-video",
-      "model": "Seedance 2 Image to Video bytedance/seedance-2.0/image-to-video",
-      "prices": {
-        "price": {
-          "raw": "$0.014",
-          "amount": 0.014
         }
       },
       "currency": "USD",
@@ -761,16 +737,16 @@
           "7.14 seconds"
         ],
         [
-          "Seedance 2 Reference to Video bytedance/seedance-2.0/reference-to-video",
-          "1000 tokens",
-          "$0.014",
-          "71.43 1000 tokens"
+          "Kling Video v3 Image to Video [Standard] fal-ai/kling-video/v3/standard/image-to-video",
+          "seconds",
+          "$0.14",
+          "7.14 seconds"
         ],
         [
-          "Seedance 2 Image to Video bytedance/seedance-2.0/image-to-video",
-          "1000 tokens",
-          "$0.014",
-          "71.43 1000 tokens"
+          "Kling Video v3 Text to Video [Standard] fal-ai/kling-video/v3/standard/text-to-video",
+          "seconds",
+          "$0.14",
+          "7.14 seconds"
         ]
       ]
     },

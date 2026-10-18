@@ -1,14 +1,13 @@
 {
   "date": "2026-10-18",
-  "finished_at": "2026-10-18T07:29:00+00:00",
+  "finished_at": "2026-10-18T12:04:58+00:00",
   "user_agent": "ai-pricing-tracker/0.1 (+https://github.com/szeto214/ai-pricing-tracker) price-archive-bot; 1 request per page per day",
   "summary": {
     "total": 134,
-    "ok": 133,
+    "ok": 134,
     "changed": 10,
     "by_status": {
-      "ok": 133,
-      "robots_denied": 1
+      "ok": 134
     }
   },
   "targets": [
@@ -2248,11 +2247,19 @@
       "slug": "wasabi",
       "name": "Wasabi",
       "url": "https://wasabi.com/pricing",
-      "status": "robots_denied",
-      "http_status": null,
-      "elapsed_ms": 0,
-      "robots_note": "robots.txt tidak terbaca (ConnectError) -> tidak diambil",
-      "reason": "robots.txt tidak terbaca (ConnectError) -> tidak diambil"
+      "status": "ok",
+      "http_status": 200,
+      "elapsed_ms": 6184,
+      "robots_note": "robots.txt terbaca",
+      "content_hash": "41d85bdc7ca17b0c533f2396454b1fd27d32e3caf69b37c806d22e2198ed499a",
+      "extractor": "dom",
+      "confidence": "low",
+      "plans_count": 1,
+      "models_count": 0,
+      "tables_count": 0,
+      "thin": false,
+      "changed": false,
+      "change_kind": null
     },
     {
       "slug": "weaviate",

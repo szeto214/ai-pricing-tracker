@@ -5,8 +5,12 @@ Dismiss
 Models
 DeepSeek: DeepSeek V4.1 Flash 1017
 DeepSeek V4.1 Flash 1017
-1.36T tokens
-Programming (#42)
+4.74T tokens
+Academia (#29)
+Finance (#29)
+Programming (#17)
+Roleplay (#45)
+Science (#23)
 DeepSeek V4.1 Flash 1017 is the October 17, 2026 snapshot of DeepSeek V4.1 Flash, served by DeepSeek under the
 deepseek-flash
 API model name. V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture. It activates 8B parameters on input and 16B on output from a 552B-parameter backbone, an asymmetric split that keeps per-token compute low relative to the model's total size. Image understanding is native to the architecture, with visual and text embeddings trained jointly from the start of pre-training rather than added afterward as in the earlier experimental
@@ -20,11 +24,11 @@ Oct 17, 2026
 1.05M context
 $0.05/M input
 tokens
-$0.60/M output
+$0.15/M output
 tokens
 Elorian: Glimpse
 Glimpse
-984M tokens
+1.69B tokens
 Glimpse is a multimodal visual reasoning model from Elorian, built for visual understanding and complex visual reasoning in the physical world. It reasons directly over images and video rather than converting them to text first, so it can find small details in dense scenes, track events across video frames, and ground its answers in what is actually on screen. It is suited for agentic visual workflows such as visual search, video captioning, and dense counting, and for physical-world use cases in robotics, construction, engineering, and manufacturing.
 by
 elorian
@@ -36,7 +40,7 @@ $3/M output
 tokens
 Qwen: Qwen Image 2.1 Turbo
 Qwen Image 2.1 Turbo
-15.4M tokens
+31.2M tokens
 Qwen Image 2.1 Turbo is the fast, lower-cost tier of the Qwen Image 2.1 series from Qwen, for image generation and editing where throughput and price matter more than peak fidelity. See Qwen Image 2.1 Pro for the higher-quality tier.
 by
 qwen
@@ -44,7 +48,7 @@ Oct 16, 2026
 from $0.0184/image
 Qwen: Qwen Image 2.1 Pro
 Qwen Image 2.1 Pro
-9.69M tokens
+16.7M tokens
 Qwen Image 2.1 Pro is an image generation and editing model from Qwen, the higher-quality tier of the Qwen Image 2.1 series. Choose it over Qwen Image 2.1 Turbo when output fidelity matters more than cost or speed.
 by
 qwen
@@ -52,7 +56,7 @@ Oct 16, 2026
 from $0.046/image
 Perplexity: Decider Flash V1.2
 Decider Flash V1.2
-3.54B tokens
+6.62B tokens
 Decider Flash V1.2 is a 4B-parameter decision model from Perplexity, a smaller, lower-cost sibling of
 Decider V1.2
 with the same API contract. Instead of generating text, it reads content passed as
@@ -73,8 +77,8 @@ $0/M output
 tokens
 Perplexity: Decider V1.2
 Decider V1.2
-9.49B tokens
-Trivia (#14)
+20.5B tokens
+Trivia (#9)
 Decider V1.2 is a new 27B checkpoint of Perplexity's decision model, succeeding
 Decider V1.1 27B
 with the same API contract. Instead of generating text, it reads content passed as
@@ -97,7 +101,7 @@ $0/M output
 tokens
 XingChen: Xing4.0 29B A4B (free)
 Xing4.0 29B A4B (free)
-13.8B tokens
+22.9B tokens
 Xing4.0-29B-A4B is an open-weight mixture-of-experts language model from China Telecom's AI team (TeleAI) and the successor to the TeleChat series. It has 29B total parameters with 4B active per token and a native 256K-token context window. It was trained entirely on Ascend NPUs with the MindSpore framework and is tuned for complex engineering and agent work: tool calling, multi-step planning, and long-context execution. Reasoning is on by default and can be turned off.
 by
 xingchen-agi
@@ -119,7 +123,7 @@ $0/M output
 tokens
 Reflection: Beam 1.0 501B A23B
 Beam 1.0 501B A23B
-66B tokens
+73.2B tokens
 Beam 1.0 is Reflection's open-weight reasoning model for coding and long-horizon agentic workflows. It uses a sparse mixture-of-experts architecture with 501B total and 23B active parameters per token, and a 1M-token context window. Beam targets software engineering, multi-step tool use, and mathematical and scientific reasoning, with an emphasis on token efficiency. It takes text input and produces text output, supports configurable reasoning effort, function calling and structured outputs, and is released under Apache 2.0.
 by
 reflection
@@ -131,8 +135,8 @@ $1/M output
 tokens
 Respan: Span-02
 Span-02
-4.55B tokens
-Marketing (#47)
+6.53B tokens
+Marketing (#31)
 Span-02 is an open-weight decision model from Respan. It reads a state of text and images and answers the questions you define about it: picking one of several options, a yes/no/unknown call, or a score on a scale. It is suited for evaluation, guardrails, routing, and monitoring of LLM and agent outputs at scale. It is the successor to Span-01.
 by
 respan
@@ -143,7 +147,7 @@ $0/M output
 tokens
 LiquidAI: d1-ultra
 d1-ultra
-12.4B tokens
+19.4B tokens
 d1-ultra is Liquid AI's largest decision model, served as a System One endpoint. Send a state of text and images along with typed questions, and it returns a choice, a score, or a yes/no answer, each with a probability taken directly from the model rather than written out as text. It uses the same /v1/systemone schema as other OpenRouter Decisions models, so it suits routing, classification, moderation, and visual checks that need a fast, scored answer instead of prose.
 by
 liquid
@@ -154,7 +158,7 @@ $0/M output
 tokens
 Krea: K3 Edit
 K3 Edit
-20.5M tokens
+27.9M tokens
 Krea K3 Edit is an image-to-image editing model from Krea. It takes one to eight reference images plus a text prompt and returns a single edited image, following instructions that range from small local changes to complex multi-step edits while keeping the subjects and composition of the references intact. The output follows the shape of the input unless an aspect ratio is requested. The default fast mode completes most edits in under ten seconds, which suits interactive editing tools and workflows that generate many variations of the same source image.
 by
 krea
@@ -162,7 +166,7 @@ Oct 15, 2026
 from $0.03/image
 Moondream: Moondream 3 Preview
 Moondream 3 Preview
-18M tokens
+23.2M tokens
 Moondream 3 Preview is a vision-language model from Moondream with 9B total parameters and 2B active (mixture-of-experts). It handles visual question answering, captioning, OCR, and visual reasoning over images, with a 32K-token context and an optional reasoning mode.
 by
 moondream
@@ -174,7 +178,7 @@ $2.50/M output
 tokens
 Moondream: Moondream 3.1
 Moondream 3.1
-34.5M tokens
+41.2M tokens
 Moondream 3.1 is a vision-language model from Moondream, the successor to Moondream 3 Preview, with 9B total parameters and 2B active (mixture-of-experts). It handles visual question answering, captioning, OCR, and visual reasoning over images, with a 32K-token context and an optional reasoning mode.
 by
 moondream
@@ -186,7 +190,7 @@ $2.50/M output
 tokens
 Meta: Muse Spark Open
 Muse Spark Open
-66.9B tokens
+72.3B tokens
 Muse Spark Open is a coding-optimized open-weight model. Trained specifically for agentic coding workflows, it delivers higher first-attempt accuracy, reliable tool calling, and deep codebase understanding across the repos developers actually work in.
 by
 meta
@@ -198,7 +202,7 @@ $4.25/M output
 tokens
 Black Forest Labs: FLUX 3 Image Klein
 FLUX 3 Image Klein
-97.5M tokens
+146M tokens
 FLUX 3 Image Klein is an open-weights image generation and editing model from Black Forest Labs. It is suited for text-to-image, multi-reference editing that keeps characters and subjects consistent across images, reference-based style transfer, and text rendering. At 5.6B parameters, it is the smaller, faster member of the FLUX 3 Image family.
 by
 black-forest-labs

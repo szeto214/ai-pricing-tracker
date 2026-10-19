@@ -6,9 +6,9 @@
   "url": "https://www.together.ai/pricing",
   "final_url": "https://www.together.ai/pricing",
   "parser_version": 4,
-  "content_hash": "0d50564a7a183b61e21412951474e6c948bda34498f1633e3e8af6b9a9c876cf",
-  "raw_hash": "e5ca79eed89df1ea6c0fc96866cdbf2e7a2ebbd2fe13e1ef61cda0178ade619e",
-  "text_bytes": 9423,
+  "content_hash": "a7e7092c2021a07c1d4793da96dafd22ca2433e30d4436d2bbacc773f97c0f90",
+  "raw_hash": "746cc79d7870ed0c04e4dd7e0be5cdef750dd7a164869dd7584593d92a7fc557",
+  "text_bytes": 9232,
   "currency_hints": [],
   "extractor": "jsonld",
   "confidence": "medium",
@@ -1124,9 +1124,9 @@
           "$1.20"
         ],
         [
-          "Muse Spark Open (Free for limited time) PROMO Promotion valid until 10/18/2026",
-          "$1.00 $0.00",
-          "$5.00 $0.00"
+          "DeepSeek V4.1 Flash 1017",
+          "$0.30 $0.006 (cached)",
+          "$1.20"
         ],
         [
           "Gemma 4 31B",
@@ -1269,9 +1269,9 @@
           "$4.25"
         ],
         [
-          "Muse Spark Open (Free for limited time) PROMO Promotion valid until 10/18/2026",
-          "$1.00 $0.00",
-          "$5.00 $0.00"
+          "DeepSeek V4.1 Flash 1017",
+          "$0.30 $0.006 (cached)",
+          "$1.20"
         ],
         [
           "Gemma 4 31B",
@@ -1493,10 +1493,6 @@
         [
           "Muse Spark Open",
           "$1.25"
-        ],
-        [
-          "Muse Spark Open (Free for limited time) PROMO Promotion valid until October 18, 2026",
-          "$1.00"
         ],
         [
           "Inkling",

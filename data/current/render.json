@@ -6,52 +6,15 @@
   "url": "https://render.com/pricing",
   "final_url": "https://render.com/pricing",
   "parser_version": 4,
-  "content_hash": "245862532ca477361e36db96f5843d5dbdf47305a795a03d03c964404198639e",
-  "raw_hash": "48cdbf27ac83f932c048df10b36eda6484bd1b8d89e460508c70a634c5a478a6",
-  "text_bytes": 15159,
+  "content_hash": "70253e4de296a96eb86c0cef27771afd061084360e2aa81a231543308750675b",
+  "raw_hash": "5b69cdfafe35eb1affa2c5c70aeff366fd7df40fe22aa048756f5824ed9d5946",
+  "text_bytes": 15214,
   "currency_hints": [
     "USD"
   ],
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
-    {
-      "name": "Hobby",
-      "price_raw": "$ 0",
-      "amount": 0.0,
-      "currency": "USD",
-      "period": "month",
-      "features": [
-        "Connect your repo, and go",
-        "Deploy up to 25 services",
-        "5 GB of bandwidth included",
-        "Single-service previews",
-        "Global regions & CDN",
-        "Custom domains",
-        "Firewall & DDoS mitigation",
-        "Database PITR",
-        "Chat support",
-        "All Hobby features, plus:",
-        "Unlimited seats & services",
-        "25 GB bandwidth included",
-        "Full-stack previews",
-        "Horizontal autoscaling",
-        "Isolated environments",
-        "OIDC authentication",
-        "AWS Private Links",
-        "Workspace audit logs",
-        "All Pro features, plus:",
-        "Multiple workspaces",
-        "1 TB of bandwidth included",
-        "Extended metrics retention",
-        "Inbound IP rules",
-        "HIPAA-compliant workspaces",
-        "SAML SSO & SCIM"
-      ],
-      "slot_prices": [
-        0.0
-      ]
-    },
     {
       "name": "Private services",
       "price_raw": "$0.25",
@@ -251,6 +214,17 @@
       "features": [],
       "slot_prices": [
         1500.0
+      ]
+    },
+    {
+      "name": "32 CPU",
+      "price_raw": "$1,700",
+      "amount": 1700.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [],
+      "slot_prices": [
+        1700.0
       ]
     }
   ],

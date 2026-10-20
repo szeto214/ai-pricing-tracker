@@ -6,9 +6,9 @@
   "url": "https://slack.com/pricing",
   "final_url": "https://slack.com/pricing",
   "parser_version": 4,
-  "content_hash": "99dbdf41236f30c37f3f5c5d1b28b0c8e115d2a53c6f83772887f75ce5fdc61d",
-  "raw_hash": "896ac315b7360887313e29e10bd2a86b37a7e8b0c8085052b185fad7f085b87d",
-  "text_bytes": 27124,
+  "content_hash": "b8f47d7eab3940a6c6f908a4669cc6dc39870f968a6c79ca1db2125e267c44a4",
+  "raw_hash": "9c26a459d9435ae97c32401b6258bdf7dff99b2bc7db607603beacccf20b7df7",
+  "text_bytes": 27633,
   "currency_hints": [
     "USD"
   ],
@@ -164,6 +164,13 @@
           "User-created",
           "User-created",
           "Admin-created"
+        ],
+        [
+          "Add your frontline teams New Enterprise+ add-on giving field workers Slack for task management, agentic support & secure Salesforce access.",
+          "",
+          "",
+          "",
+          "Add-on"
         ],
         [
           "AI-powered work"

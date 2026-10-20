@@ -282,6 +282,19 @@ Snapshot Storage
 15 GB
 Starting at $0.08 per GB-month
 Custom
+Vercel Drives
+Drive Storage
+15 GB (lifetime) included
+Starting at $0.05 per GB-month
+Custom
+Drive Reads
+30 GB / month included
+Starting at $0.0015 per GB
+Custom
+Drive Writes
+30 GB / month included
+Starting at $0.004 per GB
+Custom
 Vercel Daemons
 Daemons Active CPU
 5 hours / month included

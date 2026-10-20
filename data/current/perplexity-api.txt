@@ -126,6 +126,9 @@ pplx-embed-context-v1-4b
 $0.05
 View Embeddings API Documentation
 Learn how to use the Embeddings API for semantic search, RAG, and more.
+Embeddings cost = tokens ÷ 1,000,000 × the model’s rate. For example, 40M tokens on
+pplx-embed-context-v1-4b
+cost 40 × $0.05 = $2.00.
 Decisions API Pricing
 The Decisions API answers yes/no, multiple-choice, and scored questions about text and images with calibrated probabilities.
 Model
@@ -186,18 +189,6 @@ Any explanations or additional context
 Search results and references
 Example:
 “The weather in New York is currently sunny with a temperature of 72°F.” = ~15 output tokens
-Search Context Size vs Context Window
-Search context size
-is
-not
-the same as the
-context window
-.
-Search context size
-(Sonar only): How much web information is retrieved during search, set with
-web_search_options.search_context_size
-Context window
-: Maximum tokens the model can process in one request (affects token limits)
 Token Calculation:
 1 token ≈ 4 characters in English text. The exact count may vary based on language and content complexity.
 Cost Examples
@@ -217,20 +208,22 @@ $0.0059
 Agent API Research Preset
 low
 preset representative run
+•
+openai/gpt-6-luna
 • 2,000 input + 1,000 output tokens • 1 web search + 1 fetch
 Component
 Cost
 Model input tokens
-$0.001
+$0.0002
 Model output tokens
-$0.003
+$0.0005
 web_search
 (Fast Search)
 $0.001
 fetch_url
 $0.0005
 Total
-$0.0055
+$0.0022
 Actual preset costs vary with the selected model, token usage, and tool invocations. When present on a completed response,
 usage.cost.total_cost
 reports the calculated request cost.

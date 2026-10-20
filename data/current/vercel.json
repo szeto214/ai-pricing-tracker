@@ -6,9 +6,9 @@
   "url": "https://vercel.com/pricing",
   "final_url": "https://vercel.com/pricing",
   "parser_version": 4,
-  "content_hash": "5e751dd1f4057c8d9ca6c13469142579015f3af0bfd1452b1680dcf06babf855",
-  "raw_hash": "c115f5d6f605aaeef73b7510dbed7bcae50a6b6eb8c799cd8dec96069278736c",
-  "text_bytes": 13620,
+  "content_hash": "cb5c969b065ff8efb549f9aa356b269d302eac97792eaf351059a8ba55cb771a",
+  "raw_hash": "fb7080bde2f922eae030ce314b0c66498cdbe67504b765c7f03be95977fd11f8",
+  "text_bytes": 13850,
   "currency_hints": [
     "USD"
   ],
@@ -170,6 +170,17 @@
       ]
     },
     {
+      "name": "Vercel Drives",
+      "price_raw": "$0.05",
+      "amount": 0.05,
+      "currency": "USD",
+      "period": "month",
+      "features": [],
+      "slot_prices": [
+        0.05
+      ]
+    },
+    {
       "name": "Vercel Daemons",
       "price_raw": "$0.128",
       "amount": 0.128,
@@ -222,17 +233,6 @@
       "features": [],
       "slot_prices": [
         0.6
-      ]
-    },
-    {
-      "name": "Token Requests",
-      "price_raw": "$3.00",
-      "amount": 3.0,
-      "currency": "USD",
-      "period": "month",
-      "features": [],
-      "slot_prices": [
-        3.0
       ]
     }
   ],

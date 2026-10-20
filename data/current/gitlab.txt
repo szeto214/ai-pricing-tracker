@@ -364,7 +364,9 @@ subscription data synchronization
 these instructions
 .
 What happens if I decide not to renew my subscription?
-If you choose not to renew your GitLab subscription, your key will no longer work and GitLab Enterprise Edition will not be functional anymore. You will be able to downgrade to GitLab Community Edition, which is free to use.
+If you choose not to renew your GitLab subscription, your key will no longer work and GitLab Enterprise Edition will not be functional anymore. You will be able to downgrade to
+GitLab Community Edition
+, which is free to use.
 Can I acquire a mix of licenses?
 No, all users in the GitLab.com group or on the self-managed instance need to be on the same plan.
 How does the license key work?

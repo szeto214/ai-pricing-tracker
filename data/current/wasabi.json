@@ -6,12 +6,12 @@
   "url": "https://wasabi.com/pricing",
   "final_url": "https://wasabi.com/pricing",
   "parser_version": 4,
-  "content_hash": "41d85bdc7ca17b0c533f2396454b1fd27d32e3caf69b37c806d22e2198ed499a",
-  "raw_hash": "c47432bb74a3976a40b70a5a7cb51975b35582b6cb378aee3b1640065e22ba0c",
-  "text_bytes": 2263,
+  "content_hash": "763fd29386bd4c63b457b0222de7b9331915fe1a9ca99605ccd3892872bbcbcb",
+  "raw_hash": "165efb03c76c35e1ba20c739a357eabcc579f5feace6f246c8a5b49c9cfd983d",
+  "text_bytes": 3176,
   "currency_hints": [],
   "extractor": "dom",
-  "confidence": "low",
+  "confidence": "medium",
   "plans": [
     {
       "name": "Pay as You Go",
@@ -31,9 +31,96 @@
       "slot_prices": [
         7.99
       ]
+    },
+    {
+      "name": "Fundamentals",
+      "price_raw": "$7.99",
+      "amount": 7.99,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Company email domain: 100 GB for 30 days",
+        "Freemail Domain (e.g. Gmail, Yahoo, Outlook.com): 10 GB for 14 days"
+      ],
+      "slot_prices": [
+        7.99
+      ]
     }
   ],
   "models": [],
-  "tables": [],
+  "tables": [
+    {
+      "caption": "",
+      "rows": [
+        [
+          "",
+          "Pay as You Go",
+          "RCS (Reserved Capacity Storage)"
+        ],
+        [
+          "Fundamentals"
+        ],
+        [
+          "Price per TB",
+          "$7.99/month",
+          "Discounts determined by both the storage capacity purchased and the contract term length"
+        ],
+        [
+          "Pricing basis",
+          "Per-GB/day, billed for actual usage",
+          "Fixed rate for a purchased capacity block"
+        ],
+        [
+          "Commitment",
+          "Company email domain: 100 GB for 30 days Freemail Domain (e.g. Gmail, Yahoo, Outlook.com): 10 GB for 14 days",
+          "25 TB to no limit"
+        ],
+        [
+          "Minimum storage duration",
+          "90 days",
+          "30 days"
+        ],
+        [
+          "Minimum monthly charge",
+          "Yes, tied to 1 TB active storage per account",
+          "No separate minimum. Cost fixed to purchased block"
+        ],
+        [
+          "Egress & API fees",
+          "$0",
+          "$0"
+        ],
+        [
+          "Support"
+        ],
+        [
+          "Technical support",
+          "Basic",
+          "Premium"
+        ],
+        [
+          "Contract & Billing"
+        ],
+        [
+          "Contract term",
+          "Credit card",
+          "Fixed term (1, 3, or 5 years); auto-renews annually unless canceled (30+ days' notice)"
+        ],
+        [
+          "Reseller & Regional"
+        ],
+        [
+          "MSP/VAR resale",
+          "N/A",
+          "Yes, authorized MSPs/VARs can resell, with sub-account allocation"
+        ],
+        [
+          "Regional restriction",
+          "N/A",
+          "None, any Wasabi region"
+        ]
+      ]
+    }
+  ],
   "extract_errors": []
 }

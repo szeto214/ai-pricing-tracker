@@ -6,9 +6,9 @@
   "url": "https://fal.ai/pricing",
   "final_url": "https://fal.ai/pricing",
   "parser_version": 4,
-  "content_hash": "c6d52958740d9a3e1704aae2c2af0d26a54799e146b1707d68a9ac2a578e42d6",
-  "raw_hash": "20cd35a296ba3a1604b0da1c9920827e8bb8a3331f35917c25923b889a7664a2",
-  "text_bytes": 5452,
+  "content_hash": "562f7924840ae3b2cf275cce852cda5ad183c947c7178d57115b64fff17e5454",
+  "raw_hash": "3950ac0d0c0b2398f33250de6b042b4b165eb3bbc16ae8cf036895ed11451202",
+  "text_bytes": 6678,
   "currency_hints": [],
   "extractor": "jsonld",
   "confidence": "medium",
@@ -175,128 +175,312 @@
       "unit": ""
     },
     {
-      "key": "h3 max reference to video minimax/h3-max/reference-to-video",
-      "model": "H3 Max Reference to Video minimax/h3-max/reference-to-video",
+      "key": "flux 3 max",
+      "model": "FLUX 3 Max",
       "prices": {
         "price": {
-          "raw": "$0.05",
-          "amount": 0.05
+          "raw": "$0.085",
+          "amount": 0.085
+        },
+        "price per video": {
+          "raw": "$0.425",
+          "amount": 0.425
         }
       },
       "currency": "USD",
       "unit": ""
     },
     {
-      "key": "h3 max image to video minimax/h3-max/image-to-video",
-      "model": "H3 Max Image to Video minimax/h3-max/image-to-video",
+      "key": "minimax h3 max",
+      "model": "MiniMax H3 Max",
       "prices": {
         "price": {
           "raw": "$0.05",
           "amount": 0.05
+        },
+        "price per video": {
+          "raw": "$0.40",
+          "amount": 0.4
         }
       },
       "currency": "USD",
       "unit": ""
     },
     {
-      "key": "minimax h3 max text to video minimax/h3-max/text-to-video",
-      "model": "MiniMax H3 Max Text to Video minimax/h3-max/text-to-video",
-      "prices": {
-        "price": {
-          "raw": "$0.05",
-          "amount": 0.05
-        }
-      },
-      "currency": "USD",
-      "unit": ""
-    },
-    {
-      "key": "h3 max turbo image to video minimax/h3-max-turbo/image-to-video",
-      "model": "H3 Max Turbo Image to Video minimax/h3-max-turbo/image-to-video",
+      "key": "h3 max turbo",
+      "model": "H3 Max Turbo",
       "prices": {
         "price": {
           "raw": "$0.025",
           "amount": 0.025
+        },
+        "price per video": {
+          "raw": "$0.20",
+          "amount": 0.2
         }
       },
       "currency": "USD",
       "unit": ""
     },
     {
-      "key": "h3 max turbo text to video minimax/h3-max-turbo/text-to-video",
-      "model": "H3 Max Turbo Text to Video minimax/h3-max-turbo/text-to-video",
-      "prices": {
-        "price": {
-          "raw": "$0.025",
-          "amount": 0.025
-        }
-      },
-      "currency": "USD",
-      "unit": ""
-    },
-    {
-      "key": "kling video fal-ai/kling-video/v2.5-turbo/pro/image-to-video",
-      "model": "Kling Video fal-ai/kling-video/v2.5-turbo/pro/image-to-video",
+      "key": "kling video",
+      "model": "Kling Video",
       "prices": {
         "price": {
           "raw": "$0.07",
           "amount": 0.07
+        },
+        "price per video": {
+          "raw": "$0.35",
+          "amount": 0.35
         }
       },
       "currency": "USD",
       "unit": ""
     },
     {
-      "key": "kling video v3 image to video [pro] fal-ai/kling-video/v3/pro/image-to-video",
-      "model": "Kling Video v3 Image to Video [Pro] fal-ai/kling-video/v3/pro/image-to-video",
+      "key": "kling video v3 [pro]",
+      "model": "Kling Video v3 [Pro]",
       "prices": {
         "price": {
           "raw": "$0.14",
           "amount": 0.14
+        },
+        "price per video": {
+          "raw": "$0.84",
+          "amount": 0.84
         }
       },
       "currency": "USD",
       "unit": ""
     },
     {
-      "key": "kling video v3 text to video [pro] fal-ai/kling-video/v3/pro/text-to-video",
-      "model": "Kling Video v3 Text to Video [Pro] fal-ai/kling-video/v3/pro/text-to-video",
+      "key": "kling video v3 [standard]",
+      "model": "Kling Video v3 [Standard]",
       "prices": {
         "price": {
           "raw": "$0.14",
           "amount": 0.14
+        },
+        "price per video": {
+          "raw": "$0.63",
+          "amount": 0.63
         }
       },
       "currency": "USD",
       "unit": ""
     },
     {
-      "key": "nano banana 2 fal-ai/nano-banana-2/edit",
-      "model": "Nano Banana 2 fal-ai/nano-banana-2/edit",
+      "key": "grok imagine video",
+      "model": "Grok Imagine Video",
       "prices": {
         "price": {
+          "raw": "$0.05",
+          "amount": 0.05
+        },
+        "price per video": {
+          "raw": "$0.35",
+          "amount": 0.35
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "seedance 2.0 fast",
+      "model": "Seedance 2.0 Fast",
+      "prices": {
+        "price": {
+          "raw": "$0.0112",
+          "amount": 0.0112
+        },
+        "price per video": {
+          "raw": "$1.21",
+          "amount": 1.21
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "kling o3 [pro]",
+      "model": "Kling O3 [Pro]",
+      "prices": {
+        "price": {
+          "raw": "$0.14",
+          "amount": 0.14
+        },
+        "price per video": {
+          "raw": "$0.56",
+          "amount": 0.56
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "bytedance seedance v1.5 pro",
+      "model": "Bytedance Seedance V1.5 Pro",
+      "prices": {
+        "price": {
+          "raw": "$1.2",
+          "amount": 1.2
+        },
+        "price per video": {
+          "raw": "$0.247",
+          "amount": 0.247
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "bytedance seedance v1 pro fast image to video",
+      "model": "Bytedance Seedance V1 Pro Fast Image To Video",
+      "prices": {
+        "price": {
+          "raw": "$1",
+          "amount": 1.0
+        },
+        "price per video": {
+          "raw": "$0.245",
+          "amount": 0.245
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "video background removal",
+      "model": "Video Background Removal",
+      "prices": {
+        "price": {
+          "raw": "$0.008",
+          "amount": 0.008
+        },
+        "price per video": {
+          "raw": "$0.032",
+          "amount": 0.032
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "grok imagine video 1.5",
+      "model": "Grok Imagine Video 1.5",
+      "prices": {
+        "price": {
+          "raw": "$0.01",
+          "amount": 0.01
+        },
+        "price per video": {
+          "raw": "$0.71",
+          "amount": 0.71
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "kling video v2.6",
+      "model": "Kling Video v2.6",
+      "prices": {
+        "price": {
+          "raw": "$0.07",
+          "amount": 0.07
+        },
+        "price per video": {
+          "raw": "$0.70",
+          "amount": 0.7
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "seedance 2.0 mini",
+      "model": "Seedance 2.0 Mini",
+      "prices": {
+        "price": {
+          "raw": "$0.007",
+          "amount": 0.007
+        },
+        "price per video": {
+          "raw": "$0.756",
+          "amount": 0.756
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "kling o3 [standard]",
+      "model": "Kling O3 [Standard]",
+      "prices": {
+        "price": {
+          "raw": "$0.14",
+          "amount": 0.14
+        },
+        "price per video": {
+          "raw": "$0.42",
+          "amount": 0.42
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "pixverse v6",
+      "model": "PixVerse V6",
+      "prices": {
+        "price": {
+          "raw": "$0.005",
+          "amount": 0.005
+        },
+        "price per video": {
+          "raw": "$0.225",
+          "amount": 0.225
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "nano banana 2",
+      "model": "Nano Banana 2",
+      "prices": {
+        "price": {
+          "raw": "$0.08",
+          "amount": 0.08
+        },
+        "price per image": {
           "raw": "$0.08",
           "amount": 0.08
         }
       },
       "currency": "USD",
-      "unit": ""
+      "unit": "per image"
     },
     {
-      "key": "flux 3 image blackforestlabs/flux-3/edit-image",
-      "model": "Flux 3 Image blackforestlabs/flux-3/edit-image",
+      "key": "flux 3 image",
+      "model": "Flux 3 Image",
       "prices": {
         "price": {
+          "raw": "$0.048",
+          "amount": 0.048
+        },
+        "price per image": {
           "raw": "$0.048",
           "amount": 0.048
         }
       },
       "currency": "USD",
-      "unit": ""
+      "unit": "per image"
     },
     {
-      "key": "gpt image 2 api openai/gpt-image-2/edit",
-      "model": "GPT Image 2 API openai/gpt-image-2/edit",
+      "key": "gpt image 2",
+      "model": "GPT Image 2",
       "prices": {
         "price": {
           "raw": "$1",
@@ -304,217 +488,621 @@
         }
       },
       "currency": "USD",
-      "unit": ""
+      "unit": "per image"
     },
     {
-      "key": "gpt image 2 api openai/gpt-image-2",
-      "model": "GPT Image 2 API openai/gpt-image-2",
+      "key": "nano banana pro",
+      "model": "Nano Banana Pro",
       "prices": {
         "price": {
-          "raw": "$1",
-          "amount": 1.0
-        }
-      },
-      "currency": "USD",
-      "unit": ""
-    },
-    {
-      "key": "nano banana 2 fal-ai/nano-banana-2",
-      "model": "Nano Banana 2 fal-ai/nano-banana-2",
-      "prices": {
-        "price": {
-          "raw": "$0.08",
-          "amount": 0.08
-        }
-      },
-      "currency": "USD",
-      "unit": ""
-    },
-    {
-      "key": "nano banana pro fal-ai/nano-banana-pro/edit",
-      "model": "Nano Banana Pro fal-ai/nano-banana-pro/edit",
-      "prices": {
-        "price": {
+          "raw": "$0.15",
+          "amount": 0.15
+        },
+        "price per image": {
           "raw": "$0.15",
           "amount": 0.15
         }
       },
       "currency": "USD",
-      "unit": ""
+      "unit": "per image"
     },
     {
-      "key": "nano banana pro fal-ai/nano-banana-pro",
-      "model": "Nano Banana Pro fal-ai/nano-banana-pro",
+      "key": "nano banana",
+      "model": "Nano Banana",
       "prices": {
         "price": {
-          "raw": "$0.15",
-          "amount": 0.15
-        }
-      },
-      "currency": "USD",
-      "unit": ""
-    },
-    {
-      "key": "nano banana fal-ai/nano-banana/edit",
-      "model": "Nano Banana fal-ai/nano-banana/edit",
-      "prices": {
-        "price": {
+          "raw": "$0.0398",
+          "amount": 0.0398
+        },
+        "price per image": {
           "raw": "$0.0398",
           "amount": 0.0398
         }
       },
       "currency": "USD",
-      "unit": ""
+      "unit": "per image"
     },
     {
-      "key": "nano banana fal-ai/nano-banana",
-      "model": "Nano Banana fal-ai/nano-banana",
+      "key": "z image turbo",
+      "model": "Z Image Turbo",
       "prices": {
         "price": {
-          "raw": "$0.0398",
-          "amount": 0.0398
-        }
-      },
-      "currency": "USD",
-      "unit": ""
-    },
-    {
-      "key": "z image turbo fal-ai/z-image/turbo",
-      "model": "Z Image Turbo fal-ai/z-image/turbo",
-      "prices": {
-        "price": {
+          "raw": "$0.005",
+          "amount": 0.005
+        },
+        "price per image": {
           "raw": "$0.005",
           "amount": 0.005
         }
       },
       "currency": "USD",
-      "unit": ""
+      "unit": "per image"
     },
     {
-      "key": "elevenlabs tts multilingual v2 fal-ai/elevenlabs/tts/multilingual-v2",
-      "model": "ElevenLabs TTS Multilingual v2 fal-ai/elevenlabs/tts/multilingual-v2",
+      "key": "flux.1 [schnell]",
+      "model": "FLUX.1 [schnell]",
       "prices": {
         "price": {
-          "raw": "$0.1",
-          "amount": 0.1
+          "raw": "$0.003",
+          "amount": 0.003
+        },
+        "price per image": {
+          "raw": "$0.003",
+          "amount": 0.003
         }
       },
       "currency": "USD",
-      "unit": ""
+      "unit": "per image"
     },
     {
-      "key": "elevenlabs tts eleven v3 fal-ai/elevenlabs/tts/eleven-v3",
-      "model": "Elevenlabs Tts Eleven V3 fal-ai/elevenlabs/tts/eleven-v3",
+      "key": "birefnet background removal v2",
+      "model": "Birefnet Background Removal V2",
       "prices": {
         "price": {
-          "raw": "$0.1",
-          "amount": 0.1
+          "raw": "$0",
+          "amount": 0.0
         }
       },
       "currency": "USD",
-      "unit": ""
+      "unit": "per image"
     },
     {
-      "key": "elevenlabs sound effects v2 fal-ai/elevenlabs/sound-effects/v2",
-      "model": "Elevenlabs Sound Effects V2 fal-ai/elevenlabs/sound-effects/v2",
+      "key": "moondreamnext detection",
+      "model": "MoonDreamNext Detection",
       "prices": {
         "price": {
-          "raw": "$0.002",
-          "amount": 0.002
+          "raw": "$0.0011",
+          "amount": 0.0011
         }
       },
       "currency": "USD",
-      "unit": ""
+      "unit": "per image"
     },
     {
-      "key": "ace step prompt to audio fal-ai/ace-step/prompt-to-audio",
-      "model": "ACE Step Prompt To Audio fal-ai/ace-step/prompt-to-audio",
+      "key": "film",
+      "model": "FILM",
+      "prices": {
+        "price": {
+          "raw": "$0.0013",
+          "amount": 0.0013
+        }
+      },
+      "currency": "USD",
+      "unit": "per image"
+    },
+    {
+      "key": "segment anything model 3",
+      "model": "Segment Anything Model 3",
+      "prices": {
+        "price": {
+          "raw": "$0.005",
+          "amount": 0.005
+        },
+        "price per image": {
+          "raw": "$0.005",
+          "amount": 0.005
+        }
+      },
+      "currency": "USD",
+      "unit": "per image"
+    },
+    {
+      "key": "bytedance seedream v4.5",
+      "model": "Bytedance Seedream V4.5",
+      "prices": {
+        "price": {
+          "raw": "$0.04",
+          "amount": 0.04
+        },
+        "price per image": {
+          "raw": "$0.04",
+          "amount": 0.04
+        }
+      },
+      "currency": "USD",
+      "unit": "per image"
+    },
+    {
+      "key": "seedvr2",
+      "model": "SeedVR2",
+      "prices": {
+        "price": {
+          "raw": "$0.001",
+          "amount": 0.001
+        },
+        "price per image": {
+          "raw": "$0.005",
+          "amount": 0.005
+        }
+      },
+      "currency": "USD",
+      "unit": "per image"
+    },
+    {
+      "key": "flux.1 [dev] with loras",
+      "model": "FLUX.1 [dev] with LoRAs",
+      "prices": {
+        "price": {
+          "raw": "$0.035",
+          "amount": 0.035
+        },
+        "price per image": {
+          "raw": "$0.035",
+          "amount": 0.035
+        }
+      },
+      "currency": "USD",
+      "unit": "per image"
+    },
+    {
+      "key": "sana",
+      "model": "Sana",
+      "prices": {
+        "price": {
+          "raw": "$0.001",
+          "amount": 0.001
+        },
+        "price per image": {
+          "raw": "$0.008",
+          "amount": 0.008
+        }
+      },
+      "currency": "USD",
+      "unit": "per image"
+    },
+    {
+      "key": "flux 2 flash",
+      "model": "FLUX 2 Flash",
+      "prices": {
+        "price": {
+          "raw": "$0.005",
+          "amount": 0.005
+        },
+        "price per image": {
+          "raw": "$0.005",
+          "amount": 0.005
+        }
+      },
+      "currency": "USD",
+      "unit": "per image"
+    },
+    {
+      "key": "flux 2 flash edit",
+      "model": "FLUX 2 Flash Edit",
+      "prices": {
+        "price": {
+          "raw": "$0.005",
+          "amount": 0.005
+        },
+        "price per image": {
+          "raw": "$0.01",
+          "amount": 0.01
+        }
+      },
+      "currency": "USD",
+      "unit": "per image"
+    },
+    {
+      "key": "seedream 5.0 pro",
+      "model": "Seedream 5.0 Pro",
+      "prices": {
+        "price": {
+          "raw": "$0.0675",
+          "amount": 0.0675
+        },
+        "price per image": {
+          "raw": "$0.135",
+          "amount": 0.135
+        }
+      },
+      "currency": "USD",
+      "unit": "per image"
+    },
+    {
+      "key": "flux 2",
+      "model": "FLUX 2",
+      "prices": {
+        "price": {
+          "raw": "$0.012",
+          "amount": 0.012
+        },
+        "price per image": {
+          "raw": "$0.012",
+          "amount": 0.012
+        }
+      },
+      "currency": "USD",
+      "unit": "per image"
+    },
+    {
+      "key": "flux 2 edit",
+      "model": "FLUX 2 Edit",
+      "prices": {
+        "price": {
+          "raw": "$0.012",
+          "amount": 0.012
+        },
+        "price per image": {
+          "raw": "$0.024",
+          "amount": 0.024
+        }
+      },
+      "currency": "USD",
+      "unit": "per image"
+    },
+    {
+      "key": "nano banana 2 lite",
+      "model": "Nano Banana 2 Lite",
+      "prices": {
+        "price": {
+          "raw": "$1",
+          "amount": 1.0
+        }
+      },
+      "currency": "USD",
+      "unit": "per image"
+    },
+    {
+      "key": "bria rmbg 2.0",
+      "model": "Bria RMBG 2.0",
+      "prices": {
+        "price": {
+          "raw": "$0.018",
+          "amount": 0.018
+        },
+        "price per image": {
+          "raw": "$0.018",
+          "amount": 0.018
+        }
+      },
+      "currency": "USD",
+      "unit": "per image"
+    },
+    {
+      "key": "flux.1 [dev]",
+      "model": "FLUX.1 [dev]",
+      "prices": {
+        "price": {
+          "raw": "$0.025",
+          "amount": 0.025
+        },
+        "price per image": {
+          "raw": "$0.025",
+          "amount": 0.025
+        }
+      },
+      "currency": "USD",
+      "unit": "per image"
+    },
+    {
+      "key": "nano banana 2.1",
+      "model": "Nano Banana 2.1",
+      "prices": {
+        "price": {
+          "raw": "$1",
+          "amount": 1.0
+        }
+      },
+      "currency": "USD",
+      "unit": "per image"
+    },
+    {
+      "key": "ace step prompt to audio",
+      "model": "ACE Step Prompt To Audio",
       "prices": {
         "price": {
           "raw": "$0.0002",
           "amount": 0.0002
+        },
+        "price per minute": {
+          "raw": "$0.012",
+          "amount": 0.012
         }
       },
       "currency": "USD",
-      "unit": ""
+      "unit": "per minute"
     },
     {
-      "key": "elevenlabs tts turbo v2.5 fal-ai/elevenlabs/tts/turbo-v2.5",
-      "model": "ElevenLabs TTS Turbo v2.5 fal-ai/elevenlabs/tts/turbo-v2.5",
-      "prices": {
-        "price": {
-          "raw": "$0.05",
-          "amount": 0.05
-        }
-      },
-      "currency": "USD",
-      "unit": ""
-    },
-    {
-      "key": "minimax speech-02 hd fal-ai/minimax/speech-02-hd",
-      "model": "MiniMax Speech-02 HD fal-ai/minimax/speech-02-hd",
+      "key": "minimax speech-02 hd",
+      "model": "MiniMax Speech-02 HD",
       "prices": {
         "price": {
           "raw": "$0.1",
           "amount": 0.1
+        },
+        "price per minute": {
+          "raw": "$0.09",
+          "amount": 0.09
         }
       },
       "currency": "USD",
-      "unit": ""
+      "unit": "per minute"
     },
     {
-      "key": "xai text to speech xai/tts/v1",
-      "model": "xAI Text to Speech xai/tts/v1",
+      "key": "xai text to speech",
+      "model": "xAI Text to Speech",
       "prices": {
         "price": {
+          "raw": "$0.015",
+          "amount": 0.015
+        },
+        "price per minute": {
+          "raw": "$0.0135",
+          "amount": 0.0135
+        }
+      },
+      "currency": "USD",
+      "unit": "per minute"
+    },
+    {
+      "key": "minimax speech 2.8 [hd]",
+      "model": "MiniMax Speech 2.8 [HD]",
+      "prices": {
+        "price": {
+          "raw": "$0.1",
+          "amount": 0.1
+        },
+        "price per minute": {
+          "raw": "$0.09",
+          "amount": 0.09
+        }
+      },
+      "currency": "USD",
+      "unit": "per minute"
+    },
+    {
+      "key": "minimax speech 2.8 [turbo]",
+      "model": "MiniMax Speech 2.8 [Turbo]",
+      "prices": {
+        "price": {
+          "raw": "$0.06",
+          "amount": 0.06
+        },
+        "price per minute": {
+          "raw": "$0.054",
+          "amount": 0.054
+        }
+      },
+      "currency": "USD",
+      "unit": "per minute"
+    },
+    {
+      "key": "gemini 3.1 flash tts",
+      "model": "Gemini 3.1 Flash Tts",
+      "prices": {
+        "price": {
+          "raw": "$0.05",
+          "amount": 0.05
+        },
+        "price per minute": {
+          "raw": "$0.045",
+          "amount": 0.045
+        }
+      },
+      "currency": "USD",
+      "unit": "per minute"
+    },
+    {
+      "key": "seed audio 1.0",
+      "model": "Seed Audio 1.0",
+      "prices": {
+        "price": {
+          "raw": "$0.1875",
+          "amount": 0.1875
+        },
+        "price per minute": {
+          "raw": "$0.188",
+          "amount": 0.188
+        }
+      },
+      "currency": "USD",
+      "unit": "per minute"
+    },
+    {
+      "key": "lyria 3 pro",
+      "model": "Lyria 3 Pro",
+      "prices": {
+        "price": {
+          "raw": "$0.08",
+          "amount": 0.08
+        },
+        "price per minute": {
+          "raw": "$0.08",
+          "amount": 0.08
+        }
+      },
+      "currency": "USD",
+      "unit": "per minute"
+    },
+    {
+      "key": "inworld tts-1.5 max",
+      "model": "Inworld TTS-1.5 Max",
+      "prices": {
+        "price": {
+          "raw": "$0.01",
+          "amount": 0.01
+        },
+        "price per minute": {
+          "raw": "$0.009",
+          "amount": 0.009
+        }
+      },
+      "currency": "USD",
+      "unit": "per minute"
+    },
+    {
+      "key": "music generator",
+      "model": "music generator",
+      "prices": {
+        "price": {
+          "raw": "$0.02",
+          "amount": 0.02
+        },
+        "price per minute": {
+          "raw": "$0.02",
+          "amount": 0.02
+        }
+      },
+      "currency": "USD",
+      "unit": "per minute"
+    },
+    {
+      "key": "index tts 2.0",
+      "model": "Index TTS 2.0",
+      "prices": {
+        "price": {
+          "raw": "$0.002",
+          "amount": 0.002
+        },
+        "price per minute": {
+          "raw": "$0.12",
+          "amount": 0.12
+        }
+      },
+      "currency": "USD",
+      "unit": "per minute"
+    },
+    {
+      "key": "sonilo v1.1 text to music",
+      "model": "Sonilo V1.1 Text to Music",
+      "prices": {
+        "price": {
+          "raw": "$0.0025",
+          "amount": 0.0025
+        },
+        "price per minute": {
+          "raw": "$0.15",
+          "amount": 0.15
+        }
+      },
+      "currency": "USD",
+      "unit": "per minute"
+    },
+    {
+      "key": "v1.1 text to sound effects",
+      "model": "V1.1 Text to Sound Effects",
+      "prices": {
+        "price": {
+          "raw": "$0.0018",
+          "amount": 0.0018
+        },
+        "price per minute": {
+          "raw": "$0.108",
+          "amount": 0.108
+        }
+      },
+      "currency": "USD",
+      "unit": "per minute"
+    },
+    {
+      "key": "minimax speech-02 turbo",
+      "model": "MiniMax Speech-02 Turbo",
+      "prices": {
+        "price": {
+          "raw": "$0.06",
+          "amount": 0.06
+        },
+        "price per minute": {
+          "raw": "$0.054",
+          "amount": 0.054
+        }
+      },
+      "currency": "USD",
+      "unit": "per minute"
+    },
+    {
+      "key": "chatterbox text to speech",
+      "model": "Chatterbox Text to Speech",
+      "prices": {
+        "price": {
+          "raw": "$0.025",
+          "amount": 0.025
+        },
+        "price per minute": {
+          "raw": "$0.025",
+          "amount": 0.025
+        }
+      },
+      "currency": "USD",
+      "unit": "per minute"
+    },
+    {
+      "key": "chatterbox speech to speech",
+      "model": "Chatterbox Speech to Speech",
+      "prices": {
+        "price": {
+          "raw": "$0.015",
+          "amount": 0.015
+        },
+        "price per minute": {
           "raw": "$0.015",
           "amount": 0.015
         }
       },
       "currency": "USD",
-      "unit": ""
+      "unit": "per minute"
     },
     {
-      "key": "minimax speech 2.8 [hd] fal-ai/minimax/speech-2.8-hd",
-      "model": "MiniMax Speech 2.8 [HD] fal-ai/minimax/speech-2.8-hd",
+      "key": "kokoro tts",
+      "model": "Kokoro TTS",
       "prices": {
         "price": {
-          "raw": "$0.1",
-          "amount": 0.1
+          "raw": "$0.02",
+          "amount": 0.02
+        },
+        "price per minute": {
+          "raw": "$0.02",
+          "amount": 0.02
         }
       },
       "currency": "USD",
-      "unit": ""
+      "unit": "per minute"
     },
     {
-      "key": "minimax speech 2.8 [turbo] fal-ai/minimax/speech-2.8-turbo",
-      "model": "MiniMax Speech 2.8 [Turbo] fal-ai/minimax/speech-2.8-turbo",
+      "key": "minimax music",
+      "model": "Minimax Music",
       "prices": {
         "price": {
-          "raw": "$0.06",
-          "amount": 0.06
+          "raw": "$0.03",
+          "amount": 0.03
+        },
+        "price per minute": {
+          "raw": "$0.03",
+          "amount": 0.03
         }
       },
       "currency": "USD",
-      "unit": ""
+      "unit": "per minute"
     },
     {
-      "key": "gemini 3.1 flash tts fal-ai/gemini-3.1-flash-tts",
-      "model": "Gemini 3.1 Flash Tts fal-ai/gemini-3.1-flash-tts",
+      "key": "sam 3 3d objects",
+      "model": "Sam 3 3D Objects",
       "prices": {
         "price": {
-          "raw": "$0.05",
-          "amount": 0.05
-        }
-      },
-      "currency": "USD",
-      "unit": ""
-    },
-    {
-      "key": "sam 3 fal-ai/sam-3/3d-objects",
-      "model": "Sam 3 fal-ai/sam-3/3d-objects",
-      "prices": {
-        "price": {
+          "raw": "$0.02",
+          "amount": 0.02
+        },
+        "price per model": {
           "raw": "$0.02",
           "amount": 0.02
         }
@@ -523,10 +1111,14 @@
       "unit": ""
     },
     {
-      "key": "hunyuan motion [1b] fal-ai/hunyuan-motion",
-      "model": "Hunyuan Motion [1B] fal-ai/hunyuan-motion",
+      "key": "hunyuan motion [1b]",
+      "model": "Hunyuan Motion [1B]",
       "prices": {
         "price": {
+          "raw": "$0.08",
+          "amount": 0.08
+        },
+        "price per model": {
           "raw": "$0.08",
           "amount": 0.08
         }
@@ -535,8 +1127,120 @@
       "unit": ""
     },
     {
-      "key": "trellis fal-ai/trellis",
-      "model": "Trellis fal-ai/trellis",
+      "key": "trellis",
+      "model": "Trellis",
+      "prices": {
+        "price": {
+          "raw": "$0.02",
+          "amount": 0.02
+        },
+        "price per model": {
+          "raw": "$0.02",
+          "amount": 0.02
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "tripo h3.1",
+      "model": "Tripo H3.1",
+      "prices": {
+        "price": {
+          "raw": "$0.01",
+          "amount": 0.01
+        },
+        "price per model": {
+          "raw": "$0.20",
+          "amount": 0.2
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "meshy 6 preview",
+      "model": "Meshy 6 Preview",
+      "prices": {
+        "price": {
+          "raw": "$0.8",
+          "amount": 0.8
+        },
+        "price per model": {
+          "raw": "$1.20",
+          "amount": 1.2
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "hunyuan 3d pro",
+      "model": "Hunyuan 3D Pro",
+      "prices": {
+        "price": {
+          "raw": "$0.015",
+          "amount": 0.015
+        },
+        "price per model": {
+          "raw": "$0.375",
+          "amount": 0.375
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "trellis 2",
+      "model": "Trellis 2",
+      "prices": {
+        "price": {
+          "raw": "$0.05",
+          "amount": 0.05
+        },
+        "price per model": {
+          "raw": "$0.30",
+          "amount": 0.3
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "meshy 6",
+      "model": "Meshy 6",
+      "prices": {
+        "price": {
+          "raw": "$0.4",
+          "amount": 0.4
+        },
+        "price per model": {
+          "raw": "$0.60",
+          "amount": 0.6
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "hunyuan3d v3",
+      "model": "Hunyuan3d V3",
+      "prices": {
+        "price": {
+          "raw": "$0.015",
+          "amount": 0.015
+        },
+        "price per model": {
+          "raw": "$0.375",
+          "amount": 0.375
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "trellis multi",
+      "model": "Trellis Multi",
       "prices": {
         "price": {
           "raw": "$0.02",
@@ -547,44 +1251,88 @@
       "unit": ""
     },
     {
-      "key": "tripo h3.1 image to 3d tripo3d/h3.1/image-to-3d",
-      "model": "Tripo H3.1 Image to 3D tripo3d/h3.1/image-to-3d",
+      "key": "hyper3d",
+      "model": "Hyper3d",
       "prices": {
         "price": {
-          "raw": "$0.01",
-          "amount": 0.01
+          "raw": "$0.4",
+          "amount": 0.4
+        },
+        "price per model": {
+          "raw": "$0.40",
+          "amount": 0.4
         }
       },
       "currency": "USD",
       "unit": ""
     },
     {
-      "key": "tripo h3.1 text to 3d tripo3d/h3.1/text-to-3d",
-      "model": "Tripo H3.1 Text to 3D tripo3d/h3.1/text-to-3d",
+      "key": "hunyuan3d",
+      "model": "Hunyuan3D",
       "prices": {
         "price": {
-          "raw": "$0.01",
-          "amount": 0.01
+          "raw": "$0.16",
+          "amount": 0.16
+        },
+        "price per model": {
+          "raw": "$0.16",
+          "amount": 0.16
         }
       },
       "currency": "USD",
       "unit": ""
     },
     {
-      "key": "tripo h3.1 multiview to 3d tripo3d/h3.1/multiview-to-3d",
-      "model": "Tripo H3.1 Multiview to 3D tripo3d/h3.1/multiview-to-3d",
+      "key": "v7",
+      "model": "V7",
       "prices": {
         "price": {
-          "raw": "$0.01",
-          "amount": 0.01
+          "raw": "$0.8",
+          "amount": 0.8
+        },
+        "price per model": {
+          "raw": "$1.20",
+          "amount": 1.2
         }
       },
       "currency": "USD",
       "unit": ""
     },
     {
-      "key": "meshy 6 preview fal-ai/meshy/v6-preview/image-to-3d",
-      "model": "Meshy 6 Preview fal-ai/meshy/v6-preview/image-to-3d",
+      "key": "sam 3 3d body",
+      "model": "Sam 3 3D Body",
+      "prices": {
+        "price": {
+          "raw": "$0.02",
+          "amount": 0.02
+        },
+        "price per model": {
+          "raw": "$0.02",
+          "amount": 0.02
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "hyper3d - rodin v2.5",
+      "model": "Hyper3D - Rodin V2.5",
+      "prices": {
+        "price": {
+          "raw": "$0.4",
+          "amount": 0.4
+        },
+        "price per model": {
+          "raw": "$0.40",
+          "amount": 0.4
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "meshy rigging",
+      "model": "Meshy Rigging",
       "prices": {
         "price": {
           "raw": "$0.8",
@@ -595,36 +1343,64 @@
       "unit": ""
     },
     {
-      "key": "hunyuan 3d pro image to 3d fal-ai/hunyuan-3d/v3.1/pro/image-to-3d",
-      "model": "Hunyuan 3D Pro Image to 3D fal-ai/hunyuan-3d/v3.1/pro/image-to-3d",
+      "key": "hunyuan 3d rapid",
+      "model": "Hunyuan 3D Rapid",
       "prices": {
         "price": {
           "raw": "$0.015",
           "amount": 0.015
+        },
+        "price per model": {
+          "raw": "$0.225",
+          "amount": 0.225
         }
       },
       "currency": "USD",
       "unit": ""
     },
     {
-      "key": "hunyuan 3d pro text to 3d fal-ai/hunyuan-3d/v3.1/pro/text-to-3d",
-      "model": "Hunyuan 3D Pro Text to 3D fal-ai/hunyuan-3d/v3.1/pro/text-to-3d",
+      "key": "hyper3d rodin",
+      "model": "Hyper3D Rodin",
       "prices": {
         "price": {
-          "raw": "$0.015",
-          "amount": 0.015
+          "raw": "$0.4",
+          "amount": 0.4
+        },
+        "price per model": {
+          "raw": "$0.40",
+          "amount": 0.4
         }
       },
       "currency": "USD",
       "unit": ""
     },
     {
-      "key": "trellis 2 fal-ai/trellis-2",
-      "model": "Trellis 2 fal-ai/trellis-2",
+      "key": "tripo3d",
+      "model": "Tripo3D",
       "prices": {
         "price": {
-          "raw": "$0.05",
-          "amount": 0.05
+          "raw": "$0.01",
+          "amount": 0.01
+        },
+        "price per model": {
+          "raw": "$0.30",
+          "amount": 0.3
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "tripo p1 image to 3d",
+      "model": "Tripo P1 Image to 3D",
+      "prices": {
+        "price": {
+          "raw": "$0.01",
+          "amount": 0.01
+        },
+        "price per model": {
+          "raw": "$0.50",
+          "amount": 0.5
         }
       },
       "currency": "USD",
@@ -686,67 +1462,127 @@
           "Model",
           "Unit",
           "Price",
-          "Units per $1"
+          "Price per video",
+          "Seconds per $1"
         ],
         [
-          "H3 Max Reference to Video minimax/h3-max/reference-to-video",
+          "FLUX 3 Max",
+          "seconds",
+          "$0.085",
+          "$0.425",
+          "11.76"
+        ],
+        [
+          "MiniMax H3 Max",
           "seconds",
           "$0.05",
-          "20 seconds"
+          "$0.40",
+          "12.5"
         ],
         [
-          "H3 Max Image to Video minimax/h3-max/image-to-video",
-          "seconds",
-          "$0.05",
-          "20 seconds"
-        ],
-        [
-          "MiniMax H3 Max Text to Video minimax/h3-max/text-to-video",
-          "seconds",
-          "$0.05",
-          "20 seconds"
-        ],
-        [
-          "H3 Max Turbo Image to Video minimax/h3-max-turbo/image-to-video",
+          "H3 Max Turbo",
           "seconds",
           "$0.025",
-          "40 seconds"
+          "$0.20",
+          "25"
         ],
         [
-          "H3 Max Turbo Text to Video minimax/h3-max-turbo/text-to-video",
-          "seconds",
-          "$0.025",
-          "40 seconds"
-        ],
-        [
-          "Kling Video fal-ai/kling-video/v2.5-turbo/pro/image-to-video",
+          "Kling Video",
           "seconds",
           "$0.07",
-          "14.29 seconds"
+          "$0.35",
+          "14.29"
         ],
         [
-          "Kling Video v3 Image to Video [Pro] fal-ai/kling-video/v3/pro/image-to-video",
+          "Kling Video v3 [Pro]",
           "seconds",
           "$0.14",
-          "7.14 seconds"
+          "$0.84",
+          "5.95"
         ],
         [
-          "Kling Video v3 Text to Video [Pro] fal-ai/kling-video/v3/pro/text-to-video",
+          "Kling Video v3 [Standard]",
           "seconds",
           "$0.14",
-          "7.14 seconds"
+          "$0.63",
+          "7.94"
         ],
         [
-          "Kling Video v3 Image to Video [Standard] fal-ai/kling-video/v3/standard/image-to-video",
+          "Grok Imagine Video",
           "seconds",
-          "$0.14",
-          "7.14 seconds"
+          "$0.05",
+          "$0.35",
+          "14.29"
         ],
         [
-          "Kling Video v3 Text to Video [Standard] fal-ai/kling-video/v3/standard/text-to-video",
+          "Seedance 2.0 Fast",
+          "1000 tokens",
+          "$0.0112",
+          "$1.21",
+          "4.13"
+        ],
+        [
+          "Kling O3 [Pro]",
           "seconds",
           "$0.14",
-          "7.14 seconds"
+          "from $0.56",
+          "8.93"
+        ],
+        [
+          "Bytedance Seedance V1.5 Pro",
+          "1m tokens",
+          "$1.2",
+          "$0.247",
+          "20.23"
+        ],
+        [
+          "Bytedance Seedance V1 Pro Fast Image To Video",
+          "1m tokens",
+          "$1",
+          "$0.245",
+          "20.42"
+        ],
+        [
+          "Video Background Removal",
+          "30 frames",
+          "$0.008",
+          "$0.032",
+          "156.25"
+        ],
+        [
+          "Grok Imagine Video 1.5",
+          "seconds",
+          "$0.01",
+          "$0.71",
+          "7.04"
+        ],
+        [
+          "Kling Video v2.6",
+          "seconds",
+          "$0.07",
+          "$0.70",
+          "7.14"
+        ],
+        [
+          "Seedance 2.0 Mini",
+          "1000 tokens",
+          "$0.007",
+          "$0.756",
+          "6.61"
+        ],
+        [
+          "Kling O3 [Standard]",
+          "seconds",
+          "$0.14",
+          "from $0.42",
+          "11.9"
+        ],
+        [
+          "PixVerse V6",
+          "seconds",
+          "$0.005",
+          "$0.225",
+          "22.22"
         ]
       ]
     },
@@ -757,67 +1593,176 @@
           "Model",
           "Unit",
           "Price",
-          "Units per $1"
+          "Price per image",
+          "Images per $1"
         ],
         [
-          "Nano Banana 2 fal-ai/nano-banana-2/edit",
+          "Nano Banana 2",
           "images",
           "$0.08",
-          "12.5 images"
+          "$0.08",
+          "12.5"
         ],
         [
-          "Flux 3 Image blackforestlabs/flux-3/edit-image",
+          "Flux 3 Image",
           "megapixels",
           "$0.048",
-          "20.83 megapixels"
+          "$0.048",
+          "20.83"
         ],
         [
-          "GPT Image 2 API openai/gpt-image-2/edit",
+          "GPT Image 2",
           "units",
           "$1",
-          "1 units"
+          "—",
+          "—"
         ],
         [
-          "GPT Image 2 API openai/gpt-image-2",
-          "units",
-          "$1",
-          "1 units"
-        ],
-        [
-          "Nano Banana 2 fal-ai/nano-banana-2",
-          "images",
-          "$0.08",
-          "12.5 images"
-        ],
-        [
-          "Nano Banana Pro fal-ai/nano-banana-pro/edit",
+          "Nano Banana Pro",
           "images",
           "$0.15",
-          "6.67 images"
-        ],
-        [
-          "Nano Banana Pro fal-ai/nano-banana-pro",
-          "images",
           "$0.15",
-          "6.67 images"
+          "6.67"
         ],
         [
-          "Nano Banana fal-ai/nano-banana/edit",
+          "Nano Banana",
           "images",
           "$0.0398",
-          "25.13 images"
-        ],
-        [
-          "Nano Banana fal-ai/nano-banana",
-          "images",
           "$0.0398",
-          "25.13 images"
+          "25.13"
         ],
         [
-          "Z Image Turbo fal-ai/z-image/turbo",
+          "Z Image Turbo",
           "megapixels",
           "$0.005",
-          "200 megapixels"
+          "$0.005",
+          "200"
+        ],
+        [
+          "FLUX.1 [schnell]",
+          "megapixels",
+          "$0.003",
+          "$0.003",
+          "333.33"
+        ],
+        [
+          "Birefnet Background Removal V2",
+          "compute seconds",
+          "$0",
+          "—",
+          "—"
+        ],
+        [
+          "MoonDreamNext Detection",
+          "seconds",
+          "$0.0011",
+          "—",
+          "—"
+        ],
+        [
+          "FILM",
+          "seconds",
+          "$0.0013",
+          "—",
+          "—"
+        ],
+        [
+          "Segment Anything Model 3",
+          "units",
+          "$0.005",
+          "$0.005 †",
+          "200"
+        ],
+        [
+          "Bytedance Seedream V4.5",
+          "images",
+          "$0.04",
+          "$0.04",
+          "25"
+        ],
+        [
+          "SeedVR2",
+          "megapixels",
+          "$0.001",
+          "$0.005",
+          "200"
+        ],
+        [
+          "FLUX.1 [dev] with LoRAs",
+          "megapixels",
+          "$0.035",
+          "$0.035",
+          "28.57"
+        ],
+        [
+          "Sana",
+          "megapixels",
+          "$0.001",
+          "$0.008",
+          "125"
+        ],
+        [
+          "FLUX 2 Flash",
+          "megapixels",
+          "$0.005",
+          "$0.005",
+          "200"
+        ],
+        [
+          "FLUX 2 Flash Edit",
+          "processed megapixels",
+          "$0.005",
+          "$0.01",
+          "100"
+        ],
+        [
+          "Seedream 5.0 Pro",
+          "units",
+          "$0.0675",
+          "$0.135",
+          "7.41"
+        ],
+        [
+          "FLUX 2",
+          "megapixels",
+          "$0.012",
+          "$0.012",
+          "83.33"
+        ],
+        [
+          "FLUX 2 Edit",
+          "processed megapixels",
+          "$0.012",
+          "$0.024",
+          "41.67"
+        ],
+        [
+          "Nano Banana 2 Lite",
+          "units",
+          "$1",
+          "—",
+          "—"
+        ],
+        [
+          "Bria RMBG 2.0",
+          "generations",
+          "$0.018",
+          "$0.018",
+          "55.56"
+        ],
+        [
+          "FLUX.1 [dev]",
+          "megapixels",
+          "$0.025",
+          "from $0.025",
+          "40"
+        ],
+        [
+          "Nano Banana 2.1",
+          "units",
+          "$1",
+          "—",
+          "—"
         ]
       ]
     },
@@ -828,67 +1773,134 @@
           "Model",
           "Unit",
           "Price",
-          "Units per $1"
+          "Price per minute",
+          "Minutes per $1"
         ],
         [
-          "ElevenLabs TTS Multilingual v2 fal-ai/elevenlabs/tts/multilingual-v2",
-          "1000 characters",
-          "$0.1",
-          "10 1000 characters"
-        ],
-        [
-          "Elevenlabs Tts Eleven V3 fal-ai/elevenlabs/tts/eleven-v3",
-          "1000 characters",
-          "$0.1",
-          "10 1000 characters"
-        ],
-        [
-          "Elevenlabs Sound Effects V2 fal-ai/elevenlabs/sound-effects/v2",
-          "seconds",
-          "$0.002",
-          "500 seconds"
-        ],
-        [
-          "ACE Step Prompt To Audio fal-ai/ace-step/prompt-to-audio",
+          "ACE Step Prompt To Audio",
           "seconds",
           "$0.0002",
-          "5,000 seconds"
+          "$0.012",
+          "83.33"
         ],
         [
-          "ElevenLabs TTS Turbo v2.5 fal-ai/elevenlabs/tts/turbo-v2.5",
-          "1000 characters",
-          "$0.05",
-          "20 1000 characters"
-        ],
-        [
-          "MiniMax Speech-02 HD fal-ai/minimax/speech-02-hd",
+          "MiniMax Speech-02 HD",
           "1000 characters",
           "$0.1",
-          "10 1000 characters"
+          "$0.09",
+          "11.11"
         ],
         [
-          "xAI Text to Speech xai/tts/v1",
+          "xAI Text to Speech",
           "1000 characters",
           "$0.015",
-          "66.67 1000 characters"
+          "$0.0135",
+          "74.07"
         ],
         [
-          "MiniMax Speech 2.8 [HD] fal-ai/minimax/speech-2.8-hd",
+          "MiniMax Speech 2.8 [HD]",
           "1000 characters",
           "$0.1",
-          "10 1000 characters"
+          "$0.09",
+          "11.11"
         ],
         [
-          "MiniMax Speech 2.8 [Turbo] fal-ai/minimax/speech-2.8-turbo",
+          "MiniMax Speech 2.8 [Turbo]",
           "1000 characters",
           "$0.06",
-          "16.67 1000 characters"
+          "$0.054",
+          "18.52"
         ],
         [
-          "Gemini 3.1 Flash Tts fal-ai/gemini-3.1-flash-tts",
+          "Gemini 3.1 Flash Tts",
           "1000 characters",
           "$0.05",
-          "20 1000 characters"
+          "$0.045",
+          "22.22"
+        ],
+        [
+          "Seed Audio 1.0",
+          "minutes",
+          "$0.1875",
+          "$0.188",
+          "5.33"
+        ],
+        [
+          "Lyria 3 Pro",
+          "audios",
+          "$0.08",
+          "$0.08 per track",
+          "12.5 tracks"
+        ],
+        [
+          "Inworld TTS-1.5 Max",
+          "1000 characters",
+          "$0.01",
+          "$0.009",
+          "111.11"
+        ],
+        [
+          "music generator",
+          "minutes",
+          "$0.02",
+          "$0.02",
+          "50"
+        ],
+        [
+          "Index TTS 2.0",
+          "seconds",
+          "$0.002",
+          "$0.12",
+          "8.33"
+        ],
+        [
+          "Sonilo V1.1 Text to Music",
+          "seconds",
+          "$0.0025",
+          "$0.15",
+          "6.67"
+        ],
+        [
+          "V1.1 Text to Sound Effects",
+          "seconds",
+          "$0.0018",
+          "$0.108",
+          "9.26"
+        ],
+        [
+          "MiniMax Speech-02 Turbo",
+          "1000 characters",
+          "$0.06",
+          "$0.054",
+          "18.52"
+        ],
+        [
+          "Chatterbox Text to Speech",
+          "1000 characters",
+          "$0.025",
+          "$0.025",
+          "40"
+        ],
+        [
+          "Chatterbox Speech to Speech",
+          "minutes",
+          "$0.015",
+          "$0.015",
+          "66.67"
+        ],
+        [
+          "Kokoro TTS",
+          "1000 characters",
+          "$0.02",
+          "$0.02",
+          "50"
+        ],
+        [
+          "Minimax Music",
+          "generations",
+          "$0.03",
+          "$0.03 per track",
+          "33.33 tracks"
         ]
       ]
     },
@@ -899,67 +1911,148 @@
           "Model",
           "Unit",
           "Price",
-          "Units per $1"
+          "Price per model",
+          "Models per $1"
         ],
         [
-          "Sam 3 fal-ai/sam-3/3d-objects",
+          "Sam 3 3D Objects",
           "units",
           "$0.02",
-          "50 units"
+          "$0.02 †",
+          "50"
         ],
         [
-          "Hunyuan Motion [1B] fal-ai/hunyuan-motion",
+          "Hunyuan Motion [1B]",
           "generations",
           "$0.08",
-          "12.5 generations"
+          "$0.08",
+          "12.5"
         ],
         [
-          "Trellis fal-ai/trellis",
+          "Trellis",
           "generations",
           "$0.02",
-          "50 generations"
+          "$0.02",
+          "50"
         ],
         [
-          "Tripo H3.1 Image to 3D tripo3d/h3.1/image-to-3d",
+          "Tripo H3.1",
           "credits",
           "$0.01",
-          "100 credits"
+          "from $0.20",
+          "5"
         ],
         [
-          "Tripo H3.1 Text to 3D tripo3d/h3.1/text-to-3d",
-          "credits",
-          "$0.01",
-          "100 credits"
-        ],
-        [
-          "Tripo H3.1 Multiview to 3D tripo3d/h3.1/multiview-to-3d",
-          "credits",
-          "$0.01",
-          "100 credits"
-        ],
-        [
-          "Meshy 6 Preview fal-ai/meshy/v6-preview/image-to-3d",
+          "Meshy 6 Preview",
           "generations",
           "$0.8",
-          "1.25 generations"
+          "$1.20",
+          "0.83"
         ],
         [
-          "Hunyuan 3D Pro Image to 3D fal-ai/hunyuan-3d/v3.1/pro/image-to-3d",
+          "Hunyuan 3D Pro",
           "units",
           "$0.015",
-          "66.67 units"
+          "$0.375 †",
+          "2.67"
         ],
         [
-          "Hunyuan 3D Pro Text to 3D fal-ai/hunyuan-3d/v3.1/pro/text-to-3d",
-          "units",
-          "$0.015",
-          "66.67 units"
-        ],
-        [
-          "Trellis 2 fal-ai/trellis-2",
+          "Trellis 2",
           "units",
           "$0.05",
-          "20 units"
+          "$0.30",
+          "3.33"
+        ],
+        [
+          "Meshy 6",
+          "generations",
+          "$0.4",
+          "from $0.60",
+          "1.67"
+        ],
+        [
+          "Hunyuan3d V3",
+          "units",
+          "$0.015",
+          "$0.375 †",
+          "2.67"
+        ],
+        [
+          "Trellis Multi",
+          "",
+          "$0.02",
+          "—",
+          "—"
+        ],
+        [
+          "Hyper3d",
+          "generations",
+          "$0.4",
+          "$0.40",
+          "2.5"
+        ],
+        [
+          "Hunyuan3D",
+          "generations",
+          "$0.16",
+          "$0.16",
+          "6.25"
+        ],
+        [
+          "V7",
+          "generations",
+          "$0.8",
+          "$1.20",
+          "0.83"
+        ],
+        [
+          "Sam 3 3D Body",
+          "units",
+          "$0.02",
+          "$0.02 †",
+          "50"
+        ],
+        [
+          "Hyper3D - Rodin V2.5",
+          "generations",
+          "$0.4",
+          "$0.40",
+          "2.5"
+        ],
+        [
+          "Meshy Rigging",
+          "generations",
+          "$0.8",
+          "—",
+          "—"
+        ],
+        [
+          "Hunyuan 3D Rapid",
+          "units",
+          "$0.015",
+          "$0.225 †",
+          "4.44"
+        ],
+        [
+          "Hyper3D Rodin",
+          "generations",
+          "$0.4",
+          "$0.40",
+          "2.5"
+        ],
+        [
+          "Tripo3D",
+          "credits",
+          "$0.01",
+          "$0.30",
+          "3.33"
+        ],
+        [
+          "Tripo P1 Image to 3D",
+          "credits",
+          "$0.01",
+          "$0.50",
+          "2"
         ]
       ]
     }

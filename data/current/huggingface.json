@@ -7,7 +7,7 @@
   "final_url": "https://huggingface.co/pricing",
   "parser_version": 4,
   "content_hash": "f06359b2b5b84b899256021f94bf68b5d897e66447bc41c2d438912b471d49a0",
-  "raw_hash": "e65024cae1f99b9c9ac33ead8c951309f39328877c43c1688cb2306f17826d66",
+  "raw_hash": "c9fcb654c2cb13631082e8793b8526d39918b53bdebc24483a9d2762927f79d0",
   "text_bytes": 22451,
   "currency_hints": [],
   "extractor": "dom",

@@ -566,8 +566,8 @@ $0.16
 View more
 NVIDIA-Nemotron-3.5-Super-VL
 256k
-$0.10 / $0.08 cached
-$0.40
+$0.15 / $0.02 cached
+$0.50
 View more
 Nemotron-Content-Safety-3.5
 128k
@@ -596,8 +596,8 @@ $0.16
 View more
 NVIDIA-Nemotron-3.5-Super-VL
 256k
-$0.10 / $0.08 cached
-$0.40
+$0.15 / $0.02 cached
+$0.50
 View more
 Nemotron-Content-Safety-3.5
 128k
@@ -1057,6 +1057,9 @@ Latest Models
 deepseek-ai
 /
 DeepSeek-V4.1-Flash-1017
+nace-ai
+/
+drex-max
 Cloudflare
 /
 clef-flash
@@ -1066,25 +1069,22 @@ remove_background_guided
 inclusionAI
 /
 Ling-3.1-flash
-Cloudflare
-/
-clef
 Featured Models
-tencent
-/
-Hy4-preview
-black-forest-labs
-/
-FLUX-2-klein-4b
-Qwen
-/
-Qwen3.5-397B-A17B
-nvidia
-/
-NVIDIA-Nemotron-3.5-Super-VL
 zai-org
 /
-GLM-5.3-Flash
+GLM-5.3
+Qwen
+/
+Qwen3-TTS
+moonshotai
+/
+Kimi-K2.6
+google
+/
+gemma-4-26B-A4B-it
+zai-org
+/
+GLM-5.2
 © 2026 DeepInfra. All rights reserved.
 Privacy Policy
 Terms of Service

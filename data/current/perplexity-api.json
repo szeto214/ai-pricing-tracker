@@ -6,9 +6,9 @@
   "url": "https://docs.perplexity.ai/getting-started/pricing",
   "final_url": "https://docs.perplexity.ai/docs/getting-started/pricing",
   "parser_version": 4,
-  "content_hash": "81f61f73f4bfe82fd1aeef93692fd03decb175c3a2f013cf99cad59cb9f997d6",
-  "raw_hash": "1b4deb1ea0e72584d2fe4399619d31b8f1e9a724a5e2c015a7149abbf1ad72f0",
-  "text_bytes": 7414,
+  "content_hash": "2cbf76200651fe866f1a506947e88019d0beb105d27ce1d4a6be023a6c55e41a",
+  "raw_hash": "002c921829cbdd633a98449bd9c9acf7bfa13e7775d61ff60a136704b34c97d4",
+  "text_bytes": 7252,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -202,13 +202,13 @@
     },
     {
       "name": "Model input tokens",
-      "price_raw": "$0.001",
-      "amount": 0.001,
+      "price_raw": "$0.0002",
+      "amount": 0.0002,
       "currency": "USD",
       "period": null,
       "features": [],
       "slot_prices": [
-        0.001
+        0.0002
       ]
     }
   ],
@@ -417,9 +417,9 @@
       "key": "model output tokens",
       "model": "Model output tokens",
       "prices": {
-        "$0.001": {
-          "raw": "$0.003",
-          "amount": 0.003
+        "$0.0002": {
+          "raw": "$0.0005",
+          "amount": 0.0005
         }
       },
       "currency": "USD",
@@ -429,7 +429,7 @@
       "key": "web_search (fast search)",
       "model": "web_search (Fast Search)",
       "prices": {
-        "$0.001": {
+        "$0.0002": {
           "raw": "$0.001",
           "amount": 0.001
         }
@@ -441,7 +441,7 @@
       "key": "fetch_url",
       "model": "fetch_url",
       "prices": {
-        "$0.001": {
+        "$0.0002": {
           "raw": "$0.0005",
           "amount": 0.0005
         }
@@ -613,11 +613,11 @@
         ],
         [
           "Model input tokens",
-          "$0.001"
+          "$0.0002"
         ],
         [
           "Model output tokens",
-          "$0.003"
+          "$0.0005"
         ],
         [
           "web_search (Fast Search)",
@@ -629,7 +629,7 @@
         ],
         [
           "Total",
-          "$0.0055"
+          "$0.0022"
         ]
       ]
     }

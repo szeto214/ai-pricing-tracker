@@ -6,9 +6,9 @@
   "url": "https://www.together.ai/pricing",
   "final_url": "https://www.together.ai/pricing",
   "parser_version": 4,
-  "content_hash": "a7e7092c2021a07c1d4793da96dafd22ca2433e30d4436d2bbacc773f97c0f90",
-  "raw_hash": "746cc79d7870ed0c04e4dd7e0be5cdef750dd7a164869dd7584593d92a7fc557",
-  "text_bytes": 9232,
+  "content_hash": "49174bbf7510c223b0a01799163d1c1647e2683a4c49d5bdaee0a91001958463",
+  "raw_hash": "2fa2e215ef35080c212e308326f3a6e40f893b92a21bc8b7349e23cabb45e8a9",
+  "text_bytes": 9464,
   "currency_hints": [],
   "extractor": "jsonld",
   "confidence": "medium",
@@ -1074,11 +1074,6 @@
       "caption": "",
       "rows": [
         [
-          "MiniMax M3",
-          "$0.30 $0.06 (cached)",
-          "$1.20"
-        ],
-        [
           "Kimi K3",
           "$3.00 $0.30 (cached)",
           "$15.00"
@@ -1132,6 +1127,11 @@
           "Gemma 4 31B",
           "$0.39",
           "$0.97"
+        ],
+        [
+          "MiniMax M3",
+          "$0.30 $0.06 (cached)",
+          "$1.20"
         ],
         [
           "Qwen3.7-Plus",
@@ -1239,11 +1239,6 @@
       "caption": "",
       "rows": [
         [
-          "MiniMax M3",
-          "$0.30 $0.06 (cached)",
-          "$1.20"
-        ],
-        [
           "Kimi K3",
           "$3.00 $0.30 (cached)",
           "$15.00"
@@ -1277,6 +1272,11 @@
           "Gemma 4 31B",
           "$0.39",
           "$0.97"
+        ],
+        [
+          "MiniMax M3",
+          "$0.30 $0.06 (cached)",
+          "$1.20"
         ],
         [
           "Qwen3.7-Plus",

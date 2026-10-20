@@ -6,19 +6,19 @@
   "url": "https://nebius.com/prices",
   "final_url": "https://nebius.com/prices",
   "parser_version": 4,
-  "content_hash": "68dad91894c7cca7e6b2425f907da76e27b7ad762a75b32d31020207b2277c69",
-  "raw_hash": "37519690b51e8c9d516c2eb1489089ba2ada02635078ae3abbb72ce4a8cdbc27",
-  "text_bytes": 5659,
+  "content_hash": "203afb646e2cacfed7c22da563feae62fd26b9a955c75216eb4b8c9d246c7141",
+  "raw_hash": "9b6a7af22d4b7df45316ef856f6d745351c84308404dd4ccbc3f7531fda6f4e4",
+  "text_bytes": 4723,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
     {
-      "name": "CPU-only instances",
+      "name": "On-demand CPU-only instances",
       "price_raw": "$0.13",
       "amount": 0.13,
       "currency": "USD",
-      "period": "hour",
+      "period": null,
       "features": [],
       "slot_prices": [
         0.13

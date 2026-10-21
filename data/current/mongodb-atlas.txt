@@ -55,30 +55,31 @@ Deploy Atlas Infinite
 Enhanced performance for dedicated workloads: architected with decoupled compute and storage for modern agentic workloads. Rapidly scale storage up to 128TB per HA shard with sub-second scaling triggers. Available on M10+ dedicated clusters.
 Storage: 128TB per HA shard capacity
 Throughput: 1M + IOPS burst performance
+View Infinite pricing
 Customize your deployment with tools & services
 MongoDB Search on Atlas
-Build relevance-based search 4x faster and for 77% lower cost than alternative search solutions.
+Build scalable full-text and semantic search apps across any cloud.
 See pricing →
 MongoDB Vector Search on Atlas
-Build intelligent applications powered by semantic search and generative AI over any type of data.
+Build scalable full-text and semantic search apps across any cloud.
 See pricing →
 Atlas Stream Processing
-Process high-volume, high-velocity streams of complex event data.
+Build event-driven applications with data-in-motion and data-at-rest.
 See pricing →
 Atlas Data Federation
-Easily query, combine, or move data across Atlas and cloud object storage.
+Query application and cloud data together with a serverless query engine.
 See pricing →
 Atlas Charts
-Easily create, share, and embed visualizations from MongoDB Atlas.
+Spot trends and uncover insights with visualizations built into Atlas. Charts are included on all Atlas clusters, with premium features available on Dedicated and Flex clusters.
 See pricing →
 Atlas SQL Interface
-MongoDB Atlas SQL Interface, Connectors, and Drivers make it easy to natively query, analyze, and visualize Atlas data with SQL-based tools.
+Analyze application and cloud data together through a single SQL interface.
 See pricing →
 Online Archive
-Automate the cost optimization process — without sacrificing data accessibility.
+Tier data automatically to scale storage, reduce costs, and keep it accessible.
 See pricing →
 Support
-Get access to expert technical advice for optimizing performance, managing risk, and lowering costs.
+Atlas includes free Basic Support. Upgrade to a paid plan for faster response times, with select security features available as developer add-ons and included with Pro and higher plans.
 See pricing →
 View all plan features
 Questions about pricing?
@@ -171,52 +172,52 @@ M30
 40–512 GB
 8 GB
 2 vCPUs
-$0.54/hr
+$0.61/hr
 M40
 80 GB–1 TB
 16 GB
 4 vCPUs
-$1.04/hr
+$1.20/hr
 M50
 160 GB–4 TB
 32 GB
 8 vCPUs
-$2.00/hr
+$2.35/hr
 M60
 320 GB–4 TB
 64 GB
 16 vCPUs
-$3.95/hr
+$4.67/hr
 M80
 750 GB–4 TB
 128 GB
 32 vCPUs
-$7.30/hr
+$8.99/hr
 M140
 1–4 TB
 192 GB
 48 vCPUs
-$10.99/hr
+$13.51/hr
 M200
 1.5–4 TB
 256 GB
 64 vCPUs
-$14.59/hr
+$17.98/hr
 M300
 2–4 TB
 384 GB
 96 vCPUs
-$21.85/hr
+$26.97/hr
 M400
 3–4 TB
 488 GB
 64 vCPUs
-$22.40/hr
+$26.98/hr
 M700
 4 TB
 768 GB
 96 vCPUs
-$33.26/hr
+$40.48/hr
 Additional hardware configurations available for specialized workloads including Low-CPU and Local NVMe SSD.
 Scale beyond 4 TB:
 Sharded clusters offer additional compute and storage through horizontal scaling.
@@ -645,7 +646,7 @@ $0.000000005/ms
 $0.12/GB for egress
 Applicable services include Triggers, Functions, GraphQL API, and Device Sync.
 MongoDB Search on Atlas
-Build engaging, modern applications with the power of full-text and semantic search. High CPU is the recommended configuration for Atlas Search.
+Build scalable full-text and semantic search apps across any cloud.
 Cluster Tier
 Storage
 vCPUs
@@ -1088,4 +1089,53 @@ $1.56 to $2.49
 *Data transfer costs are not included in the above pricing.
 For more information on Stream Processing pricing, please visit our
 documentation
+.
+Atlas Infinite
+No more guesswork. Meet your needs in real time as your workloads scale up and down.
+Amazon Web Services
+Cluster Tier
+Storage
+RAM
+vCPU
+Base Price
+M10
+Up to 128TB
+2 GB
+2 vCPUs
+$0.088/hr
+M20
+Up to 128TB
+4 GB
+2 vCPUs
+$0.227/hr
+M30 Gen2
+Up to 128TB
+8 GB
+2 vCPUs
+$0.677/hr
+M40 Gen2
+Up to 128TB
+16 GB
+4 vCPUs
+$1.354/hr
+M50 Gen2
+Up to 128TB
+32 GB
+8 vCPUs
+$2.709/hr
+M60 Gen2
+Up to 128TB
+64 GB
+16 vCPUs
+$5.417/hr
+Storage
+Price
+Storage (consumed)
+$0.30 per GB per month
+Storage
+Price
+Storage (consumed)
+$0.30 per GB per month
+Prices shown are for US East (N. Virginia) and cover compute, billed per high-availability shard. Storage is billed separately at $0.30 per GB-month of uncompressed data stored, metered hourly. Actual pricing can vary based on deployment requirements, configurations, and region. Low-CPU configurations are available for specialized workloads. See
+Atlas Infinite Cluster Configuration Costs
 .

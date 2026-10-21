@@ -6,8 +6,8 @@
   "url": "https://www.baseten.co/pricing/",
   "final_url": "https://www.baseten.co/pricing/",
   "parser_version": 4,
-  "content_hash": "45c06d67834f1b19e445f2b581e2559d40d1cee0c2ead27f88c62eb999499549",
-  "raw_hash": "1df5b04f6329f512f1e623d5889d41946004df25c105f8fd6acacd6d876af5fd",
+  "content_hash": "1c0947417b3f0cdaeb58ce9dd5494c2dfdec4677a1202aebcfab7e2aa8a4029a",
+  "raw_hash": "93a6d26b536de2223d580706bfa2800a7b0fb9300cf165f8ffc591eea39e3a0c",
   "text_bytes": 6255,
   "currency_hints": [],
   "extractor": "dom",
@@ -26,15 +26,15 @@
     },
     {
       "name": "Beam",
-      "price_raw": "$1.30",
-      "amount": 1.3,
+      "price_raw": "$0.40",
+      "amount": 0.4,
       "currency": "USD",
       "period": null,
       "features": [],
       "slot_prices": [
-        1.3,
-        0.13,
-        4.3
+        0.4,
+        0.04,
+        1.2
       ]
     },
     {

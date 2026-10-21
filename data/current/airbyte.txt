@@ -63,22 +63,6 @@ Enterprise support add-on available
 Talk to sales
 Prefer to self-host? Try Airbyte Core, our open source offering.
 Try Airbyte Core
-Pricing calculator
-Estimate your monthly cost
-Drag the slider or type a credit amount to compare Standard and Plus in real time.
-Monthly credits
-Standard
-$195
-/mo
-Plus
-40
-$189
-/mo
-API rows
-6,640,000
-GB of database/file data
-10
-Plus with 40 credits is the most cost-effective choice.
 You shouldn't pay more just because your data volume spikes
 For large organizations with higher data volumes, Airbyte provides enterprise plans that price on compute capacity. Scale your pipelines without scaling your bill.
 A better pricing model
@@ -164,7 +148,6 @@ documentation
 .
 When should I use Plus, and when should I use Standard?
 If you are consuming 40+ credits a month, Plus will typically be more affordable than Standard. It also comes with 15-min syncs, SSO, field renaming, and a 24 hr support SLA. If you value pay-as-you-go flexibility above all, Standard is the best play.
-Use our pricing calculator above to get a more detailed estimate and recommendation on the right plan.
 What plans does Airbyte offer, and how do they differ?
 Airbyte offers Standard, Plus, Pro, and Enterprise Flex. Standard is fully managed volume-based cloud. Plus includes everything in Standard, plus SSO, field renaming, 15-minute syncs, 2 workspaces, and a 24-hour support SLA, billed through credit packages. Pro features capacity based pricing and enterprise features such as RBAC and multiple workspaces. Enterprise Flex adds in-boundary and hybrid deployment. Click
 here

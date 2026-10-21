@@ -6,9 +6,9 @@
   "url": "https://fal.ai/pricing",
   "final_url": "https://fal.ai/pricing",
   "parser_version": 4,
-  "content_hash": "562f7924840ae3b2cf275cce852cda5ad183c947c7178d57115b64fff17e5454",
-  "raw_hash": "3950ac0d0c0b2398f33250de6b042b4b165eb3bbc16ae8cf036895ed11451202",
-  "text_bytes": 6678,
+  "content_hash": "a3a299e746cb9377e0012499795c3e64dce20b9447d3a037175f8ca654b6fb5c",
+  "raw_hash": "07eeffe82002c079b5db486bed07cc0be66e3af147310be29acd65a12e52ae92",
+  "text_bytes": 6980,
   "currency_hints": [],
   "extractor": "jsonld",
   "confidence": "medium",
@@ -485,6 +485,22 @@
         "price": {
           "raw": "$1",
           "amount": 1.0
+        }
+      },
+      "currency": "USD",
+      "unit": "per image"
+    },
+    {
+      "key": "fibo 2.0 edit",
+      "model": "Fibo 2.0 Edit",
+      "prices": {
+        "price": {
+          "raw": "$0.04",
+          "amount": 0.04
+        },
+        "price per image": {
+          "raw": "$0.04",
+          "amount": 0.04
         }
       },
       "currency": "USD",
@@ -1231,8 +1247,8 @@
           "amount": 0.015
         },
         "price per model": {
-          "raw": "$0.375",
-          "amount": 0.375
+          "raw": "$0.525",
+          "amount": 0.525
         }
       },
       "currency": "USD",
@@ -1420,38 +1436,38 @@
         [
           "B300",
           "288GB",
-          "$12.99/h",
-          "$5.99/h"
+          "$12.99/h $0.003608/s",
+          "$5.99/h $0.001664/s"
         ],
         [
           "GB200",
           "192GB",
-          "$9.99/h",
-          "$5.89/h"
+          "$9.99/h $0.002775/s",
+          "$5.89/h $0.001636/s"
         ],
         [
           "B200",
           "192GB",
-          "$7.99/h",
-          "$5.49/h"
+          "$7.99/h $0.002219/s",
+          "$5.49/h $0.001525/s"
         ],
         [
           "H200",
           "141GB",
-          "$6.00/h",
-          "$2.99/h"
+          "$6.00/h $0.001667/s",
+          "$2.99/h $0.000831/s"
         ],
         [
           "H100",
           "80GB",
-          "$4.50/h",
-          "$2.49/h"
+          "$4.50/h $0.00125/s",
+          "$2.49/h $0.000692/s"
         ],
         [
           "RTX PRO 6000",
           "96GB",
-          "$4.00/h",
-          "$1.99/h"
+          "$4.00/h $0.001111/s",
+          "$1.99/h $0.000553/s"
         ]
       ]
     },
@@ -1616,6 +1632,13 @@
           "$1",
           "—",
           "—"
+        ],
+        [
+          "Fibo 2.0 Edit",
+          "images",
+          "$0.04",
+          "$0.04",
+          "25"
         ],
         [
           "Nano Banana Pro",
@@ -1974,8 +1997,8 @@
           "Hunyuan3d V3",
           "units",
           "$0.015",
-          "$0.375 †",
-          "2.67"
+          "$0.525 †",
+          "1.9"
         ],
         [
           "Trellis Multi",

@@ -6,9 +6,9 @@
   "url": "https://platform.openai.com/docs/pricing",
   "final_url": "https://developers.openai.com/api/docs/pricing",
   "parser_version": 4,
-  "content_hash": "f5f12dd0f897107f6db5f7094dfc540f0421d26097318cfec0b5a0d1eff44ba2",
-  "raw_hash": "fcac7514eb9252343f45d45cb78bfa21fe2dedf2ca663ee04cdbe701a759ac3a",
-  "text_bytes": 7095,
+  "content_hash": "2e69b955e6a9c94b26ce8b469e56d41011bcbc04ba4fb113c8af97a5b7173956",
+  "raw_hash": "158f56f71504545e7ed58f3e2a9a328e85f5c2972823658c32dfaf18cd0097a1",
+  "text_bytes": 6988,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -22,11 +22,10 @@
       "features": [],
       "slot_prices": [
         10.0,
+        50.0,
         1.0,
         12.5,
-        50.0,
-        20.0,
-        2.0
+        25.0
       ]
     },
     {
@@ -38,11 +37,10 @@
       "features": [],
       "slot_prices": [
         2.0,
+        10.0,
         0.1,
         2.5,
-        10.0,
-        4.0,
-        0.2
+        5.0
       ]
     },
     {
@@ -54,11 +52,10 @@
       "features": [],
       "slot_prices": [
         0.1,
+        0.5,
         0.01,
         0.125,
-        0.5,
-        0.2,
-        0.02
+        0.25
       ]
     },
     {
@@ -70,11 +67,10 @@
       "features": [],
       "slot_prices": [
         4.0,
+        20.0,
         0.4,
         5.0,
-        20.0,
-        8.0,
-        0.8
+        10.0
       ]
     },
     {
@@ -86,9 +82,10 @@
       "features": [],
       "slot_prices": [
         12.5,
+        75.0,
         1.25,
         15.625,
-        75.0
+        31.25
       ]
     },
     {
@@ -100,8 +97,8 @@
       "features": [],
       "slot_prices": [
         5.0,
-        0.5,
-        25.0
+        25.0,
+        0.5
       ]
     },
     {
@@ -113,8 +110,8 @@
       "features": [],
       "slot_prices": [
         5.0,
-        0.5,
-        25.0
+        25.0,
+        0.5
       ]
     },
     {
@@ -126,8 +123,8 @@
       "features": [],
       "slot_prices": [
         32.0,
-        0.4,
-        64.0
+        64.0,
+        0.4
       ]
     },
     {
@@ -139,8 +136,8 @@
       "features": [],
       "slot_prices": [
         10.0,
-        0.3,
-        20.0
+        20.0,
+        0.3
       ]
     },
     {
@@ -152,8 +149,8 @@
       "features": [],
       "slot_prices": [
         8.0,
-        2.0,
-        30.0
+        30.0,
+        2.0
       ]
     },
     {
@@ -165,8 +162,8 @@
       "features": [],
       "slot_prices": [
         8.0,
-        2.0,
-        30.0
+        30.0,
+        2.0
       ]
     },
     {
@@ -260,33 +257,21 @@
           "raw": "$10.00",
           "amount": 10.0
         },
-        "cached input": {
-          "raw": "$1.00",
-          "amount": 1.0
-        },
-        "cache writes": {
-          "raw": "$12.50",
-          "amount": 12.5
-        },
         "output": {
           "raw": "$50.00",
           "amount": 50.0
         },
-        "input (2)": {
-          "raw": "$20.00",
-          "amount": 20.0
+        "cached input": {
+          "raw": "$1.00",
+          "amount": 1.0
         },
-        "cached input (2)": {
-          "raw": "$2.00",
-          "amount": 2.0
+        "30m write": {
+          "raw": "$12.50",
+          "amount": 12.5
         },
-        "cache writes (2)": {
+        "12h write": {
           "raw": "$25.00",
           "amount": 25.0
-        },
-        "output (2)": {
-          "raw": "$75.00",
-          "amount": 75.0
         }
       },
       "currency": "USD",
@@ -300,33 +285,21 @@
           "raw": "$2.00",
           "amount": 2.0
         },
-        "cached input": {
-          "raw": "$0.10",
-          "amount": 0.1
-        },
-        "cache writes": {
-          "raw": "$2.50",
-          "amount": 2.5
-        },
         "output": {
           "raw": "$10.00",
           "amount": 10.0
         },
-        "input (2)": {
-          "raw": "$4.00",
-          "amount": 4.0
+        "cached input": {
+          "raw": "$0.10",
+          "amount": 0.1
         },
-        "cached input (2)": {
-          "raw": "$0.20",
-          "amount": 0.2
+        "30m write": {
+          "raw": "$2.50",
+          "amount": 2.5
         },
-        "cache writes (2)": {
+        "12h write": {
           "raw": "$5.00",
           "amount": 5.0
-        },
-        "output (2)": {
-          "raw": "$15.00",
-          "amount": 15.0
         }
       },
       "currency": "USD",
@@ -340,33 +313,21 @@
           "raw": "$0.10",
           "amount": 0.1
         },
-        "cached input": {
-          "raw": "$0.01",
-          "amount": 0.01
-        },
-        "cache writes": {
-          "raw": "$0.125",
-          "amount": 0.125
-        },
         "output": {
           "raw": "$0.50",
           "amount": 0.5
         },
-        "input (2)": {
-          "raw": "$0.20",
-          "amount": 0.2
+        "cached input": {
+          "raw": "$0.01",
+          "amount": 0.01
         },
-        "cached input (2)": {
-          "raw": "$0.02",
-          "amount": 0.02
+        "30m write": {
+          "raw": "$0.125",
+          "amount": 0.125
         },
-        "cache writes (2)": {
+        "12h write": {
           "raw": "$0.25",
           "amount": 0.25
-        },
-        "output (2)": {
-          "raw": "$0.75",
-          "amount": 0.75
         }
       },
       "currency": "USD",
@@ -380,33 +341,21 @@
           "raw": "$4.00",
           "amount": 4.0
         },
-        "cached input": {
-          "raw": "$0.40",
-          "amount": 0.4
-        },
-        "cache writes": {
-          "raw": "$5.00",
-          "amount": 5.0
-        },
         "output": {
           "raw": "$20.00",
           "amount": 20.0
         },
-        "input (2)": {
-          "raw": "$8.00",
-          "amount": 8.0
+        "cached input": {
+          "raw": "$0.40",
+          "amount": 0.4
         },
-        "cached input (2)": {
-          "raw": "$0.80",
-          "amount": 0.8
+        "30m write": {
+          "raw": "$5.00",
+          "amount": 5.0
         },
-        "cache writes (2)": {
+        "12h write": {
           "raw": "$10.00",
           "amount": 10.0
-        },
-        "output (2)": {
-          "raw": "$30.00",
-          "amount": 30.0
         }
       },
       "currency": "USD",
@@ -420,17 +369,21 @@
           "raw": "$12.50",
           "amount": 12.5
         },
+        "output": {
+          "raw": "$75.00",
+          "amount": 75.0
+        },
         "cached input": {
           "raw": "$1.25",
           "amount": 1.25
         },
-        "cache writes": {
+        "30m write": {
           "raw": "$15.625",
           "amount": 15.625
         },
-        "output": {
-          "raw": "$75.00",
-          "amount": 75.0
+        "12h write": {
+          "raw": "$31.25",
+          "amount": 31.25
         }
       },
       "currency": "USD",
@@ -444,13 +397,13 @@
           "raw": "$5.00",
           "amount": 5.0
         },
-        "cached input": {
-          "raw": "$0.50",
-          "amount": 0.5
-        },
         "output": {
           "raw": "$25.00",
           "amount": 25.0
+        },
+        "cached input": {
+          "raw": "$0.50",
+          "amount": 0.5
         }
       },
       "currency": "USD",
@@ -464,13 +417,13 @@
           "raw": "$5.00",
           "amount": 5.0
         },
-        "cached input": {
-          "raw": "$0.50",
-          "amount": 0.5
-        },
         "output": {
           "raw": "$25.00",
           "amount": 25.0
+        },
+        "cached input": {
+          "raw": "$0.50",
+          "amount": 0.5
         }
       },
       "currency": "USD",
@@ -484,13 +437,13 @@
           "raw": "$32.00",
           "amount": 32.0
         },
-        "cached input": {
-          "raw": "$0.40",
-          "amount": 0.4
-        },
         "output / cost": {
           "raw": "$64.00",
           "amount": 64.0
+        },
+        "cached input": {
+          "raw": "$0.40",
+          "amount": 0.4
         }
       },
       "currency": "USD",
@@ -505,12 +458,12 @@
           "amount": 4.0
         },
         "input": {
-          "raw": "$0.40",
-          "amount": 0.4
-        },
-        "cached input": {
           "raw": "$24.00",
           "amount": 24.0
+        },
+        "output / cost": {
+          "raw": "$0.40",
+          "amount": 0.4
         }
       },
       "currency": "USD",
@@ -524,7 +477,7 @@
           "raw": "$5.00",
           "amount": 5.0
         },
-        "input": {
+        "output / cost": {
           "raw": "$0.50",
           "amount": 0.5
         }
@@ -540,13 +493,13 @@
           "raw": "$10.00",
           "amount": 10.0
         },
-        "cached input": {
-          "raw": "$0.30",
-          "amount": 0.3
-        },
         "output / cost": {
           "raw": "$20.00",
           "amount": 20.0
+        },
+        "cached input": {
+          "raw": "$0.30",
+          "amount": 0.3
         }
       },
       "currency": "USD",
@@ -561,12 +514,12 @@
           "amount": 0.6
         },
         "input": {
-          "raw": "$0.06",
-          "amount": 0.06
-        },
-        "cached input": {
           "raw": "$2.40",
           "amount": 2.4
+        },
+        "output / cost": {
+          "raw": "$0.06",
+          "amount": 0.06
         }
       },
       "currency": "USD",
@@ -580,7 +533,7 @@
           "raw": "$0.80",
           "amount": 0.8
         },
-        "input": {
+        "output / cost": {
           "raw": "$0.08",
           "amount": 0.08
         }
@@ -596,13 +549,13 @@
           "raw": "$8.00",
           "amount": 8.0
         },
-        "cached input": {
-          "raw": "$2.00",
-          "amount": 2.0
-        },
         "output": {
           "raw": "$30.00",
           "amount": 30.0
+        },
+        "cached input": {
+          "raw": "$2.00",
+          "amount": 2.0
         }
       },
       "currency": "USD",
@@ -616,7 +569,7 @@
           "raw": "$5.00",
           "amount": 5.0
         },
-        "input": {
+        "output": {
           "raw": "$1.25",
           "amount": 1.25
         }
@@ -632,13 +585,13 @@
           "raw": "$8.00",
           "amount": 8.0
         },
-        "cached input": {
-          "raw": "$2.00",
-          "amount": 2.0
-        },
         "output": {
           "raw": "$30.00",
           "amount": 30.0
+        },
+        "cached input": {
+          "raw": "$2.00",
+          "amount": 2.0
         }
       },
       "currency": "USD",
@@ -652,7 +605,7 @@
           "raw": "$5.00",
           "amount": 5.0
         },
-        "input": {
+        "output": {
           "raw": "$1.25",
           "amount": 1.25
         }
@@ -796,13 +749,13 @@
           "raw": "$4.00",
           "amount": 4.0
         },
-        "cached input": {
-          "raw": "$1.00",
-          "amount": 1.0
-        },
         "output": {
           "raw": "$16.00",
           "amount": 16.0
+        },
+        "cached input": {
+          "raw": "$1.00",
+          "amount": 1.0
         }
       },
       "currency": "USD",
@@ -820,13 +773,13 @@
           "raw": "$2.00",
           "amount": 2.0
         },
-        "cached input": {
-          "raw": "$0.50",
-          "amount": 0.5
-        },
         "output": {
           "raw": "$8.00",
           "amount": 8.0
+        },
+        "cached input": {
+          "raw": "$0.50",
+          "amount": 0.5
         }
       },
       "currency": "USD",
@@ -839,52 +792,39 @@
       "rows": [
         [
           "",
-          "Short context",
-          "Long context"
+          "Prompt caching"
         ],
         [
           "Model",
           "Input",
-          "Cached input",
-          "Cache writes",
           "Output",
-          "Input",
           "Cached input",
-          "Cache writes",
-          "Output"
+          "30m write",
+          "12h write"
         ],
         [
           "gpt-6-astra",
           "$10.00",
+          "$50.00",
           "$1.00",
           "$12.50",
-          "$50.00",
-          "$20.00",
-          "$2.00",
-          "$25.00",
-          "$75.00"
+          "$25.00"
         ],
         [
           "gpt-6.1-sol",
           "$2.00",
+          "$10.00",
           "$0.10",
           "$2.50",
-          "$10.00",
-          "$4.00",
-          "$0.20",
-          "$5.00",
-          "$15.00"
+          "$5.00"
         ],
         [
           "gpt-6-luna",
           "$0.10",
+          "$0.50",
           "$0.01",
           "$0.125",
-          "$0.50",
-          "$0.20",
-          "$0.02",
-          "$0.25",
-          "$0.75"
+          "$0.25"
         ]
       ]
     },
@@ -893,41 +833,31 @@
       "rows": [
         [
           "",
-          "Short context",
-          "Long context"
+          "Prompt caching"
         ],
         [
           "Model",
           "Input",
-          "Cached input",
-          "Cache writes",
           "Output",
-          "Input",
           "Cached input",
-          "Cache writes",
-          "Output"
+          "30m write",
+          "12h write"
         ],
         [
           "gpt-5.6-sol",
           "$4.00",
+          "$20.00",
           "$0.40",
           "$5.00",
-          "$20.00",
-          "$8.00",
-          "$0.80",
-          "$10.00",
-          "$30.00"
+          "$10.00"
         ],
         [
           "gpt-5.6-cyber",
           "$12.50",
+          "$75.00",
           "$1.25",
           "$15.625",
-          "$75.00",
-          "-",
-          "-",
-          "-",
-          "-"
+          "$31.25"
         ]
       ]
     },
@@ -937,20 +867,20 @@
         [
           "Model",
           "Input",
-          "Cached input",
-          "Output"
+          "Output",
+          "Cached input"
         ],
         [
           "gpt-rosalind-research",
           "$5.00",
-          "$0.50",
-          "$25.00"
+          "$25.00",
+          "$0.50"
         ],
         [
           "gpt-rosalind-discovery",
           "$5.00",
-          "$0.50",
-          "$25.00"
+          "$25.00",
+          "$0.50"
         ]
       ]
     },
@@ -974,46 +904,46 @@
           "Model",
           "Modality",
           "Input",
-          "Cached input",
-          "Output / cost"
+          "Output / cost",
+          "Cached input"
         ],
         [
           "gpt-realtime-2.1",
           "Audio",
           "$32.00",
-          "$0.40",
-          "$64.00"
+          "$64.00",
+          "$0.40"
         ],
         [
           "Text",
           "$4.00",
-          "$0.40",
-          "$24.00"
+          "$24.00",
+          "$0.40"
         ],
         [
           "Image",
           "$5.00",
-          "$0.50",
-          "-"
+          "-",
+          "$0.50"
         ],
         [
           "gpt-realtime-2.1-mini",
           "Audio",
           "$10.00",
-          "$0.30",
-          "$20.00"
+          "$20.00",
+          "$0.30"
         ],
         [
           "Text",
           "$0.60",
-          "$0.06",
-          "$2.40"
+          "$2.40",
+          "$0.06"
         ],
         [
           "Image",
           "$0.80",
-          "$0.08",
-          "-"
+          "-",
+          "$0.08"
         ]
       ]
     },
@@ -1024,34 +954,34 @@
           "Model",
           "Modality",
           "Input",
-          "Cached input",
-          "Output"
+          "Output",
+          "Cached input"
         ],
         [
           "gpt-image-2.5-sunburst",
           "Image",
           "$8.00",
-          "$2.00",
-          "$30.00"
+          "$30.00",
+          "$2.00"
         ],
         [
           "Text",
           "$5.00",
-          "$1.25",
-          "-"
+          "-",
+          "$1.25"
         ],
         [
           "gpt-image-2.5-flare",
           "Image",
           "$8.00",
-          "$2.00",
-          "$30.00"
+          "$30.00",
+          "$2.00"
         ],
         [
           "Text",
           "$5.00",
-          "$1.25",
-          "-"
+          "-",
+          "$1.25"
         ]
       ]
     },
@@ -1162,22 +1092,22 @@
           "Category",
           "Model",
           "Input",
-          "Cached input",
-          "Output"
+          "Output",
+          "Cached input"
         ],
         [
           "ChatGPT",
           "chat-latest",
           "$5.00",
-          "$0.50",
-          "$30.00"
+          "$30.00",
+          "$0.50"
         ],
         [
           "Codex",
           "gpt-5.3-codex",
           "$1.75",
-          "$0.175",
-          "$14.00"
+          "$14.00",
+          "$0.175"
         ]
       ]
     },
@@ -1188,22 +1118,22 @@
           "Model",
           "Training",
           "Input",
-          "Cached input",
-          "Output"
+          "Output",
+          "Cached input"
         ],
         [
           "o4-mini-2025-04-16",
           "$100.00 / hour",
           "$4.00",
-          "$1.00",
-          "$16.00"
+          "$16.00",
+          "$1.00"
         ],
         [
           "o4-mini-2025-04-16 with data sharing",
           "$100.00 / hour",
           "$2.00",
-          "$0.50",
-          "$8.00"
+          "$8.00",
+          "$0.50"
         ]
       ]
     }

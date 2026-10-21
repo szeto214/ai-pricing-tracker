@@ -14,47 +14,59 @@ Choose the payment method that best suits your needs.
 Live Spot Preemptible VM prices
 Access market-driven prices across GPU platforms and regions.
 View all live spot prices
-On-demand NVIDIA GPU Instances
+NVIDIA GPU Instances
 Item
 vCPUs
 RAM, GB
-GPU-hour
+Preemptible, GPU-hour *
+On-demand, GPU-hour
 NVIDIA GB300 NVL72
 112
 800
+-
 Contact us
 NVIDIA HGX B300
 24
 346
+from $0.99
 $9.50
 NVIDIA GB200 NVL72
 112
 800
+-
 Contact us
 NVIDIA HGX B200
 20
 224
+from $0.99
 $8.50
 NVIDIA HGX H200
 16
 200
+from $0.79
 $5.40
 NVIDIA HGX H100
 16
 200
+from $0.79
 $4.50
 NVIDIA RTX PRO 6000
 24
 218
+from $0.79
 $1.80
 NVIDIA L40S with Intel CPU
 8-40
 32-160
+from $0.74**
 from $1.55
 NVIDIA L40S with AMD CPU
 16-192
 96-1152
+from $0.90**
 from $1.82
+* Spot prices are dynamic and may increase or decrease based on available capacity, cluster utilization, customer demand and customer pricing preferences. Current spot prices are displayed in the price calculator in the Nebius console and may vary during the active use, including as frequently as every 15 minutes. The highest PVM rate is always one cent below the current on-demand rate for that capacity. Historical pricing information is available through the spot-price graph in Nebius console.
+** NVIDIA L40S preemptible instances are excluded from spot pricing and billed at the current flat rate.
 On-demand CPU-only instances
 Item
 vCPUs
@@ -92,7 +104,7 @@ $0.010
 GiB/month
 Object storage — Intelligent (egress traffic)
 Free
-*
+***
 GiB/month
 Object storage — Enhanced (volume)
 $0.1100
@@ -118,7 +130,7 @@ Price
 Managed Service for Kubernetes
 Free
 Managed Soperator (Slurm on Kubernetes)
-**
+****
 Free
 Networking: Egress/Ingress traffic
 Free
@@ -179,9 +191,9 @@ Get started
 Explore Nebius
 Token Factory prices
 Technical documentation
-* Check the
+*** Check the
 documentation
 for details.
-** Free software, consumption-based pricing.
+**** Free software, consumption-based pricing.
 The provided information and prices do not constitute an offer or invitation to make offers or invitation to buy, sell or otherwise use any services, products and/or resources referred to on this website and may be changed by Nebius at any time.
 All prices are shown without any applicable taxes, including VAT. Due to rounding errors, usage costs shown in the web console and final charges may slightly differ from calculations based on the prices on the page.

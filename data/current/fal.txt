@@ -10,7 +10,7 @@ Serverless Inference and Compute Pricing
 Competitive pricing for custom deployments.
 Deploy your own app on our competitively priced GPU fleet, as low as
 $2.49/hr for H100
-. It runs on the same
+, billed per second. It runs on the same
 inference platform
 as every Model API.
 Start Building
@@ -22,27 +22,40 @@ As low as
 B300
 288GB
 $12.99/h
+$0.003608/s
 $5.99/h
+$0.001664/s
 GB200
 192GB
 $9.99/h
+$0.002775/s
 $5.89/h
+$0.001636/s
 B200
 192GB
 $7.99/h
+$0.002219/s
 $5.49/h
+$0.001525/s
 H200
 141GB
 $6.00/h
+$0.001667/s
 $2.99/h
+$0.000831/s
 H100
 80GB
 $4.50/h
+$0.00125/s
 $2.49/h
+$0.000692/s
 RTX PRO 6000
 96GB
 $4.00/h
+$0.001111/s
 $1.99/h
+$0.000553/s
+Billed per second while your runners are alive. Per-second prices are the hourly price divided by 3,600.
 Competitive pricing for custom deployments — Contact
 support@fal.ai
 to get started.
@@ -169,6 +182,11 @@ units
 $1
 —
 —
+Fibo 2.0 Edit
+images
+$0.04
+$0.04
+25
 Nano Banana Pro
 images
 $0.15
@@ -276,7 +294,7 @@ units
 $1
 —
 —
-24
+25
 models. Scroll to see all models. Prices are per listed billing unit.
 Price per image is one output at the model's default size. Megapixel-billed models count a 1024x1024 image as 1 megapixel, and edit models billed on processed megapixels also count a 1 megapixel input.
 † Base price from the model's published pricing, because its billing unit does not map to a single output.
@@ -440,9 +458,9 @@ $0.60
 Hunyuan3d V3
 units
 $0.015
-$0.375
+$0.525
 †
-2.67
+1.9
 Trellis Multi
 $0.02
 —

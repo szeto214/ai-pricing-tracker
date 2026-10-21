@@ -6,9 +6,9 @@
   "url": "https://www.heygen.com/pricing",
   "final_url": "https://www.heygen.com/pricing",
   "parser_version": 4,
-  "content_hash": "ff55c4a27e6f3bb1cd528a0d79e8242ab852383eb607482a59870aeb6dd6c5d6",
-  "raw_hash": "c12ba78eaf905ad51215f680b52ccb6afc1312940f5c1e96ab3f3f974a7288b6",
-  "text_bytes": 12883,
+  "content_hash": "5cbfe4dadf14931d11739cfbc01a76d13f503d32a3cd360dc4876543975c7a2b",
+  "raw_hash": "a74ab743815e6f260594dca469283bb33cbf6a8c6b5c1ec15058363e3dedfb5c",
+  "text_bytes": 15240,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -20,31 +20,31 @@
       "currency": "USD",
       "period": "month",
       "features": [
-        "3 videos per month",
-        "Videos up to 1 min",
-        "Access to Avatar IV",
-        "Standard video processing",
-        "500+ Stock Video Avatars",
-        "1 Custom Video Avatar",
+        "3 videos a month, watermarked",
+        "Videos up to 1 minute each",
+        "Access to Avatar IV and Video Agent",
+        "One Custom Video Avatar, plus 500+ ready-made presenters",
         "30+ languages",
-        "Videos up to 30 mins",
-        "1080p video export",
-        "Extended Avatar IV video generation",
-        "Fast video processing",
-        "Unlimited Photo Avatars",
-        "Watermark removal",
-        "Voice Cloning",
+        "Avatar III and Avatar IV, our proven AI Avatar engines",
+        "Avatar V, with limited usage",
+        "Video Agent, with expanded access",
+        "600 credits",
+        "Export your videos in 1080p",
+        "Remove HeyGen branding",
+        "Custom Video Avatar with your own voice and likeness",
         "175+ languages and dialects",
-        "Credit rollovers",
-        "Videos up to 30 mins",
-        "4K video export",
-        "Extended Avatar IV video generation",
+        "Credits roll over one month",
+        "4K video export Ship at the highest resolution HeyGen offers",
+        "Access to Seedance 2.0 The leading video model, with no second subscription",
+        "Cinematic Avatars Place your avatar in dynamic, text-prompted cinematic scenes",
+        "Avatar V, and first access to our newest models",
+        "Video Agent, with maximum access",
+        "VEO 3.1 and Nano Banana for video and image generation",
+        "Videos up to 30 minutes each",
         "Faster video processing",
-        "Unlimited Photo Avatars",
-        "Watermark removal",
-        "Customizable monthly usage",
-        "Edit & proofread translation script",
-        "Access to all Advanced AI models"
+        "Highest usage limits and memory",
+        "Edit and proofread translation scripts",
+        "Raise your monthly credits any time, with rollover"
       ],
       "slot_prices": [
         0.0
@@ -57,15 +57,15 @@
       "currency": "USD",
       "period": "month",
       "features": [
-        "Videos up to 30 mins",
-        "1080p video export",
-        "Extended Avatar IV video generation",
-        "Fast video processing",
-        "Unlimited Photo Avatars",
-        "Watermark removal",
-        "Voice Cloning",
+        "Avatar III and Avatar IV, our proven AI Avatar engines",
+        "Avatar V, with limited usage",
+        "Video Agent, with expanded access",
+        "600 credits",
+        "Export your videos in 1080p",
+        "Remove HeyGen branding",
+        "Custom Video Avatar with your own voice and likeness",
         "175+ languages and dialects",
-        "Credit rollovers"
+        "Credits roll over one month"
       ],
       "slot_prices": [
         29.0
@@ -78,15 +78,17 @@
       "currency": "USD",
       "period": "month",
       "features": [
-        "Videos up to 30 mins",
-        "4K video export",
-        "Extended Avatar IV video generation",
+        "4K video export Ship at the highest resolution HeyGen offers",
+        "Access to Seedance 2.0 The leading video model, with no second subscription",
+        "Cinematic Avatars Place your avatar in dynamic, text-prompted cinematic scenes",
+        "Avatar V, and first access to our newest models",
+        "Video Agent, with maximum access",
+        "VEO 3.1 and Nano Banana for video and image generation",
+        "Videos up to 30 minutes each",
         "Faster video processing",
-        "Unlimited Photo Avatars",
-        "Watermark removal",
-        "Customizable monthly usage",
-        "Edit & proofread translation script",
-        "Access to all Advanced AI models"
+        "Highest usage limits and memory",
+        "Edit and proofread translation scripts",
+        "Raise your monthly credits any time, with rollover"
       ],
       "slot_prices": [
         49.0
@@ -99,23 +101,17 @@
       "currency": "USD",
       "period": "month",
       "features": [
-        "Videos up to 60 mins",
-        "4k video export",
-        "Faster video processing",
-        "2x more concurrency than Pro",
-        "5 Custom Video Avatars",
-        "Scale your brand and centralize assets",
-        "SAML/ SSO",
-        "Centralized billing",
-        "Flexible top-up or auto-reload credits",
-        "Add team members for $20/seat/month",
-        "Workspace collaboration",
-        "Video draft commenting & editing",
-        "Invites & team management",
-        "Interactive Video (Quizzes, Links, more)",
-        "SCORM Export",
-        "LMS Integrations",
-        "Integrations with n8n, Make, Hubspot & Zapier"
+        "Videos up to 60 minutes each",
+        "2x the concurrency of Pro",
+        "5 Custom Video Avatars with Avatar V",
+        "4k video export and upscale",
+        "Add members to a shared workspace",
+        "Centralized billing, with top-up credits",
+        "SAML/SSO",
+        "Brand kit and asset library",
+        "SCORM export and LMS integrations",
+        "Integrations with n8n, Make, HubSpot and Zapier",
+        "Add team members for $20/seat/month"
       ],
       "slot_prices": [
         149.0
@@ -123,6 +119,69 @@
     },
     {
       "name": "Free",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": [],
+      "slot_prices": []
+    },
+    {
+      "name": "Video templates",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": [],
+      "slot_prices": []
+    },
+    {
+      "name": "PowerPoint & PDF Imports",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": [],
+      "slot_prices": []
+    },
+    {
+      "name": "AI Studio Editor",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": [],
+      "slot_prices": []
+    },
+    {
+      "name": "Watermark removal",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": [],
+      "slot_prices": []
+    },
+    {
+      "name": "Stock Video Avatars",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": [],
+      "slot_prices": []
+    },
+    {
+      "name": "Custom Video Avatars",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": [],
+      "slot_prices": []
+    },
+    {
+      "name": "Custom Video Avatar Looks",
       "price_raw": "Free",
       "amount": 0.0,
       "currency": null,
@@ -137,15 +196,23 @@
       "caption": "",
       "rows": [
         [
+          "",
+          "Free",
+          "Creator",
+          "Pro",
+          "Business",
+          "Enterprise"
+        ],
+        [
           "Video Creation"
         ],
         [
-          "AI studio editor",
-          "Full access",
-          "Full access",
-          "Full access",
-          "Full access",
-          "Full access"
+          "AI Studio Editor",
+          "Full Access",
+          "Full Access",
+          "Full Access",
+          "Full Access",
+          "Full Access"
         ],
         [
           "Max duration per video",
@@ -196,14 +263,6 @@
           ""
         ],
         [
-          "Screen recorder",
-          "",
-          "",
-          "",
-          "",
-          ""
-        ],
-        [
           "Save designs as templates",
           "",
           "",
@@ -244,22 +303,22 @@
           "500",
           "500",
           "500",
-          "500"
+          "500+"
         ],
         [
           "AI Voice",
-          "1,000+",
-          "1,000+",
-          "1,000+",
-          "1,000+",
-          "1,000+"
+          "1000+",
+          "1000+",
+          "1000+",
+          "1000+",
+          "1000+"
         ],
         [
           "Voice Cloning",
           "1 voice clone",
           "Expanded usage",
-          "Maximum Usage",
-          "Maximum Usage",
+          "Maximum usage",
+          "Maximum usage",
           "Unlimited"
         ],
         [
@@ -271,7 +330,7 @@
           "Unlimited"
         ],
         [
-          "Avatar IV Gen Minutes",
+          "Avatar IV Video Generation",
           "",
           "",
           "",
@@ -288,11 +347,11 @@
         ],
         [
           "Motion / Gesture Control",
-          "",
-          "",
-          "",
-          "",
-          ""
+          "3 uses/month",
+          "20 uses/month",
+          "Maximum usage",
+          "Maximum usage",
+          "Unlimited"
         ],
         [
           "Generate Looks",
@@ -351,6 +410,22 @@
           ""
         ],
         [
+          "4K Custom Video Avatars",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Custom Studio Avatar Shoot",
+          "",
+          "",
+          "",
+          "",
+          "Add-on"
+        ],
+        [
           "Video Translation & Languages"
         ],
         [
@@ -365,17 +440,17 @@
           "Video processing speed",
           "Standard",
           "Fast",
-          "Fastest",
+          "Faster",
           "Faster",
           "Fastest"
         ],
         [
           "Global Language Suite",
           "30+ languages",
-          "175 languages & dialects",
-          "175 languages & dialects",
-          "175 languages & dialects",
-          "175 languages & dialects"
+          "175 languages and dialects",
+          "175 languages and dialects",
+          "175 languages and dialects",
+          "175 languages and dialects"
         ],
         [
           "Brand voice (Brand glossary)",
@@ -403,6 +478,22 @@
         ],
         [
           "Switch voice",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Upload voice",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Proofread seats",
           "",
           "",
           "",
@@ -461,7 +552,7 @@
           "1",
           "1",
           "1+",
-          "1+"
+          "3+"
         ],
         [
           "Video comments",
@@ -496,7 +587,7 @@
           ""
         ],
         [
-          "Collaborative workspace",
+          "Team workspace",
           "",
           "",
           "",
@@ -528,6 +619,22 @@
           ""
         ],
         [
+          "Admin controls",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Centralized Billing",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
           "Granular content access controls",
           "",
           "",
@@ -547,23 +654,15 @@
           ""
         ],
         [
-          "SAML/SSO",
-          "",
-          "",
-          "",
-          "",
-          ""
-        ],
-        [
-          "SCIM",
-          "",
-          "",
-          "",
-          "",
-          ""
-        ],
-        [
           "Password protected URLs",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "SAML/SSO",
           "",
           "",
           "",
@@ -579,7 +678,10 @@
           ""
         ],
         [
-          "Team Member 2FA Enforcement",
+          "Support & Resources"
+        ],
+        [
+          "Live chat support",
           "",
           "",
           "",
@@ -587,10 +689,34 @@
           ""
         ],
         [
-          "Support & Resources"
+          "Priority support",
+          "",
+          "",
+          "",
+          "",
+          ""
         ],
         [
-          "Live chat support",
+          "Customer Success Manager",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Add-Ons & Extras"
+        ],
+        [
+          "Add-On Offerings",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Auto Top-off Configuration",
           "",
           "",
           "",

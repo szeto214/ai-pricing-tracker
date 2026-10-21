@@ -6,9 +6,9 @@
   "url": "https://deepinfra.com/pricing",
   "final_url": "https://deepinfra.com/pricing",
   "parser_version": 4,
-  "content_hash": "dc5bb67996f40342e284193d0e50169eae1b5074927359900dab130f4c2f32b9",
-  "raw_hash": "e50fb77e1d4f50d48de21ab6dcfee523f4ecae939d9797bf04a5f873d2210083",
-  "text_bytes": 15843,
+  "content_hash": "7a1472d201f15d06a00ce76ba2f253352ee4da93a2438440cf2ebb140edde6bf",
+  "raw_hash": "8753db45c7688d5b8a33a2364b208d284a37d667ded89a5b2e92e7b366007614",
+  "text_bytes": 15858,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -1049,7 +1049,7 @@
         ],
         [
           "DeepSeek-V3.2",
-          "160k",
+          "-",
           "$0.26 / $0.13 cached",
           "$0.38",
           "View more"
@@ -1110,7 +1110,7 @@
         ],
         [
           "DeepSeek-V3.2",
-          "160k",
+          "-",
           "$0.26 / $0.13 cached",
           "$0.38",
           "View more"

@@ -155,7 +155,7 @@ with limited window/size
 Up to 6 hours
 or 1 GB of data changes
 1 snapshot
-Up to 60k MAUs
+Up to 60k MAUs per project
 5 GB included
 Compute
 10 active capacity-hours per project
@@ -185,7 +185,7 @@ Up to 7 days
 $0.09/GB-month
 Daily/Weekly/Monthly
 $0.09/GB-month
-Up to 1M MAUs
+Up to 1M MAUs per project
 If you're planning to go beyond that,
 contact us
 $0.023 per GB-month
@@ -220,7 +220,7 @@ Up to 30 days
 $0.09/GB-month
 Daily/Weekly/Monthly
 $0.09/GB-month
-Up to 1M MAUs
+Up to 1M MAUs per project
 If you're planning to go beyond that,
 contact us
 $0.023 per GB-month
@@ -429,8 +429,9 @@ or
 Neon CLI
 to periodically delete unused branches and stay within your included allowance.
 How is Managed Better Auth billed?
-Neon Managed Better Auth is included at no additional cost for all Neon databases until you reach 1 million monthly active users (MAU). If you need more, you can request an increase in the Neon Console.
-On the Free plan, Managed Better Auth is included for up to 60,000 MAU.
+Neon Managed Better Auth is included at no additional cost for all Neon databases until you reach 1 million monthly active users (MAU) per project. If you need more, you can request an increase in the Neon Console.
+On the Free plan, Managed Better Auth is included for up to 60,000 MAU per project.
+MAU limits apply to each project separately. For example, three projects on the Free plan can each have up to 60,000 MAU.
 How can I control my Postgres database costs (compute and storage consumption)?
 Database compute is often the most variable part of a monthly bill. For Neon databases, the most effective way to control compute costs is to configure maximum autoscaling limits and scale-to-zero.
 Autoscaling limits act as a built-in cost ceiling: your database will never scale beyond the limit you set, even during traffic spikes. If you want to prioritize performance over costs in a particular compute endpoint (e.g. production), choose a higher limit. If you want to optimize for cost predictability, set a lower one.

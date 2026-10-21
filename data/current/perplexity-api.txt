@@ -37,7 +37,7 @@ Orchestrator API Pricing
 Orchestrator API usage is billed per token at each model’s published rates — there are no per-request fees. Every model has its own input and output rate, with cache reads billed at the model’s discounted cache-read rate and reasoning tokens billed at the output rate. You are always billed at the requested model’s rates, regardless of how the request is served.
 See
 Orchestrator Models & Pricing
-for the full per-model rate card, including cache-write rates and long-context pricing.
+for the full per-model rate card, including cache-read rates.
 Agent API Pricing
 The Agent API provides access to third-party models from providers including OpenAI, Anthropic, Google, xAI, Z.AI, Moonshot AI, and NVIDIA with
 transparent, token-based pricing

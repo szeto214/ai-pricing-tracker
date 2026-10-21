@@ -187,6 +187,7 @@ per credit on-demand.
 Start Free Trial
 Features
 Features
+Bits Testing – Discover critical user workflows and generate Browser, API, and Network Path test coverage with a single prompt.
 Bits Database Optimization — Automatically detect, generate, and validate query optimizations for your database
 Bits Chat — Search and analyze telemetry, create dashboards and notebooks, and inspect monitors with natural language.
 Bits Agent Builder — Build custom AI agents that automate high-value workflows like incident response and custom reporting
@@ -194,6 +195,8 @@ Bits Code — Turn Datadog context into faster fixes with AI-assisted code gener
 Bits Investigation — Automatically investigate alerts, correlate telemetry, identify root causes, summarize impact, and apply remediations.
 How Credits are Consumed by Feature
 Estimated Credits Per Use
+Bits Testing – Autonomous test generation job
+Free of charge through Nov 30
 Bits Database Optimization — Autonomous Database Optimization
 ~0.3 credits
 Bits Chat — Message
@@ -2980,18 +2983,23 @@ documentation
 for more detail.
 For earlier versions of our iOS, Android, and React Native SDKs, Sessions are always charged under the “RUM” plan, regardless of Replay content
 Note: if you plan on collecting both Sessions with and without a Replay, you can consider committing to both “RUM” and “RUM & Session Replay” plans to optimize your usage.
-Synthetic Testing & Monitoring
-API, Browser and Mobile App Tests for proactive, end-to-end visibility
+Synthetic Monitoring
+AI-powered end-to-end testing for your user experiences, across Browser, Mobile App, API, and Network
+For
+Bits Testing
+pricing information, see the
+AI credits pricing page
 Browser Testing
 Starting At
 $
 12
 Per thousand test runs,
 per month*
-Easily monitor critical user journeys
-Record tests without code
-Intelligent, self-maintaining tests
-View screenshots and front-end errors for every step
+Know your critical user flows work across major browsers and devices
+Verify frontend workflows step by step across major browsers
+Stop chasing false failures with self-healing tests that adapt to UI changes
+Test real-world conditions from global locations or inside your own network
+Diagnose failures fast with step-level screenshots, video replays, and error reporting
 *Billed annually or $
 18
 on-demand
@@ -3002,11 +3010,11 @@ $
 50
 Per hundred test runs,
 per month*
-Proactively monitor your key business flows using real devices
-Record tests without code
-Run tests on real Android and iOS devices
-Intelligent, self-maintaining tasks
-View screenshots and front-end errors for every step
+Trust your app works across real iOS and Android devices
+Verify app workflows on real Android and iOS devices rather than emulators
+Stop maintaining tests with self-healing that adapts to UI changes
+Test across popular OS versions and real device types
+Diagnose failures fast with step-level screenshots, video replays, and error reporting
 *Billed annually or $
 72
 on-demand
@@ -3016,10 +3024,11 @@ Starting At
 $
 5
 Per 10K test runs, per month*
-Proactively monitor site availability
-Monitor uptime SLAs and SLOs
-Globally managed locations
-Sophisticated alerting capabilities
+Validate endpoint health alongside the user flows they power
+Verify endpoints and multistep workflows with configurable assertions
+Catch certificate, DNS, and connection failures before customers do
+Test real-world conditions from global locations or inside your own network
+Pinpoint failures fast with full request and response detail for every step
 *Billed annually or $
 7.20
 on-demand
@@ -3029,9 +3038,9 @@ Testing
 Starting At
 $
 5
-Per 1,000 tests,
+Per thousand test runs,
 per month*
-Proactively monitor network impact on application performance
+Isolate where the network is degrading your application performance
 Pinpoint root cause fast with a hop by hop view of network degradations impacting your applications
 Test real-world conditions from global locations, private cloud environments or your own devices
 Proactively catch issues and get alerts on packet loss or latency

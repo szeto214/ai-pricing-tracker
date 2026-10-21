@@ -6,9 +6,9 @@
   "url": "https://openrouter.ai/models",
   "final_url": "https://openrouter.ai/models",
   "parser_version": 4,
-  "content_hash": "b44267145bd218db53d331346bfdc10f98297c43c1837c9796b9a04dc3ed45ca",
-  "raw_hash": "d013cbeb78ec0f72385b9b52cff4a47bf95efd58dd454f6a1c9c8a97f5093b55",
-  "text_bytes": 10036,
+  "content_hash": "55f125fa3cd7d30b1836618dfbb9389bcd820397325a7301ace9604088b3ea07",
+  "raw_hash": "a12f8adfb5bc55b267a267e5c9aac5de30c429a76debe1ca2a85cc10803c718b",
+  "text_bytes": 9626,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -33,17 +33,6 @@
       "features": [],
       "slot_prices": [
         0.046
-      ]
-    },
-    {
-      "name": "Krea: K3 Edit",
-      "price_raw": "$0.03",
-      "amount": 0.03,
-      "currency": "USD",
-      "period": "image",
-      "features": [],
-      "slot_prices": [
-        0.03
       ]
     }
   ],

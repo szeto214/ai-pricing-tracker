@@ -6,9 +6,9 @@
   "url": "https://webflow.com/pricing",
   "final_url": "https://webflow.com/pricing",
   "parser_version": 4,
-  "content_hash": "27fd9b2c2b3c46dba050f2a711775113dc93311de225dd8e6624c513786827e5",
-  "raw_hash": "5b16634446fcc673b83dcdf5583f5ef3ba9c232176570affc77430949c6e836e",
-  "text_bytes": 56469,
+  "content_hash": "3f0131b74a6547f816674a77a7cc1a52bc49b067ecb9460dfdba7d59e0e62b6e",
+  "raw_hash": "5dfe81befa4cbc6d061b2b1ac4d5f33b846e8b0d6420e47d9b3c7e7e48e9146c",
+  "text_bytes": 56453,
   "currency_hints": [
     "USD"
   ],
@@ -52,6 +52,17 @@
       "amount": 2.0,
       "currency": "USD",
       "period": null,
+      "features": [],
+      "slot_prices": [
+        2.0
+      ]
+    },
+    {
+      "name": "Webflow Campaigns for marketers new",
+      "price_raw": "$2k",
+      "amount": 2000.0,
+      "currency": "USD",
+      "period": "month",
       "features": [],
       "slot_prices": [
         2.0

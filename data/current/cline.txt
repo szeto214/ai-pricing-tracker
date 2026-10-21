@@ -1,11 +1,10 @@
-Simple,
-transparent pricing
+Skip to content
+Simple, transparent pricing
 Cline is free for individual developers. Pay only for AI inference on a usage basis - no subscriptions, no vendor lock-in.
 Open Source
 Free
 For individual developers
-n/a
-Install Cline >
+Install Cline
 Features
 VS Code Extension
 CLI
@@ -17,7 +16,6 @@ Community Support
 Enterprise
 Custom
 SSO, SLA & Dedicated Support
-All Open Source Features +
 Contact Sales
 All Open Source Features +
 JetBrains Extension
@@ -46,9 +44,3 @@ When do I need Enterprise?
 Enterprise is for organizations that need team collaboration features and enterprise-grade security. This includes JetBrains extension, centralized billing, team management dashboard, role-based access control, SSO, OIDC, SCIM provisioning, audit logs, VPC deployments, SLA, OpenTelemetry, priority support, and dedicated support.
 Is there vendor lock-in?
 No! Cline is open source and supports providers like Anthropic, Gemini, OpenAI, OpenRouter, AWS Bedrock, GCP Vertex, Groq, Cerebras, Vercel AI Gateway, DeepSeek, and many more. You're never locked into our platform or pricing. Switch providers or self-host anytime.
-We use cookies to enhance your experience, analyze traffic, and personalize content. By clicking 'Accept', you consent to our use of cookies. Learn more in our
-Privacy Notice
-.
-Decline Non-Essential
-Manage Preferences
-Accept All

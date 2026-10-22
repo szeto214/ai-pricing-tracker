@@ -1,67 +1,60 @@
-pricing
+Airbyte Pricing
 Pricing plans that scale with you
-Start with a 14-day free trial. 400 credits included ($2,000 of usage).
+Start free for 14 days with 400 credits, about 100 GB of syncs. No credit card.
 Standard
-Fully managed cloud, billed by data volume.
+Best for your first few pipelines.
+Starts at
 $20
 /month
-5 credits included. Extra credits $5 each.
+5 credits included, about 1 GB of syncs.
+Start 14-day trial
+No credit card required
 Fully managed cloud hosting
-Volume-based pricing
-Deploy quickly
-Portal support (no SLA), 7am-7pm EST
-TrY IT NOW
-14-day free trial
+Syncs as often as every hour
+Pay only for the data you sync
+Standard support
 Plus
-popular
-Faster syncs, SSO, and predictable billing via fixed monthly credits.
-Starting at
-Plus credit package
+, best value
+Best value after 10 GB
+Best for teams that need SSO and 15-minute syncs.
 $189
 /month
-40 credits / $189/mo
-100 credits / $449/mo
-250 credits / $999/mo
-500 credits / $1,799/mo
-1,000 credits / $3,199/mo
-2,000 credits / $4,999/mo
-40 credits
-Overage:
-$5.00
-/credit
-All the features in Standard
+Credit package
+40 credits · $189/mo
+100 credits · $449/mo
+250 credits · $999/mo
+500 credits · $1,799/mo
+1,000 credits · $3,199/mo
+2,000 credits · $4,999/mo
+Start 14-day trial
+No credit card required
+Everything in Standard
 SSO
-Field renaming
-15-minute syncs
-2 workspaces
-Enterprise support (24hr response SLA)
-TrY IT NOW
-14-day free trial
+Syncs as often as every 15 minutes
+24h support SLA
+Up to 2 workspaces
 Pro
-Enterprise pricing and features for scale, governance, and security.
+Best for production volume and a flat annual price.
 Custom
-Talk to sales for capacity-based pricing.
-Fully managed cloud hosting
-Capacity-based pricing
-Multiple Workspaces
-SSO, RBAC
-Up to 5-minute sync frequency
-Custom mappings
-Premium support (12hr critical / 24hr general)
-Enterprise support add-on available
-Talk to sales
+Get a capacity quote
+Capacity pricing that stays flat when volume spikes
+SSO and role-based access
+Syncs as often as every 5 minutes
+Premium support, 12-hour critical response
+Dedicated Solutions Architect
 Enterprise Flex
-In-boundary and hybrid deployment for regulated industries.
+Best for data that can't leave your environment.
 Custom
-Talk to sales for in-boundary deployment.
-Sovereign data movement inside your own boundary
-Available on-premises and multi-region
-Hybrid deployment with Airbyte managed control plane
-All the features of Airbyte Pro
-Premium support (12hr critical / 24hr general)
-Enterprise support add-on available
-Talk to sales
-Prefer to self-host? Try Airbyte Core, our open source offering.
+Your VPC, on-prem, or multi-region.
+Get a deployment quote
+Everything in Pro
+Hybrid deployment
+Data stays inside your own boundary
+On-prem, multi-cloud, and multi-region
+Premium support, 12-hour critical response
+Dedicated Solutions Architect
+Compare all features
+Airbyte Core is free to self-host. The plans above include hosting, upgrades, and support.
 Try Airbyte Core
 You shouldn't pay more just because your data volume spikes
 For large organizations with higher data volumes, Airbyte provides enterprise plans that price on compute capacity. Scale your pipelines without scaling your bill.
@@ -73,14 +66,19 @@ For smaller teams with predictable data volumes, pay-per-use still makes sense. 
 Pick the model that fits: fixed capacity on Pro and Enterprise Flex, or volume-based on Standard and Plus.
 plans & features
 Compare our plans
+Choose a plan to compare
 Standard
-Get started
 Plus
-Get started
 Pro
-Talk to sales
 Enterprise Flex
-Talk to sales
+Standard
+Start 14-day trial
+Plus
+Start 14-day trial
+Pro
+Get a capacity quote
+Enterprise Flex
+Get a deployment quote
 Data Ingestion
 Connector Availability
 700+

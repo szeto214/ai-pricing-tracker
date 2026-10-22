@@ -17,7 +17,6 @@ Choose from over 2,600 apps in the Slack App Directory — from Salesforce, Jira
 Work together in real time through audio and video meetings (including screen sharing) using Slack huddles.
 1:1 external messages
 Securely work alongside people outside of your company through one-to-one direct messages using Slack Connect.
-Frontline teams (add-on)
 Basic AI
 AI conversation summaries
 Slackbot (personal AI agent)
@@ -25,6 +24,7 @@ AI workflow generation
 AI search
 AI daily recaps
 AI file summaries
+Frontline teams (add-on)
 SAML-based single sign-on
 SCIM user management
 EMM integration support
@@ -47,7 +47,6 @@ Group meetings
 Work together in real time through audio and video meetings (including screen sharing) using Slack huddles.
 Group external messages
 Work securely with outside partners via DMs, group chats, or dedicated channels with up to 250 orgs.
-Frontline teams (add-on)
 Basic AI
 AI conversation summaries
 Catch up on channels in just a click. Get meeting summaries with transcripts, key takeaways, and action items.
@@ -56,6 +55,7 @@ AI workflow generation
 AI search
 AI daily recaps
 AI file summaries
+Frontline teams (add-on)
 SAML-based single sign-on
 SCIM user management
 EMM integration support
@@ -80,7 +80,6 @@ Group meetings
 Work together in real time through audio and video meetings (including screen sharing) using Slack huddles.
 Group external messages
 Work securely with outside partners via DMs, group chats, or dedicated channels with up to 250 orgs.
-Frontline teams (add-on)
 Advanced AI
 AI conversation summaries
 Catch up on channels in just a click. Get meeting summaries with transcripts, key takeaways, and action items.
@@ -95,6 +94,7 @@ AI daily recaps
 Get a daily digest of what’s happening across all of your teams and projects.
 AI file summaries
 Catch up on documents in a flash with smart AI summaries of files shared in Slack.
+Frontline teams (add-on)
 SAML-based single sign-on
 Sign in with your IDP of choice. Supports 12 SSO options including Okta, Google, and Azure.
 SCIM user management
@@ -115,9 +115,6 @@ Group meetings
 Work together in real time through audio and video meetings (including screen sharing) using Slack huddles.
 Group external messages
 Work securely with outside partners via DMs, group chats, or dedicated channels with up to 250 orgs.
-Frontline teams (add-on)
-New
-Enterprise+ add-on giving field workers Slack for task management, agentic support & secure Salesforce access.
 Enterprise-Grade AI
 AI conversation summaries
 Catch up on channels in just a click. Get meeting summaries with transcripts, key takeaways, and action items.
@@ -132,6 +129,9 @@ AI daily recaps
 Get a daily digest of what’s happening across all of your teams and projects.
 AI file summaries
 Catch up on documents in a flash with smart AI summaries of files shared in Slack.
+Frontline teams (add-on)
+New
+Enterprise+ add-on giving field workers Slack for task management, agentic support & secure Salesforce access.
 Multiple SAML configurations
 Sign in with your IDP of choice. Supports 12 SSO options including Okta, Google, and Azure.
 SCIM user management

@@ -6,9 +6,9 @@
   "url": "https://upstash.com/pricing",
   "final_url": "https://upstash.com/pricing/redis",
   "parser_version": 4,
-  "content_hash": "44fbb13870a49b925fd073c454607bd832ecc746d7de6c46702b17e088432e2f",
-  "raw_hash": "d685dc0be4eb98399a861ad37223dbe0f0a9a50e12908704f3f525d930df6aa3",
-  "text_bytes": 12389,
+  "content_hash": "9695dd9fc41ce5598873ccdadc2e66a01bb9954055e8a644db79739ee1edb8c9",
+  "raw_hash": "a25bc7efb2278e1d72f05b3cd57ff413d9d85e9bd11ac10497b80c3bb30f5566",
+  "text_bytes": 12393,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -44,17 +44,6 @@
       "features": [],
       "slot_prices": [
         10.0
-      ]
-    },
-    {
-      "name": "Prod Pack",
-      "price_raw": "$200",
-      "amount": 200.0,
-      "currency": "USD",
-      "period": "month",
-      "features": [],
-      "slot_prices": [
-        200.0
       ]
     },
     {

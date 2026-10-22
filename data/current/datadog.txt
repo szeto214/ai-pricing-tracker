@@ -4286,13 +4286,13 @@ for more.
 Data Observability: Jobs Monitoring
 Observe, troubleshoot, and optimize jobs across your data pipelines
 Clusters
-Databricks and Apache Spark
+Databricks (Classic) and Apache Spark
 Starting At
 $
 0.05
 Per host, per hour*
 Observe, troubleshoot, and optimize jobs running on clusters
-Monitor Databricks and Spark jobs running on K8s, Amazon EMR and Google Dataproc
+Monitor Databricks (classic) and Spark jobs running on K8s, Amazon EMR and Google Dataproc
 Detect failing and long-running jobs
 Quickly pinpoint and resolve the root cause of failed and long-running jobs
 Reduce costs by optimizing misallocated clusters and inefficient jobs
@@ -4300,17 +4300,21 @@ Reduce costs by optimizing misallocated clusters and inefficient jobs
 0.072
 on-demand
 Start Free Trial
-Serverless
-Databricks
-Per job, per hour*
-Contact Us for Pricing
-Observe, troubleshoot, and optimize jobs running on serverless compute
-Monitor Databricks serverless jobs
+Databricks Serverless
+Lakeflow Jobs
+Starting At
+$
+0.025
+Per DBU*
+Observe, troubleshoot, and optimize jobs running on Databricks serverless compute
+Monitor serverless Lakeflow jobs
 Detect failing and long-running jobs
 Quickly pinpoint and resolve the root cause of failed and long-running jobs
 Recommendations to optimize code and queries
+*Billed annually or $
+0.036
+on-demand
 Start Free Trial
-Let's Talk
 Orchestrators
 Airflow, dbt, AWS Glue, custom jobs
 Starting At
@@ -4327,9 +4331,9 @@ on-demand
 Start Free Trial
 Features
 Clusters
-Databricks and Apache Spark
-Serverless
-Databricks
+Databricks (Classic) and Apache Spark
+Databricks Serverless
+Lakeflow Jobs
 Orchestrators
 Airflow, dbt, AWS Glue, custom jobs
 Features
@@ -4377,6 +4381,8 @@ Job 1, Run 2 duration: 5 hours
 Job 2, Run 2 duration: 0.15 hours
 Job 2, Run 3 duration: 0.25 hours
 The sum of the hours for all the runs is 3.4 + 0.1 + 5 + 0.15 + 0.25 = 8.9. We round to the next full hour making the usage for the month 9 Data Observability Job Hours.
+How is Data Observability: Jobs Monitoring for Databricks Serverless usage calculated, and how is it billed?
+Usage is calculated by summing the total DBUs consumed in Databricks for all serverless job runs monitored by Datadog in a given month. That number is then multiplied by the unit price to obtain the billable amount.
 Does using Data Observability: Jobs Monitoring generate usage of other Datadog products?
 Data Observability: Jobs Monitoring for Clusters job execution traces generate Span Ingestion and Span Indexing usage, which may lead to additional charges beyond the allotted 0.205 GB Ingested Spans and 1,370 Indexed Spans per Jobs Monitoring host, per hour.
 Data Observability: Jobs Monitoring for Clusters generates container monitoring usage for jobs on Kubernetes (K8s) and there is an allotment of 10 Jobs Monitoring containers per host.
@@ -4385,7 +4391,7 @@ Do hosts monitored by Data Observability: Jobs Monitoring for Clusters also coun
 Hosts where Jobs Monitoring is enabled do not require Infrastructure Monitoring and are not billed as Infrastructure hosts, except in the case of Spark on Kubernetes (K8s).
 For Spark on Kubernetes (K8s), any node running the Datadog agent is counted as an Infrastructure host, but only nodes where Spark jobs are actively running count toward Data Observability Job Host Hours.
 Is this available in all regions?
-Data Observability: Jobs Monitoring is available in all our AP, EU, and US data centers. It is currently not available in GovCloud (US).
+Data Observability: Jobs Monitoring is available in all our AP, EU, and US data centers, including GovCloud (US).
 Data Observability: Quality Monitoring
 Detect, resolve, and prevent data issues across your entire data stack
 Starting At

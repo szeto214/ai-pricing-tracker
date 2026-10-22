@@ -6,9 +6,9 @@
   "url": "https://www.shopify.com/pricing",
   "final_url": "https://www.shopify.com/pricing",
   "parser_version": 4,
-  "content_hash": "720aa4ee337e76cc4bfe5222f292f6e9b0c39f66338b61cf47efcb0f40f07833",
-  "raw_hash": "3450f80f7d44b22d0c3a8e24368a86e468af02aae33630e8566806ab50124b4a",
-  "text_bytes": 15062,
+  "content_hash": "c72af76fa276613a5b35420707d50bf49c3e3d6866ff92b1219f4898739bcd76",
+  "raw_hash": "cddff6184b94400c730fc08cd3fe8deceaf16706cf380f0b02a4c82a52668466",
+  "text_bytes": 15148,
   "currency_hints": [
     "US$",
     "USD"
@@ -128,6 +128,17 @@
       "features": [],
       "slot_prices": [
         29.0
+      ]
+    },
+    {
+      "name": "POS Pro",
+      "price_raw": "$89",
+      "amount": 89.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [],
+      "slot_prices": [
+        89.0
       ]
     },
     {
@@ -290,14 +301,28 @@
           "In-person sales"
         ],
         [
-          "Casual, in-person sales at pop-ups and events",
+          "Accept payments with a phone or card reader",
           "",
           "",
           "",
           ""
         ],
         [
-          "POS Pro: Advanced tools for brick‑and‑mortar retailers",
+          "Customer profiles",
+          "Simple",
+          "Simple",
+          "Simple",
+          "Simple"
+        ],
+        [
+          "Returns",
+          "At purchase location",
+          "At purchase location",
+          "At purchase location",
+          "At purchase location"
+        ],
+        [
+          "POS Pro",
           "$89/mo per location",
           "$89/mo per location",
           "$89/mo per location",
@@ -636,20 +661,6 @@
         ],
         [
           "Localized selling with Shopify Markets",
-          "",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Accept local payment methods*",
-          "",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Assign local domains",
           "",
           "",
           "",

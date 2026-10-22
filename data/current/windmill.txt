@@ -49,20 +49,25 @@ Price
 $170
 /mo
 1
-developer
+builder
+A builder is a workspace admin, or a user whose
+role
+can write code or build flows or apps, in at least one workspace.
 $
 20
-/mo/dev
+/mo/builder
 0
-operator or ext JWT token
-An
-operator
-is a user who can only execute scripts, flows and apps, but not create and edit them. Each unique
+non-builder or ext JWT user
+A
+non-builder
+is a user whose
+role
+cannot write code or build flows or apps in any workspace: they run, view and manage what others built. Each unique
 external JWT
-user (counted per username/email + scope + instance, active in the last 30 days) also counts here. Operators and ext JWT users are 1/2 price of developers (or 1/2 seats).
+user (counted per username/email + scope + instance, active in the last 30 days) also counts here. Non-builders and ext JWT users are 1/2 price of builders (or 1/2 seats).
 $
 10
-/mo/op
+/mo/non-builder
 100
 app guests
 A
@@ -133,7 +138,7 @@ mo
 Total seats:
 1
 1
-developer
+builder
 100
 guests
 = free, no seat
@@ -232,6 +237,8 @@ Self-hosted Enterprise only
 No
 Workspace service accounts
 No
+Custom workspace roles
+Override default roles
 Instance-level roles via instance groups
 No
 Custom OAuth
@@ -440,6 +447,8 @@ i
 Self-hosted Enterprise only
 Yes
 Workspace service accounts
+Yes
+Custom workspace roles
 Yes
 Instance-level roles via instance groups
 Yes
@@ -694,6 +703,9 @@ No
 Yes
 Workspace service accounts
 No
+Yes
+Custom workspace roles
+Override default roles
 Yes
 Instance-level roles via instance groups
 No
@@ -911,7 +923,7 @@ Yes
 Frequently asked questions
 What is the logic behind Windmill's pricing?
 Which organizations can subscribe to the Pro plan and non-profit EE?
-What is an operator? How are external JWT users billed?
+Who counts as half a seat? How are external JWT users billed?
 How are guests billed?
 What is an execution?
 What are native subworkers?

@@ -172,52 +172,52 @@ M30
 40–512 GB
 8 GB
 2 vCPUs
-$0.61/hr
+$0.54/hr
 M40
 80 GB–1 TB
 16 GB
 4 vCPUs
-$1.20/hr
+$1.04/hr
 M50
 160 GB–4 TB
 32 GB
 8 vCPUs
-$2.35/hr
+$2.00/hr
 M60
 320 GB–4 TB
 64 GB
 16 vCPUs
-$4.67/hr
+$3.95/hr
 M80
 750 GB–4 TB
 128 GB
 32 vCPUs
-$8.99/hr
+$7.30/hr
 M140
 1–4 TB
 192 GB
 48 vCPUs
-$13.51/hr
+$10.99/hr
 M200
 1.5–4 TB
 256 GB
 64 vCPUs
-$17.98/hr
+$14.59/hr
 M300
 2–4 TB
 384 GB
 96 vCPUs
-$26.97/hr
+$21.85/hr
 M400
 3–4 TB
 488 GB
 64 vCPUs
-$26.98/hr
+$22.40/hr
 M700
 4 TB
 768 GB
 96 vCPUs
-$40.48/hr
+$33.26/hr
 Additional hardware configurations available for specialized workloads including Low-CPU and Local NVMe SSD.
 Scale beyond 4 TB:
 Sharded clusters offer additional compute and storage through horizontal scaling.

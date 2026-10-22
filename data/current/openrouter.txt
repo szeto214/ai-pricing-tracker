@@ -1,7 +1,90 @@
 Models
+Recursive: Flint (free)
+Flint (free)
+8.43B tokens
+Flint is an open-weight mixture-of-experts model from Recursive, with about 2.5B active parameters out of 40B total, built by Recursive's autoresearch system Eureka Machine for coding agents. It is suited for investigating codebases, fixing bugs, implementing features, and writing tests.
+by
+recursive
+Oct 21, 2026
+262K context
+$0/M input
+tokens
+$0/M output
+tokens
+Baseten: Mammoth 1 (free)
+Mammoth 1 (free)
+38.7M tokens
+Mammoth 1 is a 27B decision model from Base Labs, Baseten's research team, built on Qwen3.5-27B. Given a state (text or JSON) and typed questions (yes/no, multiple choice, or ordinal score), it returns a calibrated probability for every option in a single forward pass, with no text generation. It is TypeSafe System One compatible and suits classification, routing, and scoring where you need a scored answer instead of prose. Its smaller sibling is
+Elephant 1
+.
+by
+baseten
+Oct 21, 2026
+$0/M input
+tokens
+$0/M output
+tokens
+Baseten: Elephant 1 (free)
+Elephant 1 (free)
+28M tokens
+Elephant 1 is a 9B decision model from Base Labs, Baseten's research team, built on Qwen3.5-9B. Given a state (text or JSON) and typed questions (yes/no, multiple choice, or ordinal score), it returns a calibrated probability for every option in a single forward pass, with no text generation. It is TypeSafe System One compatible and suits routing, classification, and scoring where you need a scored answer instead of prose. Its larger sibling is
+Mammoth 1
+.
+by
+baseten
+Oct 21, 2026
+$0/M input
+tokens
+$0/M output
+tokens
+Nace.AI: Drex Max
+Drex Max
+215M tokens
+Drex Max is the largest decision model from Nace.AI, the successor to
+Drex v2.0
+. Given a state (text or JSON) and typed questions (yes/no, multiple choice, or ordinal score), it returns a calibrated probability for every option in a single forward pass, with no text generation. It is TypeSafe System One compatible and suits routing, classification, and policy checks that need a scored answer instead of prose.
+by
+nace-ai
+Oct 21, 2026
+$0.06/M input
+tokens
+$0/M output
+tokens
+NVIDIA: Nemotron 3.5 Embed 1B (free)
+Nemotron 3.5 Embed 1B (free)
+23.7M tokens
+Nemotron 3.5 Embed 1B is a multimodal embedding model from NVIDIA for multilingual retrieval over text and document page images (tables, charts, infographics). Queries are text and documents can be text, an image, or both. It returns 2048-dim vectors that can be truncated, and shares the text embedding space of Nemotron 3 Embed 1B.
+by
+nvidia
+Oct 21, 2026
+$0/M input
+tokens
+$0/M output
+tokens
+NVIDIA: Nemotron 3.5 Embed 8B (free)
+Nemotron 3.5 Embed 8B (free)
+65.5M tokens
+Nemotron 3.5 Embed 8B is a multimodal embedding model from NVIDIA for multilingual retrieval over text and document page images (tables, charts, infographics). Queries are text and documents can be text, an image, or both. It returns 4096-dim vectors that can be truncated, and shares the text embedding space of Nemotron 3 Embed 8B.
+by
+nvidia
+Oct 21, 2026
+$0/M input
+tokens
+$0/M output
+tokens
+NVIDIA: Nemotron 3.5 Rerank 8B (free)
+Nemotron 3.5 Rerank 8B (free)
+7.28M tokens
+by
+nvidia
+Oct 21, 2026
+$0/M input
+tokens
+$0/M output
+tokens
 Mistral: Voxtral TTS 3
 Voxtral TTS 3
-142K tokens
+1.2M tokens
 Voxtral TTS 3 is Mistral's text-to-speech model. It converts text into natural-sounding speech, offers a library of preset voices, supports zero-shot voice cloning, and accepts emotion and pace tags in the input to control delivery. It streams audio with low time-to-first-audio and suits voice agents, narration, and multilingual assistants.
 by
 mistralai
@@ -9,7 +92,7 @@ Oct 20, 2026
 $13/M characters
 Mistral: Voxtral Small Transcribe 3
 Voxtral Small Transcribe 3
-2.79M characters
+13.5M characters
 Voxtral Small Transcribe 3 is Mistral's flagship speech-to-text model. It takes audio input and returns a transcript with timestamps and speaker diarization, and supports context biasing for domain-specific vocabulary. Suited for high-accuracy multilingual transcription of meetings, interviews, media, and support calls.
 by
 mistralai
@@ -17,7 +100,7 @@ Oct 20, 2026
 $0.000067/second
 Mistral: Voxtral Mini Transcribe 3
 Voxtral Mini Transcribe 3
-1.21M characters
+2.74M characters
 Voxtral Mini Transcribe 3 is Mistral's compact speech-to-text model. It takes audio input and returns a transcript with timestamps and speaker diarization. It also supports context biasing for domain terms. It is small enough to self-deploy in resource-constrained environments, and fits meeting notes, call analytics, and voice-agent pipelines where cost matters.
 by
 mistralai
@@ -25,9 +108,12 @@ Oct 20, 2026
 $0.000058/second
 MiniMax: MiniMax M3.1 Flash (free)
 MiniMax M3.1 Flash (free)
-6.58T tokens
-Academia (#48)
-Programming (#37)
+12.2T tokens
+Academia (#34)
+Finance (#39)
+Programming (#26)
+Science (#43)
+Technology (#37)
 MiniMax-M3.1-Flash is a multimodal model from MiniMax. Compared with M3, it delivers significant improvements across multiple benchmarks, particularly in complex agentic tasks, coding, and cybersecurity. It is built for complex, multi-step co-work automation, understanding real codebases, fixing bugs, and building features, and visual understanding and creation, including frontend and presentation creation. Open weights are planned.
 by
 minimax
@@ -39,12 +125,12 @@ $0/M output
 tokens
 DeepSeek: DeepSeek V4.1 Flash 1017
 DeepSeek V4.1 Flash 1017
-12.9T tokens
-Academia (#9)
-Finance (#6)
-Health (#35)
-Legal (#29)
-Marketing (#39)
+18.3T tokens
+Academia (#6)
+Finance (#3)
+Health (#18)
+Legal (#11)
+Marketing (#20)
 +7 categories
 DeepSeek V4.1 Flash 1017 is the October 17, 2026 snapshot of DeepSeek V4.1 Flash, served by DeepSeek under the
 deepseek-flash
@@ -57,13 +143,13 @@ by
 deepseek
 Oct 17, 2026
 1.05M context
-$0.049/M input
+$0.07/M input
 tokens
-$0.375/M output
+$0.50/M output
 tokens
 Elorian: Glimpse
 Glimpse
-3.04B tokens
+3.14B tokens
 Glimpse is a multimodal visual reasoning model from Elorian, built for visual understanding and complex visual reasoning in the physical world. It reasons directly over images and video rather than converting them to text first, so it can find small details in dense scenes, track events across video frames, and ground its answers in what is actually on screen. It is suited for agentic visual workflows such as visual search, video captioning, and dense counting, and for physical-world use cases in robotics, construction, engineering, and manufacturing.
 by
 elorian
@@ -75,7 +161,7 @@ $3/M output
 tokens
 Qwen: Qwen Image 2.1 Turbo
 Qwen Image 2.1 Turbo
-65.4M tokens
+89.6M tokens
 Qwen Image 2.1 Turbo is the fast, lower-cost tier of the Qwen Image 2.1 series from Qwen, for image generation and editing where throughput and price matter more than peak fidelity. See Qwen Image 2.1 Pro for the higher-quality tier.
 by
 qwen
@@ -83,7 +169,7 @@ Oct 16, 2026
 from $0.0184/image
 Qwen: Qwen Image 2.1 Pro
 Qwen Image 2.1 Pro
-37.4M tokens
+49.4M tokens
 Qwen Image 2.1 Pro is an image generation and editing model from Qwen, the higher-quality tier of the Qwen Image 2.1 series. Choose it over Qwen Image 2.1 Turbo when output fidelity matters more than cost or speed.
 by
 qwen
@@ -91,8 +177,8 @@ Oct 16, 2026
 from $0.046/image
 Perplexity: Decider Flash V1.2
 Decider Flash V1.2
-12.1B tokens
-Trivia (#45)
+14.5B tokens
+Trivia (#38)
 Decider Flash V1.2 is a 4B-parameter decision model from Perplexity, a smaller, lower-cost sibling of
 Decider V1.2
 with the same API contract. Instead of generating text, it reads content passed as
@@ -113,10 +199,11 @@ $0/M output
 tokens
 Perplexity: Decider V1.2
 Decider V1.2
-63.6B tokens
-Legal (#50)
-Translation (#48)
-Trivia (#5)
+96.1B tokens
+Legal (#40)
+Marketing (#37)
+Translation (#35)
+Trivia (#3)
 Decider V1.2 is a new 27B checkpoint of Perplexity's decision model, succeeding
 Decider V1.1 27B
 with the same API contract. Instead of generating text, it reads content passed as
@@ -134,77 +221,6 @@ by
 perplexity
 Oct 16, 2026
 $0.02/M input
-tokens
-$0/M output
-tokens
-XingChen: Xing4.0 29B A4B (free)
-Xing4.0 29B A4B (free)
-39.3B tokens
-Xing4.0-29B-A4B is an open-weight mixture-of-experts language model from China Telecom's AI team (TeleAI) and the successor to the TeleChat series. It has 29B total parameters with 4B active per token and a native 256K-token context window. It was trained entirely on Ascend NPUs with the MindSpore framework and is tuned for complex engineering and agent work: tool calling, multi-step planning, and long-context execution. Reasoning is on by default and can be turned off.
-by
-xingchen-agi
-Oct 16, 2026
-262K context
-$0/M input
-tokens
-$0/M output
-tokens
-Perplexity: Decider Flash Latest
-Decider Flash Latest
-This model always redirects to the latest model in the Decider Flash family.
-by
-perplexity
-Oct 16, 2026
-$0.01/M input
-tokens
-$0/M output
-tokens
-Reflection: Beam 1.0 501B A23B
-Beam 1.0 501B A23B
-89.4B tokens
-Beam 1.0 is Reflection's open-weight reasoning model for coding and long-horizon agentic workflows. It uses a sparse mixture-of-experts architecture with 501B total and 23B active parameters per token, and a 1M-token context window. Beam targets software engineering, multi-step tool use, and mathematical and scientific reasoning, with an emphasis on token efficiency. It takes text input and produces text output, supports configurable reasoning effort, function calling and structured outputs, and is released under Apache 2.0.
-by
-reflection
-Oct 16, 2026
-1.05M context
-$0.25/M input
-tokens
-$1/M output
-tokens
-Inception: Mercury 3
-Mercury 3
-50% off
-66.5B tokens
-Mercury 3 is a diffusion-based language model from Inception, and the lab's most capable model to date. It is suited for agentic workflows and real-time applications where latency compounds, such as search agents, voice pipelines, and coding subagents. Its distinguishing trait is speed: more than 40x larger than the first Mercury model while generating at the same throughput, because it produces and refines tokens in parallel rather than one at a time.
-by
-inception
-Oct 16, 2026
-1M context
-$0.10/M input
-tokens
-$0.35/M output
-tokens
-Respan: Span-02
-Span-02
-10.3B tokens
-Marketing (#16)
-Trivia (#34)
-Span-02 is an open-weight decision model from Respan. It reads a state of text and images and answers the questions you define about it: picking one of several options, a yes/no/unknown call, or a score on a scale. It is suited for evaluation, guardrails, routing, and monitoring of LLM and agent outputs at scale. It is the successor to Span-01.
-by
-respan
-Oct 16, 2026
-$0.01/M input
-tokens
-$0/M output
-tokens
-LiquidAI: d1-ultra
-d1-ultra
-37.8B tokens
-d1-ultra is Liquid AI's largest decision model, served as a System One endpoint. Send a state of text and images along with typed questions, and it returns a choice, a score, or a yes/no answer, each with a probability taken directly from the model rather than written out as text. It uses the same /v1/systemone schema as other OpenRouter Decisions models, so it suits routing, classification, moderation, and visual checks that need a fast, scored answer instead of prose.
-by
-liquid
-Oct 15, 2026
-$0.042/M input
 tokens
 $0/M output
 tokens

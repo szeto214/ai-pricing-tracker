@@ -2379,6 +2379,77 @@ def test_nama_paket_ganda_16_10() -> None:
           f"-> {amb}")
 
 
+def test_kolom_ganti_nama_21_10() -> None:
+    """Kolom tabel berganti NAMA bukan perubahan harga (21/10/2026).
+
+    OpenAI 21/10 tercatat **+5900%** dan **+3900%** dalam satu hari pada baris
+    "Text". Tidak ada angka yang bergerak — yang berganti judul kolomnya:
+
+      10/10  modality $4.00 | input $0.40 | cached input $24.00
+      21/10  modality $4.00 | input $24.00 | output / cost $0.40
+
+    Pembanding mencocokkan per NAMA KOLOM, jadi $24.00 yang semula berdiri di
+    "cached input" kini berdiri di "input" dan terbaca sebagai lonjakan.
+    Himpunan angka barisnya identik: {4.00, 0.40, 24.00} kemarin dan hari ini.
+
+    Penjaganya karena itu dibuat sesempit mungkin dan berbasis bukti, bukan
+    tebakan: kalau TIDAK ADA satu angka pun di baris itu yang berubah, tidak
+    ada harga yang bergerak. Kalau ada kolom baru ATAU ada angka yang benar-
+    benar berubah, himpunannya berbeda dan peristiwanya tetap dicatat penuh.
+
+    Diukur dengan memutar ulang SELURUH arsip mentah (1251 berkas, 140 situs)
+    sebelum dan sesudah: 1981 peristiwa di kedua sisi, **tepat 2 berpindah
+    label** — dua baris "Text" OpenAI itu — dan **nol nilai baru muncul**. Ke-
+    20 peristiwa `model_price_changed` lain (DeepInfra, fal.ai, Fly.io) tidak
+    tersentuh sama sekali.
+    """
+    print("\n28. kolom berganti nama bukan perubahan harga")
+    from collector.modeltable import diff_models
+
+    def baris(key, **kolom):
+        return [{"key": key, "model": "Text", "unit": "",
+                 "prices": {k.replace("_", " "): {"raw": f"${v:.2f}", "amount": v}
+                            for k, v in kolom.items()}}]
+
+    kemarin = baris("text", modality=4.00, input=0.40, cached_input=24.00)
+    hari_ini = baris("text", modality=4.00, input=24.00, output_cost=0.40)
+    ev = diff_models(kemarin, hari_ini)
+    jenis = [e["type"] for e in ev]
+    check("angka sama, kolom berganti nama -> BUKAN perubahan harga",
+          "model_price_changed" not in jenis
+          and "model_price_relabeled" in jenis, f"-> {jenis}")
+
+    balik = [e["type"] for e in diff_models(hari_ini, kemarin)]
+    check("arah sebaliknya juga tertahan",
+          "model_price_changed" not in balik, f"-> {balik}")
+
+    # Harga yang SUNGGUHAN bergerak tetap tercatat penuh.
+    naik = diff_models(
+        baris("text", modality=4.00, input=0.40),
+        baris("text", modality=4.00, input=0.50))
+    check("kenaikan nyata pada kolom yang sama tetap tercatat",
+          [e["type"] for e in naik] == ["model_price_changed"], f"-> {naik}")
+
+    # Kolom berganti nama TAPI satu angka ikut berubah -> tetap dilaporkan.
+    campur = diff_models(
+        baris("text", modality=4.00, input=0.40, cached_input=24.00),
+        baris("text", modality=4.00, input=24.00, output_cost=0.55))
+    check("kolom berganti nama tapi ada angka berubah tetap dilaporkan",
+          [e["type"] for e in campur] == ["model_price_changed"],
+          f"-> {[e['type'] for e in campur]}")
+
+    # Sel tanpa angka tidak boleh menjatuhkan pembanding.
+    aman = [{"key": "x", "model": "X", "unit": "",
+             "prices": {"input": {"raw": "Custom", "amount": None},
+                        "output": {"raw": "$1.00", "amount": 1.0}}}]
+    aman2 = [{"key": "x", "model": "X", "unit": "",
+              "prices": {"input": {"raw": "Custom", "amount": None},
+                         "output": {"raw": "$2.00", "amount": 2.0}}}]
+    hasil = [e["type"] for e in diff_models(aman, aman2)]
+    check("sel tanpa angka tidak menjatuhkan pembanding",
+          hasil == ["model_price_changed"], f"-> {hasil}")
+
+
 def test_batas_tabel_08_10() -> None:
     """Pengumpan tabel tidak boleh lebih sempit daripada pembacanya (08/10/2026).
 
@@ -2457,6 +2528,7 @@ def main() -> int:
     test_satuan_beda_08_10()
     test_batas_tabel_08_10()
     test_nama_paket_ganda_16_10()
+    test_kolom_ganti_nama_21_10()
     test_skrip_cadangan()
 
     print("\n" + "=" * 60)

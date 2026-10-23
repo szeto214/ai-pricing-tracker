@@ -261,6 +261,18 @@ def _index(models: list[dict] | None) -> dict[str, dict]:
     return {m["key"]: m for m in (models or []) if m.get("key")}
 
 
+def _angka_baris(prices: dict | None) -> list[str]:
+    """Semua angka pada satu baris model, diurutkan, tanpa nama kolomnya.
+
+    Dipakai untuk menjawab satu pertanyaan: apakah ada angka yang BERGERAK di
+    baris ini, atau angkanya itu-itu juga dan hanya label kolomnya berganti?
+    Memakai repr() supaya aman dari TypeError saat satu sel berisi teks dan
+    sel lain berisi angka.
+    """
+    return sorted(repr(v.get("amount")) for v in (prices or {}).values()
+                  if isinstance(v, dict) and v.get("amount") is not None)
+
+
 def diff_models(old: list[dict] | None, new: list[dict] | None) -> list[dict]:
     """Peristiwa harga model.
 
@@ -301,8 +313,27 @@ def diff_models(old: list[dict] | None, new: list[dict] | None) -> list[dict]:
                 pass
             changes.append(item)
         if changes:
+            # Angka baris ini sama persis seperti kemarin, hanya berpindah
+            # kolom: yang berganti NAMA KOLOMNYA, bukan harganya.
+            #
+            # OpenAI 21/10/2026: baris "Text" kemarin terbaca
+            #   modality $4.00 | input $0.40 | cached input $24.00
+            # dan hari ini
+            #   modality $4.00 | input $24.00 | output / cost $0.40
+            # Kolom ketiga berganti judul dari "cached input" menjadi
+            # "output / cost", jadi $24.00 pindah ke kolom "input" dan $0.40
+            # pindah keluar. Tercatat +5900% dan +3900% pada hari yang sama —
+            # padahal himpunan angkanya identik: {4.00, 0.40, 24.00}.
+            #
+            # Kalau TIDAK ADA satu angka pun yang berubah di baris itu, tidak
+            # ada harga yang bergerak. Titik. Dicatat terpisah supaya jejaknya
+            # ada, dan tidak pernah masuk hitungan gerbang maupun halaman
+            # publik (§11.7: lebih baik kehilangan satu sinyal daripada
+            # mengarang satu).
+            pindah_kolom = (_angka_baris(before) == _angka_baris(after))
             events.append({
-                "type": "model_price_changed",
+                "type": ("model_price_relabeled" if pindah_kolom
+                         else "model_price_changed"),
                 "model": n[key]["model"],
                 "unit": n[key].get("unit", ""),
                 "changes": changes,

@@ -2379,6 +2379,142 @@ def test_nama_paket_ganda_16_10() -> None:
           f"-> {amb}")
 
 
+def test_halaman_bulanan_23_10() -> None:
+    """Halaman ringkasan bulanan — dikerjakan 23/10/2026.
+
+    Alasannya diukur, bukan selera. Google Search Console 23/10: **0 klik dan
+    4 tayangan dalam 3 bulan, 4 halaman terindeks dari 135**. Seratus tiga
+    puluh lima halaman yang saling mirip tidak akan pernah mengalahkan halaman
+    harga resmi vendornya sendiri. Yang bisa dikutip orang adalah CERITA satu
+    bulan ("Atlassian menaikkan Jira dan Confluence ~7% serempak 14/10, ini
+    buktinya") — satu halaman, satu tautan, satu rentang waktu.
+
+    Syarat yang dikunci di sini:
+      1. satu halaman untuk tiap bulan yang ada di arsip, dan semuanya masuk
+         sitemap (tanpa itu halaman baru tidak akan pernah ditemukan);
+      2. halaman bulanan TIDAK memuat tanggal hari ini — begitu bulannya
+         lewat, berkasnya tidak pernah berubah lagi;
+      3. peristiwa yang sudah dikoreksi TIDAK boleh muncul di sana;
+      4. alasan koreksi berbahasa Indonesia TIDAK boleh bocor ke halaman
+         publik yang berbahasa Inggris (keputusan pemilik 18/09) — yang
+         ditampilkan hanya `reason_en`, dan koreksi yang belum punya versi
+         Inggris tetap tampil dengan tautan ke catatan lengkapnya;
+      5. `corrections.jsonl` tetap TAMBAH-SAJA: baris pelengkap dengan kunci
+         yang sama digabung menjadi satu baris tampilan.
+    """
+    print("\n29. halaman ringkasan bulanan")
+    sys.path.insert(0, str(ROOT / "scripts"))
+    import build_site
+
+    check("label bulan terbaca manusia",
+          build_site.label_bulan("2026-10") == "October 2026",
+          f'-> {build_site.label_bulan("2026-10")}')
+    check("bulan tak wajar tidak meledak",
+          build_site.label_bulan("bukan-bulan") == "bukan-bulan")
+
+    ubah = [
+        {"date": "2026-10-14", "slug": "jira", "name": "Jira",
+         "url": "https://x/jira", "kind": "price_change",
+         "plan_events": [{"type": "price_changed", "plan": "Standard",
+                          "from": {"raw": "$7.91", "amount": 7.91},
+                          "to": {"raw": "$8.48", "amount": 8.48},
+                          "pct_change": 7.21}], "model_events": []},
+        {"date": "2026-10-16", "slug": "runpod", "name": "RunPod",
+         "url": "https://x/runpod", "kind": "price_change",
+         "plan_events": [{"type": "price_changed", "plan": "Community Cloud",
+                          "from": {"raw": "0.16", "amount": 0.16},
+                          "to": {"raw": "0.50", "amount": 0.50},
+                          "pct_change": 212.5}], "model_events": []},
+        {"date": "2026-09-03", "slug": "coderabbit", "name": "CodeRabbit",
+         "url": "https://x/cr", "kind": "price_change",
+         "plan_events": [{"type": "price_changed", "plan": "Pro",
+                          "from": {"raw": "$0.50", "amount": 0.5},
+                          "to": {"raw": "$0.40", "amount": 0.4},
+                          "pct_change": -20}], "model_events": []},
+    ]
+    koreksi = {("2026-10-16", "runpod", "price_change")}
+
+    okt = build_site.baris_bulan(ubah, koreksi, "2026-10")
+    check("hanya peristiwa bulan itu yang masuk",
+          [r["date"] for r in okt] == ["2026-10-14"], f"-> {okt}")
+    check("peristiwa yang sudah dikoreksi tidak pernah muncul",
+          all("RunPod" != r["vendor"] for r in okt), f"-> {okt}")
+    sep = build_site.baris_bulan(ubah, koreksi, "2026-09")
+    check("bulan lain tidak bocor", len(sep) == 1 and sep[0]["vendor"] == "CodeRabbit",
+          f"-> {sep}")
+
+    berkas, url, tautan = build_site.build_bulanan(
+        ubah, koreksi, set(), halaman=134,
+        repo="https://github.com/szeto214/ai-pricing-tracker", parser_version=4)
+    check("satu halaman untuk tiap bulan di arsip",
+          sorted(berkas) == ["m/2026-09.html", "m/2026-10.html"],
+          f"-> {sorted(berkas)}")
+    check("tiap halaman bulanan masuk sitemap",
+          len(url) == 2 and all(u[0].endswith(".html") for u in url),
+          f"-> {url}")
+    check("halaman utama menautkan tiap bulan",
+          "m/2026-10.html" in tautan and "m/2026-09.html" in tautan,
+          f"-> {tautan}")
+
+    hal = berkas["m/2026-10.html"]
+    hari_ini = dt.date.today().isoformat()
+    check("halaman bulanan tidak memuat tanggal hari ini",
+          hari_ini not in hal or hari_ini.startswith("2026-10-14"),
+          "-> ada tanggal hari ini; berkas akan berubah tiap hari")
+    check("angka yang nyata tampil", "$8.48" in hal and "Jira" in hal)
+    check("angka yang sudah dikoreksi tidak tampil",
+          "Community Cloud" not in hal and "212.5" not in hal)
+    rapat = " ".join(hal.split())
+    check("tiap halaman bulanan menyatakan batas akurasi",
+          "can be wrong" in rapat
+          and "belong to their respective owners" in rapat,
+          "-> peringatan akurasi/merek dagang hilang dari halaman bulanan")
+    check("tetap menyatakan tanpa iklan dan tanpa pelacakan",
+          "No ads, no affiliate links, no tracking" in hal)
+
+    # --- alasan koreksi: hanya versi Inggris yang boleh tampil -------------
+    import json as _json
+    asli = build_site.storage.CORRECTIONS_LOG
+    tmp = _TMP / "corrections-uji.jsonl"
+    tmp.write_text(
+        _json.dumps({"date": "2026-10-16", "slug": "runpod",
+                     "kind": "price_change", "events_excluded": 2,
+                     "reason": "LABEL RADIO yang diulang di setiap kartu"},
+                    ensure_ascii=False) + "\n"
+        + _json.dumps({"date": "2026-10-16", "slug": "runpod",
+                       "kind": "price_change", "events_excluded": 2,
+                       "reason_en": "radio labels repeated on every card"},
+                      ensure_ascii=False) + "\n"
+        + _json.dumps({"date": "2026-10-02", "slug": "langchain",
+                       "kind": "price_change", "events_excluded": 1,
+                       "reason": "blok KALKULATOR, bukan paket"},
+                      ensure_ascii=False) + "\n",
+        encoding="utf-8")
+    try:
+        build_site.storage.CORRECTIONS_LOG = tmp
+        rinci = build_site.koreksi_rinci()
+        check("baris pelengkap digabung, bukan menambah baris baru",
+              len(rinci) == 2, f"-> {len(rinci)} baris")
+        runpod = [k for k in rinci if k["slug"] == "runpod"][0]
+        check("baris pelengkap membawa alasan versi Inggris",
+              runpod.get("reason_en") == "radio labels repeated on every card"
+              and runpod.get("events_excluded") == 2, f"-> {runpod}")
+        berkas2, _, _ = build_site.build_bulanan(
+            ubah, koreksi, set(), halaman=134,
+            repo="https://github.com/szeto214/ai-pricing-tracker",
+            parser_version=4)
+        hal2 = berkas2["m/2026-10.html"]
+        check("alasan versi Inggris tampil",
+              "radio labels repeated on every card" in hal2)
+        check("alasan bahasa Indonesia TIDAK bocor ke halaman Inggris",
+              "LABEL RADIO" not in hal2 and "KALKULATOR" not in hal2,
+              "-> teks bahasa Indonesia muncul di halaman publik")
+        check("koreksi tanpa versi Inggris tetap tampil dengan tautannya",
+              "langchain" in hal2 and "see the full record" in hal2)
+    finally:
+        build_site.storage.CORRECTIONS_LOG = asli
+
+
 def test_kolom_ganti_nama_21_10() -> None:
     """Kolom tabel berganti NAMA bukan perubahan harga (21/10/2026).
 
@@ -2529,6 +2665,7 @@ def main() -> int:
     test_batas_tabel_08_10()
     test_nama_paket_ganda_16_10()
     test_kolom_ganti_nama_21_10()
+    test_halaman_bulanan_23_10()
     test_skrip_cadangan()
 
     print("\n" + "=" * 60)

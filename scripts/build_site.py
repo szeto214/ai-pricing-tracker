@@ -62,6 +62,11 @@ MAX_BARIS_INDEKS = 20
 # tidak hilang — seluruh catatan tetap terbuka di repositori arsip, dan
 # jumlah yang tidak ditampilkan selalu disebutkan.
 MAX_BARIS_TOOL = 60
+# Batas baris GPU di halaman ringkasan bulanan. Sewa GPU bergerak hampir tiap
+# hari (562 angka dalam 57 hari), jadi tanpa batas halaman bulanannya habis
+# oleh satu penyedia saja. Sisanya tidak hilang — selalu disebutkan jumlahnya
+# dan tetap lengkap di halaman tool masing-masing.
+MAX_BARIS_BULAN_GPU = 40
 GPU_CATEGORY = "gpu-rental"
 
 
@@ -324,6 +329,34 @@ def _buang_kembar(rows: list[dict]) -> list[dict]:
     return [terbaik[k] for k in urutan]
 
 
+def _baris_perubahan(c: dict, gpu_slugs: set | None) -> list[dict]:
+    """Satu halaman-hari -> baris tabel. Satu-satunya tempat bentuk baris ini
+    dibuat, supaya halaman utama dan halaman bulanan tidak pernah bercerita
+    berbeda tentang peristiwa yang sama."""
+    gpu = c.get("slug") in (gpu_slugs or set())
+    out = []
+    for e in c.get("plan_events") or []:
+        if e["type"] != "price_changed":
+            continue
+        out.append({"date": c["date"], "vendor": c.get("name"),
+                    "url": c.get("url"), "item": e.get("plan"),
+                    "dari": uang(e["from"].get("raw"),
+                                 e["from"].get("currency")),
+                    "ke": uang(e["to"].get("raw"), e["to"].get("currency")),
+                    "pct": e.get("pct_change"), "gpu": gpu})
+    for e in c.get("model_events") or []:
+        if e["type"] != "model_price_changed":
+            continue
+        for ch in e["changes"]:
+            out.append({"date": c["date"], "vendor": c.get("name"),
+                        "url": c.get("url"),
+                        "item": f"{e.get('model')} · {ch['field']}",
+                        "dari": ch["from"].get("raw"),
+                        "ke": ch["to"].get("raw"),
+                        "pct": ch.get("pct_change"), "gpu": gpu})
+    return out
+
+
 def recent_rows(changes: list[dict], corrections: set,
                 until: str, gpu_slugs: set | None = None) -> list[dict]:
     batas = (dt.date.fromisoformat(until)
@@ -334,27 +367,21 @@ def recent_rows(changes: list[dict], corrections: set,
             continue
         if not counted(c, corrections):
             continue
-        for e in c.get("plan_events") or []:
-            if e["type"] != "price_changed":
-                continue
-            out.append({"date": c["date"], "vendor": c.get("name"),
-                        "url": c.get("url"), "item": e.get("plan"),
-                        "dari": uang(e["from"].get("raw"),
-                                     e["from"].get("currency")),
-                        "ke": uang(e["to"].get("raw"), e["to"].get("currency")),
-                        "pct": e.get("pct_change"),
-                        "gpu": c.get("slug") in (gpu_slugs or set())})
-        for e in c.get("model_events") or []:
-            if e["type"] != "model_price_changed":
-                continue
-            for ch in e["changes"]:
-                out.append({"date": c["date"], "vendor": c.get("name"),
-                            "url": c.get("url"),
-                            "item": f"{e.get('model')} · {ch['field']}",
-                            "dari": ch["from"].get("raw"),
-                            "ke": ch["to"].get("raw"),
-                            "pct": ch.get("pct_change"),
-                            "gpu": c.get("slug") in (gpu_slugs or set())})
+        out.extend(_baris_perubahan(c, gpu_slugs))
+    out.sort(key=lambda r: (r["date"], r["vendor"] or ""), reverse=True)
+    return _buang_kembar(out)
+
+
+def baris_bulan(changes: list[dict], corrections: set, bulan: str,
+                gpu_slugs: set | None = None) -> list[dict]:
+    """Baris perubahan harga untuk SATU bulan ("2026-10")."""
+    out = []
+    for c in changes:
+        if not (c.get("date") or "").startswith(bulan):
+            continue
+        if not counted(c, corrections):
+            continue
+        out.extend(_baris_perubahan(c, gpu_slugs))
     out.sort(key=lambda r: (r["date"], r["vendor"] or ""), reverse=True)
     return _buang_kembar(out)
 
@@ -481,7 +508,8 @@ def catatan_sisa(sisa: int, total: int) -> str:
 def build_html(*, tanggal: str, hari: int, halaman: int, angka: int,
                gpu: list[dict], gpu_lain: list[dict], model: list[dict],
                lain: list[dict], terbaru: list[dict], terbaru_gpu: list[dict],
-               repo: str, parser_version: int, daftar: str = "") -> str:
+               repo: str, parser_version: int, daftar: str = "",
+               bulanan: str = "") -> str:
     def sumber(url, vendor):
         return f'<a href="{esc(url)}" rel="nofollow noopener">{esc(vendor)}</a>'
 
@@ -579,6 +607,12 @@ def build_html(*, tanggal: str, hari: int, halaman: int, angka: int,
    per-unit prices (instance types, usage tiers). They live on each
    provider’s own page below, next to that provider’s change history —
    a single flat table of {len(model) + len(lain)} rows helps nobody.</p>
+
+<h2>Month by month</h2>
+<p class="sub">One page per month: everything that moved, plus the numbers we
+   threw out ourselves after proving them wrong. Useful if you want to cite a
+   period rather than a single day.</p>
+<p>{bulanan or '<span class="dim">No month summarised yet.</span>'}</p>
 
 <h2>All tracked tools</h2>
 <p class="sub">Every tool has its own page: the latest prices we recorded and
@@ -925,8 +959,219 @@ def sitemap(halaman: list) -> str:
             f'{baris}</urlset>\n')
 
 
+# --------------------------------------------------------------------------- #
+# ringkasan bulanan
+#
+# Kenapa halaman ini ada. Diukur 23/10/2026 di Search Console: 0 klik dan 4
+# tayangan dalam 3 bulan, 4 halaman terindeks dari 135. Seratus tiga puluh
+# lima halaman yang saling mirip tidak akan pernah mengalahkan halaman harga
+# resmi vendornya sendiri. Yang bisa dikutip orang adalah CERITA satu bulan:
+# "Atlassian menaikkan Jira dan Confluence ~7% serempak pada 14/10, ini
+# buktinya" — satu halaman, satu tautan, satu rentang waktu.
+#
+# Halaman ini juga memuat bagian yang tidak dimiliki situs harga mana pun:
+# daftar angka yang KAMI BUANG sendiri karena terbukti salah baca, lengkap
+# dengan alasannya. Itu satu-satunya keunggulan jujur proyek ini.
+# --------------------------------------------------------------------------- #
+_NAMA_BULAN = ("January", "February", "March", "April", "May", "June", "July",
+               "August", "September", "October", "November", "December")
+
+
+def label_bulan(bulan: str) -> str:
+    """"2026-10" -> "October 2026". Bulan tak wajar dikembalikan apa adanya."""
+    try:
+        tahun, bln = bulan.split("-")
+        return f"{_NAMA_BULAN[int(bln) - 1]} {tahun}"
+    except (ValueError, IndexError):
+        return bulan
+
+
+def koreksi_rinci() -> list[dict]:
+    """Baris koreksi LENGKAP (dengan alasannya), bukan sekadar kuncinya.
+
+    Dibaca sendiri di sini karena `storage.load_corrections()` sengaja hanya
+    mengembalikan kunci. Baris rusak dilewati diam-diam: halaman publik tidak
+    boleh gagal dibangun gara-gara satu baris catatan tangan yang keliru —
+    penjaganya sudah ada di `storage`, yang akan meneriakkannya saat kolektor
+    berjalan.
+
+    `corrections.jsonl` BERSIFAT TAMBAH-SAJA: baris lama tidak pernah
+    disunting. Kalau sebuah koreksi perlu dilengkapi — misalnya diberi
+    `reason_en`, alasan versi Inggris untuk halaman publik — yang ditambahkan
+    adalah BARIS BARU dengan kunci yang sama. Di sini baris-baris itu
+    digabungkan, yang terakhir menimpa, sehingga satu koreksi tetap tampil
+    satu baris di halaman.
+    """
+    gabung: dict[tuple, dict] = {}
+    path = storage.CORRECTIONS_LOG
+    if not path.exists():
+        return []
+    for line in path.read_text(encoding="utf-8").splitlines():
+        if not line.strip():
+            continue
+        try:
+            e = json.loads(line)
+        except json.JSONDecodeError:
+            continue
+        if not (isinstance(e, dict) and e.get("date") and e.get("slug")):
+            continue
+        kunci = (str(e["date"]), str(e["slug"]),
+                 str(e.get("kind") or "price_change"))
+        gabung.setdefault(kunci, {}).update(e)
+    return sorted(gabung.values(),
+                  key=lambda e: (str(e.get("date")), str(e.get("slug"))))
+
+
+def potong_alasan(teks: str, batas: int = 260) -> str:
+    """Alasan koreksi bisa sepanjang paragraf. Dipotong di batas kata."""
+    teks = " ".join((teks or "").split())
+    if len(teks) <= batas:
+        return teks
+    return teks[:batas].rsplit(" ", 1)[0] + " …"
+
+
+def halaman_bulan(*, bulan: str, baris: list[dict], baris_gpu: list[dict],
+                  koreksi: list[dict], halaman: int, hari: int, repo: str,
+                  parser_version: int, nav: str) -> str:
+    """Satu halaman ringkasan untuk satu bulan. Tidak memuat tanggal hari ini:
+    begitu bulannya lewat, berkasnya tidak pernah berubah lagi."""
+    def sumber(url, vendor):
+        return f'<a href="{esc(url)}" rel="nofollow noopener">{esc(vendor)}</a>'
+
+    def baris_tabel(rows):
+        return [[esc(r["date"]), sumber(r["url"], r["vendor"]),
+                 (esc(r["item"]), "wrap-ok"), esc(r["dari"]), esc(r["ke"]),
+                 fmt_pct(r["pct"])] for r in rows]
+
+    gpu_tampil, gpu_sisa = potong(baris_gpu, MAX_BARIS_BULAN_GPU)
+    kol = ["Date (UTC)", "Source", "Item", "From", "To", "Change"]
+    judul = label_bulan(bulan)
+    naik = len([r for r in baris if (r["pct"] or 0) > 0])
+    turun = len([r for r in baris if (r["pct"] or 0) < 0])
+
+    # Hanya `reason_en` yang ditampilkan. Alasan kerja ditulis bahasa
+    # Indonesia di arsip, dan halaman publik berbahasa Inggris (keputusan
+    # pemilik 18/09/2026) — menempelkan teks Indonesia di sini akan membuat
+    # pembaca bingung, bukan percaya. Koreksi yang belum punya versi Inggris
+    # tetap TAMPIL, karena yang penting angkanya dibuang dan jejaknya terbuka;
+    # kolom alasannya menunjuk ke catatan lengkapnya di repo.
+    catatan = f"{repo}/blob/main/data/changes/corrections.jsonl"
+    baris_koreksi = [
+        [esc(k.get("date")), esc(k.get("slug")),
+         esc(str(k.get("events_excluded") or 1)),
+         (esc(potong_alasan(k["reason_en"])) if k.get("reason_en")
+          else f'<a href="{esc(catatan)}" rel="noopener">see the full record'
+               f'</a>', "wrap-ok")]
+        for k in koreksi]
+
+    kanonik = f"{base_url()}m/{bulan}.html"
+    lapor = f"{repo}/issues/new?title=Wrong+number+report+({bulan})"
+    return f"""<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI &amp; software price changes — {esc(judul)}</title>
+<meta name="description" content="Every price change we verified on AI tools, model APIs and GPU rentals in {esc(judul)}: what moved, from what to what, on which day. Read once a day from the vendors' own pricing pages.">
+<link rel="canonical" href="{esc(kanonik)}">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="wrap">
+<header>
+  <p class="sub"><a href="../">← Pricing change archive</a> ·
+     <a href="../feed.xml">RSS: software &amp; API</a> ·
+     <a href="../feed-gpu.xml">RSS: GPU</a></p>
+  <h1>Price changes — {esc(judul)}</h1>
+  <p class="sub">Everything that actually moved on {halaman} official pricing
+     pages this month, read once a day. Every number links back to the
+     vendor’s own page — that page is what counts, not this one.</p>
+  <ul class="stats">
+    <li><b>{len(baris)}</b><span>software &amp; API moves</span></li>
+    <li><b>{naik} ↑ / {turun} ↓</b><span>up vs down</span></li>
+    <li><b>{len(baris_gpu)}</b><span>GPU rental moves</span></li>
+    <li><b>{hari}</b><span>days checked</span></li>
+  </ul>
+</header>
+
+<h2>Software &amp; API price changes</h2>
+<p class="sub">Only numbers that actually moved on an item present on two
+   consecutive days. Plans appearing or disappearing are not counted here.</p>
+{table(kol, baris_tabel(baris),
+       kosong="No software or API price change was recorded this month.")}
+
+<h2>GPU rental price changes</h2>
+<p class="sub">Market prices. They move almost every day, and that is
+   normal — they are kept separate so they never bury the handful of software
+   changes that matter.</p>
+{table(kol, baris_tabel(gpu_tampil),
+       kosong="No GPU rental price change was recorded this month.")}
+{catatan_sisa(gpu_sisa, len(baris_gpu))}
+
+<h2>What we threw out this month</h2>
+<p class="sub">Numbers our reader got wrong, proven against that day’s raw
+   snapshot and removed from every count on this site. They stay listed here
+   on purpose: an archive that hides its own mistakes is worth nothing.</p>
+{table(["Date (UTC)", "Tool", "Numbers removed", "Why"], baris_koreksi,
+       kosong="Nothing had to be corrected this month.")}
+
+<p class="sub" style="margin-top:28px">{nav}</p>
+
+<footer>
+  <p>Fetched at most once a day, honouring <code>robots.txt</code>, never
+     behind a login or a paywall. Numbers are read automatically and can be
+     wrong — <a href="{esc(lapor)}" rel="noopener">tell us if you spot one</a>.
+     Every raw record stays open in the
+     <a href="{esc(repo)}" rel="noopener">archive repository</a>.</p>
+  <p>Product names and trademarks belong to their respective owners. This
+     site is not affiliated with, sponsored by, or representing any vendor.
+     Recorded data is <a href="{esc(repo)}/blob/main/DATA-LICENSE"
+     rel="noopener">CC BY 4.0</a>. No ads, no affiliate links, no tracking.
+     Dates in UTC · parser version: {parser_version}.</p>
+</footer>
+</div>
+</body>
+</html>
+"""
+
+
+def build_bulanan(changes: list[dict], corrections: set, gpu_slugs: set,
+                  *, halaman: int, repo: str, parser_version: int) -> tuple:
+    """Kembalikan ({jalur -> html}, [(url, lastmod)], daftar tautan HTML)."""
+    bulan_ada = sorted({(c.get("date") or "")[:7] for c in changes
+                        if c.get("date")})
+    koreksi_semua = koreksi_rinci()
+    berkas: dict[str, str] = {}
+    url: list[tuple[str, str]] = []
+    for i, bulan in enumerate(bulan_ada):
+        semua = baris_bulan(changes, corrections, bulan, gpu_slugs)
+        hari_bulan = sorted({c["date"] for c in changes
+                             if (c.get("date") or "").startswith(bulan)})
+        sebelum = bulan_ada[i - 1] if i > 0 else None
+        sesudah = bulan_ada[i + 1] if i + 1 < len(bulan_ada) else None
+        nav = " · ".join(filter(None, [
+            f'<a href="{esc(sebelum)}.html">← {esc(label_bulan(sebelum))}</a>'
+            if sebelum else None,
+            f'<a href="{esc(sesudah)}.html">{esc(label_bulan(sesudah))} →</a>'
+            if sesudah else None]))
+        berkas[f"m/{bulan}.html"] = halaman_bulan(
+            bulan=bulan,
+            baris=[r for r in semua if not r.get("gpu")],
+            baris_gpu=[r for r in semua if r.get("gpu")],
+            koreksi=[k for k in koreksi_semua
+                     if str(k.get("date", "")).startswith(bulan)],
+            halaman=halaman, hari=len(hari_bulan), repo=repo,
+            parser_version=parser_version, nav=nav)
+        url.append((f"{base_url()}m/{bulan}.html",
+                    hari_bulan[-1] if hari_bulan else f"{bulan}-01"))
+    tautan = " · ".join(
+        f'<a href="m/{esc(b)}.html">{esc(label_bulan(b))}</a>'
+        for b in reversed(bulan_ada))
+    return berkas, url, tautan
+
+
 def build_pages(targets: dict, changes: list[dict], corrections: set,
-                awal: str, akhir: str) -> dict:
+                awal: str, akhir: str, url_tambahan: list | None = None) -> dict:
     """Kembalikan {jalur relatif -> isi} untuk seluruh halaman per tool +
     sitemap. Tidak menulis apa pun — supaya bisa diuji tanpa menyentuh disk."""
     riwayat = riwayat_per_slug(changes, corrections)
@@ -945,6 +1190,7 @@ def build_pages(targets: dict, changes: list[dict], corrections: set,
             t, rec, r, awal, repo, config.PARSER_VERSION)
         url_sitemap.append((f"{base_url()}t/{slug}.html",
                             r[0]["date"] if r else awal))
+    url_sitemap.extend(url_tambahan or [])
     keluaran["sitemap.xml"] = sitemap(url_sitemap)
     return keluaran
 
@@ -1055,6 +1301,12 @@ def build() -> dict:
     terbaru_semua = recent_rows(changes, corrections, akhir, gpu_slugs)
     riwayat = riwayat_per_slug(changes, corrections)
 
+    halaman_aktif = len([t for t in targets.values() if t.enabled])
+    repo_url = f"https://github.com/{_repo_slug()}"
+    berkas_bulan, url_bulan, tautan_bulan = build_bulanan(
+        changes, corrections, gpu_slugs, halaman=halaman_aktif,
+        repo=repo_url, parser_version=config.PARSER_VERSION)
+
     index = build_html(
         tanggal=tanggal_rekaman_terakhir(akhir), hari=hari,
         halaman=len([t for t in targets.values() if t.enabled]),
@@ -1065,9 +1317,10 @@ def build() -> dict:
         lain=model_rows(targets, moves, api=False),
         terbaru=[r for r in terbaru_semua if not r.get("gpu")],
         terbaru_gpu=[r for r in terbaru_semua if r.get("gpu")],
-        repo=f"https://github.com/{_repo_slug()}",
+        repo=repo_url,
         parser_version=config.PARSER_VERSION,
         daftar=daftar_tool(targets, riwayat),
+        bulanan=tautan_bulan,
     )
 
     berkas = {
@@ -1085,7 +1338,9 @@ def build() -> dict:
             keterangan="Hourly GPU rental prices, recorded once a day.",
             jalur_diri="feed-gpu.xml"),
     }
-    berkas.update(build_pages(targets, changes, corrections, awal, akhir))
+    berkas.update(berkas_bulan)
+    berkas.update(build_pages(targets, changes, corrections, awal, akhir,
+                              url_tambahan=url_bulan))
     return berkas
 
 

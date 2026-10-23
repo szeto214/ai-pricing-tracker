@@ -423,6 +423,11 @@ Allow and deny users based on attributes such as domain, phone number, Web3 wall
 Not included
 Included
 Included
+Secret Key IP restrictions
+Limit each Secret Key to the IP addresses and ranges your servers use.
+Not included
+Not included
+Included
 Session management features
 Custom session tokens
 Add custom data into the default authentication tokens.

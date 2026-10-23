@@ -6,16 +6,116 @@
   "url": "https://northflank.com/pricing",
   "final_url": "https://northflank.com/pricing",
   "parser_version": 4,
-  "content_hash": "5b8bb928eae1f32e88886562dcbbd0e15d741cc8eeeb0e2d1813754db5348c92",
-  "raw_hash": "f53b9bbdf9736fcc7d46fb650fbc5d51464e12f086374cc74f408ff7bbd6626d",
-  "text_bytes": 14190,
+  "content_hash": "620d9309abdf81ebcbdc6a1c9677be99bacbe431841211c8f783872e443f2827",
+  "raw_hash": "32c792208f475fc336a7d9b13c1bab5c1a57e935d230dea9e9718b4a0353ec9e",
+  "text_bytes": 16066,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
     {
-      "name": "Network Egress",
-      "price_raw": "$ 0.06",
+      "name": "Sandbox",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": [],
+      "slot_prices": []
+    },
+    {
+      "name": "Sandbox",
+      "price_raw": "$20",
+      "amount": 20.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "2 services, 2 jobs, and 1 database",
+        "Up to $20/mo of resources on Northflank Cloud",
+        "1 BYOC cluster, up to 12 vCPU and 48 GB",
+        "Always on, no sleeping"
+      ],
+      "slot_prices": [
+        20.0
+      ]
+    },
+    {
+      "name": "Pay as you go",
+      "price_raw": "$0.01667",
+      "amount": 0.01667,
+      "currency": "USD",
+      "period": "vcpu-hour",
+      "features": [],
+      "slot_prices": [
+        0.01667
+      ]
+    },
+    {
+      "name": "CPU",
+      "price_raw": "$0.01667",
+      "amount": 0.01667,
+      "currency": "USD",
+      "period": "hour",
+      "features": [],
+      "slot_prices": [
+        0.01667
+      ]
+    },
+    {
+      "name": "Compute",
+      "price_raw": "$0.01667",
+      "amount": 0.01667,
+      "currency": "USD",
+      "period": "hour",
+      "features": [],
+      "slot_prices": [
+        0.01667
+      ]
+    },
+    {
+      "name": "Ephemeral storage",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": [],
+      "slot_prices": []
+    },
+    {
+      "name": "Persistent disk",
+      "price_raw": "$0.11657",
+      "amount": 0.11657,
+      "currency": "USD",
+      "period": "month",
+      "features": [],
+      "slot_prices": [
+        0.11657
+      ]
+    },
+    {
+      "name": "Additional IOPS",
+      "price_raw": "$7.37",
+      "amount": 7.37,
+      "currency": "USD",
+      "period": "month",
+      "features": [],
+      "slot_prices": [
+        7.37
+      ]
+    },
+    {
+      "name": "Additional throughput",
+      "price_raw": "$5.85",
+      "amount": 5.85,
+      "currency": "USD",
+      "period": "month",
+      "features": [],
+      "slot_prices": [
+        5.85
+      ]
+    },
+    {
+      "name": "Network egress",
+      "price_raw": "$0.06",
       "amount": 0.06,
       "currency": "USD",
       "period": "GB",
@@ -25,163 +125,613 @@
       ]
     },
     {
-      "name": "Disk",
-      "price_raw": "$ 0.15",
-      "amount": 0.15,
+      "name": "Egress gateway",
+      "price_raw": "$15.00",
+      "amount": 15.0,
       "currency": "USD",
       "period": "month",
       "features": [],
       "slot_prices": [
-        0.15
+        15.0
       ]
     },
     {
-      "name": "You’re in good company",
-      "price_raw": "$24M",
-      "amount": 24000000.0,
+      "name": "GPUs on Northflank BYOC",
+      "price_raw": "$1.00",
+      "amount": 1.0,
       "currency": "USD",
-      "period": null,
+      "period": "month",
       "features": [],
       "slot_prices": [
-        24.0
+        1.0
+      ]
+    },
+    {
+      "name": "Estimate your bill",
+      "price_raw": "$10.80",
+      "amount": 10.8,
+      "currency": "USD",
+      "period": "month",
+      "features": [],
+      "slot_prices": [
+        10.8
       ]
     }
   ],
-  "models": [],
+  "models": [
+    {
+      "key": "nf-compute-50 recommended for dev 0.5 vcpu · 1 gb|k5",
+      "model": "nf-compute-50 Recommended for dev 0.5 vCPU · 1 GB",
+      "prices": {
+        "kolom 4": {
+          "raw": "$0.01667",
+          "amount": 0.01667
+        },
+        "kolom 5": {
+          "raw": "$12.00",
+          "amount": 12.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "nf-compute-100-2 most popular 1 vcpu · 2 gb|k5",
+      "model": "nf-compute-100-2 Most popular 1 vCPU · 2 GB",
+      "prices": {
+        "kolom 4": {
+          "raw": "$0.03333",
+          "amount": 0.03333
+        },
+        "kolom 5": {
+          "raw": "$24.00",
+          "amount": 24.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "nf-compute-200 production 2 vcpu · 4 gb|k5",
+      "model": "nf-compute-200 Production 2 vCPU · 4 GB",
+      "prices": {
+        "kolom 4": {
+          "raw": "$0.06667",
+          "amount": 0.06667
+        },
+        "kolom 5": {
+          "raw": "$48.00",
+          "amount": 48.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "nf-compute-400 scale 4 vcpu · 8 gb|k5",
+      "model": "nf-compute-400 Scale 4 vCPU · 8 GB",
+      "prices": {
+        "kolom 4": {
+          "raw": "$0.13",
+          "amount": 0.13
+        },
+        "kolom 5": {
+          "raw": "$96.00",
+          "amount": 96.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "nf-compute-800-16 8 vcpu · 16 gb|k5",
+      "model": "nf-compute-800-16 8 vCPU · 16 GB",
+      "prices": {
+        "kolom 4": {
+          "raw": "$0.27",
+          "amount": 0.27
+        },
+        "kolom 5": {
+          "raw": "$192.00",
+          "amount": 192.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "nvidia l4 24 gb vram",
+      "model": "NVIDIA L4 24 GB VRAM",
+      "prices": {
+        "per hour": {
+          "raw": "$0.80",
+          "amount": 0.8
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "nvidia a100 40 gb vram",
+      "model": "NVIDIA A100 40 GB VRAM",
+      "prices": {
+        "per hour": {
+          "raw": "$1.42",
+          "amount": 1.42
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "nvidia a100 80 gb vram",
+      "model": "NVIDIA A100 80 GB VRAM",
+      "prices": {
+        "per hour": {
+          "raw": "$1.76",
+          "amount": 1.76
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "nvidia h100 80 gb vram",
+      "model": "NVIDIA H100 80 GB VRAM",
+      "prices": {
+        "per hour": {
+          "raw": "$2.74",
+          "amount": 2.74
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "nvidia rtx pro 6000 96 gb vram",
+      "model": "NVIDIA RTX PRO 6000 96 GB VRAM",
+      "prices": {
+        "per hour": {
+          "raw": "$3.00",
+          "amount": 3.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "nvidia h200 141 gb vram",
+      "model": "NVIDIA H200 141 GB VRAM",
+      "prices": {
+        "per hour": {
+          "raw": "$3.14",
+          "amount": 3.14
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "nvidia b200 180 gb vram",
+      "model": "NVIDIA B200 180 GB VRAM",
+      "prices": {
+        "per hour": {
+          "raw": "$5.87",
+          "amount": 5.87
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "service, 1 vcpu · 2 gb",
+      "model": "Service, 1 vCPU · 2 GB",
+      "prices": {
+        "northflank cloud": {
+          "raw": "$24.00",
+          "amount": 24.0
+        },
+        "render": {
+          "raw": "$25.00",
+          "amount": 25.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "service, 2 vcpu · 4 gb",
+      "model": "Service, 2 vCPU · 4 GB",
+      "prices": {
+        "northflank cloud": {
+          "raw": "$48.00",
+          "amount": 48.0
+        },
+        "render": {
+          "raw": "$85.00",
+          "amount": 85.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "service, 4 vcpu · 8 gb",
+      "model": "Service, 4 vCPU · 8 GB",
+      "prices": {
+        "northflank cloud": {
+          "raw": "$96.00",
+          "amount": 96.0
+        },
+        "render": {
+          "raw": "$175.00",
+          "amount": 175.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "service, 4 vcpu · 16 gb",
+      "model": "Service, 4 vCPU · 16 GB",
+      "prices": {
+        "northflank cloud": {
+          "raw": "$144.00",
+          "amount": 144.0
+        },
+        "render": {
+          "raw": "$225.00",
+          "amount": 225.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "service, 8 vcpu · 32 gb",
+      "model": "Service, 8 vCPU · 32 GB",
+      "prices": {
+        "northflank cloud": {
+          "raw": "$288.00",
+          "amount": 288.0
+        },
+        "render": {
+          "raw": "$450.00",
+          "amount": 450.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "persistent disk",
+      "model": "Persistent disk",
+      "prices": {
+        "northflank cloud": {
+          "raw": "$0.11657",
+          "amount": 0.11657
+        },
+        "render": {
+          "raw": "$0.25",
+          "amount": 0.25
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "network egress render, beyond the included allowance",
+      "model": "Network egress Render, beyond the included allowance",
+      "prices": {
+        "northflank cloud": {
+          "raw": "$0.06",
+          "amount": 0.06
+        },
+        "render": {
+          "raw": "$0.15",
+          "amount": 0.15
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "workspace fee render pro, for teams",
+      "model": "Workspace fee Render Pro, for teams",
+      "prices": {
+        "render": {
+          "raw": "$25.00",
+          "amount": 25.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    }
+  ],
   "tables": [
     {
       "caption": "",
       "rows": [
         [
-          "",
-          "Developer Try for free →",
-          "Pay as you go Get started →",
-          "Enterprise Get in touch →"
+          "Resource Billing period Per hour Per month",
+          "Northflank Cloud Containers, by the second",
+          "Northflank BYOC (Your VPC) Managed node vCPU only, by the second"
         ],
         [
-          "Resources",
-          ""
+          "Compute"
+        ],
+        [
+          "CPU",
+          "$0.01667 / vCPU / hour",
+          "$0.02083 / node vCPU / hour Volume discounts available under a CSA"
+        ],
+        [
+          "Memory",
+          "$0.00833 / GB / hour",
+          "Not billed"
+        ],
+        [
+          "Ephemeral storage Not persisted",
+          "Free",
+          "Not billed"
+        ],
+        [
+          "Storage and network"
+        ],
+        [
+          "Persistent disk NVMe, for addon and service volumes",
+          "$0.11657 / GiB / month",
+          "Not billed"
+        ],
+        [
+          "Additional IOPS First 3,000 IOPS and 140 MiB/s per disk included",
+          "$7.37 / 1,000 IOPS / month",
+          "Not billed"
+        ],
+        [
+          "Additional throughput First 3,000 IOPS and 140 MiB/s per disk included",
+          "$5.85 / 100 MiB/s / month",
+          "Not billed"
+        ],
+        [
+          "Network egress Ingress is free",
+          "$0.06 / GB",
+          "Not billed"
+        ],
+        [
+          "Egress gateway Dedicated IP",
+          "$15.00 / gateway / month",
+          "Not billed"
+        ],
+        [
+          "Other services Build storage, Backup storage, Logs and metrics, DDoS protection, CDN"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Plan",
+          "vCPU",
+          "Memory",
+          "Per hour",
+          "Per month"
+        ],
+        [
+          "nf-compute-50 Recommended for dev 0.5 vCPU · 1 GB",
+          "0.5 vCPU",
+          "1 GB",
+          "$0.01667",
+          "$12.00"
+        ],
+        [
+          "nf-compute-100-2 Most popular 1 vCPU · 2 GB",
+          "1 vCPU",
+          "2 GB",
+          "$0.03333",
+          "$24.00"
+        ],
+        [
+          "nf-compute-200 Production 2 vCPU · 4 GB",
+          "2 vCPU",
+          "4 GB",
+          "$0.06667",
+          "$48.00"
+        ],
+        [
+          "nf-compute-400 Scale 4 vCPU · 8 GB",
+          "4 vCPU",
+          "8 GB",
+          "$0.13",
+          "$96.00"
+        ],
+        [
+          "nf-compute-800-16 8 vCPU · 16 GB",
+          "8 vCPU",
+          "16 GB",
+          "$0.27",
+          "$192.00"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "GPU",
+          "VRAM",
+          "GPUs per container",
+          "Per hour"
+        ],
+        [
+          "NVIDIA L4 24 GB VRAM",
+          "24 GB",
+          "1 × 2 × 4 × 8 ×",
+          "$0.80 / hour"
+        ],
+        [
+          "NVIDIA A100 40 GB VRAM",
+          "40 GB",
+          "1 × 2 × 4 × 8 ×",
+          "$1.42 / hour"
+        ],
+        [
+          "NVIDIA A100 80 GB VRAM",
+          "80 GB",
+          "1 × 2 × 4 × 8 ×",
+          "$1.76 / hour"
+        ],
+        [
+          "NVIDIA H100 80 GB VRAM",
+          "80 GB",
+          "8 ×",
+          "$2.74 / hour"
+        ],
+        [
+          "NVIDIA RTX PRO 6000 96 GB VRAM",
+          "96 GB",
+          "1 × 2 × 4 × 8 ×",
+          "$3.00 / hour"
+        ],
+        [
+          "NVIDIA H200 141 GB VRAM",
+          "141 GB",
+          "8 ×",
+          "$3.14 / hour"
+        ],
+        [
+          "NVIDIA B200 180 GB VRAM",
+          "180 GB",
+          "8 ×",
+          "$5.87 / hour"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Resource",
+          "Northflank Cloud",
+          "Render",
+          "Difference"
+        ],
+        [
+          "Service, 1 vCPU · 2 GB",
+          "$24.00 / month",
+          "$25.00 / month",
+          "4% less"
+        ],
+        [
+          "Service, 2 vCPU · 4 GB",
+          "$48.00 / month",
+          "$85.00 / month",
+          "44% less"
+        ],
+        [
+          "Service, 4 vCPU · 8 GB",
+          "$96.00 / month",
+          "$175.00 / month",
+          "45% less"
+        ],
+        [
+          "Service, 4 vCPU · 16 GB",
+          "$144.00 / month",
+          "$225.00 / month",
+          "36% less"
+        ],
+        [
+          "Service, 8 vCPU · 32 GB",
+          "$288.00 / month",
+          "$450.00 / month",
+          "36% less"
+        ],
+        [
+          "Persistent disk",
+          "$0.11657 / GB / month",
+          "$0.25 / GB / month",
+          "53% less"
+        ],
+        [
+          "Network egress Render, beyond the included allowance",
+          "$0.06 / GB",
+          "$0.15 / GB",
+          "60% less"
+        ],
+        [
+          "Workspace fee Render Pro, for teams",
+          "None",
+          "$25.00 / month",
+          "No fee"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Feature",
+          "Sandbox Free Start free",
+          "Pay as you go Usage-based Deploy now",
+          "Enterprise Custom Talk to our team"
+        ],
+        [
+          "Resources"
         ],
         [
           "Projects Organise your Northflank resources",
-          "",
           "2",
-          "∞",
-          "∞"
+          "Unlimited",
+          "Unlimited"
         ],
         [
           "Services Build and deploy your code and custom Docker images",
-          "",
           "2",
-          "∞",
-          "∞"
+          "Unlimited",
+          "Unlimited"
         ],
         [
           "Jobs Run your code on a cron schedule or as a one off",
-          "",
           "2",
-          "∞",
-          "∞"
+          "Unlimited",
+          "Unlimited"
         ],
         [
           "Addons Deploy databases and other stateful services",
-          "",
           "1",
-          "∞",
-          "∞"
+          "Unlimited",
+          "Unlimited"
         ],
         [
           "Secret groups Secure and inject environment variables and other secrets",
-          "",
-          "∞",
-          "∞",
-          "∞"
+          "Unlimited",
+          "Unlimited",
+          "Unlimited"
         ],
         [
           "Pipelines Set up complex release and deployment pipelines",
-          "",
-          "∞",
-          "∞",
-          "∞"
+          "Unlimited",
+          "Unlimited",
+          "Unlimited"
         ],
         [
           "Compute Meet vCPU and memory requirements",
-          "",
           "Limited",
-          "∞",
-          "∞"
+          "Unlimited",
+          "Unlimited"
         ],
         [
           "Custom compute plans Request custom vCPU + memory combinations",
-          "",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Build",
-          ""
-        ],
-        [
-          "Continuous integration Build all new commits or create branch & PR rules",
-          "",
-          "",
+          "–",
           "",
           ""
         ],
         [
-          "Build with Dockerfiles Build anything with a custom Dockerfile",
-          "",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Build with Buildpacks Build with zero configuration using Buildpacks",
-          "",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Advanced builds Caching, target Docker stage, skip and path rules",
-          "",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Version control",
-          ""
-        ],
-        [
-          "GitHub, GitLab & Bitbucket integration Build and deploy from your preferred VCS",
-          "",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Self-hosted GitLab integration Build and deploy from your self-hosted GitLab instance",
-          "",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Azure DevOps integration Build and deploy from your Azure DevOps or Entra app",
-          "",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Deployment",
-          ""
+          "Deployment"
         ],
         [
           "Continuous deployment Automatically deploy changes on build and merge",
-          "",
           "",
           "",
           ""
@@ -190,12 +740,10 @@
           "Continuous delivery Release changes to staging and production environments",
           "",
           "",
-          "",
           ""
         ],
         [
           "Deploy container images built on Northflank Deploy any commit you’ve built on Northflank in seconds",
-          "",
           "",
           "",
           ""
@@ -204,12 +752,10 @@
           "Deploy container images from external registries Deploy Docker images from public & private registries",
           "",
           "",
-          "",
           ""
         ],
         [
           "Rollback and select specific builds Rapidly rollback or switch between your stored builds",
-          "",
           "",
           "",
           ""
@@ -218,19 +764,10 @@
           "Volumes and persistence Easily attach, scale and mount persistent disks to your workloads",
           "",
           "",
-          "",
           ""
         ],
         [
           "GPUs Run LLMs, ML inference, training and Jupyter notebooks seamlessly",
-          "",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Secure runtime & sandboxing Run untrusted code and multi-tenant workloads in a secure sandbox",
-          "",
           "",
           "",
           ""
@@ -239,161 +776,40 @@
           "Time-slicing & MIG Run multiple containers or multi-tenant workloads on the same GPU node cost effectively",
           "",
           "",
-          "",
           ""
         ],
         [
           "Multi read write volumes High performance ReadWriteMany (RWX) volumes for AI & stateful workloads",
           "",
           "",
+          ""
+        ],
+        [
+          "Scaling"
+        ],
+        [
+          "Vertical scaling Give your instances more CPU & RAM resources",
+          "Limited",
           "",
           ""
         ],
         [
-          "Platform",
-          ""
-        ],
-        [
-          "UI / API / CLI access Use Northflank via the app, API, or command line",
-          "",
-          "",
+          "Horizontal scaling Deploy multiple replicas of your services and addons",
+          "–",
           "",
           ""
         ],
         [
-          "Templates Codify infrastructure in reusable IaC",
-          "",
-          "",
-          "",
-          ""
-        ],
-        [
-          "GitOps Manage your templates and releases with Git",
-          "",
-          "",
+          "Autoscaling Automatically scale based on usage thresholds",
+          "–",
           "",
           ""
         ],
         [
-          "Workflows Automated workflows with triggers for advanced releases, data pipelines, backups and more",
-          "",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Real-time platform Work in a fully reactive environment",
-          "",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Platform SDK Build and deliver your own comprehensive platform utilising Northflank’s APIs",
-          "",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Teams",
-          ""
-        ],
-        [
-          "Users Scale up as your organisation grows",
-          "",
-          "∞",
-          "∞",
-          "∞"
-        ],
-        [
-          "Fine-grained RBAC Assign roles with detailed permissions to individual members",
-          "",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Organisations Handle organisations with multiple independent teams",
-          "",
-          "",
-          "",
-          ""
-        ],
-        [
-          "SAML & OIDC Advanced authorisation and authentication",
-          "",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Audit logging Advanced audit logging",
-          "",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Networking",
-          ""
-        ],
-        [
-          "Custom domains Point your own domains at Northflank services",
-          "",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Automatic TLS & DNS Free TLS and global DNS on the code.run domain",
-          "",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Load balancing across instances Scale up to multiple instances and get auto load balancing",
-          "",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Northflank proxy Access your private services & databases via our CLI proxy",
-          "",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Service mesh and mTLS Cloud native service mesh with end-to-end encryption",
-          "",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Network security Create IP policies and basic authentication rules",
-          "",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Egress IP & Gateway Route egress traffic via a gateway for static IPs",
-          "",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Databases",
-          ""
+          "Databases"
         ],
         [
           "Datastores you know and love PostgreSQL, MySQL, MongoDB®, Redis®, and more",
-          "",
           "",
           "",
           ""
@@ -402,19 +818,16 @@
           "Queues Use events and message brokers with RabbitMQ & Redis",
           "",
           "",
-          "",
           ""
         ],
         [
           "High availability Spin up multiple replicas of your stateful services",
-          "",
-          "",
+          "–",
           "",
           ""
         ],
         [
           "Backups & restores Make and restore dumps & disk images of your databases",
-          "",
           "",
           "",
           ""
@@ -423,48 +836,208 @@
           "Fork databases Create a new database from the existing state of another",
           "",
           "",
-          "",
           ""
         ],
         [
           "Zonal redundancy Run database replicas across multiple availability zones",
-          "",
+          "–",
+          "–",
+          ""
+        ],
+        [
+          "Security"
+        ],
+        [
+          "Sandboxing (microVMs and gVisor) Every workload isolated, on every plan",
           "",
           "",
           ""
         ],
         [
-          "Scaling",
-          ""
-        ],
-        [
-          "Vertical scaling Give your instances more CPU & RAM resources",
-          "",
-          "Limited",
-          "",
-          ""
-        ],
-        [
-          "Horizontal scaling Deploy multiple replicas of your services and addons",
-          "",
+          "Multi-tenant isolation Run each tenant’s workloads isolated from the rest",
           "",
           "",
           ""
         ],
         [
-          "Autoscaling Automatically scale based on usage thresholds",
-          "",
+          "Network security Create IP policies and basic authentication rules",
           "",
           "",
           ""
         ],
         [
-          "Observability",
+          "Service mesh and mTLS Cloud native service mesh with end-to-end encryption",
+          "",
+          "",
           ""
+        ],
+        [
+          "Web application firewall Layer 7 protection",
+          "–",
+          "–",
+          ""
+        ],
+        [
+          "Advanced security proxy Authentication and network security per port and path",
+          "–",
+          "–",
+          ""
+        ],
+        [
+          "Workload identities Attach cloud provider identities to workloads",
+          "–",
+          "–",
+          ""
+        ],
+        [
+          "Teams"
+        ],
+        [
+          "Users Scale up as your organisation grows",
+          "Unlimited",
+          "Unlimited",
+          "Unlimited"
+        ],
+        [
+          "Fine-grained RBAC Assign roles with detailed permissions to individual members",
+          "–",
+          "",
+          ""
+        ],
+        [
+          "Organisations Handle organisations with multiple independent teams",
+          "–",
+          "",
+          ""
+        ],
+        [
+          "SAML & OIDC Advanced authorisation and authentication",
+          "–",
+          "–",
+          ""
+        ],
+        [
+          "Audit logging Advanced audit logging",
+          "–",
+          "–",
+          ""
+        ],
+        [
+          "SCIM and JIT provisioning Sync users and groups from your directory",
+          "–",
+          "–",
+          ""
+        ],
+        [
+          "SSO audit logs A record of authentication events",
+          "–",
+          "–",
+          ""
+        ],
+        [
+          "Infrastructure audit events Track infrastructure events across clusters",
+          "–",
+          "–",
+          ""
+        ],
+        [
+          "Template drafts Save and review templates before publishing",
+          "–",
+          "–",
+          ""
+        ],
+        [
+          "Cloud and regions"
+        ],
+        [
+          "Cloud providers Link your GCP, AWS, Azure and Civo accounts",
+          "1",
+          "All",
+          "All"
+        ],
+        [
+          "Bring your own Kubernetes Deploy Northflank to your on-prem, bare metal, or public cloud clusters",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Bring your own"
+        ],
+        [
+          "Forward-deployed control plane Runs entirely in your infrastructure; no platform data leaves it",
+          "–",
+          "–",
+          "By arrangement"
+        ],
+        [
+          "Logs",
+          "–",
+          "–",
+          ""
+        ],
+        [
+          "Metrics",
+          "–",
+          "–",
+          ""
+        ],
+        [
+          "Vault",
+          "–",
+          "–",
+          ""
+        ],
+        [
+          "DNS",
+          "–",
+          "–",
+          ""
+        ],
+        [
+          "Registry",
+          "–",
+          "–",
+          ""
+        ],
+        [
+          "Networking"
+        ],
+        [
+          "Custom domains Point your own domains at Northflank services",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Automatic TLS & DNS Free TLS and global DNS on the code.run domain",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Load balancing across instances Scale up to multiple instances and get auto load balancing",
+          "–",
+          "",
+          ""
+        ],
+        [
+          "Northflank proxy Access your private services & databases via our CLI proxy",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Egress IP & Gateway Route egress traffic via a gateway for static IPs",
+          "–",
+          "",
+          ""
+        ],
+        [
+          "Observability"
         ],
         [
           "Real-time log tailing Stream your application logs in real time",
-          "",
           "",
           "",
           ""
@@ -473,12 +1046,10 @@
           "Real-time metrics View CPU usage, memory consumption, and more",
           "",
           "",
-          "",
           ""
         ],
         [
           "Log manipulation Powerful log searching and filtering",
-          "",
           "",
           "",
           ""
@@ -487,95 +1058,63 @@
           "30 day retention Logs and metrics are retained for a month",
           "",
           "",
-          "",
           ""
         ],
         [
           "Log sinks Stream your logs in real-time to 3rd party observability platforms",
-          "",
-          "",
+          "–",
           "",
           ""
         ],
         [
           "Alerting Trigger alerts based on important container events",
-          "",
-          "",
+          "–",
           "",
           ""
         ],
         [
           "Notifications Send platform events to Slack, Email, Discord, Teams, and Webhooks",
-          "",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Audit logging Maintain a log of all actions and events within your org",
-          "",
-          "",
+          "–",
           "",
           ""
         ],
         [
-          "Cloud and Regions",
+          "Infrastructure"
+        ],
+        [
+          "Org-level clusters Share clusters across teams",
+          "–",
+          "–",
           ""
         ],
         [
-          "Northflank’s managed cloud Run workloads on Northflank’s multi-tenant cloud",
-          "",
-          "",
-          "",
+          "Custom AWS launch templates Custom node pools, including custom AMIs",
+          "–",
+          "–",
           ""
         ],
         [
-          "Northflank’s regions Choose from many regions distributed globally",
-          "",
-          "",
-          "",
+          "Managed Ceph storage Ceph as the CSI driver",
+          "–",
+          "–",
           ""
         ],
         [
-          "Cloud providers Link your GCP, AWS, Azure and Civo accounts",
-          "",
-          "1",
-          "All",
-          "All"
-        ],
-        [
-          "AWS Deploy in minutes with your AWS account with Amazon Elastic Kubernetes Service (EKS)",
-          "",
-          "",
-          "",
+          "BYOC overlay networking Custom overlay networks",
+          "–",
+          "–",
           ""
         ],
         [
-          "Azure Deploy in minutes with your Azure account and Azure Kubernetes Service (AKS)",
-          "",
-          "",
-          "",
+          "Azure CNI Advanced pod networking on AKS",
+          "–",
+          "–",
           ""
         ],
         [
-          "GCP Deploy in minutes with your GCP account with Google Kubernetes Engine (GKE)",
-          "",
-          "",
-          "",
-          ""
-        ],
-        [
-          "CoreWeave Deploy in minutes with your CoreWeave GPUs with Kubernetes",
-          "",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Oracle Deploy in minutes with your Oracle Kubernetes",
-          "",
-          "",
-          "",
+          "TLS passthrough Forward traffic without terminating TLS",
+          "–",
+          "–",
           ""
         ]
       ]

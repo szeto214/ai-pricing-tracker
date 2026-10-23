@@ -1,530 +1,498 @@
-Try FLUX 3 Max, post-trained by fal
-fal logo
+Products
+Docs
+Pricing
+Enterprise
+Resources
 Contact Sales
-Login
-fal logo
-Fast, reliable, and
-cost-efficient.
+Get Started
+Pricing
+Fast, reliable, and cost-efficient.
 fal adapts to your usage, ensuring you only pay for the computing power you consume. It's cost-effective scalability at its best.
-Serverless Inference and Compute Pricing
+Trusted by over 2,500,000 developers and leading companies.
+Serverless & Compute Pricing
 Competitive pricing for custom deployments.
-Deploy your own app on our competitively priced GPU fleet, as low as
-$2.49/hr for H100
-, billed per second. It runs on the same
-inference platform
-as every Model API.
-Start Building
-Contact Sales
+Deploy your own app on our competitively priced GPU fleet, as low as $2.49/hr for H100.
 GPU
 VRAM
 List Price
 As low as
 B300
-288GB
+VRAM
+288 GB
+List Price
 $12.99/h
-$0.003608/s
+As low as
 $5.99/h
-$0.001664/s
 GB200
-192GB
+VRAM
+192 GB
+List Price
 $9.99/h
-$0.002775/s
+As low as
 $5.89/h
-$0.001636/s
 B200
-192GB
+VRAM
+192 GB
+List Price
 $7.99/h
-$0.002219/s
+As low as
 $5.49/h
-$0.001525/s
 H200
-141GB
+VRAM
+141 GB
+List Price
 $6.00/h
-$0.001667/s
+As low as
 $2.99/h
-$0.000831/s
 H100
-80GB
+VRAM
+80 GB
+List Price
 $4.50/h
-$0.00125/s
+As low as
 $2.49/h
-$0.000692/s
 RTX PRO 6000
-96GB
+VRAM
+96 GB
+List Price
 $4.00/h
-$0.001111/s
+As low as
 $1.99/h
-$0.000553/s
-Billed per second while your runners are alive. Per-second prices are the hourly price divided by 3,600.
-Competitive pricing for custom deployments — Contact
-support@fal.ai
-to get started.
+Start Building
+Contact Sales
 Model APIs Pricing
-Video models
-Start Building
-Contact Sales
+Video Models
+Video models are billed by output unit — per second or per video — depending on the model. The values shown represent output-based pricing.
 Model
 Unit
 Price
-Price per video
-Seconds per $1
-FLUX 3 Max
+Units per $1
+H3 Max Reference to Video
+↳ minimax/h3-max/reference-to-video
+Unit
 seconds
-$0.085
-$0.425
-11.76
-MiniMax H3 Max
-seconds
+Price
 $0.05
-$0.40
-12.5
-H3 Max Turbo
+Units per $1
+20 seconds
+H3 Max Image to Video
+↳ minimax/h3-max/image-to-video
+Unit
 seconds
-$0.025
-$0.20
-25
+Price
+$0.03
+Units per $1
+33.33 seconds
+MiniMax H3 Max Text to Video
+↳ minimax/h3-max/text-to-video
+Unit
+seconds
+Price
+$0.03
+Units per $1
+33.33 seconds
+H3 Max Turbo Image to Video
+↳ minimax/h3-max-turbo/image-to-video
+Unit
+seconds
+Price
+$0.015
+Units per $1
+66.67 seconds
+H3 Max Turbo Text to Video
+↳ minimax/h3-max-turbo/text-to-video
+Unit
+seconds
+Price
+$0.015
+Units per $1
+66.67 seconds
 Kling Video
+↳ fal-ai/kling-video/v2.5-turbo/pro/image-to-video
+Unit
 seconds
+Price
 $0.07
-$0.35
-14.29
-Kling Video v3 [Pro]
+Units per $1
+14.29 seconds
+Kling Video v3 Image to Video [Pro]
+↳ fal-ai/kling-video/v3/pro/image-to-video
+Unit
 seconds
+Price
 $0.14
-$0.84
-5.95
-Kling Video v3 [Standard]
+Units per $1
+7.14 seconds
+Kling Video v3 Text to Video [Pro]
+↳ fal-ai/kling-video/v3/pro/text-to-video
+Unit
 seconds
+Price
 $0.14
-$0.63
-7.94
-Grok Imagine Video
-seconds
-$0.05
-$0.35
-14.29
-Seedance 2.0 Fast
+Units per $1
+7.14 seconds
+Seedance 2 Reference to Video
+↳ bytedance/seedance-2.0/reference-to-video
+Unit
 1000 tokens
-$0.0112
-$1.21
-4.13
-Kling O3 [Pro]
-seconds
-$0.14
-from
-$0.56
-8.93
-Bytedance Seedance V1.5 Pro
-1m tokens
-$1.2
-$0.247
-20.23
-Bytedance Seedance V1 Pro Fast Image To Video
-1m tokens
-$1
-$0.245
-20.42
-Video Background Removal
-30 frames
-$0.008
-$0.032
-156.25
-Grok Imagine Video 1.5
-seconds
-$0.01
-$0.71
-7.04
-Kling Video v2.6
-seconds
-$0.07
-$0.70
-7.14
-Seedance 2.0 Mini
+Price
+$0.014
+Units per $1
+71.43 1000 tokens
+Seedance 2 Image to Video
+↳ bytedance/seedance-2.0/image-to-video
+Unit
 1000 tokens
-$0.007
-$0.756
-6.61
-Kling O3 [Standard]
-seconds
-$0.14
-from
-$0.42
-11.9
-PixVerse V6
-seconds
-$0.005
-$0.225
-22.22
-17
-models. Scroll to see all models. Prices are per listed billing unit.
-Price per video is a 5-second clip at the model's default settings, such as resolution and audio, or its default length when 5 seconds is not an option. Token-billed models without another default use 720p at 24fps (width x height x fps x seconds / 1024 tokens).
-Settings such as resolution, duration, and quality may affect the final cost. See each model for full pricing details.
-Image models
+Price
+$0.014
+Units per $1
+71.43 1000 tokens
 Start Building
 Contact Sales
+For a fair comparison, we've normalized these values to show approximate output per $1.
+Based on an estimated average video = 5 seconds at 720p. Actual output may vary based on model, resolution, and prompt complexity.
+Image Models
+Image models are billed by either image count or output size in megapixels (MP). All pricing here is normalized to 1MP to allow simple comparison.
 Model
 Unit
 Price
-Price per image
-Images per $1
+Units per $1
 Nano Banana 2
+↳ fal-ai/nano-banana-2/edit
+Unit
 images
+Price
 $0.08
+Units per $1
+12.5 images
+Nano Banana 2
+↳ fal-ai/nano-banana-2
+Unit
+images
+Price
 $0.08
-12.5
-Flux 3 Image
-megapixels
-$0.048
-$0.048
-20.83
-GPT Image 2
+Units per $1
+12.5 images
+GPT Image 2 API
+↳ openai/gpt-image-2/edit
+Unit
 units
+Price
 $1
-—
-—
-Fibo 2.0 Edit
-images
-$0.04
-$0.04
-25
+Units per $1
+1 units
+GPT Image 2 API
+↳ openai/gpt-image-2
+Unit
+units
+Price
+$1
+Units per $1
+1 units
 Nano Banana Pro
+↳ fal-ai/nano-banana-pro/edit
+Unit
 images
+Price
 $0.15
+Units per $1
+6.67 images
+Nano Banana Pro
+↳ fal-ai/nano-banana-pro
+Unit
+images
+Price
 $0.15
-6.67
+Units per $1
+6.67 images
 Nano Banana
+↳ fal-ai/nano-banana/edit
+Unit
 images
+Price
 $0.0398
+Units per $1
+25.13 images
+Nano Banana
+↳ fal-ai/nano-banana
+Unit
+images
+Price
 $0.0398
-25.13
+Units per $1
+25.13 images
 Z Image Turbo
+↳ fal-ai/z-image/turbo
+Unit
 megapixels
+Price
 $0.005
-$0.005
-200
+Units per $1
+200 megapixels
 FLUX.1 [schnell]
+↳ fal-ai/flux/schnell
+Unit
 megapixels
+Price
 $0.003
-$0.003
-333.33
-Birefnet Background Removal V2
-compute seconds
-$0
-—
-—
-MoonDreamNext Detection
-seconds
-$0.0011
-—
-—
-FILM
-seconds
-$0.0013
-—
-—
-Segment Anything Model 3
-units
-$0.005
-$0.005
-†
-200
-Bytedance Seedream V4.5
-images
-$0.04
-$0.04
-25
-SeedVR2
-megapixels
-$0.001
-$0.005
-200
-FLUX.1 [dev] with LoRAs
-megapixels
-$0.035
-$0.035
-28.57
-Sana
-megapixels
-$0.001
-$0.008
-125
-FLUX 2 Flash
-megapixels
-$0.005
-$0.005
-200
-FLUX 2 Flash Edit
-processed megapixels
-$0.005
-$0.01
-100
-Seedream 5.0 Pro
-units
-$0.0675
-$0.135
-7.41
-FLUX 2
-megapixels
-$0.012
-$0.012
-83.33
-FLUX 2 Edit
-processed megapixels
-$0.012
-$0.024
-41.67
-Nano Banana 2 Lite
-units
-$1
-—
-—
-Bria RMBG 2.0
-generations
-$0.018
-$0.018
-55.56
-FLUX.1 [dev]
-megapixels
-$0.025
-from
-$0.025
-40
-Nano Banana 2.1
-units
-$1
-—
-—
-25
-models. Scroll to see all models. Prices are per listed billing unit.
-Price per image is one output at the model's default size. Megapixel-billed models count a 1024x1024 image as 1 megapixel, and edit models billed on processed megapixels also count a 1 megapixel input.
-† Base price from the model's published pricing, because its billing unit does not map to a single output.
-Settings such as resolution, duration, and quality may affect the final cost. See each model for full pricing details.
-Audio models
+Units per $1
+333.33 megapixels
 Start Building
 Contact Sales
+Output is based on 1MP images. Higher resolutions will be priced proportionally. All models listed here follow output-based pricing. Some other models may use GPU-based pricing depending on architecture.
+Audio Models
+Audio models are billed per 1,000 characters or per second, depending on the model. The table shows the price per unit and the approximate units per $1.
 Model
 Unit
 Price
-Price per minute
-Minutes per $1
-ACE Step Prompt To Audio
-seconds
-$0.0002
-$0.012
-83.33
-MiniMax Speech-02 HD
+Units per $1
+ElevenLabs TTS Multilingual v2
+↳ fal-ai/elevenlabs/tts/multilingual-v2
+Unit
 1000 characters
+Price
 $0.1
-$0.09
-11.11
-xAI Text to Speech
+Units per $1
+10 1000 characters
+Elevenlabs Tts Eleven V3
+↳ fal-ai/elevenlabs/tts/eleven-v3
+Unit
 1000 characters
-$0.015
-$0.0135
-74.07
-MiniMax Speech 2.8 [HD]
-1000 characters
+Price
 $0.1
-$0.09
-11.11
-MiniMax Speech 2.8 [Turbo]
-1000 characters
-$0.06
-$0.054
-18.52
-Gemini 3.1 Flash Tts
-1000 characters
-$0.05
-$0.045
-22.22
-Seed Audio 1.0
-minutes
-$0.1875
-$0.188
-5.33
-Lyria 3 Pro
-audios
-$0.08
-$0.08
-per track
-12.5 tracks
-Inworld TTS-1.5 Max
-1000 characters
-$0.01
-$0.009
-111.11
-music generator
-minutes
-$0.02
-$0.02
-50
-Index TTS 2.0
+Units per $1
+10 1000 characters
+Elevenlabs Sound Effects V2
+↳ fal-ai/elevenlabs/sound-effects/v2
+Unit
 seconds
+Price
 $0.002
-$0.12
-8.33
-Sonilo V1.1 Text to Music
+Units per $1
+500 seconds
+ACE Step Prompt To Audio
+↳ fal-ai/ace-step/prompt-to-audio
+Unit
 seconds
-$0.0025
-$0.15
-6.67
-V1.1 Text to Sound Effects
-seconds
-$0.0018
-$0.108
-9.26
-MiniMax Speech-02 Turbo
+Price
+$0.0002
+Units per $1
+5,000 seconds
+ElevenLabs TTS Turbo v2.5
+↳ fal-ai/elevenlabs/tts/turbo-v2.5
+Unit
 1000 characters
+Price
+$0.05
+Units per $1
+20 1000 characters
+MiniMax Speech-02 HD
+↳ fal-ai/minimax/speech-02-hd
+Unit
+1000 characters
+Price
+$0.1
+Units per $1
+10 1000 characters
+xAI Text to Speech
+↳ xai/tts/v1
+Unit
+1000 characters
+Price
+$0.015
+Units per $1
+66.67 1000 characters
+MiniMax Speech 2.8 [HD]
+↳ fal-ai/minimax/speech-2.8-hd
+Unit
+1000 characters
+Price
+$0.1
+Units per $1
+10 1000 characters
+MiniMax Speech 2.8 [Turbo]
+↳ fal-ai/minimax/speech-2.8-turbo
+Unit
+1000 characters
+Price
 $0.06
-$0.054
-18.52
-Chatterbox Text to Speech
+Units per $1
+16.67 1000 characters
+Gemini 3.1 Flash Tts
+↳ fal-ai/gemini-3.1-flash-tts
+Unit
 1000 characters
-$0.025
-$0.025
-40
-Chatterbox Speech to Speech
-minutes
-$0.015
-$0.015
-66.67
-Kokoro TTS
-1000 characters
-$0.02
-$0.02
-50
-Minimax Music
-generations
-$0.03
-$0.03
-per track
-33.33 tracks
-18
-models. Scroll to see all models. Prices are per listed billing unit.
-Speech billed per character assumes about 900 characters per minute of audio. Music billed per track is shown per track.
-Settings such as resolution, duration, and quality may affect the final cost. See each model for full pricing details.
-3D models
-Start Building
-Contact Sales
+Price
+$0.05
+Units per $1
+20 1000 characters
+3D Models
+3D models are billed in units, generations, or credits, depending on the model. The table shows the price per unit and the approximate units per $1.
 Model
 Unit
 Price
-Price per model
-Models per $1
-Sam 3 3D Objects
+Units per $1
+Sam 3
+↳ fal-ai/sam-3/3d-objects
+Unit
 units
+Price
 $0.02
-$0.02
-†
-50
+Units per $1
+50 units
 Hunyuan Motion [1B]
+↳ fal-ai/hunyuan-motion
+Unit
 generations
+Price
 $0.08
-$0.08
-12.5
+Units per $1
+12.5 generations
 Trellis
+↳ fal-ai/trellis
+Unit
 generations
+Price
 $0.02
-$0.02
-50
-Tripo H3.1
+Units per $1
+50 generations
+Tripo H3.1 Image to 3D
+↳ tripo3d/h3.1/image-to-3d
+Unit
 credits
+Price
 $0.01
-from
-$0.20
-5
+Units per $1
+100 credits
+Tripo H3.1 Text to 3D
+↳ tripo3d/h3.1/text-to-3d
+Unit
+credits
+Price
+$0.01
+Units per $1
+100 credits
+Tripo H3.1 Multiview to 3D
+↳ tripo3d/h3.1/multiview-to-3d
+Unit
+credits
+Price
+$0.01
+Units per $1
+100 credits
 Meshy 6 Preview
+↳ fal-ai/meshy/v6-preview/image-to-3d
+Unit
 generations
+Price
 $0.8
-$1.20
-0.83
-Hunyuan 3D Pro
+Units per $1
+1.25 generations
+Hunyuan 3D Pro Image to 3D
+↳ fal-ai/hunyuan-3d/v3.1/pro/image-to-3d
+Unit
 units
+Price
 $0.015
-$0.375
-†
-2.67
+Units per $1
+66.67 units
+Hunyuan 3D Pro Text to 3D
+↳ fal-ai/hunyuan-3d/v3.1/pro/text-to-3d
+Unit
+units
+Price
+$0.015
+Units per $1
+66.67 units
 Trellis 2
+↳ fal-ai/trellis-2
+Unit
 units
+Price
 $0.05
-$0.30
-3.33
-Meshy 6
-generations
-$0.4
-from
-$0.60
-1.67
-Hunyuan3d V3
-units
-$0.015
-$0.525
-†
-1.9
-Trellis Multi
-$0.02
-—
-—
-Hyper3d
-generations
-$0.4
-$0.40
-2.5
-Hunyuan3D
-generations
-$0.16
-$0.16
-6.25
-V7
-generations
-$0.8
-$1.20
-0.83
-Sam 3 3D Body
-units
-$0.02
-$0.02
-†
-50
-Hyper3D - Rodin V2.5
-generations
-$0.4
-$0.40
-2.5
-Meshy Rigging
-generations
-$0.8
-—
-—
-Hunyuan 3D Rapid
-units
-$0.015
-$0.225
-†
-4.44
-Hyper3D Rodin
-generations
-$0.4
-$0.40
-2.5
-Tripo3D
-credits
-$0.01
-$0.30
-3.33
-Tripo P1 Image to 3D
-credits
-$0.01
-$0.50
-2
-20
-models. Scroll to see all models. Prices are per listed billing unit.
-Price per model is one generation at the model's default settings, including texturing when it is on by default.
-† Base price from the model's published pricing, because its billing unit does not map to a single output.
-Settings such as resolution, duration, and quality may affect the final cost. See each model for full pricing details.
-Ready to transform your enterprise with AI?
-Take the first step towards AI-driven innovation. Our team of ML engineers is ready to help you prototype, develop, and scale your AI solutions.
-Enterprise Contact Form
-Company size
-Submit
-Get started
+Units per $1
+20 units
+Build with the fastest inference platform on the planet.
+Whether you need to ship a feature today or train a massive model from scratch — fal gives you the power and flexibility to do both.
+Get Started
+Contact Sales
+Learn More
+Status
+Documentation
+Pricing
+Serverless
+Enterprise
+Genmedia CLI
+Events
+Verify fal-Generated Content
+Report Content
+Gen Media Report 2026
+Trust & Safety
+Careers
+Blog
+Get in touch
+Grants
+Legal
+Your Privacy Choices
+Learn
+Image Models
+Seedream 5.0
+GPT Image 2.5
+GPT Image 2
+Flux 2
+Nano Banana 2
+Ideogram 4
+Krea 2
+Nano Banana Pro
+Qwen Image 3
+Explore More
+Video Models
+AI Video Generator
+Text to Video
+Seedance 2.5
+Seedance 2.0
+Gemini Omni
+MiniMax H3
+Kling 3.0
+Veo 3.1
+Grok Imagine 1.5
+Happy Horse 1.1
+Happy Oyster
+Wan 3.0
+LTX 2.3
+PixVerse V6
+Labs
+Black Forest Labs
+Google
+OpenAI
+xAI
+Alibaba
+Kling
+ByteDance
+ElevenLabs
+Playgrounds
+fal Agent
+Sandbox
+Workflows
+Training
+Free Tools
+Background Remover
+Image Upscaler
+Image Extender
+Image Resizer
+Social
+Discord
+Github
+Reddit
+X
+LinkedIn
+YouTube
+Instagram
+TikTok
+features and labels,
+2026
+. All Rights Reserved.
+Terms of Service
+and
+Privacy Policy
+.

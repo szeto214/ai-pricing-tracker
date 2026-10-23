@@ -6,9 +6,9 @@
   "url": "https://www.firecrawl.dev/pricing",
   "final_url": "https://www.firecrawl.dev/pricing",
   "parser_version": 4,
-  "content_hash": "dc7ff04b017b526e327c77f9aa9f4da83cf741f3e41c94042b54298776eb1069",
-  "raw_hash": "dfba11fbbc7c0fdb27d1d99e9dbe59153870fc36bdb5fbc620c105deae9227cf",
-  "text_bytes": 14588,
+  "content_hash": "a00a82365081168f54a1344c67967a4e3f83996d8f361b3b6c081f9eef54ad8c",
+  "raw_hash": "38723b648a61860ec719b2822081c044f0d836ef60f701fa112fd8b9fac26cc8",
+  "text_bytes": 15038,
   "currency_hints": [
     "USD"
   ],
@@ -76,7 +76,13 @@
       "amount": 19.0,
       "currency": "USD",
       "period": "month",
-      "features": [],
+      "features": [
+        "Hobby: $19/month billed monthly ($16/month billed annually), 5,000 credits/month",
+        "Standard: $99/month billed monthly ($83/month billed annually), 100,000 credits/month",
+        "Growth: $399/month billed monthly ($333/month billed annually), 500,000 credits/month",
+        "Scale: $749/month billed monthly ($599/month billed annually), 1,000,000 credits/month",
+        "Enterprise: custom pricing, credits and concurrency."
+      ],
       "slot_prices": [
         19.0
       ]

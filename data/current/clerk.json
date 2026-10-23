@@ -6,9 +6,9 @@
   "url": "https://clerk.com/pricing",
   "final_url": "https://clerk.com/pricing",
   "parser_version": 4,
-  "content_hash": "ec30ba1e9bd4a9fbe8bb3340b590eb9d3419e8b5ac9e7ed334e312b9bda71bfd",
-  "raw_hash": "be685ffe24112d60f302ffadd464f939a2d638d79c74b5d56f15e547abc03d9a",
-  "text_bytes": 13320,
+  "content_hash": "360f0223184762a04182fb4093715434a66e97dcbaa57ad902db1bbd49e76ee4",
+  "raw_hash": "739a1ab646137cde59fea6fb1f9d59e2f0e4813301300fc98578b7bf6fa09852",
+  "text_bytes": 13453,
   "currency_hints": [],
   "extractor": "jsonld",
   "confidence": "medium",
@@ -255,6 +255,12 @@
           "Allowlist / blocklist Allow and deny users based on attributes such as domain, phone number, Web3 wallet address, etc.",
           "Not included",
           "Included",
+          "Included"
+        ],
+        [
+          "Secret Key IP restrictions Limit each Secret Key to the IP addresses and ranges your servers use.",
+          "Not included",
+          "Not included",
           "Included"
         ],
         [

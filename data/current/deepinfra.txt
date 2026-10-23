@@ -829,11 +829,6 @@ Context
 $ per 1M input tokens
 $ per 1M output tokens
 Actions
-MythoMax-L2-13b
-4k
-$0.40
-$0.40
-View more
 gemma-3-27b-it
 128k
 $0.08
@@ -849,11 +844,6 @@ Context
 $ per 1M input tokens
 $ per 1M output tokens
 Actions
-MythoMax-L2-13b
-4k
-$0.40
-$0.40
-View more
 gemma-3-27b-it
 128k
 $0.08
@@ -1072,16 +1062,16 @@ DeepSeek-V4.1-Flash-1017
 Featured Models
 deepseek-ai
 /
-DeepSeek-V4.1-Flash
-zai-org
+DeepSeek-V4-Flash
+deepseek-ai
 /
-GLM-5.3
-black-forest-labs
+DeepSeek-V4.1-Flash-1017
+deepseek-ai
 /
-FLUX-2-klein-4b
-google
+DeepSeek-V4-Pro
+deepseek-ai
 /
-gemma-4-26B-A4B-it
+DeepSeek-V3.2
 deepseek-ai
 /
 DeepSeek-V4-Pro-0813

@@ -6,9 +6,9 @@
   "url": "https://render.com/pricing",
   "final_url": "https://render.com/pricing",
   "parser_version": 4,
-  "content_hash": "70253e4de296a96eb86c0cef27771afd061084360e2aa81a231543308750675b",
-  "raw_hash": "fc596419b2720eb4015ebafc94c719210e11b3b0e19ab0342c7ae9354b82604a",
-  "text_bytes": 15214,
+  "content_hash": "cfb5fa4119f2e0692330255e027012f505583f8b3c9ff6d6a47987cdfedacaca",
+  "raw_hash": "e62c1ce4dc7741d1d0a9899aa2cb225c6adc7ed7d91001d5f1465c532c5e6407",
+  "text_bytes": 15295,
   "currency_hints": [
     "USD"
   ],
@@ -678,6 +678,12 @@
           "$1.50/hour",
           "16 GB RAM",
           "4c-16g"
+        ],
+        [
+          "8 CPU",
+          "$2.50/hour",
+          "32 GB RAM",
+          "8c-32g"
         ]
       ]
     }

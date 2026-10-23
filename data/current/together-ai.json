@@ -6,9 +6,9 @@
   "url": "https://www.together.ai/pricing",
   "final_url": "https://www.together.ai/pricing",
   "parser_version": 4,
-  "content_hash": "49174bbf7510c223b0a01799163d1c1647e2683a4c49d5bdaee0a91001958463",
-  "raw_hash": "2351d44773cc8e02444a5a0fc4b02c3521da8323a9014f0916f30fc758563e8a",
-  "text_bytes": 9464,
+  "content_hash": "4d309b759d04e0e00a8abe537d785d79844c0aa55634139489c4af09e24bef53",
+  "raw_hash": "154866e5decc260c9ad42c6bdfe589a7d6240d69dade697a07317586e61316c5",
+  "text_bytes": 9328,
   "currency_hints": [],
   "extractor": "jsonld",
   "confidence": "medium",
@@ -1084,11 +1084,6 @@
           "$6.00"
         ],
         [
-          "DeepSeek V4 Pro 0813",
-          "$1.32 $0.13 (cached)",
-          "$3.96"
-        ],
-        [
           "GLM-5.3",
           "$1.40 $0.26 (cached)",
           "$4.40"
@@ -1097,11 +1092,6 @@
           "GLM-5.3-Flash",
           "$0.15 $0.03 (cached)",
           "$0.50"
-        ],
-        [
-          "DeepSeek V4.1 Flash",
-          "$0.30 $0.006 (cached)",
-          "$1.20"
         ],
         [
           "Muse Spark Open",
@@ -1117,6 +1107,11 @@
           "Reflection Beam",
           "$0.40 $0.04 (cached)",
           "$1.20"
+        ],
+        [
+          "MiniMax M3.1 Flash",
+          "$0.15 $0.015 (cached)",
+          "$0.60"
         ],
         [
           "DeepSeek V4.1 Flash 1017",
@@ -1159,6 +1154,11 @@
           "$0.28"
         ],
         [
+          "DeepSeek V4 Pro 0813",
+          "$1.32 $0.13 (cached)",
+          "$3.96"
+        ],
+        [
           "Qwen3.8 Flash",
           "$0.15",
           "$0.47"
@@ -1172,6 +1172,11 @@
           "Qwen3.7-Max",
           "$1.50 $0.30 (cached)",
           "$4.50"
+        ],
+        [
+          "DeepSeek V4.1 Flash",
+          "$0.30 $0.006 (cached)",
+          "$1.20"
         ],
         [
           "Muse Glimmer 30B",
@@ -1254,14 +1259,14 @@
           "$0.50"
         ],
         [
-          "DeepSeek V4.1 Flash",
-          "$0.30 $0.006 (cached)",
-          "$1.20"
-        ],
-        [
           "Muse Spark Open",
           "$1.25 $0.15 (cached)",
           "$4.25"
+        ],
+        [
+          "MiniMax M3.1 Flash",
+          "$0.15 $0.015 (cached)",
+          "$0.60"
         ],
         [
           "DeepSeek V4.1 Flash 1017",
@@ -1302,6 +1307,11 @@
           "NVIDIA Nemotron 3.5 Super VL",
           "$0.15 $0.02 (cached)",
           "$0.50"
+        ],
+        [
+          "DeepSeek V4.1 Flash",
+          "$0.30 $0.006 (cached)",
+          "$1.20"
         ],
         [
           "Muse Glimmer 30B",
@@ -1450,20 +1460,8 @@
           "-"
         ],
         [
-          "Google Imagen 4.0 Fast",
-          "$0.02",
-          "-",
-          "-"
-        ],
-        [
           "ByteDance Seedream 4.0",
           "$0.03",
-          "-",
-          "-"
-        ],
-        [
-          "Google Imagen 4.0 Preview",
-          "$0.04",
           "-",
           "-"
         ],
@@ -1471,12 +1469,6 @@
           "Gemini Flash Image 2.5 (Nano Banana)",
           "-",
           "$0.039",
-          "-"
-        ],
-        [
-          "Google Imagen 4.0 Ultra",
-          "$0.06",
-          "-",
           "-"
         ],
         [
@@ -1556,32 +1548,12 @@
           "$0.14"
         ],
         [
-          "Kling 1.6 Standard",
-          "$0.19"
-        ],
-        [
-          "Kling 2.1 Master",
-          "$0.92"
-        ],
-        [
-          "Kling 2.1 Pro",
-          "$0.32"
-        ],
-        [
-          "Kling 2.1 Standard",
-          "$0.18"
-        ],
-        [
           "Vidu Q1",
           "$0.22"
         ],
         [
           "Qwen3.6-Plus",
           "$0.50"
-        ],
-        [
-          "Sora 2",
-          "$0.80"
         ],
         [
           "PixVerse v5",
@@ -1594,10 +1566,6 @@
         [
           "ByteDance Seedance 1.0 Pro",
           "$0.57"
-        ],
-        [
-          "Google Veo 2.0",
-          "$2.50"
         ],
         [
           "MiniMax Hailuo 02",

@@ -6,9 +6,9 @@
   "url": "https://murf.ai/pricing",
   "final_url": "https://murf.ai/pricing",
   "parser_version": 4,
-  "content_hash": "0ebc77d1e01bdbd76e4138253f4584ec39619955729f67a336f28964401eeaff",
-  "raw_hash": "cf85927a6f5726d40aaccbcb00f417d45f29a8f807851d7382cf45ceb01c68ee",
-  "text_bytes": 3925,
+  "content_hash": "17052d9f7cd1f05a5c0d6a3faf6bc30ff48ca3f04e2da5dfe1c427f77c4871a8",
+  "raw_hash": "24b086baac1f3ab73fb02796a28490ce03995325041b45ce2fddd53e0fe3b509",
+  "text_bytes": 4181,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -44,6 +44,17 @@
       "features": [],
       "slot_prices": [
         0.03
+      ]
+    },
+    {
+      "name": "Speech to Text Beta",
+      "price_raw": "$0.24",
+      "amount": 0.24,
+      "currency": "USD",
+      "period": "hour",
+      "features": [],
+      "slot_prices": [
+        0.24
       ]
     },
     {

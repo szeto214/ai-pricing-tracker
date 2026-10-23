@@ -6,9 +6,9 @@
   "url": "https://www.greptile.com/pricing",
   "final_url": "https://www.greptile.com/pricing",
   "parser_version": 4,
-  "content_hash": "a71add237c07f6e700975f0cff76ad69cdb16ae63bafbd2f9b299d201facc70b",
-  "raw_hash": "8f22518ed56112c8dacc8a8c17694009bc8bfe731023960cead1e28b1dc3a98f",
-  "text_bytes": 2692,
+  "content_hash": "6183dd3e933568927b4d8764341ca7591a51b7ad7eec5fd0079e1f4b34464fcf",
+  "raw_hash": "5373de32fa58eb56e6ea8ef2b03fdbf1a7454497fe1de40507731a646554c7d8",
+  "text_bytes": 3120,
   "currency_hints": [],
   "extractor": "jsonld",
   "confidence": "medium",
@@ -24,10 +24,10 @@
     },
     {
       "name": "Pro",
-      "price_raw": "30.00",
-      "amount": 30.0,
+      "price_raw": "1.00",
+      "amount": 1.0,
       "currency": "USD",
-      "period": "p1m",
+      "period": "per credit",
       "features": [],
       "slot_prices": []
     }

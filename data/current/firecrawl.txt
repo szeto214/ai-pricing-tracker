@@ -7,6 +7,7 @@ Sign up
 Flexible
 pricing
 Start for free, then scale as you grow.
+Are you an AI agent? See pricing
 100,000
 credits/month
 1k
@@ -146,7 +147,6 @@ SSO & advanced security
 Pay-as-you-go
 Keep accessing web data with search and scrape when your credits run out. We add credits in 5 USD increments, up to a monthly limit you set. Paid plans only.
 Enable pay-as-you-go
-View pricing as Markdown
 Pricing at a
 glance
 Credit unit
@@ -155,6 +155,12 @@ Free tier
 1,000 credits every month, refreshed monthly, no credit card required.
 Entry plan
 Hobby: $19/month billed monthly, or $16/month billed annually, for 5,000 credits per month (2,500 searches or 5,000 pages scraped).
+Paid plans
+Hobby: $19/month billed monthly ($16/month billed annually), 5,000 credits/month
+Standard: $99/month billed monthly ($83/month billed annually), 100,000 credits/month
+Growth: $399/month billed monthly ($333/month billed annually), 500,000 credits/month
+Scale: $749/month billed monthly ($599/month billed annually), 1,000,000 credits/month
+Enterprise: custom pricing, credits and concurrency.
 Failed requests
 A scrape that returns no result is not charged. A page that responds with an error status such as 403 or 404 is still returned to you and costs 1 credit.
 Effective
@@ -573,7 +579,7 @@ We add credits to your account when your balance runs out, so your requests keep
 How many credits does a 5 USD pay-as-you-go increment give me?
 A 5 USD increment gives you 1,000 credits on Hobby, 2,000 on Standard, 2,500 on Growth, and 5,000 on Scale.
 How many credits does each request cost?
-Scrape, Crawl, Map, and Monitor each cost 1 credit per page. Search costs 2 credits per 10 results. Interact costs 2 credits per browser minute. The Firecrawl Research Index paper endpoints are free across every category, including AI/ML and life sciences. Agent is in preview with 5 free daily runs and dynamic pricing. Advanced features (JSON format, etc.) cost additional credits. Check out the credits table on the pricing page for more details.
+Scrape, Crawl, and Map each cost 1 credit per page, and Monitor costs 1 credit per page per check. Search costs 2 credits per 10 results. Interact costs 2 credits per browser minute. The Firecrawl Research Index paper endpoints are free across every category, including AI/ML and life sciences. Agent is in preview with 5 free daily runs and dynamic pricing. Advanced features (JSON format, etc.) cost additional credits. Check out the credits table on the pricing page for more details.
 Do you charge for failed requests?
 A scrape that returns no result is not charged. A page that responds with an error status such as 403 or 404 is still returned to you and costs 1 credit. If a charge looks incorrect, reach out to
 help@firecrawl.com

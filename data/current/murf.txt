@@ -10,18 +10,19 @@ Get Started
 No credit card required
 $10 FREE for API calls
 150+ voices in 35+ languages and styles
-5 concurrent requests
+Up to 5 concurrent requests for TTS, Up to 5 concurrent requests for STT
+info
 24x7 chat support
 Pay as you go
 Perfect for teams moving to production, with flexibility to scale as needs grow
 Buy Plan
 Calculate Your Requirement
 expand_more
-$0.01/1000 characters for Falcon
+$0.01/1000 characters for Falcon 2.1
 expand_circle_down
 Buy what you need, when you need it
 Purchased credit never expires
-Upto 5 concurrent requests
+Up to 5 concurrent requests for TTS, Up to 150 concurrent requests for STT
 info
 Priority Support
 Enterprise
@@ -47,6 +48,11 @@ Text to Speech
 Studio-quality speech synthesis, ideal for multimedia applications requiring rich, expressive voiceovers
 $0.03
 / 1000 characters
+Speech to Text
+Beta
+Accurate speech recognition to transcribe audio into text at scale
+$0.24
+/ hour
 Voice Changer
 Transform voice recordings into high-quality, lifelike AI voices
 $0.10
@@ -62,7 +68,7 @@ API Endpoints
 Usage
 Cost
 Text-to-Speech
-FALCON
+FALCON 2.1
 Usage
 0
 Characters
@@ -76,6 +82,11 @@ Usage
 Characters
 ~ 0m
 of speech generated
+$0
+Speech-to-Text (Beta)
+Usage
+0h
+Hours
 $0
 Translation
 Usage
@@ -117,7 +128,7 @@ How do I get started with the Murf API?
 expand_more
 What is the pricing structure for the Murf API?
 expand_more
-What is the Falcon model?
+What is the Falcon 2.1 model?
 expand_more
 How does the free credit system work?
 expand_more

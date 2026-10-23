@@ -1,19 +1,21 @@
+New
 Join us for our inaugural conference, Forge 2026
-Log In
-Get Started
+Docs
+Log in
+Get started
 Pricing to seamlessly scale from idea to enterprise
 Start building in seconds, self-serve. Contact us for enterprise deployments with faster speeds, lower costs, and higher rate limits.
 Get started
-Contact Us
+Contact us
 Serverless Inference
 Get started in seconds with per token pricing, zero setup and no cold starts
-See Pricing
+See pricing
 Training
 Customize open models with your own data with minimal setup
-See Pricing
+See pricing
 On Demand Deployments
 Pay per GPU second for faster speeds, higher rate limits, and lower costs at scale
-See Pricing
+See pricing
 Serverless Inference
 Pay per token with pre-paid, usage-based billing. Simply add a payment method to buy credits, and usage is then deducted from your balance. Usage is billed on output, input, and cached tokens. Turn on Auto Reload to top up automatically when your balance runs low, or set a monthly spend limit to cap usage.
 To view the current pricing for our most popular serverless models across Standard, Priority, and Fast serving paths, visit our full
@@ -36,6 +38,13 @@ Start a job
 Managed Training
 Supervised and preference fine tuning
 is priced per 1M training tokens.
+SFT and DPO prices are shown in $ per 1M training tokens. Training tokens can be estimated with number of tokens in training dataset * number of epochs. Estimation should be multiplied by the average number conversation turns /2 for tuning with intermediate thinking traces.
+Please note that when fine-tuning with reasoning traces, including the reasoning_content field for assistant turns will increase the total number of tuned tokens because multi-turn conversations are unrolled into user, assistant, and thinking traces. For further details, please refer to example 2 in the
+documentation about SFT fine tuning
+.
+Fine-tuning with images (VLM supervised fine-tuning) is also billed per 1M tokens. See this
+FAQ
+on calculating image tokens.
 Base Model
 LoRA SFT
 LoRA DPO
@@ -61,18 +70,10 @@ $10.00
 $20.00
 $20.00
 $40.00
-•
-SFT and DPO prices are shown in $ per 1M training tokens. Training tokens can be estimated with number of tokens in training dataset * number of epochs. Estimation should be multiplied by the average number conversation turns /2 for tuning with intermediate thinking traces.
-•
-Please note that when fine-tuning with reasoning traces, including the reasoning_content field for assistant turns will increase the total number of tuned tokens because multi-turn conversations are unrolled into user, assistant, and thinking traces. For further details, please refer to example 2 in the
-documentation about SFT fine tuning
-.
-•
-Fine-tuning with images (VLM supervised fine-tuning) is also billed per 1M tokens. See this
-FAQ
-on calculating image tokens.
 Serverless Training API
-Attach to a shared, always-on trainer pool for LoRA training on the launch models. There's no provisioning and no idle cost. You pay only for the tokens you prefill, sample, and train.
+Attach to a shared, always-on trainer pool for LoRA training on the launch models. There’s no provisioning and no idle cost. You pay only for the tokens you prefill, sample, and train.
+Checkpoint storage for serverless models is included during private preview.
+Other frontier models are coming soon to the Serverless Training API catalog.
 Base Model
 Context
 Prefill / 1M
@@ -127,15 +128,14 @@ $1.96
 $0.39
 $4.88
 $5.86
-•
-Checkpoint storage for serverless models is included during private preview.
-•
-Other frontier models are coming soon to the Serverless Training API catalog.
 Dedicated Training API
 Dedicated Training API jobs are priced per GPU hour. Please see the On-Demand Pricing section below for details on Dedicated Training API Pricing.
 On-Demand Pricing
 Pay per GPU second, with no extra charges for start-up times
 On demand deployments
+Region-restricted deployments are priced at a 1.5x premium.
+Contact Sales
+to get started.
 GPU Type
 Price ($) per minute
 Price ($) per hour
@@ -154,7 +154,3 @@ $15.00
 GB300 288 GB GPU
 $0.334
 $20.00
-•
-Region-restricted deployments are priced at a 1.5x premium.
-Contact Sales
-to get started.

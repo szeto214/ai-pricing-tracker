@@ -446,9 +446,9 @@ Expand
 compute table
 Workflows
 Scale up to
-4
+8
 CPU and
-16
+32
 GB of RAM
 Fully managed durable execution
 Sub-second task spin-up
@@ -474,6 +474,10 @@ $1.00/hour
 $1.50/hour
 16 GB RAM
 4c-16g
+8 CPU
+$2.50/hour
+32 GB RAM
+8c-32g
 Expand
 compute table
 Static Sites
@@ -525,17 +529,21 @@ High availability
 Key-value (Redis-compatible)
 Cron jobs
 Workflows
-Concurrent task runs
-20 task runs
-50 task runs
-then $10/mo per 50
-100 task runs
-then $10/mo per 50
+Parallel task compute
+10,000 CPU
+40,000 GB RAM
+10,000 CPU
+40,000 GB RAM
+10,000 CPU
+40,000 GB RAM
 Custom
-Task compute plans
-Up to Pro
-Up to Pro Ultra
-Up to Pro Ultra
+New task compute per minute
+16 CPU
+64 GB RAM
+32 CPU
+128 GB RAM
+32 CPU
+128 GB RAM
 Custom
 Service scaling
 Vertical scaling
@@ -759,10 +767,12 @@ High availability
 Key-value (Redis-compatible)
 Cron jobs
 Workflows
-Concurrent task runs
-20 task runs
-Task compute plans
-Up to Pro
+Parallel task compute
+10,000 CPU
+40,000 GB RAM
+New task compute per minute
+16 CPU
+64 GB RAM
 Service scaling
 Vertical scaling
 Horizontal autoscaling

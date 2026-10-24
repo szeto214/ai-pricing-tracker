@@ -6,9 +6,9 @@
   "url": "https://deno.com/deploy/pricing",
   "final_url": "https://deno.com/deploy/pricing",
   "parser_version": 4,
-  "content_hash": "2c5c0566355415eeb50cce3b201387327cb5ab3857ed910ac48c118f6b40d1b5",
-  "raw_hash": "079c95ba98a8b2380ebc6d70934d98eff17725bba96d77b4ba48570bc9e3d5e7",
-  "text_bytes": 16024,
+  "content_hash": "f9ae6b39557c9a8651311854adb5a89bb09d10f384aa7b05c62fcd4c9bd45eba",
+  "raw_hash": "a969bd712f14d10e4ab17c6c89eece671babde2ceac37f25041c9ae1a52be2e2",
+  "text_bytes": 15759,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -379,23 +379,6 @@
           "Not included",
           "Not included",
           "99.95%"
-        ],
-        [
-          "Compliance"
-        ],
-        [
-          "SOC2 Type 1",
-          "Not included",
-          "Not included",
-          "Not included",
-          "Included"
-        ],
-        [
-          "DPA",
-          "Not included",
-          "Not included",
-          "Not included",
-          "Included"
         ]
       ]
     }

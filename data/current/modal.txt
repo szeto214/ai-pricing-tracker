@@ -162,7 +162,7 @@ committed spend
 on Modal
 Transact through the AWS and GCP marketplace to use committed spend on Modal.
 Apply now
-Modal Sandbox + Notebooks pricing
+Modal Sandbox pricing
 Only pay for what you use.
 Burst up
 to what you need without over-allocating CPU or memory in advance.
@@ -192,13 +192,12 @@ compute.
 Traditional cloud
 You’re billed for reserved GPUs, even when usage drops.
 $5,400
-75 GPUs * 24 hrs * $3 / GPU-hr
-Degraded service at peak demand
+75 GPUs × 24 hrs × $3 / GPU-hr
 Modal serverless cloud
 Only pay for what you use, when you use it.
 $4,740
-Avg 50 GPUs * 24 hrs * $3.95 / GPU-hr
 12% lower cost
+Avg 50 GPUs × 24 hrs × $3.95 / GPU-hr
 Compare features
 Plans
 Starter

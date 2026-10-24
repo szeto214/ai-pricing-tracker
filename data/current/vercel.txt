@@ -138,15 +138,15 @@ Web Application Firewall
 Custom Firewall Rules
 Up to 3
 Up to 40
-Up to 1,000
+Up to 250
 IP Blocking
-Up to 3
-Up to 100
-Up to 1,000
+Up to 10
+Up to 40
+Up to 250
 System Bypass Rules
 —
-Up to 25
-Up to 100
+Up to 10
+Up to 75
 Firewall Rate Limit Requests
 1M allowed requests / month included
 Starting at $0.50 per 1M allowed requests
@@ -409,6 +409,10 @@ Deployments
 Unlimited Deployments
 Environment Variables
 Instant Rollback
+Deployment Storage
+10 GB included
+$0.10 per GB-month
+Custom
 Multi-tenant support
 Skew Protection
 —
@@ -635,7 +639,7 @@ hard spend limits
 ,
 Attack Challenge Mode
 , and more.
-What I can spend my included usage credit on?
+What can I spend my included usage credit on?
 The included monthly usage credit can be spent as outlined in
 vercel.com/docs/plans/pro-plan#monthly-credit
 What is Flat Rate CDN?

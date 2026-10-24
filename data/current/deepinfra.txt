@@ -874,9 +874,6 @@ View more
 FLUX-2-pro
 $0.015
 View more
-FLUX-1-Redux-dev
-$0.012 x (w / 1024) x (h / 1024) x (iters / 25)
-View more
 FLUX-1-dev
 $0.009 x (w / 1024) x (h / 1024) x (iters / 25)
 View more
@@ -903,9 +900,6 @@ $0.07
 View more
 FLUX-2-pro
 $0.015
-View more
-FLUX-1-Redux-dev
-$0.012 x (w / 1024) x (h / 1024) x (iters / 25)
 View more
 FLUX-1-dev
 $0.009 x (w / 1024) x (h / 1024) x (iters / 25)
@@ -1060,21 +1054,21 @@ deepseek-ai
 /
 DeepSeek-V4.1-Flash-1017
 Featured Models
+moonshotai
+/
+Kimi-K3
 deepseek-ai
 /
 DeepSeek-V4-Flash
 deepseek-ai
 /
-DeepSeek-V4.1-Flash-1017
-deepseek-ai
-/
 DeepSeek-V4-Pro
-deepseek-ai
+Qwen
 /
-DeepSeek-V3.2
-deepseek-ai
+Qwen3.5-397B-A17B
+nvidia
 /
-DeepSeek-V4-Pro-0813
+NVIDIA-Nemotron-3-Ultra-550B-A55B
 © 2026 DeepInfra. All rights reserved.
 Privacy Policy
 Terms of Service

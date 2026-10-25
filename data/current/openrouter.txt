@@ -1,7 +1,9 @@
 Models
 MoonshotAI: Kimi K3.1 Pro
 Kimi K3.1 Pro
-209B tokens
+450B tokens
+Programming (#29)
+Technology (#45)
 Kimi K3.1 Pro is Moonshot AI's flagship open-weight multimodal reasoning model and a post-trained successor to Kimi K3, with a 1M-token context window. It is built for long-horizon coding, 3D creation, financial research, and end-to-end agentic knowledge work, with native image and video understanding.
 by
 moonshotai
@@ -13,7 +15,7 @@ $10/M output
 tokens
 Recursive: Flint (free)
 Flint (free)
-76.2B tokens
+112B tokens
 Flint is an open-weight mixture-of-experts model from Recursive, with about 2.5B active parameters out of 40B total, built by Recursive's autoresearch system Eureka Machine for coding agents. It is suited for investigating codebases, fixing bugs, implementing features, and writing tests.
 by
 recursive
@@ -25,7 +27,7 @@ $0/M output
 tokens
 Baseten: Mammoth 1 (free)
 Mammoth 1 (free)
-323M tokens
+465M tokens
 Mammoth 1 is a 27B decision model from Base Labs, Baseten's research team, built on Qwen3.5-27B. Given a state (text or JSON) and typed questions (yes/no, multiple choice, or ordinal score), it returns a calibrated probability for every option in a single forward pass, with no text generation. It is TypeSafe System One compatible and suits classification, routing, and scoring where you need a scored answer instead of prose. Its smaller sibling is
 Elephant 1
 .
@@ -38,7 +40,7 @@ $0/M output
 tokens
 Baseten: Elephant 1 (free)
 Elephant 1 (free)
-274M tokens
+331M tokens
 Elephant 1 is a 9B decision model from Base Labs, Baseten's research team, built on Qwen3.5-9B. Given a state (text or JSON) and typed questions (yes/no, multiple choice, or ordinal score), it returns a calibrated probability for every option in a single forward pass, with no text generation. It is TypeSafe System One compatible and suits routing, classification, and scoring where you need a scored answer instead of prose. Its larger sibling is
 Mammoth 1
 .
@@ -51,7 +53,7 @@ $0/M output
 tokens
 Nace.AI: Drex Max
 Drex Max
-1.88B tokens
+2.41B tokens
 Drex Max is the largest decision model from Nace.AI, the successor to
 Drex v2.0
 . Given a state (text or JSON) and typed questions (yes/no, multiple choice, or ordinal score), it returns a calibrated probability for every option in a single forward pass, with no text generation. It is TypeSafe System One compatible and suits routing, classification, and policy checks that need a scored answer instead of prose.
@@ -64,7 +66,7 @@ $0/M output
 tokens
 NVIDIA: Nemotron 3.5 Embed 1B (free)
 Nemotron 3.5 Embed 1B (free)
-44.1M tokens
+105M tokens
 Nemotron 3.5 Embed 1B is a multimodal embedding model from NVIDIA for multilingual retrieval over text and document page images (tables, charts, infographics). Queries are text and documents can be text, an image, or both. It returns 2048-dim vectors that can be truncated, and shares the text embedding space of Nemotron 3 Embed 1B.
 by
 nvidia
@@ -75,7 +77,7 @@ $0/M output
 tokens
 NVIDIA: Nemotron 3.5 Embed 8B (free)
 Nemotron 3.5 Embed 8B (free)
-183M tokens
+201M tokens
 Nemotron 3.5 Embed 8B is a multimodal embedding model from NVIDIA for multilingual retrieval over text and document page images (tables, charts, infographics). Queries are text and documents can be text, an image, or both. It returns 4096-dim vectors that can be truncated, and shares the text embedding space of Nemotron 3 Embed 8B.
 by
 nvidia
@@ -86,7 +88,7 @@ $0/M output
 tokens
 NVIDIA: Nemotron 3.5 Rerank 8B (free)
 Nemotron 3.5 Rerank 8B (free)
-214M tokens
+293M tokens
 by
 nvidia
 Oct 21, 2026
@@ -96,7 +98,7 @@ $0/M output
 tokens
 Mistral: Voxtral TTS 3
 Voxtral TTS 3
-1.52M tokens
+1.65M tokens
 Voxtral TTS 3 is Mistral's text-to-speech model. It converts text into natural-sounding speech, offers a library of preset voices, supports zero-shot voice cloning, and accepts emotion and pace tags in the input to control delivery. It streams audio with low time-to-first-audio and suits voice agents, narration, and multilingual assistants.
 by
 mistralai
@@ -104,7 +106,7 @@ Oct 20, 2026
 $13/M characters
 Mistral: Voxtral Small Transcribe 3
 Voxtral Small Transcribe 3
-21.6M characters
+34.9M characters
 Voxtral Small Transcribe 3 is Mistral's flagship speech-to-text model. It takes audio input and returns a transcript with timestamps and speaker diarization, and supports context biasing for domain-specific vocabulary. Suited for high-accuracy multilingual transcription of meetings, interviews, media, and support calls.
 by
 mistralai
@@ -112,7 +114,7 @@ Oct 20, 2026
 $0.000067/second
 Mistral: Voxtral Mini Transcribe 3
 Voxtral Mini Transcribe 3
-8.08M characters
+9.16M characters
 Voxtral Mini Transcribe 3 is Mistral's compact speech-to-text model. It takes audio input and returns a transcript with timestamps and speaker diarization. It also supports context biasing for domain terms. It is small enough to self-deploy in resource-constrained environments, and fits meeting notes, call analytics, and voice-agent pipelines where cost matters.
 by
 mistralai
@@ -120,24 +122,27 @@ Oct 20, 2026
 $0.000058/second
 MiniMax: MiniMax M3.1 Flash
 MiniMax M3.1 Flash
-231B tokens
+518B tokens
+Programming (#33)
+Science (#39)
+Technology (#34)
 MiniMax-M3.1-Flash is a multimodal model from MiniMax. Compared with M3, it delivers significant improvements across multiple benchmarks, particularly in complex agentic tasks, coding, and cybersecurity. It is built for complex, multi-step co-work automation, understanding real codebases, fixing bugs, and building features, and visual understanding and creation, including frontend and presentation creation. It is an open-weight mixture-of-experts model with 23B active / 428B total parameters.
 by
 minimax
 Oct 19, 2026
 1.05M context
-$0.10/M input
+$0.09/M input
 tokens
-$0.55/M output
+$0.50/M output
 tokens
 DeepSeek: DeepSeek V4.1 Flash 1017
 DeepSeek V4.1 Flash 1017
-28.1T tokens
-Academia (#2)
+32.3T tokens
+Academia (#1)
 Finance (#2)
-Health (#11)
-Legal (#7)
-Marketing (#10)
+Health (#10)
+Legal (#4)
+Marketing (#8)
 +7 categories
 DeepSeek V4.1 Flash 1017 is the October 17, 2026 snapshot of DeepSeek V4.1 Flash, served by DeepSeek under the
 deepseek-flash
@@ -156,7 +161,7 @@ $1/M output
 tokens
 Elorian: Glimpse
 Glimpse
-3.74B tokens
+3.18B tokens
 Glimpse is a multimodal visual reasoning model from Elorian, built for visual understanding and complex visual reasoning in the physical world. It reasons directly over images and video rather than converting them to text first, so it can find small details in dense scenes, track events across video frames, and ground its answers in what is actually on screen. It is suited for agentic visual workflows such as visual search, video captioning, and dense counting, and for physical-world use cases in robotics, construction, engineering, and manufacturing.
 by
 elorian
@@ -168,7 +173,7 @@ $3/M output
 tokens
 Qwen: Qwen Image 2.1 Turbo
 Qwen Image 2.1 Turbo
-126M tokens
+130M tokens
 Qwen Image 2.1 Turbo is the fast, lower-cost tier of the Qwen Image 2.1 series from Qwen, for image generation and editing where throughput and price matter more than peak fidelity. See Qwen Image 2.1 Pro for the higher-quality tier.
 by
 qwen
@@ -176,7 +181,7 @@ Oct 16, 2026
 from $0.0184/image
 Qwen: Qwen Image 2.1 Pro
 Qwen Image 2.1 Pro
-64.5M tokens
+61.9M tokens
 Qwen Image 2.1 Pro is an image generation and editing model from Qwen, the higher-quality tier of the Qwen Image 2.1 series. Choose it over Qwen Image 2.1 Turbo when output fidelity matters more than cost or speed.
 by
 qwen
@@ -184,8 +189,8 @@ Oct 16, 2026
 from $0.046/image
 Perplexity: Decider Flash V1.2
 Decider Flash V1.2
-24.2B tokens
-Trivia (#29)
+25.9B tokens
+Trivia (#24)
 Decider Flash V1.2 is a 4B-parameter decision model from Perplexity, a smaller, lower-cost sibling of
 Decider V1.2
 with the same API contract. Instead of generating text, it reads content passed as

@@ -7,7 +7,7 @@
   "final_url": "https://tailscale.com/pricing",
   "parser_version": 4,
   "content_hash": "2f0c56be2989f9fbcf44d2582a4544a7e6ac3d5f8f13975bc0686fe34b722a21",
-  "raw_hash": "ba853e0b58bea25ace2fa9cbec65c140234e87b77470dc1331f53b81eea798cb",
+  "raw_hash": "e560898d7ac4d68e63999ab562f63845738504539abc3059db9beb2d7ca24b69",
   "text_bytes": 29473,
   "currency_hints": [],
   "extractor": "dom",

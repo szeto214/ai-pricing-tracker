@@ -7,7 +7,7 @@
   "final_url": "https://www.baseten.co/pricing/",
   "parser_version": 4,
   "content_hash": "2ec6785c4d770337a831099dfff48ae2f3f25714541f5f915349f614dc1d33c1",
-  "raw_hash": "3f37714500d772dd51548b3530c87812fc1519b8168b3a4a7073764f7c234044",
+  "raw_hash": "767d115caa6d1d896bc1583fb08315613a1ffbebf4116bf7b9d9e58468dfa4d8",
   "text_bytes": 6410,
   "currency_hints": [],
   "extractor": "dom",
@@ -265,7 +265,444 @@
       ]
     }
   ],
-  "models": [],
-  "tables": [],
+  "models": [
+    {
+      "key": "beam",
+      "model": "Beam",
+      "prices": {
+        "input": {
+          "raw": "$0.40",
+          "amount": 0.4
+        },
+        "cache input": {
+          "raw": "$0.04",
+          "amount": 0.04
+        },
+        "output": {
+          "raw": "$1.20",
+          "amount": 1.2
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "muse spark open",
+      "model": "Muse Spark Open",
+      "prices": {
+        "input": {
+          "raw": "$1.25",
+          "amount": 1.25
+        },
+        "cache input": {
+          "raw": "$0.15",
+          "amount": 0.15
+        },
+        "output": {
+          "raw": "$4.25",
+          "amount": 4.25
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "glm-5.3 fast",
+      "model": "GLM-5.3 Fast",
+      "prices": {
+        "input": {
+          "raw": "$2.10",
+          "amount": 2.1
+        },
+        "cache input": {
+          "raw": "$0.21",
+          "amount": 0.21
+        },
+        "output": {
+          "raw": "$6.60",
+          "amount": 6.6
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "glm-5.3",
+      "model": "GLM-5.3",
+      "prices": {
+        "input": {
+          "raw": "$1.40",
+          "amount": 1.4
+        },
+        "cache input": {
+          "raw": "$0.14",
+          "amount": 0.14
+        },
+        "output": {
+          "raw": "$4.40",
+          "amount": 4.4
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "glm-5.3-flash",
+      "model": "GLM-5.3-Flash",
+      "prices": {
+        "input": {
+          "raw": "$0.15",
+          "amount": 0.15
+        },
+        "cache input": {
+          "raw": "$0.03",
+          "amount": 0.03
+        },
+        "output": {
+          "raw": "$0.50",
+          "amount": 0.5
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "glm-5.2",
+      "model": "GLM-5.2",
+      "prices": {
+        "input": {
+          "raw": "$1.40",
+          "amount": 1.4
+        },
+        "cache input": {
+          "raw": "$0.14",
+          "amount": 0.14
+        },
+        "output": {
+          "raw": "$4.40",
+          "amount": 4.4
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "glm-5.2 fast",
+      "model": "GLM-5.2 Fast",
+      "prices": {
+        "input": {
+          "raw": "$2.10",
+          "amount": 2.1
+        },
+        "cache input": {
+          "raw": "$0.21",
+          "amount": 0.21
+        },
+        "output": {
+          "raw": "$6.60",
+          "amount": 6.6
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "deepseek v4.1 flash 1017",
+      "model": "DeepSeek V4.1 Flash 1017",
+      "prices": {
+        "input": {
+          "raw": "$0.30",
+          "amount": 0.3
+        },
+        "cache input": {
+          "raw": "$0.007",
+          "amount": 0.007
+        },
+        "output": {
+          "raw": "$1.20",
+          "amount": 1.2
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "deepseek v4.1 flash fast",
+      "model": "DeepSeek V4.1 Flash Fast",
+      "prices": {
+        "input": {
+          "raw": "$0.60",
+          "amount": 0.6
+        },
+        "cache input": {
+          "raw": "$0.014",
+          "amount": 0.014
+        },
+        "output": {
+          "raw": "$2.40",
+          "amount": 2.4
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "deepseek v4.1 flash",
+      "model": "DeepSeek V4.1 Flash",
+      "prices": {
+        "input": {
+          "raw": "$0.30",
+          "amount": 0.3
+        },
+        "cache input": {
+          "raw": "$0.007",
+          "amount": 0.007
+        },
+        "output": {
+          "raw": "$1.20",
+          "amount": 1.2
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "deepseek-v4-flash-0731",
+      "model": "DeepSeek-V4-Flash-0731",
+      "prices": {
+        "input": {
+          "raw": "$0.13",
+          "amount": 0.13
+        },
+        "cache input": {
+          "raw": "$0.028",
+          "amount": 0.028
+        },
+        "output": {
+          "raw": "$0.26",
+          "amount": 0.26
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "deepseek v4 pro 0813",
+      "model": "DeepSeek V4 Pro 0813",
+      "prices": {
+        "input": {
+          "raw": "$1.32",
+          "amount": 1.32
+        },
+        "cache input": {
+          "raw": "$0.132",
+          "amount": 0.132
+        },
+        "output": {
+          "raw": "$3.96",
+          "amount": 3.96
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "kimi k3",
+      "model": "Kimi K3",
+      "prices": {
+        "input": {
+          "raw": "$3.00",
+          "amount": 3.0
+        },
+        "cache input": {
+          "raw": "$0.30",
+          "amount": 0.3
+        },
+        "output": {
+          "raw": "$15.00",
+          "amount": 15.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "nemotron 3.5 super vl",
+      "model": "Nemotron 3.5 Super VL",
+      "prices": {
+        "input": {
+          "raw": "$0.20",
+          "amount": 0.2
+        },
+        "cache input": {
+          "raw": "$0.04",
+          "amount": 0.04
+        },
+        "output": {
+          "raw": "$0.50",
+          "amount": 0.5
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "nvidia nemotron 3 ultra",
+      "model": "NVIDIA Nemotron 3 Ultra",
+      "prices": {
+        "input": {
+          "raw": "$0.60",
+          "amount": 0.6
+        },
+        "cache input": {
+          "raw": "$0.12",
+          "amount": 0.12
+        },
+        "output": {
+          "raw": "$2.40",
+          "amount": 2.4
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "gpt oss 120b",
+      "model": "GPT OSS 120B",
+      "prices": {
+        "input": {
+          "raw": "$0.10",
+          "amount": 0.1
+        },
+        "output": {
+          "raw": "$0.50",
+          "amount": 0.5
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    }
+  ],
+  "tables": [
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Model",
+          "Input",
+          "Cache Input",
+          "Output"
+        ],
+        [
+          "elephant-1",
+          "-",
+          "-",
+          "- Try Model API Try Model API - Try"
+        ],
+        [
+          "mammoth-1",
+          "-",
+          "-",
+          "- Try Model API Try Model API - Try"
+        ],
+        [
+          "Beam",
+          "$0.40",
+          "$0.04",
+          "$1.20 Try Model API Try Model API $1.20 Try"
+        ],
+        [
+          "Muse Spark Open",
+          "$1.25",
+          "$0.15",
+          "$4.25 Try Model API Try Model API $4.25 Try"
+        ],
+        [
+          "GLM-5.3 Fast",
+          "$2.10",
+          "$0.21",
+          "$6.60 Try Model API Try Model API $6.60 Try"
+        ],
+        [
+          "GLM-5.3",
+          "$1.40",
+          "$0.14",
+          "$4.40 Try Model API Try Model API $4.40 Try"
+        ],
+        [
+          "GLM-5.3-Flash",
+          "$0.15",
+          "$0.03",
+          "$0.50 Try Model API Try Model API $0.50 Try"
+        ],
+        [
+          "GLM-5.2",
+          "$1.40",
+          "$0.14",
+          "$4.40 Try Model API Try Model API $4.40 Try"
+        ],
+        [
+          "GLM-5.2 Fast",
+          "$2.10",
+          "$0.21",
+          "$6.60 Try Model API Try Model API $6.60 Try"
+        ],
+        [
+          "DeepSeek V4.1 Flash 1017",
+          "$0.30",
+          "$0.007",
+          "$1.20 Try Model API Try Model API $1.20 Try"
+        ],
+        [
+          "DeepSeek V4.1 Flash Fast",
+          "$0.60",
+          "$0.014",
+          "$2.40 Try Model API Try Model API $2.40 Try"
+        ],
+        [
+          "DeepSeek V4.1 Flash",
+          "$0.30",
+          "$0.007",
+          "$1.20 Try Model API Try Model API $1.20 Try"
+        ],
+        [
+          "DeepSeek-V4-Flash-0731",
+          "$0.13",
+          "$0.028",
+          "$0.26 Try Model API Try Model API $0.26 Try"
+        ],
+        [
+          "DeepSeek V4 Pro 0813",
+          "$1.32",
+          "$0.132",
+          "$3.96 Try Model API Try Model API $3.96 Try"
+        ],
+        [
+          "Kimi K3",
+          "$3.00",
+          "$0.30",
+          "$15.00 Try Model API Try Model API $15.00 Try"
+        ],
+        [
+          "Nemotron 3.5 Super VL",
+          "$0.20",
+          "$0.04",
+          "$0.50 Try Model API Try Model API $0.50 Try"
+        ],
+        [
+          "NVIDIA Nemotron 3 Ultra",
+          "$0.60",
+          "$0.12",
+          "$2.40 Try Model API Try Model API $2.40 Try"
+        ],
+        [
+          "GPT OSS 120B",
+          "$0.10",
+          "-",
+          "$0.50 Try Model API Try Model API $0.50 Try"
+        ]
+      ]
+    }
+  ],
   "extract_errors": []
 }

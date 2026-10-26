@@ -6,9 +6,9 @@
   "url": "https://supabase.com/pricing",
   "final_url": "https://supabase.com/pricing",
   "parser_version": 4,
-  "content_hash": "48e6a4ff70162500cff0891b00b7f3ac8de7b588cdbaf54a12a76959caf50f98",
-  "raw_hash": "488240a2014d35645bcd2d76f830bc680ca470abff9d97eb10030e82d15101c9",
-  "text_bytes": 16667,
+  "content_hash": "23246b3625e83188e044d090bed7f7edd5e087cca32cd1d4c9add978ee42ddb5",
+  "raw_hash": "a6ddc96130d3aa339bf9936b2f5f60a12c9fdf65a23fd208e3a42205977e461f",
+  "text_bytes": 16716,
   "currency_hints": [
     "USD"
   ],
@@ -964,7 +964,7 @@
           "Free $ 0 / month Start for Free",
           "Pro $ 25 / month Get Started",
           "Team $ 599 / month Get Started",
-          "Enterprise Custom Contact Us"
+          "Enterprise Custom Contact us"
         ],
         [
           "Database",

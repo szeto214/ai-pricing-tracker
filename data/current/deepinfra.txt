@@ -58,7 +58,7 @@ $0.09 / $0.018 cached
 $0.18
 View more
 DeepSeek-V3.2
--
+160k
 $0.26 / $0.13 cached
 $0.38
 View more
@@ -98,7 +98,7 @@ $0.09 / $0.018 cached
 $0.18
 View more
 DeepSeek-V3.2
--
+160k
 $0.26 / $0.13 cached
 $0.38
 View more
@@ -1054,21 +1054,21 @@ deepseek-ai
 /
 DeepSeek-V4.1-Flash-1017
 Featured Models
+zai-org
+/
+GLM-5.3-Flash
+zai-org
+/
+GLM-5.2
+deepseek-ai
+/
+DeepSeek-V3.2
 deepseek-ai
 /
 DeepSeek-V4-Pro
-nvidia
+tencent
 /
-NVIDIA-Nemotron-3-Ultra-550B-A55B
-XiaomiMiMo
-/
-MiMo-V2.6-Flash
-zai-org
-/
-GLM-5.3
-deepseek-ai
-/
-DeepSeek-V4-Flash-0731
+Hy4-preview
 © 2026 DeepInfra. All rights reserved.
 Privacy Policy
 Terms of Service

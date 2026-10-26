@@ -4,216 +4,39 @@
   "vendor": "DeepSeek",
   "category": "ai-api",
   "url": "https://api-docs.deepseek.com/quick_start/pricing",
-  "final_url": "https://api-docs.deepseek.com/quick_start/pricing/",
+  "final_url": "https://api-docs.deepseek.com/quick_start/pricing",
   "parser_version": 4,
-  "content_hash": "8c3cccec01fe36bbc4d69458afc3444116c0d48ea1a1283c62c1b67a46fbea3f",
-  "raw_hash": "b856a6e93fa4793ecc8f3fd03a01bb7d8f7572f78a4739da8ce6dbdb09328d66",
-  "text_bytes": 2973,
+  "content_hash": "ff1bdff50a0fa846562cca260e78b09b1f73247f1c9f3d640ad77672ada06049",
+  "raw_hash": "50490e85b6a47700cef1c847cfb505afb136a0d45ce48f519255960c7f63b9f3",
+  "text_bytes": 2127,
   "currency_hints": [],
-  "extractor": "dom",
-  "confidence": "medium",
-  "plans": [
-    {
-      "name": "MODEL",
-      "price_raw": "$0.003",
-      "amount": 0.003,
-      "currency": "USD",
-      "period": null,
-      "features": [],
-      "slot_prices": [
-        0.003,
-        0.022
-      ]
-    },
-    {
-      "name": "1M INPUT TOKENS",
-      "price_raw": "$0.15",
-      "amount": 0.15,
-      "currency": "USD",
-      "period": null,
-      "features": [],
-      "slot_prices": [
-        0.15,
-        0.66
-      ]
-    },
-    {
-      "name": "Search",
-      "price_raw": "$0.75",
-      "amount": 0.75,
-      "currency": "USD",
-      "period": null,
-      "features": [],
-      "slot_prices": [
-        0.75
-      ]
-    },
-    {
-      "name": "Fetch",
-      "price_raw": "$0.75",
-      "amount": 0.75,
-      "currency": "USD",
-      "period": null,
-      "features": [],
-      "slot_prices": [
-        0.75
-      ]
-    }
-  ],
-  "models": [
-    {
-      "key": "search",
-      "model": "Search",
-      "prices": {
-        "price": {
-          "raw": "$0.75",
-          "amount": 0.75
-        }
-      },
-      "currency": "USD",
-      "unit": ""
-    },
-    {
-      "key": "fetch",
-      "model": "Fetch",
-      "prices": {
-        "price": {
-          "raw": "$0.75",
-          "amount": 0.75
-        }
-      },
-      "currency": "USD",
-      "unit": ""
-    }
-  ],
+  "extractor": "none",
+  "confidence": "low",
+  "plans": [],
+  "models": [],
   "tables": [
     {
       "caption": "",
       "rows": [
         [
-          "MODEL",
-          "deepseek-flash (1)",
-          "deepseek-v4-pro"
+          "PARAM",
+          "VALUE"
         ],
         [
-          "BASE URL (OpenAI Format)",
+          "base_url (OpenAI)",
           "https://api.deepseek.com"
         ],
         [
-          "BASE URL (Anthropic Format)",
+          "base_url (Anthropic)",
           "https://api.deepseek.com/anthropic"
         ],
         [
-          "MODEL VERSION",
-          "DeepSeek-V4.1-Flash-1017",
-          "DeepSeek-V4-Pro-0813"
+          "api_key",
+          "apply for an API key"
         ],
         [
-          "THINKING MODE",
-          "Supports both non-thinking and thinking (default) modes See Thinking Mode for how to switch"
-        ],
-        [
-          "CONTEXT LENGTH",
-          "1M"
-        ],
-        [
-          "MAX OUTPUT",
-          "MAXIMUM: 384K"
-        ],
-        [
-          "FEATURES",
-          "Json Output",
-          "✓",
-          "✓"
-        ],
-        [
-          "Tool Calls",
-          "✓",
-          "✓"
-        ],
-        [
-          "Responses API",
-          "✓",
-          "✓"
-        ],
-        [
-          "Anthropic API",
-          "✓",
-          "✓"
-        ],
-        [
-          "Chat Prefix Completion（Beta）",
-          "✓",
-          "✓"
-        ],
-        [
-          "FIM Completion（Beta）",
-          "Non-thinking mode only",
-          "Non-thinking mode only"
-        ],
-        [
-          "Vision",
-          "✓",
-          "Not supported"
-        ],
-        [
-          "PRICING (2)",
-          "1M INPUT TOKENS (CACHE HIT)",
-          "OFF-PEAK",
-          "$0.003",
-          "$0.022"
-        ],
-        [
-          "PEAK",
-          "$0.006",
-          "$0.044"
-        ],
-        [
-          "1M INPUT TOKENS (CACHE MISS)",
-          "OFF-PEAK",
-          "$0.15",
-          "$0.66"
-        ],
-        [
-          "PEAK",
-          "$0.3",
-          "$1.32"
-        ],
-        [
-          "1M OUTPUT TOKENS",
-          "OFF-PEAK",
-          "$0.6",
-          "$1.98"
-        ],
-        [
-          "PEAK",
-          "$1.2",
-          "$3.96"
-        ],
-        [
-          "Concurrency Limit (3)",
-          "2500",
-          "500"
-        ]
-      ]
-    },
-    {
-      "caption": "",
-      "rows": [
-        [
-          "API",
-          "Unit",
-          "Price"
-        ],
-        [
-          "Search",
-          "Per 1,000 successful requests",
-          "$0.75"
-        ],
-        [
-          "Fetch",
-          "Per 1,000 successful requests",
-          "$0.75"
+          "model",
+          "deepseek-flash (1) deepseek-v4-pro"
         ]
       ]
     }

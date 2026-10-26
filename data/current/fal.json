@@ -179,7 +179,152 @@
       ]
     }
   ],
-  "models": [],
-  "tables": [],
+  "models": [
+    {
+      "key": "b300",
+      "model": "B300",
+      "prices": {
+        "list price": {
+          "raw": "$12.99",
+          "amount": 12.99
+        },
+        "as low as": {
+          "raw": "$5.99",
+          "amount": 5.99
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "gb200",
+      "model": "GB200",
+      "prices": {
+        "list price": {
+          "raw": "$9.99",
+          "amount": 9.99
+        },
+        "as low as": {
+          "raw": "$5.89",
+          "amount": 5.89
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "b200",
+      "model": "B200",
+      "prices": {
+        "list price": {
+          "raw": "$7.99",
+          "amount": 7.99
+        },
+        "as low as": {
+          "raw": "$5.49",
+          "amount": 5.49
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "h200",
+      "model": "H200",
+      "prices": {
+        "list price": {
+          "raw": "$6.00",
+          "amount": 6.0
+        },
+        "as low as": {
+          "raw": "$2.99",
+          "amount": 2.99
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "h100",
+      "model": "H100",
+      "prices": {
+        "list price": {
+          "raw": "$4.50",
+          "amount": 4.5
+        },
+        "as low as": {
+          "raw": "$2.49",
+          "amount": 2.49
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "rtx pro 6000",
+      "model": "RTX PRO 6000",
+      "prices": {
+        "list price": {
+          "raw": "$4.00",
+          "amount": 4.0
+        },
+        "as low as": {
+          "raw": "$1.99",
+          "amount": 1.99
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    }
+  ],
+  "tables": [
+    {
+      "caption": "",
+      "rows": [
+        [
+          "GPU",
+          "VRAM",
+          "List Price",
+          "As low as"
+        ],
+        [
+          "B300",
+          "VRAM 288 GB",
+          "List Price $12.99/h",
+          "As low as $5.99/h"
+        ],
+        [
+          "GB200",
+          "VRAM 192 GB",
+          "List Price $9.99/h",
+          "As low as $5.89/h"
+        ],
+        [
+          "B200",
+          "VRAM 192 GB",
+          "List Price $7.99/h",
+          "As low as $5.49/h"
+        ],
+        [
+          "H200",
+          "VRAM 141 GB",
+          "List Price $6.00/h",
+          "As low as $2.99/h"
+        ],
+        [
+          "H100",
+          "VRAM 80 GB",
+          "List Price $4.50/h",
+          "As low as $2.49/h"
+        ],
+        [
+          "RTX PRO 6000",
+          "VRAM 96 GB",
+          "List Price $4.00/h",
+          "As low as $1.99/h"
+        ]
+      ]
+    }
+  ],
   "extract_errors": []
 }

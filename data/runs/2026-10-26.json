@@ -1,14 +1,13 @@
 {
   "date": "2026-10-26",
-  "finished_at": "2026-10-26T08:11:02+00:00",
+  "finished_at": "2026-10-26T14:19:49+00:00",
   "user_agent": "ai-pricing-tracker/0.1 (+https://github.com/szeto214/ai-pricing-tracker) price-archive-bot; 1 request per page per day",
   "summary": {
     "total": 134,
-    "ok": 133,
+    "ok": 134,
     "changed": 13,
     "by_status": {
-      "ok": 133,
-      "robots_denied": 1
+      "ok": 134
     }
   },
   "targets": [
@@ -1456,11 +1455,19 @@
       "slug": "perplexity-api",
       "name": "Perplexity API",
       "url": "https://docs.perplexity.ai/getting-started/pricing",
-      "status": "robots_denied",
-      "http_status": null,
-      "elapsed_ms": 0,
-      "robots_note": "robots.txt tidak terbaca (ReadTimeout) -> tidak diambil",
-      "reason": "robots.txt tidak terbaca (ReadTimeout) -> tidak diambil"
+      "status": "ok",
+      "http_status": 200,
+      "elapsed_ms": 6172,
+      "robots_note": "robots.txt terbaca",
+      "content_hash": "20bc8099d6995731fff4e24ad944465eabc08b98d4a4b43d7e40cc5b3d949610",
+      "extractor": "dom",
+      "confidence": "medium",
+      "plans_count": 18,
+      "models_count": 18,
+      "tables_count": 7,
+      "thin": false,
+      "changed": false,
+      "change_kind": null
     },
     {
       "slug": "pinecone",

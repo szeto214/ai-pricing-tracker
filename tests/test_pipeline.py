@@ -2379,6 +2379,107 @@ def test_nama_paket_ganda_16_10() -> None:
           f"-> {amb}")
 
 
+def test_tabel_grid_26_10() -> None:
+    """Tabel harga yang dibangun dari grid div (26/10/2026).
+
+    23/10 dua vendor sekaligus membuang `<table>` dari halaman harganya:
+      fal.ai        5 tabel -> 0 tabel, 86 baris model menguap semalam
+      fireworks-ai  4 tabel -> 0 tabel, 20 baris model menguap
+    Angkanya MASIH ADA di HTML statis — hanya bungkusnya yang berganti menjadi
+    grid div. Tanpa pembaca ini arsip kehilangan sumber sinyal per-baris
+    terbesarnya tanpa satu pun vendor mengubah harga. Dibuktikan dengan
+    mengurai ulang arsip mentah: kode yang sama menghasilkan 5 tabel pada
+    halaman fal 21/10 dan 0 tabel pada 23/10, jadi yang berubah halamannya.
+
+    Penandanya struktural, bukan nama kelas CSS. Yang paling menentukan:
+    baris pertama harus dikenali `modeltable._find_header` sebagai judul
+    kolom sungguhan. Diukur pada SELURUH arsip (1251 berkas): tanpa syarat itu
+    ikut masuk "tabel" tanpa judul yang kolomnya dinamai menurut POSISI, dan
+    Nebius 23/09 saja melahirkan 9 "perubahan harga" palsu — seluruhnya angka
+    yang bergeser satu kolom ($7.15 pindah dari kolom 5 ke kolom 4).
+
+    Hasil A/B seluruh arsip sesudah disempitkan: **peristiwa paket IDENTIK**
+    (1692 = 1692), 6 peristiwa `model_removed` PALSU hilang (fal 23/10 —
+    modelnya tidak pernah pergi, pembacanya yang buta), dan 16 peristiwa baru
+    muncul, semuanya dari baseten yang halamannya juga grid. Dua di antaranya
+    perubahan harga, dan keduanya diperiksa ke arsip mentah:
+    DeepSeek V4.1 Flash cache input $0.03 -> $0.007 (input & output tidak
+    bergerak) dan Beam cache input $0.13 -> $0.04 pada hari yang sama dengan
+    penurunan Beam $1.30 -> $0.40 yang sudah terverifikasi.
+
+    Angka lama tidak ada satu pun yang berubah, jadi PARSER_VERSION TIDAK
+    dinaikkan — sama seperti penambahan batas tabel 08/10.
+    """
+    print("\n30. tabel harga dari grid div")
+    from collector import normalize, extract
+
+    def grid(html):
+        proc = normalize.process(f"<!doctype html><html><body>{html}</body></html>")
+        return extract._tabel_grid(proc["soup"], max_tables=6, max_rows=80,
+                                   max_cols=12)
+
+    baik = """
+    <div class="t">
+      <div class="r"><div>Model</div><div>Input</div><div>Output</div></div>
+      <div class="r"><div>nimbus-small</div><div>$0.15</div><div>$0.60</div></div>
+      <div class="r"><div>nimbus-medium</div><div>$1.10</div><div>$4.40</div></div>
+      <div class="r"><div>nimbus-large</div><div>$5.00</div><div>$15.00</div></div>
+    </div>"""
+    g = grid(baik)
+    check("grid berjudul terbaca sebagai tabel", len(g) == 1, f"-> {len(g)}")
+    if g:
+        check("baris judulnya utuh", g[0]["rows"][0] == ["Model", "Input", "Output"],
+              f'-> {g[0]["rows"][0]}')
+        check("seluruh baris data ikut", len(g[0]["rows"]) == 4,
+              f'-> {len(g[0]["rows"])}')
+        from collector.modeltable import extract_model_tables
+        m = extract_model_tables(g)
+        check("harga per model terbaca dari grid",
+              len(m) == 3 and m[0]["prices"]["input"]["amount"] == 0.15,
+              f"-> {m}")
+
+    tanpa_judul = """
+    <div class="t">
+      <div class="r"><div>nimbus-small</div><div>$0.15</div></div>
+      <div class="r"><div>nimbus-medium</div><div>$1.10</div></div>
+      <div class="r"><div>nimbus-large</div><div>$5.00</div></div>
+    </div>"""
+    check("grid tanpa baris judul DITOLAK (kolom tanpa nama tidak bisa "
+          "dibandingkan)", grid(tanpa_judul) == [], f"-> {grid(tanpa_judul)}")
+
+    judul_berharga = """
+    <div class="t">
+      <div class="r"><div>Model</div><div>$0.15</div><div>Output</div></div>
+      <div class="r"><div>a</div><div>$0.15</div><div>$0.60</div></div>
+      <div class="r"><div>b</div><div>$1.10</div><div>$4.40</div></div>
+      <div class="r"><div>c</div><div>$5.00</div><div>$15.00</div></div>
+    </div>"""
+    check("baris judul yang memuat harga DITOLAK",
+          grid(judul_berharga) == [], f"-> {grid(judul_berharga)}")
+
+    menu = """
+    <div class="nav">
+      <div class="r"><div>Product</div><div>Docs</div></div>
+      <div class="r"><div>Pricing</div><div>Blog</div></div>
+      <div class="r"><div>About</div><div>Careers</div></div>
+    </div>"""
+    check("grid tanpa harga sama sekali DITOLAK", grid(menu) == [],
+          f"-> {grid(menu)}")
+
+    # Halaman responsif memuat dua salinan sel yang sama (desktop + ponsel).
+    check("sel kembar responsif dirapikan",
+          extract._rapikan_sel("Beam Beam") == "Beam"
+          and extract._rapikan_sel("NVIDIA HGX B300") == "NVIDIA HGX B300",
+          f'-> {extract._rapikan_sel("Beam Beam")!r}')
+
+    # <table> sungguhan TIDAK boleh terbaca dua kali.
+    html = render("apitable.html")
+    proc = normalize.process(html)
+    res = extract.extract("nimbus", proc["soup"], html)
+    check("tabel sungguhan tidak terbaca dua kali",
+          len(res["tables"]) == 1, f'-> {len(res["tables"])} tabel')
+
+
 def test_halaman_bulanan_23_10() -> None:
     """Halaman ringkasan bulanan — dikerjakan 23/10/2026.
 
@@ -2666,6 +2767,7 @@ def main() -> int:
     test_nama_paket_ganda_16_10()
     test_kolom_ganti_nama_21_10()
     test_halaman_bulanan_23_10()
+    test_tabel_grid_26_10()
     test_skrip_cadangan()
 
     print("\n" + "=" * 60)

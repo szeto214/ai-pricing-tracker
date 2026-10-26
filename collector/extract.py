@@ -618,6 +618,119 @@ def extract_tables(soup: BeautifulSoup, max_tables: int = 20,
     deepgram 3, perplexity-api 3). Karena tidak satu angka lama pun berubah,
     PARSER_VERSION tidak naik.
     """
+    tables = _tabel_asli(soup, max_tables, max_rows, max_cols)
+    if len(tables) < max_tables:
+        tables.extend(_tabel_grid(soup, max_tables=min(MAX_TABEL_GRID,
+                                                       max_tables - len(tables)),
+                                  max_rows=max_rows, max_cols=max_cols))
+    return tables
+
+
+# Batas tabel-grid per halaman. Sengaja kecil: ia hanya pelengkap untuk
+# halaman yang MENINGGALKAN <table>, bukan sumber utama.
+MAX_TABEL_GRID = 6
+# Sel yang berisi angka harga. Dipakai untuk menolak grid yang kebetulan
+# berbentuk tabel tapi tidak memuat harga sama sekali (menu, daftar fitur).
+_SEL_HARGA_RE = re.compile(r"[$€£¥]\s?\d|\d+[.,]\d{2,}")
+_LEWATI_TAG = {"script", "style", "noscript", "svg", "path", "br", "hr"}
+_TAG_TABEL = {"table", "thead", "tbody", "tfoot", "tr"}
+
+
+def _rapikan_sel(teks: str) -> str:
+    """"Beam Beam" -> "Beam".
+
+    Halaman responsif sering memuat DUA salinan sel yang sama di dalam satu
+    sel — satu untuk layar lebar, satu untuk ponsel, salah satunya
+    disembunyikan CSS (`hidden md:flex`). Pembaca HTML tidak melihat CSS, jadi
+    teksnya terbaca dua kali. Syaratnya sengaja ketat: hanya dua bagian yang
+    SAMA PERSIS dan dipisah tepat satu spasi, supaya nama seperti
+    "NVIDIA HGX B300" tidak ikut terpotong.
+    """
+    t = (teks or "").strip()
+    if len(t) % 2 == 1:
+        tengah = len(t) // 2
+        if t[tengah] == " " and t[:tengah] == t[tengah + 1:]:
+            return t[:tengah]
+    return t
+
+
+def _tabel_grid(soup: BeautifulSoup, *, max_tables: int, max_rows: int,
+                max_cols: int) -> list[dict]:
+    """Tabel harga yang dibangun dari GRID DIV, bukan elemen `<table>`.
+
+    Kenapa ini ada. 23/10/2026 dua vendor sekaligus membuang `<table>` dari
+    halaman harganya dan menggantinya dengan grid div:
+      fal.ai        5 tabel -> 0, dan 86 baris model menguap dalam semalam
+      fireworks-ai  4 tabel -> 0, 20 baris model menguap
+    Angkanya MASIH ADA di HTML statis — hanya bungkusnya yang berubah. Tanpa
+    pembaca ini, arsip kehilangan sumber sinyal per-baris terbesarnya tanpa
+    satu pun vendor mengubah harga.
+
+    Penandanya STRUKTURAL, bukan daftar nama kelas CSS (kelas berbeda di tiap
+    vendor dan basi dalam sebulan): satu induk yang anak-anaknya berjumlah
+    sama persis, 2-12 kolom, minimal tiga baris, mayoritas barisnya memuat
+    angka harga, dan baris pertamanya TIDAK memuat harga (itu baris judul —
+    tanpa judul kolom, `modeltable` tidak punya cara menamai angkanya).
+
+    Syarat terakhir yang paling menentukan: BARIS JUDULNYA harus dikenali
+    `modeltable._find_header` sebagai judul sungguhan, dan harus baris
+    pertama. Diukur 26/10 pada seluruh arsip, tanpa syarat ini masuklah
+    "tabel" tanpa judul yang kolomnya dinamai menurut POSISI ("kolom 4"), dan
+    posisi adalah hal yang paling sering bergeser: Nebius 23/09 melahirkan 9
+    "perubahan harga" yang seluruhnya hanya angka yang bergeser satu kolom
+    ($7.15 pindah dari kolom 5 ke kolom 4). Kolom tanpa nama tidak bisa
+    dibandingkan antar hari — sama persis dengan alasan penjaga mata uang,
+    satuan, dan nama paket ganda.
+    """
+    from .modeltable import _find_header
+
+    hasil: list[dict] = []
+    if max_tables <= 0:
+        return hasil
+    for induk in (soup.body or soup).find_all(True):
+        # `<table>` sudah dibaca pembaca aslinya. Tanpa penjaga ini, tabel
+        # sungguhan ikut terbaca DUA KALI (tabel dan "grid"), karena <table>
+        # dengan anak <tr> berjumlah sel sama persis memenuhi syarat grid.
+        if induk.name in _TAG_TABEL or induk.find_parent("table") is not None:
+            continue
+        anak = [c for c in induk.find_all(recursive=False)
+                if c.name not in _LEWATI_TAG]
+        if len(anak) < 3 or len(anak) > max_rows + 4:
+            continue
+        baris: list[list[str]] = []
+        lebar: int | None = None
+        for c in anak:
+            sel = [_rapikan_sel(x.get_text(" ", strip=True)[:160])
+                   for x in c.find_all(recursive=False)
+                   if x.name not in _LEWATI_TAG]
+            if not any(sel):
+                continue
+            if lebar is None:
+                lebar = len(sel)
+            if len(sel) != lebar:
+                baris = []
+                break
+            baris.append(sel)
+        if not baris or lebar is None or not (2 <= lebar <= max_cols):
+            continue
+        if len(baris) < 3:
+            continue
+        berharga = [b for b in baris if any(_SEL_HARGA_RE.search(s) for s in b)]
+        # Mayoritas baris DATA harus memuat harga, dan minimal dua baris.
+        if len(berharga) < 2 or len(berharga) * 2 < len(baris) - 1:
+            continue
+        if any(_SEL_HARGA_RE.search(s) for s in baris[0]):
+            continue
+        if _find_header(baris) != 0:
+            continue
+        hasil.append({"caption": "", "rows": baris})
+        if len(hasil) >= max_tables:
+            break
+    return hasil
+
+
+def _tabel_asli(soup: BeautifulSoup, max_tables: int, max_rows: int,
+                max_cols: int) -> list[dict]:
     tables = []
     for table in (soup.body or soup).find_all("table", limit=max_tables * 3):
         rows = []

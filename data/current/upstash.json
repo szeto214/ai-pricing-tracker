@@ -7,7 +7,7 @@
   "final_url": "https://upstash.com/pricing/redis",
   "parser_version": 4,
   "content_hash": "982205ee55ee9442f0725933aa65d461c89fdec6b58e82a59e3ec89cb175c989",
-  "raw_hash": "6ff8d6c97fb91ec0b30a558548b8903968416a7a12c152c977b5b4b16641f091",
+  "raw_hash": "41aca4b03884b2f146b9a570cc996b64adc7afb7f59869452d40e4b93c87461a",
   "text_bytes": 12461,
   "currency_hints": [],
   "extractor": "dom",

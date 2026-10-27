@@ -6,44 +6,46 @@
   "url": "https://www.synthesia.io/pricing",
   "final_url": "https://www.synthesia.io/pricing",
   "parser_version": 4,
-  "content_hash": "e4cc698081736468d29769ddd65de94e9723a9b879f462235b3701dd5646bbfb",
-  "raw_hash": "99b85373fc7cb777f79b42d5e481207a2ad7ed8393a632a99d4bfa8cea301506",
-  "text_bytes": 30778,
+  "content_hash": "cf55ff4a356383d54e6547c858fa2935cbdef9dbbe2ce7ba566bdb5adb442a01",
+  "raw_hash": "1948c972498565e27c0aafe759eaff01d30ad1ef22db37b321ae029e95aea32f",
+  "text_bytes": 31041,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
     {
+      "name": "Starter",
+      "price_raw": "$9",
+      "amount": 9.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [],
+      "slot_prices": [
+        9.0,
+        19.0
+      ]
+    },
+    {
+      "name": "Pro",
+      "price_raw": "$49",
+      "amount": 49.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [],
+      "slot_prices": [
+        49.0,
+        89.0
+      ]
+    },
+    {
       "name": "Basic",
-      "price_raw": "$ 0",
+      "price_raw": "$0",
       "amount": 0.0,
       "currency": "USD",
       "period": "month",
       "features": [],
       "slot_prices": [
         0.0
-      ]
-    },
-    {
-      "name": "Starter",
-      "price_raw": "$ 29",
-      "amount": 29.0,
-      "currency": "USD",
-      "period": "month",
-      "features": [],
-      "slot_prices": [
-        29.0
-      ]
-    },
-    {
-      "name": "Pro",
-      "price_raw": "$ 89",
-      "amount": 89.0,
-      "currency": "USD",
-      "period": "month",
-      "features": [],
-      "slot_prices": [
-        89.0
       ]
     },
     {
@@ -59,24 +61,46 @@
     },
     {
       "name": "Starter",
-      "price_raw": "$ 29",
-      "amount": 29.0,
+      "price_raw": "$14",
+      "amount": 14.0,
       "currency": "USD",
       "period": "year",
       "features": [],
       "slot_prices": [
-        29.0
+        14.0
       ]
     },
     {
       "name": "Pro",
-      "price_raw": "$ 64",
-      "amount": 64.0,
+      "price_raw": "$59",
+      "amount": 59.0,
       "currency": "USD",
       "period": "year",
       "features": [],
       "slot_prices": [
-        64.0
+        59.0
+      ]
+    },
+    {
+      "name": "Starter",
+      "price_raw": "$14",
+      "amount": 14.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [],
+      "slot_prices": [
+        14.0
+      ]
+    },
+    {
+      "name": "Pro",
+      "price_raw": "$59",
+      "amount": 59.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [],
+      "slot_prices": [
+        59.0
       ]
     }
   ],

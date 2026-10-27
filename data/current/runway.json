@@ -6,9 +6,9 @@
   "url": "https://runwayml.com/pricing",
   "final_url": "https://runway.com/pricing",
   "parser_version": 4,
-  "content_hash": "3ded330ec61179e1ba2d3bd9eb2269b6ebe523135d7ecc0d3b94b70c792f9b07",
-  "raw_hash": "b1835e53c3bf3ba60edd4f36e5c39f48823cb80c022b4c46c94e47dbbbfb77fa",
-  "text_bytes": 5094,
+  "content_hash": "dcffc742d4a9e2b972e5335bd112079447ea5a7502ccebeb95de80fbef06ff9a",
+  "raw_hash": "eae43afcc566ccbde1ad11f5509b64240faa84a6ea188b9a046e69da3a6c97b6",
+  "text_bytes": 5521,
   "currency_hints": [],
   "extractor": "jsonld",
   "confidence": "medium",
@@ -113,16 +113,16 @@
           "814 videos"
         ],
         [
+          "Kling 4.0 1080p 118 credits/5s 89 credits/5s 25% off 25% off Kling 4.0 generations until November 30.",
+          "84 videos",
+          "303 videos",
+          "1,280 videos"
+        ],
+        [
           "Seedance 2.0 Pro 1080p 160 credits/4s",
           "46 videos",
           "168 videos",
           "712 videos"
-        ],
-        [
-          "Seedance 2.0 Fast 116 credits/4s",
-          "64 videos",
-          "232 videos",
-          "982 videos"
         ],
         [
           "View more"

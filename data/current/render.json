@@ -6,9 +6,9 @@
   "url": "https://render.com/pricing",
   "final_url": "https://render.com/pricing",
   "parser_version": 4,
-  "content_hash": "cfb5fa4119f2e0692330255e027012f505583f8b3c9ff6d6a47987cdfedacaca",
-  "raw_hash": "4828e65ceaa16b8cb56404df0ab35f6c0ec20b23b28727586925171df7cb2cf4",
-  "text_bytes": 15295,
+  "content_hash": "c6317998b0bd136fa829688cbb7351bedf8af63bf161a6c69d8e132fffeb818b",
+  "raw_hash": "0247e17ffe79b4a30b517908209e5a0ce67978f11a341bd2ec8c47fafcb706ec",
+  "text_bytes": 15296,
   "currency_hints": [
     "USD"
   ],
@@ -530,7 +530,7 @@
           "$60/month",
           "3 GB RAM",
           "3 GB storage",
-          "3000 connections",
+          "3,000 connections",
           "3g"
         ],
         [

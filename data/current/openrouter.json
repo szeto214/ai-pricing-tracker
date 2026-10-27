@@ -6,33 +6,44 @@
   "url": "https://openrouter.ai/models",
   "final_url": "https://openrouter.ai/models",
   "parser_version": 4,
-  "content_hash": "8327d6b63f6b5f5f1157ca48ac5c05414c3c220cb73574c9656e334b2d045514",
-  "raw_hash": "57752e8d72e14d609d23d00e754ee37e05e1a1e70367fc27144a0f12d0f60df6",
-  "text_bytes": 9280,
+  "content_hash": "d6121d5f77da918da874a87ca115f70fdcadf7958ab6b7636c3b6ee2f7cdc119",
+  "raw_hash": "88cc4e2023b47751052aa99973771d512e91aa1ab268c747affaaa736d099980",
+  "text_bytes": 8046,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
     {
-      "name": "Qwen: Qwen Image 2.1 Turbo",
-      "price_raw": "$0.0184",
-      "amount": 0.0184,
+      "name": "Amazon: Titan Multimodal Embeddings G1",
+      "price_raw": "$0.06",
+      "amount": 0.06,
       "currency": "USD",
-      "period": "image",
+      "period": null,
       "features": [],
       "slot_prices": [
-        0.0184
+        0.06
       ]
     },
     {
-      "name": "Qwen: Qwen Image 2.1 Pro",
-      "price_raw": "$0.046",
-      "amount": 0.046,
+      "name": "Amazon: Titan Text Embeddings V2",
+      "price_raw": "$0.02",
+      "amount": 0.02,
       "currency": "USD",
-      "period": "image",
+      "period": null,
       "features": [],
       "slot_prices": [
-        0.046
+        0.02
+      ]
+    },
+    {
+      "name": "HeyGen: HeyGen Voice Turbo",
+      "price_raw": "$4",
+      "amount": 4.0,
+      "currency": "USD",
+      "period": "request",
+      "features": [],
+      "slot_prices": [
+        4.0
       ]
     }
   ],

@@ -7,7 +7,7 @@
   "final_url": "https://cursor.com/pricing",
   "parser_version": 4,
   "content_hash": "f79b6c0969ad810336f36787199f04aafb3b191b071fc9509c6983cf2182506d",
-  "raw_hash": "56e31cd27dd179486201d6f2f937b62e97975c8fe5e0a909206bec534a20674b",
+  "raw_hash": "066cf82ebb89f880ed22cc86dc2cf073aa518d232112a0e0a04f99c11ee9898b",
   "text_bytes": 7336,
   "currency_hints": [],
   "extractor": "jsonld",

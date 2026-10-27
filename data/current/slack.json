@@ -6,9 +6,9 @@
   "url": "https://slack.com/pricing",
   "final_url": "https://slack.com/pricing",
   "parser_version": 4,
-  "content_hash": "b57db4203ba8fef7b6a3f2bab20f1aaff26f7ab4afc3046adf3d9f9a4757e153",
-  "raw_hash": "5ca41129ed6fd5894fac1b83ab28e563538381512e29c83f82dc3ec0d3fdb1c1",
-  "text_bytes": 27612,
+  "content_hash": "d239f327ae40eabe5ff95eb0d15cb4ca61f1c4f531023a03e7d311810f0fed9e",
+  "raw_hash": "83f289069932f270d49dbfefaa2541b156b7f78835bfec2b4db5283de9a62ea1",
+  "text_bytes": 28604,
   "currency_hints": [
     "USD"
   ],
@@ -544,14 +544,28 @@
           ""
         ],
         [
-          "Support"
+          "Success Plans"
         ],
         [
-          "Access to customer support We’re here to help you get the most out of Slack, with support for your team every step of the way.",
+          "Standard Success Plan Free, always-on resources and essential support — live help via Help Agent and chat, with 2-business-day target case response.",
           "",
-          "24/7 support",
-          "24/7 support with 4-hr. first response time",
-          "24/7 priority with 4-hr. first response time"
+          "",
+          "",
+          ""
+        ],
+        [
+          "Premier Success Plan Personalized programs, expert guidance, and expedited support — live help via Help Agent, chat, and phone, with 24/7/365 1-hour target resp",
+          "",
+          "Add-on",
+          "",
+          ""
+        ],
+        [
+          "Signature Success Plan A designated Customer Success Manager, specialized programs, and our fastest support — live help via Help Agent, chat, phone, and an emer",
+          "",
+          "Add-on",
+          "Add-on",
+          "Add-on"
         ]
       ]
     }

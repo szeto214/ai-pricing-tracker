@@ -6,14 +6,12 @@
   "url": "https://grafana.com/pricing/",
   "final_url": "https://grafana.com/pricing/",
   "parser_version": 4,
-  "content_hash": "a82ad6eca2d1d89add435891ce727cbef7de400fb2545542ab3b4765308b7060",
-  "raw_hash": "2c8e040b9f77e476790544e5223d18fed9666f9613ddd9014673b13a5b739e57",
-  "text_bytes": 156531,
+  "content_hash": "f942e942082a3ec4ef1a60021a5b2561f890e51835f548bb6635776b1d6380be",
+  "raw_hash": "eb829762ec1329b371baa925a01cfd5ac35703e95b2941b8153e1116c1ca2c3c",
+  "text_bytes": 151354,
   "currency_hints": [
-    "R$",
-    "S$",
-    "£",
-    "¥"
+    "A$",
+    "S$"
   ],
   "extractor": "none",
   "confidence": "none",

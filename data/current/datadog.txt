@@ -206,7 +206,7 @@ Bits Agent Builder — Manual or Autonomous Run
 Bits Code — Code Fix
 ~5 credits
 Bits Investigate — Autonomous Investigation
-~6.5 credits
+~4 credits
 Average credit consumption for each feature set out above is provided only for reference. Actual consumption for any single request may vary with task complexity and the amount of context the model processes.
 Support Plans & Post Sales Services
 From basic plans to bespoke offerings, Datadog offers the right level of support & services for any organization.
@@ -3840,7 +3840,7 @@ plans.
 on-demand
 Start Free Trial
 Kafka Console
-Self-hosted, Confluent Cloud, Amazon MSK provisioned
+Self-hosted and Amazon MSK provisioned
 Starting At
 $
 100
@@ -3903,6 +3903,8 @@ How does Kafka Console differ from Data Streams Monitoring?
 Kafka Console reads directly from the Kafka broker to show how those same producers and consumers, and the infrastructure underneath them, are actually behaving. Data Streams Monitoring instruments application code to show data flow and latency across your services. They’re complementary; you can adopt either independently, or both together to see the full path from broker to application.
 Does Kafka Console support Amazon MSK Serverless?
 Kafka Console pricing only applies to MSK Provisioned clusters. You will not be billed for monitoring MSK Serverless.
+Does Kafka Console support Confluent Cloud?
+Kafka Console pricing does not apply to Confluent Cloud. You will not be billed for monitoring Confluent Cloud clusters.
 Cloud Cost Management
 A unified cost observability platform for Engineering and FinOps
 Datadog Cost Visibility

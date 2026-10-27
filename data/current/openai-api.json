@@ -6,9 +6,9 @@
   "url": "https://platform.openai.com/docs/pricing",
   "final_url": "https://developers.openai.com/api/docs/pricing",
   "parser_version": 4,
-  "content_hash": "2e69b955e6a9c94b26ce8b469e56d41011bcbc04ba4fb113c8af97a5b7173956",
-  "raw_hash": "cf734fcb60d01a595dd95d8d60fb9a491cc9c76d41a08ee998b7277b6de65694",
-  "text_bytes": 6988,
+  "content_hash": "035907434ded6e3a67555d051e2a32b8c5b5ece5758e6f765b6775f5a9f2aaff",
+  "raw_hash": "074dd1bc03f656bab6dc895a36527fde7dfc28df013e4165057b38c7bf6d9324",
+  "text_bytes": 7014,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -41,6 +41,21 @@
         0.1,
         2.5,
         5.0
+      ]
+    },
+    {
+      "name": "gpt-6.1-terra",
+      "price_raw": "$1.00",
+      "amount": 1.0,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        1.0,
+        5.0,
+        0.05,
+        1.25,
+        2.5
       ]
     },
     {
@@ -235,17 +250,6 @@
         5.0,
         0.003
       ]
-    },
-    {
-      "name": "File search",
-      "price_raw": "$0.10",
-      "amount": 0.1,
-      "currency": "USD",
-      "period": "day",
-      "features": [],
-      "slot_prices": [
-        0.1
-      ]
     }
   ],
   "models": [
@@ -300,6 +304,34 @@
         "12h write": {
           "raw": "$5.00",
           "amount": 5.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "gpt-6.1-terra",
+      "model": "gpt-6.1-terra",
+      "prices": {
+        "input": {
+          "raw": "$1.00",
+          "amount": 1.0
+        },
+        "output": {
+          "raw": "$5.00",
+          "amount": 5.0
+        },
+        "cached input": {
+          "raw": "$0.05",
+          "amount": 0.05
+        },
+        "30m write": {
+          "raw": "$1.25",
+          "amount": 1.25
+        },
+        "12h write": {
+          "raw": "$2.50",
+          "amount": 2.5
         }
       },
       "currency": "USD",
@@ -817,6 +849,14 @@
           "$0.10",
           "$2.50",
           "$5.00"
+        ],
+        [
+          "gpt-6.1-terra",
+          "$1.00",
+          "$5.00",
+          "$0.05",
+          "$1.25",
+          "$2.50"
         ],
         [
           "gpt-6-luna",

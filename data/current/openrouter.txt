@@ -1,11 +1,130 @@
 Models
+Amazon: Titan Multimodal Embeddings G1
+Titan Multimodal Embeddings G1
+336K tokens
+Amazon Titan Multimodal Embeddings G1 embeds text, images, or text and image together into a shared vector space for multimodal search and recommendation. Images are sent as base64 (up to 25 MB), text input is limited to 128 tokens, and vectors are 1,024 dimensions by default with 384 and 256 selectable via the
+dimensions
+parameter.
+by
+amazon
+Oct 26, 2026
+$0.06/K images
+Amazon: Titan Embeddings G1 - Text
+Titan Embeddings G1 - Text
+1.71M tokens
+Amazon Titan Embeddings G1 - Text is the first-generation Titan text embedding model. It accepts up to 8,192 tokens per input and returns fixed 1,536-dimension vectors; the
+dimensions
+parameter is not supported.
+by
+amazon
+Oct 26, 2026
+$0.10/M tokens
+Amazon: Titan Text Embeddings V2
+Titan Text Embeddings V2
+1.12M tokens
+Amazon Titan Text Embeddings V2 is a text embedding model for retrieval, search, and clustering. It accepts up to 8,192 tokens per input and returns normalized vectors of 1,024 dimensions by default, with 512 and 256 also selectable via the
+dimensions
+parameter.
+by
+amazon
+Oct 26, 2026
+$0.02/M tokens
+OpenAI: GPT-6.1 Terra Pro (batch)
+GPT-6.1 Terra Pro (batch)
+4K tokens
+GPT-6.1 Terra Pro is the same underlying model as
+GPT-6.1 Terra
+, served with
+reasoning.mode
+set to
+pro
+for higher-quality responses on complex tasks.
+Cost note:
+pro mode spends far more reasoning tokens per request, so a typical request costs several times more than the same request on GPT-6.1 Terra and takes much longer to complete. It is intended for hard, high-stakes problems where the extra accuracy justifies the cost. For everyday coding, agentic, and chat workloads, use
+GPT-6.1 Terra
+instead. Learn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode
+by
+openai
+Oct 26, 2026
+1.05M context
+$0.50/M input
+tokens
+$2.50/M output
+tokens
+OpenAI: GPT-6.1 Terra Pro
+GPT-6.1 Terra Pro
+471M tokens
+GPT-6.1 Terra Pro is the same underlying model as
+GPT-6.1 Terra
+, served with
+reasoning.mode
+set to
+pro
+for higher-quality responses on complex tasks.
+Cost note:
+pro mode spends far more reasoning tokens per request, so a typical request costs several times more than the same request on GPT-6.1 Terra and takes much longer to complete. It is intended for hard, high-stakes problems where the extra accuracy justifies the cost. For everyday coding, agentic, and chat workloads, use
+GPT-6.1 Terra
+instead. Learn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode
+by
+openai
+Oct 26, 2026
+1.05M context
+$1/M input
+tokens
+$5/M output
+tokens
+OpenAI: GPT-6.1 Terra (batch)
+GPT-6.1 Terra (batch)
+23.7M tokens
+GPT-6.1 Terra is the mid-tier model in OpenAI's GPT-6.1 series, priced below GPT-6.1 Sol. It is suited for everyday agentic, coding, and writing work, is particularly strong at understanding screenshots and on-screen content, and is efficient enough for high-volume workloads.
+by
+openai
+Oct 26, 2026
+1.05M context
+$0.50/M input
+tokens
+$2.50/M output
+tokens
+OpenAI: GPT-6.1 Terra
+GPT-6.1 Terra
+26.5B tokens
+GPT-6.1 Terra is the mid-tier model in OpenAI's GPT-6.1 series, priced below GPT-6.1 Sol. It is suited for everyday agentic, coding, and writing work, is particularly strong at understanding screenshots and on-screen content, and is efficient enough for high-volume workloads.
+by
+openai
+Oct 26, 2026
+1.05M context
+$1/M input
+tokens
+$5/M output
+tokens
+HeyGen: HeyGen Voice Turbo (free)
+HeyGen Voice Turbo (free)
+Going away November 30, 2026
+1.45M tokens
+HeyGen Voice Turbo is a lower-latency version of HeyGen Voice, HeyGen's text-to-speech model. It has the same 10 default voices, or bring your own HeyGen key to use voice clones from your own account. It streams 44.1 kHz mono PCM audio, with support for 39 languages and up to 5,000 characters per request.
+by
+heygen
+Oct 26, 2026
+$0/M input
+tokens
+$0/M output
+tokens
+HeyGen: HeyGen Voice Turbo
+HeyGen Voice Turbo
+50% off
+3.83M tokens
+HeyGen Voice Turbo is a lower-latency version of HeyGen Voice, HeyGen's text-to-speech model. It has the same 10 default voices, or bring your own HeyGen key to use voice clones from your own account. It streams 44.1 kHz mono PCM audio, with support for 39 languages and up to 5,000 characters per request.
+by
+heygen
+Oct 26, 2026
+$4/M characters
 MoonshotAI: Kimi K3.1 Pro
 Kimi K3.1 Pro
-682B tokens
+873B tokens
 SEO (#34)
-Programming (#24)
-Science (#30)
-Technology (#29)
+Programming (#21)
+Science (#28)
+Technology (#28)
 Kimi K3.1 Pro is Moonshot AI's flagship open-weight multimodal reasoning model and a post-trained successor to Kimi K3, with a 1M-token context window. It is built for long-horizon coding, 3D creation, financial research, and end-to-end agentic knowledge work, with native image and video understanding.
 by
 moonshotai
@@ -17,7 +136,7 @@ $10/M output
 tokens
 Recursive: Flint (free)
 Flint (free)
-147B tokens
+173B tokens
 Flint is an open-weight mixture-of-experts model from Recursive, with about 2.5B active parameters out of 40B total, built by Recursive's autoresearch system Eureka Machine for coding agents. It is suited for investigating codebases, fixing bugs, implementing features, and writing tests.
 by
 recursive
@@ -29,7 +148,7 @@ $0/M output
 tokens
 Baseten: Mammoth 1 (free)
 Mammoth 1 (free)
-580M tokens
+768M tokens
 Mammoth 1 is a 27B decision model from Base Labs, Baseten's research team, built on Qwen3.5-27B. Given a state (text or JSON) and typed questions (yes/no, multiple choice, or ordinal score), it returns a calibrated probability for every option in a single forward pass, with no text generation. It is TypeSafe System One compatible and suits classification, routing, and scoring where you need a scored answer instead of prose. Its smaller sibling is
 Elephant 1
 .
@@ -42,7 +161,7 @@ $0/M output
 tokens
 Baseten: Elephant 1 (free)
 Elephant 1 (free)
-402M tokens
+497M tokens
 Elephant 1 is a 9B decision model from Base Labs, Baseten's research team, built on Qwen3.5-9B. Given a state (text or JSON) and typed questions (yes/no, multiple choice, or ordinal score), it returns a calibrated probability for every option in a single forward pass, with no text generation. It is TypeSafe System One compatible and suits routing, classification, and scoring where you need a scored answer instead of prose. Its larger sibling is
 Mammoth 1
 .
@@ -55,20 +174,20 @@ $0/M output
 tokens
 Nace.AI: Drex Max
 Drex Max
-3.33B tokens
+4.33B tokens
 Drex Max is the largest decision model from Nace.AI, the successor to
 Drex v2.0
 . Given a state (text or JSON) and typed questions (yes/no, multiple choice, or ordinal score), it returns a calibrated probability for every option in a single forward pass, with no text generation. It is TypeSafe System One compatible and suits routing, classification, and policy checks that need a scored answer instead of prose.
 by
 nace-ai
 Oct 21, 2026
-$0.06/M input
+$0.12/M input
 tokens
 $0/M output
 tokens
 NVIDIA: Nemotron 3.5 Embed 1B (free)
 Nemotron 3.5 Embed 1B (free)
-178M tokens
+240M tokens
 Nemotron 3.5 Embed 1B is a multimodal embedding model from NVIDIA for multilingual retrieval over text and document page images (tables, charts, infographics). Queries are text and documents can be text, an image, or both. It returns 2048-dim vectors that can be truncated, and shares the text embedding space of Nemotron 3 Embed 1B.
 by
 nvidia
@@ -79,7 +198,7 @@ $0/M output
 tokens
 NVIDIA: Nemotron 3.5 Embed 8B (free)
 Nemotron 3.5 Embed 8B (free)
-214M tokens
+222M tokens
 Nemotron 3.5 Embed 8B is a multimodal embedding model from NVIDIA for multilingual retrieval over text and document page images (tables, charts, infographics). Queries are text and documents can be text, an image, or both. It returns 4096-dim vectors that can be truncated, and shares the text embedding space of Nemotron 3 Embed 8B.
 by
 nvidia
@@ -90,124 +209,11 @@ $0/M output
 tokens
 NVIDIA: Nemotron 3.5 Rerank 8B (free)
 Nemotron 3.5 Rerank 8B (free)
-360M tokens
+491M tokens
 by
 nvidia
 Oct 21, 2026
 $0/M input
-tokens
-$0/M output
-tokens
-Mistral: Voxtral TTS 3
-Voxtral TTS 3
-2.04M tokens
-Voxtral TTS 3 is Mistral's text-to-speech model. It converts text into natural-sounding speech, offers a library of preset voices, supports zero-shot voice cloning, and accepts emotion and pace tags in the input to control delivery. It streams audio with low time-to-first-audio and suits voice agents, narration, and multilingual assistants.
-by
-mistralai
-Oct 20, 2026
-$13/M characters
-Mistral: Voxtral Small Transcribe 3
-Voxtral Small Transcribe 3
-39.2M characters
-Voxtral Small Transcribe 3 is Mistral's flagship speech-to-text model. It takes audio input and returns a transcript with timestamps and speaker diarization, and supports context biasing for domain-specific vocabulary. Suited for high-accuracy multilingual transcription of meetings, interviews, media, and support calls.
-by
-mistralai
-Oct 20, 2026
-$0.000067/second
-Mistral: Voxtral Mini Transcribe 3
-Voxtral Mini Transcribe 3
-11.8M characters
-Voxtral Mini Transcribe 3 is Mistral's compact speech-to-text model. It takes audio input and returns a transcript with timestamps and speaker diarization. It also supports context biasing for domain terms. It is small enough to self-deploy in resource-constrained environments, and fits meeting notes, call analytics, and voice-agent pipelines where cost matters.
-by
-mistralai
-Oct 20, 2026
-$0.000058/second
-MiniMax: MiniMax M3.1 Flash
-MiniMax M3.1 Flash
-970B tokens
-Programming (#28)
-Science (#27)
-Technology (#27)
-MiniMax-M3.1-Flash is a multimodal model from MiniMax. Compared with M3, it delivers significant improvements across multiple benchmarks, particularly in complex agentic tasks, coding, and cybersecurity. It is built for complex, multi-step co-work automation, understanding real codebases, fixing bugs, and building features, and visual understanding and creation, including frontend and presentation creation. It is an open-weight mixture-of-experts model with 23B active / 428B total parameters.
-by
-minimax
-Oct 19, 2026
-1.05M context
-$0.10/M input
-tokens
-$0.55/M output
-tokens
-DeepSeek: DeepSeek V4.1 Flash 1017
-DeepSeek V4.1 Flash 1017
-35.3T tokens
-Academia (#1)
-Finance (#2)
-Health (#8)
-Legal (#3)
-Marketing (#5)
-+7 categories
-DeepSeek V4.1 Flash 1017 is the October 17, 2026 snapshot of DeepSeek V4.1 Flash, served by DeepSeek under the
-deepseek-flash
-API model name. V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture. It activates 8B parameters on input and 16B on output from a 552B-parameter backbone, an asymmetric split that keeps per-token compute low relative to the model's total size. Image understanding is native to the architecture, with visual and text embeddings trained jointly from the start of pre-training rather than added afterward as in the earlier experimental
-V4 Flash Vision Exp
-. It is suited for coding, terminal, and computer-use agents, along with long-horizon tasks that must run to completion across many steps and long-context analysis. Compressed KV caching cuts cache memory to roughly a quarter of the previous Flash generation, significantly reducing costs on agentic workloads. DeepSeek positions it as the cost-efficient tier of the V4.1 family and reports that it exceeds
-V4 Pro
-on performance, speed, and task completion time.
-by
-deepseek
-Oct 17, 2026
-1.05M context
-$0.02/M input
-tokens
-$1/M output
-tokens
-Elorian: Glimpse
-Glimpse
-2.73B tokens
-Glimpse is a multimodal visual reasoning model from Elorian, built for visual understanding and complex visual reasoning in the physical world. It reasons directly over images and video rather than converting them to text first, so it can find small details in dense scenes, track events across video frames, and ground its answers in what is actually on screen. It is suited for agentic visual workflows such as visual search, video captioning, and dense counting, and for physical-world use cases in robotics, construction, engineering, and manufacturing.
-by
-elorian
-Oct 17, 2026
-262K context
-$0.60/M input
-tokens
-$3/M output
-tokens
-Qwen: Qwen Image 2.1 Turbo
-Qwen Image 2.1 Turbo
-137M tokens
-Qwen Image 2.1 Turbo is the fast, lower-cost tier of the Qwen Image 2.1 series from Qwen, for image generation and editing where throughput and price matter more than peak fidelity. See Qwen Image 2.1 Pro for the higher-quality tier.
-by
-qwen
-Oct 16, 2026
-from $0.0184/image
-Qwen: Qwen Image 2.1 Pro
-Qwen Image 2.1 Pro
-63.2M tokens
-Qwen Image 2.1 Pro is an image generation and editing model from Qwen, the higher-quality tier of the Qwen Image 2.1 series. Choose it over Qwen Image 2.1 Turbo when output fidelity matters more than cost or speed.
-by
-qwen
-Oct 16, 2026
-from $0.046/image
-Perplexity: Decider Flash V1.2
-Decider Flash V1.2
-25.7B tokens
-Trivia (#32)
-Decider Flash V1.2 is a 4B-parameter decision model from Perplexity, a smaller, lower-cost sibling of
-Decider V1.2
-with the same API contract. Instead of generating text, it reads content passed as
-state
-(text, JSON, or images) and returns typed, probabilistic answers to one or more named questions in a single request: the probability of yes for a yes/no question (
-noul
-), a probability for every option plus the most likely one (
-choice
-, up to 255 options), or a probability for every level of an ordered rubric plus the expected score (
-score
-). It suits high-volume classification, routing, and moderation where application code thresholds the returned numbers rather than parsing a chat reply.
-by
-perplexity
-Oct 16, 2026
-$0.01/M input
 tokens
 $0/M output
 tokens

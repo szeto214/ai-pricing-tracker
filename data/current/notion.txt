@@ -119,23 +119,19 @@ Contact us
 Content
 Blocks are pieces of content you add to a page (e.g. to-do checkboxes, paragraphs, bullet points, etc.). Teams who want to try collaborating in Notion can use the Free Plan with up to certain number of blocks before upgrading.
 Pages & blocks
-Unlimited for individuals
-limited for 2+ members
-Unlimited
-Unlimited
-Unlimited
-On the Free plan, you can upload images, videos and file attachments up to 5MB each. Upgrade to a paid plan for unlimited file uploads with a ~5GB max per file.
+Limited for 2+ members
+On the Free plan, you can upload images, videos and file attachments up to 5 MB each. Upgrade to a paid plan to upload files up to 5 GB each.
 File uploads
 Up to 5 MB
-Unlimited
-Unlimited
-Unlimited
+Up to 5 GB
+Up to 5 GB
+Up to 5 GB
 Restore your page to a previous version.
 Page history
 7 days
 30 days
 90 days
-Unlimited
+Custom
 Add a verified badge to pages that are up to date. Appears in search results and AI citations.
 Verify any page
 Use Notion offline on the desktop and mobile app.
@@ -148,9 +144,6 @@ Sharing & collaboration
 Guests are external collaborators outside your organization, such as agencies, partners, contractors, or vendors.
 External guest limit
 10
-Unlimited guests
-Unlimited guests
-Unlimited guests
 Create dedicated areas for folks to work together, without creating information silos. People can join the teamspaces that interest them, and leave the ones that don’t.
 Teamspaces (open & closed)
 Create teamspaces that can’t be seen or discovered by anyone except those you add. Great for sensitive information like company planning or performance reviews.
@@ -191,14 +184,11 @@ Requires Notion credits
 Database features
 Add subtasks, and link dependencies.
 Subtasks and dependencies
-Add unlimited database properties and filters to organize information.
+Add database properties and filters to organize information.
 Custom properties and filtering
 Visualize data from databases in different ways (e.g. donut, bar, and line charts).
 Charts
 1
-Unlimited
-Unlimited
-Unlimited
 Capture, organize, and act on responses right inside Notion.
 Forms
 Basic
@@ -239,8 +229,8 @@ See up-to-date information from Jira, GitHub & Asana, all synced into Notion as 
 1-way database syncs
 Same as business
 Web publishing
-Publish an unlimited number of pages to the web.
-Unlimited published pages
+Share your pages on the web.
+Published pages
 Select a custom notion.site domain for your published pages.
 notion.site domains
 1

@@ -60,7 +60,7 @@ Contact sales
 Platform
 Custom usage and rate limits
 Full access to Buildkite’s testing platform
-Buildkite hosted agents with remote Docker builders, private container registry, largest machine sizes, Linux ARM64, and scalable concurrency
+Buildkite hosted agents with remote Docker builders, largest machine sizes, Linux ARM64, and scalable concurrency
 Custom storage and retention policies for builds, artifacts, and logs
 Dynamic pipelines
 99.95% platform uptime commitment
@@ -142,7 +142,7 @@ Custom
 Workflows
 —
 1 workflow
-Includes test state management and auto-quarantine
+Includes flaky identification and labelling
 Custom
 Set custom quarantine rules
 Test history window
@@ -225,12 +225,12 @@ Custom agent images
 ✓
 ✓
 Cache volumes
-—
+✓
 ✓
 ✓
 Internal container registry
-—
-—
+✓
+✓
 ✓
 Remote Docker builds
 —
@@ -381,7 +381,7 @@ Private registries
 +
 −
 Hosted Agents
-Expand to see 8 features
+Expand to see 10 features
 Linux vCPU minutes
 Included Linux hosted agent vCPU minutes per month.
 Up to 2,000 mins/month
@@ -405,6 +405,10 @@ Available M4 Mac hosted agent sizes.
 Git mirror volumes
 ✓
 Custom agent images
+✓
+Cache volumes
+✓
+Internal container registry
 ✓
 +
 −
@@ -447,7 +451,7 @@ A test execution is a recorded result from one run of a test. Ingesting this dat
 Then $15/M executions
 Workflows
 1 workflow
-Includes test state management and auto-quarantine
+Includes flaky identification and labelling
 Test history window
 How far back Buildkite can query ingested test results and insights.
 7 days
@@ -468,7 +472,7 @@ Arbitrary files
 +
 −
 Hosted Agents
-Expand to see 9 features
+Expand to see 10 features
 Linux vCPU minutes
 Included Linux hosted agent vCPU minutes per month.
 4,000 mins/month included
@@ -495,6 +499,8 @@ Git mirror volumes
 Custom agent images
 ✓
 Cache volumes
+✓
+Internal container registry
 ✓
 +
 −
@@ -795,3 +801,4 @@ Forum
 Theme:
 System
 © Buildkite Pty Ltd 2026
+Cookie settings

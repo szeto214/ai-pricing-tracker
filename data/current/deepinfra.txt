@@ -375,11 +375,6 @@ Llama-3.3-70B-Instruct-Turbo
 $0.10
 $0.32
 View more
-Meta-Llama-3.1-70B-Instruct-Turbo
-128k
-$0.40
-$0.40
-View more
 Meta-Llama-3.1-8B-Instruct-Turbo
 128k
 $0.02
@@ -394,11 +389,6 @@ Llama-3.3-70B-Instruct-Turbo
 128k
 $0.10
 $0.32
-View more
-Meta-Llama-3.1-70B-Instruct-Turbo
-128k
-$0.40
-$0.40
 View more
 Meta-Llama-3.1-8B-Instruct-Turbo
 128k
@@ -1056,19 +1046,19 @@ DeepSeek-V4.1-Flash-1017
 Featured Models
 nvidia
 /
-NVIDIA-Nemotron-3-Ultra-550B-A55B
-stepfun-ai
-/
-Step-5-Preview
-nvidia
-/
-NVIDIA-Nemotron-3-Super-120B-A12B
+NVIDIA-Nemotron-3.5-Super-VL
 deepseek-ai
 /
-DeepSeek-V3.2
-google
+DeepSeek-V4.1-Flash-1017
+nvidia
 /
-gemma-4-31B-it
+NVIDIA-Nemotron-3-Ultra-550B-A55B
+zai-org
+/
+GLM-5.3
+Qwen
+/
+Qwen3.5-397B-A17B
 © 2026 DeepInfra. All rights reserved.
 Privacy Policy
 Terms of Service

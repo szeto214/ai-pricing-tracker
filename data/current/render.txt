@@ -1,8 +1,5 @@
 Migrating production infrastructure? Get up to $10K in migration credits.
 Apply now
-Migrate to Render
-Sign in
-Get started
 Predictable pricing that scales with you.
 Jump to
 workspace plans
@@ -480,6 +477,38 @@ $2.50/hour
 8c-32g
 Expand
 compute table
+Sandboxes
+Beta
+Scale up to
+8
+CPU and
+16
+GB of RAM
+Isolated microVMs for agents, apps, and untrusted code
+Sandboxes can run up to 30 days on Pro and above
+Automatic suspend and resume when idle
+40 GB of disk included per sandbox
+Pay only for the CPU you use
+Snapshot storage
+for $0.08/GB per month
+1 CPU
+$0.12 / active CPU hour + $0.038/hour for memory
+2 GB RAM
+1c-2g
+2 CPU
+$0.12 / active CPU hour + $0.076/hour for memory
+4 GB RAM
+2c-4g
+4 CPU
+$0.12 / active CPU hour + $0.152/hour for memory
+8 GB RAM
+4c-8g
+8 CPU
+$0.12 / active CPU hour + $0.304/hour for memory
+16 GB RAM
+8c-16g
+Expand
+compute table
 Static Sites
 Always free to deploy
 Lightning-fast CDN
@@ -545,6 +574,24 @@ New task compute per minute
 32 CPU
 128 GB RAM
 Custom
+Sandboxes
+Default concurrent sandboxes
+100
+1,000
+Up to 5,000 on request
+1,000
+Up to 10,000 on request
+Custom
+Maximum session length
+24 hours
+No limit
+No limit
+No limit
+Snapshot storage
+$0.08 per GB per month
+$0.08 per GB per month
+$0.08 per GB per month
+$0.08 per GB per month
 Service scaling
 Vertical scaling
 Horizontal autoscaling
@@ -773,6 +820,13 @@ Parallel task compute
 New task compute per minute
 16 CPU
 64 GB RAM
+Sandboxes
+Default concurrent sandboxes
+100
+Maximum session length
+24 hours
+Snapshot storage
+$0.08 per GB per month
 Service scaling
 Vertical scaling
 Horizontal autoscaling

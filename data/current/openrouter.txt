@@ -1,7 +1,38 @@
 Models
+LiquidAI: d1.1
+d1.1
+199M tokens
+d1.1 is Liquid AI's structured decision model, served as a System One endpoint and the successor to d1. Send a state along with typed questions, and it returns a choice, a score, or a yes/no answer, each with a probability taken directly from the model rather than written out as text. It uses the same /v1/systemone schema as other OpenRouter Decisions models, so it suits routing, classification, and policy checks that need a fast, scored answer instead of prose.
+by
+liquid
+Oct 27, 2026
+$0.02/M input
+tokens
+$0/M output
+tokens
+LiquidAI: d1-ultra Latest
+d1-ultra Latest
+This model always redirects to the latest model in the d1-ultra family.
+by
+liquid
+Oct 27, 2026
+$0.042/M input
+tokens
+$0/M output
+tokens
+LiquidAI: d1 Latest
+d1 Latest
+This model always redirects to the latest model in the d1 family.
+by
+liquid
+Oct 27, 2026
+$0.02/M input
+tokens
+$0/M output
+tokens
 Amazon: Titan Multimodal Embeddings G1
 Titan Multimodal Embeddings G1
-336K tokens
+531K tokens
 Amazon Titan Multimodal Embeddings G1 embeds text, images, or text and image together into a shared vector space for multimodal search and recommendation. Images are sent as base64 (up to 25 MB), text input is limited to 128 tokens, and vectors are 1,024 dimensions by default with 384 and 256 selectable via the
 dimensions
 parameter.
@@ -11,7 +42,7 @@ Oct 26, 2026
 $0.06/K images
 Amazon: Titan Embeddings G1 - Text
 Titan Embeddings G1 - Text
-1.71M tokens
+3.18M tokens
 Amazon Titan Embeddings G1 - Text is the first-generation Titan text embedding model. It accepts up to 8,192 tokens per input and returns fixed 1,536-dimension vectors; the
 dimensions
 parameter is not supported.
@@ -21,7 +52,7 @@ Oct 26, 2026
 $0.10/M tokens
 Amazon: Titan Text Embeddings V2
 Titan Text Embeddings V2
-1.12M tokens
+11.2M tokens
 Amazon Titan Text Embeddings V2 is a text embedding model for retrieval, search, and clustering. It accepts up to 8,192 tokens per input and returns normalized vectors of 1,024 dimensions by default, with 512 and 256 also selectable via the
 dimensions
 parameter.
@@ -31,7 +62,7 @@ Oct 26, 2026
 $0.02/M tokens
 OpenAI: GPT-6.1 Terra Pro (batch)
 GPT-6.1 Terra Pro (batch)
-4K tokens
+24.9M tokens
 GPT-6.1 Terra Pro is the same underlying model as
 GPT-6.1 Terra
 , served with
@@ -53,7 +84,7 @@ $2.50/M output
 tokens
 OpenAI: GPT-6.1 Terra Pro
 GPT-6.1 Terra Pro
-471M tokens
+4.43B tokens
 GPT-6.1 Terra Pro is the same underlying model as
 GPT-6.1 Terra
 , served with
@@ -75,7 +106,7 @@ $5/M output
 tokens
 OpenAI: GPT-6.1 Terra (batch)
 GPT-6.1 Terra (batch)
-23.7M tokens
+78.8M tokens
 GPT-6.1 Terra is the mid-tier model in OpenAI's GPT-6.1 series, priced below GPT-6.1 Sol. It is suited for everyday agentic, coding, and writing work, is particularly strong at understanding screenshots and on-screen content, and is efficient enough for high-volume workloads.
 by
 openai
@@ -87,7 +118,7 @@ $2.50/M output
 tokens
 OpenAI: GPT-6.1 Terra
 GPT-6.1 Terra
-26.5B tokens
+118B tokens
 GPT-6.1 Terra is the mid-tier model in OpenAI's GPT-6.1 series, priced below GPT-6.1 Sol. It is suited for everyday agentic, coding, and writing work, is particularly strong at understanding screenshots and on-screen content, and is efficient enough for high-volume workloads.
 by
 openai
@@ -100,7 +131,7 @@ tokens
 HeyGen: HeyGen Voice Turbo (free)
 HeyGen Voice Turbo (free)
 Going away November 30, 2026
-1.45M tokens
+3.28M tokens
 HeyGen Voice Turbo is a lower-latency version of HeyGen Voice, HeyGen's text-to-speech model. It has the same 10 default voices, or bring your own HeyGen key to use voice clones from your own account. It streams 44.1 kHz mono PCM audio, with support for 39 languages and up to 5,000 characters per request.
 by
 heygen
@@ -112,7 +143,7 @@ tokens
 HeyGen: HeyGen Voice Turbo
 HeyGen Voice Turbo
 50% off
-3.83M tokens
+3.66M tokens
 HeyGen Voice Turbo is a lower-latency version of HeyGen Voice, HeyGen's text-to-speech model. It has the same 10 default voices, or bring your own HeyGen key to use voice clones from your own account. It streams 44.1 kHz mono PCM audio, with support for 39 languages and up to 5,000 characters per request.
 by
 heygen
@@ -120,11 +151,12 @@ Oct 26, 2026
 $4/M characters
 MoonshotAI: Kimi K3.1 Pro
 Kimi K3.1 Pro
-873B tokens
-SEO (#34)
-Programming (#21)
-Science (#28)
-Technology (#28)
+1.13T tokens
+Finance (#50)
+Health (#44)
+SEO (#32)
+Programming (#17)
+Science (#25)
 Kimi K3.1 Pro is Moonshot AI's flagship open-weight multimodal reasoning model and a post-trained successor to Kimi K3, with a 1M-token context window. It is built for long-horizon coding, 3D creation, financial research, and end-to-end agentic knowledge work, with native image and video understanding.
 by
 moonshotai
@@ -136,7 +168,7 @@ $10/M output
 tokens
 Recursive: Flint (free)
 Flint (free)
-173B tokens
+180B tokens
 Flint is an open-weight mixture-of-experts model from Recursive, with about 2.5B active parameters out of 40B total, built by Recursive's autoresearch system Eureka Machine for coding agents. It is suited for investigating codebases, fixing bugs, implementing features, and writing tests.
 by
 recursive
@@ -146,48 +178,23 @@ $0/M input
 tokens
 $0/M output
 tokens
-Baseten: Mammoth 1 (free)
-Mammoth 1 (free)
-768M tokens
-Mammoth 1 is a 27B decision model from Base Labs, Baseten's research team, built on Qwen3.5-27B. Given a state (text or JSON) and typed questions (yes/no, multiple choice, or ordinal score), it returns a calibrated probability for every option in a single forward pass, with no text generation. It is TypeSafe System One compatible and suits classification, routing, and scoring where you need a scored answer instead of prose. Its smaller sibling is
-Elephant 1
-.
-by
-baseten
-Oct 21, 2026
-$0/M input
-tokens
-$0/M output
-tokens
-Baseten: Elephant 1 (free)
-Elephant 1 (free)
-497M tokens
-Elephant 1 is a 9B decision model from Base Labs, Baseten's research team, built on Qwen3.5-9B. Given a state (text or JSON) and typed questions (yes/no, multiple choice, or ordinal score), it returns a calibrated probability for every option in a single forward pass, with no text generation. It is TypeSafe System One compatible and suits routing, classification, and scoring where you need a scored answer instead of prose. Its larger sibling is
-Mammoth 1
-.
-by
-baseten
-Oct 21, 2026
-$0/M input
-tokens
-$0/M output
-tokens
 Nace.AI: Drex Max
 Drex Max
-4.33B tokens
+50% off
+5.67B tokens
 Drex Max is the largest decision model from Nace.AI, the successor to
 Drex v2.0
-. Given a state (text or JSON) and typed questions (yes/no, multiple choice, or ordinal score), it returns a calibrated probability for every option in a single forward pass, with no text generation. It is TypeSafe System One compatible and suits routing, classification, and policy checks that need a scored answer instead of prose.
+. Given a state (text, JSON, or up to four images) and typed questions (yes/no, multiple choice, or ordinal score), it returns a calibrated probability for every option in a single forward pass, with no text generation. It is TypeSafe System One compatible and suits routing, classification, and policy checks that need a scored answer instead of prose.
 by
 nace-ai
 Oct 21, 2026
-$0.12/M input
+$0.06/M input
 tokens
 $0/M output
 tokens
 NVIDIA: Nemotron 3.5 Embed 1B (free)
 Nemotron 3.5 Embed 1B (free)
-240M tokens
+288M tokens
 Nemotron 3.5 Embed 1B is a multimodal embedding model from NVIDIA for multilingual retrieval over text and document page images (tables, charts, infographics). Queries are text and documents can be text, an image, or both. It returns 2048-dim vectors that can be truncated, and shares the text embedding space of Nemotron 3 Embed 1B.
 by
 nvidia
@@ -198,18 +205,8 @@ $0/M output
 tokens
 NVIDIA: Nemotron 3.5 Embed 8B (free)
 Nemotron 3.5 Embed 8B (free)
-222M tokens
+339M tokens
 Nemotron 3.5 Embed 8B is a multimodal embedding model from NVIDIA for multilingual retrieval over text and document page images (tables, charts, infographics). Queries are text and documents can be text, an image, or both. It returns 4096-dim vectors that can be truncated, and shares the text embedding space of Nemotron 3 Embed 8B.
-by
-nvidia
-Oct 21, 2026
-$0/M input
-tokens
-$0/M output
-tokens
-NVIDIA: Nemotron 3.5 Rerank 8B (free)
-Nemotron 3.5 Rerank 8B (free)
-491M tokens
 by
 nvidia
 Oct 21, 2026

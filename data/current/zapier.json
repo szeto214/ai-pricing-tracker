@@ -6,9 +6,9 @@
   "url": "https://zapier.com/pricing",
   "final_url": "https://zapier.com/pricing",
   "parser_version": 4,
-  "content_hash": "055a375b52670cda8ea5678c2ad357ca8591c14366630a9fde4ccee2397e89ef",
-  "raw_hash": "bc39210d44f54945aca5d23b6616e521de4297a7b1f3a51711854235fd2b2652",
-  "text_bytes": 18651,
+  "content_hash": "9e9ff09aafd9100fa355dc56fea55896f0e173a04ede5453e69435ad6f2bed07",
+  "raw_hash": "2e2b8f66261162fd3fa65ce4d18262a526c592ae0f740186db8782190d0dae7b",
+  "text_bytes": 18852,
   "currency_hints": [
     "AUD",
     "BRL",
@@ -56,7 +56,14 @@
       "amount": 19.99,
       "currency": "USD",
       "period": "month",
-      "features": [],
+      "features": [
+        "Multi-step Zaps",
+        "Unlimited Premium",
+        "Webhooks",
+        "Email and live chat** support",
+        "AI fields",
+        "Conditional form logic"
+      ],
       "slot_prices": [
         19.99
       ]

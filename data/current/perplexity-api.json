@@ -6,9 +6,9 @@
   "url": "https://docs.perplexity.ai/getting-started/pricing",
   "final_url": "https://docs.perplexity.ai/docs/getting-started/pricing",
   "parser_version": 4,
-  "content_hash": "20bc8099d6995731fff4e24ad944465eabc08b98d4a4b43d7e40cc5b3d949610",
-  "raw_hash": "e9d094bdb1b662a0b708f4ca2a660b28262b8037f4ef0353d2bdbf0502ec3edb",
-  "text_bytes": 7244,
+  "content_hash": "17cbc8bd53435cb6f5a10ae534a313a8e6eae96d46ab5e6879f06cf14542ebcd",
+  "raw_hash": "e5f6e0cceea6fd1b75d8162d0fec18f408641f784b0a04f591fa08b3ae0482ad",
+  "text_bytes": 8074,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -125,6 +125,28 @@
     },
     {
       "name": "Search API with",
+      "price_raw": "$1.00",
+      "amount": 1.0,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        1.0
+      ]
+    },
+    {
+      "name": "One",
+      "price_raw": "$5.00",
+      "amount": 5.0,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        5.0
+      ]
+    },
+    {
+      "name": "One",
       "price_raw": "$1.00",
       "amount": 1.0,
       "currency": "USD",
@@ -342,6 +364,54 @@
       "unit": "per 1k requests"
     },
     {
+      "key": "one post /search with one query, up to 20 results|k3",
+      "model": "One POST /search with one query, up to 20 results",
+      "prices": {
+        "kolom 3": {
+          "raw": "$5.00",
+          "amount": 5.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "one post /search with one query and search_type: \"fast\"|k3",
+      "model": "One POST /search with one query and search_type: \"fast\"",
+      "prices": {
+        "kolom 3": {
+          "raw": "$1.00",
+          "amount": 1.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "one post /search with a query array of five queries|k3",
+      "model": "One POST /search with a query array of five queries",
+      "prices": {
+        "kolom 3": {
+          "raw": "$0.005",
+          "amount": 0.005
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "10,000 successful standard requests in a month|k3",
+      "model": "10,000 successful standard requests in a month",
+      "prices": {
+        "kolom 3": {
+          "raw": "$5.00",
+          "amount": 5.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
       "key": "pplx-embed-v1-0.6b",
       "model": "pplx-embed-v1-0.6b",
       "prices": {
@@ -507,12 +577,42 @@
         [
           "Search API",
           "$5.00",
-          "Raw web search results with advanced filtering"
+          "Ranked web results as JSON, with page text extracted into each result’s snippet . No model, no generated answer, no token billing. Filter by domain, language, a"
         ],
         [
           "Search API with Fast Search",
           "$1.00",
-          "Lower-latency web search results. Set search_type: \"fast\""
+          "Lower-latency results in the same response format. Set search_type: \"fast\""
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Request",
+          "Billing units",
+          "Cost"
+        ],
+        [
+          "One POST /search with one query, up to 20 results",
+          "1",
+          "$5.00 ÷ 1,000 = $0.005"
+        ],
+        [
+          "One POST /search with one query and search_type: \"fast\"",
+          "1",
+          "$1.00 ÷ 1,000 = $0.001"
+        ],
+        [
+          "One POST /search with a query array of five queries",
+          "1",
+          "$0.005 (standard) or $0.001 (Fast Search)"
+        ],
+        [
+          "10,000 successful standard requests in a month",
+          "10,000",
+          "10 × $5.00 = $50.00"
         ]
       ]
     },

@@ -6,9 +6,9 @@
   "url": "https://render.com/pricing",
   "final_url": "https://render.com/pricing",
   "parser_version": 4,
-  "content_hash": "c6317998b0bd136fa829688cbb7351bedf8af63bf161a6c69d8e132fffeb818b",
-  "raw_hash": "0247e17ffe79b4a30b517908209e5a0ce67978f11a341bd2ec8c47fafcb706ec",
-  "text_bytes": 15296,
+  "content_hash": "2815c93fbdfd9397c6f70f2c520153f693f36be4977ec95da453c223a5c464bc",
+  "raw_hash": "612612961f777fce2e7fb0e981b5f5daf2356c1532a5a2b98b43089e87c6a2f0",
+  "text_bytes": 16250,
   "currency_hints": [
     "USD"
   ],
@@ -684,6 +684,35 @@
           "$2.50/hour",
           "32 GB RAM",
           "8c-32g"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "1 CPU",
+          "$0.12 / active CPU hour + $0.038/hour for memory",
+          "2 GB RAM",
+          "1c-2g"
+        ],
+        [
+          "2 CPU",
+          "$0.12 / active CPU hour + $0.076/hour for memory",
+          "4 GB RAM",
+          "2c-4g"
+        ],
+        [
+          "4 CPU",
+          "$0.12 / active CPU hour + $0.152/hour for memory",
+          "8 GB RAM",
+          "4c-8g"
+        ],
+        [
+          "8 CPU",
+          "$0.12 / active CPU hour + $0.304/hour for memory",
+          "16 GB RAM",
+          "8c-16g"
         ]
       ]
     }

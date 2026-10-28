@@ -6,9 +6,9 @@
   "url": "https://www.shopify.com/pricing",
   "final_url": "https://www.shopify.com/pricing",
   "parser_version": 4,
-  "content_hash": "54eacb14ee486b3b4150b4c0abba42ddb524913aeb1fae5d74d2778353b1495d",
-  "raw_hash": "c67806847b6224dd0bbf2b8606f9664ccef4b6f160135621b123af3ba1e6768e",
-  "text_bytes": 15148,
+  "content_hash": "c256197b4f5f89397d2abd466aca785f9708896c55e40fc8d46db682f21cfec4",
+  "raw_hash": "acdf4c6047869b77598a9d1ed38cd2cb89b55037744fe48df8d1d92705cb3c88",
+  "text_bytes": 15090,
   "currency_hints": [
     "US$",
     "USD"
@@ -289,13 +289,6 @@
           "Live chat",
           "Enhanced live chat",
           "Priority support"
-        ],
-        [
-          "Free Shopify Academy courses",
-          "",
-          "",
-          "",
-          ""
         ],
         [
           "In-person sales"
@@ -661,6 +654,13 @@
         ],
         [
           "Localized selling with Shopify Markets",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Accept local payment methods*",
           "",
           "",
           "",

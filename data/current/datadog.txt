@@ -572,14 +572,22 @@ Feature Flags documentation
 to get started with instrumenting and managing feature flags in your applications.
 Infrastructure
 See inside any stack, any app, at any scale, anywhere
-Free
-Starting At
-$
-0
-Core collection and visualization features
-1-day metric retention
-Up to 5 hosts
+Infrastructure Hosts
+Infrastructure DevSecOps Hosts
+Basic
+Priced
+Per host,
+per month
+Per host,
+per month
+Contact sales for pricing
+Essential coverage for noncritical workloads
+Core system metrics
+Out-of-the-box dashboards
+15-month metric retention
+Basic hosts can be mixed with either Pro or Enterprise hosts in the same account.
 Start Free Trial
+Let's Talk
 Pro
 Starting At
 $
@@ -588,8 +596,8 @@ Per host,
 per month*
 Centralize your monitoring of systems, services, and serverless functions
 1,000+ integrations
-Out-of-the-box dashboards
-15-month metric retention
+Container monitoring
+OpenTelemetry support
 *Billed annually or $
 18
 on-demand
@@ -606,10 +614,6 @@ Live Processes
 Governance Console
 *Billed annually or $
 27
-on-demand
-Start Free Trial
-Starting At
-*Billed annually or $
 on-demand
 Start Free Trial
 DevSecOps Pro
@@ -650,19 +654,69 @@ Start Free Trial
 Multi-Year/Volume discounts available (500+ hosts/mo)
 Contact Us
 Features
-Free
+Basic
 Pro
 Enterprise
 Features
 Standard Events and Metrics
-Up to 5 hosts
+Out-of-the-Box Dashboards
+1,000+ Integrations
+Limited
+Host and Container Maps
+Host map only
+Enterprise-Grade Security
+Unlimited User Accounts
+Full-Resolution Data Retention
+15 months
+15 months
+15 months Customizable
+Alerts
+Unlimited
+Unlimited
+Unlimited
+Container Monitoring
+Not supported
+5 per host allotted
+10 per host allotted
+Custom Metrics
+0 per host allotted
+100 per host allotted
+200 per host allotted
+Custom Events
+0 per host allotted
+500 per host allotted
+1000 per host allotted
+Single Sign-On with SAML
+Outlier Detection
+Watchdog: Automated insights
+Correlations
+Anomaly Detection
+Forecast Monitoring
+Live Processes
+Advanced Administrative Features
+SCIM
+Multiple SAML Providers
+IP Allowlist
+Email Domain Allowlist
+Governance Console
+Data Access Control
+10 datasets
+10 datasets
+100 datasets
+Cross-Org Visibility
+5 connections
+5 connections
+100 connections
+Pro
+Enterprise
+Features
+Standard Events and Metrics
 Out-of-the-Box Dashboards
 1,000+ Integrations
 Host and Container Maps
 Enterprise-Grade Security
 Unlimited User Accounts
 Full-Resolution Data Retention
-1 day
 15 months
 15 months Customizable
 Alerts
@@ -729,7 +783,7 @@ per container per hour. In addition, you can purchase prepaid containers at $
 1
 per container per month or $
 1.50
-per container per month for DevSecOps Containers.
+per container per month for DevSecOps Containers. Container monitoring is not available for Basic hosts.
 What is a custom metric?
 Datadog was designed to allow you to monitor your own custom applications and business metrics—not just your infrastructure. You can send any and all of your organization’s important metrics to Datadog for graphing, alerting, correlation, anomaly detection and more. Example uses: monitoring ad revenue, the rate at which shopping carts are abandoned, or the health of an in-game economy. Many customers find these metrics invaluable, especially when combined with infrastructure metrics.
 How many custom metrics are
@@ -778,8 +832,11 @@ Do you have special offerings for partners?
 We’re always looking to partner with technology and service providers and resellers. See our
 Partners page
 for more.
-Can I buy the DevSecOps SKU for some of my hosts and standalone Infrastructure or Cloud Security SKUs for the remainder?
-You cannot purchase any DevSecOps SKU for a subset of your infrastructure, it covers all existing hosts and containers. You also cannot combine the DevSecOps SKU with standalone Infrastructure or Cloud Security SKUs.
+What infrastructure monitoring is included in the Free tier?
+When your free trial ends, you can choose to upgrade to a paid plan or move to the Free tier. On the Free tier, you get up to five Basic hosts with 1-day metric retention, at no cost. To monitor more hosts or retain data longer, upgrade to a paid plan at any time.
+Can I mix and match infrastructure coverage?
+You can choose one level of infrastructure coverage for your Datadog account: Pro, Enterprise, DevSecOps Pro, or DevSecOps Enterprise. If you choose Pro or Enterprise, you can also monitor a subset of your hosts with Basic level coverage.
+The DevSecOps bundles cover your entire environment, and can’t be combined with standalone infrastructure, container, or cloud security products.
 Application Performance Monitoring
 Improve the performance of your cloud-scale
 applications end to end, down to a single line of code

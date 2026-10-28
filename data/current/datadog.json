@@ -6,22 +6,13 @@
   "url": "https://www.datadoghq.com/pricing/",
   "final_url": "https://www.datadoghq.com/pricing/",
   "parser_version": 4,
-  "content_hash": "5bd14de79a43c2fc58534c7aa44e23da52ec87a6155922336f919e1b1c037a5e",
-  "raw_hash": "9802bbf589d2cc6ac9bd81c7f59172977816a939a76ed3d67c4f34b1f847400c",
-  "text_bytes": 236196,
+  "content_hash": "bb6f33b630e6a171c2dbf47b856ef73974b3ed86e6bec7939dccacc291576d80",
+  "raw_hash": "7ff0cd9eaa0dec3d9d99026a7bfaa9a3d8c9b0f24ec1c22cd9a5872c54e0819a",
+  "text_bytes": 237738,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
-    {
-      "name": "Free",
-      "price_raw": "Free",
-      "amount": 0.0,
-      "currency": null,
-      "period": null,
-      "features": [],
-      "slot_prices": []
-    },
     {
       "name": "Agent Observability",
       "price_raw": "$ 0",

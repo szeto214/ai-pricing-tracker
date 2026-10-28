@@ -6,9 +6,9 @@
   "url": "https://deepinfra.com/pricing",
   "final_url": "https://deepinfra.com/pricing",
   "parser_version": 4,
-  "content_hash": "56e9333a8bfd67ffa6a3043017682bce50feb7ab9a6244032faf477c856107fc",
-  "raw_hash": "a63bcdf4c69a8216f42e3a5fe7c1030ac3629a326033cedd836ae57738d20150",
-  "text_bytes": 15694,
+  "content_hash": "d74b261c0bbdcbd23f66592e7d2b9a6fa4255236ef196eed4168b389e2195c4a",
+  "raw_hash": "6e4246ef340f1d892fec97351bf60c09d37ba00fe1e3f63975103dd8d8cd0b9f",
+  "text_bytes": 15569,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -593,22 +593,6 @@
         "$ per 1m output tokens": {
           "raw": "$0.32",
           "amount": 0.32
-        }
-      },
-      "currency": "USD",
-      "unit": "per 1m input tokens"
-    },
-    {
-      "key": "meta-llama-3.1-70b-instruct-turbo",
-      "model": "Meta-Llama-3.1-70B-Instruct-Turbo",
-      "prices": {
-        "$ per 1m input tokens": {
-          "raw": "$0.40",
-          "amount": 0.4
-        },
-        "$ per 1m output tokens": {
-          "raw": "$0.40",
-          "amount": 0.4
         }
       },
       "currency": "USD",
@@ -1522,13 +1506,6 @@
           "View more"
         ],
         [
-          "Meta-Llama-3.1-70B-Instruct-Turbo",
-          "128k",
-          "$0.40",
-          "$0.40",
-          "View more"
-        ],
-        [
           "Meta-Llama-3.1-8B-Instruct-Turbo",
           "128k",
           "$0.02",
@@ -1552,13 +1529,6 @@
           "128k",
           "$0.10",
           "$0.32",
-          "View more"
-        ],
-        [
-          "Meta-Llama-3.1-70B-Instruct-Turbo",
-          "128k",
-          "$0.40",
-          "$0.40",
           "View more"
         ],
         [

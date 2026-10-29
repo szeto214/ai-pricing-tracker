@@ -258,7 +258,31 @@ def gpu_rows(targets: dict, moves: dict) -> list[dict]:
     return rows
 
 
-_PLACEHOLDER = re.compile(r"^kolom \d+$")
+_PLACEHOLDER = re.compile(r"^kolom (\d+)$")
+
+
+def label_kolom(label: str) -> str:
+    """Label kolom sementara -> bahasa Inggris untuk halaman publik.
+
+    Tabel tanpa judul kolom diberi label menurut posisi di dalam arsip:
+    "kolom 2". Itu wajar di arsip (komentar dan istilah kerja berbahasa
+    Indonesia), tapi halaman publik berbahasa Inggris sejak 18/09/2026 —
+    dan sampai 29/10 baris seperti "Fly.io shared-cpu-1x · 256MB · kolom 2"
+    benar-benar tayang begitu di halaman utama. Pengunjung yang tidak
+    berbahasa Indonesia tidak punya cara menebak artinya.
+
+    Diterjemahkan HANYA saat ditampilkan. Kunci di dalam arsip tidak diubah
+    sedikit pun: mengganti kunci berarti seluruh perbandingan per-kolom
+    kehilangan pasangannya selama satu hari, dan itu harga yang tidak perlu
+    dibayar untuk sebuah label.
+    """
+    m = _PLACEHOLDER.match(label or "")
+    return f"column {m.group(1)}" if m else (label or "")
+
+
+def item_model(model, field) -> str:
+    """Nama baris untuk tabel perubahan: "Model · kolom" dalam bahasa Inggris."""
+    return f"{model} · {label_kolom(field)}"
 
 
 def _harga_ringkas(harga: dict) -> str:
@@ -350,7 +374,7 @@ def _baris_perubahan(c: dict, gpu_slugs: set | None) -> list[dict]:
         for ch in e["changes"]:
             out.append({"date": c["date"], "vendor": c.get("name"),
                         "url": c.get("url"),
-                        "item": f"{e.get('model')} · {ch['field']}",
+                        "item": item_model(e.get('model'), ch['field']),
                         "dari": ch["from"].get("raw"),
                         "ke": ch["to"].get("raw"),
                         "pct": ch.get("pct_change"), "gpu": gpu})
@@ -721,7 +745,7 @@ def riwayat_per_slug(changes: list[dict], corrections: set) -> dict:
                 continue
             for ch in e["changes"]:
                 baris.append({"date": c["date"],
-                              "item": f"{e.get('model')} · {ch['field']}",
+                              "item": item_model(e.get('model'), ch['field']),
                               "dari": ch["from"].get("raw"),
                               "ke": ch["to"].get("raw"),
                               "pct": ch.get("pct_change")})
@@ -891,7 +915,7 @@ def isi_feed(changes: list[dict], corrections: set, gpu_slugs: set, *,
             if e["type"] != "model_price_changed":
                 continue
             for ch in e["changes"]:
-                gerak.append((f"{e.get('model')} · {ch['field']}",
+                gerak.append((item_model(e.get('model'), ch['field']),
                               uang(ch["from"].get("raw"), ch["from"].get("currency")),
                               uang(ch["to"].get("raw"), ch["to"].get("currency")),
                               ch.get("pct_change")))

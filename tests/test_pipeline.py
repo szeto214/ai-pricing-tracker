@@ -2379,6 +2379,63 @@ def test_nama_paket_ganda_16_10() -> None:
           f"-> {amb}")
 
 
+def test_label_kolom_29_10() -> None:
+    """Label kolom sementara tidak boleh berbahasa Indonesia di halaman publik.
+
+    Tabel tanpa judul kolom diberi nama menurut posisi — "kolom 2" — dan
+    sampai 29/10/2026 baris seperti
+        "Fly.io · shared-cpu-1x · 256MB · kolom 2 · $0.0027 -> $0.0030"
+    benar-benar tayang begitu di halaman utama berbahasa Inggris. Diukur:
+    87 sel di 9 situs memakai label itu (perplexity-api, datadog, fly-io,
+    mongodb-atlas, northflank, voyage-ai, trigger-dev, together-ai, sentry).
+
+    Diterjemahkan HANYA saat ditampilkan. Kunci di dalam arsip sengaja TIDAK
+    diubah: mengganti kunci membuat pembanding kehilangan pasangan kolomnya
+    selama satu hari (perbandingan per-kolom memakai nama kolom), dan itu
+    harga yang tidak perlu dibayar demi sebuah label.
+    """
+    print("\n31. label kolom sementara di halaman publik")
+    sys.path.insert(0, str(ROOT / "scripts"))
+    import build_site
+
+    check("'kolom 2' -> 'column 2'",
+          build_site.label_kolom("kolom 2") == "column 2",
+          f'-> {build_site.label_kolom("kolom 2")!r}')
+    check("label sungguhan tidak disentuh",
+          build_site.label_kolom("$ per 1m input tokens")
+          == "$ per 1m input tokens"
+          and build_site.label_kolom("cache input") == "cache input")
+    check("label kosong tidak meledak", build_site.label_kolom(None) == "")
+    check("nama baris memakai label Inggris",
+          build_site.item_model("shared-cpu-1x · 256MB", "kolom 2")
+          == "shared-cpu-1x · 256MB · column 2",
+          f'-> {build_site.item_model("shared-cpu-1x · 256MB", "kolom 2")!r}')
+
+    # Penjaga sesungguhnya: tidak boleh ada kata "kolom N" di HTML publik.
+    ubah = [{
+        "date": "2026-10-02", "slug": "fly-io", "name": "Fly.io",
+        "url": "https://fly.io/pricing/", "kind": "price_change",
+        "plan_events": [],
+        "model_events": [{"type": "model_price_changed", "model": "shared-cpu-1x",
+                          "unit": "", "changes": [
+                              {"field": "kolom 2",
+                               "from": {"raw": "$0.0027", "amount": 0.0027},
+                               "to": {"raw": "$0.0030", "amount": 0.003},
+                               "pct_change": 11.11}]}],
+    }]
+    baris = build_site.recent_rows(ubah, set(), "2026-10-02")
+    check("tabel perubahan memakai label Inggris",
+          baris and "column 2" in baris[0]["item"]
+          and "kolom" not in baris[0]["item"], f"-> {baris}")
+    berkas, _, _ = build_site.build_bulanan(
+        ubah, set(), set(), halaman=134,
+        repo="https://github.com/szeto214/ai-pricing-tracker", parser_version=4)
+    hal = berkas.get("m/2026-10.html", "")
+    check("halaman bulanan juga bebas kata 'kolom'",
+          "column 2" in hal and "kolom" not in hal,
+          "-> masih ada kata bahasa Indonesia di halaman publik")
+
+
 def test_tabel_grid_26_10() -> None:
     """Tabel harga yang dibangun dari grid div (26/10/2026).
 
@@ -2768,6 +2825,7 @@ def main() -> int:
     test_kolom_ganti_nama_21_10()
     test_halaman_bulanan_23_10()
     test_tabel_grid_26_10()
+    test_label_kolom_29_10()
     test_skrip_cadangan()
 
     print("\n" + "=" * 60)

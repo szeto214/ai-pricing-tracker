@@ -1,5 +1,5 @@
 Simple pricing, built for growth
-Begin for free, invite your team, and scale without limits.
+The Free plan includes $5 of compute credits every month and 20 concurrent runs. Invite your team and scale without limits.
 Free
 $0
 /month
@@ -255,9 +255,10 @@ Yes. Trigger.dev is open source using the Apache 2.0 license. We are committed t
 our community
 to build a great product.
 What happens when I use up my monthly credits?
-On paid plans, your tasks keep running. Compute past your included credits is billed at our
+The Free plan includes $5 of compute credits every month and 20 concurrent runs.
+Once those credits are used, you'll need to upgrade to keep running tasks. On paid plans, your tasks keep running and compute past your included credits is billed at our
 compute usage rates
-. On the Free plan, you'll need to upgrade to keep running tasks once the included $5 of credits is used.
+.
 Can I set spend limits or billing alerts?
 Yes. Configure billing alerts in your dashboard's organization settings. Standard alerts fire at 75%, 90%, 100%, 200%, and 500% of your monthly budget, and spike alerts catch runaway usage at up to 100x. See the
 billing alerts docs
@@ -280,3 +281,10 @@ Contact us
 Self-host
 Trigger.dev is open source and self-hostable.
 Self-hosting docs
+Open source
+SOC 2
+Type II
+HIPAA
+BAA available
+GDPR
+Compliant

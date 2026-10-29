@@ -6,9 +6,9 @@
   "url": "https://ai.google.dev/pricing",
   "final_url": "https://ai.google.dev/gemini-api/docs/pricing",
   "parser_version": 4,
-  "content_hash": "f5e36b1eae41f3642dc7ab9269b7fa00059f1fd4bb3b0ee915ca58f5e4bfad4f",
-  "raw_hash": "19b35cc8fc0fef19162062ae687f11f0332855c301da30f49833ed04eafe2b9e",
-  "text_bytes": 60526,
+  "content_hash": "93241f36126db86689eee2636c3a7afd1eebbb6034dd66fb3ab27adba8c7962e",
+  "raw_hash": "23013e04a63c828d39ef4c8d7b814f6c985a4da10aab495f9f3ebf43c8ba3314",
+  "text_bytes": 63058,
   "currency_hints": [
     "USD"
   ],
@@ -58,7 +58,7 @@
         [
           "Grounding with Google Search *",
           "Not available",
-          "5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests."
+          "5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests (subject to a daily cap of 1,500 requests per da"
         ],
         [
           "Grounding with Google Maps",
@@ -158,7 +158,7 @@
         [
           "Grounding with Google Search *",
           "Not available",
-          "5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests."
+          "5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests (subject to a daily cap of 1,500 requests per da"
         ],
         [
           "Grounding with Google Maps",
@@ -228,7 +228,7 @@
         [
           "Grounding with Google Search *",
           "Not available",
-          "5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests."
+          "5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests (subject to a daily cap of 1,500 requests per da"
         ],
         [
           "Grounding with Google Maps",
@@ -328,7 +328,7 @@
         [
           "Grounding with Google Search *",
           "Not available **",
-          "5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests."
+          "5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests (subject to a daily cap of 1,500 requests per da"
         ],
         [
           "Grounding with Google Maps",
@@ -398,7 +398,7 @@
         [
           "Grounding with Google Search *",
           "Not available **",
-          "5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests."
+          "5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests (subject to a daily cap of 1,500 requests per da"
         ],
         [
           "Grounding with Google Maps",
@@ -438,7 +438,7 @@
         [
           "Grounding with Google Search *",
           "Not available **",
-          "5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests."
+          "5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests (subject to a daily cap of 1,500 requests per da"
         ],
         [
           "Grounding with Google Maps",
@@ -478,7 +478,7 @@
         [
           "Grounding with Google Search *",
           "Not available **",
-          "5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests."
+          "5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests (subject to a daily cap of 1,500 requests per da"
         ],
         [
           "Grounding with Google Maps",
@@ -518,7 +518,7 @@
         [
           "Grounding with Google Search *",
           "Not available **",
-          "5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests."
+          "5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests (subject to a daily cap of 1,500 requests per da"
         ],
         [
           "Grounding with Google Maps",
@@ -553,7 +553,7 @@
         [
           "Grounding with Google Search *",
           "Supported",
-          "5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests."
+          "5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests (subject to a daily cap of 1,500 requests per da"
         ],
         [
           "Used to improve our products",
@@ -673,7 +673,7 @@
         [
           "Grounding with Google Search *",
           "Not available **",
-          "5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests."
+          "5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests (subject to a daily cap of 1,500 requests per da"
         ],
         [
           "Grounding with Google Maps",
@@ -713,7 +713,7 @@
         [
           "Grounding with Google Search *",
           "Not available **",
-          "5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests."
+          "5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests (subject to a daily cap of 1,500 requests per da"
         ],
         [
           "Grounding with Google Maps",

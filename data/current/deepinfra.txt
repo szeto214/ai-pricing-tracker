@@ -1030,6 +1030,9 @@ DeepGPT
 Latest Models
 nvidia
 /
+NVIDIA-Nemotron-3.5-Transcribe-30B-A4B
+nvidia
+/
 Nemotron-3.5-Rerank-8B-BF16
 Bria
 /
@@ -1040,25 +1043,22 @@ Nemotron-3.5-Embed-8B-BF16
 nvidia
 /
 Nemotron-3.5-Embed-1B-BF16
-deepseek-ai
-/
-DeepSeek-V4.1-Flash-1017
 Featured Models
-nvidia
+moonshotai
 /
-NVIDIA-Nemotron-3.5-Super-VL
+Kimi-K3
 deepseek-ai
 /
 DeepSeek-V4.1-Flash-1017
-nvidia
+google
 /
-NVIDIA-Nemotron-3-Ultra-550B-A55B
-zai-org
+gemma-4-31B-it
+moonshotai
 /
-GLM-5.3
+Kimi-K2.6
 Qwen
 /
-Qwen3.5-397B-A17B
+Qwen3-TTS
 © 2026 DeepInfra. All rights reserved.
 Privacy Policy
 Terms of Service

@@ -6,9 +6,9 @@
   "url": "https://www.baseten.co/pricing/",
   "final_url": "https://www.baseten.co/pricing/",
   "parser_version": 4,
-  "content_hash": "2ec6785c4d770337a831099dfff48ae2f3f25714541f5f915349f614dc1d33c1",
-  "raw_hash": "122a661cb7910e7eabd3a0a99831030911d405395d2e7a3e1ceea0cbb973699a",
-  "text_bytes": 6410,
+  "content_hash": "15a4216ec343f98f83232a507c81e35882be51179bd6c74e393b9307a762e625",
+  "raw_hash": "a5c8eb859e26f7c41e049aaf95002d2f0f49dacde607ebafd733dd49735251ea",
+  "text_bytes": 6428,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -22,6 +22,28 @@
       "features": [],
       "slot_prices": [
         0.0
+      ]
+    },
+    {
+      "name": "elephant-1",
+      "price_raw": "$0.035",
+      "amount": 0.035,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        0.035
+      ]
+    },
+    {
+      "name": "mammoth-1",
+      "price_raw": "$0.10",
+      "amount": 0.1,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        0.1
       ]
     },
     {
@@ -241,31 +263,33 @@
       "slot_prices": [
         0.01052
       ]
-    },
-    {
-      "name": "H100 MIG",
-      "price_raw": "$0.0625",
-      "amount": 0.0625,
-      "currency": "USD",
-      "period": null,
-      "features": [],
-      "slot_prices": [
-        0.0625
-      ]
-    },
-    {
-      "name": "B200",
-      "price_raw": "$0.16633",
-      "amount": 0.16633,
-      "currency": "USD",
-      "period": null,
-      "features": [],
-      "slot_prices": [
-        0.16633
-      ]
     }
   ],
   "models": [
+    {
+      "key": "elephant-1",
+      "model": "elephant-1",
+      "prices": {
+        "input": {
+          "raw": "$0.035",
+          "amount": 0.035
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "mammoth-1",
+      "model": "mammoth-1",
+      "prices": {
+        "input": {
+          "raw": "$0.10",
+          "amount": 0.1
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
     {
       "key": "beam",
       "model": "Beam",
@@ -595,13 +619,13 @@
         ],
         [
           "elephant-1",
-          "-",
+          "$0.035",
           "-",
           "- Try Model API Try Model API - Try"
         ],
         [
           "mammoth-1",
-          "-",
+          "$0.10",
           "-",
           "- Try Model API Try Model API - Try"
         ],

@@ -44,8 +44,6 @@ Everything in Solo, and:
 Team collaboration
 Unlimited workspace & collection viewers
 Basic role-based access control (RBAC)
-SDK generation &
-distribution
 Simple Security
 (add-on)
 Enterprise
@@ -169,8 +167,6 @@ Custom branded
 Custom domains (unlimited)
 Postman Shared Vault
 Shared package library
-SDK generation & distribution
-+ Auto PR feature
 Workspace & collection viewers
 Unlimited
 Unlimited
@@ -317,7 +313,6 @@ Postman branded
 Custom domains (unlimited)
 Postman Shared Vault
 Shared package library
-SDK generation & distribution
 Workspace & collection viewers
 Private API Network
 API Management
@@ -416,7 +411,6 @@ Custom branded
 Custom domains (unlimited)
 Postman Shared Vault
 Shared package library
-SDK generation & distribution
 Workspace & collection viewers
 Private API Network
 API Management
@@ -515,7 +509,6 @@ Custom branded
 Custom domains (unlimited)
 Postman Shared Vault
 Shared package library
-SDK generation & distribution
 Workspace & collection viewers
 Unlimited
 Private API Network
@@ -621,8 +614,6 @@ Custom branded
 Custom domains (unlimited)
 Postman Shared Vault
 Shared package library
-SDK generation & distribution
-+ Auto PR feature
 Workspace & collection viewers
 Unlimited
 Private API Network
@@ -700,7 +691,7 @@ Detect Postman usage across your company network regardless of the email address
 Apply policies to report or block unmanaged users and enforce company-managed Postman experiences (Account Control).
 Advanced Security Controls
 Detect exposed secrets across internal, private, and partner workspaces with Cloud Secret Detection, including an analytics dashboard and alerts.
-Securely reuse sensitive data with Azure Key Vault, HashiCorp Vault, AWS Secrets Manager, and 1Password.
+Securely reuse sensitive data with external vault integrations. Supported in Postman Local and Shared Vault.
 Configure and apply custom patterns across all secret scanning capabilities, including local secret protection, cloud secret detection, and Agent Mode guardrails.
 Bring Your Own Key (BYOK) encryption to protect sensitive data in compliance with industry standards.
 Contact Sales

@@ -6,9 +6,9 @@
   "url": "https://www.postman.com/pricing/",
   "final_url": "https://www.postman.com/pricing/",
   "parser_version": 4,
-  "content_hash": "51d737bf73593355f6150da045125afaee8ea6e86283a08ea83cb482fa1def7f",
-  "raw_hash": "36f5824232140ae22fca794ddda1b7030184b8919cadec8b81b186c9178eecfb",
-  "text_bytes": 23910,
+  "content_hash": "c126f6d4e28d9357f6d89effdc942cd47fac51c7a4b2de02aaa52c27784be52f",
+  "raw_hash": "701e6f4cea76ad8414660d9883e7a97cc1a028a4798819e4d07efa5ac2248d24",
+  "text_bytes": 23698,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -53,7 +53,6 @@
         "Team collaboration",
         "Unlimited workspace & collection viewers",
         "Basic role-based access control (RBAC)",
-        "SDK generation & distribution",
         "Simple Security (add-on)"
       ],
       "slot_prices": [
@@ -558,13 +557,6 @@
           ""
         ],
         [
-          "SDK generation & distribution",
-          "",
-          "",
-          "",
-          "+ Auto PR feature"
-        ],
-        [
           "Workspace & collection viewers",
           "",
           "",
@@ -752,6 +744,13 @@
           "",
           "",
           ""
+        ],
+        [
+          "Domain Capture",
+          "",
+          "",
+          "",
+          "Advanced Security add-on"
         ]
       ]
     },
@@ -1064,13 +1063,6 @@
           "",
           "",
           ""
-        ],
-        [
-          "SDK generation & distribution",
-          "",
-          "",
-          "",
-          "+ Auto PR feature"
         ],
         [
           "Workspace & collection viewers",
@@ -1854,10 +1846,6 @@
           ""
         ],
         [
-          "SDK generation & distribution",
-          ""
-        ],
-        [
           "Workspace & collection viewers",
           ""
         ],
@@ -1984,6 +1972,9 @@
         ],
         [
           "Workspace-level roles"
+        ],
+        [
+          "Element-level roles"
         ]
       ]
     },
@@ -2170,10 +2161,6 @@
           ""
         ],
         [
-          "SDK generation & distribution",
-          ""
-        ],
-        [
           "Workspace & collection viewers",
           ""
         ],
@@ -2300,6 +2287,9 @@
         ],
         [
           "Workspace-level roles"
+        ],
+        [
+          "Element-level roles"
         ]
       ]
     },
@@ -2486,10 +2476,6 @@
           ""
         ],
         [
-          "SDK generation & distribution",
-          ""
-        ],
-        [
           "Workspace & collection viewers",
           "Unlimited"
         ],
@@ -2616,6 +2602,9 @@
         ],
         [
           "Workspace-level roles"
+        ],
+        [
+          "Element-level roles"
         ]
       ]
     },
@@ -2802,10 +2791,6 @@
           ""
         ],
         [
-          "SDK generation & distribution",
-          "+ Auto PR feature"
-        ],
-        [
           "Workspace & collection viewers",
           "Unlimited"
         ],
@@ -2932,6 +2917,9 @@
         ],
         [
           "Workspace-level roles"
+        ],
+        [
+          "Element-level roles"
         ]
       ]
     }

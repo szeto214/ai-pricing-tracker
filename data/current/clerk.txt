@@ -27,6 +27,8 @@ Machine Authentication
 API Keys & M2M Tokens
 limit per month
 Show limitations
+Protect
+Brute force prevention and basic protections
 Pro
 Monthly
 Annual
@@ -79,6 +81,8 @@ Enterprise SSO for workspace
 Priority support
 Application and Admin Logs
 30 day retention
+Protect
+Advanced protections
 Enterprise
 Custom
 Only billed annually
@@ -87,17 +91,19 @@ Talk to sales
 Everything in Business, plus:
 Annual committed use discounts
 99.99% Uptime SLA
-Premium support SLA + dedicated slack channel
+Premium support options
+Dedicated technical account manager and response-time SLAs
+Dedicated Slack channel
 Application and Admin Logs
 Custom retention
 Log sink destinations
 Stream logs to your SIEM
 HIPAA compliance available with BAA
-Onboarding & migration support
+White-glove onboarding & migration support
 Custom security questionnaires
 Add-ons
 More than authentication
-B2B Authentication, Billing, and Administration. Included in all plans.
+B2B Authentication, Protect, Billing, and Administration. Included in all plans.
 Add-ons apply to all of your applications.
 B2B Authentication
 The easy solution to multi-tenancy with a full suite of B2B SaaS features.
@@ -128,6 +134,25 @@ Enterprise connections
 with Organizations
 Verified Domains & Automatic Invitations
 Custom Roles & Rolesets
+Protect
+Fraud and abuse protection, built into every sign-up and sign-in.
+Start now
+Included
+Free in all plans
+Brute force prevention
+On by default, always free
+Basic protections
+Captcha challenges, device checks, and more
+Business plan
+Included in Business
+Advanced protections
+Rate limits, network-type blocks, country restrictions, and more
+$0
+/mo
+Protection checks
+10,000
+10,000 free per month
+then $0.002 per check
 Administration
 Advanced user management and administrative capabilities for larger teams.
 Start now
@@ -338,6 +363,16 @@ $75/mo each
 $60/mo each
 101+
 Contact us
+Waitlist mode
+Collect sign-up requests in a waitlist and choose who gets access.
+Included
+Included
+Included
+Secret Key IP restrictions
+Limit each Secret Key to the IP addresses and ranges your servers use.
+Not included
+Not included
+Included
 Machine Authentication
 API Keys
 Allow users to create API keys that can delegate access to your application's API on their behalf.
@@ -387,29 +422,14 @@ Verifications
 Included per month
 100,001+
 $0.00001 each
-Security features
-Account lockout / brute-force protection
-Protect users from automated brute forcing.
+Protect features
+Brute force prevention
+Limit repeated failed sign-in attempts. On by default.
 Included
 Included
 Included
-Bot protection
-Ensure only real users can sign up.
-Included
-Included
-Included
-Block email subaddresses
-Avoid abuse by preventing multiple sign-ups with the same email address.
-Included
-Included
-Included
-Block disposable email addresses
-Block authentication attempts from known disposable email services.
-Included
-Included
-Included
-Require invitations
-Invite users who need access to an application and prevent those who don't.
+Basic protections
+Captcha challenges, device checks, and more.
 Included
 Included
 Included
@@ -418,13 +438,13 @@ Prevent unwanted users from returning.
 Not included
 Included
 Included
-Allowlist / blocklist
-Allow and deny users based on attributes such as domain, phone number, Web3 wallet address, etc.
+Blocklist
+Block users based on attributes such as email domain, phone number, or Web3 wallet address.
 Not included
 Included
 Included
-Secret Key IP restrictions
-Limit each Secret Key to the IP addresses and ranges your servers use.
+Advanced protections
+Stronger protections for applications under frequent attack, such as rate limits, network-type blocks, country restrictions, and more.
 Not included
 Not included
 Included

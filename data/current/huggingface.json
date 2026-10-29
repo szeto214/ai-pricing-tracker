@@ -6,9 +6,9 @@
   "url": "https://huggingface.co/pricing",
   "final_url": "https://huggingface.co/pricing",
   "parser_version": 4,
-  "content_hash": "f06359b2b5b84b899256021f94bf68b5d897e66447bc41c2d438912b471d49a0",
-  "raw_hash": "67fa783699539a0415e9416e5387e88eb34f09c77bb4c3cee804fb53ad21e27f",
-  "text_bytes": 22451,
+  "content_hash": "58e36ff86f0c7c6b2c680f9fef6b160f89921bb29cad2c34c215d17067b61558",
+  "raw_hash": "1dcd14b23932ac85eff6d80bd9a77b98984a591ef165c568355c41e922a49f13",
+  "text_bytes": 23009,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -79,11 +79,11 @@
       ]
     },
     {
-      "name": "Spaces Hardware",
+      "name": "Spaces and Jobs Hardware",
       "price_raw": "$0",
       "amount": 0.0,
       "currency": "USD",
-      "period": null,
+      "period": "hour",
       "features": [],
       "slot_prices": [
         0.0
@@ -108,7 +108,20 @@
       "period": null,
       "features": [],
       "slot_prices": [
-        0.03
+        0.03,
+        24.0
+      ]
+    },
+    {
+      "name": "Intel Sapphire Rapids",
+      "price_raw": "$0.05",
+      "amount": 0.05,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        0.05,
+        36.0
       ]
     },
     {
@@ -119,7 +132,8 @@
       "period": null,
       "features": [],
       "slot_prices": [
-        0.75
+        0.75,
+        540.0
       ]
     },
     {
@@ -130,7 +144,20 @@
       "period": null,
       "features": [],
       "slot_prices": [
-        0.5
+        0.5,
+        360.0
+      ]
+    },
+    {
+      "name": "NVIDIA RTX PRO 6000",
+      "price_raw": "$2.75",
+      "amount": 2.75,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        2.75,
+        1980.0
       ]
     },
     {
@@ -150,7 +177,7 @@
       "key": "cpu upgrade",
       "model": "CPU Upgrade",
       "prices": {
-        "hourly price": {
+        "hourly price monthly price": {
           "raw": "$0.03",
           "amount": 0.03
         }
@@ -162,7 +189,7 @@
       "key": "nvidia t4 - small",
       "model": "Nvidia T4 - small",
       "prices": {
-        "hourly price": {
+        "hourly price monthly price": {
           "raw": "$0.40",
           "amount": 0.4
         }
@@ -174,7 +201,7 @@
       "key": "nvidia t4 - medium",
       "model": "Nvidia T4 - medium",
       "prices": {
-        "hourly price": {
+        "hourly price monthly price": {
           "raw": "$0.60",
           "amount": 0.6
         }
@@ -186,7 +213,7 @@
       "key": "1x nvidia l4",
       "model": "1x Nvidia L4",
       "prices": {
-        "hourly price": {
+        "hourly price monthly price": {
           "raw": "$0.80",
           "amount": 0.8
         }
@@ -198,7 +225,7 @@
       "key": "4x nvidia l4",
       "model": "4x Nvidia L4",
       "prices": {
-        "hourly price": {
+        "hourly price monthly price": {
           "raw": "$3.80",
           "amount": 3.8
         }
@@ -210,7 +237,7 @@
       "key": "1x nvidia l40s",
       "model": "1x Nvidia L40S",
       "prices": {
-        "hourly price": {
+        "hourly price monthly price": {
           "raw": "$1.80",
           "amount": 1.8
         }
@@ -222,7 +249,7 @@
       "key": "4x nvidia l40s",
       "model": "4x Nvidia L40S",
       "prices": {
-        "hourly price": {
+        "hourly price monthly price": {
           "raw": "$8.30",
           "amount": 8.3
         }
@@ -234,7 +261,7 @@
       "key": "8x nvidia l40s",
       "model": "8x Nvidia L40S",
       "prices": {
-        "hourly price": {
+        "hourly price monthly price": {
           "raw": "$23.50",
           "amount": 23.5
         }
@@ -246,7 +273,7 @@
       "key": "nvidia a10g - small",
       "model": "Nvidia A10G - small",
       "prices": {
-        "hourly price": {
+        "hourly price monthly price": {
           "raw": "$1.00",
           "amount": 1.0
         }
@@ -258,7 +285,7 @@
       "key": "nvidia a10g - large",
       "model": "Nvidia A10G - large",
       "prices": {
-        "hourly price": {
+        "hourly price monthly price": {
           "raw": "$1.50",
           "amount": 1.5
         }
@@ -270,7 +297,7 @@
       "key": "2x nvidia a10g - large",
       "model": "2x Nvidia A10G - large",
       "prices": {
-        "hourly price": {
+        "hourly price monthly price": {
           "raw": "$3.00",
           "amount": 3.0
         }
@@ -282,7 +309,7 @@
       "key": "4x nvidia a10g - large",
       "model": "4x Nvidia A10G - large",
       "prices": {
-        "hourly price": {
+        "hourly price monthly price": {
           "raw": "$5.00",
           "amount": 5.0
         }
@@ -294,7 +321,7 @@
       "key": "nvidia a100 - large",
       "model": "Nvidia A100 - large",
       "prices": {
-        "hourly price": {
+        "hourly price monthly price": {
           "raw": "$2.50",
           "amount": 2.5
         }
@@ -306,7 +333,7 @@
       "key": "4x nvidia a100",
       "model": "4x Nvidia A100",
       "prices": {
-        "hourly price": {
+        "hourly price monthly price": {
           "raw": "$10.00",
           "amount": 10.0
         }
@@ -318,7 +345,7 @@
       "key": "8x nvidia a100",
       "model": "8x Nvidia A100",
       "prices": {
-        "hourly price": {
+        "hourly price monthly price": {
           "raw": "$20.00",
           "amount": 20.0
         }
@@ -330,7 +357,7 @@
       "key": "1x nvidia rtx pro 6000",
       "model": "1x Nvidia RTX PRO 6000",
       "prices": {
-        "hourly price": {
+        "hourly price monthly price": {
           "raw": "$2.75",
           "amount": 2.75
         }
@@ -342,7 +369,7 @@
       "key": "2x nvidia rtx pro 6000",
       "model": "2x Nvidia RTX PRO 6000",
       "prices": {
-        "hourly price": {
+        "hourly price monthly price": {
           "raw": "$5.50",
           "amount": 5.5
         }
@@ -354,7 +381,7 @@
       "key": "4x nvidia rtx pro 6000",
       "model": "4x Nvidia RTX PRO 6000",
       "prices": {
-        "hourly price": {
+        "hourly price monthly price": {
           "raw": "$11.00",
           "amount": 11.0
         }
@@ -366,7 +393,7 @@
       "key": "8x nvidia rtx pro 6000",
       "model": "8x Nvidia RTX PRO 6000",
       "prices": {
-        "hourly price": {
+        "hourly price monthly price": {
           "raw": "$22.00",
           "amount": 22.0
         }
@@ -385,7 +412,7 @@
           "Memory",
           "Accelerator",
           "VRAM",
-          "Hourly price"
+          "Hourly price Monthly price"
         ],
         [
           "CPU Basic",
@@ -401,7 +428,7 @@
           "32 GB",
           "-",
           "-",
-          "$0.03"
+          "$0.03 $22"
         ],
         [
           "ZeroGPU",
@@ -417,7 +444,7 @@
           "15 GB",
           "Nvidia T4",
           "16 GB",
-          "$0.40"
+          "$0.40 $288"
         ],
         [
           "Nvidia T4 - medium",
@@ -425,7 +452,7 @@
           "30 GB",
           "Nvidia T4",
           "16 GB",
-          "$0.60"
+          "$0.60 $432"
         ],
         [
           "1x Nvidia L4",
@@ -433,7 +460,7 @@
           "30 GB",
           "Nvidia L4",
           "24 GB",
-          "$0.80"
+          "$0.80 $576"
         ],
         [
           "4x Nvidia L4",
@@ -441,7 +468,7 @@
           "186 GB",
           "Nvidia L4",
           "96 GB",
-          "$3.80"
+          "$3.80 $2,736"
         ],
         [
           "1x Nvidia L40S",
@@ -449,7 +476,7 @@
           "62 GB",
           "Nvidia L4",
           "48 GB",
-          "$1.80"
+          "$1.80 $1,296"
         ],
         [
           "4x Nvidia L40S",
@@ -457,7 +484,7 @@
           "382 GB",
           "Nvidia L4",
           "192 GB",
-          "$8.30"
+          "$8.30 $5,976"
         ],
         [
           "8x Nvidia L40S",
@@ -465,7 +492,7 @@
           "1534 GB",
           "Nvidia L4",
           "384 GB",
-          "$23.50"
+          "$23.50 $16,920"
         ],
         [
           "Nvidia A10G - small",
@@ -473,7 +500,7 @@
           "15 GB",
           "Nvidia A10G",
           "24 GB",
-          "$1.00"
+          "$1.00 $720"
         ],
         [
           "Nvidia A10G - large",
@@ -481,7 +508,7 @@
           "46 GB",
           "Nvidia A10G",
           "24 GB",
-          "$1.50"
+          "$1.50 $1,080"
         ],
         [
           "2x Nvidia A10G - large",
@@ -489,7 +516,7 @@
           "92 GB",
           "Nvidia A10G",
           "48 GB",
-          "$3.00"
+          "$3.00 $2,160"
         ],
         [
           "4x Nvidia A10G - large",
@@ -497,7 +524,7 @@
           "184 GB",
           "Nvidia A10G",
           "96 GB",
-          "$5.00"
+          "$5.00 $3,600"
         ],
         [
           "Nvidia A100 - large",
@@ -505,7 +532,7 @@
           "142 GB",
           "Nvidia A100",
           "80 GB",
-          "$2.50"
+          "$2.50 $1,800"
         ],
         [
           "4x Nvidia A100",
@@ -513,7 +540,7 @@
           "568 GB",
           "Nvidia A100",
           "320 GB",
-          "$10.00"
+          "$10.00 $7,200"
         ],
         [
           "8x Nvidia A100",
@@ -521,7 +548,7 @@
           "1136 GB",
           "Nvidia A100",
           "640 GB",
-          "$20.00"
+          "$20.00 $14,400"
         ],
         [
           "1x Nvidia RTX PRO 6000",
@@ -529,7 +556,7 @@
           "256 GB",
           "Nvidia RTX PRO 6000",
           "96 GB",
-          "$2.75"
+          "$2.75 $1,980"
         ],
         [
           "2x Nvidia RTX PRO 6000",
@@ -537,7 +564,7 @@
           "512 GB",
           "Nvidia RTX PRO 6000",
           "192 GB",
-          "$5.50"
+          "$5.50 $3,960"
         ],
         [
           "4x Nvidia RTX PRO 6000",
@@ -545,7 +572,7 @@
           "1024 GB",
           "Nvidia RTX PRO 6000",
           "384 GB",
-          "$11.00"
+          "$11.00 $7,920"
         ],
         [
           "8x Nvidia RTX PRO 6000",
@@ -553,7 +580,7 @@
           "2048 GB",
           "Nvidia RTX PRO 6000",
           "768 GB",
-          "$22.00"
+          "$22.00 $15,840"
         ],
         [
           "Custom",
@@ -572,79 +599,79 @@
           "Intel Sapphire Rapids aws",
           "1",
           "2GB",
-          "$0.03"
+          "$0.03 $24"
         ],
         [
           "",
           "2",
           "4GB",
-          "$0.07"
+          "$0.07 $48"
         ],
         [
           "",
           "4",
           "8GB",
-          "$0.13"
+          "$0.13 $96"
         ],
         [
           "",
           "8",
           "16GB",
-          "$0.27"
+          "$0.27 $193"
         ],
         [
           "",
           "16",
           "32GB",
-          "$0.54"
+          "$0.54 $386"
         ],
         [
           "Intel Xeon azure",
           "1",
           "2GB",
-          "$0.06"
+          "$0.06 $43"
         ],
         [
           "",
           "2",
           "4GB",
-          "$0.12"
+          "$0.12 $86"
         ],
         [
           "",
           "4",
           "8GB",
-          "$0.24"
+          "$0.24 $173"
         ],
         [
           "",
           "8",
           "16GB",
-          "$0.48"
+          "$0.48 $346"
         ],
         [
           "Intel Sapphire Rapids gcp",
           "1",
           "2GB",
-          "$0.05"
+          "$0.05 $36"
         ],
         [
           "",
           "2",
           "4GB",
-          "$0.10"
+          "$0.10 $72"
         ],
         [
           "",
           "4",
           "8GB",
-          "$0.20"
+          "$0.20 $144"
         ],
         [
           "",
           "8",
           "16GB",
-          "$0.40"
+          "$0.40 $288"
         ]
       ]
     },
@@ -655,37 +682,37 @@
           "Inf2 Neuron aws",
           "x1",
           "14.5GB",
-          "$0.75"
+          "$0.75 $540"
         ],
         [
           "",
           "x1-large",
           "124GB",
-          "$1.95"
+          "$1.95 $1,404"
         ],
         [
           "",
           "x12",
           "760GB",
-          "$12.00"
+          "$12.00 $8,640"
         ],
         [
           "TPU v5e gcp",
           "1x1",
           "16GB",
-          "$1.20"
+          "$1.20 $864"
         ],
         [
           "",
           "2x2",
           "64GB",
-          "$4.75"
+          "$4.75 $3,420"
         ],
         [
           "",
           "2x4",
           "128GB",
-          "$9.50"
+          "$9.50 $6,840"
         ]
       ]
     },
@@ -696,163 +723,163 @@
           "NVIDIA T4 aws",
           "1",
           "14GB",
-          "$0.50"
+          "$0.50 $360"
         ],
         [
           "",
           "4",
           "56GB",
-          "$3.00"
+          "$3.00 $2,160"
         ],
         [
           "NVIDIA L4 aws",
           "1",
           "24GB",
-          "$0.80"
+          "$0.80 $576"
         ],
         [
           "",
           "4",
           "96GB",
-          "$3.80"
+          "$3.80 $2,736"
         ],
         [
           "NVIDIA L40S aws",
           "1",
           "48GB",
-          "$1.80"
+          "$1.80 $1,296"
         ],
         [
           "",
           "4",
           "192GB",
-          "$8.30"
+          "$8.30 $5,976"
         ],
         [
           "",
           "8",
           "384GB",
-          "$23.50"
+          "$23.50 $16,920"
         ],
         [
           "NVIDIA A100 aws",
           "1",
           "80GB",
-          "$2.50"
+          "$2.50 $1,800"
         ],
         [
           "",
           "2",
           "160GB",
-          "$5.00"
+          "$5.00 $3,600"
         ],
         [
           "",
           "4",
           "320GB",
-          "$10.00"
+          "$10.00 $7,200"
         ],
         [
           "",
           "8",
           "640GB",
-          "$20.00"
+          "$20.00 $14,400"
         ],
         [
           "NVIDIA H100 aws",
           "1",
           "80GB",
-          "$4.50"
+          "$4.50 $3,240"
         ],
         [
           "",
           "2",
           "160GB",
-          "$9.00"
+          "$9.00 $6,480"
         ],
         [
           "",
           "4",
           "320GB",
-          "$18.00"
+          "$18.00 $12,960"
         ],
         [
           "",
           "8",
           "640GB",
-          "$36.00"
+          "$36.00 $25,920"
         ],
         [
           "NVIDIA H200 aws",
           "1",
           "141GB",
-          "$5.00"
+          "$5.00 $3,600"
         ],
         [
           "",
           "2",
           "282GB",
-          "$10.00"
+          "$10.00 $7,200"
         ],
         [
           "",
           "4",
           "564GB",
-          "$20.00"
+          "$20.00 $14,400"
         ],
         [
           "",
           "8",
           "1128GB",
-          "$40.00"
+          "$40.00 $28,800"
         ],
         [
           "NVIDIA B200 aws",
           "1",
           "179GB",
-          "$9.25"
+          "$9.25 $6,660"
         ],
         [
           "",
           "2",
           "358GB",
-          "$18.50"
+          "$18.50 $13,320"
         ],
         [
           "",
           "4",
           "716GB",
-          "$37.00"
+          "$37.00 $26,640"
         ],
         [
           "",
           "8",
           "1432GB",
-          "$74.00"
+          "$74.00 $53,280"
         ],
         [
           "NVIDIA RTX PRO 6000 aws",
           "1",
           "96GB",
-          "$2.75"
+          "$2.75 $1,980"
         ],
         [
           "",
           "2",
           "192GB",
-          "$5.50"
+          "$5.50 $3,960"
         ],
         [
           "",
           "4",
           "384GB",
-          "$11.00"
+          "$11.00 $7,920"
         ],
         [
           "",
           "8",
           "768GB",
-          "$22.00"
+          "$22.00 $15,840"
         ]
       ]
     }

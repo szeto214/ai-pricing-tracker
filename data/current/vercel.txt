@@ -405,6 +405,11 @@ Elastic machines
 —
 $0.0035 per CPU minute
 Custom
+Vercel CI
+Beta
+200 CPU minutes / month included
+$0.0035 per CPU minute
+Custom
 Deployments
 Unlimited Deployments
 Environment Variables

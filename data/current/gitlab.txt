@@ -9,8 +9,8 @@ CI/CD
 GitLab on AWS
 GitLab on Google Cloud
 Why GitLab?
-Ship at agent speed. Prove every step. Transcend is here.
-Read the recap
+GitLab Orbit is generally available. Increase agent accuracy and lower token cost
+Read the announcement
 Get started with GitLab
 The intelligent orchestration platform for DevSecOps.
 GitLab.com
@@ -65,7 +65,7 @@ SLA Management
 Priority Support
 Featured add-on:
 GitLab Credits
-Enhance your plan with features like AI code review, secure secrets storage, and more.
+Add AI code review, secure secrets storage, and SDLC context that helps agents get answers right the first time.
 Need pricing flexibility?
 Learn about Flex ↓
 Learn more about Premium
@@ -87,7 +87,7 @@ Value Stream Management
 Compliance and Governance
 Featured add-on:
 GitLab Credits
-Enhance your plan with features like AI code review, secure secrets storage, and more.
+Add AI code review, secure secrets storage, and SDLC context that helps agents get answers right the first time.
 Need pricing flexibility?
 Learn about Flex ↓
 Learn more about Ultimate
@@ -240,6 +240,9 @@ Model Context Protocol Integrations
 Limited access
 Add-on GitLab Credits
 Add-on GitLab Credits
+GitLab Orbit
+Add-on Orbit query packs
+Add-on Orbit query packs
 Project Management
 Time Tracking
 Wiki based project documentation
@@ -298,6 +301,14 @@ Try for free
 *Billing depends on your plan and commitment.
 Learn more about credits and usage billing.
 What credits unlock
+New
+GitLab Orbit
+A context graph for your software lifecycle. Orbit is sold in query packs, sized to your organization, that form one shared pool query for humans and agents.
+Learn more about GitLab Orbit.
+New
+Secrets Manager
+Secure, centralized service for storing, controlling access to, and rotating sensitive credentials.
+Learn more about Secrets Manager.
 GitLab Duo Agent Platform
 Reviews code, fixes pipelines, and runs full development flows.
 Learn more about GitLab Duo.
@@ -306,10 +317,6 @@ Agentic chat
 AI Catalog
 Specialized Agents
 Automated workflows
-New
-Secrets Manager
-Secure, centralized service for storing, controlling access to, and rotating sensitive credentials.
-Learn more about Secrets Manager.
 Other add-ons
 Compute Minutes
 $
@@ -556,7 +563,7 @@ usage caps
 that limit on-demand usage for each capability, and adjust them month to month alongside your reservation. Usage notifications alert you as you approach your limits.
 How do I enable new capabilities under my Flex contract?
 New capabilities that are generally available can be enabled within GitLab by your group Owner or instance administrator. No contract change or amendment is required.
-If you enable a capability without reserving credits for it, its consumption draws from your GitLab Flex commitment as on-demand usage at list rate ($1/credit).
+If you enable a capability without reserving credits for it, its consumption draws from your GitLab Flex commitment as on-demand usage at list rate ($1/credit). GitLab Orbit is the exception: Orbit query packs are paid in GitLab Credits reserved for Orbit and purchased separately, so Orbit usage does not draw from your GitLab Flex commitment.
 To get the discounted reserved rate,
 add a reservation for that capability in the Customers Portal
 .
@@ -570,6 +577,20 @@ Do unused reserved GitLab Credits or seats carry over to the next month?
 No. Reserved GitLab Credits and seats are use-it-or-lose-it and expire at the end of each month.
 Can I convert my GitLab Flex commitment back to cash if I don't use it all?
 No. Your GitLab Flex commitment is a use-it-or-lose-it annual spend agreement. Unused balance at the end of the term is forfeited.
+GitLab Orbit
+Show all
+How is GitLab Orbit priced?
+Orbit is priced around a shared pool of queries that can be consumed across your organization, rather than individual query allowances or seats for each user. That pool is sold as query packs, and the number of paid GitLab users in your organization determines how many packs you need. That way, everyone has access to Orbit, and usage can flow naturally between occasional users, power users, and AI agents.
+What are query packs, GitLab Credits, and graph capacity?
+Queries are sold in query packs, which form one shared pool for your organization. Query packs are paid in GitLab Credits reserved for Orbit. Each subscription also includes graph capacity, the storage for your organization's Orbit graph.
+Do agents count toward usage?
+People and agents draw from the same shared pool, and there is no separate agent charge.
+How do I buy GitLab Orbit?
+Orbit is available to Premium and Ultimate customers through your GitLab account team, who can size the query packs for your organization.
+Can I use my existing GitLab Credits or GitLab Flex commitment for Orbit?
+No. Orbit query packs are paid in GitLab Credits reserved for Orbit, purchased separately, and can sit alongside your GitLab Flex agreement.
+What happens if we use more than the included queries?
+Usage above the included query allotment is metered so you can see it, but it isn't billed during your first year.
 Start building faster today
 See what your team can do with the intelligent orchestration platform for DevSecOps.
 Get your free trial

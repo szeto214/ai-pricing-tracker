@@ -7,7 +7,7 @@
   "final_url": "https://nebius.com/prices",
   "parser_version": 4,
   "content_hash": "ea799dbc3a80af01bf16bdd2845735a3fe1565f18f29e010010973b5b17c987f",
-  "raw_hash": "37d7f0aaf51d7b913e781a8157b163926b7c745d7c66e6937497cb1b13c836e0",
+  "raw_hash": "7e9b482340b3a4fc32f2fa7e65506cf432e2a3eff398e82dafb0b8b152b7b75c",
   "text_bytes": 5446,
   "currency_hints": [],
   "extractor": "dom",

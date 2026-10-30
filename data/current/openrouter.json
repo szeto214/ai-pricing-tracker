@@ -6,13 +6,24 @@
   "url": "https://openrouter.ai/models",
   "final_url": "https://openrouter.ai/models",
   "parser_version": 4,
-  "content_hash": "e5f20ae60b39b1dbde5af0354115869ee2aec912040d5b4a570f06af13199388",
-  "raw_hash": "f486178f3b5853bd4c76ff0657cb86d1beb1e89db0d3c85b6aa770edbbde6afc",
-  "text_bytes": 7519,
+  "content_hash": "c1ee77721a1b7e854a7bb0a7361d9e9ee9a9385fb4c4bc63cc4485810d88898d",
+  "raw_hash": "0812d7816075b815c510cbcfab417ac855cb1154b4a08c48afbecd50ac8ed7f7",
+  "text_bytes": 9068,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
+    {
+      "name": "TBC: Mischief 1",
+      "price_raw": "$0.005",
+      "amount": 0.005,
+      "currency": "USD",
+      "period": "second",
+      "features": [],
+      "slot_prices": [
+        0.005
+      ]
+    },
     {
       "name": "NVIDIA: Nemotron 3.5 Transcribe",
       "price_raw": "$0.000033",
@@ -44,17 +55,6 @@
       "features": [],
       "slot_prices": [
         0.02
-      ]
-    },
-    {
-      "name": "HeyGen: HeyGen Voice Turbo",
-      "price_raw": "$4",
-      "amount": 4.0,
-      "currency": "USD",
-      "period": "request",
-      "features": [],
-      "slot_prices": [
-        4.0
       ]
     }
   ],

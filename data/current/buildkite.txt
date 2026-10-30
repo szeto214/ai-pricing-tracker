@@ -49,7 +49,7 @@ The option to choose the plan that fits your needs after 30 days, or walk away w
 Plan details
 Up to 50 users
 Up to 250 concurrent agents, 10 included
-Includes 4,000 Linux vCPU minutes per month with access to macOS agents, larger machine sizes, and higher concurrency
+Includes 4,000 Linux AMD64 vCPU minutes per month with access to macOS, Windows, and Linux ARM64 agents, larger machine sizes, and higher concurrency
 1M test executions per month
 Dynamic pipelines
 Priority email support
@@ -60,7 +60,7 @@ Contact sales
 Platform
 Custom usage and rate limits
 Full access to Buildkite’s testing platform
-Buildkite hosted agents with remote Docker builders, largest machine sizes, Linux ARM64, and scalable concurrency
+Buildkite hosted agents with remote Docker builders, largest machine sizes, and scalable concurrency
 Custom storage and retention policies for builds, artifacts, and logs
 Dynamic pipelines
 99.95% platform uptime commitment
@@ -179,27 +179,40 @@ Software (SLSA) provenance
 +
 −
 Hosted Agents
-Expand to see 11 features
-Linux vCPU minutes
+Expand to see 17 features
+Linux AMD64 vCPU minutes
 Included Linux hosted agent vCPU minutes per month.
 Up to 2,000 mins/month
 Small only
 4,000 mins/month included
 Additional at per-minute rates
 Volume discounts
-Linux vCPU concurrency
+Linux AMD64 vCPU concurrency
 The maximum combined Linux vCPUs your jobs can utilize at once.
 Up to 20 vCPU
 Up to 256 vCPU
 Custom
-Linux shapes
-Available Linux hosted agent sizes.
+Linux AMD64 shapes
+Available Linux AMD64 hosted agent sizes.
 Small
-AMD64 only
 Small, Medium, Large
-AMD64 only
 Larger sizes available
-ARM64 available on request
+Linux ARM64 vCPU minutes
+Linux ARM64 hosted agent vCPU minutes per month.
+—
+Pay-as-you-go
+Additional at per-minute rates
+Volume discounts
+Linux ARM64 vCPU concurrency
+The maximum combined Linux ARM64 vCPUs your jobs can utilize at once.
+—
+Up to 64 vCPU
+Custom
+Linux ARM64 shapes
+Available Linux ARM64 hosted agent sizes.
+—
+Small, Medium, Large
+Larger sizes available
 M4 Mac vCPU minutes
 Included M4 Mac hosted agent vCPU minutes per month.
 —
@@ -216,6 +229,22 @@ Available M4 Mac hosted agent sizes.
 —
 Medium, Large
 Medium, Large
+Windows vCPU minutes
+Windows hosted agent vCPU minutes per month.
+—
+Pay-as-you-go
+Additional at per-minute rates
+Volume discounts
+Windows vCPU concurrency
+The maximum combined Windows vCPUs your jobs can utilize at once.
+—
+Up to 64 vCPU
+Custom
+Windows shapes
+Available Windows hosted agent sizes.
+—
+Small, Medium, Large
+Larger sizes available
 Git mirror volumes
 ✓
 ✓
@@ -381,18 +410,26 @@ Private registries
 +
 −
 Hosted Agents
-Expand to see 10 features
-Linux vCPU minutes
+Expand to see 16 features
+Linux AMD64 vCPU minutes
 Included Linux hosted agent vCPU minutes per month.
 Up to 2,000 mins/month
 Small only
-Linux vCPU concurrency
+Linux AMD64 vCPU concurrency
 The maximum combined Linux vCPUs your jobs can utilize at once.
 Up to 20 vCPU
-Linux shapes
-Available Linux hosted agent sizes.
+Linux AMD64 shapes
+Available Linux AMD64 hosted agent sizes.
 Small
-AMD64 only
+Linux ARM64 vCPU minutes
+Linux ARM64 hosted agent vCPU minutes per month.
+—
+Linux ARM64 vCPU concurrency
+The maximum combined Linux ARM64 vCPUs your jobs can utilize at once.
+—
+Linux ARM64 shapes
+Available Linux ARM64 hosted agent sizes.
+—
 M4 Mac vCPU minutes
 Included M4 Mac hosted agent vCPU minutes per month.
 —
@@ -401,6 +438,15 @@ The maximum combined M4 Mac vCPUs your jobs can utilize at once.
 —
 M4 Mac shapes
 Available M4 Mac hosted agent sizes.
+—
+Windows vCPU minutes
+Windows hosted agent vCPU minutes per month.
+—
+Windows vCPU concurrency
+The maximum combined Windows vCPUs your jobs can utilize at once.
+—
+Windows shapes
+Available Windows hosted agent sizes.
 —
 Git mirror volumes
 ✓
@@ -472,18 +518,27 @@ Arbitrary files
 +
 −
 Hosted Agents
-Expand to see 10 features
-Linux vCPU minutes
+Expand to see 16 features
+Linux AMD64 vCPU minutes
 Included Linux hosted agent vCPU minutes per month.
 4,000 mins/month included
 Additional at per-minute rates
-Linux vCPU concurrency
+Linux AMD64 vCPU concurrency
 The maximum combined Linux vCPUs your jobs can utilize at once.
 Up to 256 vCPU
-Linux shapes
-Available Linux hosted agent sizes.
+Linux AMD64 shapes
+Available Linux AMD64 hosted agent sizes.
 Small, Medium, Large
-AMD64 only
+Linux ARM64 vCPU minutes
+Linux ARM64 hosted agent vCPU minutes per month.
+Pay-as-you-go
+Additional at per-minute rates
+Linux ARM64 vCPU concurrency
+The maximum combined Linux ARM64 vCPUs your jobs can utilize at once.
+Up to 64 vCPU
+Linux ARM64 shapes
+Available Linux ARM64 hosted agent sizes.
+Small, Medium, Large
 M4 Mac vCPU minutes
 Included M4 Mac hosted agent vCPU minutes per month.
 Pay-as-you-go
@@ -494,6 +549,16 @@ Up to 48 vCPU
 M4 Mac shapes
 Available M4 Mac hosted agent sizes.
 Medium, Large
+Windows vCPU minutes
+Windows hosted agent vCPU minutes per month.
+Pay-as-you-go
+Additional at per-minute rates
+Windows vCPU concurrency
+The maximum combined Windows vCPUs your jobs can utilize at once.
+Up to 64 vCPU
+Windows shapes
+Available Windows hosted agent sizes.
+Small, Medium, Large
 Git mirror volumes
 ✓
 Custom agent images
@@ -583,17 +648,25 @@ Software (SLSA) provenance
 +
 −
 Hosted Agents
-Expand to see 11 features
-Linux vCPU minutes
+Expand to see 17 features
+Linux AMD64 vCPU minutes
 Included Linux hosted agent vCPU minutes per month.
 Volume discounts
-Linux vCPU concurrency
+Linux AMD64 vCPU concurrency
 The maximum combined Linux vCPUs your jobs can utilize at once.
 Custom
-Linux shapes
-Available Linux hosted agent sizes.
+Linux AMD64 shapes
+Available Linux AMD64 hosted agent sizes.
 Larger sizes available
-ARM64 available on request
+Linux ARM64 vCPU minutes
+Linux ARM64 hosted agent vCPU minutes per month.
+Volume discounts
+Linux ARM64 vCPU concurrency
+The maximum combined Linux ARM64 vCPUs your jobs can utilize at once.
+Custom
+Linux ARM64 shapes
+Available Linux ARM64 hosted agent sizes.
+Larger sizes available
 M4 Mac vCPU minutes
 Included M4 Mac hosted agent vCPU minutes per month.
 Volume discounts
@@ -603,6 +676,15 @@ Custom
 M4 Mac shapes
 Available M4 Mac hosted agent sizes.
 Medium, Large
+Windows vCPU minutes
+Windows hosted agent vCPU minutes per month.
+Volume discounts
+Windows vCPU concurrency
+The maximum combined Windows vCPUs your jobs can utilize at once.
+Custom
+Windows shapes
+Available Windows hosted agent sizes.
+Larger sizes available
 Git mirror volumes
 ✓
 Custom agent images
@@ -703,7 +785,7 @@ Large
 8 vCPU min / min
 $0.032
 per minute
-Shapes shown are AMD64. ARM64 and larger shapes are available on request for Enterprise customers.
+Every shape is available on AMD64 and ARM64 at the same rate. Larger shapes are available on request for Enterprise customers.
 Mac Hosted Agents
 $0.02
 USD per vCPU minute
@@ -723,7 +805,32 @@ M4 Large
 12 vCPU min / min
 $0.24
 per minute
-Linux AMD64, Linux ARM64, and Mac are billed as separate platforms, each with its own per-vCPU minute rate.
+Windows Hosted Agents
+$0.008
+USD per vCPU minute
+Every Windows shape uses the same rate; effective cost scales with vCPU count.
+Shape
+vCPU multiplier
+Effective rate
+Small
+2 vCPU, 8GB RAM
+×2
+2 vCPU min / min
+$0.016
+per minute
+Medium
+4 vCPU, 16GB RAM
+×4
+4 vCPU min / min
+$0.032
+per minute
+Large
+8 vCPU, 32GB RAM
+×8
+8 vCPU min / min
+$0.064
+per minute
+Linux AMD64, Linux ARM64, Mac, and Windows are billed as separate platforms, each with its own per-vCPU minute rate.
 Frequently asked questions
 Got a question that's not on our list? Want a demo? Just want to chat?
 Get in touch
@@ -750,12 +857,12 @@ Pipelines
 Public pipelines
 Test Engine
 Package Registries
-Mobile Delivery Cloud
 Pricing
 Hosting options
 Self-hosted agents
 Mac hosted agents
 Linux hosted agents
+Windows hosted agents
 Resources
 Docs
 Blog

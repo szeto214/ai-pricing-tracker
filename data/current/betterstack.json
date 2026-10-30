@@ -7,7 +7,7 @@
   "final_url": "https://betterstack.com/pricing",
   "parser_version": 4,
   "content_hash": "b45f5a65451f44fa285d1a24eec6c95f28ff3669b9068e5dcffd21c5fed0b598",
-  "raw_hash": "1b1b80a4d0d99269cd02b857a017497c9a0cbece75c1d562e89676b76ac4726b",
+  "raw_hash": "bd116d9ab61b6cc9b074220ecc6e75a853720d369fe1345720755c47123904bc",
   "text_bytes": 17173,
   "currency_hints": [],
   "extractor": "dom",

@@ -6,9 +6,9 @@
   "url": "https://buildkite.com/pricing",
   "final_url": "https://buildkite.com/pricing/",
   "parser_version": 4,
-  "content_hash": "f16a82513ca02ab2c5a7ae1ca6dcf503157dd57a557fcedb7a56494c18f4dc7a",
-  "raw_hash": "9100b5e72d084fec62f20f0a462389f0f7533e76f180b98c3e5add9a1d5132f0",
-  "text_bytes": 19073,
+  "content_hash": "3884cd4a2688f58962947259a274cff6d0de5cd66cdb439ffadf6eeed8a262a1",
+  "raw_hash": "ad6e925fa199a309251c06cd85eec30ae7582e7ed1ba8a59bee866980f09fa9b",
+  "text_bytes": 21810,
   "currency_hints": [
     "USD"
   ],
@@ -35,19 +35,6 @@
       "features": [],
       "slot_prices": [
         15.0
-      ]
-    },
-    {
-      "name": "Small",
-      "price_raw": "$0.004",
-      "amount": 0.004,
-      "currency": "USD",
-      "period": "minute",
-      "features": [
-        "Linux AMD64, Linux ARM64, and Mac are billed as separate platforms, each with its own per-vCPU minute rate."
-      ],
-      "slot_prices": [
-        0.004
       ]
     }
   ],

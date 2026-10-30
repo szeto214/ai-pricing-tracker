@@ -6,9 +6,9 @@
   "url": "https://www.baseten.co/pricing/",
   "final_url": "https://www.baseten.co/pricing/",
   "parser_version": 4,
-  "content_hash": "15a4216ec343f98f83232a507c81e35882be51179bd6c74e393b9307a762e625",
-  "raw_hash": "a5c8eb859e26f7c41e049aaf95002d2f0f49dacde607ebafd733dd49735251ea",
-  "text_bytes": 6428,
+  "content_hash": "6acc6acff5559e80f2495e086977cdae4a7f9bb7e62b75c7c92cdbe8d2789e4c",
+  "raw_hash": "9b4405d5c64fd2991ab050bb2b0d3bb9e517083c6ca7653061d3a587bdec68a3",
+  "text_bytes": 6405,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -22,6 +22,17 @@
       "features": [],
       "slot_prices": [
         0.0
+      ]
+    },
+    {
+      "name": "joey-1",
+      "price_raw": "$0.01",
+      "amount": 0.01,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        0.01
       ]
     },
     {
@@ -252,20 +263,21 @@
         0.1,
         0.5
       ]
-    },
-    {
-      "name": "GPU Instances",
-      "price_raw": "$0.01052",
-      "amount": 0.01052,
-      "currency": "USD",
-      "period": null,
-      "features": [],
-      "slot_prices": [
-        0.01052
-      ]
     }
   ],
   "models": [
+    {
+      "key": "joey-1",
+      "model": "joey-1",
+      "prices": {
+        "input": {
+          "raw": "$0.01",
+          "amount": 0.01
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
     {
       "key": "elephant-1",
       "model": "elephant-1",
@@ -616,6 +628,12 @@
           "Input",
           "Cache Input",
           "Output"
+        ],
+        [
+          "joey-1",
+          "$0.01",
+          "-",
+          "- Try Model API Try Model API - Try"
         ],
         [
           "elephant-1",

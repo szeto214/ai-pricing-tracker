@@ -1,7 +1,53 @@
 Models
+Cloudflare: Clairic
+Clairic
+13.1M tokens
+Clairic is Cloudflare's System One-style extraction model served on Workers AI. Given a text state and optional images plus a schema of typed fields, it extracts, computes, estimates, and forecasts strongly typed values (text spans, numbers, dates, times, durations, lists, estimates, forecasts) in a single pass, returning a confidence score and null probability for every field instead of generating tokens. Served through the Extractions API (/api/alpha/extractions); not available on /api/alpha/decisions.
+by
+cloudflare
+Oct 30, 2026
+$0.10/M input
+tokens
+$0/M output
+tokens
+TBC: Mischief 1
+Mischief 1
+<1 hour
+TBC Mischief 1 is the world's first neuron-derived video model from The Biological Computing Co. It supports image to video and is a fast and affordable way to bring ideas to life. Ideal for ideation, previsualization, moodboarding and variant testing.
+by
+tbc
+Oct 30, 2026
+from $0.005/second
+Baseten: Joey 1
+Joey 1
+137M tokens
+Joey 1 is a 2B decision model from Base Labs, Baseten's research team, built on Qwen3.5-2B. Given a state (text or JSON) and typed questions (yes/no, multiple choice, or ordinal score), it returns a calibrated probability for every option in a single forward pass, with no text generation. It is TypeSafe System One compatible and suits high-volume routing, classification, and guardrail checks where latency and cost matter most. Its larger siblings are
+Elephant 1
+and
+Mammoth 1
+.
+by
+baseten
+Oct 29, 2026
+$0.01/M input
+tokens
+$0/M output
+tokens
+Sourceful: Riverflow V2.6 Pro
+Riverflow V2.6 Pro
+3.85M tokens
+Riverflow 2.6 Pro is the flagship model of Sourceful's Riverflow 2.6 lineup, a unified text-to-image and image-to-image family that treats generation as a production workflow: an integrated reasoning model plans multi-step edits and judges candidates before accepting a result, combining that reasoning with a mix of closed and open image diffusion models for accuracy and steerability. Reasoning effort is controllable via the reasoning parameter (low/medium/high/xhigh); higher levels do more editing passes and apply a stricter internal judge. Riverflow 2.6 adds custom output dimensions: pass
+size
+as
+WIDTHxHEIGHT
+(up to 16,384 px per edge, 16.8 megapixels total, 16:1 aspect ratio) instead of a preset, or keep using 1K/2K/4K with an aspect ratio (now including 5:4 and 4:5). It accepts up to 10 input images for editing. Pricing is dynamic: cost is finalized per job at completion based on billable processing, so it scales with reasoning effort, output size, and editing complexity rather than a fixed per-image rate. Additional features (via image_config): - Custom font rendering via font_inputs (max 2) to match brand lettering, spacing, and weight - Custom scoring via scoring_prompt and scoring_rubric, so the reasoning model evaluates and steers each candidate against the criteria you care about - Background control via background_mode (original, transparent, solid) and background_hex_color See the image generation docs for details: https://openrouter.ai/docs/features/multimodal/image-generation Note: Sourceful imposes a 4.5MB request size limit, therefore it is highly recommended to pass image URLs instead of Base64 data.
+by
+sourceful
+Oct 29, 2026
+from $0.13/image
 NVIDIA: Nemotron 3.5 Transcribe
 Nemotron 3.5 Transcribe
-3.1M characters
+24.3M characters
 Nemotron 3.5 Transcribe is an open-weight speech recognition model from NVIDIA, a 30B mixture-of-experts with about 4B active parameters. It transcribes recordings of up to one hour in 40 languages, with speaker attribution, speech translation, and prompt-guided vocabulary and style.
 by
 nvidia
@@ -9,7 +55,7 @@ Oct 29, 2026
 $0.000033/second
 AssemblyAI: TTS 1
 TTS 1
-15K tokens
+44K tokens
 AssemblyAI TTS 1 is a text-to-speech model from AssemblyAI. It is suited for voice agents, narration, and multilingual applications, and draws on a public library of several thousand voices across languages. Voices are selected by slug or ID, and the spoken language follows the chosen voice or can be set explicitly through the
 language
 provider option.
@@ -19,7 +65,8 @@ Oct 28, 2026
 $15/M characters
 Particle AI: Particle-1
 Particle-1
-4.16B tokens
+18.7B tokens
+Trivia (#44)
 Particle-1 is a token-efficient agentic coding model from Particle AI, post-trained on DeepSeek V4.1 Flash. It is suited for software engineering work such as terminal workflows, codebase changes, and data engineering tasks, and is trained to complete them with substantially fewer reasoning and tool-call tokens while keeping accuracy close to its base model.
 by
 particle-ai
@@ -31,7 +78,7 @@ $1/M output
 tokens
 LiquidAI: d1.1
 d1.1
-3.41B tokens
+3.87B tokens
 d1.1 is Liquid AI's structured decision model, served as a System One endpoint and the successor to d1. Send a state along with typed questions, and it returns a choice, a score, or a yes/no answer, each with a probability taken directly from the model rather than written out as text. It uses the same /v1/systemone schema as other OpenRouter Decisions models, so it suits routing, classification, and policy checks that need a fast, scored answer instead of prose.
 by
 liquid
@@ -62,7 +109,7 @@ $0/M output
 tokens
 Amazon: Titan Multimodal Embeddings G1
 Titan Multimodal Embeddings G1
-568K tokens
+579K tokens
 Amazon Titan Multimodal Embeddings G1 embeds text, images, or text and image together into a shared vector space for multimodal search and recommendation. Images are sent as base64 (up to 25 MB), text input is limited to 128 tokens, and vectors are 1,024 dimensions by default with 384 and 256 selectable via the
 dimensions
 parameter.
@@ -82,7 +129,7 @@ Oct 26, 2026
 $0.10/M tokens
 Amazon: Titan Text Embeddings V2
 Titan Text Embeddings V2
-41.8M tokens
+103M tokens
 Amazon Titan Text Embeddings V2 is a text embedding model for retrieval, search, and clustering. It accepts up to 8,192 tokens per input and returns normalized vectors of 1,024 dimensions by default, with 512 and 256 also selectable via the
 dimensions
 parameter.
@@ -92,7 +139,7 @@ Oct 26, 2026
 $0.02/M tokens
 OpenAI: GPT-6.1 Terra Pro (batch)
 GPT-6.1 Terra Pro (batch)
-87.7M tokens
+156M tokens
 GPT-6.1 Terra Pro is the same underlying model as
 GPT-6.1 Terra
 , served with
@@ -114,7 +161,7 @@ $2.50/M output
 tokens
 OpenAI: GPT-6.1 Terra Pro
 GPT-6.1 Terra Pro
-10.9B tokens
+16.3B tokens
 GPT-6.1 Terra Pro is the same underlying model as
 GPT-6.1 Terra
 , served with
@@ -136,7 +183,7 @@ $5/M output
 tokens
 OpenAI: GPT-6.1 Terra (batch)
 GPT-6.1 Terra (batch)
-124M tokens
+151M tokens
 GPT-6.1 Terra is the mid-tier model in OpenAI's GPT-6.1 series, priced below GPT-6.1 Sol. It is suited for everyday agentic, coding, and writing work, is particularly strong at understanding screenshots and on-screen content, and is efficient enough for high-volume workloads.
 by
 openai
@@ -148,7 +195,11 @@ $2.50/M output
 tokens
 OpenAI: GPT-6.1 Terra
 GPT-6.1 Terra
-210B tokens
+392B tokens
+Health (#44)
+Programming (#38)
+Science (#40)
+Technology (#50)
 GPT-6.1 Terra is the mid-tier model in OpenAI's GPT-6.1 series, priced below GPT-6.1 Sol. It is suited for everyday agentic, coding, and writing work, is particularly strong at understanding screenshots and on-screen content, and is efficient enough for high-volume workloads.
 by
 openai
@@ -157,56 +208,6 @@ Oct 26, 2026
 $1/M input
 tokens
 $5/M output
-tokens
-HeyGen: HeyGen Voice Turbo (free)
-HeyGen Voice Turbo (free)
-Going away November 30, 2026
-5.61M tokens
-HeyGen Voice Turbo is a lower-latency version of HeyGen Voice, HeyGen's text-to-speech model. It has the same 10 default voices, or bring your own HeyGen key to use voice clones from your own account. It streams 44.1 kHz mono PCM audio, with support for 39 languages and up to 5,000 characters per request.
-by
-heygen
-Oct 26, 2026
-$0/M input
-tokens
-$0/M output
-tokens
-HeyGen: HeyGen Voice Turbo
-HeyGen Voice Turbo
-50% off
-3.78M tokens
-HeyGen Voice Turbo is a lower-latency version of HeyGen Voice, HeyGen's text-to-speech model. It has the same 10 default voices, or bring your own HeyGen key to use voice clones from your own account. It streams 44.1 kHz mono PCM audio, with support for 39 languages and up to 5,000 characters per request.
-by
-heygen
-Oct 26, 2026
-$4/M characters
-MoonshotAI: Kimi K3.1 Pro
-Kimi K3.1 Pro
-1.4T tokens
-Finance (#29)
-Health (#45)
-SEO (#34)
-Programming (#16)
-Science (#25)
-Kimi K3.1 Pro is Moonshot AI's flagship open-weight multimodal reasoning model and a post-trained successor to Kimi K3, with a 1M-token context window. It is built for long-horizon coding, 3D creation, financial research, and end-to-end agentic knowledge work, with native image and video understanding.
-by
-moonshotai
-Oct 23, 2026
-1.05M context
-$2/M input
-tokens
-$10/M output
-tokens
-Recursive: Flint (free)
-Flint (free)
-203B tokens
-Flint is an open-weight mixture-of-experts model from Recursive, with about 2.5B active parameters out of 40B total, built by Recursive's autoresearch system Eureka Machine for coding agents. It is suited for investigating codebases, fixing bugs, implementing features, and writing tests.
-by
-recursive
-Oct 21, 2026
-262K context
-$0/M input
-tokens
-$0/M output
 tokens
 Compare
 Discover Models

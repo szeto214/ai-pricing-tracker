@@ -321,32 +321,32 @@ RTX A5000
 Thank you! Your submission has been received!
 Oops! Something went wrong while submitting the form.
 Serverless
-Cost effective for every inference workload. Save 25% over other Serverless cloud providers on flex workers alone.
+Cost effective for every inference workload.
 Get started
 GPU
 Per hour
 Per second
 Workers
-280
+288
 GB
 B300
 Maximum throughput for big models.
 $
-10.65
+11.99
 /hr
 180
 GB
 B200
 Maximum throughput for big models.
 $
-8.64
+10.79
 /hr
 141
 GB
 H200
 Extreme throughput for big models.
 $
-5.93
+6.99
 /hr
 96
 GB
@@ -362,7 +362,7 @@ H100
 PRO
 Extreme throughput for big models.
 $
-4.79
+5.39
 /hr
 80
 GB
@@ -392,7 +392,7 @@ GB
 PRO
 Extreme throughput for small-to-medium models.
 $
-1.58
+1.79
 /hr
 32
 GB
@@ -407,14 +407,14 @@ GB
 PRO
 Extreme throughput for small-to-medium models.
 $
-1.10
+1.34
 /hr
 24
 GB
 L4, A5000, 3090, MIG 24GB
 Great for small-to-medium sized inference workloads.
 $
-0.69
+0.75
 /hr
 16
 GB
@@ -638,7 +638,7 @@ Alibaba / Wan 2.2 I2V 720p LoRA
 Thank you! Your submission has been received!
 Oops! Something went wrong while submitting the form.
 Gain additional savings with reservations.
-Save more with long-term commitments. Speak with our team to reserve discounted active and flex workers.
+Speak with our team about Serverless reservations and contract pricing.
 Get started
 How Runpod pricing works
 Runpod pricing is based on the type of GPU workload you run.

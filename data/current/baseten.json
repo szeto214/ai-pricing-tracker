@@ -7,7 +7,7 @@
   "final_url": "https://www.baseten.co/pricing/",
   "parser_version": 4,
   "content_hash": "6acc6acff5559e80f2495e086977cdae4a7f9bb7e62b75c7c92cdbe8d2789e4c",
-  "raw_hash": "9b4405d5c64fd2991ab050bb2b0d3bb9e517083c6ca7653061d3a587bdec68a3",
+  "raw_hash": "e2ef13ae9ffe3a919c61053e037f9a13c3b693e9d9d423d3d3f5765ca35d2183",
   "text_bytes": 6405,
   "currency_hints": [],
   "extractor": "dom",

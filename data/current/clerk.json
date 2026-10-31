@@ -6,9 +6,9 @@
   "url": "https://clerk.com/pricing",
   "final_url": "https://clerk.com/pricing",
   "parser_version": 4,
-  "content_hash": "2b02eb5ebace5a13ed619c537dba1993ea6dc4dfbece4f741873ad30616f6057",
-  "raw_hash": "a15ee046cc7ff637f662d862c05f9001ecc9c8dfceafeb8b733044c9f3bfa307",
-  "text_bytes": 13951,
+  "content_hash": "9f6b109ea44a358b5f47ac33a366967041a19d7cc3b0aa15e9702f6ca2eb17f0",
+  "raw_hash": "ea95ddc5441248f4d48ab0f3df3366a1a5c870547c84cf9b9ac4e81ede673023",
+  "text_bytes": 14039,
   "currency_hints": [],
   "extractor": "jsonld",
   "confidence": "medium",
@@ -188,14 +188,14 @@
         [
           "SSO connections Enterprise single sign-on with SAML, OIDC, or EASIE.",
           "Not included",
-          "1 connection included per app 2 - 15 $75/mo each 16 - 100 $60/mo each 101+ Contact us",
-          "1 connection included per app 2 - 15 $75/mo each 16 - 100 $60/mo each 101+ Contact us"
+          "1 connection included per app 2 - 15 $75/mo each 16 - 100 $60/mo each 101 - 250 $48/mo each 251+ Contact us",
+          "1 connection included per app 2 - 15 $75/mo each 16 - 100 $60/mo each 101 - 250 $48/mo each 251+ Contact us"
         ],
         [
           "Directory Sync connections Provision and deprovision users with SCIM or Google Workspace. Counted separately from SSO connections. Billing for Directory Sync co",
           "Not included",
-          "1 connection included per app 2 - 15 $75/mo each 16 - 100 $60/mo each 101+ Contact us",
-          "1 connection included per app 2 - 15 $75/mo each 16 - 100 $60/mo each 101+ Contact us"
+          "1 connection included per app 2 - 15 $75/mo each 16 - 100 $60/mo each 101 - 250 $48/mo each 251+ Contact us",
+          "1 connection included per app 2 - 15 $75/mo each 16 - 100 $60/mo each 101 - 250 $48/mo each 251+ Contact us"
         ],
         [
           "Waitlist mode Collect sign-up requests in a waitlist and choose who gets access.",

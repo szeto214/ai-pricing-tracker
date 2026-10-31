@@ -6,9 +6,9 @@
   "url": "https://platform.openai.com/docs/pricing",
   "final_url": "https://developers.openai.com/api/docs/pricing",
   "parser_version": 4,
-  "content_hash": "035907434ded6e3a67555d051e2a32b8c5b5ece5758e6f765b6775f5a9f2aaff",
-  "raw_hash": "52118363bc565da0899ce3e034aeb9fc7f5a7daa1aa1a1292721a64f641bac05",
-  "text_bytes": 7014,
+  "content_hash": "4cd46171afd7ad1172811c6426d9bc98dc3fc6aa0a70fcb604645652fc96b59b",
+  "raw_hash": "8434bbb98bd5f857e4b3261d6fc4f560137080d12a9f4b302db6bf2b5f10dbe8",
+  "text_bytes": 7302,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -101,6 +101,21 @@
         1.25,
         15.625,
         31.25
+      ]
+    },
+    {
+      "name": "gpt-6-rosalind",
+      "price_raw": "$15.00",
+      "amount": 15.0,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        15.0,
+        75.0,
+        1.5,
+        18.75,
+        37.5
       ]
     },
     {
@@ -223,32 +238,6 @@
       "features": [],
       "slot_prices": [
         0.0045
-      ]
-    },
-    {
-      "name": "gpt-4o-transcribe",
-      "price_raw": "$2.50",
-      "amount": 2.5,
-      "currency": "USD",
-      "period": "minute",
-      "features": [],
-      "slot_prices": [
-        2.5,
-        10.0,
-        0.006
-      ]
-    },
-    {
-      "name": "gpt-4o-mini-transcribe",
-      "price_raw": "$1.25",
-      "amount": 1.25,
-      "currency": "USD",
-      "period": "minute",
-      "features": [],
-      "slot_prices": [
-        1.25,
-        5.0,
-        0.003
       ]
     }
   ],
@@ -416,6 +405,34 @@
         "12h write": {
           "raw": "$31.25",
           "amount": 31.25
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "gpt-6-rosalind",
+      "model": "gpt-6-rosalind",
+      "prices": {
+        "input": {
+          "raw": "$15.00",
+          "amount": 15.0
+        },
+        "output": {
+          "raw": "$75.00",
+          "amount": 75.0
+        },
+        "cached input": {
+          "raw": "$1.50",
+          "amount": 1.5
+        },
+        "30m write": {
+          "raw": "$18.75",
+          "amount": 18.75
+        },
+        "12h write": {
+          "raw": "$37.50",
+          "amount": 37.5
         }
       },
       "currency": "USD",
@@ -905,22 +922,57 @@
       "caption": "",
       "rows": [
         [
+          "",
+          "Prompt caching"
+        ],
+        [
           "Model",
           "Input",
           "Output",
-          "Cached input"
+          "Cached input",
+          "30m write",
+          "12h write"
+        ],
+        [
+          "gpt-6-rosalind",
+          "$15.00",
+          "$75.00",
+          "$1.50",
+          "$18.75",
+          "$37.50"
         ],
         [
           "gpt-rosalind-research",
           "$5.00",
           "$25.00",
-          "$0.50"
+          "$0.50",
+          "-",
+          "-"
         ],
         [
           "gpt-rosalind-discovery",
           "$5.00",
           "$25.00",
-          "$0.50"
+          "$0.50",
+          "-",
+          "-"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Model configuration",
+          "Input",
+          "Output",
+          "Cached input"
+        ],
+        [
+          "gpt-6-astra-law",
+          "$10.00",
+          "$50.00",
+          "$1.00"
         ]
       ]
     },

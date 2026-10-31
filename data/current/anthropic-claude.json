@@ -6,9 +6,9 @@
   "url": "https://www.anthropic.com/pricing",
   "final_url": "https://claude.com/pricing",
   "parser_version": 4,
-  "content_hash": "4be451215865d8dbad4105ce596bdc58c7a149bf35341d69dd4320c0f5a9a6ff",
-  "raw_hash": "c58241a40b6dcab84a49a19c081ce3b10df2a136eb0012479886b784d2914ae3",
-  "text_bytes": 6516,
+  "content_hash": "978771931496a09a7bff50fa874f2593bbae29ecd06af3e5cf6932e25d32f8e6",
+  "raw_hash": "9143cb9810b29e07839750dbf8af6670879aafe2e5bce6ae91d67671b99844f8",
+  "text_bytes": 7541,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -29,7 +29,8 @@
       "currency": "USD",
       "period": "month",
       "features": [
-        "More usage*",
+        "More usage than Free , every 5 hours and every week *",
+        "Fable, paid with usage credits New",
         "Hand off and schedule tasks",
         "Claude Dashboards (beta)",
         "Claude Code",
@@ -49,18 +50,33 @@
       "currency": "USD",
       "period": "month",
       "features": [
-        "Choose 5x or 20x more usage than Pro*",
-        "Higher output limits for all tasks",
+        "5x Pro usage every 5 hours and every week*",
+        "Fable included, up to half your weekly limit New",
+        "$100 a month in API credits to build on the Claude Platform † New",
         "Early access to advanced Claude features",
-        "Priority access at high traffic times",
-        "$100 to $200/month in API credits to build on the Claude Platform †"
+        "Priority access at high traffic times"
       ],
       "slot_prices": [
         100.0
       ]
     },
     {
-      "name": "@Claude",
+      "name": "Ultra",
+      "price_raw": "$200",
+      "amount": 200.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "No 5-hour limit ‡",
+        "10x Pro usage every week*",
+        "$200 a month in API credits, up from $100 on Max † New"
+      ],
+      "slot_prices": [
+        200.0
+      ]
+    },
+    {
+      "name": "Hand off and schedule tasks",
       "price_raw": "Free",
       "amount": 0.0,
       "currency": null,
@@ -69,25 +85,7 @@
       "slot_prices": []
     },
     {
-      "name": "Central billing and administration",
-      "price_raw": "Free",
-      "amount": 0.0,
-      "currency": null,
-      "period": null,
-      "features": [],
-      "slot_prices": []
-    },
-    {
-      "name": "Credit card",
-      "price_raw": "Free",
-      "amount": 0.0,
-      "currency": null,
-      "period": null,
-      "features": [],
-      "slot_prices": []
-    },
-    {
-      "name": "Fable More information",
+      "name": "Limit every 5 hours",
       "price_raw": "$100",
       "amount": 100.0,
       "currency": "USD",
@@ -107,6 +105,24 @@
       "slot_prices": [
         100.0
       ]
+    },
+    {
+      "name": "Role-based access More information",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": [],
+      "slot_prices": []
+    },
+    {
+      "name": "Credit card",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": [],
+      "slot_prices": []
     }
   ],
   "models": [],
@@ -118,32 +134,67 @@
           "Features",
           "Free",
           "Pro",
-          "Max 5x",
-          "Max 20x"
+          "Max",
+          "Ultra"
         ],
         [
-          "@Claude",
+          "Chat on web, iOS, Android and Desktop",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Hand off and schedule tasks",
+          "No",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Create Artifacts More information",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Claude Dashboards (beta)",
+          "No",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Claude Design",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Claude Docs",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Claude Motion (beta) More information",
           "No",
           "No",
           "No",
           "No"
         ],
         [
+          "Claude Slides",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
           "Claude Code",
-          "No",
-          "Yes",
-          "Yes",
-          "Yes"
-        ],
-        [
-          "Claude Science",
-          "No",
-          "Yes",
-          "Yes",
-          "Yes"
-        ],
-        [
-          "Claude in Chrome",
           "No",
           "Yes",
           "Yes",
@@ -164,56 +215,35 @@
           "Yes"
         ],
         [
-          "Chat on web, iOS, Android and Desktop",
-          "Yes",
-          "Yes",
-          "Yes",
-          "Yes"
-        ],
-        [
-          "Claude Design",
-          "Yes",
-          "Yes",
-          "Yes",
-          "Yes"
-        ],
-        [
-          "Claude Slides",
-          "Yes",
-          "Yes",
-          "Yes",
-          "Yes"
-        ],
-        [
-          "Claude Docs",
-          "Yes",
-          "Yes",
-          "Yes",
-          "Yes"
-        ],
-        [
-          "Claude Dashboards (beta)",
+          "Claude in Chrome",
           "No",
           "Yes",
           "Yes",
           "Yes"
         ],
         [
-          "Claude Motion (beta)",
+          "Claude Science",
+          "No",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Claude Tag More information",
           "No",
           "No",
           "No",
           "No"
         ],
         [
-          "Ability to search the web",
+          "Connectors More information",
           "Yes",
           "Yes",
           "Yes",
           "Yes"
         ],
         [
-          "Create Artifacts More information",
+          "Create and edit files with code execution More information",
           "Yes",
           "Yes",
           "Yes",
@@ -227,14 +257,49 @@
           "Yes"
         ],
         [
-          "Voice mode",
+          "Enterprise search More information",
+          "No",
+          "No",
+          "No",
+          "No"
+        ],
+        [
+          "Incognito chats More information",
           "Yes",
           "Yes",
           "Yes",
           "Yes"
         ],
         [
-          "Incognito chats More information",
+          "Memory",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Project sharing and collaboration More information",
+          "No",
+          "No",
+          "No",
+          "No"
+        ],
+        [
+          "Projects",
+          "Up to 5",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Research",
+          "No",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Skills More information",
           "Yes",
           "Yes",
           "Yes",
@@ -248,49 +313,7 @@
           "Yes"
         ],
         [
-          "Projects",
-          "Up to 5",
-          "Yes",
-          "Yes",
-          "Yes"
-        ],
-        [
-          "Project sharing and collaboration",
-          "No",
-          "No",
-          "No",
-          "No"
-        ],
-        [
-          "Create and edit files with code execution More information",
-          "Yes",
-          "Yes",
-          "Yes",
-          "Yes"
-        ],
-        [
-          "Research",
-          "No",
-          "Yes",
-          "Yes",
-          "Yes"
-        ],
-        [
-          "Memory",
-          "Yes",
-          "Yes",
-          "Yes",
-          "Yes"
-        ],
-        [
-          "Skills More information",
-          "Yes",
-          "Yes",
-          "Yes",
-          "Yes"
-        ],
-        [
-          "Connectors More information",
+          "Voice mode",
           "Yes",
           "Yes",
           "Yes",
@@ -302,13 +325,6 @@
           "Yes",
           "Yes",
           "Yes"
-        ],
-        [
-          "Enterprise search More information",
-          "No",
-          "No",
-          "No",
-          "No"
         ]
       ]
     },
@@ -319,151 +335,22 @@
           "Features",
           "Free",
           "Pro",
-          "Max 5x",
-          "Max 20x"
+          "Max",
+          "Ultra"
         ],
         [
-          "Single sign-on (SSO) and domain capture",
-          "No",
-          "No",
-          "No",
-          "No"
+          "Limit every 5 hours",
+          "Limited",
+          "1x",
+          "5x",
+          "No 5-hour limit ‡"
         ],
         [
-          "Central billing and administration",
-          "No",
-          "No",
-          "No",
-          "No"
-        ],
-        [
-          "Admin controls for remote and local connectors",
-          "No",
-          "No",
-          "No",
-          "No"
-        ],
-        [
-          "Enterprise deployment for the Claude desktop app",
-          "No",
-          "No",
-          "No",
-          "No"
-        ],
-        [
-          "Role-based access",
-          "No",
-          "No",
-          "No",
-          "No"
-        ],
-        [
-          "System for Cross-domain Identity Management (SCIM)",
-          "No",
-          "No",
-          "No",
-          "No"
-        ],
-        [
-          "Audit logs",
-          "No",
-          "No",
-          "No",
-          "No"
-        ],
-        [
-          "Usage analytics",
-          "No",
-          "No",
-          "No",
-          "No"
-        ],
-        [
-          "Compliance API",
-          "No",
-          "No",
-          "No",
-          "No"
-        ],
-        [
-          "HIPAA-ready offering",
-          "No",
-          "No",
-          "No",
-          "No"
-        ],
-        [
-          "Custom data retention controls",
-          "No",
-          "No",
-          "No",
-          "No"
-        ],
-        [
-          "Organization wide skills deployment",
-          "No",
-          "No",
-          "No",
-          "No"
-        ]
-      ]
-    },
-    {
-      "caption": "",
-      "rows": [
-        [
-          "Features",
-          "Free",
-          "Pro",
-          "Max 5x",
-          "Max 20x"
-        ],
-        [
-          "Credit card",
-          "n/a",
-          "Yes",
-          "Yes",
-          "Yes"
-        ],
-        [
-          "ACH",
-          "No",
-          "No",
-          "No",
-          "No"
-        ],
-        [
-          "Invoicing / net terms",
-          "No",
-          "No",
-          "No",
-          "No"
-        ],
-        [
-          "Billing cycle",
-          "n/a",
-          "Monthly and annual",
-          "Monthly",
-          "Monthly"
-        ],
-        [
-          "Adding seats midterm",
-          "n/a",
-          "n/a",
-          "n/a",
-          "n/a"
-        ]
-      ]
-    },
-    {
-      "caption": "",
-      "rows": [
-        [
-          "Features",
-          "Free",
-          "Pro",
-          "Max 5x",
-          "Max 20x"
+          "Limit every week",
+          "Limited",
+          "1x",
+          "5x",
+          "10x"
         ],
         [
           "Fable More information",
@@ -522,7 +409,7 @@
           "Yes"
         ],
         [
-          "User and organizational level spend controls",
+          "User and organizational level spend controls More information",
           "No",
           "No",
           "No",
@@ -534,6 +421,149 @@
           "Opt-out",
           "Opt-out",
           "Opt-out"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Features",
+          "Free",
+          "Pro",
+          "Max",
+          "Ultra"
+        ],
+        [
+          "Single sign-on (SSO) and domain capture More information",
+          "No",
+          "No",
+          "No",
+          "No"
+        ],
+        [
+          "Central billing and administration More information",
+          "No",
+          "No",
+          "No",
+          "No"
+        ],
+        [
+          "Admin controls for remote and local connectors More information",
+          "No",
+          "No",
+          "No",
+          "No"
+        ],
+        [
+          "Enterprise deployment for the Claude desktop app More information",
+          "No",
+          "No",
+          "No",
+          "No"
+        ],
+        [
+          "Role-based access More information",
+          "No",
+          "No",
+          "No",
+          "No"
+        ],
+        [
+          "System for Cross-domain Identity Management (SCIM) More information",
+          "No",
+          "No",
+          "No",
+          "No"
+        ],
+        [
+          "Audit logs More information",
+          "No",
+          "No",
+          "No",
+          "No"
+        ],
+        [
+          "Usage analytics More information",
+          "No",
+          "No",
+          "No",
+          "No"
+        ],
+        [
+          "Compliance API More information",
+          "No",
+          "No",
+          "No",
+          "No"
+        ],
+        [
+          "HIPAA-ready offering More information",
+          "No",
+          "No",
+          "No",
+          "No"
+        ],
+        [
+          "Custom data retention controls More information",
+          "No",
+          "No",
+          "No",
+          "No"
+        ],
+        [
+          "Organization wide skills deployment More information",
+          "No",
+          "No",
+          "No",
+          "No"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Features",
+          "Free",
+          "Pro",
+          "Max",
+          "Ultra"
+        ],
+        [
+          "Credit card",
+          "n/a",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "ACH More information",
+          "No",
+          "No",
+          "No",
+          "No"
+        ],
+        [
+          "Invoicing / net terms More information",
+          "No",
+          "No",
+          "No",
+          "No"
+        ],
+        [
+          "Billing cycle",
+          "n/a",
+          "Monthly and annual",
+          "Monthly",
+          "Monthly"
+        ],
+        [
+          "Adding seats midterm",
+          "n/a",
+          "n/a",
+          "n/a",
+          "n/a"
         ]
       ]
     }

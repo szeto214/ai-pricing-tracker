@@ -150,7 +150,7 @@ Enable pay-as-you-go
 Pricing at a
 glance
 Credit unit
-1 credit = 1 page on a basic scrape, crawl, or map. Search costs 2 credits per 10 results; Interact costs 2 credits per browser minute. On Scrape and Crawl, the JSON, Question, and Highlight formats add 4 credits per page; Monitor's deterministic-extraction engine bills a flat 7 credits per page per check instead. Credits are shared across all endpoints: search results and pages scraped draw on one balance.
+1 credit = 1 page on a basic scrape or crawl, and 1 credit per Map call. Search costs 2 credits per 10 results; Interact costs 2 credits per browser minute. On Scrape and Crawl, the JSON, Question, and Highlight formats add 4 credits per page; Monitor's deterministic-extraction engine bills a flat 7 credits per page per check instead. Credits are shared across all endpoints: search results and pages scraped draw on one balance.
 Free tier
 1,000 credits every month, refreshed monthly, no credit card required.
 Entry plan
@@ -473,84 +473,174 @@ People love
 building with
 Firecrawl
 Discover why developers choose Firecrawl every day.
+Peter Steinberger
+@steipete
+"I already have
+firecrawl
+which does that really well, no need to waste time trying similar things"
 Morgan Linton
 @morganlinton
 "If you're coding with AI, and haven't discovered
 @firecrawl
 yet, prepare to have your mind blown 🤯"
+Ole Lehmann
+@itsolelehmann
+"
+Firecrawl
+. Basically web search built for agents. It's better than the native Hermes web search because it gives you clean web data..."
 Chris DeWeese
 @chrisdeweese_
 "Started using
 @firecrawl
 for a project, I wish I used this sooner."
+Alejandro AO
+@_alejandroao
+"been using
+firecrawl
+for several months as my main search/parser. it's the best. thanks guys."
 Alex Reibman
 @AlexReibman
 "Moved our internal agent's web scraping tool from Apify to
 Firecrawl
 because it benchmarked 50x faster with AgentOps."
+Pranav Pai Vernekar
+@ppv999
+"Finally upgraded my plan of
+@firecrawl
+to a paid plan. Totally worth it. One of the best products for your AI workflows."
 Tom - Morpho
 @TomReppelin
 "I found gold today. Thank you
 @firecrawl
 "
+Peter Steinberger
+@steipete
+"I already have
+firecrawl
+which does that really well, no need to waste time trying similar things"
 Morgan Linton
 @morganlinton
 "If you're coding with AI, and haven't discovered
 @firecrawl
 yet, prepare to have your mind blown 🤯"
+Ole Lehmann
+@itsolelehmann
+"
+Firecrawl
+. Basically web search built for agents. It's better than the native Hermes web search because it gives you clean web data..."
 Chris DeWeese
 @chrisdeweese_
 "Started using
 @firecrawl
 for a project, I wish I used this sooner."
+Alejandro AO
+@_alejandroao
+"been using
+firecrawl
+for several months as my main search/parser. it's the best. thanks guys."
 Alex Reibman
 @AlexReibman
 "Moved our internal agent's web scraping tool from Apify to
 Firecrawl
 because it benchmarked 50x faster with AgentOps."
+Pranav Pai Vernekar
+@ppv999
+"Finally upgraded my plan of
+@firecrawl
+to a paid plan. Totally worth it. One of the best products for your AI workflows."
 Tom - Morpho
 @TomReppelin
 "I found gold today. Thank you
 @firecrawl
 "
+Shaan Ali
+@kshaaneali
+"quietly swapped the scraping layer to
+firecrawl
+today and the difference is wild: clean markdown instead of raw html soup."
 Bardia
 @thepericulum
 "The
 Firecrawl
 team ships. I wanted types for their node SDK, and less than an hour later, I got them."
+Kim Vault
+@Widmdge
+"i've used
+firecrawl
+with claude, it saved me hours"
 Matt Busigin
 @mbusigin
 "
 Firecrawl
 is dope. Congrats guys 👏"
+Nick DeJesus
+@Dayhaysoos
+"I gotta give a big shoutout to
+@firecrawl
+. I've done so much on it just on the free tier..."
 Sumanth
 @Sumanth_077
 "Web scraping will never be the same!
 Firecrawl
 is an open-source framework that takes a URL, crawls it, and conver..."
+Mirza
+@b1rkh0ff
+"I've no idea why people don't self-host
+Firecrawl
+. There's no crawl job I haven't done with it."
 Steven Tey
 @steventey
 "Open-source Clay alternative just dropped
 Upload a CSV of emails and..."
+Matthew Marley
+@matthewmarley
+"Set up
+@firecrawl
+last night on codex using the MCP and was able to crawl over 100 pages in about 20 minutes 🙌"
+Shaan Ali
+@kshaaneali
+"quietly swapped the scraping layer to
+firecrawl
+today and the difference is wild: clean markdown instead of raw html soup."
 Bardia
 @thepericulum
 "The
 Firecrawl
 team ships. I wanted types for their node SDK, and less than an hour later, I got them."
+Kim Vault
+@Widmdge
+"i've used
+firecrawl
+with claude, it saved me hours"
 Matt Busigin
 @mbusigin
 "
 Firecrawl
 is dope. Congrats guys 👏"
+Nick DeJesus
+@Dayhaysoos
+"I gotta give a big shoutout to
+@firecrawl
+. I've done so much on it just on the free tier..."
 Sumanth
 @Sumanth_077
 "Web scraping will never be the same!
 Firecrawl
 is an open-source framework that takes a URL, crawls it, and conver..."
+Mirza
+@b1rkh0ff
+"I've no idea why people don't self-host
+Firecrawl
+. There's no crawl job I haven't done with it."
 Steven Tey
 @steventey
 "Open-source Clay alternative just dropped
 Upload a CSV of emails and..."
+Matthew Marley
+@matthewmarley
+"Set up
+@firecrawl
+last night on codex using the MCP and was able to crawl over 100 pages in about 20 minutes 🙌"
 [
 04
 /
@@ -579,7 +669,7 @@ We add credits to your account when your balance runs out, so your requests keep
 How many credits does a 5 USD pay-as-you-go increment give me?
 A 5 USD increment gives you 1,000 credits on Hobby, 2,000 on Standard, 2,500 on Growth, and 5,000 on Scale.
 How many credits does each request cost?
-Scrape, Crawl, and Map each cost 1 credit per page, and Monitor costs 1 credit per page per check. Search costs 2 credits per 10 results. Interact costs 2 credits per browser minute. The Firecrawl Research Index paper endpoints are free across every category, including AI/ML and life sciences. Agent is in preview with 5 free daily runs and dynamic pricing. Advanced features (JSON format, etc.) cost additional credits. Check out the credits table on the pricing page for more details.
+Scrape and Crawl each cost 1 credit per page, Map costs 1 credit per call, and Monitor costs 1 credit per page per check. Search costs 2 credits per 10 results. Interact costs 2 credits per browser minute. The Firecrawl Research Index paper endpoints are free across every category, including AI/ML and life sciences. Agent is in preview with 5 free daily runs and dynamic pricing. Advanced features (JSON format, etc.) cost additional credits. Check out the credits table on the pricing page for more details.
 Do you charge for failed requests?
 A scrape that returns no result is not charged. A page that responds with an error status such as 403 or 404 is still returned to you and costs 1 credit. If a charge looks incorrect, reach out to
 help@firecrawl.com

@@ -6,9 +6,9 @@
   "url": "https://mailchimp.com/pricing/",
   "final_url": "https://mailchimp.com/pricing/marketing/",
   "parser_version": 4,
-  "content_hash": "d410616e24458ed575c67e72f84aba1d1fd3ee50cff939fd8076b6c80e30b0e6",
-  "raw_hash": "ada80b056f8339a5b5cba5f34bc3e9a5a96c4d327ac4c5eb56a99cf65573b9ba",
-  "text_bytes": 23537,
+  "content_hash": "a42cd6bf28eaf8efae7ff9e5135389d83d6e1e9d210d7a6d9e439f8e56053397",
+  "raw_hash": "d4e1d7e434e87214ff87f1d8cab95858bd01f3a72576f118d71ad8f94ed5ff42",
+  "text_bytes": 23570,
   "currency_hints": [
     "AUD",
     "BRL",
@@ -33,6 +33,17 @@
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
+    {
+      "name": "Standard",
+      "price_raw": "$20",
+      "amount": 20.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [],
+      "slot_prices": [
+        20.0
+      ]
+    },
     {
       "name": "Premium",
       "price_raw": "Free",

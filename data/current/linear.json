@@ -6,9 +6,9 @@
   "url": "https://linear.app/pricing",
   "final_url": "https://linear.app/pricing",
   "parser_version": 4,
-  "content_hash": "58c172eacc558866c88b487d25a4b14308dd87b14c557a2b191deffa817c9137",
-  "raw_hash": "5f2ed4d4eeb6af35c04f97f30f41d4acffbeadbb5346f2b97cf6aa776db70e36",
-  "text_bytes": 4418,
+  "content_hash": "7e83111f3839b650dd4a1d8295834d0a18eeb8997d369a278dfe1e5f6b46ae0c",
+  "raw_hash": "ad5e1ab32a90810a346ac536ed31b8c0413d6dd58e3f58805b11f814be4c3292",
+  "text_bytes": 4414,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -24,7 +24,8 @@
         "2 teams",
         "250 issues",
         "Agent platform",
-        "Linear Agent"
+        "Linear Agent",
+        "Loops"
       ],
       "slot_prices": [
         0.0

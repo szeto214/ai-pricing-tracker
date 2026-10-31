@@ -6,11 +6,15 @@
   "url": "https://stripe.com/pricing",
   "final_url": "https://stripe.com/pricing",
   "parser_version": 4,
-  "content_hash": "9963d1c291cef75064681860797ce286318382668a565aa0d6a9303c6435fa7c",
-  "raw_hash": "37da5a905a24dd2f53e471dc817edace4fc47342c02bab1cb825fcb3c9f3dd9f",
-  "text_bytes": 33533,
+  "content_hash": "74e29ddeb6276339d76c683eeffc117aef5585249c9dc6d191b01a7ea2757bd0",
+  "raw_hash": "13f97bd83c9e3ac91fcbec66efe19af515ad8b4863f5b7b17399d353c77a17bd",
+  "text_bytes": 33934,
   "currency_hints": [
-    "USD"
+    "AUD",
+    "CAD",
+    "EUR",
+    "USD",
+    "£"
   ],
   "extractor": "dom",
   "confidence": "medium",
@@ -148,18 +152,7 @@
       ]
     },
     {
-      "name": "Receive funds",
-      "price_raw": "$2.00",
-      "amount": 2.0,
-      "currency": "USD",
-      "period": null,
-      "features": [],
-      "slot_prices": [
-        2.0
-      ]
-    },
-    {
-      "name": "Global Payouts (Domestic)",
+      "name": "Debit card payouts",
       "price_raw": "$1.50",
       "amount": 1.5,
       "currency": "USD",
@@ -170,25 +163,14 @@
       ]
     },
     {
-      "name": "Global Payouts (International)",
-      "price_raw": "$1.50",
-      "amount": 1.5,
+      "name": "Stablecoin payouts",
+      "price_raw": "$0.50",
+      "amount": 0.5,
       "currency": "USD",
       "period": null,
       "features": [],
       "slot_prices": [
-        1.5
-      ]
-    },
-    {
-      "name": "Domestic payouts",
-      "price_raw": "$1.50",
-      "amount": 1.5,
-      "currency": "USD",
-      "period": null,
-      "features": [],
-      "slot_prices": [
-        1.5
+        0.5
       ]
     }
   ],

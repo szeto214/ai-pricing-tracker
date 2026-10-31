@@ -7,7 +7,7 @@
   "final_url": "https://suno.com/pricing",
   "parser_version": 4,
   "content_hash": "005c449b005f8de46e736706ce2c6cc861a7adfa7cf5acd7fc87ac1328f856ec",
-  "raw_hash": "6650d514c0979c65e4cae7125d64827dce17f062a0c5cb04005ce09cdb6a4c01",
+  "raw_hash": "afe85e506f04d5651f92216ee465295d10166931f184b66fe7146dd77679f12c",
   "text_bytes": 2962,
   "currency_hints": [],
   "extractor": "dom",
@@ -15,20 +15,21 @@
   "plans": [
     {
       "name": "Free",
-      "price_raw": "Free",
-      "amount": 0.0,
-      "currency": null,
-      "period": null,
-      "features": [],
-      "slot_prices": []
-    },
-    {
-      "name": "Free",
       "price_raw": "$0",
       "amount": 0.0,
       "currency": "USD",
       "period": "month",
-      "features": [],
+      "features": [
+        "Access to our free models",
+        "50 credits per day",
+        "Standard features only",
+        "Upload up to 8 min of audio",
+        "Shared creation queue",
+        "No monthly song downloads",
+        "No commercial rights",
+        "No add-on credit purchases",
+        "No stem separation"
+      ],
       "slot_prices": [
         0.0
       ]
@@ -39,7 +40,19 @@
       "amount": 8.0,
       "currency": "USD",
       "period": "month",
-      "features": [],
+      "features": [
+        "Access to our best models",
+        "2,500 credits per month",
+        "20 song downloads per month",
+        "Commercial use rights",
+        "Standard + Pro features",
+        "2 stem separation types (Auto; Split from mix)",
+        "Early access to new features",
+        "Ability to purchase additional credits and downloads",
+        "Priority queue; up to 10 songs at once",
+        "Record, upload, and create with your own voice",
+        "Create custom models"
+      ],
       "slot_prices": [
         8.0
       ]
@@ -50,7 +63,22 @@
       "amount": 24.0,
       "currency": "USD",
       "period": "month",
-      "features": [],
+      "features": [
+        "Access to Suno Studio - now with MIDI, effects, automation, and design-your-own-plugins",
+        "10,000 credits per month",
+        "60 song downloads per month",
+        "Access to our best models",
+        "Commercial use rights",
+        "Standard + Pro features (personas and advanced editing)",
+        "3 stem separation types (Auto; Split from mix and Advanced split)",
+        "Upload up to 30 min of audio",
+        "Add new vocals or instrumentals to existing songs",
+        "Early access to new features",
+        "Ability to purchase additional credits and downloads",
+        "Priority queue; up to 10 songs at once",
+        "Record, upload, and create with your own voice",
+        "Create custom models"
+      ],
       "slot_prices": [
         24.0
       ]

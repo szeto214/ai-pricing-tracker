@@ -6,9 +6,9 @@
   "url": "https://www.inngest.com/pricing",
   "final_url": "https://www.inngest.com/pricing",
   "parser_version": 4,
-  "content_hash": "753cd45f04b39f8967da53a8b3daa4700c87bb7de07769a31ce12bcc6cd4e6b8",
-  "raw_hash": "af67a88286e90df5b6da193bf35e0238ac83ce793828f71a03a02ab105eb1d08",
-  "text_bytes": 11977,
+  "content_hash": "b3b7a8d9eba403e17735fe11d9997b9ef318bf40aff60a3097870f896dd54f33",
+  "raw_hash": "4367110e9a5ba89c5866bb40202fbb6a53ccfbceeaec89b7dc1712cf40d9bdca",
+  "text_bytes": 11993,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -55,6 +55,17 @@
       "slot_prices": [
         0.0,
         99.0
+      ]
+    },
+    {
+      "name": "Executions",
+      "price_raw": "$50",
+      "amount": 50.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [],
+      "slot_prices": [
+        50.0
       ]
     },
     {

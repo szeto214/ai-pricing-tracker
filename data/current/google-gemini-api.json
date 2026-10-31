@@ -6,9 +6,9 @@
   "url": "https://ai.google.dev/pricing",
   "final_url": "https://ai.google.dev/gemini-api/docs/pricing",
   "parser_version": 4,
-  "content_hash": "93241f36126db86689eee2636c3a7afd1eebbb6034dd66fb3ab27adba8c7962e",
-  "raw_hash": "8dc57cf807e2552623b4ccadf84a237a92aa75c1e681ea6f0b0c6316ee147765",
-  "text_bytes": 63058,
+  "content_hash": "4d8870a9022fb5d494b27c6a025bf54b6fd06e07cdaa504ba5ccc4ac1f2cf4d6",
+  "raw_hash": "a4cb9a92facbfe3238d968658470c43d73467bf273342d35a9b39886aafbf0d7",
+  "text_bytes": 64439,
   "currency_hints": [
     "USD"
   ],
@@ -178,22 +178,22 @@
         [
           "",
           "Free Tier",
-          "Paid Tier, per 1M tokens in USD"
+          "Paid Tier, per 1M tokens in USD *"
         ],
         [
           "Input price",
           "Not available",
-          "$1.00 through November 30, 2026. $2.00 starting December 1, 2026."
+          "$1.00"
         ],
         [
           "Output price (including thinking tokens)",
           "Not available",
-          "$5.00 through November 30, 2026. $10.00 starting December 1, 2026."
+          "$5.00"
         ],
         [
           "Context caching price",
           "Not available",
-          "$0.05 through November 30, 2026. $0.10 starting December 1, 2026. Implicit caching only (explicit caching is not supported)."
+          "$0.05 Implicit caching only (explicit caching is not supported)."
         ],
         [
           "Used to improve our products",
@@ -348,22 +348,22 @@
         [
           "",
           "Free Tier",
-          "Paid Tier, per 1M tokens in USD"
+          "Paid Tier, per 1M tokens in USD *"
         ],
         [
           "Input price",
           "Free of charge",
-          "$0.375 through December 31, 2026. $0.75 starting January 1, 2027."
+          "$0.375"
         ],
         [
           "Output price (including thinking tokens)",
           "Free of charge",
-          "$1.875 through December 31, 2026. $3.75 starting January 1, 2027."
+          "$1.875"
         ],
         [
           "Context caching price",
           "Free of charge",
-          "$0.0375 through December 31, 2026. $0.075 starting January 1, 2027. $0.50 / 1,000,000 tokens per hour (storage price) through December 31, 2026. $1.00 / 1,000,0"
+          "$0.0375 $0.50 / 1,000,000 tokens per hour (storage price)"
         ],
         [
           "Used to improve our products",

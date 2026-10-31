@@ -6,9 +6,9 @@
   "url": "https://www.atlassian.com/software/jira/pricing",
   "final_url": "https://www.atlassian.com/software/jira/pricing",
   "parser_version": 4,
-  "content_hash": "477121114ddd6508d1d4998570e5afe47f777217d2b5cf41888a2e0d6248333e",
-  "raw_hash": "e0180eb44d76f14f0e005d4af22bef827b24d30871561e0ba36b0c3811fc7a43",
-  "text_bytes": 28058,
+  "content_hash": "ce2cf04de1824253778dc6ea56fdd52b25bd2348a38ba6413e6a97f75936a7fd",
+  "raw_hash": "81d5496ce2c659acef21a6dfa17a9b0ff980607eeab658cb7886f8959f2633bb",
+  "text_bytes": 28098,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -426,8 +426,8 @@
         [
           "Custom templates Create your own custom Jira space templates for both team-managed and company-managed spaces to scale standardized ways of working across your ",
           "Free",
-          "Standard",
-          "Premium",
+          "Standard Team-managed spaces",
+          "Premium Team-managed spaces",
           "Enterprise"
         ],
         [

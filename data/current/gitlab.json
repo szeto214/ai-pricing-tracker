@@ -6,9 +6,9 @@
   "url": "https://about.gitlab.com/pricing/",
   "final_url": "https://about.gitlab.com/pricing/",
   "parser_version": 4,
-  "content_hash": "b6434c93503d0c964e08fc5177e42daa34f032fc6acc21e98342d64f032de55c",
-  "raw_hash": "a2f9864e3919b40c0525dced2ed1a7b880b0c6f40d12fc7978c4c03dbc925c98",
-  "text_bytes": 29110,
+  "content_hash": "72dbd68e4eee94fbf99594ac999a0e190b44d6b4d0f1cd0014294628414562f1",
+  "raw_hash": "e8ab54fbe7170962c52bb756fd185cb9a2f60fcc0529f24a284f804f098c2d91",
+  "text_bytes": 32476,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -64,6 +64,21 @@
       "features": [],
       "slot_prices": [
         15.0
+      ]
+    },
+    {
+      "name": "Advanced Capacity",
+      "price_raw": "$ 12,000",
+      "amount": 12000.0,
+      "currency": "USD",
+      "period": "year",
+      "features": [
+        "50,000 requests per minute and 500,000 requests per hour for your top-level group",
+        "Daily overage for occasional spikes, from $100 a day",
+        "Enterprise Capacity Pack for sustained need above these limits, priced by our sales team"
+      ],
+      "slot_prices": [
+        12000.0
       ]
     },
     {

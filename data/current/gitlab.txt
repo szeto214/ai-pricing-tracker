@@ -197,8 +197,9 @@ Remote Development Workspaces
 GitLab Duo and SDLC Trends
 Create test cases from within GitLab
 GitLab Duo Agent Platform
-AI Chat in the IDE (Duo Classic)
-AI Code Suggestions in the IDE (Duo Classic)
+AI Chat in the IDE
+AI Code Suggestions in the IDE
+Add-on GitLab Credits
 Secure Access and Governance
 Add-on GitLab Credits
 Included GitLab Credits
@@ -208,7 +209,6 @@ Add-on GitLab Credits
 24 credits/user/month
 *
 External Agents
-Add-on GitLab Credits
 Add-on GitLab Credits
 Add-on GitLab Credits
 Agentic Chat
@@ -223,11 +223,10 @@ Custom Agents
 Add-on GitLab Credits
 Add-on GitLab Credits
 Add-on GitLab Credits
-Coming soon
 Custom Flows
-Beta
-Beta
-Beta
+Add-on GitLab Credits
+Add-on GitLab Credits
+Add-on GitLab Credits
 AI Catalog
 Add-on GitLab Credits
 Add-on GitLab Credits
@@ -340,6 +339,22 @@ per user/month
 Gives PMs and non-technical stakeholders a seat at the table inside GitLab, without needing a full developer license.
 Available for Ultimate
 Learn more
+Coming soon
+Advanced Capacity
+$
+12,000
+per top-level group per year
+Flat annual price with no usage charges.
+Higher GitLab.com rate limits for groups that run heavy API, automation, or AI workloads.
+Available for Premium
+Available for Ultimate
+For GitLab.com. Premium and Ultimate rate limits are planned to take effect in January 2027 and won't be enforced until Advanced Capacity is available to buy. See
+GitLab.com rate limits
+.
+50,000 requests per minute and 500,000 requests per hour for your top-level group
+Daily overage for occasional spikes, from $100 a day
+Enterprise Capacity Pack for sustained need above these limits, priced by our sales team
+Contact sales
 Find GitLab on Partner Marketplace
 Purchase GitLab through Cloud Marketplaces seamlessly.
 Learn more
@@ -518,6 +533,29 @@ What does the purchased storage cover?
 Purchased storage applies to Git repository size and LFS usage. It does not apply to other storage types, such as the container registry.
 What are the per-project storage limits on GitLab.com?
 For Free users, 10 GiB total of combined Git repository and LFS usage per project. For Premium and Ultimate users, 500 GiB total of combined Git repository and LFS usage per project. Storage limits for Premium and Ultimate customers are fixed per project. Buying additional storage does not increase the maximum limit for a single project. It only expands your overall available storage. For example, purchasing 1 TB of storage will not cause one project to exceed its 500 GiB ceiling. For more information, see fixed project limit.
+Advanced Capacity
+Show all
+What is Advanced Capacity?
+Advanced Capacity is coming soon and is not yet available to buy. Advanced Capacity raises the GitLab.com rate limits for a top-level group on a Premium or Ultimate plan. It comes in three forms:
+The Advanced Capacity Pack, a flat annual add-on for sustained need.
+Overage, which covers occasional spikes for a fixed daily price.
+The Enterprise Capacity Pack, for sustained need above the Advanced Capacity Pack. Our sales team works out its limits and price with you.
+Advanced Capacity is available for GitLab.com only.
+What counts as a request?
+API requests, web requests, and authenticated Git over HTTPS requests all count. Each Git clone, fetch, or push counts as one request, and so does each Git LFS transfer. Advanced Capacity raises the limits for your top-level group. For the full list of what counts and what doesn't, see
+GitLab.com rate limits
+.
+What happens when my group reaches its limit?
+With overage off, requests above the limit receive an HTTP 429 Too Many Requests response. The Retry-After header tells you how long to wait before you try again. Nothing is queued, and you aren't charged.
+With overage on, your group can keep going above its limit, up to the band you authorize. You pay that day's overage price.
+How is overage charged?
+Overage has three bands, priced at $100, $500, and $1,500 a day. You authorize one band, and your group can't go past it. New and renewing subscriptions start on the $100 band.
+On each day your top-level group goes above the standard GitLab rate limit, you pay the daily price of the highest overage band it reached that day. You never pay for a band above the one you authorized, and days when your group stays within the standard GitLab rate limit it costs nothing. The most you can be billed is the daily price of your authorized band multiplied by the number of days you go over. For example, a full 31-day month on the $100 band costs at most $3,100.
+The $100 band gives the same capacity as the Advanced Capacity Pack. If your group uses it on more than 120 days a year, the Pack costs less.
+How do I turn overage off?
+Overage will be on by default when you buy or renew a Premium or Ultimate subscription. An Owner of the top-level group can turn it off at any time. With overage off, your group stays at its plan limit, or at its Advanced Capacity Pack limit if you have one, and no overage is charged.
+When can I buy Advanced Capacity?
+Advanced Capacity is sold through our sales team. Premium and Ultimate rate limits are planned to take effect in January 2027 and won't be enforced until Advanced Capacity is available to buy. To discuss it now, contact sales.
 Usage pricing
 Show all
 How can I purchase GitLab Credits?

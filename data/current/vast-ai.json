@@ -6,35 +6,13 @@
   "url": "https://vast.ai/pricing",
   "final_url": "https://vast.ai/pricing",
   "parser_version": 4,
-  "content_hash": "fada8a26824f9d54f410d48cab8619f0209007a7c843aacffb65a286d0f5a86e",
-  "raw_hash": "587848f97e3979e3ff2d171420cbe9d7ee269a4998282cec291111e6476ff786",
-  "text_bytes": 7794,
+  "content_hash": "68f760b2fe6acc0c4bc8906a7c04f15fd7fa5d4fcdd223d0ad03478598a70d25",
+  "raw_hash": "424e90ed9b1f012191fcd20e211018ce666c8275cfa7925cb147b11c64e3f62f",
+  "text_bytes": 7781,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
-    {
-      "name": "B200",
-      "price_raw": "$6.49",
-      "amount": 6.49,
-      "currency": "USD",
-      "period": "hour",
-      "features": [],
-      "slot_prices": [
-        6.49
-      ]
-    },
-    {
-      "name": "H200",
-      "price_raw": "$2.63",
-      "amount": 2.63,
-      "currency": "USD",
-      "period": "hour",
-      "features": [],
-      "slot_prices": [
-        2.63
-      ]
-    },
     {
       "name": "H200 NVL",
       "price_raw": "$2.67",
@@ -58,14 +36,25 @@
       ]
     },
     {
-      "name": "H100 NVL",
-      "price_raw": "$2.33",
-      "amount": 2.33,
+      "name": "H200",
+      "price_raw": "$2.76",
+      "amount": 2.76,
       "currency": "USD",
       "period": "hour",
       "features": [],
       "slot_prices": [
-        2.33
+        2.76
+      ]
+    },
+    {
+      "name": "B200",
+      "price_raw": "$7.50",
+      "amount": 7.5,
+      "currency": "USD",
+      "period": "hour",
+      "features": [],
+      "slot_prices": [
+        7.5
       ]
     },
     {
@@ -77,6 +66,17 @@
       "features": [],
       "slot_prices": [
         8.5
+      ]
+    },
+    {
+      "name": "H100 NVL",
+      "price_raw": "$2.33",
+      "amount": 2.33,
+      "currency": "USD",
+      "period": "hour",
+      "features": [],
+      "slot_prices": [
+        2.33
       ]
     },
     {
@@ -114,28 +114,6 @@
     },
     {
       "name": "RTX 3090",
-      "price_raw": "$0.12",
-      "amount": 0.12,
-      "currency": "USD",
-      "period": "hour",
-      "features": [],
-      "slot_prices": [
-        0.12
-      ]
-    },
-    {
-      "name": "RTX 3090 Ti",
-      "price_raw": "$0.15",
-      "amount": 0.15,
-      "currency": "USD",
-      "period": "hour",
-      "features": [],
-      "slot_prices": [
-        0.15
-      ]
-    },
-    {
-      "name": "RTX 4090D",
       "price_raw": "$0.11",
       "amount": 0.11,
       "currency": "USD",
@@ -146,14 +124,36 @@
       ]
     },
     {
-      "name": "GB10",
-      "price_raw": "$0.30",
-      "amount": 0.3,
+      "name": "RTX 3090 Ti",
+      "price_raw": "$0.20",
+      "amount": 0.2,
       "currency": "USD",
       "period": "hour",
       "features": [],
       "slot_prices": [
-        0.3
+        0.2
+      ]
+    },
+    {
+      "name": "RTX 4090D",
+      "price_raw": "$0.08",
+      "amount": 0.08,
+      "currency": "USD",
+      "period": "hour",
+      "features": [],
+      "slot_prices": [
+        0.08
+      ]
+    },
+    {
+      "name": "GB10",
+      "price_raw": "$0.28",
+      "amount": 0.28,
+      "currency": "USD",
+      "period": "hour",
+      "features": [],
+      "slot_prices": [
+        0.28
       ]
     },
     {
@@ -180,13 +180,13 @@
     },
     {
       "name": "RTX 5080",
-      "price_raw": "$0.20",
-      "amount": 0.2,
+      "price_raw": "$0.19",
+      "amount": 0.19,
       "currency": "USD",
       "period": "hour",
       "features": [],
       "slot_prices": [
-        0.2
+        0.19
       ]
     },
     {
@@ -224,13 +224,13 @@
     },
     {
       "name": "RTX 5070 Ti",
-      "price_raw": "$0.18",
-      "amount": 0.18,
+      "price_raw": "$0.17",
+      "amount": 0.17,
       "currency": "USD",
       "period": "hour",
       "features": [],
       "slot_prices": [
-        0.18
+        0.17
       ]
     }
   ],

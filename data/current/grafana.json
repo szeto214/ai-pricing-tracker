@@ -7,7 +7,7 @@
   "final_url": "https://grafana.com/pricing/",
   "parser_version": 4,
   "content_hash": "49631214e1e7d2f54b123fd0755b000287e2edf9903441e80807e25d18a977cf",
-  "raw_hash": "71d0518af750acc4a43f4ed3740b24b50f63810183ad688e832a4535ee1dc84b",
+  "raw_hash": "56f48d8894cde6944d3424c73f59358980982de924ad3938694063a01567aeea",
   "text_bytes": 20616,
   "currency_hints": [],
   "extractor": "dom",

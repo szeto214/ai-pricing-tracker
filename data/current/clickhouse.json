@@ -6,9 +6,9 @@
   "url": "https://clickhouse.com/pricing",
   "final_url": "https://clickhouse.com/pricing?service=clickhouse&pg.plan=scale&pg.provider=aws&pg.profile=memory&pg.architecture=arm&pg.standby=0&pg.region=us-east-1&plan=scale&provider=aws&region=us-east-1&useCase=real-time-analytics&hours=24&storage=1TB&computeMinSize=8&computeMaxSize=8&replicas=3&storageCompressed=false&fullBackup=1TB",
   "parser_version": 4,
-  "content_hash": "ee87a6b481c93787dd20bda3fb89da4bde8d31641728c2746a8961fefa695997",
-  "raw_hash": "01959348efdd3e87bad4e2d4a0b17e4111fb7844786eab37cfb4639dc8400cd4",
-  "text_bytes": 8142,
+  "content_hash": "30775426315cb0260f71541b0188dd62f54523e9f1416ab11d51a5f322e3afbb",
+  "raw_hash": "e41bca58792910e55e27e61fe5c818e0deeaf34bb58c94bbb4888ec888f444e7",
+  "text_bytes": 8156,
   "currency_hints": [
     "USD"
   ],

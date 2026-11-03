@@ -28,7 +28,7 @@ API
 Monthly billing
 Free
 $0
-per month
+/mo
 Build for free
 Text to Speech
 Speech to Text
@@ -41,10 +41,9 @@ Image
 10k credits
 per month
 Starter
-$6
-First month 83% off
 $1
-per month
+first month
+Then $6 per month
 Choose Starter
 Everything in free, plus
 Commercial License
@@ -57,10 +56,9 @@ Image & Video
 per month
 Creator
 Popular
-$22
-First month 50% off
 $11
-per month
+first month
+Then $22 per month
 Choose Creator
 Everything in Starter, plus
 Professional Voice Cloning
@@ -69,7 +67,7 @@ Additional Credits
 per month
 Pro
 $99
-per month
+/mo
 Choose Pro
 Everything in Creator, plus
 44.1kHz PCM audio output via API
@@ -80,7 +78,7 @@ For
 Businesses
 Scale
 $299
-per month
+/mo
 Choose Scale
 Everything in Pro, plus
 3 Workspace seats
@@ -91,7 +89,7 @@ per month
 3 seats
 Business
 $990
-per month
+/mo
 Choose Business
 Everything in Scale, plus
 Low-latency TTS as low as 5c/minute
@@ -156,13 +154,18 @@ Professional Voice Cloning
 Audio quality
 WAV / PCM 44.1 kHz
 Concurrent requests
+Limited use
 ~
 10
 ~
 $0.36
+Limited
 74
+Limited
 3
+Limited
 128 kbps, 44.1kHz
+Limited
 2
 ~
 30

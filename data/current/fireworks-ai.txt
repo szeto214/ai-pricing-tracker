@@ -2,155 +2,267 @@ New
 Join us for the Forge keynote livestream on November 3rd
 Docs
 Log in
+Nexus
+Platform
 Get started
-Pricing to seamlessly scale from idea to enterprise
-Start building in seconds, self-serve. Contact us for enterprise deployments with faster speeds, lower costs, and higher rate limits.
+Nexus
+For work and co-work
+Platform
+For systems and apps
+Pricing
+Pricing that scales
+from idea to enterprise.
+Start on pay-per-token, reserve throughput as you scale, or run Fireworks inside your own cloud. Explore Platform for systems and apps or Nexus for code and co-work.
 Get started
-Contact us
-Serverless Inference
-Get started in seconds with per token pricing, zero setup and no cold starts
-See pricing
+Talk to an expert
+Platform
+Nexus
+Inference
 Training
-Customize open models with your own data with minimal setup
-See pricing
-On Demand Deployments
-Pay per GPU second for faster speeds, higher rate limits, and lower costs at scale
-See pricing
-Serverless Inference
-Pay per token with pre-paid, usage-based billing. Simply add a payment method to buy credits, and usage is then deducted from your balance. Usage is billed on output, input, and cached tokens. Turn on Auto Reload to top up automatically when your balance runs low, or set a monthly spend limit to cap usage.
-To view the current pricing for our most popular serverless models across Standard, Priority, and Fast serving paths, visit our full
-pricing documentation
-.
-Embeddings
-Base model parameter count
-$ / 1M input tokens
-up to 150M
-$0.008
-150M - 350M
-$0.016
-Qwen3 8B
-$0.1
-Limited-time offer
-Training Pricing
-Serve fine-tuned models for the same price as base models.
-Muse Glimmer 30B SFT is free via UI and Serverless Training API until 11/30 ✨ No credit card required.
-Start a job
-Managed Training
-Supervised and preference fine tuning
-is priced per 1M training tokens.
-SFT and DPO prices are shown in $ per 1M training tokens. Training tokens can be estimated with number of tokens in training dataset * number of epochs. Estimation should be multiplied by the average number conversation turns /2 for tuning with intermediate thinking traces.
-Please note that when fine-tuning with reasoning traces, including the reasoning_content field for assistant turns will increase the total number of tuned tokens because multi-turn conversations are unrolled into user, assistant, and thinking traces. For further details, please refer to example 2 in the
-documentation about SFT fine tuning
-.
-Fine-tuning with images (VLM supervised fine-tuning) is also billed per 1M tokens. See this
-FAQ
-on calculating image tokens.
-Base Model
-LoRA SFT
-LoRA DPO
-Full Param SFT
-Full Param DPO
-Models up to 16B parameters
-$0.50
-$1.00
-$1.00
-$2.00
-Models 16.1B - 80B
+Deploy on your terms.
+Start on shared serverless capacity, guarantee it as traffic grows, or run Fireworks inside your cloud.
+Serverless
+Pay per token · From $0.05 / 1M input tokens
+Call any serverless model in seconds. No commitment. Usage draws down prepaid credits.
+Best for:
+Launching fast and spiky traffic
+Standard, Priority, Fast, Batch and Spot modes
+Cached input billed at half price or less, with no write fee
+Monthly spend limits and Auto Reload
+Commitment:
+No
+Get started
+Reserved Throughput
+Reserve dollars per minute · Serverless rates, reserved by the minute
+Guaranteed throughput on serverless and on-demand models, backed by an SLA.
+Best for:
+Steady production traffic
+Throughput SLA and 99.9% uptime terms
+Adds to your adaptive rate limits
+Usage above your reservation can bill at standard Serverless rates, never a penalty rate
+Commitment:
+Yes
+Talk to us
+Fireworks Sovereign
+Contract · Talk to us
+Private preview for Enterprise
+Fireworks-managed inference on GPUs in your cloud account or data center.
+Best for:
+Data residency and existing GPU capacity
+Inference and response handling stay inside your boundary
+Achieve over 2x tokens per GPU dollar with our engine
+Optional overflow to Fireworks-managed capacity
+Commitment:
+Yes
+Talk to us
+Pick a model. Pick a mode.
+Every serverless request bills on input, cached input and output tokens. Switch modes per request, on the same endpoint.
+Standard
+The default for most traffic.
+Priority
+Prioritize your traffic during peak load times.
+Fast
+100+ tokens per second for interactive apps.
+Ultra-fast
+New:
+Available for specific models, in preview. Talk to us.
+Batch
+50% off input and output for jobs that don’t need an immediate answer.
+Spot
+30% off Standard on best-effort capacity, available for select models only. Throughput can drop to zero, so retry or fall back to Standard.
+Highlighted Serverless rates: Standard and Priority
+USD per 1M tokens.
+Highlighted Serverless rates, Standard and Priority (USD per 1M tokens)
+Model
+Input
+Cached input
+Output
+Priority (input / cached / output)
+Ember-1
 $3.00
+$0.30
+$15.00
+$3.75 / $0.375 / $18.75
+Kimi K3
+$3.00
+$0.30
+$15.00
+$3.75 / $0.375 / $18.75
+Qwen 3.8 Max
+$2.00
+$0.25
 $6.00
-$6.00
-$12.00
-Models 80B - 300B (e.g. Qwen3-235B, gpt-oss-120B)
-$6.00
-$12.00
-$12.00
-$24.00
-Models >300B (e.g. DeepSeek V3, Kimi K2)
-$10.00
-$20.00
-$20.00
-$40.00
-Serverless Training API
-Attach to a shared, always-on trainer pool for LoRA training on the launch models. There’s no provisioning and no idle cost. You pay only for the tokens you prefill, sample, and train.
-Checkpoint storage for serverless models is included during private preview.
-Other frontier models are coming soon to the Serverless Training API catalog.
-Base Model
-Context
-Prefill / 1M
-Cached Prefill / 1M
-Sample / 1M
-Train / 1M
+$3.00 / $0.375 / $9.00
+GLM 5.3
+$1.40
+$0.26
+$4.40
+$1.75 / $0.325 / $5.50
 Muse Spark Open
-<count>
-$6.19
-$1.239
-$15.48
-$18.58
-DeepSeek V4.1 Flash 1017
-<count>
+$1.25
+$0.15
+$4.25
+$1.875 / $0.225 / $6.375
+NVIDIA Nemotron 3 Ultra (Preview)
 $0.60
 $0.12
-$3.60
-$4.98
+$2.40
+$0.75 / $0.15 / $3.00
+DeepSeek V4.1 Flash
+$0.30
+$0.006
+$1.20
+$0.375 / $0.0075 / $1.50
+DeepSeek V4.1 Flash 1017
+$0.30
+$0.006
+$1.20
+$0.375 / $0.0075 / $1.50
+MiniMax M3
+$0.30
+$0.06
+$1.20
+$0.45 / $0.09 / $1.80
 GLM 5.3 Flash
-<count>
-$2.96
-$0.593
-$7.41
-$8.89
-GLM 5.3
-<count>
-$4.86
-$0.972
-$12.15
-$14.58
-Qwen 3.8 27B
-<count>
-$1.86
-$0.372
-$5.595
-$4.103
+$0.15
+$0.03
+$0.50
+$0.1875 / $0.0375 / $0.625
+OpenAI GPT OSS 120B
+$0.15
+$0.015
+$0.60
+$0.18 / $0.018 / $0.72
+NVIDIA Nemotron 3.5 Lightning 30B A3B
+$0.05
+$0.01
+$0.20
+$0.0625 / $0.0125 / $0.25
+Spot rates
+USD per 1M tokens.
+US-only Serverless is available on select models at a 50% premium (waived on Muse Spark Open);
+see pricing here
+. Models not listed here are priced by size.
+See all models and rates
+Spot rates (USD per 1M tokens)
+Model
+Tier
+Cached input
+Uncached input
+Output
+GLM-5.3
+Standard
+$0.26
+$1.40
+$4.40
+GLM-5.3
+Spot
+$0.182
+$0.98
+$3.08
 Kimi K3
-<count>
-$10.87
-$2.17
-$27.11
-$32.55
-DeepSeek V4 Flash 0731
-<count>
-$1.74
-$0.35
-$4.33
-$5.20
-Muse Glimmer 30B
-<count>
-$1.96
-$0.39
-$4.88
-$5.86
-Dedicated Training API
-Dedicated Training API jobs are priced per GPU hour. Please see the On-Demand Pricing section below for details on Dedicated Training API Pricing.
-On-Demand Pricing
-Pay per GPU second, with no extra charges for start-up times
-On demand deployments
-Region-restricted deployments are priced at a 1.5x premium.
-Contact Sales
-to get started.
-GPU Type
-Price ($) per minute
-Price ($) per hour
-H100 80 GB GPU
+Standard
+$0.30
+$3.00
+$15.00
+Kimi K3
+Spot
+$0.21
+$2.10
+$10.50
+DeepSeek V4.1 Flash
+Standard
+$0.006
+$0.30
+$1.20
+DeepSeek V4.1 Flash
+Spot
+$0.0042
+$0.21
+$0.84
+DeepSeek V4.1 Flash 1017
+Standard
+$0.006
+$0.30
+$1.20
+DeepSeek V4.1 Flash 1017
+Spot
+$0.0042
+$0.21
+$0.84
+Embeddings
+Embeddings (USD per 1M input tokens)
+Base model
+Price
+Up to 150M parameters
+$0.008
+150M to 350M parameters
+$0.016
+Qwen3 8B
+$0.10
+Lower the cost of every finished task.
+Token price is one input. Cache hits, the mode you choose and the model each turn goes to decide the rest.
+Keep context cached
+Session affinity keeps each agent on the server that already holds its context. Long runs reach cache hit rates up to 99.6%.
+Prompt caching
+Batch what can wait
+Async jobs run at half the Standard rate.
+Batch inference
+Send background work to Spot
+Take 30% off for traffic that can retry or fall back
+Spot Serverless
+Route each turn
+Send routine work to open models and save premium models for the turns that earn it.
+One GPU rate card for serving and training.
+On Demand bills per GPU-second and the Dedicated Training API per GPU-hour, from the same rates. No charge for On Demand start-up time.
+Talk to us about reserved capacity
+GPU rates
+Idle deployments scale to zero after one hour by default. Region-restricted deployments are priced at 1.5x. Reserve GPUs, typically for one year, for guaranteed capacity, higher quotas, lower hourly rates and early access to new regions and hardware.
+GPU rates (USD)
+GPU
+Per minute
+Per hour
+H100 80 GB
 $0.134
 $8.00
-H200 141 GB GPU
+H200 141 GB
 $0.134
 $8.00
-B200 180 GB GPU
+B200 180 GB
 $0.217
 $13.00
-B300 288 GB GPU
+B300 288 GB
 $0.250
 $15.00
-GB300 288 GB GPU
+GB300 288 GB
 $0.334
 $20.00
+Buy the way you already buy.
+Azure
+Fireworks is a first-party provider in Microsoft Foundry, so usage counts toward your Microsoft Azure Consumption Commitment.
+Volume
+Discounts are available for bulk and prepaid purchases. Contracted customers can move to post-paid invoicing.
+Control
+Set monthly spend limits, and tag requests by team, project and environment for chargeback.
+Security
+Zero data retention by default. SOC 2 Type II, ISO 27001, 27701 and 42001, and HIPAA with a BAA.
+Visit the trust center
+FAQs
+Questions we hear before the first invoice
+How does billing work?
+You buy credits, and usage draws them down: per token for Serverless, per GPU-second for On Demand, and per token or GPU-hour for training.
+Can I cap what I spend?
+Yes. Set a monthly spend limit on your account. Auto Reload is separate: it buys more credits when your balance runs low, so production keeps running, and it never raises your limit.
+How is prompt caching billed?
+Caching is automatic, with no setup and no write fee. Cached input bills at 50% off by default, with deeper discounts on select models.
+What happens when we go over our reservation?
+We customize inference to your needs. Usage above your reservation can bill at standard Serverless rates, never a penalty rate. Overage isn’t covered by the SLA and follows your Serverless rate limits.
+When should we move from Serverless to On Demand?
+When utilization is high, when rate limits get in your way, or when you want to serve a model that isn’t on Serverless, including one you trained. On Demand bills per GPU-second, so a busy deployment usually costs less per token.
+Does serving a trained model cost extra?
+No. You pay for the deployment by the GPU-second, plus the cost of the training job.
+How is Fireworks Sovereign priced?
+By contract. Sovereign is available in preview to Enterprise customers. Talk to us to scope your environment.
+Questions? Talk to an expert today.
+Get in touch to discuss your goals, workloads, and find the best deployment option for your business.
+Talk to an expert

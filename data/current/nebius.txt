@@ -65,7 +65,7 @@ NVIDIA L40S with AMD CPU
 96-1152
 from $0.90**
 from $1.82
-* Spot prices are dynamic and may increase or decrease based on available capacity, cluster utilization, customer demand and customer pricing preferences. Current spot prices are displayed in the price calculator in the Nebius console and may vary during the active use, including as frequently as every 15 minutes. The highest PVM rate is always one cent below the current on-demand rate for that capacity. Historical pricing information is available through the spot-price graph in Nebius console.
+* Spot prices are dynamic and may increase or decrease based on available capacity, cluster utilization, customer demand and customer pricing preferences. Current spot prices are displayed in the price calculator in the Nebius console and may vary during the active use, including as frequently as every 15 minutes. Historical pricing information is available through the spot-price graph in Nebius console.
 ** NVIDIA L40S preemptible instances are excluded from spot pricing and billed at the current flat rate.
 On-demand CPU-only instances
 Item

@@ -90,51 +90,6 @@ vCPU
 Memory
 Per hour
 Per month
-nf-compute-50
-Recommended for dev
-0.5 vCPU
-·
-1 GB
-0.5 vCPU
-1 GB
-$0.01667
-$12.00
-nf-compute-100-2
-Most popular
-1 vCPU
-·
-2 GB
-1 vCPU
-2 GB
-$0.03333
-$24.00
-nf-compute-200
-Production
-2 vCPU
-·
-4 GB
-2 vCPU
-4 GB
-$0.06667
-$48.00
-nf-compute-400
-Scale
-4 vCPU
-·
-8 GB
-4 vCPU
-8 GB
-$0.13
-$96.00
-nf-compute-800-16
-8 vCPU
-·
-16 GB
-8 vCPU
-16 GB
-$0.27
-$192.00
-Show all 21 plans
 GPUs on Northflank Cloud
 Run a sandbox with a GPU and multi-read-write storage. On demand, billed by the second.
 GPU
@@ -195,6 +150,12 @@ H100
 GB VRAM
 80
 GB
+1
+×
+2
+×
+4
+×
 8
 ×
 $2.74
@@ -250,130 +211,6 @@ Google Cloud
 Azure
 Oracle
 Nebius
-Estimate your bill
-Pick an app like yours, then resize its parts, on our cloud or yours.
-Services
-Start from
-SaaS web app
-AI agent platform
-RAG app
-Where it runs
-Northflank Cloud
-Northflank BYOC
-Frontend
-Microservice
-0.1 vCPU · 256 MB
-0.2 vCPU · 512 MB
-0.5 vCPU · 1 GB
-1 vCPU · 1 GB
-1 vCPU · 2 GB
-1 vCPU · 4 GB
-2 vCPU · 4 GB
-2 vCPU · 8 GB
-4 vCPU · 8 GB
-2 vCPU · 16 GB
-4 vCPU · 16 GB
-8 vCPU · 8 GB
-8 vCPU · 16 GB
-8 vCPU · 24 GB
-8 vCPU · 32 GB
-12 vCPU · 24 GB
-8 vCPU · 40 GB
-16 vCPU · 32 GB
-20 vCPU · 40 GB
-32 vCPU · 128 GB
-32 vCPU · 488 GB
-×2
-API
-Microservice
-0.1 vCPU · 256 MB
-0.2 vCPU · 512 MB
-0.5 vCPU · 1 GB
-1 vCPU · 1 GB
-1 vCPU · 2 GB
-1 vCPU · 4 GB
-2 vCPU · 4 GB
-2 vCPU · 8 GB
-4 vCPU · 8 GB
-2 vCPU · 16 GB
-4 vCPU · 16 GB
-8 vCPU · 8 GB
-8 vCPU · 16 GB
-8 vCPU · 24 GB
-8 vCPU · 32 GB
-12 vCPU · 24 GB
-8 vCPU · 40 GB
-16 vCPU · 32 GB
-20 vCPU · 40 GB
-32 vCPU · 128 GB
-32 vCPU · 488 GB
-×2
-Postgres
-Database · 10 GB disk
-0.1 vCPU · 256 MB
-0.2 vCPU · 512 MB
-0.5 vCPU · 1 GB
-1 vCPU · 1 GB
-1 vCPU · 2 GB
-1 vCPU · 4 GB
-2 vCPU · 4 GB
-2 vCPU · 8 GB
-4 vCPU · 8 GB
-2 vCPU · 16 GB
-4 vCPU · 16 GB
-8 vCPU · 8 GB
-8 vCPU · 16 GB
-8 vCPU · 24 GB
-8 vCPU · 32 GB
-12 vCPU · 24 GB
-8 vCPU · 40 GB
-16 vCPU · 32 GB
-20 vCPU · 40 GB
-32 vCPU · 128 GB
-32 vCPU · 488 GB
-×1
-Redis
-Database · 1 GB disk
-0.1 vCPU · 256 MB
-0.2 vCPU · 512 MB
-0.5 vCPU · 1 GB
-1 vCPU · 1 GB
-1 vCPU · 2 GB
-1 vCPU · 4 GB
-2 vCPU · 4 GB
-2 vCPU · 8 GB
-4 vCPU · 8 GB
-2 vCPU · 16 GB
-4 vCPU · 16 GB
-8 vCPU · 8 GB
-8 vCPU · 16 GB
-8 vCPU · 24 GB
-8 vCPU · 32 GB
-12 vCPU · 24 GB
-8 vCPU · 40 GB
-16 vCPU · 32 GB
-20 vCPU · 40 GB
-32 vCPU · 128 GB
-32 vCPU · 488 GB
-×1
-This month
-Frontend
-×
-2
-$10.80
-API
-×
-2
-$24.00
-Postgres
-$13.17
-Redis
-$5.52
-Total
-$53.48
-/ month
-Sizes are our compute plans, and databases include their disk. Billed to the second.
-Open the detailed calculator
 How we compare
 Our prices beside other providers’ list prices, like for like.
 Provider

@@ -6,9 +6,9 @@
   "url": "https://northflank.com/pricing",
   "final_url": "https://northflank.com/pricing",
   "parser_version": 4,
-  "content_hash": "8c1b437066301637b57c3a73dbcb575e546dfe7d19ce5d215e929b9f7d14d6ff",
-  "raw_hash": "b01b78bd9f8ad4c37253eb082ae484797467daa76d8a49c04d8cf6a1532a1425",
-  "text_bytes": 16140,
+  "content_hash": "44c2c282f4cf6da7daefb3ebb86d23899026722a5624781ac70c5eaa7b5272d9",
+  "raw_hash": "1e419f401a8f4bd6b545c3bb8773ca103aaf31b545cb4baf0d2c3e8effa7edd1",
+  "text_bytes": 13899,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -50,89 +50,23 @@
       ]
     },
     {
-      "name": "CPU",
+      "name": "Compute plans",
       "price_raw": "$0.01667",
       "amount": 0.01667,
       "currency": "USD",
       "period": "hour",
-      "features": [],
+      "features": [
+        "One control plane, every cloud Run GPU workloads across AWS, Google Cloud, Azure, Oracle, CoreWeave, and Nebius from one place, and go where the capacity is.",
+        "The same developer experience GPU services and jobs deploy like any other, with builds, previews, logs, metrics, and autoscaling.",
+        "Your contracts and credits GPUs run in your accounts, so committed spend and credits still apply. We bill only our fee.",
+        "AWS",
+        "Google Cloud",
+        "Azure",
+        "Oracle",
+        "Nebius"
+      ],
       "slot_prices": [
         0.01667
-      ]
-    },
-    {
-      "name": "Compute",
-      "price_raw": "$0.01667",
-      "amount": 0.01667,
-      "currency": "USD",
-      "period": "hour",
-      "features": [],
-      "slot_prices": [
-        0.01667
-      ]
-    },
-    {
-      "name": "Ephemeral storage",
-      "price_raw": "Free",
-      "amount": 0.0,
-      "currency": null,
-      "period": null,
-      "features": [],
-      "slot_prices": []
-    },
-    {
-      "name": "Persistent disk",
-      "price_raw": "$0.11657",
-      "amount": 0.11657,
-      "currency": "USD",
-      "period": "month",
-      "features": [],
-      "slot_prices": [
-        0.11657
-      ]
-    },
-    {
-      "name": "Additional IOPS",
-      "price_raw": "$7.37",
-      "amount": 7.37,
-      "currency": "USD",
-      "period": "month",
-      "features": [],
-      "slot_prices": [
-        7.37
-      ]
-    },
-    {
-      "name": "Additional throughput",
-      "price_raw": "$5.85",
-      "amount": 5.85,
-      "currency": "USD",
-      "period": "month",
-      "features": [],
-      "slot_prices": [
-        5.85
-      ]
-    },
-    {
-      "name": "Network egress",
-      "price_raw": "$0.06",
-      "amount": 0.06,
-      "currency": "USD",
-      "period": "GB",
-      "features": [],
-      "slot_prices": [
-        0.06
-      ]
-    },
-    {
-      "name": "Egress gateway",
-      "price_raw": "$15.00",
-      "amount": 15.0,
-      "currency": "USD",
-      "period": "month",
-      "features": [],
-      "slot_prices": [
-        15.0
       ]
     },
     {
@@ -145,100 +79,9 @@
       "slot_prices": [
         1.0
       ]
-    },
-    {
-      "name": "Estimate your bill",
-      "price_raw": "$10.80",
-      "amount": 10.8,
-      "currency": "USD",
-      "period": "month",
-      "features": [],
-      "slot_prices": [
-        10.8
-      ]
     }
   ],
   "models": [
-    {
-      "key": "nf-compute-50 recommended for dev 0.5 vcpu · 1 gb|k5",
-      "model": "nf-compute-50 Recommended for dev 0.5 vCPU · 1 GB",
-      "prices": {
-        "kolom 4": {
-          "raw": "$0.01667",
-          "amount": 0.01667
-        },
-        "kolom 5": {
-          "raw": "$12.00",
-          "amount": 12.0
-        }
-      },
-      "currency": "USD",
-      "unit": ""
-    },
-    {
-      "key": "nf-compute-100-2 most popular 1 vcpu · 2 gb|k5",
-      "model": "nf-compute-100-2 Most popular 1 vCPU · 2 GB",
-      "prices": {
-        "kolom 4": {
-          "raw": "$0.03333",
-          "amount": 0.03333
-        },
-        "kolom 5": {
-          "raw": "$24.00",
-          "amount": 24.0
-        }
-      },
-      "currency": "USD",
-      "unit": ""
-    },
-    {
-      "key": "nf-compute-200 production 2 vcpu · 4 gb|k5",
-      "model": "nf-compute-200 Production 2 vCPU · 4 GB",
-      "prices": {
-        "kolom 4": {
-          "raw": "$0.06667",
-          "amount": 0.06667
-        },
-        "kolom 5": {
-          "raw": "$48.00",
-          "amount": 48.0
-        }
-      },
-      "currency": "USD",
-      "unit": ""
-    },
-    {
-      "key": "nf-compute-400 scale 4 vcpu · 8 gb|k5",
-      "model": "nf-compute-400 Scale 4 vCPU · 8 GB",
-      "prices": {
-        "kolom 4": {
-          "raw": "$0.13",
-          "amount": 0.13
-        },
-        "kolom 5": {
-          "raw": "$96.00",
-          "amount": 96.0
-        }
-      },
-      "currency": "USD",
-      "unit": ""
-    },
-    {
-      "key": "nf-compute-800-16 8 vcpu · 16 gb|k5",
-      "model": "nf-compute-800-16 8 vCPU · 16 GB",
-      "prices": {
-        "kolom 4": {
-          "raw": "$0.27",
-          "amount": 0.27
-        },
-        "kolom 5": {
-          "raw": "$192.00",
-          "amount": 192.0
-        }
-      },
-      "currency": "USD",
-      "unit": ""
-    },
     {
       "key": "nvidia l4 24 gb vram",
       "model": "NVIDIA L4 24 GB VRAM",
@@ -512,53 +355,6 @@
       "caption": "",
       "rows": [
         [
-          "Plan",
-          "vCPU",
-          "Memory",
-          "Per hour",
-          "Per month"
-        ],
-        [
-          "nf-compute-50 Recommended for dev 0.5 vCPU · 1 GB",
-          "0.5 vCPU",
-          "1 GB",
-          "$0.01667",
-          "$12.00"
-        ],
-        [
-          "nf-compute-100-2 Most popular 1 vCPU · 2 GB",
-          "1 vCPU",
-          "2 GB",
-          "$0.03333",
-          "$24.00"
-        ],
-        [
-          "nf-compute-200 Production 2 vCPU · 4 GB",
-          "2 vCPU",
-          "4 GB",
-          "$0.06667",
-          "$48.00"
-        ],
-        [
-          "nf-compute-400 Scale 4 vCPU · 8 GB",
-          "4 vCPU",
-          "8 GB",
-          "$0.13",
-          "$96.00"
-        ],
-        [
-          "nf-compute-800-16 8 vCPU · 16 GB",
-          "8 vCPU",
-          "16 GB",
-          "$0.27",
-          "$192.00"
-        ]
-      ]
-    },
-    {
-      "caption": "",
-      "rows": [
-        [
           "GPU",
           "VRAM",
           "GPUs per container",
@@ -585,7 +381,7 @@
         [
           "NVIDIA H100 80 GB VRAM",
           "80 GB",
-          "8 ×",
+          "1 × 2 × 4 × 8 ×",
           "$2.74 / hour"
         ],
         [

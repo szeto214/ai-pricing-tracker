@@ -1,3 +1,5 @@
+Live Nov 10 — Solving the code review bottleneck: Agent verification & PR risk assessment —
+Register →
 Warp
 Terminal and agents
 Warp Factories
@@ -112,9 +114,9 @@ $
 brew install --cask warp
 Linux
 .deb
-Debian, Ubuntu
+Debian, Ubuntu x64
 .rpm
-Red Hat, Fedora, SUSE
+Red Hat, Fedora, SUSE x64
 .deb
 x64
 ARM64

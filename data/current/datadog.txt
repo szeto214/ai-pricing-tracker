@@ -32,7 +32,6 @@ Runtime Code Analysis
 IaC Security
 Secret Scanning
 Cloud Security
-Sensitive Data Scanner
 Cloud Security Posture Management
 Cloud Infrastructure Entitlement Management
 Vulnerability Management
@@ -41,10 +40,11 @@ Cloud Workload Protection
 App & API Protection
 Cloud SIEM
 Bits Security Analyst
+AI Guard
+Sensitive Data Scanner
 Product Analytics
 Experiments
-Browser Real User Monitoring
-Mobile Real User Monitoring
+Real User Monitoring
 Session Replay
 Synthetic Monitoring
 Mobile App Testing
@@ -73,6 +73,7 @@ Bits Chat
 Bits Agent Builder
 Bits Code
 Bits Security Analyst
+AI Guard
 Agent Observability
 MCP Server
 Pup CLI
@@ -1886,6 +1887,21 @@ Collaborate with full context by linking replays to funnels, retention, and prod
 3.60
 on-demand
 Start Free Trial
+Export Pipelines
+Starting At
+$
+0.10
+Per 1,000 sessions,
+per month*
+Continuously export raw Product Analytics data into your own cloud storage for full ownership and ad-hoc analysis
+Continuously send every ingested Product Analytics event to your own cloud storage in Amazon S3, Google Cloud Storage, or Azure Blob Storage
+Choose exactly what to export: all Product Analytics event types (sessions, views, and actions) or user and account profiles
+Deliver data in Parquet for direct warehouse loading, or JSON for custom pipelines
+Enable, disable, or update your export anytime, with visibility into your last successful export
+*Billed annually or $
+0.15
+on-demand
+Start Free Trial
 Support Plans & Post Sales Services
 From basic plans to bespoke offerings, Datadog offers the right level of support & services for any organization.
 Support plans
@@ -1913,6 +1929,10 @@ Will I get double-billed on Session Replays if I purchase both RUM and Product A
 No — Session Replays are only billed once, even if you’re using them across both RUM and Product Analytics.
 Is Product Analytics available in all regions?
 Product Analytics is available for all US-hosted and EU-hosted Datadog accounts. It is not yet supported on GovCloud, but we’re actively working toward future availability.
+Should I export RUM data, Product Analytics data, or both to my warehouse?
+It depends on who will use the data and what they need to answer:
+Export Product Analytics data if your product, growth or data teams want to analyze user behavior and business outcomes, such as feature adoption, funnel conversion, retention or engagement by customer segment. It includes server-side events, labeled actions, and user and account profiles, so you can connect user behavior to complete user profiles.
+Export RUM data if your engineering teams want to analyze app performance and reliability in the warehouse, such as page load times, errors, failed requests or crash rates. RUM data is detailed, technical and tied to individual sessions.
 Storage Management
 Eliminate unnecessary costs in your cloud object storage
 Starting At
@@ -2885,16 +2905,16 @@ $
 29
 /device on-demand. Volume discounts available for annual commitments — contact your Datadog rep.
 Real User Monitoring & Session Replay
-Measure the end-to-end experience of web and mobile applications from your users’ perspective
+Gain unified visibility into the availability and performance of your web and mobile applications
 RUM Measure
 Starting At
 $
 0.15
 Per 1,000 sessions,
-per month* on full traffic
+per month*
 Monitor the availability and performance of your application across user sessions
-Collect every session to gain complete insights into user experiences across your applications.
-Monitor web and mobile app availability with 30+ out-of-the-box metrics—calculated on 100% of sessions for complete and accurate insights into app freezes, error rates, page load times, and more (15-month retention included).
+Collect every session to gain a clear picture of user experiences across your applications.
+Monitor web, mobile, and desktop app availability with 30+ included metrics — calculated on 100% of sessions for a complete and accurate picture of success rate and latency of your critical operations, app freezes, error rates, page and screen load times, and more (15-month retention included).
 Create monitors, define SLOs, and build dashboards across the Datadog platform for end-to-end visibility.
 *Billed annually or $
 0.22
@@ -2905,12 +2925,66 @@ Starting At
 $
 3
 Per 1,000 sessions,
-per month* on filtered sessions
-Focus on critical sessions to efficiently troubleshoot issues and optimize user experiences.
-Filter and retain only the most valuable sessions using flexible, no-code sampling directly in the UI without app deployments.
+per month*
+Troubleshoot critical issues impacting the end-user experience
+Filter and retain the most valuable sessions using flexible, no-code retention rules directly from the UI, API, or MCP (no app deployments needed).
 Prioritize sessions exhibiting errors, crashes, slow performance, high-value user behavior, and more.
 Gain deep visibility into bugs and crashes with built-in Error Tracking and crash reporting tools.
-Retain sessions, views, and errors for 30 days, with 15-day retention for resources, long tasks, and vitals.
+Retained sessions include all their events (views, errors, resources, etc.) and are available for 30 days, with 15-day retention for resources, long tasks, and vitals.
+*Billed annually or $
+4.50
+on-demand
+Start Free Trial
+RUM Managed Archive
+1-month storage
+1-month storage
+3-month storage
+6-month storage
+$
+0.20
+Per 1,000 sessions,
+per month* **
+Contact Us for Pricing
+Store every session in Datadog-managed storage and recover the ones you need on demand
+Store every ingested session in Datadog-managed storage for a 1, 3, or 6-month window, configurable per application
+Locate sessions fast using session ID, application ID, user ID, account ID, timestamp, country, service, and version
+Recover any archived session on demand and investigate it in the RUM Explorer with full session data for 30 days
+Recover sessions in one click in the UI, via API, or MCP, one by one or in batches
+This is an add-on to RUM Measure
+*Recovering a session from the archive is billed separately, under RUM Investigate, at 10x your contracted RUM Investigate rate
+**Billed annually or $
+0.30
+on-demand
+Start Free Trial
+Let's Talk
+Export Pipelines
+Starting At
+$
+0.10
+Per 1,000 sessions,
+per month*
+Continuously export raw RUM data into your own cloud storage for full ownership and ad-hoc analysis
+Continuously send every ingested RUM event to your own cloud storage in Amazon S3, Google Cloud Storage, or Azure Blob Storage
+Choose exactly what to export: all RUM event types, or just sessions, views, and actions
+Deliver data in Parquet for direct warehouse loading, or JSON for custom pipelines
+Enable, disable, or update your export anytime, with visibility into your last successful export
+This is an add-on to RUM Measure
+*Billed annually or $
+0.15
+on-demand
+Start Free Trial
+RUM Profiling
+Starting At
+$
+3
+Per 1,000 sessions,
+per month*
+Enhance RUM with code-level profiles to see which functions slow down real user sessions
+See exactly which functions were running when your app froze, from the flame graph down to the call stack.
+Profile slow launches, freezes (LoAF, ANR, App Hang), and critical operations that power your experiences to fix the moments users actually wait on.
+Compare profiles across versions, OS types, or percentiles to isolate exactly what regressed.
+Prioritize fixes with aggregate profiles that rank the slowest functions across web, iOS, and Android.
+This is an add-on to RUM Measure
 *Billed annually or $
 4.50
 on-demand
@@ -2922,10 +2996,11 @@ $
 Per 1,000 sessions,
 per month*
 Enhance RUM with video-like replays to see user issues firsthand across web and mobile
-See user issues firsthand with video-like session replays for web and mobile.
+See user issues firsthand with video-like session replays for web and mobile
 Debug faster using built-in DevTools to analyze errors and performance bottlenecks.
 Respect user privacy with inputs masked by default in every replay, and fine-grained masking options.
 Uncover engagement patterns by pairing replays with heatmaps and 30-day retention (currently only available for web applications)
+This is an add-on to RUM Investigate
 *Billed annually or $
 3.60
 on-demand
@@ -2933,21 +3008,17 @@ Start Free Trial
 Multi-Year/Volume discounts available
 Contact Us
 Features
-Sessions
-Views
-Actions
-Errors
-Resources
-Long Tasks
-Visual Replay of User Sessions
-Performance Vitals (Mobile & Core Web Vitals)
-Out-of-the-box performance metrics
-Out-of-the-box Dashboards
-Retention Filters
-Error Tracking
+Capture 100% of real user sessions, then define custom retention filters to keep only the high-value ones in full detail
+Get 30+ included availability and performance metrics, computed on your entire session traffic
+Track every view, click, error, resource, and long task across your app
+View Core Web Vitals and mobile vitals by version, OS, geography, or any attribute
+Trace crashes, freezes, and slow launches on iOS and Android to the exact code responsible
+Dive into session replays right from any RUM session
+Profile code-level performance with flame graphs, thread timelines, and call graphs for real user sessions
+Triage errors and crashes with built-in Error Tracking, automatically grouped by root cause
 When Combined with Other Plans
-Frontend-to-backend visibility with the APM integration
-Query, analyze, visualize and alert on your application data
+Gain frontend-to-backend visibility with APM and connect frontend telemetry to the backend traces and services behind it
+Build dashboards and monitors on RUM data alongside the rest of your telemetry
 Support Plans & Post Sales Services
 From basic plans to bespoke offerings, Datadog offers the right level of support & services for any organization.
 Support plans
@@ -2955,28 +3026,13 @@ Services & enablement
 Common Questions
 RUM
 Session Replay
+RUM Managed Archive
+Export Pipelines
+RUM Profiling
 How is a session defined?
-A session is a user journey on your web application. It expires after 15 minutes of inactivity and lasts up to 4 hours. For a detailed explanation of user sessions, please see our
-docs
-.
-What data does Datadog’s RUM collect?
-We collect events across browser and mobile applications on various platforms. Our SDKs collect events automatically or can be instrumented to capture custom events. We capture the following events: page views and view loads, buttons clicked called actions, network requests called resources, and UI hangs called long tasks. We enrich all the events recorded with metadata called attributes. Refer to our
-Browser
-RUM and
-Android
-,
-iOS
-,
-React Native
-, and
-Flutter
-,
-Kotlin Multiplatform
-,
-Unity
-, and
-Roku
-RUM documentation
+A session is a user journey on your web or mobile application. A session usually includes multiple page views with their associated telemetry.
+When does a session expire?
+A session expires after 15 minutes of inactivity, and its duration is limited to 4 hours. After 4 hours, a new session is automatically created.
 Do I need to purchase both RUM Measure and RUM Investigate SKUs?
 Yes—RUM Measure and RUM Investigate are designed to work together to give you full visibility and cost control.
 RUM Measure captures all sessions and powers
@@ -2989,29 +3045,25 @@ You can also add Session Replay to any retained session for a visual playback of
 2.50
 per 1,000 sessions.
 How long are sessions and metrics retained for?
-The retention policy for RUM sessions and session replays is 30 days. With OOTB metrics are generated on 100% of sessions (RUM Measure SKU) and are retained for 15 months.
+The retention policy for RUM sessions and session replays is 30 days. Out-of-the-box metrics are generated on 100% of sessions (RUM Measure SKU) and are retained for 15 months.
 Are the out-of-the-box metrics charged as custom metrics?
 No – Datadog will compute out-of-the-box metrics on the sessions that you send to RUM with the RUM Measure SKU at no additional cost. If you wish to generate your own
 custom metrics
-, these will computed on 100% of your traffic, retained for 15 months, and charged as additional metrics (
+, these will be computed on 100% of your traffic, retained for 15 months, and charged as additional metrics (
 learn more
 ).
-What Mobile languages do you support instrumentation for?
-We currently support
-Android
-(Java and Kotlin),
-iOS
-(Swift and Objective-C),
-React Native
-,
-Flutter
-,
-Unity
-,
-Kotlin Multiplatform
-, and
-Roku
-.
+What mobile platforms and frameworks are supported?
+Datadog RUM supports the following platforms and frameworks:
+Browser:
+Vanilla JS, React, Next.js, Vue, Angular, Nuxt, Shopify, and Salesforce
+Android:
+Java and Kotlin
+Apple:
+Swift and Objective-C
+Cross-platform frameworks:
+React Native, Flutter, Kotlin Multiplatform, .NET MAUI, and Unity
+Desktop and connected devices:
+Electron, Roku, and C++
 Can I view logs from my browser or mobile app in RUM?
 Yes, these logs are automatically tied to the corresponding RUM session, making it easy to monitor when they happen during the user journey.
 How can I begin setting up for RUM?
@@ -3024,22 +3076,40 @@ Mobile
 .
 How does Session Replay work?
 Session Replay works differently for web and mobile applications. For web ones running on desktop browsers or mobile browsers, it captures changes in the web page code, called DOM and DOM-mutations, to recreate a user’s experience in real-time in the browser. For mobile ones, it flattens the view tree and transforms it into style-rich wireframes, to recompose the UI and end-user’s experience at the right view port.
-How does the billing work for Session Replay?
-It depends on the SDK versions used:
-From Browser
-v5.0.0
-, iOS
-2.22.0
-, Android
-2.17.0
-, and React Native
-2.6.0
-, Sessions are billed under “RUM & Session Replay” or “RUM” based on whether they include a Replay
-For earlier versions of our Browser SDK, billing is based on the sampling rate, regardless of Replay content. Please see our
-documentation
-for more detail.
-For earlier versions of our iOS, Android, and React Native SDKs, Sessions are always charged under the “RUM” plan, regardless of Replay content
-Note: if you plan on collecting both Sessions with and without a Replay, you can consider committing to both “RUM” and “RUM & Session Replay” plans to optimize your usage.
+How is RUM Managed Archive billed?
+Storage is billed under RUM Managed Archive, per 1,000 stored sessions, at a rate that depends on your chosen storage period — 1, 3, or 6 months. Recovering a session is billed separately, priced at 10x your contracted RUM Investigate rate.
+How long is archived data retained?
+You can choose a storage period of 1, 3, or 6 months, configurable per application. Once you recover a session, it’s available in the RUM Explorer for 30 days.
+Can I search archived sessions from within Datadog?
+Yes. Archived sessions are searchable in a dedicated Managed Archive UI, separate from the RUM Explorer, using attributes like session ID, application ID, account ID, timestamp, user ID, country, service, and version. Search is also possible via API and MCP.
+Do archived sessions count toward my retention filters?
+No, RUM Managed Archive works independently of your retention filters. For a 1-month archive, only sessions not retained by your filters are stored, and once retained sessions are past the standard 30-day retention period, they’re dropped. For a 3- or 6-month archive, every session is stored, but if a session is also retained, its 30-day retention counts as part of that storage period, not on top of it.
+Do I need to be a RUM customer to use RUM Managed Archive?
+Yes. RUM Managed Archive is an add-on to RUM Measure, as part of RUM without Limits.
+How are Export Pipelines billed?
+Export Pipelines is billed at $
+0.10
+per 1,000 sessions, billed annually, as an add-on to RUM Measure.
+Which destinations are supported?
+You can export data to Amazon S3, Google Cloud Storage, and Azure Blob Storage.
+Can I filter which sessions get exported?
+You can choose which type of data to export — all RUM event types, or just sessions, views, and actions.
+What format is exported data delivered in?
+Exported data is delivered in either Parquet, which is best suited for loading directly into a warehouse such as Snowflake, BigQuery, or Databricks, or JSON, which is best suited for custom processing pipelines.
+Do I need to be a RUM customer to use Export Pipelines?
+Yes. Export Pipelines is an add-on to RUM Measure, as part of RUM without Limits.
+How is RUM Profiling billed?
+RUM Profiling is billed at $
+3
+per 1,000 ingested sessions, billed annually. It uses the same session definition as RUM, so there’s no separate unit to track.
+What counts as a billable profiling session?
+A profiling session maps one-to-one to a RUM ingested session. If profiling was active for any part of an ingested session, it counts as one billable profiling session, regardless of duration. Sessions where profiling is enabled but no data is collected are not billed.
+Do I need a RUM plan to use RUM Profiling?
+Yes. RUM Profiling is an add-on to RUM Measure, as part of RUM without Limits.
+Can I profile only some of my sessions?
+Yes. You set a profiling sample rate per application, so you can start small and expand over time. On recent SDK versions, this client-side sample rate can be updated from Datadog Remote Config, in real time, without code changes.
+What platforms are supported?
+RUM Profiling supports profiling for browser, iOS, and Android applications. Use profiling data to identify performance bottlenecks, optimize slow code paths, and improve rendering performance at both the system and code level.
 Synthetic Monitoring
 AI-powered end-to-end testing for your user experiences, across Browser, Mobile App, API, and Network
 For

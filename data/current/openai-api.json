@@ -6,9 +6,9 @@
   "url": "https://platform.openai.com/docs/pricing",
   "final_url": "https://developers.openai.com/api/docs/pricing",
   "parser_version": 4,
-  "content_hash": "4cd46171afd7ad1172811c6426d9bc98dc3fc6aa0a70fcb604645652fc96b59b",
-  "raw_hash": "eea51b6cbf45a14c5290c02d7081ba40ecb55c8bb8fadd17358fbd92c826c3c1",
-  "text_bytes": 7302,
+  "content_hash": "d2282e3c84af8993f5e2bb17f92fef51c709990b96b4fef31d0d0d5c5bcea387",
+  "raw_hash": "cedc40b4f1331a4ba0e1dd22711170496756b30a8bccafc12d2f3c3868c2ab8c",
+  "text_bytes": 7272,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -787,48 +787,48 @@
       "unit": "/ 1k"
     },
     {
-      "key": "o4-mini-2025-04-16",
-      "model": "o4-mini-2025-04-16",
+      "key": "gpt-4.1-2025-04-14",
+      "model": "gpt-4.1-2025-04-14",
       "prices": {
         "training": {
-          "raw": "$100.00",
-          "amount": 100.0
+          "raw": "$25.00",
+          "amount": 25.0
         },
         "input": {
-          "raw": "$4.00",
-          "amount": 4.0
+          "raw": "$3.00",
+          "amount": 3.0
         },
         "output": {
-          "raw": "$16.00",
-          "amount": 16.0
+          "raw": "$12.00",
+          "amount": 12.0
         },
         "cached input": {
-          "raw": "$1.00",
-          "amount": 1.0
+          "raw": "$0.75",
+          "amount": 0.75
         }
       },
       "currency": "USD",
       "unit": ""
     },
     {
-      "key": "o4-mini-2025-04-16 with data sharing",
-      "model": "o4-mini-2025-04-16 with data sharing",
+      "key": "gpt-4.1-mini-2025-04-14",
+      "model": "gpt-4.1-mini-2025-04-14",
       "prices": {
         "training": {
-          "raw": "$100.00",
-          "amount": 100.0
+          "raw": "$5.00",
+          "amount": 5.0
         },
         "input": {
-          "raw": "$2.00",
-          "amount": 2.0
+          "raw": "$0.80",
+          "amount": 0.8
         },
         "output": {
-          "raw": "$8.00",
-          "amount": 8.0
+          "raw": "$3.20",
+          "amount": 3.2
         },
         "cached input": {
-          "raw": "$0.50",
-          "amount": 0.5
+          "raw": "$0.20",
+          "amount": 0.2
         }
       },
       "currency": "USD",
@@ -1214,18 +1214,18 @@
           "Cached input"
         ],
         [
-          "o4-mini-2025-04-16",
-          "$100.00 / hour",
-          "$4.00",
-          "$16.00",
-          "$1.00"
+          "gpt-4.1-2025-04-14",
+          "$25.00",
+          "$3.00",
+          "$12.00",
+          "$0.75"
         ],
         [
-          "o4-mini-2025-04-16 with data sharing",
-          "$100.00 / hour",
-          "$2.00",
-          "$8.00",
-          "$0.50"
+          "gpt-4.1-mini-2025-04-14",
+          "$5.00",
+          "$0.80",
+          "$3.20",
+          "$0.20"
         ]
       ]
     }

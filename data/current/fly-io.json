@@ -6,15 +6,38 @@
   "url": "https://fly.io/pricing/",
   "final_url": "https://fly.io/pricing/",
   "parser_version": 4,
-  "content_hash": "f36002c812f4f09c24e9596d88d5fcc5232680b4c829d5607f6e529902497206",
-  "raw_hash": "37d32b92bd6c015d60e55b25009dc0da0c2d75d06ca9cdd056737eb84899041a",
-  "text_bytes": 2863,
+  "content_hash": "8937d13669f6cbbb6ca2ffeb52cb6ffbda4ea22789281d52652efa3d8b406683",
+  "raw_hash": "cafedd700b03912375ee2e7126e42a163dfdb7181be5907ad9ad0e27e00d49e5",
+  "text_bytes": 2934,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
     {
+      "name": "Start for free,",
+      "price_raw": "$1",
+      "amount": 1.0,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        1.0
+      ]
+    },
+    {
       "name": "Machines Compute",
+      "price_raw": "$0.0030",
+      "amount": 0.003,
+      "currency": "USD",
+      "period": "hour",
+      "features": [],
+      "slot_prices": [
+        0.003,
+        2.19
+      ]
+    },
+    {
+      "name": "Here's what it costs",
       "price_raw": "$0.0030",
       "amount": 0.003,
       "currency": "USD",

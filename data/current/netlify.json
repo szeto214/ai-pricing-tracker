@@ -6,9 +6,9 @@
   "url": "https://www.netlify.com/pricing/",
   "final_url": "https://www.netlify.com/pricing/",
   "parser_version": 4,
-  "content_hash": "9702f852b3c8c47cb764e018d331547c048fae36b0e0441d51e878ea003a72f5",
-  "raw_hash": "32829d4dad26fffd754ea19e1b4ebd518a9cf96fef25c6b36d602789aa46ccae",
-  "text_bytes": 16046,
+  "content_hash": "d41fe7f0033da0a41743910fa7b8cabc8f4cafde793f4663b8e800b6737c2fb8",
+  "raw_hash": "b28b80889326488104fce0419190700adb2504bb3c6632b46943631ba8fe01d2",
+  "text_bytes": 16221,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -34,39 +34,6 @@
       ],
       "slot_prices": [
         0.0
-      ]
-    },
-    {
-      "name": "Personal",
-      "price_raw": "$9",
-      "amount": 9.0,
-      "currency": "USD",
-      "period": "month",
-      "features": [
-        "Smart secret detection",
-        "1-day observability",
-        "Priority email support",
-        "1,000 credits / month"
-      ],
-      "slot_prices": [
-        9.0
-      ]
-    },
-    {
-      "name": "Pro",
-      "price_raw": "$20",
-      "amount": 20.0,
-      "currency": "USD",
-      "period": "month",
-      "features": [
-        "Private organization repos",
-        "Shared env variables",
-        "3+ concurrent builds",
-        "30-day analytics & metrics",
-        "Monthly credits from plan Choose a Pro tier: 3,000 credits/month 5,000 credits/month 10,000 credits/month 15,000 credits/month 20,000 credits/month"
-      ],
-      "slot_prices": [
-        20.0
       ]
     },
     {
@@ -347,8 +314,8 @@
         [
           "Members Trigger deploys on Netlify or log into the Netlify platform UI. Sites connected to public repos will not have membership requirements for deploys.",
           "Limited to 1 free member, with free & unlimited Git Contributors on public repos.",
-          "$9/month for 1 member, with free & unlimited Git Contributors on public repos.",
-          "$20 /month for unlimited members, with free & unlimited Git Contributors on all repos.",
+          "$9/month $12/month $15/month See pricing in your dashboard for 1 member, with free & unlimited Git Contributors on public repos.",
+          "$20/month $20/month $25/month See pricing in your dashboard for unlimited members, with free & unlimited Git Contributors on all repos.",
           "Custom"
         ],
         [

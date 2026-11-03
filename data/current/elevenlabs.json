@@ -6,9 +6,9 @@
   "url": "https://elevenlabs.io/pricing",
   "final_url": "https://elevenlabs.io/pricing",
   "parser_version": 4,
-  "content_hash": "0295ca4b0a1a427381f80143e361db76194662e534b31eb91d9a06e493241ae7",
-  "raw_hash": "f24b9d907d5f1ea4beb5fa3a4ff7788896753ddddcd40f5d4ef64398ed5f5f00",
-  "text_bytes": 3467,
+  "content_hash": "5fcef788a551a9eafd657cf1aa93ba332a1d135a2cba606a5bc0510bf11fe664",
+  "raw_hash": "fb950c3b8d094d11b117b247ee3494a0ec6026666d42abbb70878d93bd403ec4",
+  "text_bytes": 3481,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -19,42 +19,40 @@
       "amount": 0.0,
       "currency": "USD",
       "period": "month",
-      "features": [],
+      "features": [
+        "Text to Speech",
+        "Speech to Text",
+        "Sound Effects",
+        "Voice Design",
+        "Music",
+        "Productions",
+        "Image",
+        "3 Projects in Studio"
+      ],
       "slot_prices": [
         0.0
       ]
     },
     {
       "name": "Starter",
-      "price_raw": "$6",
-      "amount": 6.0,
+      "price_raw": "$1",
+      "amount": 1.0,
       "currency": "USD",
       "period": "month",
       "features": [],
       "slot_prices": [
-        6.0
+        1.0
       ]
     },
     {
       "name": "Creator",
-      "price_raw": "$22",
-      "amount": 22.0,
+      "price_raw": "$11",
+      "amount": 11.0,
       "currency": "USD",
       "period": "month",
       "features": [],
       "slot_prices": [
-        22.0
-      ]
-    },
-    {
-      "name": "Pro",
-      "price_raw": "$99",
-      "amount": 99.0,
-      "currency": "USD",
-      "period": "month",
-      "features": [],
-      "slot_prices": [
-        99.0
+        11.0
       ]
     },
     {
@@ -87,6 +85,17 @@
       "period": null,
       "features": [],
       "slot_prices": []
+    },
+    {
+      "name": "Limited use",
+      "price_raw": "$0.36",
+      "amount": 0.36,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        0.36
+      ]
     },
     {
       "name": "Minutes included",

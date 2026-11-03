@@ -6,26 +6,818 @@
   "url": "https://fireworks.ai/pricing",
   "final_url": "https://fireworks.ai/pricing",
   "parser_version": 4,
-  "content_hash": "817486395b4e822edaba11068bddea6d190f6c0d2a014ce250b8cbb0fa5a8023",
-  "raw_hash": "5b1d7e6e3defa7dcfebd23384c2c32fc6f98faaae290bbe94a765701ba6613e8",
-  "text_bytes": 3934,
-  "currency_hints": [],
+  "content_hash": "257edfc994ce1a26ea1a1bbf0e75766303424092f5c7aa932c8f35ad3e2c3429",
+  "raw_hash": "87bb30e6e0562dfae729ddb651776da7c66319663bc51bc3113113173caf218b",
+  "text_bytes": 7263,
+  "currency_hints": [
+    "USD"
+  ],
   "extractor": "dom",
   "confidence": "low",
   "plans": [
     {
-      "name": "Embeddings",
-      "price_raw": "$0.008",
-      "amount": 0.008,
+      "name": "Serverless",
+      "price_raw": "$0.05",
+      "amount": 0.05,
       "currency": "USD",
-      "period": null,
-      "features": [],
+      "period": "token",
+      "features": [
+        "Standard, Priority, Fast, Batch and Spot modes",
+        "Cached input billed at half price or less, with no write fee",
+        "Monthly spend limits and Auto Reload"
+      ],
       "slot_prices": [
-        0.008
+        0.05
       ]
     }
   ],
-  "models": [],
-  "tables": [],
+  "models": [
+    {
+      "key": "ember-1",
+      "model": "Ember-1",
+      "prices": {
+        "input": {
+          "raw": "$3.00",
+          "amount": 3.0
+        },
+        "cached input": {
+          "raw": "$0.30",
+          "amount": 0.3
+        },
+        "output": {
+          "raw": "$15.00",
+          "amount": 15.0
+        },
+        "priority (input / cached / output)": {
+          "raw": "$3.75",
+          "amount": 3.75
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m tokens"
+    },
+    {
+      "key": "kimi k3",
+      "model": "Kimi K3",
+      "prices": {
+        "input": {
+          "raw": "$3.00",
+          "amount": 3.0
+        },
+        "cached input": {
+          "raw": "$0.30",
+          "amount": 0.3
+        },
+        "output": {
+          "raw": "$15.00",
+          "amount": 15.0
+        },
+        "priority (input / cached / output)": {
+          "raw": "$3.75",
+          "amount": 3.75
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m tokens"
+    },
+    {
+      "key": "qwen 3.8 max",
+      "model": "Qwen 3.8 Max",
+      "prices": {
+        "input": {
+          "raw": "$2.00",
+          "amount": 2.0
+        },
+        "cached input": {
+          "raw": "$0.25",
+          "amount": 0.25
+        },
+        "output": {
+          "raw": "$6.00",
+          "amount": 6.0
+        },
+        "priority (input / cached / output)": {
+          "raw": "$3.00",
+          "amount": 3.0
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m tokens"
+    },
+    {
+      "key": "glm 5.3",
+      "model": "GLM 5.3",
+      "prices": {
+        "input": {
+          "raw": "$1.40",
+          "amount": 1.4
+        },
+        "cached input": {
+          "raw": "$0.26",
+          "amount": 0.26
+        },
+        "output": {
+          "raw": "$4.40",
+          "amount": 4.4
+        },
+        "priority (input / cached / output)": {
+          "raw": "$1.75",
+          "amount": 1.75
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m tokens"
+    },
+    {
+      "key": "muse spark open",
+      "model": "Muse Spark Open",
+      "prices": {
+        "input": {
+          "raw": "$1.25",
+          "amount": 1.25
+        },
+        "cached input": {
+          "raw": "$0.15",
+          "amount": 0.15
+        },
+        "output": {
+          "raw": "$4.25",
+          "amount": 4.25
+        },
+        "priority (input / cached / output)": {
+          "raw": "$1.875",
+          "amount": 1.875
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m tokens"
+    },
+    {
+      "key": "nvidia nemotron 3 ultra (preview)",
+      "model": "NVIDIA Nemotron 3 Ultra (Preview)",
+      "prices": {
+        "input": {
+          "raw": "$0.60",
+          "amount": 0.6
+        },
+        "cached input": {
+          "raw": "$0.12",
+          "amount": 0.12
+        },
+        "output": {
+          "raw": "$2.40",
+          "amount": 2.4
+        },
+        "priority (input / cached / output)": {
+          "raw": "$0.75",
+          "amount": 0.75
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m tokens"
+    },
+    {
+      "key": "deepseek v4.1 flash",
+      "model": "DeepSeek V4.1 Flash",
+      "prices": {
+        "input": {
+          "raw": "$0.30",
+          "amount": 0.3
+        },
+        "cached input": {
+          "raw": "$0.006",
+          "amount": 0.006
+        },
+        "output": {
+          "raw": "$1.20",
+          "amount": 1.2
+        },
+        "priority (input / cached / output)": {
+          "raw": "$0.375",
+          "amount": 0.375
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m tokens"
+    },
+    {
+      "key": "deepseek v4.1 flash 1017",
+      "model": "DeepSeek V4.1 Flash 1017",
+      "prices": {
+        "input": {
+          "raw": "$0.30",
+          "amount": 0.3
+        },
+        "cached input": {
+          "raw": "$0.006",
+          "amount": 0.006
+        },
+        "output": {
+          "raw": "$1.20",
+          "amount": 1.2
+        },
+        "priority (input / cached / output)": {
+          "raw": "$0.375",
+          "amount": 0.375
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m tokens"
+    },
+    {
+      "key": "minimax m3",
+      "model": "MiniMax M3",
+      "prices": {
+        "input": {
+          "raw": "$0.30",
+          "amount": 0.3
+        },
+        "cached input": {
+          "raw": "$0.06",
+          "amount": 0.06
+        },
+        "output": {
+          "raw": "$1.20",
+          "amount": 1.2
+        },
+        "priority (input / cached / output)": {
+          "raw": "$0.45",
+          "amount": 0.45
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m tokens"
+    },
+    {
+      "key": "glm 5.3 flash",
+      "model": "GLM 5.3 Flash",
+      "prices": {
+        "input": {
+          "raw": "$0.15",
+          "amount": 0.15
+        },
+        "cached input": {
+          "raw": "$0.03",
+          "amount": 0.03
+        },
+        "output": {
+          "raw": "$0.50",
+          "amount": 0.5
+        },
+        "priority (input / cached / output)": {
+          "raw": "$0.1875",
+          "amount": 0.1875
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m tokens"
+    },
+    {
+      "key": "openai gpt oss 120b",
+      "model": "OpenAI GPT OSS 120B",
+      "prices": {
+        "input": {
+          "raw": "$0.15",
+          "amount": 0.15
+        },
+        "cached input": {
+          "raw": "$0.015",
+          "amount": 0.015
+        },
+        "output": {
+          "raw": "$0.60",
+          "amount": 0.6
+        },
+        "priority (input / cached / output)": {
+          "raw": "$0.18",
+          "amount": 0.18
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m tokens"
+    },
+    {
+      "key": "nvidia nemotron 3.5 lightning 30b a3b",
+      "model": "NVIDIA Nemotron 3.5 Lightning 30B A3B",
+      "prices": {
+        "input": {
+          "raw": "$0.05",
+          "amount": 0.05
+        },
+        "cached input": {
+          "raw": "$0.01",
+          "amount": 0.01
+        },
+        "output": {
+          "raw": "$0.20",
+          "amount": 0.2
+        },
+        "priority (input / cached / output)": {
+          "raw": "$0.0625",
+          "amount": 0.0625
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m tokens"
+    },
+    {
+      "key": "glm-5.3",
+      "model": "GLM-5.3",
+      "prices": {
+        "cached input": {
+          "raw": "$0.26",
+          "amount": 0.26
+        },
+        "uncached input": {
+          "raw": "$1.40",
+          "amount": 1.4
+        },
+        "output": {
+          "raw": "$4.40",
+          "amount": 4.4
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m tokens"
+    },
+    {
+      "key": "glm-5.3#2",
+      "model": "GLM-5.3",
+      "prices": {
+        "cached input": {
+          "raw": "$0.182",
+          "amount": 0.182
+        },
+        "uncached input": {
+          "raw": "$0.98",
+          "amount": 0.98
+        },
+        "output": {
+          "raw": "$3.08",
+          "amount": 3.08
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m tokens"
+    },
+    {
+      "key": "kimi k3#2",
+      "model": "Kimi K3",
+      "prices": {
+        "cached input": {
+          "raw": "$0.30",
+          "amount": 0.3
+        },
+        "uncached input": {
+          "raw": "$3.00",
+          "amount": 3.0
+        },
+        "output": {
+          "raw": "$15.00",
+          "amount": 15.0
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m tokens"
+    },
+    {
+      "key": "kimi k3#3",
+      "model": "Kimi K3",
+      "prices": {
+        "cached input": {
+          "raw": "$0.21",
+          "amount": 0.21
+        },
+        "uncached input": {
+          "raw": "$2.10",
+          "amount": 2.1
+        },
+        "output": {
+          "raw": "$10.50",
+          "amount": 10.5
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m tokens"
+    },
+    {
+      "key": "deepseek v4.1 flash#2",
+      "model": "DeepSeek V4.1 Flash",
+      "prices": {
+        "cached input": {
+          "raw": "$0.006",
+          "amount": 0.006
+        },
+        "uncached input": {
+          "raw": "$0.30",
+          "amount": 0.3
+        },
+        "output": {
+          "raw": "$1.20",
+          "amount": 1.2
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m tokens"
+    },
+    {
+      "key": "deepseek v4.1 flash#3",
+      "model": "DeepSeek V4.1 Flash",
+      "prices": {
+        "cached input": {
+          "raw": "$0.0042",
+          "amount": 0.0042
+        },
+        "uncached input": {
+          "raw": "$0.21",
+          "amount": 0.21
+        },
+        "output": {
+          "raw": "$0.84",
+          "amount": 0.84
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m tokens"
+    },
+    {
+      "key": "deepseek v4.1 flash 1017#2",
+      "model": "DeepSeek V4.1 Flash 1017",
+      "prices": {
+        "cached input": {
+          "raw": "$0.006",
+          "amount": 0.006
+        },
+        "uncached input": {
+          "raw": "$0.30",
+          "amount": 0.3
+        },
+        "output": {
+          "raw": "$1.20",
+          "amount": 1.2
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m tokens"
+    },
+    {
+      "key": "deepseek v4.1 flash 1017#3",
+      "model": "DeepSeek V4.1 Flash 1017",
+      "prices": {
+        "cached input": {
+          "raw": "$0.0042",
+          "amount": 0.0042
+        },
+        "uncached input": {
+          "raw": "$0.21",
+          "amount": 0.21
+        },
+        "output": {
+          "raw": "$0.84",
+          "amount": 0.84
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m tokens"
+    },
+    {
+      "key": "up to 150m parameters",
+      "model": "Up to 150M parameters",
+      "prices": {
+        "price": {
+          "raw": "$0.008",
+          "amount": 0.008
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "150m to 350m parameters",
+      "model": "150M to 350M parameters",
+      "prices": {
+        "price": {
+          "raw": "$0.016",
+          "amount": 0.016
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "qwen3 8b",
+      "model": "Qwen3 8B",
+      "prices": {
+        "price": {
+          "raw": "$0.10",
+          "amount": 0.1
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "h100 80 gb",
+      "model": "H100 80 GB",
+      "prices": {
+        "per minute": {
+          "raw": "$0.134",
+          "amount": 0.134
+        },
+        "per hour": {
+          "raw": "$8.00",
+          "amount": 8.0
+        }
+      },
+      "currency": "USD",
+      "unit": "per minute"
+    },
+    {
+      "key": "h200 141 gb",
+      "model": "H200 141 GB",
+      "prices": {
+        "per minute": {
+          "raw": "$0.134",
+          "amount": 0.134
+        },
+        "per hour": {
+          "raw": "$8.00",
+          "amount": 8.0
+        }
+      },
+      "currency": "USD",
+      "unit": "per minute"
+    },
+    {
+      "key": "b200 180 gb",
+      "model": "B200 180 GB",
+      "prices": {
+        "per minute": {
+          "raw": "$0.217",
+          "amount": 0.217
+        },
+        "per hour": {
+          "raw": "$13.00",
+          "amount": 13.0
+        }
+      },
+      "currency": "USD",
+      "unit": "per minute"
+    },
+    {
+      "key": "b300 288 gb",
+      "model": "B300 288 GB",
+      "prices": {
+        "per minute": {
+          "raw": "$0.250",
+          "amount": 0.25
+        },
+        "per hour": {
+          "raw": "$15.00",
+          "amount": 15.0
+        }
+      },
+      "currency": "USD",
+      "unit": "per minute"
+    },
+    {
+      "key": "gb300 288 gb",
+      "model": "GB300 288 GB",
+      "prices": {
+        "per minute": {
+          "raw": "$0.334",
+          "amount": 0.334
+        },
+        "per hour": {
+          "raw": "$20.00",
+          "amount": 20.0
+        }
+      },
+      "currency": "USD",
+      "unit": "per minute"
+    }
+  ],
+  "tables": [
+    {
+      "caption": "Highlighted Serverless rates, Standard and Priority (USD per 1M tokens)",
+      "rows": [
+        [
+          "Model",
+          "Input",
+          "Cached input",
+          "Output",
+          "Priority (input / cached / output)"
+        ],
+        [
+          "Ember-1",
+          "$3.00",
+          "$0.30",
+          "$15.00",
+          "$3.75 / $0.375 / $18.75"
+        ],
+        [
+          "Kimi K3",
+          "$3.00",
+          "$0.30",
+          "$15.00",
+          "$3.75 / $0.375 / $18.75"
+        ],
+        [
+          "Qwen 3.8 Max",
+          "$2.00",
+          "$0.25",
+          "$6.00",
+          "$3.00 / $0.375 / $9.00"
+        ],
+        [
+          "GLM 5.3",
+          "$1.40",
+          "$0.26",
+          "$4.40",
+          "$1.75 / $0.325 / $5.50"
+        ],
+        [
+          "Muse Spark Open",
+          "$1.25",
+          "$0.15",
+          "$4.25",
+          "$1.875 / $0.225 / $6.375"
+        ],
+        [
+          "NVIDIA Nemotron 3 Ultra (Preview)",
+          "$0.60",
+          "$0.12",
+          "$2.40",
+          "$0.75 / $0.15 / $3.00"
+        ],
+        [
+          "DeepSeek V4.1 Flash",
+          "$0.30",
+          "$0.006",
+          "$1.20",
+          "$0.375 / $0.0075 / $1.50"
+        ],
+        [
+          "DeepSeek V4.1 Flash 1017",
+          "$0.30",
+          "$0.006",
+          "$1.20",
+          "$0.375 / $0.0075 / $1.50"
+        ],
+        [
+          "MiniMax M3",
+          "$0.30",
+          "$0.06",
+          "$1.20",
+          "$0.45 / $0.09 / $1.80"
+        ],
+        [
+          "GLM 5.3 Flash",
+          "$0.15",
+          "$0.03",
+          "$0.50",
+          "$0.1875 / $0.0375 / $0.625"
+        ],
+        [
+          "OpenAI GPT OSS 120B",
+          "$0.15",
+          "$0.015",
+          "$0.60",
+          "$0.18 / $0.018 / $0.72"
+        ],
+        [
+          "NVIDIA Nemotron 3.5 Lightning 30B A3B",
+          "$0.05",
+          "$0.01",
+          "$0.20",
+          "$0.0625 / $0.0125 / $0.25"
+        ]
+      ]
+    },
+    {
+      "caption": "Spot rates (USD per 1M tokens)",
+      "rows": [
+        [
+          "Model",
+          "Tier",
+          "Cached input",
+          "Uncached input",
+          "Output"
+        ],
+        [
+          "GLM-5.3",
+          "Standard",
+          "$0.26",
+          "$1.40",
+          "$4.40"
+        ],
+        [
+          "GLM-5.3",
+          "Spot",
+          "$0.182",
+          "$0.98",
+          "$3.08"
+        ],
+        [
+          "Kimi K3",
+          "Standard",
+          "$0.30",
+          "$3.00",
+          "$15.00"
+        ],
+        [
+          "Kimi K3",
+          "Spot",
+          "$0.21",
+          "$2.10",
+          "$10.50"
+        ],
+        [
+          "DeepSeek V4.1 Flash",
+          "Standard",
+          "$0.006",
+          "$0.30",
+          "$1.20"
+        ],
+        [
+          "DeepSeek V4.1 Flash",
+          "Spot",
+          "$0.0042",
+          "$0.21",
+          "$0.84"
+        ],
+        [
+          "DeepSeek V4.1 Flash 1017",
+          "Standard",
+          "$0.006",
+          "$0.30",
+          "$1.20"
+        ],
+        [
+          "DeepSeek V4.1 Flash 1017",
+          "Spot",
+          "$0.0042",
+          "$0.21",
+          "$0.84"
+        ]
+      ]
+    },
+    {
+      "caption": "Embeddings (USD per 1M input tokens)",
+      "rows": [
+        [
+          "Base model",
+          "Price"
+        ],
+        [
+          "Up to 150M parameters",
+          "$0.008"
+        ],
+        [
+          "150M to 350M parameters",
+          "$0.016"
+        ],
+        [
+          "Qwen3 8B",
+          "$0.10"
+        ]
+      ]
+    },
+    {
+      "caption": "GPU rates (USD)",
+      "rows": [
+        [
+          "GPU",
+          "Per minute",
+          "Per hour"
+        ],
+        [
+          "H100 80 GB",
+          "$0.134",
+          "$8.00"
+        ],
+        [
+          "H200 141 GB",
+          "$0.134",
+          "$8.00"
+        ],
+        [
+          "B200 180 GB",
+          "$0.217",
+          "$13.00"
+        ],
+        [
+          "B300 288 GB",
+          "$0.250",
+          "$15.00"
+        ],
+        [
+          "GB300 288 GB",
+          "$0.334",
+          "$20.00"
+        ]
+      ]
+    }
+  ],
   "extract_errors": []
 }

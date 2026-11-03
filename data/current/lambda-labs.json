@@ -6,15 +6,15 @@
   "url": "https://lambda.ai/pricing",
   "final_url": "https://lambda.ai/pricing",
   "parser_version": 4,
-  "content_hash": "a6d731a5882512682f922887f68ec4bda922bf5744fa70d4ffed76cc6896b9b0",
-  "raw_hash": "eb0161ea81bf36bb02f67cdd81086b863c60dac5f3fec4498893362293cf9241",
-  "text_bytes": 1235,
+  "content_hash": "d4118cfbfe5eabb8352a534c40d8047ced8342b26db2948e9bf420b4a5b8d7e6",
+  "raw_hash": "43b8159e14338f9f4e6dab6e21c7adb606ed27e8c7dab403ed067523215a4cd9",
+  "text_bytes": 1234,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
     {
-      "name": "NVIDIA B200 SXM6",
+      "name": "NVIDIA HGX B200",
       "price_raw": "$6.69",
       "amount": 6.69,
       "currency": "USD",
@@ -25,7 +25,7 @@
       ]
     },
     {
-      "name": "NVIDIA H100 SXM",
+      "name": "NVIDIA HGX H100",
       "price_raw": "$3.99",
       "amount": 3.99,
       "currency": "USD",
@@ -36,7 +36,7 @@
       ]
     },
     {
-      "name": "NVIDIA A100 SXM",
+      "name": "NVIDIA HGX A100",
       "price_raw": "$2.79",
       "amount": 2.79,
       "currency": "USD",
@@ -47,7 +47,7 @@
       ]
     },
     {
-      "name": "NVIDIA A100 SXM",
+      "name": "NVIDIA HGX A100",
       "price_raw": "$1.99",
       "amount": 1.99,
       "currency": "USD",
@@ -123,7 +123,7 @@
           "PRICE/GPU/HR*"
         ],
         [
-          "NVIDIA B200 SXM6",
+          "NVIDIA HGX B200",
           "180 GB",
           "208",
           "2900 GiB",
@@ -131,7 +131,7 @@
           "$6.69"
         ],
         [
-          "NVIDIA H100 SXM",
+          "NVIDIA HGX H100",
           "80 GB",
           "208",
           "1800 GiB",
@@ -139,7 +139,7 @@
           "$3.99"
         ],
         [
-          "NVIDIA A100 SXM",
+          "NVIDIA HGX A100",
           "80 GB",
           "240",
           "1800 GiB",
@@ -147,7 +147,7 @@
           "$2.79"
         ],
         [
-          "NVIDIA A100 SXM",
+          "NVIDIA HGX A100",
           "40 GB",
           "124",
           "1800 GiB",

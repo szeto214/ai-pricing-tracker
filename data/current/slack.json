@@ -6,9 +6,9 @@
   "url": "https://slack.com/pricing",
   "final_url": "https://slack.com/pricing",
   "parser_version": 4,
-  "content_hash": "51a5f303a88c8f3823ebf215c461215d37e843434ba0163b904f1a13b5ed8847",
-  "raw_hash": "90416aca0bb3e089137097e0641032bbb2369b8167e0bfb8a99946410c6b3d3f",
-  "text_bytes": 28625,
+  "content_hash": "5535961f1b34ef40bda12eba3634da78ae180b8d93d9a2aa4fe4a4652d7b9401",
+  "raw_hash": "27968914962fbe0d3dca4d1ed658a1b3c872a855de0c950563e68852fce9ad7f",
+  "text_bytes": 28609,
   "currency_hints": [
     "USD"
   ],
@@ -197,7 +197,7 @@
           ""
         ],
         [
-          "Slackbot (personal AI agent) New Your personal AI agent that understands conversations, files, and projects in Slack. Plan limits apply.",
+          "Slackbot (personal AI agent) Your personal AI agent that understands conversations, files, and projects in Slack. Plan limits apply.",
           "",
           "",
           "",

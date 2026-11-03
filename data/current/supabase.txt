@@ -1018,16 +1018,47 @@ Included in
 Included in
 Frequently asked questions
 Can I cap my usage so my bill doesn't run over?
+Yes. Spend caps are on by default on the Pro Plan. You can turn spend caps off for usage beyond the Plan limits to pay as you grow.
 I'm worried I could end up with a huge bill at the end of the month.
+Spend caps are on by default and you need to toggle them off from your dashboard to enable pay as you grow pricing.
 When will I be billed?
+Our Pro Plan is charged up front, and billed on a monthly basis. Additional usage costs are also billed at the end of the month.
 Does Supabase charge sales tax, VAT or GST?
+Supabase applies sales tax, VAT, GST, and other indirect taxes where required by law, based on your billing address. For more details, see our
+Billing FAQ
+.
 Are you going to change your pricing in the future?
+Pricing may change in the future. As a team of developers, we are committed to keeping our pricing as developer friendly as possible.
 What happens if I cancel my subscription?
+The organization is allocated credits for unused time during the billing month. Those credits can be used for other projects.
 How can I track my usage?
+You can track your organization's usage at any time on the
+usage page
+in the dashboard, which shows how each project is tracking against your plan's limits. Your upcoming invoice on the
+billing page
+updates as you go, and organizations on the Pro Plan or above can use the
+Spend cap
+to control costs.
 What if I need one project for development and one for production?
+You can create two projects, one for development and one for production — the Free Plan includes two free projects. You can also use
+Branching
+, available on the Pro Plan and above, to run a separate development environment off your production project.
 Can I self-host Supabase for free?
+Yes, you can use the
+Docker setup
+or the
+Supabase CLI
+.
+Supabase Studio
+is also available in the Docker setup.
 Can I pause a free project?
+Yes, you can pause a project at any time. Our Free Plan gives you 2 free projects, but you can have as many paused projects as you want. Just pause and unpause them as needed.
 Can I purchase Supabase through AWS Marketplace?
+Yes. If your organization has an AWS spend commitment (such as a PPA or EDP), you can buy Pro or Team through AWS Marketplace so eligible Supabase spend counts toward that commitment. Billing details and plan management then run through AWS, and Spend Cap is unavailable for AWS-managed organizations. Learn more on our
+AWS Marketplace page
+, or go straight to the
+public listing
+.
 Can't find the answer to your question?
 Open a support ticket
 to receive help from our team.

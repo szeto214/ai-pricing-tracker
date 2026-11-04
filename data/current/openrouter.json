@@ -6,13 +6,57 @@
   "url": "https://openrouter.ai/models",
   "final_url": "https://openrouter.ai/models",
   "parser_version": 4,
-  "content_hash": "f3f3308c584ba79a66e5664119c50fe867cacee3a8e24ff89d0adb79a76245e6",
-  "raw_hash": "49426772efeedd1c6997bc1bb7abcf2081099122dd326ebed8fda02e71d76837",
-  "text_bytes": 9385,
+  "content_hash": "3d0e1fc008cff62666ab78c44e2ceb27a5c18b75e9cd5d50973e11ef8136b7dc",
+  "raw_hash": "407e1ec44c5cb2373c42c2cc4b16ca263fe1edd4b697990c0577204627c2a7ef",
+  "text_bytes": 10763,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
+    {
+      "name": "Cohere: Embed 5 Fast",
+      "price_raw": "$0.12",
+      "amount": 0.12,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        0.12
+      ]
+    },
+    {
+      "name": "Cohere: Embed 5 Pro",
+      "price_raw": "$0.12",
+      "amount": 0.12,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        0.12
+      ]
+    },
+    {
+      "name": "Cohere: Rerank 5 Fast",
+      "price_raw": "$0.02",
+      "amount": 0.02,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        0.02
+      ]
+    },
+    {
+      "name": "Cohere: Rerank 5 Pro",
+      "price_raw": "$0.05",
+      "amount": 0.05,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        0.05
+      ]
+    },
     {
       "name": "TBC: mischief 1",
       "price_raw": "$0.005",
@@ -33,28 +77,6 @@
       "features": [],
       "slot_prices": [
         3.3e-05
-      ]
-    },
-    {
-      "name": "Amazon: Titan Multimodal Embeddings G1",
-      "price_raw": "$0.06",
-      "amount": 0.06,
-      "currency": "USD",
-      "period": null,
-      "features": [],
-      "slot_prices": [
-        0.06
-      ]
-    },
-    {
-      "name": "Amazon: Titan Text Embeddings V2",
-      "price_raw": "$0.02",
-      "amount": 0.02,
-      "currency": "USD",
-      "period": null,
-      "features": [],
-      "slot_prices": [
-        0.02
       ]
     }
   ],

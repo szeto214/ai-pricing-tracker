@@ -1,7 +1,104 @@
 Models
+Tencent: Hy4
+Hy4
+50% off
+337B tokens
+The official release of Hy4 delivers comprehensive and substantial improvements over Hy4 Preview, with particularly strong gains in agentic capabilities and performance across a wide range of long-horizon, real-world productivity tasks. It also introduces visual understanding for the first time.
+by
+tencent
+Nov 4, 2026
+1.05M context
+$0.417/M input
+tokens
+$1.251/M output
+tokens
+Morph: Reflex
+Reflex
+916M tokens
+Morph's decision model. Answers typed choice, noul and score questions about a state. The state is prefix-cached across requests, so repeat questions on the same state bill at the cached-input rate. 65k context window.
+by
+morph
+Nov 3, 2026
+$0.042/M input
+tokens
+$0/M output
+tokens
+Cohere: Embed 5 Fast
+Embed 5 Fast
+8.5M tokens
+Embed 5 Fast is the lower-latency, cost-efficient tier of Cohere's Embed 5 family of multimodal embedding models (about 1B parameters). It embeds text, images, and interleaved text and image content into a single vector space and is suited for high-volume query embedding, agent loops, and multilingual semantic search across 100+ languages. It shares its embedding space with Embed 5 Pro, so documents indexed with Pro can be queried with Fast. Output dimensions are selectable from 256 to 2048, and
+input_type
+defaults to
+search_document
+when not set.
+by
+cohere
+Nov 3, 2026
+$0.12/M tokens
+Cohere: Embed 5 Pro
+Embed 5 Pro
+46.2M tokens
+Embed 5 Pro is the higher-accuracy tier of Cohere's Embed 5 family of multimodal embedding models (about 2.4B parameters). It embeds text, images, and interleaved text and image content into a single vector space and is suited for retrieval and RAG over long or domain-specific documents, visual and document search, and multilingual semantic search across 100+ languages. It shares its embedding space with Embed 5 Fast, so a common pattern is to index a corpus with Pro and embed queries with Fast. Output dimensions are selectable from 256 to 2048, and
+input_type
+defaults to
+search_document
+when not set.
+by
+cohere
+Nov 3, 2026
+$0.12/M tokens
+Cohere: Rerank 5 Fast
+Rerank 5 Fast
+49.7M tokens
+Rerank 5 Fast is the low-latency tier of Cohere's Rerank 5 family of reranking models. It scores and reorders candidate documents against a query and is suited for high-throughput retrieval such as high-volume search, agent tool loops, and first-pass filtering before a more expensive step. Relevance scores are calibrated to a 0-1 range so a fixed threshold behaves consistently across queries. Rerank 5 Pro is the higher-accuracy sibling for complex queries and long or domain-specific documents.
+by
+cohere
+Nov 3, 2026
+$0.02/M tokens
+Cohere: Rerank 5 Pro
+Rerank 5 Pro
+54M tokens
+Rerank 5 Pro is the higher-accuracy tier of Cohere's Rerank 5 family of reranking models. It scores and reorders candidate documents against a query and is suited for retrieval pipelines where ranking quality matters most: complex or reasoning-heavy queries, long or domain-specific documents, and RAG systems that feed a small number of passages to a generator. Relevance scores are calibrated to a 0-1 range so a fixed threshold behaves consistently across queries. Rerank 5 Fast is the lower-latency sibling for high-volume search and agent loops.
+by
+cohere
+Nov 3, 2026
+$0.05/M tokens
+Cloudflare: Clairic
+Clairic
+151M tokens
+Clairic is Cloudflare's System One-style extraction model served on Workers AI. Given a text state and optional images plus a schema of typed fields, it extracts, computes, estimates, and forecasts strongly typed values (text spans, numbers, dates, times, durations, lists, estimates, forecasts) in a single pass, returning a confidence score and null probability for every field instead of generating tokens. Served through the Extractions API (/api/alpha/extractions); not available on /api/alpha/decisions.
+by
+cloudflare
+Nov 3, 2026
+$0.10/M input
+tokens
+$0/M output
+tokens
+Moondream: Parakeet Ultra
+Parakeet Ultra
+815K characters
+Parakeet Ultra is Moondream's post-trained version of NVIDIA's Parakeet TDT 0.6B v3 speech-to-text model, with the same architecture, tokenizer, and 0.6B parameters. It lowers word error rate on the Open ASR Leaderboard English sets (5.80% vs 6.26%) and the 25-language FLEURS set (9.55% vs 11.62%), with larger gains on noisy and long-form audio. Supports 25 European languages and returns transcribed text with segment and word timestamps.
+by
+moondream
+Nov 3, 2026
+$0.000017/second
+Crouton Alpha
+Crouton Alpha
+148B tokens
+Crouton Alpha is a lightweight model built for scalable coding, agentic, and multimodal workflows. It's ideal for executing agentic sub-tasks, tool use, and document analysis in high-volume, repeated work. Developers can combine it with frontier reasoning models to execute the bounded steps that turn plans and information into action. Crouton Alpha is a stealth model. It is developed and operated by a third-party provider who has chosen to remain anonymous during this preview. OpenRouter routes requests to it and is not its developer, owner, or provider. Prompts and completions may be retained by the provider but are not used for training; all other use is governed by the
+Stealth Model Terms
+.
+by
+stealth
+Nov 3, 2026
+1.05M context
+$0/M input
+tokens
+$0/M output
+tokens
 Z.ai: GLM 5.3 FlashX Legal
 GLM 5.3 FlashX Legal
-7.01B tokens
+11.1B tokens
 GLM-5.3-FlashX-Legal (GLM-Legal) is Z.ai's legal-domain variant of GLM-5.3-FlashX, a native multimodal model that accepts text, image, and video input and produces text. It adds legal-domain mid-training and post-training with reinforcement learning in task environments modeled on real legal workflows, targeting document understanding, legal reasoning, and multi-step task execution such as legal research, contract review, cross-document consistency checks, and drafting or revising legal documents. It keeps the GLM-5.3-FlashX 1M-token context window, mandatory thinking mode, function calling, structured output, and streaming, and is designed to run in agent setups connected to legal data and document-editing tools (MCP services).
 by
 z-ai
@@ -13,7 +110,7 @@ $1.25/M output
 tokens
 TBC: mischief 1
 mischief 1
-14 hours
+17 hours
 TBC mischief 1 is the world's first neuron-derived video model from The Biological Computing Co. It supports image to video and is a fast and affordable way to bring ideas to life. Ideal for ideation, previsualization, moodboarding and variant testing.
 by
 tbc
@@ -21,7 +118,7 @@ Oct 30, 2026
 from $0.005/second
 Baseten: Joey 1
 Joey 1
-3.46B tokens
+4.12B tokens
 Joey 1 is a 2B decision model from Base Labs, Baseten's research team, built on Qwen3.5-2B. Given a state (text or JSON) and typed questions (yes/no, multiple choice, or ordinal score), it returns a calibrated probability for every option in a single forward pass, with no text generation. It is TypeSafe System One compatible and suits high-volume routing, classification, and guardrail checks where latency and cost matter most. Its larger siblings are
 Elephant 1
 and
@@ -36,7 +133,7 @@ $0/M output
 tokens
 Sourceful: Riverflow V2.6 Pro
 Riverflow V2.6 Pro
-27.8M tokens
+35.3M tokens
 Riverflow 2.6 Pro is the flagship model of Sourceful's Riverflow 2.6 lineup, a unified text-to-image and image-to-image family that treats generation as a production workflow: an integrated reasoning model plans multi-step edits and judges candidates before accepting a result, combining that reasoning with a mix of closed and open image diffusion models for accuracy and steerability. Reasoning effort is controllable via the reasoning parameter (low/medium/high/xhigh); higher levels do more editing passes and apply a stricter internal judge. Riverflow 2.6 adds custom output dimensions: pass
 size
 as
@@ -48,7 +145,7 @@ Oct 29, 2026
 from $0.13/image
 NVIDIA: Nemotron 3.5 Transcribe
 Nemotron 3.5 Transcribe
-64.8M characters
+76.5M characters
 Nemotron 3.5 Transcribe is an open-weight speech recognition model from NVIDIA, a 30B mixture-of-experts with about 4B active parameters. It transcribes recordings of up to one hour in 40 languages, with speaker attribution, speech translation, and prompt-guided vocabulary and style.
 by
 nvidia
@@ -56,7 +153,7 @@ Oct 29, 2026
 $0.000033/second
 AssemblyAI: TTS 1
 TTS 1
-211K tokens
+227K tokens
 AssemblyAI TTS 1 is a text-to-speech model from AssemblyAI. It is suited for voice agents, narration, and multilingual applications, and draws on a public library of several thousand voices across languages. Voices are selected by slug or ID, and the spoken language follows the chosen voice or can be set explicitly through the
 language
 provider option.
@@ -66,9 +163,9 @@ Oct 28, 2026
 $15/M characters
 Particle AI: Particle-1
 Particle-1
-80.6B tokens
-Programming (#50)
-Trivia (#45)
+95.5B tokens
+Programming (#44)
+Trivia (#44)
 Particle-1 is a token-efficient agentic coding model from Particle AI, post-trained on DeepSeek V4.1 Flash. It is suited for software engineering work such as terminal workflows, codebase changes, and data engineering tasks, and is trained to complete them with substantially fewer reasoning and tool-call tokens while keeping accuracy close to its base model.
 by
 particle-ai
@@ -80,7 +177,8 @@ $0.50/M output
 tokens
 LiquidAI: d1.1
 d1.1
-13B tokens
+18.4B tokens
+Legal (#49)
 Trivia (#23)
 d1.1 is Liquid AI's structured decision model, served as a System One endpoint and the successor to d1. Send a state along with typed questions, and it returns a choice, a score, or a yes/no answer, each with a probability taken directly from the model rather than written out as text. It uses the same /v1/systemone schema as other OpenRouter Decisions models, so it suits routing, classification, and policy checks that need a fast, scored answer instead of prose.
 by
@@ -89,130 +187,6 @@ Oct 27, 2026
 $0.02/M input
 tokens
 $0/M output
-tokens
-LiquidAI: d1-ultra Latest
-d1-ultra Latest
-This model always redirects to the latest model in the d1-ultra family.
-by
-liquid
-Oct 27, 2026
-$0.042/M input
-tokens
-$0/M output
-tokens
-LiquidAI: d1 Latest
-d1 Latest
-This model always redirects to the latest model in the d1 family.
-by
-liquid
-Oct 27, 2026
-$0.02/M input
-tokens
-$0/M output
-tokens
-Amazon: Titan Multimodal Embeddings G1
-Titan Multimodal Embeddings G1
-1.59M tokens
-Amazon Titan Multimodal Embeddings G1 embeds text, images, or text and image together into a shared vector space for multimodal search and recommendation. Images are sent as base64 (up to 25 MB), text input is limited to 128 tokens, and vectors are 1,024 dimensions by default with 384 and 256 selectable via the
-dimensions
-parameter.
-by
-amazon
-Oct 26, 2026
-$0.06/K images
-Amazon: Titan Embeddings G1 - Text
-Titan Embeddings G1 - Text
-13.4M tokens
-Amazon Titan Embeddings G1 - Text is the first-generation Titan text embedding model. It accepts up to 8,192 tokens per input and returns fixed 1,536-dimension vectors; the
-dimensions
-parameter is not supported.
-by
-amazon
-Oct 26, 2026
-$0.10/M tokens
-Amazon: Titan Text Embeddings V2
-Titan Text Embeddings V2
-348M tokens
-Amazon Titan Text Embeddings V2 is a text embedding model for retrieval, search, and clustering. It accepts up to 8,192 tokens per input and returns normalized vectors of 1,024 dimensions by default, with 512 and 256 also selectable via the
-dimensions
-parameter.
-by
-amazon
-Oct 26, 2026
-$0.02/M tokens
-OpenAI: GPT-6.1 Terra Pro (batch)
-GPT-6.1 Terra Pro (batch)
-218M tokens
-GPT-6.1 Terra Pro is the same underlying model as
-GPT-6.1 Terra
-, served with
-reasoning.mode
-set to
-pro
-for higher-quality responses on complex tasks.
-Cost note:
-pro mode spends far more reasoning tokens per request, so a typical request costs several times more than the same request on GPT-6.1 Terra and takes much longer to complete. It is intended for hard, high-stakes problems where the extra accuracy justifies the cost. For everyday coding, agentic, and chat workloads, use
-GPT-6.1 Terra
-instead. Learn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode
-by
-openai
-Oct 26, 2026
-1.05M context
-$0.50/M input
-tokens
-$2.50/M output
-tokens
-OpenAI: GPT-6.1 Terra Pro
-GPT-6.1 Terra Pro
-33.3B tokens
-GPT-6.1 Terra Pro is the same underlying model as
-GPT-6.1 Terra
-, served with
-reasoning.mode
-set to
-pro
-for higher-quality responses on complex tasks.
-Cost note:
-pro mode spends far more reasoning tokens per request, so a typical request costs several times more than the same request on GPT-6.1 Terra and takes much longer to complete. It is intended for hard, high-stakes problems where the extra accuracy justifies the cost. For everyday coding, agentic, and chat workloads, use
-GPT-6.1 Terra
-instead. Learn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode
-by
-openai
-Oct 26, 2026
-1.05M context
-$1/M input
-tokens
-$5/M output
-tokens
-OpenAI: GPT-6.1 Terra (batch)
-GPT-6.1 Terra (batch)
-909M tokens
-GPT-6.1 Terra is the mid-tier model in OpenAI's GPT-6.1 series, priced below GPT-6.1 Sol. It is suited for everyday agentic, coding, and writing work, is particularly strong at understanding screenshots and on-screen content, and is efficient enough for high-volume workloads.
-by
-openai
-Oct 26, 2026
-1.05M context
-$0.50/M input
-tokens
-$2.50/M output
-tokens
-OpenAI: GPT-6.1 Terra
-GPT-6.1 Terra
-807B tokens
-Academia (#43)
-Finance (#35)
-Health (#28)
-Legal (#43)
-Marketing (#49)
-+5 categories
-GPT-6.1 Terra is the mid-tier model in OpenAI's GPT-6.1 series, priced below GPT-6.1 Sol. It is suited for everyday agentic, coding, and writing work, is particularly strong at understanding screenshots and on-screen content, and is efficient enough for high-volume workloads.
-by
-openai
-Oct 26, 2026
-1.05M context
-$1/M input
-tokens
-$5/M output
 tokens
 Compare
 Discover Models

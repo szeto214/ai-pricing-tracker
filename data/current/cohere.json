@@ -6,15 +6,17 @@
   "url": "https://cohere.com/pricing",
   "final_url": "https://cohere.com/pricing",
   "parser_version": 4,
-  "content_hash": "e1ceec6ec51d273b68229b6d71cf897e8173db956179361140d29a341f80e2fc",
-  "raw_hash": "186eca4ba28b8a4f466274a20204e3138fb74a4f730c21f0fc5e8dafab0ce159",
-  "text_bytes": 12338,
-  "currency_hints": [],
+  "content_hash": "0ef1fbc37aa0502c71b28d0c2299658eb045370d5bc15bcb55749788aaf5750a",
+  "raw_hash": "256e21ec4eec18ffdf30195039eb0080f96edc859c96e6a6abf9ab2689153dbe",
+  "text_bytes": 12586,
+  "currency_hints": [
+    "USD"
+  ],
   "extractor": "dom",
   "confidence": "low",
   "plans": [
     {
-      "name": "Embed 5 Fast",
+      "name": "L4 24GB*",
       "price_raw": "$3.00",
       "amount": 3.0,
       "currency": "USD",
@@ -22,7 +24,7 @@
       "features": [],
       "slot_prices": [
         3.0,
-        2000.0
+        1.0
       ]
     }
   ],

@@ -6,60 +6,13 @@
   "url": "https://api-docs.deepseek.com/quick_start/pricing",
   "final_url": "https://api-docs.deepseek.com/quick_start/pricing/",
   "parser_version": 4,
-  "content_hash": "259e3717de6ac35d439f0964d5c19eed78dd00a547df99f0120c611f5d16bb39",
-  "raw_hash": "579412351262de19f1b067420542d042dc9433f389be6d252d0f4c41b82f515b",
-  "text_bytes": 2986,
+  "content_hash": "314d413fbd0a1c47b95cdb31d11e975357df379d90d4e73842b4c13a587e7278",
+  "raw_hash": "50563fd0eefea6d5547241d3f0defb7b7d50d0f17481a453343958b636a1fe51",
+  "text_bytes": 2727,
   "currency_hints": [],
-  "extractor": "dom",
-  "confidence": "medium",
-  "plans": [
-    {
-      "name": "MODEL",
-      "price_raw": "$0.003",
-      "amount": 0.003,
-      "currency": "USD",
-      "period": null,
-      "features": [],
-      "slot_prices": [
-        0.003,
-        0.022
-      ]
-    },
-    {
-      "name": "1M INPUT TOKENS",
-      "price_raw": "$0.15",
-      "amount": 0.15,
-      "currency": "USD",
-      "period": null,
-      "features": [],
-      "slot_prices": [
-        0.15,
-        0.66
-      ]
-    },
-    {
-      "name": "Search",
-      "price_raw": "$0.75",
-      "amount": 0.75,
-      "currency": "USD",
-      "period": null,
-      "features": [],
-      "slot_prices": [
-        0.75
-      ]
-    },
-    {
-      "name": "Fetch",
-      "price_raw": "$0.75",
-      "amount": 0.75,
-      "currency": "USD",
-      "period": null,
-      "features": [],
-      "slot_prices": [
-        0.75
-      ]
-    }
-  ],
+  "extractor": "none",
+  "confidence": "low",
+  "plans": [],
   "models": [
     {
       "key": "search",

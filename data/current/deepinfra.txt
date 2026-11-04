@@ -571,7 +571,7 @@ $2.20
 View more
 NVIDIA-Nemotron-3-Super-120B-A12B
 256k
-$0.085
+$0.075
 $0.40
 View more
 Model
@@ -601,7 +601,7 @@ $2.20
 View more
 NVIDIA-Nemotron-3-Super-120B-A12B
 256k
-$0.085
+$0.075
 $0.40
 View more
 Claude
@@ -1044,21 +1044,21 @@ nvidia
 /
 Nemotron-3.5-Embed-1B-BF16
 Featured Models
-moonshotai
+nvidia
 /
-Kimi-K3
+NVIDIA-Nemotron-3-Super-120B-A12B
+black-forest-labs
+/
+FLUX-2-klein-9b
+Qwen
+/
+Qwen3.5-397B-A17B
 deepseek-ai
 /
-DeepSeek-V4-Flash
-moonshotai
+DeepSeek-V4.1-Flash-1017
+google
 /
-Kimi-K2.6
-XiaomiMiMo
-/
-MiMo-V2.6-Flash
-deepseek-ai
-/
-DeepSeek-V4.1-Flash
+gemma-4-26B-A4B-it
 © 2026 DeepInfra. All rights reserved.
 Privacy Policy
 Terms of Service

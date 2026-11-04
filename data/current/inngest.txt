@@ -1,6 +1,58 @@
 Watch our CodeTV episode on YouTube!
 Sign in
 Start free
+Durable Execution
+Run code reliably
+Queues & Flow Control
+Scale apps efficiently
+Observability
+Troubleshoot quickly
+Agent Evals
+Choose the best variant
+Sandboxes
+Open beta
+Run code in isolation
+Observability
+Logs and APM tools show when your pipeline breaks, but not why or for whom.
+AI Workflows & Agents
+Build AI agents with Inngest
+Webhooks & Events
+Inngest events from any source, reliably
+Background Jobs
+Learn about background jobs
+Crons & Scheduled Jobs
+Learn about scheduled and recurring jobs
+Instantly Durable AI Code.
+Use functions to checkpoint and offload without extra infrastructure.
+Company
+About
+Learn more about Inngest
+Blog
+Explore Inngest guides and docs.
+Event Schedule
+Stay updated on events & workshops
+Changelog
+See what’s new in Inngest
+Support
+Get help from the Inngest team
+Build
+Open Source
+Explore our open source projects
+Documentation
+Read the Inngest documentation
+Compare
+Inngest vs. Temporal
+See how Inngest compares
+Inngest vs. Traditional Queues
+See how Inngest compares
+AI in Production: The 2026 Benchmark Report
+How engineering teams are building, breaking, and scaling AI in production.
+inngest/inngest
+inngest/inngest-js
+inngest/inngest-py
+inngest/inngestgo
+inngest/inngest-kt
+inngest/agent-kit
 Pricing that scales with you
 Inngest is an open source SDK for orchestrating event-driven apps and agents. Start locally, and move to Cloud when you're ready for production. Zero infra required.
 Trusted by 100k+

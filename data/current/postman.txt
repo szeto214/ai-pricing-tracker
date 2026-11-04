@@ -57,8 +57,6 @@ Catalog
 Unlimited private and Partner workspaces
 Private API
 Network
-SDK
-auto-distribution
 Advanced RBAC & organization
 controls
 Governance, audit logs &
@@ -138,6 +136,7 @@ Cloud performance testing
 $0.04 / VuH
 $0.04 / VuH
 $0.04 / VuH
+Static IP egress for cloud performance testing
 Playwright integration
 Test result exports
 Automation Flows
@@ -294,6 +293,7 @@ Data file support in Collection Runner
 Datasets
 Unlimited local performance testing
 Cloud performance testing
+Static IP egress for cloud performance testing
 Playwright integration
 Test result exports
 Automation Flows
@@ -392,6 +392,7 @@ Datasets
 Unlimited local performance testing
 Cloud performance testing
 $0.04 / VuH
+Static IP egress for cloud performance testing
 Playwright integration
 Test result exports
 Automation Flows
@@ -490,6 +491,7 @@ Datasets
 Unlimited local performance testing
 Cloud performance testing
 $0.04 / VuH
+Static IP egress for cloud performance testing
 Playwright integration
 Test result exports
 Automation Flows
@@ -594,6 +596,7 @@ Datasets
 Unlimited local performance testing
 Cloud performance testing
 $0.04 / VuH
+Static IP egress for cloud performance testing
 Playwright integration
 Test result exports
 Automation Flows

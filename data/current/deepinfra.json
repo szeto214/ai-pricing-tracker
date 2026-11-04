@@ -6,9 +6,9 @@
   "url": "https://deepinfra.com/pricing",
   "final_url": "https://deepinfra.com/pricing",
   "parser_version": 4,
-  "content_hash": "955d7b54d28f87afe4e44a899ae06ee79af9f3dec0ae4bdfe1c10901571ec725",
-  "raw_hash": "ecbaf3bc91de79e5020bc3f911193a27be09c348aa359810462dbd34dc83c488",
-  "text_bytes": 15554,
+  "content_hash": "2be6cee18446abeb2cc199fe0ffa02946256594e668d6d6e5eb1d20d1c8e896a",
+  "raw_hash": "fad91c3d0c039fa25a0ea885cc843341d2e04e7ffdf0a0631127d87aba0fa7c7",
+  "text_bytes": 15586,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -875,8 +875,8 @@
       "model": "NVIDIA-Nemotron-3-Super-120B-A12B",
       "prices": {
         "$ per 1m input tokens": {
-          "raw": "$0.085",
-          "amount": 0.085
+          "raw": "$0.075",
+          "amount": 0.075
         },
         "$ per 1m output tokens": {
           "raw": "$0.40",
@@ -1797,7 +1797,7 @@
         [
           "NVIDIA-Nemotron-3-Super-120B-A12B",
           "256k",
-          "$0.085",
+          "$0.075",
           "$0.40",
           "View more"
         ]
@@ -1844,7 +1844,7 @@
         [
           "NVIDIA-Nemotron-3-Super-120B-A12B",
           "256k",
-          "$0.085",
+          "$0.075",
           "$0.40",
           "View more"
         ]

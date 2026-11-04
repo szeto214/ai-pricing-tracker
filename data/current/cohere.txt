@@ -138,52 +138,61 @@ Intelligent search
 Document parsing
 Managed index
 Model Vault
-Model
-Performance Tier
-Hourly rate per instance
-Monthly rate per instance
-Embed 5 Fast
-Small
-$3.00
-$2,000
-Embed 5 Fast
-Medium
-$5.00
-$3,250
-Embed 5 Pro
-Small
-$3.00
-$2,000
-Embed 5 Pro
-Medium
-$5.00
-$3,250
-Rerank 5 Fast
-Medium
-$4.00
-$2,500
-Rerank 5 Pro
-Medium
-$4.00
-$2,500
-Parse 5
-Medium
-$4.00
-$2,500
-Parse 5
-XL
-$7.00
-$4,300
-Model Vault is our dedicated, fully managed platform to run Cohere models securely, at scale, and with guaranteed performance.
-Pricing is determined per instance based on the selected model and its performance tier. Billing can be calculated hourly or through longer-term commitments (monthly or annual).
+Model Vault is our dedicated, fully managed platform to run Cohere’s latest models, alongside leading open-weight models securely, at scale, and with guaranteed performance.
+Pricing is based on the GPUs your model runs on and the number of replicas.
 Model Vault is easy to set up for North or model deployments through your Cohere dashboard, or contact sales to learn more.
 Fully managed model deployment
 No shared resources or multi-tenancy overhead
 Seamless integration with Cohere North
 Simple startup and self-serve model access
 Fixed or Flex pricing plans available
-Cohere Dashboard
+Model Vault
 Speak to sales
+Model Vault Pricing
+GPU Type
+Model Vault Encrypted
+(with Confidential Compute)
+On-Demand Hourly Price
+(/GPU)
+Promotional Hourly Price
+(through March 31 ‘27)
+L4 24GB*
+$3.00
+$1.00
+A100 40GB
+$3.25
+$2.25
+A100 80GB
+$3.50
+$2.25
+MI300X 192GB
+$6.00
+$4.00
+H100 80GB
+$6.25
+$4.25
+H200 141GB
+$7.25
+$5.50
+H100 80GB
+✓
+$9.00
+$4.25
+B200 192GB
+$9.75
+$8.00
+B200 192GB
+✓
+$12.00
+$8.00
+GB200 192GB
+$12.50
+$10.00
+Reserved capacity available.
+Please
+contact sales
+for details. Monthly and annual commit pricing available. Further promotional pricing available for monthly commits.
+All prices in USD. Pricing does not indicate GPU availability.
 Frequently asked questions
 How do I inquire about model customization and private deployment?
 Cohere supports bespoke model customization for our enterprise customers along with private deployment of all our products. Custom pricing is based on your enterprise needs. Learn more about customization

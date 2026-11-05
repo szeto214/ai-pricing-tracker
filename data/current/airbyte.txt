@@ -157,6 +157,9 @@ This model gives you predictable spend, guaranteed performance, and no charges b
 How is capacity-based pricing different from usage or volume-based?
 Usage or volume-based pricing bills you by rows, GBs, or events. Costs grow as data grows and we know that not all data is equally valuable.
 Airbyte uses capacity-based pricing, so you can control spend up-front, avoid surprise bills and can scale only when needed, so your data can grow without inflating your bill.
+Coming from per-row billing? See how the models compare in our guide to
+Fivetran alternatives and pricing
+.
 What is the Pro plan?
 Pro includes everything in Plus, with capacity-based pricing, premium support, and enhanced platform features like RBAC, row filtering, hashing & encryption, and support for multiple data regions. It’s built for production workloads that require reliability, control, and guaranteed performance.
 What is Enterprise Flex?

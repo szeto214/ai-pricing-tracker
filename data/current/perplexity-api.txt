@@ -203,14 +203,44 @@ select
 pplx-decider-v1.2
 and bill at $0.02.
 Billing unit:
-you pay for input tokens only. The
+you pay for input tokens, plus web searches and URL fetches if you set
+mode: "web_grounding"
+. The
 state
-, every question, and any images count as input; the response reports the exact number as
+, every question, any images, fetched page text, and any search results added to the
+state
+count as input; the response reports the exact number as
 usage.input_tokens
-, so you can compute the cost of a request from the response you already receive. A request with 600 input tokens costs $0.000012 on
+, so you can compute the token cost of a request from the response you already receive. A request with 600 input tokens costs $0.000012 on
 pplx-decider-v1.2
 and $0.000006 on
 pplx-decider-flash-v1.2
+.
+Web grounding
+A request with
+mode: "web_grounding"
+runs one
+Fast Search
+for each of its questions, up to 100, before the model answers. Each search costs $0.001 ($1 per 1,000), in addition to input tokens, so at most $0.10 in searches per request. Questions that produce the same search query share one search.
+When
+state
+is a page URL, the API also fetches the page before searching. Each successful URL fetch costs $0.001; a failed fetch is not billed. One successful fetch and three successful searches cost $0.004, plus input tokens.
+Billed:
+every search that returns, even with no results. Completed searches and successful URL fetches remain billable if the request later fails, for example because the input exceeds the token limit.
+Not billed:
+a search that fails or runs out of time, a question with no text to search, and requests rejected before search: an invalid
+mode
+, more than 100 questions, a missing or unknown
+model
+, or a
+state
+that is not a string, object, or array. A request can be billed for fewer searches than it has questions.
+Input tokens:
+fetched page text and search evidence are billed as input tokens and included in
+usage.input_tokens
+.
+See
+Web grounding
 .
 View Decisions API Documentation
 Learn how to ask structured questions and read the probabilities the Decisions API returns.

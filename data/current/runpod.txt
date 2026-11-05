@@ -3,7 +3,7 @@ Skip to main content
 Questions? Call, text, or connect on WhatsApp.
 GPU Pricing
 GPU Cloud Pricing
-Updated October 28, 2026
+Updated November 4, 2026
 Runpod pricing depends on the GPU workload you run: Pods for dedicated GPU instances, Serverless for API inference, and Clusters for multi-node jobs.
 ‍
 Get Started
@@ -649,6 +649,17 @@ bills inference workers based on usage, and
 Clusters
 support multi-node workloads and reserved capacity.
 Storage and deployment choices affect total cost, so teams should choose the model that matches workload duration, traffic pattern, and control needs.
+GPU prices per hour on Runpod
+How much does an H100 PCIe cost per hour on Runpod?
+Runpod rents the H100 PCIe at $2.89/hr on Secure Cloud, or from $1.99/hr on Community Cloud, billed per second with no commitment.
+How much does an H100 SXM cost per hour on Runpod?
+Runpod rents the H100 SXM at $3.99/hr on Secure Cloud, or from $2.69/hr on Community Cloud, billed per second with no commitment.
+How much does an A100 PCIe cost per hour on Runpod?
+Runpod rents the A100 PCIe at $1.79/hr on Secure Cloud, or from $1.19/hr on Community Cloud, billed per second with no commitment.
+How much does an A100 SXM cost per hour on Runpod?
+Runpod rents the A100 SXM at $1.79/hr on Secure Cloud, or from $1.39/hr on Community Cloud, billed per second with no commitment.
+How much does an H200 cost per hour on Runpod?
+Runpod rents the H200 at $5.29/hr on Secure Cloud, or from $3.59/hr on Community Cloud, billed per second with no commitment.
 Enterprise Contracts
 Need support for larger deployments or custom requirements? For reserved capacity and contract pricing, speak to our enterprise sales team.
 Talk to sales

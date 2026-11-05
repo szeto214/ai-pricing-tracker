@@ -1,20 +1,25 @@
-86.5% accuracy. ~$0.07 per session. See how Redis stacks up in the Agent Memory Benchmark.
-Read the report
+Introducing the next chapter of Redis Iris. Six new capabilities across retrieval, memory, routing, and messaging.
+Check it out
 Redis Iris
 Platform
 Platform
 Redis Iris
 Real-time context for agents
-Redis LangCache
-Save on tokens for common questions
-Redis Context Retriever
-Leverage context from anywhere
+Intent Router
+[New]
+Classify on intents
+Agent Playbooks
+Reuse answers & procedures
 Redis Agent Memory
 Agentic memory for consistent experiences
-Redis Data Integration
-CDC across your structured data
-Redis Flex
-More data, more speed, less cost
+Context Gateway
+Leverage context from anywhere
+Lens
+[New]
+See inside your agents
+Redis Agent Mesh
+[New]
+Keep agents communicating
 Caching
 Sub-ms read/write at scale
 Streaming
@@ -25,6 +30,10 @@ Search
 Search & query for structured data
 Feature store
 Real-time ML feature pipeline for apps & agents
+Redis Data Integration
+CDC across your structured data
+Redis Flex
+More data, more speed, less cost
 Get Redis
 Downloads
 Deploy
@@ -136,6 +145,8 @@ Pricing
 Find the right fit for your business and start building fast apps fast.
 Cloud
 On-prem
++
+Redis Iris
 Free
 Always
 $0

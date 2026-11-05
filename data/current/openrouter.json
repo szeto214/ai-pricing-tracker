@@ -6,22 +6,22 @@
   "url": "https://openrouter.ai/models",
   "final_url": "https://openrouter.ai/models",
   "parser_version": 4,
-  "content_hash": "3d0e1fc008cff62666ab78c44e2ceb27a5c18b75e9cd5d50973e11ef8136b7dc",
-  "raw_hash": "407e1ec44c5cb2373c42c2cc4b16ca263fe1edd4b697990c0577204627c2a7ef",
-  "text_bytes": 10763,
+  "content_hash": "a2c5eb08a3c52d4dec0fff23d1cca96694fe2683dd8fec8f8d94de7dcd65c91e",
+  "raw_hash": "62ab74f992c43e5b47301cdaa82ab594f4b4a03eeb7850255da815c0b8979a1e",
+  "text_bytes": 11072,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
     {
       "name": "Cohere: Embed 5 Fast",
-      "price_raw": "$0.12",
-      "amount": 0.12,
+      "price_raw": "$0.08",
+      "amount": 0.08,
       "currency": "USD",
       "period": null,
       "features": [],
       "slot_prices": [
-        0.12
+        0.08
       ]
     },
     {

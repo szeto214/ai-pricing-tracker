@@ -7,121 +7,38 @@
   "final_url": "https://www.inngest.com/pricing",
   "parser_version": 4,
   "content_hash": "6769e17113c89c02813ad2f3fb03c5c89f2a49e341c945ce7d915fe5bf834ee9",
-  "raw_hash": "311a31243e85578c320a018a3c5ff011369452ea2e5d4d2ba608147dd20ed43b",
+  "raw_hash": "5c693602cbf77ad083cee42ab555e9ba92d98c4892dedc83e8bafcf6796fbd22",
   "text_bytes": 13231,
   "currency_hints": [],
-  "extractor": "dom",
+  "extractor": "jsonld",
   "confidence": "medium",
   "plans": [
     {
-      "name": "Free",
-      "price_raw": "$ 0",
-      "amount": 0.0,
+      "name": "Business",
+      "price_raw": "499",
+      "amount": 499.0,
       "currency": "USD",
-      "period": "month",
-      "features": [],
-      "slot_prices": [
-        0.0
-      ]
-    },
-    {
-      "name": "Sandboxes & compute",
-      "price_raw": "$0.000011",
-      "amount": 1.1e-05,
-      "currency": "USD",
-      "period": "second",
-      "features": [],
-      "slot_prices": [
-        1.1e-05,
-        0.0396
-      ]
-    },
-    {
-      "name": "FREE",
-      "price_raw": "Free",
-      "amount": 0.0,
-      "currency": null,
       "period": null,
       "features": [],
       "slot_prices": []
     },
     {
-      "name": "Base price",
-      "price_raw": "$0",
+      "name": "Pro",
+      "price_raw": "99",
+      "amount": 99.0,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": []
+    },
+    {
+      "name": "Free",
+      "price_raw": "0",
       "amount": 0.0,
       "currency": "USD",
-      "period": "month",
-      "features": [],
-      "slot_prices": [
-        0.0,
-        99.0
-      ]
-    },
-    {
-      "name": "Executions",
-      "price_raw": "$50",
-      "amount": 50.0,
-      "currency": "USD",
-      "period": "month",
-      "features": [],
-      "slot_prices": [
-        50.0
-      ]
-    },
-    {
-      "name": "Concurrent steps",
-      "price_raw": "$25",
-      "amount": 25.0,
-      "currency": "USD",
       "period": null,
       "features": [],
-      "slot_prices": [
-        25.0
-      ]
-    },
-    {
-      "name": "Seats",
-      "price_raw": "$10",
-      "amount": 10.0,
-      "currency": "USD",
-      "period": "seat",
-      "features": [],
-      "slot_prices": [
-        10.0
-      ]
-    },
-    {
-      "name": "Events",
-      "price_raw": "$0.5",
-      "amount": 0.5,
-      "currency": "USD",
-      "period": "month",
-      "features": [],
-      "slot_prices": [
-        0.5
-      ]
-    },
-    {
-      "name": "Scores",
-      "price_raw": "$1.50",
-      "amount": 1.5,
-      "currency": "USD",
-      "period": null,
-      "features": [],
-      "slot_prices": [
-        1.5
-      ]
-    },
-    {
-      "name": "Advanced observability",
-      "price_raw": "$300",
-      "amount": 300.0,
-      "currency": "USD",
-      "period": null,
-      "features": [],
-      "slot_prices": [
-        300.0
-      ]
+      "slot_prices": []
     }
   ],
   "models": [],

@@ -1,5 +1,4 @@
 Airbyte Pricing
-Pricing plans that scale with you
 Start free for 14 days with 400 credits, about 100 GB of syncs. No credit card.
 Standard
 Best for your first few pipelines.
@@ -140,6 +139,10 @@ Enterprise support (add-on)
 6hr (critical) / 12hr (general)
 FAQs
 Didn't find your answer? Please don't hesitate to reach out.
+Is Airbyte free?
+The open-source version is. Airbyte Core is free to self-host. Airbyte Cloud is usage-based and starts with a 14-day free trial: 400 credits (about 100 GB of syncs), no credit card required.
+How does Airbyte Core compare with the paid plans?
+Airbyte Core is the free, self-hosted version. It is free to use and modify under the Elastic License 2.0, and you run and maintain it yourself. The paid plans add hosting, upgrades, and support. Pro and Enterprise Flex add capacity pricing, role-based access, and hybrid deployment.
 What are credits?
 Airbyte credits are used to pay for Airbyte resources when you run a sync. Credits are used to unify pricing across multiple types of sources. Credit metering differs across source types, and for more details on this, please consult our
 documentation

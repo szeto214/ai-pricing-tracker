@@ -26,15 +26,6 @@ Log In
 Simple Pricing, Deep Infrastructure
 We have different pricing models depending on the model used. Some of our langauge models offer per token pricing. Most other models are billed for inference execution time. With this pricing model, you only pay for what you use. There are no long-term contracts or upfront costs, and you can easily scale up and down as your business needs change.
 Contact Sales
-Token Pricing
-$0.2156
-/ 1M input tokens
-$0.0069
-/ 1M cached input tokens
-$0.6468
-/ 1M output tokens
-deepseek-ai/DeepSeek-V4-Flash-Vision-Exp
-51% off
 DeepSeek
 DeepSeek's models are a suite of advanced AI systems that prioritize efficiency, scalability, and real-world applicability.
 Model
@@ -42,6 +33,27 @@ Context
 $ per 1M input tokens
 $ per 1M output tokens
 Actions
+DeepSeek-V4.1-Flash-1017
+51% off
+1024k
+$0.20 / $0.006 cached
+$0.098 / $0.0029 cached
+$0.60
+$0.294
+View more
+DeepSeek-V4.1-Flash
+30% off
+1024k
+$0.20 / $0.006 cached
+$0.14 / $0.0042 cached
+$0.60
+$0.42
+View more
+DeepSeek-V4-Pro-0813
+1024k
+$1.30 / $0.10 cached
+$2.60
+View more
 DeepSeek-V4-Flash-0731
 1024k
 $0.06 / $0.015 cached
@@ -56,6 +68,14 @@ DeepSeek-V4-Flash
 1024k
 $0.09 / $0.018 cached
 $0.18
+View more
+DeepSeek-V4-Flash-Vision-Exp
+51% off
+1024k
+$0.44 / $0.014 cached
+$0.2156 / $0.0069 cached
+$1.32
+$0.6468
 View more
 DeepSeek-V3.2
 160k
@@ -82,6 +102,27 @@ Context
 $ per 1M input tokens
 $ per 1M output tokens
 Actions
+DeepSeek-V4.1-Flash-1017
+51% off
+1024k
+$0.20 / $0.006 cached
+$0.098 / $0.0029 cached
+$0.60
+$0.294
+View more
+DeepSeek-V4.1-Flash
+30% off
+1024k
+$0.20 / $0.006 cached
+$0.14 / $0.0042 cached
+$0.60
+$0.42
+View more
+DeepSeek-V4-Pro-0813
+1024k
+$1.30 / $0.10 cached
+$2.60
+View more
 DeepSeek-V4-Flash-0731
 1024k
 $0.06 / $0.015 cached
@@ -96,6 +137,14 @@ DeepSeek-V4-Flash
 1024k
 $0.09 / $0.018 cached
 $0.18
+View more
+DeepSeek-V4-Flash-Vision-Exp
+51% off
+1024k
+$0.44 / $0.014 cached
+$0.2156 / $0.0069 cached
+$1.32
+$0.6468
 View more
 DeepSeek-V3.2
 160k
@@ -148,6 +197,80 @@ Kimi-K2.6
 256k
 $0.75 / $0.15 cached
 $3.50
+View more
+GLM
+GLM model family by Z.ai
+Model
+Context
+$ per 1M input tokens
+$ per 1M output tokens
+Actions
+GLM-5.3
+38% off
+1024k
+$0.90 / $0.20 cached
+$0.5625 / $0.125 cached
+$4.00
+$2.50
+View more
+GLM-5.3-Flash
+1024k
+$0.15 / $0.03 cached
+$0.50
+View more
+GLM-5.2
+25% off
+1024k
+$0.75 / $0.14 cached
+$0.5625 / $0.105 cached
+$2.40
+$1.80
+View more
+GLM-4.7
+198k
+$0.40 / $0.08 cached
+$1.75
+View more
+GLM-4.6
+198k
+$0.50 / $0.10 cached
+$2.00
+View more
+Model
+Context
+$ per 1M input tokens
+$ per 1M output tokens
+Actions
+GLM-5.3
+38% off
+1024k
+$0.90 / $0.20 cached
+$0.5625 / $0.125 cached
+$4.00
+$2.50
+View more
+GLM-5.3-Flash
+1024k
+$0.15 / $0.03 cached
+$0.50
+View more
+GLM-5.2
+25% off
+1024k
+$0.75 / $0.14 cached
+$0.5625 / $0.105 cached
+$2.40
+$1.80
+View more
+GLM-4.7
+198k
+$0.40 / $0.08 cached
+$1.75
+View more
+GLM-4.6
+198k
+$0.50 / $0.10 cached
+$2.00
 View more
 Qwen
 Qwen series offers a comprehensive suite of dense and mixture-of-experts models.
@@ -1044,21 +1167,21 @@ Bria
 /
 fibo-2.0
 Featured Models
-deepseek-ai
+XiaomiMiMo
 /
-DeepSeek-V4-Flash
-deepseek-ai
-/
-DeepSeek-V4-Pro-0813
+MiMo-V2.6-Flash
 Qwen
 /
-Qwen3.5-397B-A17B
-nvidia
+Qwen3.6-35B-A3B
+Qwen
 /
-NVIDIA-Nemotron-3-Super-120B-A12B
-deepseek-ai
+Qwen3-TTS-VoiceDesign
+moonshotai
 /
-DeepSeek-V3.2
+Kimi-K2.6
+google
+/
+gemma-4-26B-A4B-it
 © 2026 DeepInfra. All rights reserved.
 Privacy Policy
 Terms of Service

@@ -6,9 +6,14 @@ Sandboxes
 Isolated environments for coding agents, RL rollouts, and untrusted code
 Training
 Fine-tune, run RL, and evaluate models on GPUs that spin up in seconds
-Platform
 Modal Infrastructure
 Infrastructure rebuilt for AI, from the container runtime and storage to a multi-cloud capacity pool
+Featured Model Endpoints
+Kimi K3.1 Pro
+DeepSeek v4.1 Flash 1017
+GLM 5.3
+Muse Spark Open
+See all models
 Tools
 GPU Glossary
 A fast guide to GPU concepts

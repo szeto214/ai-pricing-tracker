@@ -7,7 +7,7 @@
   "final_url": "https://runway.com/pricing",
   "parser_version": 4,
   "content_hash": "8d7e61d02295ee39a7f63317317444bc6c5feee19b457eddab8d5886846182a9",
-  "raw_hash": "c80de9b4474992743fc1f1d1d7ff6212aff00c7c853730a83f4085569d72c37c",
+  "raw_hash": "2ba6bf5242d1aaaebbc11049576176f70dc013ca839369a0930ed8ec3c1f30d0",
   "text_bytes": 5587,
   "currency_hints": [],
   "extractor": "jsonld",

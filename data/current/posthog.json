@@ -6,9 +6,9 @@
   "url": "https://posthog.com/pricing",
   "final_url": "https://posthog.com/pricing",
   "parser_version": 4,
-  "content_hash": "58175737e63409e90417130dfb070f037152bb8be5a67adf382a4f2264faed89",
-  "raw_hash": "cae804cb94acd572a470901c7a5e6265e544ce3b5a34bd2b4a148c64483cf37c",
-  "text_bytes": 13713,
+  "content_hash": "2c8596a181620206a7a1ab3b99cab10fec5199206f61185ff91b7d85bca8a6cc",
+  "raw_hash": "b84dbdfaeb058f96c3df0f5e3993faf601b37c78cd7e344a0a29ad6289d97e22",
+  "text_bytes": 13835,
   "currency_hints": [
     "USD"
   ],
@@ -38,7 +38,7 @@
       "features": [
         "Unlimited usage",
         "6 projects – up from 1",
-        "7-year data retention – up from 1 year",
+        "2-year data retention – up from 1 year",
         "Email support – or Slack over $2k/mo"
       ],
       "slot_prices": [

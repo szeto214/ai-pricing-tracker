@@ -54,7 +54,7 @@ Deutsch
 Italiano
 Português
 Русский
-46.5k
+46.6k
 Book a Demo
 Log In
 Get Started Free
@@ -351,40 +351,7 @@ Code reviews
 Live consultations
 Estimate Your Cost
 Use this calculator to understand how Zilliz Cloud charges.
-Dedicated
-Serverless
-Cloud Provider
-Please select
-Region
-Please select
-Pricing Plan
-Please select
-Cluster Type
-Please select
-Number of Entities
-An entity is a row of data. For example, an entity can represent an image or a doc chunk.
-1
-Million
-Vector Dimensions
-Vector dimension refers to the length of the vector and can vary depending on the embedding model you use.
-768
-Vector Data Type
-Please select
-Field
-mmap
-Enabling mmap (memory mapping) can optimize memory usage and the amount of data that can be stored in the same Query CU will be increased.
-Learn More
-Estimated total cost per month
-$
-Evaluate your cost with $200 free credits
-Prices are estimates and may differ from actual costs. We recommend running a Proof of Concept (PoC) using the free credits to validate costs and performance, or contacting us for a tailored cost-optimization plan and additional PoC resources.
-Query CU
-$
-GB
-Storage
-$
-Try Free
-Book a Demo
+Loading configuration...
 Frequently Asked Questions
 What is a Compute Unit (CU)?
 A compute unit (CU) is a group of hardware resources for serving your indexes and search requests. You can simply consider a CU as a fully-managed physical node for deploying search service.

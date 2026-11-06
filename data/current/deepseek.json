@@ -4,169 +4,39 @@
   "vendor": "DeepSeek",
   "category": "ai-api",
   "url": "https://api-docs.deepseek.com/quick_start/pricing",
-  "final_url": "https://api-docs.deepseek.com/quick_start/pricing/",
+  "final_url": "https://api-docs.deepseek.com/quick_start/pricing",
   "parser_version": 4,
-  "content_hash": "314d413fbd0a1c47b95cdb31d11e975357df379d90d4e73842b4c13a587e7278",
-  "raw_hash": "50563fd0eefea6d5547241d3f0defb7b7d50d0f17481a453343958b636a1fe51",
-  "text_bytes": 2727,
+  "content_hash": "2d52dcf13ecd2338b18874fbdeab415054cfb6f541e4bcf3c0d80d828b2a547f",
+  "raw_hash": "986e7e7b2409ecfb21a66b7a0d25214349d9bbf1bed9893748a398bfd12b8f17",
+  "text_bytes": 2251,
   "currency_hints": [],
   "extractor": "none",
   "confidence": "low",
   "plans": [],
-  "models": [
-    {
-      "key": "search",
-      "model": "Search",
-      "prices": {
-        "price": {
-          "raw": "$0.75",
-          "amount": 0.75
-        }
-      },
-      "currency": "USD",
-      "unit": ""
-    },
-    {
-      "key": "fetch",
-      "model": "Fetch",
-      "prices": {
-        "price": {
-          "raw": "$0.75",
-          "amount": 0.75
-        }
-      },
-      "currency": "USD",
-      "unit": ""
-    }
-  ],
+  "models": [],
   "tables": [
     {
       "caption": "",
       "rows": [
         [
-          "MODEL",
-          "deepseek-flash (1)",
-          "deepseek-v4-pro"
+          "PARAM",
+          "VALUE"
         ],
         [
-          "BASE URL (OpenAI Format)",
+          "base_url (OpenAI)",
           "https://api.deepseek.com"
         ],
         [
-          "BASE URL (Anthropic Format)",
+          "base_url (Anthropic)",
           "https://api.deepseek.com/anthropic"
         ],
         [
-          "MODEL VERSION",
-          "DeepSeek-V4.1-Flash-1017",
-          "DeepSeek-V4-Pro-0813"
+          "api_key",
+          "apply for an API key"
         ],
         [
-          "THINKING MODE",
-          "Supports both non-thinking and thinking (default) modes See Thinking Mode for how to switch"
-        ],
-        [
-          "CONTEXT LENGTH",
-          "1M"
-        ],
-        [
-          "MAX OUTPUT",
-          "MAXIMUM: 384K"
-        ],
-        [
-          "FEATURES",
-          "Json Output",
-          "✓",
-          "✓"
-        ],
-        [
-          "Tool Calls",
-          "✓",
-          "✓"
-        ],
-        [
-          "Responses API",
-          "✓",
-          "✓"
-        ],
-        [
-          "Anthropic API",
-          "✓",
-          "✓"
-        ],
-        [
-          "Chat Prefix Completion（Beta）",
-          "✓",
-          "✓"
-        ],
-        [
-          "FIM Completion（Beta）",
-          "Non-thinking mode only",
-          "Non-thinking mode only"
-        ],
-        [
-          "Vision",
-          "✓",
-          "Not supported"
-        ],
-        [
-          "PRICING (2)",
-          "1M INPUT TOKENS (CACHE HIT)",
-          "OFF-PEAK",
-          "$0.003",
-          "$0.022"
-        ],
-        [
-          "PEAK",
-          "$0.006",
-          "$0.044"
-        ],
-        [
-          "1M INPUT TOKENS (CACHE MISS)",
-          "OFF-PEAK",
-          "$0.15",
-          "$0.66"
-        ],
-        [
-          "PEAK",
-          "$0.3",
-          "$1.32"
-        ],
-        [
-          "1M OUTPUT TOKENS",
-          "OFF-PEAK",
-          "$0.6",
-          "$1.98"
-        ],
-        [
-          "PEAK",
-          "$1.2",
-          "$3.96"
-        ],
-        [
-          "Concurrency Limit (3)",
-          "2500",
-          "500"
-        ]
-      ]
-    },
-    {
-      "caption": "",
-      "rows": [
-        [
-          "API",
-          "Unit",
-          "Price"
-        ],
-        [
-          "Search",
-          "Per 1,000 successful requests",
-          "$0.75"
-        ],
-        [
-          "Fetch",
-          "Per 1,000 successful requests",
-          "$0.75"
+          "model",
+          "deepseek-flash (1) deepseek-v4-pro"
         ]
       ]
     }

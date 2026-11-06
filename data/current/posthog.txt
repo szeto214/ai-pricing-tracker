@@ -119,7 +119,7 @@ Unlimited usage
 6 projects
 –
 up from 1
-7-year data retention
+2-year data retention
 –
 up from 1 year
 Email support
@@ -220,7 +220,9 @@ estimating usage and costs
 Do I pay anything for stored data (events, exceptions, replays, logs, etc.)?
 Not for most products. You pay for what you capture, ingest, or sync in a given month, and storing it costs nothing extra. The exception is Logs custom retention: if you keep logs or traces longer than the 14-day default, each GB costs $0.05 for every month you keep it.
 How long does PostHog retain data (events, recordings, logs)?
-Events and metadata are guaranteed to be retained for 7 years on any paid plan and 1 year on a free plan. After 1 year, data may be moved into cold storage so queries may run more slowly.
+Events are retained for 1 year on free plans and 2 years on pay-as-you-go plans. Platform packages let you set a custom retention policy to keep events for longer: up to 3 years on Boost, 5 years on Scale, and 7 years on Enterprise. For more information on data retention, see the
+events data retention docs
+.
 Recordings on the free plan are retained for 1 month. On the pay-as-you-go plan, recordings are retained for 90 days. The Boost and Scale add-ons can increase this to up to one year. The Enterprise add-on can increase retention to 5 years.
 Logs are retained for 14 days by default. You can set custom retention per service or per source. Custom retention bills for the data you keep, not this month's usage: each GB costs $0.05 for every month you keep it, until it expires.
 Your Logs billing limit stops ingestion but doesn't cap custom retention, and custom retention can't have a limit of its own.

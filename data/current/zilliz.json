@@ -6,9 +6,9 @@
   "url": "https://zilliz.com/pricing",
   "final_url": "https://zilliz.com/pricing",
   "parser_version": 4,
-  "content_hash": "aea79562c393757c912bdbc44565b59ed5b511b410d04484e255bbef22c85ef5",
-  "raw_hash": "16cb5dc22a49cd2dc88250d17c2fd86f550abfe3704344b66970932bbd25fb1d",
-  "text_bytes": 11074,
+  "content_hash": "79113b6001eaabcc6d14a5fdb041b0cbaf9108d71853503e3c3fb4bc422a6856",
+  "raw_hash": "0128986d71698e2fd5547529b19150944846e1716a561833eda0d1982fb8bb07",
+  "text_bytes": 10170,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -104,20 +104,6 @@
       "period": null,
       "features": [],
       "slot_prices": []
-    },
-    {
-      "name": "Number of Entities",
-      "price_raw": "$200",
-      "amount": 200.0,
-      "currency": "USD",
-      "period": "month",
-      "features": [
-        "Query CU $",
-        "GB Storage $"
-      ],
-      "slot_prices": [
-        200.0
-      ]
     }
   ],
   "models": [],

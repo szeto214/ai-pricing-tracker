@@ -6,9 +6,9 @@
   "url": "https://openrouter.ai/models",
   "final_url": "https://openrouter.ai/models",
   "parser_version": 4,
-  "content_hash": "a2c5eb08a3c52d4dec0fff23d1cca96694fe2683dd8fec8f8d94de7dcd65c91e",
-  "raw_hash": "62ab74f992c43e5b47301cdaa82ab594f4b4a03eeb7850255da815c0b8979a1e",
-  "text_bytes": 11072,
+  "content_hash": "a4b72a0cddbb25762ae9f9ea3090a2c60fd8fade898a5aed8c40038de808f068",
+  "raw_hash": "73ec1628f25dc4b5bdd23063ef8faaaa726f64a6a09d9397f3449b9f003a849b",
+  "text_bytes": 11062,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -55,28 +55,6 @@
       "features": [],
       "slot_prices": [
         0.05
-      ]
-    },
-    {
-      "name": "TBC: mischief 1",
-      "price_raw": "$0.005",
-      "amount": 0.005,
-      "currency": "USD",
-      "period": "second",
-      "features": [],
-      "slot_prices": [
-        0.005
-      ]
-    },
-    {
-      "name": "NVIDIA: Nemotron 3.5 Transcribe",
-      "price_raw": "$0.000033",
-      "amount": 3.3e-05,
-      "currency": "USD",
-      "period": "second",
-      "features": [],
-      "slot_prices": [
-        3.3e-05
       ]
     }
   ],

@@ -663,7 +663,7 @@ Auto-rerun failed tests
 Yes
 Yes
 Yes
-Test analytics
+Dynamic parallelism
 Yes
 Yes
 Yes
@@ -804,8 +804,8 @@ Docker layer caching uses 200 credits per job run in a pipeline (equivalent to $
 How much does the IP ranges feature cost?
 The IP ranges feature costs 450 credits per GB of data used by jobs with the feature enabled.
 How is Smarter Testing charged?
-Test running, static test splitting, and manually rerunning failed tests are free on every plan.
-Intelligent test selection, dynamic test splitting, auto-rerun failed tests, and test analytics are billed by test atoms evaluated. A test atom is the smallest unit of work your test runner can execute on its own, usually a test file. Every pipeline run evaluates test atoms, including reruns.
+Test running, static test splitting, test analytics, and manually rerunning failed tests are free on every plan.
+Intelligent test selection, dynamic test splitting, auto-rerun failed tests, and dynamic parallelism are billed by test atoms evaluated. A test atom is the smallest unit of work your test runner can execute on its own, usually a test file. Every pipeline run evaluates test atoms, including reruns.
 Each plan includes a free monthly threshold: 1,000 test atoms on Free, 10,000 on Performance, and 100,000 on Scale. Beyond that, usage costs 3,000 credits per 100,000 test atoms.
 Get started with Smarter Testing
 >build faster today

@@ -6,9 +6,9 @@
   "url": "https://platform.openai.com/docs/pricing",
   "final_url": "https://developers.openai.com/api/docs/pricing",
   "parser_version": 4,
-  "content_hash": "c7373a3511ae3d2631cd8cee9d3ec9190c9adaf74855f603af032995f9b36b1b",
-  "raw_hash": "233b97a6c997c0e7578ae66aef8ad9bb658d8e0555173aab5abb80616abda817",
-  "text_bytes": 7405,
+  "content_hash": "9f4cae038bce8777bc6141611c46bf8d7f21ef4b04d63239ec3441ab8920019e",
+  "raw_hash": "effae8ab36594a967a7ffa4aa12120449f08775ab7d6f5fcd3d43d446c6ba6bf",
+  "text_bytes": 7301,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -74,6 +74,21 @@
       ]
     },
     {
+      "name": "gpt-6-cyber",
+      "price_raw": "$20.00",
+      "amount": 20.0,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        20.0,
+        100.0,
+        2.0,
+        25.0,
+        50.0
+      ]
+    },
+    {
       "name": "gpt-5.6-sol",
       "price_raw": "$4.00",
       "amount": 4.0,
@@ -86,21 +101,6 @@
         0.4,
         5.0,
         10.0
-      ]
-    },
-    {
-      "name": "gpt-5.6-cyber",
-      "price_raw": "$12.50",
-      "amount": 12.5,
-      "currency": "USD",
-      "period": null,
-      "features": [],
-      "slot_prices": [
-        12.5,
-        75.0,
-        1.25,
-        15.625,
-        31.25
       ]
     },
     {
@@ -359,6 +359,34 @@
       "unit": ""
     },
     {
+      "key": "gpt-6-cyber",
+      "model": "gpt-6-cyber",
+      "prices": {
+        "input": {
+          "raw": "$20.00",
+          "amount": 20.0
+        },
+        "output": {
+          "raw": "$100.00",
+          "amount": 100.0
+        },
+        "cached input": {
+          "raw": "$2.00",
+          "amount": 2.0
+        },
+        "30m write": {
+          "raw": "$25.00",
+          "amount": 25.0
+        },
+        "12h write": {
+          "raw": "$50.00",
+          "amount": 50.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
       "key": "gpt-5.6-sol",
       "model": "gpt-5.6-sol",
       "prices": {
@@ -381,34 +409,6 @@
         "12h write": {
           "raw": "$10.00",
           "amount": 10.0
-        }
-      },
-      "currency": "USD",
-      "unit": ""
-    },
-    {
-      "key": "gpt-5.6-cyber",
-      "model": "gpt-5.6-cyber",
-      "prices": {
-        "input": {
-          "raw": "$12.50",
-          "amount": 12.5
-        },
-        "output": {
-          "raw": "$75.00",
-          "amount": 75.0
-        },
-        "cached input": {
-          "raw": "$1.25",
-          "amount": 1.25
-        },
-        "30m write": {
-          "raw": "$15.625",
-          "amount": 15.625
-        },
-        "12h write": {
-          "raw": "$31.25",
-          "amount": 31.25
         }
       },
       "currency": "USD",
@@ -977,20 +977,20 @@
           "12h write"
         ],
         [
+          "gpt-6-cyber",
+          "$20.00",
+          "$100.00",
+          "$2.00",
+          "$25.00",
+          "$50.00"
+        ],
+        [
           "gpt-5.6-sol",
           "$4.00",
           "$20.00",
           "$0.40",
           "$5.00",
           "$10.00"
-        ],
-        [
-          "gpt-5.6-cyber",
-          "$12.50",
-          "$75.00",
-          "$1.25",
-          "$15.625",
-          "$31.25"
         ]
       ]
     },

@@ -515,14 +515,13 @@ Runtime Logs
 3 days of logs
 30 days with Observability Plus
 Tracing Spans
-Beta
 1M span units / month included
 $0.50 per 1M span units
 Custom
-Session Tracing
-1 hour of traces
-1 day of traces
+Trace Retention
 3 days of traces
+14 days of traces
+14 days of traces
 Drains Volume
 —
 $0.50 per 1 GB

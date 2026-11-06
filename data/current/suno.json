@@ -6,9 +6,9 @@
   "url": "https://suno.com/pricing",
   "final_url": "https://suno.com/pricing",
   "parser_version": 4,
-  "content_hash": "719b3c62702b0cdb9a36cd55c4c4fb14e1a8194943aea647d9c2d8216ad208e6",
-  "raw_hash": "ba33c2b3013bc777bd98b81222a2e902f4760718b211a35ed5a204d2feca9879",
-  "text_bytes": 3284,
+  "content_hash": "da3a5d1e5a5fdfab869856cd5c9282f3a6ca09d6580649951dc891d6d67998e3",
+  "raw_hash": "bfd340f6169297cb7e992f2a368c660b78950d4a2088934761686903543c77ef",
+  "text_bytes": 3446,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -36,8 +36,8 @@
     },
     {
       "name": "Pro",
-      "price_raw": "$8",
-      "amount": 8.0,
+      "price_raw": "$10",
+      "amount": 10.0,
       "currency": "USD",
       "period": "month",
       "features": [
@@ -54,13 +54,14 @@
         "Included Create custom models"
       ],
       "slot_prices": [
+        10.0,
         8.0
       ]
     },
     {
       "name": "Premier",
-      "price_raw": "$24",
-      "amount": 24.0,
+      "price_raw": "$30",
+      "amount": 30.0,
       "currency": "USD",
       "period": "month",
       "features": [
@@ -80,6 +81,7 @@
         "Included Create custom models"
       ],
       "slot_prices": [
+        30.0,
         24.0
       ]
     }

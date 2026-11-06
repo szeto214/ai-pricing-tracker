@@ -6,9 +6,9 @@
   "url": "https://circleci.com/pricing/",
   "final_url": "https://circleci.com/pricing/",
   "parser_version": 4,
-  "content_hash": "97f9732a3a49003c21eaabbc334eb8f591c5c34f28d2fa7f402c85c585c110d8",
-  "raw_hash": "b9854d271b6d617689dfcadb37d74f9626d385e6bcfd5ada42b803d60f52f547",
-  "text_bytes": 15427,
+  "content_hash": "200c62762db0f59f74d606c8b21534df17340107603f6141f34bc45429c938d5",
+  "raw_hash": "dd102d684e57137751c261dcd083677c17b7240458234d5df24f07becd3a0f05",
+  "text_bytes": 15453,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -634,7 +634,7 @@
           "Yes"
         ],
         [
-          "Test analytics",
+          "Dynamic parallelism",
           "Yes",
           "Yes",
           "Yes"

@@ -6,13 +6,30 @@
   "url": "https://www.qodo.ai/pricing/",
   "final_url": "https://www.qodo.ai/pricing/",
   "parser_version": 4,
-  "content_hash": "a64e503600ca86cdacf818bf2645ea85268267654d4b6f367c8273979fa5f930",
-  "raw_hash": "6dbfb64848389a169efd159787b88f9168a17c9ababb5782b202521217618ebb",
-  "text_bytes": 4504,
+  "content_hash": "5bd89cdcea0c0d44845f2dc5342b71146e10a715ed501714e7ccf2b0c23bfc24",
+  "raw_hash": "5b946ca3b9fad7ef59c8e578d183bf861e770bb48a398a884a939edcbc671bd0",
+  "text_bytes": 4505,
   "currency_hints": [],
-  "extractor": "none",
-  "confidence": "none",
-  "plans": [],
+  "extractor": "dom",
+  "confidence": "low",
+  "plans": [
+    {
+      "name": "Switch packs anytime",
+      "price_raw": "$0.015",
+      "amount": 0.015,
+      "currency": "USD",
+      "period": "credit",
+      "features": [
+        "$0.015/credit, pooled across the team",
+        "Switch packs anytime",
+        "No annual commitment on Pro Team plan",
+        "No rate limits"
+      ],
+      "slot_prices": [
+        0.015
+      ]
+    }
+  ],
   "models": [],
   "tables": [],
   "extract_errors": []

@@ -4,46 +4,46 @@
   "vendor": "Lambda",
   "category": "gpu-rental",
   "url": "https://lambda.ai/pricing",
-  "final_url": "https://lambda.ai/pricing",
+  "final_url": "https://lambda.com/pricing",
   "parser_version": 4,
-  "content_hash": "48548cf7332aedcd0c1beaa9c549271f189325172abc8cc3983b135e66d642ed",
-  "raw_hash": "4081351d0f786186cad685a75e8c89ef7c1f93b87d76aaf77be23bc6332f3c07",
-  "text_bytes": 1363,
+  "content_hash": "2db85f4c1d7903034d30862987b8bf34f25622fcc4916f943887cc7ea119e2d1",
+  "raw_hash": "791f908de9988e154c913580e148795e234ddf002455d6859bbcecc95bc81c15",
+  "text_bytes": 1461,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
     {
       "name": "NVIDIA HGX B200",
-      "price_raw": "$6.69",
-      "amount": 6.69,
+      "price_raw": "$7.69",
+      "amount": 7.69,
       "currency": "USD",
       "period": null,
       "features": [],
       "slot_prices": [
-        6.69
+        7.69
       ]
     },
     {
       "name": "NVIDIA HGX H100",
-      "price_raw": "$3.99",
-      "amount": 3.99,
+      "price_raw": "$4.59",
+      "amount": 4.59,
       "currency": "USD",
       "period": null,
       "features": [],
       "slot_prices": [
-        3.99
+        4.59
       ]
     },
     {
       "name": "NVIDIA HGX A100",
-      "price_raw": "$2.79",
-      "amount": 2.79,
+      "price_raw": "$3.19",
+      "amount": 3.19,
       "currency": "USD",
       "period": null,
       "features": [],
       "slot_prices": [
-        2.79
+        3.19
       ]
     },
     {
@@ -128,7 +128,7 @@
           "208",
           "2900 GiB",
           "22 TiB SSD",
-          "$6.69"
+          "$7.69"
         ],
         [
           "NVIDIA HGX H100",
@@ -136,7 +136,7 @@
           "208",
           "1800 GiB",
           "22 TiB SSD",
-          "$3.99"
+          "$4.59"
         ],
         [
           "NVIDIA HGX A100",
@@ -144,7 +144,7 @@
           "240",
           "1800 GiB",
           "19.5 TiB SSD",
-          "$2.79"
+          "$3.19"
         ],
         [
           "NVIDIA HGX A100",

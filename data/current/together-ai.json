@@ -6,9 +6,9 @@
   "url": "https://www.together.ai/pricing",
   "final_url": "https://www.together.ai/pricing",
   "parser_version": 4,
-  "content_hash": "8825c4d2139e821a3cf6838aa93056a5ad749f73dfdf50441cb715626156843d",
-  "raw_hash": "b47eaf4eaadd691a420ee50fc1d988cf8110e1419725e2b4df77766be38f83a7",
-  "text_bytes": 9284,
+  "content_hash": "78e0030e2cc69a47d3efe838861800bcb5341e2d57018aa3476f93a84d521e74",
+  "raw_hash": "45fa4019c9328094badd4a0a0953fb2209e6b5a808ca1ede4ad3b484dc4ea6ef",
+  "text_bytes": 8975,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -26,18 +26,6 @@
       ]
     },
     {
-      "name": "Qwen3.8-2.4T-A95B",
-      "price_raw": "$2.00",
-      "amount": 2.0,
-      "currency": "USD",
-      "period": null,
-      "features": [],
-      "slot_prices": [
-        2.0,
-        0.25
-      ]
-    },
-    {
       "name": "GLM-5.3-Flash",
       "price_raw": "$0.15",
       "amount": 0.15,
@@ -50,7 +38,7 @@
       ]
     },
     {
-      "name": "Muse Spark Open",
+      "name": "Muse Spark Open 816B A42B",
       "price_raw": "$1.25",
       "amount": 1.25,
       "currency": "USD",
@@ -62,7 +50,7 @@
       ]
     },
     {
-      "name": "Reflection Beam",
+      "name": "Beam 1.0 501B A23B",
       "price_raw": "$0.40",
       "amount": 0.4,
       "currency": "USD",
@@ -168,18 +156,6 @@
         0.35,
         0.04
       ]
-    },
-    {
-      "name": "Qwen3.5-397B-A17B",
-      "price_raw": "$0.60",
-      "amount": 0.6,
-      "currency": "USD",
-      "period": null,
-      "features": [],
-      "slot_prices": [
-        0.6,
-        0.35
-      ]
     }
   ],
   "models": [
@@ -212,8 +188,8 @@
       "model": "NVIDIA Nemotron 3.5 ASR",
       "prices": {
         "kolom 2": {
-          "raw": "$0.0045",
-          "amount": 0.0045
+          "raw": "$0.0015",
+          "amount": 0.0015
         }
       },
       "currency": "USD",
@@ -1130,11 +1106,6 @@
           "$15.00"
         ],
         [
-          "Qwen3.8-2.4T-A95B",
-          "$2.00 $0.25 (cached)",
-          "$6.00"
-        ],
-        [
           "GLM-5.3",
           "$1.40 $0.26 (cached)",
           "$4.40"
@@ -1145,7 +1116,7 @@
           "$0.50"
         ],
         [
-          "Muse Spark Open",
+          "Muse Spark Open 816B A42B",
           "$1.25 $0.15 (cached)",
           "$4.25"
         ],
@@ -1155,7 +1126,7 @@
           "Free"
         ],
         [
-          "Reflection Beam",
+          "Beam 1.0 501B A23B",
           "$0.40 $0.04 (cached)",
           "$1.20"
         ],
@@ -1195,11 +1166,6 @@
           "$0.00"
         ],
         [
-          "Inkling",
-          "$1.00 $0.17 (cached)",
-          "$4.05"
-        ],
-        [
           "DeepSeek V4 Pro 0813",
           "$1.32 $0.13 (cached)",
           "$3.96"
@@ -1221,8 +1187,8 @@
         ],
         [
           "Qwen3.7-Max",
-          "$1.50 $0.30 (cached)",
-          "$4.50"
+          "$2.50 $0.50 (cached)",
+          "$7.50"
         ],
         [
           "DeepSeek V4.1 Flash",
@@ -1240,19 +1206,9 @@
           "$0.60"
         ],
         [
-          "Qwen3.5-397B-A17B",
-          "$0.60 $0.35 (cached)",
-          "$3.60"
-        ],
-        [
           "Qwen3.5 9B",
           "$0.17",
           "$0.25"
-        ],
-        [
-          "Cogito v2.1 671B",
-          "$1.25",
-          "$1.25"
         ],
         [
           "Rnj-1 Instruct",
@@ -1268,16 +1224,6 @@
           "Qwen2.5 7B Instruct Turbo",
           "$0.30",
           "$0.30"
-        ],
-        [
-          "Llama 3 8B Instruct Lite",
-          "$0.14",
-          "$0.14"
-        ],
-        [
-          "Qwen3 235B A22B Instruct 2507 FP8 Throughput",
-          "$0.20",
-          "$0.60"
         ]
       ]
     },
@@ -1290,17 +1236,12 @@
           "$15.00"
         ],
         [
-          "Qwen3.8-2.4T-A95B",
-          "$2.00 $0.25 (cached)",
-          "$6.00"
-        ],
-        [
           "GLM-5.3-Flash",
           "$0.15 $0.03 (cached)",
           "$0.50"
         ],
         [
-          "Muse Spark Open",
+          "Muse Spark Open 816B A42B",
           "$1.25 $0.15 (cached)",
           "$4.25"
         ],
@@ -1333,11 +1274,6 @@
           "Ternary Bonsai 27B",
           "$0.00",
           "$0.00"
-        ],
-        [
-          "Inkling",
-          "$1.00 $0.17 (cached)",
-          "$4.05"
         ],
         [
           "Qwen3.8 Flash",
@@ -1524,12 +1460,8 @@
       "caption": "",
       "rows": [
         [
-          "Muse Spark Open",
+          "Muse Spark Open 816B A42B",
           "$1.25"
-        ],
-        [
-          "Inkling",
-          "$1.00"
         ],
         [
           "NVIDIA Parakeet TDT 0.6B V3 Realtime",
@@ -1631,7 +1563,7 @@
         ],
         [
           "NVIDIA Nemotron 3.5 ASR",
-          "$0.0045"
+          "$0.0015"
         ],
         [
           "Whisper Large v3",

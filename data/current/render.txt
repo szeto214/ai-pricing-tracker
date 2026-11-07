@@ -1,17 +1,6 @@
 Introducing Render Sandboxes: a computer for every agent.
 Learn more
 Predictable pricing that scales with you.
-Jump to
-workspace plans
-,
-compute pricing
-, and
-FAQs
-.
-Are you a VC-funded startup? Get up to $100K in credits with
-Render for Startups ↗
-Looking to migrate? We can help and you can get up to $10K in credits.
-Sign up now ↗
 Workspace Plans
 Hobby
 Pro
@@ -70,6 +59,10 @@ Contractual uptime SLAs
 Dedicated technical account team
 Support Slack channel
 Support response SLAs
+Are you a VC-funded startup? Get up to $100K in credits with
+Render for Startups ↗
+Looking to migrate? We can help and you can get up to $10K in credits.
+Sign up now ↗
 Hobby
 For individuals building personal projects and prototypes.
 $
@@ -583,7 +576,7 @@ Up to 5,000 on request
 Up to 10,000 on request
 Custom
 Maximum session length
-24 hours
+No limit
 No limit
 No limit
 No limit
@@ -824,7 +817,7 @@ Sandboxes
 Default concurrent sandboxes
 100
 Maximum session length
-24 hours
+No limit
 Snapshot storage
 $0.08 per GB per month
 Service scaling

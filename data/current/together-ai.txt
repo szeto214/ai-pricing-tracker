@@ -36,11 +36,6 @@ $3.00
 $0.30
 (cached)
 $15.00
-Qwen3.8-2.4T-A95B
-$2.00
-$0.25
-(cached)
-$6.00
 GLM-5.3
 $1.40
 $0.26
@@ -51,7 +46,7 @@ $0.15
 $0.03
 (cached)
 $0.50
-Muse Spark Open
+Muse Spark Open 816B A42B
 $1.25
 $0.15
 (cached)
@@ -59,7 +54,7 @@ $4.25
 Tev1 4B Experimental
 $0.04
 Free
-Reflection Beam
+Beam 1.0 501B A23B
 $0.40
 $0.04
 (cached)
@@ -95,11 +90,6 @@ $4.40
 Ternary Bonsai 27B
 $0.00
 $0.00
-Inkling
-$1.00
-$0.17
-(cached)
-$4.05
 DeepSeek V4 Pro 0813
 $1.32
 $0.13
@@ -119,10 +109,10 @@ $0.02
 (cached)
 $0.60
 Qwen3.7-Max
-$1.50
-$0.30
+$2.50
+$0.50
 (cached)
-$4.50
+$7.50
 DeepSeek V4.1 Flash
 $0.30
 $0.006
@@ -136,17 +126,9 @@ $1.50
 gpt-oss-120B
 $0.15
 $0.60
-Qwen3.5-397B-A17B
-$0.60
-$0.35
-(cached)
-$3.60
 Qwen3.5 9B
 $0.17
 $0.25
-Cogito v2.1 671B
-$1.25
-$1.25
 Rnj-1 Instruct
 $0.15
 $0.15
@@ -156,12 +138,6 @@ $3.00
 Qwen2.5 7B Instruct Turbo
 $0.30
 $0.30
-Llama 3 8B Instruct Lite
-$0.14
-$0.14
-Qwen3 235B A22B Instruct 2507 FP8 Throughput
-$0.20
-$0.60
 Displayed prices refer to the lowest resolution/duration settings. Actual prices might vary.
 Price per 1M tokens
 Model
@@ -172,17 +148,12 @@ $3.00
 $0.30
 (cached)
 $15.00
-Qwen3.8-2.4T-A95B
-$2.00
-$0.25
-(cached)
-$6.00
 GLM-5.3-Flash
 $0.15
 $0.03
 (cached)
 $0.50
-Muse Spark Open
+Muse Spark Open 816B A42B
 $1.25
 $0.15
 (cached)
@@ -213,11 +184,6 @@ $1.28
 Ternary Bonsai 27B
 $0.00
 $0.00
-Inkling
-$1.00
-$0.17
-(cached)
-$4.05
 Qwen3.8 Flash
 $0.15
 $0.47
@@ -348,10 +314,8 @@ See full pricing details →
 Price per 1M Characters
 Model
 Price
-Muse Spark Open
+Muse Spark Open 816B A42B
 $1.25
-Inkling
-$1.00
 NVIDIA Parakeet TDT 0.6B V3 Realtime
 $0.0035
 Cartesia Sonic-3
@@ -404,7 +368,7 @@ $0.0015
 NVIDIA Parakeet TDT 0.6B v3
 $0.0015
 NVIDIA Nemotron 3.5 ASR
-$0.0045
+$0.0015
 Whisper Large v3
 $0.0015
 Whisper Large v3 (Streaming)

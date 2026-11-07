@@ -6,11 +6,9 @@ Deno Deploy pricing
 Transparent pricing
 that scales with your needs
 Whether you're shipping a hobby project or an international SaaS platform, Deno Deploy has a plan to fit your needs.
-Pricing shown covers all Deno Deploy products and usage, including
-Deno Sandbox
-and
+Pricing shown covers Deno Deploy and
 Deno Subhosting
-.
+usage.
 — Compare Deno Deploy plans —
 Features
 Free
@@ -101,27 +99,6 @@ Builds per hour
 15
 60
 250
-Custom
-Sandboxes
-Sandboxes
-Run untrusted or generated code in isolated microVMs. Sandbox compute bills through the same CPU, memory, and egress meters at your plan's rates; only availability, concurrency, and volume storage differ per plan.
-Not included
-Included
-Included
-Included
-Concurrent sandboxes
-Number of sandboxes that can run at the same time within your organization, per region.
-Not included
-3
-20
-Custom
-Volume storage
-Persistent block-storage volumes attachable to sandboxes.
-Not included
-5 GiB
-(then $0.20/GiB-mo)
-50 GiB
-(then $0.20/GiB-mo)
 Custom
 KV
 KV storage
@@ -234,16 +211,6 @@ Number of builds that can run at the same time within your organization
 1
 Builds per hour:
 15
-Sandboxes
-Sandboxes:
-Run untrusted or generated code in isolated microVMs. Sandbox compute bills through the same CPU, memory, and egress meters at your plan's rates; only availability, concurrency, and volume storage differ per plan.
-No
-Concurrent sandboxes:
-Number of sandboxes that can run at the same time within your organization, per region.
-No
-Volume storage:
-Persistent block-storage volumes attachable to sandboxes.
-No
 KV
 KV storage:
 1 GiB
@@ -319,17 +286,6 @@ Number of builds that can run at the same time within your organization
 3
 Builds per hour:
 60
-Sandboxes
-Sandboxes:
-Run untrusted or generated code in isolated microVMs. Sandbox compute bills through the same CPU, memory, and egress meters at your plan's rates; only availability, concurrency, and volume storage differ per plan.
-Yes
-Concurrent sandboxes:
-Number of sandboxes that can run at the same time within your organization, per region.
-3
-Volume storage:
-Persistent block-storage volumes attachable to sandboxes.
-5 GiB
-(then $0.20/GiB-mo)
 KV
 KV storage:
 5 GiB
@@ -408,17 +364,6 @@ Number of builds that can run at the same time within your organization
 20
 Builds per hour:
 250
-Sandboxes
-Sandboxes:
-Run untrusted or generated code in isolated microVMs. Sandbox compute bills through the same CPU, memory, and egress meters at your plan's rates; only availability, concurrency, and volume storage differ per plan.
-Yes
-Concurrent sandboxes:
-Number of sandboxes that can run at the same time within your organization, per region.
-20
-Volume storage:
-Persistent block-storage volumes attachable to sandboxes.
-50 GiB
-(then $0.20/GiB-mo)
 KV
 KV storage:
 10 GiB
@@ -492,16 +437,6 @@ Number of builds that can run at the same time within your organization
 Custom
 Builds per hour:
 Custom
-Sandboxes
-Sandboxes:
-Run untrusted or generated code in isolated microVMs. Sandbox compute bills through the same CPU, memory, and egress meters at your plan's rates; only availability, concurrency, and volume storage differ per plan.
-Yes
-Concurrent sandboxes:
-Number of sandboxes that can run at the same time within your organization, per region.
-Custom
-Volume storage:
-Persistent block-storage volumes attachable to sandboxes.
-Custom
 KV
 KV storage:
 Custom
@@ -539,8 +474,5 @@ Yes
 Reliability SLA:
 99.95%
 Contact us
-*Additional pricing applies for Deno Sandboxes. See the
-Deno Sandbox page
-for details.
 Learn more about Deno Deploy
 Deno Deploy docs

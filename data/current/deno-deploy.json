@@ -6,9 +6,9 @@
   "url": "https://deno.com/deploy/pricing",
   "final_url": "https://deno.com/deploy/pricing",
   "parser_version": 4,
-  "content_hash": "f9ae6b39557c9a8651311854adb5a89bb09d10f384aa7b05c62fcd4c9bd45eba",
-  "raw_hash": "6561e6cf94d350d665493e17bfa6113c4e9469dc9fc6005a0d791f7269563e46",
-  "text_bytes": 15759,
+  "content_hash": "44a350f5cefb540699784c11299054026d3a5ab6ce7e807f0c1d731de5e6eb8c",
+  "raw_hash": "d6c47eb7290ecf4149a8eb218f8e078c3aeb3e9aa83613416b3dae5695425347",
+  "text_bytes": 13307,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -102,17 +102,6 @@
       ]
     },
     {
-      "name": "Volume storage",
-      "price_raw": "$0.20",
-      "amount": 0.2,
-      "currency": "USD",
-      "period": "GB",
-      "features": [],
-      "slot_prices": [
-        0.2
-      ]
-    },
-    {
       "name": "KV storage",
       "price_raw": "$0.75",
       "amount": 0.75,
@@ -143,20 +132,6 @@
       "features": [],
       "slot_prices": [
         2.5
-      ]
-    },
-    {
-      "name": "Sandboxes",
-      "price_raw": "$0.20",
-      "amount": 0.2,
-      "currency": "USD",
-      "period": "GB",
-      "features": [
-        "Concurrent sandboxes: Number of sandboxes that can run at the same time within your organization, per region. 3",
-        "Volume storage: Persistent block-storage volumes attachable to sandboxes. 5 GiB (then $0.20/GiB-mo)"
-      ],
-      "slot_prices": [
-        0.2
       ]
     },
     {
@@ -258,30 +233,6 @@
           "15",
           "60",
           "250",
-          "Custom"
-        ],
-        [
-          "Sandboxes"
-        ],
-        [
-          "Sandboxes Run untrusted or generated code in isolated microVMs. Sandbox compute bills through the same CPU, memory, and egress meters at your plan's rates; only",
-          "Not included",
-          "Included",
-          "Included",
-          "Included"
-        ],
-        [
-          "Concurrent sandboxes Number of sandboxes that can run at the same time within your organization, per region.",
-          "Not included",
-          "3",
-          "20",
-          "Custom"
-        ],
-        [
-          "Volume storage Persistent block-storage volumes attachable to sandboxes.",
-          "Not included",
-          "5 GiB (then $0.20/GiB-mo)",
-          "50 GiB (then $0.20/GiB-mo)",
           "Custom"
         ],
         [

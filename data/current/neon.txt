@@ -1,3 +1,4 @@
+Skip to main content
 Lakebase Postgres is built on object storage, but 99.99999% of reads are served from high-performance local caches
 Neon
 Discord
@@ -21,6 +22,7 @@ Backend
 Managed Better Auth
 5 GB of Object Storage
 Functions
+AI Gateway
 Realtime (Beta)
 Launch
 Usage-based
@@ -162,6 +164,8 @@ Compute
 400 waiting capacity-hours per project
 Invocations
 1M invocations per project
+List prices here
+Prepaid credits, card required
 Free during beta
 5 GB per project included
 1 day
@@ -243,7 +247,7 @@ Available
 Unlimited
 Multiple options
 Last updated on
-October 31, 2026
+November 4, 2026
 Included in every Neon project, on every plan, by default.
 Lakebase Postgres and the backend around it, with high availability and compliance built in.
 High availability.
@@ -308,7 +312,7 @@ Functions
 AI Gateway
 , and
 Realtime
-(in beta). Together they form a backend that runs next to your database: Auth, Object Storage, Functions, and AI Gateway branch with it. AI Gateway is available on Launch and Scale; everything else is on every plan, including Free.
+(in beta). Together they form a backend that runs next to your database: Auth, Object Storage, Functions, and AI Gateway branch with it. Every service is available on every plan, including Free. On Free, AI Gateway needs a card and prepaid credits, and your plan stays Free.
 What is a Neon project?
 A
 project
@@ -368,7 +372,7 @@ Compute is suspended only if a project uses up its monthly 100 CU-hours or 5 GB 
 reach out to us
 about credits. We're happy to support developers and startups.
 Do the backend services use my Free plan CU-hours?
-CU-hours measure Postgres database compute only. Object Storage and Functions have their own Free plan allowances, Managed Better Auth has its own MAU limit, and AI Gateway is available on paid plans. The Data API and Realtime run queries against your database, so the database compute they use counts toward your CU-hours like any other query.
+CU-hours measure Postgres database compute only. Object Storage and Functions have their own Free plan allowances, Managed Better Auth has its own MAU limit, and AI Gateway draws down prepaid credits you buy. The Data API and Realtime run queries against your database, so the database compute they use counts toward your CU-hours like any other query.
 How are the workload cost estimates calculated?
 The typical monthly cost estimates shown in our pricing plans are based on representative database workloads that reflect common usage patterns across different application types. These estimates cover Postgres compute and storage only. They don't factor in Object Storage, Functions, or AI Gateway usage, which are billed separately.
 Each estimate combines two components:
@@ -419,11 +423,16 @@ is $0.023 per GB-month of stored volume. There's no per-operation charge. Egress
 Functions
 are billed for active compute, waiting compute, and invocations at the rates in the plan table. The Free plan includes 10 active capacity-hours, 400 waiting capacity-hours, and 1 million invocations per project per month.
 AI Gateway
-is available on Launch and Scale. Pricing matches the model provider's list prices, with no markup, and draws down prepaid credits.
+is available on every plan, including Free. Pricing matches the model provider's list prices, with no markup, and draws down prepaid credits. On Free, add a card to buy credits. You don't need to upgrade.
 Learn how prepaid credits work
 , or see
 per-model rates
 .
+Can I use AI Gateway on the Free plan?
+Yes. Add a card on the
+Billing
+page in the Neon Console and buy prepaid AI Gateway credits ($5 minimum). Your organization stays on the Free plan, and the rest of your Free plan doesn't change. AI Gateway turns on after your first purchase, once a short account check finishes. Requests draw down your credits at the model provider's list prices, with no markup.
+Learn how prepaid credits work.
 How much network transfer (egress) is included?
 Public network transfer is counted per project, not per account:
 Free plan: 5 GB per project per month, across up to 100 projects

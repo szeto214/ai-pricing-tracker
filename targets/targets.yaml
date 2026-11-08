@@ -153,6 +153,15 @@ targets:
     vendor: Google
     category: ai-api
     url: https://ai.google.dev/pricing
+    render: js
+    notes: >-
+      03/11/2026: ai.google.dev/pricing kini dialihkan ke
+      aistudio.google.com/docs/pricing dan mengirim cangkang Angular kosong
+      (194 byte, hanya <app-root>). URL target sengaja TIDAK diubah: biarkan
+      pengalihannya tercatat apa adanya di final_url, dan slug tetap sama
+      supaya riwayat arsipnya tidak putus. Dicoba render JS lewat pengambilan
+      harian biasa. Kalau sampai 10/11 tetap kosong, perlakukan seperti
+      loom/newrelic.
 
   - slug: mistral
     name: Mistral AI
@@ -386,6 +395,15 @@ targets:
     vendor: Baseten
     category: ai-api
     url: https://www.baseten.co/pricing/
+    render: js
+    notes: >-
+      03/11/2026: halaman berubah jadi cangkang SPA kosong (311 byte, hanya
+      <title>, body kosong, kelas "route-home"). Sebelumnya 234 KB berisi 20
+      paket dan 19 baris model. Tarifnya tidak hilang — halamannya yang kini
+      dirender di sisi klien. Dicoba render JS lewat pengambilan harian biasa,
+      tanpa permintaan tambahan ke vendor; cara yang sama sudah berhasil untuk
+      jira, confluence, vercel, render, dan 15 target lain. Kalau sampai
+      10/11 tetap kosong, perlakukan seperti loom/newrelic.
 
   - slug: langchain
     name: LangChain / LangSmith
@@ -554,7 +572,7 @@ targets:
   # ----- infrastruktur & PaaS -----
   - {slug: vultr,        name: Vultr,             vendor: Vultr,        category: dev-infra, url: "https://www.vultr.com/pricing/", enabled: false, notes: "validasi #3: HTTP 403 — bot diblokir"}
   - {slug: linode,       name: Linode,            vendor: Akamai,       category: dev-infra, url: "https://www.linode.com/pricing/", enabled: false, notes: "validasi #3: HTTP 403 — bot diblokir"}
-  - {slug: scaleway,     name: Scaleway,          vendor: Scaleway,     category: dev-infra, url: "https://www.scaleway.com/en/pricing/", render: js}
+  - {slug: scaleway,     name: Scaleway,          vendor: Scaleway,     category: dev-infra, url: "https://www.scaleway.com/en/pricing/", render: js, enabled: false, notes: "08/11/2026: NOL baris harga dalam 71 hari — tidak sekali pun, padahal render js dipakai sejak awal. Halaman itu konfigurator, bukan daftar harga. Mengambil halaman vendor tiap hari tanpa hasil melanggar semangat §9 etika no. 2 (sama seperti newrelic 14/10). Dinonaktifkan; slug DIPERTAHANKAN supaya riwayatnya tidak putus — aktifkan lagi kalau ditemukan URL daftar harga yang sebenarnya."}
   - {slug: northflank,   name: Northflank,        vendor: Northflank,   category: dev-infra, url: "https://northflank.com/pricing"}
   - {slug: porter,       name: Porter,            vendor: Porter,       category: dev-infra, url: "https://www.porter.run/pricing"}
   - {slug: deno-deploy,  name: Deno Deploy,       vendor: Deno,         category: dev-infra, url: "https://deno.com/deploy/pricing"}

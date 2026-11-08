@@ -6,14 +6,1012 @@
   "url": "https://www.baseten.co/pricing/",
   "final_url": "https://www.baseten.co/pricing",
   "parser_version": 4,
-  "content_hash": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
-  "raw_hash": "f9a6cdec7b117d81ed1bcc72267655e2251941feaeb0ca70278ab4f5eaf63852",
-  "text_bytes": 1,
+  "content_hash": "3e568556ab76e2b7cd58f982c4fa88511627821077503d9e3f21f46e7c75703e",
+  "raw_hash": "afe00719956b3ad31fee6f3e28b54b0ea4d20d76c1efe84950829d5e14ac63a2",
+  "text_bytes": 3831,
   "currency_hints": [],
-  "extractor": "none",
-  "confidence": "none",
-  "plans": [],
-  "models": [],
-  "tables": [],
+  "extractor": "dom",
+  "confidence": "low",
+  "plans": [
+    {
+      "name": "Compute Rate",
+      "price_raw": "$0.0655",
+      "amount": 0.0655,
+      "currency": "USD",
+      "period": "hour",
+      "features": [],
+      "slot_prices": [
+        0.0655
+      ]
+    }
+  ],
+  "models": [
+    {
+      "key": "mammoth-1",
+      "model": "mammoth-1",
+      "prices": {
+        "input": {
+          "raw": "$0.10",
+          "amount": 0.1
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "elephant-1",
+      "model": "elephant-1",
+      "prices": {
+        "input": {
+          "raw": "$0.035",
+          "amount": 0.035
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "joey-1",
+      "model": "joey-1",
+      "prices": {
+        "input": {
+          "raw": "$0.01",
+          "amount": 0.01
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "beam",
+      "model": "Beam",
+      "prices": {
+        "input": {
+          "raw": "$0.40",
+          "amount": 0.4
+        },
+        "cache input": {
+          "raw": "$0.04",
+          "amount": 0.04
+        },
+        "output": {
+          "raw": "$1.20",
+          "amount": 1.2
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "muse spark open",
+      "model": "Muse Spark Open",
+      "prices": {
+        "input": {
+          "raw": "$1.25",
+          "amount": 1.25
+        },
+        "cache input": {
+          "raw": "$0.15",
+          "amount": 0.15
+        },
+        "output": {
+          "raw": "$4.25",
+          "amount": 4.25
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "glm-5.3 fast",
+      "model": "GLM-5.3 Fast",
+      "prices": {
+        "input": {
+          "raw": "$2.10",
+          "amount": 2.1
+        },
+        "cache input": {
+          "raw": "$0.21",
+          "amount": 0.21
+        },
+        "output": {
+          "raw": "$6.60",
+          "amount": 6.6
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "glm-5.3",
+      "model": "GLM-5.3",
+      "prices": {
+        "input": {
+          "raw": "$1.40",
+          "amount": 1.4
+        },
+        "cache input": {
+          "raw": "$0.14",
+          "amount": 0.14
+        },
+        "output": {
+          "raw": "$4.40",
+          "amount": 4.4
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "glm-5.3-flash",
+      "model": "GLM-5.3-Flash",
+      "prices": {
+        "input": {
+          "raw": "$0.15",
+          "amount": 0.15
+        },
+        "cache input": {
+          "raw": "$0.03",
+          "amount": 0.03
+        },
+        "output": {
+          "raw": "$0.50",
+          "amount": 0.5
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "glm-5.2 fast",
+      "model": "GLM-5.2 Fast",
+      "prices": {
+        "input": {
+          "raw": "$2.10",
+          "amount": 2.1
+        },
+        "cache input": {
+          "raw": "$0.21",
+          "amount": 0.21
+        },
+        "output": {
+          "raw": "$6.60",
+          "amount": 6.6
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "glm-5.2",
+      "model": "GLM-5.2",
+      "prices": {
+        "input": {
+          "raw": "$1.40",
+          "amount": 1.4
+        },
+        "cache input": {
+          "raw": "$0.14",
+          "amount": 0.14
+        },
+        "output": {
+          "raw": "$4.40",
+          "amount": 4.4
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "deepseek v4.1 flash 1017 fast",
+      "model": "DeepSeek V4.1 Flash 1017 Fast",
+      "prices": {
+        "input": {
+          "raw": "$0.60",
+          "amount": 0.6
+        },
+        "cache input": {
+          "raw": "$0.014",
+          "amount": 0.014
+        },
+        "output": {
+          "raw": "$2.40",
+          "amount": 2.4
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "deepseek v4.1 flash 1017",
+      "model": "DeepSeek V4.1 Flash 1017",
+      "prices": {
+        "input": {
+          "raw": "$0.30",
+          "amount": 0.3
+        },
+        "cache input": {
+          "raw": "$0.007",
+          "amount": 0.007
+        },
+        "output": {
+          "raw": "$1.20",
+          "amount": 1.2
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "deepseek v4.1 flash fast",
+      "model": "DeepSeek V4.1 Flash Fast",
+      "prices": {
+        "input": {
+          "raw": "$0.60",
+          "amount": 0.6
+        },
+        "cache input": {
+          "raw": "$0.014",
+          "amount": 0.014
+        },
+        "output": {
+          "raw": "$2.40",
+          "amount": 2.4
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "deepseek v4.1 flash",
+      "model": "DeepSeek V4.1 Flash",
+      "prices": {
+        "input": {
+          "raw": "$0.30",
+          "amount": 0.3
+        },
+        "cache input": {
+          "raw": "$0.007",
+          "amount": 0.007
+        },
+        "output": {
+          "raw": "$1.20",
+          "amount": 1.2
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "deepseek v4 pro 0813",
+      "model": "DeepSeek V4 Pro 0813",
+      "prices": {
+        "input": {
+          "raw": "$1.32",
+          "amount": 1.32
+        },
+        "cache input": {
+          "raw": "$0.132",
+          "amount": 0.132
+        },
+        "output": {
+          "raw": "$3.96",
+          "amount": 3.96
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "deepseek-v4-flash-0731",
+      "model": "DeepSeek-V4-Flash-0731",
+      "prices": {
+        "input": {
+          "raw": "$0.13",
+          "amount": 0.13
+        },
+        "cache input": {
+          "raw": "$0.028",
+          "amount": 0.028
+        },
+        "output": {
+          "raw": "$0.26",
+          "amount": 0.26
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "kimi k3.1 pro",
+      "model": "Kimi K3.1 Pro",
+      "prices": {
+        "input": {
+          "raw": "$2.00",
+          "amount": 2.0
+        },
+        "cache input": {
+          "raw": "$0.20",
+          "amount": 0.2
+        },
+        "output": {
+          "raw": "$10.00",
+          "amount": 10.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "kimi k3",
+      "model": "Kimi K3",
+      "prices": {
+        "input": {
+          "raw": "$3.00",
+          "amount": 3.0
+        },
+        "cache input": {
+          "raw": "$0.30",
+          "amount": 0.3
+        },
+        "output": {
+          "raw": "$15.00",
+          "amount": 15.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "nemotron 3.5 super vl",
+      "model": "Nemotron 3.5 Super VL",
+      "prices": {
+        "input": {
+          "raw": "$0.20",
+          "amount": 0.2
+        },
+        "cache input": {
+          "raw": "$0.04",
+          "amount": 0.04
+        },
+        "output": {
+          "raw": "$0.50",
+          "amount": 0.5
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "nvidia nemotron 3 ultra",
+      "model": "NVIDIA Nemotron 3 Ultra",
+      "prices": {
+        "input": {
+          "raw": "$0.60",
+          "amount": 0.6
+        },
+        "cache input": {
+          "raw": "$0.12",
+          "amount": 0.12
+        },
+        "output": {
+          "raw": "$2.40",
+          "amount": 2.4
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "gpt oss 120b",
+      "model": "GPT OSS 120B",
+      "prices": {
+        "input": {
+          "raw": "$0.10",
+          "amount": 0.1
+        },
+        "output": {
+          "raw": "$0.50",
+          "amount": 0.5
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "t4",
+      "model": "T4",
+      "prices": {
+        "per minute": {
+          "raw": "$0.01052",
+          "amount": 0.01052
+        },
+        "approx / hour": {
+          "raw": "$0.6312",
+          "amount": 0.6312
+        }
+      },
+      "currency": "USD",
+      "unit": "per minute"
+    },
+    {
+      "key": "l4",
+      "model": "L4",
+      "prices": {
+        "per minute": {
+          "raw": "$0.01414",
+          "amount": 0.01414
+        },
+        "approx / hour": {
+          "raw": "$0.8484",
+          "amount": 0.8484
+        }
+      },
+      "currency": "USD",
+      "unit": "per minute"
+    },
+    {
+      "key": "a10g",
+      "model": "A10G",
+      "prices": {
+        "per minute": {
+          "raw": "$0.02012",
+          "amount": 0.02012
+        },
+        "approx / hour": {
+          "raw": "$1.2072",
+          "amount": 1.2072
+        }
+      },
+      "currency": "USD",
+      "unit": "per minute"
+    },
+    {
+      "key": "a100",
+      "model": "A100",
+      "prices": {
+        "per minute": {
+          "raw": "$0.06667",
+          "amount": 0.06667
+        },
+        "approx / hour": {
+          "raw": "$4.00",
+          "amount": 4.0
+        }
+      },
+      "currency": "USD",
+      "unit": "per minute"
+    },
+    {
+      "key": "h100 mig",
+      "model": "H100 MIG",
+      "prices": {
+        "per minute": {
+          "raw": "$0.0625",
+          "amount": 0.0625
+        },
+        "approx / hour": {
+          "raw": "$3.75",
+          "amount": 3.75
+        }
+      },
+      "currency": "USD",
+      "unit": "per minute"
+    },
+    {
+      "key": "h100",
+      "model": "H100",
+      "prices": {
+        "per minute": {
+          "raw": "$0.10833",
+          "amount": 0.10833
+        },
+        "approx / hour": {
+          "raw": "$6.50",
+          "amount": 6.5
+        }
+      },
+      "currency": "USD",
+      "unit": "per minute"
+    },
+    {
+      "key": "b200",
+      "model": "B200",
+      "prices": {
+        "per minute": {
+          "raw": "$0.16633",
+          "amount": 0.16633
+        },
+        "approx / hour": {
+          "raw": "$9.98",
+          "amount": 9.98
+        }
+      },
+      "currency": "USD",
+      "unit": "per minute"
+    },
+    {
+      "key": "1x2",
+      "model": "1x2",
+      "prices": {
+        "per minute": {
+          "raw": "$0.00058",
+          "amount": 0.00058
+        },
+        "approx / hour": {
+          "raw": "$0.0348",
+          "amount": 0.0348
+        }
+      },
+      "currency": "USD",
+      "unit": "per minute"
+    },
+    {
+      "key": "1x4",
+      "model": "1x4",
+      "prices": {
+        "per minute": {
+          "raw": "$0.00086",
+          "amount": 0.00086
+        },
+        "approx / hour": {
+          "raw": "$0.0516",
+          "amount": 0.0516
+        }
+      },
+      "currency": "USD",
+      "unit": "per minute"
+    },
+    {
+      "key": "2x8",
+      "model": "2x8",
+      "prices": {
+        "per minute": {
+          "raw": "$0.00173",
+          "amount": 0.00173
+        },
+        "approx / hour": {
+          "raw": "$0.1038",
+          "amount": 0.1038
+        }
+      },
+      "currency": "USD",
+      "unit": "per minute"
+    },
+    {
+      "key": "4x16",
+      "model": "4x16",
+      "prices": {
+        "per minute": {
+          "raw": "$0.00346",
+          "amount": 0.00346
+        },
+        "approx / hour": {
+          "raw": "$0.2076",
+          "amount": 0.2076
+        }
+      },
+      "currency": "USD",
+      "unit": "per minute"
+    },
+    {
+      "key": "8x32",
+      "model": "8x32",
+      "prices": {
+        "per minute": {
+          "raw": "$0.00691",
+          "amount": 0.00691
+        },
+        "approx / hour": {
+          "raw": "$0.4146",
+          "amount": 0.4146
+        }
+      },
+      "currency": "USD",
+      "unit": "per minute"
+    },
+    {
+      "key": "16x64",
+      "model": "16x64",
+      "prices": {
+        "per minute": {
+          "raw": "$0.01382",
+          "amount": 0.01382
+        },
+        "approx / hour": {
+          "raw": "$0.8292",
+          "amount": 0.8292
+        }
+      },
+      "currency": "USD",
+      "unit": "per minute"
+    },
+    {
+      "key": "glm-5.3 20% off for limited time",
+      "model": "GLM-5.3 20% off for limited time",
+      "prices": {
+        "prefill": {
+          "raw": "$3.02",
+          "amount": 3.02
+        },
+        "prefill cached": {
+          "raw": "$0.60",
+          "amount": 0.6
+        },
+        "sample": {
+          "raw": "$9.72",
+          "amount": 9.72
+        },
+        "train": {
+          "raw": "$11.66",
+          "amount": 11.66
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "glm-5.3-flash 20% off for limited time",
+      "model": "GLM-5.3-Flash 20% off for limited time",
+      "prices": {
+        "prefill": {
+          "raw": "$0.67",
+          "amount": 0.67
+        },
+        "prefill cached": {
+          "raw": "$0.13",
+          "amount": 0.13
+        },
+        "sample": {
+          "raw": "$1.69",
+          "amount": 1.69
+        },
+        "train": {
+          "raw": "$4.46",
+          "amount": 4.46
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "qwen3.6 35b-a3b 20% off for limited time",
+      "model": "Qwen3.6 35B-A3B 20% off for limited time",
+      "prices": {
+        "prefill": {
+          "raw": "$0.36",
+          "amount": 0.36
+        },
+        "prefill cached": {
+          "raw": "$0.07",
+          "amount": 0.07
+        },
+        "sample": {
+          "raw": "$1.07",
+          "amount": 1.07
+        },
+        "train": {
+          "raw": "$1.71",
+          "amount": 1.71
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    }
+  ],
+  "tables": [
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Model",
+          "Input",
+          "Cache input",
+          "Output"
+        ],
+        [
+          "mammoth-1",
+          "$0.10",
+          "—",
+          "—"
+        ],
+        [
+          "elephant-1",
+          "$0.035",
+          "—",
+          "—"
+        ],
+        [
+          "joey-1",
+          "$0.01",
+          "—",
+          "—"
+        ],
+        [
+          "Beam",
+          "$0.40",
+          "$0.04",
+          "$1.20"
+        ],
+        [
+          "Muse Spark Open",
+          "$1.25",
+          "$0.15",
+          "$4.25"
+        ],
+        [
+          "GLM-5.3 Fast",
+          "$2.10",
+          "$0.21",
+          "$6.60"
+        ],
+        [
+          "GLM-5.3",
+          "$1.40",
+          "$0.14",
+          "$4.40"
+        ],
+        [
+          "GLM-5.3-Flash",
+          "$0.15",
+          "$0.03",
+          "$0.50"
+        ],
+        [
+          "GLM-5.2 Fast",
+          "$2.10",
+          "$0.21",
+          "$6.60"
+        ],
+        [
+          "GLM-5.2",
+          "$1.40",
+          "$0.14",
+          "$4.40"
+        ],
+        [
+          "DeepSeek V4.1 Flash 1017 Fast",
+          "$0.60",
+          "$0.014",
+          "$2.40"
+        ],
+        [
+          "DeepSeek V4.1 Flash 1017",
+          "$0.30",
+          "$0.007",
+          "$1.20"
+        ],
+        [
+          "DeepSeek V4.1 Flash Fast",
+          "$0.60",
+          "$0.014",
+          "$2.40"
+        ],
+        [
+          "DeepSeek V4.1 Flash",
+          "$0.30",
+          "$0.007",
+          "$1.20"
+        ],
+        [
+          "DeepSeek V4 Pro 0813",
+          "$1.32",
+          "$0.132",
+          "$3.96"
+        ],
+        [
+          "DeepSeek-V4-Flash-0731",
+          "$0.13",
+          "$0.028",
+          "$0.26"
+        ],
+        [
+          "Kimi K3.1 Pro",
+          "$2.00",
+          "$0.20",
+          "$10.00"
+        ],
+        [
+          "Kimi K3",
+          "$3.00",
+          "$0.30",
+          "$15.00"
+        ],
+        [
+          "Nemotron 3.5 Super VL",
+          "$0.20",
+          "$0.04",
+          "$0.50"
+        ],
+        [
+          "NVIDIA Nemotron 3 Ultra",
+          "$0.60",
+          "$0.12",
+          "$2.40"
+        ],
+        [
+          "GPT OSS 120B",
+          "$0.10",
+          "—",
+          "$0.50"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "GPU",
+          "Memory",
+          "Per Minute",
+          "Approx / hour"
+        ],
+        [
+          "T4",
+          "16 GiB VM",
+          "$0.01052",
+          "$0.6312"
+        ],
+        [
+          "L4",
+          "24 GiB VRAM",
+          "$0.01414",
+          "$0.8484"
+        ],
+        [
+          "A10G",
+          "24 GiB VM",
+          "$0.02012",
+          "$1.2072"
+        ],
+        [
+          "A100",
+          "80 GiB VRAM",
+          "$0.06667",
+          "$4.00"
+        ],
+        [
+          "H100 MIG",
+          "40 GiB VRAM",
+          "$0.0625",
+          "$3.75"
+        ],
+        [
+          "H100",
+          "80 GiB VRAM",
+          "$0.10833",
+          "$6.50"
+        ],
+        [
+          "B200",
+          "180 GiB VRAM",
+          "$0.16633",
+          "$9.98"
+        ],
+        [
+          "1x2",
+          "1 vCPU, 2 GiB RAM",
+          "$0.00058",
+          "$0.0348"
+        ],
+        [
+          "1x4",
+          "1 vCPU, 4 GiB RAM",
+          "$0.00086",
+          "$0.0516"
+        ],
+        [
+          "2x8",
+          "2 vCPUs, 8 GiB RAM",
+          "$0.00173",
+          "$0.1038"
+        ],
+        [
+          "4x16",
+          "4 vCPUs, 16 GiB RAM",
+          "$0.00346",
+          "$0.2076"
+        ],
+        [
+          "8x32",
+          "8 vCPUs, 32 GiB RAM",
+          "$0.00691",
+          "$0.4146"
+        ],
+        [
+          "16x64",
+          "16 vCPUs, 64 GiB RAM",
+          "$0.01382",
+          "$0.8292"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "GPU",
+          "Memory",
+          "Per Minute",
+          "Approx / hour"
+        ],
+        [
+          "T4",
+          "16 GiB VM",
+          "$0.01052",
+          "$0.6312"
+        ],
+        [
+          "L4",
+          "24 GiB VRAM",
+          "$0.01414",
+          "$0.8484"
+        ],
+        [
+          "A10G",
+          "24 GiB VM",
+          "$0.02012",
+          "$1.2072"
+        ],
+        [
+          "A100",
+          "80 GiB VRAM",
+          "$0.06667",
+          "$4.00"
+        ],
+        [
+          "H100 MIG",
+          "40 GiB VRAM",
+          "$0.0625",
+          "$3.75"
+        ],
+        [
+          "H100",
+          "80 GiB VRAM",
+          "$0.10833",
+          "$6.50"
+        ],
+        [
+          "B200",
+          "180 GiB VRAM",
+          "$0.16633",
+          "$9.98"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Model",
+          "Prefill",
+          "Prefill Cached",
+          "Sample",
+          "Train"
+        ],
+        [
+          "GLM-5.3 20% off for limited time",
+          "$3.02",
+          "$0.60",
+          "$9.72",
+          "$11.66"
+        ],
+        [
+          "GLM-5.3-Flash 20% off for limited time",
+          "$0.67",
+          "$0.13",
+          "$1.69",
+          "$4.46"
+        ],
+        [
+          "Qwen3.6 35B-A3B 20% off for limited time",
+          "$0.36",
+          "$0.07",
+          "$1.07",
+          "$1.71"
+        ]
+      ]
+    }
+  ],
   "extract_errors": []
 }

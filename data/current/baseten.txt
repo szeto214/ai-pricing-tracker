@@ -1,1 +1,288 @@
-
+Please rotate your device
+To continue exploring this website, please rotate your device to a vertical orientation
+Products
+Dedicated Inference
+Inference for your specialized models
+Model APIs
+Serve frontier model APIs on day zero
+Training
+Outperform closed models with your own
+Sandboxes
+Give your agents a secure place to run
+Grid
+Control model access and cut AI spend
+Research
+Resources
+Resources
+Blog
+Guides
+Webinars
+Security
+Events
+Changelog
+Contact Us
+Careers
+Featured
+The building blocks of the open frontier
+Blog / News
+Customers
+Pricing
+Models
+Log in
+Get started
+Docs
+Pricing that scales with you.
+From your first token to your trillionth.
+Pay for what you use, or work with us to secure capacity and pricing for production workloads.
+Pay as you go
+Start building today
+No contracts or capacity planning. Use Model APIs, Dedicated Inference, Training, and Sandboxes with transparent usage-based pricing.
+Usage-based pricing
+Scale up or down anytime
+Access across the Baseten platform
+View pricing
+Production scale
+Secure capacity for production
+Running at scale? Work with us on capacity, custom pricing, regions, and support for your workloads.
+Volume discounts
+Reserved and priority compute
+Capacity planning and custom terms
+Talk to us
+Pricing
+Model APIs
+Token pricing ($ per 1M tokens)
+Pay for input, cached input, and output tokens.
+Model
+Input
+Cache input
+Output
+mammoth-1
+$0.10
+—
+—
+elephant-1
+$0.035
+—
+—
+joey-1
+$0.01
+—
+—
+Beam
+$0.40
+$0.04
+$1.20
+Muse Spark Open
+$1.25
+$0.15
+$4.25
+GLM-5.3 Fast
+$2.10
+$0.21
+$6.60
+GLM-5.3
+$1.40
+$0.14
+$4.40
+GLM-5.3-Flash
+$0.15
+$0.03
+$0.50
+GLM-5.2 Fast
+$2.10
+$0.21
+$6.60
+GLM-5.2
+$1.40
+$0.14
+$4.40
+DeepSeek V4.1 Flash 1017 Fast
+$0.60
+$0.014
+$2.40
+DeepSeek V4.1 Flash 1017
+$0.30
+$0.007
+$1.20
+DeepSeek V4.1 Flash Fast
+$0.60
+$0.014
+$2.40
+DeepSeek V4.1 Flash
+$0.30
+$0.007
+$1.20
+DeepSeek V4 Pro 0813
+$1.32
+$0.132
+$3.96
+DeepSeek-V4-Flash-0731
+$0.13
+$0.028
+$0.26
+Kimi K3.1 Pro
+$2.00
+$0.20
+$10.00
+Kimi K3
+$3.00
+$0.30
+$15.00
+Nemotron 3.5 Super VL
+$0.20
+$0.04
+$0.50
+NVIDIA Nemotron 3 Ultra
+$0.60
+$0.12
+$2.40
+GPT OSS 120B
+$0.10
+—
+$0.50
+Dedicated Inference
+Compute pricing
+Dedicated GPU pricing with usage-based billing.
+GPU
+Memory
+Per Minute
+Approx / hour
+T4
+16 GiB VM
+$0.01052
+$0.6312
+L4
+24 GiB VRAM
+$0.01414
+$0.8484
+A10G
+24 GiB VM
+$0.02012
+$1.2072
+A100
+80 GiB VRAM
+$0.06667
+$4.00
+H100 MIG
+40 GiB VRAM
+$0.0625
+$3.75
+H100
+80 GiB VRAM
+$0.10833
+$6.50
+B200
+180 GiB VRAM
+$0.16633
+$9.98
+1x2
+1 vCPU, 2 GiB RAM
+$0.00058
+$0.0348
+1x4
+1 vCPU, 4 GiB RAM
+$0.00086
+$0.0516
+2x8
+2 vCPUs, 8 GiB RAM
+$0.00173
+$0.1038
+4x16
+4 vCPUs, 16 GiB RAM
+$0.00346
+$0.2076
+8x32
+8 vCPUs, 32 GiB RAM
+$0.00691
+$0.4146
+16x64
+16 vCPUs, 64 GiB RAM
+$0.01382
+$0.8292
+Training
+Training Compute
+On-demand GPU pricing for fine-tuning and training.
+GPU
+Memory
+Per Minute
+Approx / hour
+T4
+16 GiB VM
+$0.01052
+$0.6312
+L4
+24 GiB VRAM
+$0.01414
+$0.8484
+A10G
+24 GiB VM
+$0.02012
+$1.2072
+A100
+80 GiB VRAM
+$0.06667
+$4.00
+H100 MIG
+40 GiB VRAM
+$0.0625
+$3.75
+H100
+80 GiB VRAM
+$0.10833
+$6.50
+B200
+180 GiB VRAM
+$0.16633
+$9.98
+Training
+Serverless Loops token pricing ($ per 1M tokens)
+Pay for prefill (uncached and cached), sample, and train tokens.
+Model
+Prefill
+Prefill Cached
+Sample
+Train
+GLM-5.3
+20% off for limited time
+$3.02
+$0.60
+$9.72
+$11.66
+GLM-5.3-Flash
+20% off for limited time
+$0.67
+$0.13
+$1.69
+$4.46
+Qwen3.6 35B-A3B
+20% off for limited time
+$0.36
+$0.07
+$1.07
+$1.71
+Sandboxes
+Runtime Pricing
+Usage-based CPU, memory, and runtime pricing for isolated agent environments.
+Compute
+Rate
+CPU
+$0.0655 vCPU/hr
+Memory
+$0.0211 GB RAM/hr
+Storage
+Rate
+Snapshots
+$0.20 GB/month
+Volumes
+$0.16 GB/month
+Images
+Rate
+Images stored
+$0.045 GB/month
+Builds
+same price as a sandbox
+Secure capacity
+and pricing
+Work with Baseten on custom pricing, volume discounts, priority compute, custom regions, SLAs, and support.
+Start deploying
+Talk to an engineer

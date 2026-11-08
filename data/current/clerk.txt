@@ -313,6 +313,11 @@ Let returning users sign in to native apps with their device's biometrics.
 Not included
 Included
 Included
+Minimum app version
+Require users on older versions of your native apps to update before they continue.
+Not included
+Included
+Included
 Custom password requirements
 By default, Clerk strictly adheres to NIST 800-63B for password requirements. This feature allows setting custom requirements.
 Not included

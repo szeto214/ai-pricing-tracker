@@ -7,7 +7,7 @@
   "final_url": "https://trigger.dev/pricing",
   "parser_version": 4,
   "content_hash": "b5c1c8a16ef9c33e2ffb1d544d10cf9956d1c53f1d616805fc617d77d4428129",
-  "raw_hash": "49d0d4181a5a8a2d0d52d8a0e69497a04e6bf3977f417d14dfcb45923c637a5d",
+  "raw_hash": "690e748adfb2bc7f7948e41e8fe40800ddf2c901d7e812e345a82253b1b08ddf",
   "text_bytes": 7703,
   "currency_hints": [],
   "extractor": "jsonld",

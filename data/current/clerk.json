@@ -6,9 +6,9 @@
   "url": "https://clerk.com/pricing",
   "final_url": "https://clerk.com/pricing",
   "parser_version": 4,
-  "content_hash": "9f6b109ea44a358b5f47ac33a366967041a19d7cc3b0aa15e9702f6ca2eb17f0",
-  "raw_hash": "6e626f266d9d48472e0f2fbfb08bf70079dce793a2674075a13b83f4ccea6b9a",
-  "text_bytes": 14039,
+  "content_hash": "4af663e563ede3615014f36fdeb8d5be40b6dae4f778f28bca1c01f908297261",
+  "raw_hash": "16213d3d096f162e912b80630d1cf95b30748f896c5de787705e98616b626344",
+  "text_bytes": 14174,
   "currency_hints": [],
   "extractor": "jsonld",
   "confidence": "medium",
@@ -163,6 +163,12 @@
         ],
         [
           "Biometric sign-in Let returning users sign in to native apps with their device's biometrics.",
+          "Not included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Minimum app version Require users on older versions of your native apps to update before they continue.",
           "Not included",
           "Included",
           "Included"

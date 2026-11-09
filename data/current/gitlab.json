@@ -7,7 +7,7 @@
   "final_url": "https://about.gitlab.com/pricing/",
   "parser_version": 4,
   "content_hash": "72dbd68e4eee94fbf99594ac999a0e190b44d6b4d0f1cd0014294628414562f1",
-  "raw_hash": "6f9c62a85a705b0cc9125182d0edf513d62a0f5d08038ff2d4bf3d7e95b895d1",
+  "raw_hash": "1ac225aee9d6f1ea36b21c2ad469894da5878cbac1d0f601b28845a9d6d6f0bf",
   "text_bytes": 32476,
   "currency_hints": [],
   "extractor": "dom",

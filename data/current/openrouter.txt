@@ -1,7 +1,7 @@
 Models
 LiquidAI: LFM3-1.7B (free)
 LFM3-1.7B (free)
-3.8B tokens
+7.17B tokens
 A compact 1.7B-parameter text model with a 256K-token context, post-trained for agents, tool calling, and structured outputs. It reasons before it answers. Prompts and outputs may be retained and used to train Liquid models.
 by
 liquid
@@ -13,7 +13,7 @@ $0/M output
 tokens
 LiquidAI: LFM3-1.7B
 LFM3-1.7B
-6.52B tokens
+7.43B tokens
 A compact 1.7B-parameter text model with a 256K-token context, post-trained for agents, tool calling, and structured outputs. It reasons before it answers. Prompts and outputs may be retained and used to train Liquid models.
 by
 liquid
@@ -25,7 +25,7 @@ $0.20/M output
 tokens
 Parallel: Decisions Fast (free)
 Decisions Fast (free)
-2.49B tokens
+9.27B tokens
 Decisions Fast is Parallel's web-grounded Decisions model. Instead of generating text, it reads the content passed as
 state
 (text or JSON), researches the live web, and returns typed answers to named questions: the probability of yes for a yes/no question (
@@ -44,7 +44,7 @@ $0/M output
 tokens
 Google: Gemini Omni 1.2 Flash
 Gemini Omni 1.2 Flash
-27.9M tokens
+40M tokens
 Gemini Omni 1.2 Flash is Google's native multimodal video generation and editing model, the successor to Gemini Omni 1.1 Flash. It generates clips up to 15 seconds long with native audio in 16:9 or 9:16, from 360p drafts up to 4K, and supports text-to-video, image-to-video, first and last frame interpolation, subject and video references with improved reference management, and editing or extending an uploaded video. Multi-turn editing and extension of a prior generation is supported through
 previous_job_id
 . Note: video generation is only supported through the Video Generation API. See the guide: https://openrouter.ai/docs/guides/overview/multimodal/video-generation
@@ -58,7 +58,7 @@ $9/M output
 tokens
 Auto Router
 Auto Router
-601B tokens
+561B tokens
 Auto is OpenRouter’s flagship model router, built for general-purpose usage. It adapts to each request, choosing cost-optimal models and adjusting reasoning effort. It balances task difficulty, benchmark results, live prices, and prompt caching. Use it for apps, chat, and general agents. For agent sessions, it follows progress across turns, keeps the same model while work is going well, and adjusts reasoning effort or switches models when the task gets stuck. It respects all your governance settings, including guardrails, ZDR, and budgets.
 by
 openrouter
@@ -75,7 +75,7 @@ Nov 5, 2026
 2M context
 OpenAI: GPT Image 2.6 Sunburst
 GPT Image 2.6 Sunburst
-501M tokens
+654M tokens
 GPT Image 2.6 Sunburst is OpenAI's image generation and editing model optimized for detail: dense compositions, text-heavy layouts, and edits that keep details consistent from one edit to the next at medium or high quality, generating about 50% faster than GPT Image 2.5. It takes text and image inputs and produces images, with quality tiers from low to max, transparent backgrounds, and custom sizes in multiples of 16 pixels at aspect ratios from 1:3 to 3:1. GPT Image 2.6 introduces a complexity setting for how much the model plans before rendering, markup-guided edits, animated GIF output, and SVG output. Choose Flare instead when speed matters more than fine detail.
 by
 openai
@@ -86,7 +86,7 @@ $30/M output
 tokens
 OpenAI: GPT Image 2.6 Flare
 GPT Image 2.6 Flare
-209M tokens
+308M tokens
 GPT Image 2.6 Flare is OpenAI's image generation and editing model optimized for speed: fast iteration and interactive text-to-image and image-to-image workflows, generating about 50% faster than GPT Image 2.5. It takes text and image inputs and produces images, with quality tiers from low to max, transparent backgrounds, and custom sizes in multiples of 16 pixels at aspect ratios from 1:3 to 3:1. GPT Image 2.6 introduces a complexity setting for how much the model plans before rendering, markup-guided edits, animated GIF output, and SVG output. Choose Sunburst instead when detail and edit-to-edit consistency matter more than latency.
 by
 openai
@@ -97,7 +97,7 @@ $30/M output
 tokens
 Google: Gemini Omni 1.1 Flash
 Gemini Omni 1.1 Flash
-9.59M tokens
+10.7M tokens
 Gemini Omni 1.1 Flash is Google's native multimodal video generation and editing model, the generally available successor to Gemini Omni Flash Preview. It is suited for text-to-video, image-to-video, first and last frame interpolation, subject and video references (up to three reference clips), and editing or extending an uploaded video, and generates clips from 360p drafts up to 4K with native audio in 16:9 or 9:16. Multi-turn editing and extension of a prior generation is supported through
 previous_job_id
 , up to 40 seconds of total video. Note: video generation is only supported through the Video Generation API. See the guide: https://openrouter.ai/docs/guides/overview/multimodal/video-generation
@@ -111,7 +111,7 @@ $9/M output
 tokens
 Ricursive: Ripple 65B Preview
 Ripple 65B Preview
-4.6B tokens
+6.4B tokens
 Ripple-65B-Preview by ricursiveAI, a 65B model with native tool calling, served in BF16.
 by
 ricursiveai
@@ -124,12 +124,13 @@ tokens
 Tencent: Hy4
 Hy4
 50% off
-11.4T tokens
-Academia (#42)
-Finance (#34)
-Legal (#28)
-Marketing (#22)
-Programming (#12)
+14.9T tokens
+Academia (#26)
+Finance (#22)
+Health (#45)
+Legal (#27)
+Marketing (#17)
++4 categories
 The official release of Hy4 delivers comprehensive and substantial improvements over Hy4 Preview, with particularly strong gains in agentic capabilities and performance across a wide range of long-horizon, real-world productivity tasks. It also introduces visual understanding for the first time.
 by
 tencent
@@ -141,7 +142,8 @@ $1.251/M output
 tokens
 Morph: Reflex
 Reflex
-2.92B tokens
+3.27B tokens
+Trivia (#49)
 Morph's decision model. Answers typed choice, noul and score questions about a state. The state is prefix-cached across requests, so repeat questions on the same state bill at the cached-input rate. 65k context window.
 by
 morph
@@ -152,7 +154,7 @@ $0/M output
 tokens
 Cohere: Embed 5 Fast
 Embed 5 Fast
-843M tokens
+891M tokens
 Embed 5 Fast is the lower-latency, cost-efficient tier of Cohere's Embed 5 family of multimodal embedding models (about 1B parameters). It embeds text, images, and interleaved text and image content into a single vector space and is suited for high-volume query embedding, agent loops, and multilingual semantic search across 100+ languages. It shares its embedding space with Embed 5 Pro, so documents indexed with Pro can be queried with Fast. Output dimensions are selectable from 256 to 2048, and
 input_type
 defaults to
@@ -164,7 +166,7 @@ Nov 3, 2026
 $0.08/M tokens
 Cohere: Embed 5 Pro
 Embed 5 Pro
-698M tokens
+819M tokens
 Embed 5 Pro is the higher-accuracy tier of Cohere's Embed 5 family of multimodal embedding models (about 2.4B parameters). It embeds text, images, and interleaved text and image content into a single vector space and is suited for retrieval and RAG over long or domain-specific documents, visual and document search, and multilingual semantic search across 100+ languages. It shares its embedding space with Embed 5 Fast, so a common pattern is to index a corpus with Pro and embed queries with Fast. Output dimensions are selectable from 256 to 2048, and
 input_type
 defaults to
@@ -176,7 +178,7 @@ Nov 3, 2026
 $0.12/M tokens
 Cohere: Rerank 5 Fast
 Rerank 5 Fast
-2.36B tokens
+2.89B tokens
 Rerank 5 Fast is the low-latency tier of Cohere's Rerank 5 family of reranking models. It scores and reorders candidate documents against a query and is suited for high-throughput retrieval such as high-volume search, agent tool loops, and first-pass filtering before a more expensive step. Relevance scores are calibrated to a 0-1 range so a fixed threshold behaves consistently across queries. Rerank 5 Pro is the higher-accuracy sibling for complex queries and long or domain-specific documents.
 by
 cohere
@@ -184,7 +186,7 @@ Nov 3, 2026
 $0.02/M tokens
 Cohere: Rerank 5 Pro
 Rerank 5 Pro
-2.58B tokens
+2.86B tokens
 Rerank 5 Pro is the higher-accuracy tier of Cohere's Rerank 5 family of reranking models. It scores and reorders candidate documents against a query and is suited for retrieval pipelines where ranking quality matters most: complex or reasoning-heavy queries, long or domain-specific documents, and RAG systems that feed a small number of passages to a generator. Relevance scores are calibrated to a 0-1 range so a fixed threshold behaves consistently across queries. Rerank 5 Fast is the lower-latency sibling for high-volume search and agent loops.
 by
 cohere
@@ -192,7 +194,7 @@ Nov 3, 2026
 $0.05/M tokens
 Cloudflare: Clairic
 Clairic
-386M tokens
+461M tokens
 Clairic is Cloudflare's System One-style extraction model served on Workers AI. Given a text state and optional images plus a schema of typed fields, it extracts, computes, estimates, and forecasts strongly typed values (text spans, numbers, dates, times, durations, lists, estimates, forecasts) in a single pass, returning a confidence score and null probability for every field instead of generating tokens. Served through the Extractions API (/api/alpha/extractions); not available on /api/alpha/decisions.
 by
 cloudflare

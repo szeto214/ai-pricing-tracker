@@ -7,7 +7,7 @@
   "final_url": "https://miro.com/pricing/",
   "parser_version": 4,
   "content_hash": "0d772920f16d4b6f3ce8ecd929951c346724516efe738a0f3c9b4be2e887312a",
-  "raw_hash": "c5f70ca19847909fa73240adc2d24469d3fddb7f13eb91025f386f4079a262ab",
+  "raw_hash": "27f8aa2ec8618848d9e8522e82da98a0ee58c317d17ab68a27bc4b7c623070a0",
   "text_bytes": 24449,
   "currency_hints": [],
   "extractor": "dom",

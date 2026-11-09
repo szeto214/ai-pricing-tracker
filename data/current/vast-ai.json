@@ -6,55 +6,55 @@
   "url": "https://vast.ai/pricing",
   "final_url": "https://vast.ai/pricing",
   "parser_version": 4,
-  "content_hash": "98293c30eab7de899ba9b080f10801bf41662bed257e682f6c25bbb2113793f4",
-  "raw_hash": "b0ee7fefde09723f1ba1348691a285ce3eb43e1dd9e3c44418a8060990e10a7c",
-  "text_bytes": 7799,
+  "content_hash": "543a637f56ee5ed1fc81a9187e032d5161327dbe76b94023cf30e5d2cc0d499f",
+  "raw_hash": "97e33c303420d04ee5f81698e5d9c597dbe79208f4e8a43067a7473c5f775d5a",
+  "text_bytes": 7838,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
     {
-      "name": "H200",
-      "price_raw": "$2.90",
-      "amount": 2.9,
-      "currency": "USD",
-      "period": "hour",
-      "features": [],
-      "slot_prices": [
-        2.9
-      ]
-    },
-    {
-      "name": "B200",
-      "price_raw": "$7.50",
-      "amount": 7.5,
-      "currency": "USD",
-      "period": "hour",
-      "features": [],
-      "slot_prices": [
-        7.5
-      ]
-    },
-    {
       "name": "H200 NVL",
-      "price_raw": "$2.93",
-      "amount": 2.93,
+      "price_raw": "$3.33",
+      "amount": 3.33,
       "currency": "USD",
       "period": "hour",
       "features": [],
       "slot_prices": [
-        2.93
+        3.33
+      ]
+    },
+    {
+      "name": "H200",
+      "price_raw": "$3.43",
+      "amount": 3.43,
+      "currency": "USD",
+      "period": "hour",
+      "features": [],
+      "slot_prices": [
+        3.43
       ]
     },
     {
       "name": "H100 SXM",
-      "price_raw": "$2.33",
-      "amount": 2.33,
+      "price_raw": "$2.27",
+      "amount": 2.27,
       "currency": "USD",
       "period": "hour",
       "features": [],
       "slot_prices": [
-        2.33
+        2.27
+      ]
+    },
+    {
+      "name": "B200",
+      "price_raw": "$5.50",
+      "amount": 5.5,
+      "currency": "USD",
+      "period": "hour",
+      "features": [],
+      "slot_prices": [
+        5.5
       ]
     },
     {
@@ -92,46 +92,46 @@
     },
     {
       "name": "RTX 5090",
-      "price_raw": "$0.39",
-      "amount": 0.39,
+      "price_raw": "$0.40",
+      "amount": 0.4,
       "currency": "USD",
       "period": "hour",
       "features": [],
       "slot_prices": [
-        0.39
+        0.4
       ]
     },
     {
       "name": "RTX 4090",
-      "price_raw": "$0.13",
-      "amount": 0.13,
+      "price_raw": "$0.14",
+      "amount": 0.14,
       "currency": "USD",
       "period": "hour",
       "features": [],
       "slot_prices": [
-        0.13
+        0.14
       ]
     },
     {
       "name": "RTX 3090",
-      "price_raw": "$0.10",
-      "amount": 0.1,
+      "price_raw": "$0.09",
+      "amount": 0.09,
       "currency": "USD",
       "period": "hour",
       "features": [],
       "slot_prices": [
-        0.1
+        0.09
       ]
     },
     {
       "name": "RTX 3090 Ti",
-      "price_raw": "$0.18",
-      "amount": 0.18,
+      "price_raw": "$0.22",
+      "amount": 0.22,
       "currency": "USD",
       "period": "hour",
       "features": [],
       "slot_prices": [
-        0.18
+        0.22
       ]
     },
     {
@@ -158,24 +158,24 @@
     },
     {
       "name": "GB10",
-      "price_raw": "$0.24",
-      "amount": 0.24,
+      "price_raw": "$0.27",
+      "amount": 0.27,
       "currency": "USD",
       "period": "hour",
       "features": [],
       "slot_prices": [
-        0.24
+        0.27
       ]
     },
     {
       "name": "RTX PRO 6000 S",
-      "price_raw": "$1.07",
-      "amount": 1.07,
+      "price_raw": "$1.06",
+      "amount": 1.06,
       "currency": "USD",
       "period": "hour",
       "features": [],
       "slot_prices": [
-        1.07
+        1.06
       ]
     },
     {
@@ -191,13 +191,13 @@
     },
     {
       "name": "RTX PRO 6000 Max-Q",
-      "price_raw": "$0.96",
-      "amount": 0.96,
+      "price_raw": "$0.66",
+      "amount": 0.66,
       "currency": "USD",
       "period": "hour",
       "features": [],
       "slot_prices": [
-        0.96
+        0.66
       ]
     },
     {

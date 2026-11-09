@@ -6,9 +6,9 @@
   "url": "https://www.together.ai/pricing",
   "final_url": "https://www.together.ai/pricing",
   "parser_version": 4,
-  "content_hash": "78e0030e2cc69a47d3efe838861800bcb5341e2d57018aa3476f93a84d521e74",
-  "raw_hash": "45fa4019c9328094badd4a0a0953fb2209e6b5a808ca1ede4ad3b484dc4ea6ef",
-  "text_bytes": 8975,
+  "content_hash": "de9e3d1626426b3aa7801542b34bf356a9fa7815f7548cdf310eadb6c59ea81d",
+  "raw_hash": "42e2847415395e321c76f27e5e34fe0cdf6a60621265b7e5e30f3ff6059fc883",
+  "text_bytes": 9065,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -1363,6 +1363,18 @@
           "-",
           "$0.04",
           "-"
+        ],
+        [
+          "Gemini 3.1 Flash-Lite Image (Nano Banana 2 Lite)",
+          "-",
+          "$0.069",
+          "0"
+        ],
+        [
+          "P-Image-Ideogram",
+          "-",
+          "$0.00225",
+          "0"
         ],
         [
           "FLUX.2 [dev]",

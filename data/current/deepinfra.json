@@ -6,9 +6,9 @@
   "url": "https://deepinfra.com/pricing",
   "final_url": "https://deepinfra.com/pricing",
   "parser_version": 4,
-  "content_hash": "bf2b6a947b459217d591613b60e4bcf125867ac5ff69c41e7053908906b67339",
-  "raw_hash": "13533fbef3320375b07ddaca2834bec10f9480dcec8090ba01ddb1335fa3b034",
-  "text_bytes": 16965,
+  "content_hash": "d9a2cbcc2ee17ce0288b4e7bfa7c2687e0899e88ea6da0851e8e9d3bd277bd82",
+  "raw_hash": "00518be4893301f79a6509bf0755aebb7ffedbeaa8a6bc195ef09a71cd266625",
+  "text_bytes": 17766,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -312,6 +312,22 @@
       "unit": "per 1m input tokens"
     },
     {
+      "key": "kimi-k3.1-pro 5% off",
+      "model": "Kimi-K3.1-Pro 5% off",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$2.00",
+          "amount": 2.0
+        },
+        "$ per 1m output tokens": {
+          "raw": "$10.00",
+          "amount": 10.0
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
       "key": "kimi-k3",
       "model": "Kimi-K3",
       "prices": {
@@ -418,6 +434,38 @@
         "$ per 1m output tokens": {
           "raw": "$2.00",
           "amount": 2.0
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "qwen3.8-flash",
+      "model": "Qwen3.8-Flash",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$0.113",
+          "amount": 0.113
+        },
+        "$ per 1m output tokens": {
+          "raw": "$0.382",
+          "amount": 0.382
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "qwen3.8-27b 25% off",
+      "model": "Qwen3.8-27B 25% off",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$0.20",
+          "amount": 0.2
+        },
+        "$ per 1m output tokens": {
+          "raw": "$2.50",
+          "amount": 2.5
         }
       },
       "currency": "USD",
@@ -760,6 +808,22 @@
       "unit": "per 1m input tokens"
     },
     {
+      "key": "gemini-3.7-flash",
+      "model": "gemini-3.7-flash",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$0.75",
+          "amount": 0.75
+        },
+        "$ per 1m output tokens": {
+          "raw": "$3.75",
+          "amount": 3.75
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
       "key": "gemini-3.5-flash",
       "model": "gemini-3.5-flash",
       "prices": {
@@ -1026,6 +1090,38 @@
         "$ per 1m output tokens": {
           "raw": "$0.40",
           "amount": 0.4
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "claude-sonnet-5-5",
+      "model": "claude-sonnet-5-5",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$2.00",
+          "amount": 2.0
+        },
+        "$ per 1m output tokens": {
+          "raw": "$10.00",
+          "amount": 10.0
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "claude-opus-5-5",
+      "model": "claude-opus-5-5",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$4.00",
+          "amount": 4.0
+        },
+        "$ per 1m output tokens": {
+          "raw": "$20.00",
+          "amount": 20.0
         }
       },
       "currency": "USD",
@@ -1334,6 +1430,13 @@
           "Actions"
         ],
         [
+          "Kimi-K3.1-Pro 5% off",
+          "1024k",
+          "$2.00 / $0.20 cached $1.90 / $0.19 cached",
+          "$10.00 $9.50",
+          "View more"
+        ],
+        [
           "Kimi-K3",
           "1024k",
           "$2.85 / $0.285 cached",
@@ -1358,6 +1461,13 @@
           "$ per 1M input tokens",
           "$ per 1M output tokens",
           "Actions"
+        ],
+        [
+          "Kimi-K3.1-Pro 5% off",
+          "1024k",
+          "$2.00 / $0.20 cached $1.90 / $0.19 cached",
+          "$10.00 $9.50",
+          "View more"
         ],
         [
           "Kimi-K3",
@@ -1478,6 +1588,20 @@
           "$ per 1M input tokens",
           "$ per 1M output tokens",
           "Actions"
+        ],
+        [
+          "Qwen3.8-Flash",
+          "976k",
+          "$0.113 / $0.0141 cached",
+          "$0.382",
+          "View more"
+        ],
+        [
+          "Qwen3.8-27B 25% off",
+          "256k",
+          "$0.20 / $0.05 cached $0.15 / $0.0375 cached",
+          "$2.50 $1.875",
+          "View more"
         ],
         [
           "Qwen3.6-27B",
@@ -1609,6 +1733,20 @@
           "$ per 1M input tokens",
           "$ per 1M output tokens",
           "Actions"
+        ],
+        [
+          "Qwen3.8-Flash",
+          "976k",
+          "$0.113 / $0.0141 cached",
+          "$0.382",
+          "View more"
+        ],
+        [
+          "Qwen3.8-27B 25% off",
+          "256k",
+          "$0.20 / $0.05 cached $0.15 / $0.0375 cached",
+          "$2.50 $1.875",
+          "View more"
         ],
         [
           "Qwen3.6-27B",
@@ -1844,6 +1982,13 @@
           "$ per 1M input tokens",
           "$ per 1M output tokens",
           "Actions"
+        ],
+        [
+          "gemini-3.7-flash",
+          "976k",
+          "$0.75",
+          "$3.75",
+          "View more"
         ],
         [
           "gemini-3.5-flash",
@@ -1891,6 +2036,13 @@
           "$ per 1M input tokens",
           "$ per 1M output tokens",
           "Actions"
+        ],
+        [
+          "gemini-3.7-flash",
+          "976k",
+          "$0.75",
+          "$3.75",
+          "View more"
         ],
         [
           "gemini-3.5-flash",
@@ -2154,6 +2306,20 @@
           "$ per 1M input tokens",
           "$ per 1M output tokens",
           "Actions"
+        ],
+        [
+          "claude-sonnet-5-5",
+          "976k",
+          "$2.00",
+          "$10.00",
+          "View more"
+        ],
+        [
+          "claude-opus-5-5",
+          "976k",
+          "$4.00 / $0.20 cached",
+          "$20.00",
+          "View more"
         ],
         [
           "claude-opus-5",
@@ -2215,6 +2381,20 @@
           "$ per 1M input tokens",
           "$ per 1M output tokens",
           "Actions"
+        ],
+        [
+          "claude-sonnet-5-5",
+          "976k",
+          "$2.00",
+          "$10.00",
+          "View more"
+        ],
+        [
+          "claude-opus-5-5",
+          "976k",
+          "$4.00 / $0.20 cached",
+          "$20.00",
+          "View more"
         ],
         [
           "claude-opus-5",

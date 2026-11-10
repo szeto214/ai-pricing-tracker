@@ -6,9 +6,9 @@
   "url": "https://www.together.ai/pricing",
   "final_url": "https://www.together.ai/pricing",
   "parser_version": 4,
-  "content_hash": "de9e3d1626426b3aa7801542b34bf356a9fa7815f7548cdf310eadb6c59ea81d",
-  "raw_hash": "42e2847415395e321c76f27e5e34fe0cdf6a60621265b7e5e30f3ff6059fc883",
-  "text_bytes": 9065,
+  "content_hash": "8be09c88e7be5ca2f80845d8b0582245ddf59ab4c8de3cb1e32fa0a2674c7b87",
+  "raw_hash": "482476d1d32aac22abbe4feb1b9f6e356e8f0712c34ddca7f67b2e9a55c3efb8",
+  "text_bytes": 9023,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -159,6 +159,18 @@
     }
   ],
   "models": [
+    {
+      "key": "nvidia parakeet tdt 0.6b v3 realtime|k2",
+      "model": "NVIDIA Parakeet TDT 0.6B V3 Realtime",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.0035",
+          "amount": 0.0035
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
     {
       "key": "nvidia nemotron 3 asr streaming 0.6b|k2",
       "model": "NVIDIA Nemotron 3 ASR Streaming 0.6B",
@@ -1472,14 +1484,6 @@
       "caption": "",
       "rows": [
         [
-          "Muse Spark Open 816B A42B",
-          "$1.25"
-        ],
-        [
-          "NVIDIA Parakeet TDT 0.6B V3 Realtime",
-          "$0.0035"
-        ],
-        [
           "Cartesia Sonic-3",
           "$65.00"
         ],
@@ -1505,10 +1509,6 @@
           "$0.17"
         ],
         [
-          "NVIDIA Nemotron 3.5 Super VL",
-          "$0.15"
-        ],
-        [
           "HappyHorse 1.0 T2V",
           "$0.24"
         ],
@@ -1531,6 +1531,10 @@
         [
           "HappyHorse 1.1 R2V",
           "$0.14"
+        ],
+        [
+          "Wan 2.7 Video Edit",
+          "$0.10"
         ],
         [
           "Vidu Q1",
@@ -1565,6 +1569,10 @@
     {
       "caption": "",
       "rows": [
+        [
+          "NVIDIA Parakeet TDT 0.6B V3 Realtime",
+          "$0.0035"
+        ],
         [
           "NVIDIA Nemotron 3 ASR Streaming 0.6B",
           "$0.0015"

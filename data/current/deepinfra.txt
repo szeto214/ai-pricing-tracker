@@ -21,11 +21,11 @@ DeepStart
 DeepCluster
 Blog
 Feedback
-Contact Sales
-Log In
+Contact sales
+Log in
 Simple Pricing, Deep Infrastructure
 We have different pricing models depending on the model used. Some of our langauge models offer per token pricing. Most other models are billed for inference execution time. With this pricing model, you only pay for what you use. There are no long-term contracts or upfront costs, and you can easily scale up and down as your business needs change.
-Contact Sales
+Contact sales
 DeepSeek
 DeepSeek's models are a suite of advanced AI systems that prioritize efficiency, scalability, and real-world applicability.
 Model
@@ -173,6 +173,14 @@ Context
 $ per 1M input tokens
 $ per 1M output tokens
 Actions
+Kimi-K3.1-Pro
+5% off
+1024k
+$2.00 / $0.20 cached
+$1.90 / $0.19 cached
+$10.00
+$9.50
+View more
 Kimi-K3
 1024k
 $2.85 / $0.285 cached
@@ -188,6 +196,14 @@ Context
 $ per 1M input tokens
 $ per 1M output tokens
 Actions
+Kimi-K3.1-Pro
+5% off
+1024k
+$2.00 / $0.20 cached
+$1.90 / $0.19 cached
+$10.00
+$9.50
+View more
 Kimi-K3
 1024k
 $2.85 / $0.285 cached
@@ -279,6 +295,19 @@ Context
 $ per 1M input tokens
 $ per 1M output tokens
 Actions
+Qwen3.8-Flash
+976k
+$0.113 / $0.0141 cached
+$0.382
+View more
+Qwen3.8-27B
+25% off
+256k
+$0.20 / $0.05 cached
+$0.15 / $0.0375 cached
+$2.50
+$1.875
+View more
 Qwen3.6-27B
 256k
 $0.32
@@ -369,6 +398,19 @@ Context
 $ per 1M input tokens
 $ per 1M output tokens
 Actions
+Qwen3.8-Flash
+976k
+$0.113 / $0.0141 cached
+$0.382
+View more
+Qwen3.8-27B
+25% off
+256k
+$0.20 / $0.05 cached
+$0.15 / $0.0375 cached
+$2.50
+$1.875
+View more
 Qwen3.6-27B
 256k
 $0.32
@@ -525,6 +567,11 @@ Context
 $ per 1M input tokens
 $ per 1M output tokens
 Actions
+gemini-3.7-flash
+976k
+$0.75
+$3.75
+View more
 gemini-3.5-flash
 976k
 $1.50
@@ -555,6 +602,11 @@ Context
 $ per 1M input tokens
 $ per 1M output tokens
 Actions
+gemini-3.7-flash
+976k
+$0.75
+$3.75
+View more
 gemini-3.5-flash
 976k
 $1.50
@@ -734,6 +786,16 @@ Context
 $ per 1M input tokens
 $ per 1M output tokens
 Actions
+claude-sonnet-5-5
+976k
+$2.00
+$10.00
+View more
+claude-opus-5-5
+976k
+$4.00 / $0.20 cached
+$20.00
+View more
 claude-opus-5
 976k
 $5.00
@@ -774,6 +836,16 @@ Context
 $ per 1M input tokens
 $ per 1M output tokens
 Actions
+claude-sonnet-5-5
+976k
+$2.00
+$10.00
+View more
+claude-opus-5-5
+976k
+$4.00 / $0.20 cached
+$20.00
+View more
 claude-opus-5
 976k
 $5.00
@@ -1137,7 +1209,7 @@ Our system will automatically scale the model to more hardware based on your nee
 Billing
 You have to add a card or pre-pay or you won't be able to use our services. Pre-paid accounts draw down their balance as they go, and invoiced accounts are billed once at the beginning of the following month. You can also set a spending limit to avoid surprises.
 Have questions or need a custom solution?
-Contact Sales
+Contact sales
 Company
 Pricing
 Docs
@@ -1151,6 +1223,9 @@ Trust Center
 Status
 DeepGPT
 Latest Models
+nace-ai
+/
+drex-max-finance
 Lightricks
 /
 LTX-2.3-Pro
@@ -1163,25 +1238,22 @@ LTX-2.5-Pro
 Lightricks
 /
 LTX-2.5-Fast
-moonshotai
-/
-Kimi-K3.1-Pro
 Featured Models
-moonshotai
+XiaomiMiMo
 /
-Kimi-K3
+MiMo-V2.6-Pro
+black-forest-labs
+/
+FLUX-2-klein-4b
 Qwen
 /
-Qwen3.5-397B-A17B
-deepseek-ai
+Qwen3.6-35B-A3B
+nvidia
 /
-DeepSeek-V4-Pro
-moonshotai
+NVIDIA-Nemotron-3-Ultra-550B-A55B
+tencent
 /
-Kimi-K2.6
-deepseek-ai
-/
-DeepSeek-V4-Flash-0731
+Hy4-preview
 © 2026 DeepInfra. All rights reserved.
 Privacy Policy
 Terms of Service

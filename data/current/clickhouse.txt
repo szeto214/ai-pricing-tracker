@@ -1,6 +1,9 @@
 Cookie Policy
 Dismiss
 Skip to content
+New: Managed Postgres is GA, plus Observability, Security, and Xata joins ClickHouse
+->
+->
 Copy logo as SVG
 Download full logo
 Download logomark
@@ -28,7 +31,7 @@ Portuguese
 Arabic
 50.8k
 Sign in
-Get Started
+Get started
 Pricing
 Pay only for the compute and storage you use, metered separately and scaled to zero when idle. Start free with $300 in credits for 30 days.
 N. Virginia (us-east-1)
@@ -123,11 +126,11 @@ open source distribution of ClickHouse
 ->
 more options
 Compute and storage from
-$0.125
+$0.056
 Per unit / hr
 ClickHouse Managed Postgres
-Fast, scalable, enterprise-grade Postgres, natively integrated with ClickHouse. Built for real-time and AI-driven applications.
-Available in Beta on all three plans.
+Fully managed Postgres with NVMe-backed performance and native connectivity to ClickHouse for real-time analytics.
+Available on all three plans.
 Learn more
 Estimate your monthly cost ↓
 Start your 30-day free trial
@@ -138,15 +141,14 @@ Get a custom quote
 Running a proof of concept? Our engineers can help you size and tune it.
 Talk to an expert
 Estimate your monthly cost
+Plan
 Basic
 Scale
 Enterprise
+Service type
 ClickHouse
-For analytics, observability, and BI
+For analytics, data warehousing, and self-managed observability.
 Postgres
-BETA
-50
-% off during beta
 For transactional workloads
 Cloud provider
 Region

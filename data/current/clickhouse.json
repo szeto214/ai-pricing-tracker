@@ -4,11 +4,11 @@
   "vendor": "ClickHouse",
   "category": "database",
   "url": "https://clickhouse.com/pricing",
-  "final_url": "https://clickhouse.com/pricing?service=clickhouse&pg.plan=scale&pg.provider=aws&pg.profile=memory&pg.architecture=arm&pg.standby=0&pg.region=us-east-1&plan=scale&provider=aws&region=us-east-1&useCase=real-time-analytics&hours=24&storage=1TB&computeMinSize=8&computeMaxSize=8&replicas=3&storageCompressed=false&fullBackup=1TB",
+  "final_url": "https://clickhouse.com/pricing?service=clickhouse&pg.plan=scale&pg.provider=aws&pg.profile=memory&pg.architecture=arm&pg.standby=0&pg.region=us-east-1&pg.computeSize=r6gd.medium&plan=scale&provider=aws&region=us-east-1&useCase=real-time-analytics&hours=24&storage=1TB&computeMinSize=8&computeMaxSize=8&replicas=3&storageCompressed=false&fullBackup=1TB",
   "parser_version": 4,
-  "content_hash": "8ff7b5e054ab96f1ba5fb49c3e9485b5aadd0982a4a45403e30db3f1eb9bd84d",
-  "raw_hash": "9481c3a533d6af35524df1e70ed3482d961aec0cb26ad5b2013eae5b47025b6b",
-  "text_bytes": 8142,
+  "content_hash": "259ca8f62c1776073d76b129bc09c1544af3b97442463721b00a4445c088e90e",
+  "raw_hash": "5d67fabf50beb4335ba2ee2fc6386c377e3b41e4a400259d97615578c9875290",
+  "text_bytes": 8232,
   "currency_hints": [
     "USD"
   ],
@@ -84,13 +84,13 @@
     },
     {
       "name": "ClickHouse Managed Postgres",
-      "price_raw": "$0.125",
-      "amount": 0.125,
+      "price_raw": "$0.056",
+      "amount": 0.056,
       "currency": "USD",
       "period": "hour",
       "features": [],
       "slot_prices": [
-        0.125
+        0.056
       ]
     },
     {

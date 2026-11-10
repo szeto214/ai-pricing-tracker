@@ -322,10 +322,6 @@ See full pricing details →
 Price per 1M Characters
 Model
 Price
-Muse Spark Open 816B A42B
-$1.25
-NVIDIA Parakeet TDT 0.6B V3 Realtime
-$0.0035
 Cartesia Sonic-3
 $65.00
 Kokoro-82M TTS
@@ -339,8 +335,6 @@ ByteDance Seedance 2.0
 $0.16
 FLUX 3
 $0.17
-NVIDIA Nemotron 3.5 Super VL
-$0.15
 HappyHorse 1.0 T2V
 $0.24
 HappyHorse 1.0 I2V
@@ -353,6 +347,8 @@ HappyHorse 1.1 I2V
 $0.14
 HappyHorse 1.1 R2V
 $0.14
+Wan 2.7 Video Edit
+$0.10
 Vidu Q1
 $0.22
 Qwen3.6-Plus
@@ -371,6 +367,8 @@ Price per audio minute
 Batch API price
 Model
 Price
+NVIDIA Parakeet TDT 0.6B V3 Realtime
+$0.0035
 NVIDIA Nemotron 3 ASR Streaming 0.6B
 $0.0015
 NVIDIA Parakeet TDT 0.6B v3

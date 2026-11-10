@@ -6,9 +6,9 @@
   "url": "https://www.netlify.com/pricing/",
   "final_url": "https://www.netlify.com/pricing/",
   "parser_version": 4,
-  "content_hash": "d41fe7f0033da0a41743910fa7b8cabc8f4cafde793f4663b8e800b6737c2fb8",
-  "raw_hash": "b28b80889326488104fce0419190700adb2504bb3c6632b46943631ba8fe01d2",
-  "text_bytes": 16221,
+  "content_hash": "2327f09fa79c702af9757c908936bf2c8708b678ad5c87867fd49d71bfe564f9",
+  "raw_hash": "7b60f7c3479e30145b733481c780cd8225652021a8cf361a61563588e6358f1f",
+  "text_bytes": 16171,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -314,8 +314,8 @@
         [
           "Members Trigger deploys on Netlify or log into the Netlify platform UI. Sites connected to public repos will not have membership requirements for deploys.",
           "Limited to 1 free member, with free & unlimited Git Contributors on public repos.",
-          "$9/month $12/month $15/month See pricing in your dashboard for 1 member, with free & unlimited Git Contributors on public repos.",
-          "$20/month $20/month $25/month See pricing in your dashboard for unlimited members, with free & unlimited Git Contributors on all repos.",
+          "$ 9 /month See pricing in your dashboard for 1 member, with free & unlimited Git Contributors on public repos.",
+          "$ 20 /month See pricing in your dashboard for unlimited members, with free & unlimited Git Contributors on all repos.",
           "Custom"
         ],
         [

@@ -431,25 +431,31 @@ Get started
 GPU
 Per hour
 Per second
+B200
+$
+9.59
+/GPU/hr
+B200
 H200 SXM
 $
 6.35
-/hr
+/GPU/hr
 H200 SXM
+H100 SXM
+$
+4.79
+/GPU/hr
+H100 SXM
 A100 SXM
 $
 2.15
-/hr
+/GPU/hr
 A100 SXM
-L40S
-Contact sales
-L40S
-H100 SXM
-Contact sales
-H100 SXM
-B200
-Contact sales
-B200
+B300
+$
+10.79
+/GPU/hr
+B300
 Thank you! Your submission has been received!
 Oops! Something went wrong while submitting the form.
 Reserved Clusters
@@ -461,21 +467,24 @@ GPU
 6mo
 12mo
 12mo+
-H200 SXM
-Contact sales
-H200 SXM
-A100 SXM
-Contact sales
-A100 SXM
-L40S
-Contact sales
-L40S
-H100 SXM
-Contact sales
-H100 SXM
 B200
 Contact sales
 B200
+H200 SXM
+Contact sales
+H200 SXM
+H100 SXM
+Contact sales
+H100 SXM
+A100 SXM
+Contact sales
+A100 SXM
+B300
+Contact sales
+B300
+L40S
+Contact sales
+L40S
 Thank you! Your submission has been received!
 Oops! Something went wrong while submitting the form.
 Storage

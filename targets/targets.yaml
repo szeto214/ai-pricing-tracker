@@ -537,7 +537,7 @@ targets:
   - {slug: deepseek,     name: DeepSeek,          vendor: DeepSeek,     category: ai-api, url: "https://api-docs.deepseek.com/quick_start/pricing"}
   - {slug: cerebras,     name: Cerebras,          vendor: Cerebras,     category: ai-api, url: "https://www.cerebras.ai/pricing"}
   - {slug: nebius,       name: Nebius AI Studio,  vendor: Nebius,       category: ai-api, url: "https://nebius.com/prices"}
-  - {slug: writer,       name: Writer,            vendor: Writer,       category: ai-api, url: "https://writer.com/plans/", render: js}
+  - {slug: writer,       name: Writer,            vendor: Writer,       category: ai-api, url: "https://writer.com/plans/", render: js, enabled: false, notes: "10/11/2026: NOL baris harga dalam 75 hari — tidak sekali pun. Diperiksa ke arsip mentah: teks halamannya 8.163 karakter dan TIDAK memuat satu pun angka berawalan mata uang, jadi ini bukan celah pembacaan melainkan halaman yang memang tanpa harga (semuanya lewat sales). render js sudah dipakai sejak awal dan halamannya merender penuh (bukan cangkang). Mengambilnya tiap hari tanpa hasil melanggar semangat §9 etika no. 2 — sama seperti newrelic 14/10 dan scaleway 08/11. Slug DIPERTAHANKAN; aktifkan lagi kalau Writer menerbitkan harga."}
   - {slug: perplexity-api, name: Perplexity API,  vendor: Perplexity,   category: ai-api, url: "https://docs.perplexity.ai/getting-started/pricing"}
   - {slug: voyage-ai,    name: Voyage AI,         vendor: Voyage,       category: ai-api, url: "https://docs.voyageai.com/docs/pricing"}
   - {slug: fal,          name: fal.ai,            vendor: fal,          category: ai-api, url: "https://fal.ai/pricing"}

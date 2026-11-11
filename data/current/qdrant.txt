@@ -194,7 +194,6 @@ Encryption at Rest and in Transit
 Depends on chosen infrastructure
 Disk Encryption with Custom Key
 Depends on chosen infrastructure
-(AWS and GCP only)
 Private VPC Links
 N/A
 Enterprise SSO Authentication

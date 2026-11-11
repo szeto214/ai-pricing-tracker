@@ -6,9 +6,9 @@
   "url": "https://ghost.org/pricing/",
   "final_url": "https://ghost.org/pricing/",
   "parser_version": 4,
-  "content_hash": "62866ec51bfc8a71e3377fa082197c4a4e8cbed5f5e8c023fc2412a362b99aa0",
-  "raw_hash": "dceea7bfd353e69c93f59afcff57b9cc906f1b2bd9ef94e58095d40c34b74020",
-  "text_bytes": 15117,
+  "content_hash": "101ecc81f0ebdbf02f6f01f8ae64978c2f54e4dd4d441f813082dea6ffcb53c9",
+  "raw_hash": "5290352d40694652b8026e95d9e6b6a18f89fa070de313ae9c42c945a79e6be2",
+  "text_bytes": 15341,
   "currency_hints": [
     "USD"
   ],
@@ -141,6 +141,13 @@
         [
           "Community comments Community comments Enable commenting on your posts with options to restrict to\nmembers only or paid members only, fostering a healthy\ncommuni",
           "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Custom fields Custom fields Store your own details about each member, like their company or\nlocation. Filter by them, import them from a CSV, and let\nmembers fi",
+          "– No",
           "Yes",
           "Yes",
           "Yes"

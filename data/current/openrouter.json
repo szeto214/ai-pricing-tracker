@@ -6,13 +6,25 @@
   "url": "https://openrouter.ai/models",
   "final_url": "https://openrouter.ai/models",
   "parser_version": 4,
-  "content_hash": "c708b5db7bd4bf83ece44188880f50a506ab4fff11fcab332cbc44d7b91db964",
-  "raw_hash": "f52f8e9bb903ad92a85228ea2432964e460e1f719002680e92e0706f13c29ae5",
-  "text_bytes": 10876,
+  "content_hash": "8ed18a4ce06dbeaa91a60cacdc91b727f9fccc2639fa769ac4c333b89f051e86",
+  "raw_hash": "42defa90d493b59d06b1eb197aa660dcc784d85b4c87c15d3fafd67a1ef34282",
+  "text_bytes": 9723,
   "currency_hints": [],
-  "extractor": "none",
-  "confidence": "none",
-  "plans": [],
+  "extractor": "dom",
+  "confidence": "low",
+  "plans": [
+    {
+      "name": "SpaceXAI: Grok STT 2.0",
+      "price_raw": "$0.000028",
+      "amount": 2.8e-05,
+      "currency": "USD",
+      "period": "second",
+      "features": [],
+      "slot_prices": [
+        2.8e-05
+      ]
+    }
+  ],
   "models": [],
   "tables": [],
   "extract_errors": []

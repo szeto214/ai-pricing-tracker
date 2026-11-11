@@ -6,9 +6,9 @@
   "url": "https://www.framer.com/pricing/",
   "final_url": "https://www.framer.com/pricing",
   "parser_version": 4,
-  "content_hash": "3b4cb38b3e22ebf8042b3e2c4834c4c7e5ae9ab8375695dbfd502218ec65e215",
-  "raw_hash": "6ab775472d7b78a119c2f2af6fe48b443f124758fb9d870133e74cd507a863ed",
-  "text_bytes": 9932,
+  "content_hash": "6bf408d77783445231f3f20b367c3ed10cc9692ab8dd98bf0bf3ed863901e2f7",
+  "raw_hash": "747b0e8ef5be851f9f481fbd9f10d0f90c7efbf0610f724397a4806941665b5e",
+  "text_bytes": 9933,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -21,6 +21,17 @@
       "period": null,
       "features": [],
       "slot_prices": []
+    },
+    {
+      "name": "Free",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [],
+      "slot_prices": [
+        0.0
+      ]
     },
     {
       "name": "Basic",
@@ -42,17 +53,6 @@
       "features": [],
       "slot_prices": [
         30.0
-      ]
-    },
-    {
-      "name": "Free",
-      "price_raw": "$0",
-      "amount": 0.0,
-      "currency": "USD",
-      "period": "month",
-      "features": [],
-      "slot_prices": [
-        0.0
       ]
     },
     {

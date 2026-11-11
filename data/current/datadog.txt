@@ -3305,6 +3305,36 @@ What counts as a browser test run?
 Each simulation of a web transaction (up to 25 steps) counts as a single browser test run. A single test containing 50 steps would count as two test runs on each execution. For example, running a 60-step test (three test runs) every 15 minutes from five different locations and two different devices equates to 120 test runs in one hour.
 How do subtests count toward billing?
 Subtests are simply a set of steps within a browser test. Therefore, we count a subtest as part of the overall browser test execution. For example, if you set up a browser test with only three subtests and each subtest had five steps, that would amount to a total of 15 steps, or one browser test run.
+End User Device Monitoring
+Run IT Operations with the full picture, from signal to fix
+Starting At
+$
+5
+Per device,
+per month*
+Start Free Trial
+Fleet-wide visibility into device health, performance, and software
+Bits investigation for automated root cause analysis
+Rank support cases based on severity and number of impacted devices
+Sync and update cards in ticketing systems like ServiceNow and Jira
+*Billed annually or $
+7.20
+on-demand
+Start Free Trial
+Features
+See fleet health by device type and OS
+Pinpoint issues behind poor Zoom and Teams call quality
+Track software and OS versions to plan licenses and upgrades
+Troubleshoot devices with process, crash, Wi-Fi, and network path data
+Group related device issues into one case to avoid repeated investigations
+Get root-cause summaries, evidence, and recommended fixes from AI investigations
+Includes
+Windows and Mac-compatible integrations
+Custom metrics and basic dynamic Network Path allotments
+Support Plans & Post Sales Services
+From basic plans to bespoke offerings, Datadog offers the right level of support & services for any organization.
+Support plans
+Services & enablement
 Network Monitoring
 Unify network visibility across your clouds, applications, and devices
 Cloud Network Monitoring
@@ -3361,7 +3391,7 @@ Monitoring
 90-day retention
 Greater than 90 days
 $
-0.65
+0.15
 Per million records,
 per month*
 Contact Us for Pricing

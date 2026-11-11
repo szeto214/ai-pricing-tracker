@@ -52,8 +52,8 @@ $0.15
 (cached)
 $4.25
 Tev1 4B Experimental
-$0.04
-Free
+$0.042
+$0.00
 Beam 1.0 501B A23B
 $0.40
 $0.04
@@ -74,11 +74,6 @@ $2.00
 $0.20
 (cached)
 $10.00
-MiniMax M3
-$0.30
-$0.06
-(cached)
-$1.20
 Qwen3.7-Plus
 $0.32
 $1.28
@@ -88,8 +83,8 @@ $0.26
 (cached)
 $4.40
 Ternary Bonsai 27B
-$0.00
-$0.00
+Free
+Free
 DeepSeek V4 Pro 0813
 $1.32
 $0.13
@@ -173,17 +168,12 @@ $2.00
 $0.20
 (cached)
 $10.00
-MiniMax M3
-$0.30
-$0.06
-(cached)
-$1.20
 Qwen3.7-Plus
 $0.32
 $1.28
 Ternary Bonsai 27B
-$0.00
-$0.00
+Free
+Free
 Qwen3.8 Flash
 $0.15
 $0.47
@@ -213,10 +203,6 @@ Model
 Price per mp
 Price per iMAGE
 Default steps
-Qwen3.7-Plus
--
--
--
 GPT Image 2
 -
 $0.053
@@ -237,17 +223,21 @@ Ideogram 4.0
 -
 $0.06
 -
+Seedream 5.0 Lite
+-
+$0.035
+-
 Gemini 3.1 Flash Image (Nano Banana 2)
 -
-$0.05
+$0.04657
 -
 Qwen Image 2.0 Pro
 -
-$0.08
+$0.075
 -
 Qwen Image 2.0
 -
-$0.04
+$0.035
 -
 Gemini 3.1 Flash-Lite Image (Nano Banana 2 Lite)
 -
@@ -278,8 +268,8 @@ $0.04
 -
 -
 Juggernaut Pro Flux
-$0.0049
 -
+$0.0049
 -
 GPT Image 1.5
 -
@@ -290,32 +280,32 @@ $0.08
 -
 28
 SD XL
+-
 $0.0019
 -
--
 Ideogram 3.0
+-
 $0.06
 -
--
 Juggernaut Lightning Flux
+-
 $0.0017
 -
--
 Qwen Image
+-
 $0.0058
 -
--
 ByteDance Seedream 4.0
-$0.03
 -
+$0.03
 -
 Gemini Flash Image 2.5 (Nano Banana)
 -
 $0.039
 -
 ByteDance Seedream 3.0
-$0.018
 -
+$0.018
 -
 Prices include default steps shown above. Additional costs apply only when exceeding default steps.
 See full pricing details →
@@ -324,8 +314,12 @@ Model
 Price
 Cartesia Sonic-3
 $65.00
+Orpheus TTS
+$15.00
 Kokoro-82M TTS
 $4.00
+Cartesia Sonic
+$65.00
 Price per video
 Model
 Price
@@ -335,6 +329,8 @@ ByteDance Seedance 2.0
 $0.16
 FLUX 3
 $0.17
+MiniMax H3
+$0.1391
 HappyHorse 1.0 T2V
 $0.24
 HappyHorse 1.0 I2V
@@ -347,33 +343,47 @@ HappyHorse 1.1 I2V
 $0.14
 HappyHorse 1.1 R2V
 $0.14
-Wan 2.7 Video Edit
+Google Veo 3.1
+$0.08
+Google Veo 3.1 Lite
+$0.05
+PixVerse v6
+$0.09
+Vidu Q3
+$0.0975
+Vidu Q3 Turbo
+$0.195
+PixVerse v5.6
+$0.1326
+Wan 2.7 Reference-to-Video
 $0.10
-Vidu Q1
-$0.22
-Qwen3.6-Plus
-$0.50
+Wan 2.7 Image-to-Video
+$0.10
+Wan 2.7 Text-to-Video
+$0.10
 PixVerse v5
 $0.30
 ByteDance Seedance 1.0 Lite
-$0.14
+$0.143
 ByteDance Seedance 1.0 Pro
 $0.57
 MiniMax Hailuo 02
 $0.49
 MiniMax 01 Director
 $0.28
+Vidu Q1
+$0.22
 Price per audio minute
 Batch API price
 Model
 Price
 NVIDIA Parakeet TDT 0.6B V3 Realtime
 $0.0035
-NVIDIA Nemotron 3 ASR Streaming 0.6B
-$0.0015
 NVIDIA Parakeet TDT 0.6B v3
 $0.0015
 NVIDIA Nemotron 3.5 ASR
+$0.0015
+NVIDIA Nemotron 3 ASR Streaming 0.6B
 $0.0015
 Whisper Large v3
 $0.0015
@@ -458,28 +468,6 @@ GB300 NVL72
 Contact us
 Contact sales
 GPU Clusters
-On-demand
-Pay as you go GPU capacity on an hourly basis.
-Hardware
-Hourly
-NVIDIA
-GB200 NVL72
-—
-NVIDIA
-GB300 NVL72
-—
-NVIDIA
-HGX B200
-$8.19
-NVIDIA
-HGX B300
-$9.99
-NVIDIA
-HGX H100
-$3.99
-NVIDIA
-HGX H200
-$5.99
 On-demand hourly rates and reserved capacity
 All prices are per GPU per hour.
 Hardware
@@ -490,47 +478,60 @@ Pay as you go
 Pay as you go
 3-30 days
 31-90 days
-91-180 days
-181+ days
+91+ days
 NVIDIA
 HGX H100
 $1.99
+Checking...
 $3.99
+Checking...
 $3.69
 $3.45
-$3.19
-Contact us
+Request Capacity
 NVIDIA
 HGX H200
 $2.99
+Checking...
 $5.99
+Checking...
 $4.99
 $4.15
-$3.99
-Contact us
+Request Capacity
 NVIDIA
 HGX B200
 $4.09
+Checking...
 $8.19
+Checking...
 $7.99
 $7.79
-$6.79
-Contact us
-NVIDIA
-GB200 NVL72
-—
-—
-Contact us
-NVIDIA
-GB300 NVL72
-—
-—
-Contact us
+Request Capacity
 NVIDIA
 HGX B300
 $4.99
+Checking...
 $9.99
-Contact us
+Checking...
+Request Capacity
+NVIDIA
+GB200 NVL72
+—
+Checking...
+—
+Checking...
+Request Capacity
+NVIDIA
+GB300 NVL72
+—
+Checking...
+—
+Checking...
+Request Capacity
+Capacity is checked live and refreshes every minute.
+Need more GPU capacity?
+Reserve a dedicated cluster for 3–90 days, or talk to our team about GB200 and GB300 NVL72, larger clusters and longer terms.
+Contact Us
+Sign In
 Sandbox
 Code Sandbox
 Customize a deployment of VM sandboxes for large development environments.
@@ -742,3 +743,45 @@ $4.00
 Price is based on the sum of tokens processed in the fine-tuning training dataset (training dataset size × number of epochs) plus any tokens in the optional evaluation dataset (validation dataset size × number of evaluations). Each job is subject to the minimum charge shown for its model.
 No matching models
 Trusted by
+MiniMax M3.1 Flash
+US geo-pinned
+$0.1875
+$0.01875
+(cached)
+$0.75
+DeepSeek V4 Pro 0813
+US geo-pinned
+$1.65
+$0.1625
+(cached)
+$4.95
+DeepSeek V4.1 Flash 1017
+US geo-pinned
+$0.375
+$0.0075
+(cached)
+$1.50
+DeepSeek V4.1 Flash
+US geo-pinned
+$0.375
+$0.0075
+(cached)
+$1.50
+GLM-5.3-Flash
+US geo-pinned
+$0.1875
+$0.0375
+(cached)
+$0.625
+Kimi K3
+US geo-pinned
+$3.75
+$0.375
+(cached)
+$18.75
+GLM-5.3
+US geo-pinned
+$1.75
+$0.325
+(cached)
+$5.50

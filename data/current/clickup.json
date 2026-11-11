@@ -6,9 +6,9 @@
   "url": "https://clickup.com/pricing",
   "final_url": "https://clickup.com/pricing",
   "parser_version": 4,
-  "content_hash": "0b61b90e02995a167a1cb3642197574a68b02037c1ccb6205a664dc7854c9e6f",
-  "raw_hash": "e8e62ed08d68f047155c6296a99c4dcac1ea3883d425b0c0a4f46cd7969c5cff",
-  "text_bytes": 17056,
+  "content_hash": "16bb98c0c31f8754a0b2f067d6204da477e5b0009bf157b6ba9fa04ca671c4a1",
+  "raw_hash": "aee9291eb43007924d8baa890dda7a95c19ea6d4e98b7f0d4d3243d8efe5ab6b",
+  "text_bytes": 17036,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -302,7 +302,7 @@
           "AI Credits"
         ],
         [
-          "Video & Audio Generation",
+          "Video generation",
           "AI Credits",
           "AI Credits",
           "AI Credits",
@@ -326,7 +326,7 @@
           "Add-on eligible"
         ],
         [
-          "AI governance Coming soon",
+          "AI governance",
           "Feature trial",
           "Feature trial",
           "Feature trial",

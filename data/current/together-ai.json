@@ -6,9 +6,9 @@
   "url": "https://www.together.ai/pricing",
   "final_url": "https://www.together.ai/pricing",
   "parser_version": 4,
-  "content_hash": "8be09c88e7be5ca2f80845d8b0582245ddf59ab4c8de3cb1e32fa0a2674c7b87",
-  "raw_hash": "482476d1d32aac22abbe4feb1b9f6e356e8f0712c34ddca7f67b2e9a55c3efb8",
-  "text_bytes": 9023,
+  "content_hash": "45c4d602113708a25256969d11649005b9aed348e4752ea5d7520d318bb24e96",
+  "raw_hash": "9d816b96aba8aa59462e12ab0fbd1d8cdd516c54e5417da02d1fe4f56d4e3daf",
+  "text_bytes": 9780,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -160,24 +160,672 @@
   ],
   "models": [
     {
-      "key": "nvidia parakeet tdt 0.6b v3 realtime|k2",
-      "model": "NVIDIA Parakeet TDT 0.6B V3 Realtime",
+      "key": "gpt image 2|k4",
+      "model": "GPT Image 2",
       "prices": {
-        "kolom 2": {
-          "raw": "$0.0035",
-          "amount": 0.0035
+        "kolom 3": {
+          "raw": "$0.053",
+          "amount": 0.053
         }
       },
       "currency": "USD",
       "unit": ""
     },
     {
-      "key": "nvidia nemotron 3 asr streaming 0.6b|k2",
-      "model": "NVIDIA Nemotron 3 ASR Streaming 0.6B",
+      "key": "wan 2.6 image|k4",
+      "model": "Wan 2.6 Image",
+      "prices": {
+        "kolom 3": {
+          "raw": "$0.03",
+          "amount": 0.03
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "nano banana pro (gemini 3 pro image)|k4",
+      "model": "Nano Banana Pro (Gemini 3 Pro Image)",
+      "prices": {
+        "kolom 3": {
+          "raw": "$0.134",
+          "amount": 0.134
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "flux.2 [pro]|k4",
+      "model": "FLUX.2 [pro]",
+      "prices": {
+        "kolom 3": {
+          "raw": "$0.03",
+          "amount": 0.03
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "ideogram 4.0|k4",
+      "model": "Ideogram 4.0",
+      "prices": {
+        "kolom 3": {
+          "raw": "$0.06",
+          "amount": 0.06
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "seedream 5.0 lite|k4",
+      "model": "Seedream 5.0 Lite",
+      "prices": {
+        "kolom 3": {
+          "raw": "$0.035",
+          "amount": 0.035
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "gemini 3.1 flash image (nano banana 2)|k4",
+      "model": "Gemini 3.1 Flash Image (Nano Banana 2)",
+      "prices": {
+        "kolom 3": {
+          "raw": "$0.04657",
+          "amount": 0.04657
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "qwen image 2.0 pro|k4",
+      "model": "Qwen Image 2.0 Pro",
+      "prices": {
+        "kolom 3": {
+          "raw": "$0.075",
+          "amount": 0.075
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "qwen image 2.0|k4",
+      "model": "Qwen Image 2.0",
+      "prices": {
+        "kolom 3": {
+          "raw": "$0.035",
+          "amount": 0.035
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "gemini 3.1 flash-lite image (nano banana 2 lite)|k4",
+      "model": "Gemini 3.1 Flash-Lite Image (Nano Banana 2 Lite)",
+      "prices": {
+        "kolom 3": {
+          "raw": "$0.069",
+          "amount": 0.069
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "p-image-ideogram|k4",
+      "model": "P-Image-Ideogram",
+      "prices": {
+        "kolom 3": {
+          "raw": "$0.00225",
+          "amount": 0.00225
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "flux.2 [dev]|k4",
+      "model": "FLUX.2 [dev]",
+      "prices": {
+        "kolom 3": {
+          "raw": "$0.0154",
+          "amount": 0.0154
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "flux.2 [flex]|k4",
+      "model": "FLUX.2 [flex]",
+      "prices": {
+        "kolom 3": {
+          "raw": "$0.03",
+          "amount": 0.03
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "flux.2 [max]|k4",
+      "model": "FLUX.2 [max]",
       "prices": {
         "kolom 2": {
-          "raw": "$0.0015",
-          "amount": 0.0015
+          "raw": "$0.070",
+          "amount": 0.07
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "flux.1 kontext [pro]|k4",
+      "model": "FLUX.1 Kontext [pro]",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.04",
+          "amount": 0.04
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "flux1.1 [pro]|k4",
+      "model": "FLUX1.1 [pro]",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.04",
+          "amount": 0.04
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "juggernaut pro flux|k4",
+      "model": "Juggernaut Pro Flux",
+      "prices": {
+        "kolom 3": {
+          "raw": "$0.0049",
+          "amount": 0.0049
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "gpt image 1.5|k4",
+      "model": "GPT Image 1.5",
+      "prices": {
+        "kolom 3": {
+          "raw": "$0.034",
+          "amount": 0.034
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "flux.1 kontext [max]|k4",
+      "model": "FLUX.1 Kontext [max]",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.08",
+          "amount": 0.08
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "sd xl|k4",
+      "model": "SD XL",
+      "prices": {
+        "kolom 3": {
+          "raw": "$0.0019",
+          "amount": 0.0019
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "ideogram 3.0|k4",
+      "model": "Ideogram 3.0",
+      "prices": {
+        "kolom 3": {
+          "raw": "$0.06",
+          "amount": 0.06
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "juggernaut lightning flux|k4",
+      "model": "Juggernaut Lightning Flux",
+      "prices": {
+        "kolom 3": {
+          "raw": "$0.0017",
+          "amount": 0.0017
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "qwen image|k4",
+      "model": "Qwen Image",
+      "prices": {
+        "kolom 3": {
+          "raw": "$0.0058",
+          "amount": 0.0058
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "bytedance seedream 4.0|k4",
+      "model": "ByteDance Seedream 4.0",
+      "prices": {
+        "kolom 3": {
+          "raw": "$0.03",
+          "amount": 0.03
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "gemini flash image 2.5 (nano banana)|k4",
+      "model": "Gemini Flash Image 2.5 (Nano Banana)",
+      "prices": {
+        "kolom 3": {
+          "raw": "$0.039",
+          "amount": 0.039
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "bytedance seedream 3.0|k4",
+      "model": "ByteDance Seedream 3.0",
+      "prices": {
+        "kolom 3": {
+          "raw": "$0.018",
+          "amount": 0.018
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "cartesia sonic-3|k2",
+      "model": "Cartesia Sonic-3",
+      "prices": {
+        "kolom 2": {
+          "raw": "$65.00",
+          "amount": 65.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "orpheus tts|k2",
+      "model": "Orpheus TTS",
+      "prices": {
+        "kolom 2": {
+          "raw": "$15.00",
+          "amount": 15.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "kokoro-82m tts|k2",
+      "model": "Kokoro-82M TTS",
+      "prices": {
+        "kolom 2": {
+          "raw": "$4.00",
+          "amount": 4.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "cartesia sonic|k2",
+      "model": "Cartesia Sonic",
+      "prices": {
+        "kolom 2": {
+          "raw": "$65.00",
+          "amount": 65.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "bytedance seedance 2.5|k2",
+      "model": "ByteDance Seedance 2.5",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.115",
+          "amount": 0.115
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "bytedance seedance 2.0|k2",
+      "model": "ByteDance Seedance 2.0",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.16",
+          "amount": 0.16
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "flux 3|k2",
+      "model": "FLUX 3",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.17",
+          "amount": 0.17
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "minimax h3|k2",
+      "model": "MiniMax H3",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.1391",
+          "amount": 0.1391
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "happyhorse 1.0 t2v|k2",
+      "model": "HappyHorse 1.0 T2V",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.24",
+          "amount": 0.24
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "happyhorse 1.0 i2v|k2",
+      "model": "HappyHorse 1.0 I2V",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.24",
+          "amount": 0.24
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "happyhorse 1.0 r2v|k2",
+      "model": "HappyHorse 1.0 R2V",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.24",
+          "amount": 0.24
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "happyhorse 1.1 t2v|k2",
+      "model": "HappyHorse 1.1 T2V",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.14",
+          "amount": 0.14
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "happyhorse 1.1 i2v|k2",
+      "model": "HappyHorse 1.1 I2V",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.14",
+          "amount": 0.14
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "happyhorse 1.1 r2v|k2",
+      "model": "HappyHorse 1.1 R2V",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.14",
+          "amount": 0.14
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "google veo 3.1|k2",
+      "model": "Google Veo 3.1",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.08",
+          "amount": 0.08
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "google veo 3.1 lite|k2",
+      "model": "Google Veo 3.1 Lite",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.05",
+          "amount": 0.05
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "pixverse v6|k2",
+      "model": "PixVerse v6",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.09",
+          "amount": 0.09
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "vidu q3|k2",
+      "model": "Vidu Q3",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.0975",
+          "amount": 0.0975
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "vidu q3 turbo|k2",
+      "model": "Vidu Q3 Turbo",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.195",
+          "amount": 0.195
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "pixverse v5.6|k2",
+      "model": "PixVerse v5.6",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.1326",
+          "amount": 0.1326
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "wan 2.7 reference-to-video|k2",
+      "model": "Wan 2.7 Reference-to-Video",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.10",
+          "amount": 0.1
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "wan 2.7 image-to-video|k2",
+      "model": "Wan 2.7 Image-to-Video",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.10",
+          "amount": 0.1
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "wan 2.7 text-to-video|k2",
+      "model": "Wan 2.7 Text-to-Video",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.10",
+          "amount": 0.1
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "pixverse v5|k2",
+      "model": "PixVerse v5",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.30",
+          "amount": 0.3
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "bytedance seedance 1.0 lite|k2",
+      "model": "ByteDance Seedance 1.0 Lite",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.143",
+          "amount": 0.143
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "bytedance seedance 1.0 pro|k2",
+      "model": "ByteDance Seedance 1.0 Pro",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.57",
+          "amount": 0.57
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "minimax hailuo 02|k2",
+      "model": "MiniMax Hailuo 02",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.49",
+          "amount": 0.49
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "minimax 01 director|k2",
+      "model": "MiniMax 01 Director",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.28",
+          "amount": 0.28
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "vidu q1|k2",
+      "model": "Vidu Q1",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.22",
+          "amount": 0.22
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "nvidia parakeet tdt 0.6b v3 realtime|k2",
+      "model": "NVIDIA Parakeet TDT 0.6B V3 Realtime",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.0035",
+          "amount": 0.0035
         }
       },
       "currency": "USD",
@@ -198,6 +846,18 @@
     {
       "key": "nvidia nemotron 3.5 asr|k2",
       "model": "NVIDIA Nemotron 3.5 ASR",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.0015",
+          "amount": 0.0015
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "nvidia nemotron 3 asr streaming 0.6b|k2",
+      "model": "NVIDIA Nemotron 3 ASR Streaming 0.6B",
       "prices": {
         "kolom 2": {
           "raw": "$0.0015",
@@ -1106,6 +1766,118 @@
       },
       "currency": "USD",
       "unit": ""
+    },
+    {
+      "key": "minimax m3.1 flash us geo-pinned|k3",
+      "model": "MiniMax M3.1 Flash US geo-pinned",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.1875",
+          "amount": 0.1875
+        },
+        "kolom 3": {
+          "raw": "$0.75",
+          "amount": 0.75
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "deepseek v4 pro 0813 us geo-pinned|k3",
+      "model": "DeepSeek V4 Pro 0813 US geo-pinned",
+      "prices": {
+        "kolom 2": {
+          "raw": "$1.65",
+          "amount": 1.65
+        },
+        "kolom 3": {
+          "raw": "$4.95",
+          "amount": 4.95
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "deepseek v4.1 flash 1017 us geo-pinned|k3",
+      "model": "DeepSeek V4.1 Flash 1017 US geo-pinned",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.375",
+          "amount": 0.375
+        },
+        "kolom 3": {
+          "raw": "$1.50",
+          "amount": 1.5
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "deepseek v4.1 flash us geo-pinned|k3",
+      "model": "DeepSeek V4.1 Flash US geo-pinned",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.375",
+          "amount": 0.375
+        },
+        "kolom 3": {
+          "raw": "$1.50",
+          "amount": 1.5
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "glm-5.3-flash us geo-pinned|k3",
+      "model": "GLM-5.3-Flash US geo-pinned",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.1875",
+          "amount": 0.1875
+        },
+        "kolom 3": {
+          "raw": "$0.625",
+          "amount": 0.625
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "kimi k3 us geo-pinned|k3",
+      "model": "Kimi K3 US geo-pinned",
+      "prices": {
+        "kolom 2": {
+          "raw": "$3.75",
+          "amount": 3.75
+        },
+        "kolom 3": {
+          "raw": "$18.75",
+          "amount": 18.75
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "glm-5.3 us geo-pinned|k3",
+      "model": "GLM-5.3 US geo-pinned",
+      "prices": {
+        "kolom 2": {
+          "raw": "$1.75",
+          "amount": 1.75
+        },
+        "kolom 3": {
+          "raw": "$5.50",
+          "amount": 5.5
+        }
+      },
+      "currency": "USD",
+      "unit": ""
     }
   ],
   "tables": [
@@ -1134,8 +1906,8 @@
         ],
         [
           "Tev1 4B Experimental",
-          "$0.04",
-          "Free"
+          "$0.042",
+          "$0.00"
         ],
         [
           "Beam 1.0 501B A23B",
@@ -1158,11 +1930,6 @@
           "$10.00"
         ],
         [
-          "MiniMax M3",
-          "$0.30 $0.06 (cached)",
-          "$1.20"
-        ],
-        [
           "Qwen3.7-Plus",
           "$0.32",
           "$1.28"
@@ -1174,8 +1941,8 @@
         ],
         [
           "Ternary Bonsai 27B",
-          "$0.00",
-          "$0.00"
+          "Free",
+          "Free"
         ],
         [
           "DeepSeek V4 Pro 0813",
@@ -1273,19 +2040,14 @@
           "$10.00"
         ],
         [
-          "MiniMax M3",
-          "$0.30 $0.06 (cached)",
-          "$1.20"
-        ],
-        [
           "Qwen3.7-Plus",
           "$0.32",
           "$1.28"
         ],
         [
           "Ternary Bonsai 27B",
-          "$0.00",
-          "$0.00"
+          "Free",
+          "Free"
         ],
         [
           "Qwen3.8 Flash",
@@ -1323,12 +2085,6 @@
       "caption": "",
       "rows": [
         [
-          "Qwen3.7-Plus",
-          "-",
-          "-",
-          "-"
-        ],
-        [
           "GPT Image 2",
           "-",
           "$0.053",
@@ -1359,21 +2115,27 @@
           "-"
         ],
         [
+          "Seedream 5.0 Lite",
+          "-",
+          "$0.035",
+          "-"
+        ],
+        [
           "Gemini 3.1 Flash Image (Nano Banana 2)",
           "-",
-          "$0.05",
+          "$0.04657",
           "-"
         ],
         [
           "Qwen Image 2.0 Pro",
           "-",
-          "$0.08",
+          "$0.075",
           "-"
         ],
         [
           "Qwen Image 2.0",
           "-",
-          "$0.04",
+          "$0.035",
           "-"
         ],
         [
@@ -1420,8 +2182,8 @@
         ],
         [
           "Juggernaut Pro Flux",
-          "$0.0049",
           "-",
+          "$0.0049",
           "-"
         ],
         [
@@ -1438,32 +2200,32 @@
         ],
         [
           "SD XL",
-          "$0.0019",
           "-",
+          "$0.0019",
           "-"
         ],
         [
           "Ideogram 3.0",
-          "$0.06",
           "-",
+          "$0.06",
           "-"
         ],
         [
           "Juggernaut Lightning Flux",
-          "$0.0017",
           "-",
+          "$0.0017",
           "-"
         ],
         [
           "Qwen Image",
-          "$0.0058",
           "-",
+          "$0.0058",
           "-"
         ],
         [
           "ByteDance Seedream 4.0",
-          "$0.03",
           "-",
+          "$0.03",
           "-"
         ],
         [
@@ -1474,8 +2236,8 @@
         ],
         [
           "ByteDance Seedream 3.0",
-          "$0.018",
           "-",
+          "$0.018",
           "-"
         ]
       ]
@@ -1488,8 +2250,16 @@
           "$65.00"
         ],
         [
+          "Orpheus TTS",
+          "$15.00"
+        ],
+        [
           "Kokoro-82M TTS",
           "$4.00"
+        ],
+        [
+          "Cartesia Sonic",
+          "$65.00"
         ]
       ]
     },
@@ -1507,6 +2277,10 @@
         [
           "FLUX 3",
           "$0.17"
+        ],
+        [
+          "MiniMax H3",
+          "$0.1391"
         ],
         [
           "HappyHorse 1.0 T2V",
@@ -1533,16 +2307,40 @@
           "$0.14"
         ],
         [
-          "Wan 2.7 Video Edit",
+          "Google Veo 3.1",
+          "$0.08"
+        ],
+        [
+          "Google Veo 3.1 Lite",
+          "$0.05"
+        ],
+        [
+          "PixVerse v6",
+          "$0.09"
+        ],
+        [
+          "Vidu Q3",
+          "$0.0975"
+        ],
+        [
+          "Vidu Q3 Turbo",
+          "$0.195"
+        ],
+        [
+          "PixVerse v5.6",
+          "$0.1326"
+        ],
+        [
+          "Wan 2.7 Reference-to-Video",
           "$0.10"
         ],
         [
-          "Vidu Q1",
-          "$0.22"
+          "Wan 2.7 Image-to-Video",
+          "$0.10"
         ],
         [
-          "Qwen3.6-Plus",
-          "$0.50"
+          "Wan 2.7 Text-to-Video",
+          "$0.10"
         ],
         [
           "PixVerse v5",
@@ -1550,7 +2348,7 @@
         ],
         [
           "ByteDance Seedance 1.0 Lite",
-          "$0.14"
+          "$0.143"
         ],
         [
           "ByteDance Seedance 1.0 Pro",
@@ -1563,6 +2361,10 @@
         [
           "MiniMax 01 Director",
           "$0.28"
+        ],
+        [
+          "Vidu Q1",
+          "$0.22"
         ]
       ]
     },
@@ -1574,15 +2376,15 @@
           "$0.0035"
         ],
         [
-          "NVIDIA Nemotron 3 ASR Streaming 0.6B",
-          "$0.0015"
-        ],
-        [
           "NVIDIA Parakeet TDT 0.6B v3",
           "$0.0015"
         ],
         [
           "NVIDIA Nemotron 3.5 ASR",
+          "$0.0015"
+        ],
+        [
+          "NVIDIA Nemotron 3 ASR Streaming 0.6B",
           "$0.0015"
         ],
         [
@@ -1634,35 +2436,6 @@
       "caption": "",
       "rows": [
         [
-          "NVIDIA GB200 NVL72",
-          "—"
-        ],
-        [
-          "NVIDIA GB300 NVL72",
-          "—"
-        ],
-        [
-          "NVIDIA HGX B200",
-          "$8.19"
-        ],
-        [
-          "NVIDIA HGX B300",
-          "$9.99"
-        ],
-        [
-          "NVIDIA HGX H100",
-          "$3.99"
-        ],
-        [
-          "NVIDIA HGX H200",
-          "$5.99"
-        ]
-      ]
-    },
-    {
-      "caption": "",
-      "rows": [
-        [
           "Hardware",
           "Preemptible Compute",
           "ON-Demand",
@@ -1673,53 +2446,49 @@
           "Pay as you go",
           "3-30 days",
           "31-90 days",
-          "91-180 days",
-          "181+ days"
+          "91+ days"
         ],
         [
           "NVIDIA HGX H100",
-          "$1.99",
-          "$3.99",
+          "$1.99 Checking…",
+          "$3.99 Checking…",
           "$3.69",
           "$3.45",
-          "$3.19",
-          "Contact us"
+          "Request Capacity"
         ],
         [
           "NVIDIA HGX H200",
-          "$2.99",
-          "$5.99",
+          "$2.99 Checking…",
+          "$5.99 Checking…",
           "$4.99",
           "$4.15",
-          "$3.99",
-          "Contact us"
+          "Request Capacity"
         ],
         [
           "NVIDIA HGX B200",
-          "$4.09",
-          "$8.19",
+          "$4.09 Checking…",
+          "$8.19 Checking…",
           "$7.99",
           "$7.79",
-          "$6.79",
-          "Contact us"
-        ],
-        [
-          "NVIDIA GB200 NVL72",
-          "—",
-          "—",
-          "Contact us"
-        ],
-        [
-          "NVIDIA GB300 NVL72",
-          "—",
-          "—",
-          "Contact us"
+          "Request Capacity"
         ],
         [
           "NVIDIA HGX B300",
-          "$4.99",
-          "$9.99",
-          "Contact us"
+          "$4.99 Checking…",
+          "$9.99 Checking…",
+          "Request Capacity"
+        ],
+        [
+          "NVIDIA GB200 NVL72",
+          "— Checking…",
+          "— Checking…",
+          "Request Capacity"
+        ],
+        [
+          "NVIDIA GB300 NVL72",
+          "— Checking…",
+          "— Checking…",
+          "Request Capacity"
         ]
       ]
     },
@@ -1995,6 +2764,46 @@
           "$1.16",
           "$2.88",
           "$4.00"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "MiniMax M3.1 Flash US geo-pinned",
+          "$0.1875 $0.01875 (cached)",
+          "$0.75"
+        ],
+        [
+          "DeepSeek V4 Pro 0813 US geo-pinned",
+          "$1.65 $0.1625 (cached)",
+          "$4.95"
+        ],
+        [
+          "DeepSeek V4.1 Flash 1017 US geo-pinned",
+          "$0.375 $0.0075 (cached)",
+          "$1.50"
+        ],
+        [
+          "DeepSeek V4.1 Flash US geo-pinned",
+          "$0.375 $0.0075 (cached)",
+          "$1.50"
+        ],
+        [
+          "GLM-5.3-Flash US geo-pinned",
+          "$0.1875 $0.0375 (cached)",
+          "$0.625"
+        ],
+        [
+          "Kimi K3 US geo-pinned",
+          "$3.75 $0.375 (cached)",
+          "$18.75"
+        ],
+        [
+          "GLM-5.3 US geo-pinned",
+          "$1.75 $0.325 (cached)",
+          "$5.50"
         ]
       ]
     }

@@ -208,7 +208,7 @@ Support customers instantly or over time across your website, app, or social cha
 Offer phone support to your customers
 Provide live phone support to your customers with toll-free and international numbers, voicemail, extensions, and more for the complete phone solution.
 Run your operations with an AI assistant
-Admin copilot proactively surfaces personalized insights and recommends workflows and set up improvements. Admins can ask questions and apply approved changes, optimizing operations without the busywork.
+Admin Copilot proactively surfaces personalized insights and recommends workflow, setup, and knowledge improvements. Admins can ask questions and apply approved changes across these areas, optimizing operations without the busywork.
 Turn ideas into apps
 AI-powered App Builder turns ideas into apps using conversational prompts—no technical expertise required. Boost agent productivity with custom apps that streamline workflows, integrate with third party platforms and internal systems, and reduce manual work.
 Enhance your agent responses with AI writing tools
@@ -1014,6 +1014,11 @@ Flag & create knowledge
 Agents can create and share new articles using predefined templates.
 —
 —
+Admin copilot
+Admin copilot
+Identify knowledge gaps and improve your knowledge base with personalized insights and recommended actions.
+—
+—
 Knowledge connectors
 Bring knowledge from external sources directly into your Zendesk knowledge base, with out-of-the-box connectors.
 Learn more.
@@ -1092,65 +1097,85 @@ sharing valuable knowledge. Designate roles to encourage more credible and trans
 —
 —
 Agent workspace with customer context
-Unified agent workspace
-A unified, conversation-focused agent workspace helps your team manage conversations and their status across all web, mobile and social channels in one single view.
-Approvals
-Easily make and manage approval requests directly from the ticket interface, automatically tracking all decisions for compliance.
-—
-—
-Tasks
-Empower service teams to deliver accurate, high-quality service with easy-to-follow task list templates that guide them through the right steps for common request types.
-—
-—
-Translated interface
-Agents can work in their preferred language, with a localized admin interface, across 28 languages including: German, French, Japanese, Portuguese, English, English (UK), Spanish, Italian, Dutch, Norwegian, Polish, Swedish, Turkish, Danish, Russian, Ukrainian, Simplified Chinese, Traditional Chinese, and Korean.
-Essentials card
-With Cards, agents can view configured previews of any record stored in Zendesk, delivering customized views of your customer's data and custom objects data, when and where it's stored.
-Interaction history
-Interaction history surfaces a list of recent tickets submitted by the requester (or other related events). You can use this to better understand what the requester needed help with recently.
-Group contacts by organization
-Add a user to one or many organizations to apply rules based on the group they belong to. Adding to multiple organizations is helpful for contractors, supervisors, or employees who may belong to multiple business units, departments, or locations.
-Single
-Single
-Multiple
-Custom user and organization fields
-Capture customer information in user and organization fields. Set customer-centric workflows around these fields.
-Custom & group views
-Views are a collection of tickets based on ticket status, assignee, group, or any other ticket conditions. Zendesk comes with pre-configured views that we recommend as best practices. You can add more, modify, or turn them off.
-Custom Layouts
-Arrange and resize components to create workspaces that dynamically update based on the context of a ticket so agents can focus on the task at hand and find information faster.
+Espaço de trabalho unificado do agente
+O espaço de trabalho unificado do agente prioriza as conversas e ajuda sua equipe a gerenciar interações e status em todos os canais da web, dispositivos móveis e redes sociais, tudo em um só lugar.
 —
 —
 —
-Dynamic content
-Use dynamic content to create your own translations with a default version of the text (set in the same language as your default) and variants for every other language that you support. Based on the end-user’s language, the appropriate variant is automatically displayed to the end-user.
+Aprovações
+Faça e gerencie solicitações de aprovação facilmente direto na interface dos tickets, acompanhando automaticamente todas as decisões para garantir conformidade.
 —
 —
-Customer satisfaction ratings (CSAT) & follow-up survey
-Capture feedback with customer satisfaction (CSAT) ratings surveys.
+—
+Tarefas
+Capacite as equipes de atendimento a fornecer um atendimento preciso e de alta qualidade com modelos de lista de tarefas fáceis de seguir que as orientam nas etapas certas para tipos comuns de solicitação.
 —
 —
-Custom agent statuses
-If your workflow requires more statuses than the default four (online, away, transfer only, and offline), you can create a limited amount of custom statuses available to all agents on your account.
+—
+Interface traduzida
+Os agentes podem trabalhar em seu idioma preferido, com uma interface de administração localizada disponível em 28 idiomas, incluindo: alemão, francês, japonês, português, inglês, inglês (Reino Unido), espanhol, italiano, holandês, norueguês, polonês, sueco, turco, dinamarquês, russo, ucraniano, chinês simplificado, chinês tradicional e coreano.
 —
 —
-Up to 5
-Support mobile app
-Easily manage all conversations on-the-go with the Zendesk Support mobile app for agents. Available for iOS and Android devices.
-Learn more about the Zendesk Support mobile app here
+—
+Cartão de informações fundamentais
+Com os Cartões, os agentes podem acessar visualizações configuradas de qualquer registro armazenado no Zendesk, oferecendo visualizações personalizadas dos dados do cliente e de objetos personalizados, quando e onde estiverem armazenados.
+—
+—
+—
+Histórico de interação
+Um histórico de interações mostra uma lista de tickets recentes que foram enviados pelo solicitante (ou outros eventos relacionados). Você pode usar essa opção para ver os problemas mais recentes do solicitante.
+—
+—
+—
+Agrupar contatos por organização
+Adicione um usuário a uma ou várias organizações para aplicar regras com base no grupo ao qual ele pertence. A adição de usuários a várias organizações é útil para fornecedores, supervisores ou funcionários que pertençam a várias unidades de negócios, departamentos ou localizações.
+—
+—
+—
+Campos personalizados de usuário e organização
+Capture informações do cliente nos campos do usuário e da organização. Defina fluxos de trabalho focados no cliente em torno desses campos.
+—
+—
+—
+Visualizações personalizadas e de grupo
+As visualizações são uma coleção de tickets baseada no status do ticket, responsável, grupo, ou qualquer outra condição do ticket. A Zendesk inclui visualizações pré-configuradas disponíveis como práticas recomendadas. Você pode adicionar, alterar ou desativar.
+—
+—
+—
+Layouts personalizados
+Organize e redimensione os componentes para criar espaços de trabalho que são atualizados dinamicamente com base no contexto de um ticket. Desse modo, os agentes poderão se concentrar na tarefa em questão e encontrar informações mais rapidamente.
+—
+—
+—
+Conteúdo dinâmico
+Use o conteúdo dinâmico para criar a versão padrão do texto (no idioma padrão) e criar variantes traduzidas para todos os outros idiomas aos quais você oferece suporte. Com base no idioma do usuário final, a variante adequada é exibida automaticamente para ele.
+—
+—
+—
+Índices de satisfação do cliente (CSAT) e pesquisa de acompanhamento
+Colete feedback com pesquisas de índice de satisfação do cliente (CSAT).
+—
+—
+—
+Status do agente personalizado
+Se o seu fluxo de trabalho exigir mais status do que os quatro padrões (online, ausente, apenas transferência e offline), você pode criar um número limitado de status personalizados para todos os agentes em sua conta.
+—
+—
+—
+Aplicativo móvel de suporte
+Gerencie todas as conversas facilmente com o aplicativo móvel Zendesk Support para agentes. Disponível para dispositivos iOS e Android.
+Saiba mais sobre o aplicativo móvel Zendesk Support aqui
 .
 —
-Dynamic, Contextual workspaces
-Contextual workspaces enable admins to present ticket tools and features based on specific workflows. Combine with Layouts, you can dynamically customize the ticket interface. For example, display the relevant ticket form and macros that pertain to that ticket, and pre-select apps to have expanded and collapsed. Create up to 20 active workspaces and include up to 10 conditions.
+—
+—
+Espaços de trabalho dinâmicos e contextuais
+Os espaços de trabalho contextuais permitem que os administradores apresentem recursos e ferramentas de ticket com base em fluxos de trabalho específicos. Combine com layouts e personalize dinamicamente a interface dos tickets. Por exemplo, exiba os formulários e as macros relevantes para o ticket e selecione previamente os aplicativos que serão expandidos e recolhidos. Crie até 20 espaços de trabalho ativos e inclua até 10 condições.
 —
 —
 —
-App Builder
-AI-powered App Builder turns ideas into apps using conversational prompts—no technical expertise required. Boost agent productivity with custom apps that streamline workflows, integrate with third party platforms and internal systems, and reduce manual work.
-Learn more
 —
 —
-Up to 5 app conversations
 Collaboration tools
 Light agents
 Give team members limited access to tickets without paying for more seats. They can read tickets and provide input by adding private comments.
@@ -1167,28 +1192,35 @@ Loop in teammates to help resolve issues without leaving the ticket. They can re
 —
 —
 Marketplace
+Apps and integrations
 Prebuilt apps & integrations
 Tap into 1,000+ prebuilt apps and integrations available from the Zendesk Marketplace to unite your favorite tools and important business data without writing a single line of code.
+Connectors
+Connectors integrate Zendesk to external systems via API credentials or OAuth authentication. Each connector includes its own set of prebuilt actions.
+Help Center themes
+Browse, purchase, and install pre-built or custom-coded designs through the official Zendesk Marketplace Themes page.
+—
+—
 Workflows
-Custom workflows (Action builder)
-Design, integrate, and automate multi-step action flows across Zendesk and third-party systems. Action builder comes with a library of prebuilt connectors, customizable actions, and low-code tools that can be tailored to fit unique workflow needs.
-Action credits are allocated based on subscription term. For example, monthly Suite Enterprise subscriptions will have access to 225K actions per month. Annual Suite Enterprise subscriptions will have access to 2.7M actions per year. Actions performed by Copilot triggers will not count towards action credits.
-Up to 40K actions/month
-Up to 480K actions/year
-Up to 40K actions/month
-Up to 480K actions/year
-Up to 100K actions/month
-Up to 1.2M actions/year
-Action credits
-$200 per 100K actions/subscription term
-Accelerate resolution automation and scale multi-system workflows with additional Action Builder credits.
-Action credits are included with every Zendesk plan based on your subscription term. For organizations with robust automation needs, additional Action Credits are available for purchase. Purchased credits will be evenly distributed across your subscription term.
-Learn more about how action credits are used.
-Add on
-Add on
-Add on
-Triggers
-Triggers are business rules you define to run immediately after tickets are created or updated.
+Action Builder
+Design, integrate, and automate multi-step action flows across Zendesk and third-party systems. Action Builder comes with a library of prebuilt connectors, customizable actions, and low-code tools that can be tailored to fit unique workflow needs.
+AI built action flows
+Generate complete action flows from plain-language prompts in Admin Copilot. Admin Copilot can build flows with triggers, Zendesk actions, third-party connector steps, custom actions, and custom code steps directly in Action Builder. Review, edit, test, and activate generated flows before putting them into use.
+—
+—
+Advanced Action Flows
+Automate multi-step workflows within Zendesk and across third-party systems. Advanced Action Flows combines natural language and code-level power so you can easily build workflows of any complexity.
+—
+—
+Business rules analysis
+Business rules analysis
+In-depth analysis of how a given ticket property is used across your triggers, automations, macros, and ticket views.
+—
+—
+—
+Custom business rules (triggers & automations)
+Custom business rules (triggers & automations)
+Initiate, add, or modify workflows that are triggered by ticket changes or time-based conditions. Zendesk Suite comes with pre-configured business rules that we recommend as best practices. You can add more, modify, or turn them off.
 Ticket sharing between multiple Zendesk accounts
 Create workflows that share tickets between multiple Zendesk accounts.
 Manual
@@ -1222,16 +1254,9 @@ Line up tickets for agents to work through and guide them from one ticket to the
 Automations & intelligence
 Pre-defined responses (macros)
 Macros allow agents to quickly respond to common requests with a standard reply.
-Custom business rules (triggers & automations)
-Initiate, add, or modify workflows that are triggered by ticket changes or time-based conditions. Zendesk Suite comes with pre-configured business rules that we recommend as best practices. You can add more, modify, or turn them off.
 Article recommendations
 Enable agents to solve tickets faster with AI-powered contextual article recommendations that can be linked within tickets with just one click.
 Help center
-Business rules analysis
-In-depth analysis of how a given ticket property is used across your triggers, automations, macros, and ticket views.
-—
-—
-—
 Change management
 Unified staff management
 A single source of truth & set of tools for managing staff member settings and information.
@@ -1374,13 +1399,6 @@ data storage limits
 Add-on
 Add-on
 Add-on
-Custom apps and integrations
-Private custom apps & integrations
-Build your own apps for exclusive use within your account, using our App Builder or Channel Framework.
-—
-—
-5 App conversations, see
-conversation limits
 Developer tools
 API access
 The API is a powerful resource that many Zendesk customers use to bulk-import resources, create apps, pull data from external sources, and more.
@@ -1447,7 +1465,6 @@ Advanced Compliance
 HIPAA Enabled
 Department spaces
 Easily and securely manage multiple departments in one place. Limit access to tickets based on department membership.
-—
 —
 —
 Access log

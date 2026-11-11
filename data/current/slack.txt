@@ -19,7 +19,7 @@ Work together in real time through audio and video meetings (including screen sh
 Securely work alongside people outside of your company through one-to-one direct messages using Slack Connect.
 Basic AI
 AI conversation summaries
-Slackbot (personal AI agent)
+Slackbot
 AI workflow generation
 AI search
 AI daily recaps
@@ -50,7 +50,7 @@ Work securely with outside partners via DMs, group chats, or dedicated channels 
 Basic AI
 AI conversation summaries
 Catch up on channels in just a click. Get meeting summaries with transcripts, key takeaways, and action items.
-Slackbot (personal AI agent)
+Slackbot
 AI workflow generation
 AI search
 AI daily recaps
@@ -83,8 +83,8 @@ Work securely with outside partners via DMs, group chats, or dedicated channels 
 Advanced AI
 AI conversation summaries
 Catch up on channels in just a click. Get meeting summaries with transcripts, key takeaways, and action items.
-Slackbot (personal AI agent)
-Your personal AI agent that understands conversations, files, and projects in Slack. Plan limits apply.
+Slackbot
+Find answers, summarize channels, and work across your apps. 15 messages per user each week. Contact sales to add more.
 AI workflow generation
 Build workflows from a single prompt with the power of Slack AI and Workflow Builder.
 AI search
@@ -117,8 +117,8 @@ Work securely with outside partners via DMs, group chats, or dedicated channels 
 Enterprise-Grade AI
 AI conversation summaries
 Catch up on channels in just a click. Get meeting summaries with transcripts, key takeaways, and action items.
-Slackbot (personal AI agent)
-Your personal AI agent that understands conversations, files, and projects in Slack. Plan limits apply.
+Unlimited Slackbot
+Find answers, summarize channels, and work across your apps. It’s unlimited for your whole team.
 AI workflow generation
 Build workflows from a single prompt with the power of Slack AI and Workflow Builder.
 Enterprise search
@@ -203,8 +203,12 @@ Huddles notes
 Get meeting summaries with transcripts, key takeaways, and action items.
 AI assistant apps
 Embed third-party agents and modern AI apps to work alongside you in Slack.
-Slackbot (personal AI agent)
-Your personal AI agent that understands conversations, files, and projects in Slack. Plan limits apply.
+Slackbot
+Find answers, summarize channels, and work across your apps. Limits vary by plan. Contact sales to add more.
+Consumption based
+Consumption based
+Usage limits
+Unlimited
 Daily recaps
 Get a daily digest of what’s happening across all of your teams and projects.
 File summaries
@@ -381,8 +385,12 @@ Huddles notes
 Get meeting summaries with transcripts, key takeaways, and action items.
 AI assistant apps
 Embed third-party agents and modern AI apps to work alongside you in Slack.
-Slackbot (personal AI agent)
-Your personal AI agent that understands conversations, files, and projects in Slack. Plan limits apply.
+Slackbot
+Find answers, summarize channels, and work across your apps. Limits vary by plan. Contact sales to add more.
+Consumption based
+Consumption based
+Usage limits
+Unlimited
 Daily recaps
 Get a daily digest of what’s happening across all of your teams and projects.
 File summaries
@@ -557,8 +565,12 @@ and
 educational institutions
 .
 How can I get more access to Slackbot?
-Existing Salesforce customers on Slack Free and Pro invoice plans can get access to Slackbot, and Slack Business+ customers on invoice plans can unlock higher message limits by purchasing Flex Credits through Salesforce.
-Please reach out to your sales executive to buy Flex Credits.
+Existing Salesforce customers on Slack Free and Pro invoice plans can get access to Slackbot, and Slack Business+ customers on invoice plans can unlock higher message limits by purchasing
+Flex Credits
+through Salesforce.
+Please reach out to your sales executive to buy
+Flex Credits
+.
 Get more information on
 billing at Slack
 and

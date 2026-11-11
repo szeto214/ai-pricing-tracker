@@ -69,6 +69,7 @@ Custom themes
 8,000+ integrations
 Paid subscriptions
 Advanced analytics
+Custom fields
 1,000
 members
 Try
@@ -255,6 +256,16 @@ Enable commenting on your posts with options to restrict to
 members only or paid members only, fostering a healthy
 community of people who subscribe to your work.
 Yes
+Yes
+Yes
+Yes
+Custom fields
+Custom fields
+Store your own details about each member, like their company or
+location. Filter by them, import them from a CSV, and let
+members fill them in from their account.
+–
+No
 Yes
 Yes
 Yes
@@ -806,7 +817,7 @@ No
 Yes
 Launch your big idea
 Last week,
-29,810
+23,046
 brand new
 publications got started with Ghost.
 Today, it's your turn.

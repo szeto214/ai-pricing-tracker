@@ -6,9 +6,9 @@
   "url": "https://suno.com/pricing",
   "final_url": "https://suno.com/pricing",
   "parser_version": 4,
-  "content_hash": "719b3c62702b0cdb9a36cd55c4c4fb14e1a8194943aea647d9c2d8216ad208e6",
-  "raw_hash": "ce592b63833cdc0be9814eb0f96c9cb404848fdf9fa64a09aa8c7398ae3ffdb9",
-  "text_bytes": 3284,
+  "content_hash": "ee17d6d17e23ebb5e3ae0c80585c25e51df53a12cef8415cfb9c6a900699250e",
+  "raw_hash": "85ee39eebf19d6ea5ee44f466c43b194ad92bd8652bbcc8f56a02e3785c6473a",
+  "text_bytes": 5014,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -36,8 +36,8 @@
     },
     {
       "name": "Pro",
-      "price_raw": "$8",
-      "amount": 8.0,
+      "price_raw": "$10",
+      "amount": 10.0,
       "currency": "USD",
       "period": "month",
       "features": [
@@ -54,13 +54,14 @@
         "Included Create custom models"
       ],
       "slot_prices": [
+        10.0,
         8.0
       ]
     },
     {
       "name": "Premier",
-      "price_raw": "$24",
-      "amount": 24.0,
+      "price_raw": "$30",
+      "amount": 30.0,
       "currency": "USD",
       "period": "month",
       "features": [
@@ -80,11 +81,310 @@
         "Included Create custom models"
       ],
       "slot_prices": [
+        30.0,
         24.0
       ]
     }
   ],
   "models": [],
-  "tables": [],
+  "tables": [
+    {
+      "caption": "",
+      "rows": [
+        [
+          "",
+          "Free Plan",
+          "Pro Plan Most Popular",
+          "Premier Plan Best Value"
+        ],
+        [
+          "SONG GENERATION"
+        ],
+        [
+          "Available models",
+          "Best free model (v6-mini)",
+          "Advanced models (v6 and v6-wild)",
+          "Advanced models (v6 and v6-wild)"
+        ],
+        [
+          "Commercial rights",
+          "Not included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Concurrent generations",
+          "4 in a Shared queue",
+          "10 in a Priority queue",
+          "10 in a Priority queue"
+        ],
+        [
+          "Add-on credits",
+          "Not available",
+          "Available to purchase",
+          "Available to purchase"
+        ],
+        [
+          "CREATION FEATURES"
+        ],
+        [
+          "Suno Studio",
+          "Not included",
+          "Not included",
+          "Included"
+        ],
+        [
+          "Remix songs (extend, cover, adjust speed)",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Co-write with Suno",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Upload Audio",
+          "Up to 8 minutes",
+          "Up to 30 minutes",
+          "Up to 30 minutes"
+        ],
+        [
+          "Voices",
+          "Not included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Add vocals",
+          "Not included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Add instrumental",
+          "Not included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Inspire",
+          "Not included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Magic Song Descriptions",
+          "Not included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Custom Models",
+          "Not included",
+          "Included",
+          "Included"
+        ],
+        [
+          "EDITING FEATURES"
+        ],
+        [
+          "Basic editing (crop, fade)",
+          "Not included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Advanced editing (replace or add section)",
+          "Not included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Extract Stems",
+          "Not included",
+          "Included",
+          "Included"
+        ],
+        [
+          "ACCESS"
+        ],
+        [
+          "Early access to new features",
+          "Not included",
+          "Included",
+          "Included"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Free Plan",
+          "Pro Plan Most Popular",
+          "Premier Plan Best Value"
+        ],
+        [
+          "SONG GENERATION"
+        ],
+        [
+          "Available models"
+        ],
+        [
+          "Best free model (v6-mini)",
+          "Advanced models (v6 and v6-wild)",
+          "Advanced models (v6 and v6-wild)"
+        ],
+        [
+          "Commercial rights"
+        ],
+        [
+          "Not included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Concurrent generations"
+        ],
+        [
+          "4 in a Shared queue",
+          "10 in a Priority queue",
+          "10 in a Priority queue"
+        ],
+        [
+          "Add-on credits"
+        ],
+        [
+          "Not available",
+          "Available to purchase",
+          "Available to purchase"
+        ],
+        [
+          "CREATION FEATURES"
+        ],
+        [
+          "Suno Studio"
+        ],
+        [
+          "Not included",
+          "Not included",
+          "Included"
+        ],
+        [
+          "Remix songs (extend, cover, adjust speed)"
+        ],
+        [
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Co-write with Suno"
+        ],
+        [
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Upload Audio"
+        ],
+        [
+          "Up to 8 minutes",
+          "Up to 30 minutes",
+          "Up to 30 minutes"
+        ],
+        [
+          "Voices"
+        ],
+        [
+          "Not included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Add vocals"
+        ],
+        [
+          "Not included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Add instrumental"
+        ],
+        [
+          "Not included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Inspire"
+        ],
+        [
+          "Not included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Magic Song Descriptions"
+        ],
+        [
+          "Not included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Custom Models"
+        ],
+        [
+          "Not included",
+          "Included",
+          "Included"
+        ],
+        [
+          "EDITING FEATURES"
+        ],
+        [
+          "Basic editing (crop, fade)"
+        ],
+        [
+          "Not included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Advanced editing (replace or add section)"
+        ],
+        [
+          "Not included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Extract Stems"
+        ],
+        [
+          "Not included",
+          "Included",
+          "Included"
+        ],
+        [
+          "ACCESS"
+        ],
+        [
+          "Early access to new features"
+        ],
+        [
+          "Not included",
+          "Included",
+          "Included"
+        ]
+      ]
+    }
+  ],
   "extract_errors": []
 }

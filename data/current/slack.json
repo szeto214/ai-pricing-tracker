@@ -6,9 +6,9 @@
   "url": "https://slack.com/pricing",
   "final_url": "https://slack.com/pricing",
   "parser_version": 4,
-  "content_hash": "5535961f1b34ef40bda12eba3634da78ae180b8d93d9a2aa4fe4a4652d7b9401",
-  "raw_hash": "0077ae4fb010742f78a7cd4fe6c570e0f2f7bf1179cf24363603f28347af2445",
-  "text_bytes": 28609,
+  "content_hash": "e421dcb0fe239ca919b986acce2e8890dac943986383b85bf9604785c40a9bd7",
+  "raw_hash": "f216e2ca7c7c25bbd4d9ef689cc96aa6f2e6e7161a2bd8215ea490c357f7c4e4",
+  "text_bytes": 28639,
   "currency_hints": [
     "USD"
   ],
@@ -197,11 +197,11 @@
           ""
         ],
         [
-          "Slackbot (personal AI agent) Your personal AI agent that understands conversations, files, and projects in Slack. Plan limits apply.",
-          "",
-          "",
-          "",
-          ""
+          "Slackbot Find answers, summarize channels, and work across your apps. Limits vary by plan. Contact sales to add more.",
+          "Consumption based",
+          "Consumption based",
+          "Usage limits",
+          "Unlimited"
         ],
         [
           "Daily recaps Get a daily digest of what’s happening across all of your teams and projects.",

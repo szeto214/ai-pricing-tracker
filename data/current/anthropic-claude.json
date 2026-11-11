@@ -6,9 +6,9 @@
   "url": "https://www.anthropic.com/pricing",
   "final_url": "https://claude.com/pricing",
   "parser_version": 4,
-  "content_hash": "71a5cba8bdc7fb09d7d79f45c7a4c459ea8191de6179ebf165e7e318d46ebdf6",
-  "raw_hash": "f52fd726421d86baf20ec5ae9f18cf75b6d40499a3b2adf225d1d465ea8a1f84",
-  "text_bytes": 7554,
+  "content_hash": "82cc253d9b406bdbe7e367208d7d298d74921d36d3c957e78f953b164a3f9ff4",
+  "raw_hash": "bce18add596e6a5f670059523f86db5326c45fa7b3ef85f12812459b2311b1d8",
+  "text_bytes": 7610,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -32,7 +32,8 @@
         "More usage than Free , every 5 hours and every week *",
         "Fable, paid with usage credits New",
         "Hand off and schedule tasks",
-        "Claude Dashboards (beta)",
+        "Claude Data, plus Sheets and Whiteboards (beta)",
+        "Claude Code",
         "Claude Science",
         "Projects",
         "More Claude models",
@@ -158,7 +159,7 @@
           "Yes"
         ],
         [
-          "Claude Dashboards (beta)",
+          "Claude Data",
           "No",
           "Yes",
           "Yes",
@@ -186,8 +187,22 @@
           "No"
         ],
         [
+          "New Claude Sheets (beta)",
+          "No",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
           "Claude Slides",
           "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "New Claude Whiteboards (beta)",
+          "No",
           "Yes",
           "Yes",
           "Yes"
@@ -408,7 +423,7 @@
           "Yes"
         ],
         [
-          "User and organizational level spend controls More information",
+          "Organizational level spend controls More information",
           "No",
           "No",
           "No",

@@ -1086,6 +1086,34 @@ $0.08 per song
 Used to improve our products
 Yes
 No
+Gemini Decision
+gemini-decision-1
+Try the API
+Our multimodal decision model for binary, categorical, and rubric evaluations
+across text, images, video, audio, and PDFs using the
+Decisions API
+.
+Each request bills shared input tokens once, regardless of question count. Each
+question adds tokens for its own instructions, criteria, and formatting, and
+generates zero output tokens.
+Batch API
+isn't supported.
+Standard
+Feature
+Free Tier
+Paid Tier, per 1M tokens in USD
+Input price (text, image, video, audio, PDF)
+Free of charge
+$0.10
+Output price
+Not applicable (0 output tokens)
+Not applicable (0 output tokens)
+Context caching price
+Not available
+Not available
+Used to improve our products
+Yes
+No
 Gemini Embedding 2
 gemini-embedding-2
 Try the
@@ -1390,6 +1418,7 @@ Gemini 2.5 Flash Preview TTS
 Gemini 2.5 Pro Preview TTS
 Lyria 3.5
 Lyria 3
+Gemini Decision
 Gemini Embedding 2
 Gemini Embedding
 Gemini Robotics ER 2 Preview

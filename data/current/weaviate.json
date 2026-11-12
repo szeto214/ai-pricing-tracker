@@ -6,9 +6,9 @@
   "url": "https://weaviate.io/pricing",
   "final_url": "https://weaviate.io/pricing",
   "parser_version": 4,
-  "content_hash": "11fa6149fa72beae1c4a743d382480ec9d04593dd256b3af622426e35defdd45",
-  "raw_hash": "08d46a167c072c1748a48de33ca7e1be41f025f757fab3745c4a45ff5413cbe2",
-  "text_bytes": 8417,
+  "content_hash": "779507f273f0e8762de478215f57f1d38bed2f848f67a2f543bc95aa0a268b51",
+  "raw_hash": "55c08b920cdbc2a29a1b321b4e0507530c9f3202efee5d3b44134fe97d306f73",
+  "text_bytes": 7107,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -77,6 +77,17 @@
       ],
       "slot_prices": [
         30.0
+      ]
+    },
+    {
+      "name": "Database pricing FAQ",
+      "price_raw": "$45",
+      "amount": 45.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [],
+      "slot_prices": [
+        45.0
       ]
     }
   ],

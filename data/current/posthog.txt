@@ -185,6 +185,9 @@ You can set billing limits on most products so you never get a surprise bill
 We also offer
 discounts
 for startups and non-profits
+We're transparent about
+what you actually pay for
+so you can decide whether to build or buy each part of our stack.
 Estimating usage
 Not sure what your volume looks like?
 Generate an AI estimate
@@ -203,6 +206,9 @@ We don’t have loss-leader products that will go up in pricing later or get ret
 We aim to match the cheapest competitor at every scale.
 Tell us if we're not!
 (Note: This doesn't include your buddy's two-person startup.)
+We don't charge extra to store your events or to query them.
+Here's what you actually get when you pay for an event
+.
 We have significant revenue and are
 default alive
 . We don’t rely on investors to grow, and we’re stable. This goes a long way to avoiding the average dumb VC-backed company stuff — like running out of money or selling to a lame bigger company.
@@ -217,6 +223,10 @@ estimating usage and costs
 .
 Do I pay anything for stored data (events, exceptions, replays, logs, etc.)?
 Not for most products. You pay for what you capture, ingest, or sync in a given month, and storing it costs nothing extra. The exception is Logs custom retention: if you keep logs or traces longer than the 14-day default, each GB costs $0.05 for every month you keep it.
+What does the price of an event include?
+Collecting the event, processing it, storing it, and every query you run on it in PostHog. It also pays for the engineers who keep that pipeline running, so your data arrives complete and correct.
+Our docs
+explains each step.
 How long does PostHog retain data (events, recordings, logs)?
 Events are retained for 1 year on free plans and 2 years on pay-as-you-go plans. Platform packages let you set a custom retention policy to keep events for longer: up to 3 years on Boost, 5 years on Scale, and 7 years on Enterprise. For more information on data retention, see the
 events data retention docs

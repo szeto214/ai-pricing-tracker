@@ -57,14 +57,16 @@ $
 20
 /mo/builder
 0
-non-builder or ext JWT user
+non-builder, ext JWT user or service account
 A
 non-builder
 is a user whose
 role
 cannot write code or build flows or apps in any workspace: they run, view and manage what others built. Each unique
 external JWT
-user (counted per username/email + scope + instance, active in the last 30 days) also counts here. Non-builders and ext JWT users are 1/2 price of builders (or 1/2 seats).
+user (counted per username/email + scope + instance, active in the last 30 days) also counts here, and so does each enabled
+service account
+. Non-builders, ext JWT users and service accounts are 1/2 price of builders (or 1/2 seats).
 $
 10
 /mo/non-builder
@@ -923,7 +925,7 @@ Yes
 Frequently asked questions
 What is the logic behind Windmill's pricing?
 Which organizations can subscribe to the Pro plan and non-profit EE?
-Who counts as half a seat? How are external JWT users billed?
+Who counts as half a seat? How are external JWT users and service accounts billed?
 How are guests billed?
 What is an execution?
 What are native subworkers?

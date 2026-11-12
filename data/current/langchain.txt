@@ -17,7 +17,7 @@ $39 / seat per month
 then pay as you go
 Sign up
 Up to 10k base traces / mo, then pay-as-you-go
-Access to Deployment, Engine, and more
+Access to Agent Server, Engine, and more
 Add unlimited seats
 Enterprise
 For teams with advanced hosting, security, and support needs.
@@ -78,10 +78,10 @@ See hourly trace ingestion and trace event limits
 here
 .
 Custom
-Deployment
+Agent Server
 N/A
-1 free Serverless (Small) deployment included.
-Additional Serverless and Dedicated deployments available by size (Small, Medium, Large) and charged based on resources consumed. Specs by size can be found
+1 free Serverless (Small) Agent Server included.
+Additional Serverless and Dedicated Agent Servers available by size (Small, Medium, Large) and charged based on resources consumed. Specs by size can be found
 here
 . Metering rates as follows:
 Runtime Compute · 0.0675 LSU / vCPU-hr
@@ -136,14 +136,14 @@ Prompt Hub and Playground
 Bulk data export
 Unlimited agents
 Tuned Evaluators
-LangSmith Deployment
+LangSmith Agent Server
 Deploy and manage long-running agents with our purpose-built infrastructure
 LangSmith Studio
 Expose agent as MCP server
 Real-time streaming of intermediary steps and final output
 Agent Authorization (beta)
 1-Click Deploy
-Horizontally-scalable service for dedicated deployments
+Horizontally-scalable service for dedicated servers
 Server Scale-to-Zero when idle
 Assistants API
 30+ API endpoints including state and memory
@@ -269,13 +269,13 @@ Tuned Evaluators are only billed when a Tuned Evaluator runs successfully. Skipp
 the docs.
 Are Tuned Evaluators available for my plan?
 Tuned Evaluators are currently available in public beta for Plus and Cloud Enterprise plans in the US. We plan to expand access to more regions and hosting options over time.
-LangSmith Deployment Questions
-Does LangSmith Deployment include any free deployments?
-Plus plans include 1 free small serverless deployment. If you spin up additional serverless or dedicated deployments, you’ll be charged on usage (resource time).
-What does uptime mean for LangSmith Deployment usage?
-Uptime is the duration your deployment’s database is live and persisting state. Uptime will be tracked as soon as your deployment is live and ends when you shut it down. Dev agent deployments are typically short-lived (used during iteration, then deleted) – whereas Production agent deployments stay live and are updated via revisions (rather than being deleted).
-When should I use a serverless deployment vs. a dedicated deployment?
-Serverless deployments scale to zero when idle and are intended for testing, background agents, or internal agents. Dedicated deployments are always on and intended for production workloads that require autoscaling, backups, and high availability. We recommend using the dedicated deployment for any customer-facing agent.
+LangSmith Agent Server Questions
+Does LangSmith Agent Server include any free usage?
+Plus plans include 1 free small serverless agent server. If you spin up additional serverless or dedicated agent servers, you’ll be charged on usage (resource time).
+What does uptime mean for LangSmith Agent Server usage?
+Uptime is the duration your Agent Server’s database is live and persisting state. Uptime will be tracked as soon as your server is live and ends when you shut it down.
+When should I use a serverless Agent Server vs. a dedicated Agent Server?
+Serverless Agent Servers scale to zero when idle and are intended for testing, background agents, or internal agents. Dedicated Agent Servers are always on and intended for production workloads that require autoscaling, backups, and high availability. We recommend using the dedicated Agent Server for any customer-facing agent.
 What size deployment should I start with?
 Use Serverless for background or latency-tolerant agents (it scales to zero, so you pay only while it runs) and Dedicated for customer-facing agents that need consistent uptime. Start at Small and size up to Medium or Large as traffic grows, you can change size anytime. Full specs by size are in the
 docs

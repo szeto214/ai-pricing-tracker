@@ -685,8 +685,9 @@ onboarding path that matches your setup.
 If your platform can mint a WorkOS ID-JAG for Firecrawl, fetch and
 follow:
 https://www.firecrawl.dev/auth.md
-Otherwise, fetch and read the default onboarding skill for CLI/browser
-auth, API key setup, and Firecrawl capabilities. Prefer a free account
+Otherwise, fetch and read the default onboarding skill to connect
+Firecrawl through a connector, MCP or the CLI. That connection also
+gives you Alexandria's data providers. Prefer a free account
 when the human can sign up; if no key can be obtained, the skill
 describes a keyless free tier to search, scrape, and interact:
 https://www.firecrawl.dev/agent-onboarding/SKILL.md

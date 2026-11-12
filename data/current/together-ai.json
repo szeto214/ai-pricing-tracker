@@ -6,61 +6,13 @@
   "url": "https://www.together.ai/pricing",
   "final_url": "https://www.together.ai/pricing",
   "parser_version": 4,
-  "content_hash": "45c4d602113708a25256969d11649005b9aed348e4752ea5d7520d318bb24e96",
-  "raw_hash": "9d816b96aba8aa59462e12ab0fbd1d8cdd516c54e5417da02d1fe4f56d4e3daf",
+  "content_hash": "903e6216707f4104fd0a15724229d5b1a2be7fdf7bc9fa9135180bf5f3cc989e",
+  "raw_hash": "df9baba5120c412fca8104c34b4e9f0e669955f97a72d63c9c97cb6428d9d8e0",
   "text_bytes": 9780,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
-    {
-      "name": "Kimi K3",
-      "price_raw": "$3.00",
-      "amount": 3.0,
-      "currency": "USD",
-      "period": null,
-      "features": [],
-      "slot_prices": [
-        3.0,
-        0.3
-      ]
-    },
-    {
-      "name": "GLM-5.3-Flash",
-      "price_raw": "$0.15",
-      "amount": 0.15,
-      "currency": "USD",
-      "period": null,
-      "features": [],
-      "slot_prices": [
-        0.15,
-        0.03
-      ]
-    },
-    {
-      "name": "Muse Spark Open 816B A42B",
-      "price_raw": "$1.25",
-      "amount": 1.25,
-      "currency": "USD",
-      "period": null,
-      "features": [],
-      "slot_prices": [
-        1.25,
-        0.15
-      ]
-    },
-    {
-      "name": "Beam 1.0 501B A23B",
-      "price_raw": "$0.40",
-      "amount": 0.4,
-      "currency": "USD",
-      "period": null,
-      "features": [],
-      "slot_prices": [
-        0.4,
-        0.04
-      ]
-    },
     {
       "name": "MiniMax M3.1 Flash",
       "price_raw": "$0.15",
@@ -107,6 +59,42 @@
       "slot_prices": [
         1.32,
         0.13
+      ]
+    },
+    {
+      "name": "GLM-5.3-Flash",
+      "price_raw": "$0.15",
+      "amount": 0.15,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        0.15,
+        0.03
+      ]
+    },
+    {
+      "name": "Muse Spark Open 816B A42B",
+      "price_raw": "$1.25",
+      "amount": 1.25,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        1.25,
+        0.15
+      ]
+    },
+    {
+      "name": "Beam 1.0 501B A23B",
+      "price_raw": "$0.40",
+      "amount": 0.4,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        0.4,
+        0.04
       ]
     },
     {
@@ -520,36 +508,24 @@
       "unit": ""
     },
     {
-      "key": "bytedance seedance 2.5|k2",
-      "model": "ByteDance Seedance 2.5",
-      "prices": {
-        "kolom 2": {
-          "raw": "$0.115",
-          "amount": 0.115
-        }
-      },
-      "currency": "USD",
-      "unit": ""
-    },
-    {
-      "key": "bytedance seedance 2.0|k2",
-      "model": "ByteDance Seedance 2.0",
-      "prices": {
-        "kolom 2": {
-          "raw": "$0.16",
-          "amount": 0.16
-        }
-      },
-      "currency": "USD",
-      "unit": ""
-    },
-    {
       "key": "flux 3|k2",
       "model": "FLUX 3",
       "prices": {
         "kolom 2": {
           "raw": "$0.17",
           "amount": 0.17
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "bytedance seedance 2.5|k2",
+      "model": "ByteDance Seedance 2.5",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.115",
+          "amount": 0.115
         }
       },
       "currency": "USD",
@@ -634,6 +610,18 @@
         "kolom 2": {
           "raw": "$0.14",
           "amount": 0.14
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "bytedance seedance 2.0|k2",
+      "model": "ByteDance Seedance 2.0",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.16",
+          "amount": 0.16
         }
       },
       "currency": "USD",
@@ -1885,36 +1873,6 @@
       "caption": "",
       "rows": [
         [
-          "Kimi K3",
-          "$3.00 $0.30 (cached)",
-          "$15.00"
-        ],
-        [
-          "GLM-5.3",
-          "$1.40 $0.26 (cached)",
-          "$4.40"
-        ],
-        [
-          "GLM-5.3-Flash",
-          "$0.15 $0.03 (cached)",
-          "$0.50"
-        ],
-        [
-          "Muse Spark Open 816B A42B",
-          "$1.25 $0.15 (cached)",
-          "$4.25"
-        ],
-        [
-          "Tev1 4B Experimental",
-          "$0.042",
-          "$0.00"
-        ],
-        [
-          "Beam 1.0 501B A23B",
-          "$0.40 $0.04 (cached)",
-          "$1.20"
-        ],
-        [
           "MiniMax M3.1 Flash",
           "$0.15 $0.015 (cached)",
           "$0.60"
@@ -1935,24 +1893,39 @@
           "$1.28"
         ],
         [
-          "GLM-5.2",
-          "$1.40 $0.26 (cached)",
-          "$4.40"
-        ],
-        [
-          "Ternary Bonsai 27B",
-          "Free",
-          "Free"
-        ],
-        [
           "DeepSeek V4 Pro 0813",
           "$1.32 $0.13 (cached)",
           "$3.96"
         ],
         [
+          "GLM-5.3",
+          "$1.40 $0.26 (cached)",
+          "$4.40"
+        ],
+        [
+          "GLM-5.3-Flash",
+          "$0.15 $0.03 (cached)",
+          "$0.50"
+        ],
+        [
           "Qwen3.8 Flash",
           "$0.15",
           "$0.47"
+        ],
+        [
+          "Muse Spark Open 816B A42B",
+          "$1.25 $0.15 (cached)",
+          "$4.25"
+        ],
+        [
+          "Tev1 4B Experimental",
+          "$0.042",
+          "$0.00"
+        ],
+        [
+          "Beam 1.0 501B A23B",
+          "$0.40 $0.04 (cached)",
+          "$1.20"
         ],
         [
           "NVIDIA Nemotron 3.5 Super VL",
@@ -1975,6 +1948,16 @@
           "$1.20"
         ],
         [
+          "GLM-5.2",
+          "$1.40 $0.26 (cached)",
+          "$4.40"
+        ],
+        [
+          "Ternary Bonsai 27B",
+          "Free",
+          "Free"
+        ],
+        [
           "Muse Glimmer 30B",
           "$0.35 $0.04 (cached)",
           "$1.50"
@@ -1988,6 +1971,11 @@
           "Qwen3.5 9B",
           "$0.17",
           "$0.25"
+        ],
+        [
+          "Kimi K3",
+          "$3.00 $0.30 (cached)",
+          "$15.00"
         ],
         [
           "Rnj-1 Instruct",
@@ -2010,21 +1998,6 @@
       "caption": "",
       "rows": [
         [
-          "Kimi K3",
-          "$3.00 $0.30 (cached)",
-          "$15.00"
-        ],
-        [
-          "GLM-5.3-Flash",
-          "$0.15 $0.03 (cached)",
-          "$0.50"
-        ],
-        [
-          "Muse Spark Open 816B A42B",
-          "$1.25 $0.15 (cached)",
-          "$4.25"
-        ],
-        [
           "MiniMax M3.1 Flash",
           "$0.15 $0.015 (cached)",
           "$0.60"
@@ -2045,14 +2018,19 @@
           "$1.28"
         ],
         [
-          "Ternary Bonsai 27B",
-          "Free",
-          "Free"
+          "GLM-5.3-Flash",
+          "$0.15 $0.03 (cached)",
+          "$0.50"
         ],
         [
           "Qwen3.8 Flash",
           "$0.15",
           "$0.47"
+        ],
+        [
+          "Muse Spark Open 816B A42B",
+          "$1.25 $0.15 (cached)",
+          "$4.25"
         ],
         [
           "NVIDIA Nemotron 3.5 Super VL",
@@ -2065,6 +2043,11 @@
           "$1.20"
         ],
         [
+          "Ternary Bonsai 27B",
+          "Free",
+          "Free"
+        ],
+        [
           "Muse Glimmer 30B",
           "$0.35 $0.04 (cached)",
           "$1.50"
@@ -2073,6 +2056,11 @@
           "Qwen3.5 9B",
           "$0.17",
           "$0.25"
+        ],
+        [
+          "Kimi K3",
+          "$3.00 $0.30 (cached)",
+          "$15.00"
         ],
         [
           "Qwen3.6-Plus",
@@ -2267,16 +2255,12 @@
       "caption": "",
       "rows": [
         [
-          "ByteDance Seedance 2.5",
-          "$0.115"
-        ],
-        [
-          "ByteDance Seedance 2.0",
-          "$0.16"
-        ],
-        [
           "FLUX 3",
           "$0.17"
+        ],
+        [
+          "ByteDance Seedance 2.5",
+          "$0.115"
         ],
         [
           "MiniMax H3",
@@ -2305,6 +2289,10 @@
         [
           "HappyHorse 1.1 R2V",
           "$0.14"
+        ],
+        [
+          "ByteDance Seedance 2.0",
+          "$0.16"
         ],
         [
           "Google Veo 3.1",

@@ -391,12 +391,45 @@ def test_jsonld_only_pages() -> None:
           ch is not None and ch["kind"] == "price_change",
           f"-> {ch and ch['kind']}")
 
-    # Halaman normal TIDAK ikut berubah perilakunya: hash teks tetap satu-satunya
-    # pemicu di sana. Itu yang membuat arsip ini tenang selama ini.
+    # 12/11/2026 — aturan ini DIUBAH, dengan pengukuran.
+    #
+    # Dulu: pada halaman normal (teks tebal), hash teks adalah SATU-SATUNYA
+    # pemicu. Alasannya masuk akal pada masanya — ekstraksi masih goyah tiap
+    # hari, dan memakai sidik jari terstruktur akan membuat arsip berisik.
+    #
+    # Lubangnya terbukti 05/11: Inngest menambahkan blok JSON-LD di dalam
+    # <script> — yang tidak pernah jadi teks — sehingga hash teksnya SAMA
+    # PERSIS dua hari berturut-turut, sementara paket yang tercatat jatuh dari
+    # 10 menjadi 3. Tidak ada peristiwa, tidak ada arsip mentah hari itu.
+    #
+    # Diukur di SELURUH arsip (77 hari x ~134 halaman = 10.318 halaman-hari):
+    # 222 kejadian "hash sama tapi isi terbaca berbeda", TAPI 216 di antaranya
+    # terjadi sebelum 08/10 — masa ketika pembacanya sendiri berubah hampir
+    # tiap hari (30/08: 38, 05/09: 117). Dalam 35 hari terakhir hanya **6**,
+    # dan 4 di antaranya hari pemasangan kode kita sendiri. Jadi arsipnya
+    # tetap tenang; yang berubah hanya: perubahan yang nyata tidak lagi hilang
+    # tanpa jejak.
     tebal = dict(base, text_bytes=50_000)
+    tebal_sama = dict(base, text_bytes=50_000, plans=[dict(base["plans"][0])])
+    check("halaman normal yang benar-benar sama -> tetap tenang",
+          compare(tebal, tebal_sama, "") is None)
     tebal_beda = dict(beda, text_bytes=50_000)
-    check("halaman normal: hash sama -> tetap tidak dianggap berubah",
-          compare(tebal, tebal_beda, "") is None)
+    ch = compare(tebal, tebal_beda, "")
+    check("halaman normal: hash sama tapi ISI TERBACA berbeda -> tercatat",
+          ch is not None, "-> perubahan hilang tanpa jejak (lubang 05/11)")
+
+    # Sumber bacaan berpindah -> angkanya tidak sebanding.
+    dom = dict(base, text_bytes=50_000, extractor="dom")
+    jsonld = dict(beda, text_bytes=50_000, extractor="jsonld")
+    ch = compare(dom, jsonld, "")
+    jenis = [e["type"] for e in (ch or {}).get("plan_events", [])]
+    check("pindah ekstraktor -> BUKAN perubahan harga",
+          ch is not None and "price_changed" not in jenis
+          and "extractor_changed" in jenis, f"-> {jenis}")
+    sama_sumber = dict(beda, text_bytes=50_000, extractor="dom")
+    jenis = [e["type"] for e in (compare(dom, sama_sumber, "") or {}).get("plan_events", [])]
+    check("sumber sama -> perubahan harga tetap tercatat",
+          "price_changed" in jenis, f"-> {jenis}")
 
 
 def test_parser_version_guard() -> None:

@@ -361,14 +361,47 @@ def compare(old: dict | None, new: dict, new_text: str) -> dict | None:
         # Untuk halaman setipis itu, data terstruktur adalah satu-satunya
         # sinyal yang kita punya. Halaman normal tetap memakai hash teks —
         # itu yang menjaga arsip ini tenang selama ini, dan tidak diutak-atik.
-        from . import config
-
-        if new.get("text_bytes", 0) >= config.THIN_TEXT_BYTES:
-            return None
+        # 12/11/2026: batas "halaman tipis" di sini ternyata lubang besar.
+        # Inngest 05/11: teksnya SAMA PERSIS dengan 04/11 (hash 6769e171 di
+        # kedua hari), tapi vendor menambahkan blok JSON-LD — dan blok itu ada
+        # di dalam <script>, yang tidak pernah ikut jadi teks. Ekstraktor
+        # berpindah dari `dom` ke `jsonld`, paket yang tercatat jatuh dari 10
+        # menjadi 3, dan karena hash teksnya sama, pembanding menjawab "tidak
+        # ada perubahan": TIDAK ada peristiwa, TIDAK ada arsip mentah hari itu.
+        # Tujuh paket lenyap dari arsip tanpa meninggalkan satu pun jejak.
+        #
+        # Janji arsip ini adalah "setiap angka punya rekaman mentahnya".
+        # Karena itu sidik jari data terstruktur sekarang diperiksa untuk
+        # SEMUA halaman, bukan hanya yang tipis: apa pun yang mengubah ISI
+        # YANG KITA CATAT harus meninggalkan jejak. Halaman yang benar-benar
+        # tidak berubah tetap diam — kuncinya sama, jadi tetap `None`.
         if _structured_key(old) == _structured_key(new):
             return None
 
     plan_events = diff_plans(old.get("plans") or [], new.get("plans") or [])
+    if (old.get("extractor") and new.get("extractor")
+            and old["extractor"] != new["extractor"]):
+        # Harga yang dibaca dari JSON-LD dan harga yang dibaca dari kartu DOM
+        # bukan pengukuran yang sama, walau halamannya sama. Begitu SUMBER
+        # bacaannya berpindah, selisih angka apa pun bisa lahir dari
+        # perpindahan itu, bukan dari vendor.
+        #
+        # Inngest 05/11/2026 adalah contohnya: vendor menambahkan JSON-LD,
+        # ekstraktor pindah `dom` -> `jsonld`, dan 10 paket berganti jadi 3
+        # paket dengan angka yang berbeda — padahal teks halamannya sama
+        # persis. Keluarga yang sama dengan penjaga mata uang (29/09), satuan
+        # (08/10), nama paket ganda (17/10), dan kolom berganti nama (23/10):
+        # sebelum membandingkan dua angka, pastikan keduanya memang sebanding.
+        #
+        # Hanya peristiwa PAKET yang ditahan. Baris model datang dari tabel,
+        # yang dibaca terpisah dari pilihan ekstraktor paket, jadi menahannya
+        # akan membuang sinyal yang sah tanpa alasan.
+        plan_events = [
+            dict(e, type="extractor_changed", from_extractor=old["extractor"],
+                 to_extractor=new["extractor"])
+            if e["type"] == "price_changed" else e
+            for e in plan_events
+        ]
     if _pindah_mata_uang_halaman(old, new):
         # Harga di halaman ini sedang dibaca dalam mata uang yang berbeda dari
         # kemarin. Angkanya tetap dicatat apa adanya — yang berubah hanya

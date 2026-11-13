@@ -195,6 +195,14 @@ $0.005
 Completion:
 $1.00
 per 1M tokens.
+Inkling 2 Small
+Prompt:
+$0.30
+Cached prompt:
+$0.03
+Completion:
+$1.00
+per 1M tokens.
 GLM 5.3 Flash NVFP4
 Prompt:
 $0.15

@@ -7,85 +7,49 @@
   "final_url": "https://www.firecrawl.dev/pricing",
   "parser_version": 4,
   "content_hash": "51501ac46df8852ef2ac77d4c621f8e96f0e91a3508e576fe4582d7e5ff84681",
-  "raw_hash": "ee6bbd033f4b8ab180290cc2e3923254fffeb344ffebcb35b262c85f83c92e20",
+  "raw_hash": "35d26c020c6101f5e2b8c09eda7144827b09853e51a0bbd9f748bff0bc5b56a6",
   "text_bytes": 17471,
   "currency_hints": [
     "USD"
   ],
-  "extractor": "dom",
+  "extractor": "jsonld",
   "confidence": "medium",
   "plans": [
     {
-      "name": "Introducing",
-      "price_raw": "$75M",
-      "amount": 75000000.0,
+      "name": "Scale",
+      "price_raw": "749",
+      "amount": 749.0,
       "currency": "USD",
       "period": null,
       "features": [],
-      "slot_prices": [
-        75.0
-      ]
-    },
-    {
-      "name": "Hobby",
-      "price_raw": "$ 16",
-      "amount": 16.0,
-      "currency": "USD",
-      "period": "month",
-      "features": [],
-      "slot_prices": [
-        16.0
-      ]
-    },
-    {
-      "name": "Standard Recommended",
-      "price_raw": "$ 83",
-      "amount": 83.0,
-      "currency": "USD",
-      "period": "month",
-      "features": [],
-      "slot_prices": [
-        83.0
-      ]
+      "slot_prices": []
     },
     {
       "name": "Growth",
-      "price_raw": "$ 333",
-      "amount": 333.0,
+      "price_raw": "399",
+      "amount": 399.0,
       "currency": "USD",
-      "period": "month",
+      "period": null,
       "features": [],
-      "slot_prices": [
-        333.0
-      ]
+      "slot_prices": []
     },
     {
-      "name": "Scale",
-      "price_raw": "$ 599",
-      "amount": 599.0,
+      "name": "Standard",
+      "price_raw": "99",
+      "amount": 99.0,
       "currency": "USD",
-      "period": "month",
+      "period": null,
       "features": [],
-      "slot_prices": [
-        599.0
-      ]
+      "slot_prices": []
     },
     {
-      "name": "Pricing at a glance",
-      "price_raw": "$19",
+      "name": "Hobby",
+      "price_raw": "19",
       "amount": 19.0,
       "currency": "USD",
-      "period": "month",
-      "features": [
-        "Hobby: $19/month billed monthly ($16/month billed annually), 5,000 credits/month",
-        "Standard: $99/month billed monthly ($83/month billed annually), 100,000 credits/month",
-        "Growth: $399/month billed monthly ($333/month billed annually), 500,000 credits/month",
-        "Scale: $749/month billed monthly ($599/month billed annually), 1,000,000 credits/month",
-        "Enterprise: custom pricing, credits and concurrency."
-      ],
-      "slot_prices": [
-        19.0
-      ]
+      "period": null,
+      "features": [],
+      "slot_prices": []
     }
   ],
   "models": [],

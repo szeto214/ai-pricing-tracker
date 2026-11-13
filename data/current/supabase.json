@@ -6,9 +6,9 @@
   "url": "https://supabase.com/pricing",
   "final_url": "https://supabase.com/pricing",
   "parser_version": 4,
-  "content_hash": "a7ac320c42df565575b57fa554cf65138fdfe4de9a95c084468d13823c1a3817",
-  "raw_hash": "13a895be459044704660ee0b7083e53dd4d168df61c7f96e9ad1202d7a1ac8fc",
-  "text_bytes": 18744,
+  "content_hash": "ed36bd181429ebc22b2e034dc54379ce23e3a155f9179e7e316c7be14e76b31c",
+  "raw_hash": "d1e3be0291f6f6550366650eafd8c23b3e9c404a145230b3ff27c8e2d86c20bc",
+  "text_bytes": 18748,
   "currency_hints": [
     "USD"
   ],
@@ -726,7 +726,7 @@
         ],
         [
           "Auth Audit Logs",
-          "1 hour"
+          "24 hours"
         ],
         [
           "Basic Multi-Factor Auth",
@@ -1108,7 +1108,7 @@
         ],
         [
           "Auth Audit Logs About Auth Audit Logs",
-          "1 hour",
+          "24 hours",
           "7 days",
           "28 days",
           "Included in"

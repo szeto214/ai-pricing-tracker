@@ -3,7 +3,7 @@ Skip to main content
 Questions? Call, text, or connect on WhatsApp.
 GPU Pricing
 GPU Cloud Pricing
-Updated November 9, 2026
+Updated November 12, 2026
 Runpod pricing depends on the GPU workload you run: Pods for dedicated GPU instances, Serverless for API inference, and Clusters for multi-node jobs.
 ‍
 Get Started
@@ -68,7 +68,7 @@ RTX Pro 6000
 16
 vCPUs
 $
-2.49
+2.69
 /hr
 96 GB VRAM
 188 GB RAM
@@ -111,7 +111,7 @@ H100 SXM
 20
 vCPUs
 $
-3.99
+4.39
 /hr
 80 GB VRAM
 125 GB RAM
@@ -125,7 +125,7 @@ A100 PCIe
 8
 vCPUs
 $
-1.79
+2.09
 /hr
 80 GB VRAM
 117 GB RAM
@@ -139,7 +139,7 @@ A100 SXM
 16
 vCPUs
 $
-1.79
+2.19
 /hr
 80 GB VRAM
 125 GB RAM
@@ -154,7 +154,7 @@ Pro 6000 MIG 48GB
 8
 vCPUs
 $
-1.29
+1.39
 /hr
 48 GB VRAM
 62 GB RAM
@@ -182,7 +182,7 @@ RTX 6000 Ada
 10
 vCPUs
 $
-0.99
+1.09
 /hr
 48 GB VRAM
 167 GB RAM
@@ -224,7 +224,7 @@ RTX A6000
 9
 vCPUs
 $
-0.59
+0.69
 /hr
 48 GB VRAM
 50 GB RAM
@@ -239,7 +239,7 @@ RTX 5090
 9
 vCPUs
 $
-1.19
+1.39
 /hr
 32 GB VRAM
 35 GB RAM
@@ -268,7 +268,7 @@ L4
 12
 vCPUs
 $
-0.59
+0.69
 /hr
 24 GB VRAM
 50 GB RAM
@@ -354,7 +354,7 @@ RTX 6000 Pro
 PRO
 High throughput for large model inference workloads.
 $
-3.49
+3.69
 /hr
 80
 GB
@@ -362,14 +362,14 @@ H100
 PRO
 Extreme throughput for big models.
 $
-5.39
+5.89
 /hr
 80
 GB
 A100
 High throughput GPU, yet still very cost-effective.
 $
-2.72
+2.99
 /hr
 48
 GB
@@ -377,7 +377,7 @@ L40, L40S, 6000 Ada, MIG 48GB
 PRO
 Extreme inference throughput on LLMs like Llama 3 7B.
 $
-1.75
+1.89
 /hr
 48
 GB
@@ -392,7 +392,7 @@ GB
 PRO
 Extreme throughput for small-to-medium models.
 $
-1.79
+1.89
 /hr
 32
 GB
@@ -662,11 +662,11 @@ GPU prices per hour on Runpod
 How much does an H100 PCIe cost per hour on Runpod?
 Runpod rents the H100 PCIe at $2.89/hr on Secure Cloud, or from $1.99/hr on Community Cloud, billed per second with no commitment.
 How much does an H100 SXM cost per hour on Runpod?
-Runpod rents the H100 SXM at $3.99/hr on Secure Cloud, or from $2.69/hr on Community Cloud, billed per second with no commitment.
+Runpod rents the H100 SXM at $4.39/hr on Secure Cloud, or from $2.69/hr on Community Cloud, billed per second with no commitment.
 How much does an A100 PCIe cost per hour on Runpod?
-Runpod rents the A100 PCIe at $1.79/hr on Secure Cloud, or from $1.19/hr on Community Cloud, billed per second with no commitment.
+Runpod rents the A100 PCIe at $2.09/hr on Secure Cloud, or from $1.19/hr on Community Cloud, billed per second with no commitment.
 How much does an A100 SXM cost per hour on Runpod?
-Runpod rents the A100 SXM at $1.79/hr on Secure Cloud, or from $1.39/hr on Community Cloud, billed per second with no commitment.
+Runpod rents the A100 SXM at $2.19/hr on Secure Cloud, or from $1.39/hr on Community Cloud, billed per second with no commitment.
 How much does an H200 cost per hour on Runpod?
 Runpod rents the H200 at $5.29/hr on Secure Cloud, or from $3.59/hr on Community Cloud, billed per second with no commitment.
 Enterprise Contracts

@@ -1,7 +1,136 @@
 Models
+HeyGen: HeyGen Decision Turbo
+HeyGen Decision Turbo
+480M tokens
+HeyGen Decision 1 Turbo is a lower-cost variant of
+HeyGen Decision 1
+from HeyGen, with the same question types (
+noul
+,
+choice
+, and
+score
+) over text and images. It suits high-volume classification, routing, and triage where cost matters most. HeyGen lists it as a preview model.
+by
+heygen
+Nov 13, 2026
+$0.09/M input
+tokens
+$0/M output
+tokens
+HeyGen: HeyGen Decision
+HeyGen Decision
+126M tokens
+HeyGen Decision 1 is a decision model from HeyGen. It reads text and images and answers a set of named questions in one request, returning typed answers with probabilities: a yes/no likelihood (
+noul
+), a pick from a list of options (
+choice
+), or a rating on an ordered scale (
+score
+). It is suited for classification, routing, triage, and scoring content against your own criteria, where one call replaces a chain of prompted completions and the answers come back ready to use in code.
+by
+heygen
+Nov 13, 2026
+$0.14/M input
+tokens
+$0/M output
+tokens
+ByteDance Seed: Seedream 5.5
+Seedream 5.5
+81M tokens
+Seedream 5.5 is an image generation and editing model from ByteDance Seed. It is suited for creating images from text prompts and for editing or combining existing images, using up to 10 reference images per request.
+by
+bytedance-seed
+Nov 12, 2026
+from $0.02/image
+Perplexity: Decider Flash V1.3 (free)
+Decider Flash V1.3 (free)
+1.88B tokens
+Decider Flash V1.3 is a decision model from Perplexity, a smaller, lower-cost sibling of
+Decider V1.3
+with the same API contract. Instead of generating text, it reads content passed as
+state
+(text, JSON, or images) and returns typed, probabilistic answers to one or more named questions in a single request: the probability of yes for a yes/no question (
+noul
+), a probability for every option plus the most likely one (
+choice
+, up to 255 options), or a probability for every level of an ordered rubric plus the expected score (
+score
+). It suits high-volume classification, routing, and moderation where application code thresholds the returned numbers rather than parsing a chat reply. It also adds
+locate
+, served on the
+Extractions
+route, pulling
+text
+and
+list
+fields out of text state with source spans and confidences.
+by
+perplexity
+Nov 12, 2026
+$0/M input
+tokens
+$0/M output
+tokens
+Perplexity: Decider V1.3 (free)
+Decider V1.3 (free)
+2.27B tokens
+Trivia (#32)
+Decider V1.3 is a decision model from Perplexity, succeeding
+Decider V1.2
+. Instead of generating text, it reads content passed as
+state
+(text, JSON, or images) and returns typed, probabilistic answers to one or more named questions in a single request: the probability of yes for a yes/no question (
+noul
+), a probability for every option plus the most likely one (
+choice
+, up to 255 options), or a probability for every level of an ordered rubric plus the expected score (
+score
+). It is built for classification, routing, moderation, and rubric grading where application code thresholds the returned numbers rather than parsing a chat reply. V1.3 also adds
+locate
+, served on the
+Extractions
+route: it pulls
+text
+and
+list
+fields out of text state and returns each value with its source span and a confidence. For a smaller, lower-cost option with the same contract, see
+Decider Flash V1.3
+.
+by
+perplexity
+Nov 12, 2026
+$0/M input
+tokens
+$0/M output
+tokens
+Google: Gemini 4 Hydrogen (batch)
+Gemini 4 Hydrogen (batch)
+32.6M tokens
+Gemini 4 Hydrogen is the high-efficiency workhorse model of the Gemini 4 family from Google, built for high-throughput agentic workflows, coding and multi-model routing at lower cost and latency than Gemini 4 Carbon. It takes text, image, audio, video and file input, supports long decode of up to 1M output tokens through continuation, and controls thinking depth with low, medium, high and xhigh reasoning effort.
+by
+google
+Nov 12, 2026
+1.05M context
+$0.75/M input
+tokens
+$3.75/M output
+tokens
+Google: Gemini 4 Hydrogen
+Gemini 4 Hydrogen
+29.4B tokens
+Gemini 4 Hydrogen is the high-efficiency workhorse model of the Gemini 4 family from Google, built for high-throughput agentic workflows, coding and multi-model routing at lower cost and latency than Gemini 4 Carbon. It takes text, image, audio, video and file input, supports long decode of up to 1M output tokens through continuation, and controls thinking depth with low, medium, high and xhigh reasoning effort.
+by
+google
+Nov 12, 2026
+1.05M context
+$1.50/M input
+tokens
+$7.50/M output
+tokens
 Speechify: Simba 3.5
 Simba 3.5
-67K tokens
+142K tokens
 Speechify's recommended streaming text-to-speech model, covering 48 languages including English under one model, with the language chosen per request.
 by
 speechify
@@ -9,7 +138,8 @@ Nov 11, 2026
 $15/M characters
 Google: Gemini Decision 1
 Gemini Decision 1
-5.41B tokens
+17.8B tokens
+Trivia (#50)
 Gemini Decision 1 is Google's model for the Decisions API. It answers structured questions about an input state (true/false, multiple choice with up to 255 options, and score with up to 255 levels) and returns a confidence for every answer, plus a legend and probabilities for score questions. It reads text, images, audio, video, and documents (PDF, CSV, and Office files) sent inline as base64 or by public URL. Every question needs instructions.
 by
 google
@@ -20,7 +150,7 @@ $0/M output
 tokens
 MiniMax: MiniMax H3 Image Highspeed
 MiniMax H3 Image Highspeed
-68.9M tokens
+109M tokens
 MiniMax H3 Image Highspeed is the faster version of MiniMax's H3 Image model. It takes the same inputs and limits as MiniMax H3 Image: it creates images from text prompts and edits or composes images from 1 to 16 reference images, with output up to 20 megapixels and aspect ratios from 1:3 to 3:1.
 by
 minimax
@@ -31,7 +161,7 @@ $7.60/M output
 tokens
 MiniMax: MiniMax H3 Image
 MiniMax H3 Image
-213M tokens
+311M tokens
 MiniMax H3 Image is MiniMax's image generation and editing model. It creates images from text prompts and edits or composes images from 1 to 16 reference images, with output up to 20 megapixels and aspect ratios from 1:3 to 3:1.
 by
 minimax
@@ -42,7 +172,7 @@ $3.80/M output
 tokens
 Baidu: ERNIE-5.5-Flash-Preview (free)
 ERNIE-5.5-Flash-Preview (free)
-181B tokens
+620B tokens
 ERNIE 5.5 Flash Preview is the latest foundation model in the ERNIE family, with comprehensive improvements in coding, agentic capabilities, knowledge work, and deep research. It has 280 billion total parameters, activates 14 billion parameters per token, and supports a context window of 1 million tokens. Its new architecture combines strong model capabilities with efficient inference, delivering generation speeds of more than 200 tokens per second.
 by
 baidu
@@ -54,7 +184,7 @@ $0/M output
 tokens
 Baidu: ERNIE-Light-DT-1.0
 ERNIE-Light-DT-1.0
-323M tokens
+621M tokens
 ERNIE-Light-DT-1.0 is based on open-source GLM models and includes research findings from Baidu Search's Lightning large model. It features Baidu Sparse Attention (BSA), a unique sparse attention mechanism developed by Baidu ERNIE. By using feedback-driven history compression, it improves the storage and indexing of historical information. This significantly reduces KV cache storage and computational costs while maintaining model performance. As a result, it allows for longer context windows at a lower cost.
 by
 baidu
@@ -66,7 +196,7 @@ $3.94/M output
 tokens
 SpaceXAI: Grok STT 2.0
 Grok STT 2.0
-9.82M characters
+13.4M characters
 Grok STT 2.0 is a speech-to-text model from SpaceXAI and the successor to Grok STT 1.0. It is suited for transcription workloads that need word-level timestamps, optional speaker diarization, and multichannel audio.
 by
 x-ai
@@ -75,7 +205,7 @@ $0.000028/second
 Google: Gemini 4 Carbon (batch)
 Gemini 4 Carbon (batch)
 50% off
-124M tokens
+260M tokens
 Gemini 4 Carbon is a frontier Gemini 4 model from Google for coding, agentic and complex reasoning work. It takes text, image, audio, video and file input, supports long decode of up to 1M output tokens through continuation, and controls thinking depth with low, medium and high reasoning effort.
 by
 google
@@ -88,8 +218,10 @@ tokens
 Google: Gemini 4 Carbon
 Gemini 4 Carbon
 50% off
-175B tokens
-Legal (#41)
+279B tokens
+Legal (#42)
+Programming (#47)
+Technology (#49)
 Gemini 4 Carbon is a frontier Gemini 4 model from Google for coding, agentic and complex reasoning work. It takes text, image, audio, video and file input, supports long decode of up to 1M output tokens through continuation, and controls thinking depth with low, medium and high reasoning effort.
 by
 google
@@ -102,7 +234,7 @@ tokens
 Nex AGI: Nex-N2.6
 Nex-N2.6
 20% off
-6.78B tokens
+7.95B tokens
 Nex-N2.6 is an agentic model from Nex AGI, built on
 GLM-5.3-Flash
 with about 321B parameters. It is suited for computer use, coding, and long-horizon tasks that involve tools. Compared with
@@ -115,96 +247,6 @@ Nov 10, 2026
 $0.12/M input
 tokens
 $0.40/M output
-tokens
-Nace.AI: Drex Max Finance
-Drex Max Finance
-50% off
-1.19B tokens
-Drex Max Finance is a finance-tuned version of Nace.AI's Drex Max, a 27B multimodal decision model. Given a state as text, JSON, or images such as invoices, receipts, and statements, plus typed questions (yes/no, multiple choice, or ordinal score), it returns a calibrated probability for every option in a single forward pass, without generating text. It is built for banking, accounting, payments, insurance, credit, compliance, filings, and markets workloads, and supports contexts up to 262K tokens.
-by
-nace-ai
-Nov 10, 2026
-$0.06/M input
-tokens
-$0/M output
-tokens
-Thinking Machines: Inkling 2 Small (free)
-Inkling 2 Small (free)
-393B tokens
-Inkling 2 Small is a multimodal mixture-of-experts reasoning model from Thinking Machines Lab, with 17B active parameters out of 594B total. It is the first model in the second Inkling generation. It was trained with reinforcement learning on long-horizon coding tasks across many agent harnesses, and is suited for agentic coding, autonomous research, agentic knowledge work and retrieval-augmented generation, with English and general multilingual support. It accepts text and image input (no audio), supports tool calling and variable reasoning effort, and has a 1M-token context window.
-by
-thinkingmachines
-Nov 9, 2026
-1.05M context
-$0/M input
-tokens
-$0/M output
-tokens
-Anthropic: Claude Fable 5.2 (batch)
-Claude Fable 5.2 (batch)
-328M tokens
-Claude Fable 5.2 is Anthropic's most capable model for the most demanding technical work, with gains over Fable 5.1 in coding, reasoning, and vision. In prerelease testing it completed otherwise-infeasible software migrations, designed working electronic devices from scratch, and made progress on open problems in physics and mathematics. It communicates more clearly than earlier Fable models and generates output up to 30% faster than Fable 5.1. Adaptive extended thinking is always on, with reasoning effort levels from low to max (default high) and preserved thinking across turns. Anthropic recommends Opus 5.5 as the daily driver for most coding and knowledge work, with Fable 5.2 for the most ambitious, open-ended problems.
-by
-anthropic
-Nov 9, 2026
-1M context
-$4/M input
-tokens
-$20/M output
-tokens
-Anthropic: Claude Fable 5.2
-Claude Fable 5.2
-379B tokens
-Finance (#29)
-Programming (#44)
-Claude Fable 5.2 is Anthropic's most capable model for the most demanding technical work, with gains over Fable 5.1 in coding, reasoning, and vision. In prerelease testing it completed otherwise-infeasible software migrations, designed working electronic devices from scratch, and made progress on open problems in physics and mathematics. It communicates more clearly than earlier Fable models and generates output up to 30% faster than Fable 5.1. Adaptive extended thinking is always on, with reasoning effort levels from low to max (default high) and preserved thinking across turns. Anthropic recommends Opus 5.5 as the daily driver for most coding and knowledge work, with Fable 5.2 for the most ambitious, open-ended problems.
-by
-anthropic
-Nov 9, 2026
-1M context
-$8/M input
-tokens
-$40/M output
-tokens
-Meta: Muse Ember
-Muse Ember
-195B tokens
-Legal (#29)
-Programming (#50)
-Science (#38)
-Translation (#21)
-Muse Ember is the smallest and most efficient model from Meta that’s designed for complex reasoning execution and the work agents repeat all day: tool calls, coding agent subtasks, routing, extraction, and long document parsing. Muse Ember accepts text, images, video, audio, and PDF documents and returns text, with a 1M-token context window.
-by
-meta
-Nov 9, 2026
-1.05M context
-$0.10/M input
-tokens
-$0.50/M output
-tokens
-LiquidAI: LFM3-1.7B (free)
-LFM3-1.7B (free)
-25.3B tokens
-A compact 1.7B-parameter text model with a 256K-token context, post-trained for agents, tool calling, and structured outputs. It reasons before it answers. Prompts and outputs may be retained and used to train Liquid models.
-by
-liquid
-Nov 6, 2026
-262K context
-$0/M input
-tokens
-$0/M output
-tokens
-LiquidAI: LFM3-1.7B
-LFM3-1.7B
-8.9B tokens
-A compact 1.7B-parameter text model with a 256K-token context, post-trained for agents, tool calling, and structured outputs. It reasons before it answers. Prompts and outputs may be retained and used to train Liquid models.
-by
-liquid
-Nov 6, 2026
-262K context
-$0.08/M input
-tokens
-$0.20/M output
 tokens
 Compare
 Discover Models

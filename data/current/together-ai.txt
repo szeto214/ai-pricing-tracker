@@ -46,6 +46,11 @@ $2.00
 $0.20
 (cached)
 $10.00
+Inkling 2 Small
+$0.30
+$0.03
+(cached)
+$1.00
 Qwen3.7-Plus
 $0.32
 $1.28
@@ -153,6 +158,11 @@ $2.00
 $0.20
 (cached)
 $10.00
+Inkling 2 Small
+$0.30
+$0.03
+(cached)
+$1.00
 Qwen3.7-Plus
 $0.32
 $1.28
@@ -449,15 +459,15 @@ $5.49
 Contact sales
 NVIDIA
 HGX H200
-Contact us
+$5.99
 Contact sales
 NVIDIA
 HGX B200
-$8.99
+$9.29
 Contact sales
 NVIDIA
 HGX B300
-Contact us
+$11.49
 Contact sales
 NVIDIA
 GB200 NVL72
@@ -465,13 +475,13 @@ Contact us
 Contact sales
 NVIDIA
 GB300 NVL72
-Contact us
+$15.79
 Contact sales
 GPU Clusters
 On-demand hourly rates and reserved capacity
 All prices are per GPU per hour.
 Hardware
-Preemptible Compute
+Preemptible
 ON-Demand
 Reserved
 Pay as you go
@@ -499,19 +509,21 @@ $4.15
 Request Capacity
 NVIDIA
 HGX B200
-$4.09
+$4.65
 Checking...
-$8.19
+$9.29
 Checking...
+$8.69
 $7.99
-$7.79
 Request Capacity
 NVIDIA
 HGX B300
-$4.99
+$5.75
 Checking...
-$9.99
+$11.49
 Checking...
+$10.59
+$9.89
 Request Capacity
 NVIDIA
 GB200 NVL72

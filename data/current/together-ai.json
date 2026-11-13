@@ -6,9 +6,9 @@
   "url": "https://www.together.ai/pricing",
   "final_url": "https://www.together.ai/pricing",
   "parser_version": 4,
-  "content_hash": "903e6216707f4104fd0a15724229d5b1a2be7fdf7bc9fa9135180bf5f3cc989e",
-  "raw_hash": "df9baba5120c412fca8104c34b4e9f0e669955f97a72d63c9c97cb6428d9d8e0",
-  "text_bytes": 9780,
+  "content_hash": "08ce375ef9f793cf8ee26963528da8cc2bb424e1f2d56ff25dbdd71fd9079d11",
+  "raw_hash": "63e4ede19ecc41dfa9065e755125c2c5eff85f912a006af38791d2a6b70e9265",
+  "text_bytes": 9859,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -47,6 +47,18 @@
       "slot_prices": [
         2.0,
         0.2
+      ]
+    },
+    {
+      "name": "Inkling 2 Small",
+      "price_raw": "$0.30",
+      "amount": 0.3,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        0.3,
+        0.03
       ]
     },
     {
@@ -880,10 +892,70 @@
       "unit": ""
     },
     {
+      "key": "nvidia hgx h100|k3",
+      "model": "NVIDIA HGX H100",
+      "prices": {
+        "kolom 2": {
+          "raw": "$5.49",
+          "amount": 5.49
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "nvidia hgx h200|k3",
+      "model": "NVIDIA HGX H200",
+      "prices": {
+        "kolom 2": {
+          "raw": "$5.99",
+          "amount": 5.99
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "nvidia hgx b200|k3",
+      "model": "NVIDIA HGX B200",
+      "prices": {
+        "kolom 2": {
+          "raw": "$9.29",
+          "amount": 9.29
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "nvidia hgx b300|k3",
+      "model": "NVIDIA HGX B300",
+      "prices": {
+        "kolom 2": {
+          "raw": "$11.49",
+          "amount": 11.49
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "nvidia gb300 nvl72|k3",
+      "model": "NVIDIA GB300 NVL72",
+      "prices": {
+        "kolom 2": {
+          "raw": "$15.79",
+          "amount": 15.79
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
       "key": "nvidia hgx h100",
       "model": "NVIDIA HGX H100",
       "prices": {
-        "preemptible compute": {
+        "preemptible": {
           "raw": "$1.99",
           "amount": 1.99
         },
@@ -903,7 +975,7 @@
       "key": "nvidia hgx h200",
       "model": "NVIDIA HGX H200",
       "prices": {
-        "preemptible compute": {
+        "preemptible": {
           "raw": "$2.99",
           "amount": 2.99
         },
@@ -923,17 +995,17 @@
       "key": "nvidia hgx b200",
       "model": "NVIDIA HGX B200",
       "prices": {
-        "preemptible compute": {
-          "raw": "$4.09",
-          "amount": 4.09
+        "preemptible": {
+          "raw": "$4.65",
+          "amount": 4.65
         },
         "on-demand": {
-          "raw": "$8.19",
-          "amount": 8.19
+          "raw": "$9.29",
+          "amount": 9.29
         },
         "reserved": {
-          "raw": "$7.99",
-          "amount": 7.99
+          "raw": "$8.69",
+          "amount": 8.69
         }
       },
       "currency": "USD",
@@ -943,13 +1015,17 @@
       "key": "nvidia hgx b300",
       "model": "NVIDIA HGX B300",
       "prices": {
-        "preemptible compute": {
-          "raw": "$4.99",
-          "amount": 4.99
+        "preemptible": {
+          "raw": "$5.75",
+          "amount": 5.75
         },
         "on-demand": {
-          "raw": "$9.99",
-          "amount": 9.99
+          "raw": "$11.49",
+          "amount": 11.49
+        },
+        "reserved": {
+          "raw": "$10.59",
+          "amount": 10.59
         }
       },
       "currency": "USD",
@@ -1888,6 +1964,11 @@
           "$10.00"
         ],
         [
+          "Inkling 2 Small",
+          "$0.30 $0.03 (cached)",
+          "$1.00"
+        ],
+        [
           "Qwen3.7-Plus",
           "$0.32",
           "$1.28"
@@ -2011,6 +2092,11 @@
           "Kimi K3.1 Pro",
           "$2.00 $0.20 (cached)",
           "$10.00"
+        ],
+        [
+          "Inkling 2 Small",
+          "$0.30 $0.03 (cached)",
+          "$1.00"
         ],
         [
           "Qwen3.7-Plus",
@@ -2395,17 +2481,17 @@
         ],
         [
           "NVIDIA HGX H200",
-          "Contact us",
+          "$5.99",
           "Contact sales"
         ],
         [
           "NVIDIA HGX B200",
-          "$8.99",
+          "$9.29",
           "Contact sales"
         ],
         [
           "NVIDIA HGX B300",
-          "Contact us",
+          "$11.49",
           "Contact sales"
         ],
         [
@@ -2415,7 +2501,7 @@
         ],
         [
           "NVIDIA GB300 NVL72",
-          "Contact us",
+          "$15.79",
           "Contact sales"
         ]
       ]
@@ -2425,7 +2511,7 @@
       "rows": [
         [
           "Hardware",
-          "Preemptible Compute",
+          "Preemptible",
           "ON-Demand",
           "Reserved"
         ],
@@ -2454,16 +2540,18 @@
         ],
         [
           "NVIDIA HGX B200",
-          "$4.09 Checking…",
-          "$8.19 Checking…",
+          "$4.65 Checking…",
+          "$9.29 Checking…",
+          "$8.69",
           "$7.99",
-          "$7.79",
           "Request Capacity"
         ],
         [
           "NVIDIA HGX B300",
-          "$4.99 Checking…",
-          "$9.99 Checking…",
+          "$5.75 Checking…",
+          "$11.49 Checking…",
+          "$10.59",
+          "$9.89",
           "Request Capacity"
         ],
         [

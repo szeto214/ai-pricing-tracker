@@ -17,12 +17,13 @@ Passport
 Connect
 eve
 Core Platform
-Security
-Content Delivery
+Build and deploy
+Vercel CI
 Fluid Compute
+Content Delivery
 Observability
 Workflows
-CI/CD
+Security
 Tools
 Next.js
 Vercel Agent
@@ -59,7 +60,7 @@ control your costs
 Hobby
 $0
 /mo.
-The perfect starting place for your web app or personal project.
+The perfect starting place for your web app.
 Import your repo, deploy in seconds
 Automatic CI/CD
 Web Application Firewall
@@ -596,7 +597,7 @@ All prices shown are in USD and exclude value-added tax (VAT), goods and service
 Learn more about taxes
 .
 Which Vercel plan is right for me?
-Our Hobby plan is for personal, non-commercial use. Pro is designed for professional developers, freelancers, and businesses who need enhanced features and team collaboration. Enterprise is for teams seeking greater performance, collaboration, and security.
+Our Hobby plan is free and a great way to get started. Pro is designed for professional developers, freelancers, and businesses who need enhanced features and team collaboration. Enterprise is for teams seeking greater performance, collaboration, and security.
 Contact our sales team
 to learn more.
 Do you offer custom invoicing?

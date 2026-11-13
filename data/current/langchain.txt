@@ -80,8 +80,8 @@ here
 Custom
 Agent Server
 N/A
-1 free Serverless (Small) Agent Server included.
-Additional Serverless and Dedicated Agent Servers available by size (Small, Medium, Large) and charged based on resources consumed. Specs by size can be found
+1 Small Agent Server included on serverless hosting at no charge.
+Additional Agent Servers are billed based on resource usage. Choose serverless or dedicated hosting, with Small, Medium, and Large sizes available. Specs by size can be found
 here
 . Metering rates as follows:
 Runtime Compute · 0.0675 LSU / vCPU-hr

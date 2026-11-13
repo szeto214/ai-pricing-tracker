@@ -1,17 +1,6 @@
 Introducing Render Sandboxes: a computer for every agent.
 Learn more
 Predictable pricing that scales with you.
-Jump to
-workspace plans
-,
-compute pricing
-, and
-FAQs
-.
-Are you a VC-funded startup? Get up to $100K in credits with
-Render for Startups ↗
-Looking to migrate? We can help and you can get up to $10K in credits.
-Sign up now ↗
 Workspace Plans
 Hobby
 Pro
@@ -70,6 +59,10 @@ Contractual uptime SLAs
 Dedicated technical account team
 Support Slack channel
 Support response SLAs
+Are you a VC-funded startup? Get up to $100K in credits with
+Render for Startups ↗
+Looking to migrate? We can help and you can get up to $10K in credits.
+Sign up now ↗
 Hobby
 For individuals building personal projects and prototypes.
 $
@@ -484,28 +477,33 @@ Scale up to
 CPU and
 16
 GB of RAM
-Isolated microVMs for agents, apps, and untrusted code
-Can run indefinitely
-Automatic suspend and resume when idle
-40 GB of disk included per sandbox
-Pay only for the CPU you use
+Isolated VMs for agents
+Billing for active CPU time + provisioned memory
+Automatic suspend when idle
 Snapshot storage
 for $0.08/GB per month
+Default concurrency of 1,000 on Pro, Scale workspaces
+Higher concurrency, disk, and compute limits
+on request
 1 CPU
-$0.12 / active CPU hour + $0.038/hour for memory
+$0.12 / active CPU hour
 2 GB RAM
+$0.038/hour for provisioned memory
 1c-2g
 2 CPU
-$0.12 / active CPU hour + $0.076/hour for memory
+$0.12 / active CPU hour
 4 GB RAM
+$0.076/hour for provisioned memory
 2c-4g
 4 CPU
-$0.12 / active CPU hour + $0.152/hour for memory
+$0.12 / active CPU hour
 8 GB RAM
+$0.152/hour for provisioned memory
 4c-8g
 8 CPU
-$0.12 / active CPU hour + $0.304/hour for memory
+$0.12 / active CPU hour
 16 GB RAM
+$0.304/hour for provisioned memory
 8c-16g
 Expand
 compute table

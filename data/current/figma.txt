@@ -180,6 +180,7 @@ UI Kits
 Inspect in design files
 Community templates
 Variables
+3D transforms (Beta)
 Variable modes
 10 modes
 20 modes
@@ -194,6 +195,7 @@ Prototype sharing permissions
 Design productivity tools (AI)
 Image editing (AI)
 Weave tools
+Code layers
 Shared fonts
 Branching and merging
 In-app library analytics
@@ -201,7 +203,6 @@ Organization-wide design systems
 Approved libraries
 Default libraries by workspace
 Multi-brand design systems
-Code layers
 Figma Make
 Prompt the model
 Bring your designs

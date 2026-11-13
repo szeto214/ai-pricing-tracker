@@ -170,11 +170,21 @@ Embeddings cost = tokens ÷ 1,000,000 × the model’s rate. For example, 40M to
 pplx-embed-context-v1-4b
 cost 40 × $0.05 = $2.00.
 Decisions API Pricing
-The Decisions API answers yes/no, multiple-choice, and scored questions about text and images with calibrated probabilities.
+The Decisions API answers yes/no, multiple-choice, and scored questions about text and images with calibrated probabilities, and finds matching text spans with
+locate
+questions.
 Model
 Price ($/1M input tokens)
 Output tokens
 Per-request fee
+pplx-decider-v1.3
+$0.02
+Free
+None
+pplx-decider-flash-v1.3
+$0.01
+Free
+None
 pplx-decider-v1.2
 $0.02
 Free
@@ -188,13 +198,13 @@ pplx-decider-latest
 and
 perplexity/pplx-decider-latest
 select
-pplx-decider-v1.2
+pplx-decider-v1.3
 .
 pplx-decider-flash-latest
 and
 perplexity/pplx-decider-flash-latest
 select
-pplx-decider-flash-v1.2
+pplx-decider-flash-v1.3
 . An alias bills at the rate of the model it selects. Requests that name
 pplx-decider-v1.1-27b
 or
@@ -212,8 +222,12 @@ state
 count as input; the response reports the exact number as
 usage.input_tokens
 , so you can compute the token cost of a request from the response you already receive. A request with 600 input tokens costs $0.000012 on
+pplx-decider-v1.3
+or
 pplx-decider-v1.2
 and $0.000006 on
+pplx-decider-flash-v1.3
+or
 pplx-decider-flash-v1.2
 .
 Web grounding

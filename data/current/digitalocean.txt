@@ -271,6 +271,26 @@ Unified visibility
 View
 Cloud Security Posture Management (CSPM)
 pricing
+Secrets Manager
+$
+0.40
+/secret-month
+$
+0.05
+/
+<count>
+successful retrieval requests
+25 secret-month equivalents
+and
+100K successful retrieval requests
+included every month, per billing account.
+Manage application secrets natively on DigitalOcean.
+Manage secrets through Cloud Console, API, and CLI
+Access governed by DigitalOcean IAM
+Review secrets activity through audit logs
+View
+Secrets Manager
+pricing
 You've got unique business needs and we've got powerful solutions to meet those needs. Chat with us to get started!
 Contact sales
 See how much you'll pay with our pricing calculator

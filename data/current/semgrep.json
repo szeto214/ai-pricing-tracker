@@ -7,7 +7,7 @@
   "final_url": "https://semgrep.dev/pricing/",
   "parser_version": 4,
   "content_hash": "2ea21a6086a80bb8cd17592ce42b2f8069c2c9cd25016398c0d24f7c12c7b897",
-  "raw_hash": "702b88675db387caa032d757c9305a161bf55b6cfdab65481a8ee7e49a60cae9",
+  "raw_hash": "5e81a4e5cd8d15bbc5faf91f3f54a1c7205b569d76782d422ec0399ec8821728",
   "text_bytes": 6157,
   "currency_hints": [],
   "extractor": "dom",

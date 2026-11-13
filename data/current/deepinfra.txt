@@ -1205,7 +1205,7 @@ $0.005
 Hardware
 All models run on H100 or A100 GPUs, optimized for inference performance and low latency.
 Auto Scaling
-Our system will automatically scale the model to more hardware based on your needs. We limit each account to 200 concurrent requests. If you want more drop us a line
+Our system will automatically scale the model to more hardware based on your needs. By default we limit each account to 200 concurrent requests per public model; dedicated deployments are limited only by their GPUs. If you want more drop us a line
 Billing
 You have to add a card or pre-pay or you won't be able to use our services. Pre-paid accounts draw down their balance as they go, and invoiced accounts are billed once at the beginning of the following month. You can also set a spending limit to avoid surprises.
 Have questions or need a custom solution?
@@ -1239,21 +1239,21 @@ Lightricks
 /
 LTX-AlphaGen
 Featured Models
-XiaomiMiMo
+Qwen
 /
-MiMo-V2.6-Pro
+Qwen3-TTS-VoiceDesign
 moonshotai
 /
-Kimi-K3
-Qwen
+Kimi-K2.6
+zai-org
 /
-Qwen3.6-35B-A3B
-Qwen
+GLM-5.3
+zai-org
 /
-Qwen3.5-397B-A17B
-black-forest-labs
+GLM-5.3-Flash
+deepseek-ai
 /
-FLUX-2-klein-4b
+DeepSeek-V4-Flash
 © 2026 DeepInfra. All rights reserved.
 Privacy Policy
 Terms of Service

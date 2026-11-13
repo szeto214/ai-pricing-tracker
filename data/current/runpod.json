@@ -6,9 +6,9 @@
   "url": "https://www.runpod.io/pricing",
   "final_url": "https://www.runpod.io/pricing",
   "parser_version": 4,
-  "content_hash": "bb54c9f48eae6e94fe19fce4f557d2300da58ce62af18f7f9273398f35bed7cb",
-  "raw_hash": "c53aea925c60003a3d541e145746b18ee4b5de5c14d1180854fa6b0708d464d5",
-  "text_bytes": 10756,
+  "content_hash": "df2b55c9033a5ef03f3e83fd5afe31df7d391d3ebb3dee103151e10f3db84361",
+  "raw_hash": "e39122e228cdae972996d10a29876fbeb1b9ab4429e6c959545414b9549fe424",
+  "text_bytes": 10757,
   "currency_hints": [],
   "extractor": "jsonld",
   "confidence": "medium",
@@ -60,8 +60,8 @@
     },
     {
       "name": "Secure Cloud",
-      "price_raw": "1.29",
-      "amount": 1.29,
+      "price_raw": "1.39",
+      "amount": 1.39,
       "currency": "USD",
       "period": null,
       "features": [],
@@ -167,15 +167,6 @@
       "slot_prices": []
     },
     {
-      "name": "Secure Cloud",
-      "price_raw": "0.59",
-      "amount": 0.59,
-      "currency": "USD",
-      "period": null,
-      "features": [],
-      "slot_prices": []
-    },
-    {
       "name": "RTX 5090 GPU on Runpod",
       "price_raw": "0.69",
       "amount": 0.69,
@@ -188,15 +179,6 @@
       "name": "Community Cloud",
       "price_raw": "0.69",
       "amount": 0.69,
-      "currency": "USD",
-      "period": null,
-      "features": [],
-      "slot_prices": []
-    },
-    {
-      "name": "Secure Cloud",
-      "price_raw": "1.19",
-      "amount": 1.19,
       "currency": "USD",
       "period": null,
       "features": [],
@@ -257,6 +239,15 @@
       "slot_prices": []
     },
     {
+      "name": "Secure Cloud",
+      "price_raw": "0.59",
+      "amount": 0.59,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": []
+    },
+    {
       "name": "RTX 6000 Ada GPU on Runpod",
       "price_raw": "0.74",
       "amount": 0.74,
@@ -276,8 +267,8 @@
     },
     {
       "name": "Secure Cloud",
-      "price_raw": "0.99",
-      "amount": 0.99,
+      "price_raw": "1.09",
+      "amount": 1.09,
       "currency": "USD",
       "period": null,
       "features": [],
@@ -296,15 +287,6 @@
       "name": "Community Cloud",
       "price_raw": "0.79",
       "amount": 0.79,
-      "currency": "USD",
-      "period": null,
-      "features": [],
-      "slot_prices": []
-    },
-    {
-      "name": "Secure Cloud",
-      "price_raw": "1.09",
-      "amount": 1.09,
       "currency": "USD",
       "period": null,
       "features": [],
@@ -330,8 +312,8 @@
     },
     {
       "name": "Secure Cloud",
-      "price_raw": "1.79",
-      "amount": 1.79,
+      "price_raw": "2.19",
+      "amount": 2.19,
       "currency": "USD",
       "period": null,
       "features": [],
@@ -350,6 +332,15 @@
       "name": "Community Cloud",
       "price_raw": "1.19",
       "amount": 1.19,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": []
+    },
+    {
+      "name": "Secure Cloud",
+      "price_raw": "2.09",
+      "amount": 2.09,
       "currency": "USD",
       "period": null,
       "features": [],
@@ -375,8 +366,8 @@
     },
     {
       "name": "Secure Cloud",
-      "price_raw": "3.99",
-      "amount": 3.99,
+      "price_raw": "4.39",
+      "amount": 4.39,
       "currency": "USD",
       "period": null,
       "features": [],
@@ -456,8 +447,8 @@
     },
     {
       "name": "Secure Cloud",
-      "price_raw": "2.49",
-      "amount": 2.49,
+      "price_raw": "2.69",
+      "amount": 2.69,
       "currency": "USD",
       "period": null,
       "features": [],

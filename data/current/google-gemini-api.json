@@ -6,9 +6,9 @@
   "url": "https://ai.google.dev/pricing",
   "final_url": "https://aistudio.google.com/docs/pricing",
   "parser_version": 4,
-  "content_hash": "5728e921d17587c34068f237d1e45562b2fd4529efdf87b7f0dc5565f3aa2d98",
-  "raw_hash": "f607720768d70a4053f2689f0c360ee758ea82d91ffab6602490708617d1c956",
-  "text_bytes": 37767,
+  "content_hash": "2fa13fa5021fb1aa2ed3660810b869362ddf626adf718bfa9671e11b9453ebe9",
+  "raw_hash": "3077f830cb10abd2088286dafba54c07eed005c8395db3a58a0bab4523c12788",
+  "text_bytes": 39065,
   "currency_hints": [
     "USD"
   ],
@@ -28,6 +28,28 @@
         "Content used to improve our products *"
       ],
       "slot_prices": []
+    },
+    {
+      "name": "Input price",
+      "price_raw": "$1.50",
+      "amount": 1.5,
+      "currency": "USD",
+      "period": "month",
+      "features": [],
+      "slot_prices": [
+        1.5
+      ]
+    },
+    {
+      "name": "Output price (including thinking tokens)",
+      "price_raw": "$7.50",
+      "amount": 7.5,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        7.5
+      ]
     },
     {
       "name": "Input price",
@@ -160,28 +182,6 @@
       "slot_prices": [
         1.0
       ]
-    },
-    {
-      "name": "Output price",
-      "price_raw": "$20.00",
-      "amount": 20.0,
-      "currency": "USD",
-      "period": null,
-      "features": [],
-      "slot_prices": [
-        20.0
-      ]
-    },
-    {
-      "name": "Output price (including thinking tokens)",
-      "price_raw": "$3.00",
-      "amount": 3.0,
-      "currency": "USD",
-      "period": null,
-      "features": [],
-      "slot_prices": [
-        3.0
-      ]
     }
   ],
   "models": [],
@@ -262,6 +262,46 @@
         [
           "Used to improve our products",
           "Not available",
+          "No"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Feature",
+          "Free Tier",
+          "Paid Tier, per 1M tokens in USD"
+        ],
+        [
+          "Input price",
+          "Free of charge",
+          "$1.50"
+        ],
+        [
+          "Output price (including thinking tokens)",
+          "Free of charge",
+          "$7.50"
+        ],
+        [
+          "Context caching price",
+          "Free of charge",
+          "$0.075 Implicit caching only (explicit caching is not supported)."
+        ],
+        [
+          "Grounding with Google Search *",
+          "Not available",
+          "5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests (subject to a daily cap of 1,500 requests per da"
+        ],
+        [
+          "Grounding with Google Maps",
+          "Not available",
+          "5,000 requests per month (free, shared across all Gemini 3 and newer models), then $14 / 1,000 search queries."
+        ],
+        [
+          "Used to improve our products",
+          "Yes",
           "No"
         ]
       ]
@@ -783,46 +823,6 @@
           "Output price",
           "Free of charge",
           "$20.00 (audio)"
-        ],
-        [
-          "Used to improve our products",
-          "Yes",
-          "No"
-        ]
-      ]
-    },
-    {
-      "caption": "",
-      "rows": [
-        [
-          "Feature",
-          "Free Tier",
-          "Paid Tier, per 1M tokens in USD"
-        ],
-        [
-          "Input price",
-          "Free of charge",
-          "$0.50 (text / image / video) $1.00 (audio)"
-        ],
-        [
-          "Output price (including thinking tokens)",
-          "Free of charge",
-          "$3.00"
-        ],
-        [
-          "Context caching price",
-          "Free of charge",
-          "$0.05 (text / image / video) $0.10 (audio) $1.00 / 1,000,000 tokens per hour (storage price)"
-        ],
-        [
-          "Grounding with Google Search *",
-          "Not available **",
-          "5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests (subject to a daily cap of 1,500 requests per da"
-        ],
-        [
-          "Grounding with Google Maps",
-          "Not available **",
-          "5,000 requests per month (free, shared across all Gemini 3 and newer models), then $14 / 1,000 search queries."
         ],
         [
           "Used to improve our products",

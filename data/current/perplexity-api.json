@@ -6,9 +6,9 @@
   "url": "https://docs.perplexity.ai/getting-started/pricing",
   "final_url": "https://docs.perplexity.ai/docs/getting-started/pricing",
   "parser_version": 4,
-  "content_hash": "72f0f95eea039d81b47289201c5c81ec89c5ac21fba71d6aa3c023774411fcd0",
-  "raw_hash": "c431f3e877145c1811f59ec19335b2ea3b8c771f2d8739f6a1125b3b53b81c6e",
-  "text_bytes": 9560,
+  "content_hash": "d46b3a7d9e13cef9ac15ba588a905c3191daded7d5667d2b85d5c55a08a406fd",
+  "raw_hash": "148eabf823e35e2c7034ef7fcc2b08b3dd5faaea655a951bfb47bbea96605708",
+  "text_bytes": 9735,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -179,7 +179,7 @@
       ]
     },
     {
-      "name": "pplx-decider-v1.2",
+      "name": "pplx-decider-v1.3",
       "price_raw": "$0.02",
       "amount": 0.02,
       "currency": "USD",
@@ -461,6 +461,30 @@
       "unit": "/1m"
     },
     {
+      "key": "pplx-decider-v1.3",
+      "model": "pplx-decider-v1.3",
+      "prices": {
+        "price ($/1m input tokens)": {
+          "raw": "$0.02",
+          "amount": 0.02
+        }
+      },
+      "currency": "USD",
+      "unit": "/1m"
+    },
+    {
+      "key": "pplx-decider-flash-v1.3",
+      "model": "pplx-decider-flash-v1.3",
+      "prices": {
+        "price ($/1m input tokens)": {
+          "raw": "$0.01",
+          "amount": 0.01
+        }
+      },
+      "currency": "USD",
+      "unit": "/1m"
+    },
+    {
       "key": "pplx-decider-v1.2",
       "model": "pplx-decider-v1.2",
       "prices": {
@@ -665,6 +689,18 @@
           "Price ($/1M input tokens)",
           "Output tokens",
           "Per-request fee"
+        ],
+        [
+          "pplx-decider-v1.3",
+          "$0.02",
+          "Free",
+          "None"
+        ],
+        [
+          "pplx-decider-flash-v1.3",
+          "$0.01",
+          "Free",
+          "None"
         ],
         [
           "pplx-decider-v1.2",

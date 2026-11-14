@@ -1,14 +1,13 @@
 {
   "date": "2026-11-14",
-  "finished_at": "2026-11-14T09:28:37+00:00",
+  "finished_at": "2026-11-14T14:11:45+00:00",
   "user_agent": "ai-pricing-tracker/0.1 (+https://github.com/szeto214/ai-pricing-tracker) price-archive-bot; 1 request per page per day",
   "summary": {
     "total": 132,
-    "ok": 131,
+    "ok": 132,
     "changed": 26,
     "by_status": {
-      "ok": 131,
-      "robots_denied": 1
+      "ok": 132
     }
   },
   "targets": [
@@ -1654,11 +1653,19 @@
       "slug": "replicate",
       "name": "Replicate",
       "url": "https://replicate.com/pricing",
-      "status": "robots_denied",
-      "http_status": null,
-      "elapsed_ms": 0,
-      "robots_note": "robots.txt tidak terbaca (ReadTimeout) -> tidak diambil",
-      "reason": "robots.txt tidak terbaca (ReadTimeout) -> tidak diambil"
+      "status": "ok",
+      "http_status": 200,
+      "elapsed_ms": 6238,
+      "robots_note": "robots.txt terbaca",
+      "content_hash": "8047d0a09b370029e3242126b2806b42043f734117d11a81733763dfbb5d7761",
+      "extractor": "dom",
+      "confidence": "medium",
+      "plans_count": 8,
+      "models_count": 19,
+      "tables_count": 1,
+      "thin": false,
+      "changed": false,
+      "change_kind": null
     },
     {
       "slug": "replit",

@@ -6,9 +6,9 @@
   "url": "https://fly.io/pricing/",
   "final_url": "https://fly.io/pricing/",
   "parser_version": 4,
-  "content_hash": "8937d13669f6cbbb6ca2ffeb52cb6ffbda4ea22789281d52652efa3d8b406683",
-  "raw_hash": "0db21115d054cae529ace3ef5b66540042a5cadec72d3cb40a839a5fc6f81215",
-  "text_bytes": 2934,
+  "content_hash": "6349410166665ea0cf041384413282c5b213876c97758f60c2e10817648a0331",
+  "raw_hash": "a09b34bbb2aee36f5590aef482025f1700dbf1e154f36ca377ed845c954a50bf",
+  "text_bytes": 2933,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -93,17 +93,6 @@
       ],
       "slot_prices": [
         2500.0
-      ]
-    },
-    {
-      "name": "Compliance",
-      "price_raw": "$99",
-      "amount": 99.0,
-      "currency": "USD",
-      "period": "month",
-      "features": [],
-      "slot_prices": [
-        99.0
       ]
     },
     {

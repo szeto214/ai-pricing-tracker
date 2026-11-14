@@ -6,9 +6,9 @@
   "url": "https://fireworks.ai/pricing",
   "final_url": "https://fireworks.ai/pricing",
   "parser_version": 4,
-  "content_hash": "ead34b470e422df420d991e71927d06430d71d47b0938245af717c989fa176df",
-  "raw_hash": "6918b8d15865679ab74c2ab83c9666a6d5c306bf74c859a63755c9e10a57fff9",
-  "text_bytes": 7264,
+  "content_hash": "b7f26a11a56fb71debf3a10fbe168c1ec88ec1ce24414aeed7073abc738bd13b",
+  "raw_hash": "25c40de8efaf681a16bedecab8e1bab065986f4882e2610696e15232c86a5d8a",
+  "text_bytes": 7300,
   "currency_hints": [
     "USD"
   ],
@@ -75,6 +75,30 @@
         "priority (input / cached / output)": {
           "raw": "$3.75",
           "amount": 3.75
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m tokens"
+    },
+    {
+      "key": "kimi k3.1 pro",
+      "model": "Kimi K3.1 Pro",
+      "prices": {
+        "input": {
+          "raw": "$2.00",
+          "amount": 2.0
+        },
+        "cached input": {
+          "raw": "$0.20",
+          "amount": 0.2
+        },
+        "output": {
+          "raw": "$10.00",
+          "amount": 10.0
+        },
+        "priority (input / cached / output)": {
+          "raw": "$3.00",
+          "amount": 3.0
         }
       },
       "currency": "USD",
@@ -621,6 +645,13 @@
           "$0.30",
           "$15.00",
           "$3.75 / $0.375 / $18.75"
+        ],
+        [
+          "Kimi K3.1 Pro",
+          "$2.00",
+          "$0.20",
+          "$10.00",
+          "$3.00 / $0.30 / $15.00"
         ],
         [
           "Qwen 3.8 Max",

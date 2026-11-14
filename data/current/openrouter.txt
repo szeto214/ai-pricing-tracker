@@ -1,7 +1,63 @@
 Models
+Recraft: Recraft V4.1 Flash V2 (free)
+Recraft V4.1 Flash V2 (free)
+Going away November 28, 2026
+65.1M tokens
+Recraft V4.1 Flash V2 is a text-to-image model from Recraft, an updated version of
+Recraft V4.1 Flash
+in the speed tier of the V4.1 family. It is suited for rapid iteration, prototyping, and high-volume generation, and improves on its predecessor in generation speed and in rendering text inside images. It is generation only: image inputs, styles, and style references are not supported. Supports the same aspect ratios as V4.1 Flash and the
+image_config
+parameters
+rgb_colors
+(sets a color palette) and
+background_rgb_color
+(sets the background color). See the image generation docs for details: https://openrouter.ai/docs/features/multimodal/image-generation
+by
+recraft
+Nov 13, 2026
+$0/M input
+tokens
+$0/M output
+tokens
+Recraft: Recraft V4.1 Flash V2
+Recraft V4.1 Flash V2
+8.17M tokens
+Recraft V4.1 Flash V2 is a text-to-image model from Recraft, an updated version of
+Recraft V4.1 Flash
+in the speed tier of the V4.1 family. It is suited for rapid iteration, prototyping, and high-volume generation, and improves on its predecessor in generation speed and in rendering text inside images. It is generation only: image inputs, styles, and style references are not supported. Supports the same aspect ratios as V4.1 Flash and the
+image_config
+parameters
+rgb_colors
+(sets a color palette) and
+background_rgb_color
+(sets the background color). See the image generation docs for details: https://openrouter.ai/docs/features/multimodal/image-generation
+by
+recraft
+Nov 13, 2026
+$0.007/image
+Tencent: HY-World 2.1 Panorama
+HY-World 2.1 Panorama
+20.2M tokens
+HY-World 2.1 Panorama is a 360-degree panorama generation model from Tencent, part of the Hunyuan World family. It turns a single text prompt into one high-resolution equirectangular panorama suitable for virtual tours, skyboxes, and world-building, and is particularly strong at coherent, seamless scene layout across the full sphere. Each request produces one panorama; prompts are capped at 600 characters.
+by
+tencent
+Nov 13, 2026
+$1.60/M tokens
+inclusionAI: Ling 3.2 Flash (free)
+Ling 3.2 Flash (free)
+23B tokens
+Ling 3.2 Flash is a hybrid reasoning model from inclusionAI that accepts text and image input, with a 1M-token context window and up to 200 images per request. Thinking can be switched off per request.
+by
+inclusionai
+Nov 13, 2026
+1.05M context
+$0/M input
+tokens
+$0/M output
+tokens
 HeyGen: HeyGen Decision Turbo
 HeyGen Decision Turbo
-480M tokens
+864M tokens
 HeyGen Decision 1 Turbo is a lower-cost variant of
 HeyGen Decision 1
 from HeyGen, with the same question types (
@@ -20,7 +76,7 @@ $0/M output
 tokens
 HeyGen: HeyGen Decision
 HeyGen Decision
-126M tokens
+554M tokens
 HeyGen Decision 1 is a decision model from HeyGen. It reads text and images and answers a set of named questions in one request, returning typed answers with probabilities: a yes/no likelihood (
 noul
 ), a pick from a list of options (
@@ -37,7 +93,7 @@ $0/M output
 tokens
 ByteDance Seed: Seedream 5.5
 Seedream 5.5
-81M tokens
+266M tokens
 Seedream 5.5 is an image generation and editing model from ByteDance Seed. It is suited for creating images from text prompts and for editing or combining existing images, using up to 10 reference images per request.
 by
 bytedance-seed
@@ -45,7 +101,7 @@ Nov 12, 2026
 from $0.02/image
 Perplexity: Decider Flash V1.3 (free)
 Decider Flash V1.3 (free)
-1.88B tokens
+4.25B tokens
 Decider Flash V1.3 is a decision model from Perplexity, a smaller, lower-cost sibling of
 Decider V1.3
 with the same API contract. Instead of generating text, it reads content passed as
@@ -74,8 +130,9 @@ $0/M output
 tokens
 Perplexity: Decider V1.3 (free)
 Decider V1.3 (free)
-2.27B tokens
-Trivia (#32)
+18.2B tokens
+Health (#50)
+Trivia (#24)
 Decider V1.3 is a decision model from Perplexity, succeeding
 Decider V1.2
 . Instead of generating text, it reads content passed as
@@ -106,7 +163,7 @@ $0/M output
 tokens
 Google: Gemini 4 Hydrogen (batch)
 Gemini 4 Hydrogen (batch)
-32.6M tokens
+70.9M tokens
 Gemini 4 Hydrogen is the high-efficiency workhorse model of the Gemini 4 family from Google, built for high-throughput agentic workflows, coding and multi-model routing at lower cost and latency than Gemini 4 Carbon. It takes text, image, audio, video and file input, supports long decode of up to 1M output tokens through continuation, and controls thinking depth with low, medium, high and xhigh reasoning effort.
 by
 google
@@ -118,7 +175,9 @@ $3.75/M output
 tokens
 Google: Gemini 4 Hydrogen
 Gemini 4 Hydrogen
-29.4B tokens
+87.4B tokens
+Legal (#46)
+Translation (#29)
 Gemini 4 Hydrogen is the high-efficiency workhorse model of the Gemini 4 family from Google, built for high-throughput agentic workflows, coding and multi-model routing at lower cost and latency than Gemini 4 Carbon. It takes text, image, audio, video and file input, supports long decode of up to 1M output tokens through continuation, and controls thinking depth with low, medium, high and xhigh reasoning effort.
 by
 google
@@ -130,7 +189,7 @@ $7.50/M output
 tokens
 Speechify: Simba 3.5
 Simba 3.5
-142K tokens
+185K tokens
 Speechify's recommended streaming text-to-speech model, covering 48 languages including English under one model, with the language chosen per request.
 by
 speechify
@@ -138,8 +197,10 @@ Nov 11, 2026
 $15/M characters
 Google: Gemini Decision 1
 Gemini Decision 1
-17.8B tokens
-Trivia (#50)
+23.7B tokens
+Legal (#35)
+Translation (#44)
+Trivia (#49)
 Gemini Decision 1 is Google's model for the Decisions API. It answers structured questions about an input state (true/false, multiple choice with up to 255 options, and score with up to 255 levels) and returns a confidence for every answer, plus a legend and probabilities for score questions. It reads text, images, audio, video, and documents (PDF, CSV, and Office files) sent inline as base64 or by public URL. Every question needs instructions.
 by
 google
@@ -150,7 +211,7 @@ $0/M output
 tokens
 MiniMax: MiniMax H3 Image Highspeed
 MiniMax H3 Image Highspeed
-109M tokens
+117M tokens
 MiniMax H3 Image Highspeed is the faster version of MiniMax's H3 Image model. It takes the same inputs and limits as MiniMax H3 Image: it creates images from text prompts and edits or composes images from 1 to 16 reference images, with output up to 20 megapixels and aspect ratios from 1:3 to 3:1.
 by
 minimax
@@ -161,7 +222,7 @@ $7.60/M output
 tokens
 MiniMax: MiniMax H3 Image
 MiniMax H3 Image
-311M tokens
+379M tokens
 MiniMax H3 Image is MiniMax's image generation and editing model. It creates images from text prompts and edits or composes images from 1 to 16 reference images, with output up to 20 megapixels and aspect ratios from 1:3 to 3:1.
 by
 minimax
@@ -172,7 +233,7 @@ $3.80/M output
 tokens
 Baidu: ERNIE-5.5-Flash-Preview (free)
 ERNIE-5.5-Flash-Preview (free)
-620B tokens
+1.1T tokens
 ERNIE 5.5 Flash Preview is the latest foundation model in the ERNIE family, with comprehensive improvements in coding, agentic capabilities, knowledge work, and deep research. It has 280 billion total parameters, activates 14 billion parameters per token, and supports a context window of 1 million tokens. Its new architecture combines strong model capabilities with efficient inference, delivering generation speeds of more than 200 tokens per second.
 by
 baidu
@@ -184,7 +245,7 @@ $0/M output
 tokens
 Baidu: ERNIE-Light-DT-1.0
 ERNIE-Light-DT-1.0
-621M tokens
+737M tokens
 ERNIE-Light-DT-1.0 is based on open-source GLM models and includes research findings from Baidu Search's Lightning large model. It features Baidu Sparse Attention (BSA), a unique sparse attention mechanism developed by Baidu ERNIE. By using feedback-driven history compression, it improves the storage and indexing of historical information. This significantly reduces KV cache storage and computational costs while maintaining model performance. As a result, it allows for longer context windows at a lower cost.
 by
 baidu
@@ -193,60 +254,6 @@ Nov 10, 2026
 $1.13/M input
 tokens
 $3.94/M output
-tokens
-SpaceXAI: Grok STT 2.0
-Grok STT 2.0
-13.4M characters
-Grok STT 2.0 is a speech-to-text model from SpaceXAI and the successor to Grok STT 1.0. It is suited for transcription workloads that need word-level timestamps, optional speaker diarization, and multichannel audio.
-by
-x-ai
-Nov 10, 2026
-$0.000028/second
-Google: Gemini 4 Carbon (batch)
-Gemini 4 Carbon (batch)
-50% off
-260M tokens
-Gemini 4 Carbon is a frontier Gemini 4 model from Google for coding, agentic and complex reasoning work. It takes text, image, audio, video and file input, supports long decode of up to 1M output tokens through continuation, and controls thinking depth with low, medium and high reasoning effort.
-by
-google
-Nov 10, 2026
-1.05M context
-$1/M input
-tokens
-$5/M output
-tokens
-Google: Gemini 4 Carbon
-Gemini 4 Carbon
-50% off
-279B tokens
-Legal (#42)
-Programming (#47)
-Technology (#49)
-Gemini 4 Carbon is a frontier Gemini 4 model from Google for coding, agentic and complex reasoning work. It takes text, image, audio, video and file input, supports long decode of up to 1M output tokens through continuation, and controls thinking depth with low, medium and high reasoning effort.
-by
-google
-Nov 10, 2026
-1.05M context
-$2/M input
-tokens
-$10/M output
-tokens
-Nex AGI: Nex-N2.6
-Nex-N2.6
-20% off
-7.95B tokens
-Nex-N2.6 is an agentic model from Nex AGI, built on
-GLM-5.3-Flash
-with about 321B parameters. It is suited for computer use, coding, and long-horizon tasks that involve tools. Compared with
-Nex-N2.5-Pro
-, it reduces repetitive reasoning and follows the tools available in the current environment more closely.
-by
-nex-agi
-Nov 10, 2026
-262K context
-$0.12/M input
-tokens
-$0.40/M output
 tokens
 Compare
 Discover Models

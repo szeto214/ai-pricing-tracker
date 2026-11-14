@@ -6,9 +6,9 @@
   "url": "https://platform.openai.com/docs/pricing",
   "final_url": "https://developers.openai.com/api/docs/pricing",
   "parser_version": 4,
-  "content_hash": "06c0d588e08b40fa74d2e6b598b8c073f27ad10a135564cdaac1bca29e7bfc2a",
-  "raw_hash": "af97ad6d7b78a53514fbfeea6efecd49523f781c520bf940e4d860c8fc5b0b06",
-  "text_bytes": 5308,
+  "content_hash": "4dda0b4297aeb71e0f3db1b50143077fcd498b46e5c9e8a81988fd5dac5d06d7",
+  "raw_hash": "099c9496f75ffe6f08a57f30b007c5abf79f6eb26ecba5ddecf50ffdf4ec8028",
+  "text_bytes": 5330,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -557,8 +557,8 @@
       "unit": ""
     },
     {
-      "key": "gpt-4.1-2025-04-14",
-      "model": "gpt-4.1-2025-04-14",
+      "key": "gpt-4.1-2025-04-14 deprecated",
+      "model": "gpt-4.1-2025-04-14 Deprecated",
       "prices": {
         "training": {
           "raw": "$25.00",
@@ -581,8 +581,8 @@
       "unit": ""
     },
     {
-      "key": "gpt-4.1-mini-2025-04-14",
-      "model": "gpt-4.1-mini-2025-04-14",
+      "key": "gpt-4.1-mini-2025-04-14 deprecated",
+      "model": "gpt-4.1-mini-2025-04-14 Deprecated",
       "prices": {
         "training": {
           "raw": "$5.00",
@@ -889,14 +889,14 @@
           "Cached input"
         ],
         [
-          "gpt-4.1-2025-04-14",
+          "gpt-4.1-2025-04-14 Deprecated",
           "$25.00",
           "$3.00",
           "$12.00",
           "$0.75"
         ],
         [
-          "gpt-4.1-mini-2025-04-14",
+          "gpt-4.1-mini-2025-04-14 Deprecated",
           "$5.00",
           "$0.80",
           "$3.20",

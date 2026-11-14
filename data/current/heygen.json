@@ -6,9 +6,9 @@
   "url": "https://www.heygen.com/pricing",
   "final_url": "https://www.heygen.com/pricing",
   "parser_version": 4,
-  "content_hash": "53c7f2a741abbea623101b2dca0c3bcc1203f9d8e6dbd27cadb86649d24e8156",
-  "raw_hash": "52e0f049edfab6075b6a6dbca159954dfe8198c1fc70418b40226a859907dd9b",
-  "text_bytes": 15625,
+  "content_hash": "a748cd7b5fec2018a0523c4dd90587cdbdbfd2ac7d2ab7cc33ba0d4e6e230aef",
+  "raw_hash": "b0e6b6939db02d9af9d4ef2d10683fa64d58a04e247a72e2ef06e35cca5584a1",
+  "text_bytes": 15787,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -39,12 +39,12 @@
         "4K video export Ship at the highest resolution HeyGen offers",
         "Access to Seedance 2.5 The leading video model, with no second subscription",
         "Cinematic Avatars Place your avatar in dynamic, text-prompted cinematic scenes",
+        "1 Professional Voice Clone Highest-fidelity clone of your own voice, $29/mo Free",
         "Avatar V, and first access to our newest models",
         "Video Agent, with maximum access",
         "VEO 3.1 and Nano Banana for video and image generation",
         "HeyGen Voice, with 16+ hours of text to speech",
-        "Videos up to 30 minutes each",
-        "Faster video processing"
+        "Videos up to 30 minutes each"
       ],
       "slot_prices": [
         0.0
@@ -83,6 +83,7 @@
         "4K video export Ship at the highest resolution HeyGen offers",
         "Access to Seedance 2.5 The leading video model, with no second subscription",
         "Cinematic Avatars Place your avatar in dynamic, text-prompted cinematic scenes",
+        "1 Professional Voice Clone Highest-fidelity clone of your own voice, $29/mo Free",
         "Avatar V, and first access to our newest models",
         "Video Agent, with maximum access",
         "VEO 3.1 and Nano Banana for video and image generation",
@@ -95,6 +96,22 @@
       ],
       "slot_prices": [
         49.0
+      ]
+    },
+    {
+      "name": "Pro only features",
+      "price_raw": "$29",
+      "amount": 29.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "4K video export Ship at the highest resolution HeyGen offers",
+        "Access to Seedance 2.5 The leading video model, with no second subscription",
+        "Cinematic Avatars Place your avatar in dynamic, text-prompted cinematic scenes",
+        "1 Professional Voice Clone Highest-fidelity clone of your own voice, $29/mo Free"
+      ],
+      "slot_prices": [
+        29.0
       ]
     },
     {
@@ -166,24 +183,6 @@
     },
     {
       "name": "Stock Video Avatars",
-      "price_raw": "Free",
-      "amount": 0.0,
-      "currency": null,
-      "period": null,
-      "features": [],
-      "slot_prices": []
-    },
-    {
-      "name": "Custom Video Avatars",
-      "price_raw": "Free",
-      "amount": 0.0,
-      "currency": null,
-      "period": null,
-      "features": [],
-      "slot_prices": []
-    },
-    {
-      "name": "Custom Video Avatar Looks",
       "price_raw": "Free",
       "amount": 0.0,
       "currency": null,

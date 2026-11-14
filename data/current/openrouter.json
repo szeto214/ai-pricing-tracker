@@ -6,22 +6,33 @@
   "url": "https://openrouter.ai/models",
   "final_url": "https://openrouter.ai/models",
   "parser_version": 4,
-  "content_hash": "69f7b5d9b975f20d84e46c075192ce69d3870f3e16c36c92faf0ea5ce7c75e12",
-  "raw_hash": "0e03af2a9089b5a5474ff53ef928141f4d1518ce83c4a3370c6408f239c7a844",
-  "text_bytes": 9023,
+  "content_hash": "5fbcd903fc9df28a80d8e5985795dfff1120fc035ee7ec77c18c3077912a76d1",
+  "raw_hash": "687f4622de95f130f436e30c094f0ef84e6aa1cdddc4fd3c2239f2173a6c60a0",
+  "text_bytes": 9887,
   "currency_hints": [],
   "extractor": "dom",
-  "confidence": "low",
+  "confidence": "medium",
   "plans": [
     {
-      "name": "SpaceXAI: Grok STT 2.0",
-      "price_raw": "$0.000028",
-      "amount": 2.8e-05,
+      "name": "Recraft: Recraft V4.1 Flash V2",
+      "price_raw": "$0.007",
+      "amount": 0.007,
       "currency": "USD",
-      "period": "second",
+      "period": "image",
       "features": [],
       "slot_prices": [
-        2.8e-05
+        0.007
+      ]
+    },
+    {
+      "name": "Tencent: HY-World 2.1 Panorama",
+      "price_raw": "$1.60",
+      "amount": 1.6,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        1.6
       ]
     }
   ],

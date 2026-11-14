@@ -6,9 +6,9 @@
   "url": "https://stripe.com/pricing",
   "final_url": "https://stripe.com/pricing",
   "parser_version": 4,
-  "content_hash": "472f9068f5be4ff03e5aca3af67e06d84435c6d178790a18c247c78751995ccc",
-  "raw_hash": "afaef38e0f4608e6da1d58a55963c76413cebec33d614f045af290a14383c12e",
-  "text_bytes": 33935,
+  "content_hash": "fa966002ac67dc26839db9aa235b4a32380c764da0cd96ed8c9005b50c7dfc45",
+  "raw_hash": "34c6afa2688922d53435f7dd1236eeb80cd8af139eac7ef659b3b230eed68c16",
+  "text_bytes": 33829,
   "currency_hints": [
     "AUD",
     "CAD",

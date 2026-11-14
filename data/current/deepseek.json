@@ -6,33 +6,112 @@
   "url": "https://api-docs.deepseek.com/quick_start/pricing",
   "final_url": "https://api-docs.deepseek.com/quick_start/pricing/",
   "parser_version": 4,
-  "content_hash": "314d413fbd0a1c47b95cdb31d11e975357df379d90d4e73842b4c13a587e7278",
-  "raw_hash": "027bba6c9e038c25b3cb760ef9f2c803f1325489ebb28c57a97947041033789b",
-  "text_bytes": 2727,
+  "content_hash": "9f6bef8e718b623f99d01b2358d7738f1ca5039b90eb1ba203448bac5ac331ac",
+  "raw_hash": "5126b5f69e78f6dacb0a8bfc91e0cf0b705416b0b918b12e1f45f66b122e7741",
+  "text_bytes": 3156,
   "currency_hints": [],
-  "extractor": "none",
-  "confidence": "low",
-  "plans": [],
+  "extractor": "dom",
+  "confidence": "medium",
+  "plans": [
+    {
+      "name": "MODEL",
+      "price_raw": "$0.003",
+      "amount": 0.003,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        0.003,
+        0.022
+      ]
+    },
+    {
+      "name": "1M INPUT TOKENS",
+      "price_raw": "$0.15",
+      "amount": 0.15,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        0.15,
+        0.66
+      ]
+    },
+    {
+      "name": "Search (text, image)",
+      "price_raw": "$0.75",
+      "amount": 0.75,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        0.75
+      ]
+    },
+    {
+      "name": "File parsing",
+      "price_raw": "$0.225",
+      "amount": 0.225,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        0.225
+      ]
+    },
+    {
+      "name": "Text to Speech (TTS)",
+      "price_raw": "$0.45",
+      "amount": 0.45,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        0.45,
+        0.225
+      ]
+    },
+    {
+      "name": "Speech to Text (ASR)",
+      "price_raw": "$0.116",
+      "amount": 0.116,
+      "currency": "USD",
+      "period": "hour",
+      "features": [],
+      "slot_prices": [
+        0.116,
+        0.058
+      ]
+    }
+  ],
   "models": [
     {
-      "key": "search",
-      "model": "Search",
+      "key": "text to speech (tts)",
+      "model": "Text to Speech (TTS)",
       "prices": {
-        "price": {
-          "raw": "$0.75",
-          "amount": 0.75
+        "list price": {
+          "raw": "$0.45",
+          "amount": 0.45
+        },
+        "limited-time price (50% off)": {
+          "raw": "$0.225",
+          "amount": 0.225
         }
       },
       "currency": "USD",
       "unit": ""
     },
     {
-      "key": "fetch",
-      "model": "Fetch",
+      "key": "speech to text (asr)",
+      "model": "Speech to Text (ASR)",
       "prices": {
-        "price": {
-          "raw": "$0.75",
-          "amount": 0.75
+        "list price": {
+          "raw": "$0.116",
+          "amount": 0.116
+        },
+        "limited-time price (50% off)": {
+          "raw": "$0.058",
+          "amount": 0.058
         }
       },
       "currency": "USD",
@@ -154,19 +233,57 @@
       "caption": "",
       "rows": [
         [
-          "API",
+          "Item",
           "Unit",
           "Price"
         ],
         [
-          "Search",
-          "Per 1,000 successful requests",
+          "Search (text, image)",
+          "Per 1,000 searches",
           "$0.75"
         ],
         [
-          "Fetch",
-          "Per 1,000 successful requests",
+          "Web fetch",
+          "Per 1,000 fetches",
           "$0.75"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Item",
+          "Unit",
+          "Price"
+        ],
+        [
+          "File parsing , OCR API",
+          "Per 1,000 pages",
+          "$0.225"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "API",
+          "Unit",
+          "List price",
+          "Limited-time price (50% off)"
+        ],
+        [
+          "Text to Speech (TTS)",
+          "Per 10,000 characters",
+          "$0.45",
+          "$0.225"
+        ],
+        [
+          "Speech to Text (ASR)",
+          "Per hour of audio",
+          "$0.116",
+          "$0.058"
         ]
       ]
     }

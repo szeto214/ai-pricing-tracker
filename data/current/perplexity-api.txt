@@ -110,11 +110,7 @@ Billing unit:
 Search API charges for each successful
 POST /search
 request, not for each query in the request. A successful request containing an array of up to five queries is one billing unit. Invalid requests, rate-limited requests, and upstream failures are not billed. A successful response is billed even when it returns no results. There are no additional token-based charges.
-Search API cost = successful requests ÷ 1,000 × the price per 1K requests. The amount of extracted text (
-max_tokens
-,
-max_tokens_per_page
-) does not change the price.
+Search API cost = successful requests ÷ 1,000 × the price per 1K requests.
 Request
 Billing units
 Cost

@@ -2412,6 +2412,85 @@ def test_nama_paket_ganda_16_10() -> None:
           f"-> {amb}")
 
 
+def test_audit_cakupan_15_11() -> None:
+    """Alat audit cakupan — dibuat 15/11/2026.
+
+    Status `132/132 ok` hanya berarti HTTP-nya berhasil. Dua kali dalam sebulan
+    sumber data lenyap sambil tetap melaporkan ok (fal & fireworks 23/10;
+    baseten & gemini 03/11), dan keduanya ketahuan bukan dari status melainkan
+    dari membandingkan JUMLAH BARIS per target antar hari.
+
+    Pemeriksaan itu selama ini diketik ulang dari ingatan tiap sesi — dan
+    terbukti bocor: ClickUp turun 16 -> 6 baris pada 29/10 dan TIDAK terlihat
+    di empat pemeriksaan berikutnya, karena jendela 7 hari yang dipakai sudah
+    sama-sama berisi angka yang baru. Jendela 14 hari di alat ini menangkapnya
+    (lalu terbukti sah: vendor memang membuang blok paket lamanya).
+
+    Alat ini hanya MEMBACA `data/runs/*.json` — tidak menyentuh jaringan.
+    """
+    print("\n32. alat audit cakupan")
+    sys.path.insert(0, str(ROOT / "scripts"))
+    import audit_cakupan
+    from collector import config as cfg
+
+    tmp = _TMP / "runs-audit"
+    tmp.mkdir(exist_ok=True)
+
+    def tulis(tanggal, isi):
+        (tmp / f"{tanggal}.json").write_text(json.dumps({
+            "date": tanggal,
+            "targets": [{"slug": s, "plans_count": p, "models_count": m}
+                        for s, p, m in isi],
+        }), encoding="utf-8")
+
+    # 4 hari: dua jendela 2 hari. anjlok menyusut, tetap stabil, tumbuh naik.
+    for t in ("2026-01-01", "2026-01-02"):
+        tulis(t, [("anjlok", 10, 0), ("tetap", 5, 0), ("tumbuh", 1, 0),
+                  ("lenyap", 4, 0)])
+    for t in ("2026-01-03", "2026-01-04"):
+        tulis(t, [("anjlok", 2, 0), ("tetap", 5, 0), ("tumbuh", 9, 0),
+                  ("lenyap", 0, 0)])
+
+    runs_asli, audit_asli = cfg.RUNS_DIR, audit_cakupan.RUNS
+    muat_asli = audit_cakupan.config.load_targets
+
+    class T:
+        def __init__(self, slug):
+            self.slug, self.enabled = slug, True
+
+    try:
+        cfg.RUNS_DIR = audit_cakupan.RUNS = tmp
+        audit_cakupan.config.load_targets = lambda: [
+            T("anjlok"), T("tetap"), T("tumbuh"), T("lenyap")]
+        import io, contextlib
+        buf = io.StringIO()
+        with contextlib.redirect_stdout(buf):
+            kode = audit_cakupan.main_untuk_uji(hari=2)
+        keluar = buf.getvalue()
+        check("sumber yang menyusut >50% dilaporkan",
+              "anjlok" in keluar and "10 ->    2" in keluar.replace("  ", "  "),
+              f"-> {keluar}")
+        check("sumber yang jatuh ke nol dilaporkan terpisah",
+              "LENYAP" in keluar and "lenyap" in keluar)
+        check("sumber yang stabil TIDAK diributkan",
+              keluar.count("tetap") == 0, f"-> {keluar}")
+        check("pertumbuhan ikut dilaporkan", "tumbuh" in keluar)
+        check("ada yang menyusut -> kode keluar 1 (bisa dipakai penjaga)",
+              kode == 1, f"-> {kode}")
+
+        # Semua stabil -> tenang, kode keluar 0.
+        for t in ("2026-01-03", "2026-01-04"):
+            tulis(t, [("anjlok", 10, 0), ("tetap", 5, 0), ("tumbuh", 1, 0),
+                      ("lenyap", 4, 0)])
+        buf = io.StringIO()
+        with contextlib.redirect_stdout(buf):
+            kode = audit_cakupan.main_untuk_uji(hari=2)
+        check("tidak ada yang menyusut -> kode keluar 0", kode == 0, f"-> {kode}")
+    finally:
+        cfg.RUNS_DIR, audit_cakupan.RUNS = runs_asli, audit_asli
+        audit_cakupan.config.load_targets = muat_asli
+
+
 def test_label_kolom_29_10() -> None:
     """Label kolom sementara tidak boleh berbahasa Indonesia di halaman publik.
 
@@ -2859,6 +2938,7 @@ def main() -> int:
     test_halaman_bulanan_23_10()
     test_tabel_grid_26_10()
     test_label_kolom_29_10()
+    test_audit_cakupan_15_11()
     test_skrip_cadangan()
 
     print("\n" + "=" * 60)

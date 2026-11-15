@@ -670,27 +670,32 @@ If you have any additional questions,
 visit our help center
 .
 What are the benefits of a paid vs free plan?
-Paid plans unlock powerful features, more responses, and tons of customization options, making it easier and faster for you to collect valuable data and take action on it.
+Paid plans raise your monthly response limit, and unlock features that aren't available on Free, such as removing Typeform branding, payment and file upload questions, partial responses, and additional team members. Higher plans add priority support and drop-off analysis. See the plan comparison for what each plan includes.
 What’s included in the free plan?
-The free plan is a great way to explore Typeform and get a feel for how Typeform can help grow your business. It includes basic features with a limited number of responses per month. Once you’ve got a feel for the platform, upgrading to more advanced features is just a few clicks!
+The free plan is a great way to explore Typeform and get a feel for how Typeform can help grow your business. It includes unlimited forms, 10 responses per month across all your forms combined, templates with your own images and colors, logic (including branching, scores, and calculations), custom endings, embedding, response exports, basic reports, integrations, API access, and Typeform AI for building forms. Your response allowance resets monthly, and unused responses don't roll over. You can try paid features in trial mode, but you'll need a paid plan to publish a form that uses them.
 Can I upgrade, downgrade or switch between plans?
-Yes, you can upgrade, downgrade or switch between plans at any time. We’ve noticed our customers often upgrade as their businesses grow and the complexity of their use cases requires additional features. Typeform scales as you grow.
+Yes, you can upgrade, downgrade, or switch plans at any time. Downgrades take effect at the end of your current prepaid period, so you keep your paid features until then.
 Can I pause a paid subscription?
 While you currently cannot pause a prepaid subscription, if for some reason you need to lower your usage we recommend just downgrading your plan vs cancelling. We understand some seasons are busier than others.
 Do you offer discounts if I pay yearly instead of monthly?
-Yes, for annual plans you will receive a discount. Depending on the plan you select, you could be saving up to 16% with an annual plan.
+Yes, you can save up to 30% with annual billing. Exact savings vary by plan, so compare the monthly and annual prices shown for the plan you choose.
+Does Typeform offer discounts for nonprofits, NGOs or students?
+Yes, you can find more information
+here
+.
 Is there a limit to the number of responses I can collect?
-Each plan includes a set number of responses per month, with different limits depending on the plan selected. Need more? No problem. You can easily upgrade to collect even more responses.
+Each plan includes a set number of responses per month. Each submitted response counts as one, no matter how many questions your form has. Your monthly allowance is shared across all forms in your account, resets every month, and unused responses don't roll over. Responses you submit yourself through a published form, including test submissions, count toward your limit. Testing in the Create panel preview and AI-generated test responses don't. Deleting a response doesn't restore your allowance.
 ‍
-If you’re looking to collect over 50,000 responses/month,
-just reach out to our sales team
-—we’ll work with you to create a custom plan that’s tailored to your specific business needs.
+We'll email you at 90% and 100% of your limit. At 100%, your forms go into Private mode until either the next month begins, or you upgrade your plan. You can add responses with an add-on or by turning on auto-upgrade, up to your plan's maximum (750 on Basic, 2,500 on Plus, 50,000 on Business).
+‍
+If you need more than 50,000 responses a month,
+just reach out to our sales team.
 What happens if I cancel my subscription?
-The changes will take effect at the end of the prepaid period. Your forms and previously collected responses will not be deleted after the paid plan expires. However, depending on your plan change, your forms may be closed to new responses and seat count reduced.
+You can cancel at any time. Your cancellation takes effect at the end of your prepaid period, and we don't offer refunds for the remaining time. Your forms and collected responses aren't deleted. Forms that use paid features go into trial mode, which means they can't be published or collect responses until you upgrade or remove those features. Extra team seats beyond your new plan's limit are removed. On the Free plan, the 10 responses per month limit applies.
 How secure is Typeform?
 The security and integrity of your data are critically important for us, and we’ve built our services around this idea. Once your information enters Typeform’s systems (located in AWS), it’s secured with multiple levels of encryption and access controls, for example:
 ‍
-Your data in-transit is encrypted using secure TLS cryptographic protocols (TLS 1.2).
+Your data in-transit is encrypted using secure TLS cryptographic protocols (TLS 1.2 and 1.3).
 Your data at rest is encrypted using Advanced Encryption Standard (AES) with a 256-bit key.
 Redundant backups of critical data are also in place to ensure business continuity in case of disaster.
 ‍

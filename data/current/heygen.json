@@ -6,9 +6,9 @@
   "url": "https://www.heygen.com/pricing",
   "final_url": "https://www.heygen.com/pricing",
   "parser_version": 4,
-  "content_hash": "a748cd7b5fec2018a0523c4dd90587cdbdbfd2ac7d2ab7cc33ba0d4e6e230aef",
-  "raw_hash": "b0e6b6939db02d9af9d4ef2d10683fa64d58a04e247a72e2ef06e35cca5584a1",
-  "text_bytes": 15787,
+  "content_hash": "b893720055890c49ef6e214b3630285b2bb806f6d08efae39b02df61694ffe94",
+  "raw_hash": "90c674dfbfd6517eec9f81a984e7942b70aed126a5d1580a1f85483d4ed1b05c",
+  "text_bytes": 16078,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -22,11 +22,11 @@
       "features": [
         "3 videos a month, watermarked",
         "Videos up to 1 minute each",
-        "Access to Avatar IV and Video Agent",
+        "Access to Avatar 6 and Video Agent",
         "One Custom Video Avatar, plus 500+ ready-made presenters",
         "30+ languages",
-        "Avatar III and Avatar IV, our proven AI Avatar engines",
-        "Avatar V, with limited usage",
+        "Avatar 6 Turbo, our newest expressive AI Avatar engine",
+        "Avatar Lipsync, our proven AI Avatar engine",
         "Video Agent, with expanded access",
         "HeyGen Voice, with up to 10 hours of text to speech",
         "HeyGen Video 1: text, image, and reference to video",
@@ -36,15 +36,15 @@
         "Custom Video Avatar with your own voice and likeness",
         "175+ languages and dialects",
         "Credits roll over one month",
-        "4K video export Ship at the highest resolution HeyGen offers",
+        "Avatar 6 Pro Our most lifelike avatar yet",
+        "1 Professional Voice Clone Highest-fidelity clone of your own voice, $29/mo Free",
         "Access to Seedance 2.5 The leading video model, with no second subscription",
         "Cinematic Avatars Place your avatar in dynamic, text-prompted cinematic scenes",
-        "1 Professional Voice Clone Highest-fidelity clone of your own voice, $29/mo Free",
-        "Avatar V, and first access to our newest models",
+        "4K video export Ship at the highest resolution HeyGen offers",
+        "Avatar 6 Turbo, and first access to our newest models",
+        "Avatar Lipsync, our proven AI Avatar engine",
         "Video Agent, with maximum access",
-        "VEO 3.1 and Nano Banana for video and image generation",
-        "HeyGen Voice, with 16+ hours of text to speech",
-        "Videos up to 30 minutes each"
+        "VEO 3.1 and Nano Banana for video and image generation"
       ],
       "slot_prices": [
         0.0
@@ -57,8 +57,8 @@
       "currency": "USD",
       "period": "month",
       "features": [
-        "Avatar III and Avatar IV, our proven AI Avatar engines",
-        "Avatar V, with limited usage",
+        "Avatar 6 Turbo, our newest expressive AI Avatar engine",
+        "Avatar Lipsync, our proven AI Avatar engine",
         "Video Agent, with expanded access",
         "HeyGen Voice, with up to 10 hours of text to speech",
         "HeyGen Video 1: text, image, and reference to video",
@@ -80,11 +80,13 @@
       "currency": "USD",
       "period": "month",
       "features": [
-        "4K video export Ship at the highest resolution HeyGen offers",
+        "Avatar 6 Pro Our most lifelike avatar yet",
+        "1 Professional Voice Clone Highest-fidelity clone of your own voice, $29/mo Free",
         "Access to Seedance 2.5 The leading video model, with no second subscription",
         "Cinematic Avatars Place your avatar in dynamic, text-prompted cinematic scenes",
-        "1 Professional Voice Clone Highest-fidelity clone of your own voice, $29/mo Free",
-        "Avatar V, and first access to our newest models",
+        "4K video export Ship at the highest resolution HeyGen offers",
+        "Avatar 6 Turbo, and first access to our newest models",
+        "Avatar Lipsync, our proven AI Avatar engine",
         "Video Agent, with maximum access",
         "VEO 3.1 and Nano Banana for video and image generation",
         "HeyGen Voice, with 16+ hours of text to speech",
@@ -105,10 +107,11 @@
       "currency": "USD",
       "period": "month",
       "features": [
-        "4K video export Ship at the highest resolution HeyGen offers",
+        "Avatar 6 Pro Our most lifelike avatar yet",
+        "1 Professional Voice Clone Highest-fidelity clone of your own voice, $29/mo Free",
         "Access to Seedance 2.5 The leading video model, with no second subscription",
         "Cinematic Avatars Place your avatar in dynamic, text-prompted cinematic scenes",
-        "1 Professional Voice Clone Highest-fidelity clone of your own voice, $29/mo Free"
+        "4K video export Ship at the highest resolution HeyGen offers"
       ],
       "slot_prices": [
         29.0
@@ -123,7 +126,7 @@
       "features": [
         "Videos up to 60 minutes each",
         "2x the concurrency of Pro",
-        "5 Custom Video Avatars with Avatar V",
+        "5 Custom Video Avatars with Avatar 6 Pro",
         "4k video export and upscale",
         "Add members to a shared workspace",
         "Centralized billing, with top-up credits",
@@ -331,7 +334,7 @@
           "Unlimited"
         ],
         [
-          "Avatar IV Video Generation",
+          "Avatar Lipsync",
           "",
           "",
           "",
@@ -339,7 +342,23 @@
           ""
         ],
         [
-          "Avatar IV max duration per video",
+          "Avatar 6 Turbo",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Avatar 6 Pro",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Avatar 6 max duration per video",
           "1 minute",
           "30 minutes",
           "30 minutes",

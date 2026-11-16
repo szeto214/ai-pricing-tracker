@@ -7,7 +7,7 @@
   "final_url": "https://murf.ai/pricing",
   "parser_version": 4,
   "content_hash": "d9cb16038614c83410d5b0f0a588bdabaead0fcc31456e143e6daebd46daf79e",
-  "raw_hash": "e04003fccb7f6a232514dbf4740a1f376710e83b089bc8be74c58523babbf379",
+  "raw_hash": "42e7203ed5f00f70ac3a9fa5558187aeefa9d02fcb40772bbaa7709c1a358354",
   "text_bytes": 4181,
   "currency_hints": [],
   "extractor": "dom",

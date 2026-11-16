@@ -1,17 +1,6 @@
 Introducing Render Sandboxes: a computer for every agent.
 Learn more
 Predictable pricing that scales with you.
-Jump to
-workspace plans
-,
-compute pricing
-, and
-FAQs
-.
-Are you a VC-funded startup? Get up to $100K in credits with
-Render for Startups ↗
-Looking to migrate? We can help and you can get up to $10K in credits.
-Sign up now ↗
 Workspace Plans
 Hobby
 Pro
@@ -70,6 +59,10 @@ Contractual uptime SLAs
 Dedicated technical account team
 Support Slack channel
 Support response SLAs
+Are you a VC-funded startup? Get up to $100K in credits with
+Render for Startups ↗
+Looking to migrate? We can help and you can get up to $10K in credits.
+Sign up now ↗
 Hobby
 For individuals building personal projects and prototypes.
 $
@@ -176,8 +169,7 @@ $800/month
 $1,500/month
 96 GB RAM
 12c-96g
-Expand
-compute table
+Expand compute table
 Postgres
 Scale up to
 128
@@ -313,8 +305,7 @@ $11,000/month
 1024GB RAM
 500 connections
 128c-1024g
-Expand
-compute table
+Expand compute table
 Key Value
 Scale up to
 50
@@ -382,8 +373,7 @@ $750/month
 50 GB storage
 50,000 connections
 50g
-Expand
-compute table
+Expand compute table
 Cron Jobs
 Scale up to
 8
@@ -439,8 +429,7 @@ $0.01042/minute
 $0.02315/minute
 64 GB RAM
 8c-64g
-Expand
-compute table
+Expand compute table
 Workflows
 Scale up to
 8
@@ -475,8 +464,7 @@ $1.50/hour
 $2.50/hour
 32 GB RAM
 8c-32g
-Expand
-compute table
+Expand compute table
 Sandboxes
 Beta
 Scale up to
@@ -485,12 +473,12 @@ CPU and
 16
 GB of RAM
 Isolated VMs for agents
-Automatic suspend when idle
 Billing for active CPU time + provisioned memory
+Automatic suspend when idle
 Snapshot storage
 for $0.08/GB per month
-Default limit of 1,000 concurrent sandboxes on Pro, Scale workspaces
-Higher limits
+Default concurrency of 1,000 on Pro, Scale workspaces
+Higher concurrency, disk, and compute limits
 on request
 1 CPU
 $0.12 / active CPU hour
@@ -512,8 +500,7 @@ $0.12 / active CPU hour
 16 GB RAM
 $0.304/hour for provisioned memory
 8c-16g
-Expand
-compute table
+Expand compute table
 Static Sites
 Always free to deploy
 Lightning-fast CDN

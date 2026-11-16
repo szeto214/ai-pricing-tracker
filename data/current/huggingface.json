@@ -6,9 +6,9 @@
   "url": "https://huggingface.co/pricing",
   "final_url": "https://huggingface.co/pricing",
   "parser_version": 4,
-  "content_hash": "ce2dd1c241cad45b1df107909326dffef93826753f0cfb42524c184f19300b6d",
-  "raw_hash": "290fccb87da488f0d2ef1eafedac98feb34856b352c62d0b04f78646e8397850",
-  "text_bytes": 23043,
+  "content_hash": "e991d800454e669cd112eb4d7680bd4f9aaa290af493cd4d62e60e101f2a88b9",
+  "raw_hash": "9622be1ffba60f6b79b48695a786781df818c767e3723c327def6ad0df2131bb",
+  "text_bytes": 22940,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -784,30 +784,6 @@
           "8",
           "640GB",
           "$20.00 $14,400"
-        ],
-        [
-          "NVIDIA H100 aws",
-          "1",
-          "80GB",
-          "$4.50 $3,240"
-        ],
-        [
-          "",
-          "2",
-          "160GB",
-          "$9.00 $6,480"
-        ],
-        [
-          "",
-          "4",
-          "320GB",
-          "$18.00 $12,960"
-        ],
-        [
-          "",
-          "8",
-          "640GB",
-          "$36.00 $25,920"
         ],
         [
           "NVIDIA H200 aws",

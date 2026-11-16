@@ -1,8 +1,20 @@
 Models
+Qwen: Qwen4 Max
+Qwen4 Max
+15.9B tokens
+Qwen4 Max is the flagship model in Alibaba's Qwen4 series. It accepts text, image, and video input and returns text, with a 1M-token context window and reasoning enabled by default. Reasoning effort can be set to low, high, or xhigh (default high), or reasoning can be turned off. Tool calling and structured outputs are supported.
+by
+qwen
+Nov 16, 2026
+1M context
+$1.50/M input
+tokens
+$4.50/M output
+tokens
 Recraft: Recraft V4.1 Flash V2 (free)
 Recraft V4.1 Flash V2 (free)
 Going away November 28, 2026
-253M tokens
+452M tokens
 Recraft V4.1 Flash V2 is a text-to-image model from Recraft, an updated version of
 Recraft V4.1 Flash
 in the speed tier of the V4.1 family. It is suited for rapid iteration, prototyping, and high-volume generation, and improves on its predecessor in generation speed and in rendering text inside images. It is generation only: image inputs, styles, and style references are not supported. Supports the same aspect ratios as V4.1 Flash and the
@@ -21,7 +33,7 @@ $0/M output
 tokens
 Recraft: Recraft V4.1 Flash V2
 Recraft V4.1 Flash V2
-22.9M tokens
+69.4M tokens
 Recraft V4.1 Flash V2 is a text-to-image model from Recraft, an updated version of
 Recraft V4.1 Flash
 in the speed tier of the V4.1 family. It is suited for rapid iteration, prototyping, and high-volume generation, and improves on its predecessor in generation speed and in rendering text inside images. It is generation only: image inputs, styles, and style references are not supported. Supports the same aspect ratios as V4.1 Flash and the
@@ -37,7 +49,7 @@ Nov 13, 2026
 $0.007/image
 Tencent: HY-World 2.1 Panorama
 HY-World 2.1 Panorama
-75.1M tokens
+123M tokens
 HY-World 2.1 Panorama is a 360-degree panorama generation model from Tencent, part of the Hunyuan World family. It turns a single text prompt into one high-resolution equirectangular panorama suitable for virtual tours, skyboxes, and world-building, and is particularly strong at coherent, seamless scene layout across the full sphere. Each request produces one panorama; prompts are capped at 600 characters.
 by
 tencent
@@ -45,7 +57,7 @@ Nov 13, 2026
 $1.60/M tokens
 inclusionAI: Ling 3.2 Flash (free)
 Ling 3.2 Flash (free)
-79.4B tokens
+137B tokens
 Ling 3.2 Flash is a hybrid reasoning model from inclusionAI that accepts text and image input, with a 1M-token context window and up to 200 images per request. Thinking can be switched off per request.
 by
 inclusionai
@@ -57,7 +69,7 @@ $0/M output
 tokens
 HeyGen: HeyGen Decision Turbo
 HeyGen Decision Turbo
-1.25B tokens
+1.41B tokens
 HeyGen Decision 1 Turbo is a lower-cost variant of
 HeyGen Decision 1
 from HeyGen, with the same question types (
@@ -76,7 +88,7 @@ $0/M output
 tokens
 HeyGen: HeyGen Decision
 HeyGen Decision
-838M tokens
+1.17B tokens
 HeyGen Decision 1 is a decision model from HeyGen. It reads text and images and answers a set of named questions in one request, returning typed answers with probabilities: a yes/no likelihood (
 noul
 ), a pick from a list of options (
@@ -93,7 +105,7 @@ $0/M output
 tokens
 ByteDance Seed: Seedream 5.5
 Seedream 5.5
-471M tokens
+746M tokens
 Seedream 5.5 is an image generation and editing model from ByteDance Seed. It is suited for creating images from text prompts and for editing or combining existing images, using up to 10 reference images per request.
 by
 bytedance-seed
@@ -101,7 +113,8 @@ Nov 12, 2026
 from $0.02/image
 Perplexity: Decider Flash V1.3 (free)
 Decider Flash V1.3 (free)
-7.9B tokens
+21.6B tokens
+Health (#21)
 Decider Flash V1.3 is a decision model from Perplexity, a smaller, lower-cost sibling of
 Decider V1.3
 with the same API contract. Instead of generating text, it reads content passed as
@@ -130,12 +143,12 @@ $0/M output
 tokens
 Perplexity: Decider V1.3 (free)
 Decider V1.3 (free)
-76.9B tokens
+113B tokens
 Academia (#14)
-Health (#49)
-Legal (#12)
-Translation (#48)
-Trivia (#20)
+Health (#46)
+Legal (#11)
+Translation (#28)
+Trivia (#18)
 Decider V1.3 is a decision model from Perplexity, succeeding
 Decider V1.2
 . Instead of generating text, it reads content passed as
@@ -166,7 +179,7 @@ $0/M output
 tokens
 Google: Gemini 4 Hydrogen (batch)
 Gemini 4 Hydrogen (batch)
-98.8M tokens
+111M tokens
 Gemini 4 Hydrogen is the high-efficiency workhorse model of the Gemini 4 family from Google, built for high-throughput agentic workflows, coding and multi-model routing at lower cost and latency than Gemini 4 Carbon. It takes text, image, audio, video and file input, supports long decode of up to 1M output tokens through continuation, and controls thinking depth with low, medium, high and xhigh reasoning effort.
 by
 google
@@ -178,8 +191,10 @@ $3.75/M output
 tokens
 Google: Gemini 4 Hydrogen
 Gemini 4 Hydrogen
-134B tokens
-Legal (#46)
+189B tokens
+Health (#40)
+Legal (#45)
+Programming (#48)
 Translation (#26)
 Gemini 4 Hydrogen is the high-efficiency workhorse model of the Gemini 4 family from Google, built for high-throughput agentic workflows, coding and multi-model routing at lower cost and latency than Gemini 4 Carbon. It takes text, image, audio, video and file input, supports long decode of up to 1M output tokens through continuation, and controls thinking depth with low, medium, high and xhigh reasoning effort.
 by
@@ -192,7 +207,7 @@ $7.50/M output
 tokens
 Speechify: Simba 3.5
 Simba 3.5
-327K tokens
+491K tokens
 Speechify's recommended streaming text-to-speech model, covering 48 languages including English under one model, with the language chosen per request.
 by
 speechify
@@ -200,10 +215,11 @@ Nov 11, 2026
 $15/M characters
 Google: Gemini Decision 1
 Gemini Decision 1
-28.7B tokens
+32.4B tokens
+Health (#37)
 Legal (#34)
 Translation (#13)
-Trivia (#48)
+Trivia (#47)
 Gemini Decision 1 is Google's model for the Decisions API. It answers structured questions about an input state (true/false, multiple choice with up to 255 options, and score with up to 255 levels) and returns a confidence for every answer, plus a legend and probabilities for score questions. It reads text, images, audio, video, and documents (PDF, CSV, and Office files) sent inline as base64 or by public URL. Every question needs instructions.
 by
 google
@@ -214,7 +230,7 @@ $0/M output
 tokens
 MiniMax: MiniMax H3 Image Highspeed
 MiniMax H3 Image Highspeed
-128M tokens
+149M tokens
 MiniMax H3 Image Highspeed is the faster version of MiniMax's H3 Image model. It takes the same inputs and limits as MiniMax H3 Image: it creates images from text prompts and edits or composes images from 1 to 16 reference images, with output up to 20 megapixels and aspect ratios from 1:3 to 3:1.
 by
 minimax
@@ -225,7 +241,7 @@ $7.60/M output
 tokens
 MiniMax: MiniMax H3 Image
 MiniMax H3 Image
-453M tokens
+527M tokens
 MiniMax H3 Image is MiniMax's image generation and editing model. It creates images from text prompts and edits or composes images from 1 to 16 reference images, with output up to 20 megapixels and aspect ratios from 1:3 to 3:1.
 by
 minimax
@@ -236,8 +252,8 @@ $3.80/M output
 tokens
 Baidu: ERNIE-5.5-Flash-Preview (free)
 ERNIE-5.5-Flash-Preview (free)
-1.63T tokens
-Programming (#49)
+2.17T tokens
+Programming (#43)
 ERNIE 5.5 Flash Preview is the latest foundation model in the ERNIE family, with comprehensive improvements in coding, agentic capabilities, knowledge work, and deep research. It has 280 billion total parameters, activates 14 billion parameters per token, and supports a context window of 1 million tokens. Its new architecture combines strong model capabilities with efficient inference, delivering generation speeds of more than 200 tokens per second.
 by
 baidu
@@ -246,18 +262,6 @@ Nov 10, 2026
 $0/M input
 tokens
 $0/M output
-tokens
-Baidu: ERNIE-Light-DT-1.0
-ERNIE-Light-DT-1.0
-852M tokens
-ERNIE-Light-DT-1.0 is based on open-source GLM models and includes research findings from Baidu Search's Lightning large model. It features Baidu Sparse Attention (BSA), a unique sparse attention mechanism developed by Baidu ERNIE. By using feedback-driven history compression, it improves the storage and indexing of historical information. This significantly reduces KV cache storage and computational costs while maintaining model performance. As a result, it allows for longer context windows at a lower cost.
-by
-baidu
-Nov 10, 2026
-1.02M context
-$1.13/M input
-tokens
-$3.94/M output
 tokens
 Compare
 Discover Models

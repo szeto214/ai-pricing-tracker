@@ -6,9 +6,9 @@
   "url": "https://northflank.com/pricing",
   "final_url": "https://northflank.com/pricing",
   "parser_version": 4,
-  "content_hash": "42b14005767ffde693175f1dc5a20d8738b165f50d64a2f8f3d56b2ddd832e3a",
-  "raw_hash": "e3648023e08a82cc43a9424a8e841c16c245b2e8daf1b20d3811ddf3131f2329",
-  "text_bytes": 16076,
+  "content_hash": "e22c71034088b1cd05b67fe52a10c5bcd596db43e595f7432eed504d52aa9141",
+  "raw_hash": "087937cde68bef45ed4fd4d42ad4fb979a9f61360ba2d9230f1785cbeb0f76ad",
+  "text_bytes": 16091,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -585,7 +585,7 @@
         [
           "NVIDIA H100 80 GB VRAM",
           "80 GB",
-          "8 ×",
+          "1 × 2 × 4 × 8 ×",
           "$2.74 / hour"
         ],
         [

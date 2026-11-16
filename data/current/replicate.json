@@ -6,9 +6,9 @@
   "url": "https://replicate.com/pricing",
   "final_url": "https://replicate.com/pricing",
   "parser_version": 4,
-  "content_hash": "8047d0a09b370029e3242126b2806b42043f734117d11a81733763dfbb5d7761",
-  "raw_hash": "079f653ca583fed2ea833a1243261983640a86cf8038a6100827180e9813b8e2",
-  "text_bytes": 8184,
+  "content_hash": "ae15e1da0fda584c4e5b4b5111fa32017b3682af53726de87a12a6ba14a3c485",
+  "raw_hash": "0e210ce2b8f35c0303ac21d4eb1316e3efe2d3cbc66062b2dac737c4419e0df3",
+  "text_bytes": 8044,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -103,18 +103,6 @@
     }
   ],
   "models": [
-    {
-      "key": "cpu (small) cpu-small",
-      "model": "CPU (Small) cpu-small",
-      "prices": {
-        "price": {
-          "raw": "$ 0.000025",
-          "amount": 2.5e-05
-        }
-      },
-      "currency": "USD",
-      "unit": ""
-    },
     {
       "key": "cpu cpu",
       "model": "CPU cpu",
@@ -343,14 +331,6 @@
           "CPU",
           "GPU RAM",
           "RAM"
-        ],
-        [
-          "CPU (Small) cpu-small",
-          "$ 0.000025 /sec $ 0.09 /hr",
-          "-",
-          "1x",
-          "-",
-          "2GB"
         ],
         [
           "CPU cpu",

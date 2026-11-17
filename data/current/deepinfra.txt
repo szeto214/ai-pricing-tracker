@@ -295,6 +295,11 @@ Context
 $ per 1M input tokens
 $ per 1M output tokens
 Actions
+Qwen4-Max
+976k
+$1.413 / $0.071 cached
+$4.24
+View more
 Qwen3.8-Flash
 976k
 $0.113 / $0.0141 cached
@@ -398,6 +403,11 @@ Context
 $ per 1M input tokens
 $ per 1M output tokens
 Actions
+Qwen4-Max
+976k
+$1.413 / $0.071 cached
+$4.24
+View more
 Qwen3.8-Flash
 976k
 $0.113 / $0.0141 cached
@@ -1223,6 +1233,9 @@ Trust Center
 Status
 DeepGPT
 Latest Models
+Qwen
+/
+Qwen4-Max
 thinkingmachines
 /
 Inkling-2-Small
@@ -1235,25 +1248,22 @@ LTX-Upscale
 Lightricks
 /
 LTX-Reframe
-Lightricks
-/
-LTX-HDR
 Featured Models
-nvidia
-/
-NVIDIA-Nemotron-3.5-Super-VL
 deepseek-ai
 /
-DeepSeek-V3.2
-moonshotai
+DeepSeek-V4-Flash
+nvidia
 /
-Kimi-K2.6
-moonshotai
-/
-Kimi-K3.1-Pro
+NVIDIA-Nemotron-3-Super-120B-A12B
 zai-org
 /
-GLM-5.3-Flash
+GLM-5.2
+deepseek-ai
+/
+DeepSeek-V4-Pro
+black-forest-labs
+/
+FLUX-2-klein-9b
 © 2026 DeepInfra. All rights reserved.
 Privacy Policy
 Terms of Service

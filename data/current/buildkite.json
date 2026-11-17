@@ -6,9 +6,9 @@
   "url": "https://buildkite.com/pricing",
   "final_url": "https://buildkite.com/pricing/",
   "parser_version": 4,
-  "content_hash": "3884cd4a2688f58962947259a274cff6d0de5cd66cdb439ffadf6eeed8a262a1",
-  "raw_hash": "d667f2d88708d1e229a893a1b9b10383710674940a1d5d480c5e551afaaf8182",
-  "text_bytes": 21810,
+  "content_hash": "a3aabb38ee9cdb734866d9eb160f412618a915762e763746c60cab59fcba6d97",
+  "raw_hash": "8e0acaeb16ecdba4ac4e531402dbd5f7777987983e910df7a24bbc1da794924b",
+  "text_bytes": 23302,
   "currency_hints": [
     "USD"
   ],
@@ -35,6 +35,17 @@
       "features": [],
       "slot_prices": [
         15.0
+      ]
+    },
+    {
+      "name": "Tests",
+      "price_raw": "$0.50",
+      "amount": 0.5,
+      "currency": "USD",
+      "period": "year",
+      "features": [],
+      "slot_prices": [
+        0.5
       ]
     }
   ],

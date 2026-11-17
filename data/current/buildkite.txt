@@ -11,12 +11,14 @@ No credit card required
 See what’s included
 Your 30-day all-access trial includes:
 30 days of full access to the entire Buildkite Platform
+100GB of OpenTelemetry traces for your test suites
 No credit card needed to start
 A dedicated Developer Success Engineer to help you get started
 The option to choose the plan that fits your needs after 30 days, or walk away without any commitment.
 See what’s included
 Your 30-day all-access trial includes:
 30 days of full access to the entire Buildkite Platform
+100GB of OpenTelemetry traces for your test suites
 No credit card needed to start
 A dedicated Developer Success Engineer to help you get started
 The option to choose the plan that fits your needs after 30 days, or walk away without any commitment.
@@ -25,6 +27,7 @@ Up to 5 users
 Up to 10 concurrent jobs
 Up to 2,000 Linux vCPU minutes per month
 Up to 250k test executions per month
+Up to 1GB/month of OpenTelemetry traces for your test suites
 Dynamic pipelines
 Community support
 Pro Plan
@@ -37,12 +40,14 @@ No credit card required
 See what’s included
 Your 30-day all-access trial includes:
 30 days of full access to the entire Buildkite Platform
+100GB of OpenTelemetry traces for your test suites
 No credit card needed to start
 A dedicated Developer Success Engineer to help you get started
 The option to choose the plan that fits your needs after 30 days, or walk away without any commitment.
 See what’s included
 Your 30-day all-access trial includes:
 30 days of full access to the entire Buildkite Platform
+100GB of OpenTelemetry traces for your test suites
 No credit card needed to start
 A dedicated Developer Success Engineer to help you get started
 The option to choose the plan that fits your needs after 30 days, or walk away without any commitment.
@@ -51,6 +56,7 @@ Up to 50 users
 Up to 250 concurrent agents, 10 included
 Includes 4,000 Linux AMD64 vCPU minutes per month with access to macOS, Windows, and Linux ARM64 agents, larger machine sizes, and higher concurrency
 1M test executions per month
+10GB/month of OpenTelemetry traces for your test suites
 Dynamic pipelines
 Priority email support
 Enterprise Plan
@@ -60,6 +66,7 @@ Contact sales
 Platform
 Custom usage and rate limits
 Full access to Buildkite’s testing platform
+OpenTelemetry tracing for your test suites
 Buildkite hosted agents with remote Docker builders, largest machine sizes, and scalable concurrency
 Custom storage and retention policies for builds, artifacts, and logs
 Dynamic pipelines
@@ -132,13 +139,21 @@ Define standard pipeline step configurations to use across your organization.
 +
 −
 Tests
-Expand to see 4 features
+Expand to see 5 features
 Test executions
 A test execution is a recorded result from one run of a test. Ingesting this data is optional.
 250k/month
 1M/month included
 Then $15/M executions
 Custom
+OpenTelemetry traces
+Uncompressed child spans received over OTLP, measured in GB, with 30-day retention.
+1GB/month
+Hard cap
+10GB/month included
+Then $0.50/GB
+600GB/year included
+Then $0.50/GB
 Workflows
 —
 1 workflow
@@ -386,10 +401,14 @@ Artifact downloads
 +
 −
 Tests
-Expand to see 4 features
+Expand to see 5 features
 Test executions
 A test execution is a recorded result from one run of a test. Ingesting this data is optional.
 250k/month
+OpenTelemetry traces
+Uncompressed child spans received over OTLP, measured in GB, with 30-day retention.
+1GB/month
+Hard cap
 Workflows
 —
 Test history window
@@ -490,11 +509,15 @@ Then $0.10/GB overage
 +
 −
 Tests
-Expand to see 4 features
+Expand to see 5 features
 Test executions
 A test execution is a recorded result from one run of a test. Ingesting this data is optional.
 1M/month included
 Then $15/M executions
+OpenTelemetry traces
+Uncompressed child spans received over OTLP, measured in GB, with 30-day retention.
+10GB/month included
+Then $0.50/GB
 Workflows
 1 workflow
 Includes flaky identification and labelling
@@ -619,10 +642,14 @@ Define standard pipeline step configurations to use across your organization.
 +
 −
 Tests
-Expand to see 4 features
+Expand to see 5 features
 Test executions
 A test execution is a recorded result from one run of a test. Ingesting this data is optional.
 Custom
+OpenTelemetry traces
+Uncompressed child spans received over OTLP, measured in GB, with 30-day retention.
+600GB/year included
+Then $0.50/GB
 Workflows
 Custom
 Set custom quarantine rules
@@ -852,6 +879,9 @@ Contact us
 to confirm your project is open source, and we'll enable your account.
 What is included in the All Access Trial?
 You get 30 days of access to Buildkite Pipelines, Test Suites, Package Registries, and Hosted Agents, plus a dedicated Developer Success Engineer to help you get started. No credit card is required, and you choose a plan only when the trial ends.
+How is OpenTelemetry usage measured?
+By the uncompressed size of the spans Test Engine receives over OTLP, in GB. The test span itself is already counted as a test execution, so you only pay for what happens inside your tests: queries, HTTP calls, cache hits and the like. Traces are kept for 30 days.
+Free includes 1GB/month, Pro includes 10GB/month, and Enterprise includes 600GB/year. Pro and Enterprise overage is $0.50/GB. OpenTelemetry tracing is available on 2026 plans; customers on legacy plans need to upgrade to access it.
 Platform
 Pipelines
 Public pipelines

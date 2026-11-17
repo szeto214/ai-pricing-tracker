@@ -6,15 +6,15 @@
   "url": "https://www.assemblyai.com/pricing",
   "final_url": "https://www.assemblyai.com/pricing",
   "parser_version": 4,
-  "content_hash": "594526c0a13384126cd38d9e072c82628d091ac6ea4b32b14aea7e4f1990c75b",
-  "raw_hash": "d3b42feb85fc04c5580da6e69dd898d043b54590bc75afd5652f2202ec6ae399",
-  "text_bytes": 8787,
+  "content_hash": "e27b5f06a793a9de6cb6f954f6c390d43fe2d8980a4f4a69d937f221531b5a38",
+  "raw_hash": "1654acc10ba4cc50105af8e41474b36ea3968307e176433f6339cd191c8d4539",
+  "text_bytes": 8733,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
     {
-      "name": "Universal-3.5 Pro",
+      "name": "AssemblyAI-STT-3.7",
       "price_raw": "$0.21",
       "amount": 0.21,
       "currency": "USD",
@@ -47,7 +47,7 @@
           "Custom"
         ],
         [
-          "Universal-3.5 Pro The most accurate async speech-to-text model that transcribes every conversation exactly as it's heard – works across 18 languages, with nativ",
+          "AssemblyAI-STT-3.7 New The most accurate model for recorded audio, across 32 languages with automatic language detection and native code switching, plus a new s",
           "$0.21 /hr",
           "Get custom rate limits, enhanced concurrency, and enterprise-grade flexibility tailored to your AI workloads. Contact us"
         ],

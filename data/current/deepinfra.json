@@ -6,9 +6,9 @@
   "url": "https://deepinfra.com/pricing",
   "final_url": "https://deepinfra.com/pricing",
   "parser_version": 4,
-  "content_hash": "7a308e14704c3e7514c705128c46a739da78ee520d387b4f008a6aeb6df0621d",
-  "raw_hash": "8969436dce66e6d8d16a5c95daeb3265dbbe236b0818379bc5fb0470f432ad6c",
-  "text_bytes": 17841,
+  "content_hash": "27e83abcc626e43528d6709a6255ce1b7104642b74bf4f3be469b20e16de21d0",
+  "raw_hash": "9d5524bd602d9711b6c467dcff729751a12e8a94261f93adb181746fb789572b",
+  "text_bytes": 17964,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -434,6 +434,22 @@
         "$ per 1m output tokens": {
           "raw": "$2.00",
           "amount": 2.0
+        }
+      },
+      "currency": "USD",
+      "unit": "per 1m input tokens"
+    },
+    {
+      "key": "qwen4-max",
+      "model": "Qwen4-Max",
+      "prices": {
+        "$ per 1m input tokens": {
+          "raw": "$1.413",
+          "amount": 1.413
+        },
+        "$ per 1m output tokens": {
+          "raw": "$4.24",
+          "amount": 4.24
         }
       },
       "currency": "USD",
@@ -1590,6 +1606,13 @@
           "Actions"
         ],
         [
+          "Qwen4-Max",
+          "976k",
+          "$1.413 / $0.071 cached",
+          "$4.24",
+          "View more"
+        ],
+        [
           "Qwen3.8-Flash",
           "976k",
           "$0.113 / $0.0141 cached",
@@ -1733,6 +1756,13 @@
           "$ per 1M input tokens",
           "$ per 1M output tokens",
           "Actions"
+        ],
+        [
+          "Qwen4-Max",
+          "976k",
+          "$1.413 / $0.071 cached",
+          "$4.24",
+          "View more"
         ],
         [
           "Qwen3.8-Flash",

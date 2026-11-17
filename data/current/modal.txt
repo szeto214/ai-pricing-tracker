@@ -9,9 +9,9 @@ Sandboxes
 Isolated environments for coding agents, RL rollouts, and untrusted code
 Training
 Fine-tune, run RL, and evaluate models on GPUs that spin up in seconds
-Modal Infrastructure
-Infrastructure rebuilt for AI, from the container runtime and storage to a multi-cloud capacity pool
-Featured Model APIs
+Model APIs
+Access the latest open weight models, optimized for production performance and security
+Featured models
 Kimi K3.1 Pro
 DeepSeek v4.1 Flash 1017
 GLM 5.3
@@ -40,9 +40,7 @@ Sign up
 Pricing as
 magical
 as our product
-With Modal, you always pay for what you use and nothing more. You
-never pay for idle resources — just actual compute time, by the
-CPU cycle.
+With Modal, you always pay for what you use and nothing more. You never pay for idle resources — just actual compute time, by the CPU cycle.
 Get started
 Contact us
 Resource costs

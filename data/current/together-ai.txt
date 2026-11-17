@@ -31,11 +31,11 @@ Batch API price
 Model
 Input
 output
-MiniMax M3.1 Flash
-$0.15
-$0.015
+GLM-5.3
+$1.40
+$0.26
 (cached)
-$0.60
+$4.40
 DeepSeek V4.1 Flash 1017
 $0.30
 $0.006
@@ -51,24 +51,6 @@ $0.30
 $0.03
 (cached)
 $1.00
-Qwen3.7-Plus
-$0.32
-$1.28
-DeepSeek V4 Pro 0813
-$1.32
-$0.13
-(cached)
-$3.96
-GLM-5.3
-$1.40
-$0.26
-(cached)
-$4.40
-GLM-5.3-Flash
-$0.15
-$0.03
-(cached)
-$0.50
 Qwen3.8 Flash
 $0.15
 $0.47
@@ -77,14 +59,21 @@ $1.25
 $0.15
 (cached)
 $4.25
-Tev1 4B Experimental
-$0.042
-$0.00
 Beam 1.0 501B A23B
 $0.40
 $0.04
 (cached)
 $1.20
+MiniMax M3.1 Flash
+$0.15
+$0.015
+(cached)
+$0.60
+GLM-5.3-Flash
+$0.15
+$0.03
+(cached)
+$0.50
 NVIDIA Nemotron 3.5 Super VL
 $0.15
 $0.02
@@ -95,16 +84,22 @@ $0.20
 $0.02
 (cached)
 $0.60
+Tev1 4B Experimental
+$0.042
+$0.00
+DeepSeek V4 Pro 0813
+$1.32
+$0.13
+(cached)
+$3.96
 Qwen3.7-Max
 $2.50
 $0.50
 (cached)
 $7.50
-DeepSeek V4.1 Flash
-$0.30
-$0.006
-(cached)
-$1.20
+Qwen3.7-Plus
+$0.32
+$1.28
 GLM-5.2
 $1.40
 $0.26
@@ -113,22 +108,27 @@ $4.40
 Ternary Bonsai 27B
 Free
 Free
+Kimi K3
+$3.00
+$0.30
+(cached)
+$15.00
 Muse Glimmer 30B
 $0.35
 $0.04
 (cached)
 $1.50
+DeepSeek V4.1 Flash
+$0.30
+$0.006
+(cached)
+$1.20
 gpt-oss-120B
 $0.15
 $0.60
 Qwen3.5 9B
 $0.17
 $0.25
-Kimi K3
-$3.00
-$0.30
-(cached)
-$15.00
 Rnj-1 Instruct
 $0.15
 $0.15
@@ -143,11 +143,6 @@ Price per 1M tokens
 Model
 Input
 output
-MiniMax M3.1 Flash
-$0.15
-$0.015
-(cached)
-$0.60
 DeepSeek V4.1 Flash 1017
 $0.30
 $0.006
@@ -163,14 +158,6 @@ $0.30
 $0.03
 (cached)
 $1.00
-Qwen3.7-Plus
-$0.32
-$1.28
-GLM-5.3-Flash
-$0.15
-$0.03
-(cached)
-$0.50
 Qwen3.8 Flash
 $0.15
 $0.47
@@ -179,32 +166,45 @@ $1.25
 $0.15
 (cached)
 $4.25
+MiniMax M3.1 Flash
+$0.15
+$0.015
+(cached)
+$0.60
+GLM-5.3-Flash
+$0.15
+$0.03
+(cached)
+$0.50
 NVIDIA Nemotron 3.5 Super VL
 $0.15
 $0.02
 (cached)
 $0.50
-DeepSeek V4.1 Flash
-$0.30
-$0.006
-(cached)
-$1.20
+Qwen3.7-Plus
+$0.32
+$1.28
 Ternary Bonsai 27B
 Free
 Free
-Muse Glimmer 30B
-$0.35
-$0.04
-(cached)
-$1.50
-Qwen3.5 9B
-$0.17
-$0.25
 Kimi K3
 $3.00
 $0.30
 (cached)
 $15.00
+Muse Glimmer 30B
+$0.35
+$0.04
+(cached)
+$1.50
+DeepSeek V4.1 Flash
+$0.30
+$0.006
+(cached)
+$1.20
+Qwen3.5 9B
+$0.17
+$0.25
 Qwen3.6-Plus
 $0.50
 $3.00
@@ -217,21 +217,17 @@ GPT Image 2
 -
 $0.053
 -
-Wan 2.6 Image
--
-$0.03
--
 Nano Banana Pro (Gemini 3 Pro Image)
 -
 $0.134
 -
-FLUX.2 [pro]
+Wan 2.6 Image
 -
 $0.03
 -
-Ideogram 4.0
+FLUX.2 [pro]
 -
-$0.06
+$0.03
 -
 Seedream 5.0 Lite
 -
@@ -248,6 +244,10 @@ $0.075
 Qwen Image 2.0
 -
 $0.035
+-
+Ideogram 4.0
+-
+$0.06
 -
 Gemini 3.1 Flash-Lite Image (Nano Banana 2 Lite)
 -
@@ -333,12 +333,14 @@ $65.00
 Price per video
 Model
 Price
-FLUX 3
-$0.17
 ByteDance Seedance 2.5
 $0.115
 MiniMax H3
 $0.1391
+ByteDance Seedance 2.0
+$0.16
+FLUX 3
+$0.17
 HappyHorse 1.0 T2V
 $0.24
 HappyHorse 1.0 I2V
@@ -351,20 +353,18 @@ HappyHorse 1.1 I2V
 $0.14
 HappyHorse 1.1 R2V
 $0.14
-ByteDance Seedance 2.0
-$0.16
 Google Veo 3.1
 $0.08
 Google Veo 3.1 Lite
 $0.05
+PixVerse v5.6
+$0.1326
 PixVerse v6
 $0.09
 Vidu Q3
 $0.0975
 Vidu Q3 Turbo
 $0.195
-PixVerse v5.6
-$0.1326
 Wan 2.7 Reference-to-Video
 $0.10
 Wan 2.7 Image-to-Video
@@ -387,10 +387,10 @@ Price per audio minute
 Batch API price
 Model
 Price
-NVIDIA Parakeet TDT 0.6B V3 Realtime
-$0.0035
 NVIDIA Parakeet TDT 0.6B v3
 $0.0015
+NVIDIA Parakeet TDT 0.6B V3 Realtime
+$0.0035
 NVIDIA Nemotron 3.5 ASR
 $0.0015
 NVIDIA Nemotron 3 ASR Streaming 0.6B

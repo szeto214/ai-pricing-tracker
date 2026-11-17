@@ -157,8 +157,9 @@ Add-On Features
 Models
 Pay as you go
 Custom
-Universal-3.5 Pro
-The most accurate async speech-to-text model that transcribes every conversation exactly as it's heard – works across 18 languages, with native code switching and our most accurate speaker diarization yet.
+AssemblyAI-STT-3.7
+New
+The most accurate model for recorded audio, across 32 languages with automatic language detection and native code switching, plus a new speaker diarization model that holds up on short clips.
 $0.21
 /hr
 Get custom rate limits, enhanced concurrency, and enterprise-grade flexibility tailored to your AI workloads.
@@ -169,8 +170,9 @@ $0.15
 /hr
 Models
 Pay as you go
-Universal-3.5 Pro
-The most accurate async speech-to-text model that transcribes every conversation exactly as it's heard – works across 18 languages, with native code switching and our most accurate speaker diarization yet.
+AssemblyAI-STT-3.7
+New
+The most accurate model for recorded audio, across 32 languages with automatic language detection and native code switching, plus a new speaker diarization model that holds up on short clips.
 $0.21
 /hr
 Universal-2
@@ -193,7 +195,7 @@ Put our Voice AI models to the test in our no-code playground.
 Try it out
 Frequently asked questions
 What are the differences between Speech-to-Text models?
-We have speech to text models available for both pre-recorded audio and live transcription settings. For pre-recorded, Universal-3.5 Pro is our most accurate model, delivering best-in-class transcription across a wide range of audio types and languages. Universal-2 offers excellent accuracy at a lower price point. Our streaming models are optimized for real-time use cases, with Universal-3.6 Pro Realtime delivering the highest accuracy and Universal-Streaming providing a cost-effective option.
+We have speech-to-text models for both pre-recorded audio and live transcription. For pre-recorded audio, AssemblyAI-STT-3.7 is our most accurate model, across 32 languages with automatic language detection and native code switching. Universal-2 covers 99 languages at a lower price point. For live audio, AssemblyAI-STT-3.7-Realtime is built for meetings, calls, and captions at $0.30/hr, and AssemblyAI-STT-3.7-Realtime-Agent is built for voice agents at $0.45/hr.
 Can I sign up for free?
 Yes. You can create an account and start transcribing immediately with no credit card required. The free tier includes up to 185 hours of pre-recorded transcription and up to 333 hours of streaming transcription.
 How is the Text-to-Speech API billed?

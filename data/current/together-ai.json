@@ -6,23 +6,23 @@
   "url": "https://www.together.ai/pricing",
   "final_url": "https://www.together.ai/pricing",
   "parser_version": 4,
-  "content_hash": "08ce375ef9f793cf8ee26963528da8cc2bb424e1f2d56ff25dbdd71fd9079d11",
-  "raw_hash": "cfe43b240987fcfe708865d5727204304c8c89e659fda702ec09b1aa7c60ce3f",
+  "content_hash": "fbd95917efb4e29cc89f47b9f4c2cc9519f20a8aad50104df55835d87e599163",
+  "raw_hash": "a0843851a01bb156386380c57a7c21a7e4a0b35845c3e1e6c4dcafa0d36702e7",
   "text_bytes": 9859,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
     {
-      "name": "MiniMax M3.1 Flash",
-      "price_raw": "$0.15",
-      "amount": 0.15,
+      "name": "GLM-5.3",
+      "price_raw": "$1.40",
+      "amount": 1.4,
       "currency": "USD",
       "period": null,
       "features": [],
       "slot_prices": [
-        0.15,
-        0.015
+        1.4,
+        0.26
       ]
     },
     {
@@ -62,30 +62,6 @@
       ]
     },
     {
-      "name": "DeepSeek V4 Pro 0813",
-      "price_raw": "$1.32",
-      "amount": 1.32,
-      "currency": "USD",
-      "period": null,
-      "features": [],
-      "slot_prices": [
-        1.32,
-        0.13
-      ]
-    },
-    {
-      "name": "GLM-5.3-Flash",
-      "price_raw": "$0.15",
-      "amount": 0.15,
-      "currency": "USD",
-      "period": null,
-      "features": [],
-      "slot_prices": [
-        0.15,
-        0.03
-      ]
-    },
-    {
       "name": "Muse Spark Open 816B A42B",
       "price_raw": "$1.25",
       "amount": 1.25,
@@ -107,6 +83,30 @@
       "slot_prices": [
         0.4,
         0.04
+      ]
+    },
+    {
+      "name": "MiniMax M3.1 Flash",
+      "price_raw": "$0.15",
+      "amount": 0.15,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        0.15,
+        0.015
+      ]
+    },
+    {
+      "name": "GLM-5.3-Flash",
+      "price_raw": "$0.15",
+      "amount": 0.15,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        0.15,
+        0.03
       ]
     },
     {
@@ -134,15 +134,15 @@
       ]
     },
     {
-      "name": "DeepSeek V4.1 Flash",
-      "price_raw": "$0.30",
-      "amount": 0.3,
+      "name": "DeepSeek V4 Pro 0813",
+      "price_raw": "$1.32",
+      "amount": 1.32,
       "currency": "USD",
       "period": null,
       "features": [],
       "slot_prices": [
-        0.3,
-        0.006
+        1.32,
+        0.13
       ]
     },
     {
@@ -156,6 +156,18 @@
         0.35,
         0.04
       ]
+    },
+    {
+      "name": "DeepSeek V4.1 Flash",
+      "price_raw": "$0.30",
+      "amount": 0.3,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        0.3,
+        0.006
+      ]
     }
   ],
   "models": [
@@ -166,18 +178,6 @@
         "kolom 3": {
           "raw": "$0.053",
           "amount": 0.053
-        }
-      },
-      "currency": "USD",
-      "unit": ""
-    },
-    {
-      "key": "wan 2.6 image|k4",
-      "model": "Wan 2.6 Image",
-      "prices": {
-        "kolom 3": {
-          "raw": "$0.03",
-          "amount": 0.03
         }
       },
       "currency": "USD",
@@ -196,8 +196,8 @@
       "unit": ""
     },
     {
-      "key": "flux.2 [pro]|k4",
-      "model": "FLUX.2 [pro]",
+      "key": "wan 2.6 image|k4",
+      "model": "Wan 2.6 Image",
       "prices": {
         "kolom 3": {
           "raw": "$0.03",
@@ -208,12 +208,12 @@
       "unit": ""
     },
     {
-      "key": "ideogram 4.0|k4",
-      "model": "Ideogram 4.0",
+      "key": "flux.2 [pro]|k4",
+      "model": "FLUX.2 [pro]",
       "prices": {
         "kolom 3": {
-          "raw": "$0.06",
-          "amount": 0.06
+          "raw": "$0.03",
+          "amount": 0.03
         }
       },
       "currency": "USD",
@@ -262,6 +262,18 @@
         "kolom 3": {
           "raw": "$0.035",
           "amount": 0.035
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "ideogram 4.0|k4",
+      "model": "Ideogram 4.0",
+      "prices": {
+        "kolom 3": {
+          "raw": "$0.06",
+          "amount": 0.06
         }
       },
       "currency": "USD",
@@ -520,18 +532,6 @@
       "unit": ""
     },
     {
-      "key": "flux 3|k2",
-      "model": "FLUX 3",
-      "prices": {
-        "kolom 2": {
-          "raw": "$0.17",
-          "amount": 0.17
-        }
-      },
-      "currency": "USD",
-      "unit": ""
-    },
-    {
       "key": "bytedance seedance 2.5|k2",
       "model": "ByteDance Seedance 2.5",
       "prices": {
@@ -550,6 +550,30 @@
         "kolom 2": {
           "raw": "$0.1391",
           "amount": 0.1391
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "bytedance seedance 2.0|k2",
+      "model": "ByteDance Seedance 2.0",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.16",
+          "amount": 0.16
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "flux 3|k2",
+      "model": "FLUX 3",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.17",
+          "amount": 0.17
         }
       },
       "currency": "USD",
@@ -628,18 +652,6 @@
       "unit": ""
     },
     {
-      "key": "bytedance seedance 2.0|k2",
-      "model": "ByteDance Seedance 2.0",
-      "prices": {
-        "kolom 2": {
-          "raw": "$0.16",
-          "amount": 0.16
-        }
-      },
-      "currency": "USD",
-      "unit": ""
-    },
-    {
       "key": "google veo 3.1|k2",
       "model": "Google Veo 3.1",
       "prices": {
@@ -658,6 +670,18 @@
         "kolom 2": {
           "raw": "$0.05",
           "amount": 0.05
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "pixverse v5.6|k2",
+      "model": "PixVerse v5.6",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.1326",
+          "amount": 0.1326
         }
       },
       "currency": "USD",
@@ -694,18 +718,6 @@
         "kolom 2": {
           "raw": "$0.195",
           "amount": 0.195
-        }
-      },
-      "currency": "USD",
-      "unit": ""
-    },
-    {
-      "key": "pixverse v5.6|k2",
-      "model": "PixVerse v5.6",
-      "prices": {
-        "kolom 2": {
-          "raw": "$0.1326",
-          "amount": 0.1326
         }
       },
       "currency": "USD",
@@ -820,24 +832,24 @@
       "unit": ""
     },
     {
-      "key": "nvidia parakeet tdt 0.6b v3 realtime|k2",
-      "model": "NVIDIA Parakeet TDT 0.6B V3 Realtime",
-      "prices": {
-        "kolom 2": {
-          "raw": "$0.0035",
-          "amount": 0.0035
-        }
-      },
-      "currency": "USD",
-      "unit": ""
-    },
-    {
       "key": "nvidia parakeet tdt 0.6b v3|k2",
       "model": "NVIDIA Parakeet TDT 0.6B v3",
       "prices": {
         "kolom 2": {
           "raw": "$0.0015",
           "amount": 0.0015
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "nvidia parakeet tdt 0.6b v3 realtime|k2",
+      "model": "NVIDIA Parakeet TDT 0.6B V3 Realtime",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.0035",
+          "amount": 0.0035
         }
       },
       "currency": "USD",
@@ -1949,9 +1961,9 @@
       "caption": "",
       "rows": [
         [
-          "MiniMax M3.1 Flash",
-          "$0.15 $0.015 (cached)",
-          "$0.60"
+          "GLM-5.3",
+          "$1.40 $0.26 (cached)",
+          "$4.40"
         ],
         [
           "DeepSeek V4.1 Flash 1017",
@@ -1969,26 +1981,6 @@
           "$1.00"
         ],
         [
-          "Qwen3.7-Plus",
-          "$0.32",
-          "$1.28"
-        ],
-        [
-          "DeepSeek V4 Pro 0813",
-          "$1.32 $0.13 (cached)",
-          "$3.96"
-        ],
-        [
-          "GLM-5.3",
-          "$1.40 $0.26 (cached)",
-          "$4.40"
-        ],
-        [
-          "GLM-5.3-Flash",
-          "$0.15 $0.03 (cached)",
-          "$0.50"
-        ],
-        [
           "Qwen3.8 Flash",
           "$0.15",
           "$0.47"
@@ -1999,14 +1991,19 @@
           "$4.25"
         ],
         [
-          "Tev1 4B Experimental",
-          "$0.042",
-          "$0.00"
-        ],
-        [
           "Beam 1.0 501B A23B",
           "$0.40 $0.04 (cached)",
           "$1.20"
+        ],
+        [
+          "MiniMax M3.1 Flash",
+          "$0.15 $0.015 (cached)",
+          "$0.60"
+        ],
+        [
+          "GLM-5.3-Flash",
+          "$0.15 $0.03 (cached)",
+          "$0.50"
         ],
         [
           "NVIDIA Nemotron 3.5 Super VL",
@@ -2019,14 +2016,24 @@
           "$0.60"
         ],
         [
+          "Tev1 4B Experimental",
+          "$0.042",
+          "$0.00"
+        ],
+        [
+          "DeepSeek V4 Pro 0813",
+          "$1.32 $0.13 (cached)",
+          "$3.96"
+        ],
+        [
           "Qwen3.7-Max",
           "$2.50 $0.50 (cached)",
           "$7.50"
         ],
         [
-          "DeepSeek V4.1 Flash",
-          "$0.30 $0.006 (cached)",
-          "$1.20"
+          "Qwen3.7-Plus",
+          "$0.32",
+          "$1.28"
         ],
         [
           "GLM-5.2",
@@ -2039,9 +2046,19 @@
           "Free"
         ],
         [
+          "Kimi K3",
+          "$3.00 $0.30 (cached)",
+          "$15.00"
+        ],
+        [
           "Muse Glimmer 30B",
           "$0.35 $0.04 (cached)",
           "$1.50"
+        ],
+        [
+          "DeepSeek V4.1 Flash",
+          "$0.30 $0.006 (cached)",
+          "$1.20"
         ],
         [
           "gpt-oss-120B",
@@ -2052,11 +2069,6 @@
           "Qwen3.5 9B",
           "$0.17",
           "$0.25"
-        ],
-        [
-          "Kimi K3",
-          "$3.00 $0.30 (cached)",
-          "$15.00"
         ],
         [
           "Rnj-1 Instruct",
@@ -2079,11 +2091,6 @@
       "caption": "",
       "rows": [
         [
-          "MiniMax M3.1 Flash",
-          "$0.15 $0.015 (cached)",
-          "$0.60"
-        ],
-        [
           "DeepSeek V4.1 Flash 1017",
           "$0.30 $0.006 (cached)",
           "$1.20"
@@ -2099,16 +2106,6 @@
           "$1.00"
         ],
         [
-          "Qwen3.7-Plus",
-          "$0.32",
-          "$1.28"
-        ],
-        [
-          "GLM-5.3-Flash",
-          "$0.15 $0.03 (cached)",
-          "$0.50"
-        ],
-        [
           "Qwen3.8 Flash",
           "$0.15",
           "$0.47"
@@ -2119,14 +2116,24 @@
           "$4.25"
         ],
         [
+          "MiniMax M3.1 Flash",
+          "$0.15 $0.015 (cached)",
+          "$0.60"
+        ],
+        [
+          "GLM-5.3-Flash",
+          "$0.15 $0.03 (cached)",
+          "$0.50"
+        ],
+        [
           "NVIDIA Nemotron 3.5 Super VL",
           "$0.15 $0.02 (cached)",
           "$0.50"
         ],
         [
-          "DeepSeek V4.1 Flash",
-          "$0.30 $0.006 (cached)",
-          "$1.20"
+          "Qwen3.7-Plus",
+          "$0.32",
+          "$1.28"
         ],
         [
           "Ternary Bonsai 27B",
@@ -2134,19 +2141,24 @@
           "Free"
         ],
         [
+          "Kimi K3",
+          "$3.00 $0.30 (cached)",
+          "$15.00"
+        ],
+        [
           "Muse Glimmer 30B",
           "$0.35 $0.04 (cached)",
           "$1.50"
         ],
         [
+          "DeepSeek V4.1 Flash",
+          "$0.30 $0.006 (cached)",
+          "$1.20"
+        ],
+        [
           "Qwen3.5 9B",
           "$0.17",
           "$0.25"
-        ],
-        [
-          "Kimi K3",
-          "$3.00 $0.30 (cached)",
-          "$15.00"
         ],
         [
           "Qwen3.6-Plus",
@@ -2165,27 +2177,21 @@
           "-"
         ],
         [
-          "Wan 2.6 Image",
-          "-",
-          "$0.03",
-          "-"
-        ],
-        [
           "Nano Banana Pro (Gemini 3 Pro Image)",
           "-",
           "$0.134",
           "-"
         ],
         [
-          "FLUX.2 [pro]",
+          "Wan 2.6 Image",
           "-",
           "$0.03",
           "-"
         ],
         [
-          "Ideogram 4.0",
+          "FLUX.2 [pro]",
           "-",
-          "$0.06",
+          "$0.03",
           "-"
         ],
         [
@@ -2210,6 +2216,12 @@
           "Qwen Image 2.0",
           "-",
           "$0.035",
+          "-"
+        ],
+        [
+          "Ideogram 4.0",
+          "-",
+          "$0.06",
           "-"
         ],
         [
@@ -2341,16 +2353,20 @@
       "caption": "",
       "rows": [
         [
-          "FLUX 3",
-          "$0.17"
-        ],
-        [
           "ByteDance Seedance 2.5",
           "$0.115"
         ],
         [
           "MiniMax H3",
           "$0.1391"
+        ],
+        [
+          "ByteDance Seedance 2.0",
+          "$0.16"
+        ],
+        [
+          "FLUX 3",
+          "$0.17"
         ],
         [
           "HappyHorse 1.0 T2V",
@@ -2377,16 +2393,16 @@
           "$0.14"
         ],
         [
-          "ByteDance Seedance 2.0",
-          "$0.16"
-        ],
-        [
           "Google Veo 3.1",
           "$0.08"
         ],
         [
           "Google Veo 3.1 Lite",
           "$0.05"
+        ],
+        [
+          "PixVerse v5.6",
+          "$0.1326"
         ],
         [
           "PixVerse v6",
@@ -2399,10 +2415,6 @@
         [
           "Vidu Q3 Turbo",
           "$0.195"
-        ],
-        [
-          "PixVerse v5.6",
-          "$0.1326"
         ],
         [
           "Wan 2.7 Reference-to-Video",
@@ -2446,12 +2458,12 @@
       "caption": "",
       "rows": [
         [
-          "NVIDIA Parakeet TDT 0.6B V3 Realtime",
-          "$0.0035"
-        ],
-        [
           "NVIDIA Parakeet TDT 0.6B v3",
           "$0.0015"
+        ],
+        [
+          "NVIDIA Parakeet TDT 0.6B V3 Realtime",
+          "$0.0035"
         ],
         [
           "NVIDIA Nemotron 3.5 ASR",

@@ -266,19 +266,19 @@ Usage-based CPU, memory, and runtime pricing for isolated agent environments.
 Compute
 Rate
 CPU
-$0.0655 vCPU/hr
+$0.0655 vCPU / hr
 Memory
-$0.0211 GB RAM/hr
+$0.0211 GiB RAM / hr
 Storage
 Rate
 Snapshots
-$0.20 GB/month
+$0.20 GiB / month
 Volumes
-$0.16 GB/month
+$0.16 GiB / month
 Images
 Rate
 Images stored
-$0.045 GB/month
+$0.045 GiB / month
 Builds
 same price as a sandbox
 Secure capacity

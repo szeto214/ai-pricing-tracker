@@ -6,9 +6,9 @@
   "url": "https://docs.perplexity.ai/getting-started/pricing",
   "final_url": "https://docs.perplexity.ai/docs/getting-started/pricing",
   "parser_version": 4,
-  "content_hash": "3e007732260b4b6e9a781cb832014ed05cceeed350d29ffaebf339dc07435484",
-  "raw_hash": "aad8eaaad4de74b3ee4c09dd7df61a9e4f875f2a1870c4a4a8aec00dc3c7596c",
-  "text_bytes": 9642,
+  "content_hash": "01924de052ad202141cfd547ba012899f821dd481db1d2937147303ccf6a0454",
+  "raw_hash": "37f466d3bcb36f9827ae45677498293d0d7e9502bc827b2386f1e3648718a2de",
+  "text_bytes": 10310,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -157,6 +157,28 @@
       ]
     },
     {
+      "name": "Search",
+      "price_raw": "$0.001",
+      "amount": 0.001,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        0.001
+      ]
+    },
+    {
+      "name": "Page",
+      "price_raw": "$0.001",
+      "amount": 0.001,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        0.001
+      ]
+    },
+    {
       "name": "pplx-embed-v1-0.6b",
       "price_raw": "$0.004",
       "amount": 0.004,
@@ -209,29 +231,6 @@
       "features": [],
       "slot_prices": [
         1.2e-05
-      ]
-    },
-    {
-      "name": "A request with",
-      "price_raw": "$0.001",
-      "amount": 0.001,
-      "currency": "USD",
-      "period": "request",
-      "features": [],
-      "slot_prices": [
-        0.001,
-        1.0
-      ]
-    },
-    {
-      "name": "When",
-      "price_raw": "$0.001",
-      "amount": 0.001,
-      "currency": "USD",
-      "period": null,
-      "features": [],
-      "slot_prices": [
-        0.001
       ]
     }
   ],
@@ -638,6 +637,26 @@
           "10,000 successful standard requests in a month",
           "10,000",
           "10 × $5.00 = $50.00"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Monitor type",
+          "Price",
+          "Price per 1,000 units"
+        ],
+        [
+          "Search",
+          "$0.001 per succeeded Search run",
+          "$1 per 1,000 runs"
+        ],
+        [
+          "Page",
+          "$0.001 per counted fetched URL in a succeeded Page run",
+          "$1 per 1,000 counted URLs"
         ]
       ]
     },

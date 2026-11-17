@@ -13,19 +13,23 @@ Prinsip yang dipegang berkas ini — sama dengan build_site.py:
     jalan pada arsip yang sama menghasilkan berkas yang sama persis, jadi
     `git diff` tetap bermakna dan tidak ada commit palsu tiap hari.
 
-Sumbernya cuma satu: pesan commit snapshot terakhir, yang formatnya stabil:
+PEMBACAANNYA SENGAJA LONGGAR. Yang wajib cuma TANGGAL; angka-angka lain
+bonus. Alasannya nyata: versi pertama berkas ini (17/11/2026) menuntut
+seluruh pesan commit cocok satu pola, lalu menolak menulis apa pun ketika
+ternyata pesan aslinya memuat "(10 angka)" dan "4 perubahan katalog" —
+dua bagian yang tidak ada di pola. Hasilnya status.json tidak pernah
+terbit, dan pemantauan tetap buta.
 
-    data: snapshot YYYY-MM-DD — N/M ok, X perubahan harga, Y halaman berubah
-
-Sengaja TIDAK membaca data/ — kalau layout arsip berubah, berkas ini tetap
-benar.
+Pemantau di luar hanya perlu menjawab satu pertanyaan: "arsipnya masih
+hidup atau tidak?" Itu dijawab oleh tanggal. Kalau suatu hari format
+angkanya berubah lagi, berkas ini tetap terbit dengan tanggal yang benar
+dan kehilangan detailnya saja — bukan kehilangan fungsinya.
 
 Pakai:
     python scripts/write_status.py --out docs/status.json
 
-Keluar dengan kode 1 kalau tidak ada commit snapshot, atau pesan commit
-terakhir tidak cocok formatnya. Lebih baik gagal berisik di CI daripada
-menerbitkan status yang diam-diam salah. Langkahnya di collect.yml memakai
+Keluar dengan kode 1 HANYA kalau tidak ada commit snapshot sama sekali,
+atau tanggalnya tidak terbaca. Langkahnya di collect.yml memakai
 continue-on-error, jadi kegagalan di sini tidak pernah menjatuhkan arsip.
 """
 
@@ -38,18 +42,30 @@ import re
 import subprocess
 import sys
 
-# "data: snapshot 2026-11-17 — 140/143 ok, 5 perubahan harga, 9 halaman berubah"
-# Em dash (—), en dash (–) dan hyphen (-) sama-sama diterima; spasi longgar.
-SUBJECT_RE = re.compile(
-    r"^data:\s*snapshot\s+(?P<date>\d{4}-\d{2}-\d{2})\s*[—–-]\s*"
-    r"(?P<ok>\d+)\s*/\s*(?P<total>\d+)\s*ok\s*,\s*"
-    r"(?P<price_changes>\d+)\s*perubahan\s+harga\s*,\s*"
-    r"(?P<pages_changed>\d+)\s*halaman\s+berubah\s*$"
-)
-
 SCHEMA_VERSION = 1
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
+
+# Pesan commit snapshot, per 17/11/2026:
+#   data: snapshot 2026-11-17 — 132/132 ok, 1 perubahan harga (10 angka),
+#   4 perubahan katalog, 22 halaman berubah
+#
+# Satu-satunya bagian yang WAJIB: tanggalnya.
+DATE_RE = re.compile(r"^data:\s*snapshot\s+(\d{4}-\d{2}-\d{2})\b")
+
+# Sisanya dicari sendiri-sendiri, jadi hilangnya satu tidak menjatuhkan yang
+# lain. Tiap pola dicocokkan ke mana pun di dalam pesan.
+OPSIONAL = {
+    "targets_ok": re.compile(r"(\d+)\s*/\s*\d+\s*ok\b"),
+    "targets_total": re.compile(r"\d+\s*/\s*(\d+)\s*ok\b"),
+    # "1 perubahan harga" = jumlah HALAMAN yang harganya bergerak.
+    "price_change_pages": re.compile(r"(\d+)\s*perubahan\s+harga\b"),
+    # "(10 angka)" = jumlah ANGKA yang bergerak. Jauh lebih besar dari
+    # price_change_pages, dan keduanya memang beda hal.
+    "price_moves": re.compile(r"\(\s*(\d+)\s*angka\s*\)"),
+    "catalog_changes": re.compile(r"(\d+)\s*perubahan\s+katalog\b"),
+    "pages_changed": re.compile(r"(\d+)\s*halaman\s+berubah\b"),
+}
 
 
 def git(*args: str) -> str:
@@ -81,39 +97,45 @@ def main() -> None:
 
     sha, committed_at, subject = latest_snapshot_commit()
 
-    m = SUBJECT_RE.match(subject)
+    m = DATE_RE.match(subject)
     if not m:
         sys.exit(
-            "FATAL: pesan commit snapshot tidak cocok format yang diharapkan.\n"
+            "FATAL: tanggal tidak terbaca dari pesan commit snapshot.\n"
             f"  dapat: {subject!r}\n"
-            "  pola : data: snapshot YYYY-MM-DD — N/M ok, X perubahan harga, "
-            "Y halaman berubah\n"
-            "Kalau format pesan di summarize_run.py memang sengaja diubah, "
-            "perbarui SUBJECT_RE di berkas ini."
+            "  pola : diawali 'data: snapshot YYYY-MM-DD'\n"
+            "Hanya tanggalnya yang wajib; sisanya opsional."
         )
 
-    f = m.groupdict()
+    snapshot = {
+        "date": m.group(1),
+        "commit_sha": sha,
+        "committed_at": committed_at,
+        # Pesan mentahnya ikut disimpan, supaya apa pun yang gagal diurai di
+        # atas tetap bisa dibaca manusia tanpa membuka repo.
+        "commit_subject": subject,
+    }
+
+    hilang = []
+    for nama, pola in OPSIONAL.items():
+        cocok = pola.search(subject)
+        # null, bukan dihilangkan: bentuk berkasnya tetap sama tiap hari
+        # sehingga pembacanya tidak perlu menebak field mana yang ada.
+        snapshot[nama] = int(cocok.group(1)) if cocok else None
+        if not cocok:
+            hilang.append(nama)
+
     status = {
         "schema_version": SCHEMA_VERSION,
-        # Catatan untuk pembaca (termasuk pemantau otomatis): TIDAK ADA stempel
-        # "dibuat pada" di berkas ini, dan itu disengaja. Yang menandakan
-        # koleksi berhenti adalah last_snapshot.date yang tertinggal dari hari
-        # ini — hitung sendiri (hari ini - date). Stempel jam dinding justru
-        # akan membuat berkas ini berubah tiap kali dibangun walau isinya sama.
+        # Tidak ada stempel "dibuat pada" di berkas ini, dan itu disengaja:
+        # stempel jam dinding membuat berkas berubah tiap kali dibangun walau
+        # isinya sama, lalu memaksa commit palsu tiap hari. Yang menandakan
+        # koleksi berhenti adalah date yang tertinggal dari hari ini.
         "_note": (
             "Umur arsip = (tanggal hari ini UTC) - last_snapshot.date. "
-            "Berkas ini sengaja tidak memuat jam dinding."
+            "Berkas ini sengaja tidak memuat jam dinding. Field bernilai "
+            "null berarti bagian itu tidak ada di pesan commit, bukan nol."
         ),
-        "last_snapshot": {
-            "date": f["date"],
-            "commit_sha": sha,
-            "committed_at": committed_at,
-            "targets_ok": int(f["ok"]),
-            "targets_total": int(f["total"]),
-            "price_changes": int(f["price_changes"]),
-            "pages_changed": int(f["pages_changed"]),
-            "commit_subject": subject,
-        },
+        "last_snapshot": snapshot,
     }
 
     out = pathlib.Path(args.out)
@@ -121,7 +143,10 @@ def main() -> None:
     out.write_text(
         json.dumps(status, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
     )
-    print(f"status.json: snapshot {f['date']}, commit {sha[:8]}")
+    print(f"status.json: snapshot {snapshot['date']}, commit {sha[:8]}")
+    if hilang:
+        print("  (tidak terbaca dari pesan commit, ditulis null: "
+              + ", ".join(hilang) + ")")
 
 
 if __name__ == "__main__":

@@ -9,7 +9,7 @@ Nov 17, 2026
 from $0.06726/second
 LiquidAI: d1.2-ultra
 d1.2-ultra
-234M tokens
+244M tokens
 d1.2-ultra is Liquid AI's most capable omnimodal decision model. Designed for complex classification, multimodal understanding, information extraction, and high-stakes automated decision-making.
 by
 liquid
@@ -20,7 +20,7 @@ $0/M output
 tokens
 LiquidAI: d1.2
 d1.2
-77.5M tokens
+80.9M tokens
 d1.2 is Liquid AI's fast, cost-efficient omnimodal decision model. Built for classification, routing, information extraction, object detection, and automated decision-making at scale.
 by
 liquid
@@ -32,7 +32,7 @@ tokens
 Tencent: Hy4 flash
 Hy4 flash
 50% off
-7.45T tokens
+7.64T tokens
 Marketing (#50)
 Programming (#14)
 Technology (#42)
@@ -63,7 +63,7 @@ tokens
 Recraft: Recraft V4.1 Flash V2 (free)
 Recraft V4.1 Flash V2 (free)
 Going away November 28, 2026
-644M tokens
+647M tokens
 Recraft V4.1 Flash V2 is a text-to-image model from Recraft, an updated version of
 Recraft V4.1 Flash
 in the speed tier of the V4.1 family. It is suited for rapid iteration, prototyping, and high-volume generation, and improves on its predecessor in generation speed and in rendering text inside images. It is generation only: image inputs, styles, and style references are not supported. Supports the same aspect ratios as V4.1 Flash and the
@@ -98,7 +98,7 @@ Nov 13, 2026
 $0.007/image
 Tencent: HY-World 2.1 Panorama
 HY-World 2.1 Panorama
-203M tokens
+207M tokens
 HY-World 2.1 Panorama is a 360-degree panorama generation model from Tencent, part of the Hunyuan World family. It turns a single text prompt into one high-resolution equirectangular panorama suitable for virtual tours, skyboxes, and world-building, and is particularly strong at coherent, seamless scene layout across the full sphere. Each request produces one panorama; prompts are capped at 600 characters.
 by
 tencent
@@ -106,7 +106,7 @@ Nov 13, 2026
 $1.60/M tokens
 inclusionAI: Ling 3.2 Flash (free)
 Ling 3.2 Flash (free)
-188B tokens
+189B tokens
 Ling 3.2 Flash is a hybrid reasoning model from inclusionAI that accepts text and image input, with a 1M-token context window and up to 200 images per request. Thinking can be switched off per request.
 by
 inclusionai
@@ -118,7 +118,7 @@ $0/M output
 tokens
 HeyGen: HeyGen Decision Turbo
 HeyGen Decision Turbo
-1.54B tokens
+1.55B tokens
 HeyGen Decision 1 Turbo is a lower-cost variant of
 HeyGen Decision 1
 from HeyGen, with the same question types (
@@ -137,7 +137,7 @@ $0/M output
 tokens
 HeyGen: HeyGen Decision
 HeyGen Decision
-1.37B tokens
+1.4B tokens
 HeyGen Decision 1 is a decision model from HeyGen. It reads text, images, and video and answers a set of named questions in one request, returning typed answers with probabilities: a yes/no likelihood (
 noul
 ), a pick from a list of options (
@@ -154,7 +154,7 @@ $0/M output
 tokens
 ByteDance Seed: Seedream 5.5
 Seedream 5.5
-1.02B tokens
+1.03B tokens
 Seedream 5.5 is an image generation and editing model from ByteDance Seed. It is suited for creating images from text prompts and for editing or combining existing images, using up to 10 reference images per request.
 by
 bytedance-seed
@@ -162,7 +162,7 @@ Nov 12, 2026
 from $0.02/image
 Perplexity: Decider Flash V1.3 (free)
 Decider Flash V1.3 (free)
-35.6B tokens
+36B tokens
 Health (#12)
 Decider Flash V1.3 is a decision model from Perplexity, a smaller, lower-cost sibling of
 Decider V1.3
@@ -192,7 +192,7 @@ $0/M output
 tokens
 Perplexity: Decider V1.3 (free)
 Decider V1.3 (free)
-132B tokens
+133B tokens
 Academia (#14)
 Health (#21)
 Legal (#11)
@@ -240,7 +240,7 @@ $3.75/M output
 tokens
 Google: Gemini 4 Hydrogen
 Gemini 4 Hydrogen
-245B tokens
+246B tokens
 Health (#41)
 Legal (#45)
 Programming (#48)

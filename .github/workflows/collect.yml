@@ -100,6 +100,26 @@ jobs:
       - name: Commit snapshot
         run: python scripts/push_snapshot.py "${{ steps.sum.outputs.message }}"
 
+      # Status mesin-terbaca untuk pemantau luar (scheduled task mingguan yang
+      # memeriksa apakah arsip masih hidup). Sebelumnya pemantau itu membaca
+      # halaman Actions GitHub yang dirender JavaScript; halamannya kembali
+      # kosong dan isian kosong itu dibaca sebagai "koleksi berhenti" —
+      # alarm palsu 03/11/2026. Satu berkas JSON tidak bisa salah dibaca
+      # seperti itu.
+      #
+      # Letaknya SETELAH "Commit snapshot" supaya git log sudah memuat commit
+      # hari ini, dan SEBELUM build_site.py supaya ikut terbawa
+      # `git add -A docs/` — tidak perlu commit sendiri.
+      #
+      # continue-on-error mengikuti aturan yang sama dengan langkah di
+      # bawahnya: penulis status tidak boleh bisa membuat satu hari arsip
+      # hilang. Berkasnya juga sengaja tidak memuat jam dinding, supaya
+      # docs/ tidak berubah tanpa alasan dan `git diff` tetap bermakna.
+      - name: Tulis status.json
+        if: always()
+        continue-on-error: true
+        run: python scripts/write_status.py --out docs/status.json
+
       # ---------------------------------------------------------------------
       # Halaman publik. SENGAJA diletakkan SETELAH arsip aman tersimpan, dan
       # SENGAJA memakai continue-on-error: kalau pembangun halaman rusak, itu

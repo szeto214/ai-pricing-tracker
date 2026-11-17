@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "_note": "Umur arsip = (tanggal hari ini UTC) - last_snapshot.date. Berkas ini sengaja tidak memuat jam dinding. Field bernilai null berarti bagian itu tidak ada di pesan commit, bukan nol.",
+  "last_snapshot": {
+    "date": "2026-11-17",
+    "commit_sha": "690d92357d99d551ba06756829554f24668e1abd",
+    "committed_at": "2026-11-17T07:57:18Z",
+    "commit_subject": "data: snapshot 2026-11-17 — 132/132 ok, 1 perubahan harga (10 angka), 6 perubahan katalog, 26 halaman berubah",
+    "targets_ok": 132,
+    "targets_total": 132,
+    "price_change_pages": 1,
+    "price_moves": 10,
+    "catalog_changes": 6,
+    "pages_changed": 26
+  }
+}

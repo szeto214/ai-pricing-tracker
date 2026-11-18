@@ -101,6 +101,7 @@ Memory
 $
 0.00000222
 / GiB / sec
+*minimum of 128 MiB per container
 Volumes
 $
 0.09
@@ -285,6 +286,7 @@ Memory (non-preemptible)
 $
 0.00000667
 / GiB / sec
+*minimum of 128 MiB per container
 GPU
 See standard pricing
 Why serverless?

@@ -6,9 +6,9 @@
   "url": "https://mistral.ai/pricing",
   "final_url": "https://mistral.ai/pricing/",
   "parser_version": 4,
-  "content_hash": "34e9365ffa7be6963d7d18b38bbda8277e07e5d72d9d8c652b83602302f3a7c7",
-  "raw_hash": "32a9d13a8ce7cc7612c25f5bbbe82d60aa154478662d1181ac8523aa25724482",
-  "text_bytes": 8201,
+  "content_hash": "ea5c70b7f387a197e1c2922cfa01e8eb01131868757a524705eee87db2d764e2",
+  "raw_hash": "7a5b38b9129a5e5b0ae7f173c2b34bc1b30a3fded2a93d5e3859d5bf8333389e",
+  "text_bytes": 8203,
   "currency_hints": [
     "EUR",
     "USD",
@@ -80,10 +80,10 @@
       "rows": [
         [
           "",
-          "Free Start now",
-          "Pro Start now",
-          "Team Start now",
-          "Enterprise Contact us"
+          "Free Start Free",
+          "Pro Get Pro",
+          "Team Get Team",
+          "Enterprise Contact Sales"
         ],
         [
           "Interfaces."

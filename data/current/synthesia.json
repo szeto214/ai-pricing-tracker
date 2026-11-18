@@ -6,37 +6,13 @@
   "url": "https://www.synthesia.io/pricing",
   "final_url": "https://www.synthesia.io/pricing",
   "parser_version": 4,
-  "content_hash": "5fe49ca68b882a4ca9936f530a2d45770a2f7c845b9c8a26cefa28215a382f8a",
-  "raw_hash": "7cdac075745b084a43601acbd5d64c8542f9134393943b667ba1d56dc0fa55ea",
-  "text_bytes": 25769,
+  "content_hash": "f2bb308f3808d0cbf71be785968704ad74600bd92b30e8a10e9541f4ce8f73c8",
+  "raw_hash": "872c9553a7ff488415b285c92fadd0f717fcc2f3b5e268d17bec28bccfd0b88e",
+  "text_bytes": 25521,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
-    {
-      "name": "Starter",
-      "price_raw": "$9",
-      "amount": 9.0,
-      "currency": "USD",
-      "period": "month",
-      "features": [],
-      "slot_prices": [
-        9.0,
-        19.0
-      ]
-    },
-    {
-      "name": "Pro",
-      "price_raw": "$49",
-      "amount": 49.0,
-      "currency": "USD",
-      "period": "month",
-      "features": [],
-      "slot_prices": [
-        49.0,
-        89.0
-      ]
-    },
     {
       "name": "Basic",
       "price_raw": "$0",
@@ -49,6 +25,28 @@
       ]
     },
     {
+      "name": "Starter",
+      "price_raw": "$9",
+      "amount": 9.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [],
+      "slot_prices": [
+        9.0
+      ]
+    },
+    {
+      "name": "Pro",
+      "price_raw": "$49",
+      "amount": 49.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [],
+      "slot_prices": [
+        49.0
+      ]
+    },
+    {
       "name": "Studio Avatars",
       "price_raw": "$1000",
       "amount": 1000.0,
@@ -57,28 +55,6 @@
       "features": [],
       "slot_prices": [
         1000.0
-      ]
-    },
-    {
-      "name": "Starter",
-      "price_raw": "$14",
-      "amount": 14.0,
-      "currency": "USD",
-      "period": "month",
-      "features": [],
-      "slot_prices": [
-        14.0
-      ]
-    },
-    {
-      "name": "Pro",
-      "price_raw": "$59",
-      "amount": 59.0,
-      "currency": "USD",
-      "period": "month",
-      "features": [],
-      "slot_prices": [
-        59.0
       ]
     }
   ],

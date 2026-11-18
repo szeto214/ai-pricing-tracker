@@ -604,6 +604,11 @@ Learn more about the differences
 , or
 take our assessment
 to see which option best meets your organization’s needs.
+Who can use Atlassian’s AI, Rovo, in Confluence
+Rovo Search, Chat, and Agents are included on every paid Confluence plan (Standard, Premium, and Enterprise). The plans differ by how much Rovo usage is included each month, not whether you get AI. The Free plan does not include Rovo.
+Rovo usage is measured in credits, pooled across your organization and reset each month. Confluence includes 25 credits per user on Standard, 70 on Premium, and 150 on Enterprise. Rovo Search does not use credits, while Chat and Agent requests do. Learn how Rovo credits work
+here
+.
 Atlassian Guard and Premium plan
 Confluence Cloud Premium
 lets teams confidently scale with automation, a 99.9% uptime SLA, unlimited storage, Premium Support, and more features coming soon.

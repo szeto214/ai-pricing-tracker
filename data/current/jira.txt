@@ -748,9 +748,11 @@ Jira Enterprise
 is designed to meet the needs of large, complex organizations through multiple instances, centralized billing and administration, unlimited automation, and advanced insights with Atlassian Analytics. The enterprise plan protects an organization's most critical work with advanced security and identity capabilities, like the inclusion of Atlassian Access, as well as exclusive features like BYOK encryption and Product Requests to manage shadow IT.
 What are automation limits in Jira?
 Free plan comes with 150 steps per subscription per month, while Standard plan has 400 steps per user per month. Premium has 750 steps per user per month, and Enterprise has 1,000 steps per user per month.
-Who can use Rovo AI in Jira?
+Who can use Atlassian’s AI, Rovo, in Jira?
 Rovo Search, Chat, and Agents are included on every paid Jira plan (Standard, Premium, and Enterprise). The plans differ by how much Rovo usage is included each month, not whether you get AI. The Free plan does not include Rovo.
-Rovo usage is measured in credits, pooled across your organization and reset each month. Jira includes 25 credits per user on Standard, 70 on Premium, and 150 on Enterprise. Rovo Search does not use credits, while Chat and Agent requests do. Atlassian is not charging for usage beyond your allowance today, and has committed to at least 90 days' notice and an explicit opt-in before that changes.
+Rovo usage is measured in credits, pooled across your organization and reset each month. Jira includes 25 credits per user on Standard, 70 on Premium, and 150 on Enterprise. Rovo Search does not use credits, while Chat and Agent requests do. Learn how Rovo credits work
+here
+.
 Can I use AI agents in Jira automation?
 Jira automation can trigger an AI agent as a step in any rule. When a work item meets your conditions, the rule hands it to an agent to act, then opens a pull request for review. Available on paid plans with Rovo enabled.
 Questions?

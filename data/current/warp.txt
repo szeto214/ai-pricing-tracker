@@ -1,94 +1,227 @@
-Warp
-Terminal and agents
 Warp Factories
-Automated software delivery
-Pricing for Warp
-Free
+Build and run self-improving software factories with Warp's open infrastructure.
+Start
+For small teams getting started with software factories
 $0
-/month
-For developers who want Warp’s modern terminal with the flexibility to use Warp’s AI or bring their own.
-Download Now
-Includes core terminal features
-State-of-the-art modern terminal
-Warp Agent CLI access
-Additional agent usage at pay-as-you-go rates
-Bring your own AI inference*
-Limited cloud agents access
-Use any harness in the cloud (beta)
-Individually configured data controls
-Limited Warp Drive and collaboration feature access
-Limited cloud conversation storage
-Purchase additional agent usage
-Build
-Recommended
-Monthly
-Annual
-Annual plan
-$18
-/month
-For developers who want flexible access to AI that scales with their usage
-Start Today
-Everything in Free, plus:
-$20 of agent usage included each month at API rates
-Full Warp Agent access (frontier and open-source models from OpenAI, Anthropic, z.ai, and more)
-Add-on agent usage, auto-reload, and team-wide spend cap
-Extended cloud agents access
-Highest codebase indexing limits
-Unlimited Warp Drive objects and collaboration
-Unlimited cloud conversation storage
-Private email support
-Purchase additional agent usage
-Max
-Monthly
-Annual
-Annual plan
-$180
-/month
-For developers who need maximum AI capacity with all the flexibility of Build
-Start Today
-Everything in Build, plus:
-$200 of agent usage included each month (10× Build)
-Add-on agent usage, auto-reload, and team-wide spend cap
-Purchase additional agent usage
-Business
-Monthly
-Annual
-Annual plan
-$45
-/user /month
-For teams scaling AI-powered development (up to 25 seats)
-Start Today
-Everything in Build, plus:
-$20 of agent usage included per seat each month at API rates
-Team usage metrics
-Admin-configurable data controls
-Bring your own API keys and custom inference endpoints
+/ month + usage
+Up to 10
+seats
+$0 included
+usage pool
+Inference at
+API rates
+Passthrough Compute
+$3.50
+/ agent hour
+Pay-as-you-go usage
+Factory workflows run via
+Warp-hosted factory definitions
+Warp-hosted Linux, Mac, and Windows cloud sandboxes
+Get started
+Core software factory features
+Scoring, self-improvement and benchmarking of factory workflows
+Custom model routing
+Factory management including telemetry, agent conversation storage, and team-wide control plane
+Scale
+POPULAR
+For teams scaling factories across production workflows
+$250
+/ month per team + usage
+Up to 50
+seats
+$150 included monthly usage per team
+Inference at
+API rates or BYO keys
+Passthrough Compute
+$3.00
+/ agent hour
+Pay-as-you-go after included usage
+Factory workflows run via
+Warp or self-hosted factory definitions
+Warp-hosted Linux, Mac, and Windows cloud sandboxes
+Start today
+Everything in Start, plus:
+Team usage metrics and admin-configurable data controls
 SAML-based SSO
-Purchase additional agent usage
+Bring your own API keys and custom inference endpoints
+Enterprise
+For orgs that need custom usage terms, self-hosting, and advanced admin controls
+Custom
+Custom
+seats
+Custom usage with volume discounts
+Inference at
+API rates or BYO AI provider
+Passthrough or BYO Compute
+Volume pricing for agent hours
+Custom
+additional usage
+Factory workflows run via
+Self-hosted with custom terms
+Warp-hosted or BYO compute for cloud sandboxes
+Contact sales
+Everything in Scale, plus:
+Shared usage pools with custom contract terms
+Advanced spend controls and enterprise admin controls
+Host workers, compute, transcripts, and agent artifacts on your infrastructure
+Connect your own AI provider, including Amazon Bedrock and Google Vertex AI
+Organize factories into workspaces for different teams and business units
+Enterprise Analytics API
+Trusted by 800k+ devs at
+Livestream
+Livestream
+Case Study
+Launch Partner
+Course Partner
+Case Study
+Compare pricing plans
+Feature
+Start
+$0/mo + usage
+Get started
+Scale
+Starting at $250/mo
+Start today
 Enterprise
 Custom
-For organizations needing advanced control, security, and scale
-Contact Sales
-Everything in Business, plus:
-Unlimited seats
-Custom shared usage pools and terms
-Advanced spend controls
-Enterprise admin controls
-Enterprise data governance
+Contact sales
+Plan details
+Seats
+Up to 10
+Up to 50
+Custom
+Usage pool
+$0 included; pay as you go
+$150 included / month, shared across your team
+Committed usage pool; custom with volume discounts
+Inference
+API rates
+API rates or BYO keys
+API rates or BYO AI provider
+Compute
+Passthrough
+Passthrough
+Passthrough or BYO compute
+Agent hours
+$3.50 / agent hour
+$3.00 / agent hour
+Volume pricing
+Additional usage
+Pay as you go
+Pay as you go beyond included usage
+Custom
+Factory workflows and infrastructure
+Factory workflow harnesses
+Warp Agent
+Warp Agent, Claude Code, Codex, and Pi
+Warp Agent, Claude Code, Codex, Pi, and custom
+Factory code repositories
+Warp-hosted
+Self-hosted
+Self-hosted with custom terms
+Cloud sandboxes
+Warp-hosted Linux, Mac, and Windows
+Warp-hosted Linux, Mac, and Windows
+Warp-hosted or BYO compute
+Scoring, self-improvement, and benchmarking
+Included
+Included
+Included
+Custom model routing
+Included
+Included
+Included
+Team and enterprise controls
+SAML-based SSO
+—
+Included
+Included
+Team usage metrics and admin-configurable data controls
+—
+Included
+Included
+Bring your own API keys and custom inference endpoints
+—
+Included
+Included
+Shared usage pools with custom contract terms
+—
+—
+Included
+Advanced spend and enterprise admin controls
+—
+—
+Included
+Host workers, compute, transcripts, and agent artifacts
+—
+—
+Included
+Amazon Bedrock and Google Vertex AI
+—
+—
+Included
+Factory workspaces
+—
+—
+Included
 Enterprise Analytics API
-Multi-admin support
-Route inference through your own cloud (BYOLLM)
-Self-hosted cloud agents on your infrastructure
-Custom codebase indexing
-Cross-harness agent memory (Research Preview)
-White-glove onboarding and implementation engineer support
-Dedicated account manager and a shared Slack channel with your team
+—
+—
+Included
+Start
+Scale
+Enterprise
+Start
+$0/mo + usage
+Get started
+Start
+plan comparison
+Plan details
+Seats
+Up to 10
+Usage pool
+$0 included; pay as you go
+Inference
+API rates
+Compute
+Passthrough
+Agent hours
+$3.50 / agent hour
+Additional usage
+Pay as you go
+Factory workflows and infrastructure
+Factory workflow harnesses
+Warp Agent
+Factory code repositories
+Warp-hosted
+Cloud sandboxes
+Warp-hosted Linux, Mac, and Windows
+Scoring, self-improvement, and benchmarking
+Included
+Custom model routing
+Included
+Team and enterprise controls
+SAML-based SSO
+—
+Team usage metrics and admin-configurable data controls
+—
+Bring your own API keys and custom inference endpoints
+—
+Shared usage pools with custom contract terms
+—
+Advanced spend and enterprise admin controls
+—
+Host workers, compute, transcripts, and agent artifacts
+—
+Amazon Bedrock and Google Vertex AI
+—
+Factory workspaces
+—
+Enterprise Analytics API
+—
 Models
 The best for the job
-Access Fable 5, Claude Opus 5, GPT-5.6, Gemini 3.1 Pro, GLM 5.2, Kimi K3, and more. Pick the best model for the task. Run different tasks with different models in parallel, or switch between models for a given task, all without leaving your workflow.
-Integrations
-Agents where you work
-Connect Warp to Slack, Linear, and GitHub to get AI help right inside your tools. Mention @Warp to investigate bugs, suggest fixes, or open PRs, all without context-switching. With real-time session links and shared visibility, anyone can see, guide, or review what the agent is doing.
+Access Claude Fable 5.2, Claude Opus 5.5, GPT-6.1 Sol, Gemini 4 Carbon, GLM 5.3, Kimi K3, DeepSeek V4.1 Flash, and more. Pick the best model for each factory workflow, define custom model routers, or connect your own inference provider.
 Your privacy and security
 Transparency and control at every touchpoint.
 Your data, secure and private
@@ -98,43 +231,22 @@ Control exactly how much autonomy agents have, from approving every step to allo
 Full transparency
 You can read the list of high-level telemetry events sent for app analytics and monitor telemetry in real time with our native Network Log.
 Explore Privacy at Warp
-Have more questions?
-Talk to our team about which plan is right for you.
-Contact Sales
-View Documentation
-Get Warp Terminal
-Get early access to unreleased and experimental features with
-Warp Preview
-Mac
-macOS
-Version 10.14+
-$
-brew install --cask warp
-Linux
-.deb
-Debian, Ubuntu x64
-.rpm
-Red Hat, Fedora, SUSE x64
-.deb
-x64
-ARM64
-.rpm
-x64
-ARM64
-.tar.zst
-Arch Linux
-x64
-ARM64
-AppImage
-x64
-ARM64
-Windows
-.exe
-Windows 11/10 x64
-.exe
-Windows 11/10 ARM64
-$
-winget install Warp.Warp
-.exe
-x64
-ARM64
+Warp Factories pricing FAQ
+How is factory usage billed?
+[+]
+Start is pay as you go. Scale is $250 per month per team plus usage and includes $150 of monthly usage shared across the team. Enterprise supports custom committed usage pools, volume discounts, and custom usage terms.
+What is included in Start?
+[+]
+Start supports up to 10 seats, Warp Agent factory workflows, Warp-hosted factory code repositories, Warp-hosted Linux, Mac, and Windows cloud sandboxes, scoring and self-improvement, custom model routing, and the Factory management control plane.
+When should a team choose Scale?
+[+]
+Scale is for teams running production factory workflows. It supports up to 50 seats, SAML-based SSO, Claude Code, Codex, and Pi harnesses, self-hosted factory code repositories, team usage metrics, administrative data controls, and your own API keys or custom inference endpoints.
+What does Enterprise add?
+[+]
+Enterprise adds custom usage terms and shared pools, volume pricing, advanced spend and administrative controls, self-hosted workers, compute, transcripts, and agent artifacts, your own AI provider through Amazon Bedrock or Google Vertex AI, Factory workspaces, and the Enterprise Analytics API.
+Contact sales
+to discuss your requirements.
+Build your first software factory
+Get started with usage-based pricing, or talk with our team about custom infrastructure, usage, and governance.
+Get started
+Explore Warp Factories

@@ -6,87 +6,342 @@
   "url": "https://www.warp.dev/pricing",
   "final_url": "https://www.warp.dev/pricing",
   "parser_version": 4,
-  "content_hash": "0a133eb525caee46f44d58cd87563fc31521118403e3fa57ab1c688d9f4b45ae",
-  "raw_hash": "d26ed7d931a0499e8d37d3a53a4d4d3b6c975ca985735d38927d6d012c72b410",
-  "text_bytes": 4237,
+  "content_hash": "992c6d14834894d9176bbca690db997fe52c70c8d3cea8d520e972ccd90209cd",
+  "raw_hash": "42b137d831b20685819fe69ba57aee43aed344275f92a912027982d17c79e905",
+  "text_bytes": 6959,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
     {
-      "name": "Free",
+      "name": "Start",
       "price_raw": "$0",
       "amount": 0.0,
       "currency": "USD",
       "period": "month",
       "features": [
-        "State-of-the-art modern terminal",
-        "Warp Agent CLI access",
-        "Additional agent usage at pay-as-you-go rates",
-        "Bring your own AI inference*",
-        "Limited cloud agents access",
-        "Use any harness in the cloud (beta)",
-        "Individually configured data controls",
-        "Limited Warp Drive and collaboration feature access",
-        "Limited cloud conversation storage"
+        "Up to 10 seats",
+        "$0 included usage pool",
+        "Inference at API rates",
+        "Passthrough Compute",
+        "$3.50 / agent hour",
+        "Pay-as-you-go usage",
+        "Factory workflows run via",
+        "Warp-hosted factory definitions",
+        "Warp-hosted Linux, Mac, and Windows cloud sandboxes",
+        "Scoring, self-improvement and benchmarking of factory workflows",
+        "Custom model routing",
+        "Factory management including telemetry, agent conversation storage, and team-wide control plane"
       ],
       "slot_prices": [
         0.0
       ]
     },
     {
-      "name": "Build",
-      "price_raw": "$18",
-      "amount": 18.0,
+      "name": "Scale",
+      "price_raw": "$250",
+      "amount": 250.0,
       "currency": "USD",
       "period": "month",
       "features": [
-        "$20 of agent usage included each month at API rates",
-        "Full Warp Agent access (frontier and open-source models from OpenAI, Anthropic, z.ai, and more)",
-        "Add-on agent usage, auto-reload, and team-wide spend cap",
-        "Extended cloud agents access",
-        "Highest codebase indexing limits",
-        "Unlimited Warp Drive objects and collaboration",
-        "Unlimited cloud conversation storage",
-        "Private email support"
+        "Up to 50 seats",
+        "$150 included monthly usage per team",
+        "Inference at API rates or BYO keys",
+        "Passthrough Compute",
+        "$3.00 / agent hour",
+        "Pay-as-you-go after included usage",
+        "Factory workflows run via",
+        "Warp or self-hosted factory definitions",
+        "Warp-hosted Linux, Mac, and Windows cloud sandboxes",
+        "Team usage metrics and admin-configurable data controls",
+        "SAML-based SSO",
+        "Bring your own API keys and custom inference endpoints"
       ],
       "slot_prices": [
-        18.0
+        250.0
       ]
     },
     {
-      "name": "Max",
-      "price_raw": "$180",
-      "amount": 180.0,
+      "name": "Usage pool",
+      "price_raw": "$0",
+      "amount": 0.0,
       "currency": "USD",
       "period": "month",
-      "features": [
-        "$200 of agent usage included each month (10× Build)",
-        "Add-on agent usage, auto-reload, and team-wide spend cap"
-      ],
+      "features": [],
       "slot_prices": [
-        180.0
+        0.0
       ]
     },
     {
-      "name": "Business",
-      "price_raw": "$45",
-      "amount": 45.0,
+      "name": "Agent hours",
+      "price_raw": "$3.50",
+      "amount": 3.5,
       "currency": "USD",
-      "period": "user",
-      "features": [
-        "$20 of agent usage included per seat each month at API rates",
-        "Team usage metrics",
-        "Admin-configurable data controls",
-        "Bring your own API keys and custom inference endpoints",
-        "SAML-based SSO"
-      ],
+      "period": null,
+      "features": [],
       "slot_prices": [
-        45.0
+        3.5
+      ]
+    },
+    {
+      "name": "Plan details",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        0.0
+      ]
+    },
+    {
+      "name": "Warp Factories pricing FAQ",
+      "price_raw": "$250",
+      "amount": 250.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [],
+      "slot_prices": [
+        250.0
       ]
     }
   ],
   "models": [],
-  "tables": [],
+  "tables": [
+    {
+      "caption": "Compare pricing plans",
+      "rows": [
+        [
+          "Feature",
+          "Start $0/mo + usage Get started",
+          "Scale Starting at $250/mo Start today",
+          "Enterprise Custom Contact sales"
+        ],
+        [
+          "Plan details"
+        ],
+        [
+          "Seats",
+          "Up to 10",
+          "Up to 50",
+          "Custom"
+        ],
+        [
+          "Usage pool",
+          "$0 included; pay as you go",
+          "$150 included / month, shared across your team",
+          "Committed usage pool; custom with volume discounts"
+        ],
+        [
+          "Inference",
+          "API rates",
+          "API rates or BYO keys",
+          "API rates or BYO AI provider"
+        ],
+        [
+          "Compute",
+          "Passthrough",
+          "Passthrough",
+          "Passthrough or BYO compute"
+        ],
+        [
+          "Agent hours",
+          "$3.50 / agent hour",
+          "$3.00 / agent hour",
+          "Volume pricing"
+        ],
+        [
+          "Additional usage",
+          "Pay as you go",
+          "Pay as you go beyond included usage",
+          "Custom"
+        ],
+        [
+          "Factory workflows and infrastructure"
+        ],
+        [
+          "Factory workflow harnesses",
+          "Warp Agent",
+          "Warp Agent, Claude Code, Codex, and Pi",
+          "Warp Agent, Claude Code, Codex, Pi, and custom"
+        ],
+        [
+          "Factory code repositories",
+          "Warp-hosted",
+          "Self-hosted",
+          "Self-hosted with custom terms"
+        ],
+        [
+          "Cloud sandboxes",
+          "Warp-hosted Linux, Mac, and Windows",
+          "Warp-hosted Linux, Mac, and Windows",
+          "Warp-hosted or BYO compute"
+        ],
+        [
+          "Scoring, self-improvement, and benchmarking",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Custom model routing",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Team and enterprise controls"
+        ],
+        [
+          "SAML-based SSO",
+          "—",
+          "Included",
+          "Included"
+        ],
+        [
+          "Team usage metrics and admin-configurable data controls",
+          "—",
+          "Included",
+          "Included"
+        ],
+        [
+          "Bring your own API keys and custom inference endpoints",
+          "—",
+          "Included",
+          "Included"
+        ],
+        [
+          "Shared usage pools with custom contract terms",
+          "—",
+          "—",
+          "Included"
+        ],
+        [
+          "Advanced spend and enterprise admin controls",
+          "—",
+          "—",
+          "Included"
+        ],
+        [
+          "Host workers, compute, transcripts, and agent artifacts",
+          "—",
+          "—",
+          "Included"
+        ],
+        [
+          "Amazon Bedrock and Google Vertex AI",
+          "—",
+          "—",
+          "Included"
+        ],
+        [
+          "Factory workspaces",
+          "—",
+          "—",
+          "Included"
+        ],
+        [
+          "Enterprise Analytics API",
+          "—",
+          "—",
+          "Included"
+        ]
+      ]
+    },
+    {
+      "caption": "Start plan comparison",
+      "rows": [
+        [
+          "Plan details"
+        ],
+        [
+          "Seats",
+          "Up to 10"
+        ],
+        [
+          "Usage pool",
+          "$0 included; pay as you go"
+        ],
+        [
+          "Inference",
+          "API rates"
+        ],
+        [
+          "Compute",
+          "Passthrough"
+        ],
+        [
+          "Agent hours",
+          "$3.50 / agent hour"
+        ],
+        [
+          "Additional usage",
+          "Pay as you go"
+        ],
+        [
+          "Factory workflows and infrastructure"
+        ],
+        [
+          "Factory workflow harnesses",
+          "Warp Agent"
+        ],
+        [
+          "Factory code repositories",
+          "Warp-hosted"
+        ],
+        [
+          "Cloud sandboxes",
+          "Warp-hosted Linux, Mac, and Windows"
+        ],
+        [
+          "Scoring, self-improvement, and benchmarking",
+          "Included"
+        ],
+        [
+          "Custom model routing",
+          "Included"
+        ],
+        [
+          "Team and enterprise controls"
+        ],
+        [
+          "SAML-based SSO",
+          "—"
+        ],
+        [
+          "Team usage metrics and admin-configurable data controls",
+          "—"
+        ],
+        [
+          "Bring your own API keys and custom inference endpoints",
+          "—"
+        ],
+        [
+          "Shared usage pools with custom contract terms",
+          "—"
+        ],
+        [
+          "Advanced spend and enterprise admin controls",
+          "—"
+        ],
+        [
+          "Host workers, compute, transcripts, and agent artifacts",
+          "—"
+        ],
+        [
+          "Amazon Bedrock and Google Vertex AI",
+          "—"
+        ],
+        [
+          "Factory workspaces",
+          "—"
+        ],
+        [
+          "Enterprise Analytics API",
+          "—"
+        ]
+      ]
+    }
+  ],
   "extract_errors": []
 }

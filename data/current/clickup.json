@@ -6,9 +6,9 @@
   "url": "https://clickup.com/pricing",
   "final_url": "https://clickup.com/pricing",
   "parser_version": 4,
-  "content_hash": "750239d6e1514479f3ff000909a3104306f0208ed65a24492a7616a2b0985beb",
-  "raw_hash": "5b99a67d2b26cce072c62c2c8e63b51ba2b6c1ff5818ddde2b55ad1b053dfa2d",
-  "text_bytes": 17083,
+  "content_hash": "801a4d1e58d2f8196fc2ef629f5734c20b3e342862f8c1e1929fc44658eaf417",
+  "raw_hash": "ae9c1b3e5b506649ce378e8c0615e3c354bd668a5c65e72b9ca196f962e23b58",
+  "text_bytes": 17090,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -255,7 +255,7 @@
         ],
         [
           "Brain² Premium Models",
-          "Trial",
+          "Not included",
           "Trial",
           "Included",
           "Scaled",
@@ -263,7 +263,7 @@
         ],
         [
           "Brain² Standard Models",
-          "Trial",
+          "Not included",
           "Trial",
           "Unlimited*",
           "Unlimited*",
@@ -271,7 +271,7 @@
         ],
         [
           "Talk-to-Text",
-          "Trial",
+          "Not included",
           "Included",
           "Expanded",
           "Scaled",
@@ -279,7 +279,7 @@
         ],
         [
           "AI Credits",
-          "500 / workspace",
+          "Not included",
           "1,000 / user / mo · pooled",
           "1,500 / user / mo · pooled",
           "3,000 / user / mo · pooled",
@@ -287,7 +287,7 @@
         ],
         [
           "AI Automations",
-          "AI Credits",
+          "Not included",
           "AI Credits",
           "AI Credits",
           "AI Credits",
@@ -295,7 +295,7 @@
         ],
         [
           "Artifacts",
-          "AI Credits",
+          "Not included",
           "AI Credits",
           "AI Credits",
           "AI Credits",
@@ -303,7 +303,7 @@
         ],
         [
           "Video generation",
-          "AI Credits",
+          "Not included",
           "AI Credits",
           "AI Credits",
           "AI Credits",
@@ -327,7 +327,7 @@
         ],
         [
           "AI governance",
-          "Feature trial",
+          "Not included",
           "Feature trial",
           "Feature trial",
           "Included",
@@ -335,7 +335,7 @@
         ],
         [
           "SuperAgents",
-          "AI Credits",
+          "Not included",
           "AI Credits",
           "AI Credits",
           "AI Credits",
@@ -343,7 +343,7 @@
         ],
         [
           "AI Fields",
-          "AI Credits",
+          "Not included",
           "AI Credits",
           "AI Credits",
           "AI Credits",
@@ -351,7 +351,7 @@
         ],
         [
           "AI Image Generation",
-          "AI Credits",
+          "Not included",
           "AI Credits",
           "AI Credits",
           "AI Credits",
@@ -359,7 +359,7 @@
         ],
         [
           "AI Dashboard Cards",
-          "AI Credits",
+          "Not included",
           "AI Credits",
           "AI Credits",
           "AI Credits",
@@ -367,7 +367,7 @@
         ],
         [
           "AI Assign & Prioritize",
-          "AI Credits",
+          "Not included",
           "AI Credits",
           "AI Credits",
           "AI Credits",
@@ -375,7 +375,7 @@
         ],
         [
           "AI Notetaker",
-          "AI Credits",
+          "Not included",
           "AI Credits",
           "AI Credits",
           "Unlimited*",
@@ -383,7 +383,7 @@
         ],
         [
           "SyncUp AI notes",
-          "AI Credits",
+          "Not included",
           "AI Credits",
           "AI Credits",
           "Unlimited",

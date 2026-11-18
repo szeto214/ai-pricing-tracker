@@ -106,7 +106,7 @@ Attack-surface visibility
 Enterprise Controls
 Multi-org administration and enforced workspace policies
 Custom RBAC, SSO, and audit logs
-API access and usage metrics
+Admin APIs and usage metrics
 Support SLA, dedicated customer success, and technical enablement
 Custom deployment options
 Purchase via Marketplaces
@@ -244,6 +244,8 @@ Scheduled, customizable activity reports
 Included
 Usage controls and monthly spending caps
 Included
+API and MCP server access
+Included
 MCP connections to external tools and context
 5
 Custom pre-merge checks per organization
@@ -254,7 +256,7 @@ Multi-org administration and enforced workspace policies
 Not included
 Custom roles and permissions, SSO, and audit logs
 Not included
-API access, including review and MCP usage metrics
+Admin APIs and MCP connection usage metrics
 Not included
 Support SLA, dedicated customer success, & technical enablement
 Not included
@@ -488,6 +490,11 @@ Included
 Included
 Included
 Included
+API and MCP server access
+Included
+Included
+Included
+Included
 MCP connections to external tools and context
 5
 10
@@ -513,7 +520,7 @@ Not included
 Not included
 Not included
 Included
-API access, including review and MCP usage metrics
+Admin APIs and MCP connection usage metrics
 Not included
 Not included
 Not included
@@ -545,6 +552,7 @@ If reviews are unlimited, why are there hourly review limits?
 How do usage-based reviews work?
 How are on demand products priced?
 Which plans include CodeRabbit Security?
+Which plans include the CodeRabbit API and MCP server?
 Will I be charged for all the developers in my organization?
 Is it possible to reassign seats to other developers?
 Can I switch between Essentials and Team?

@@ -6,9 +6,9 @@
   "url": "https://v0.app/pricing",
   "final_url": "https://v0.app/pricing",
   "parser_version": 4,
-  "content_hash": "b2e36f56e50490b853f9251e6996aa5996a73530e7795469b94ed2486c96a75a",
-  "raw_hash": "fc81533f0ebb151398056843d0c4a6b6db1a7800359cb691f243eabb1389efa0",
-  "text_bytes": 2812,
+  "content_hash": "144c67836f6d7212a263382cbac990d7eb865b8d2b1f61835aa4314a40327f5c",
+  "raw_hash": "27e037339c3d681d1e6f07383f37cd8e6709792b15028a7e19c36f7e97b6892f",
+  "text_bytes": 2932,
   "currency_hints": [
     "USD"
   ],
@@ -48,6 +48,17 @@
       "slot_prices": [
         100.0
       ]
+    },
+    {
+      "name": "v 0 Mini",
+      "price_raw": "$0.10",
+      "amount": 0.1,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        0.1
+      ]
     }
   ],
   "models": [
@@ -56,20 +67,20 @@
       "model": "v 0 Mini Lightning-fast speed with near-frontier intelligence",
       "prices": {
         "input": {
-          "raw": "$0.20",
-          "amount": 0.2
+          "raw": "$0.10",
+          "amount": 0.1
         },
         "cache write": {
-          "raw": "$0.25",
-          "amount": 0.25
+          "raw": "$0.125",
+          "amount": 0.125
         },
         "cache read": {
-          "raw": "$0.02",
-          "amount": 0.02
+          "raw": "$0.01",
+          "amount": 0.01
         },
         "output": {
-          "raw": "$1.20",
-          "amount": 1.2
+          "raw": "$0.50",
+          "amount": 0.5
         }
       },
       "currency": "USD",
@@ -80,20 +91,20 @@
       "model": "v 0 Max Maximum intelligence for complex work and demanding users",
       "prices": {
         "input": {
+          "raw": "$4",
+          "amount": 4.0
+        },
+        "cache write": {
           "raw": "$5",
           "amount": 5.0
         },
-        "cache write": {
-          "raw": "$6.25",
-          "amount": 6.25
-        },
         "cache read": {
-          "raw": "$0.50",
-          "amount": 0.5
+          "raw": "$0.20",
+          "amount": 0.2
         },
         "output": {
-          "raw": "$25",
-          "amount": 25.0
+          "raw": "$20",
+          "amount": 20.0
         }
       },
       "currency": "USD",
@@ -113,31 +124,31 @@
         ],
         [
           "v 0 Mini Lightning-fast speed with near-frontier intelligence",
-          "$0.20/1M",
-          "$0.25/1M",
-          "$0.02/1M",
-          "$1.20/1M"
+          "$0.10/1M",
+          "$0.125/1M",
+          "$0.01/1M",
+          "$0.50/1M"
         ],
         [
           "v 0 Pro Balanced speed and intelligence, with superior performance for most tasks",
           "$2/1M",
           "$2.50/1M",
-          "$0.20/1M",
+          "$0.10/1M",
           "$10/1M"
         ],
         [
           "v 0 Max Maximum intelligence for complex work and demanding users",
+          "$4/1M",
           "$5/1M",
-          "$6.25/1M",
-          "$0.50/1M",
-          "$25/1M"
+          "$0.20/1M",
+          "$20/1M"
         ],
         [
           "v 0 Max Fast Maximum intelligence with 2.5x faster output speed for rapid iteration",
+          "$8/1M",
           "$10/1M",
-          "$12.50/1M",
-          "$1/1M",
-          "$50/1M"
+          "$0.40/1M",
+          "$40/1M"
         ]
       ]
     }

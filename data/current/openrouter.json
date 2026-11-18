@@ -6,36 +6,13 @@
   "url": "https://openrouter.ai/models",
   "final_url": "https://openrouter.ai/models",
   "parser_version": 4,
-  "content_hash": "a13abdec3825c5b4706e24f1865c695ea3a03c46149641cb24cb1b80e4e0ba2d",
-  "raw_hash": "c43777c76203bc695355e42ff79d32a69e071bec41a7d68fc973d9ea2dc6bece",
-  "text_bytes": 9355,
+  "content_hash": "a54cee9ef436cd2331193ddb9ea594d4f9a8267fcd06f933d9aaa61c51c8e707",
+  "raw_hash": "fe708b674652825ccf626164e3446baf0f25cdf69d18095c4050b5736f68daf3",
+  "text_bytes": 9595,
   "currency_hints": [],
-  "extractor": "dom",
-  "confidence": "medium",
-  "plans": [
-    {
-      "name": "Recraft: Recraft V4.1 Flash V2",
-      "price_raw": "$0.007",
-      "amount": 0.007,
-      "currency": "USD",
-      "period": "image",
-      "features": [],
-      "slot_prices": [
-        0.007
-      ]
-    },
-    {
-      "name": "Tencent: HY-World 2.1 Panorama",
-      "price_raw": "$1.60",
-      "amount": 1.6,
-      "currency": "USD",
-      "period": null,
-      "features": [],
-      "slot_prices": [
-        1.6
-      ]
-    }
-  ],
+  "extractor": "none",
+  "confidence": "none",
+  "plans": [],
   "models": [],
   "tables": [],
   "extract_errors": []

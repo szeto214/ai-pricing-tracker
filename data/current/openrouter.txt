@@ -1,7 +1,200 @@
 Models
+HeyGen: Avatar 6 Turbo
+Avatar 6 Turbo
+2 hours
+HeyGen: Avatar 6 Turbo is the faster, lower-cost variant of HeyGen's Avatar 6 avatar video model. It turns a single photo, a short reference video, or both into a lip-synced talking video driven by a supplied audio track, reading the speech's tone and rhythm to drive head motion, facial expression, and gestures, and renders at 1080p or 2K; the audio sets the video length. Supply exactly one audio reference plus one reference image, one reference video, or a same-person photo alongside the video. The prompt becomes a motion prompt describing how the subject should move, and the
+motion_expressiveness
+passthrough parameter can tone the motion down.
+by
+heygen
+Nov 17, 2026
+from $0.05/second
+HeyGen: Avatar 6
+Avatar 6
+<1 hour
+HeyGen: Avatar 6 is HeyGen's avatar video model for turning a single photo, a short reference video, or both into an expressive, lip-synced talking video driven by a supplied audio track. It reads the tone, rhythm, and emotion of the speech to drive head motion, facial expression, and gestures, and renders at 1080p or 2K; the audio sets the video length. Supply exactly one audio reference plus one reference image, one reference video, or a same-person photo alongside the video. The prompt becomes a motion prompt describing how the subject should move, and the
+motion_expressiveness
+passthrough parameter can tone the motion down.
+by
+heygen
+Nov 17, 2026
+from $0.10/second
+OpenAI: GPT-6.2 Astra Pro (batch)
+GPT-6.2 Astra Pro (batch)
+1.15M tokens
+GPT-6.2 Astra Pro is the same underlying model as
+GPT-6.2 Astra
+, served with
+reasoning.mode
+set to
+pro
+for higher-quality responses on complex tasks.
+Cost note:
+pro mode spends far more reasoning tokens per request, so a typical request costs several times more than the same request on GPT-6.2 Astra and takes much longer to complete. It is intended for hard, high-stakes problems where the extra accuracy justifies the cost. For everyday coding, agentic, and chat workloads, use
+GPT-6.2 Astra
+instead. Learn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode
+by
+openai
+Nov 17, 2026
+1.05M context
+$4/M input
+tokens
+$20/M output
+tokens
+OpenAI: GPT-6.2 Astra Pro
+GPT-6.2 Astra Pro
+1.88B tokens
+GPT-6.2 Astra Pro is the same underlying model as
+GPT-6.2 Astra
+, served with
+reasoning.mode
+set to
+pro
+for higher-quality responses on complex tasks.
+Cost note:
+pro mode spends far more reasoning tokens per request, so a typical request costs several times more than the same request on GPT-6.2 Astra and takes much longer to complete. It is intended for hard, high-stakes problems where the extra accuracy justifies the cost. For everyday coding, agentic, and chat workloads, use
+GPT-6.2 Astra
+instead. Learn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode
+by
+openai
+Nov 17, 2026
+1.05M context
+$8/M input
+tokens
+$40/M output
+tokens
+OpenAI: GPT-6.2 Astra (batch)
+GPT-6.2 Astra (batch)
+25.1M tokens
+GPT-6.2 Astra is the flagship model in the GPT-6.2 series from OpenAI, built for the hardest projects. It is suited for real-world engineering, professional work and scientific research, with stronger visual reasoning for websites, slideshows and 3D designs. OpenAI reports new highs on its evals at less than a third of the cost per task of GPT-6 Astra.
+by
+openai
+Nov 17, 2026
+1.05M context
+$4/M input
+tokens
+$20/M output
+tokens
+OpenAI: GPT-6.2 Astra
+GPT-6.2 Astra
+22.9B tokens
+GPT-6.2 Astra is the flagship model in the GPT-6.2 series from OpenAI, built for the hardest projects. It is suited for real-world engineering, professional work and scientific research, with stronger visual reasoning for websites, slideshows and 3D designs. OpenAI reports new highs on its evals at less than a third of the cost per task of GPT-6 Astra.
+by
+openai
+Nov 17, 2026
+1.05M context
+$8/M input
+tokens
+$40/M output
+tokens
+OpenAI: GPT-6.2 Sol Pro (batch)
+GPT-6.2 Sol Pro (batch)
+379K tokens
+GPT-6.2 Sol Pro is the same underlying model as
+GPT-6.2 Sol
+, served with
+reasoning.mode
+set to
+pro
+for higher-quality responses on complex tasks.
+Cost note:
+pro mode spends far more reasoning tokens per request, so a typical request costs several times more than the same request on GPT-6.2 Sol and takes much longer to complete. It is intended for hard, high-stakes problems where the extra accuracy justifies the cost. For everyday coding, agentic, and chat workloads, use
+GPT-6.2 Sol
+instead. Learn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode
+by
+openai
+Nov 17, 2026
+1.05M context
+$1/M input
+tokens
+$5/M output
+tokens
+OpenAI: GPT-6.2 Sol Pro
+GPT-6.2 Sol Pro
+2.81B tokens
+GPT-6.2 Sol Pro is the same underlying model as
+GPT-6.2 Sol
+, served with
+reasoning.mode
+set to
+pro
+for higher-quality responses on complex tasks.
+Cost note:
+pro mode spends far more reasoning tokens per request, so a typical request costs several times more than the same request on GPT-6.2 Sol and takes much longer to complete. It is intended for hard, high-stakes problems where the extra accuracy justifies the cost. For everyday coding, agentic, and chat workloads, use
+GPT-6.2 Sol
+instead. Learn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode
+by
+openai
+Nov 17, 2026
+1.05M context
+$2/M input
+tokens
+$10/M output
+tokens
+OpenAI: GPT-6.2 Sol (batch)
+GPT-6.2 Sol (batch)
+173M tokens
+GPT-6.2 Sol is an upgrade to GPT-6.1 Sol from OpenAI, positioned below the flagship GPT-6.2 Astra in the GPT-6.2 series. It is an efficient, versatile model for everyday work, suited for multistep agentic workflows and clear, natural writing across technical and non-technical tasks.
+by
+openai
+Nov 17, 2026
+1.05M context
+$1/M input
+tokens
+$5/M output
+tokens
+OpenAI: GPT-6.2 Sol
+GPT-6.2 Sol
+57.5B tokens
+GPT-6.2 Sol is an upgrade to GPT-6.1 Sol from OpenAI, positioned below the flagship GPT-6.2 Astra in the GPT-6.2 series. It is an efficient, versatile model for everyday work, suited for multistep agentic workflows and clear, natural writing across technical and non-technical tasks.
+by
+openai
+Nov 17, 2026
+1.05M context
+$2/M input
+tokens
+$10/M output
+tokens
+Microsoft AI: MAI-Image-2.7 Flash
+MAI-Image-2.7 Flash
+8.41M tokens
+MAI-Image-2.7 Flash is the lower-latency, lower-cost member of the
+MAI-Image-2.7
+family from Microsoft AI, built for latency-sensitive, high-throughput image generation and editing at comparable quality to the precision tier. It supports the same multi-reference editing with up to five input images and the same fixed or model-chosen aspect ratios.
+by
+microsoft
+Nov 17, 2026
+$2.50/M input
+tokens
+$10/M output
+tokens
+Microsoft AI: MAI-Image-2.7
+MAI-Image-2.7
+13.3M tokens
+MAI-Image-2.7 is an image generation and editing model from Microsoft AI, the precision tier of the MAI-Image-2.7 family alongside the faster
+MAI-Image-2.7 Flash
+. It is suited for design-ready visuals and controlled, iterative editing, including multi-reference edits that combine people, products, styles, and scenes from up to five input images while preserving composition and detail. Aspect ratio can be fixed or left to the model to choose for the composition.
+by
+microsoft
+Nov 17, 2026
+$8/M input
+tokens
+$34/M output
+tokens
+Microsoft: Microsoft-Decision-1.1
+Microsoft-Decision-1.1
+2.02B tokens
+Microsoft-Decision-1.1 is a model from Microsoft built for fast decision-making, and the successor to Microsoft-Decision-1. Instead of generating text, it reads the provided content and returns a calibrated probability for each fixed answer option, so the response carries its own confidence and can determine when an application acts, defers, or asks for review. It is suited to classification, routing, prioritization, verification, workflow control, agent guardrails, and AI judging. It is not intended for open-ended generation, conversation, translation, or summarization.
+by
+microsoft
+Nov 17, 2026
+$0.042/M input
+tokens
+$0/M output
+tokens
 ByteDance: Seedance 2.5 Flash
 Seedance 2.5 Flash
-1 hour
+5 hours
 Seedance 2.5 Flash is a video generation model from ByteDance, the faster and lower-cost tier of Seedance 2.5. It supports text-to-video, image-to-video with first-frame and first-and-last-frame control, multimodal reference-to-video, video editing, and video extension, with optional generated audio. It outputs 480p and 720p video from 4 to 30 seconds long.
 by
 bytedance
@@ -9,7 +202,7 @@ Nov 17, 2026
 from $0.06726/second
 LiquidAI: d1.2-ultra
 d1.2-ultra
-244M tokens
+4.53B tokens
 d1.2-ultra is Liquid AI's most capable omnimodal decision model. Designed for complex classification, multimodal understanding, information extraction, and high-stakes automated decision-making.
 by
 liquid
@@ -20,7 +213,7 @@ $0/M output
 tokens
 LiquidAI: d1.2
 d1.2
-80.9M tokens
+1.72B tokens
 d1.2 is Liquid AI's fast, cost-efficient omnimodal decision model. Built for classification, routing, information extraction, object detection, and automated decision-making at scale.
 by
 liquid
@@ -32,11 +225,13 @@ tokens
 Tencent: Hy4 flash
 Hy4 flash
 50% off
-7.64T tokens
-Marketing (#50)
-Programming (#14)
-Technology (#42)
-Translation (#48)
+38.8T tokens
+Academia (#15)
+Finance (#24)
+Legal (#30)
+Marketing (#30)
+SEO (#32)
++6 categories
 Hy4 flash is a cost-efficient variant of
 Hy4
 from Tencent, served with roughly a quarter of the flagship's parameter count for lower latency and cost. It targets code assistance, agent pipelines, document and chart comprehension, and high-volume routine automation, with the same context and output limits as Hy4.
@@ -48,220 +243,5 @@ $0.035/M input
 tokens
 $0.1405/M output
 tokens
-Qwen: Qwen4 Max
-Qwen4 Max
-108B tokens
-Qwen4 Max is the flagship model in Alibaba's Qwen4 series. It accepts text, image, and video input and returns text, with a 1M-token context window and reasoning enabled by default. Reasoning effort can be set to low, high, or xhigh (default high), or reasoning can be turned off. Tool calling and structured outputs are supported.
-by
-qwen
-Nov 16, 2026
-1M context
-$1.425/M input
-tokens
-$4.275/M output
-tokens
-Recraft: Recraft V4.1 Flash V2 (free)
-Recraft V4.1 Flash V2 (free)
-Going away November 28, 2026
-647M tokens
-Recraft V4.1 Flash V2 is a text-to-image model from Recraft, an updated version of
-Recraft V4.1 Flash
-in the speed tier of the V4.1 family. It is suited for rapid iteration, prototyping, and high-volume generation, and improves on its predecessor in generation speed and in rendering text inside images. It is generation only: image inputs, styles, and style references are not supported. Supports the same aspect ratios as V4.1 Flash and the
-image_config
-parameters
-rgb_colors
-(sets a color palette) and
-background_rgb_color
-(sets the background color). See the image generation docs for details: https://openrouter.ai/docs/features/multimodal/image-generation
-by
-recraft
-Nov 13, 2026
-$0/M input
-tokens
-$0/M output
-tokens
-Recraft: Recraft V4.1 Flash V2
-Recraft V4.1 Flash V2
-106M tokens
-Recraft V4.1 Flash V2 is a text-to-image model from Recraft, an updated version of
-Recraft V4.1 Flash
-in the speed tier of the V4.1 family. It is suited for rapid iteration, prototyping, and high-volume generation, and improves on its predecessor in generation speed and in rendering text inside images. It is generation only: image inputs, styles, and style references are not supported. Supports the same aspect ratios as V4.1 Flash and the
-image_config
-parameters
-rgb_colors
-(sets a color palette) and
-background_rgb_color
-(sets the background color). See the image generation docs for details: https://openrouter.ai/docs/features/multimodal/image-generation
-by
-recraft
-Nov 13, 2026
-$0.007/image
-Tencent: HY-World 2.1 Panorama
-HY-World 2.1 Panorama
-207M tokens
-HY-World 2.1 Panorama is a 360-degree panorama generation model from Tencent, part of the Hunyuan World family. It turns a single text prompt into one high-resolution equirectangular panorama suitable for virtual tours, skyboxes, and world-building, and is particularly strong at coherent, seamless scene layout across the full sphere. Each request produces one panorama; prompts are capped at 600 characters.
-by
-tencent
-Nov 13, 2026
-$1.60/M tokens
-inclusionAI: Ling 3.2 Flash (free)
-Ling 3.2 Flash (free)
-189B tokens
-Ling 3.2 Flash is a hybrid reasoning model from inclusionAI that accepts text and image input, with a 1M-token context window and up to 200 images per request. Thinking can be switched off per request.
-by
-inclusionai
-Nov 13, 2026
-1.05M context
-$0/M input
-tokens
-$0/M output
-tokens
-HeyGen: HeyGen Decision Turbo
-HeyGen Decision Turbo
-1.55B tokens
-HeyGen Decision 1 Turbo is a lower-cost variant of
-HeyGen Decision 1
-from HeyGen, with the same question types (
-noul
-,
-choice
-, and
-score
-) over text, images, and video. It suits high-volume classification, routing, and triage where cost matters most. HeyGen lists it as a preview model.
-by
-heygen
-Nov 13, 2026
-$0.09/M input
-tokens
-$0/M output
-tokens
-HeyGen: HeyGen Decision
-HeyGen Decision
-1.4B tokens
-HeyGen Decision 1 is a decision model from HeyGen. It reads text, images, and video and answers a set of named questions in one request, returning typed answers with probabilities: a yes/no likelihood (
-noul
-), a pick from a list of options (
-choice
-), or a rating on an ordered scale (
-score
-). It is suited for classification, routing, triage, and scoring content against your own criteria, where one call replaces a chain of prompted completions and the answers come back ready to use in code.
-by
-heygen
-Nov 13, 2026
-$0.14/M input
-tokens
-$0/M output
-tokens
-ByteDance Seed: Seedream 5.5
-Seedream 5.5
-1.03B tokens
-Seedream 5.5 is an image generation and editing model from ByteDance Seed. It is suited for creating images from text prompts and for editing or combining existing images, using up to 10 reference images per request.
-by
-bytedance-seed
-Nov 12, 2026
-from $0.02/image
-Perplexity: Decider Flash V1.3 (free)
-Decider Flash V1.3 (free)
-36B tokens
-Health (#12)
-Decider Flash V1.3 is a decision model from Perplexity, a smaller, lower-cost sibling of
-Decider V1.3
-with the same API contract. Instead of generating text, it reads content passed as
-state
-(text, JSON, or images) and returns typed, probabilistic answers to one or more named questions in a single request: the probability of yes for a yes/no question (
-noul
-), a probability for every option plus the most likely one (
-choice
-, up to 255 options), or a probability for every level of an ordered rubric plus the expected score (
-score
-). It suits high-volume classification, routing, and moderation where application code thresholds the returned numbers rather than parsing a chat reply. It also adds
-locate
-, served on the
-Extractions
-route, pulling
-text
-and
-list
-fields out of text state with source spans and confidences.
-by
-perplexity
-Nov 12, 2026
-$0/M input
-tokens
-$0/M output
-tokens
-Perplexity: Decider V1.3 (free)
-Decider V1.3 (free)
-133B tokens
-Academia (#14)
-Health (#21)
-Legal (#11)
-Roleplay (#48)
-Translation (#17)
-Decider V1.3 is a decision model from Perplexity, succeeding
-Decider V1.2
-. Instead of generating text, it reads content passed as
-state
-(text, JSON, or images) and returns typed, probabilistic answers to one or more named questions in a single request: the probability of yes for a yes/no question (
-noul
-), a probability for every option plus the most likely one (
-choice
-, up to 255 options), or a probability for every level of an ordered rubric plus the expected score (
-score
-). It is built for classification, routing, moderation, and rubric grading where application code thresholds the returned numbers rather than parsing a chat reply. V1.3 also adds
-locate
-, served on the
-Extractions
-route: it pulls
-text
-and
-list
-fields out of text state and returns each value with its source span and a confidence. For a smaller, lower-cost option with the same contract, see
-Decider Flash V1.3
-.
-by
-perplexity
-Nov 12, 2026
-$0/M input
-tokens
-$0/M output
-tokens
-Google: Gemini 4 Hydrogen (batch)
-Gemini 4 Hydrogen (batch)
-141M tokens
-Gemini 4 Hydrogen is the high-efficiency workhorse model of the Gemini 4 family from Google, built for high-throughput agentic workflows, coding and multi-model routing at lower cost and latency than Gemini 4 Carbon. It takes text, image, audio, video and file input, supports long decode of up to 1M output tokens through continuation, and controls thinking depth with low, medium, high and xhigh reasoning effort.
-by
-google
-Nov 12, 2026
-1.05M context
-$0.75/M input
-tokens
-$3.75/M output
-tokens
-Google: Gemini 4 Hydrogen
-Gemini 4 Hydrogen
-246B tokens
-Health (#41)
-Legal (#45)
-Programming (#48)
-Science (#47)
-Translation (#21)
-Gemini 4 Hydrogen is the high-efficiency workhorse model of the Gemini 4 family from Google, built for high-throughput agentic workflows, coding and multi-model routing at lower cost and latency than Gemini 4 Carbon. It takes text, image, audio, video and file input, supports long decode of up to 1M output tokens through continuation, and controls thinking depth with low, medium, high and xhigh reasoning effort.
-by
-google
-Nov 12, 2026
-1.05M context
-$1.50/M input
-tokens
-$7.50/M output
-tokens
-Speechify: Simba 3.5
-Simba 3.5
-588K tokens
-Speechify's recommended streaming text-to-speech model, covering 48 languages including English under one model, with the language chosen per request.
-by
-speechify
-Nov 11, 2026
-$15/M characters
 Compare
 Discover Models

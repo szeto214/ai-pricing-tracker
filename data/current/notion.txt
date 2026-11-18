@@ -319,8 +319,7 @@ What is a block?
 A block is any single piece of content you add to your page, like a paragraph of text, a to-do item, an image, a code block, an embedded file, etc. Think of your page as being made up of these building blocks. Learn more about blocks
 here →
 What happens when I go over the block storage limit on a Free Plan?
-If you’re using a Free Plan workspace by yourself, you’ll be able to add as many pages and blocks as you like.
-If you’re using a Free Plan workspace with multiple members, you’ll be able to add a limited number of blocks before you have to upgrade.
+If you’re using a Free Plan workspace, you’ll be able to add a limited number of blocks before you have to upgrade.
 When you reach the limit, you can still read, edit, and organize existing content blocks as usual, but you won’t be able to add new content blocks.
 Do you offer student discounts?
 The Plus Plan (with a 1-member limit) is free for students and educators. Compared to the Free Plan, you’ll be able to add more guests, have access to more version history, and upload larger files.
@@ -362,16 +361,15 @@ Downgrading your plan:
 Your account will be downgraded at the end of your billing cycle. Learn about how your features may be impacted after a downgrade
 here →
 How do I cancel my paid plan?
-Your Notion subscription, annual or monthly, will automatically renew until you cancel it. You can cancel your subscription by going to
+Your paid subscription renews automatically until you cancel it. If you subscribed through Notion on desktop or web, go to
 Settings
-in the left-hand sidebar on a desktop computer, then selecting
+→
 Billing
-, then
+→
 Change plan
-. After you cancel, you’ll still have access to all the paid features until the end of your billing cycle.
-Learn more about billing in
-this article
-.
+to cancel. If you subscribed through the Apple App Store or Google Play, cancel through that store. You'll keep access to your paid features until the end of your current billing period.
+Learn more about
+billing →
 What happens if my payment fails? Like if my credit card expires?
 Your account email will be notified after each failed payment. Payments may be retried up to 8 times within the next month.
 After this, if the payment did not succeed, your workspace will get restricted to limited-access for a period of time before being downgraded to the Free plan.

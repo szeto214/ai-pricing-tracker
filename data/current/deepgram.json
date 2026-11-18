@@ -6,9 +6,9 @@
   "url": "https://deepgram.com/pricing",
   "final_url": "https://deepgram.com/pricing",
   "parser_version": 4,
-  "content_hash": "8a8ad7bd60f3a9f14c1daecef9bf1c8a5f3601cef4549bd89bc5d837be4f33f8",
-  "raw_hash": "df69068bdb5eae31992c0f42b1d7f56f5246f95f223031d680b887ff9b1b8324",
-  "text_bytes": 6635,
+  "content_hash": "dd5dfe1ecbfe2eeb6ea49477f0788138a438baab948164cb0fdc654e519304c1",
+  "raw_hash": "86473f517d5904acf74fa18610970f4c881bb888d3c333a98eb3b41dab96fecd",
+  "text_bytes": 6648,
   "currency_hints": [],
   "extractor": "jsonld",
   "confidence": "medium",
@@ -159,8 +159,8 @@
     },
     {
       "name": "Voice Agent: Advanced, BYO TTS (per hour) — Growth",
-      "price_raw": "6.6",
-      "amount": 6.6,
+      "price_raw": "6.58",
+      "amount": 6.58,
       "currency": "USD",
       "period": "hour",
       "features": [],
@@ -168,8 +168,8 @@
     },
     {
       "name": "Voice Agent: Advanced, BYO TTS (per hour) — Pay as you go",
-      "price_raw": "7.32",
-      "amount": 7.32,
+      "price_raw": "7.31",
+      "amount": 7.31,
       "currency": "USD",
       "period": "hour",
       "features": [],
@@ -177,8 +177,8 @@
     },
     {
       "name": "Voice Agent: Advanced (per hour) — Growth",
-      "price_raw": "8.76",
-      "amount": 8.76,
+      "price_raw": "8.78",
+      "amount": 8.78,
       "currency": "USD",
       "period": "hour",
       "features": [],
@@ -186,8 +186,8 @@
     },
     {
       "name": "Voice Agent: Advanced (per hour) — Pay as you go",
-      "price_raw": "9.78",
-      "amount": 9.78,
+      "price_raw": "9.75",
+      "amount": 9.75,
       "currency": "USD",
       "period": "hour",
       "features": [],
@@ -195,8 +195,8 @@
     },
     {
       "name": "Voice Agent: Custom, BYO LLM and TTS (per hour) — Growth",
-      "price_raw": "2.46",
-      "amount": 2.46,
+      "price_raw": "2.4",
+      "amount": 2.4,
       "currency": "USD",
       "period": "hour",
       "features": [],
@@ -213,8 +213,8 @@
     },
     {
       "name": "Voice Agent: Custom, BYO LLM (per hour) — Growth",
-      "price_raw": "3.54",
-      "amount": 3.54,
+      "price_raw": "3.51",
+      "amount": 3.51,
       "currency": "USD",
       "period": "hour",
       "features": [],
@@ -231,8 +231,8 @@
     },
     {
       "name": "Voice Agent: Standard, BYO TTS (per hour) — Growth",
-      "price_raw": "3.06",
-      "amount": 3.06,
+      "price_raw": "3.04",
+      "amount": 3.04,
       "currency": "USD",
       "period": "hour",
       "features": [],
@@ -240,8 +240,8 @@
     },
     {
       "name": "Voice Agent: Standard, BYO TTS (per hour) — Pay as you go",
-      "price_raw": "3.9",
-      "amount": 3.9,
+      "price_raw": "3.38",
+      "amount": 3.38,
       "currency": "USD",
       "period": "hour",
       "features": [],
@@ -249,8 +249,8 @@
     },
     {
       "name": "Voice Agent: Standard (per hour) — Growth",
-      "price_raw": "4.08",
-      "amount": 4.08,
+      "price_raw": "4.05",
+      "amount": 4.05,
       "currency": "USD",
       "period": "hour",
       "features": [],
@@ -303,8 +303,8 @@
     },
     {
       "name": "Voice Agent: Custom, BYO LLM and TTS (per minute) — Growth",
-      "price_raw": "0.041",
-      "amount": 0.041,
+      "price_raw": "0.04",
+      "amount": 0.04,
       "currency": "USD",
       "period": "minute",
       "features": [],
@@ -348,8 +348,8 @@
     },
     {
       "name": "Voice Agent: Standard, BYO TTS (per minute) — Pay as you go",
-      "price_raw": "0.065",
-      "amount": 0.065,
+      "price_raw": "0.056",
+      "amount": 0.056,
       "currency": "USD",
       "period": "minute",
       "features": [],
@@ -411,8 +411,8 @@
     },
     {
       "name": "Text-to-speech: Flux TTS — Growth",
-      "price_raw": "0.045",
-      "amount": 0.045,
+      "price_raw": "0.0405",
+      "amount": 0.0405,
       "currency": "USD",
       "period": "1,000 characters",
       "features": [],
@@ -429,8 +429,8 @@
     },
     {
       "name": "Speech-to-text: Entity Detection (Pre-recorded) — Growth",
-      "price_raw": "0.0017",
-      "amount": 0.0017,
+      "price_raw": "0.0014",
+      "amount": 0.0014,
       "currency": "USD",
       "period": "minute",
       "features": [],
@@ -447,8 +447,8 @@
     },
     {
       "name": "Speech-to-text: Keyterm Prompting (Pre-recorded) — Growth",
-      "price_raw": "0.0012",
-      "amount": 0.0012,
+      "price_raw": "0.0011",
+      "amount": 0.0011,
       "currency": "USD",
       "period": "minute",
       "features": [],
@@ -501,8 +501,8 @@
     },
     {
       "name": "Speech-to-text: Entity Detection (Streaming) — Growth",
-      "price_raw": "0.0017",
-      "amount": 0.0017,
+      "price_raw": "0.0014",
+      "amount": 0.0014,
       "currency": "USD",
       "period": "minute",
       "features": [],
@@ -519,8 +519,8 @@
     },
     {
       "name": "Speech-to-text: Keyterm Prompting (Streaming) — Growth",
-      "price_raw": "0.0012",
-      "amount": 0.0012,
+      "price_raw": "0.0011",
+      "amount": 0.0011,
       "currency": "USD",
       "period": "minute",
       "features": [],
@@ -770,8 +770,8 @@
           "amount": 0.0013
         },
         "growth": {
-          "raw": "$0.0012",
-          "amount": 0.0012
+          "raw": "$0.0011",
+          "amount": 0.0011
         }
       },
       "currency": "USD",
@@ -786,8 +786,8 @@
           "amount": 0.0017
         },
         "growth": {
-          "raw": "$0.0017",
-          "amount": 0.0017
+          "raw": "$0.0014",
+          "amount": 0.0014
         }
       },
       "currency": "USD",
@@ -870,7 +870,7 @@
         [
           "Keyterm Prompting",
           "$0.0013 / min",
-          "$0.0012 / min",
+          "$0.0011 / min",
           "-"
         ],
         [
@@ -882,7 +882,7 @@
         [
           "Entity Detection",
           "$0.0017 / min",
-          "$0.0017 / min",
+          "$0.0014 / min",
           "-"
         ],
         [

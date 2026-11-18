@@ -6,9 +6,9 @@
   "url": "https://api-docs.deepseek.com/quick_start/pricing",
   "final_url": "https://api-docs.deepseek.com/quick_start/pricing/",
   "parser_version": 4,
-  "content_hash": "9f6bef8e718b623f99d01b2358d7738f1ca5039b90eb1ba203448bac5ac331ac",
-  "raw_hash": "5efd7e7661de5b86a1a3d5569ea5d9d8633bf1ca1c311ec42baace85ef18d78e",
-  "text_bytes": 3156,
+  "content_hash": "2c3ccee95c646fe2b233ff79595356fe0997ff16611c8b015238de176e0aa4c7",
+  "raw_hash": "2d44fa9eb82693ad5008c50191c1d5f73f081ab8711ebff0ced63c9edebb3c00",
+  "text_bytes": 3365,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -38,7 +38,18 @@
       ]
     },
     {
-      "name": "Search (text, image)",
+      "name": "Search API (text)",
+      "price_raw": "$0.75",
+      "amount": 0.75,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        0.75
+      ]
+    },
+    {
+      "name": "Fetch API",
       "price_raw": "$0.75",
       "amount": 0.75,
       "currency": "USD",
@@ -238,13 +249,13 @@
           "Price"
         ],
         [
-          "Search (text, image)",
-          "Per 1,000 searches",
+          "Search API (text)",
+          "Per 1,000 successful requests",
           "$0.75"
         ],
         [
-          "Web fetch",
-          "Per 1,000 fetches",
+          "Fetch API",
+          "Per 1,000 successful requests",
           "$0.75"
         ]
       ]

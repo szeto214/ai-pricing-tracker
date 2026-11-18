@@ -6,13 +6,43 @@
   "url": "https://platform.openai.com/docs/pricing",
   "final_url": "https://developers.openai.com/api/docs/pricing",
   "parser_version": 4,
-  "content_hash": "835d04f1266907846c58a166f502442ca9703fb5fd11b1fd845416bc043ab735",
-  "raw_hash": "d92df0633cfbb2b648104c2a2eb11fd4fbe1e0cb202899cb2035a575ab3cbb4e",
-  "text_bytes": 5346,
+  "content_hash": "dd00793c9d11b61b72c90e357626e76ec37ebc26fb65536c1f8bad67a33d7888",
+  "raw_hash": "2d16339426b693488d7b778f87086431a00ab1cf198f52de2c210b17dc7afcb9",
+  "text_bytes": 5805,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
+    {
+      "name": "gpt-6.2-astra",
+      "price_raw": "$8.00",
+      "amount": 8.0,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        8.0,
+        40.0,
+        0.4,
+        10.0,
+        20.0
+      ]
+    },
+    {
+      "name": "gpt-6.2-sol",
+      "price_raw": "$2.00",
+      "amount": 2.0,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        2.0,
+        10.0,
+        0.1,
+        2.5,
+        5.0
+      ]
+    },
     {
       "name": "gpt-6-astra",
       "price_raw": "$10.00",
@@ -41,36 +71,6 @@
         0.1,
         2.5,
         5.0
-      ]
-    },
-    {
-      "name": "gpt-6.1-terra",
-      "price_raw": "$1.00",
-      "amount": 1.0,
-      "currency": "USD",
-      "period": null,
-      "features": [],
-      "slot_prices": [
-        1.0,
-        5.0,
-        0.05,
-        1.25,
-        2.5
-      ]
-    },
-    {
-      "name": "gpt-6-luna",
-      "price_raw": "$0.10",
-      "amount": 0.1,
-      "currency": "USD",
-      "period": null,
-      "features": [],
-      "slot_prices": [
-        0.1,
-        0.5,
-        0.01,
-        0.125,
-        0.25
       ]
     },
     {
@@ -164,21 +164,6 @@
     },
     {
       "name": "Trusted Access: Rosalind",
-      "price_raw": "$15.00",
-      "amount": 15.0,
-      "currency": "USD",
-      "period": null,
-      "features": [],
-      "slot_prices": [
-        15.0,
-        75.0,
-        1.5,
-        18.75,
-        37.5
-      ]
-    },
-    {
-      "name": "Legal",
       "price_raw": "$10.00",
       "amount": 10.0,
       "currency": "USD",
@@ -187,7 +172,24 @@
       "slot_prices": [
         10.0,
         50.0,
-        1.0
+        1.0,
+        12.5,
+        25.0
+      ]
+    },
+    {
+      "name": "Legal model configurations",
+      "price_raw": "$8.00",
+      "amount": 8.0,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        8.0,
+        40.0,
+        0.4,
+        10.0,
+        20.0
       ]
     },
     {
@@ -235,23 +237,65 @@
       "slot_prices": [
         0.1
       ]
-    },
-    {
-      "name": "gpt-4.1-2025-04-14",
-      "price_raw": "$25.00",
-      "amount": 25.0,
-      "currency": "USD",
-      "period": null,
-      "features": [],
-      "slot_prices": [
-        25.0,
-        3.0,
-        12.0,
-        0.75
-      ]
     }
   ],
   "models": [
+    {
+      "key": "gpt-6.2-astra",
+      "model": "gpt-6.2-astra",
+      "prices": {
+        "input": {
+          "raw": "$8.00",
+          "amount": 8.0
+        },
+        "output": {
+          "raw": "$40.00",
+          "amount": 40.0
+        },
+        "cached input": {
+          "raw": "$0.40",
+          "amount": 0.4
+        },
+        "30m write": {
+          "raw": "$10.00",
+          "amount": 10.0
+        },
+        "12h write": {
+          "raw": "$20.00",
+          "amount": 20.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "gpt-6.2-sol",
+      "model": "gpt-6.2-sol",
+      "prices": {
+        "input": {
+          "raw": "$2.00",
+          "amount": 2.0
+        },
+        "output": {
+          "raw": "$10.00",
+          "amount": 10.0
+        },
+        "cached input": {
+          "raw": "$0.10",
+          "amount": 0.1
+        },
+        "30m write": {
+          "raw": "$2.50",
+          "amount": 2.5
+        },
+        "12h write": {
+          "raw": "$5.00",
+          "amount": 5.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
     {
       "key": "gpt-6-astra",
       "model": "gpt-6-astra",
@@ -303,62 +347,6 @@
         "12h write": {
           "raw": "$5.00",
           "amount": 5.0
-        }
-      },
-      "currency": "USD",
-      "unit": ""
-    },
-    {
-      "key": "gpt-6.1-terra",
-      "model": "gpt-6.1-terra",
-      "prices": {
-        "input": {
-          "raw": "$1.00",
-          "amount": 1.0
-        },
-        "output": {
-          "raw": "$5.00",
-          "amount": 5.0
-        },
-        "cached input": {
-          "raw": "$0.05",
-          "amount": 0.05
-        },
-        "30m write": {
-          "raw": "$1.25",
-          "amount": 1.25
-        },
-        "12h write": {
-          "raw": "$2.50",
-          "amount": 2.5
-        }
-      },
-      "currency": "USD",
-      "unit": ""
-    },
-    {
-      "key": "gpt-6-luna",
-      "model": "gpt-6-luna",
-      "prices": {
-        "input": {
-          "raw": "$0.10",
-          "amount": 0.1
-        },
-        "output": {
-          "raw": "$0.50",
-          "amount": 0.5
-        },
-        "cached input": {
-          "raw": "$0.01",
-          "amount": 0.01
-        },
-        "30m write": {
-          "raw": "$0.125",
-          "amount": 0.125
-        },
-        "12h write": {
-          "raw": "$0.25",
-          "amount": 0.25
         }
       },
       "currency": "USD",
@@ -622,6 +610,22 @@
           "12h write"
         ],
         [
+          "gpt-6.2-astra",
+          "$8.00",
+          "$40.00",
+          "$0.40",
+          "$10.00",
+          "$20.00"
+        ],
+        [
+          "gpt-6.2-sol",
+          "$2.00",
+          "$10.00",
+          "$0.10",
+          "$2.50",
+          "$5.00"
+        ],
+        [
           "gpt-6-astra",
           "$10.00",
           "$50.00",
@@ -636,22 +640,6 @@
           "$0.10",
           "$2.50",
           "$5.00"
-        ],
-        [
-          "gpt-6.1-terra",
-          "$1.00",
-          "$5.00",
-          "$0.05",
-          "$1.25",
-          "$2.50"
-        ],
-        [
-          "gpt-6-luna",
-          "$0.10",
-          "$0.50",
-          "$0.01",
-          "$0.125",
-          "$0.25"
         ]
       ]
     },
@@ -810,14 +798,22 @@
         [
           "Life Sciences Trusted Access: Rosalind",
           "gpt-6-rosalind",
-          "$15.00",
-          "$75.00",
-          "$1.50",
-          "$18.75",
-          "$37.50"
+          "$10.00",
+          "$50.00",
+          "$1.00",
+          "$12.50",
+          "$25.00"
         ],
         [
-          "Legal",
+          "Legal model configurations",
+          "gpt-6.2-astra-law",
+          "$8.00",
+          "$40.00",
+          "$0.40",
+          "$10.00",
+          "$20.00"
+        ],
+        [
           "gpt-6-astra-law",
           "$10.00",
           "$50.00",

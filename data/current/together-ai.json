@@ -6,9 +6,9 @@
   "url": "https://www.together.ai/pricing",
   "final_url": "https://www.together.ai/pricing",
   "parser_version": 4,
-  "content_hash": "fbd95917efb4e29cc89f47b9f4c2cc9519f20a8aad50104df55835d87e599163",
-  "raw_hash": "a0843851a01bb156386380c57a7c21a7e4a0b35845c3e1e6c4dcafa0d36702e7",
-  "text_bytes": 9859,
+  "content_hash": "b8adfc940ae12c7f628b042196473d0c939166437ee945020cfa521b85bed2aa",
+  "raw_hash": "60b148a75c7eda77278b02ec2867356742eba044abce81a1357cf836981989d4",
+  "text_bytes": 9888,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -119,6 +119,18 @@
       "slot_prices": [
         0.15,
         0.02
+      ]
+    },
+    {
+      "name": "Elorian Glimpse 1.0",
+      "price_raw": "$0.60",
+      "amount": 0.6,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        0.6,
+        0.06
       ]
     },
     {
@@ -2011,6 +2023,11 @@
           "$0.50"
         ],
         [
+          "Elorian Glimpse 1.0",
+          "$0.60 $0.06 (cached)",
+          "$3.00"
+        ],
+        [
           "Ripple-65B Preview",
           "$0.20 $0.02 (cached)",
           "$0.60"
@@ -2071,19 +2088,9 @@
           "$0.25"
         ],
         [
-          "Rnj-1 Instruct",
-          "$0.15",
-          "$0.15"
-        ],
-        [
           "Qwen3.6-Plus",
           "$0.50",
           "$3.00"
-        ],
-        [
-          "Qwen2.5 7B Instruct Turbo",
-          "$0.30",
-          "$0.30"
         ]
       ]
     },
@@ -2129,6 +2136,11 @@
           "NVIDIA Nemotron 3.5 Super VL",
           "$0.15 $0.02 (cached)",
           "$0.50"
+        ],
+        [
+          "Elorian Glimpse 1.0",
+          "$0.60 $0.06 (cached)",
+          "$3.00"
         ],
         [
           "Qwen3.7-Plus",

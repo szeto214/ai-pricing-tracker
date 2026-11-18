@@ -6,9 +6,9 @@
   "url": "https://www.coderabbit.ai/pricing",
   "final_url": "https://www.coderabbit.ai/pricing",
   "parser_version": 4,
-  "content_hash": "0a332445118e22151f031103f6892736a27e4139c127a69ff96d2a15689810f3",
-  "raw_hash": "a662638956fedd39c0a5ad1fc8ef72218e53cddd94e0dcbff0e9389afd0e014c",
-  "text_bytes": 15512,
+  "content_hash": "d823cdaa81c824a8dbbde362433b828b8af2c3faf8e95589beaf538de11c5a2c",
+  "raw_hash": "39f897460a1233dfd966c97d1116397463c01870b2095abf24772f7f3ac592da",
+  "text_bytes": 15650,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -356,6 +356,13 @@
           "Included"
         ],
         [
+          "API and MCP server access",
+          "Included",
+          "Included",
+          "Included",
+          "Included"
+        ],
+        [
           "MCP connections to external tools and context",
           "5",
           "10",
@@ -391,7 +398,7 @@
           "Included"
         ],
         [
-          "API access, including review and MCP usage metrics",
+          "Admin APIs and MCP connection usage metrics",
           "Not included",
           "Not included",
           "Not included",

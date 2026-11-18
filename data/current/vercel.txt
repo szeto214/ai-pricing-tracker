@@ -189,15 +189,15 @@ Custom
 Blob
 Blob Storage Size
 1 GB / month included
-$0.023 per GB
+Starting at $0.023 per GB
 Custom
 Blob Simple Operations
 10K / month included
-$0.40 per 1M
+Starting at $0.35 per 1M
 Custom
 Blob Advanced Operations
 2K / month included
-$5 per 1M
+Starting at $4.50 per 1M
 Custom
 Blob Data Transfer
 10 GB / month included
@@ -219,7 +219,7 @@ Custom
 Global Config
 Global Config Reads
 100K / month included
-Starting at $3 per 1M reads
+$3 per 1M reads
 Custom
 Global Config Writes
 100 writes / month included
@@ -251,7 +251,7 @@ Starting at $0.0106 per GB-hr
 Custom
 Function Invocations
 1M / month included
-Starting at $0.60 per 1M
+$0.60 per 1M
 Custom
 Service Requests
 Beta
@@ -269,7 +269,7 @@ Starting at $0.0212 per GB-hr
 Custom
 Sandbox Creations
 5K / month included
-Starting at $0.60 per 1,000,000 creations
+$0.60 per 1,000,000 creations
 Custom
 Sandbox Data Transfer
 20 GB / month included
@@ -281,7 +281,7 @@ Concurrent Sandboxes
 Custom
 Snapshot Storage
 15 GB
-Starting at $0.08 per GB-month
+$0.08 per GB-month
 Custom
 Vercel Drives
 Drive Storage
@@ -638,7 +638,7 @@ How can I manage my spend?
 We provide customers with tools to observe, control, and alert on their infrastructure spend with
 Spend Management
 .
-All new teams have a default on-demand usage budget of $200 (which can be customized) and receive email, web, and SMS notifications as you reach that amount. When reaching 100%, you can optionally configure Vercel to automatically pause all projects with a hard limit.
+New Pro teams have a default on-demand usage budget of $200 (which can be customized) and receive email, web, and SMS notifications as you reach that amount. When reaching 100%, you can optionally configure Vercel to automatically pause all projects with a hard limit.
 Over the past year, we've added features to the platform based on your feedback to help automatically prevent runaway spend, including
 recursion protection
 ,

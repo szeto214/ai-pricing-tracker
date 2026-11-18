@@ -40,10 +40,14 @@ Rate Limits & Usage Tiers
 page.
 Estimate your cost
 Orchestrator API Pricing
-Orchestrator API usage is billed per token at each model’s published rates — there are no per-request fees. Every model has its own input and output rate, with cache reads billed at the model’s discounted cache-read rate and reasoning tokens billed at the output rate. You are always billed at the requested model’s rates, regardless of how the request is served.
+Orchestrator API usage is billed per token at each model’s published rates, with no per-request fees. Every model has its own input and output rate, with cache reads billed at the model’s cache-read rate and reasoning tokens billed at the output rate. Some models also charge for cache writes; see
+Cached and Reasoning Tokens
+. You are billed at the requested model’s rates regardless of which deployment serves the request; with
+perplexity/auto
+, at the rates of the model that served it.
 See
 Orchestrator Models & Pricing
-for the full per-model rate card, including cache-read rates.
+for the full per-model rate card, including cache-read rates and usage tiers.
 Agent API Pricing
 The Agent API provides access to third-party models from providers including OpenAI, Anthropic, Google, xAI, Z.AI, Moonshot AI, and NVIDIA with
 transparent, token-based pricing
@@ -159,6 +163,37 @@ Rate limits
 See
 Monitor API limits
 for HTTP request limits by usage tier.
+Context API Pricing
+The
+Context API
+returns the content of web pages you already have URLs for. It costs $1.00 per 1,000 fetched URLs ($0.001 per URL), with no token billing.
+Billing unit:
+each URL in a successful
+POST /v1/context
+response whose
+status.type
+is
+ok
+or
+not_modified
+, whatever
+formats
+asks for. Highlights and metadata-only requests with
+"formats": []
+are billed the same way. URLs that fail are free, including invalid, blocked, empty, and timed-out URLs.
+Context API cost = billable URLs (
+ok
+or
+not_modified
+) ÷ 1,000 × $1.00.
+To estimate your cost, open the
+calculator
+and enter the URLs you expect to fetch per month.
+Each successful response reports the billed URL count in
+usage.fetched_urls
+and its list-price cost in
+usage.cost.total_cost
+, which is not the invoice or amount charged.
 Embeddings API Pricing
 Generate high-quality text embeddings for semantic search, retrieval-augmented generation (RAG), and other machine learning applications.
 Standard Embeddings

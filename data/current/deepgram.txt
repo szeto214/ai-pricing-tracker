@@ -99,7 +99,7 @@ $0.0017
 Keyterm Prompting
 $0.0013
 / min
-$0.0012
+$0.0011
 / min
 -
 Smart Formatting
@@ -109,7 +109,7 @@ Included
 Entity Detection
 $0.0017
 / min
-$0.0017
+$0.0014
 / min
 -
 Speaker Diarization
@@ -138,7 +138,7 @@ How we protect voice data
 What we log, what we retain, and what your customers' audio is never used for.
 FAQs
 How much does speech-to-text cost per hour?
-Monolingual streaming is $0.46 an hour on Pay as you go, for either Nova-3 or Flux STT, and $0.39 on Growth. Multilingual is $0.55 for Nova-3 and $0.47 for Flux STT. Pre-recorded runs lower.
+Monolingual streaming is $0.29 an hour for Nova-3 and $0.39 for Flux STT on Pay as you go, and $0.25 and $0.34 on Growth. Multilingual is $0.35 for Nova-3 and $0.47 for Flux STT. Pre-recorded runs lower.
 What is the difference between Pay as you go and Growth?
 Pay as you go has no commitment and bills against credits as you use them. Growth starts at $4,000 a year in pre-paid annual credits for up to 20% off and higher streaming concurrency.
 What does the $200 free credit cover?

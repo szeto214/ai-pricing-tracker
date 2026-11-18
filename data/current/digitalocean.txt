@@ -82,6 +82,23 @@ View
 Evaluations
 pricing
 Compute
+MicroVMs
+Starting at
+$
+0.039
+/hour*
+*Billed per second, only while running. Storage is $
+0.05
+/GiB-month. Outbound data transfer is $
+0.01
+/GiB.
+Isolated, fast-resuming VMs for AI agents and sandboxed code.
+Each MicroVM runs your container image with its own kernel
+Pauses automatically when idle and resumes on the next request, with memory and files preserved
+No compute charges while paused
+Save checkpoints of memory and disk to restore later
+View pricing
+for MicroVMs
 App Platform
 Starting at
 $0

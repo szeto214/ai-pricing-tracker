@@ -6,9 +6,9 @@
   "url": "https://www.together.ai/pricing",
   "final_url": "https://www.together.ai/pricing",
   "parser_version": 4,
-  "content_hash": "b8adfc940ae12c7f628b042196473d0c939166437ee945020cfa521b85bed2aa",
-  "raw_hash": "60b148a75c7eda77278b02ec2867356742eba044abce81a1357cf836981989d4",
-  "text_bytes": 9888,
+  "content_hash": "10b57e24c43fe918b316de1ff4603c25934511715c0aad77d676eb4111e9e467",
+  "raw_hash": "f20dafd859a02c64f42e0741004cd247425a186ce715cb6b5db5417a0539a250",
+  "text_bytes": 10093,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -95,6 +95,19 @@
       "slot_prices": [
         0.15,
         0.015
+      ]
+    },
+    {
+      "name": "Qwen4 Max",
+      "price_raw": "$1.50",
+      "amount": 1.5,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        1.5,
+        1.05,
+        0.075
       ]
     },
     {
@@ -490,6 +503,18 @@
         "kolom 3": {
           "raw": "$0.018",
           "amount": 0.018
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "qwen3 tts 12hz 1.7b|k2",
+      "model": "Qwen3 TTS 12Hz 1.7B",
+      "prices": {
+        "kolom 2": {
+          "raw": "$20.00",
+          "amount": 20.0
         }
       },
       "currency": "USD",
@@ -2013,6 +2038,11 @@
           "$0.60"
         ],
         [
+          "Qwen4 Max PROMO Promotion valid until 11/23/2026",
+          "$1.50 $1.05 $0.075 (cached)",
+          "$4.50 $3.15"
+        ],
+        [
           "GLM-5.3-Flash",
           "$0.15 $0.03 (cached)",
           "$0.50"
@@ -2126,6 +2156,11 @@
           "MiniMax M3.1 Flash",
           "$0.15 $0.015 (cached)",
           "$0.60"
+        ],
+        [
+          "Qwen4 Max PROMO Promotion valid until 11/23/2026",
+          "$1.50 $1.05 $0.075 (cached)",
+          "$4.50 $3.15"
         ],
         [
           "GLM-5.3-Flash",
@@ -2343,6 +2378,10 @@
     {
       "caption": "",
       "rows": [
+        [
+          "Qwen3 TTS 12Hz 1.7B",
+          "$20.00"
+        ],
         [
           "Cartesia Sonic-3",
           "$65.00"

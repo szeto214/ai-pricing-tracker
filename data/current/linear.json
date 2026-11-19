@@ -6,9 +6,9 @@
   "url": "https://linear.app/pricing",
   "final_url": "https://linear.app/pricing",
   "parser_version": 4,
-  "content_hash": "21bd145b4308734e4d9a9ff7e3348511e4c9e664e6a148469227a47d5d8a1eb0",
-  "raw_hash": "441052f6fbaf4ede4745c5b64cecf9ef427a02407323e35bb2adba75073bade9",
-  "text_bytes": 4491,
+  "content_hash": "19ffe2fe971d682e4c625f9da62c9ffd09f57cda53f3b91f591593cacfe700c0",
+  "raw_hash": "c80c327aeb5c534c7b03b39bb565229b99c7f013765a1dcc29347a3ca489fad1",
+  "text_bytes": 4453,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -52,15 +52,6 @@
       "slot_prices": [
         16.0
       ]
-    },
-    {
-      "name": "Change Plan",
-      "price_raw": "Free",
-      "amount": 0.0,
-      "currency": null,
-      "period": null,
-      "features": [],
-      "slot_prices": []
     }
   ],
   "models": [],

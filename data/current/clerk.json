@@ -6,9 +6,9 @@
   "url": "https://clerk.com/pricing",
   "final_url": "https://clerk.com/pricing",
   "parser_version": 4,
-  "content_hash": "4af663e563ede3615014f36fdeb8d5be40b6dae4f778f28bca1c01f908297261",
-  "raw_hash": "69294c1eb1c2e6e1bf9ff44f48c20e4867ade344f463390a8d88d6174ae99925",
-  "text_bytes": 14174,
+  "content_hash": "e9bd8778628ac48e3a14eddef4113072d6a9bb7a76a5775e4c9daadc91e9ad3f",
+  "raw_hash": "9c88368286e7c0b1eb0d214a12a0ae4fe2c86bd3415321abc3d8c84aa9b2bbbc",
+  "text_bytes": 14171,
   "currency_hints": [],
   "extractor": "jsonld",
   "confidence": "medium",
@@ -192,7 +192,7 @@
           "Included"
         ],
         [
-          "SSO connections Enterprise single sign-on with SAML, OIDC, or EASIE.",
+          "SSO connections Enterprise single sign-on with SAML, OIDC, or EASIE. Connections can be linked to Organizations.",
           "Not included",
           "1 connection included per app 2 - 15 $75/mo each 16 - 100 $60/mo each 101 - 250 $48/mo each 251+ Contact us",
           "1 connection included per app 2 - 15 $75/mo each 16 - 100 $60/mo each 101 - 250 $48/mo each 251+ Contact us"

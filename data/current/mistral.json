@@ -6,9 +6,9 @@
   "url": "https://mistral.ai/pricing",
   "final_url": "https://mistral.ai/pricing/",
   "parser_version": 4,
-  "content_hash": "ea5c70b7f387a197e1c2922cfa01e8eb01131868757a524705eee87db2d764e2",
-  "raw_hash": "7a5b38b9129a5e5b0ae7f173c2b34bc1b30a3fded2a93d5e3859d5bf8333389e",
-  "text_bytes": 8203,
+  "content_hash": "f62283802798618710e5a22624ffbe38f659702f51ccb8e00cd48a2de1362523",
+  "raw_hash": "3c1a86968d3880e67b7930f2505ee082b3d65300980717b31e8b02b1068a633c",
+  "text_bytes": 8187,
   "currency_hints": [
     "EUR",
     "USD",
@@ -341,8 +341,8 @@
         [
           "Model training",
           "",
-          "Opt-out",
-          "Opt-out",
+          "",
+          "",
           "Opt-out"
         ],
         [

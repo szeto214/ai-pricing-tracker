@@ -166,7 +166,9 @@ for HTTP request limits by usage tier.
 Context API Pricing
 The
 Context API
-returns the content of web pages you already have URLs for. It costs $1.00 per 1,000 fetched URLs ($0.001 per URL), with no token billing.
+returns the content of web pages you already have URLs for. It costs $1.00 per 1,000 fetched URLs ($0.001 per URL). Requests without
+criteria
+have no token billing.
 Billing unit:
 each URL in a successful
 POST /v1/context
@@ -181,11 +183,20 @@ formats
 asks for. Highlights and metadata-only requests with
 "formats": []
 are billed the same way. URLs that fail are free, including invalid, blocked, empty, and timed-out URLs.
-Context API cost = billable URLs (
+Context API cost without
+criteria
+= billable URLs (
 ok
 or
 not_modified
 ) ÷ 1,000 × $1.00.
+With
+criteria
+, scoring is billed as
+Decisions API input tokens
+on top of the per-URL price: the page text plus your questions, for each scored page. The response reports the count as
+usage.criteria.input_tokens
+.
 To estimate your cost, open the
 calculator
 and enter the URLs you expect to fetch per month.
@@ -216,6 +227,20 @@ $0.008
 pplx-embed-context-v1-4b
 2560
 $0.05
+Contextualized Embeddings v2
+Model
+Dimensions
+Price ($/1M tokens)
+Images ($/1M tokens)
+pplx-embed-v2-context-0.6b
+1024
+$0.02
+$0.40
+pplx-embed-v2-context-9b
+2048
+$0.12
+$0.42
+Text inputs use the token price. Image inputs use the image price.
 View Embeddings API Documentation
 Learn how to use the Embeddings API for semantic search, RAG, and more.
 Embeddings cost = tokens ÷ 1,000,000 × the model’s rate. For example, 40M tokens on

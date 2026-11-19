@@ -6,9 +6,9 @@
   "url": "https://docs.perplexity.ai/getting-started/pricing",
   "final_url": "https://docs.perplexity.ai/docs/getting-started/pricing",
   "parser_version": 4,
-  "content_hash": "4a7ae8c1168e880515c32ac1e971d3a399aa0f8a5737881845e0b6108c5e75d2",
-  "raw_hash": "7488bad94ec9a085f873dcbe39014771e5f0fd6f31806946097b207ac247d70b",
-  "text_bytes": 11260,
+  "content_hash": "bf4ddbfa1fc9f1c4e1cdfdc96bf0c9b97d9ab4476f7d4e522cccd0f15d0144c8",
+  "raw_hash": "987228367d4802af374e92bdc586cb0aa61026b1383c2ca4833287319eefa412",
+  "text_bytes": 11757,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -179,6 +179,17 @@
       ]
     },
     {
+      "name": "Context API cost without",
+      "price_raw": "$1.00",
+      "amount": 1.0,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        1.0
+      ]
+    },
+    {
       "name": "pplx-embed-v1-0.6b",
       "price_raw": "$0.004",
       "amount": 0.004,
@@ -201,36 +212,27 @@
       ]
     },
     {
-      "name": "pplx-decider-v1.3",
+      "name": "pplx-embed-v2-context-0.6b",
       "price_raw": "$0.02",
       "amount": 0.02,
       "currency": "USD",
       "period": null,
       "features": [],
       "slot_prices": [
-        0.02
+        0.02,
+        0.4
       ]
     },
     {
-      "name": "Aliases",
-      "price_raw": "$0.02",
-      "amount": 0.02,
+      "name": "pplx-embed-v2-context-9b",
+      "price_raw": "$0.12",
+      "amount": 0.12,
       "currency": "USD",
       "period": null,
       "features": [],
       "slot_prices": [
-        0.02
-      ]
-    },
-    {
-      "name": "Billing unit",
-      "price_raw": "$0.000012",
-      "amount": 1.2e-05,
-      "currency": "USD",
-      "period": null,
-      "features": [],
-      "slot_prices": [
-        1.2e-05
+        0.12,
+        0.42
       ]
     }
   ],
@@ -454,6 +456,38 @@
         "price ($/1m tokens)": {
           "raw": "$0.05",
           "amount": 0.05
+        }
+      },
+      "currency": "USD",
+      "unit": "/1m"
+    },
+    {
+      "key": "pplx-embed-v2-context-0.6b",
+      "model": "pplx-embed-v2-context-0.6b",
+      "prices": {
+        "price ($/1m tokens)": {
+          "raw": "$0.02",
+          "amount": 0.02
+        },
+        "images ($/1m tokens)": {
+          "raw": "$0.40",
+          "amount": 0.4
+        }
+      },
+      "currency": "USD",
+      "unit": "/1m"
+    },
+    {
+      "key": "pplx-embed-v2-context-9b",
+      "model": "pplx-embed-v2-context-9b",
+      "prices": {
+        "price ($/1m tokens)": {
+          "raw": "$0.12",
+          "amount": 0.12
+        },
+        "images ($/1m tokens)": {
+          "raw": "$0.42",
+          "amount": 0.42
         }
       },
       "currency": "USD",
@@ -697,6 +731,29 @@
           "pplx-embed-context-v1-4b",
           "2560",
           "$0.05"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Model",
+          "Dimensions",
+          "Price ($/1M tokens)",
+          "Images ($/1M tokens)"
+        ],
+        [
+          "pplx-embed-v2-context-0.6b",
+          "1024",
+          "$0.02",
+          "$0.40"
+        ],
+        [
+          "pplx-embed-v2-context-9b",
+          "2048",
+          "$0.12",
+          "$0.42"
         ]
       ]
     },

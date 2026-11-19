@@ -6,9 +6,9 @@
   "url": "https://slack.com/pricing",
   "final_url": "https://slack.com/pricing",
   "parser_version": 4,
-  "content_hash": "5ef8896e3e70b5fe9f1a033bb5177476a75a0b4849ae9c193ad0a00c1c47cd4a",
-  "raw_hash": "c9a156f0bc9f3370266182e2c27c014843022d639f160b08131dd93bcfc40959",
-  "text_bytes": 28618,
+  "content_hash": "09ed7bf89d10a91ba8b90cc1a7a1866f7987e6029f9968e51508793386e61f9b",
+  "raw_hash": "596e945c6e530b301f11147ec878b4df418332fe9abda22af5b91e9aa61f3b7b",
+  "text_bytes": 28578,
   "currency_hints": [
     "USD"
   ],
@@ -187,10 +187,10 @@
         ],
         [
           "Slackbot Find answers, summarize channels, and work across your apps. Limits vary by plan. Contact sales to add more.",
-          "Consumption based",
-          "Consumption based",
-          "Usage limits",
-          "Unlimited"
+          "",
+          "",
+          "",
+          ""
         ],
         [
           "Daily recaps Get a daily digest of what’s happening across all of your teams and projects.",

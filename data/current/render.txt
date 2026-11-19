@@ -1,17 +1,6 @@
 Introducing Render Sandboxes: a computer for every agent.
 Learn more
 Predictable pricing that scales with you.
-Jump to
-workspace plans
-,
-compute pricing
-, and
-FAQs
-.
-Are you a VC-funded startup? Get up to $100K in credits with
-Render for Startups ↗
-Looking to migrate? We can help and you can get up to $10K in credits.
-Sign up now ↗
 Workspace Plans
 Hobby
 Pro
@@ -70,6 +59,10 @@ Contractual uptime SLAs
 Dedicated technical account team
 Support Slack channel
 Support response SLAs
+Are you a VC-funded startup? Get up to $100K in credits with
+Render for Startups ↗
+Looking to migrate? We can help and you can get up to $10K in credits.
+Sign up now ↗
 Hobby
 For individuals building personal projects and prototypes.
 $
@@ -485,12 +478,12 @@ CPU and
 16
 GB of RAM
 Isolated VMs for agents
-Automatic suspend when idle
 Billing for active CPU time + provisioned memory
+Automatic suspend when idle
 Snapshot storage
 for $0.08/GB per month
-Default limit of 1,000 concurrent sandboxes on Pro, Scale workspaces
-Higher limits
+Default concurrency of 1,000 on Pro, Scale workspaces
+Higher concurrency, disk, and compute limits
 on request
 1 CPU
 $0.12 / active CPU hour

@@ -276,11 +276,6 @@ How can I upgrade to pay as you go from free tier?
 Once you enter your credit card, your database will be upgraded to the pay-as-you-go plan and limits will be updated.
 What is included in free tier?
 Free tier includes 250MB data size and 500K commands per month.
-Can I get a free Redis database without signing up?
-Yes. Send a POST request to
-https://upstash.com/start-redis
-and you get a free Redis database instantly, with no signup, credit card, or API key. The response is markdown with credentials and a quickstart, so AI agents can start using it right away.
-The database is deleted after 3 days unless you claim it into your account from the console link in the response. Once claimed, it follows the pricing on this page.
 Are paid databases' first 250MB data and 500K commands free?
 No. Once you upgrade to a paid tier, you will be charged for data size and commands according to that plan.
 How does the budget work?

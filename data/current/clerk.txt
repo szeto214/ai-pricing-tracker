@@ -129,9 +129,6 @@ included per app
 Additional $1/mo each
 Show volume discounts
 Unlimited members per Organization
-Link
-Enterprise connections
-with Organizations
 Verified Domains & Automatic Invitations
 Custom Roles & Rolesets
 Protect
@@ -334,7 +331,7 @@ Not included
 Included
 Included
 SSO connections
-Enterprise single sign-on with SAML, OIDC, or EASIE.
+Enterprise single sign-on with SAML, OIDC, or EASIE. Connections can be linked to Organizations.
 Not included
 1 connection
 included per app

@@ -6,48 +6,60 @@
   "url": "https://www.netlify.com/pricing/",
   "final_url": "https://www.netlify.com/pricing/",
   "parser_version": 4,
-  "content_hash": "2327f09fa79c702af9757c908936bf2c8708b678ad5c87867fd49d71bfe564f9",
-  "raw_hash": "6362c7ca5587cbdbca356de2546cf38509267f6d1b295067c15cf1e17e9fcb15",
-  "text_bytes": 16171,
+  "content_hash": "998daa034774984d307d93e16a31f595b2bc3380aa8dbba1f3011009c40fc24e",
+  "raw_hash": "a95dee6c014a9965e6eef409b6c6416aee3052744fae9307fcdcc2baba4e6b90",
+  "text_bytes": 17424,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
     {
       "name": "Free",
-      "price_raw": "$0",
-      "amount": 0.0,
-      "currency": "USD",
-      "period": "month",
-      "features": [
-        "Deploy from AI, Git, or API",
-        "Private by default until you publish",
-        "Unlimited deploy previews",
-        "Build with Agent Runners",
-        "Add Custom domains with SSL",
-        "Functions & AI models",
-        "Store structured data with Netlify Database",
-        "Store files & images with Blob storage",
-        "Firewall Traffic Rules & basic rate limiting",
-        "Global CDN",
-        "300 credit limit / month"
-      ],
-      "slot_prices": [
-        0.0
-      ]
-    },
-    {
-      "name": "View a plan",
       "price_raw": "Free",
       "amount": 0.0,
       "currency": null,
       "period": null,
-      "features": [
-        "Free",
-        "Personal",
-        "Pro",
-        "Enterprise"
-      ],
+      "features": [],
+      "slot_prices": []
+    },
+    {
+      "name": "Your estimate",
+      "price_raw": "$1",
+      "amount": 1.0,
+      "currency": "USD",
+      "period": "GB",
+      "features": [],
+      "slot_prices": [
+        1.0
+      ]
+    },
+    {
+      "name": "Your estimate",
+      "price_raw": "$9",
+      "amount": 9.0,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        9.0
+      ]
+    },
+    {
+      "name": "Free to Personal",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": [],
+      "slot_prices": []
+    },
+    {
+      "name": "Plan to compare",
+      "price_raw": "Free",
+      "amount": 0.0,
+      "currency": null,
+      "period": null,
+      "features": [],
       "slot_prices": []
     },
     {
@@ -59,6 +71,17 @@
       "features": [],
       "slot_prices": [
         5.0
+      ]
+    },
+    {
+      "name": "Build & deploy: what changes",
+      "price_raw": "$40",
+      "amount": 40.0,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        40.0
       ]
     },
     {
@@ -87,21 +110,14 @@
   "models": [],
   "tables": [
     {
-      "caption": "",
+      "caption": "Usage credits: what changes",
       "rows": [
         [
-          "Features on Pro View a plan Free Personal Pro Enterprise Jump to a topic Usage credits Build & deploy Collaboration & observability Members & roles Security & c"
-        ],
-        [
-          "Features",
+          "Feature",
           "Free",
           "Personal",
           "Pro",
           "Enterprise"
-        ],
-        [
-          "Usage credits",
-          "Usage credits"
         ],
         [
           "Included credits per month Includes usage credits for production deploys, compute, form submissions, bandwidth, and web requests.",
@@ -112,14 +128,22 @@
         ],
         [
           "Add-on credits Additional credits are available when you enable auto recharge (disabled by default).",
-          "",
+          "Not included",
           "$5 / 500 additional credits",
           "$10 / 1,500 additional credits",
           "Custom"
-        ],
+        ]
+      ]
+    },
+    {
+      "caption": "Build & deploy: what changes",
+      "rows": [
         [
-          "Build & deploy",
-          "Build & deploy"
+          "Feature",
+          "Free",
+          "Personal",
+          "Pro",
+          "Enterprise"
         ],
         [
           "Concurrent builds Run more than one build at the same time so that new commits to a project are built even if existing builds aren’t yet finished.",
@@ -129,25 +153,11 @@
           "Custom"
         ],
         [
-          "Agent Runners Ask AI agents to fix, update, and ship code right in your dashboard.",
-          "",
-          "",
-          "",
-          ""
-        ],
-        [
           "Concurrent agent runs How many agent runs your team can have active at the same time, across all of your projects.",
           "1",
           "3",
           "10",
           "50"
-        ],
-        [
-          "AI Gateway Connect to any AI model without managing API keys.",
-          "",
-          "",
-          "",
-          ""
         ],
         [
           "Netlify Database Automatically provision and connect a Postgres database to your project with Netlify Database, which natively integrates with AI agents.",
@@ -162,6 +172,74 @@
           "1 (then $15 each)",
           "1 (then $15 each)",
           "Custom"
+        ],
+        [
+          "Scope environment variables per deploy context Customize environment variables for different deploy contexts, i.e. staging vs. production.",
+          "Not included",
+          "Not included",
+          "",
+          ""
+        ],
+        [
+          "Environment variable customization Limit environment variable usage per feature (builds, functions, or post processing). Set team-level variables with project-l",
+          "Not included",
+          "Not included",
+          "",
+          ""
+        ],
+        [
+          "Custom deployment options for functions Increase execution limits, increase memory, or set a custom AWS region.",
+          "Not included",
+          "Not included",
+          "",
+          ""
+        ],
+        [
+          "Priority build environment 5x faster processing power (10vCPUs), 6x more memory (36GB), and 4x higher concurrency than the standard build environment.",
+          "Not included",
+          "Not included",
+          "Not included",
+          ""
+        ],
+        [
+          "99.99% uptime SLA",
+          "Not included",
+          "Not included",
+          "Not included",
+          ""
+        ],
+        [
+          "Deploy retention policy Preserve deploys older than 90 days for reference or one-click rollbacks.",
+          "Not included",
+          "Not included",
+          "Not included",
+          "Retention policies up to 365 days"
+        ]
+      ]
+    },
+    {
+      "caption": "Build & deploy: on every plan",
+      "rows": [
+        [
+          "Feature",
+          "Free",
+          "Personal",
+          "Pro",
+          "Enterprise"
+        ],
+        [
+          "Agent Runners Ask AI agents to fix, update, and ship code right in your dashboard.",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "AI Gateway Connect to any AI model without managing API keys.",
+          "",
+          "",
+          "",
+          ""
         ],
         [
           "Extensions Add powerful capabilities to every build. Click to install from a catalog of community extensions or create your own.",
@@ -211,55 +289,21 @@
           "",
           "",
           ""
+        ]
+      ]
+    },
+    {
+      "caption": "Collaboration & observability: what changes",
+      "rows": [
+        [
+          "Feature",
+          "Free",
+          "Personal",
+          "Pro",
+          "Enterprise"
         ],
         [
-          "Scope environment variables per deploy context Customize environment variables for different deploy contexts, i.e. staging vs. production.",
-          "",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Environment variable customization Limit environment variable usage per feature (builds, functions, or post processing). Set team-level variables with project-l",
-          "",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Custom deployment options for functions Increase execution limits, increase memory, or set a custom AWS region.",
-          "",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Priority build environment 5x faster processing power (10vCPUs), 6x more memory (36GB), and 4x higher concurrency than the standard build environment.",
-          "",
-          "",
-          "",
-          ""
-        ],
-        [
-          "99.99% uptime SLA",
-          "",
-          "",
-          "",
-          ""
-        ],
-        [
-          "Deploy retention policy Preserve deploys older than 90 days for reference or one-click rollbacks.",
-          "",
-          "",
-          "",
-          "Retention policies up to 365 days"
-        ],
-        [
-          "Collaboration & observability",
-          "Collaboration & observability"
-        ],
-        [
-          "Observability Near real-time visibility into your project’s production performance and resource usage. Monitor requests, bandwidth, runtime behavior, functions,",
+          "Observability Near real-time visibility into your project's production performance and resource usage. Monitor requests, bandwidth, runtime behavior, functions,",
           "1-day history",
           "1-day history",
           "7-day history",
@@ -274,42 +318,50 @@
         ],
         [
           "Audit logs A log of Netlify actions made by members of your team so you can keep track of what changes were made, when, and by whom.",
-          "",
-          "",
+          "Not included",
+          "Not included",
           "7-day history",
           "Full history"
         ],
         [
           "Netlify app for Slack",
-          "",
-          "",
+          "Not included",
+          "Not included",
           "",
           ""
         ],
         [
           "Project labels Organize project across the team with custom labels",
-          "",
-          "",
+          "Not included",
+          "Not included",
           "",
           ""
         ],
         [
           "Live share your dev environment Share your development server to a live URL over HTTPS.",
-          "",
-          "",
+          "Not included",
+          "Not included",
           "",
           ""
         ],
         [
           "Netlify access control Set roles and permissions for every member of your team, what sites they can access and what they can do.",
-          "",
-          "",
+          "Not included",
+          "Not included",
           "",
           ""
-        ],
+        ]
+      ]
+    },
+    {
+      "caption": "Members & roles: what changes",
+      "rows": [
         [
-          "Members & roles",
-          "Members & roles"
+          "Feature",
+          "Free",
+          "Personal",
+          "Pro",
+          "Enterprise"
         ],
         [
           "Members Trigger deploys on Netlify or log into the Netlify platform UI. Sites connected to public repos will not have membership requirements for deploys.",
@@ -320,77 +372,78 @@
         ],
         [
           "Reviewers Provide feedback with collaborative Deploy Previews.",
-          "",
+          "Not included",
           "Unlimited",
           "Unlimited",
           "Unlimited"
         ],
         [
           "Team management Set up teams of Netlify users to collaborate on specific sites. Each Netlify user can be a member of multiple teams.",
-          "",
-          "",
+          "Not included",
+          "Not included",
           "",
           ""
         ],
         [
           "Multiple owners Give more people the ability to add team members, set user permissions, transfer sites, and more.",
-          "",
-          "",
+          "Not included",
+          "Not included",
           "",
           ""
         ],
         [
           "Billing Admin role",
-          "",
-          "",
-          "",
+          "Not included",
+          "Not included",
+          "Not included",
           ""
         ],
         [
           "SAML single sign-on Integrate your existing SSO provider to authenticate users to the Netlify UI.",
-          "",
-          "",
-          "",
+          "Not included",
+          "Not included",
+          "Not included",
           ""
         ],
         [
           "Project-level access control Provision custom permission settings for each user.",
-          "",
-          "",
-          "",
+          "Not included",
+          "Not included",
+          "Not included",
           "(Add-on)"
         ],
         [
           "Self-serve team creation Provide complete autonomy for creating, deleting, editing, and managing teams.",
-          "",
-          "",
-          "",
+          "Not included",
+          "Not included",
+          "Not included",
           "(Add-on)"
         ],
         [
           "Org-level SSO Enable SAML to be implemented only once across all teams.",
-          "",
-          "",
-          "",
+          "Not included",
+          "Not included",
+          "Not included",
           "(Add-on)"
         ],
         [
           "SCIM Empower Netlify admins to automatically provision access and assign permissions in buckets in a secure environment.",
-          "",
-          "",
-          "",
+          "Not included",
+          "Not included",
+          "Not included",
           "(Add-on)"
-        ],
+        ]
+      ]
+    },
+    {
+      "caption": "Security & compliance: what changes",
+      "rows": [
         [
-          "Security & compliance",
-          "Security & compliance"
-        ],
-        [
-          "Two-factor authentication (2FA) Use one time passwords from your favorite authentication apps to secure access to your Netlify account.",
-          "",
-          "",
-          "",
-          ""
+          "Feature",
+          "Free",
+          "Personal",
+          "Pro",
+          "Enterprise"
         ],
         [
           "Functions log retention Logs to help you observe and troubleshoot serverless functions.",
@@ -428,109 +481,148 @@
           "Includes custom emails, email templates, audit logs"
         ],
         [
-          "Secrets controller Environment variable values can be marked as secret, applying a strict access policy to them.",
-          "",
-          "",
-          "",
-          ""
-        ],
-        [
           "Smart secret detection Automatically detect and block potential secrets in your code without manual configuration",
-          "",
+          "Not included",
           "",
           "",
           ""
         ],
         [
           "Basic authentication headers Use custom HTTP headers to password protect paths of your site or specific branch previews.",
-          "",
-          "",
+          "Not included",
+          "Not included",
           "",
           ""
         ],
         [
           "Password-protected projects Site-wide protection, where only visitors with a valid password have access.",
-          "",
-          "",
+          "Not included",
+          "Not included",
           "",
           ""
         ],
         [
           "Support for organization-owned private repositories Connect Netlify to your private GitHub repositories owned by organization accounts.",
-          "",
-          "",
+          "Not included",
+          "Not included",
           "",
           ""
         ],
         [
           "Team login-protected deploys Site-wide or non-production deploy protection with a password or where only visitors within your Netlify team have access, includin",
-          "",
-          "",
-          "",
+          "Not included",
+          "Not included",
+          "Not included",
           ""
         ],
         [
           "Visitor access control Set granular access to your site, or to specific pages. We use JSON Web Tokens (JWT), roles, and redirect rules to grant access to those ",
-          "",
-          "",
-          "",
+          "Not included",
+          "Not included",
+          "Not included",
           ""
         ],
         [
           "Support for GitHub Enterprise Server or self-managed GitLab and Bitbucket Connect Netlify to your publicly accessible repositories in GitHub Enterprise Server o",
-          "",
-          "",
-          "",
+          "Not included",
+          "Not included",
+          "Not included",
           ""
         ],
         [
-          "SOC 2 Deploy with confidence on Netlify’s SOC 2 certified platform, providing independently audited security controls for your build processes, deployments, and",
-          "",
-          "",
-          "",
+          "SOC 2 Deploy with confidence on Netlify's SOC 2 certified platform, providing independently audited security controls for your build processes, deployments, and",
+          "Not included",
+          "Not included",
+          "Not included",
           ""
         ],
         [
           "Security scorecard Improve your team’s security and reduce your vulnerabilities with actionable insights on using Netlify and applying security best practices.",
-          "",
-          "",
-          "",
+          "Not included",
+          "Not included",
+          "Not included",
           ""
         ],
         [
           "Private connectivity Ensure secure network connectivity while accessing Netlify’s full suite of features",
-          "",
-          "",
-          "",
+          "Not included",
+          "Not included",
+          "Not included",
           "(Add-on)"
         ],
         [
-          "HIPAA Ensure data security, privacy and regulatory adherence with Netlify’s HIPAA compliant service offering.",
-          "",
-          "",
-          "",
+          "HIPAA Ensure data security, privacy and regulatory adherence with Netlify's HIPAA compliant service offering.",
+          "Not included",
+          "Not included",
+          "Not included",
           "(Add-on)"
         ],
         [
           "Fortified bandwidth Advanced web security + Dedicated network Enhanced performance and comprehensive security with Rate Limiting, Traffic Rules, DDoS protection",
-          "",
-          "",
-          "",
+          "Not included",
+          "Not included",
+          "Not included",
           "(Add-on)"
+        ]
+      ]
+    },
+    {
+      "caption": "Security & compliance: on every plan",
+      "rows": [
+        [
+          "Feature",
+          "Free",
+          "Personal",
+          "Pro",
+          "Enterprise"
         ],
         [
-          "Get support",
-          "Get support"
-        ],
-        [
-          "Email technical support Get help directly from the Netlify team.",
+          "Two-factor authentication (2FA) Use one time passwords from your favorite authentication apps to secure access to your Netlify account.",
           "",
           "",
           "",
           ""
         ],
         [
+          "Secrets controller Environment variable values can be marked as secret, applying a strict access policy to them.",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "caption": "Get support: what changes",
+      "rows": [
+        [
+          "Feature",
+          "Free",
+          "Personal",
+          "Pro",
+          "Enterprise"
+        ],
+        [
           "24×7×365 support with SLA Production support, with anytime access to the Netlify support engineers who can help resolve issues and answer questions quickly.",
+          "Not included",
+          "Not included",
+          "Not included",
+          ""
+        ]
+      ]
+    },
+    {
+      "caption": "Get support: on every plan",
+      "rows": [
+        [
+          "Feature",
+          "Free",
+          "Personal",
+          "Pro",
+          "Enterprise"
+        ],
+        [
+          "Email technical support Get help directly from the Netlify team.",
           "",
           "",
           "",

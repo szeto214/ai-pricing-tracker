@@ -6,9 +6,9 @@
   "url": "https://docs.perplexity.ai/getting-started/pricing",
   "final_url": "https://docs.perplexity.ai/docs/getting-started/pricing",
   "parser_version": 4,
-  "content_hash": "bf4ddbfa1fc9f1c4e1cdfdc96bf0c9b97d9ab4476f7d4e522cccd0f15d0144c8",
-  "raw_hash": "987228367d4802af374e92bdc586cb0aa61026b1383c2ca4833287319eefa412",
-  "text_bytes": 11757,
+  "content_hash": "191e177dbfcc195e8d225c4a9d3f171ad523b8dc22048ece373c1aecec40a540",
+  "raw_hash": "8eda65bd44466aa367d578b6f0f9607b78be4767a082f1e6cb067ecf7c979c3c",
+  "text_bytes": 12111,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -106,10 +106,21 @@
       "price_raw": "$0.03",
       "amount": 0.03,
       "currency": "USD",
-      "period": "request",
+      "period": null,
       "features": [],
       "slot_prices": [
         0.03
+      ]
+    },
+    {
+      "name": "sandbox",
+      "price_raw": "$0.001",
+      "amount": 0.001,
+      "currency": "USD",
+      "period": "invocation",
+      "features": [],
+      "slot_prices": [
+        0.001
       ]
     },
     {
@@ -190,28 +201,6 @@
       ]
     },
     {
-      "name": "pplx-embed-v1-0.6b",
-      "price_raw": "$0.004",
-      "amount": 0.004,
-      "currency": "USD",
-      "period": null,
-      "features": [],
-      "slot_prices": [
-        0.004
-      ]
-    },
-    {
-      "name": "pplx-embed-context-v1-0.6b",
-      "price_raw": "$0.008",
-      "amount": 0.008,
-      "currency": "USD",
-      "period": null,
-      "features": [],
-      "slot_prices": [
-        0.008
-      ]
-    },
-    {
       "name": "pplx-embed-v2-context-0.6b",
       "price_raw": "$0.02",
       "amount": 0.02,
@@ -233,6 +222,17 @@
       "slot_prices": [
         0.12,
         0.42
+      ]
+    },
+    {
+      "name": "pplx-embed-v1-0.6b",
+      "price_raw": "$0.004",
+      "amount": 0.004,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        0.004
       ]
     }
   ],
@@ -342,6 +342,22 @@
       "unit": ""
     },
     {
+      "key": "sandbox sdk web search|k3",
+      "model": "sandbox SDK web search",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.001",
+          "amount": 0.001
+        },
+        "kolom 3": {
+          "raw": "$1.00",
+          "amount": 1.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
       "key": "search api",
       "model": "Search API",
       "prices": {
@@ -414,6 +430,38 @@
       "unit": ""
     },
     {
+      "key": "pplx-embed-v2-context-0.6b",
+      "model": "pplx-embed-v2-context-0.6b",
+      "prices": {
+        "price ($/1m tokens)": {
+          "raw": "$0.02",
+          "amount": 0.02
+        },
+        "images ($/1m tokens)": {
+          "raw": "$0.40",
+          "amount": 0.4
+        }
+      },
+      "currency": "USD",
+      "unit": "/1m"
+    },
+    {
+      "key": "pplx-embed-v2-context-9b",
+      "model": "pplx-embed-v2-context-9b",
+      "prices": {
+        "price ($/1m tokens)": {
+          "raw": "$0.12",
+          "amount": 0.12
+        },
+        "images ($/1m tokens)": {
+          "raw": "$0.42",
+          "amount": 0.42
+        }
+      },
+      "currency": "USD",
+      "unit": "/1m"
+    },
+    {
       "key": "pplx-embed-v1-0.6b",
       "model": "pplx-embed-v1-0.6b",
       "prices": {
@@ -456,38 +504,6 @@
         "price ($/1m tokens)": {
           "raw": "$0.05",
           "amount": 0.05
-        }
-      },
-      "currency": "USD",
-      "unit": "/1m"
-    },
-    {
-      "key": "pplx-embed-v2-context-0.6b",
-      "model": "pplx-embed-v2-context-0.6b",
-      "prices": {
-        "price ($/1m tokens)": {
-          "raw": "$0.02",
-          "amount": 0.02
-        },
-        "images ($/1m tokens)": {
-          "raw": "$0.40",
-          "amount": 0.4
-        }
-      },
-      "currency": "USD",
-      "unit": "/1m"
-    },
-    {
-      "key": "pplx-embed-v2-context-9b",
-      "model": "pplx-embed-v2-context-9b",
-      "prices": {
-        "price ($/1m tokens)": {
-          "raw": "$0.12",
-          "amount": 0.12
-        },
-        "images ($/1m tokens)": {
-          "raw": "$0.42",
-          "amount": 0.42
         }
       },
       "currency": "USD",
@@ -566,8 +582,8 @@
       "unit": ""
     },
     {
-      "key": "fetch_url",
-      "model": "fetch_url",
+      "key": "fetch_url (base fee)",
+      "model": "fetch_url (base fee)",
       "prices": {
         "$0.0002": {
           "raw": "$0.0005",
@@ -605,7 +621,7 @@
         [
           "fetch_url",
           "$0.0005 per invocation",
-          "Fetches and extracts content from specific URLs"
+          "Fetches web pages. If the tool uses a model to extract content, you also pay for that model’s tokens."
         ],
         [
           "people_search",
@@ -619,8 +635,13 @@
         ],
         [
           "sandbox",
-          "$0.03 per session",
-          "Isolated container for executing code during an Agent API request. A session covers up to 20 minutes of active use for billing purposes — this is the billing wi"
+          "$0.03 per 20-minute block",
+          "Isolated container for running code during an Agent API request. Billed for each started 20-minute block of container time, measured from the container’s start "
+        ],
+        [
+          "sandbox SDK web search",
+          "$0.001 per invocation",
+          "Web searches made with the SDK preinstalled in the sandbox. $1.00 per 1,000 invocations"
         ]
       ]
     },
@@ -700,6 +721,29 @@
         [
           "Model",
           "Dimensions",
+          "Price ($/1M tokens)",
+          "Images ($/1M tokens)"
+        ],
+        [
+          "pplx-embed-v2-context-0.6b",
+          "1024",
+          "$0.02",
+          "$0.40"
+        ],
+        [
+          "pplx-embed-v2-context-9b",
+          "2048 or 1024",
+          "$0.12",
+          "$0.42"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
+          "Model",
+          "Dimensions",
           "Price ($/1M tokens)"
         ],
         [
@@ -731,29 +775,6 @@
           "pplx-embed-context-v1-4b",
           "2560",
           "$0.05"
-        ]
-      ]
-    },
-    {
-      "caption": "",
-      "rows": [
-        [
-          "Model",
-          "Dimensions",
-          "Price ($/1M tokens)",
-          "Images ($/1M tokens)"
-        ],
-        [
-          "pplx-embed-v2-context-0.6b",
-          "1024",
-          "$0.02",
-          "$0.40"
-        ],
-        [
-          "pplx-embed-v2-context-9b",
-          "2048",
-          "$0.12",
-          "$0.42"
         ]
       ]
     },
@@ -837,7 +858,7 @@
           "$0.001"
         ],
         [
-          "fetch_url",
+          "fetch_url (base fee)",
           "$0.0005"
         ],
         [

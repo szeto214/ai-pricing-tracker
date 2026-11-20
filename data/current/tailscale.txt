@@ -49,7 +49,7 @@ Just-in-time access to resources
 Advanced Tailscale SSH
 Network flow logs
 Log streaming
-Regional routing and traffic steering
+MagicRoute and regional routing
 Enterprise
 For enterprises running the full Tailscale platform, extending into multiple products like PAM, AI security, CI/CD, Edge & IoT, and Kubernetes connectivity at scale, and more.
 Custom

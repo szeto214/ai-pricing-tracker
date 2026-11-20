@@ -3,15 +3,17 @@ Predictable pricing,
 designed to scale
 Start building for free, collaborate with your team, then scale to millions of users
 AI tools
-Copy as Markdown
 Ask ChatGPT
 Ask Claude
+Copy as Markdown
 Free
 Perfect for passion projects & simple websites.
-Start for Free
 $
 0
 / month
+Start for Free
+Free projects are paused after 1 week of inactivity.
+Limit of 2 active projects.
 Get started with:
 Unlimited API requests
 50,000 monthly active users
@@ -21,16 +23,16 @@ Shared CPU • 500 MB RAM
 5 GB cached egress
 1 GB file storage
 Community support
-Free projects are paused after 1 week of inactivity. Limit of 2 active projects.
 Pro
 Most Popular
 For production applications with the power to scale.
-Get Started
 From
 $
 25
 / month
-First project included. Additional projects from $10/mo.
+Get Started
+First project included.
+Additional from $10/mo.
 See how pricing scales
 Everything in the Free Plan, plus:
 100,000 monthly active users
@@ -50,28 +52,31 @@ Add Log Drains
 additional $60 per drain, per project
 Team
 Add features such as SSO, control over backups, and industry certifications.
-Get Started
 From
 $
 599
 / month
-First project included. Additional projects from $10/mo.
+Get Started
+First project included.
+Additional from $10/mo.
 See how pricing scales
 Everything in the Pro Plan, plus:
 SOC2 & ISO 27001
 Project-scoped and read-only access
 HIPAA available as paid add-on
 SSO for Supabase Dashboard
+Supports AWS PrivateLink
 Priority email support & SLAs
+Supports AWS PrivateLink
 Daily backups stored for 14 days
 28-day log retention
 Enterprise
 For large-scale applications running Internet scale workloads.
-Contact us
 Custom
+Contact us
+Everything in the Team Plan, plus:
 Technical Account Management
 Uptime SLAs
-Supports AWS PrivateLink
 24×7×365 premium enterprise support
 Private Slack channel
 Custom Security Questionnaires
@@ -99,23 +104,22 @@ Paid plans include $10/mo in compute credits, enough to cover one Micro instance
 Add projects and adjust compute to estimate your monthly cost.
 Monthly estimate:
 Plan subscription
-$
-25
+$25
 Total Compute
 $
 10
 Compute Credits
-- $
-10
+−
+$10
 Total
 About this estimate
 $
 25
-Micro
 Project
 1
-$10
-Drag to adjust
+Micro
+$
+10
 1 GB
 RAM /
 Shared compute
@@ -136,7 +140,7 @@ Compute
 Memory
 Connections: Direct
 Connections: Pooler
-First instance is free on paid plans
+First instance free on paid plans
 Micro
 $10
 Shared compute
@@ -205,6 +209,7 @@ Custom
 Custom
 Compute Size
 Micro
+First instance free on paid plans
 Price USD
 $10
 Compute
@@ -345,8 +350,7 @@ usage-based billing for compute
 or
 Compute Add-ons
 .
-Expand
-Pricing breakdown
+Show pricing breakdown
 Advanced disk configurations
 Scale database storage up to 60 TB and 80,000 IOPS.
 Max Size
@@ -568,7 +572,7 @@ free
 HIPAA
 Not included in
 free
-AWS PrivateLink
+Supports AWS PrivateLink
 Not included in
 free
 SSO
@@ -658,10 +662,12 @@ Included in
 Automatic backups
 About Automatic backups
 Not included in
+7
+days
 About Automatic backups on the pro plan
-7 days
+14
+days
 About Automatic backups on the team plan
-14 days
 Custom
 Point in time recovery
 About Point in time recovery
@@ -947,8 +953,8 @@ Not included in
 Not included in
 Available as paid add-on
 Available as paid add-on
-AWS PrivateLink
-About AWS PrivateLink
+Supports AWS PrivateLink
+About Supports AWS PrivateLink
 Not included in
 Not included in
 Included in
@@ -978,8 +984,9 @@ Custom Domains
 Not included in
 $10 per domain per month per project add on
 $10 per domain per month per project add on
+1, additional
+$10/domain/month
 About Custom Domains on the enterprise plan
-1, additional $10/domain/month
 Support
 Community Support
 Included in

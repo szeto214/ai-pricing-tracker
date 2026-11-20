@@ -6,9 +6,9 @@
   "url": "https://about.gitlab.com/pricing/",
   "final_url": "https://about.gitlab.com/pricing/",
   "parser_version": 4,
-  "content_hash": "8fb16e5e909db3e6a387cc2342fd75cfc745718f20461534fe68693247d5e71d",
-  "raw_hash": "d91176b19adc6807ff77632a9b0229f3a699ece5ad6ce5569e4a949aabc51776",
-  "text_bytes": 32693,
+  "content_hash": "2096eee983701301172c7da653f25591f9d92d8cabb6e63fce9a1dc1912cc836",
+  "raw_hash": "8c4ad05d51cc27f8ea9f9f454e2ee8a63963bd6c781c038397f9e28827de071a",
+  "text_bytes": 32925,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -35,13 +35,13 @@
     },
     {
       "name": "Ultimate",
-      "price_raw": "$24",
-      "amount": 24.0,
+      "price_raw": "$16",
+      "amount": 16.0,
       "currency": "USD",
       "period": "user",
       "features": [],
       "slot_prices": [
-        24.0
+        16.0
       ]
     },
     {
@@ -79,17 +79,6 @@
       ],
       "slot_prices": [
         12000.0
-      ]
-    },
-    {
-      "name": "Usage pricing Show all",
-      "price_raw": "$1",
-      "amount": 1.0,
-      "currency": "USD",
-      "period": "user",
-      "features": [],
-      "slot_prices": [
-        1.0
       ]
     }
   ],

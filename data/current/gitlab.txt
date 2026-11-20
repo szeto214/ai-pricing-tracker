@@ -55,7 +55,7 @@ Let’s talk
 Get in touch to learn more
 Buy Premium
 Try for free
-$12 included GitLab Credits per user/month to access AI features. *
+$8 included GitLab Credits per user/month to access AI features. *
 Everything from Free, plus:
 Unlimited licensed users
 10,000 compute minutes per month
@@ -75,7 +75,7 @@ Get custom pricing
 Contact us for custom pricing
 Contact us
 Try for free
-$24 included GitLab Credits per user/month to access AI features. *
+$16 included GitLab Credits per user/month to access AI features. *
 Everything from Premium plus:
 Unlimited guest users
 50,000 compute minutes per month
@@ -109,7 +109,7 @@ per user/month,
 billed annually
 Buy Premium
 Try for free
-$12 included GitLab Credits per user/month to access AI features. *
+$8 included GitLab Credits per user/month to access AI features. *
 Everything from Free, plus:
 Advanced CI/CD
 Team Project Management
@@ -127,7 +127,7 @@ Get custom pricing
 Contact us for custom pricing
 Contact us
 Try for free
-$24 included GitLab Credits per user/month to access AI features. *
+$16 included GitLab Credits per user/month to access AI features. *
 Everything from Premium, plus:
 Application Security Testing
 Software Supply Chain Security
@@ -204,9 +204,9 @@ Secure Access and Governance
 Add-on GitLab Credits
 Included GitLab Credits
 Add-on GitLab Credits
-12 credits/user/month
+8 credits/user/month
 *
-24 credits/user/month
+16 credits/user/month
 *
 GitLab Credits spend caps & visibility
 External Agents
@@ -273,7 +273,6 @@ Compliance Dashboards
 Security Policies
 Software Composition Analysis
 IaC Scanning
-Fuzz Testing
 Dynamic Application Security Testing
 SLA Management
 Portfolio Management
@@ -569,7 +568,7 @@ Usage pricing
 Show all
 How can I purchase GitLab Credits?
 GitLab Credits can be acquired in three ways:
-Included credits: For a limited time, Premium customers receive 12 credits/user/month, and Ultimate customers receive 24 credits/user/month at no additional cost. These included promotional credits are available for a limited time after GA, and subject to change at GitLab’s discretion. See
+Included credits: For a limited time, Premium customers receive 8 credits/user/month, and Ultimate customers receive 16 credits/user/month at no additional cost. Customers with a Premium or Ultimate subscription that was effective before November 19, 2026 receive 12 credits (Premium) or 24 credits (Ultimate) per user/month through December 31, 2026, and receive the updated amounts beginning January 1, 2027. These included promotional credits are available for a limited time after GA, and subject to change at GitLab’s discretion. See
 Promo Terms
 .
 Monthly commitment pool: Purchase a shared pool of credits for your organization to draw from. The more credits you commit to, the better pricing you receive. These credits refresh monthly.

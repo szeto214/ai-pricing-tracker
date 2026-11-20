@@ -4,13 +4,11 @@ llms.txt
 .md
 to the page URL.
 ChatGPT
-Start searching
 API Dashboard
 Try ChatGPT
+Language
+Loading languages...
 Theme
-Light
-Dark
-System
 Search the API docs
 Search docs
 Suggested
@@ -19,10 +17,6 @@ reasoning_effort
 realtime
 prompt caching
 Primary navigation
-Theme
-Light
-Dark
-System
 Search docs
 Suggested
 responses create
@@ -83,7 +77,7 @@ Long
 Prices per 1M tokens.
 Standard
 Batch
-Flex
+Flex (beta)*
 Fast
 Ultrafast
 Standard
@@ -160,13 +154,15 @@ calculator in the image generation guide
 Audio
 GPT-Live
 Model
-Price per minute
+Active rate
+Standby rate
+gpt-live-1.1
+$0.05 / minute
+$0.02 / minute
 gpt-live-1
-$0.05
-GPT-Live-1
-voice sessions are billed per second,
-without rounding up to a whole minute. Backend model and tool usage is charged
-separately.
+$0.05 / minute
+$0.02 / minute
+GPT-Live bills voice sessions per second.
 Realtime & Audio
 Model
 Modality

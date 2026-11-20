@@ -6,9 +6,9 @@
   "url": "https://supabase.com/pricing",
   "final_url": "https://supabase.com/pricing",
   "parser_version": 4,
-  "content_hash": "ed36bd181429ebc22b2e034dc54379ce23e3a155f9179e7e316c7be14e76b31c",
-  "raw_hash": "ddabf984a4876896c173f909ac728265a9ce072150b3d0d3d76ead767afd8b4f",
-  "text_bytes": 18748,
+  "content_hash": "9cca4960f765f41c6c83a6b4c0a68a7a9a22a60fcbc94e89cd6bb80c2cf521c3",
+  "raw_hash": "d6bfab1dfb92dca977afad511cfc2ebfb5e7f54e50d09129af7f30c0a9287cf5",
+  "text_bytes": 18832,
   "currency_hints": [
     "USD"
   ],
@@ -193,7 +193,7 @@
           "Connections: Pooler"
         ],
         [
-          "First instance is free on paid plans"
+          "First instance free on paid plans"
         ],
         [
           "Micro",
@@ -290,7 +290,7 @@
       "rows": [
         [
           "Compute Size",
-          "Micro"
+          "Micro First instance free on paid plans"
         ],
         [
           "Price USD",
@@ -894,7 +894,7 @@
           "Not included in free"
         ],
         [
-          "AWS PrivateLink",
+          "Supports AWS PrivateLink",
           "Not included in free"
         ],
         [
@@ -1004,8 +1004,8 @@
         [
           "Automatic backups About Automatic backups",
           "Not included in",
-          "About Automatic backups on the pro plan 7 days",
-          "About Automatic backups on the team plan 14 days",
+          "7 days About Automatic backups on the pro plan",
+          "14 days About Automatic backups on the team plan",
           "Custom"
         ],
         [
@@ -1359,7 +1359,7 @@
           "Available as paid add-on"
         ],
         [
-          "AWS PrivateLink About AWS PrivateLink",
+          "Supports AWS PrivateLink About Supports AWS PrivateLink",
           "Not included in",
           "Not included in",
           "Included in",
@@ -1398,7 +1398,7 @@
           "Not included in",
           "$10 per domain per month per project add on",
           "$10 per domain per month per project add on",
-          "About Custom Domains on the enterprise plan 1, additional $10/domain/month"
+          "1, additional $10/domain/month About Custom Domains on the enterprise plan"
         ],
         [
           "Support",

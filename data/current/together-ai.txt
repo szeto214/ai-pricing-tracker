@@ -53,6 +53,7 @@ $0.03
 $1.00
 Qwen3.8 Flash
 $0.15
+(cached)
 $0.47
 Muse Spark Open 816B A42B
 $1.25
@@ -76,9 +77,15 @@ Promotion valid until
 $1.50
 $1.05
 $0.075
+$0.0525
 (cached)
 $4.50
 $3.15
+Tencent Hy4
+$0.83
+$0.042
+(cached)
+$2.50
 GLM-5.3-Flash
 $0.15
 $0.03
@@ -101,6 +108,7 @@ $0.02
 $0.60
 Tev1 4B Experimental
 $0.042
+(cached)
 $0.00
 DeepSeek V4 Pro 0813
 $1.32
@@ -114,6 +122,7 @@ $0.50
 $7.50
 Qwen3.7-Plus
 $0.32
+(cached)
 $1.28
 GLM-5.2
 $1.40
@@ -122,6 +131,7 @@ $0.26
 $4.40
 Ternary Bonsai 27B
 Free
+(cached)
 Free
 Kimi K3
 $3.00
@@ -140,12 +150,15 @@ $0.006
 $1.20
 gpt-oss-120B
 $0.15
+(cached)
 $0.60
 Qwen3.5 9B
 $0.17
+(cached)
 $0.25
 Qwen3.6-Plus
 $0.50
+(cached)
 $3.00
 Displayed prices refer to the lowest resolution/duration settings. Actual prices might vary.
 Price per 1M tokens
@@ -186,10 +199,15 @@ Promotion valid until
 11/23/2026
 $1.50
 $1.05
-$0.075
+$0.0525
 (cached)
 $4.50
 $3.15
+Tencent Hy4
+$0.83
+$0.042
+(cached)
+$2.50
 GLM-5.3-Flash
 $0.15
 $0.03

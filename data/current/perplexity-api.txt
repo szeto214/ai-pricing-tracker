@@ -41,23 +41,44 @@ page.
 Estimate your cost
 Orchestrator API Pricing
 Orchestrator API usage is billed per token at each model’s published rates, with no per-request fees. Every model has its own input and output rate, with cache reads billed at the model’s cache-read rate and reasoning tokens billed at the output rate. Some models also charge for cache writes; see
-Cached and Reasoning Tokens
+Orchestrator billing
 . You are billed at the requested model’s rates regardless of which deployment serves the request; with
 perplexity/auto
 , at the rates of the model that served it.
 See
 Orchestrator Models & Pricing
 for the full per-model rate card, including cache-read rates and usage tiers.
+For supported OpenAI models,
+service tiers
+scale token rates by 0.5× for
+flex
+and 2× for
+priority
+. The listed rates for
+google/gemini-3.7-flash
+and
+google/gemini-3.8-flash
+apply through December 31, 2026.
 Agent API Pricing
-The Agent API provides access to third-party models from providers including OpenAI, Anthropic, Google, xAI, Z.AI, Moonshot AI, and NVIDIA with
-transparent, token-based pricing
-at each model’s published rates.
+The Agent API charges for model tokens and tool calls. The catalog includes models from OpenAI, Anthropic, Google, xAI, Z.AI, DeepSeek, Moonshot AI, NVIDIA, and Perplexity.
 Model Pricing
-Agent API pricing varies by provider and model, with each provider offering multiple models at different price points.
-View Complete Third-Party Model Pricing
-See the full pricing breakdown for all available models from OpenAI, Anthropic, Google, xAI, Z.AI, Moonshot AI, and NVIDIA, including cache rates and provider documentation links on the
-Agent API Models page
-.
+View Agent API Model Pricing
+Compare model rates, cache rates, and supported service tiers.
+The
+flex
+and
+priority
+service tiers
+scale token rates by 0.5× and 2×, respectively, on models that list those tiers.
+The introductory rates for
+google/gemini-4-argon
+and
+google/gemini-4-carbon
+apply through November 30, 2026. The listed rates for
+google/gemini-3.7-flash
+and
+google/gemini-3.8-flash
+apply through December 31, 2026.
 Tool Pricing
 When using tools with the Agent API:
 Tool
@@ -81,7 +102,7 @@ $0.0025 per successful invocation
 Finds structured image results with domain, format, and safe-search filters. $2.50 per 1,000 successful invocations
 fetch_url
 $0.0005 per invocation
-Fetches and extracts content from specific URLs
+Fetches web pages. If the tool uses a model to extract content, you also pay for that model’s tokens.
 people_search
 $0.005 per invocation
 Looks up professionals, employees, and people. $5 per 1,000 tool invocations
@@ -89,13 +110,15 @@ finance_search
 $0.005 per invocation
 Retrieves financial data and market information. $5 per 1,000 tool invocations
 sandbox
-$0.03 per session
-Isolated container for executing code during an Agent API request. A session covers up to 20 minutes of active use for billing purposes — this is the billing window, not a runtime cap. SDK search queries made from inside the sandbox are billed at $0.0025 per request (same as
-web_search
-).
+$0.03 per 20-minute block
+Isolated container for running code during an Agent API request. Billed for each started 20-minute block of container time, measured from the container’s start through its last command. The block is a billing unit, not a runtime cap.
+sandbox
+SDK web search
+$0.001 per invocation
+Web searches made with the SDK preinstalled in the sandbox. $1.00 per 1,000 invocations
 Most tool costs are per invocation.
 sandbox
-is billed per container session — a 20-minute billing window per container, not a runtime cap — plus per SDK search query made from inside it. Tool costs are separate from model token costs.
+is billed per started 20-minute block of container time, plus each SDK web search made inside it. Tool costs are separate from model token costs.
 Search API Pricing
 API
 Price per 1K requests
@@ -139,8 +162,8 @@ $0.005 (standard) or $0.001 (Fast Search)
 10,000 successful standard requests in a month
 10,000
 10 × $5.00 = $50.00
-What a result contains, the request controls, and the limits on queries, results, and extracted text are in the
-Search API overview
+What a result contains, the request controls, and the limits on queries and results are in
+How Search Works
 .
 Monitor API Pricing
 Monitor type
@@ -204,9 +227,23 @@ Each successful response reports the billed URL count in
 usage.fetched_urls
 and its list-price cost in
 usage.cost.total_cost
-, which is not the invoice or amount charged.
+, before any account-specific discounts, credits, or adjustments.
 Embeddings API Pricing
 Generate high-quality text embeddings for semantic search, retrieval-augmented generation (RAG), and other machine learning applications.
+Contextualized Embeddings v2
+Model
+Dimensions
+Price ($/1M tokens)
+Images ($/1M tokens)
+pplx-embed-v2-context-0.6b
+1024
+$0.02
+$0.40
+pplx-embed-v2-context-9b
+2048 or 1024
+$0.12
+$0.42
+Text inputs use the token price. Image inputs use the image price.
 Standard Embeddings
 Model
 Dimensions
@@ -227,20 +264,6 @@ $0.008
 pplx-embed-context-v1-4b
 2560
 $0.05
-Contextualized Embeddings v2
-Model
-Dimensions
-Price ($/1M tokens)
-Images ($/1M tokens)
-pplx-embed-v2-context-0.6b
-1024
-$0.02
-$0.40
-pplx-embed-v2-context-9b
-2048
-$0.12
-$0.42
-Text inputs use the token price. Image inputs use the image price.
 View Embeddings API Documentation
 Learn how to use the Embeddings API for semantic search, RAG, and more.
 Embeddings cost = tokens ÷ 1,000,000 × the model’s rate. For example, 40M tokens on
@@ -315,7 +338,7 @@ Fast Search
 for each of its questions, up to 100, before the model answers. Each search costs $0.001 ($1 per 1,000), in addition to input tokens, so at most $0.10 in searches per request. Questions that produce the same search query share one search.
 When
 state
-is a page URL, the API also fetches the page before searching. Each successful URL fetch costs $0.001; a failed fetch is not billed. One successful fetch and three successful searches cost $0.004, plus input tokens.
+is a page URL, the API also fetches the page before searching. Each successful URL fetch costs $0.0005; a failed fetch is not billed. One successful fetch and three successful searches cost $0.0035, plus input tokens.
 Billed:
 every search that returns, even with no results. Completed searches and successful URL fetches remain billable if the request later fails, for example because the input exceeds the token limit.
 Not billed:
@@ -341,13 +364,13 @@ The number of tokens in your prompt or message to the API. This includes:
 Your question or instruction
 Any context or examples you provide
 System messages and formatting
+Tool results that the API passes to the model
 Example:
 “What is the weather in New York?” = ~8 input tokens
 Output Tokens
 The number of tokens in the API’s response. This includes:
 The generated answer or content
 Any explanations or additional context
-Search results and references
 Example:
 “The weather in New York is currently sunny with a temperature of 72°F.” = ~15 output tokens
 Token Calculation:
@@ -355,7 +378,7 @@ Token Calculation:
 Cost Examples
 Agent API Web Search
 openai/gpt-5.6-terra
-• 500 input + 200 output tokens • 1 web search
+• 500 fresh input + 200 output tokens • 1 standard web search
 Component
 Cost
 Input tokens
@@ -368,10 +391,10 @@ Total
 $0.0059
 Agent API Research Effort Level
 low
-effort level representative run
+effort level example
 •
 openai/gpt-6-luna
-• 2,000 input + 1,000 output tokens • 1 web search + 1 fetch
+• 2,000 fresh input + 1,000 output tokens • 1 Fast Search + 1 fetch
 Component
 Cost
 Model input tokens
@@ -382,12 +405,13 @@ web_search
 (Fast Search)
 $0.001
 fetch_url
+(base fee)
 $0.0005
 Total
 $0.0022
-Actual effort level costs vary with the selected model, token usage, and tool invocations. When present on a completed response,
+Actual effort level costs vary with the model, token usage, and tool calls. When present,
 usage.cost.total_cost
-reports the calculated request cost.
+reports an estimate. Check Billing in the API Console for charged amounts.
 Purchase Options
 Perplexity API Platform on AWS Marketplace
 Purchase API credits through AWS Marketplace with consolidated billing and enterprise procurement.

@@ -6,9 +6,9 @@
   "url": "https://www.together.ai/pricing",
   "final_url": "https://www.together.ai/pricing",
   "parser_version": 4,
-  "content_hash": "10b57e24c43fe918b316de1ff4603c25934511715c0aad77d676eb4111e9e467",
-  "raw_hash": "f20dafd859a02c64f42e0741004cd247425a186ce715cb6b5db5417a0539a250",
-  "text_bytes": 10093,
+  "content_hash": "1e76b6cd6b0f252a1ff12d89e459cbd46eac4de6f89fe9fbce0a23e647ec18f3",
+  "raw_hash": "df93bdc536454b945f84edc146c9f2db2d4367ee70d5c6e3fd2599c0c489f64d",
+  "text_bytes": 10245,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -107,7 +107,8 @@
       "slot_prices": [
         1.5,
         1.05,
-        0.075
+        0.075,
+        0.0525
       ]
     },
     {
@@ -156,6 +157,17 @@
       "slot_prices": [
         0.2,
         0.02
+      ]
+    },
+    {
+      "name": "Tev1 4B Experimental",
+      "price_raw": "$0.042",
+      "amount": 0.042,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        0.042
       ]
     },
     {
@@ -2019,7 +2031,7 @@
         ],
         [
           "Qwen3.8 Flash",
-          "$0.15",
+          "$0.15 (cached)",
           "$0.47"
         ],
         [
@@ -2039,8 +2051,13 @@
         ],
         [
           "Qwen4 Max PROMO Promotion valid until 11/23/2026",
-          "$1.50 $1.05 $0.075 (cached)",
+          "$1.50 $1.05 $0.075 $0.0525 (cached)",
           "$4.50 $3.15"
+        ],
+        [
+          "Tencent Hy4",
+          "$0.83 $0.042 (cached)",
+          "$2.50"
         ],
         [
           "GLM-5.3-Flash",
@@ -2064,7 +2081,7 @@
         ],
         [
           "Tev1 4B Experimental",
-          "$0.042",
+          "$0.042 (cached)",
           "$0.00"
         ],
         [
@@ -2079,7 +2096,7 @@
         ],
         [
           "Qwen3.7-Plus",
-          "$0.32",
+          "$0.32 (cached)",
           "$1.28"
         ],
         [
@@ -2089,7 +2106,7 @@
         ],
         [
           "Ternary Bonsai 27B",
-          "Free",
+          "Free (cached)",
           "Free"
         ],
         [
@@ -2109,17 +2126,17 @@
         ],
         [
           "gpt-oss-120B",
-          "$0.15",
+          "$0.15 (cached)",
           "$0.60"
         ],
         [
           "Qwen3.5 9B",
-          "$0.17",
+          "$0.17 (cached)",
           "$0.25"
         ],
         [
           "Qwen3.6-Plus",
-          "$0.50",
+          "$0.50 (cached)",
           "$3.00"
         ]
       ]
@@ -2159,8 +2176,13 @@
         ],
         [
           "Qwen4 Max PROMO Promotion valid until 11/23/2026",
-          "$1.50 $1.05 $0.075 (cached)",
+          "$1.50 $1.05 $0.0525 (cached)",
           "$4.50 $3.15"
+        ],
+        [
+          "Tencent Hy4",
+          "$0.83 $0.042 (cached)",
+          "$2.50"
         ],
         [
           "GLM-5.3-Flash",

@@ -6,9 +6,9 @@
   "url": "https://platform.openai.com/docs/pricing",
   "final_url": "https://developers.openai.com/api/docs/pricing",
   "parser_version": 4,
-  "content_hash": "dd00793c9d11b61b72c90e357626e76ec37ebc26fb65536c1f8bad67a33d7888",
-  "raw_hash": "16216d4af21e18323228e826b58c8f03a2c9fe1254c08c263c873412828d41bf",
-  "text_bytes": 5805,
+  "content_hash": "b6240b5dbfd24f4d6908742b47baa46fe4091ef9232c64a1356e22e70c9ddad3",
+  "raw_hash": "7aca2af260e937b97046f6f82c39f39ca2c3b0b85c3a7ecb0a08d0ae53331526",
+  "text_bytes": 5762,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -97,6 +97,28 @@
         8.0,
         30.0,
         2.0
+      ]
+    },
+    {
+      "name": "gpt-live-1.1",
+      "price_raw": "$0.05",
+      "amount": 0.05,
+      "currency": "USD",
+      "period": "minute",
+      "features": [],
+      "slot_prices": [
+        0.05
+      ]
+    },
+    {
+      "name": "gpt-live-1",
+      "price_raw": "$0.05",
+      "amount": 0.05,
+      "currency": "USD",
+      "period": "minute",
+      "features": [],
+      "slot_prices": [
+        0.05
       ]
     },
     {
@@ -211,28 +233,6 @@
       "amount": 0.1,
       "currency": "USD",
       "period": "day",
-      "features": [],
-      "slot_prices": [
-        0.1
-      ]
-    },
-    {
-      "name": "Web search",
-      "price_raw": "$10.00",
-      "amount": 10.0,
-      "currency": "USD",
-      "period": "day",
-      "features": [],
-      "slot_prices": [
-        10.0
-      ]
-    },
-    {
-      "name": "Agent Kit",
-      "price_raw": "$0.10",
-      "amount": 0.1,
-      "currency": "USD",
-      "period": "GB",
       "features": [],
       "slot_prices": [
         0.1
@@ -403,6 +403,38 @@
         "cached input": {
           "raw": "$2.00",
           "amount": 2.0
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "gpt-live-1.1",
+      "model": "gpt-live-1.1",
+      "prices": {
+        "active rate": {
+          "raw": "$0.05",
+          "amount": 0.05
+        },
+        "standby rate": {
+          "raw": "$0.02",
+          "amount": 0.02
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "gpt-live-1",
+      "model": "gpt-live-1",
+      "prices": {
+        "active rate": {
+          "raw": "$0.05",
+          "amount": 0.05
+        },
+        "standby rate": {
+          "raw": "$0.02",
+          "amount": 0.02
         }
       },
       "currency": "USD",
@@ -686,11 +718,18 @@
       "rows": [
         [
           "Model",
-          "Price per minute"
+          "Active rate",
+          "Standby rate"
+        ],
+        [
+          "gpt-live-1.1",
+          "$0.05 / minute",
+          "$0.02 / minute"
         ],
         [
           "gpt-live-1",
-          "$0.05"
+          "$0.05 / minute",
+          "$0.02 / minute"
         ]
       ]
     },

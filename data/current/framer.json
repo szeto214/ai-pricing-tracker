@@ -6,9 +6,9 @@
   "url": "https://www.framer.com/pricing/",
   "final_url": "https://www.framer.com/pricing",
   "parser_version": 4,
-  "content_hash": "447af28e1b4a9b27156f41ba1bff43cc9a8ab57ea57b7bb3a12ed42f2b4e91d7",
-  "raw_hash": "03c58a5c15dc652aefa89a1a42bd9030893a55ac7a574822acd429df88ba8eda",
-  "text_bytes": 9831,
+  "content_hash": "621fc54a4e8ebf09c1182d059c9acc26daffaccf5538982f6404d21b1606c8c0",
+  "raw_hash": "38244f3631df68f74e9131390d438cb77731590dd69e5b65bd0178f5c0aa6d8d",
+  "text_bytes": 9893,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -90,13 +90,13 @@
     },
     {
       "name": "Bandwidth usage",
-      "price_raw": "$40",
-      "amount": 40.0,
+      "price_raw": "$50",
+      "amount": 50.0,
       "currency": "USD",
       "period": null,
       "features": [],
       "slot_prices": [
-        40.0
+        50.0
       ]
     },
     {

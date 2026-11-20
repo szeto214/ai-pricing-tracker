@@ -405,6 +405,53 @@ more queries to Google Search. You will be charged for each individual search
 query performed.
 **
 Can be tested in Google AI Studio.
+Genie 4
+genie-4
+Try it in Google AI Studio
+Our real-time interactive world generation model streaming steerable 24 fps
+16:9 video with synchronized 48 kHz stereo audio on the
+Interactions API
+, available on the paid tier of the Gemini API.
+Standard
+Feature
+Free Tier
+Paid Tier, per 1M tokens in USD
+Input price
+Not available
+$1.50 (text / reference image)
+Output price
+Not available
+$9.00 (text)
+$17.50 (video, audio included)
+*
+Context caching price
+Not available
+Not available
+Used to improve our products
+Not available
+No
+*
+Billing is based on emitted video output tokens at
+240
+tokens per frame (
+5,760
+tokens per second at
+24 fps
+), with
+48 kHz
+stereo
+audio bundled into the video token rate. Under Standard pricing (
+$17.50
+per 1M
+video output tokens), this equates to an effective rate of approximately
+$0.10
+per second (
+~$6.05
+per minute). Always call
+complete()
+to end an active
+session and stop billing. Genie 4 does not support the Free tier, Batch API,
+Flex inference, or Priority inference.
 Gemini Omni 1.2 Flash
 gemini-omni-1.2-flash
 Try it in Google AI Studio
@@ -1383,6 +1430,9 @@ Gemini Embedding
 Gemini Embedding 2
 rates.
 Retrieved document tokens charged as regular tokens per model pricing.
+Tool retrieval
+Free of charge
+No separate charge. The deferred tool list, the tool search instructions, and loaded tool schemas are charged as input tokens per model pricing. Each server-side tool search runs an extra model call whose prompt is reported as tool-use tokens and charged at the input token rate.
 Custom Tools endpoint (Gemini 3.1 Pro Preview)
 Not available
 Same as
@@ -1481,6 +1531,7 @@ Gemini 3.6 Flash
 Gemini 3.5 Transcribe Live
 Gemini 3.5 Transcribe
 Gemini 3.5 Flash-Lite
+Genie 4
 Gemini Omni 1.2 Flash
 Gemini Omni 1.1 Flash
 Gemini 3.8 Live, Gemini 3.8 Live Extended Thinking, and Gemini 3.1 Flash Live Preview

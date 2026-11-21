@@ -6,16 +6,16 @@
   "url": "https://mistral.ai/pricing",
   "final_url": "https://mistral.ai/pricing/",
   "parser_version": 4,
-  "content_hash": "f62283802798618710e5a22624ffbe38f659702f51ccb8e00cd48a2de1362523",
-  "raw_hash": "f2a2cdc6f300b002a301fe1a3c35a79016d43e5be262ec3775b9dfc1cda31056",
-  "text_bytes": 8187,
+  "content_hash": "ddff919bf3ad61b28d3f6cd6b13fa817c18191aea3a62b137c22f7cc0903f802",
+  "raw_hash": "729d29701deecd4ba319cff28bef7ddfe215ae6f332e30adf19240b3d16100bc",
+  "text_bytes": 8161,
   "currency_hints": [
     "EUR",
     "USD",
     "€"
   ],
   "extractor": "dom",
-  "confidence": "medium",
+  "confidence": "low",
   "plans": [
     {
       "name": "Free",
@@ -32,45 +32,6 @@
         "100+ connectors."
       ],
       "slot_prices": []
-    },
-    {
-      "name": "More access and usage.",
-      "price_raw": "$25.5",
-      "amount": 25.5,
-      "currency": "USD",
-      "period": "month",
-      "features": [
-        "More access and usage.",
-        "More messages and web searches.",
-        "Faster responses.",
-        "All-day coding in the CLI, IDE, or on web.",
-        "Generate spreadsheets and slides.",
-        "Better image generation and editing.",
-        "$25.5 /mo in API credits.",
-        "Chat and email support."
-      ],
-      "slot_prices": [
-        25.5
-      ]
-    },
-    {
-      "name": "More access and usage.",
-      "price_raw": "$15",
-      "amount": 15.0,
-      "currency": "USD",
-      "period": "month",
-      "features": [
-        "More access and usage.",
-        "More messages and web searches.",
-        "Get more complex tasks done.",
-        "All-day coding in the CLI, IDE, or on web.",
-        "More image generations.",
-        "$15 /mo in API credits.",
-        "Chat and email support."
-      ],
-      "slot_prices": [
-        15.0
-      ]
     }
   ],
   "models": [],
@@ -340,9 +301,9 @@
         ],
         [
           "Model training",
-          "",
-          "",
-          "",
+          "Opt-out",
+          "Opt-out",
+          "Opt-out",
           "Opt-out"
         ],
         [

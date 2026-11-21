@@ -305,13 +305,11 @@ and
 perplexity/pplx-decider-flash-latest
 select
 pplx-decider-flash-v1.3
-. An alias bills at the rate of the model it selects. Requests that name
+. An alias bills at the rate of the model it selects.
 pplx-decider-v1.1-27b
-or
+is a legacy alias of
 pplx-decider-v1-27b
-select
-pplx-decider-v1.2
-and bill at $0.02.
+; both bill at $0.02.
 Billing unit:
 you pay for input tokens, plus web searches and URL fetches if you set
 mode: "web_grounding"

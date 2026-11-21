@@ -7,51 +7,29 @@
   "final_url": "https://linear.app/pricing",
   "parser_version": 4,
   "content_hash": "19ffe2fe971d682e4c625f9da62c9ffd09f57cda53f3b91f591593cacfe700c0",
-  "raw_hash": "6837a6a8ed63b183f6b036b46a65170fdacef15b95b6303dd183a429c9c25eae",
+  "raw_hash": "2f8edf3730a0cce4f0d644fbe8b97f0187b155727c8b4e019ab92bd3b7f115ba",
   "text_bytes": 4453,
   "currency_hints": [],
-  "extractor": "dom",
+  "extractor": "jsonld",
   "confidence": "medium",
   "plans": [
     {
-      "name": "Free",
-      "price_raw": "$0",
-      "amount": 0.0,
+      "name": "Business",
+      "price_raw": "16",
+      "amount": 16.0,
       "currency": "USD",
-      "period": null,
-      "features": [
-        "Unlimited members",
-        "2 teams",
-        "250 issues",
-        "Agent platform",
-        "Linear Agent",
-        "Loops"
-      ],
-      "slot_prices": [
-        0.0
-      ]
+      "period": "per user per month, billed yearly",
+      "features": [],
+      "slot_prices": []
     },
     {
       "name": "Basic",
-      "price_raw": "$10",
+      "price_raw": "10",
       "amount": 10.0,
       "currency": "USD",
-      "period": "user",
+      "period": "per user per month, billed yearly",
       "features": [],
-      "slot_prices": [
-        10.0
-      ]
-    },
-    {
-      "name": "Business",
-      "price_raw": "$16",
-      "amount": 16.0,
-      "currency": "USD",
-      "period": "user",
-      "features": [],
-      "slot_prices": [
-        16.0
-      ]
+      "slot_prices": []
     }
   ],
   "models": [],

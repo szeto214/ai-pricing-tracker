@@ -56,6 +56,14 @@ Model
 Input
 Cache input
 Output
+bison-1
+$0.10
+—
+—
+groundhog-1
+$0.035
+—
+—
 mammoth-1
 $0.10
 —
@@ -200,6 +208,32 @@ $0.4146
 $0.01382
 $0.8292
 Training
+Serverless Loops token pricing ($ per 1M tokens)
+Pay for prefill (uncached and cached), sample, and train tokens.
+Model
+Prefill
+Prefill Cached
+Sample
+Train
+GLM-5.3
+20% off for limited time
+$3.02
+$0.60
+$9.72
+$11.66
+GLM-5.3-Flash
+20% off for limited time
+$0.67
+$0.13
+$1.69
+$4.46
+Qwen3.6 35B-A3B
+20% off for limited time
+$0.36
+$0.07
+$1.07
+$1.71
+Training
 Training Compute
 On-demand GPU pricing for fine-tuning and training.
 GPU
@@ -234,32 +268,6 @@ B200
 180 GiB VRAM
 $0.16633
 $9.98
-Training
-Serverless Loops token pricing ($ per 1M tokens)
-Pay for prefill (uncached and cached), sample, and train tokens.
-Model
-Prefill
-Prefill Cached
-Sample
-Train
-GLM-5.3
-20% off for limited time
-$3.02
-$0.60
-$9.72
-$11.66
-GLM-5.3-Flash
-20% off for limited time
-$0.67
-$0.13
-$1.69
-$4.46
-Qwen3.6 35B-A3B
-20% off for limited time
-$0.36
-$0.07
-$1.07
-$1.71
 Sandboxes
 Runtime Pricing
 Usage-based CPU, memory, and runtime pricing for isolated agent environments.

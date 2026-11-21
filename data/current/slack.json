@@ -6,9 +6,9 @@
   "url": "https://slack.com/pricing",
   "final_url": "https://slack.com/pricing",
   "parser_version": 4,
-  "content_hash": "09ed7bf89d10a91ba8b90cc1a7a1866f7987e6029f9968e51508793386e61f9b",
-  "raw_hash": "180769da55b322d0deee97b9bdf28f3a4462ba6d1782e542be7829e2be0534d5",
-  "text_bytes": 28578,
+  "content_hash": "fec1b590bf15ebf1363743657179ce198a44281afa340e71a81369e5c700d0b0",
+  "raw_hash": "5417d322c8869da515adc854e863f0cf0bdf67298b8696372f10a3bac0569a8b",
+  "text_bytes": 28599,
   "currency_hints": [
     "USD"
   ],
@@ -57,6 +57,17 @@
       "slot_prices": [
         18.0,
         9.0
+      ]
+    },
+    {
+      "name": "USD",
+      "price_raw": "$45",
+      "amount": 45.0,
+      "currency": "USD",
+      "period": "user",
+      "features": [],
+      "slot_prices": [
+        45.0
       ]
     },
     {

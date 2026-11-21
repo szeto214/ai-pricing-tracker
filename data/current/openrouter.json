@@ -6,13 +6,25 @@
   "url": "https://openrouter.ai/models",
   "final_url": "https://openrouter.ai/models",
   "parser_version": 4,
-  "content_hash": "a6e45a024bbc3aa12de7856ecc62d48455313a72f5aef1d50f589584d089eec0",
-  "raw_hash": "feab80052c34e652beb47ab60219b103d56aba78607ed2c918ede649493d8854",
-  "text_bytes": 9983,
+  "content_hash": "0cd5d80ab77dc2f56f8520304bc2ce83b64671311040554d7652ead4243a9c65",
+  "raw_hash": "4cb180e28fbf30f12d284a83433b5bc7d980b32e9d79e4f0974d6e4bf31e3dd7",
+  "text_bytes": 11087,
   "currency_hints": [],
-  "extractor": "none",
-  "confidence": "none",
-  "plans": [],
+  "extractor": "dom",
+  "confidence": "low",
+  "plans": [
+    {
+      "name": "Qwen: Qwen3 TTS 1.7B",
+      "price_raw": "$20",
+      "amount": 20.0,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        20.0
+      ]
+    }
+  ],
   "models": [],
   "tables": [],
   "extract_errors": []

@@ -6,10 +6,12 @@
   "url": "https://www.synthesia.io/pricing",
   "final_url": "https://www.synthesia.io/pricing",
   "parser_version": 4,
-  "content_hash": "99842ab083df1f1be46c9fa688c329bc41a231dfac73eb09114ecc10c274f39f",
-  "raw_hash": "260e2f49b5a4fd3fed19b8b3d0c81abba6434931ec8669fc76d10d489aa94293",
-  "text_bytes": 26419,
-  "currency_hints": [],
+  "content_hash": "6c4e15da2452ad465ef14996a608e277dd650f07a5bb2a61568be31b140c35d3",
+  "raw_hash": "74b375638e54fec5d2d7c02610899f550b60af7c72be0dbe26c99875048a6d03",
+  "text_bytes": 27040,
+  "currency_hints": [
+    "€"
+  ],
   "extractor": "dom",
   "confidence": "medium",
   "plans": [

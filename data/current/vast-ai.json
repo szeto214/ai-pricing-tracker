@@ -6,22 +6,33 @@
   "url": "https://vast.ai/pricing",
   "final_url": "https://vast.ai/pricing",
   "parser_version": 4,
-  "content_hash": "52c588639d6df8a7b14c5540d16727a96ed9908f606faaacb35bc9ac6a61aaf2",
-  "raw_hash": "d5ece20a0f69270c138255bc08daabf36c227e5bc849364b925d25ddba56a69a",
-  "text_bytes": 7611,
+  "content_hash": "80797866428396ae29d2d0fcab77022152285c769a9bc4557896b4981b82430b",
+  "raw_hash": "d4e28140f312ca1efe88452e6bc345cebb1f0b64f5f14b052ccc593048665d56",
+  "text_bytes": 7612,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
     {
       "name": "H200 NVL",
-      "price_raw": "$2.93",
-      "amount": 2.93,
+      "price_raw": "$3.00",
+      "amount": 3.0,
       "currency": "USD",
       "period": "hour",
       "features": [],
       "slot_prices": [
-        2.93
+        3.0
+      ]
+    },
+    {
+      "name": "H200",
+      "price_raw": "$3.36",
+      "amount": 3.36,
+      "currency": "USD",
+      "period": "hour",
+      "features": [],
+      "slot_prices": [
+        3.36
       ]
     },
     {
@@ -37,24 +48,13 @@
     },
     {
       "name": "B200",
-      "price_raw": "$7.50",
-      "amount": 7.5,
+      "price_raw": "$6.56",
+      "amount": 6.56,
       "currency": "USD",
       "period": "hour",
       "features": [],
       "slot_prices": [
-        7.5
-      ]
-    },
-    {
-      "name": "H200",
-      "price_raw": "$3.40",
-      "amount": 3.4,
-      "currency": "USD",
-      "period": "hour",
-      "features": [],
-      "slot_prices": [
-        3.4
+        6.56
       ]
     },
     {
@@ -70,24 +70,24 @@
     },
     {
       "name": "H100 NVL",
-      "price_raw": "$2.97",
-      "amount": 2.97,
+      "price_raw": "$3.40",
+      "amount": 3.4,
       "currency": "USD",
       "period": "hour",
       "features": [],
       "slot_prices": [
-        2.97
+        3.4
       ]
     },
     {
       "name": "H100 PCIE",
-      "price_raw": "$2.53",
-      "amount": 2.53,
+      "price_raw": "$2.43",
+      "amount": 2.43,
       "currency": "USD",
       "period": "hour",
       "features": [],
       "slot_prices": [
-        2.53
+        2.43
       ]
     },
     {
@@ -103,17 +103,6 @@
     },
     {
       "name": "RTX 5090",
-      "price_raw": "$0.27",
-      "amount": 0.27,
-      "currency": "USD",
-      "period": "hour",
-      "features": [],
-      "slot_prices": [
-        0.27
-      ]
-    },
-    {
-      "name": "RTX 4090",
       "price_raw": "$0.31",
       "amount": 0.31,
       "currency": "USD",
@@ -121,6 +110,17 @@
       "features": [],
       "slot_prices": [
         0.31
+      ]
+    },
+    {
+      "name": "RTX 4090",
+      "price_raw": "$0.27",
+      "amount": 0.27,
+      "currency": "USD",
+      "period": "hour",
+      "features": [],
+      "slot_prices": [
+        0.27
       ]
     },
     {
@@ -147,13 +147,13 @@
     },
     {
       "name": "RTX 4090D",
-      "price_raw": "$0.40",
-      "amount": 0.4,
+      "price_raw": "$0.66",
+      "amount": 0.66,
       "currency": "USD",
       "period": "hour",
       "features": [],
       "slot_prices": [
-        0.4
+        0.66
       ]
     },
     {
@@ -190,17 +190,6 @@
       ]
     },
     {
-      "name": "RTX PRO 6000 Max-Q",
-      "price_raw": "$0.64",
-      "amount": 0.64,
-      "currency": "USD",
-      "period": "hour",
-      "features": [],
-      "slot_prices": [
-        0.64
-      ]
-    },
-    {
       "name": "RTX 5080",
       "price_raw": "$0.19",
       "amount": 0.19,
@@ -209,6 +198,17 @@
       "features": [],
       "slot_prices": [
         0.19
+      ]
+    },
+    {
+      "name": "RTX PRO 6000 Max-Q",
+      "price_raw": "$0.64",
+      "amount": 0.64,
+      "currency": "USD",
+      "period": "hour",
+      "features": [],
+      "slot_prices": [
+        0.64
       ]
     },
     {
@@ -224,13 +224,13 @@
     },
     {
       "name": "RTX 5070 Ti",
-      "price_raw": "$0.15",
-      "amount": 0.15,
+      "price_raw": "$0.13",
+      "amount": 0.13,
       "currency": "USD",
       "period": "hour",
       "features": [],
       "slot_prices": [
-        0.15
+        0.13
       ]
     }
   ],

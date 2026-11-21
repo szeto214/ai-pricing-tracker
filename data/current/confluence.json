@@ -6,9 +6,9 @@
   "url": "https://www.atlassian.com/software/confluence/pricing",
   "final_url": "https://www.atlassian.com/software/confluence/pricing",
   "parser_version": 4,
-  "content_hash": "c56f3475b0c666f5d13ff14f57cf396722c9771b420e2ac2ade4374657b9462d",
-  "raw_hash": "831491574693dee2ee2ec791c9dcb446b740afe956c58596e084ce60bc8e0104",
-  "text_bytes": 24629,
+  "content_hash": "11a70c6061bd7a2a4de8942f92897eaa3d3c455164dcfab84f31763d14d1ceba",
+  "raw_hash": "4568d58f69b15610cee931f545ae900429c835e84632b2de8bf5a69324fd5cf5",
+  "text_bytes": 24955,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -345,6 +345,13 @@
         ],
         [
           "User counts User counts gives Atlassian admins visibility into how many users they are able to add to an Enterprise product; and conversely, user counts indicat",
+          "Free",
+          "Standard",
+          "Premium",
+          "Enterprise"
+        ],
+        [
+          "Image watermarks Apply customizable watermarks to images across your Confluence site or individual spaces to discourage unauthorized sharing of sensitive conten",
           "Free",
           "Standard",
           "Premium",

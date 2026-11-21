@@ -6,9 +6,9 @@
   "url": "https://www.shopify.com/pricing",
   "final_url": "https://www.shopify.com/pricing",
   "parser_version": 4,
-  "content_hash": "f6d42f91eafc2151579d071fb66c72486ac35b452c74f182d3d31325c84d80fa",
-  "raw_hash": "2cfe65090f041d3769458e54b9461d75ada4bec52e27b7e93e23ec03bc3c0801",
-  "text_bytes": 15311,
+  "content_hash": "c40bb3ae3bb8bcfd03e5ca1bc069071049669c53c5a229fc36d3ea876c61d789",
+  "raw_hash": "1a63ef22b5770094753f2d74afe05784c910f17fa62066f490625abd5d47f438",
+  "text_bytes": 17243,
   "currency_hints": [
     "US$",
     "USD"
@@ -69,6 +69,17 @@
       "features": [],
       "slot_prices": [
         2300.0
+      ]
+    },
+    {
+      "name": "Sidekick, your built-in commerce AI",
+      "price_raw": "$48",
+      "amount": 48.0,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": [
+        48.0
       ]
     },
     {

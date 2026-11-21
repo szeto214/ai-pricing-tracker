@@ -6,9 +6,9 @@
   "url": "https://huggingface.co/pricing",
   "final_url": "https://huggingface.co/pricing",
   "parser_version": 4,
-  "content_hash": "e991d800454e669cd112eb4d7680bd4f9aaa290af493cd4d62e60e101f2a88b9",
-  "raw_hash": "8d3fd96b4df4ac5be787e2ae580ab1805142dbeba732155f75ecc4dd8d2acf07",
-  "text_bytes": 22940,
+  "content_hash": "f70105d8efce1fa61ecb7df7929f7cc6b12e3acea226ce48dfad1cd6c1fc1db9",
+  "raw_hash": "c86b4233908d3e1af518f9288f6d3f1cf42c9cb531f43f122ee863aa46ac1960",
+  "text_bytes": 22941,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -47,13 +47,13 @@
     },
     {
       "name": "Enterprise",
-      "price_raw": "$50",
-      "amount": 50.0,
+      "price_raw": "$500",
+      "amount": 500.0,
       "currency": "USD",
       "period": "month",
       "features": [],
       "slot_prices": [
-        50.0
+        500.0
       ]
     },
     {

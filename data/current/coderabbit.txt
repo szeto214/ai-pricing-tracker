@@ -119,7 +119,7 @@ Line-by-line review of entire repos
 On-demand or scheduled
 Verifies elimination of issues
 Try it Free
-CodeRabbit Engineer
+CodeRabbit Agent
 Assign CodeRabbit to common engineering tasks via Slack. Ask questions about your code base or systems, run coding tasks, and create automations that run autonomously or on-demand.
 Diagnose issues & outages
 Turn findings into coding tasks
@@ -142,20 +142,20 @@ Included
 Learnings
 Context captured from prior PRs, issues, and guidelines. Viewable/editable by you, applied by CodeRabbit in all activities
 Included
-Autofix
-One-click code changes for unresolved findings
+Fix Comments
+One-click fixes for unresolved CodeRabbit review comments
 Included
 Slop Detection
 Flag low-quality AI-generated PRs
 Included
 Pre-Merge Checks
-Enforce quality gates and your custom requirements before pull requests are merged
+Check PR titles, descriptions, and whether changes match linked issues before merge
 Included
 Unit Tests
 Generate comprehensive tests automatically for PRs, including edge cases and error conditions
 Not included
 Finishing Touches
-Resolve conflicts, simplify code, and generate docstrings with a single click
+Resolve conflicts, fix CI failures, and simplify code with a single click
 Not included
 Post-Merge Actions
 Run automated follow-up work, including changelog updates, tickets, and notifications
@@ -166,8 +166,8 @@ How many repos CodeRabbit works across
 Review Velocity
 Included PR reviews per developer each hour (additional reviews available on consumption with the ability to cap budgets)
 5*
-CodeRabbit AI Engineer
-Trigger the CodeRabbit cloud-based coding agent to execute changes, refactoring, or custom final touches without leaving the PR
+CodeRabbit Agent
+Execute changes or refactoring in the cloud without leaving the PR
 On-demand
 CodeRabbit
 Triage
@@ -180,6 +180,9 @@ identifies risk, effort, impact, and candidates to be closed
 Not included
 Actions
 Review, repair, reassign, merge, close, and follow a pull request from the Triage queue
+Not included
+Triage Rules
+Merge ready PRs, close stale ones, and send Slack reminders automatically
 Not included
 Triage in Slack
 Get your queue as a scheduled digest, send reviewer requests to others, and approve or close a PR in Slack
@@ -199,9 +202,9 @@ Included
 Findings
 Read what CodeRabbit found in a change, judge how ready it is to merge, and decide what to fix first
 Included
-CodeRabbit Chat
+Change Stack Chat
 Ask questions about changes, files, or code
-Included
+Not included
 Blast Radius
 :
 Opens in a new tab
@@ -210,9 +213,9 @@ Not included
 Architecture Impact
 Describes which system-level responsibilities and relationships have changed and how
 Not included
-CodeRabbit AI Engineer
-Trigger the CodeRabbit cloud-based coding agent for further analysis or to execute changes for you.
-On-demand
+CodeRabbit Agent
+Run further analysis or execute changes in the cloud
+Not included
 CodeRabbit
 Secure
 Analyzes every line of code and monitors every change, so you understand your risks for total code security.
@@ -224,6 +227,9 @@ with attack-surface visibility
 Not included
 PR Security Review
 with status, severity, exploitability, and reachability context
+Not included
+Security Merge Blocking
+Block merges on security comments at or above your chosen severity
 Not included
 Security Architecture Review
 Assesses the systemic and structural consequences of PRs, tracing changes across trust boundaries, sensitive operations, and downstream dependencies
@@ -295,8 +301,8 @@ Included
 Included
 Included
 Included
-Autofix
-One-click code changes for unresolved findings
+Fix Comments
+One-click fixes for unresolved CodeRabbit review comments
 Included
 Included
 Included
@@ -308,7 +314,7 @@ Included
 Included
 Included
 Pre-Merge Checks
-Enforce quality gates and your custom requirements before pull requests are merged
+Check PR titles, descriptions, and whether changes match linked issues before merge
 Included
 Included
 Included
@@ -320,7 +326,7 @@ Included
 Included
 Included
 Finishing Touches
-Resolve conflicts, simplify code, and generate docstrings with a single click
+Resolve conflicts, fix CI failures, and simplify code with a single click
 Not included
 Included
 Included
@@ -343,8 +349,8 @@ Included PR reviews per developer each hour (additional reviews available on con
 8*
 10*
 12*
-CodeRabbit AI Engineer
-Trigger the CodeRabbit cloud-based coding agent to execute changes, refactoring, or custom final touches without leaving the PR
+CodeRabbit Agent
+Execute changes or refactoring in the cloud without leaving the PR
 On-demand
 On-demand
 On-demand
@@ -366,6 +372,12 @@ Included
 Included
 Actions
 Review, repair, reassign, merge, close, and follow a pull request from the Triage queue
+Not included
+Included
+Included
+Included
+Triage Rules
+Merge ready PRs, close stale ones, and send Slack reminders automatically
 Not included
 Included
 Included
@@ -403,9 +415,9 @@ Included
 Included
 Included
 Included
-CodeRabbit Chat
+Change Stack Chat
 Ask questions about changes, files, or code
-Included
+Not included
 Included
 Included
 Included
@@ -423,9 +435,9 @@ Not included
 Not included
 Included
 Included
-CodeRabbit AI Engineer
-Trigger the CodeRabbit cloud-based coding agent for further analysis or to execute changes for you.
-On-demand
+CodeRabbit Agent
+Run further analysis or execute changes in the cloud
+Not included
 On-demand
 On-demand
 On-demand
@@ -446,6 +458,12 @@ Included
 Included
 PR Security Review
 with status, severity, exploitability, and reachability context
+Not included
+Not included
+Included
+Included
+Security Merge Blocking
+Block merges on security comments at or above your chosen severity
 Not included
 Not included
 Included
@@ -550,7 +568,7 @@ Will the plan renaming change my price?
 What’s the difference between Essentials and Team?
 If reviews are unlimited, why are there hourly review limits?
 How do usage-based reviews work?
-How are on demand products priced?
+How are on-demand products priced?
 Which plans include CodeRabbit Security?
 Which plans include the CodeRabbit API and MCP server?
 Will I be charged for all the developers in my organization?

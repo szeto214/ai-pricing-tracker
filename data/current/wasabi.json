@@ -7,7 +7,7 @@
   "final_url": "https://wasabi.com/pricing",
   "parser_version": 4,
   "content_hash": "763fd29386bd4c63b457b0222de7b9331915fe1a9ca99605ccd3892872bbcbcb",
-  "raw_hash": "06748d406bb8a6be8f975acb5062104d1151c733e49b431d7e55c76d67432c8a",
+  "raw_hash": "fab330893d07b7d045534d0ddc64622c3630a0bc723554197d98bcb21cc201a6",
   "text_bytes": 3176,
   "currency_hints": [],
   "extractor": "dom",

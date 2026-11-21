@@ -6,9 +6,9 @@
   "url": "https://www.baseten.co/pricing/",
   "final_url": "https://www.baseten.co/pricing/",
   "parser_version": 4,
-  "content_hash": "3d4dcc46cb2c21e60e459d2a18c9f8159bdca63366f6cc72ce6631ff056a0e7f",
-  "raw_hash": "3658f95342f7b1eec1334593b89c7d39c4e3289974b236ff087fbfdeca24c034",
-  "text_bytes": 3845,
+  "content_hash": "87f813ea7992a558ee0f81e5f4b71cdbc68074049958aa3fa81d53dc2328bed0",
+  "raw_hash": "d58181ca3c6f8aba5850b1a36c03e427a77aaa28f3dc6363cc4af7385885ac69",
+  "text_bytes": 3894,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "low",
@@ -26,6 +26,30 @@
     }
   ],
   "models": [
+    {
+      "key": "bison-1",
+      "model": "bison-1",
+      "prices": {
+        "input": {
+          "raw": "$0.10",
+          "amount": 0.1
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "groundhog-1",
+      "model": "groundhog-1",
+      "prices": {
+        "input": {
+          "raw": "$0.035",
+          "amount": 0.035
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
     {
       "key": "mammoth-1",
       "model": "mammoth-1",
@@ -710,6 +734,18 @@
           "Output"
         ],
         [
+          "bison-1",
+          "$0.10",
+          "—",
+          "—"
+        ],
+        [
+          "groundhog-1",
+          "$0.035",
+          "—",
+          "—"
+        ],
+        [
           "mammoth-1",
           "$0.10",
           "—",
@@ -930,6 +966,39 @@
       "caption": "",
       "rows": [
         [
+          "Model",
+          "Prefill",
+          "Prefill Cached",
+          "Sample",
+          "Train"
+        ],
+        [
+          "GLM-5.3 20% off for limited time",
+          "$3.02",
+          "$0.60",
+          "$9.72",
+          "$11.66"
+        ],
+        [
+          "GLM-5.3-Flash 20% off for limited time",
+          "$0.67",
+          "$0.13",
+          "$1.69",
+          "$4.46"
+        ],
+        [
+          "Qwen3.6 35B-A3B 20% off for limited time",
+          "$0.36",
+          "$0.07",
+          "$1.07",
+          "$1.71"
+        ]
+      ]
+    },
+    {
+      "caption": "",
+      "rows": [
+        [
           "GPU",
           "Memory",
           "Per Minute",
@@ -976,39 +1045,6 @@
           "180 GiB VRAM",
           "$0.16633",
           "$9.98"
-        ]
-      ]
-    },
-    {
-      "caption": "",
-      "rows": [
-        [
-          "Model",
-          "Prefill",
-          "Prefill Cached",
-          "Sample",
-          "Train"
-        ],
-        [
-          "GLM-5.3 20% off for limited time",
-          "$3.02",
-          "$0.60",
-          "$9.72",
-          "$11.66"
-        ],
-        [
-          "GLM-5.3-Flash 20% off for limited time",
-          "$0.67",
-          "$0.13",
-          "$1.69",
-          "$4.46"
-        ],
-        [
-          "Qwen3.6 35B-A3B 20% off for limited time",
-          "$0.36",
-          "$0.07",
-          "$1.07",
-          "$1.71"
         ]
       ]
     }

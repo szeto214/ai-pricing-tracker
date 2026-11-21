@@ -6,9 +6,9 @@
   "url": "https://fly.io/pricing/",
   "final_url": "https://fly.io/pricing/",
   "parser_version": 4,
-  "content_hash": "6349410166665ea0cf041384413282c5b213876c97758f60c2e10817648a0331",
-  "raw_hash": "12b7e3c334eb66a8dbbb9c51428225841ef919e602dac920945d49e4003187a5",
-  "text_bytes": 2933,
+  "content_hash": "7907dd9ed6d1c12d50286cce4aba8e34af68fe6b41e243082ea52bcadc47875b",
+  "raw_hash": "08660a5958e92a0c7e1c61613929174f05c2746a9aa5d34ed1ce79419a8b1f83",
+  "text_bytes": 3845,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -25,19 +25,29 @@
       ]
     },
     {
-      "name": "Machines Compute",
-      "price_raw": "$0.0030",
-      "amount": 0.003,
+      "name": "Free",
+      "price_raw": "$0",
+      "amount": 0.0,
       "currency": "USD",
-      "period": "hour",
+      "period": "month",
       "features": [],
       "slot_prices": [
-        0.003,
-        2.19
+        0.0
       ]
     },
     {
-      "name": "Here's what it costs",
+      "name": "Pay As You Go",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [],
+      "slot_prices": [
+        0.0
+      ]
+    },
+    {
+      "name": "Machines Compute",
       "price_raw": "$0.0030",
       "amount": 0.003,
       "currency": "USD",

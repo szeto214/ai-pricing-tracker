@@ -6,9 +6,9 @@
   "url": "https://www.together.ai/pricing",
   "final_url": "https://www.together.ai/pricing",
   "parser_version": 4,
-  "content_hash": "1e76b6cd6b0f252a1ff12d89e459cbd46eac4de6f89fe9fbce0a23e647ec18f3",
-  "raw_hash": "df93bdc536454b945f84edc146c9f2db2d4367ee70d5c6e3fd2599c0c489f64d",
-  "text_bytes": 10245,
+  "content_hash": "c55be6c8a9af52eac01f78e33645c481a15cb5d5416926d04eb4fab01704ecf2",
+  "raw_hash": "b0002d1d6ed32a29522849c846c35a14704967e810b78b7a56e119be7007c7ce",
+  "text_bytes": 10247,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -221,24 +221,24 @@
       "unit": ""
     },
     {
-      "key": "nano banana pro (gemini 3 pro image)|k4",
-      "model": "Nano Banana Pro (Gemini 3 Pro Image)",
+      "key": "gemini 3.1 flash image (nano banana 2)|k4",
+      "model": "Gemini 3.1 Flash Image (Nano Banana 2)",
       "prices": {
         "kolom 3": {
-          "raw": "$0.134",
-          "amount": 0.134
+          "raw": "$0.04657",
+          "amount": 0.04657
         }
       },
       "currency": "USD",
       "unit": ""
     },
     {
-      "key": "wan 2.6 image|k4",
-      "model": "Wan 2.6 Image",
+      "key": "nano banana pro (gemini 3 pro image)|k4",
+      "model": "Nano Banana Pro (Gemini 3 Pro Image)",
       "prices": {
         "kolom 3": {
-          "raw": "$0.03",
-          "amount": 0.03
+          "raw": "$0.134",
+          "amount": 0.134
         }
       },
       "currency": "USD",
@@ -263,18 +263,6 @@
         "kolom 3": {
           "raw": "$0.035",
           "amount": 0.035
-        }
-      },
-      "currency": "USD",
-      "unit": ""
-    },
-    {
-      "key": "gemini 3.1 flash image (nano banana 2)|k4",
-      "model": "Gemini 3.1 Flash Image (Nano Banana 2)",
-      "prices": {
-        "kolom 3": {
-          "raw": "$0.04657",
-          "amount": 0.04657
         }
       },
       "currency": "USD",
@@ -335,6 +323,18 @@
         "kolom 3": {
           "raw": "$0.00225",
           "amount": 0.00225
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "wan 2.6 image|k4",
+      "model": "Wan 2.6 Image",
+      "prices": {
+        "kolom 3": {
+          "raw": "$0.03",
+          "amount": 0.03
         }
       },
       "currency": "USD",
@@ -569,8 +569,8 @@
       "unit": ""
     },
     {
-      "key": "cartesia sonic|k2",
-      "model": "Cartesia Sonic",
+      "key": "cartesia sonic-2|k2",
+      "model": "Cartesia Sonic-2",
       "prices": {
         "kolom 2": {
           "raw": "$65.00",
@@ -2246,15 +2246,15 @@
           "-"
         ],
         [
-          "Nano Banana Pro (Gemini 3 Pro Image)",
+          "Gemini 3.1 Flash Image (Nano Banana 2)",
           "-",
-          "$0.134",
+          "$0.04657",
           "-"
         ],
         [
-          "Wan 2.6 Image",
+          "Nano Banana Pro (Gemini 3 Pro Image)",
           "-",
-          "$0.03",
+          "$0.134",
           "-"
         ],
         [
@@ -2267,12 +2267,6 @@
           "Seedream 5.0 Lite",
           "-",
           "$0.035",
-          "-"
-        ],
-        [
-          "Gemini 3.1 Flash Image (Nano Banana 2)",
-          "-",
-          "$0.04657",
           "-"
         ],
         [
@@ -2304,6 +2298,12 @@
           "-",
           "$0.00225",
           "0"
+        ],
+        [
+          "Wan 2.6 Image",
+          "-",
+          "$0.03",
+          "-"
         ],
         [
           "FLUX.2 [dev]",
@@ -2417,7 +2417,7 @@
           "$4.00"
         ],
         [
-          "Cartesia Sonic",
+          "Cartesia Sonic-2",
           "$65.00"
         ]
       ]

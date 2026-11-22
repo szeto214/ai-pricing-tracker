@@ -259,13 +259,13 @@ GPT Image 2
 -
 $0.053
 -
+Gemini 3.1 Flash Image (Nano Banana 2)
+-
+$0.04657
+-
 Nano Banana Pro (Gemini 3 Pro Image)
 -
 $0.134
--
-Wan 2.6 Image
--
-$0.03
 -
 FLUX.2 [pro]
 -
@@ -274,10 +274,6 @@ $0.03
 Seedream 5.0 Lite
 -
 $0.035
--
-Gemini 3.1 Flash Image (Nano Banana 2)
--
-$0.04657
 -
 Qwen Image 2.0 Pro
 -
@@ -299,6 +295,10 @@ P-Image-Ideogram
 -
 $0.00225
 0
+Wan 2.6 Image
+-
+$0.03
+-
 FLUX.2 [dev]
 -
 $0.0154
@@ -372,7 +372,7 @@ Orpheus TTS
 $15.00
 Kokoro-82M TTS
 $4.00
-Cartesia Sonic
+Cartesia Sonic-2
 $65.00
 Price per video
 Model

@@ -7,7 +7,7 @@
   "final_url": "https://retool.com/pricing",
   "parser_version": 4,
   "content_hash": "a3be490747f4adfb6a90187a4ce51ad6c5cc80a173dd2bd7c3535ed9c9995f0b",
-  "raw_hash": "5c42fb767ac9268ac80b17f263562be8f12349d306824ca56db64ac7b86265eb",
+  "raw_hash": "221a468a6f8db224bb052ada1950a074ec1e0646634b3c047c47f9079887d773",
   "text_bytes": 22373,
   "currency_hints": [],
   "extractor": "dom",

@@ -7,30 +7,50 @@
   "final_url": "https://mistral.ai/pricing/",
   "parser_version": 4,
   "content_hash": "ddff919bf3ad61b28d3f6cd6b13fa817c18191aea3a62b137c22f7cc0903f802",
-  "raw_hash": "729d29701deecd4ba319cff28bef7ddfe215ae6f332e30adf19240b3d16100bc",
+  "raw_hash": "144b6c17bf997994cda6abfc6e74fca7762f58f4e1ed3465d956c2f3e510b24a",
   "text_bytes": 8161,
   "currency_hints": [
     "EUR",
     "USD",
     "€"
   ],
-  "extractor": "dom",
-  "confidence": "low",
+  "extractor": "jsonld",
+  "confidence": "medium",
   "plans": [
     {
-      "name": "Free",
-      "price_raw": "Free",
-      "amount": 0.0,
-      "currency": null,
+      "name": "Vibe Team",
+      "price_raw": "24.99",
+      "amount": 24.99,
+      "currency": "USD",
       "period": null,
-      "features": [
-        "Test out Vibe’s capabilities.",
-        "Access on web and mobile.",
-        "Limited messages and web searches.",
-        "Limited coding sessions.",
-        "Basic image generation and editing.",
-        "100+ connectors."
-      ],
+      "features": [],
+      "slot_prices": []
+    },
+    {
+      "name": "Vibe Education",
+      "price_raw": "0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": []
+    },
+    {
+      "name": "Vibe Pro",
+      "price_raw": "14.99",
+      "amount": 14.99,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": []
+    },
+    {
+      "name": "Vibe Free",
+      "price_raw": "0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": [],
       "slot_prices": []
     }
   ],

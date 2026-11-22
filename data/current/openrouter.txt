@@ -1,7 +1,7 @@
 Models
 Thinking Machines: Inkling 2 Mini
 Inkling 2 Mini
-10.6B tokens
+120B tokens
 Inkling 2 Mini is an open-weight multimodal looped transformer from Thinking Machines Lab, with 3.4B active parameters out of 26.4B total (MoE). Its middle layers run three times with shared weights, so it does more computation per token than its size suggests while staying small enough to run on a laptop or a single workstation GPU. It is the smallest model in the second Inkling generation, below
 Inkling 2 Small
 , and is suited for agentic and tool-use systems, coding assistants, chatbots and retrieval-augmented generation, with English and general multilingual support.
@@ -9,14 +9,14 @@ by
 thinkingmachines
 Nov 21, 2026
 1.05M context
-$0.10/M input
+$0.075/M input
 tokens
-$0.40/M output
+$0.30/M output
 tokens
 RadixArk: DaisyRose 27B
 DaisyRose 27B
 25% off
-524M tokens
+1.4B tokens
 DaisyRose 27B is an open-weight multimodal reasoning model from RadixArk, trained from
 Qwen3.8 27B
 using reinforcement learning only on long-horizon agent tasks, with no supervised fine-tuning or distillation. It is aimed at agentic coding, multi-step reasoning, and instruction following. It is a 27.8B-parameter dense model that accepts text and image input, returns text, and has a 262K-token context window. Thinking is on by default and can be disabled. It keeps the base model's architecture, tokenizer, and chat template, and is released under the Apache 2.0 license.
@@ -30,7 +30,7 @@ $1.875/M output
 tokens
 Perplexity: Embed V2 Context 0.6B
 Embed V2 Context 0.6B
-37.4M tokens
+118M tokens
 pplx-embed-v2-context-0.6b is a compact multimodal contextual embedding model from Perplexity for retrieval over text, images, and visual documents. It is the cost-efficient sibling of
 pplx-embed-v2-context-9b
 and is suited for high-volume RAG and search indexing where chunks of the same document should be embedded with their surrounding context in view: pass a document as an ordered list of chunks and each chunk's embedding reflects the whole document, or embed strings individually for standard dense retrieval. Queries and documents use separate
@@ -46,7 +46,7 @@ Nov 20, 2026
 $0.02/M tokens
 Perplexity: Embed V2 Context 9B
 Embed V2 Context 9B
-4.47M tokens
+567M tokens
 pplx-embed-v2-context-9b is a multimodal contextual embedding model from Perplexity for retrieval over text, images, and visual documents. It is the larger of the two v2 context models and is suited for RAG and search pipelines where chunks of the same document should be embedded with their surrounding context in view: pass a document as an ordered list of chunks and each chunk's embedding reflects the whole document, or embed strings individually for standard dense retrieval. Queries and documents use separate
 input_type
 modes, so send
@@ -64,7 +64,7 @@ Nov 20, 2026
 $0.12/M tokens
 Baseten: Groundhog 1
 Groundhog 1
-170M tokens
+253M tokens
 Groundhog 1 is a decision model from Base Labs, Baseten's research team, built on Gemma 4 26B A4B, a mixture-of-experts model with 4B active parameters. Given a state (text, JSON, or images) and typed questions (yes/no, multiple choice, or ordinal score), it returns a calibrated probability for every option in a single forward pass, with no text generation. It is TypeSafe System One compatible and suits high-volume classification, routing, and guardrail checks. Its larger sibling is
 Bison 1
 .
@@ -77,7 +77,7 @@ $0/M output
 tokens
 Baseten: Bison 1
 Bison 1
-218M tokens
+767M tokens
 Bison 1 is a 31B decision model from Base Labs, Baseten's research team, built on Gemma 4 31B. Given a state (text, JSON, or images) and typed questions (yes/no, multiple choice, or ordinal score), it returns a calibrated probability for every option in a single forward pass, with no text generation. It is TypeSafe System One compatible and suits classification, routing, and scoring where accuracy matters most. Its smaller sibling is
 Groundhog 1
 .
@@ -90,7 +90,7 @@ $0/M output
 tokens
 Qwen: Qwen3 TTS 1.7B
 Qwen3 TTS 1.7B
-32K tokens
+87K tokens
 Qwen3 TTS is a multilingual text-to-speech model from Alibaba's Qwen team. It converts text to speech across 10 languages — English, Chinese, Japanese, Korean, German, French, Russian, Spanish, Italian, and Portuguese — with 9 preset voices. It is suited for multilingual content production, localization pipelines, and global-facing voice applications.
 by
 qwen
@@ -98,7 +98,7 @@ Nov 20, 2026
 $20/M characters
 Google: Gemini 2.5 Pro TTS
 Gemini 2.5 Pro TTS
-628K tokens
+1.36M tokens
 Gemini 2.5 Pro TTS is a text-to-speech model from Google. It turns text into single-speaker or multi-speaker audio, with style, pace, and tone steered by natural-language instructions in the prompt, and supports the 30 prebuilt Gemini voices. It is the higher-fidelity tier of the 2.5 TTS family, suited to narration and expressive dialogue.
 by
 google
@@ -109,7 +109,7 @@ $20/M output
 tokens
 Google: Gemini 2.5 Flash TTS
 Gemini 2.5 Flash TTS
-961K tokens
+2.61M tokens
 Gemini 2.5 Flash TTS is a text-to-speech model from Google. It turns text into single-speaker or multi-speaker audio, with style, pace, and tone steered by natural-language instructions in the prompt, and supports the 30 prebuilt Gemini voices. It is the lower-cost, lower-latency tier of the 2.5 TTS family.
 by
 google
@@ -120,7 +120,7 @@ $10/M output
 tokens
 Mistral: Pixtral Large 2502
 Pixtral Large 2502
-28.3M tokens
+40.9M tokens
 Pixtral Large 2502 is the February 2025 version of Mistral AI's large multimodal model, following
 Pixtral Large 2411
 . It accepts text and image input, including documents, charts, and natural images, and returns text. It has a 128,000-token context window.
@@ -134,9 +134,9 @@ $6/M output
 tokens
 Google: Gemini 4 Neon
 Gemini 4 Neon
-326B tokens
-Programming (#31)
-Science (#34)
+432B tokens
+Programming (#26)
+Science (#33)
 Technology (#25)
 Gemini 4 Neon is a fast, mid-priced model in the Gemini 4 family from Google, built for coding and agentic work. It is suited for repository and terminal coding, web builds, multi-turn tool use and multimodal STEM problems, and is positioned as a step up from
 Gemini 4 Hydrogen
@@ -153,7 +153,7 @@ $15/M output
 tokens
 Google: Gemini 4 Neon (batch)
 Gemini 4 Neon (batch)
-176M tokens
+299M tokens
 Gemini 4 Neon is a fast, mid-priced model in the Gemini 4 family from Google, built for coding and agentic work. It is suited for repository and terminal coding, web builds, multi-turn tool use and multimodal STEM problems, and is positioned as a step up from
 Gemini 4 Hydrogen
 that targets
@@ -169,7 +169,7 @@ $7.50/M output
 tokens
 HeyGen: Avatar 6 Turbo
 Avatar 6 Turbo
-9 hours
+12 hours
 HeyGen: Avatar 6 Turbo is the faster, lower-cost variant of HeyGen's Avatar 6 avatar video model. It turns a single photo, a short reference video, or both into a lip-synced talking video driven by a supplied audio track, reading the speech's tone and rhythm to drive head motion, facial expression, and gestures, and renders at 1080p or 2K; the audio sets the video length. Supply exactly one audio reference plus one reference image, one reference video, or a same-person photo alongside the video. The prompt becomes a motion prompt describing how the subject should move, and the
 motion_expressiveness
 passthrough parameter can tone the motion down.
@@ -179,7 +179,7 @@ Nov 17, 2026
 from $0.05/second
 HeyGen: Avatar 6
 Avatar 6
-4 hours
+5 hours
 HeyGen: Avatar 6 is HeyGen's avatar video model for turning a single photo, a short reference video, or both into an expressive, lip-synced talking video driven by a supplied audio track. It reads the tone, rhythm, and emotion of the speech to drive head motion, facial expression, and gestures, and renders at 1080p or 2K; the audio sets the video length. Supply exactly one audio reference plus one reference image, one reference video, or a same-person photo alongside the video. The prompt becomes a motion prompt describing how the subject should move, and the
 motion_expressiveness
 passthrough parameter can tone the motion down.
@@ -189,7 +189,7 @@ Nov 17, 2026
 from $0.10/second
 OpenAI: GPT-6.2 Astra Pro (batch)
 GPT-6.2 Astra Pro (batch)
-39.9M tokens
+42.9M tokens
 GPT-6.2 Astra Pro is the same underlying model as
 GPT-6.2 Astra
 , served with
@@ -211,7 +211,7 @@ $20/M output
 tokens
 OpenAI: GPT-6.2 Astra Pro
 GPT-6.2 Astra Pro
-16.5B tokens
+18.3B tokens
 GPT-6.2 Astra Pro is the same underlying model as
 GPT-6.2 Astra
 , served with
@@ -233,7 +233,7 @@ $40/M output
 tokens
 OpenAI: GPT-6.2 Astra (batch)
 GPT-6.2 Astra (batch)
-37.5M tokens
+52.4M tokens
 GPT-6.2 Astra is the flagship model in the GPT-6.2 series from OpenAI, built for the hardest projects. It is suited for real-world engineering, professional work and scientific research, with stronger visual reasoning for websites, slideshows and 3D designs. OpenAI reports new highs on its evals at less than a third of the cost per task of GPT-6 Astra.
 by
 openai

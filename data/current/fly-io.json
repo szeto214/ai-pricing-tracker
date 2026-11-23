@@ -6,24 +6,13 @@
   "url": "https://fly.io/pricing/",
   "final_url": "https://fly.io/pricing/",
   "parser_version": 4,
-  "content_hash": "7907dd9ed6d1c12d50286cce4aba8e34af68fe6b41e243082ea52bcadc47875b",
-  "raw_hash": "87fb4eb964d7136c145404f6641f624676a87e22462e521372415b5dbc714822",
-  "text_bytes": 3845,
+  "content_hash": "aedacf5d1168ff4f67f762e1ac7505bbaed6bb1b6de0303bc23ebe3adcbd86e3",
+  "raw_hash": "d048a4c2226cef9f347ba327a415768d57c5fee891b0ac075f324c7254b24ac5",
+  "text_bytes": 3772,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
-    {
-      "name": "Start for free,",
-      "price_raw": "$1",
-      "amount": 1.0,
-      "currency": "USD",
-      "period": null,
-      "features": [],
-      "slot_prices": [
-        1.0
-      ]
-    },
     {
       "name": "Free",
       "price_raw": "$0",

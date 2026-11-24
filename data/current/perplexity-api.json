@@ -6,9 +6,9 @@
   "url": "https://docs.perplexity.ai/getting-started/pricing",
   "final_url": "https://docs.perplexity.ai/docs/getting-started/pricing",
   "parser_version": 4,
-  "content_hash": "0431be792640038602956e0b6994f65fef16ccff55d22cc07f9ae7cdd3a81317",
-  "raw_hash": "c7ae0cbfb852a90e360559a060d9fea5eeaf4f902a18b403a22caeb0bba75100",
-  "text_bytes": 12088,
+  "content_hash": "b95e054af5b35dddaaa10a77fa31e1950f61707c15b6ee7f1f274848eabeae07",
+  "raw_hash": "6ad143705c5ecb1943329425820a6192f0a2b366b14c4db1fd33e600d03ee610",
+  "text_bytes": 12236,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -712,6 +712,11 @@
           "Page",
           "$0.001 per counted fetched URL in a succeeded Page run",
           "$1 per 1,000 counted URLs"
+        ],
+        [
+          "Agent",
+          "Perplexity bills an Agent run as Agent API usage .",
+          "No separate Monitor API fee"
         ]
       ]
     },

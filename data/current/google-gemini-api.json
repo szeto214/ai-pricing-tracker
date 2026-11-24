@@ -6,9 +6,9 @@
   "url": "https://ai.google.dev/pricing",
   "final_url": "https://aistudio.google.com/docs/pricing",
   "parser_version": 4,
-  "content_hash": "b5b3b08d102bc9c323aa18b4073130580657630a0e4ee875bf3451769d5022ee",
-  "raw_hash": "f46ffce4075826485efcd6ec0a336202d63a7126b96a82ae2f900a7b4e5cbbea",
-  "text_bytes": 41804,
+  "content_hash": "95afa746e57b763b5a3db9b6f816a5916d01fb033980314653ef2d3cb49f64f3",
+  "raw_hash": "28301752c4845785d8ff5e5d916f0f7b1bda2a0a911968500e0d74350f027142",
+  "text_bytes": 42204,
   "currency_hints": [
     "USD"
   ],
@@ -791,7 +791,7 @@
         ],
         [
           "Grounding with Google Web and Image Search **",
-          "Not available **",
+          "Not available ***",
           "5,000 free search requests per month (shared across all Gemini 3 and newer models), then $14 per 1,000 requests for text and image-based grounding (subject to a"
         ],
         [

@@ -6,9 +6,9 @@
   "url": "https://www.together.ai/pricing",
   "final_url": "https://www.together.ai/pricing",
   "parser_version": 4,
-  "content_hash": "c55be6c8a9af52eac01f78e33645c481a15cb5d5416926d04eb4fab01704ecf2",
-  "raw_hash": "b0002d1d6ed32a29522849c846c35a14704967e810b78b7a56e119be7007c7ce",
-  "text_bytes": 10247,
+  "content_hash": "76bdb8a7169ca84641ceddfcc12d46fed52267a40298f6438dd5a64655c46714",
+  "raw_hash": "4db64070bd4bee3dfec8a51f2cabb7fa09429facd4fbb2f91d524134bb9832fc",
+  "text_bytes": 10305,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -1893,6 +1893,22 @@
       "unit": ""
     },
     {
+      "key": "deepseek v4.1 flash 1017 fast|k3",
+      "model": "DeepSeek V4.1 Flash 1017 Fast",
+      "prices": {
+        "kolom 2": {
+          "raw": "$0.60",
+          "amount": 0.6
+        },
+        "kolom 3": {
+          "raw": "$2.40",
+          "amount": 2.4
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
       "key": "minimax m3.1 flash us geo-pinned|k3",
       "model": "MiniMax M3.1 Flash US geo-pinned",
       "prices": {
@@ -2931,6 +2947,11 @@
     {
       "caption": "",
       "rows": [
+        [
+          "DeepSeek V4.1 Flash 1017 Fast",
+          "$0.60 $0.012 (cached)",
+          "$2.40"
+        ],
         [
           "MiniMax M3.1 Flash US geo-pinned",
           "$0.1875 $0.01875 (cached)",

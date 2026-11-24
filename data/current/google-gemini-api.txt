@@ -255,6 +255,12 @@ search queries.
 Used to improve our products
 Yes
 No
+*
+A customer-submitted request to Gemini may result in one or
+more queries to Google Search. You will be charged for each individual search
+query performed.
+**
+Can be tested in Google AI Studio.
 Gemini 3.6 Flash
 gemini-3.6-flash
 Try it in Google AI Studio
@@ -485,8 +491,8 @@ tokens/s; and $0.209/s for 4K with upsampling at 17,376 tokens/s).
 Gemini Omni 1.1 Flash
 gemini-omni-1.1-flash
 Try it in Google AI Studio
-Previous generation video generation and editing model. Effective December 3,
-2026, all API requests to
+Previous generation video generation and editing model.
+Effective December 3, 2026, all API requests to
 gemini-omni-1.1-flash
 automatically route to
 gemini-omni-1.2-flash
@@ -745,7 +751,7 @@ and $0.151 per 4K image
 Grounding with Google Web and Image Search
 **
 Not available
-**
+***
 5,000 free search requests per month (shared across all Gemini 3 and newer models),
 then $14 per 1,000 requests for text and image-based grounding (subject to a
 daily cap
@@ -760,6 +766,13 @@ image. Output images at 1K (1024x1024px) consume 1120 tokens and are equivalent
 to $0.067 per image. Output images at 2K (2048x2048px) consume 1680 tokens and
 are equivalent to $0.101 per image. Output images at 4K (4096x4096px) consume
 2520 tokens and are equivalent to $0.151 per image.
+**
+A customer-submitted request to Gemini may result in one
+or more queries to Google Search. You will be charged for each individual search
+query performed. Retrieved context (text or images) provided by Grounding with
+Google Search is not charged as input tokens.
+***
+Can be tested in Google AI Studio.
 Gemini 3.1 Flash Lite Image (Nano Banana 2 Lite) 🍌
 gemini-3.1-flash-lite-image
 Try it in Google AI Studio
@@ -862,8 +875,6 @@ $20.00 (audio)
 Used to improve our products
 Yes
 No
-*
-Audio tokens correspond to 25 tokens per second of audio.
 Gemini 3 Flash Preview
 gemini-3-flash-preview
 Try it in Google AI Studio
@@ -1125,8 +1136,9 @@ Gemini 3.1 Flash Lite Image
 to avoid
 service disruption.
 A native image generation model, optimized for speed, flexibility, and
-contextual understanding. Text input and output is priced the same as
-2.5
+contextual understanding.
+Text input and output is priced the same as
+Gemini 2.5
 Flash
 .
 Standard
@@ -1457,18 +1469,14 @@ Managed agents in Gemini API
 All model inference is charged at standard Gemini list rates, including
 input,
 output, and intermediate input / reasoning tokens generated during agentic
-loops. (See
-pricing details
-).
+loops.
 Environment compute (CPU, memory, sandbox execution) is not billed during
 the preview period.
 Antigravity Agent
 All model inference is charged at standard Gemini list rates, including
 input,
 output, and intermediate input / reasoning tokens generated during agentic
-loops. (See
-pricing details
-).
+loops.
 Environment compute (CPU, memory, sandbox execution) is not billed during
 the
 preview period.

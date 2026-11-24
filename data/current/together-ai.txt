@@ -799,6 +799,12 @@ $4.00
 Price is based on the sum of tokens processed in the fine-tuning training dataset (training dataset size × number of epochs) plus any tokens in the optional evaluation dataset (validation dataset size × number of evaluations). Each job is subject to the minimum charge shown for its model.
 No matching models
 Trusted by
+DeepSeek V4.1 Flash 1017
+Fast
+$0.60
+$0.012
+(cached)
+$2.40
 MiniMax M3.1 Flash
 US geo-pinned
 $0.1875

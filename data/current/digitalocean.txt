@@ -264,6 +264,22 @@ VPC NAT Gateway: $40.00 per node, includes 100 GiB bandwidth (overage $0.01/GiB)
 View
 Virtual Private Cloud
 pricing
+Observability
+Insights
+Logs and Traces
+$
+0.50
+/GB
+Each billing team receives an included monthly allowance of
+5
+GB, shared between logs and traces.
+Visibility into what your agents, applications, and infrastructure are doing.
+Built-in telemetry from supported DigitalOcean products, with no instrumentation needed for managed products
+Dashboards, alerts, and a query builder with PromQL support
+Platform metrics (dashboards and alerts) are provided at no additional charge to use
+View
+Insights
+pricing
 Uptime
 Starting at
 $0

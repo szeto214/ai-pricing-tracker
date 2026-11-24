@@ -6,9 +6,9 @@
   "url": "https://www.baseten.co/pricing/",
   "final_url": "https://www.baseten.co/pricing/",
   "parser_version": 4,
-  "content_hash": "87f813ea7992a558ee0f81e5f4b71cdbc68074049958aa3fa81d53dc2328bed0",
-  "raw_hash": "ff86f9e14019f084c23bf8e81bfe78f5c3819899c69f01278eff78dfcb4ba7ce",
-  "text_bytes": 3894,
+  "content_hash": "8d074606b0aa35aa317b015131a2f147b565cec7c9484eddd3d284b1ab9ab816",
+  "raw_hash": "c76cefb27585cf4ad1fe856d0361fd2dda5784b8b1d44897a1d57462a85dd71e",
+  "text_bytes": 3987,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "low",
@@ -651,24 +651,24 @@
       "unit": "per minute"
     },
     {
-      "key": "glm-5.3 20% off for limited time",
-      "model": "GLM-5.3 20% off for limited time",
+      "key": "deepseek v4.1 flash 1017 20% off for limited time",
+      "model": "DeepSeek V4.1 Flash 1017 20% off for limited time",
       "prices": {
         "prefill": {
-          "raw": "$3.02",
-          "amount": 3.02
+          "raw": "$0.48",
+          "amount": 0.48
         },
         "prefill cached": {
-          "raw": "$0.60",
-          "amount": 0.6
+          "raw": "$0.10",
+          "amount": 0.1
         },
         "sample": {
-          "raw": "$9.72",
-          "amount": 9.72
+          "raw": "$2.88",
+          "amount": 2.88
         },
         "train": {
-          "raw": "$11.66",
-          "amount": 11.66
+          "raw": "$3.98",
+          "amount": 3.98
         }
       },
       "currency": "USD",
@@ -693,6 +693,30 @@
         "train": {
           "raw": "$4.46",
           "amount": 4.46
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
+      "key": "glm-5.3 20% off for limited time",
+      "model": "GLM-5.3 20% off for limited time",
+      "prices": {
+        "prefill": {
+          "raw": "$3.02",
+          "amount": 3.02
+        },
+        "prefill cached": {
+          "raw": "$0.60",
+          "amount": 0.6
+        },
+        "sample": {
+          "raw": "$9.72",
+          "amount": 9.72
+        },
+        "train": {
+          "raw": "$11.66",
+          "amount": 11.66
         }
       },
       "currency": "USD",
@@ -973,11 +997,11 @@
           "Train"
         ],
         [
-          "GLM-5.3 20% off for limited time",
-          "$3.02",
-          "$0.60",
-          "$9.72",
-          "$11.66"
+          "DeepSeek V4.1 Flash 1017 20% off for limited time",
+          "$0.48",
+          "$0.10",
+          "$2.88",
+          "$3.98"
         ],
         [
           "GLM-5.3-Flash 20% off for limited time",
@@ -985,6 +1009,13 @@
           "$0.13",
           "$1.69",
           "$4.46"
+        ],
+        [
+          "GLM-5.3 20% off for limited time",
+          "$3.02",
+          "$0.60",
+          "$9.72",
+          "$11.66"
         ],
         [
           "Qwen3.6 35B-A3B 20% off for limited time",

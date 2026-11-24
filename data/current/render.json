@@ -6,15 +6,52 @@
   "url": "https://render.com/pricing",
   "final_url": "https://render.com/pricing",
   "parser_version": 4,
-  "content_hash": "8e5d3554bc7882bcaf578c019580f63290188b0845b3fcf41b69983707ab087d",
-  "raw_hash": "729c3e9b84087055272a7bdb15864a8d2453dcbaf5fd0f12140c3aa1eafe8a34",
-  "text_bytes": 16243,
+  "content_hash": "05d71061fa5ae1791e06ffbde6a3ce8b5f3b4c80030fd95c531dcd8d5d911f3a",
+  "raw_hash": "3001609da7f7da06f8e00273daba92e1593f41cda44eadce346aa3abc12861ef",
+  "text_bytes": 16176,
   "currency_hints": [
     "USD"
   ],
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
+    {
+      "name": "Hobby",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "Connect your repo, and go",
+        "Deploy up to 25 services",
+        "5 GB of bandwidth included",
+        "Single-service previews",
+        "Global regions & CDN",
+        "Custom domains",
+        "Firewall & DDoS mitigation",
+        "Chat support",
+        "All Hobby features, plus:",
+        "Unlimited users & services",
+        "25 GB bandwidth included",
+        "Full-stack previews",
+        "Horizontal autoscaling",
+        "Isolated environments",
+        "OIDC authentication",
+        "AWS Private Links",
+        "Workspace audit logs",
+        "All Pro features, plus:",
+        "Multiple workspaces",
+        "1 TB of bandwidth included",
+        "Extended metrics retention",
+        "Inbound IP rules",
+        "HIPAA-compliant workspaces",
+        "SAML SSO & SCIM",
+        "Advanced RBAC roles"
+      ],
+      "slot_prices": [
+        0.0
+      ]
+    },
     {
       "name": "Private services",
       "price_raw": "$0.25",
@@ -214,17 +251,6 @@
       "features": [],
       "slot_prices": [
         1500.0
-      ]
-    },
-    {
-      "name": "32 CPU",
-      "price_raw": "$1,700",
-      "amount": 1700.0,
-      "currency": "USD",
-      "period": "month",
-      "features": [],
-      "slot_prices": [
-        1700.0
       ]
     }
   ],

@@ -6,9 +6,9 @@
   "url": "https://www.pinecone.io/pricing/",
   "final_url": "https://www.pinecone.io/pricing/",
   "parser_version": 4,
-  "content_hash": "8c83eecc21a54b1137ef9dd74ef25eb5e0acf615b7faba2af32cb59f3f445e41",
-  "raw_hash": "eba379fe92d80ff70d9a84804097ba2070b734b1ce9749eb280a3f2f01cdbc06",
-  "text_bytes": 9082,
+  "content_hash": "0ea8a1f20704b3736640f053fd863746ab3a99e6a8fe1b234303246decac81ff",
+  "raw_hash": "abacc0ddcc98f60ddcece00f6dbde9c787b2e9c49c1d40880779f6347c774627",
+  "text_bytes": 15080,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -23,19 +23,8 @@
       "slot_prices": []
     },
     {
-      "name": "Builder",
-      "price_raw": "$20",
-      "amount": 20.0,
-      "currency": "USD",
-      "period": "month",
-      "features": [],
-      "slot_prices": [
-        20.0
-      ]
-    },
-    {
       "name": "Standard",
-      "price_raw": "$50",
+      "price_raw": "$ 50",
       "amount": 50.0,
       "currency": "USD",
       "period": "month",
@@ -46,7 +35,7 @@
     },
     {
       "name": "Enterprise",
-      "price_raw": "$500",
+      "price_raw": "$ 500",
       "amount": 500.0,
       "currency": "USD",
       "period": "month",
@@ -166,6 +155,17 @@
       ]
     },
     {
+      "name": "gemini-embedding-2",
+      "price_raw": "$0.20",
+      "amount": 0.2,
+      "currency": "USD",
+      "period": "month",
+      "features": [],
+      "slot_prices": [
+        0.2
+      ]
+    },
+    {
       "name": "llama-text-embed-v2",
       "price_raw": "$0.16",
       "amount": 0.16,
@@ -186,6 +186,17 @@
       "slot_prices": [
         0.08
       ]
+    },
+    {
+      "name": "pinecone-sparse-english-v0",
+      "price_raw": "$0.08",
+      "amount": 0.08,
+      "currency": "USD",
+      "period": "month",
+      "features": [],
+      "slot_prices": [
+        0.08
+      ]
     }
   ],
   "models": [],
@@ -194,22 +205,22 @@
       "caption": "",
       "rows": [
         [
-          "Starter For trying out and for small applications. Start for Free Free View included usage Pinecone Database On-Demand Pinecone Inference Pinecone Assistant Den",
-          "Builder NEW For solo developers and small teams. Get Started $20/month flat Everything in Starter Increased usage limits Choose your cloud and region Multiple p",
-          "Standard POPULAR For production applications at any scale. Start Free Trial $50/month min. usage You'll be charged a minimum of $50/month. Once your usage excee",
-          "Enterprise For mission-critical production applications. Get Started Request Trial $500/month min. usage You'll be charged a minimum of $500/month. Once your us"
+          "Starter For trying out and for small applications. Start for free Free View included usage Pinecone Database On-Demand Integrated Embedding Integrated Reranking",
+          "Builder NEW For solo developers and small teams. Get started $ 20 /month flat Everything in Starter Increased usage limits Choose your cloud and region Multiple",
+          "Standard POPULAR For production applications at any scale. Start free trial $ 50 /month min. usage You'll be charged a minimum of $50/month. Once your usage exc",
+          "Enterprise For mission-critical production applications. Get started Request trial $ 500 /month min. usage You'll be charged a minimum of $500/month. Once your "
         ],
         [
-          "Starter For trying out and for small applications. Start for Free Free View included usage Pinecone Database On-Demand Pinecone Inference Pinecone Assistant Den"
+          "Starter For trying out and for small applications. Start for free Free View included usage Pinecone Database On-Demand Integrated Embedding Integrated Reranking"
         ],
         [
-          "Builder NEW For solo developers and small teams. Get Started $20/month flat Everything in Starter Increased usage limits Choose your cloud and region Multiple p"
+          "Builder NEW For solo developers and small teams. Get started $ 20 /month flat Everything in Starter Increased usage limits Choose your cloud and region Multiple"
         ],
         [
-          "Standard POPULAR For production applications at any scale. Start Free Trial $50/month min. usage You'll be charged a minimum of $50/month. Once your usage excee"
+          "Standard POPULAR For production applications at any scale. Start free trial $ 50 /month min. usage You'll be charged a minimum of $50/month. Once your usage exc"
         ],
         [
-          "Enterprise For mission-critical production applications. Get Started Request Trial $500/month min. usage You'll be charged a minimum of $500/month. Once your us"
+          "Enterprise For mission-critical production applications. Get started Request trial $ 500 /month min. usage You'll be charged a minimum of $500/month. Once your "
         ],
         [
           "Estimate your costs with our pricing calculator Compare Plans"
@@ -252,10 +263,10 @@
         ],
         [
           "Index Types",
-          "Dense, Sparse, and Full-Text",
-          "Dense, Sparse, and Full-Text",
-          "Dense, Sparse, and Full-Text",
-          "Dense, Sparse, and Full-Text"
+          "Vector and Document (dense, sparse, full-text)",
+          "Vector and Document (dense, sparse, full-text)",
+          "Vector and Document (dense, sparse, full-text)",
+          "Vector and Document (dense, sparse, full-text)"
         ],
         [
           "Indexes",
@@ -273,7 +284,7 @@
         ],
         [
           "Embedding Models",
-          "All available models",
+          "All except gemini-embedding-2",
           "All available models",
           "All available models",
           "All available models"
@@ -372,7 +383,7 @@
           "Assistant"
         ],
         [
-          "Document Limit",
+          "File Limit",
           "Unlimited",
           "Unlimited",
           "Unlimited",
@@ -435,31 +446,52 @@
           "Any"
         ],
         [
-          "Inference - Embedding"
+          "Integrated Embedding"
+        ],
+        [
+          "gemini-embedding-2",
+          "",
+          "10M tokens/mo included Promo: Doubled to 20M through Dec 31, 2026",
+          "Unlimited $0.20/M tokens",
+          "Unlimited $0.20/M tokens"
+        ],
+        [
+          "text-embedding-3-large",
+          "5M tokens/mo included Promo: Doubled to 10M through Dec 31, 2026",
+          "10M tokens/mo included Promo: Doubled to 20M through Dec 31, 2026",
+          "Unlimited $0.13-$0.143/M tokens (varies by processing location)",
+          "Unlimited $0.13-$0.143/M tokens (varies by processing location)"
+        ],
+        [
+          "text-embedding-3-small",
+          "5M tokens/mo included Promo: Doubled to 10M through Dec 31, 2026",
+          "10M tokens/mo included Promo: Doubled to 20M through Dec 31, 2026",
+          "Unlimited $0.02-$0.022/M tokens (varies by processing location)",
+          "Unlimited $0.02-$0.022/M tokens (varies by processing location)"
         ],
         [
           "llama-text-embed-v2",
-          "5M tokens/mo included",
-          "10M tokens/mo included",
+          "5M tokens/mo included Promo: Doubled to 10M through Dec 31, 2026",
+          "10M tokens/mo included Promo: Doubled to 20M through Dec 31, 2026",
           "Unlimited $0.16/M tokens",
           "Unlimited $0.16/M tokens"
         ],
         [
           "multilingual-e5-large",
-          "5M tokens/mo included",
-          "10M tokens/mo included",
+          "5M tokens/mo included Promo: Doubled to 10M through Dec 31, 2026",
+          "10M tokens/mo included Promo: Doubled to 20M through Dec 31, 2026",
           "Unlimited $0.08/M tokens",
           "Unlimited $0.08/M tokens"
         ],
         [
           "pinecone-sparse-english-v0",
-          "5M tokens/mo included",
-          "10M tokens/mo included",
+          "5M tokens/mo included Promo: Doubled to 10M through Dec 31, 2026",
+          "10M tokens/mo included Promo: Doubled to 20M through Dec 31, 2026",
           "Unlimited $0.08/M tokens",
           "Unlimited $0.08/M tokens"
         ],
         [
-          "Inference - Reranking"
+          "Integrated Reranking"
         ],
         [
           "bge-reranker-v2-m3",

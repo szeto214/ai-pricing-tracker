@@ -175,11 +175,16 @@ $1 per 1,000 runs
 Page
 $0.001 per counted fetched URL in a succeeded Page run
 $1 per 1,000 counted URLs
-Cost = (succeeded Search runs + counted fetched URLs from succeeded Page runs) × $0.001. Failed and skipped runs are free.
+Agent
+Perplexity bills an Agent run as
+Agent API usage
+.
+No separate Monitor API fee
+Search and Page cost = (succeeded Search runs + counted fetched URLs from succeeded Page runs) × $0.001. Failed and skipped Search and Page runs are free.
 A succeeded Search run is billed once, even if it performs multiple searches or returns no findings.
 In the
 calculator
-, choose Monitor API and enter both totals for the same period. The run’s
+, choose Monitor API to estimate Search and Page costs. Enter both totals for the same period. The run’s
 usage.cost
 reports list-price cost, not the invoice or amount charged.
 Rate limits

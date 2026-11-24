@@ -6,12 +6,12 @@
   "url": "https://www.qodo.ai/pricing/",
   "final_url": "https://www.qodo.ai/pricing/",
   "parser_version": 4,
-  "content_hash": "e0161cf40e5d695bd06e0250b770f506d9c773fdbea34cddfa6615a066265be9",
-  "raw_hash": "20b2d3c1395b6373f92a024682af91ba0213e0039cd5480646e70d2a7aa216d6",
-  "text_bytes": 4663,
+  "content_hash": "99f1b8771d90e8b435cf3c0118132415cfb1c1eaf22e75b3f883f0a30cd3d899",
+  "raw_hash": "36aa394ec10ed1a18b7932419bfb8807efeec160a0441663d6517c31e76f52c6",
+  "text_bytes": 5723,
   "currency_hints": [],
   "extractor": "dom",
-  "confidence": "low",
+  "confidence": "medium",
   "plans": [
     {
       "name": "Switch packs anytime",
@@ -27,6 +27,47 @@
       ],
       "slot_prices": [
         0.015
+      ]
+    },
+    {
+      "name": "Free trial",
+      "price_raw": "$0",
+      "amount": 0.0,
+      "currency": "USD",
+      "period": null,
+      "features": [
+        "No credit card required",
+        "Unlimited reviews and credits",
+        "Pick a credit pack when it ends",
+        "Agentic PR code review",
+        "Pre-PR review skills",
+        "Rules system, no limit",
+        "Git integrations",
+        "Dashboard and analytics"
+      ],
+      "slot_prices": [
+        0.0
+      ]
+    },
+    {
+      "name": "Pro team",
+      "price_raw": "$30",
+      "amount": 30.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [
+        "$.015 per credit, pooled across the team",
+        "Switch packs anytime, no annual commitment",
+        "No rate limits",
+        "Overage at the same rate, up to a cap you set",
+        "Agentic PR code review",
+        "Pre-PR review skills",
+        "Rules system, no limit",
+        "Git integrations",
+        "Dashboard and analytics"
+      ],
+      "slot_prices": [
+        30.0
       ]
     }
   ],

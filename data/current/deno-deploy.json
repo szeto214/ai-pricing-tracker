@@ -7,7 +7,7 @@
   "final_url": "https://deno.com/deploy/pricing",
   "parser_version": 4,
   "content_hash": "afb04cbe4e477278b563f4247e12674be97c4f4a502c4ad885d95d762830abea",
-  "raw_hash": "395344a5b810dd1dc2c3933b9588f6a8dc89f089f35135f941e406c2c934f10f",
+  "raw_hash": "fd9e0a6010fceb4d06c5db15a9b9afc4f3432b0d91ffefc348c3b83bd1703ab6",
   "text_bytes": 13331,
   "currency_hints": [],
   "extractor": "dom",

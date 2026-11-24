@@ -6,9 +6,9 @@
   "url": "https://suno.com/pricing",
   "final_url": "https://suno.com/pricing",
   "parser_version": 4,
-  "content_hash": "dbe24ffa02d661ed2a7e15dfa7d362a96c867323c9a4e28942f7358a294f2bd7",
-  "raw_hash": "aced4548014a21809829e255ea27e84dc4a127127fb84d7660b0e1263d1a683e",
-  "text_bytes": 6432,
+  "content_hash": "b1c2d6b37374fe397266a7007e88737ea0243d03db9223d835ad11c27165570b",
+  "raw_hash": "12a5033fc923258cd3ec584a02dfcae66fd3e26ea0d95cf4c38e3bcd50ee6502",
+  "text_bytes": 6601,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -55,7 +55,7 @@
       ],
       "slot_prices": [
         10.0,
-        8.0
+        5.6
       ]
     },
     {
@@ -82,7 +82,7 @@
       ],
       "slot_prices": [
         30.0,
-        24.0
+        16.8
       ]
     },
     {
@@ -110,7 +110,7 @@
       ],
       "slot_prices": [
         120.0,
-        100.0
+        70.0
       ]
     }
   ],

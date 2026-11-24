@@ -15,25 +15,29 @@ Standard
 Enterprise
 Starter
 For trying out and for small applications.
-Start for Free
+Start for free
 Free
 View included usage
 Pinecone Database
 On-Demand
-Pinecone
-Inference
+Integrated Embedding
+Integrated Reranking
 Pinecone
 Assistant
-Dense, Sparse, and Full-Text Indexes
+Vector and Document Indexes (dense, sparse, full-text)
 Console Metrics
 Community Support via
 Discord
-Example Starter Plan workloads
+Promo:
+Twice the included embedding tokens through Dec 31, 2026
+Example Starter workloads
 Builder
 NEW
 For solo developers and small teams.
-Get Started
-$20/month flat
+Get started
+$
+20
+/month flat
 Everything in Starter
 Increased usage limits
 Choose your cloud and region
@@ -46,16 +50,20 @@ Developer
 or
 Pro support
 add-on
+Promo:
+Twice the included embedding tokens through Dec 31, 2026
 Standard
 POPULAR
 For production applications at any scale.
-Start Free Trial
-$50/month
+Start free trial
+$
+50
+/month
 min. usage
 You'll be charged a minimum of $50/month. Once your usage exceeds this amount, you'll pay as you go.
 3 week trial includes $300 credits
 Everything in Builder
-Pay-as-you-go for Database On-Demand, Inference, and Assistant Usage
+Pay-as-you-go for Database On-Demand, Integrated Embedding, Integrated Reranking, and Assistant Usage
 Choose your cloud and region
 Dedicated Read Nodes (DRN)
 Import from object storage
@@ -72,9 +80,11 @@ Pro support
 add-on
 Enterprise
 For mission-critical production applications.
-Get Started
-Request Trial
-$500/month
+Get started
+Request trial
+$
+500
+/month
 min. usage
 You'll be charged a minimum of $500/month. Once your usage exceeds this amount, you'll pay as you go.
 Everything in Standard
@@ -91,25 +101,29 @@ Pro support
 included
 Starter
 For trying out and for small applications.
-Start for Free
+Start for free
 Free
 View included usage
 Pinecone Database
 On-Demand
-Pinecone
-Inference
+Integrated Embedding
+Integrated Reranking
 Pinecone
 Assistant
-Dense, Sparse, and Full-Text Indexes
+Vector and Document Indexes (dense, sparse, full-text)
 Console Metrics
 Community Support via
 Discord
-Example Starter Plan workloads
+Promo:
+Twice the included embedding tokens through Dec 31, 2026
+Example Starter workloads
 Builder
 NEW
 For solo developers and small teams.
-Get Started
-$20/month flat
+Get started
+$
+20
+/month flat
 Everything in Starter
 Increased usage limits
 Choose your cloud and region
@@ -122,16 +136,20 @@ Developer
 or
 Pro support
 add-on
+Promo:
+Twice the included embedding tokens through Dec 31, 2026
 Standard
 POPULAR
 For production applications at any scale.
-Start Free Trial
-$50/month
+Start free trial
+$
+50
+/month
 min. usage
 You'll be charged a minimum of $50/month. Once your usage exceeds this amount, you'll pay as you go.
 3 week trial includes $300 credits
 Everything in Builder
-Pay-as-you-go for Database On-Demand, Inference, and Assistant Usage
+Pay-as-you-go for Database On-Demand, Integrated Embedding, Integrated Reranking, and Assistant Usage
 Choose your cloud and region
 Dedicated Read Nodes (DRN)
 Import from object storage
@@ -148,9 +166,11 @@ Pro support
 add-on
 Enterprise
 For mission-critical production applications.
-Get Started
-Request Trial
-$500/month
+Get started
+Request trial
+$
+500
+/month
 min. usage
 You'll be charged a minimum of $500/month. Once your usage exceeds this amount, you'll pay as you go.
 Everything in Standard
@@ -190,12 +210,12 @@ Starter plan gives you:
 ~ 2K product updates per day
 Semantic search
 Given a knowledge base of:
-~ 30K documents
-20KB document size on average
+~ 30K articles
+20KB article size on average
 Using 1024 dimensions embeddings
 Starter plan gives you:
 ~ 15k searches per day
-~ 660 document updates per day
+~ 660 article updates per day
 Forum answering bot (RAG)
 Given a user forum with:
 ~ 10 categories
@@ -205,13 +225,36 @@ Starter plan gives you:
 ~ 130K category-scoped chats per day
 ~ 3K messages indexed per day
 Disclaimer:
-Examples are illustrative only, not quotes or binding offers. Database usage only; excludes Inference (embeddings/reranking) and Assistant usage, as well as initial data import. Subject to change.
+Examples are illustrative only, not quotes or binding offers. Database usage only; excludes Integrated Embedding, Integrated Reranking, and Assistant usage, as well as initial data import. Subject to change.
+How database billing works
+Document indexes (the Documents API) and vector indexes are billed the same way, on four meters: storage, reads, writes, and egress. Rates and plan limits are in the
+plan comparison table
+below.
+Storage
+Measured in GB across all your records. In a document index, record size counts every field in the schema, including vectors and text, plus metadata and the record ID.
+Reads
+A query or a full-text search uses 1 read unit per GB of the namespace it searches, with a minimum of 0.25. The number of results returned does not change the cost. A hybrid search sent as one request counts once. Two searches merged in your code count twice. On Dedicated Read Nodes, reads are a fixed hourly rate instead.
+Writes
+An upsert uses 1 write unit per KB of the request, with a minimum of 5 per request. An upsert or update that replaces an existing record also counts that record's size. Batching records into fewer requests avoids paying the minimum on each one.
+Egress
+Measured in GB of data returned to you by reads such as query, fetch, list, and search. Every plan includes a monthly allowance. Writes, index stats, and index management are not counted.
+Updated
+November 2026
+. Formulas and worked examples are in
+Understand Pinecone cost
+. To estimate a workload, use the
+pricing calculator
+.
 Explore products
+Ways to pay
+On Standard and Enterprise, pay as you go above the monthly minimum, or commit to a level of usage for bigger discounts and support.
 Usage-based pricing
-$50 monthly minimum that's applied to your usage. Anything over $50 is billed pay-as-you-go.
-Committed Use Contracts
-The larger your usage commitments, the greater your benefits—unlock bigger discounts and support.
-Contact Us
+Standard has a $50 monthly minimum. Enterprise has $500. Your usage counts toward the minimum. Anything over it is billed pay-as-you-go.
+Committed use contracts
+The larger your usage commitment, the bigger the discounts and support you unlock.
+Contact us
+Plan comparison
+Usage limits, features, and rates for each plan.
 Plan
 Starter
 Builder
@@ -230,10 +273,10 @@ All available regions
 All available regions
 Dedicated Read Nodes
 Index Types
-Dense, Sparse, and Full-Text
-Dense, Sparse, and Full-Text
-Dense, Sparse, and Full-Text
-Dense, Sparse, and Full-Text
+Vector and Document (dense, sparse, full-text)
+Vector and Document (dense, sparse, full-text)
+Vector and Document (dense, sparse, full-text)
+Vector and Document (dense, sparse, full-text)
 Indexes
 Up to 5
 10 per project
@@ -245,7 +288,7 @@ Namespaces per Index
 100,000
 1,000,000
 Embedding Models
-All available models
+All except gemini-embedding-2
 All available models
 All available models
 All available models
@@ -303,7 +346,7 @@ Cross-region restore
 Cross-region transfer pricing applies
 Cross-region transfer pricing applies
 Assistant
-Document Limit
+File Limit
 Unlimited
 Unlimited
 Unlimited
@@ -360,29 +403,71 @@ USA
 Any
 Any
 Any
-Inference - Embedding
+Integrated Embedding
+gemini-embedding-2
+10M tokens/mo included
+Promo:
+Doubled to 20M through Dec 31, 2026
+Unlimited
+$0.20/M tokens
+Unlimited
+$0.20/M tokens
+text-embedding-3-large
+5M tokens/mo included
+Promo:
+Doubled to 10M through Dec 31, 2026
+10M tokens/mo included
+Promo:
+Doubled to 20M through Dec 31, 2026
+Unlimited
+$0.13-$0.143/M tokens (varies by processing location)
+Unlimited
+$0.13-$0.143/M tokens (varies by processing location)
+text-embedding-3-small
+5M tokens/mo included
+Promo:
+Doubled to 10M through Dec 31, 2026
+10M tokens/mo included
+Promo:
+Doubled to 20M through Dec 31, 2026
+Unlimited
+$0.02-$0.022/M tokens (varies by processing location)
+Unlimited
+$0.02-$0.022/M tokens (varies by processing location)
 llama-text-embed-v2
 5M tokens/mo included
+Promo:
+Doubled to 10M through Dec 31, 2026
 10M tokens/mo included
+Promo:
+Doubled to 20M through Dec 31, 2026
 Unlimited
 $0.16/M tokens
 Unlimited
 $0.16/M tokens
 multilingual-e5-large
 5M tokens/mo included
+Promo:
+Doubled to 10M through Dec 31, 2026
 10M tokens/mo included
+Promo:
+Doubled to 20M through Dec 31, 2026
 Unlimited
 $0.08/M tokens
 Unlimited
 $0.08/M tokens
 pinecone-sparse-english-v0
 5M tokens/mo included
+Promo:
+Doubled to 10M through Dec 31, 2026
 10M tokens/mo included
+Promo:
+Doubled to 20M through Dec 31, 2026
 Unlimited
 $0.08/M tokens
 Unlimited
 $0.08/M tokens
-Inference - Reranking
+Integrated Reranking
 bge-reranker-v2-m3
 500 requests/mo included
 1,000 requests/mo included
@@ -435,6 +520,31 @@ ISO 27001
 HIPAA
 $190/mo
 See docs for details
+Frequently asked questions
+How is the Documents API priced?
+The same way as vectors. Document indexes use the same storage, read, write, and egress rates as vector indexes. Storage counts every field in the document's schema, including vectors and text, plus metadata and the record ID.
+Does full-text search cost extra?
+No. A full-text search is billed in read units like any query: 1 read unit per GB of the namespace searched, with a minimum of 0.25. Full-text search is available on every plan, including Starter.
+How is hybrid search billed?
+By the number of searches it runs. Filtering by text match and then ranking by vector is one search. Separate keyword and vector searches merged in your application are billed as two.
+How is integrated embedding billed?
+When Pinecone embeds a text field for you, embedding is billed separately by the number of tokens, both for the text you upsert and for query text. A retried or duplicate write is embedded and billed again. The field's text counts toward storage unless the field sets store_text to false. Then only the generated vector counts.
+How is pg_pinecone priced?
+The extension is free and open source under Apache 2.0. With the native engine, search runs inside your own Postgres server and never calls Pinecone. If you have Pinecone generate the embeddings, those are billed by tokens. The remote engine keeps a Pinecone serverless index in sync with your table and searches it there. That index is billed like any other. See
+pg_pinecone
+in the docs.
+How does query cost change as my data grows?
+Read units per query depend on the size of the namespace you search. A 10 GB namespace uses 10 read units per query. The number of results and the fields returned do not change the count. Splitting data into namespaces, for example one per tenant, keeps each search smaller. For large indexes with steady, high traffic, Dedicated Read Nodes charge a fixed hourly rate for read capacity instead of per read.
+What does the Standard plan's $50 minimum mean?
+Standard bills at least $50 a month. Your usage counts toward that amount. Anything above it is billed at the pay-as-you-go rates. Starter and Builder organizations can try Standard for 3 weeks with $300 in credits.
+What happens when I reach the Starter or Builder limits?
+Starter and Builder include monthly allowances of reads, writes, and egress, plus a storage cap. Usage past a monthly allowance is blocked rather than billed until it resets at the start of the next billing period, or until you upgrade. Standard and Enterprise have no monthly usage caps and bill what you use.
+How do I estimate my monthly cost?
+Use the
+pricing calculator
+. It takes your record count, vector dimensions, metadata size, namespaces, and monthly queries and writes. It estimates both On-Demand and Dedicated Read Nodes. For a document index, add the average text per record to the metadata size, since text counts toward storage the same way. The formulas are in
+Understand Pinecone cost
+in the docs.
 Weighing this against what you run today? The
 Pinecone comparisons
 cover

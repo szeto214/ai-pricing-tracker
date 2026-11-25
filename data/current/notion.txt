@@ -9,10 +9,16 @@ USD
 Essentials for staying organized.
 Free
 $0
-per member / month
+per seat / month
 For individuals to organize personal projects and life.
 Sign up
+Plus*
+$10
+per seat / month
+For small teams and professionals to work together.
+Get started
 Includes:
+Limited storage
 Trial AI capabilities like generating docs, or autofilling databases
 Trial of Notion AI
 Capture, organize, and act on responses right inside Notion.
@@ -23,11 +29,6 @@ Connect multiple Calendars to manage work and time together.
 Notion Calendar
 Organize hundreds or thousands of items in one place, like projects or tasks
 Databases including subtasks, dependencies, custom properties and more
-Plus
-$10
-per member / month
-For small teams and professionals to work together.
-Get started
 Everything in Free, and:
 Trial AI capabilities like generating docs, or autofilling databases
 Trial of Notion AI
@@ -41,18 +42,26 @@ Blocks are pieces of content you add to a page (e.g. to-do checkboxes, paragraph
 Collaborative blocks
 A per file size limit may apply to any file that you upload to a Notion page or database.
 File uploads
-Connect to some tools like Slack & Google Drive
-Basic connections
+There’s power in a single platform where you can do all your work out of. Notion is that single place.
+Nick Erdenberger
+GTM, OpenAI
+Watch video
 The AI workspace for work that matters.
 Business
 Recommended
 $20
-per member / month
+per seat / month
 For growing businesses to streamline teamwork.
 Get started
+Enterprise*
+Custom pricing
+For organizations to operate with scalability, control, and security.
+Contact Sales
 Everything in Plus, and:
 Does work for you. Completes complex, multi-step tasks using context from Notion, your connected apps, and the web.
 Notion Agent
+AI agents handle repetitive tasks autonomously, so your team doesn’t have to.
+Custom Agents
 Automate your meeting notes and follow-ups, no bot needed
 AI Meeting Notes
 Search across connected apps like Slack, Github & more
@@ -68,12 +77,17 @@ Create teamspaces that can’t be seen or discovered by anyone except those you 
 Private teamspaces
 Verify ownership of an email domain to access advanced security features including single-sign on.
 Domain verification
-Connect to GitHub, Asana & more
-Premium connections
-Enterprise
-Custom pricing
-For organizations to operate with scalability, control, and security.
-Contact Sales
+Extend Notion with custom code to build agent tools, sync external data, and trigger Notion workflows from anywhere
+Workers
+Beta
+Per seat. Used for work where Notion picks the model, like Notion Agent on Auto, AI Meeting Notes, and Database Autofill.
+1,500
+Standard credits
+/ month
+Per seat. Used for work where you pick the model, plus Custom Agents you own.
+500
+Select credits
+/ month
 Everything in Business, and:
 When using Notion AI, our LLM providers utilize zero data retention for Enterprise plan workspaces
 Zero data retention with LLM providers
@@ -91,22 +105,21 @@ Establish ownership of your company domain and take actions on workspaces that b
 Domain management
 Connect to even more tools
 Advanced connections
-Custom Agents
-AI agents handle repetitive tasks autonomously, so your team doesn’t have to. Free to try, then $10 per 1,000 monthly Notion credits.
-Workers
-Beta
-Extend Notion with custom code to build agent tools, sync external data, and trigger Notion workflows from anywhere.
+Custom credit amounts
+Notion Credits
+Admins can purchase Notion credits for their workspaces to cover additional AI usage.
 Learn more
 There’s power in a single platform where you can do all your work out of. Notion is that single place.
 Nick Erdenberger
 GTM, OpenAI
 Watch video
+* Plans may not be available for every workspace.
 Plans and features
 Free
 $0
 per seat/month
 Sign up
-Plus
+Plus*
 $10
 per seat/month
 Get started
@@ -114,18 +127,27 @@ Business
 $20
 per seat/month
 Get started
-Enterprise
+Enterprise*
+Custom pricing
 Contact us
 Content
-Blocks are pieces of content you add to a page (e.g. to-do checkboxes, paragraphs, bullet points, etc.). Teams who want to try collaborating in Notion can use the Free Plan with up to certain number of blocks before upgrading.
-Pages & blocks
-Limited for 2+ members
+Blocks are pieces of content you add to a page (e.g. to-do checkboxes, paragraphs, bullet points, etc.).
+Block storage
+Limited
 On the Free plan, you can upload images, videos and file attachments up to 5 MB each. Upgrade to a paid plan to upload files up to 5 GB each.
 File uploads
 Up to 5 MB
 Up to 5 GB
 Up to 5 GB
 Up to 5 GB
+Total file storage space used by your workspace including blocks, files, images and videos.
+File storage
+512 MB
+256 GB
++ 5 GB / added seat
+512 GB
++ 10 GB / added seat
+Custom
 Restore your page to a previous version.
 Page history
 7 days
@@ -155,32 +177,36 @@ Advanced teamspace permissions
 Collaborate in Notion databases without giving access to the entire database. Limit access to rows where the collaborator is assigned.
 Granular database permissions
 Notion AI
+Used for work where Notion picks the model, like Notion Agent on Auto, AI Meeting Notes, and Database Autofill.
+Standard Credits
+Limited Trial
+Limited Trial
+1500 per seat/month
+Custom
+Used for work where you pick the model, plus Custom Agents you own and Routines (coming soon).
+Select Credits
+500 per seat/month
+Custom
 Chat about anything, generate and edit docs, autofill databases, and find answers across your Notion workspace.
 Notion Agent (chat, generate, autofill, translate)
-Limited Trial
-Limited Trial
 Automatically transcribes your meetings, along with a helpful summary.
 Meeting notes
-Limited Trial
-Limited Trial
+Reusable instructions for agents, shared with your teams.
+Skills library
 Find quick answers using info across your Notion workspace, and connected tools like Slack, Microsoft Teams, GitHub and more.
 Jira, Box, OneDrive, Salesforce, and Asana are currently in Beta.
 Enterprise Search
-Uses deep reasoning to produce detailed reports using info across your Notion workspace, connected tools, and current info from the web.
-Research mode
+AI agents handle repetitive tasks autonomously, so your team doesn’t have to.
+Custom Agents
+Run custom code on Notion to extend agents, sync data, and trigger workflows. No infra required.
+Workers
 Beta
-Limited Trial
-Limited Trial
 When using Notion AI, our LLM providers utilize zero data retention for Enterprise plan workspaces
 Data retention
 30 day retention
 30 day retention
 30 day retention
 Zero data retention
-AI agents handle repetitive tasks autonomously, so your team doesn’t have to. Free to try, then $10 per 1,000 credits.
-Custom Agents
-Requires Notion credits
-Requires Notion credits
 Database features
 Add subtasks, and link dependencies.
 Subtasks and dependencies
@@ -199,15 +225,7 @@ Custom
 + conditional logic
 Bring charts, tables, and lists into one dashboard for a unified view of your work.
 Dashboards
-Developer platform
-Build on Notion and deploy Workers with code or coding agents.
-CLI
-Run custom code on Notion to extend agents, sync data, and trigger workflows. No infra required.
-Workers
-Beta
-Requires Notion credits
-Requires Notion credits
-API automations & integrations
+API automations & connections
 Build bespoke integrations to connect your Notion workspace to internal tools and workflows.
 Public API
 Send real-time updates to your integrations when content changes in Notion.
@@ -228,6 +246,8 @@ Same as plus
 See up-to-date information from Jira, GitHub & Asana, all synced into Notion as a database.
 1-way database syncs
 Same as business
+Advanced MCP tools that give you more capability (cross database analysis, calendar scheduling, meeting notes and Enterprise Search) and higher rate limits for accessing Notion.
+Advanced MCP tools
 Web publishing
 Share your pages on the web.
 Published pages
@@ -297,6 +317,7 @@ Custom
 Our team of Customer Success Managers are experts to help you get the most out of Notion.
 Customer success manager
 Custom
+* Plans may not be available for every workspace.
 Questions & answers
 How does Notion AI use my data?
 We follow our standard

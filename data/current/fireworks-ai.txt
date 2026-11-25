@@ -68,7 +68,7 @@ Available for specific models, in preview. Talk to us.
 Batch
 50% off input and output for jobs that don’t need an immediate answer.
 Spot
-30% off Standard on best-effort capacity, available for select models only. Throughput can drop to zero, so retry or fall back to Standard.
+50% off Standard on best-effort capacity, available on GLM 5.3, with more models to follow. Throughput can drop to zero, so retry or fall back to Standard.
 Highlighted Serverless rates: Standard and Priority
 USD per 1M tokens.
 Highlighted Serverless rates, Standard and Priority (USD per 1M tokens)
@@ -144,7 +144,7 @@ $0.20
 $0.0625 / $0.0125 / $0.25
 Spot rates
 USD per 1M tokens.
-US-only Serverless is available on select models at a 50% premium (waived on Muse Spark Open);
+US-only Serverless is available on select models at a 50% premium (varies by model);
 see pricing here
 . Models not listed here are priced by size.
 See all models and rates
@@ -154,46 +154,16 @@ Tier
 Cached input
 Uncached input
 Output
-GLM-5.3
+GLM 5.3, more models to follow
 Standard
 $0.26
 $1.40
 $4.40
-GLM-5.3
+GLM 5.3, more models to follow
 Spot
-$0.182
-$0.98
-$3.08
-Kimi K3
-Standard
-$0.30
-$3.00
-$15.00
-Kimi K3
-Spot
-$0.21
-$2.10
-$10.50
-DeepSeek V4.1 Flash
-Standard
-$0.006
-$0.30
-$1.20
-DeepSeek V4.1 Flash
-Spot
-$0.0042
-$0.21
-$0.84
-DeepSeek V4.1 Flash 1017
-Standard
-$0.006
-$0.30
-$1.20
-DeepSeek V4.1 Flash 1017
-Spot
-$0.0042
-$0.21
-$0.84
+$0.13
+$0.70
+$2.20
 Embeddings
 Embeddings (USD per 1M input tokens)
 Base model
@@ -213,7 +183,7 @@ Batch what can wait
 Async jobs run at half the Standard rate.
 Batch inference
 Send background work to Spot
-Take 30% off for traffic that can retry or fall back
+Take 50% off for traffic that can retry or fall back
 Spot Serverless
 Route each turn
 Send routine work to open models and save premium models for the turns that earn it.

@@ -6,9 +6,9 @@
   "url": "https://render.com/pricing",
   "final_url": "https://render.com/pricing",
   "parser_version": 4,
-  "content_hash": "05d71061fa5ae1791e06ffbde6a3ce8b5f3b4c80030fd95c531dcd8d5d911f3a",
-  "raw_hash": "3001609da7f7da06f8e00273daba92e1593f41cda44eadce346aa3abc12861ef",
-  "text_bytes": 16176,
+  "content_hash": "9ec8cc7841a8cd5e094976f1e274a83b04bcfbaf6b855f7f2798eb37ca1c96a8",
+  "raw_hash": "e2db7d42a9c0e039e41ea9d38f31b46633c229a28895fc606dc649461355d4c9",
+  "text_bytes": 16188,
   "currency_hints": [
     "USD"
   ],
@@ -17,7 +17,7 @@
   "plans": [
     {
       "name": "Hobby",
-      "price_raw": "$0",
+      "price_raw": "$ 0",
       "amount": 0.0,
       "currency": "USD",
       "period": "month",

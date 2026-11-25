@@ -6,9 +6,9 @@
   "url": "https://www.together.ai/pricing",
   "final_url": "https://www.together.ai/pricing",
   "parser_version": 4,
-  "content_hash": "76bdb8a7169ca84641ceddfcc12d46fed52267a40298f6438dd5a64655c46714",
-  "raw_hash": "4db64070bd4bee3dfec8a51f2cabb7fa09429facd4fbb2f91d524134bb9832fc",
-  "text_bytes": 10305,
+  "content_hash": "fbec2926ba83dd9c2a47e0c595571ff5e52a3b0a29e43c1019e8ff832b3c8cff",
+  "raw_hash": "14807cd8e70543c2cc6c598287e630611d5b5c6166770f2fc7772b7db913c013",
+  "text_bytes": 10251,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -95,20 +95,6 @@
       "slot_prices": [
         0.15,
         0.015
-      ]
-    },
-    {
-      "name": "Qwen4 Max",
-      "price_raw": "$1.50",
-      "amount": 1.5,
-      "currency": "USD",
-      "period": null,
-      "features": [],
-      "slot_prices": [
-        1.5,
-        1.05,
-        0.075,
-        0.0525
       ]
     },
     {
@@ -1893,6 +1879,22 @@
       "unit": ""
     },
     {
+      "key": "kimi k3.1 pro us geo-pinned|k3",
+      "model": "Kimi K3.1 Pro US geo-pinned",
+      "prices": {
+        "kolom 2": {
+          "raw": "$2.50",
+          "amount": 2.5
+        },
+        "kolom 3": {
+          "raw": "$12.50",
+          "amount": 12.5
+        }
+      },
+      "currency": "USD",
+      "unit": ""
+    },
+    {
       "key": "deepseek v4.1 flash 1017 fast|k3",
       "model": "DeepSeek V4.1 Flash 1017 Fast",
       "prices": {
@@ -2066,9 +2068,9 @@
           "$0.60"
         ],
         [
-          "Qwen4 Max PROMO Promotion valid until 11/23/2026",
-          "$1.50 $1.05 $0.075 $0.0525 (cached)",
-          "$4.50 $3.15"
+          "Qwen4 Max",
+          "$1.50 $0.075 (cached)",
+          "$4.50"
         ],
         [
           "Tencent Hy4",
@@ -2191,9 +2193,9 @@
           "$0.60"
         ],
         [
-          "Qwen4 Max PROMO Promotion valid until 11/23/2026",
-          "$1.50 $1.05 $0.0525 (cached)",
-          "$4.50 $3.15"
+          "Qwen4 Max",
+          "$1.50 $0.0525 (cached)",
+          "$4.50"
         ],
         [
           "Tencent Hy4",
@@ -2947,6 +2949,11 @@
     {
       "caption": "",
       "rows": [
+        [
+          "Kimi K3.1 Pro US geo-pinned",
+          "$2.50 $0.25 (cached)",
+          "$12.50"
+        ],
         [
           "DeepSeek V4.1 Flash 1017 Fast",
           "$0.60 $0.012 (cached)",

@@ -6,9 +6,9 @@
   "url": "https://www.notion.com/pricing",
   "final_url": "https://www.notion.com/pricing",
   "parser_version": 4,
-  "content_hash": "f0fe41f87f67fee9b4703f38c6defa1608fea292717fe2add6938743f173dd22",
-  "raw_hash": "0c03f2563914917834d69547802f3ebc479cb76332d592566ed07c1b6ceccee0",
-  "text_bytes": 20624,
+  "content_hash": "dd3b246f6b0ebda0ffd66b2d0e840c17b29ff7ff5d0aa639aeac742edae2496e",
+  "raw_hash": "cb12d67d3a36503421d0875b0443f51a9a3825bc2792510500d291b41ae5979e",
+  "text_bytes": 21267,
   "currency_hints": [
     "USD"
   ],
@@ -20,18 +20,18 @@
       "price_raw": "$0",
       "amount": 0.0,
       "currency": "USD",
-      "period": "user",
+      "period": "seat",
       "features": [],
       "slot_prices": [
         0.0
       ]
     },
     {
-      "name": "Plus",
+      "name": "Plus*",
       "price_raw": "$10",
       "amount": 10.0,
       "currency": "USD",
-      "period": "user",
+      "period": "seat",
       "features": [],
       "slot_prices": [
         10.0
@@ -42,25 +42,14 @@
       "price_raw": "$20",
       "amount": 20.0,
       "currency": "USD",
-      "period": "user",
+      "period": "seat",
       "features": [],
       "slot_prices": [
         20.0
       ]
     },
     {
-      "name": "Custom Agents",
-      "price_raw": "$10",
-      "amount": 10.0,
-      "currency": "USD",
-      "period": null,
-      "features": [],
-      "slot_prices": [
-        10.0
-      ]
-    },
-    {
-      "name": "Enterprise Contact us",
+      "name": "Enterprise* Custom pricing Contact us",
       "price_raw": "$0",
       "amount": 0.0,
       "currency": "USD",

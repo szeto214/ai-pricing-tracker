@@ -6,9 +6,9 @@
   "url": "https://platform.openai.com/docs/pricing",
   "final_url": "https://developers.openai.com/api/docs/pricing",
   "parser_version": 4,
-  "content_hash": "cc9958f6ead1992a9a76800d4a93fe659982b4f3f6e91c8199077e17c831256c",
-  "raw_hash": "aaf171bc3de0fe47e7b27870d15da2246b467cd1eafa129ad91214576c250ed9",
-  "text_bytes": 5769,
+  "content_hash": "5a797fb03f6ad56d4a7c083512c30129d4fa48fb988560d42385994eba9b6d02",
+  "raw_hash": "59f2f0d37f84e1cd61195dd5173b32d83d3f8cb1c0472acd33be9f83cec751c0",
+  "text_bytes": 6104,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -215,27 +215,33 @@
       ]
     },
     {
-      "name": "ChatGPT",
-      "price_raw": "$5.00",
-      "amount": 5.0,
+      "name": "Healthcare model configurations",
+      "price_raw": "$8.00",
+      "amount": 8.0,
       "currency": "USD",
       "period": null,
       "features": [],
       "slot_prices": [
-        5.0,
-        30.0,
-        0.5
+        8.0,
+        40.0,
+        0.4,
+        10.0,
+        20.0
       ]
     },
     {
-      "name": "File search",
-      "price_raw": "$0.10",
-      "amount": 0.1,
+      "name": "gpt-6.2-sol-healthcare",
+      "price_raw": "$2.00",
+      "amount": 2.0,
       "currency": "USD",
-      "period": "day",
+      "period": null,
       "features": [],
       "slot_prices": [
-        0.1
+        2.0,
+        10.0,
+        0.1,
+        2.5,
+        5.0
       ]
     }
   ],
@@ -857,6 +863,39 @@
           "$10.00",
           "$50.00",
           "$1.00",
+          "-",
+          "-"
+        ],
+        [
+          "Healthcare model configurations",
+          "gpt-6.2-astra-healthcare",
+          "$8.00",
+          "$40.00",
+          "$0.40",
+          "$10.00",
+          "$20.00"
+        ],
+        [
+          "gpt-6.2-sol-healthcare",
+          "$2.00",
+          "$10.00",
+          "$0.10",
+          "$2.50",
+          "$5.00"
+        ],
+        [
+          "gpt-6-astra-healthcare",
+          "$10.00",
+          "$50.00",
+          "$1.00",
+          "-",
+          "-"
+        ],
+        [
+          "gpt-6.1-sol-healthcare",
+          "$2.00",
+          "$10.00",
+          "$0.10",
           "-",
           "-"
         ],

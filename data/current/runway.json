@@ -7,51 +7,15 @@
   "final_url": "https://runway.com/pricing",
   "parser_version": 4,
   "content_hash": "d68f70a790b2d862598d052bd7abb4588a1533992343f5bcc0ea038d6dcec406",
-  "raw_hash": "bb18b022440334d290cbe71ffa3a3ec8be155ce1f308fec666520b2bec4bd451",
+  "raw_hash": "77b05fa87fbff54627f5fc2ec4e05f3b35728ecb5ffc625a2f7c878cfb41a9d7",
   "text_bytes": 5598,
   "currency_hints": [],
   "extractor": "jsonld",
   "confidence": "medium",
   "plans": [
     {
-      "name": "Runway Dev Enterprise Plan",
-      "price_raw": "0",
-      "amount": 0.0,
-      "currency": "USD",
-      "period": null,
-      "features": [],
-      "slot_prices": []
-    },
-    {
-      "name": "Runway Dev Free Plan",
-      "price_raw": "0",
-      "amount": 0.0,
-      "currency": "USD",
-      "period": null,
-      "features": [],
-      "slot_prices": []
-    },
-    {
-      "name": "Runway Enterprise Plan",
-      "price_raw": "0",
-      "amount": 0.0,
-      "currency": "USD",
-      "period": null,
-      "features": [],
-      "slot_prices": []
-    },
-    {
-      "name": "Runway Team Plan",
-      "price_raw": "69",
-      "amount": 69.0,
-      "currency": "USD",
-      "period": null,
-      "features": [],
-      "slot_prices": []
-    },
-    {
-      "name": "Runway Max Plan",
-      "price_raw": "95",
+      "name": "Runway Max, billed monthly",
+      "price_raw": "95.00",
       "amount": 95.0,
       "currency": "USD",
       "period": null,
@@ -59,8 +23,17 @@
       "slot_prices": []
     },
     {
-      "name": "Runway Pro Plan",
-      "price_raw": "35",
+      "name": "Runway Max, billed yearly",
+      "price_raw": "912.00",
+      "amount": 912.0,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": []
+    },
+    {
+      "name": "Runway Pro, billed monthly",
+      "price_raw": "35.00",
       "amount": 35.0,
       "currency": "USD",
       "period": null,
@@ -68,8 +41,17 @@
       "slot_prices": []
     },
     {
-      "name": "Runway Standard Plan",
-      "price_raw": "15",
+      "name": "Runway Pro, billed yearly",
+      "price_raw": "336.00",
+      "amount": 336.0,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": []
+    },
+    {
+      "name": "Runway Standard, billed monthly",
+      "price_raw": "15.00",
       "amount": 15.0,
       "currency": "USD",
       "period": null,
@@ -77,7 +59,16 @@
       "slot_prices": []
     },
     {
-      "name": "Runway Free Plan",
+      "name": "Runway Standard, billed yearly",
+      "price_raw": "144.00",
+      "amount": 144.0,
+      "currency": "USD",
+      "period": null,
+      "features": [],
+      "slot_prices": []
+    },
+    {
+      "name": "Runway Free",
       "price_raw": "0",
       "amount": 0.0,
       "currency": "USD",

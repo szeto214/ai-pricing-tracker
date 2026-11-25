@@ -6,9 +6,9 @@
   "url": "https://elevenlabs.io/pricing",
   "final_url": "https://elevenlabs.io/pricing",
   "parser_version": 4,
-  "content_hash": "a477c292e48492b6f8e5971792c08e2eb881c854f88666c72bfb3dbfd28c89a1",
-  "raw_hash": "440873e261b2d68fbd749ec807231f3afe9a5a7258c8014fe13ae785852dbee2",
-  "text_bytes": 3471,
+  "content_hash": "e4ef3458082bebd9c0114833dde513db3bfd5f3a5df625da12a88c9834e95acf",
+  "raw_hash": "371cca8da5eb345931a32884165455d55fe5fc3ff6e92fa1954053101ce84fbc",
+  "text_bytes": 4272,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -53,6 +53,17 @@
       "features": [],
       "slot_prices": [
         11.0
+      ]
+    },
+    {
+      "name": "Pro",
+      "price_raw": "$99",
+      "amount": 99.0,
+      "currency": "USD",
+      "period": "month",
+      "features": [],
+      "slot_prices": [
+        99.0
       ]
     },
     {

@@ -6,9 +6,9 @@
   "url": "https://fireworks.ai/pricing",
   "final_url": "https://fireworks.ai/pricing",
   "parser_version": 4,
-  "content_hash": "b7f26a11a56fb71debf3a10fbe168c1ec88ec1ce24414aeed7073abc738bd13b",
-  "raw_hash": "efb2df3cf001451c5b55a7a73580f97dd3f41f7aa70d3bebf8bd81ef8c5b30a5",
-  "text_bytes": 7300,
+  "content_hash": "c90b39f52fa73850c78e420e2deb92039d5b46613b379816508a57f8417ab45b",
+  "raw_hash": "dff3bc433a2009be71dc4bfe1d948812550e249f39758b7443f5b7a33a492eb3",
+  "text_bytes": 7087,
   "currency_hints": [
     "USD"
   ],
@@ -345,8 +345,8 @@
       "unit": "per 1m tokens"
     },
     {
-      "key": "glm-5.3",
-      "model": "GLM-5.3",
+      "key": "glm 5.3, more models to follow",
+      "model": "GLM 5.3, more models to follow",
       "prices": {
         "cached input": {
           "raw": "$0.26",
@@ -365,140 +365,20 @@
       "unit": "per 1m tokens"
     },
     {
-      "key": "glm-5.3#2",
-      "model": "GLM-5.3",
+      "key": "glm 5.3, more models to follow#2",
+      "model": "GLM 5.3, more models to follow",
       "prices": {
         "cached input": {
-          "raw": "$0.182",
-          "amount": 0.182
+          "raw": "$0.13",
+          "amount": 0.13
         },
         "uncached input": {
-          "raw": "$0.98",
-          "amount": 0.98
+          "raw": "$0.70",
+          "amount": 0.7
         },
         "output": {
-          "raw": "$3.08",
-          "amount": 3.08
-        }
-      },
-      "currency": "USD",
-      "unit": "per 1m tokens"
-    },
-    {
-      "key": "kimi k3#2",
-      "model": "Kimi K3",
-      "prices": {
-        "cached input": {
-          "raw": "$0.30",
-          "amount": 0.3
-        },
-        "uncached input": {
-          "raw": "$3.00",
-          "amount": 3.0
-        },
-        "output": {
-          "raw": "$15.00",
-          "amount": 15.0
-        }
-      },
-      "currency": "USD",
-      "unit": "per 1m tokens"
-    },
-    {
-      "key": "kimi k3#3",
-      "model": "Kimi K3",
-      "prices": {
-        "cached input": {
-          "raw": "$0.21",
-          "amount": 0.21
-        },
-        "uncached input": {
-          "raw": "$2.10",
-          "amount": 2.1
-        },
-        "output": {
-          "raw": "$10.50",
-          "amount": 10.5
-        }
-      },
-      "currency": "USD",
-      "unit": "per 1m tokens"
-    },
-    {
-      "key": "deepseek v4.1 flash#2",
-      "model": "DeepSeek V4.1 Flash",
-      "prices": {
-        "cached input": {
-          "raw": "$0.006",
-          "amount": 0.006
-        },
-        "uncached input": {
-          "raw": "$0.30",
-          "amount": 0.3
-        },
-        "output": {
-          "raw": "$1.20",
-          "amount": 1.2
-        }
-      },
-      "currency": "USD",
-      "unit": "per 1m tokens"
-    },
-    {
-      "key": "deepseek v4.1 flash#3",
-      "model": "DeepSeek V4.1 Flash",
-      "prices": {
-        "cached input": {
-          "raw": "$0.0042",
-          "amount": 0.0042
-        },
-        "uncached input": {
-          "raw": "$0.21",
-          "amount": 0.21
-        },
-        "output": {
-          "raw": "$0.84",
-          "amount": 0.84
-        }
-      },
-      "currency": "USD",
-      "unit": "per 1m tokens"
-    },
-    {
-      "key": "deepseek v4.1 flash 1017#2",
-      "model": "DeepSeek V4.1 Flash 1017",
-      "prices": {
-        "cached input": {
-          "raw": "$0.006",
-          "amount": 0.006
-        },
-        "uncached input": {
-          "raw": "$0.30",
-          "amount": 0.3
-        },
-        "output": {
-          "raw": "$1.20",
-          "amount": 1.2
-        }
-      },
-      "currency": "USD",
-      "unit": "per 1m tokens"
-    },
-    {
-      "key": "deepseek v4.1 flash 1017#3",
-      "model": "DeepSeek V4.1 Flash 1017",
-      "prices": {
-        "cached input": {
-          "raw": "$0.0042",
-          "amount": 0.0042
-        },
-        "uncached input": {
-          "raw": "$0.21",
-          "amount": 0.21
-        },
-        "output": {
-          "raw": "$0.84",
-          "amount": 0.84
+          "raw": "$2.20",
+          "amount": 2.2
         }
       },
       "currency": "USD",
@@ -736,60 +616,18 @@
           "Output"
         ],
         [
-          "GLM-5.3",
+          "GLM 5.3, more models to follow",
           "Standard",
           "$0.26",
           "$1.40",
           "$4.40"
         ],
         [
-          "GLM-5.3",
+          "GLM 5.3, more models to follow",
           "Spot",
-          "$0.182",
-          "$0.98",
-          "$3.08"
-        ],
-        [
-          "Kimi K3",
-          "Standard",
-          "$0.30",
-          "$3.00",
-          "$15.00"
-        ],
-        [
-          "Kimi K3",
-          "Spot",
-          "$0.21",
-          "$2.10",
-          "$10.50"
-        ],
-        [
-          "DeepSeek V4.1 Flash",
-          "Standard",
-          "$0.006",
-          "$0.30",
-          "$1.20"
-        ],
-        [
-          "DeepSeek V4.1 Flash",
-          "Spot",
-          "$0.0042",
-          "$0.21",
-          "$0.84"
-        ],
-        [
-          "DeepSeek V4.1 Flash 1017",
-          "Standard",
-          "$0.006",
-          "$0.30",
-          "$1.20"
-        ],
-        [
-          "DeepSeek V4.1 Flash 1017",
-          "Spot",
-          "$0.0042",
-          "$0.21",
-          "$0.84"
+          "$0.13",
+          "$0.70",
+          "$2.20"
         ]
       ]
     },

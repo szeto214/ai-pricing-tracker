@@ -80,6 +80,44 @@ jobs:
           pip install playwright==1.62.0
           python -m playwright install --with-deps chromium
 
+      # Penjaga sekali-per-hari membaca data/runs/<hari-ini>.json dari pohon
+      # kerja. Tapi `actions/checkout` pada event `schedule` mengambil commit
+      # SAAT RUN DIANTREKAN, bukan saat run mulai.
+      #
+      # 17/11/2026: slot 09:43 tertunda ~5 jam oleh GitHub dan baru berjalan
+      # berdekatan dengan slot 14:17. Run pertama selesai 07:34 UTC dan
+      # menyimpan arsipnya; run kedua (yang sudah diantrekan sebelumnya)
+      # mulai sesudahnya, tapi checkout-nya masih commit LAMA — tanpa catatan
+      # run hari itu. Penjaganya melihat "belum ada yang diambil hari ini" dan
+      # mengambil ULANG ke-132 halaman. Setiap vendor menerima DUA permintaan
+      # hari itu, padahal halaman publik kita berjanji "one request per page
+      # per day, never more".
+      #
+      # Diukur ke seluruh riwayat git: dari 12 hari yang punya lebih dari satu
+      # snapshot, hanya 17/11 yang benar-benar mengambil ganda — sebelas hari
+      # lainnya run kedua hanya mengulang target yang gagal, persis yang
+      # dirancang. Jadi ini lubang balapan yang jarang, tapi menyentuh janji
+      # publik.
+      #
+      # Skrip cadangan scripts/run_anywhere.sh SUDAH melakukan ini sejak awal
+      # ("menarik arsip terbaru SEBELUM mengambil") — hanya jalur utamanya
+      # yang belum. Dengan `concurrency: collect` di atas, run tidak pernah
+      # berjalan bersamaan, jadi menyamakan pohon kerja dengan main tepat
+      # sebelum mengambil menutup celahnya.
+      #
+      # Kalau penarikan gagal (jaringan GitHub sesaat), run TETAP berlanjut
+      # dengan peringatan keras: kehilangan satu hari arsip lebih mahal
+      # daripada satu kali pengambilan ganda, dan perilakunya tidak lebih
+      # buruk daripada sebelum langkah ini ada.
+      - name: Tarik arsip terbaru sebelum mengambil
+        run: |
+          cabang="${GITHUB_REF_NAME:-main}"
+          if git fetch --quiet origin "$cabang" && git merge --ff-only "origin/$cabang"; then
+            echo "Pohon kerja = origin/$cabang ($(git rev-parse --short HEAD))."
+          else
+            echo "::warning::Gagal menarik arsip terbaru — penjaga sekali-per-hari bisa membaca catatan lama. Run tetap dilanjutkan supaya hari ini tidak hilang."
+          fi
+
       - name: Jalankan pengumpul
         env:
           APT_CONTACT_URL: https://github.com/${{ github.repository }}

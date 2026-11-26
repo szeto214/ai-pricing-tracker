@@ -2412,6 +2412,37 @@ def test_nama_paket_ganda_16_10() -> None:
           f"-> {amb}")
 
 
+def test_workflow_tarik_sebelum_ambil_26_11() -> None:
+    """Workflow utama harus menarik arsip terbaru SEBELUM mengambil (26/11/2026).
+
+    17/11/2026 ke-132 halaman vendor diambil DUA kali: dua run terjadwal
+    diantrekan berdekatan, run kedua memakai checkout lama (tanpa catatan
+    run hari itu), dan penjaga sekali-per-hari tidak melihat apa-apa.
+    Halaman publik berjanji "one request per page per day, never more".
+
+    Skrip cadangan sudah memegang aturan ini (lihat test_skrip_cadangan);
+    jalur utamanya belum. Pemeriksaan ini mengunci urutan langkahnya, dan
+    memastikan langkah tarik itu tidak bisa menggagalkan run seharian.
+    """
+    print("\n33. workflow menarik arsip terbaru sebelum mengambil")
+    wf = (ROOT / ".github" / "workflows" / "collect.yml").read_text(encoding="utf-8")
+    i_tarik = wf.find("git merge --ff-only")
+    i_ambil = wf.find("python -m collector.run")
+    i_simpan = wf.find("push_snapshot.py")
+    check("menarik arsip terbaru SEBELUM mengambil (penjaga sekali-sehari)",
+          0 < i_tarik < i_ambil, f"-> tarik={i_tarik} ambil={i_ambil}")
+    check("arsip tetap disimpan SESUDAH mengambil",
+          0 < i_ambil < i_simpan, f"-> ambil={i_ambil} simpan={i_simpan}")
+    blok = wf[wf.rfind("- name:", 0, i_tarik):i_ambil]
+    check("gagal menarik TIDAK menggagalkan run (hari tidak boleh hilang)",
+          "::warning::" in blok and "exit 1" not in blok,
+          "-> langkah tarik bisa menjatuhkan seluruh run")
+    check("run tetap tidak pernah berjalan bersamaan",
+          "concurrency:" in wf and "cancel-in-progress: false" in wf)
+    check("workflow tidak pernah memaksa push", "push --force" not in wf
+          and "push -f" not in wf)
+
+
 def test_audit_cakupan_15_11() -> None:
     """Alat audit cakupan — dibuat 15/11/2026.
 
@@ -2939,6 +2970,7 @@ def main() -> int:
     test_tabel_grid_26_10()
     test_label_kolom_29_10()
     test_audit_cakupan_15_11()
+    test_workflow_tarik_sebelum_ambil_26_11()
     test_skrip_cadangan()
 
     print("\n" + "=" * 60)

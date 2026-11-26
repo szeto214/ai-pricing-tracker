@@ -78,10 +78,6 @@ Surveys
 up to
 42
 responses
-On top of the free allowance
-10 minutes of Studio video creation or dubbing
-3 survey responses
-500 credits to spend on anything
 Everything in Basic +
 Download your content
 Remove Synthesia logo
@@ -159,10 +155,6 @@ Surveys
 up to
 205
 responses
-On top of the free allowance
-10 minutes of Studio video creation or dubbing
-3 survey responses
-500 credits to spend on anything
 Everything in Starter +
 5 Personal Avatars
 Branded video pages
@@ -217,12 +209,12 @@ The maximum number of seats your workspace includes.
 1 editor, 5 guests
 1 editor, 5 guests
 Usage limits
-The free allowance includes 10 minutes of video a month. Paid plans add credits on top, and the number shown is the most extra video those credits can make. Dubbing and surveys use the same credits.
-10 minutes of video / month
-Up to ~12 minutes of video / month, on top of the free allowance
-Up to ~150 minutes of video / year, on top of the free allowance
-Up to ~60 minutes of video / month, on top of the free allowance
-Up to ~720 minutes of video / year, on top of the free allowance
+The free allowance includes 10 minutes of Studio video a month. Paid plans add credits on top, and the number shown is the most extra Studio video those credits can make. Dubbing and surveys use the same credits.
+10 minutes of Studio video / month
+Up to ~12 minutes of Studio video / month
+Up to ~150 minutes of Studio video / year
+Up to ~60 minutes of Studio video / month
+Up to ~720 minutes of Studio video / year
 Commenting
 Invite guest users to get feedback on your videos via comments.
 Roleplay Sessions
@@ -286,8 +278,8 @@ Video generation
 Up to 1 video
 Up to ~2 videos / month
 Up to ~24 videos / year
-Up to ~7 videos / month
-Up to ~84 videos / year
+Up to ~8 videos / month
+Up to ~96 videos / year
 Video length
 Up to 3 mins
 Up to 60 mins
@@ -318,10 +310,10 @@ AI Dubbing
 Usage Limits
 10 minutes of dubbing / month
 10 minutes of dubbing / month
-Up to 16 minutes of dubbing / month, on top of the free allowance
-Up to 197 minutes of dubbing / year, on top of the free allowance
-Up to 78 minutes of dubbing / month, on top of the free allowance
-Up to 947 minutes of dubbing / year, on top of the free allowance
+Up to 16 minutes of dubbing / month
+Up to 197 minutes of dubbing / year
+Up to 78 minutes of dubbing / month
+Up to 947 minutes of dubbing / year
 Languages
 Output languages and locales available for translation, including regional variants like Spanish (Mexico) and Portuguese (Brazil).
 70+ languages
@@ -348,8 +340,8 @@ Track who edited the transcript, when changes were made, and what changed.
 Media & Integrations
 Synthesia API
 Automate video creation with Synthesia API.
-Up to 360 minutes of video / year, deducted from the plan's usage limits.
-Up to 360 minutes of video / year, deducted from the plan's usage limits
+Up to 360 minutes of Studio video / year, deducted from the plan's usage limits.
+Up to 360 minutes of Studio video / year, deducted from the plan's usage limits
 AI Video Assistant
 Automatically create video scripts with ChatGPT-like prompts.
 Interactive CTA and Branching
@@ -485,12 +477,8 @@ Surveys
 up to
 205
 responses
-On top of the free allowance
-10 minutes of Studio video creation or dubbing
-3 survey responses
-500 credits to spend on anything
 Everything in Pro +
-Up to 10 team members
+Up to 5 team members
 Unlimited guests
 Shared credit pool
 1-Click Translations into 140+ languages
@@ -511,7 +499,7 @@ Let's talk.
 Custom credit volumes
 Book demo
 Everything in Team +
-Unlimited video minutes
+Unlimited Studio video minutes
 Fair usage policy applies
 Custom number of members
 Multiple workspaces
@@ -549,12 +537,12 @@ Book demo
 Workspaces
 Seats
 The maximum number of seats your workspace includes.
-Up to 10 editors, unlimited guests
+Up to 5 editors, unlimited guests
 Custom # of editors & guests
 Usage limits
-The free allowance includes 10 minutes of video a month. Paid plans add credits on top, and the number shown is the most extra video those credits can make. Dubbing and surveys use the same credits.
-Up to ~18,000 minutes of video / year, on top of the free allowance
-Unlimited minutes of video
+The free allowance includes 10 minutes of Studio video a month. Paid plans add credits on top, and the number shown is the most extra Studio video those credits can make. Dubbing and surveys use the same credits.
+Up to ~18,000 minutes of Studio video / year
+Unlimited minutes of Studio video
 Commenting
 Invite guest users to get feedback on your videos via comments.
 Roleplay Sessions
@@ -571,7 +559,7 @@ Shared Credit Pool
 Credits are the shared currency across all AI usage-based features - one common pool for everything your team creates.
 Admins
 Admins manage your workspace, its members and Brand Kits.
-Up to 10 admins
+Up to 5 admins
 Custom # of admins
 AI Avatars & Languages
 AI Avatars
@@ -607,8 +595,8 @@ Free Syren-only credits for each user, valid for 1 month. After that, Syren uses
 1,500 credits, limited time only
 2,000 credits per user, limited time only
 Video generation
-Up to ~175 videos / month
-Up to ~2,100 videos / year
+Up to ~200 videos / month
+Up to ~2,400 videos / year
 Custom
 Video length
 Up to 60 mins
@@ -634,7 +622,7 @@ Insights report
 Response download
 AI Dubbing
 Usage Limits
-Up to 23,675 minutes of dubbing / year, on top of the free allowance
+Up to 23,675 minutes of dubbing / year
 Custom
 Languages
 Output languages and locales available for translation, including regional variants like Spanish (Mexico) and Portuguese (Brazil).
@@ -660,8 +648,8 @@ Coming soon
 Media & Integrations
 Synthesia API
 Automate video creation with Synthesia API.
-Up to 360 minutes of video / year, deducted from the plan's usage limits
-360 minutes of video / year included. (Additional usage available as a paid add-on)
+Up to 360 minutes of Studio video / year, deducted from the plan's usage limits
+360 minutes of Studio video / year included. (Additional usage available as a paid add-on)
 AI Video Assistant
 Automatically create video scripts with ChatGPT-like prompts.
 Interactive CTA and Branching
@@ -780,14 +768,14 @@ How much does Synthesia cost?
 Basic is free. Starter and Pro prices depend on whether you pay monthly or annually - the plan cards above show the price. Pro is available at several credit levels, so you can pick the credit volume that best suits you need. Enterprise pricing is custom.
 What happens if I go over my plan's monthly limit?
 Video creation and survey response collection pause until your plan renews. To keep going straight away, you can buy extra credits from Plan & billing, or move to a plan with more credits - on Pro you can simply choose a higher credit level.
-Do unused video minutes roll over into the next month?
+Do unused credits roll over into the next month?
 No. Your plan's monthly allowance and credits reset each billing period. On annual plans the year's credits are available upfront. Credits you buy separately are valid for 12 months.
 How and when are credits consumed?
 Credits are used when something is generated, never while you're editing or previewing. What each product uses:
 Video creation
 - based on the avatar footage generated, not the length of the finished video. A typical finished minute uses about 100 credits, more if the avatar is on screen throughout. We only count new footage: edit three seconds of an existing video and regenerate, and you're charged for three seconds.
 Dubbing
-- per minute of video dubbed: 80 credits with lip-sync, 40 without. Your 10 included minutes each month can be used for dubbing as well as video creation.
+- per minute of video dubbed: 80 credits with lip-sync, 40 without. Your 10 included minutes each month can be used for dubbing as well as Studio video creation.
 Surveys
 - 100 credits per response, after the 3 responses included every month. Building and publishing a survey is free.
 B-roll

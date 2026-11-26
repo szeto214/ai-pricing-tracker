@@ -6,9 +6,9 @@
   "url": "https://docs.voyageai.com/docs/pricing",
   "final_url": "https://docs.voyageai.com/docs/pricing",
   "parser_version": 4,
-  "content_hash": "60d68e7a4a0474fd506c8a49dd9e6f5d325a0d7c44a577ecea4456475732c2e6",
-  "raw_hash": "98a0db18f35fa4a776e7fe24236c2103885a648eaf73497114c81e4d7343e178",
-  "text_bytes": 4819,
+  "content_hash": "9544c91b51d2c3794887d1b4c921dea4f2dcaed8c4db95afea4da654b96f2efe",
+  "raw_hash": "ee55f4aa494000b8befd028278e64ee33bbd309b481cfb38c7d0c7ce49d64d8c",
+  "text_bytes": 4728,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -289,8 +289,8 @@
       "unit": "per thousand tokens"
     },
     {
-      "key": "voyage-finance-2 voyage-law-2 voyage-code-2",
-      "model": "voyage-finance-2 voyage-law-2 voyage-code-2",
+      "key": "voyage-finance-2 voyage-law-2",
+      "model": "voyage-finance-2 voyage-law-2",
       "prices": {
         "price per thousand tokens": {
           "raw": "$0.00012",
@@ -594,7 +594,7 @@
           "200 million"
         ],
         [
-          "voyage-finance-2 voyage-law-2 voyage-code-2",
+          "voyage-finance-2 voyage-law-2",
           "$0.00012",
           "$0.12",
           "50 million"

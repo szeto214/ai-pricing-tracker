@@ -6,48 +6,71 @@
   "url": "https://www.intercom.com/pricing",
   "final_url": "https://www.intercom.com/pricing",
   "parser_version": 4,
-  "content_hash": "c52b392349e10af8f48b79c46bfad99c18d64d4415c42c43be4f8ab0481b17ce",
-  "raw_hash": "42080619243f99fa6dee52fc516d9e34175966dd9a68d4d00487079a2fbf101c",
-  "text_bytes": 5875,
+  "content_hash": "d01bc376917dc7a061fdc82dbda421f886cf0d69c3873c32cd1d281d5ba11355",
+  "raw_hash": "d0acdc0caa42639a2c2cef8d18a4a9ec13b04748dbc549f13415675bf82f87a4",
+  "text_bytes": 7592,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
     {
       "name": "Essential",
-      "price_raw": "$0.99",
-      "amount": 0.99,
+      "price_raw": "$29",
+      "amount": 29.0,
       "currency": "USD",
       "period": "seat",
       "features": [],
       "slot_prices": [
-        0.99
+        29.0,
+        19.0
       ]
     },
     {
       "name": "Advanced",
-      "price_raw": "$0.99",
-      "amount": 0.99,
+      "price_raw": "$85",
+      "amount": 85.0,
       "currency": "USD",
       "period": "seat",
       "features": [],
       "slot_prices": [
-        0.99
+        85.0
       ]
     },
     {
       "name": "Expert",
+      "price_raw": "$132",
+      "amount": 132.0,
+      "currency": "USD",
+      "period": "seat",
+      "features": [],
+      "slot_prices": [
+        132.0
+      ]
+    },
+    {
+      "name": "Fin AI Agent",
       "price_raw": "$0.99",
       "amount": 0.99,
       "currency": "USD",
-      "period": "seat",
+      "period": null,
       "features": [],
       "slot_prices": [
         0.99
       ]
     },
     {
-      "name": "Fin AI Agent",
+      "name": "Your estimate",
+      "price_raw": "$90.09",
+      "amount": 90.09,
+      "currency": "USD",
+      "period": "month",
+      "features": [],
+      "slot_prices": [
+        90.09
+      ]
+    },
+    {
+      "name": "One outcome per conversation, max",
       "price_raw": "$0.99",
       "amount": 0.99,
       "currency": "USD",

@@ -18,16 +18,12 @@ voyage-4-lite
 ,
 voyage-context-4
 , and
-voyage-code-3
+voyage-code-4
 , or the first 50 million tokens for
-voyage-multilingual-2
-,
 voyage-finance-2
-,
-voyage-law-2
 , and
-voyage-code-2
-, are free for every account. Subsequent usage is priced per token, as shown in the following table.
+voyage-law-2
+are free for every account. Subsequent usage is priced per token, as shown in the following table.
 Model
 Price per thousand tokens
 Price per million tokens
@@ -54,7 +50,6 @@ $0.12
 200 million
 voyage-finance-2
 voyage-law-2
-voyage-code-2
 $0.00012
 $0.12
 50 million
@@ -97,13 +92,9 @@ $1.20
 For example, the cost to vectorize a single input with 1000 text tokens ($0.00012) and two 4 million-pixel images (2 x $0.0012) would be $0.00252.
 Rerankers
 Pricing for the Voyage reranker endpoint is based on the total number of processed tokens, calculated as “(the number of query tokens × the number of documents) + sum of the number of tokens in all documents.” The first 200 million tokens for
-rerank-2.5
+rerank-3
 ,
-rerank-2.5-lite
-,
-rerank-2
-, and
-rerank-2-lite
+rerank-3-lite
 are free for each account. Subsequent usage is priced per token, as shown in the following table.
 Model
 Price per thousand tokens

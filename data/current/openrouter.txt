@@ -1,23 +1,60 @@
 Models
+ByteDance Seed: Seed-TTS 3.0
+Seed-TTS 3.0
+134K tokens
+Seed-TTS 3.0 is ByteDance Seed's streaming text-to-speech model. It generates natural speech from plain text with support for inline audio tags, delivery instructions, and speed control across MP3, PCM, and WAV output formats. Billed per input character (with Han characters counted as 2 characters).
+by
+bytedance-seed
+Nov 25, 2026
+$20/M characters
+Upstage: Solar Pro 4 Contributor
+Solar Pro 4 Contributor
+70% off
+3.03B tokens
+Solar Pro 4 Contributor is the same Solar Pro 4 model from Upstage, offered at a lower rate in exchange for allowing Upstage to use interaction data to improve its models. It has a 524K context window and is built for long-horizon tasks and agentic workflows, with strong capabilities in office productivity, document-intensive work, and coding. Prompts and completions sent to this model may be used by Upstage to improve its models. For the standard version that doesn't allow training on your data, see
+Solar Pro 4
+.
+by
+upstage
+Nov 24, 2026
+524K context
+$0.09/M input
+tokens
+$0.36/M output
+tokens
+Upstage: Solar Mini 4.5 (Preview)
+Solar Mini 4.5 (Preview)
+90% off
+40.9B tokens
+Solar Mini 4.5 is Upstage's compact language model, built on a proprietary mixture-of-experts architecture with 35B total and 3B active parameters and a 524K context window. It is a step up from Solar Mini 4 in agentic performance, aimed at agentic use cases where response speed and cost matter. When using BYOK with ZDR enforcement, the Console API key must belong to a ZDR-enabled Upstage organization. Contact Upstage to enable ZDR on your org.
+by
+upstage
+Nov 24, 2026
+524K context
+$0.01/M input
+tokens
+$0.04/M output
+tokens
 Xiaomi: MiMo-V2.6-Flash-MOPD
 MiMo-V2.6-Flash-MOPD
-126M tokens
+3.27B tokens
 MiMo-V2.6-Flash-MOPD is an updated checkpoint of Xiaomi's MiMo-V2.6-Flash, a Mixture-of-Experts model with 309B total and 15B active parameters, a 1M-token context window, and native multimodal input. It adds a multi-teacher on-policy distillation pass on top of the RL checkpoint that reduces repeated tool calls in agentic workflows, where the earlier checkpoint could reissue the same or near-identical calls without making progress.
 by
 xiaomi
 Nov 23, 2026
 1.05M context
-$0.15/M input
+$0.50/M input
 tokens
-$0.42/M output
+$1/M output
 tokens
 Thinking Machines: Inkling 2 Mini
 Inkling 2 Mini
-350B tokens
-Academia (#33)
-Programming (#45)
+451B tokens
+Academia (#30)
+Programming (#44)
 Science (#26)
-Trivia (#22)
+Technology (#50)
+Trivia (#21)
 Inkling 2 Mini is an open-weight multimodal looped transformer from Thinking Machines Lab, with 3.4B active parameters out of 26.4B total (MoE). Its middle layers run three times with shared weights, so it does more computation per token than its size suggests while staying small enough to run on a laptop or a single workstation GPU. It is the smallest model in the second Inkling generation, below
 Inkling 2 Small
 , and is suited for agentic and tool-use systems, coding assistants, chatbots and retrieval-augmented generation, with English and general multilingual support.
@@ -25,14 +62,14 @@ by
 thinkingmachines
 Nov 21, 2026
 1.05M context
-$0.075/M input
+$0.02625/M input
 tokens
-$0.30/M output
+$0.105/M output
 tokens
 RadixArk: DaisyRose 27B
 DaisyRose 27B
 25% off
-6.1B tokens
+6.82B tokens
 DaisyRose 27B is an open-weight multimodal reasoning model from RadixArk, trained from
 Qwen3.8 27B
 using reinforcement learning only on long-horizon agent tasks, with no supervised fine-tuning or distillation. It is aimed at agentic coding, multi-step reasoning, and instruction following. It is a 27.8B-parameter dense model that accepts text and image input, returns text, and has a 262K-token context window. Thinking is on by default and can be disabled. It keeps the base model's architecture, tokenizer, and chat template, and is released under the Apache 2.0 license.
@@ -46,7 +83,7 @@ $1.875/M output
 tokens
 Perplexity: Embed V2 Context 0.6B
 Embed V2 Context 0.6B
-2.61B tokens
+3.49B tokens
 pplx-embed-v2-context-0.6b is a compact multimodal contextual embedding model from Perplexity for retrieval over text, images, and visual documents. It is the cost-efficient sibling of
 pplx-embed-v2-context-9b
 and is suited for high-volume RAG and search indexing where chunks of the same document should be embedded with their surrounding context in view: pass a document as an ordered list of chunks and each chunk's embedding reflects the whole document, or embed strings individually for standard dense retrieval. Queries and documents use separate
@@ -62,7 +99,7 @@ Nov 20, 2026
 $0.02/M tokens
 Perplexity: Embed V2 Context 9B
 Embed V2 Context 9B
-2.14B tokens
+2.2B tokens
 pplx-embed-v2-context-9b is a multimodal contextual embedding model from Perplexity for retrieval over text, images, and visual documents. It is the larger of the two v2 context models and is suited for RAG and search pipelines where chunks of the same document should be embedded with their surrounding context in view: pass a document as an ordered list of chunks and each chunk's embedding reflects the whole document, or embed strings individually for standard dense retrieval. Queries and documents use separate
 input_type
 modes, so send
@@ -80,7 +117,7 @@ Nov 20, 2026
 $0.12/M tokens
 Baseten: Groundhog 1
 Groundhog 1
-990M tokens
+1.24B tokens
 Groundhog 1 is a decision model from Base Labs, Baseten's research team, built on Gemma 4 26B A4B, a mixture-of-experts model with 4B active parameters. Given a state (text, JSON, or images) and typed questions (yes/no, multiple choice, or ordinal score), it returns a calibrated probability for every option in a single forward pass, with no text generation. It is TypeSafe System One compatible and suits high-volume classification, routing, and guardrail checks. Its larger sibling is
 Bison 1
 .
@@ -93,7 +130,7 @@ $0/M output
 tokens
 Baseten: Bison 1
 Bison 1
-2.78B tokens
+3.59B tokens
 Bison 1 is a 31B decision model from Base Labs, Baseten's research team, built on Gemma 4 31B. Given a state (text, JSON, or images) and typed questions (yes/no, multiple choice, or ordinal score), it returns a calibrated probability for every option in a single forward pass, with no text generation. It is TypeSafe System One compatible and suits classification, routing, and scoring where accuracy matters most. Its smaller sibling is
 Groundhog 1
 .
@@ -106,7 +143,7 @@ $0/M output
 tokens
 Qwen: Qwen3 TTS 1.7B
 Qwen3 TTS 1.7B
-222K tokens
+724K tokens
 Qwen3 TTS is a multilingual text-to-speech model from Alibaba's Qwen team. It converts text to speech across 10 languages — English, Chinese, Japanese, Korean, German, French, Russian, Spanish, Italian, and Portuguese — with 9 preset voices. It is suited for multilingual content production, localization pipelines, and global-facing voice applications.
 by
 qwen
@@ -114,7 +151,7 @@ Nov 20, 2026
 $20/M characters
 Google: Gemini 2.5 Pro TTS
 Gemini 2.5 Pro TTS
-2.95M tokens
+4.25M tokens
 Gemini 2.5 Pro TTS is a text-to-speech model from Google. It turns text into single-speaker or multi-speaker audio, with style, pace, and tone steered by natural-language instructions in the prompt, and supports the 30 prebuilt Gemini voices. It is the higher-fidelity tier of the 2.5 TTS family, suited to narration and expressive dialogue.
 by
 google
@@ -125,7 +162,7 @@ $20/M output
 tokens
 Google: Gemini 2.5 Flash TTS
 Gemini 2.5 Flash TTS
-5.67M tokens
+6.97M tokens
 Gemini 2.5 Flash TTS is a text-to-speech model from Google. It turns text into single-speaker or multi-speaker audio, with style, pace, and tone steered by natural-language instructions in the prompt, and supports the 30 prebuilt Gemini voices. It is the lower-cost, lower-latency tier of the 2.5 TTS family.
 by
 google
@@ -136,7 +173,7 @@ $10/M output
 tokens
 Mistral: Pixtral Large 2502
 Pixtral Large 2502
-68.6M tokens
+84.1M tokens
 Pixtral Large 2502 is the February 2025 version of Mistral AI's large multimodal model, following
 Pixtral Large 2411
 . It accepts text and image input, including documents, charts, and natural images, and returns text. It has a 128,000-token context window.
@@ -150,10 +187,12 @@ $6/M output
 tokens
 Google: Gemini 4 Neon
 Gemini 4 Neon
-931B tokens
-Programming (#18)
-Science (#27)
-Technology (#24)
+1.36T tokens
+Academia (#45)
+Health (#39)
+Programming (#15)
+Science (#28)
+Technology (#23)
 Gemini 4 Neon is a fast, mid-priced model in the Gemini 4 family from Google, built for coding and agentic work. It is suited for repository and terminal coding, web builds, multi-turn tool use and multimodal STEM problems, and is positioned as a step up from
 Gemini 4 Hydrogen
 that targets
@@ -169,7 +208,7 @@ $15/M output
 tokens
 Google: Gemini 4 Neon (batch)
 Gemini 4 Neon (batch)
-731M tokens
+793M tokens
 Gemini 4 Neon is a fast, mid-priced model in the Gemini 4 family from Google, built for coding and agentic work. It is suited for repository and terminal coding, web builds, multi-turn tool use and multimodal STEM problems, and is positioned as a step up from
 Gemini 4 Hydrogen
 that targets
@@ -185,7 +224,7 @@ $7.50/M output
 tokens
 HeyGen: Avatar 6 Turbo
 Avatar 6 Turbo
-21 hours
+23 hours
 HeyGen: Avatar 6 Turbo is the faster, lower-cost variant of HeyGen's Avatar 6 avatar video model. It turns a single photo, a short reference video, or both into a lip-synced talking video driven by a supplied audio track, reading the speech's tone and rhythm to drive head motion, facial expression, and gestures, and renders at 1080p or 2K; the audio sets the video length. Supply exactly one audio reference plus one reference image, one reference video, or a same-person photo alongside the video. The prompt becomes a motion prompt describing how the subject should move, and the
 motion_expressiveness
 passthrough parameter can tone the motion down.
@@ -193,59 +232,5 @@ by
 heygen
 Nov 17, 2026
 from $0.05/second
-HeyGen: Avatar 6
-Avatar 6
-9 hours
-HeyGen: Avatar 6 is HeyGen's avatar video model for turning a single photo, a short reference video, or both into an expressive, lip-synced talking video driven by a supplied audio track. It reads the tone, rhythm, and emotion of the speech to drive head motion, facial expression, and gestures, and renders at 1080p or 2K; the audio sets the video length. Supply exactly one audio reference plus one reference image, one reference video, or a same-person photo alongside the video. The prompt becomes a motion prompt describing how the subject should move, and the
-motion_expressiveness
-passthrough parameter can tone the motion down.
-by
-heygen
-Nov 17, 2026
-from $0.10/second
-OpenAI: GPT-6.2 Astra Pro (batch)
-GPT-6.2 Astra Pro (batch)
-757M tokens
-GPT-6.2 Astra Pro is the same underlying model as
-GPT-6.2 Astra
-, served with
-reasoning.mode
-set to
-pro
-for higher-quality responses on complex tasks.
-Cost note:
-pro mode spends far more reasoning tokens per request, so a typical request costs several times more than the same request on GPT-6.2 Astra and takes much longer to complete. It is intended for hard, high-stakes problems where the extra accuracy justifies the cost. For everyday coding, agentic, and chat workloads, use
-GPT-6.2 Astra
-instead. Learn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode
-by
-openai
-Nov 17, 2026
-1.05M context
-$4/M input
-tokens
-$20/M output
-tokens
-OpenAI: GPT-6.2 Astra Pro
-GPT-6.2 Astra Pro
-26.9B tokens
-GPT-6.2 Astra Pro is the same underlying model as
-GPT-6.2 Astra
-, served with
-reasoning.mode
-set to
-pro
-for higher-quality responses on complex tasks.
-Cost note:
-pro mode spends far more reasoning tokens per request, so a typical request costs several times more than the same request on GPT-6.2 Astra and takes much longer to complete. It is intended for hard, high-stakes problems where the extra accuracy justifies the cost. For everyday coding, agentic, and chat workloads, use
-GPT-6.2 Astra
-instead. Learn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode
-by
-openai
-Nov 17, 2026
-1.05M context
-$8/M input
-tokens
-$40/M output
-tokens
 Compare
 Discover Models

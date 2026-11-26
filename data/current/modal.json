@@ -6,9 +6,9 @@
   "url": "https://modal.com/pricing",
   "final_url": "https://modal.com/pricing",
   "parser_version": 4,
-  "content_hash": "d1212830ecee0706cfdbb9370fc909d2b70bc63392089b00f3498f4ab6a5a252",
-  "raw_hash": "e6643914121818d354069d52b1ac5558623a95328269c6131414ee6d8ee8de56",
-  "text_bytes": 7467,
+  "content_hash": "a0418d0490b16b90860e59a4a64cdf2f6071a24b40679301df357ca037566232",
+  "raw_hash": "ace620cb2f9a6f5726d25dd7099013afe24f99643e0f348b78f1751905b4d033",
+  "text_bytes": 7567,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -22,7 +22,7 @@
       "features": [
         "$30 / month free credits",
         "3 workspace seats included",
-        "100 containers + 10 GPU concurrency",
+        "250 containers + 10 GPU concurrency",
         "Scheduled and Web Functions (limited)",
         "Real-time metrics and logs",
         "Region selection",
@@ -41,7 +41,7 @@
       "features": [
         "$100 / month free credits",
         "Unlimited seats",
-        "5000 containers + 50 GPU concurrency",
+        "10,000 containers + 50 GPU concurrency",
         "Unlimited Scheduled Functions",
         "Custom domains",
         "Static IP proxy",
@@ -160,8 +160,8 @@
         ],
         [
           "Containers",
-          "100",
-          "5000",
+          "250",
+          "10,000",
           "Custom"
         ],
         [

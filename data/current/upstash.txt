@@ -294,7 +294,7 @@ Ops/sec limits are the same in the initial plans, while higher plans increase th
 Are read and write commands same price?
 Yes. But for Global databases, the write commands are replicated to all read regions in addition to the primary region. Replications are also counted as commands. For example, if you have one primary and one read region, 100K writes cost $0.4 ($0.2 x 2).
 How is the storage cost calculated?
-For each database, the first 1GB is free. Beyond that, storage is charged at $0.25 per GB of total storage.
+Storage is charged at $0.25 per GB of total storage. There is no free storage allowance on paid plans.
 Total storage is determined by adding up the storage at all replicas and regions. Even if you do not access your data, it still needs to stay persistent in the cloud provider's block storage for durability and high availability.
 To calculate storage cost, we take the daily average of your total data size across replicas and regions and apply the monthly rate at the end of the month.
 If you use your database as a cache, setting a timeout with
@@ -504,7 +504,7 @@ Pay as You Go — pricing details
 Commands:
 $0.20 per 100K commands
 Storage:
-$0.25 per GB (first 1 GB free)
+$0.25 per GB, counted on every replica
 Bandwidth:
 Free up to 200 GB/month, then $0.03/GB
 Max data size:

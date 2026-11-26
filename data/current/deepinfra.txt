@@ -24,7 +24,7 @@ Feedback
 Contact sales
 Log in
 Simple Pricing, Deep Infrastructure
-We have different pricing models depending on the model used. Some of our language models offer per token pricing. Most other models are billed for inference execution time. With this pricing model, you only pay for what you use. There are no long-term contracts or upfront costs, and you can easily scale up and down as your business needs change.
+Most language models are priced per token, and many have a lower rate for cached input tokens. Other models are mostly billed for inference execution time, and dedicated GPUs for your own models are billed by the minute. You only pay for what you use, with no long-term contracts or upfront costs for pay-as-you-go use. Enterprise teams can ask for monthly invoicing.
 Contact sales
 DeepSeek
 DeepSeek's models are a suite of advanced AI systems that prioritize efficiency, scalability, and real-world applicability.
@@ -230,12 +230,12 @@ $4.00
 $2.50
 View more
 GLM-5.3-Flash
-33% off
+40% off
 1024k
 $0.15 / $0.03 cached
-$0.1005 / $0.0201 cached
+$0.09 / $0.018 cached
 $0.50
-$0.335
+$0.30
 View more
 GLM-5.2
 25% off
@@ -269,12 +269,12 @@ $4.00
 $2.50
 View more
 GLM-5.3-Flash
-33% off
+40% off
 1024k
 $0.15 / $0.03 cached
-$0.1005 / $0.0201 cached
+$0.09 / $0.018 cached
 $0.50
-$0.335
+$0.30
 View more
 GLM-5.2
 25% off
@@ -731,10 +731,7 @@ $0.05
 $0.10
 View more
 Nemotron
-[NVIDIA NemotronTM](https://www.nvidia.com/en-us/ai-data-science/foundation-models/nemotron/) is a
-family of open models, datasets, and training recipes engineered for high performance, efficiency, and customization.
-Nemotron models support synthetic data workflows and supervised fine-tuning—and are optimized for real-time
-inference, reasoning agents, and production AI systems.
+NVIDIA Nemotron is a family of open models, datasets, and training recipes built for high performance, efficiency, and customization. Nemotron models support synthetic data workflows and supervised fine-tuning, and are optimized for real-time inference, reasoning agents, and production AI systems.
 Model
 Context
 $ per 1M input tokens
@@ -1112,27 +1109,27 @@ FLUX-1.1-pro
 $0.04
 View more
 Service Tiers
-Choose how each inference request is scheduled. The standard tier is the default; the priority tier schedules your requests ahead of standard traffic for faster time-to-first-token during peak demand, at a higher per-token price.
+Choose how each inference request is scheduled. Standard is the default for production traffic. Priority schedules your requests ahead of standard traffic for faster time-to-first-token, for real-time apps such as voice agents, at a higher per-token price. Flex is for batch and async jobs that can wait.
 Tier
 Scheduling
 Price
 Standard
-Default scheduling, best-effort during peak demand
+Default for production traffic. For the fastest responses at peak demand, use Priority
 1x base price
 Priority
 Scheduled ahead of standard traffic for faster time-to-first-token
 1.5x base price
 Flex
-Lower cost for non-production and asynchronous work, in exchange for slower responses and occasional unavailability
+Lower cost for batch and async jobs that can wait. Requests can queue or fail when a model is busy
 0.8x base price
 Enable per request by setting
 service_tier: "priority"
-. Availability varies by model — check the model page.
+. Availability varies by model — check the model page. For latency-sensitive traffic, use Priority or a dedicated endpoint.
 Read more
 .
 Custom LLMs
-You can deploy your own model on our hardware and pay for uptime. You get dedicated SXM-connected GPUs (for multi-GPU setups), automatic scaling to handle load fluctuations and a very competitive price.
-Read More
+You can deploy your own fine-tuned or custom model on our hardware and pay for uptime. You get dedicated SXM-connected GPUs (for multi-GPU setups) and automatic scaling to handle load fluctuations.
+Read the custom LLM docs
 Dedicated A100, H100, H200, B200 and B300 GPUs for your custom LLM needs
 Billed in minute granularity
 Invoiced weekly
@@ -1218,12 +1215,33 @@ $0.005
 text2vec-base-chinese
 512
 $0.005
+Nemotron-3.5-Embed-8B-BF16
+32k
+$0.035 text, $0.07 image
+Nemotron-3.5-Embed-1B-BF16
+32k
+$0.015 text, $0.035 image
+Nemotron-3-Embed-8B
+32k
+$0.035
+Nemotron-3-Embed-1B-BF16
+32k
+$0.015
+Nemotron-3-Embed-1B-NVFP4
+32k
+$0.01
+llama-nemotron-embed-vl-1b-v2
+10k
+$0.01
 Hardware
-All models run on H100 or A100 GPUs, optimized for inference performance and low latency.
+Our serverless models run on NVIDIA A100, H100, H200, B200 and B300 GPUs, optimized for inference performance and low latency.
 Auto Scaling
-Our system will automatically scale the model to more hardware based on your needs. By default we limit each account to 200 concurrent requests per public model; dedicated deployments are limited only by their GPUs. If you want more drop us a line
+Our system will automatically scale the model to more hardware based on your needs. Each account starts at 200 concurrent requests per public model, and you can request a higher limit in your dashboard. Dedicated deployments are limited only by their GPUs.
 Billing
-You have to add a card or pre-pay or you won't be able to use our services. Pre-paid accounts draw down their balance as they go, and invoiced accounts are billed once at the beginning of the following month. You can also set a spending limit to avoid surprises.
+To get started, add a card or pre-pay. Pre-paid accounts draw down their balance as they go, and invoiced accounts are billed once at the beginning of the following month. You can also set a spending limit to avoid surprises.
+Enterprise
+Monthly invoicing, zero data retention on DeepInfra-hosted models, SOC 2 and ISO 27001 certification, HIPAA compliance with a BAA on annual contracts, and a 99.982% uptime SLA on DeepCluster (dedicated GPU clusters).
+Contact sales
 Have questions or need a custom solution?
 Contact sales
 Company
@@ -1255,21 +1273,21 @@ Qwen
 /
 Qwen4-Max
 Featured Models
-nvidia
+XiaomiMiMo
 /
-NVIDIA-Nemotron-3.5-Super-VL
-tencent
+MiMo-V2.6-Pro
+zai-org
 /
-Hy4-flash
-black-forest-labs
-/
-FLUX-2-klein-9b
+GLM-5.3-Flash
 deepseek-ai
 /
 DeepSeek-V4-Flash
-moonshotai
+zai-org
 /
-Kimi-K2.6
+GLM-5.3
+zai-org
+/
+GLM-5.2
 © 2026 DeepInfra. All rights reserved.
 Privacy Policy
 Terms of Service

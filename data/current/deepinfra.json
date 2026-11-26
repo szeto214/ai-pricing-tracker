@@ -6,9 +6,9 @@
   "url": "https://deepinfra.com/pricing",
   "final_url": "https://deepinfra.com/pricing",
   "parser_version": 4,
-  "content_hash": "ac2f4a11b5e1bb0369fd33855f43d70e51949a3623a8c2cda42c0db9b725ed81",
-  "raw_hash": "cc5865dde2cbf1c053dc6e185c0f32064304785b37627c9711ed4192f5fe5ec4",
-  "text_bytes": 18015,
+  "content_hash": "5178df07d4536caae4c1f110b060491006cb1474fa658aaa78173c7606a3e6ba",
+  "raw_hash": "0afdf2b10fec59b7cc610fff38ae4ef9db2a987f1ecb9349a29815066d3564b4",
+  "text_bytes": 18592,
   "currency_hints": [],
   "extractor": "jsonld",
   "confidence": "medium",
@@ -310,8 +310,8 @@
       "unit": "per 1m input tokens"
     },
     {
-      "key": "glm-5.3-flash 33% off",
-      "model": "GLM-5.3-Flash 33% off",
+      "key": "glm-5.3-flash 40% off",
+      "model": "GLM-5.3-Flash 40% off",
       "prices": {
         "$ per 1m input tokens": {
           "raw": "$0.15",
@@ -1453,10 +1453,10 @@
           "View more"
         ],
         [
-          "GLM-5.3-Flash 33% off",
+          "GLM-5.3-Flash 40% off",
           "1024k",
-          "$0.15 / $0.03 cached $0.1005 / $0.0201 cached",
-          "$0.50 $0.335",
+          "$0.15 / $0.03 cached $0.09 / $0.018 cached",
+          "$0.50 $0.30",
           "View more"
         ],
         [
@@ -1500,10 +1500,10 @@
           "View more"
         ],
         [
-          "GLM-5.3-Flash 33% off",
+          "GLM-5.3-Flash 40% off",
           "1024k",
-          "$0.15 / $0.03 cached $0.1005 / $0.0201 cached",
-          "$0.50 $0.335",
+          "$0.15 / $0.03 cached $0.09 / $0.018 cached",
+          "$0.50 $0.30",
           "View more"
         ],
         [

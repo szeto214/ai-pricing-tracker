@@ -6,9 +6,9 @@
   "url": "https://clickhouse.com/pricing",
   "final_url": "https://clickhouse.com/pricing?service=clickhouse&pg.plan=scale&pg.provider=aws&pg.profile=memory&pg.architecture=arm&pg.standby=0&pg.region=us-east-1&pg.computeSize=r6gd.medium&plan=scale&provider=aws&region=us-east-1&useCase=real-time-analytics&hours=24&storage=1TB&computeMinSize=8&computeMaxSize=8&replicas=3&storageCompressed=false&fullBackup=1TB",
   "parser_version": 4,
-  "content_hash": "2f5b475157d8233c1860cc997130a32448dcc3c85519684faa5f63370260de5a",
-  "raw_hash": "0efa8cf16c0da163db8aa481e57bcffcdd0941736d2f44115729fec7bce79332",
-  "text_bytes": 8232,
+  "content_hash": "6a7adc7f97b812d5450bf414fc2ee828041678ab62e5ff0baea8dadeb40d7065",
+  "raw_hash": "e050de0fe6920cc5603efcb55c775abf641deb249820c4ccda0c4aa813b96f34",
+  "text_bytes": 8198,
   "currency_hints": [
     "USD"
   ],
@@ -25,12 +25,13 @@
         "Includes:",
         "Up to 1 TB storage",
         "8-12 GiB total memory",
-        "Backups every 24h, retained for 1 day",
-        "1 availability zone",
+        "1 replica",
+        "Daily backups, retained 1 day",
         "Export backups to your own cloud account",
-        "Expert support with 1 business day response time",
-        "Single sign-on authentication (SSO) using Google or Microsoft Social login",
-        "Multi-factor authentication (MFA)"
+        "Google or Microsoft social login",
+        "Multi-factor authentication (MFA)",
+        "SOC 2 Type II, ISO 27001, GDPR",
+        "Support: 1 business day, severity 3, business hours"
       ],
       "slot_prices": [
         25.3
@@ -45,16 +46,13 @@
       "features": [
         "Everything in Basic , plus:",
         "Unlimited storage",
-        "Configurable memory",
-        "Compute-compute separation",
-        "Backups every 24h, retained for 1 day",
-        "Configurable backups",
-        "2+ availability zones",
-        "Expert support with 1 hour response time 24x7 for Severity 1 issues",
-        "S3 role-based access",
-        "Private networking",
-        "Automatic vertical scaling",
-        "Manual horizontal scaling"
+        "1+ replicas",
+        "Compute-compute separation (warehouses)",
+        "Configurable backup schedule and retention",
+        "Vertical and horizontal autoscaling",
+        "Private connectivity (AWS PrivateLink, GCP Private Service Connect, Azure Private Link)",
+        "Release channels: Fast and Regular",
+        "Support: 1 hour, severity 1, 24x7"
       ],
       "slot_prices": [
         25.3
@@ -68,15 +66,14 @@
       "period": "month",
       "features": [
         "Everything in Scale , plus:",
-        "SAML Single sign-on authentication (SSO)",
-        "Private regions",
-        "Manual vertical scaling for custom profiles",
-        "Enterprise support with 30 min response time for Severity 1 issues",
-        "Named Lead Support Engineer",
-        "Transparent data encryption / CMEK",
-        "Scheduled upgrades",
-        "Consultative migrations guides",
-        "HIPAA and PCI compliance"
+        "SAML Single sign-on authentication (SSO), SCIM, JWT with custom IdP",
+        "Custom profiles",
+        "Release channels: Slow, scheduled upgrade windows",
+        "Customer-managed encryption keys (CMEK)",
+        "HIPAA and PCI DSS compliance",
+        "Named lead support engineer",
+        "Consultative migration guides",
+        "Support: 30 minutes, severity 1, 24x7"
       ],
       "slot_prices": [
         25.3

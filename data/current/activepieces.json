@@ -6,9 +6,9 @@
   "url": "https://www.activepieces.com/pricing",
   "final_url": "https://www.activepieces.com/pricing",
   "parser_version": 4,
-  "content_hash": "6702a921fec7cd671d2741ae7a372858600549f018d6f2bd2c1431826739e12c",
-  "raw_hash": "492aa9af258edda5c8750f535aeb24db2f4044817f81bc09ae574028ac3c45bd",
-  "text_bytes": 5845,
+  "content_hash": "ec244ef123c4acb05fb93e48c2d66ce6df29566bcfc19a183fb000ca3d3373cd",
+  "raw_hash": "0717581a5947e400254f73985fa0e24662beb0c2c3ca91e646702f0d16a94fbe",
+  "text_bytes": 6311,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -163,14 +163,14 @@
         ],
         [
           "Credit reset",
-          "Daily",
+          "Monthly",
           "Monthly",
           "Monthly",
           "Yearly"
         ],
         [
           "Going over",
-          "Waits for tomorrow",
+          "Waits for next month",
           "$0.007/credit",
           "$0.007/credit",
           "Volume rates"

@@ -6,9 +6,9 @@
   "url": "https://clerk.com/pricing",
   "final_url": "https://clerk.com/pricing",
   "parser_version": 4,
-  "content_hash": "04b669bd933075a4d926d6ccc4d95be41c722b1fa018e9f2e2ffa58ff969372c",
-  "raw_hash": "1b7643cd4ffebd85550d3965fe2c8d222881df12bbef7e3190a1b9a319df9186",
-  "text_bytes": 14228,
+  "content_hash": "b3eb4d5332bce22ebd81bc25f158856915b498b246eefbb6984674e0dbdfcefc",
+  "raw_hash": "11d01d7cda7ba032b514a4a61abe8fe21f28b1d5e48ac12c13d08141500f37d6",
+  "text_bytes": 14349,
   "currency_hints": [],
   "extractor": "jsonld",
   "confidence": "medium",
@@ -169,6 +169,12 @@
         ],
         [
           "Minimum app version Require users on older versions of your native apps to update before they continue.",
+          "Not included",
+          "Included",
+          "Included"
+        ],
+        [
+          "Native to Web SSO Open your web app from your native app with the user already signed in.",
           "Not included",
           "Included",
           "Included"

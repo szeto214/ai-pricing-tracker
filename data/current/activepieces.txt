@@ -1,6 +1,45 @@
 Skip to content
-Open app
+Log in
 Talk to sales
+Start for free
+Product
+Use Activepieces with
+Chat
+MCP server
+Building blocks
+Integrations
+AI Agents
+Tables
+Workflows
+Open source
+GitHub
+Self-host it
+For OSS developers
+Solutions
+Business teams
+Marketing
+Sales
+Customer Support
+Operations
+Finance
+HR
+Technical teams
+Engineering
+IT
+Internal Tools
+Enterprise
+Control
+AI Governance
+Security
+Self-hosting
+Embed and scale
+Embed
+Talk to sales
+Pricing
+Docs
+Talk to sales
+Start for free
+Log in
 Pricing
 A path for every team at your company to build with AI.
 Monthly
@@ -102,12 +141,12 @@ Credits included
 50,000 a month
 Sized with you
 Credit reset
-Daily
+Monthly
 Monthly
 Monthly
 Yearly
 Going over
-Waits for tomorrow
+Waits for next month
 $0.007/credit
 $0.007/credit
 Volume rates
@@ -284,9 +323,9 @@ Pricing questions.
 Is the free plan really free?
 Yes. No card, no time limit. It is meant for exploring the product and building lightweight automations. You get a fresh 1,000 credits every month, so if you use them all, you wait until the next month.
 What happens when I run out of credits?
-Depends on your plan. On Free, your flows stay switched on but any runs past your quota do not go through until credits refresh the next day. On Plus and Team they keep running and you pay for the extra at $0.007 per credit. Ultimate has a yearly pool, so one heavy month is fine.
-Why do AI steps cost more than one credit?
-A run is one credit however many steps it has, and AI is the exception that sits on top, because we are paying the model provider on your behalf. A step on a fast model is 2 credits, a smart model is 10, and a frontier model is 20. Agentic actions are 1 credit each. On Plus and up you can connect your own AI provider keys, which drops every AI step to 1 credit and moves the model cost to your provider bill instead of ours.
+Depends on your plan. On Free, your flows stay switched on but any runs past your quota do not go through until your credits refresh next month. On Plus and Team they keep running and you pay for the extra at $0.007 per credit. Ultimate has a yearly pool, so one heavy month is fine.
+How are AI steps charged?
+A run is one credit however many steps it has, and AI sits on top, because we pay the model provider on your behalf. An AI step costs what the model call actually cost, turned into credits, so a short call on a small model costs little and a long one on a large model costs more. Each agent tool call is 1 credit. On Plus and up you can connect your own AI provider keys, which makes every AI step 1 credit and moves the model cost to your provider bill instead of ours.
 Can I cancel, change plans, or add seats anytime?
 Yes. Upgrades and added seats take effect immediately and are prorated. Downgrades apply at the end of the billing period so you keep what you paid for.
 What payment methods do you accept?

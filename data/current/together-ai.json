@@ -6,8 +6,8 @@
   "url": "https://www.together.ai/pricing",
   "final_url": "https://www.together.ai/pricing",
   "parser_version": 4,
-  "content_hash": "fbec2926ba83dd9c2a47e0c595571ff5e52a3b0a29e43c1019e8ff832b3c8cff",
-  "raw_hash": "14807cd8e70543c2cc6c598287e630611d5b5c6166770f2fc7772b7db913c013",
+  "content_hash": "41a137b85a8237c40748f5e976ff1c9b5fe19e931ad88561bbb5123234493ad9",
+  "raw_hash": "bd9d5d16b6d9d03963b74336a10917469e176fe98820ce1cf8a02cc132def825",
   "text_bytes": 10251,
   "currency_hints": [],
   "extractor": "dom",
@@ -1003,8 +1003,8 @@
       "model": "NVIDIA HGX H100",
       "prices": {
         "preemptible": {
-          "raw": "$1.99",
-          "amount": 1.99
+          "raw": "$2.00",
+          "amount": 2.0
         },
         "on-demand": {
           "raw": "$3.99",
@@ -1023,8 +1023,8 @@
       "model": "NVIDIA HGX H200",
       "prices": {
         "preemptible": {
-          "raw": "$2.99",
-          "amount": 2.99
+          "raw": "$3.00",
+          "amount": 3.0
         },
         "on-demand": {
           "raw": "$5.99",
@@ -2627,7 +2627,7 @@
         ],
         [
           "NVIDIA HGX H100",
-          "$1.99 Checking…",
+          "$2.00 Checking…",
           "$3.99 Checking…",
           "$3.69",
           "$3.45",
@@ -2635,7 +2635,7 @@
         ],
         [
           "NVIDIA HGX H200",
-          "$2.99 Checking…",
+          "$3.00 Checking…",
           "$5.99 Checking…",
           "$4.99",
           "$4.15",

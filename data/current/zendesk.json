@@ -6,9 +6,9 @@
   "url": "https://www.zendesk.com/pricing/",
   "final_url": "https://www.zendesk.com/pricing/",
   "parser_version": 4,
-  "content_hash": "9634d236c6fec2969a86280e779f9f6ec4fc4e57daa3ada29c8920181bcb811f",
-  "raw_hash": "6d029456d8ecb81c26a13ea277c778701c0cedcfd89c25f1b19449b94a0d05bb",
-  "text_bytes": 57304,
+  "content_hash": "3d1fbb641e943df5c90b051f60d446c9ec412d2bb534cc7b0ba093b7b2421ff9",
+  "raw_hash": "188cad06ca8821543c4495a267ee8d627b6e4a9c11e176736f0887c92be382e7",
+  "text_bytes": 64944,
   "currency_hints": [
     "BRL",
     "EUR",
@@ -1899,7 +1899,52 @@
           ""
         ],
         [
-          "Data center location Specify where your account data is stored , wheth"
+          "Data center location Specify where your account data is stored , whether in the US, APAC, European Economic Area, or United Kingdom. Some restrictions apply.",
+          "—",
+          "—",
+          ""
+        ],
+        [
+          "HIPAA enabled The Zendesk Business Associate Agreement (BAA) is available for execution by Subscribers here . For more details, including a list of which Servic",
+          "—",
+          "—",
+          "HIPAA Enabled"
+        ],
+        [
+          "Department spaces Easily and securely manage multiple departments in one place. Limit access to tickets based on department membership.",
+          "—",
+          "—",
+          ""
+        ],
+        [
+          "Access log View a detailed data access record, including information on who accessed what data, when, and from where. This feature enhances your visibility and ",
+          "—",
+          "—",
+          "—"
+        ],
+        [
+          "Advanced encryption Encrypt personal information within Zendesk using customer-controlled encryption keys.",
+          "—",
+          "—",
+          "—"
+        ],
+        [
+          "Advanced data retention policies Set parameters and define what data should be stored or archived and for exactly how long.",
+          "—",
+          "—",
+          "—"
+        ],
+        [
+          "Advanced redaction Automatically remove customers’ personal information, such as email, phone, credit card information etc., in conversations with agents.",
+          "—",
+          "—",
+          "—"
+        ],
+        [
+          "Data masking Control which agents can see personal information. Ensure the right people can see the data that is necessary for their work without compromising p",
+          "—",
+          "—",
+          "—"
         ]
       ]
     }

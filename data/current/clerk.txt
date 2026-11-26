@@ -315,6 +315,11 @@ Require users on older versions of your native apps to update before they contin
 Not included
 Included
 Included
+Native to Web SSO
+Open your web app from your native app with the user already signed in.
+Not included
+Included
+Included
 Custom password requirements
 By default, Clerk strictly adheres to NIST 800-63B for password requirements. This feature allows setting custom requirements.
 Not included

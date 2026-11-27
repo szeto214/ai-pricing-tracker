@@ -172,7 +172,7 @@ Start now
 Included in all plans
 0.7% of billing volume
 Stripe 2.9% + Stripe transaction charge $0.30 + Clerk Billing 0.7%
-All features included for subscription billing (usage and per seat billing coming soon)
+All features included for subscription billing, including per-seat plans (usage-based billing coming soon)
 No payment integration code, UI work, or webhook management required.
 Unified user and subscription data.
 Billing-aware authorization for plan-based access control and feature gating.
@@ -576,7 +576,7 @@ Assign users to predefined roles (Admin, Member) and define custom permissions f
 Included
 Included
 Custom roles and role sets
-Create unlimited custom roles and organize them into RoleSets for advanced access control hierarchies.
+Create up to 10 custom roles per instance (contact support for more) and organize them into RoleSets for advanced access control hierarchies.
 Not included
 Included
 Auto join / request to join

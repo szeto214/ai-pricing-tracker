@@ -7,7 +7,7 @@
   "final_url": "https://www.digitalocean.com/pricing",
   "parser_version": 4,
   "content_hash": "f6eab4bc9598e3ec443db11b8945de21710e5407d1bde9057ec0169b6fa15642",
-  "raw_hash": "b944f296d3cb6d3669a4fb167c501945555497a268ae987aff68cef9006f8602",
+  "raw_hash": "4b57adeb46b5ae26d958d7d8099d9ffd13439cc2bbecbc3c6dd22308d6632b0f",
   "text_bytes": 13000,
   "currency_hints": [],
   "extractor": "dom",

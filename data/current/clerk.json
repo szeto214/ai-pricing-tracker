@@ -6,9 +6,9 @@
   "url": "https://clerk.com/pricing",
   "final_url": "https://clerk.com/pricing",
   "parser_version": 4,
-  "content_hash": "b3eb4d5332bce22ebd81bc25f158856915b498b246eefbb6984674e0dbdfcefc",
-  "raw_hash": "11d01d7cda7ba032b514a4a61abe8fe21f28b1d5e48ac12c13d08141500f37d6",
-  "text_bytes": 14349,
+  "content_hash": "87319fce771361b63a772e7f0fb1961f1eea873c50bfd5f41b6b4a52ced26ac3",
+  "raw_hash": "0be56b73e2df94358c09171ca4d7f431df5d78176b6cf24868b1c2129f513831",
+  "text_bytes": 14407,
   "currency_hints": [],
   "extractor": "jsonld",
   "confidence": "medium",
@@ -394,7 +394,7 @@
           "Included"
         ],
         [
-          "Custom roles and role sets Create unlimited custom roles and organize them into RoleSets for advanced access control hierarchies.",
+          "Custom roles and role sets Create up to 10 custom roles per instance (contact support for more) and organize them into RoleSets for advanced access control hier",
           "Not included",
           "Included"
         ],

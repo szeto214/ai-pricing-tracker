@@ -38,7 +38,7 @@ $30
 $30
 $60
 $240
-~14PR reviews
+~19 PR reviews
 2,000 credits
 See additional plan options
 Start Free Trial
@@ -153,6 +153,8 @@ Do you train AI models on my code?
 No. Qodo does not train models on your code. Your code is used only to generate reviews for your team.
 What kind of support do I get on each plan?
 All paid self-serve plans include standard support: documentation, in-product help, and ticket-based response from our team. Enterprise plans add priority response, a dedicated SLA, and an assigned Qodo team member for your account.
+How much does a review cost?
+About $1.55 on average, with no per-seat pricing. Reviews run on Auto by default: Qodo reads each change and matches the review depth to its risk. A small, low-risk change gets a Lite review. Most changes get a Standard review. Complex or high-risk changes get an Extended multi-agent review. Trivial changes are skipped. You pay only for the reviews that run and you can set a fixed depth per repository if you prefer.
 see qodo in action
 Looking for a tailored walk through?
 Book a demo

@@ -6,9 +6,9 @@
   "url": "https://www.together.ai/pricing",
   "final_url": "https://www.together.ai/pricing",
   "parser_version": 4,
-  "content_hash": "41a137b85a8237c40748f5e976ff1c9b5fe19e931ad88561bbb5123234493ad9",
-  "raw_hash": "bd9d5d16b6d9d03963b74336a10917469e176fe98820ce1cf8a02cc132def825",
-  "text_bytes": 10251,
+  "content_hash": "95951beca8a0f54926176fa6c4d5bfb065ce933dabf72ef8a428cdad40a4edaa",
+  "raw_hash": "a1ae73154e8e21f4e9f90dd042ec001bbf93682023eadc4ed41bc919f60e581a",
+  "text_bytes": 10186,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -143,17 +143,6 @@
       "slot_prices": [
         0.2,
         0.02
-      ]
-    },
-    {
-      "name": "Tev1 4B Experimental",
-      "price_raw": "$0.042",
-      "amount": 0.042,
-      "currency": "USD",
-      "period": null,
-      "features": [],
-      "slot_prices": [
-        0.042
       ]
     },
     {
@@ -2049,7 +2038,7 @@
         ],
         [
           "Qwen3.8 Flash",
-          "$0.15 (cached)",
+          "$0.15",
           "$0.47"
         ],
         [
@@ -2099,7 +2088,7 @@
         ],
         [
           "Tev1 4B Experimental",
-          "$0.042 (cached)",
+          "$0.042",
           "$0.00"
         ],
         [
@@ -2114,7 +2103,7 @@
         ],
         [
           "Qwen3.7-Plus",
-          "$0.32 (cached)",
+          "$0.32",
           "$1.28"
         ],
         [
@@ -2124,7 +2113,7 @@
         ],
         [
           "Ternary Bonsai 27B",
-          "Free (cached)",
+          "Free",
           "Free"
         ],
         [
@@ -2144,17 +2133,17 @@
         ],
         [
           "gpt-oss-120B",
-          "$0.15 (cached)",
+          "$0.15",
           "$0.60"
         ],
         [
           "Qwen3.5 9B",
-          "$0.17 (cached)",
+          "$0.17",
           "$0.25"
         ],
         [
           "Qwen3.6-Plus",
-          "$0.50 (cached)",
+          "$0.50",
           "$3.00"
         ]
       ]
@@ -2194,7 +2183,7 @@
         ],
         [
           "Qwen4 Max",
-          "$1.50 $0.0525 (cached)",
+          "$1.50 $0.075 (cached)",
           "$4.50"
         ],
         [

@@ -6,9 +6,9 @@
   "url": "https://www.framer.com/pricing/",
   "final_url": "https://www.framer.com/pricing",
   "parser_version": 4,
-  "content_hash": "ef24b66274eb832e528660ad0bedf02924512335acaefaf7fb48090063c98d61",
-  "raw_hash": "7fa59c8879d7895eb65a52b74cfe3fba43b9c3b8957291ddfd4f2ea4d82cde81",
-  "text_bytes": 10047,
+  "content_hash": "a2a0bcd5f3c1975af25dd283a1e7ce1d3e0918fd3232535986d71a39948a83e2",
+  "raw_hash": "c87c3a3451913bf4c9934849487850f38ffeaa6033257846237eed8ff84ce9b1",
+  "text_bytes": 9913,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -135,17 +135,6 @@
       "features": [],
       "slot_prices": [
         20.0
-      ]
-    },
-    {
-      "name": "Content editors",
-      "price_raw": "$10",
-      "amount": 10.0,
-      "currency": "USD",
-      "period": "user",
-      "features": [],
-      "slot_prices": [
-        10.0
       ]
     },
     {

@@ -7,7 +7,7 @@
   "final_url": "https://claude.com/pricing",
   "parser_version": 4,
   "content_hash": "2a33d7acb00bbc05243956b086022284579ee7b44bf40258959d89b300f668cf",
-  "raw_hash": "479f26253224f6e00dd0889081979060485e3040585eb63e26e5edf318a371ad",
+  "raw_hash": "bd5745a7213a879eeef3653d1631208cf64e60d5ec63747484ec320bc2808a85",
   "text_bytes": 7589,
   "currency_hints": [],
   "extractor": "dom",

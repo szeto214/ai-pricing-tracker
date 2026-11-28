@@ -6,9 +6,9 @@
   "url": "https://www.coderabbit.ai/pricing",
   "final_url": "https://www.coderabbit.ai/pricing",
   "parser_version": 4,
-  "content_hash": "a213befea78adf51678b01acb064ebf1cec41dead2a2c6bf98da19e9b6609cdf",
-  "raw_hash": "b0e03da9f81abd53f5683fc5dccb16ebb1a8b2b579298102f14f94b71385539a",
-  "text_bytes": 15917,
+  "content_hash": "260356082c1421e29015b999378b81ee50baa05840fc89064316992da926c0d8",
+  "raw_hash": "17e7e8c9ceba4a080a647da393f4dd2c83dc65662d71ec907e457e37189c1312",
+  "text_bytes": 15901,
   "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
@@ -183,7 +183,7 @@
           "12*"
         ],
         [
-          "CodeRabbit Agent Execute changes or refactoring in the cloud without leaving the PR",
+          "Coding Agent Execute changes or refactoring in the cloud without leaving the PR",
           "On-demand",
           "On-demand",
           "On-demand",
@@ -280,7 +280,7 @@
           "Included"
         ],
         [
-          "CodeRabbit Agent Run further analysis or execute changes in the cloud",
+          "Coding Agent Run further analysis or execute changes in the cloud",
           "Not included",
           "On-demand",
           "On-demand",

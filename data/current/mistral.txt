@@ -249,12 +249,16 @@ Mistral Studio
 .
 Which model should I use?
 For most tasks and coding:
-Mistral Medium
-. For document AI: OCR. For audio and speech intelligence:
+Mistral Large 4
+. For document AI:
+OCR 4.1
+. For audio and speech intelligence:
 Voxtral
 . For cost-sensitive projects:
 Mistral Small
-. See the Models overview for more information.
+. See the
+Models overview
+for more information.
 How is API pricing calculated?
 Most models are priced per million tokens, with both input (your prompts) and output (responses) counted separately. For example, Mistral Large costs $0.5 /M tokens in and $1.5 /M tokens out. Batch processing, for high-volume work, reduces the price by 50%, and cached input tokens reduce input cost by up to 90% for repeated prompts. A few APIs are priced differently: OCR is per 1,000 pages, speech models are per minute, and tool APIs are priced per call.
 How can I track my API usage and spending?

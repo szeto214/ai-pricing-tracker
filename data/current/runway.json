@@ -6,9 +6,9 @@
   "url": "https://runwayml.com/pricing",
   "final_url": "https://runway.com/pricing",
   "parser_version": 4,
-  "content_hash": "d68f70a790b2d862598d052bd7abb4588a1533992343f5bcc0ea038d6dcec406",
-  "raw_hash": "767a54558249a420eea794eb66c9c2a8956e03c476bf4d041cc7100db4a82d3f",
-  "text_bytes": 5598,
+  "content_hash": "57ddf614299904a13330d2cec26c3639d856fcded25f8a38a0c141d2122de1b8",
+  "raw_hash": "514b797c6a74bdc563afd4e9e1a30b69ffd29feb7f45aa08674aebc79213ab65",
+  "text_bytes": 5702,
   "currency_hints": [],
   "extractor": "jsonld",
   "confidence": "medium",
@@ -84,9 +84,9 @@
       "rows": [
         [
           "Monthly Yearly -20% off Generations per year",
-          "Standard $12 /month 7,500 credits/year Get Standard",
-          "Pro $28 /month 27,000 credits/year Get Pro",
-          "Max $76 /month 114,000 credits/year Get Max"
+          "Standard $12 $8.40 /month 7,500 credits/year Get Standard",
+          "Pro $28 $19.60 /month 27,000 credits/year Get Pro",
+          "Max $76 $53.20 /month 114,000 credits/year Get Max"
         ],
         [
           "AI video"

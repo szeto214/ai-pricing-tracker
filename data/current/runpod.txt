@@ -3,7 +3,7 @@ Skip to main content
 Questions? Call, text, or connect on WhatsApp.
 GPU Pricing
 GPU Cloud Pricing
-Updated November 12, 2026
+Updated November 26, 2026
 Runpod pricing depends on the GPU workload you run: Pods for dedicated GPU instances, Serverless for API inference, and Clusters for multi-node jobs.
 ‍
 Get Started
@@ -26,7 +26,7 @@ B300
 32
 vCPUs
 $
-8.99
+10.49
 /hr
 288 GB HBM3e
 251 GB RAM
@@ -54,7 +54,7 @@ B200
 28
 vCPUs
 $
-7.99
+8.99
 /hr
 180 GB VRAM
 283 GB RAM
@@ -332,14 +332,14 @@ GB
 B300
 Maximum throughput for big models.
 $
-11.99
+13.99
 /hr
 180
 GB
 B200
 Maximum throughput for big models.
 $
-10.79
+12.19
 /hr
 141
 GB

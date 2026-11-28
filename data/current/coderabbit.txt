@@ -166,7 +166,7 @@ How many repos CodeRabbit works across
 Review Velocity
 Included PR reviews per developer each hour (additional reviews available on consumption with the ability to cap budgets)
 5*
-CodeRabbit Agent
+Coding Agent
 Execute changes or refactoring in the cloud without leaving the PR
 On-demand
 CodeRabbit
@@ -213,7 +213,7 @@ Not included
 Architecture Impact
 Describes which system-level responsibilities and relationships have changed and how
 Not included
-CodeRabbit Agent
+Coding Agent
 Run further analysis or execute changes in the cloud
 Not included
 CodeRabbit
@@ -349,7 +349,7 @@ Included PR reviews per developer each hour (additional reviews available on con
 8*
 10*
 12*
-CodeRabbit Agent
+Coding Agent
 Execute changes or refactoring in the cloud without leaving the PR
 On-demand
 On-demand
@@ -435,7 +435,7 @@ Not included
 Not included
 Included
 Included
-CodeRabbit Agent
+Coding Agent
 Run further analysis or execute changes in the cloud
 Not included
 On-demand

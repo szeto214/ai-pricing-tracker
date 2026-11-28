@@ -6,20 +6,18 @@
   "url": "https://suno.com/pricing",
   "final_url": "https://suno.com/pricing",
   "parser_version": 4,
-  "content_hash": "85053fe89305b3e73c0a2ef11a9948c356ddaf2983938aa5fc2796e23b0aa414",
-  "raw_hash": "647ff709c4c93010a41f38d4e3848f27565b0cbd4141eb5fe10d08abea2e302b",
-  "text_bytes": 6612,
-  "currency_hints": [
-    "£"
-  ],
+  "content_hash": "ed45c947eedb3c9ed491db487b8c72b2bdb09c57462fabd197284368135d2438",
+  "raw_hash": "d554cf55a1df9fb2964c52cb84f381e94a0c810fe93332737473f6b8ff8c9d1d",
+  "text_bytes": 6601,
+  "currency_hints": [],
   "extractor": "dom",
   "confidence": "medium",
   "plans": [
     {
       "name": "Free",
-      "price_raw": "£0",
+      "price_raw": "$0",
       "amount": 0.0,
-      "currency": "GBP",
+      "currency": "USD",
       "period": "month",
       "features": [
         "Included Access to our free models",
@@ -38,9 +36,9 @@
     },
     {
       "name": "Pro",
-      "price_raw": "£8",
-      "amount": 8.0,
-      "currency": "GBP",
+      "price_raw": "$10",
+      "amount": 10.0,
+      "currency": "USD",
       "period": "month",
       "features": [
         "Included Access to our best models",
@@ -56,15 +54,15 @@
         "Included Create custom models"
       ],
       "slot_prices": [
-        8.0,
-        4.2
+        10.0,
+        5.6
       ]
     },
     {
       "name": "Premier",
-      "price_raw": "£22",
-      "amount": 22.0,
-      "currency": "GBP",
+      "price_raw": "$30",
+      "amount": 30.0,
+      "currency": "USD",
       "period": "month",
       "features": [
         "Included Access to Suno Studio - now with MIDI, effects, automation, and design-your-own-plugins",
@@ -83,15 +81,15 @@
         "Included Create custom models"
       ],
       "slot_prices": [
-        22.0,
-        12.6
+        30.0,
+        16.8
       ]
     },
     {
       "name": "Platinum",
-      "price_raw": "£90",
-      "amount": 90.0,
-      "currency": "GBP",
+      "price_raw": "$120",
+      "amount": 120.0,
+      "currency": "USD",
       "period": "month",
       "features": [
         "Included Access to Suno Studio - now with MIDI, effects, automation, and design-your-own-plugins",
@@ -111,8 +109,8 @@
         "Included Create custom models"
       ],
       "slot_prices": [
-        90.0,
-        52.5
+        120.0,
+        70.0
       ]
     }
   ],
